@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import {
   categories,
   projects,
@@ -16,12 +17,13 @@ type Filter = CategorySlug | "all";
 export default function WorkExplorer({
   locale,
   d,
-  initial,
 }: {
   locale: Locale;
   d: Dict;
-  initial: Filter;
 }) {
+  const raw = useSearchParams().get("d");
+  const initial: Filter =
+    raw && categories.some((c) => c.slug === raw) ? (raw as CategorySlug) : "all";
   const [filter, setFilter] = useState<Filter>(initial);
   const { setActive, exitRef, stageRef } = useScene();
 

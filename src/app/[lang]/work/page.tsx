@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { getDict, isLocale, locales } from "@/i18n/dict";
-import { categories, type CategorySlug } from "@/data/projects";
 import WorkExplorer from "@/components/WorkExplorer";
 
 export function generateStaticParams() {
@@ -24,18 +24,12 @@ export async function generateMetadata({
   };
 }
 
-export default async function WorkPage({
-  params,
-  searchParams,
-}: PageProps<"/[lang]/work">) {
+// ?d= filtresi client'ta okunur (useSearchParams) — sayfa böylece tamamen
+// statik kalır ve CDN'den anında gelir; dynamic SSR beklenmez.
+export default async function WorkPage({ params }: PageProps<"/[lang]/work">) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
   const d = getDict(lang);
-
-  const sp = await searchParams;
-  const raw = typeof sp?.d === "string" ? sp.d : undefined;
-  const initial =
-    raw && categories.some((c) => c.slug === raw) ? (raw as CategorySlug) : "all";
 
   return (
     <>
@@ -46,7 +40,9 @@ export default async function WorkPage({
         </h1>
         <p className="lede mt-5">{d.work.sub}</p>
       </header>
-      <WorkExplorer locale={lang} d={d} initial={initial} />
+      <Suspense>
+        <WorkExplorer locale={lang} d={d} />
+      </Suspense>
     </>
   );
 }
