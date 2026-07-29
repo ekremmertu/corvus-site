@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import { usePathname } from "next/navigation";
 import { useScene } from "./SceneProvider";
+import DisciplineVideo from "./DisciplineVideo";
 
 const SceneCanvas = dynamic(() => import("./SceneCanvas"), { ssr: false });
 
@@ -30,6 +31,7 @@ export default function SceneLayer() {
         <SceneCanvas />
       ) : (
         <div className="absolute inset-0">
+          <DisciplineVideo />
           <div
             className="absolute left-1/2 top-[58%] h-[86vmin] w-[86vmin] -translate-x-1/2 -translate-y-1/2 rounded-full opacity-70 blur-[80px] transition-colors duration-700"
             style={{ background: "var(--c-live)", filter: "blur(80px)", opacity: 0.16 }}
