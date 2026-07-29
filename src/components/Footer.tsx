@@ -2,6 +2,7 @@ import Link from "next/link";
 import { categories, type Locale } from "@/data/projects";
 import type { Dict } from "@/i18n/dict";
 import { SITE } from "@/lib/site";
+import TerminalTrigger from "@/components/fx/TerminalTrigger";
 
 export default function Footer({ locale, d }: { locale: Locale; d: Dict }) {
   const year = 2026;
@@ -71,8 +72,8 @@ export default function Footer({ locale, d }: { locale: Locale; d: Dict }) {
           <p className="mono text-[11px] uppercase tracking-[0.14em] text-faint">
             © {year} {SITE.name}. {d.footer.rights}
           </p>
-          <p className="mono text-[11px] uppercase tracking-[0.14em] text-faint">
-            {SITE.city} · {d.footer.built}
+          <p className="mono flex items-center gap-2 text-[11px] uppercase tracking-[0.14em] text-faint">
+            {SITE.city} · {d.footer.built} <TerminalTrigger />
           </p>
         </div>
       </div>

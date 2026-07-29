@@ -9,6 +9,9 @@ import SceneLayer from "@/components/scene/SceneLayer";
 import RevealBoot from "@/components/RevealBoot";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import CustomCursor from "@/components/fx/CustomCursor";
+import SweepFx from "@/components/fx/SweepFx";
+import TerminalEgg from "@/components/fx/TerminalEgg";
 
 const display = Archivo({
   subsets: ["latin", "latin-ext"],
@@ -107,6 +110,9 @@ export default async function LocaleLayout({
           <Nav locale={lang} d={d} />
           <main id="main">{children}</main>
           <Footer locale={lang} d={d} />
+          <CustomCursor />
+          <SweepFx />
+          <TerminalEgg />
         </SceneProvider>
       </body>
     </html>
