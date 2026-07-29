@@ -5,9 +5,10 @@
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
-| 1 | Domain + e-posta doğrula → `src/lib/site.ts` | CEO kararı + Claude solo | `corvustech.co` placeholder |
-| 2 | Vercel deploy (`npx vercel --prod`) | CEO (login gerekli) | İlk deploy'da domain bağla |
-| 3 | ~~v1 site kur~~ ✅ DONE | — | 2026-07-29 |
+| 1 | ~~Domain kararı~~ ✅ DONE — `corvustech.co` kesinleşti | — | 2026-07-29 |
+| 2 | Vercel deploy + `corvustech.co` DNS (GoDaddy → Vercel) | CEO (login gerekli) | `! npx vercel login` → `npx vercel --prod` → domain ekle |
+| 2b | ~~/terminal entegrasyonu~~ ✅ DONE | — | Terminal `ac4772f` + site `683e6de`, Firebase canlı |
+| 3 | ~~v1 site kur~~ ✅ DONE | — | 2026-07-29, commit `d4c85d6` |
 | 4 | v1.1: gerçek ekran görüntüleri (proje detay) | Claude solo | Quill/marketing, TripWalkers/fastlane, Amelie.co/Logo |
 | 5 | v1.1: Higgsfield disiplin videoları (kart hover) | CEO onayı (kredi harcar) | 5 kısa loop |
 | 6 | GitHub push | CEO kararı | Şu an lokal git |
@@ -18,6 +19,11 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-07-29 (2. seans) — corvustech.co kesin + /terminal yer değişimi
+**Karar:** kök = portfolyo, `corvustech.co/terminal` = Terminal (CEO). Keşif: corvustech.co şu an Firebase'e bağlı DEĞİL (Apache 403) → DNS sıfırdan Vercel'e kurulacak; Terminal `corvus-tech.web.app`'te canlı.
+- **Terminal (`ac4772f`):** vite `base:'/terminal/'`, firebase.json public=`deploy` + `deploy/terminal/` yapısı + kök 301; Firebase'e deploy edildi, canlı doğrulandı (200 + asset'ler). `localhost:8765` CSP hataları önceden var (bilinçli local-only mode) — dokunulmadı.
+- **Site (`683e6de`):** next.config rewrites `/terminal` → Firebase; proxy /terminal muafiyeti; **kök neden bug:** `proxy.ts` kökteyken hiç çalışmıyordu (`/` 404) → `src/proxy.ts`'e taşındı → `/` 307 `/tr` ✓, `/terminal` 200 title `CORVUS TECH TERMINAL` ✓. Build 67 sayfa ✅.
 
 ### 2026-07-29 — v1 sıfırdan kuruldu (F1 tamam)
 **Ne yapıldı:** Corvus Tech portfolyo sitesi, Ciao Energy referans videosu (13sn, kare kare ffmpeg analizi) örnek alınarak tam 3D-sahneli kuruldu.
