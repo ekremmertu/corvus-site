@@ -1,0 +1,149 @@
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+import type { Locale } from "@/data/projects";
+import type { Dict } from "@/i18n/dict";
+import { SITE } from "@/lib/site";
+
+function Wordmark({ locale }: { locale: Locale }) {
+  return (
+    <Link
+      href={`/${locale}`}
+      className="group flex items-center gap-2.5"
+      aria-label={SITE.name}
+    >
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
+        <path
+          d="M3 15.5C3 9.7 7.7 5 13.5 5H21l-4.2 4.6h-3.1a5.9 5.9 0 0 0-5.9 5.9V19H3v-3.5Z"
+          fill="var(--c-live)"
+        />
+        <path d="M12.4 19v-3.4h4.9L12.4 19Z" fill="var(--c-text)" opacity="0.75" />
+      </svg>
+      <span className="display text-[15px] uppercase tracking-[0.12em]">
+        Corvus<span style={{ color: "var(--c-live)" }}>.</span>
+      </span>
+    </Link>
+  );
+}
+
+export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
+  const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 24);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  useEffect(() => setOpen(false), [pathname]);
+
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    document.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
+  const other: Locale = locale === "en" ? "tr" : "en";
+  const otherPath = pathname.replace(/^\/(en|tr)/, `/${other}`) || `/${other}`;
+
+  const links = [
+    { href: `/${locale}/work`, label: d.nav.work },
+    { href: `/${locale}#process`, label: d.nav.process },
+    { href: `/${locale}#faq`, label: "FAQ" },
+    { href: `/${locale}#contact`, label: d.nav.contact },
+  ];
+
+  return (
+    <>
+      <header
+        className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
+          scrolled ? "border-b border-[color:var(--c-border)] bg-[color:var(--c-bg)]/80 backdrop-blur-xl" : ""
+        }`}
+        style={{ height: "var(--nav-h)" }}
+      >
+        <nav
+          className="mx-auto flex h-full w-full max-w-[1240px] items-center justify-between gap-6 px-5 sm:px-8"
+          aria-label={d.nav.menu}
+        >
+          <Wordmark locale={locale} />
+
+          <div className="hidden items-center gap-8 md:flex">
+            {links.map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="text-sm text-dim transition-colors hover:text-ink"
+              >
+                {l.label}
+              </Link>
+            ))}
+          </div>
+
+          <div className="flex items-center gap-3">
+            <Link
+              href={otherPath}
+              hrefLang={other}
+              className="mono rounded-[var(--radius-pill)] border border-[color:var(--c-border)] px-3 py-1.5 text-[11px] uppercase tracking-[0.14em] text-dim transition-colors hover:border-[color:var(--c-live)] hover:text-[color:var(--c-live)]"
+            >
+              {other}
+            </Link>
+            <button
+              type="button"
+              onClick={() => setOpen((v) => !v)}
+              aria-expanded={open}
+              aria-controls="mobile-menu"
+              className="glass grid h-10 w-10 place-items-center rounded-full md:hidden"
+              aria-label={open ? d.nav.close : d.nav.menu}
+            >
+              <span className="relative block h-3 w-4">
+                <span
+                  className="absolute left-0 block h-[1.5px] w-4 bg-current transition-transform duration-300"
+                  style={{ top: open ? 5 : 0, transform: open ? "rotate(45deg)" : "none" }}
+                />
+                <span
+                  className="absolute left-0 block h-[1.5px] w-4 bg-current transition-transform duration-300"
+                  style={{ top: open ? 5 : 10, transform: open ? "rotate(-45deg)" : "none" }}
+                />
+              </span>
+            </button>
+          </div>
+        </nav>
+      </header>
+
+      {/* Mobile drawer */}
+      <div
+        id="mobile-menu"
+        hidden={!open}
+        className="fixed inset-0 z-40 bg-[color:var(--c-bg)]/97 backdrop-blur-xl md:hidden"
+      >
+        <div className="flex h-full flex-col justify-center gap-2 px-8">
+          {links.map((l) => (
+            <Link
+              key={l.href}
+              href={l.href}
+              className="display border-b border-[color:var(--c-border)] py-5 text-3xl"
+            >
+              {l.label}
+            </Link>
+          ))}
+          <a
+            href={`mailto:${SITE.email}`}
+            className="mono mt-8 text-sm text-dim"
+          >
+            {SITE.email}
+          </a>
+        </div>
+      </div>
+    </>
+  );
+}
