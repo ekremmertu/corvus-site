@@ -9,6 +9,7 @@ import {
   type Locale,
 } from "@/data/projects";
 import ProjectSceneSync from "@/components/ProjectSceneSync";
+import VT from "@/components/fx/VT";
 
 export function generateStaticParams() {
   return locales.flatMap((lang) =>
@@ -67,9 +68,11 @@ export default async function ProjectPage({
         <p className="eyebrow mt-8" style={{ color: category.accent }}>
           {category.name[lang]}
         </p>
-        <h1 className="display mt-4" style={{ fontSize: "var(--type-display)" }}>
-          {project.name}
-        </h1>
+        <VT name={`proj-${project.slug}`}>
+          <h1 className="display mt-4" style={{ fontSize: "var(--type-display)" }}>
+            {project.name}
+          </h1>
+        </VT>
         <p className="lede mt-6 max-w-[52ch] text-[17px]">{project.summary[lang]}</p>
 
         <dl className="mt-12 grid gap-8 border-t border-[color:var(--c-border)] pt-8 sm:grid-cols-3 lg:grid-cols-4">

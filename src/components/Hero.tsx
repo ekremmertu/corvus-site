@@ -5,6 +5,7 @@ import Link from "next/link";
 import { categories, projectsByCategory, type Locale } from "@/data/projects";
 import type { Dict } from "@/i18n/dict";
 import { useScene } from "@/components/scene/SceneProvider";
+import Scramble from "@/components/fx/Scramble";
 
 export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
   const { active, setActive, next, prev } = useScene();
@@ -50,9 +51,9 @@ export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
             className="display mt-4 max-w-[15ch]"
             style={{ fontSize: "var(--type-display)" }}
           >
-            {d.hero.title1}{" "}
+            <Scramble text={d.hero.title1} />{" "}
             <span className="display-italic" style={{ color: "var(--c-live)" }}>
-              {d.hero.title2}
+              <Scramble text={d.hero.title2} delay={260} />
             </span>
           </h1>
           <p className="lede mt-5 max-w-[46ch] text-[15px] sm:text-base">
