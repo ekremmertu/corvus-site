@@ -5,9 +5,9 @@
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
-| 1 | ~~Domain kararı~~ ✅ DONE — `corvustech.co` kesinleşti | — | 2026-07-29 |
+| 1 | ~~Domain kararı~~ ✅ DONE — `corvus-tech.co` kesinleşti | — | 2026-07-29 |
 | 2 | ~~Vercel deploy~~ ✅ DONE — corvus-site-omega.vercel.app canlı, domainler eklendi | — | 2026-07-29 |
-| 2c | **DNS: Atak Domain panelinde NS değişimi** → `ns1/ns2.vercel-dns.com` | **CEO** | Registrar Atak Domain (GoDaddy değil!); mevcut `ns1/ns2.corvust.com`. Mail kullanıyorsan MX'i önce not al |
+| 2c | **DNS: GoDaddy panelinde A kaydı** @ `199.36.158.100`→`76.76.21.21`, www CNAME→`cname.vercel-dns.com` | **CEO** | NS değişimi gerekmez; MX etkilenmez. Domain TİRELİ: corvus-tech.co |
 | 2b | ~~/terminal entegrasyonu~~ ✅ DONE | — | Terminal `ac4772f` + site `683e6de`, Firebase canlı |
 | 3 | ~~v1 site kur~~ ✅ DONE | — | 2026-07-29, commit `d4c85d6` |
 | 4 | v1.1: gerçek ekran görüntüleri (proje detay) | Claude solo | Quill/marketing, TripWalkers/fastlane, Amelie.co/Logo |
@@ -21,8 +21,11 @@
 
 ## PASS LOG
 
-### 2026-07-29 (2. seans) — corvustech.co kesin + /terminal yer değişimi
-**Karar:** kök = portfolyo, `corvustech.co/terminal` = Terminal (CEO). Keşif: corvustech.co şu an Firebase'e bağlı DEĞİL (Apache 403) → DNS sıfırdan Vercel'e kurulacak; Terminal `corvus-tech.web.app`'te canlı.
+### 2026-07-30 (3. seans) — domain düzeltmesi: corvus-tech.co (TİRELİ)
+**Hata + düzeltme:** Önceki seansta tiresiz `corvustech.co` (sahibi başkası, Atak Domain, Apache 403) yanlışlıkla hedeflendi. CEO düzeltti: gerçek domain **corvus-tech.co** (GoDaddy, A→Firebase 199.36.158.100, şu an /terminal'e 301). Vercel'den yanlış domainler kaldırıldı, `corvus-tech.co`+`www` eklendi, `site.ts` URL/e-posta güncellendi (`96271fc`), prod redeploy: `Aliased: https://corvus-tech.co`. Kalan: GoDaddy'de A kaydı → 76.76.21.21.
+
+### 2026-07-29 (2. seans) — /terminal yer değişimi
+**Karar:** kök = portfolyo, `/terminal` = Terminal (CEO). Terminal `corvus-tech.web.app`'te canlı.
 - **Terminal (`ac4772f`):** vite `base:'/terminal/'`, firebase.json public=`deploy` + `deploy/terminal/` yapısı + kök 301; Firebase'e deploy edildi, canlı doğrulandı (200 + asset'ler). `localhost:8765` CSP hataları önceden var (bilinçli local-only mode) — dokunulmadı.
 - **Site (`683e6de`):** next.config rewrites `/terminal` → Firebase; proxy /terminal muafiyeti; **kök neden bug:** `proxy.ts` kökteyken hiç çalışmıyordu (`/` 404) → `src/proxy.ts`'e taşındı → `/` 307 `/tr` ✓, `/terminal` 200 title `CORVUS TECH TERMINAL` ✓. Build 67 sayfa ✅.
 
