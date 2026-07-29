@@ -3,32 +3,60 @@
 import { useEffect } from "react";
 
 /**
- * Adds `.is-visible` to every `.reveal` element as it enters the viewport.
- * One observer for the whole page; elements are unobserved once revealed.
+ * `.reveal` öğelerine görünür olunca `.is-visible` ekler.
+ * MutationObserver ile sonradan eklenen öğeleri de (route değişimi, filtre)
+ * otomatik yakalar — aksi hâlde client-side navigasyonda kartlar opacity:0'da
+ * takılı kalıyordu ("projeler geç geliyor" bug'ı).
+ * Viewport'un ÜSTÜNDE kalan veya zaten görünür bölgedeki öğeler ilk karede
+ * açılır; animasyon yalnızca aşağıdan scroll'la girenlere kalır.
  */
 export function useReveal() {
   useEffect(() => {
-    const nodes = Array.from(document.querySelectorAll<HTMLElement>(".reveal"));
-    if (!nodes.length) return;
-
     if (!("IntersectionObserver" in window)) {
-      nodes.forEach((n) => n.classList.add("is-visible"));
+      document
+        .querySelectorAll<HTMLElement>(".reveal")
+        .forEach((n) => n.classList.add("is-visible"));
       return;
     }
 
-    const observer = new IntersectionObserver(
+    const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("is-visible");
-            observer.unobserve(entry.target);
+            io.unobserve(entry.target);
           }
         });
       },
-      { rootMargin: "0px 0px -12% 0px", threshold: 0.12 }
+      { rootMargin: "0px 0px -10% 0px", threshold: 0.05 }
     );
 
-    nodes.forEach((n) => observer.observe(n));
-    return () => observer.disconnect();
-  });
+    const attach = (root: ParentNode) => {
+      root.querySelectorAll<HTMLElement>(".reveal:not(.is-visible)").forEach((n) => {
+        const r = n.getBoundingClientRect();
+        // Sayfa açıldığında zaten görünür/üstte kalanları bekletme
+        if (r.top < window.innerHeight * 0.92) n.classList.add("is-visible");
+        else io.observe(n);
+      });
+    };
+
+    attach(document);
+
+    const mo = new MutationObserver((mutations) => {
+      for (const m of mutations) {
+        m.addedNodes.forEach((node) => {
+          if (node instanceof HTMLElement) {
+            if (node.classList?.contains("reveal")) attach(node.parentNode ?? document);
+            else if (node.querySelector?.(".reveal")) attach(node);
+          }
+        });
+      }
+    });
+    mo.observe(document.body, { childList: true, subtree: true });
+
+    return () => {
+      io.disconnect();
+      mo.disconnect();
+    };
+  }, []);
 }
