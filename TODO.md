@@ -13,7 +13,8 @@
 | 3b | ~~Perf turu 1: site ağır (CEO şikâyeti)~~ ✅ DONE | — | 2026-07-30, blur/grain/dpr/canvas-unmount; aşağıda PASS LOG |
 | 3c | Perf turu 2 (gerekirse): CEO hâlâ ağır derse — damp hızlandır, obje polygon azalt, `frameloop` scroll-durdurma | Claude solo | CEO'nun cihaz+tarayıcı bilgisiyle |
 | 4 | v1.1: gerçek ekran görüntüleri (proje detay) | Claude solo | Quill/marketing, TripWalkers/fastlane, Amelie.co/Logo |
-| 5 | v1.1: Higgsfield disiplin videoları (kart hover) | CEO onayı (kredi harcar) | 5 kısa loop |
+| 5 | ~~Higgsfield disiplin videoları~~ ✅ DONE | — | 2026-07-30, 30 kredi, 5× kling3_0_turbo, `f007d92` |
+| 5b | ~~Afilli paket (4 katman)~~ ✅ DONE | — | cursor+magnetic, tilt+glare, count-up, scramble, sweep, ViewTransition, terminal egg — `7cf289d` |
 | 6 | GitHub push | CEO kararı | Şu an lokal git |
 
 **Yapma kuralları:**
@@ -22,6 +23,14 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-07-30 — "Afilli" paket (CEO: hepsi, beğenmezse revert)
+**4 katman eklendi, canlıda (`7cf289d` + `f007d92`):**
+1. **Mikro-etkileşim:** `fx/CustomCursor` (disiplin renkli nokta+halka, magnetik butonlar `[data-magnetic]` desteği, pointer:fine+hover:hover, reduced-motion kapalı) · `ProjectCard` 3D tilt+glare (client'a çevrildi) · `fx/CountUp` Stats sayaçları
+2. **Terminal easter egg:** `fx/TerminalEgg` — "corvus" yaz veya footer `>_` → mini shell (help/ls/ls projects/open <slug>/whoami/contact/sudo→"nice try."/clear/exit); Playwright'ta komutlar doğrulandı
+3. **Sinematik:** `fx/Scramble` hero text-decode · `fx/SweepFx` disiplin değişiminde renk süpürmesi · `experimental.viewTransition` + `fx/VT` sarmalayıcı (kart başlığı ↔ detay h1 morph, `proj-<slug>` isimleri; React export'u yoksa Fragment fallback)
+4. **Higgsfield videolar:** 5 disiplin loop'u (kling3_0_turbo, 4sn 720p 16:9, **30 kredi**, bakiye 1044→~1014). `public/videos/<slug>.mp4` (2-6MB). `scene/DisciplineVideo` → SceneLayer fallback dalında (mobil + work/proje sayfaları) opacity 0.32 ambient bg; ana sayfa desktop'ta 3D kalır, video yüklenmez
+**Revert notu:** her katman ayrı commit'te; tek katman geri almak için ilgili fx dosyası + layout mount satırı kaldırılır.
 
 ### 2026-07-30 — Perf turu 1 (CEO: "site çok ağır hareket ediyor")
 **Kök nedenler + fix'ler:**
