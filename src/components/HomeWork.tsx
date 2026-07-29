@@ -15,7 +15,7 @@ export default function HomeWork({ locale, d }: { locale: Locale; d: Dict }) {
     <section
       id="work"
       aria-labelledby="work-title"
-      className="relative bg-[color:var(--c-bg)]/86 backdrop-blur-[2px]"
+      className="relative bg-[color:var(--c-bg)]/86"
     >
       <div className="mx-auto w-full max-w-[1240px] px-5 py-24 sm:px-8 sm:py-32">
         <div className="flex flex-wrap items-end justify-between gap-6">

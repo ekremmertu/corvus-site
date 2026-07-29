@@ -9,7 +9,7 @@ export default function Stats({
   return (
     <section
       aria-label="Studio in numbers"
-      className="relative bg-[color:var(--c-bg)]/70 backdrop-blur-[2px]"
+      className="relative bg-[color:var(--c-bg)]/70"
     >
       <div className="mx-auto grid w-full max-w-[1240px] grid-cols-2 gap-8 px-5 py-14 sm:px-8 lg:grid-cols-4">
         {items.map((s) => (

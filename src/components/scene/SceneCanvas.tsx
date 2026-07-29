@@ -154,7 +154,7 @@ function Dust() {
   const points = useRef<THREE.Points>(null);
   const geometry = useMemo(() => {
     const g = new THREE.BufferGeometry();
-    const n = 420;
+    const n = 260;
     const arr = new Float32Array(n * 3);
     for (let i = 0; i < n; i++) {
       arr[i * 3] = (Math.random() - 0.5) * 26;
@@ -187,8 +187,8 @@ export default function SceneCanvas() {
     <Canvas
       className="!fixed inset-0"
       style={{ pointerEvents: "none" }}
-      dpr={[1, 1.75]}
-      gl={{ antialias: true, powerPreference: "high-performance" }}
+      dpr={[1, 1.5]}
+      gl={{ antialias: false, powerPreference: "high-performance" }}
       camera={{ position: [0, 0, 9.4], fov: 38 }}
       onCreated={({ gl }) => {
         gl.toneMapping = THREE.ACESFilmicToneMapping;
