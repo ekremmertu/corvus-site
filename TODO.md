@@ -24,6 +24,12 @@
 
 ## PASS LOG
 
+### 2026-07-30 — Perf turu 2: /work geç açılıyor (CEO şikâyeti) — `c5f4933`
+**İki kök neden:**
+1. `/[lang]/work` **dynamic SSR'dı** (server'da `searchParams` okunuyordu) → her açılış Vercel sunucusuna gidiyordu. Fix: `?d=` filtresi client'a taşındı (`useSearchParams` + Suspense) → sayfa `● SSG`, CDN'den anında + Link prefetch çalışıyor.
+2. **Reveal bug'ı:** `useReveal` observer'ı sadece ilk mount'ta kuruluyordu; client-side navigasyonla gelen kartlar `.reveal` opacity:0'da takılıyordu ("projeler geç geliyor"un asıl sebebi). Fix: MutationObserver ile sonradan eklenen `.reveal` öğeleri otomatik yakalanıyor; viewport içindekiler ilk karede açılıyor.
+**Doğrulama:** build `● /[lang]/work` ✅; Playwright client-nav: 29 kart, ekrandaki 6'sı anında opacity:1 ✅. Prod deploy edildi.
+
 ### 2026-07-30 — "Afilli" paket (CEO: hepsi, beğenmezse revert)
 **4 katman eklendi, canlıda (`7cf289d` + `f007d92`):**
 1. **Mikro-etkileşim:** `fx/CustomCursor` (disiplin renkli nokta+halka, magnetik butonlar `[data-magnetic]` desteği, pointer:fine+hover:hover, reduced-motion kapalı) · `ProjectCard` 3D tilt+glare (client'a çevrildi) · `fx/CountUp` Stats sayaçları
