@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { usePathname } from "next/navigation";
 import { useScene } from "./SceneProvider";
 
 const SceneCanvas = dynamic(() => import("./SceneCanvas"), { ssr: false });
@@ -9,9 +10,15 @@ const SceneCanvas = dynamic(() => import("./SceneCanvas"), { ssr: false });
  * Fixed 3D backdrop. Every section scrolls over one continuous scene.
  * Falls back to a pure-CSS ambient field when WebGL, motion preference or
  * device class says 3D is the wrong call.
+ *
+ * The canvas mounts only on the home page — on /work and project pages the
+ * objects are fully exited anyway, so rendering them is pure GPU waste; the
+ * CSS halo carries the discipline colour there.
  */
 export default function SceneLayer() {
   const { enabled3d } = useScene();
+  const pathname = usePathname();
+  const isHome = /^\/(en|tr)\/?$/.test(pathname);
 
   return (
     <div
@@ -19,7 +26,7 @@ export default function SceneLayer() {
       className="pointer-events-none fixed inset-0 -z-10 overflow-hidden"
     >
       <div className="halo" />
-      {enabled3d ? (
+      {enabled3d && isHome ? (
         <SceneCanvas />
       ) : (
         <div className="absolute inset-0">

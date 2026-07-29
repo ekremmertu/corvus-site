@@ -67,7 +67,7 @@ export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
     <>
       <header
         className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
-          scrolled ? "border-b border-[color:var(--c-border)] bg-[color:var(--c-bg)]/80 backdrop-blur-xl" : ""
+          scrolled ? "border-b border-[color:var(--c-border)] bg-[color:var(--c-bg)]/80 backdrop-blur-md" : ""
         }`}
         style={{ height: "var(--nav-h)" }}
       >
@@ -124,7 +124,7 @@ export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
       <div
         id="mobile-menu"
         hidden={!open}
-        className="fixed inset-0 z-40 bg-[color:var(--c-bg)]/97 backdrop-blur-xl md:hidden"
+        className="fixed inset-0 z-40 bg-[color:var(--c-bg)]/97 backdrop-blur-md md:hidden"
       >
         <div className="flex h-full flex-col justify-center gap-2 px-8">
           {links.map((l) => (

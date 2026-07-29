@@ -10,6 +10,8 @@
 | 2c | **DNS: GoDaddy panelinde A kaydı** @ `199.36.158.100`→`76.76.21.21`, www CNAME→`cname.vercel-dns.com` | **CEO** | NS değişimi gerekmez; MX etkilenmez. Domain TİRELİ: corvus-tech.co |
 | 2b | ~~/terminal entegrasyonu~~ ✅ DONE | — | Terminal `ac4772f` + site `683e6de`, Firebase canlı |
 | 3 | ~~v1 site kur~~ ✅ DONE | — | 2026-07-29, commit `d4c85d6` |
+| 3b | ~~Perf turu 1: site ağır (CEO şikâyeti)~~ ✅ DONE | — | 2026-07-30, blur/grain/dpr/canvas-unmount; aşağıda PASS LOG |
+| 3c | Perf turu 2 (gerekirse): CEO hâlâ ağır derse — damp hızlandır, obje polygon azalt, `frameloop` scroll-durdurma | Claude solo | CEO'nun cihaz+tarayıcı bilgisiyle |
 | 4 | v1.1: gerçek ekran görüntüleri (proje detay) | Claude solo | Quill/marketing, TripWalkers/fastlane, Amelie.co/Logo |
 | 5 | v1.1: Higgsfield disiplin videoları (kart hover) | CEO onayı (kredi harcar) | 5 kısa loop |
 | 6 | GitHub push | CEO kararı | Şu an lokal git |
@@ -20,6 +22,15 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-07-30 — Perf turu 1 (CEO: "site çok ağır hareket ediyor")
+**Kök nedenler + fix'ler:**
+1. **Tam ekran `backdrop-blur` × 6 section** (canvas üstünde her frame compositing) → kaldırıldı, düz yarı saydam bg (`/86`→`/92`, `/70`→`/85`); Nav `backdrop-blur-xl`→`md`
+2. **Grain `mix-blend-mode: overlay` fullscreen** → normal blend + opacity 0.22→0.05, `position: fixed`
+3. **Canvas DPR 1.75 + antialias** → `dpr [1,1.5]` + `antialias: false`; dust 420→260
+4. **Canvas her sayfada render ediyordu** (work/proje sayfalarında objeler görünmez ama GPU 60fps çiziyordu) → `SceneLayer` artık canvas'ı SADECE ana sayfada (`/en`|`/tr`) mount ediyor; diğer sayfalar CSS halo
+**Doğrulama:** build 67 sayfa ✅; Playwright: ana sayfa `canvas:true`, /work `canvas:false halo:true` ✅. Prod deploy edildi (Aliased: corvus-tech.co).
+**Yan bulgu:** bayat dev sunucusu (taşınmış proxy.ts'i arayan) 3001'de 500 veriyordu → pkill, temiz restart; canlıyı etkilemez.
 
 ### 2026-07-30 (3. seans) — domain düzeltmesi: corvus-tech.co (TİRELİ)
 **Hata + düzeltme:** Önceki seansta tiresiz `corvustech.co` (sahibi başkası, Atak Domain, Apache 403) yanlışlıkla hedeflendi. CEO düzeltti: gerçek domain **corvus-tech.co** (GoDaddy, A→Firebase 199.36.158.100, şu an /terminal'e 301). Vercel'den yanlış domainler kaldırıldı, `corvus-tech.co`+`www` eklendi, `site.ts` URL/e-posta güncellendi (`96271fc`), prod redeploy: `Aliased: https://corvus-tech.co`. Kalan: GoDaddy'de A kaydı → 76.76.21.21.

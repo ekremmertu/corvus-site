@@ -6,7 +6,7 @@ export default function Process({ d }: { locale: Locale; d: Dict }) {
     <section
       id="process"
       aria-labelledby="process-title"
-      className="relative bg-[color:var(--c-bg)]/86 backdrop-blur-[2px]"
+      className="relative bg-[color:var(--c-bg)]/86"
     >
       <div className="mx-auto w-full max-w-[1240px] px-5 py-24 sm:px-8 sm:py-32">
         <p className="eyebrow">{"// " + d.nav.process}</p>

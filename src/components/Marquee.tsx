@@ -18,7 +18,7 @@ export default function Marquee() {
   return (
     <div
       aria-hidden
-      className="relative overflow-hidden border-y border-[color:var(--c-border)] bg-[color:var(--c-bg)]/70 py-4 backdrop-blur-[2px]"
+      className="relative overflow-hidden border-y border-[color:var(--c-border)] bg-[color:var(--c-bg)]/70 py-4"
     >
       <div className="marquee-track gap-10">
         {row.map((w, i) => (
