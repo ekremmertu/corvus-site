@@ -6,7 +6,8 @@
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
 | 1 | ~~Domain kararı~~ ✅ DONE — `corvustech.co` kesinleşti | — | 2026-07-29 |
-| 2 | Vercel deploy + `corvustech.co` DNS (GoDaddy → Vercel) | CEO (login gerekli) | `! npx vercel login` → `npx vercel --prod` → domain ekle |
+| 2 | ~~Vercel deploy~~ ✅ DONE — corvus-site-omega.vercel.app canlı, domainler eklendi | — | 2026-07-29 |
+| 2c | **DNS: Atak Domain panelinde NS değişimi** → `ns1/ns2.vercel-dns.com` | **CEO** | Registrar Atak Domain (GoDaddy değil!); mevcut `ns1/ns2.corvust.com`. Mail kullanıyorsan MX'i önce not al |
 | 2b | ~~/terminal entegrasyonu~~ ✅ DONE | — | Terminal `ac4772f` + site `683e6de`, Firebase canlı |
 | 3 | ~~v1 site kur~~ ✅ DONE | — | 2026-07-29, commit `d4c85d6` |
 | 4 | v1.1: gerçek ekran görüntüleri (proje detay) | Claude solo | Quill/marketing, TripWalkers/fastlane, Amelie.co/Logo |
