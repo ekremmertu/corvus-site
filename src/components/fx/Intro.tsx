@@ -6,6 +6,7 @@ import { CORVUS_ASCII } from "./corvusAscii";
 
 /**
  * Terminal açılışı — sistem güncellemesi metaforu.
+ * Her sayfa yüklemesinde oynar; atlamak için Skip / ESC / Enter / Space / tıklama.
  * Sistem satırları bilinçli olarak İngilizce (terminaller İngilizcedir);
  * yalnızca içerik satırı lokalize edilir.
  */
@@ -56,35 +57,22 @@ export default function Intro({ locale }: { locale: Locale }) {
     skipped.current = true;
     timers.current.forEach(clearTimeout);
     timers.current = [];
-    try {
-      sessionStorage.setItem("cv_intro", "1");
-      document.documentElement.dataset.introSeen = "1";
-    } catch {
-      /* private mode — sorun değil, sadece tekrar oynar */
-    }
     setFading(true);
     setTimeout(() => setDone(true), FADE_MS);
   }, []);
 
   useEffect(() => {
-    // ?intro=1 → açılışı yeniden izlemek isteyen kişi açıkça istemiştir:
-    // hem "görüldü" kaydını hem hareket azaltmayı geçersiz kılar.
+    // Açılış HER yüklemede oynar (CEO kararı 2026-08-23) — tek istisna,
+    // kullanıcının işletim sisteminde hareket azaltmayı açmış olması.
+    // ?intro=1 onu da geçersiz kılar.
     let forced = false;
     try {
       forced = new URLSearchParams(window.location.search).get("intro") === "1";
     } catch {
       /* URL okunamıyorsa normal akış */
     }
-
-    // Daha önce görüldüyse veya hareket azaltma açıksa hiç oynatma
-    let seen = false;
-    try {
-      seen = sessionStorage.getItem("cv_intro") === "1";
-    } catch {
-      /* erişilemiyorsa oynat */
-    }
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (!forced && (seen || reduced)) {
+    if (!forced && reduced) {
       skipped.current = true;
       setDone(true);
       return;
