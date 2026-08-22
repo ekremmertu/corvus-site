@@ -34,6 +34,21 @@
 
 ## PASS LOG
 
+### 2026-08-23 (4. tur) — Intro her yenilemede oynuyor + DİSK DOLDU
+
+**1. CEO kararı değişti:** "refresh yapınca intro oynasın". 3. turdaki oturum-başına-bir-kez kilidi tamamen kaldırıldı.
+- Silinenler: `Intro.tsx` içindeki `sessionStorage.cv_intro` okuma/yazma · `layout.tsx`'teki inline `<head>` script'i (artık `<head>` bloğu hiç yok, metadata yeterli) · `globals.css`'teki `html[data-intro-seen="1"] .intro { display:none }` kuralı.
+- Kalan tek istisna: `prefers-reduced-motion: reduce`. `?intro=1` onu da geçersiz kılar.
+- Atlama yolları duruyor: Skip butonu / ESC / Enter / Space / tıklama.
+- Doğrulama: canlı HTML'de `cv_intro` geçmiyor (0 eşleşme), sayfa 200, intro markup'ı yerinde. Commit `c4680c8`, deploy `corvus-site-l2tt0dfj0`.
+
+**2. ⚠️ MAKİNE DİSKİ %100 DOLDU — iş yarıda kesildi.** `git commit` sırasında `ENOSPC: no space left on device`. Commit aslında geçmişti, hata log dosyası yazılırken çıktı.
+- Durum: 460 GB'ın 409 GB'ı dolu, **384 MB boş**.
+- `.next` silinerek 4 GB'a çıkarıldı, iş tamamlandı — ama kalıcı çözüm değil.
+- Ölçülen büyükler: `~/Library/Developer/CoreSimulator` **26 GB** · `Xcode/DerivedData` **7,6 GB** · `iOS DeviceSupport` **5,5 GB** · `Library/Caches` **5,4 GB** · `.npm` **2,5 GB** → toplam ~47 GB geri alınabilir.
+- **Sonraki oturum bunu ilk iş sorsun** — disk dolu haldeyken build/deploy güvenilmez, `.next` yarıda kalıp `ENOTEMPTY` veriyor.
+
+
 ### 2026-08-23 (3. tur) — Favicon Vercel üçgeniydi + intro tekrar oynatma
 
 **CEO şikâyeti:** "tarayıcı sekmesinde logomuz değil Vercel'in üçgeni var" + "refresh yapıyorum animasyon oynamıyor"
@@ -45,6 +60,8 @@
 - ⚠️ **Ders 3 — ICO RGBA olmalı:** RGB kaydedilince Turbopack build patlıyor: `Format error decoding Ico: The PNG is not in RGBA format!`. Frame'ler `.convert('RGBA')` ile kaydedilecek.
 - Dolgu farklı: ≤64px'te %8 (kuş büyük görünsün), büyük boylarda %16.
 - Görsel doğrulama: 32px'te kuzgun net okunuyor, 16px yumuşak ama artefaktsız (Retina zaten 32'yi kullanıyor).
+
+**⚠️ BU KARAR 4. TURDA GERİ ALINDI — aşağıdaki oturum kilidi artık YOK (commit `c4680c8`). Açılış her yüklemede oynuyor.**
 
 **2. Intro "oynamıyor" — BUG DEĞİL, tasarım.** `sessionStorage.cv_intro` sekme oturumunda bir kez oynatıyor; F5 aynı oturum olduğu için oynamıyor. Ziyaretçiyi yormamak için bilinçli karardı.
 - Eklendi: **`?intro=1`** → hem `cv_intro` kaydını hem `prefers-reduced-motion`'ı geçersiz kılar. Açık istek varsayılanı yener.
