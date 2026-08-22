@@ -242,6 +242,26 @@ body {
   transform: scale(0.97);
 }
 
+/* Henüz tiklanacak bir yer yok: buton gorunumlu ama pasif rozet. */
+.btn-soon {
+  background: transparent;
+  color: var(--c-text-dim);
+  border: 1px dashed var(--c-border-strong);
+  cursor: default;
+}
+
+.btn-soon:active {
+  transform: none;
+}
+
+.soon-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--c-live);
+  box-shadow: 0 0 0 4px var(--c-live-soft);
+}
+
 @keyframes fadeUp {
   from {
     opacity: 0;

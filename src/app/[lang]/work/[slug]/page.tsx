@@ -75,7 +75,7 @@ export default async function ProjectPage({
         </VT>
         <p className="lede mt-6 max-w-[52ch] text-[17px]">{project.summary[lang]}</p>
 
-        {(project.appStoreUrl || project.liveUrl) && (
+        {(project.appStoreUrl || project.liveUrl || project.appStoreSoon) && (
           <div className="mt-8 flex flex-wrap gap-3">
             {project.appStoreUrl && (
               <a
@@ -98,6 +98,12 @@ export default async function ProjectPage({
               >
                 {d.work.visitSite}
               </a>
+            )}
+            {project.appStoreSoon && !project.appStoreUrl && (
+              <span className="btn btn-soon">
+                <span aria-hidden className="soon-dot" />
+                {d.work.appStoreSoon}
+              </span>
             )}
           </div>
         )}
