@@ -2,12 +2,20 @@
 
 import { useEffect, useRef } from "react";
 import Link from "next/link";
-import { categories, projectsByCategory, type Locale } from "@/data/projects";
+import { categories, type CategorySlug, type Locale } from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
 import { useScene } from "@/components/scene/SceneProvider";
 import Scramble from "@/components/fx/Scramble";
 
-export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
+export default function Hero({
+  locale,
+  d,
+  counts,
+}: {
+  locale: Locale;
+  d: Dict;
+  counts: Record<CategorySlug, number>;
+}) {
   const { active, setActive, next, prev } = useScene();
   const dragX = useRef<number | null>(null);
   const category = categories[active];
@@ -33,7 +41,7 @@ export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
     dragX.current = null;
   }
 
-  const count = projectsByCategory(category.slug).length;
+  const count = counts[category.slug] ?? 0;
 
   return (
     <section

@@ -3,7 +3,7 @@
 import { useMemo, useRef } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import * as THREE from "three";
-import { categories } from "@/data/projects";
+import { categories } from "@/data/taxonomy";
 import { DisciplineObject } from "./objects";
 import { useScene } from "./SceneProvider";
 

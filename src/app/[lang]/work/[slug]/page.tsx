@@ -4,16 +4,20 @@ import { notFound } from "next/navigation";
 import { getDict, isLocale, locales } from "@/i18n/dict";
 import {
   getCategory,
+  openProjects,
   projects,
   statusLabels,
+  veilOf,
   type Locale,
 } from "@/data/projects";
 import ProjectSceneSync from "@/components/ProjectSceneSync";
 import VT from "@/components/fx/VT";
 
+// Perdeli projelerin sayfasi HIC uretilmez -> dogrudan adres yazan da 404 gorur.
+// Blur sadece gorsel; icerik HTML'e girmesin diye sayfanin kendisi yok.
 export function generateStaticParams() {
   return locales.flatMap((lang) =>
-    projects.map((p) => ({ lang, slug: p.slug }))
+    openProjects().map((p) => ({ lang, slug: p.slug }))
   );
 }
 
@@ -23,7 +27,7 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const locale: Locale = isLocale(lang) ? lang : "en";
   const project = projects.find((p) => p.slug === slug);
-  if (!project) return {};
+  if (!project || veilOf(project)) return {};
 
   return {
     title: project.name,
@@ -47,11 +51,12 @@ export default async function ProjectPage({
   if (!isLocale(lang)) notFound();
   const d = getDict(lang);
 
-  const index = projects.findIndex((p) => p.slug === slug);
+  const open = openProjects();
+  const index = open.findIndex((p) => p.slug === slug);
   if (index === -1) notFound();
-  const project = projects[index];
+  const project = open[index];
   const category = getCategory(project.category);
-  const next = projects[(index + 1) % projects.length];
+  const next = open[(index + 1) % open.length];
 
   return (
     <article className="relative">

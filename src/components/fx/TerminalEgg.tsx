@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
-import { categories, projects } from "@/data/projects";
+import { categories, type CardProject } from "@/data/taxonomy";
 import { SITE } from "@/lib/site";
 
 const TRIGGER = "corvus";
@@ -17,7 +17,9 @@ interface Line {
  * mini terminal. Corvus Tech Terminal ürününe selam.
  * Aç: klavye "corvus" · window event "corvus:terminal" — Kapat: ESC / exit
  */
-export default function TerminalEgg() {
+export default function TerminalEgg({ entries }: { entries: CardProject[] }) {
+  // Yalniz perdesiz projeler gelir — gizli isler terminalden de listelenmez.
+  const projects = entries;
   const [open, setOpen] = useState(false);
   const [lines, setLines] = useState<Line[]>([]);
   const [input, setInput] = useState("");
@@ -84,7 +86,7 @@ export default function TerminalEgg() {
         put(
           "help              this list",
           "ls                disciplines",
-          "ls projects       all 28 projects",
+          `ls projects       all ${entries.length} projects`,
           "open <slug>       open a project page",
           "whoami            who is corvus",
           "contact           say hello",

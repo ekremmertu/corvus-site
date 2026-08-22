@@ -1,15 +1,23 @@
 "use client";
 
 import Link from "next/link";
-import { categories, projectsByCategory, type Locale } from "@/data/projects";
+import { categories, type CardProject, type Locale } from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
 import { useScene } from "@/components/scene/SceneProvider";
 import ProjectCard from "@/components/ProjectCard";
 
-export default function HomeWork({ locale, d }: { locale: Locale; d: Dict }) {
+export default function HomeWork({
+  locale,
+  d,
+  cards,
+}: {
+  locale: Locale;
+  d: Dict;
+  cards: CardProject[];
+}) {
   const { active, setActive } = useScene();
   const category = categories[active];
-  const list = projectsByCategory(category.slug);
+  const list = cards.filter((p) => p.category === category.slug);
 
   return (
     <section
@@ -62,7 +70,7 @@ export default function HomeWork({ locale, d }: { locale: Locale; d: Dict }) {
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {list.length === 0 && <p className="lede">{d.work.empty}</p>}
           {list.map((p, i) => (
-            <ProjectCard key={p.slug} project={p} locale={locale} index={i} />
+            <ProjectCard key={p.slug} project={p} locale={locale} index={i} d={d} />
           ))}
         </div>
       </div>

@@ -11,7 +11,7 @@ import {
   type ReactNode,
   type RefObject,
 } from "react";
-import { categories } from "@/data/projects";
+import { categories } from "@/data/taxonomy";
 
 interface SceneState {
   /** Active discipline index (0-4) */

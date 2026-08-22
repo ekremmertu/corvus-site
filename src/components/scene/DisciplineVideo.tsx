@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { categories } from "@/data/projects";
+import { categories } from "@/data/taxonomy";
 import { useScene } from "./SceneProvider";
 
 /**

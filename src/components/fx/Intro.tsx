@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { Locale } from "@/data/projects";
+import type { Locale } from "@/data/taxonomy";
 import { CORVUS_ASCII } from "./corvusAscii";
 
 /**
