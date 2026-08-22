@@ -47,6 +47,11 @@ export interface Project {
   appStoreUrl?: string;
   /** Canlı web ürününün adresi (web/fintech kategorileri). */
   liveUrl?: string;
+  /**
+   * Uygulama henüz App Store'da değil ama yolda.
+   * `appStoreUrl` dolduğunda bu alan silinir — ikisi birlikte kullanılmaz.
+   */
+  appStoreSoon?: boolean;
 }
 
 export const categories: Category[] = [
@@ -360,6 +365,8 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["SwiftUI", "Supabase", "iPad", "XCTest"],
     featured: true,
+    liveUrl: "https://splittable.co",
+    appStoreSoon: true,
     summary: {
       en: "Restaurant table app: split the bill, then show the owner what the data means.",
       tr: "Restoran masa uygulaması: hesabı böl, sonra işletmeciye verinin ne anlattığını göster.",
@@ -684,6 +691,7 @@ export const projects: Project[] = [
     status: "development",
     year: "2026",
     stack: ["Next.js", "FastAPI", "Anthropic API"],
+    liveUrl: "https://cvtoapply.co",
     summary: {
       en: "Rewrites your CV for the specific job posting, ATS-readable on the first pass.",
       tr: "CV'ni ilana göre yeniden yazar, ilk okumada ATS-uyumlu.",
