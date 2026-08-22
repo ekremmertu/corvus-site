@@ -328,32 +328,33 @@ export const projects: Project[] = [
     slug: "quill",
     name: "Quill",
     category: "ios",
-    status: "testflight",
+    status: "live",
     year: "2026",
-    stack: ["SwiftUI", "Swift 6", "SwiftData", "TestFlight"],
+    stack: ["SwiftUI", "Swift 6", "SwiftData", "StoreKit 2"],
     featured: true,
+    appStoreUrl: "https://apps.apple.com/tr/app/id6768395513",
     summary: {
       en: "Personal finance app built around debt payoff strategy, not budget guilt.",
       tr: "Bütçe suçluluğu değil, borç kapatma stratejisi üzerine kurulmuş kişisel finans uygulaması.",
     },
     description: {
-      en: "Quill models your debts and goals, then orders them with avalanche or snowball logic and shows what one extra payment actually changes. Currently on TestFlight at build 16, signed and delivered through an automated archive → export → upload pipeline.",
-      tr: "Quill borçlarını ve hedeflerini modelliyor, çığ veya kartopu mantığıyla sıralıyor ve tek bir ek ödemenin neyi değiştirdiğini gösteriyor. Şu an TestFlight'ta build 16; otomatik archive → export → yükleme hattıyla imzalanıp teslim ediliyor.",
+      en: "Quill models your debts and goals, then orders them with avalanche or snowball logic and shows what one extra payment actually changes. Now live on the App Store, signed and delivered through an automated archive → export → upload pipeline.",
+      tr: "Quill borçlarını ve hedeflerini modelliyor, çığ veya kartopu mantığıyla sıralıyor ve tek bir ek ödemenin neyi değiştirdiğini gösteriyor. App Store'da yayında; otomatik archive → export → yükleme hattıyla imzalanıp teslim ediliyor.",
     },
     highlights: {
       en: [
         "Debt strategy engine with payoff ordering and extra-payment simulation",
         "Goals and expense tracking on one SwiftData model layer",
-        "Automated signing and TestFlight delivery pipeline",
+        "Automated signing and App Store delivery pipeline",
       ],
       tr: [
         "Ödeme sıralaması ve ek-ödeme simülasyonu olan borç stratejisi motoru",
         "Tek SwiftData model katmanında hedef ve gider takibi",
-        "Otomatik imzalama ve TestFlight teslim hattı",
+        "Otomatik imzalama ve App Store teslim hattı",
       ],
     },
     metrics: [
-      { label: { en: "Status", tr: "Durum" }, value: "TestFlight" },
+      { label: { en: "Status", tr: "Durum" }, value: "App Store" },
       { label: { en: "Build", tr: "Build" }, value: "16" },
     ],
   },
@@ -365,7 +366,7 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["SwiftUI", "Supabase", "iPad", "XCTest"],
     featured: true,
-    liveUrl: "https://splittable.co",
+    liveUrl: "https://splittable.me",
     appStoreSoon: true,
     summary: {
       en: "Restaurant table app: split the bill, then show the owner what the data means.",
@@ -626,6 +627,7 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Next.js", "Supabase", "iyzico", "Theme engine"],
     featured: true,
+    liveUrl: "https://ameliea.co",
     summary: {
       en: "Digital wedding invitations that feel like a film, sold and paid for online.",
       tr: "Film gibi hissettiren, online satılan ve ödemesi alınan dijital düğün davetiyeleri.",
@@ -692,6 +694,7 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Next.js", "FastAPI", "Anthropic API"],
     liveUrl: "https://cvtoapply.co",
+    appStoreUrl: "https://apps.apple.com/tr/app/id6790497658",
     summary: {
       en: "Rewrites your CV for the specific job posting, ATS-readable on the first pass.",
       tr: "CV'ni ilana göre yeniden yazar, ilk okumada ATS-uyumlu.",
@@ -1095,38 +1098,6 @@ export const projects: Project[] = [
         "İstisnalar sessizce çözülmez, insan kararına sunulur",
       ],
     },
-  },
-  {
-    slug: "distributor-revision-report",
-    name: "Distributor Revision Report",
-    category: "enterprise",
-    status: "delivered",
-    year: "2026",
-    stack: ["Power BI", "Data modelling", "Audit"],
-    client: { en: "Global FMCG company", tr: "Global bir FMCG şirketi" },
-    summary: {
-      en: "Found a quota formula error that was distorting distributor performance by 40 points.",
-      tr: "Distribütör performansını 40 puan saptıran bir kota formülü hatasını buldu.",
-    },
-    description: {
-      en: "A reporting review that started as a formatting request and ended as an audit: the quota denominator was wrong, moving a headline revision rate from 41% to 81%. Corrected model, re-issued report and a reconciled export for the teams that had used the old numbers.",
-      tr: "Biçimlendirme talebi olarak başlayıp denetime dönüşen bir rapor incelemesi: kota paydası yanlıştı ve ana revize oranını %41'den %81'e taşıyordu. Düzeltilmiş model, yeniden yayınlanan rapor ve eski rakamları kullanmış ekipler için mutabık bir çıktı.",
-    },
-    highlights: {
-      en: [
-        "Root-caused a denominator error in the quota calculation",
-        "Headline metric corrected from 41% to 81%",
-        "Corrected workbook and CSV delivered for reconciliation",
-      ],
-      tr: [
-        "Kota hesabındaki payda hatasının kök nedeni bulundu",
-        "Ana metrik %41'den %81'e düzeltildi",
-        "Mutabakat için düzeltilmiş dosya ve CSV teslim edildi",
-      ],
-    },
-    metrics: [
-      { label: { en: "Metric corrected", tr: "Düzeltilen metrik" }, value: "41% → 81%" },
-    ],
   },
   {
     slug: "shipment-reconciliation",

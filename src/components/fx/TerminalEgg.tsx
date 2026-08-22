@@ -84,7 +84,7 @@ export default function TerminalEgg() {
         put(
           "help              this list",
           "ls                disciplines",
-          "ls projects       all 29 projects",
+          "ls projects       all 28 projects",
           "open <slug>       open a project page",
           "whoami            who is corvus",
           "contact           say hello",
