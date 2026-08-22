@@ -23,11 +23,6 @@ function pickLocale(request: NextRequest) {
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // /terminal locale'siz yaşar — rewrite ile Terminal uygulamasına gider.
-  if (pathname === "/terminal" || pathname.startsWith("/terminal/")) {
-    return NextResponse.next();
-  }
-
   const hasLocale = LOCALES.some(
     (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`)
   );

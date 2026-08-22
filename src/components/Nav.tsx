@@ -14,13 +14,7 @@ function Wordmark({ locale }: { locale: Locale }) {
       className="group flex items-center gap-2.5"
       aria-label={SITE.name}
     >
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
-        <path
-          d="M3 15.5C3 9.7 7.7 5 13.5 5H21l-4.2 4.6h-3.1a5.9 5.9 0 0 0-5.9 5.9V19H3v-3.5Z"
-          fill="var(--c-live)"
-        />
-        <path d="M12.4 19v-3.4h4.9L12.4 19Z" fill="var(--c-text)" opacity="0.75" />
-      </svg>
+      <span className="brand-mark h-[21px] w-[26px]" aria-hidden />
       <span className="display text-[15px] uppercase tracking-[0.12em]">
         Corvus<span style={{ color: "var(--c-live)" }}>.</span>
       </span>

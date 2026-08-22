@@ -1,12 +1,12 @@
 /**
  * Single source of truth for identity + SEO surface.
- * Domain: corvus-tech.co (GoDaddy). TODO(owner): confirm the mailbox exists.
+ * Domain: corvus-tech.co (GoDaddy). Contact mailbox confirmed by owner 2026-07-30.
  */
 export const SITE = {
   name: "Corvus Tech",
   legalName: "Corvus Tech",
   url: "https://corvus-tech.co",
-  email: "hello@corvus-tech.co",
+  email: "uekremmert@gmail.com",
   city: "Istanbul",
   country: "TR",
   founded: "2025",

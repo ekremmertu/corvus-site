@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getDict, isLocale } from "@/i18n/dict";
 import { projects, categories } from "@/data/projects";
 import Hero from "@/components/Hero";
+import BrandFilm from "@/components/BrandFilm";
 import DisciplineStage from "@/components/DisciplineStage";
 import HomeWork from "@/components/HomeWork";
 import Process from "@/components/Process";
@@ -22,6 +23,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   return (
     <>
       <Hero locale={lang} d={d} />
+      <BrandFilm locale={lang} />
       <Marquee />
       <Stats
         d={d}

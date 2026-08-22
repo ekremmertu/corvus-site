@@ -1,13 +1,17 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** v1 tamam, build yeşil (67 sayfa), deploy bekliyor. Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co** (2026-07-30). Build yeşil (67 sayfa), son commit `7df740d`. Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
 | 1 | ~~Domain kararı~~ ✅ DONE — `corvus-tech.co` kesinleşti | — | 2026-07-29 |
 | 2 | ~~Vercel deploy~~ ✅ DONE — corvus-site-omega.vercel.app canlı, domainler eklendi | — | 2026-07-29 |
-| 2c | **DNS: GoDaddy panelinde A kaydı** @ `199.36.158.100`→`76.76.21.21`, www CNAME→`cname.vercel-dns.com` | **CEO** | NS değişimi gerekmez; MX etkilenmez. Domain TİRELİ: corvus-tech.co |
+| 2c | ~~DNS: GoDaddy A kaydı + www CNAME~~ ✅ DONE | CEO yaptı | 2026-07-30, aşağıda PASS LOG |
+| 2d | ~~SSL sertifikası~~ ✅ DONE — elle tetiklendi | — | 2026-07-30, `vercel certs issue` |
+| 7 | **Cloud Run'a `CORVUS_API_KEY` env var ekle + redeploy** | **CEO** | ⚠️ ZORUNLU: env var olmadan servis artık BAŞLAMAZ (fail-safe). Komut aşağıda. |
+| 7b | Terminal `.env`'ine `VITE_CORVUS_API_KEY` ekle | CEO | Sadece local Terminal Cloud API'ye bağlanacaksa. Local API (`localhost:8765`) anahtar istemiyor. |
+| 8 | Portfolyoya CSP ekle (ayrı tur) | Claude solo | R3F/Next inline script + Higgsfield video kaynakları test gerektiriyor |
 | 2b | ~~/terminal entegrasyonu~~ ✅ DONE | — | Terminal `ac4772f` + site `683e6de`, Firebase canlı |
 | 3 | ~~v1 site kur~~ ✅ DONE | — | 2026-07-29, commit `d4c85d6` |
 | 3b | ~~Perf turu 1: site ağır (CEO şikâyeti)~~ ✅ DONE | — | 2026-07-30, blur/grain/dpr/canvas-unmount; aşağıda PASS LOG |
@@ -16,6 +20,10 @@
 | 5 | ~~Higgsfield disiplin videoları~~ ✅ DONE | — | 2026-07-30, 30 kredi, 5× kling3_0_turbo, `f007d92` |
 | 5b | ~~Afilli paket (4 katman)~~ ✅ DONE | — | cursor+magnetic, tilt+glare, count-up, scramble, sweep, ViewTransition, terminal egg — `7cf289d` |
 | 6 | GitHub push | CEO kararı | Şu an lokal git |
+| 9 | **Logo mavisi ile iOS disiplin rengi çakışması** — ikisi de `#5B8CFF` | CEO kararı | Logo brand mavisinde kalsın, `--c-ios` hafif kaydırılsın (öneri `#7BA5FF`). Ya da tam tersi. Tek satır CSS. |
+| 10 | Marka filmi + intro'yu commit et | Claude solo | Henüz commit edilmedi (2026-07-30 turu) |
+| 11 | Brand film bölümünün görsel doğrulaması | Claude solo | Yerleşim sayısal doğrulandı, ekran görüntüsü alınamadı — CEO tarayıcıda bakıp onaylasın |
+| 12 | 9:16 / 1:1 sosyal videoları LinkedIn/X'e yükle | CEO | `brand-src/corvus-intro-9x16.mp4`, `corvus-intro-1x1.mp4` hazır |
 
 **Yapma kuralları:**
 - İçerik değişikliği SADECE `src/data/projects.ts` — başka dosyaya kopya metin yazma
@@ -23,6 +31,146 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-07-30 — Marka kimliği + terminal açılışı + marka filmi (henüz commit edilmedi)
+
+**Ne yapıldı**
+
+1. **Logo renkleri değiştirildi.** Kaynak `OneDrive/Corvus Tech/Corvus/Post/2.post.png` (zeytin zemin `#343C26` + neon lime `#E0FC07`) → site paletine taşındı. CEO kararı: **logo siteye uysun (mavi `#5B8CFF`)**. Alternatifler (lime'ı brand yapmak / nötr beyaz) sunuldu, mavi seçildi.
+   - Yöntem: PIL ile lime↔zemin mesafe tabanlı yumuşak alfa maskesi → renk değişimi (kenar yumuşaklığı korundu), `scripts` yok, tek seferlik.
+   - Üretilenler → `public/brand/`: `corvus-logo.png` (667×473), `corvus-mark.png` (419×333), `corvus-wordmark.png`, `corvus-logo-white.png`, `corvus-mark-white.png`, `corvus-social-1x1.png`
+   - ⚠️ **Bilinen çakışma:** `#5B8CFF` aynı zamanda iOS disiplin rengi (`--c-ios`). Logo ile iOS kartları aynı maviye düşüyor. Ayırma önerildi, CEO kararı bekliyor (aşağıda görev 9).
+
+2. **Nav marka işareti gerçek logoyla değiştirildi.** `Nav.tsx` içindeki jenerik kuş SVG'si silindi → `.brand-mark` (globals.css). PNG alfa kanalı **CSS mask** olarak kullanılıyor, renk `var(--c-live)`'dan geliyor — yani marka işareti aktif disiplin rengiyle birlikte değişmeye devam ediyor (sabit renkli PNG olsaydı bu özellik kaybolurdu).
+
+3. **Terminal açılışı (`Intro.tsx`) eklendi.** Coinbase "The Future of Money" reklamının kare kare analizinden çıkarılan formatla — sistem güncellemesi metaforu.
+   - Akış: `/* corvus.systems` → `...error: PORTFOLIO NOT LOADED` → `Set System Mode to: SHIPPING` → **`Enough text ** see it`** (format geçiş sinyali, ters vurgulu) → ASCII kuzgun satır satır belirir → `CORVUS.` → fade
+   - Süre ~3.8 sn. Skip butonu + ESC/Enter/Space + tıklama ile geçilir.
+   - `sessionStorage.cv_intro` ile oturumda bir kez. Tekrar yüklemede tek kare bile sıçramasın diye `layout.tsx` `<head>`'ine inline script → `html[data-intro-seen="1"] .intro { display:none }`.
+   - `prefers-reduced-motion: reduce` → hiç oynamaz.
+   - Sistem satırları bilinçli İngilizce (terminaller İngilizcedir); yalnız içerik satırı lokalize (`: 29 products / 1 screen` ↔ `: 29 ürün / 1 ekran`).
+
+4. **ASCII kuzgun** (`fx/corvusAscii.ts`) — `corvus-mark.png` alfa kanalından üretilmiş 84×35 grid, rampa `" .':;/\<>+*=#{}0189@"`.
+   - ⚠️ **Öğrenilen ders:** ilk sürüm 58 sütundu ve kuzgun tanınmıyordu; ayrıca CSS'te `letter-spacing: 0.08em` vardı → monospace hücre oranını bozup şekli yatay geriyordu. Doğru ayar: **letter-spacing 0, line-height 1.09** (grid `CELL_RATIO 0.55` ile üretildiği ve karakter genişliği ≈0.6em olduğu için).
+
+5. **Marka filmi (`BrandFilm.tsx`) eklendi** — Hero'nun hemen altında, `<Marquee>`'den önce, `id="film"`.
+   - Hero'nun sağ tarafını fixed 3D canvas kullandığı için video oraya konmadı — çakışırdı.
+   - IntersectionObserver (threshold .25) ile görünürken oynar, çıkınca duraklar (sürekli dekode 3D sahnenin kare bütçesini yiyordu).
+   - `preload="none"`, muted/loop/playsInline, WebM→MP4 sırası, `prefers-reduced-motion` → video yerine poster `<img>`.
+
+6. **10 sn'lik marka filmi Higgsfield ile üretildi** (CEO onayı: pro mod, ~22 kredi).
+   - Görsel: `nano_banana_pro` 4K 16:9, **logomuz referans verilerek** → partiküllerden oluşan kuzgun (`dd2de6a1`), 4 kredi
+   - Video: `kling3_0` 10 sn `mode: pro`, `sound: off`, `start_image` = üretilen görsel, **`end_image` = gerçek logo kilidi** (`fed91264`), 17.5 kredi
+   - ⚠️ **Kritik teknik:** `end_image` olarak kendi logomuzu vermek AI'ın logoyu uydurmasını engelledi — video son 1.5 sn'de birebir bizim logomuzda sabitleniyor. Kare kare doğrulandı.
+   - `kling3_0` "IN THE DARK" preseti önerdi → **reddedildi** (`declined_preset_id`), preset start/end frame kontrolünü elden alıyor.
+
+7. **Video varyantları.** Master (15MB, 1928×1072) `brand-src/`'ye taşındı — public'te değil.
+   - `public/videos/corvus-intro.mp4` (2.3MB, CRF 26, faststart, sessiz) + `.webm` (VP9 CRF 34, 2.3MB)
+   - `brand-src/corvus-intro-9x16.mp4` (4.3MB) · `corvus-intro-1x1.mp4` (2.9MB) → sosyal medya
+   - `public/brand/corvus-poster.jpg` (38K) = videonun son karesi (logo kilidi)
+   - ⚠️ 19MB'lık 4K start frame ve 15MB master **`brand-src/`'de, public'te değil** — Vercel bundle'ına girmesinler.
+
+**Doğrulama**
+- `npx tsc --noEmit` → 0 hata · `npm run build` → ✓ 67 sayfa
+- Intro headless Chrome'da kare kare doğrulandı (2.4s terminal metni + ters vurgu + cursor, 3.05s ASCII kuzgun + CORVUS)
+- BrandFilm: DOM'da bulundu, `!video.paused === true`, `currentSrc` = `corvus-intro.webm`, genişlik 1470px (Playwright evaluate)
+- ⚠️ Brand film bölümünün **tam sayfa ekran görüntüsü alınamadı** — Chrome headless fragment+scroll ile takıldı, Playwright MCP screenshot'ı diske yazmıyor. Yerleşim sayısal olarak doğrulandı, görsel olarak değil.
+
+**Referans:** Format kılavuzunun tamamı → `Corvus Tech/-Video Edit Fikri/ASCII-TERMINAL-VIDEO-URETIM-KILAVUZU.md` (1256 satır, 17 bölüm). Kaynak reklam analizi → aynı klasörde `coinbase-ad-analysis/`.
+
+### 2026-07-30 (devam) — Video ASCII formatına çevrildi ⚠️ ÖNEMLİ DÜZELTME
+
+**Sorun:** İlk teslim edilen Higgsfield videosu sinematik partikül işiydi — **kılavuzun formatı değildi**. Kılavuz Bölüm 2'nin değişmez kuralları çiğnenmişti: iki renk yok (mavi glow gradyanlı), ASCII yok, terminal metni yok. CEO uyardı: "bu video gibi istemiştim."
+
+**Çözüm — kılavuzun hibrit yaklaşımı uygulandı (Bölüm 10):** Higgsfield videosu atılmadı, **ASCII katmanının kaynağı** yapıldı. Kılavuz zaten bunu söylüyor: metin kodla render edilir, ASCII katmanı gerçek görüntüden filtrelenir.
+
+**`brand-src/build_intro.py`** — tek script, Chrome/headless gerekmez, saf PIL + ffmpeg:
+- **Katman A (0.0-4.2 sn):** terminal yazma, doğrudan PIL ile çizilir. cps sahneye göre değişir (42 → 420 log akışı → `Sure.` 16 cps, kasıtlı yavaş insan anı). Ters vurgulu `Enough text ** see it` geçiş cümlesi. Cursor 0.5 sn periyotla yanıp söner.
+- **Katman B (4.2-10.0 sn):** `corvus-intro-master.mp4` → ASCII grid (150 sütun, rampa `" .':;/\<>+*=#{}0189@"`)
+
+**Ayar dersleri (yeniden üretirken bunları koru):**
+| Parametre | Değer | Neden |
+|---|---|---|
+| `SRC_CROP` | `crop=1180:664` | Master'da kuzgun kadraj ortasında küçük kalıyor. Crop'suz ızgara doluluğu **%6**, crop'la **%15**. Kritik fark. |
+| `ASCII_GAMMA` | 0.50 | Kaynak koyu zeminli; düz kontrast artırmak yetmiyor, çoğu hücre boşluğa düşüyor. gamma<1 parlak bölgeyi genişletiyor. |
+| `FONT_SIZE` | 38 | 22px 1080p'de küçük kalıyordu; 38 Coinbase'in oransal metin büyüklüğünü yakalıyor. |
+| `FG` | `#7BA5FF` | `#5B8CFF` koyu zeminde ince ASCII karakterlerinde soluk okunuyor. Parlak ton. (Bu ton aynı zamanda TODO #9'daki iOS çakışmasının çözümü olabilir.) |
+| letter-spacing | **0** | Monospace hücre oranını bozup kuzgunu yatay geriyor. |
+
+**Teslim:**
+- `public/videos/corvus-intro.mp4` (1.9MB) + `.webm` (2.3MB) — **artık ASCII sürüm**, sitede oynayan bu
+- `brand-src/corvus-intro-ascii-master.mp4` (3.4MB, CRF 16) — master
+- `brand-src/corvus-intro-ascii-9x16.mp4` (2.5MB) · `-1x1.mp4` (2.0MB) — sosyal
+- `brand-src/corvus-intro-cinematic.mp4` — eski Higgsfield sürümü, alternatif olarak saklandı (silinmedi)
+- `public/brand/corvus-poster.jpg` — 9.6 sn karesi (ASCII logo kilidi)
+
+**Doğrulama:** `npm run build` ✓ · süre tam 10.000 sn · kilit anlar kare kare doğrulandı (terminal metni 1.0/2.6/3.9 sn, ASCII kuzgun 4.6-8.8 sn, ASCII logo+CORVUS 9.6 sn).
+
+**Yeniden üretmek:** `cd brand-src && python3 build_intro.py` → sonra yukarıdaki ffmpeg varyant komutları. Senaryo metnini değiştirmek için scriptteki `SCRIPT` dizisi yeter.
+
+
+### 2026-07-30 (5. seans) — 🔒 GÜVENLİK TURU: 7 bulgu, 5'i kapatıldı, 1'i CEO'da, 1'i geçersiz
+**Tetikleyici:** CEO'nun OKX Web3 Cüzdan eklentisi `corvus-tech.co/terminal` için "kimlik avı" uyarısı gösterdi → yanlış alarm çıktı (Terminal'de crypto/wallet kodu yok, domain temiz, 2026-01-03 GoDaddy kaydı) ama denetim sırasında gerçek açıklar bulundu.
+
+**Bulgular ve sonuçları:**
+
+| # | Bulgu | Şiddet | Sonuç |
+|---|-------|--------|-------|
+| 1 | Terminal auth bypass — `AuthContext.tsx:38` auto-admin, panel herkese açık | 🔴 KRİTİK | ✅ Terminal yayından kaldırıldı |
+| 2 | Firestore 6 koleksiyonda `allow read: if true` — sinyaller auth'suz okunuyordu | 🟠 YÜKSEK | ✅ Tümü `if false`, deploy edildi |
+| 7 | Ortak API'de sıfır auth — `/api/backtest/run` dahil her uç curl'e açık | 🟠 YÜKSEK | ✅ Kod hazır, **Cloud Run deploy CEO'da** |
+| 3 | `vite.config.ts` GEMINI_API_KEY'i bundle'a gömüyor | 🟡 ORTA | ✅ Prod build guard eklendi |
+| 4 | Admin şifre özeti (tuzsuz SHA-256) canlı bundle'da | 🟡 ORTA | ✅ Terminal kaldırılınca konu dışı |
+| 5 | Portfolyoda güvenlik başlıkları yok (sadece HSTS) | 🟢 DÜŞÜK | ✅ 4 başlık eklendi, canlıda |
+| 6 | Terminal `.gitignore`'unda `.env` yok | 🟢 DÜŞÜK | ⛔ **GEÇERSİZ** — satır 26-29'da zaten var, ilk tarama hatası |
+
+**Değişen dosyalar (3 repo):**
+- `corvus-site`: `next.config.ts` (rewrites silindi + `securityHeaders`), `src/proxy.ts` (/terminal muafiyeti silindi), `src/components/Footer.tsx` (Terminal linki silindi)
+- `Corvus-Tech-Terminal`: `firestore.rules` (tümü deny), `storage.rules` (tümü deny), `firebase.json` (hosting çıkarıldı), `firebase.hosting.disabled.json` (YENİ — yedek+talimat), `vite.config.ts` (prod build key guard), `services/data-api.ts` (modül düzeyi fetch sarmalayıcı → X-API-Key), `vite-env.d.ts`
+- `Ortak`: `api_server.py` (`ApiKeyMiddleware` + production fail-safe)
+
+**Doğrulama (hepsi PASS):**
+- Portfolyo build: 67 sayfa temiz · Terminal `tsc --noEmit`: 0 hata · `api_server.py` syntax: OK
+- API anahtar testi 5/5: anahtarsız→401 · yanlış→401 · doğru→200 · Bearer→200 · `/api/backtest/run` anahtarsız→401
+- Fail-safe: `STORAGE_MODE=cloud` + anahtar yok → `RuntimeError`, servis başlamıyor ✓ (anahtar varsa import OK ✓)
+- Firestore 6/6 koleksiyon → **403** ✓ (öncesinde gerçek veri dönüyordu)
+- `corvus-tech.co/terminal` → 404 ✓ · `corvus-tech.web.app` → 404 ✓
+- Güvenlik başlıkları canlıda 5/5: `X-Frame-Options: DENY`, `nosniff`, `Referrer-Policy`, `Permissions-Policy`, HSTS ✓
+
+**Yan bulgular:**
+- Firebase Storage bu projede hiç kurulmamış → storage riski fiilen yoktu; `storage.rules` yine de sertleştirildi ama `firebase.json`'dan çıkarıldı (deploy hata veriyordu).
+- Terminal'de Firebase SDK kurulu değil (`package.json`'da yok) → Firestore'u frontend kullanmıyordu, kapatmak hiçbir şeyi kırmadı. Tek etkilenen: `scripts/test-scanner-outputs-on-web.ts` (geliştirici aracı, service account ile çalıştırılmalı).
+- `services/supabase.ts` ölü kod — hiçbir yerden import edilmiyor. Anahtar doğru tipte (`"role":"anon"`).
+
+### 2026-07-30 (4. seans) — DNS kesme + SSL: site canlıya çıktı 🚀 (kod değişikliği yok)
+**Ne yapıldı:** CEO GoDaddy panelinden DNS'i Firebase'den Vercel'e çevirdi; SSL elle tetiklendi; uçtan uca doğrulandı.
+
+**1. DNS (CEO, GoDaddy paneli):**
+- A `@`: `199.36.158.100` (Firebase) → **`76.76.21.21`** (Vercel)
+- CNAME `www`: `corvus-tech.web.app` → **`cname.vercel-dns.com`**
+- MX / TXT / NS'e dokunulmadı (NS hâlâ ns05/ns06.domaincontrol.com — A-kaydı yöntemi, NS devri gerekmiyor)
+- Doğrulama: `dig @ns05.domaincontrol.com corvus-tech.co A` → `76.76.21.21` ✓ · `dig @8.8.8.8` → `76.76.21.21` ✓
+
+**2. KÖK NEDEN — SSL otomatik çıkmadı (asıl bulgu):**
+DNS yayıldıktan sonra 15 dk (30×30sn poll) boyunca HTTPS `000` döndü — TLS handshake `SSL_ERROR_SYSCALL`. `vercel domains inspect` "not configured properly" uyarısını kaldırmıştı (yani DNS'i görmüştü) ama `vercel certs ls` çıktısında **sadece ameliea.co vardı, corvus-tech.co yoktu** → sertifika hiç üretilmemiş.
+- **Ağ elemesi:** `curl --resolve ameliea.co:443:76.76.21.21 https://ameliea.co` → **200**. Yani 76.76.21.21 erişilebilir, sandbox/ağ sorunu değil, sorun sertifikada.
+- **Fix:** `vercel certs issue corvus-tech.co www.corvus-tech.co` → 12 sn'de `cert_K8vvQUGWFbX4nXGdeWRan4eI` (Let's Encrypt YR2, notAfter 2026-10-28, auto-renew açık).
+
+**3. Yan tuzak — yerel DNS cache:** macOS resolver eski Firebase IP'sini tuttuğu için düz `curl https://corvus-tech.co/tr` **200 + `<title>CORVUS TECH TERMINAL</title>`** döndürüyordu (Firebase'in terminal SPA'i) — "site çalışıyor" sanılabilirdi. Gerçek durum ancak `--resolve ...:76.76.21.21` ile görüldü. Temizleme: `sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder`.
+
+**4. Doğrulama (hepsi `--resolve corvus-tech.co:443:76.76.21.21` ile, PASS):**
+| Yol | Sonuç |
+|---|---|
+| `/` | 307 → `/en` (proxy.ts dil yönlendirmesi) ✓ |
+| `/tr` | 200 · `<title>Corvus Tech — Ürün stüdyosu</title>` ✓ |
+| `/en` | 200 ✓ |
+| `/tr/work` | 200 ✓ |
+| `/terminal` | 200 · `<title>CORVUS TECH TERMINAL</title>` ✓ |
+| `/terminal/assets/index-BbwEn8hU.js` | 200 (rewrite asset akışı sağlam) ✓ |
+| `www.corvus-tech.co` | 307 → siteye ✓ |
+| Sertifika | `CN=corvus-tech.co`, Let's Encrypt, 2026-07-30 → 2026-10-28 ✓ |
+
+**Etki:** Site piyasaya açık. `/terminal` Firebase'de yaşamaya devam ediyor, Vercel rewrite'ı üzerinden aynı origin'den servis ediliyor — DNS değişimi terminali bozmadı, tam tersine asıl kurgu (kök=portfolyo) ancak şimdi aktifleşti.
 
 ### 2026-07-30 — Perf turu 2: /work geç açılıyor (CEO şikâyeti) — `c5f4933`
 **İki kök neden:**
