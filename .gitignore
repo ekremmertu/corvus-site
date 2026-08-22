@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Marka filmi ham medyasi (57MB) — script ile yeniden uretilebilir.
+# build_intro.py kod oldugu icin haric tutulmaz.
+brand-src/*.mp4
+brand-src/*.png
+brand-src/ascii_frames/

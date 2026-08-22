@@ -75,6 +75,33 @@ export default async function ProjectPage({
         </VT>
         <p className="lede mt-6 max-w-[52ch] text-[17px]">{project.summary[lang]}</p>
 
+        {(project.appStoreUrl || project.liveUrl) && (
+          <div className="mt-8 flex flex-wrap gap-3">
+            {project.appStoreUrl && (
+              <a
+                href={project.appStoreUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+                data-magnetic
+              >
+                {d.work.appStore}
+              </a>
+            )}
+            {project.liveUrl && (
+              <a
+                href={project.liveUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+                data-magnetic
+              >
+                {d.work.visitSite}
+              </a>
+            )}
+          </div>
+        )}
+
         <dl className="mt-12 grid gap-8 border-t border-[color:var(--c-border)] pt-8 sm:grid-cols-3 lg:grid-cols-4">
           <div>
             <dt className="eyebrow">{d.work.status}</dt>

@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { categories, projects } from "@/data/projects";
+import { SITE } from "@/lib/site";
 
 const TRIGGER = "corvus";
 
@@ -114,7 +115,7 @@ export default function TerminalEgg() {
         put("guest — but the studio behind this site ships real products.");
         break;
       case "contact":
-        put("hello@corvus-tech.co — tell us the problem, not the spec.");
+        put(`${SITE.email} — tell us the problem, not the spec.`);
         break;
       case "clear":
         setLines([]);

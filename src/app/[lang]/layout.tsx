@@ -12,6 +12,7 @@ import Footer from "@/components/Footer";
 import CustomCursor from "@/components/fx/CustomCursor";
 import SweepFx from "@/components/fx/SweepFx";
 import TerminalEgg from "@/components/fx/TerminalEgg";
+import Intro from "@/components/fx/Intro";
 
 const display = Archivo({
   subsets: ["latin", "latin-ext"],
@@ -93,7 +94,18 @@ export default async function LocaleLayout({
 
   return (
     <html lang={lang} className={`${display.variable} ${body.variable} ${mono.variable}`}>
+      <head>
+        {/* Açılış bu oturumda görüldüyse ilk boyamadan önce işaretle —
+            aksi halde tekrar yüklemede tek karelik bir sıçrama görünür. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{if(sessionStorage.getItem('cv_intro')==='1'){document.documentElement.dataset.introSeen='1'}}catch(e){}",
+          }}
+        />
+      </head>
       <body className="grain relative min-h-screen antialiased">
+        <Intro locale={lang} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

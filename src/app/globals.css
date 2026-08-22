@@ -370,8 +370,153 @@ html.custom-cursor [role="button"] {
   }
 }
 
+/* ---------- Brand mark ---------- */
+/* PNG alfa kanalı maske olarak kullanılır; renk --c-live'dan gelir,
+   böylece marka işareti aktif disiplin rengiyle birlikte değişir. */
+.brand-mark {
+  display: block;
+  background-color: var(--c-live);
+  -webkit-mask: url("/brand/corvus-mark.png") center / contain no-repeat;
+  mask: url("/brand/corvus-mark.png") center / contain no-repeat;
+  transition: background-color 320ms ease;
+}
+
+/* ---------- Intro (terminal açılışı) ---------- */
+/* Oturumda görüldüyse layout'taki inline script data-intro-seen yazar;
+   böylece tekrar yüklemede tek kare bile görünmez. */
+html[data-intro-seen="1"] .intro {
+  display: none;
+}
+
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  background: var(--c-bg);
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 380ms ease;
+}
+
+.intro--out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.intro__term,
+.intro__ascii {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  color: var(--c-live);
+  margin: 0;
+  white-space: pre;
+}
+
+.intro__term {
+  font-size: clamp(9px, 1.55vw, 15px);
+  line-height: 1.55;
+  letter-spacing: 0.04em;
+  min-width: 34ch;
+}
+
+.intro__inv {
+  background: var(--c-live);
+  color: var(--c-bg);
+  padding: 0 0.25em;
+}
+
+.intro__cur {
+  display: inline-block;
+  width: 0.6em;
+  height: 1em;
+  vertical-align: -0.15em;
+  background: var(--c-live);
+  animation: intro-blink 0.9s steps(1) infinite;
+}
+
+@keyframes intro-blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50.1%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.intro__mark {
+  display: grid;
+  justify-items: center;
+  gap: clamp(14px, 3vw, 28px);
+}
+
+/* ASCII gridi CELL_RATIO 0.55 ile üretildi: karakter genişliği ≈ 0.6em olduğuna
+   göre satır yüksekliği 0.6/0.55 ≈ 1.09em olmalı. letter-spacing eklenirse
+   kuzgun yatay gerilir — bu yüzden sıfır. */
+.intro__ascii {
+  font-size: clamp(4.6px, 1.06vw, 13px);
+  line-height: 1.09;
+  letter-spacing: 0;
+  min-height: 38.2em;
+}
+
+.intro__word {
+  font-family: var(--font-display), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(20px, 3.4vw, 34px);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--c-text);
+  animation: intro-word 420ms ease both;
+}
+
+.intro__word i {
+  font-style: normal;
+  color: var(--c-live);
+}
+
+@keyframes intro-word {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.intro__skip {
+  position: absolute;
+  right: clamp(16px, 3vw, 32px);
+  bottom: clamp(16px, 3vw, 32px);
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--c-text-faint);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-pill);
+  padding: 6px 14px;
+  cursor: pointer;
+  transition:
+    color 200ms ease,
+    border-color 200ms ease;
+}
+
+.intro__skip:hover {
+  color: var(--c-live);
+  border-color: var(--c-live);
+}
+
 /* ---------- Accessibility: motion ---------- */
 @media (prefers-reduced-motion: reduce) {
+  .intro {
+    display: none;
+  }
+
   html {
     scroll-behavior: auto;
   }

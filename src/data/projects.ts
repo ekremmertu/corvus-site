@@ -39,6 +39,14 @@ export interface Project {
   metrics?: { label: L10n; value: string }[];
   client?: L10n;
   featured?: boolean;
+  /**
+   * Yayındaki iOS uygulamasının App Store sayfası.
+   * Sadece App Store'da VARLIĞI DOĞRULANMIŞ uygulamalarda doldurulur
+   * (iTunes lookup API ile teyit edildi, 2026-07-30).
+   */
+  appStoreUrl?: string;
+  /** Canlı web ürününün adresi (web/fintech kategorileri). */
+  liveUrl?: string;
 }
 
 export const categories: Category[] = [
@@ -284,6 +292,7 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["SwiftUI", "Swift 6", "Supabase", "StoreKit 2", "AI itinerary"],
     featured: true,
+    appStoreUrl: "https://apps.apple.com/tr/app/tripwalkers/id6764424121",
     summary: {
       en: "AI travel planner that turns a city and three free days into an hour-by-hour itinerary.",
       tr: "Bir şehri ve üç boş günü saat saat gezi planına çeviren AI seyahat planlayıcı.",
