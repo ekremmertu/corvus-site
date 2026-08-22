@@ -402,12 +402,6 @@ html.custom-cursor [role="button"] {
 }
 
 /* ---------- Intro (terminal açılışı) ---------- */
-/* Oturumda görüldüyse layout'taki inline script data-intro-seen yazar;
-   böylece tekrar yüklemede tek kare bile görünmez. */
-html[data-intro-seen="1"] .intro {
-  display: none;
-}
-
 .intro {
   position: fixed;
   inset: 0;

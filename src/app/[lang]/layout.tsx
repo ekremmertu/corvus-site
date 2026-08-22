@@ -94,16 +94,6 @@ export default async function LocaleLayout({
 
   return (
     <html lang={lang} className={`${display.variable} ${body.variable} ${mono.variable}`}>
-      <head>
-        {/* Açılış bu oturumda görüldüyse ilk boyamadan önce işaretle —
-            aksi halde tekrar yüklemede tek karelik bir sıçrama görünür. */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html:
-              "try{if(location.search.indexOf('intro=1')<0&&sessionStorage.getItem('cv_intro')==='1'){document.documentElement.dataset.introSeen='1'}}catch(e){}",
-          }}
-        />
-      </head>
       <body className="grain relative min-h-screen antialiased">
         <Intro locale={lang} />
         <script
