@@ -1,7 +1,7 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Marka sürümü 2026-08-23'te canlıya alındı: son commit `28477be`, build yeşil (67 sayfa, 0 TS hatası). Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. 2026-08-23'te iki tur çıkıldı: marka sürümü (`28477be`) + ürün linkleri (`e9b5941`). Build yeşil (67 sayfa, 0 TS hatası). Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
@@ -33,6 +33,26 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (2. tur) — Ürün linkleri + "App Store'da yakında" rozeti
+
+**Ne yapıldı**
+
+1. **`appStoreSoon?: boolean` alanı eklendi** (`projects.ts`). Mağaza linki henüz yokken, buton görünümlü ama **pasif** bir rozet basar: `.btn-soon` (kesikli kenarlık) + `.soon-dot` (`--c-live` renginde nokta, disiplin rengiyle değişir). Kural: `appStoreUrl` dolduğu an bu alan silinir, ikisi birlikte kullanılmaz (`page.tsx`'te `&& !project.appStoreUrl` guard'ı var).
+   - Sözlük: `work.appStoreSoon` → "Coming soon to the App Store" / "App Store'da yakında"
+
+2. **CVtoapply → `liveUrl: https://cvtoapply.co`**. ⚠️ **`.com` DEĞİL** — `cvtoapply.com` boş park sayfası, ürün `.co` üzerinde ("CV'ni tahmine bırakma, ölç"). curl ile title karşılaştırılarak ayırt edildi.
+
+3. **SplitTable → `liveUrl: https://splittable.co` + `appStoreSoon: true`.**
+   - ⚠️ **Bilinçli kabul edilmiş sorun:** `splittable.co` şu an **GoDaddy park/reklam sayfası** servis ediyor (`ap:"parking"`, NS ns73/ns74.domaincontrol.com). "Canlı siteyi gör" butonu ziyaretçiyi oraya götürüyor. CEO'ya 3 seçenek sunuldu (linki koyma / park sayfasıyla koy / önce siteyi kur), **CEO "linki koy" dedi**. Site kurulunca sorun kendiliğinden kapanır.
+   - ⚠️ **App Store tuzağı:** iTunes search'te "Splittable: AI Bill Split Scan" (id 6747049315, geliştirici **George King**) çıkıyor — **bizim uygulamamız DEĞİL**. Bu linki koymak ziyaretçiyi rakibe göndermek olurdu. `appStoreUrl` bilerek boş bırakıldı, rozet kullanıldı. Kendi uygulamamız yayınlanınca gerçek link CEO'dan alınacak.
+
+4. **Doğrulama:** build 67 sayfa 0 hata → prod deploy (`corvus-site-nu3kaifk9`, 36 sn) → curl ile canlı teyit: `/tr/work/splittable` rozet+link ✓ · `/tr/work/cvtoapply` `.co` linki ✓ · `/en/work/splittable` İngilizce rozet ✓ · rozet SADECE splittable'da (`btn-soon` diğer sayfalarda 0) ✓
+
+**Öğrenilen ders (build):** `.next` klasörü Finder'ın oluşturduğu `.DS_Store` yüzünden silinemeyip `ENOTEMPTY` verdi. Çözüm: `rm -f .next/.DS_Store && rmdir .next`.
+
+**Commit:** `e9b5941`
+
 
 ### 2026-08-23 — Marka sürümü canlıya alındı + LinkedIn açılış metinleri
 
