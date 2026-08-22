@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import type { Locale } from "@/data/projects";
+import type { Locale } from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
 import { SITE } from "@/lib/site";
 

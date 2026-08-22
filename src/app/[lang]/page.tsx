@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getDict, isLocale } from "@/i18n/dict";
-import { projects, categories } from "@/data/projects";
+import { categories, countsByCategory, projects, toCards } from "@/data/projects";
 import Hero from "@/components/Hero";
 import BrandFilm from "@/components/BrandFilm";
 import DisciplineStage from "@/components/DisciplineStage";
@@ -22,7 +22,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
 
   return (
     <>
-      <Hero locale={lang} d={d} />
+      <Hero locale={lang} d={d} counts={countsByCategory()} />
       <BrandFilm locale={lang} />
       <Marquee />
       <Stats
@@ -35,7 +35,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
         ]}
       />
       <DisciplineStage locale={lang} d={d} />
-      <HomeWork locale={lang} d={d} />
+      <HomeWork locale={lang} d={d} cards={toCards()} />
       <Process locale={lang} d={d} />
       <Faq d={d} />
       <Contact d={d} />

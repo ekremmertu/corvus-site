@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { getDict, isLocale, locales } from "@/i18n/dict";
+import { toCards } from "@/data/projects";
 import WorkExplorer from "@/components/WorkExplorer";
 
 export function generateStaticParams() {
@@ -41,7 +42,7 @@ export default async function WorkPage({ params }: PageProps<"/[lang]/work">) {
         <p className="lede mt-5">{d.work.sub}</p>
       </header>
       <Suspense>
-        <WorkExplorer locale={lang} d={d} />
+        <WorkExplorer locale={lang} d={d} cards={toCards()} />
       </Suspense>
     </>
   );

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { projects } from "@/data/projects";
+import { openProjects } from "@/data/projects";
 import { locales } from "@/i18n/dict";
 import { SITE } from "@/lib/site";
 
@@ -29,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
       alternates: alternates("/work"),
     });
-    for (const project of projects) {
+    for (const project of openProjects()) {
       entries.push({
         url: `${SITE.url}/${locale}/work/${project.slug}`,
         lastModified,

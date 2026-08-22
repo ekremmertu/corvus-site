@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import type { Locale } from "@/data/projects";
+import type { Locale } from "@/data/taxonomy";
 
 /**
  * Marka filmi — hero'nun hemen altında tam genişlik şerit.

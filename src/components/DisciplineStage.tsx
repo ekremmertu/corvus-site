@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { categories, type Locale } from "@/data/projects";
+import { categories, type Locale } from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
 import { useScene } from "@/components/scene/SceneProvider";
 

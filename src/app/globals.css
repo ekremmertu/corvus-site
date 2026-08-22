@@ -254,6 +254,77 @@ body {
   transform: none;
 }
 
+/* ---------- Perdeli kart (yayinda olmayan / gizli isler) ---------- */
+/* Gercek metin hic basilmaz; asagidaki cubuklar sadece "burada bir sey var"
+   hissi verir. Blur guvenlik degildir, o yuzden icerik sunucuda kesilir. */
+.veiled {
+  cursor: default;
+}
+
+.veil-ribbon {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  align-self: flex-start;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid color-mix(in srgb, var(--veil-accent) 42%, transparent);
+  background: color-mix(in srgb, var(--veil-accent) 12%, transparent);
+  color: var(--c-text);
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.veil-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--veil-accent);
+  animation: veilPulse 2.4s ease-in-out infinite;
+}
+
+@keyframes veilPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.28; }
+}
+
+.veil-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  filter: blur(7px);
+  opacity: 0.5;
+  user-select: none;
+  pointer-events: none;
+}
+
+.veil-bar {
+  height: 13px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--c-text) 55%, transparent),
+    color-mix(in srgb, var(--c-text) 18%, transparent)
+  );
+}
+
+.veil-bar-title {
+  height: 26px;
+  width: 62%;
+}
+
+.veil-bar-short {
+  width: 44%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .veil-dot {
+    animation: none;
+  }
+}
+
 .soon-dot {
   width: 7px;
   height: 7px;

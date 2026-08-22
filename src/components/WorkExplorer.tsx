@@ -4,10 +4,10 @@ import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import {
   categories,
-  projects,
+  type CardProject,
   type CategorySlug,
   type Locale,
-} from "@/data/projects";
+} from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
 import { useScene } from "@/components/scene/SceneProvider";
 import ProjectCard from "@/components/ProjectCard";
@@ -17,9 +17,11 @@ type Filter = CategorySlug | "all";
 export default function WorkExplorer({
   locale,
   d,
+  cards,
 }: {
   locale: Locale;
   d: Dict;
+  cards: CardProject[];
 }) {
   const raw = useSearchParams().get("d");
   const initial: Filter =
@@ -44,7 +46,7 @@ export default function WorkExplorer({
   }, [filter, setActive]);
 
   const list = useMemo(
-    () => (filter === "all" ? projects : projects.filter((p) => p.category === filter)),
+    () => (filter === "all" ? cards : cards.filter((p) => p.category === filter)),
     [filter]
   );
 
@@ -83,8 +85,8 @@ export default function WorkExplorer({
               {o.label}
               <span className="mono ml-2 text-[11px] opacity-70">
                 {o.key === "all"
-                  ? projects.length
-                  : projects.filter((p) => p.category === o.key).length}
+                  ? cards.length
+                  : cards.filter((p) => p.category === o.key).length}
               </span>
             </button>
           );
@@ -93,7 +95,7 @@ export default function WorkExplorer({
 
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {list.map((p, i) => (
-          <ProjectCard key={p.slug} project={p} locale={locale} index={i} />
+          <ProjectCard key={p.slug} project={p} locale={locale} index={i} d={d} />
         ))}
       </div>
       {list.length === 0 && <p className="lede mt-10">{d.work.empty}</p>}

@@ -3,7 +3,7 @@
 import { useMemo } from "react";
 import { RoundedBox } from "@react-three/drei";
 import * as THREE from "three";
-import type { CategorySlug } from "@/data/projects";
+import type { CategorySlug } from "@/data/taxonomy";
 
 interface ObjectProps {
   accent: string;

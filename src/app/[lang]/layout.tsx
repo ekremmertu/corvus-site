@@ -12,6 +12,7 @@ import Footer from "@/components/Footer";
 import CustomCursor from "@/components/fx/CustomCursor";
 import SweepFx from "@/components/fx/SweepFx";
 import TerminalEgg from "@/components/fx/TerminalEgg";
+import { openProjects, toCards } from "@/data/projects";
 import Intro from "@/components/fx/Intro";
 
 const display = Archivo({
@@ -114,7 +115,7 @@ export default async function LocaleLayout({
           <Footer locale={lang} d={d} />
           <CustomCursor />
           <SweepFx />
-          <TerminalEgg />
+          <TerminalEgg entries={toCards(openProjects())} />
         </SceneProvider>
       </body>
     </html>
