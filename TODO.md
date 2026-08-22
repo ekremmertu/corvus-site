@@ -1,7 +1,7 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. 2026-08-23'te iki tur çıkıldı: marka sürümü (`28477be`) + ürün linkleri (`e9b5941`). Build yeşil (67 sayfa, 0 TS hatası). Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. 2026-08-23'te üç tur çıkıldı: marka sürümü (`28477be`) → ürün linkleri (`e9b5941`) → favicon+intro düzeltmesi (`f504cff`). Build yeşil (**69 sayfa** — icon route'ları eklendi), 0 TS hatası. Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
@@ -33,6 +33,31 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (3. tur) — Favicon Vercel üçgeniydi + intro tekrar oynatma
+
+**CEO şikâyeti:** "tarayıcı sekmesinde logomuz değil Vercel'in üçgeni var" + "refresh yapıyorum animasyon oynamıyor"
+
+**1. Favicon — GERÇEK BUG.** `src/app/favicon.ico` hâlâ create-next-app'ın bıraktığı dosyaydı (25.931 bayt, 29 Tem tarihli). Marka turunda logo her yere konmuş ama **sekme ikonu atlanmıştı**.
+- Çözüm: `public/brand/corvus-mark.png`'den üretildi → `favicon.ico` (16/32/48/64/128/256) + `icon.png` (512) + `apple-icon.png` (180), Next dosya konvansiyonu.
+- ⚠️ **Ders 1 — küçültme sırası:** şeffaf RGBA'yı doğrudan küçültmek kenarda hale ve 16px'te **yeşil piksel artefaktı** üretti. Doğrusu: önce 1024'te `--c-bg` (#05060a) zemine düzleştir, **sonra** küçült.
+- ⚠️ **Ders 2 — MaxFilter işe yaramaz:** 16px'te ince konturu kalınlaştırmak için alfaya `ImageFilter.MaxFilter(3)` denendi → şekil lapaya döndü + renk taşması. Geri alındı.
+- ⚠️ **Ders 3 — ICO RGBA olmalı:** RGB kaydedilince Turbopack build patlıyor: `Format error decoding Ico: The PNG is not in RGBA format!`. Frame'ler `.convert('RGBA')` ile kaydedilecek.
+- Dolgu farklı: ≤64px'te %8 (kuş büyük görünsün), büyük boylarda %16.
+- Görsel doğrulama: 32px'te kuzgun net okunuyor, 16px yumuşak ama artefaktsız (Retina zaten 32'yi kullanıyor).
+
+**2. Intro "oynamıyor" — BUG DEĞİL, tasarım.** `sessionStorage.cv_intro` sekme oturumunda bir kez oynatıyor; F5 aynı oturum olduğu için oynamıyor. Ziyaretçiyi yormamak için bilinçli karardı.
+- Eklendi: **`?intro=1`** → hem `cv_intro` kaydını hem `prefers-reduced-motion`'ı geçersiz kılar. Açık istek varsayılanı yener.
+- `layout.tsx`'teki inline `<head>` script'i de aynı parametreyi tanımalı, yoksa CSS overlay'i gizliyor (`html[data-intro-seen="1"]`).
+- Test adresi: `https://corvus-tech.co/tr?intro=1`
+- ⚠️ Hiç oynamıyorsa 2. şüpheli: macOS → Erişilebilirlik → **Hareketi Azalt** açık.
+
+**3. Temizlik:** kullanılmayan create-next-app artıkları silindi (`next.svg`, `vercel.svg`, `file/globe/window.svg`) — kodda referansları yoktu, grep ile teyit edildi. `vercel.svg` artık 404.
+
+**Doğrulama (canlı):** favicon.ico 200, 6 boyut da içinde ✓ · `<link rel=icon>` + `icon.png` + `apple-touch-icon` HTML'de ✓ · `?intro=1` çalışıyor ✓ · vercel.svg 404 ✓
+
+**Commit:** `f504cff` · deploy `corvus-site-8fge9zxtb`
+
 
 ### 2026-08-23 (2. tur) — Ürün linkleri + "App Store'da yakında" rozeti
 
