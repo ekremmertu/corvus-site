@@ -100,7 +100,7 @@ export default async function LocaleLayout({
         <script
           dangerouslySetInnerHTML={{
             __html:
-              "try{if(sessionStorage.getItem('cv_intro')==='1'){document.documentElement.dataset.introSeen='1'}}catch(e){}",
+              "try{if(location.search.indexOf('intro=1')<0&&sessionStorage.getItem('cv_intro')==='1'){document.documentElement.dataset.introSeen='1'}}catch(e){}",
           }}
         />
       </head>

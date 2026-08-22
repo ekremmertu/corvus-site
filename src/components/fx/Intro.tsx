@@ -67,6 +67,15 @@ export default function Intro({ locale }: { locale: Locale }) {
   }, []);
 
   useEffect(() => {
+    // ?intro=1 → açılışı yeniden izlemek isteyen kişi açıkça istemiştir:
+    // hem "görüldü" kaydını hem hareket azaltmayı geçersiz kılar.
+    let forced = false;
+    try {
+      forced = new URLSearchParams(window.location.search).get("intro") === "1";
+    } catch {
+      /* URL okunamıyorsa normal akış */
+    }
+
     // Daha önce görüldüyse veya hareket azaltma açıksa hiç oynatma
     let seen = false;
     try {
@@ -75,7 +84,7 @@ export default function Intro({ locale }: { locale: Locale }) {
       /* erişilemiyorsa oynat */
     }
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (seen || reduced) {
+    if (!forced && (seen || reduced)) {
       skipped.current = true;
       setDone(true);
       return;
