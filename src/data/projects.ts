@@ -88,6 +88,7 @@ export const projects: Project[] = [
     name: "SplitTable",
     category: "ios",
     status: "beta",
+    veil: "soon",
     year: "2026",
     stack: ["SwiftUI", "Supabase", "iPad", "XCTest"],
     featured: true,
@@ -123,6 +124,7 @@ export const projects: Project[] = [
     name: "NöbetGO",
     category: "ios",
     status: "beta",
+    veil: "soon",
     year: "2026",
     stack: ["SwiftUI", "MapKit", "XCUITest"],
     summary: {
@@ -151,6 +153,7 @@ export const projects: Project[] = [
     name: "TwinEars",
     category: "ios",
     status: "beta",
+    veil: "soon",
     year: "2026",
     stack: ["MultipeerConnectivity", "MTAudioProcessingTap", "Broadcast Extension"],
     summary: {
@@ -179,6 +182,7 @@ export const projects: Project[] = [
     name: "Moto Asistan",
     category: "ios",
     status: "design",
+    veil: "soon",
     year: "2026",
     stack: ["SwiftUI", "3D model viewer", "AI diagnostics"],
     summary: {
@@ -207,6 +211,7 @@ export const projects: Project[] = [
     name: "Dermia",
     category: "ios",
     status: "design",
+    veil: "soon",
     year: "2026",
     stack: ["SwiftUI", "Vision", "Barcode", "AI assistant"],
     summary: {
@@ -235,6 +240,7 @@ export const projects: Project[] = [
     name: "Gece Senin",
     category: "ios",
     status: "design",
+    veil: "soon",
     year: "2026",
     stack: ["SwiftUI", "HealthKit", "Audio"],
     summary: {
@@ -263,6 +269,7 @@ export const projects: Project[] = [
     name: "BeAnyone",
     category: "ios",
     status: "development",
+    veil: "soon",
     year: "2026",
     stack: ["SwiftUI", "Swift 6 actors", "Generative AI", "PostHog"],
     summary: {
@@ -291,6 +298,7 @@ export const projects: Project[] = [
     name: "Society Food",
     category: "ios",
     status: "development",
+    veil: "soon",
     year: "2026",
     stack: ["SwiftUI", "MapKit", "Supabase"],
     summary: {
@@ -446,6 +454,7 @@ export const projects: Project[] = [
     name: "Müşteri Bul",
     category: "web",
     status: "development",
+    veil: "soon",
     year: "2026",
     stack: ["Next.js", "Supabase", "Lead scoring"],
     summary: {
@@ -799,6 +808,7 @@ export const projects: Project[] = [
     name: "Holiday Route Planner",
     category: "enterprise",
     status: "delivered",
+    veil: "confidential",
     year: "2026",
     stack: ["Python", "Scheduling logic", "Excel I/O"],
     featured: true,
@@ -829,6 +839,7 @@ export const projects: Project[] = [
     name: "Shipment Reconciliation",
     category: "enterprise",
     status: "delivered",
+    veil: "confidential",
     year: "2026",
     stack: ["Python", "SAP exports", "Reconciliation"],
     client: { en: "Global FMCG company", tr: "Global bir FMCG şirketi" },
