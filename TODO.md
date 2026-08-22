@@ -1,7 +1,7 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co** (2026-07-30). Build yeşil (67 sayfa), son commit `7df740d`. Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Marka sürümü 2026-08-23'te canlıya alındı: son commit `28477be`, build yeşil (67 sayfa, 0 TS hatası). Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
@@ -21,9 +21,11 @@
 | 5b | ~~Afilli paket (4 katman)~~ ✅ DONE | — | cursor+magnetic, tilt+glare, count-up, scramble, sweep, ViewTransition, terminal egg — `7cf289d` |
 | 6 | GitHub push | CEO kararı | Şu an lokal git |
 | 9 | **Logo mavisi ile iOS disiplin rengi çakışması** — ikisi de `#5B8CFF` | CEO kararı | Logo brand mavisinde kalsın, `--c-ios` hafif kaydırılsın (öneri `#7BA5FF`). Ya da tam tersi. Tek satır CSS. |
-| 10 | Marka filmi + intro'yu commit et | Claude solo | Henüz commit edilmedi (2026-07-30 turu) |
+| 10 | ~~Marka filmi + intro'yu commit et~~ ✅ DONE | — | 2026-08-23, commit `28477be` + prod deploy |
+| 13 | **LinkedIn linkini siteye ekle** | Claude solo (URL CEO'dan) | `site.ts`'e `linkedin` alanı + `Footer.tsx` link. CEO 2026-08-23'te şirket sayfası açtı. |
+| 14 | `hello@corvus-tech.co` posta kutusu kur | CEO | Şu an sitede kişisel Gmail görünüyor (`site.ts`). LinkedIn'de kurumsal görünüm için gerekli. |
 | 11 | Brand film bölümünün görsel doğrulaması | Claude solo | Yerleşim sayısal doğrulandı, ekran görüntüsü alınamadı — CEO tarayıcıda bakıp onaylasın |
-| 12 | 9:16 / 1:1 sosyal videoları LinkedIn/X'e yükle | CEO | `brand-src/corvus-intro-9x16.mp4`, `corvus-intro-1x1.mp4` hazır |
+| 12 | 9:16 / 1:1 sosyal videoları LinkedIn/X'e yükle | CEO | `brand-src/corvus-intro-9x16.mp4`, `corvus-intro-1x1.mp4` hazır. LinkedIn giriş gönderisiyle birlikte kullanılacak. |
 
 **Yapma kuralları:**
 - İçerik değişikliği SADECE `src/data/projects.ts` — başka dosyaya kopya metin yazma
@@ -31,6 +33,33 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 — Marka sürümü canlıya alındı + LinkedIn açılış metinleri
+
+**Ne yapıldı**
+
+1. **2026-07-30 marka turu commit edildi ve prod'a çıkıldı.** 5 hafta boyunca sadece lokalde duran marka çalışması (mavi logo, `fx/Intro.tsx` terminal açılışı, `fx/corvusAscii.ts`, `BrandFilm.tsx`, `public/brand/`, `public/videos/corvus-intro.*`) tek committe toplandı → `28477be`, 30 dosya.
+   - `npm run build` → ✅ 67 sayfa, 0 TS hatası, derleme 10.9 sn.
+   - `npx vercel --prod --yes` → `corvus-site-roji5dq4z-...vercel.app`, 48 sn, `corvus-tech.co`'ya alias'landı.
+   - **Canlı doğrulama (curl):** `/tr` 200 (101 KB) · `/brand/corvus-mark.png` 200 (33 KB) · `/videos/corvus-intro.webm` 200 (2.44 MB) · `/en/work/tripwalkers` 200 (42 KB) · HTML'de `brand-mark`/`data-intro-seen` bulundu.
+   - **Ağır medya bundle'a girmedi:** `.gitignore` içindeki `brand-src/*.mp4|*.png|ascii_frames/` kuralı sayesinde 51 MB ham medyadan sadece `brand-src/build_intro.py` commitlendi. `git add -A -n` ile teyit edildi.
+   - Bu commit ayrıca güvenlik turunun kalıntılarını da taşıdı: Footer'dan `/terminal` linki, `proxy.ts` muafiyeti ve `next.config.ts` rewrite'ları silinmiş hâlde prod'a gitti.
+
+2. **`projects.ts`'e `appStoreUrl` / `liveUrl` alanları canlıya çıktı.** TripWalkers App Store linki (`id6764424121`, iTunes lookup ile teyitli) artık yayında.
+
+3. **LinkedIn şirket sayfası açıldı (CEO).** Bu oturumda yazılan metinler — **henüz dosyaya kaydedilmedi, konuşma içinde**:
+   - Giriş gönderisi (TR) — kuzgun hikâyesi + 5 disiplin + 4 kapı + davet
+   - Hakkında metni — **1.545 karakter** (LinkedIn sınırı 2.000, python ile sayıldı)
+   - Slogan — **73 karakter** (sınır 120)
+   - 20 uzmanlık etiketi (Specialties) + sektör/büyüklük/kuruluş kutucukları
+   - **Rakam kararı:** "29 ürün" `projects.ts`'ten sayıldı (34 slug − 5 kategori). "App Store'da X uygulama" gibi net sayı YAZILMADI; veride 3 `live` + 1 `testflight` var, abartı olmasın diye "yayında olanlar da var" denildi.
+
+**Kök neden (neden 5 hafta gecikti):** 2026-07-30 turu build alıp doğruladı ama commit/deploy adımını CEO onayına bıraktı, TODO #10 olarak yazıldı ve orada bekledi. Ders: marka/görsel değişiklikleri de kod gibi aynı turda prod'a çıkmalı, yoksa canlı site ile repo arasında sessizce fark birikiyor.
+
+**Etki:** canlı site artık repo ile eşit. Fark 0 commit.
+
+**Commit:** `28477be`
+
 
 ### 2026-07-30 — Marka kimliği + terminal açılışı + marka filmi (henüz commit edilmedi)
 
