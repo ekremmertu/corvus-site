@@ -47,6 +47,8 @@ export interface Project {
   appStoreUrl?: string;
   /** Canlı web ürününün adresi (web/fintech kategorileri). */
   liveUrl?: string;
+  /** Kart perdelensin mi — bkz. veilOf. Yoksa normal görünür. */
+  veil?: Veil;
   /**
    * Uygulama henüz App Store'da değil ama yolda.
    * `appStoreUrl` dolduğunda bu alan silinir — ikisi birlikte kullanılmaz.
@@ -55,19 +57,16 @@ export interface Project {
 }
 
 /**
- * Kartin perdelenip perdelenmedigi. Tek kaynak burasi.
- * - enterprise: musteri isi, adi ve icerigi ASLA gorunmez (NDA)
- * - ios: App Store linki yoksa henuz yayinda degil
- * - web: canli site linki yoksa henuz yayinda degil
- * - fintech / ai: CEO karari 2026-08-23 — acik kalir
+ * Kartin perdelenip perdelenmedigi.
+ * TAHMIN YOK — her proje kendi `veil` alanini tasir (CEO listesi, 2026-08-23).
+ * - "confidential": musteri isi, adi ve icerigi ASLA gorunmez (NDA)
+ * - "soon": henuz yayinda degil
+ * - alan yoksa: kart normal gorunur
  */
 export type Veil = "soon" | "confidential" | null;
 
-export function veilOf(p: Project): Veil {
-  if (p.category === "enterprise") return "confidential";
-  if (p.category === "ios") return p.appStoreUrl ? null : "soon";
-  if (p.category === "web") return p.liveUrl ? null : "soon";
-  return null;
+export function veilOf(p: Pick<Project, "veil">): Veil {
+  return p.veil ?? null;
 }
 
 export const categories: Category[] = [
