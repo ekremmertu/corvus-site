@@ -1,7 +1,7 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. 2026-08-23'te üç tur çıkıldı: marka sürümü (`28477be`) → ürün linkleri (`e9b5941`) → favicon+intro düzeltmesi (`f504cff`). Build yeşil (**69 sayfa** — icon route'ları eklendi), 0 TS hatası. Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `2744c62`, **28 proje** (67 sayfa). 2026-08-23'te beş tur çıkıldı: marka sürümü (`28477be`) → ürün linkleri (`e9b5941`) → favicon+intro düzeltmesi (`f504cff`). Build yeşil (**69 sayfa** — icon route'ları eklendi), 0 TS hatası. Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
@@ -25,6 +25,9 @@
 | 13 | **LinkedIn linkini siteye ekle** | Claude solo (URL CEO'dan) | `site.ts`'e `linkedin` alanı + `Footer.tsx` link. CEO 2026-08-23'te şirket sayfası açtı. |
 | 14 | `hello@corvus-tech.co` posta kutusu kur | CEO | Şu an sitede kişisel Gmail görünüyor (`site.ts`). LinkedIn'de kurumsal görünüm için gerekli. |
 | 11 | Brand film bölümünün görsel doğrulaması | Claude solo | Yerleşim sayısal doğrulandı, ekran görüntüsü alınamadı — CEO tarayıcıda bakıp onaylasın |
+| 15 | **Lingoria + BlokBom! portfolyoya eklensin mi?** | CEO kararı | İkisi de App Store'da yayında ama sitede yok. Eklenecekse metin (summary/description/highlights EN+TR) gerekiyor. |
+| 16 | **Ameliea iOS uygulamasının linki** | CEO | CEO "app de var" dedi ama App Store'da bulunamadı (TR+US arama, geliştirici hesabı listesi — üçünde de yok). Farklı hesapta olabilir; link CEO'dan gelecek. |
+| 17 | Proje adı `Amelie.co` → `Ameliea` düzeltilsin mi? | CEO kararı | Gerçek marka ve alan adı `ameliea.co`. |
 | 12 | 9:16 / 1:1 sosyal videoları LinkedIn/X'e yükle | CEO | `brand-src/corvus-intro-9x16.mp4`, `corvus-intro-1x1.mp4` hazır. LinkedIn giriş gönderisiyle birlikte kullanılacak. |
 
 **Yapma kuralları:**
@@ -33,6 +36,43 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (5. tur) — Gerçek App Store linkleri, splittable.me, bir proje silindi + DİSK TEMİZLİĞİ
+
+**⚠️ EN ÖNEMLİ BULGU — mağaza linkini İSİMLE ARAYARAK bulma.** Doğru yöntem: TripWalkers'ın `artistId`'sini çek, sonra o geliştiricinin tüm uygulamalarını listele:
+```
+curl -s "https://itunes.apple.com/lookup?id=6764424121&country=tr"          # -> artistId 1873744126
+curl -s "https://itunes.apple.com/lookup?id=1873744126&entity=software&country=tr"
+```
+**Geliştirici hesabı: `Arzu UGUR` (artistId 1873744126) — 5 uygulama yayında:**
+| Uygulama | trackId | Portfolyoda? |
+|---|---|---|
+| Quill: Brüt Net Maaş, Bütçe | 6768395513 | ✅ eklendi |
+| CVtoapply: ATS Resume Score | 6790497658 | ✅ eklendi |
+| TripWalkers | 6764424121 | ✅ zaten vardı |
+| **Lingoria: Learn English Fast** | 6769572261 | ❌ **portfolyoda HİÇ YOK** |
+| **BlokBom!** | 6787959211 | ❌ **portfolyoda HİÇ YOK** |
+
+**Değişiklikler**
+1. **Quill artık `live`** — TestFlight değil. `appStoreUrl` eklendi, `status` `testflight`→`live`, stack'te `TestFlight`→`StoreKit 2`, açıklamalardaki "build 16 TestFlight" cümleleri ve `Status: TestFlight` metriği güncellendi (yayında olan bir üründe "TestFlight'ta" yazması yalan olurdu).
+2. **CVtoapply'a `appStoreUrl`** — web projesiydi, iOS uygulaması da yayında. Artık sayfada hem site hem App Store butonu var.
+3. **SplitTable sitesi `splittable.me`** (CEO düzeltmesi). Önceki tur `.co` konmuştu — o GoDaddy park sayfasıydı. `.me` gerçek: "SplitTable — Hesap için beklemek yok". ⚠️ Park sayfası sorunu böylece kapandı.
+4. **Ameliea sitesi `ameliea.co`.** ⚠️ **`amelie.co` BAŞKASININ** — "Welcome to your new website" placeholder'ı. Veri dosyasındaki proje adı hâlâ `Amelie.co`, gerçek marka `Ameliea` — **isim düzeltmesi CEO onayı bekliyor**.
+5. **Distributor Revision Report SİLİNDİ** (CEO isteği). 29 → **28 proje**.
+   - ⚠️ Sayı iki yerde ELLE yazılıydı, ikisi de 28 yapıldı: `Intro.tsx:21,33` (": 28 products / 1 screen") ve `TerminalEgg.tsx:87` ("all 28 projects"). Ana sayfa istatistiği `projects.length`'ten geldiği için kendiliğinden düzeldi.
+   - Sayfa sayısı 69 → 67 (silinen projenin 2 locale'i).
+
+**Doğrulama (canlı):** `/tr/work/quill` id6768395513 ✓ · `/tr/work/cvtoapply` id6790497658 ✓ · `/tr/work/splittable` splittable.me ✓ · `/tr/work/amelie-co` ameliea.co ✓ · `/tr/work/distributor-revision-report` **404** ✓ · sitemap'te distributor yok ✓
+
+**DİSK TEMİZLİĞİ (CEO onayı: "silinmesi problem olmayacakların hepsini sil")**
+- **3,9 GB → 22 GB boş** (18 GB geri alındı).
+- Silinenler (hepsi kendini yeniden üretir): Xcode DerivedData 7,6G · iOS DeviceSupport 5,5G · npm `_cacache` 2,5G · SwiftPM/pip/Homebrew/deno/python önbellekleri · Brave/Spotify/Google/TradingView önbellekleri.
+- **Silinmedi, CEO kararı bekliyor:** `CoreSimulator/Devices` **26 GB** (26 simulator — silinirse içlerindeki kurulu build'ler ve test verisi gider, Xcode yenilerini kurar) · iOS 26.0.1 runtime imajı **8 GB** (sadece 26.2 kullanılıyorsa gereksiz, yeniden indirilebilir).
+- `xcrun simctl delete unavailable` → silinecek bir şey yoktu.
+- ⚠️ Xcode **Archives** klasörüne DOKUNULMADI — imzalama/dSYM için lazım, önbellek değil.
+
+**Commit:** `2744c62` · deploy `corvus-site-dcjy4y1fq`
+
 
 ### 2026-08-23 (4. tur) — Intro her yenilemede oynuyor + DİSK DOLDU
 
