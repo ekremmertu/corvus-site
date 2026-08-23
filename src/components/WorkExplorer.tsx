@@ -46,7 +46,7 @@ export default function WorkExplorer({
   }, [filter, setActive]);
 
   const list = useMemo(
-    () => (filter === "all" ? cards : cards.filter((p) => p.category === filter)),
+    () => (filter === "all" ? cards.filter((p) => !p.dup) : cards.filter((p) => p.category === filter)),
     [filter]
   );
 
@@ -85,7 +85,7 @@ export default function WorkExplorer({
               {o.label}
               <span className="mono ml-2 text-[11px] opacity-70">
                 {o.key === "all"
-                  ? cards.length
+                  ? cards.filter((p) => !p.dup).length
                   : cards.filter((p) => p.category === o.key).length}
               </span>
             </button>
@@ -95,7 +95,7 @@ export default function WorkExplorer({
 
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {list.map((p, i) => (
-          <ProjectCard key={p.slug} project={p} locale={locale} index={i} d={d} />
+          <ProjectCard key={`${p.category}-${p.slug}`} project={p} locale={locale} index={i} d={d} />
         ))}
       </div>
       {list.length === 0 && <p className="lede mt-10">{d.work.empty}</p>}
