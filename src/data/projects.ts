@@ -88,7 +88,6 @@ export const projects: Project[] = [
     name: "SplitTable",
     category: "ios",
     status: "beta",
-    veil: "soon",
     year: "2026",
     stack: ["SwiftUI", "Supabase", "iPad", "XCTest"],
     featured: true,
@@ -117,6 +116,69 @@ export const projects: Project[] = [
     metrics: [
       { label: { en: "Tests", tr: "Test" }, value: "97/97" },
       { label: { en: "Targets", tr: "Target" }, value: "2" },
+    ],
+  },
+  {
+    slug: "splittable-manager",
+    name: "SplitTable Manager",
+    category: "ios",
+    status: "beta",
+    year: "2026",
+    stack: ["SwiftUI", "Supabase", "iPad", "Analytics"],
+    appStoreSoon: true,
+    liveUrl: "https://splittable.me",
+    summary: {
+      en: "The restaurant side of SplitTable: what every split table is actually telling the owner.",
+      tr: "SplitTable'ın restoran tarafı: bölünen her hesabın işletmeciye aslında ne anlattığı.",
+    },
+    description: {
+      en: "A separate app for the staff and the owner, sharing one Supabase backbone with the guest app. Live table state, how long a table really takes to turn, which menu items carry the check — the operational layer that turns a guest feature into a reason to sign.",
+      tr: "Personel ve işletmeci için ayrı bir uygulama; misafir uygulamasıyla aynı Supabase omurgasını paylaşıyor. Anlık masa durumu, bir masanın gerçekte ne kadar sürede devrettiği, hesabı hangi menü kalemlerinin taşıdığı — misafir özelliğini imza sebebine çeviren operasyon katmanı.",
+    },
+    highlights: {
+      en: [
+        "Same codebase and backbone as the guest app, separate target",
+        "Table turnover and menu performance from real order data",
+        "iPad-first layout for the counter, not a stretched phone screen",
+      ],
+      tr: [
+        "Misafir uygulamasıyla aynı kod tabanı ve omurga, ayrı target",
+        "Gerçek sipariş verisinden masa devir hızı ve menü performansı",
+        "Kasa için iPad öncelikli düzen, esnetilmiş telefon ekranı değil",
+      ],
+    },
+  },
+  {
+    slug: "lingoria",
+    name: "Lingoria",
+    category: "ios",
+    status: "live",
+    year: "2026",
+    stack: ["iOS", "AI voice chat", "CEFR A1–C2"],
+    appStoreUrl: "https://apps.apple.com/tr/app/id6769572261",
+    summary: {
+      en: "English for Turkish speakers, levelled to CEFR — and it talks back.",
+      tr: "Türkçe konuşanlar için İngilizce — CEFR seviyeli ve karşılık veriyor.",
+    },
+    description: {
+      en: "A five-minute adaptive placement test puts the learner on the right rung, then a ten-unit road map runs from A1 to C2. Each level closes with an exit exam across vocabulary, grammar, listening, speaking and writing, and an AI voice partner covers the part a textbook never could.",
+      tr: "Beş dakikalık uyarlanabilir seviye testi öğrenciyi doğru basamağa koyuyor, ardından A1'den C2'ye onar bölümlük yol haritası işliyor. Her seviye kelime, dilbilgisi, dinleme, konuşma ve yazma sınavıyla kapanıyor; AI sesli partner de kitabın asla yapamadığı kısmı üstleniyor.",
+    },
+    highlights: {
+      en: [
+        "Adaptive placement test — the real level in five minutes",
+        "A1 to C2, ten units per level, exit exam at every step",
+        "AI voice conversation instead of a silent vocabulary drill",
+      ],
+      tr: [
+        "Uyarlanabilir seviye testi — gerçek seviye beş dakikada",
+        "A1'den C2'ye, her seviyede on bölüm, her adımda çıkış sınavı",
+        "Sessiz kelime ezberi yerine AI ile sesli konuşma",
+      ],
+    },
+    metrics: [
+      { label: { en: "Status", tr: "Durum" }, value: "App Store" },
+      { label: { en: "Levels", tr: "Seviye" }, value: "A1–C2" },
     ],
   },
   {
@@ -894,7 +956,13 @@ export function toCards(list: Project[] = projects): CardProject[] {
     };
     return veil
       ? base
-      : { ...base, name: p.name, summary: p.summary, metrics: p.metrics };
+      : {
+          ...base,
+          name: p.name,
+          summary: p.summary,
+          metrics: p.metrics,
+          appStoreSoon: p.appStoreSoon,
+        };
   });
 }
 
