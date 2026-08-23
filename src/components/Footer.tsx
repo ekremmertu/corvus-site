@@ -56,7 +56,12 @@ export default function Footer({ locale, d }: { locale: Locale; d: Dict }) {
                 </SectionLink>
               </li>
               <li>
-                <a href={`mailto:${SITE.email}`} className="text-sm text-dim hover:text-ink">
+                <a
+                  href={SITE.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-dim hover:text-ink"
+                >
                   {d.nav.contact}
                 </a>
               </li>

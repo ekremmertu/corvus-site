@@ -86,7 +86,9 @@ export default async function LocaleLayout({
     "@type": "Organization",
     name: SITE.name,
     url: SITE.url,
-    email: SITE.email,
+    // Kişisel e-posta sayfa kaynağında durmasın (spam botları JSON-LD'yi de tarar);
+    // arama motoruna iletişim kanalı olarak LinkedIn gösteriliyor.
+    sameAs: [SITE.linkedin],
     foundingDate: SITE.founded,
     description: SITE.description[lang],
     address: { "@type": "PostalAddress", addressLocality: SITE.city, addressCountry: SITE.country },

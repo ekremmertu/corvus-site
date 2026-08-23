@@ -155,10 +155,12 @@ export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
             )
           )}
           <a
-            href={`mailto:${SITE.email}`}
+            href={SITE.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
             className="mono mt-8 text-sm text-dim"
           >
-            {SITE.email}
+            {SITE.linkedinLabel}
           </a>
         </div>
       </div>

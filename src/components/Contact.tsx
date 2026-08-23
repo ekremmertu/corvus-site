@@ -19,14 +19,22 @@ export default function Contact({ d }: { d: Dict }) {
           <p className="lede mt-6 text-[15px]">{d.contact.sub}</p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
-            <a href={`mailto:${SITE.email}`} className="btn btn-primary">
+            <a
+              href={SITE.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+              data-magnetic
+            >
               {d.contact.cta}
             </a>
             <a
-              href={`mailto:${SITE.email}`}
+              href={SITE.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mono text-sm text-dim underline-offset-4 hover:text-[color:var(--c-live)] hover:underline"
             >
-              {SITE.email}
+              {SITE.linkedinLabel}
             </a>
           </div>
 
