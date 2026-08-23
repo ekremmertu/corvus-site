@@ -1,7 +1,7 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `2744c62`, **28 proje** (67 sayfa). 2026-08-23'te beş tur çıkıldı: marka sürümü (`28477be`) → ürün linkleri (`e9b5941`) → favicon+intro düzeltmesi (`f504cff`). Build yeşil (**69 sayfa** — icon route'ları eklendi), 0 TS hatası. Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `95bac6a`, **35 proje / 10'u perdeli** (61 sayfa). Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
@@ -27,7 +27,8 @@
 | 11 | Brand film bölümünün görsel doğrulaması | Claude solo | Yerleşim sayısal doğrulandı, ekran görüntüsü alınamadı — CEO tarayıcıda bakıp onaylasın |
 | 20 | CVtoapply'a da tanıtım görseli eklensin mi? | CEO kararı | Web kategorisinde ama App Store butonu var (7 görsel hazır). Şu an sadece iOS'takilerde galeri var. |
 | 18 | **Corvus Budget "Yayında" görünüyor ama mağazada YOK** | CEO kararı | ASC'de son sürüm REJECTED, iTunes'ta bulunamıyor. Ya `veil: "soon"` ekle ya durumu düzelt. |
-| 19 | **BlokBom! + diğer 5 oyun sitede olsun mu?** | CEO kararı | ASC'de ama bundle `com.denizbora` / `com.ahmetemin`. Corvus işi değilse siteye konması yanlış beyan olur. |
+| 21 | **Diyez ne yapıyor?** | CEO | ASC'de kayıtlı ama metadata tamamen boş. Ne olduğunu söylersen kartı yazarım. |
+| 19 | ~~BlokBom! + oyunlar~~ ✅ DONE (Diyez hariç) | — | ASC'de ama bundle `com.denizbora` / `com.ahmetemin`. Corvus işi değilse siteye konması yanlış beyan olur. |
 | 15 | ~~Lingoria eklensin mi~~ ✅ DONE (BlokBom bekliyor) | — | İkisi de App Store'da yayında ama sitede yok. Eklenecekse metin (summary/description/highlights EN+TR) gerekiyor. |
 | 16 | **Ameliea iOS uygulamasının linki** | CEO | CEO "app de var" dedi ama App Store'da bulunamadı (TR+US arama, geliştirici hesabı listesi — üçünde de yok). Farklı hesapta olabilir; link CEO'dan gelecek. |
 | 17 | Proje adı `Amelie.co` → `Ameliea` düzeltilsin mi? | CEO kararı | Gerçek marka ve alan adı `ameliea.co`. |
@@ -39,6 +40,38 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (9. tur) — ASC'deki 5 oyun eklendi + "Canlı siteyi gör" butonu renklendi
+
+**Neden daha önce eklenmemişlerdi:** bundle id'leri `com.denizbora` / `com.ahmetemin`, `com.corvustech` değil. Başkasının uygulamasını stüdyo sitesine koymak sessizce verilecek bir karar değildi; CEO'ya soruldu, "bizim" onayı geldi.
+
+**🔑 METİN KAYNAĞI — uydurma yok.** Yayınlanmamış uygulamaların açıklaması ASC'den çekildi:
+```
+/v1/apps/{id}/appStoreVersions?limit=1
+/v1/appStoreVersions/{versionId}/appStoreVersionLocalizations   → description, promotionalText, keywords
+```
+Bu uç, uygulama **hiç yayınlanmamışken bile** mağaza metnini döndürüyor. Kartlardaki her cümle bu metinden türetildi.
+
+**Eklenen 5 oyun (hepsi `ios` kategorisinde, ayrı disiplin AÇILMADI):**
+| Proje | ASC durumu | Sitede |
+|---|---|---|
+| BlokBom! | READY_FOR_SALE | `status: live` + App Store linki |
+| Star Striker | IN_REVIEW | `status: beta` + "iOS geliyor" |
+| Orbit Dash | PREPARE_FOR_SUBMISSION | `status: beta` + "iOS geliyor" |
+| Stacky Tower Blocks | PREPARE_FOR_SUBMISSION | `status: beta` + "iOS geliyor" |
+| Knife Smash Arena | PREPARE_FOR_SUBMISSION | `status: beta` + "iOS geliyor" |
+
+- ⚠️ **Stack uydurulmadı:** yerel repo yok, framework bilinmiyor → `iOS`, `One-tap arcade`, `Offline`, `40 levels` gibi mağaza metninden doğrulanabilir tanımlar kullanıldı.
+- **Ameliea**'ya `appStoreSoon: true` eklendi — ASC'de `co.ameliea.app` hazırlanıyor.
+- **`Diyez`** (`com.denizbora`) EKLENMEDİ: ASC'de hiç metadata yok (açıklama/promo/keyword boş). İçeriğini CEO vermeli.
+- Proje sayısı 30 → **35**, sayfa 51 → **61**. `Intro.tsx` sayacı da 35.
+
+**Buton rengi:** `.btn-live` — "Canlı siteyi gör" butonunun yazısı ve çerçevesi artık `var(--c-live)`, yani **aktif disiplin rengiyle** değişiyor. Önce renksiz `.btn`'di.
+
+**Doğrulama (canlı):** 5 oyun sayfası da 200 · `btn-live` 32 sayfada · perdeli isim/slug sızıntısı **0**.
+
+**Commit:** `95bac6a` · deploy `corvus-site-fkb8uovun`
+
 
 ### 2026-08-23 (8. tur) — App Store tanıtım görselleri + intro sadece ana sayfada
 
