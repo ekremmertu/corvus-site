@@ -1,7 +1,7 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `4a0c075`, **34 proje / 36 kart** (10'u perdeli, 59 sayfa). Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `cc6bced`, **34 proje / 36 kart** (10'u perdeli, 59 sayfa). Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
@@ -40,6 +40,23 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (16. tur) — TripWalkers galerisi: v5 "Turuncu Hat" panelleri
+
+**Kaynak:** `~/Documents/Corvus Tech/TripWalkers/AppStore_Creative/v5-designer/panels/` — 7 panel, 1284×2778 (iPhone 6.5"), `build.py` ile üretilmiş (ücretli API yok).
+
+- Mağazadan çekilen 5 ham ekran görüntüsü **silindi**, yerine bu 7 panel geldi. 640px genişliğe küçültülüp JPEG q84 → **680 KB**.
+- **⚠️ Tasarımın fikri süreklilik:** turuncu hat bir panelin sağından çıkıp diğerinin solundan **aynı yükseklikte** giriyor; 7 panel tek bir yürüyüş rotası. Aradaki boşluk hattı koparıyordu.
+- Bunun için `screenshotsSeamless?: boolean` eklendi → `.shots-seamless`: `gap: 0`, resim çerçevesi ve köşe yuvarlaması yok, yalnız **ilk panelin solu / son panelin sağı** yuvarlanıyor. Hover büyütmesi de kapalı (hattı kaydırıyordu).
+- Diğer galeriler (Quill, Lingoria, CVtoapply) boşluklu hâlde kaldı — `quill.html`'de `shots-seamless` **0** eşleşme ile doğrulandı.
+- En/boy oranı aynı (0,462) olduğu için sayfadaki `width={640} height={1385}` değişmedi.
+
+**Doğrulama:** yerel prod build'de 7 görsel, hesaplanan `gap: 0px`, **altı panel arası boşluk da 0px**, sayfa gövdesinde yatay kayma yok ✓ · canlıda sayfa 200, 7 görsel, `1.jpg` 86 KB / `7.jpg` 107 KB, `shots-seamless` var ✓
+
+**Yeniden üretmek gerekirse:** panelleri `v5-designer/build.py` üretir; sonra 640w JPEG'e küçültüp `public/appstore/tripwalkers/1..7.jpg` olarak yaz.
+
+**Commit:** `cc6bced` · deploy `corvus-site-8nxbi7uwt`
+
 
 ### 2026-08-23 (15. tur) — İletişim e-posta yerine LinkedIn
 
