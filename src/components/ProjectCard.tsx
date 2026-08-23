@@ -147,6 +147,15 @@ export default function ProjectCard({
       )}
 
       <div className="mt-6 flex flex-wrap items-center gap-2">
+        {project.appStoreSoon && (
+          <span
+            className="card-soon"
+            style={{ ["--veil-accent" as string]: category.accent }}
+          >
+            <span aria-hidden className="veil-dot" />
+            {d.work.appStoreSoon}
+          </span>
+        )}
         {project.stack.slice(0, 3).map((s) => (
           <span
             key={s}

@@ -254,6 +254,22 @@ body {
   transform: none;
 }
 
+/* Kartta "iOS geliyor" rozeti — serit degil, satir ici kucuk etiket. */
+.card-soon {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border-radius: var(--radius-pill);
+  border: 1px dashed color-mix(in srgb, var(--veil-accent) 50%, transparent);
+  background: color-mix(in srgb, var(--veil-accent) 10%, transparent);
+  padding: 4px 11px;
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-text);
+}
+
 /* ---------- Perdeli kart (yayinda olmayan / gizli isler) ---------- */
 /* Gercek metin hic basilmaz; asagidaki cubuklar sadece "burada bir sey var"
    hissi verir. Blur guvenlik degildir, o yuzden icerik sunucuda kesilir. */

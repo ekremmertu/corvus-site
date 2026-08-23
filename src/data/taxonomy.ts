@@ -330,5 +330,6 @@ export type CardProject = {
   veil: Veil;
   name?: string;
   summary?: L10n;
+  appStoreSoon?: boolean;
   metrics?: { label: L10n; value: string }[];
 };
