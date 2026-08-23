@@ -25,7 +25,9 @@
 | 13 | **LinkedIn linkini siteye ekle** | Claude solo (URL CEO'dan) | `site.ts`'e `linkedin` alanı + `Footer.tsx` link. CEO 2026-08-23'te şirket sayfası açtı. |
 | 14 | `hello@corvus-tech.co` posta kutusu kur | CEO | Şu an sitede kişisel Gmail görünüyor (`site.ts`). LinkedIn'de kurumsal görünüm için gerekli. |
 | 11 | Brand film bölümünün görsel doğrulaması | Claude solo | Yerleşim sayısal doğrulandı, ekran görüntüsü alınamadı — CEO tarayıcıda bakıp onaylasın |
-| 15 | **Lingoria + BlokBom! portfolyoya eklensin mi?** | CEO kararı | İkisi de App Store'da yayında ama sitede yok. Eklenecekse metin (summary/description/highlights EN+TR) gerekiyor. |
+| 18 | **Corvus Budget "Yayında" görünüyor ama mağazada YOK** | CEO kararı | ASC'de son sürüm REJECTED, iTunes'ta bulunamıyor. Ya `veil: "soon"` ekle ya durumu düzelt. |
+| 19 | **BlokBom! + diğer 5 oyun sitede olsun mu?** | CEO kararı | ASC'de ama bundle `com.denizbora` / `com.ahmetemin`. Corvus işi değilse siteye konması yanlış beyan olur. |
+| 15 | ~~Lingoria eklensin mi~~ ✅ DONE (BlokBom bekliyor) | — | İkisi de App Store'da yayında ama sitede yok. Eklenecekse metin (summary/description/highlights EN+TR) gerekiyor. |
 | 16 | **Ameliea iOS uygulamasının linki** | CEO | CEO "app de var" dedi ama App Store'da bulunamadı (TR+US arama, geliştirici hesabı listesi — üçünde de yok). Farklı hesapta olabilir; link CEO'dan gelecek. |
 | 17 | Proje adı `Amelie.co` → `Ameliea` düzeltilsin mi? | CEO kararı | Gerçek marka ve alan adı `ameliea.co`. |
 | 12 | 9:16 / 1:1 sosyal videoları LinkedIn/X'e yükle | CEO | `brand-src/corvus-intro-9x16.mp4`, `corvus-intro-1x1.mp4` hazır. LinkedIn giriş gönderisiyle birlikte kullanılacak. |
@@ -36,6 +38,43 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (7. tur) — App Store Connect gerçeği + SplitTable açıldı + 2 yeni proje
+
+**🔑 YÖNTEM — mağaza sorusunu ASC API'siyle çöz, tahminle değil.** Kimlik: `~/.blitz/asc-credentials.json` (issuerId/keyId/privateKey). PyJWT 2.12.1 kurulu, ES256 ile 15 dk'lık token üretilip `api.appstoreconnect.apple.com` çağrılıyor. **Ücretsiz.**
+```python
+tok = jwt.encode({"iss":issuerId,"exp":time.time()+900,"aud":"appstoreconnect-v1"},
+                 privateKey, algorithm="ES256", headers={"kid":keyId,"typ":"JWT"})
+# /v1/apps?limit=200  → tüm uygulamalar
+# /v1/apps/{id}/appStoreVersions?limit=1 → appStoreState
+```
+
+**ASC'de 18 uygulama var. Gerçekten YAYINDA olan 5:**
+| Uygulama | trackId | Durum | Sitede |
+|---|---|---|---|
+| TripWalkers | 6764424121 | READY_FOR_SALE | ✅ |
+| Quill | 6768395513 | READY_FOR_SALE | ✅ |
+| CVtoapply | 6790497658 | canlı (v1.1.2 IN_REVIEW) | ✅ |
+| **Lingoria** | 6769572261 | READY_FOR_SALE | ✅ **bu turda eklendi** |
+| **BlokBom!** | 6787959211 | READY_FOR_SALE | ❌ **CEO kararı bekliyor** — bundle `com.denizbora`, Corvus değil |
+
+**⚠️ İKİ YANLIŞ İNANIŞ DÜZELTİLDİ:**
+1. **SplitTable ve SplitTable Manager YAYINDA DEĞİL** — ikisi de `PREPARE_FOR_SUBMISSION` v1.0, hiç gönderilmemiş. Mağazadaki "Splittable: AI Bill Split Scan" başkasının (George King). CEO kararı: perdeleme, **"iOS geliyor"** rozetiyle göster. Durum "Beta" yazdığı için yanıltıcı değil.
+2. **Corvus Budget mağazada YOK.** Veride `status: "live"` yazıyor ama iTunes lookup `resultCount: 0` döndü ve ASC'de son sürüm **REJECTED (v2.5)**. Site şu an onu "Yayında" gösteriyor — **düzeltilmeli** (görev 18).
+
+**Yapılanlar**
+- `splittable`: `veil` alanı silindi → kart açık, "iOS geliyor" rozetli, tıklanınca sayfası açılıyor.
+- **`splittable-manager`** yeni proje: ASC'de ayrı uygulama (`com.corvustech.splittable.manager`). Mevcut SplitTable metni zaten "tek kod tabanında iki ürün" diyordu, yönetici tarafı kendi kartına çıktı.
+- **`lingoria`** yeni proje: metin App Store listesinden yazıldı (uyarlanabilir seviye testi, A1–C2 on bölüm, çıkış sınavı, AI sesli sohbet). ⚠️ **Stack uydurulmadı** — yerel repo yok, bu yüzden framework yerine doğrulanabilir tanımlar kullanıldı: `iOS`, `AI voice chat`, `CEFR A1–C2`.
+- **Rozet artık kartlarda da var** (`.card-soon`), önceden sadece detay sayfasındaydı. Yazı: **"iOS geliyor" / "Coming to iOS"** (eski "App Store'da yakında" yerine).
+- Sayaçlar: 28 → **30 proje**, perdeli 11 → **10**. `Intro.tsx` elle yazılı sayı da güncellendi.
+
+**Doğrulama:** build 51 sayfa 0 hata · canlıda `/tr/work/splittable`, `/splittable-manager`, `/lingoria` **200** · Playwright ağacı: ikisi de `link` (tıklanır) + "iOS geliyor" rozeti görünüyor · perdeli isim/slug sızıntısı **0**.
+
+**⚠️ Kart HTML'i sunucuda basılmıyor:** `/work` sayfası `useSearchParams` yüzünden Suspense içinde istemcide çiziliyor. `curl | grep card-soon` **0** döner — bu bug değil. Doğrulama Playwright ile yapılmalı.
+
+**Commit:** `de903a0` · deploy `corvus-site-177h75vm7`
+
 
 ### 2026-08-23 (6. tur) — Perdeleme: yayında olmayan ve gizli işler
 
