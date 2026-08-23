@@ -1,7 +1,7 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `c3a5d33`, **34 proje / 36 kart** (10'u perdeli, 59 sayfa). Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `81b4aad`, **34 proje / 36 kart** (10'u perdeli, 59 sayfa). Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
@@ -40,6 +40,35 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (13. tur) — Bölüm linkleri sayfayı yeniden kurmuyor + intro kuralı sıkılaştı
+
+**CEO:** "/tr#process'e basınca intro giriyor. Ayrıca Süreç/FAQ yeni sayfa açmasın, ana sayfada ilgili yere gelsin."
+
+**1. Nav bölüm linkleri artık kaydırıyor.** `Nav.tsx` → `onAnchorClick`: linkin yolu mevcut `pathname` ile aynıysa `preventDefault` + elle `window.scrollTo`. `--nav-h` kadar ofset veriliyor (sabit başlık bölümü örtmesin), `prefers-reduced-motion`'da `behavior: "auto"`, adres `history.replaceState` ile güncelleniyor. Başka sayfadaysan normal gezinme çalışıyor. Hem masaüstü hem mobil menüye bağlandı.
+
+**2. Intro artık sadece GERÇEK ana sayfa yüklemesinde.** Üç koşul birden:
+```
+performance.getEntriesByType("navigation")[0].name  → tarayıcının yüklediği belge adresi
+  · fragment YOK        (#process ile açılmadı)
+  · pathname == mevcut  (belge /work'te açılıp buraya gelinmedi)
+  · window.__cvIntroPlayed yok  (aynı belgede ikinci kez oynamaz)
+```
+`?intro=1` üçünü de + hareket azaltmayı geçersiz kılar.
+
+**⚠️ TEST TUZAĞI (yaşandı):** `/tr` açıkken `/tr#process`'e gitmek **aynı belgede fragment gezinmesi**, sayfa yeniden yüklenmez ve `__cvIntroPlayed` önceki yüklemeden kalır → test "intro oynadı" der. Doğru test için önce `about:blank`'e git, sonra hash'li adresi aç.
+**⚠️ İKİNCİ TUZAK:** `PerformanceNavigationTiming.name` fragment'i **bazen taşımaz**; bu yüzden `window.location.hash` kontrolü de ayrıca yapılıyor.
+
+**Doğrulama (canlı + yerel prod build, Playwright):**
+| Senaryo | Intro | Sonuç |
+|---|---|---|
+| `/tr` yenile | ✅ oynar | — |
+| Temiz sayfadan `/tr#process` | ❌ oynamaz | Süreç bölümüne iner (scrollY 7528) |
+| `/work`'ten Süreç'e bas | ❌ oynamaz | `/tr#process`'e gider, bölüme iner |
+| Ana sayfada Süreç→FAQ | ❌ oynamaz | **yeniden yükleme yok**, kaydırıyor |
+
+**Commit:** `81b4aad` · deploy `corvus-site-2gt4cc4qd`
+
 
 ### 2026-08-23 (12. tur) — "Tümü"de eksik görünen kartlar: iki ayrı sebep
 
