@@ -98,7 +98,7 @@ export default async function ProjectPage({
                 href={project.liveUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn"
+                className="btn btn-live"
                 data-magnetic
               >
                 {d.work.visitSite}

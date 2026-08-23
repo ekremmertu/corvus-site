@@ -388,6 +388,155 @@ export const projects: Project[] = [
     },
   },
   {
+    slug: "blokbom",
+    name: "BlokBom!",
+    category: "ios",
+    status: "live",
+    year: "2026",
+    stack: ["iOS", "8×8 puzzle", "Offline", "6 languages"],
+    appStoreUrl: "https://apps.apple.com/tr/app/id6787959211",
+    summary: {
+      en: "An 8×8 block puzzle with four modes — place the piece, clear the line, chase the record.",
+      tr: "Dört modlu 8×8 blok bulmaca — parçayı yerleştir, satırı patlat, rekoru kovala.",
+    },
+    description: {
+      en: "Drag pieces onto an 8×8 board and fill a row or a column to blow it up. Four modes, among them an endless classic where a short rewarded ad buys back a dead board twice per run, and a two-minute timed sprint where every cleared line adds seconds. Plays offline, shipped in six languages.",
+      tr: "Parçaları 8×8 tahtaya sürükle, satır veya sütunu doldurup patlat. Dört mod var: hamlesi biten tahtayı oyun başına iki kez kısa bir ödüllü reklamla geri alabildiğin sonsuz klasik ve temizlenen her satırın süre kazandırdığı iki dakikalık yarış. İnternetsiz oynanıyor, altı dilde yayında.",
+    },
+    highlights: {
+      en: [
+        "Four modes from one board — endless, timed and beyond",
+        "Rewarded continue capped at two per run, so the score still means something",
+        "Offline by design, six languages at launch",
+      ],
+      tr: [
+        "Tek tahtadan dört mod — sonsuz, süreli ve ötesi",
+        "Ödüllü devam hakkı oyun başına iki ile sınırlı, skor anlamını koruyor",
+        "Tasarımı gereği internetsiz, çıkışta altı dil",
+      ],
+    },
+    metrics: [
+      { label: { en: "Status", tr: "Durum" }, value: "App Store" },
+      { label: { en: "Modes", tr: "Mod" }, value: "4" },
+    ],
+  },
+  {
+    slug: "star-striker",
+    name: "Star Striker",
+    category: "ios",
+    status: "beta",
+    year: "2026",
+    stack: ["iOS", "Career sim", "Offline"],
+    appStoreSoon: true,
+    summary: {
+      en: "A football career that starts at 17 — you take the shot, and you spend the money.",
+      tr: "17 yaşında başlayan bir futbol kariyeri — şutu sen atıyorsun, parayı da sen harcıyorsun.",
+    },
+    description: {
+      en: "You aim the shot and set its power yourself, so the goal is actually yours. But the real game starts off the pitch: an amateur club nobody watches, a career to build, and the life decisions around it. Not a match engine with a name attached — a life you play season by season.",
+      tr: "Şutun nişanını da gücünü de sen ayarlıyorsun; attığın gol gerçekten senin golün. Ama asıl oyun sahanın dışında başlıyor: kimsenin izlemediği amatör bir kulüp, kurulacak bir kariyer ve etrafındaki hayat kararları. İsim yapıştırılmış bir maç motoru değil — sezon sezon oynadığın bir hayat.",
+    },
+    highlights: {
+      en: [
+        "You aim and power every shot — no auto-resolve",
+        "The career runs off the pitch too, not just on match day",
+        "Starts amateur at 17, the ceiling is earned",
+      ],
+      tr: [
+        "Her şutun nişanı ve gücü sende — otomatik sonuçlanma yok",
+        "Kariyer maç gününde değil, saha dışında da işliyor",
+        "17 yaşında amatörde başlıyor, tavan kazanılıyor",
+      ],
+    },
+  },
+  {
+    slug: "orbit-dash",
+    name: "Orbit Dash",
+    category: "ios",
+    status: "beta",
+    year: "2026",
+    stack: ["iOS", "One-tap arcade", "Offline"],
+    appStoreSoon: true,
+    summary: {
+      en: "One tap changes your orbit. Miss the timing and the spikes end the run.",
+      tr: "Tek dokunuş yörüngeni değiştirir. Zamanlamayı kaçırırsan dikenler koşuyu bitirir.",
+    },
+    description: {
+      en: "Tap to jump between orbit rings, time it past the spikes, collect diamonds and trigger fever streaks. One control, learned in a second; the mastery is entirely in the timing.",
+      tr: "Yörünge halkaları arasında geçmek için dokun, zamanlamayı dikenlerin arasından tutur, elmasları topla ve fever serilerini tetikle. Tek kontrol, bir saniyede öğrenilir; ustalık tamamen zamanlamada.",
+    },
+    highlights: {
+      en: [
+        "Single tap control — pure reflex, no tutorial needed",
+        "Fever streaks reward the run, not the wallet",
+        "Neon-space art with an endless ladder to climb",
+      ],
+      tr: [
+        "Tek dokunuş kontrol — saf refleks, öğretici gerekmiyor",
+        "Fever serileri cüzdanı değil koşuyu ödüllendiriyor",
+        "Neon-uzay estetiği ve tırmanılacak sonsuz basamak",
+      ],
+    },
+  },
+  {
+    slug: "stacky-tower",
+    name: "Stacky Tower Blocks",
+    category: "ios",
+    status: "beta",
+    year: "2026",
+    stack: ["iOS", "One-tap arcade", "Offline"],
+    appStoreSoon: true,
+    summary: {
+      en: "Tap to drop the block. Perfect timing slices nothing off — and the tower reaches space.",
+      tr: "Bloğu bırakmak için dokun. Zamanlama kusursuzsa hiçbir şey kesilmez — kule uzaya çıkar.",
+    },
+    description: {
+      en: "A sliding block passes above the tower; tap at the right moment to drop it. Whatever hangs over the edge gets sliced away, so sloppy timing narrows the tower until there is nothing left to land on. Climb from sunset skies into space, with themes and daily runs along the way.",
+      tr: "Kulenin üstünde kayan bir blok geçer; doğru anda dokunup bırakırsın. Kenardan taşan kısım kesilir, yani özensiz zamanlama kuleyi daraltır ve sonunda konacak yer kalmaz. Gün batımı göklerinden uzaya tırmanıyorsun; yolda temalar ve günlük koşular var.",
+    },
+    highlights: {
+      en: [
+        "One tap, and the punishment for missing it is visible immediately",
+        "Perfect stacks compound — the combo is the whole skill curve",
+        "Sunset to space progression with unlockable themes",
+      ],
+      tr: [
+        "Tek dokunuş, kaçırmanın cezası anında gözle görülüyor",
+        "Kusursuz dizilişler birikiyor — kombo, becerinin tamamı",
+        "Gün batımından uzaya ilerleyiş, açılabilir temalar",
+      ],
+    },
+  },
+  {
+    slug: "knife-smash",
+    name: "Knife Smash Arena",
+    category: "ios",
+    status: "beta",
+    year: "2026",
+    stack: ["iOS", "40 levels", "Offline"],
+    appStoreSoon: true,
+    summary: {
+      en: "Forty hand-designed levels that deal the same every run — you get past them by learning, not by luck.",
+      tr: "Her oynayışta aynı dizilen 40 elle tasarlanmış bölüm — şansla değil, öğrenerek geçiliyor.",
+    },
+    description: {
+      en: "Tap to throw, land every knife in the spinning log, and never touch a blade you already stuck. The forty levels are hand-built and deterministic: the same run every time, so a failure is information rather than bad luck. An endless mode carries the leaderboard.",
+      tr: "Dokun ve fırlat, her bıçağı dönen kütüğe sapla, önceden sapladığın bıçağa asla değme. Kırk bölüm elle kuruldu ve deterministik: her seferinde aynı diziliş, yani başarısızlık kötü şans değil bilgi. Liderlik tablosunu sonsuz mod taşıyor.",
+    },
+    highlights: {
+      en: [
+        "Deterministic levels — the same deal every attempt, so skill compounds",
+        "Forty hand-designed stages instead of endless generation",
+        "Endless mode kept separate, for the leaderboard",
+      ],
+      tr: [
+        "Deterministik bölümler — her denemede aynı diziliş, beceri birikiyor",
+        "Sonsuz üretim yerine kırk elle tasarlanmış bölüm",
+        "Liderlik tablosu için ayrı tutulan sonsuz mod",
+      ],
+    },
+  },
+  {
     slug: "corvus-budget",
     name: "Corvus Budget",
     category: "ios",
@@ -426,6 +575,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "Supabase", "iyzico", "Theme engine"],
     featured: true,
     liveUrl: "https://ameliea.co",
+    appStoreSoon: true,
     summary: {
       en: "Digital wedding invitations that feel like a film, sold and paid for online.",
       tr: "Film gibi hissettiren, online satılan ve ödemesi alınan dijital düğün davetiyeleri.",
