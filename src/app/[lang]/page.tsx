@@ -10,6 +10,7 @@ import Faq from "@/components/Faq";
 import Contact from "@/components/Contact";
 import Marquee from "@/components/Marquee";
 import Stats from "@/components/Stats";
+import Intro from "@/components/fx/Intro";
 
 export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
@@ -22,6 +23,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
 
   return (
     <>
+      <Intro locale={lang} />
       <Hero locale={lang} d={d} counts={countsByCategory()} />
       <BrandFilm locale={lang} />
       <Marquee />

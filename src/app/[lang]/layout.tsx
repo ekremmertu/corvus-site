@@ -13,7 +13,6 @@ import CustomCursor from "@/components/fx/CustomCursor";
 import SweepFx from "@/components/fx/SweepFx";
 import TerminalEgg from "@/components/fx/TerminalEgg";
 import { openProjects, toCards } from "@/data/projects";
-import Intro from "@/components/fx/Intro";
 
 const display = Archivo({
   subsets: ["latin", "latin-ext"],
@@ -96,7 +95,6 @@ export default async function LocaleLayout({
   return (
     <html lang={lang} className={`${display.variable} ${body.variable} ${mono.variable}`}>
       <body className="grain relative min-h-screen antialiased">
-        <Intro locale={lang} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

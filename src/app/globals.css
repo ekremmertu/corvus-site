@@ -254,6 +254,42 @@ body {
   transform: none;
 }
 
+/* ---------- App Store tanitim gorselleri ---------- */
+/* Yatay kaydirilir; sayfa gövdesi yatay kaymasin diye tasma burada tutulur. */
+.shots-row {
+  display: flex;
+  gap: var(--space-md);
+  overflow-x: auto;
+  padding-bottom: var(--space-sm);
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.shots-row > li {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+.shots-row img {
+  display: block;
+  width: clamp(150px, 30vw, 208px);
+  height: auto;
+  border-radius: 18px;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-elevated);
+}
+
+@media (hover: hover) {
+  .shots-row img {
+    transition: transform var(--motion-precise), border-color var(--motion-precise);
+  }
+  .shots-row img:hover {
+    transform: translateY(-4px);
+    border-color: var(--c-border-strong);
+  }
+}
+
 /* Kartta "iOS geliyor" rozeti — serit degil, satir ici kucuk etiket. */
 .card-soon {
   display: inline-flex;

@@ -23,6 +23,7 @@ export const projects: Project[] = [
     stack: ["SwiftUI", "Swift 6", "Supabase", "StoreKit 2", "AI itinerary"],
     featured: true,
     appStoreUrl: "https://apps.apple.com/tr/app/tripwalkers/id6764424121",
+    screenshots: 5,
     summary: {
       en: "AI travel planner that turns a city and three free days into an hour-by-hour itinerary.",
       tr: "Bir şehri ve üç boş günü saat saat gezi planına çeviren AI seyahat planlayıcı.",
@@ -58,6 +59,7 @@ export const projects: Project[] = [
     stack: ["SwiftUI", "Swift 6", "SwiftData", "StoreKit 2"],
     featured: true,
     appStoreUrl: "https://apps.apple.com/tr/app/id6768395513",
+    screenshots: 5,
     summary: {
       en: "Personal finance app built around debt payoff strategy, not budget guilt.",
       tr: "Bütçe suçluluğu değil, borç kapatma stratejisi üzerine kurulmuş kişisel finans uygulaması.",
@@ -156,6 +158,7 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["iOS", "AI voice chat", "CEFR A1–C2"],
     appStoreUrl: "https://apps.apple.com/tr/app/id6769572261",
+    screenshots: 5,
     summary: {
       en: "English for Turkish speakers, levelled to CEFR — and it talks back.",
       tr: "Türkçe konuşanlar için İngilizce — CEFR seviyeli ve karşılık veriyor.",

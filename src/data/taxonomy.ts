@@ -50,6 +50,11 @@ export interface Project {
   /** Kart perdelensin mi — bkz. veilOf. Yoksa normal görünür. */
   veil?: Veil;
   /**
+   * App Store tanıtım görseli sayısı. Dosyalar `public/appstore/<slug>/1..N.jpg`.
+   * iTunes lookup'tan indirilip 640px genişliğe küçültülür (bkz. TODO PASS LOG).
+   */
+  screenshots?: number;
+  /**
    * Uygulama henüz App Store'da değil ama yolda.
    * `appStoreUrl` dolduğunda bu alan silinir — ikisi birlikte kullanılmaz.
    */

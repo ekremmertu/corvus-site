@@ -113,6 +113,28 @@ export default async function ProjectPage({
           </div>
         )}
 
+        {project.screenshots ? (
+          <figure className="shots mt-8">
+            <ul className="shots-row">
+              {Array.from({ length: project.screenshots }, (_, i) => (
+                <li key={i}>
+                  <img
+                    src={`/appstore/${project.slug}/${i + 1}.jpg`}
+                    alt=""
+                    width={640}
+                    height={1385}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </li>
+              ))}
+            </ul>
+            <figcaption className="mono mt-3 text-[11px] uppercase tracking-[0.14em] text-faint">
+              {d.work.screenshots}
+            </figcaption>
+          </figure>
+        ) : null}
+
         <dl className="mt-12 grid gap-8 border-t border-[color:var(--c-border)] pt-8 sm:grid-cols-3 lg:grid-cols-4">
           <div>
             <dt className="eyebrow">{d.work.status}</dt>
