@@ -1,7 +1,7 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `95bac6a`, **35 proje / 10'u perdeli** (61 sayfa). Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `a675a9e`, **34 proje / 10'u perdeli** (59 sayfa). Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
@@ -25,8 +25,8 @@
 | 13 | **LinkedIn linkini siteye ekle** | Claude solo (URL CEO'dan) | `site.ts`'e `linkedin` alanı + `Footer.tsx` link. CEO 2026-08-23'te şirket sayfası açtı. |
 | 14 | `hello@corvus-tech.co` posta kutusu kur | CEO | Şu an sitede kişisel Gmail görünüyor (`site.ts`). LinkedIn'de kurumsal görünüm için gerekli. |
 | 11 | Brand film bölümünün görsel doğrulaması | Claude solo | Yerleşim sayısal doğrulandı, ekran görüntüsü alınamadı — CEO tarayıcıda bakıp onaylasın |
-| 20 | CVtoapply'a da tanıtım görseli eklensin mi? | CEO kararı | Web kategorisinde ama App Store butonu var (7 görsel hazır). Şu an sadece iOS'takilerde galeri var. |
-| 18 | **Corvus Budget "Yayında" görünüyor ama mağazada YOK** | CEO kararı | ASC'de son sürüm REJECTED, iTunes'ta bulunamıyor. Ya `veil: "soon"` ekle ya durumu düzelt. |
+| 20 | ~~CVtoapply görselleri~~ ✅ DONE | — | 2026-08-23 |
+| 18 | ~~Corvus Budget tutarsızlığı~~ ✅ DONE — proje iptal, siteden silindi | — | 2026-08-23 |
 | 21 | **Diyez ne yapıyor?** | CEO | ASC'de kayıtlı ama metadata tamamen boş. Ne olduğunu söylersen kartı yazarım. |
 | 19 | ~~BlokBom! + oyunlar~~ ✅ DONE (Diyez hariç) | — | ASC'de ama bundle `com.denizbora` / `com.ahmetemin`. Corvus işi değilse siteye konması yanlış beyan olur. |
 | 15 | ~~Lingoria eklensin mi~~ ✅ DONE (BlokBom bekliyor) | — | İkisi de App Store'da yayında ama sitede yok. Eklenecekse metin (summary/description/highlights EN+TR) gerekiyor. |
@@ -40,6 +40,20 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (10. tur) — Corvus Budget silindi (proje iptal) + CVtoapply görselleri
+
+1. **Corvus Budget SİTEDEN KALDIRILDI.** CEO: "o proje iptal". Perdelenmedi, kaydı tamamen silindi (Distributor Revision Report ile aynı yol).
+   - Zaten tutarsızdı: veride `status: "live"` yazıyordu ama iTunes lookup `resultCount: 0`, ASC'de son sürüm **REJECTED (v2.5)**.
+   - Proje 35 → **34**. `Intro.tsx` elle yazılı sayaç da 34 yapıldı (⚠️ her silme/eklemede unutma).
+   - Doğrulama: `/tr/work/corvus-budget` **404**, sitemap'te 0 eşleşme.
+2. **CVtoapply'a mağaza görselleri** (5 adet, 419 KB) — iOS'takilerle aynı 640w boru hattı. Web kategorisinde ama App Store butonu olduğu için galeri artık orada da var.
+   - `public/appstore/` toplam 4 uygulama × 5 görsel ≈ 1,4 MB.
+
+**Doğrulama (canlı):** corvus-budget 404 ✓ · sitemap temiz ✓ · cvtoapply sayfasında 5 görsel + `/appstore/cvtoapply/1.jpg` 200 ✓
+
+**Commit:** `a675a9e` · deploy `corvus-site-a659ukfll`
+
 
 ### 2026-08-23 (9. tur) — ASC'deki 5 oyun eklendi + "Canlı siteyi gör" butonu renklendi
 
