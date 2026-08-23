@@ -1,7 +1,7 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `08ad817`, **34 proje / 10'u perdeli** (59 sayfa). Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `c3a5d33`, **34 proje / 36 kart** (10'u perdeli, 59 sayfa). Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
@@ -40,6 +40,28 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (12. tur) — "Tümü"de eksik görünen kartlar: iki ayrı sebep
+
+**CEO şikâyeti:** "Tümü'de bazı app'ler yok, Ameliea'yı app olarak göremiyorum."
+
+**⚠️ ÖNCE YANLIŞ TEŞHİS KONDU — ders:** `useReveal` içinde React'in `className`'i ezip `is-visible`'ı sildiği varsayıldı ve MutationObserver'a `attributes: true` eklendi. **Playwright ile ölçülünce hata olmadığı görüldü** (her senaryoda ekrandaki kart sayısı = görünen kart sayısı). Değişiklik **geri alındı** — `document.body` üzerinde subtree attribute dinlemek gereksiz maliyetti, üstelik bu sitede daha önce performans şikâyeti olmuştu. **Ders: "opacity 0" gördüğünde panikleme, ekran dışındaki kart zaten 0'dır; kaydırma testi yapmadan bug ilan etme.**
+
+**Gerçek sebep 1 — isim.** Kart `Amelie.co` yazıyordu, marka ise `Ameliea`. CEO 34 kartın içinde "Ameliea" arayınca bulamıyordu. `name` düzeltildi. **Slug `amelie-co` olarak BIRAKILDI** — site 2026-07-30'dan beri canlı, indekslenmiş adrese 404 vermek görünen isimden daha kötü.
+
+**Gerçek sebep 2 — `dup` filtresi.** `alsoIn` kopyaları "Tümü"den eleniyordu (`!p.dup`), böylece Ameliea orada yalnız **web kartı** olarak vardı; **app kartı hiç görünmüyordu.** Filtre kaldırıldı: "Tümü" artık kart listesi, proje sayımı değil. Sayaç ekrandakiyle birebir: **36 kart / 34 proje**.
+
+**Doğrulama (canlı, Playwright):**
+```
+ 5. Ameliea    | Web Platformları |
+ 6. Ameliea    | iOS Uygulamaları | iOS geliyor
+ 8. SplitTable | iOS Uygulamaları | iOS geliyor
+ 9. SplitTable | Web Platformları |
+```
+Sekme sayacı "Tümü36" ✓
+
+**Commit:** `c3a5d33` · deploy `corvus-site-1oqrs0pjt`
+
 
 ### 2026-08-23 (11. tur) — Kart sıralaması + bir proje iki sekmede
 
