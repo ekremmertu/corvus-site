@@ -25,6 +25,7 @@
 | 13 | **LinkedIn linkini siteye ekle** | Claude solo (URL CEO'dan) | `site.ts`'e `linkedin` alanı + `Footer.tsx` link. CEO 2026-08-23'te şirket sayfası açtı. |
 | 14 | `hello@corvus-tech.co` posta kutusu kur | CEO | Şu an sitede kişisel Gmail görünüyor (`site.ts`). LinkedIn'de kurumsal görünüm için gerekli. |
 | 11 | Brand film bölümünün görsel doğrulaması | Claude solo | Yerleşim sayısal doğrulandı, ekran görüntüsü alınamadı — CEO tarayıcıda bakıp onaylasın |
+| 20 | CVtoapply'a da tanıtım görseli eklensin mi? | CEO kararı | Web kategorisinde ama App Store butonu var (7 görsel hazır). Şu an sadece iOS'takilerde galeri var. |
 | 18 | **Corvus Budget "Yayında" görünüyor ama mağazada YOK** | CEO kararı | ASC'de son sürüm REJECTED, iTunes'ta bulunamıyor. Ya `veil: "soon"` ekle ya durumu düzelt. |
 | 19 | **BlokBom! + diğer 5 oyun sitede olsun mu?** | CEO kararı | ASC'de ama bundle `com.denizbora` / `com.ahmetemin`. Corvus işi değilse siteye konması yanlış beyan olur. |
 | 15 | ~~Lingoria eklensin mi~~ ✅ DONE (BlokBom bekliyor) | — | İkisi de App Store'da yayında ama sitede yok. Eklenecekse metin (summary/description/highlights EN+TR) gerekiyor. |
@@ -38,6 +39,22 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (8. tur) — App Store tanıtım görselleri + intro sadece ana sayfada
+
+**1. Tanıtım görselleri.** iTunes lookup `screenshotUrls` döndürüyor. Apple URL'inin sonundaki boyut parçası (`/320x480bb.jpg`) **`/640x0w.jpg` ile değiştirilerek** büyüğü çekiliyor, sonra PIL ile progressive JPEG q82'ye basılıyor.
+- `public/appstore/<slug>/1..5.jpg` — 15 görsel, **toplam 1 MB** (uygulama başına ~340 KB).
+- Veride yol değil **sayı** tutuluyor: `screenshots: 5`. Yol sayfada `/appstore/${slug}/${i}.jpg` diye kuruluyor.
+- Sadece **mağazada gerçekten olan, perdesiz iOS** projelerinde: TripWalkers, Quill, Lingoria.
+- Yerleşim: **"App Store'dan indir" butonunun hemen altında** (CEO isteği), yatay scroll-snap şerit (`.shots-row`). Taşma şeridin içinde tutuluyor → sayfa gövdesi yatay kaymıyor.
+- Yenilemek gerekirse: aynı python bloğu tekrar çalıştırılır (TODO PASS LOG 8. tur komutu).
+
+**2. Intro artık sadece ana sayfada.** `<Intro>` `layout.tsx`'ten çıkarılıp `[lang]/page.tsx`'e taşındı. Her sayfa yüklemesinde değil, **ana sayfa yenilendiğinde** oynuyor. Doğrulama: `tr.html` içinde `class="intro` **1**, `tr/work.html` ve `tr/work/quill.html` içinde **0**.
+
+**Doğrulama (canlı):** üç sayfa da 200, her birinde 5 görsel · `/appstore/quill/1.jpg` 200 (69 KB) · Playwright ağacı: `figure` doğrudan "App Store'dan indir" linkinin altında · SplitTable'da galeri yok (mağazada değil) ✓
+
+**Commit:** `5a87965` · deploy `corvus-site-cjuqxf4ek`
+
 
 ### 2026-08-23 (7. tur) — App Store Connect gerçeği + SplitTable açıldı + 2 yeni proje
 
