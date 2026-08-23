@@ -50,6 +50,31 @@ export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
   const other: Locale = locale === "en" ? "tr" : "en";
   const otherPath = pathname.replace(/^\/(en|tr)/, `/${other}`) || `/${other}`;
 
+  /**
+   * Aynı sayfadaki bölüme giden link sayfayı yeniden kurmasın — sadece kaydırsın.
+   * Aksi hâlde /tr#process'e basmak ana sayfayı baştan yüklüyor ve açılış
+   * animasyonu tekrar oynuyordu.
+   */
+  function onAnchorClick(e: React.MouseEvent<HTMLAnchorElement>, href: string) {
+    const i = href.indexOf("#");
+    if (i < 0) return;
+    if (href.slice(0, i) !== pathname) return; // başka sayfadayız: normal gezinme
+    const el = document.querySelector(href.slice(i));
+    if (!el) return;
+    e.preventDefault();
+    setOpen(false);
+    const navH =
+      parseFloat(
+        getComputedStyle(document.documentElement).getPropertyValue("--nav-h")
+      ) || 72;
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({
+      top: el.getBoundingClientRect().top + window.scrollY - navH - 12,
+      behavior: reduced ? "auto" : "smooth",
+    });
+    history.replaceState(null, "", href);
+  }
+
   const links = [
     { href: `/${locale}/work`, label: d.nav.work },
     { href: `/${locale}#process`, label: d.nav.process },
@@ -76,6 +101,7 @@ export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
               <Link
                 key={l.href}
                 href={l.href}
+                onClick={(e) => onAnchorClick(e, l.href)}
                 className="text-sm text-dim transition-colors hover:text-ink"
               >
                 {l.label}
@@ -125,6 +151,7 @@ export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
             <Link
               key={l.href}
               href={l.href}
+              onClick={(e) => onAnchorClick(e, l.href)}
               className="display border-b border-[color:var(--c-border)] py-5 text-3xl"
             >
               {l.label}
