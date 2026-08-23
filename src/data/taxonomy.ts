@@ -329,6 +329,8 @@ export function getCategory(slug: CategorySlug): Category {
  */
 export type CardProject = {
   slug: string;
+  /** Kart sırası — küçük olan üstte. Bkz. rankOf. */
+  rank: number;
   category: CategorySlug;
   status: ProjectStatus;
   stack: string[];

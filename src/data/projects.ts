@@ -1065,11 +1065,27 @@ export const featuredProjects = projects.filter((p) => p.featured);
 /** Detay sayfasi uretilen projeler. Perdeliler 404 doner. */
 export const openProjects = (): Project[] => projects.filter((p) => veilOf(p) === null);
 
+/**
+ * Kart sirasi — CEO karari 2026-08-23: her sekmede once yayindakiler,
+ * sonra "iOS geliyor", sonra digerleri, EN ALTTA perdeliler.
+ * Kartin GORUNEN durumuna gore siralanir, veri detayina gore degil.
+ */
+function rankOf(p: Project): number {
+  const veil = veilOf(p);
+  if (veil === "confidential") return 4;
+  if (veil) return 3;
+  if (p.status === "live" || p.appStoreUrl) return 0;
+  if (p.appStoreSoon) return 1;
+  return 2;
+}
+
 /** Istemciye gecen sanitize edilmis liste. */
 export function toCards(list: Project[] = projects): CardProject[] {
-  return list.map((p, i) => {
+  return list
+    .map((p, i) => {
     const veil = veilOf(p);
     const base = {
+      rank: rankOf(p),
       // Perdeli projede GERCEK slug bile gonderilmez: "shipment-reconciliation"
       // gibi bir adres isin ne oldugunu ele veriyor. Yerine anlamsiz bir anahtar.
       slug: veil ? `veiled-${i}` : p.slug,
@@ -1087,7 +1103,8 @@ export function toCards(list: Project[] = projects): CardProject[] {
           metrics: p.metrics,
           appStoreSoon: p.appStoreSoon,
         };
-  });
+    })
+    .sort((a, b) => a.rank - b.rank); // Array.sort kararlı: eşit rank'te veri sırası korunur
 }
 
 /** Disiplin basina proje sayisi — Hero sayaci icin (metin tasimaz). */
