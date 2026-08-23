@@ -117,7 +117,7 @@ export default function TerminalEgg({ entries }: { entries: CardProject[] }) {
         put("guest — but the studio behind this site ships real products.");
         break;
       case "contact":
-        put(`${SITE.email} — tell us the problem, not the spec.`);
+        put(`${SITE.linkedinLabel} — tell us the problem, not the spec.`);
         break;
       case "clear":
         setLines([]);
