@@ -46,7 +46,7 @@ export default function WorkExplorer({
   }, [filter, setActive]);
 
   const list = useMemo(
-    () => (filter === "all" ? cards.filter((p) => !p.dup) : cards.filter((p) => p.category === filter)),
+    () => (filter === "all" ? cards : cards.filter((p) => p.category === filter)),
     [filter]
   );
 
@@ -85,7 +85,7 @@ export default function WorkExplorer({
               {o.label}
               <span className="mono ml-2 text-[11px] opacity-70">
                 {o.key === "all"
-                  ? cards.filter((p) => !p.dup).length
+                  ? cards.length
                   : cards.filter((p) => p.category === o.key).length}
               </span>
             </button>
