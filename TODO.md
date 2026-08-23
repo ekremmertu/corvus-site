@@ -1,7 +1,7 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `81b4aad`, **34 proje / 36 kart** (10'u perdeli, 59 sayfa). Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `9f9b2e5`, **34 proje / 36 kart** (10'u perdeli, 59 sayfa). Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
@@ -40,6 +40,28 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (14. tur) — Adres çubuğunda çapa yok: `SectionLink`
+
+**CEO:** "/tr ve /en kalsın, `#process`'i kaldıralım. Aşağı indiğinde veya butona tıkladığında ana sayfada yönlensin."
+
+**Yeni bileşen `src/components/SectionLink.tsx`** — ana sayfadaki bölüme götüren TÜM linkler artık bundan geçiyor:
+- Ana sayfadaysak: `preventDefault` + `scrollToSection(id)`. **`history.replaceState` YOK** → adres `/tr` kalıyor.
+- Başka sayfadaysak: `router.push("/tr")` (fragment'siz) → bölüm DOM'a gelene kadar `requestAnimationFrame` ile bekle (en fazla 150 kare) → kaydır.
+- `href` yine `/tr#process` olarak DOLU: JS çalışmazsa tarayıcının kendi çapası devreye girer.
+- `metaKey/ctrlKey/shiftKey` veya orta tık → dokunmadan geçer (yeni sekmede açma bozulmasın).
+- Kaydırma `--nav-h` kadar ofsetli, `prefers-reduced-motion`'da anında.
+
+**Kullanan yerler:** `Nav.tsx` (masaüstü + mobil menü — links dizisi artık `{href}` ya da `{section}` taşıyor), `Hero.tsx` ("Proje başlat"), `Footer.tsx` (Süreç + FAQ). Footer sunucu bileşeni ama `SectionLink` client olduğu için sorun değil.
+
+**Nav'daki eski `onAnchorClick` SİLİNDİ** (13. turda eklenmişti, adrese hash yazıyordu).
+
+**Doğrulama (canlı, Playwright):** Süreç · FAQ · İletişim · footer Süreç → hepsinde adres **`https://corvus-tech.co/tr`** olarak kaldı ve sayfa kaydı ✓. `/work`'ten Süreç → `/tr`'ye gitti (fragment yok), Süreç bölümü ekranın 84px üstünde, **yeniden yükleme yok, intro yok** ✓
+
+**Not:** URL'de artık fragment oluşmadığı için Intro'nun hash kontrolü ana mekanizma değil, emniyet ağı. Elle `/tr#process` yazan biri için hâlâ gerekli.
+
+**Commit:** `9f9b2e5` · deploy `corvus-site-2lvzmjg0v`
+
 
 ### 2026-08-23 (13. tur) — Bölüm linkleri sayfayı yeniden kurmuyor + intro kuralı sıkılaştı
 
