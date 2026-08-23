@@ -27,7 +27,7 @@
 | 11 | Brand film bölümünün görsel doğrulaması | Claude solo | Yerleşim sayısal doğrulandı, ekran görüntüsü alınamadı — CEO tarayıcıda bakıp onaylasın |
 | 20 | ~~CVtoapply görselleri~~ ✅ DONE | — | 2026-08-23 |
 | 18 | ~~Corvus Budget tutarsızlığı~~ ✅ DONE — proje iptal, siteden silindi | — | 2026-08-23 |
-| 21 | **Diyez ne yapıyor?** | CEO | ASC'de kayıtlı ama metadata tamamen boş. Ne olduğunu söylersen kartı yazarım. |
+| 21 | ~~Diyez~~ ❌ EKLENMEYECEK — CEO kararı 2026-08-23 | — | ASC'de duruyor ama siteye girmeyecek. Tekrar sorma. |
 | 19 | ~~BlokBom! + oyunlar~~ ✅ DONE (Diyez hariç) | — | ASC'de ama bundle `com.denizbora` / `com.ahmetemin`. Corvus işi değilse siteye konması yanlış beyan olur. |
 | 15 | ~~Lingoria eklensin mi~~ ✅ DONE (BlokBom bekliyor) | — | İkisi de App Store'da yayında ama sitede yok. Eklenecekse metin (summary/description/highlights EN+TR) gerekiyor. |
 | 16 | **Ameliea iOS uygulamasının linki** | CEO | CEO "app de var" dedi ama App Store'da bulunamadı (TR+US arama, geliştirici hesabı listesi — üçünde de yok). Farklı hesapta olabilir; link CEO'dan gelecek. |
