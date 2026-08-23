@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SectionLink from "@/components/SectionLink";
 import { categories, type Locale } from "@/data/projects";
 import type { Dict } from "@/i18n/dict";
 import { SITE } from "@/lib/site";
@@ -45,14 +46,14 @@ export default function Footer({ locale, d }: { locale: Locale; d: Dict }) {
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}#process`} className="text-sm text-dim hover:text-ink">
+                <SectionLink locale={locale} id="process" className="text-sm text-dim hover:text-ink">
                   {d.nav.process}
-                </Link>
+                </SectionLink>
               </li>
               <li>
-                <Link href={`/${locale}#faq`} className="text-sm text-dim hover:text-ink">
+                <SectionLink locale={locale} id="faq" className="text-sm text-dim hover:text-ink">
                   FAQ
-                </Link>
+                </SectionLink>
               </li>
               <li>
                 <a href={`mailto:${SITE.email}`} className="text-sm text-dim hover:text-ink">

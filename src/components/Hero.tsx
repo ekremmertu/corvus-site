@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import Link from "next/link";
+import SectionLink from "@/components/SectionLink";
 import { categories, type CategorySlug, type Locale } from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
 import { useScene } from "@/components/scene/SceneProvider";
@@ -71,9 +72,9 @@ export default function Hero({
             <Link href={`/${locale}/work`} className="btn btn-primary">
               {d.hero.ctaPrimary}
             </Link>
-            <a href="#contact" className="btn btn-secondary">
+            <SectionLink locale={locale} id="contact" className="btn btn-secondary">
               {d.hero.ctaSecondary}
-            </a>
+            </SectionLink>
           </div>
         </div>
       </div>
