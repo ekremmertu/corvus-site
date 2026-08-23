@@ -37,6 +37,39 @@
 
 ## PASS LOG
 
+### 2026-08-23 (6. tur) — Perdeleme: yayında olmayan ve gizli işler
+
+**CEO isteği:** yayında olmayanların adı/içeriği görünmesin, blur olsun, üstünde "Yakında" şeridi olsun, tıklanınca sayfa açılmasın. Kurumsal araçlar gizli (NDA).
+
+**⚠️ EN ÖNEMLİ KARAR — blur tek başına GİZLEMEZ.** CSS blur metni sayfada bırakır; kaynak koddan okunur. Üstelik `WorkExplorer` bir **client component** olduğu için `projects` dizisinin TAMAMI JS paketine giriyordu — gizli proje adları `.next/static` içinde açıkça duruyordu (grep ile kanıtlandı). Bu yüzden perde **veri katmanında** kuruldu:
+
+1. **Veri modülü ikiye bölündü:**
+   - `src/data/taxonomy.ts` — tipler, `categories`, `statusLabels`, `getCategory`, `Veil`, `veilOf`, `CardProject`. **İstemci bileşenleri SADECE bunu import eder.**
+   - `src/data/projects.ts` — tam metinler. **Sunucu tarafı.** `export * from "./taxonomy"` ile eski importlar kırılmadı.
+   - ⚠️ Kural: bir client component `@/data/projects`'ten import ederse tüm gizli metin tekrar pakete girer. Yeni bileşende dikkat.
+2. **`toCards()`** — istemciye giden sanitize liste. Perdelide `name`/`summary`/`metrics` YOK; **slug bile maskeli** (`veiled-3`), çünkü `shipment-reconciliation` adresi işin ne olduğunu tek başına söylüyor.
+3. **Perdeli kart** `<div>`, `<Link>` değil → tıklanmıyor. Detay sayfası `generateStaticParams`'tan çıkarıldı → **doğrudan adres yazan 404 görür**. Sitemap'ten ve terminal easter egg'inden de çıktı.
+4. **Şerit:** `Yakında` / `Coming soon`, NDA işlerde `Gizli` / `Confidential`. CSS: `.veil-ribbon` + nabız gibi atan `.veil-dot` + `.veil-bars` (blur'lu sahte çubuklar, gerçek metin değil).
+5. **Hero / HomeWork / WorkExplorer / TerminalEgg** artık veriyi **props** ile alıyor.
+
+**⚠️ İLK DENEMEDE HATA YAPILDI — ders:** perde önce "canlı linki var mı" kuralından türetildi. Bu fazla kapsayıcıydı: CEO'nun saymadığı **Corvus Budget** (durumu `live`), **Supply Chain Council**, **Preschool Location Radar**, **Corvus Company OS** de perdelendi. CEO fark etti ("söylediklerim dışında da blurlamışsın?"). Düzeltme: tahmin kaldırıldı, her proje kendi **`veil` alanını** taşıyor.
+
+**Perdeli 11 proje (kesin liste):**
+| Kategori | Projeler |
+|---|---|
+| iOS (8, "soon") | SplitTable, NöbetGO, TwinEars, Moto Asistan, Dermia, Gece Senin, BeAnyone, Society Food |
+| Web (1, "soon") | Müşteri Bul |
+| Kurumsal (2, "confidential") | Holiday Route Planner, Shipment Reconciliation |
+
+Açık kalan 17: TripWalkers, Quill, Corvus Budget, Amelie.co, Supply Chain Council, CVtoapply, Preschool Location Radar, Corvus Company OS + 5 fintech + 4 AI.
+
+**Doğrulama:** build 45 sayfa 0 hata · `.next/server` ve `.next/static` içinde perdeli isim/slug **0 eşleşme** · canlıda `/tr/work/musteri-bul` ve `/tr/work/shipment-reconciliation` **404**, `/tr/work/corvus-budget` + 3 web projesi **200** · Playwright erişilebilirlik ağacı: perdeli kartlar `generic`, açık kartlar `link`.
+
+**Yeni proje eklerken:** perdelemek için `veil: "soon"` veya `veil: "confidential"` yaz, başka hiçbir yere dokunma.
+
+**Commit:** `56a5821` · deploy `corvus-site-kw0retdj9`
+
+
 ### 2026-08-23 (5. tur) — Gerçek App Store linkleri, splittable.me, bir proje silindi + DİSK TEMİZLİĞİ
 
 **⚠️ EN ÖNEMLİ BULGU — mağaza linkini İSİMLE ARAYARAK bulma.** Doğru yöntem: TripWalkers'ın `artistId`'sini çek, sonra o geliştiricinin tüm uygulamalarını listele:
