@@ -1,7 +1,7 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `a675a9e`, **34 proje / 10'u perdeli** (59 sayfa). Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `08ad817`, **34 proje / 10'u perdeli** (59 sayfa). Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
@@ -40,6 +40,31 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (11. tur) — Kart sıralaması + bir proje iki sekmede
+
+**1. Sıralama (CEO: "blurlar en altta, yayında ve iOS geliyor üstte").** `rankOf()` sunucuda hesaplanıp `toCards` içinde sıralanıyor; hem `/work` sekmeleri hem ana sayfa ızgarası aynı sırayı miras alıyor.
+| rank | anlamı | kural |
+|---|---|---|
+| 0 | Yayında | `status === "live"` **veya** `appStoreUrl` var |
+| 1 | iOS geliyor | `appStoreSoon` |
+| 2 | diğer açık | — |
+| 3 | Perdeli | `veil: "soon"` |
+| 4 | Gizli | `veil: "confidential"` |
+- ⚠️ Sıralama **kartın GÖRÜNEN rozetine** göre, veri detayına göre değil. SplitTable'ın canlı sitesi var ama mağaza kaydı yok → rank 1 (yayındakilerle karışmıyor).
+- `Array.prototype.sort` kararlı olduğu için eşit rank'te `projects.ts` sırası korunuyor.
+
+**2. `alsoIn` — bir proje iki sekmede.** CEO: Ameliea hem web hem iOS, SplitTable web'e de eklensin.
+- `Project.alsoIn?: CategorySlug[]` → `toCards` `.flatMap` ile o kategoriye ait bir **kopya** üretiyor (`dup: true`). Kopya o sekmenin rengini/etiketini alıyor, ikisi de **tek detay sayfasına** gidiyor.
+- "Tümü" sekmesi ve sayacı `!p.dup` filtreliyor → hiçbir proje iki kez sayılmıyor.
+- React anahtarı `${p.category}-${p.slug}` oldu (aynı slug iki kez basıldığı için).
+- **"iOS geliyor" rozeti artık SADECE iOS sekmesinde.** Ameliea web sekmesinde **"Yayında"** yazıyor (sitesi canlı), iOS bilgisi ise detay sayfasında "Canlı siteyi gör" linkinin yanında duruyor. CEO'nun istediği tam buydu.
+- Şu an `alsoIn` kullananlar: `amelie-co → ios`, `splittable → web`. Web sekmesi 6 → **7 kart**.
+
+**Doğrulama (canlı, Playwright):** Web sekmesi sırası → Amelie.co (Yayında) · CVtoapply · SplitTable · Supply Chain Council · Preschool Radar · Company OS · **Yakında (perdeli, en altta)** ✓ · iOS sekmesi: 4 yayında → 6 "iOS geliyor" → 7 perdeli ✓
+
+**Commit:** `08ad817` · deploy `corvus-site-e5wgsnb77`
+
 
 ### 2026-08-23 (10. tur) — Corvus Budget silindi (proje iptal) + CVtoapply görselleri
 
