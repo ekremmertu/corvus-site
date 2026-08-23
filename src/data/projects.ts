@@ -23,7 +23,8 @@ export const projects: Project[] = [
     stack: ["SwiftUI", "Swift 6", "Supabase", "StoreKit 2", "AI itinerary"],
     featured: true,
     appStoreUrl: "https://apps.apple.com/tr/app/tripwalkers/id6764424121",
-    screenshots: 5,
+    screenshots: 7,
+    screenshotsSeamless: true,
     summary: {
       en: "AI travel planner that turns a city and three free days into an hour-by-hour itinerary.",
       tr: "Bir şehri ve üç boş günü saat saat gezi planına çeviren AI seyahat planlayıcı.",
