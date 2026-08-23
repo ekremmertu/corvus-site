@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import SectionLink from "@/components/SectionLink";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import type { Locale } from "@/data/taxonomy";
@@ -50,36 +51,11 @@ export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
   const other: Locale = locale === "en" ? "tr" : "en";
   const otherPath = pathname.replace(/^\/(en|tr)/, `/${other}`) || `/${other}`;
 
-  /**
-   * Aynı sayfadaki bölüme giden link sayfayı yeniden kurmasın — sadece kaydırsın.
-   * Aksi hâlde /tr#process'e basmak ana sayfayı baştan yüklüyor ve açılış
-   * animasyonu tekrar oynuyordu.
-   */
-  function onAnchorClick(e: React.MouseEvent<HTMLAnchorElement>, href: string) {
-    const i = href.indexOf("#");
-    if (i < 0) return;
-    if (href.slice(0, i) !== pathname) return; // başka sayfadayız: normal gezinme
-    const el = document.querySelector(href.slice(i));
-    if (!el) return;
-    e.preventDefault();
-    setOpen(false);
-    const navH =
-      parseFloat(
-        getComputedStyle(document.documentElement).getPropertyValue("--nav-h")
-      ) || 72;
-    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    window.scrollTo({
-      top: el.getBoundingClientRect().top + window.scrollY - navH - 12,
-      behavior: reduced ? "auto" : "smooth",
-    });
-    history.replaceState(null, "", href);
-  }
-
-  const links = [
+  const links: { href?: string; section?: string; label: string }[] = [
     { href: `/${locale}/work`, label: d.nav.work },
-    { href: `/${locale}#process`, label: d.nav.process },
-    { href: `/${locale}#faq`, label: "FAQ" },
-    { href: `/${locale}#contact`, label: d.nav.contact },
+    { section: "process", label: d.nav.process },
+    { section: "faq", label: "FAQ" },
+    { section: "contact", label: d.nav.contact },
   ];
 
   return (
@@ -97,16 +73,26 @@ export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
           <Wordmark locale={locale} />
 
           <div className="hidden items-center gap-8 md:flex">
-            {links.map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                onClick={(e) => onAnchorClick(e, l.href)}
-                className="text-sm text-dim transition-colors hover:text-ink"
-              >
-                {l.label}
-              </Link>
-            ))}
+            {links.map((l) =>
+              l.section ? (
+                <SectionLink
+                  key={l.section}
+                  locale={locale}
+                  id={l.section}
+                  className="text-sm text-dim transition-colors hover:text-ink"
+                >
+                  {l.label}
+                </SectionLink>
+              ) : (
+                <Link
+                  key={l.href}
+                  href={l.href!}
+                  className="text-sm text-dim transition-colors hover:text-ink"
+                >
+                  {l.label}
+                </Link>
+              )
+            )}
           </div>
 
           <div className="flex items-center gap-3">
@@ -147,16 +133,27 @@ export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
         className="fixed inset-0 z-40 bg-[color:var(--c-bg)]/97 backdrop-blur-md md:hidden"
       >
         <div className="flex h-full flex-col justify-center gap-2 px-8">
-          {links.map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              onClick={(e) => onAnchorClick(e, l.href)}
-              className="display border-b border-[color:var(--c-border)] py-5 text-3xl"
-            >
-              {l.label}
-            </Link>
-          ))}
+          {links.map((l) =>
+            l.section ? (
+              <SectionLink
+                key={l.section}
+                locale={locale}
+                id={l.section}
+                onNavigate={() => setOpen(false)}
+                className="display border-b border-[color:var(--c-border)] py-5 text-3xl"
+              >
+                {l.label}
+              </SectionLink>
+            ) : (
+              <Link
+                key={l.href}
+                href={l.href!}
+                className="display border-b border-[color:var(--c-border)] py-5 text-3xl"
+              >
+                {l.label}
+              </Link>
+            )
+          )}
           <a
             href={`mailto:${SITE.email}`}
             className="mono mt-8 text-sm text-dim"
