@@ -1,7 +1,7 @@
 # corvus-site — Yol Haritası + PASS LOG
 
 ## Sonraki Oturum İçin
-**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `9f9b2e5`, **34 proje / 36 kart** (10'u perdeli, 59 sayfa). Önce `.claude-state.md` oku.
+**Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `4a0c075`, **34 proje / 36 kart** (10'u perdeli, 59 sayfa). Önce `.claude-state.md` oku.
 
 | # | Görev | Kim | Not |
 |---|-------|-----|-----|
@@ -22,8 +22,8 @@
 | 6 | GitHub push | CEO kararı | Şu an lokal git |
 | 9 | **Logo mavisi ile iOS disiplin rengi çakışması** — ikisi de `#5B8CFF` | CEO kararı | Logo brand mavisinde kalsın, `--c-ios` hafif kaydırılsın (öneri `#7BA5FF`). Ya da tam tersi. Tek satır CSS. |
 | 10 | ~~Marka filmi + intro'yu commit et~~ ✅ DONE | — | 2026-08-23, commit `28477be` + prod deploy |
-| 13 | **LinkedIn linkini siteye ekle** | Claude solo (URL CEO'dan) | `site.ts`'e `linkedin` alanı + `Footer.tsx` link. CEO 2026-08-23'te şirket sayfası açtı. |
-| 14 | `hello@corvus-tech.co` posta kutusu kur | CEO | Şu an sitede kişisel Gmail görünüyor (`site.ts`). LinkedIn'de kurumsal görünüm için gerekli. |
+| 13 | ~~LinkedIn linkini siteye ekle~~ ✅ DONE | — | 2026-08-23, e-postanın yerini aldı |
+| 14 | `hello@corvus-tech.co` posta kutusu kur | CEO | Artık ACİL DEĞİL — sitede e-posta görünmüyor. Kurulunca `SITE.email` geri bağlanır. |
 | 11 | Brand film bölümünün görsel doğrulaması | Claude solo | Yerleşim sayısal doğrulandı, ekran görüntüsü alınamadı — CEO tarayıcıda bakıp onaylasın |
 | 20 | ~~CVtoapply görselleri~~ ✅ DONE | — | 2026-08-23 |
 | 18 | ~~Corvus Budget tutarsızlığı~~ ✅ DONE — proje iptal, siteden silindi | — | 2026-08-23 |
@@ -40,6 +40,22 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-23 (15. tur) — İletişim e-posta yerine LinkedIn
+
+**CEO:** kişisel Gmail sitede görünmesin, LinkedIn linki olsun.
+
+- `site.ts`'e iki alan: `linkedin` (https://tr.linkedin.com/in/corvus-tech-a32741352) ve `linkedinLabel` (ekranda yazan kısa hâli).
+- Değişen 5 yer: `Contact.tsx` (ana buton + yanındaki metin), `Nav.tsx` mobil menü altı, `Footer.tsx`, `TerminalEgg.tsx` (`contact` komutu), sözlükteki CTA metni → **"LinkedIn'den yazın" / "Message us on LinkedIn"**.
+- Hepsi `target="_blank" rel="noopener noreferrer"`.
+- **JSON-LD'den de çıkarıldı.** Spam botları yapılandırılmış veriyi de tarar; `email` alanı silinip yerine `sameAs: [linkedin]` konuldu (schema.org'un sosyal profil alanı, SEO açısından da doğrusu bu).
+- `SITE.email` alanı **duruyor ama hiçbir yerde kullanılmıyor** — gerçek `hello@corvus-tech.co` kutusu kurulunca tek satırda geri bağlanır.
+
+**Doğrulama (canlı):** `/tr` içinde `uekremmert@gmail.com` **0**, `mailto:` **0**, LinkedIn linki **9 yerde** ✓ · JSON-LD'de `"sameAs":["https://tr.linkedin.com/in/corvus-tech-a32741352"]` ✓ · `/en` CTA "Message us on LinkedIn" ✓
+⚠️ `curl` LinkedIn'e vurunca **999** döner — bu kırık link değil, LinkedIn'in bot engeli. Linkin doğruluğu tarayıcıdan teyit edilmeli.
+
+**Commit:** `4a0c075` · deploy `corvus-site-4giaotagl`
+
 
 ### 2026-08-23 (14. tur) — Adres çubuğunda çapa yok: `SectionLink`
 
