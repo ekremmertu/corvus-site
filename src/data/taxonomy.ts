@@ -55,6 +55,11 @@ export interface Project {
    */
   screenshots?: number;
   /**
+   * Panelleri bitişik göster. TripWalkers'ın 7 paneli tek bir yürüyüş rotası:
+   * turuncu hat panelden panele devam ediyor, aradaki boşluk hattı koparır.
+   */
+  screenshotsSeamless?: boolean;
+  /**
    * Projenin ikinci evi. Ameliea hem web platformu hem iOS uygulaması —
    * iki sekmede birden görünür, tek detay sayfası paylaşır.
    */

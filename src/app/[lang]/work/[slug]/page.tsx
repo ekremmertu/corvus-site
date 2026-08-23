@@ -115,7 +115,7 @@ export default async function ProjectPage({
 
         {project.screenshots ? (
           <figure className="shots mt-8">
-            <ul className="shots-row">
+            <ul className={`shots-row${project.screenshotsSeamless ? " shots-seamless" : ""}`}>
               {Array.from({ length: project.screenshots }, (_, i) => (
                 <li key={i}>
                   <img

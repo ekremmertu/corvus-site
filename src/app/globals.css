@@ -286,6 +286,34 @@ body {
   scroll-snap-align: start;
 }
 
+/* Bitisik mod: paneller arasi bosluk ve cerceve yok — panelden panele gecen
+   tasarim (TripWalkers'in turuncu hatti) kopmasin diye. */
+.shots-seamless {
+  gap: 0;
+}
+
+.shots-seamless img {
+  border: 0;
+  border-radius: 0;
+}
+
+.shots-seamless > li:first-child img {
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+
+.shots-seamless > li:last-child img {
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+@media (hover: hover) {
+  .shots-seamless img:hover {
+    transform: none;
+    border-color: transparent;
+  }
+}
+
 .shots-row img {
   display: block;
   width: clamp(150px, 30vw, 208px);
