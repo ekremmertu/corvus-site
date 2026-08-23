@@ -539,7 +539,7 @@ export const projects: Project[] = [
   },
   {
     slug: "amelie-co",
-    name: "Amelie.co",
+    name: "Ameliea",
     category: "web",
     status: "live",
     year: "2026",
