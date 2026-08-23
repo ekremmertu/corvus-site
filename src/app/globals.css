@@ -220,6 +220,21 @@ body {
   color: #05060a;
 }
 
+/* "Canli siteyi gor" — yazi ve cerceve aktif disiplin renginde. */
+.btn-live {
+  background: transparent;
+  color: var(--c-live);
+  border: 1px solid color-mix(in srgb, var(--c-live) 45%, transparent);
+}
+
+@media (hover: hover) {
+  .btn-live:hover {
+    border-color: var(--c-live);
+    background: var(--c-live-soft);
+    transform: translateY(-2px);
+  }
+}
+
 .btn-secondary {
   background: transparent;
   color: var(--c-text);
