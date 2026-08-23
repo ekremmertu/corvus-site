@@ -537,36 +537,6 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "corvus-budget",
-    name: "Corvus Budget",
-    category: "ios",
-    status: "live",
-    year: "2025",
-    stack: ["SwiftUI", "StoreKit", "App Store"],
-    summary: {
-      en: "The first Corvus app on the App Store — household budgeting without spreadsheets.",
-      tr: "App Store'daki ilk Corvus uygulaması — tablo dosyasız ev bütçesi.",
-    },
-    description: {
-      en: "Where the studio's iOS pipeline was first proven: design system, StoreKit setup, privacy labels, review submission and post-launch maintenance on a live, publicly downloadable app.",
-      tr: "Stüdyonun iOS hattının ilk kanıtlandığı yer: tasarım sistemi, StoreKit kurulumu, gizlilik etiketleri, inceleme gönderimi ve canlı, herkese açık bir uygulamada yayın sonrası bakım.",
-    },
-    highlights: {
-      en: [
-        "Published on the App Store under the Corvus Tech developer account",
-        "Full submission pipeline proven end to end",
-        "Foundation for every iOS product that followed",
-      ],
-      tr: [
-        "Corvus Tech geliştirici hesabı altında App Store'da yayında",
-        "Uçtan uca kanıtlanmış tam gönderim hattı",
-        "Sonraki her iOS ürününün temeli",
-      ],
-    },
-  },
-
-  // ─────────────────────────────  WEB  ─────────────────────────────
-  {
     slug: "amelie-co",
     name: "Amelie.co",
     category: "web",
@@ -643,6 +613,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "FastAPI", "Anthropic API"],
     liveUrl: "https://cvtoapply.co",
     appStoreUrl: "https://apps.apple.com/tr/app/id6790497658",
+    screenshots: 5,
     summary: {
       en: "Rewrites your CV for the specific job posting, ATS-readable on the first pass.",
       tr: "CV'ni ilana göre yeniden yazar, ilk okumada ATS-uyumlu.",
