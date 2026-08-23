@@ -62,21 +62,43 @@ export default function Intro({ locale }: { locale: Locale }) {
   }, []);
 
   useEffect(() => {
-    // Açılış HER yüklemede oynar (CEO kararı 2026-08-23) — tek istisna,
-    // kullanıcının işletim sisteminde hareket azaltmayı açmış olması.
-    // ?intro=1 onu da geçersiz kılar.
+    // Açılış YALNIZCA ana sayfanın kendisi yüklendiğinde oynar (CEO 2026-08-23).
+    // Oynamaması gereken üç durum:
+    //   1. Adreste çapa var (/tr#process) — kullanıcı bir bölüme atlıyor
+    //   2. Belge başka bir sayfada açıldı, ana sayfaya site içinden gelindi
+    //   3. Aynı belgede daha önce bir kez oynadı (ileri/geri, site içi gezinme)
+    // ?intro=1 üçünü de, hareket azaltmayı da geçersiz kılar.
     let forced = false;
     try {
       forced = new URLSearchParams(window.location.search).get("intro") === "1";
     } catch {
       /* URL okunamıyorsa normal akış */
     }
+
+    let isFreshHomeLoad = false;
+    try {
+      const nav = performance.getEntriesByType("navigation")[0] as
+        | PerformanceNavigationTiming
+        | undefined;
+      // nav.name = tarayıcının GERÇEKTEN yüklediği belge adresi.
+      // Site içi (soft) gezinmede değişmez — ayrımı bu sağlıyor.
+      const loaded = new URL(nav?.name ?? window.location.href);
+      isFreshHomeLoad =
+        !loaded.hash &&
+        loaded.pathname === window.location.pathname &&
+        !window.location.hash &&
+        !(window as unknown as { __cvIntroPlayed?: boolean }).__cvIntroPlayed;
+    } catch {
+      isFreshHomeLoad = true;
+    }
+
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (!forced && reduced) {
+    if (!forced && (reduced || !isFreshHomeLoad)) {
       skipped.current = true;
       setDone(true);
       return;
     }
+    (window as unknown as { __cvIntroPlayed?: boolean }).__cvIntroPlayed = true;
 
     document.body.style.overflow = "hidden";
 
