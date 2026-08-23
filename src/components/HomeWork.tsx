@@ -70,7 +70,7 @@ export default function HomeWork({
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {list.length === 0 && <p className="lede">{d.work.empty}</p>}
           {list.map((p, i) => (
-            <ProjectCard key={p.slug} project={p} locale={locale} index={i} d={d} />
+            <ProjectCard key={`${p.category}-${p.slug}`} project={p} locale={locale} index={i} d={d} />
           ))}
         </div>
       </div>

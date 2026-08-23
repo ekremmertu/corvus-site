@@ -55,6 +55,11 @@ export interface Project {
    */
   screenshots?: number;
   /**
+   * Projenin ikinci evi. Ameliea hem web platformu hem iOS uygulaması —
+   * iki sekmede birden görünür, tek detay sayfası paylaşır.
+   */
+  alsoIn?: CategorySlug[];
+  /**
    * Uygulama henüz App Store'da değil ama yolda.
    * `appStoreUrl` dolduğunda bu alan silinir — ikisi birlikte kullanılmaz.
    */
@@ -331,6 +336,8 @@ export type CardProject = {
   slug: string;
   /** Kart sırası — küçük olan üstte. Bkz. rankOf. */
   rank: number;
+  /** İkinci kategoriye açılmış kopya. "Tümü" sekmesinde sayılmaz. */
+  dup?: boolean;
   category: CategorySlug;
   status: ProjectStatus;
   stack: string[];

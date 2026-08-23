@@ -95,6 +95,7 @@ export const projects: Project[] = [
     featured: true,
     liveUrl: "https://splittable.me",
     appStoreSoon: true,
+    alsoIn: ["web"],
     summary: {
       en: "Restaurant table app: split the bill, then show the owner what the data means.",
       tr: "Restoran masa uygulaması: hesabı böl, sonra işletmeciye verinin ne anlattığını göster.",
@@ -546,6 +547,7 @@ export const projects: Project[] = [
     featured: true,
     liveUrl: "https://ameliea.co",
     appStoreSoon: true,
+    alsoIn: ["ios"],
     summary: {
       en: "Digital wedding invitations that feel like a film, sold and paid for online.",
       tr: "Film gibi hissettiren, online satılan ve ödemesi alınan dijital düğün davetiyeleri.",
@@ -1103,6 +1105,16 @@ export function toCards(list: Project[] = projects): CardProject[] {
           metrics: p.metrics,
           appStoreSoon: p.appStoreSoon,
         };
+    })
+    .flatMap((card, i) => {
+      // alsoIn: aynı kart ikinci sekmede de görünür. Detay sayfası ortak,
+      // sadece kategori rozeti/rengi o sekmenin rengi olur.
+      const extra = (list[i].alsoIn ?? []).map((cat) => ({
+        ...card,
+        category: cat,
+        dup: true,
+      }));
+      return [card, ...extra];
     })
     .sort((a, b) => a.rank - b.rank); // Array.sort kararlı: eşit rank'te veri sırası korunur
 }
