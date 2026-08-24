@@ -54,7 +54,8 @@
 - `src/components/Footer.tsx` — "Studio" listesine mailto satırı.
 - `src/components/Nav.tsx` — mobil menüde LinkedIn'in altına mailto satırı.
 - `src/app/[lang]/layout.tsx:90` — JSON-LD'ye `email` alanı geri geldi (kurumsal adres, ekranda zaten görünür → gizlemenin anlamı kalmadı).
-- **Etki:** `npm run build` temiz, 0 TS hatası. Commit bekliyor (17. tur analytics değişiklikleriyle birlikte working tree'de).
+- **2. istek (aynı gün):** Contact başlığı "Kurulmaya değer / bir şey mi var?" → "Bir / fikrin mi var?" (EN: "Have an / idea?"). Butonlar dikey sıraya geçti: **en üstte adresin kendisi yazılı mailto butonu (birincil)**, altında LinkedIn (ikincil). Mono link satırı kaldırıldı.
+- **Etki:** `npm run build` temiz, 0 TS hatası. Commit'ler: analytics (17. tur) `548934a`, e-posta+başlık (18. tur) `efdd1aa`. Prod deploy ✅ `corvus-site-gxqivkqqz` → https://corvus-tech.co (CEO çalıştırdı). Doğrulama: canlı TR sayfasında adres 12 yerde + "fikrin mi var" başlığı, EN'de "Have an idea?" — curl PASS.
 
 **Neden:** Sitede hiçbir ziyaretçi ölçümü yoktu (paket, script, tag — hiçbiri). "Kaç kişi geldi, nereye baktı" sorusuna verilecek veri yoktu.
 
