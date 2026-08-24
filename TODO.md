@@ -11,7 +11,10 @@
 | 2d | ~~SSL sertifikası~~ ✅ DONE — elle tetiklendi | — | 2026-07-30, `vercel certs issue` |
 | 7 | **Cloud Run'a `CORVUS_API_KEY` env var ekle + redeploy** | **CEO** | ⚠️ ZORUNLU: env var olmadan servis artık BAŞLAMAZ (fail-safe). Komut aşağıda. |
 | 7b | Terminal `.env`'ine `VITE_CORVUS_API_KEY` ekle | CEO | Sadece local Terminal Cloud API'ye bağlanacaksa. Local API (`localhost:8765`) anahtar istemiyor. |
-| 8 | Portfolyoya CSP ekle (ayrı tur) | Claude solo | R3F/Next inline script + Higgsfield video kaynakları test gerektiriyor |
+| 22 | **Clarity + GA4 kimlikleri gir** | **CEO** | Kod hazır, ID yok → script yüklenmiyor. `NEXT_PUBLIC_CLARITY_ID` (clarity.microsoft.com) + `NEXT_PUBLIC_GA_ID` (`G-...`) Vercel env'e eklenecek. Detay PASS LOG 17. tur. |
+| 23 | **Vercel dashboard'da Web Analytics'i aç** | **CEO** | Project → Analytics → Enable. Paket kurulu ama panel açılmadan veri toplanmaz. |
+| 24 | Çerez izni bandı (cookie banner) | Claude solo | GA4 + Clarity çerez yazar → KVKK/GDPR. Sadece Vercel Analytics kalırsa gerekmez (çerezsiz). CEO karar verince. |
+| 8 | Portfolyoya CSP ekle (ayrı tur) | Claude solo | R3F/Next inline script + Higgsfield video kaynakları test gerektiriyor. **Artık Clarity/GA4/Vercel alan adları da whitelist'e girmeli** |
 | 2b | ~~/terminal entegrasyonu~~ ✅ DONE | — | Terminal `ac4772f` + site `683e6de`, Firebase canlı |
 | 3 | ~~v1 site kur~~ ✅ DONE | — | 2026-07-29, commit `d4c85d6` |
 | 3b | ~~Perf turu 1: site ağır (CEO şikâyeti)~~ ✅ DONE | — | 2026-07-30, blur/grain/dpr/canvas-unmount; aşağıda PASS LOG |
@@ -23,7 +26,7 @@
 | 9 | **Logo mavisi ile iOS disiplin rengi çakışması** — ikisi de `#5B8CFF` | CEO kararı | Logo brand mavisinde kalsın, `--c-ios` hafif kaydırılsın (öneri `#7BA5FF`). Ya da tam tersi. Tek satır CSS. |
 | 10 | ~~Marka filmi + intro'yu commit et~~ ✅ DONE | — | 2026-08-23, commit `28477be` + prod deploy |
 | 13 | ~~LinkedIn linkini siteye ekle~~ ✅ DONE | — | 2026-08-23, e-postanın yerini aldı |
-| 14 | `hello@corvus-tech.co` posta kutusu kur | CEO | Artık ACİL DEĞİL — sitede e-posta görünmüyor. Kurulunca `SITE.email` geri bağlanır. |
+| 14 | ~~Kurumsal posta kutusu~~ ✅ DONE — `corvustech.co@outlook.com` kuruldu (CEO) ve siteye eklendi | — | 2026-08-24, 18. tur. İleride `hello@corvus-tech.co` istenirse tek değişiklik `src/lib/site.ts`. |
 | 11 | Brand film bölümünün görsel doğrulaması | Claude solo | Yerleşim sayısal doğrulandı, ekran görüntüsü alınamadı — CEO tarayıcıda bakıp onaylasın |
 | 20 | ~~CVtoapply görselleri~~ ✅ DONE | — | 2026-08-23 |
 | 18 | ~~Corvus Budget tutarsızlığı~~ ✅ DONE — proje iptal, siteden silindi | — | 2026-08-23 |
@@ -40,6 +43,36 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 2026-08-24 (18. tur) — Kurumsal e-posta siteye eklendi
+
+**Neden:** CEO `corvustech.co@outlook.com` kutusunu kurdu. Sitede o ana kadar e-posta hiç yoktu (tüm iletişim LinkedIn'e gidiyordu), `SITE.email`'de kişisel Gmail duruyordu ama hiçbir yerde kullanılmıyordu.
+
+**Ne yapıldı:**
+- `src/lib/site.ts:9` — `email: "corvustech.co@outlook.com"` (kişisel Gmail siteden tamamen çıktı).
+- `src/components/Contact.tsx` — LinkedIn birincil buton kaldı; yanına `btn btn-secondary` e-posta butonu (`d.contact.email` etiketi — dict'te zaten hazırdı, EN "Email" / TR "E-posta") + altına mono satırda adres + LinkedIn linki.
+- `src/components/Footer.tsx` — "Studio" listesine mailto satırı.
+- `src/components/Nav.tsx` — mobil menüde LinkedIn'in altına mailto satırı.
+- `src/app/[lang]/layout.tsx:90` — JSON-LD'ye `email` alanı geri geldi (kurumsal adres, ekranda zaten görünür → gizlemenin anlamı kalmadı).
+- **Etki:** `npm run build` temiz, 0 TS hatası. Commit bekliyor (17. tur analytics değişiklikleriyle birlikte working tree'de).
+
+**Neden:** Sitede hiçbir ziyaretçi ölçümü yoktu (paket, script, tag — hiçbiri). "Kaç kişi geldi, nereye baktı" sorusuna verilecek veri yoktu.
+
+**Ne yapıldı:**
+- Paket: `@vercel/analytics@2.0.1` + `@next/third-parties` (`npm install`, +3 paket).
+- Yeni dosya `src/components/Analytics.tsx` — üç sağlayıcıyı tek yerde toplar:
+  - `<VercelAnalytics />` (`@vercel/analytics/next`) — koşulsuz, anahtar istemez, çerezsiz.
+  - Clarity — `next/script` ile inline snippet, `strategy="afterInteractive"`, **yalnız `NEXT_PUBLIC_CLARITY_ID` doluysa** render edilir.
+  - GA4 — `<GoogleAnalytics gaId={...} />` (`@next/third-parties/google`), **yalnız `NEXT_PUBLIC_GA_ID` doluysa**.
+- `src/app/[lang]/layout.tsx:16` import, `:121` `</SceneProvider>` sonrası `<Analytics />` — SceneProvider dışında, `<body>` içinde.
+- **Karar — env-guard deseni:** ID'siz build'de hiçbir üçüncü parti script HTML'e girmez. Böylece kod bugün merge edilir, anahtarlar sonra Vercel env'den takılır; `npm run dev` local'de sahte veri üretmez.
+- **Kaynak:** `node_modules/next/dist/docs/01-app/03-api-reference/02-components/script.md` (strategy tablosu — analytics için `afterInteractive` önerilir) + `.../02-guides/third-party-libraries.md:200` (GoogleAnalytics kullanımı) okundu, AGENTS.md kuralı gereği.
+
+**Doğrulama:** `npx tsc --noEmit` 0 hata · `npm run build` temiz, 59 sayfa, TypeScript 1411 ms ✓
+
+**Açık uç:** ID'ler girilmediği için Clarity ve GA4 henüz veri toplamıyor (görev 22). Vercel Analytics dashboard'dan açılmayı bekliyor (görev 23). Çerez bandı yazılmadı (görev 24).
+
+**Commit:** (bekliyor)
 
 ### 2026-08-23 (16. tur) — TripWalkers galerisi: v5 "Turuncu Hat" panelleri
 

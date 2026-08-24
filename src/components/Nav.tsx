@@ -162,6 +162,9 @@ export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
           >
             {SITE.linkedinLabel}
           </a>
+          <a href={`mailto:${SITE.email}`} className="mono mt-3 text-sm text-dim">
+            {SITE.email}
+          </a>
         </div>
       </div>
     </>

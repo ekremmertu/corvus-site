@@ -65,6 +65,11 @@ export default function Footer({ locale, d }: { locale: Locale; d: Dict }) {
                   {d.nav.contact}
                 </a>
               </li>
+              <li>
+                <a href={`mailto:${SITE.email}`} className="text-sm text-dim hover:text-ink">
+                  {SITE.email}
+                </a>
+              </li>
             </ul>
           </nav>
         </div>

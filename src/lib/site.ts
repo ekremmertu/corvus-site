@@ -1,16 +1,13 @@
 /**
  * Single source of truth for identity + SEO surface.
- * Domain: corvus-tech.co (GoDaddy). Contact mailbox confirmed by owner 2026-07-30.
+ * Domain: corvus-tech.co (GoDaddy). Contact mailbox confirmed by owner 2026-08-24.
  */
 export const SITE = {
   name: "Corvus Tech",
   legalName: "Corvus Tech",
   url: "https://corvus-tech.co",
-  email: "uekremmert@gmail.com",
-  /**
-   * İletişim kanalı. Sitede GÖRÜNEN bağlantı budur; e-posta yalnızca
-   * JSON-LD içinde kalır (kişisel adres ekranda durmasın diye, CEO 2026-08-23).
-   */
+  // Kurumsal kutu (CEO 2026-08-24). Ekranda görünür + JSON-LD'de yayınlanır.
+  email: "corvustech.co@outlook.com",
   linkedin: "https://tr.linkedin.com/in/corvus-tech-a32741352",
   linkedinLabel: "linkedin.com/in/corvus-tech",
   city: "Istanbul",

@@ -128,8 +128,8 @@ export const dict = {
       ],
     },
     contact: {
-      title1: "Have something",
-      title2: "worth building?",
+      title1: "Have an",
+      title2: "idea?",
       sub: "Tell us the problem in a paragraph. You will get a straight answer about scope, timeline and whether it is worth doing at all.",
       cta: "Message us on LinkedIn",
       email: "Email",
@@ -262,8 +262,8 @@ export const dict = {
       ],
     },
     contact: {
-      title1: "Kurulmaya değer",
-      title2: "bir şey mi var?",
+      title1: "Bir",
+      title2: "fikrin mi var?",
       sub: "Problemi bir paragrafta anlatın. Kapsam, süre ve hatta yapmaya değip değmediği konusunda dürüst bir cevap alacaksınız.",
       cta: "LinkedIn'den yazın",
       email: "E-posta",
