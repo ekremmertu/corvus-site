@@ -13,6 +13,7 @@ import CustomCursor from "@/components/fx/CustomCursor";
 import SweepFx from "@/components/fx/SweepFx";
 import TerminalEgg from "@/components/fx/TerminalEgg";
 import { openProjects, toCards } from "@/data/projects";
+import Analytics from "@/components/Analytics";
 
 const display = Archivo({
   subsets: ["latin", "latin-ext"],
@@ -86,8 +87,7 @@ export default async function LocaleLayout({
     "@type": "Organization",
     name: SITE.name,
     url: SITE.url,
-    // Kişisel e-posta sayfa kaynağında durmasın (spam botları JSON-LD'yi de tarar);
-    // arama motoruna iletişim kanalı olarak LinkedIn gösteriliyor.
+    email: SITE.email,
     sameAs: [SITE.linkedin],
     foundingDate: SITE.founded,
     description: SITE.description[lang],
@@ -117,6 +117,7 @@ export default async function LocaleLayout({
           <SweepFx />
           <TerminalEgg entries={toCards(openProjects())} />
         </SceneProvider>
+        <Analytics />
       </body>
     </html>
   );
