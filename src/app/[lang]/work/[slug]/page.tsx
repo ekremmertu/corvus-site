@@ -99,12 +99,35 @@ export default async function ProjectPage({
   const category = getCategory(project.category);
   const next = open[(index + 1) % open.length];
 
+  /**
+   * Ürün SSS'i doluysa FAQPage de yayınlanır. Sorular AŞAĞIDA GÖRÜNEN bölümle
+   * aynı kaynaktan (project.faq) gelir — schema.org, işaretlemenin sayfada
+   * görünen içerikle aynı olmasını şart koşar.
+   */
+  const faqJsonLd = project.faq?.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: project.faq.map((f) => ({
+          "@type": "Question",
+          name: f.q[lang],
+          acceptedAnswer: { "@type": "Answer", text: f.a[lang] },
+        })),
+      }
+    : null;
+
   return (
     <article className="relative">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(urunJsonLd(project, lang)) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <ProjectSceneSync categoryIndex={category.index} />
 
       <header className="mx-auto w-full max-w-[1240px] px-5 pb-16 pt-[calc(var(--nav-h)+72px)] sm:px-8">
@@ -266,6 +289,44 @@ export default async function ProjectPage({
           </aside>
         </div>
       </div>
+
+      {/* Ürün SSS — yalnız project.faq doluysa çizilir.
+          GÖRÜNÜR olması ŞART: yukarıdaki FAQPage JSON-LD bu bölümle aynı
+          kaynaktan beslenir; schema.org işaretlemenin sayfada görünen içerikle
+          aynı olmasını şart koşar. Kendi domaini olmayan ürünler (TripWalkers)
+          için bu bölüm tek makine-okunur GEO yüzeyidir. */}
+      {project.faq?.length ? (
+        <section
+          className="border-t border-[color:var(--c-border)]"
+          aria-labelledby="urun-sss"
+        >
+          <div className="mx-auto w-full max-w-[1240px] px-5 py-16 sm:px-8">
+            <h2 id="urun-sss" className="eyebrow mb-8">
+              {lang === "tr" ? "Sık sorulanlar" : "FAQ"}
+            </h2>
+            <div className="border-t border-[color:var(--c-border)]">
+              {project.faq.map((f) => (
+                <details
+                  key={f.q.en}
+                  className="group border-b border-[color:var(--c-border)]"
+                >
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-6 py-5 text-left transition-colors duration-200 hover:text-[color:var(--c-live)] [&::-webkit-details-marker]:hidden">
+                    <span className="text-[clamp(0.95rem,1.3vw,1.1rem)] font-medium">
+                      {f.q[lang]}
+                    </span>
+                    <span aria-hidden className="mono text-[color:var(--c-live)]">
+                      +
+                    </span>
+                  </summary>
+                  <p className="max-w-[70ch] pb-6 text-[color:var(--c-dim)]">
+                    {f.a[lang]}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       <nav className="border-t border-[color:var(--c-border)]" aria-label={d.work.nextProject}>
         <Link

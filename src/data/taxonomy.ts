@@ -47,6 +47,17 @@ export interface Project {
   appStoreUrl?: string;
   /** Canlı web ürününün adresi (web/fintech kategorileri). */
   liveUrl?: string;
+  /**
+   * Ürüne özel SSS — opsiyonel.
+   *
+   * NEDEN VAR (2026-08-31): kendi domaini OLMAYAN ürünler için bu sayfa tek
+   * makine-okunur GEO yüzeyidir. CEO kararı: TripWalkers'a domain alınmayacak →
+   * "TripWalkers nedir / ne yapar" sorusunun cevabı burada durmak zorunda.
+   * Doldurulduğunda sayfada görünür bir SSS bölümü çizilir VE aynı sorulardan
+   * FAQPage JSON-LD üretilir (schema.org: işaretleme görünen içerikle aynı olmalı).
+   * Boş bırakılan üründe hiçbir şey çizilmez.
+   */
+  faq?: { q: L10n; a: L10n }[];
   /** Kart perdelensin mi — bkz. veilOf. Yoksa normal görünür. */
   veil?: Veil;
   /**
