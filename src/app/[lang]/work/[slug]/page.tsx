@@ -10,6 +10,7 @@ import {
   veilOf,
   type Locale,
 } from "@/data/projects";
+import { SITE } from "@/lib/site";
 import ProjectSceneSync from "@/components/ProjectSceneSync";
 import VT from "@/components/fx/VT";
 
@@ -44,6 +45,46 @@ export async function generateMetadata({
   };
 }
 
+/**
+ * GEO — ürün sayfası yapısal verisi.
+ *
+ * "TripWalkers nedir?" / "CVtoapply ne işe yarar?" soruları artık yapay zekâ
+ * asistanlarına soruluyor. Bu blok motorun cevabı sayfa metninden TAHMİN etmek
+ * yerine makineden OKUMASINI sağlar: ne olduğu, kimin yaptığı, hangi platformda
+ * çalıştığı, App Store bağlantısı.
+ *
+ * App Store'da olan ürün SoftwareApplication, olmayan CreativeWork olur —
+ * "mobil uygulama" demek gerçek olmadığında yanlış beyandır.
+ *
+ * ⛔ `aggregateRating` BİLEREK YOK: ürünlerin gerçek oy sayısı çok düşük ya da
+ *    sıfır. Uydurma puan hem Google yapısal veri politikası ihlali hem marka
+ *    dürüstlük freni ihlalidir. Gerçek oylar birikince eklenir.
+ */
+function urunJsonLd(project: (typeof projects)[number], locale: Locale) {
+  const uygulamaMi = Boolean(project.appStoreUrl);
+  return {
+    "@context": "https://schema.org",
+    "@type": uygulamaMi ? "SoftwareApplication" : "CreativeWork",
+    name: project.name,
+    description: project.description[locale],
+    abstract: project.summary[locale],
+    url: `${SITE.url}/${locale}/work/${project.slug}`,
+    inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+    author: { "@type": "Organization", name: SITE.name, url: SITE.url },
+    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
+    ...(uygulamaMi
+      ? {
+          applicationCategory: "MobileApplication",
+          operatingSystem: "iOS",
+          installUrl: project.appStoreUrl,
+          sameAs: [project.appStoreUrl],
+        }
+      : {}),
+    keywords: project.stack.join(", "),
+    ...(project.year ? { dateCreated: project.year } : {}),
+  };
+}
+
 export default async function ProjectPage({
   params,
 }: PageProps<"/[lang]/work/[slug]">) {
@@ -60,6 +101,10 @@ export default async function ProjectPage({
 
   return (
     <article className="relative">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(urunJsonLd(project, lang)) }}
+      />
       <ProjectSceneSync categoryIndex={category.index} />
 
       <header className="mx-auto w-full max-w-[1240px] px-5 pb-16 pt-[calc(var(--nav-h)+72px)] sm:px-8">
