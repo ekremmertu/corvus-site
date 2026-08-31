@@ -86,13 +86,39 @@ export default async function LocaleLayout({
   if (!isLocale(lang)) notFound();
   const d = getDict(lang);
 
+  /**
+   * GEO — kurum kimliği.
+   *
+   * ⚠️ AD ÇAKIŞMASI ÖLÇÜLDÜ (2026-08-31): "Corvus Tech" araması Corvus Energy,
+   * Corvus Robotics, Corvus Systems, Corvus Technology Solutions ve Crunchbase'de
+   * BAŞKA bir "Corvus Tech" getiriyor. Bir yapay zekâ asistanına "Corvus Tech kim?"
+   * diye sorulduğunda büyük olasılıkla BAŞKA şirketi anlatır.
+   *
+   * Çözüm ad değiştirmek değil, AYIRT EDİCİ BAĞLAMI makine-okunur hâle getirmek:
+   * ne yaptığımız (knowsAbout), nerede olduğumuz (address + areaServed), hangi
+   * tür kuruluş olduğumuz (ProfessionalService) ve doğrulanabilir bağlantılarımız
+   * (sameAs). Motor "hangi Corvus" sorusunu bu alanlardan ayırt eder.
+   */
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "ProfessionalService"],
     name: SITE.name,
+    alternateName: `${SITE.name} — ${SITE.city}`,
     url: SITE.url,
     email: SITE.email,
+    // Doğrulanabilir dış profiller: motorun kimliği eşleştirdiği çapa noktaları.
     sameAs: [SITE.linkedin],
+    knowsAbout: [
+      "iOS app development",
+      "SwiftUI",
+      "Next.js web platforms",
+      "Payment integration",
+      "Algorithmic trading systems",
+      "AI agent infrastructure",
+      "Product design",
+    ],
+    areaServed: { "@type": "Country", name: "Türkiye" },
+    numberOfEmployees: { "@type": "QuantitativeValue", value: 1, unitText: "studio" },
     foundingDate: SITE.founded,
     description: SITE.description[lang],
     address: { "@type": "PostalAddress", addressLocality: SITE.city, addressCountry: SITE.country },
