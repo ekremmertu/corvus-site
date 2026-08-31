@@ -52,6 +52,10 @@ export async function generateMetadata({
 
   return {
     metadataBase: new URL(SITE.url),
+    // Google Search Console doğrulaması (URL prefix property, uekremmert@gmail.com).
+    // GEO'nun 2. halkası: arama indeksine girmenin ve sitemap göndermenin ön şartı.
+    // ⚠️ Doğrulama kalıcıdır — bu satır silinirse property doğrulaması DÜŞER.
+    verification: { google: "7adWrWQkx2UBWAsy8KvUY9kBQZam4s9f5QHIH4-fyVo" },
     title: {
       default: title,
       template: `%s · ${SITE.name}`,
