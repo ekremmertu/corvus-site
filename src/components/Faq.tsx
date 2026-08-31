@@ -6,12 +6,38 @@ import type { Dict } from "@/i18n/dict";
  * moment; the interaction underneath stays boring on purpose.
  */
 export default function Faq({ d }: { d: Dict }) {
+  /**
+   * GEO — FAQPage yapısal verisi.
+   *
+   * "Corvus Tech ne yapıyor?" / "fikirden App Store'a götürüyor musunuz?" gibi
+   * sorular artık yapay zekâ asistanlarına soruluyor. Bu blok motorun cevabı
+   * sayfadan TAHMİN etmek yerine bizden OKUMASINI sağlar.
+   *
+   * ⚖️ Sorular `d.faq.items`'tan gelir — yani AŞAĞIDA GÖRÜNEN akordeonun ta
+   *    kendisi. schema.org, işaretlemenin sayfada görünen içerikle aynı olmasını
+   *    şart koşar; tek kaynaktan beslemek bunu yapısal olarak garanti eder.
+   *    Sayfa iki dilde üretildiği için her dil kendi FAQPage'ini alır.
+   */
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: d.faq.items.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
+
   return (
     <section
       id="faq"
       aria-labelledby="faq-title"
       className="relative overflow-hidden bg-[color:var(--c-bg)]/86"
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <div className="mx-auto w-full max-w-[1240px] px-5 py-24 sm:px-8 sm:py-32">
         <h2 id="faq-title" className="display" style={{ fontSize: "var(--type-mega)" }}>
           <span className="block">{d.faq.title1}</span>
