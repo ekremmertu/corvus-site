@@ -50,6 +50,45 @@ export const projects: Project[] = [
       { label: { en: "Version", tr: "Sürüm" }, value: "v1.2.5" },
       { label: { en: "Model", tr: "Model" }, value: "Free + IAP" },
     ],
+    // TripWalkers'ın KENDİ domaini yok (CEO kararı 2026-08-31) → bu sayfa onun
+    // tek makine-okunur GEO yüzeyi. "TripWalkers nedir" sorusunun cevabı burada.
+    faq: [
+      {
+        q: { tr: "TripWalkers nedir?", en: "What is TripWalkers?" },
+        a: {
+          tr: "TripWalkers, hiç gitmediğiniz bir şehri saat saat yürünebilir bir gezi planına çeviren bir iPhone uygulamasıdır. Şehri, tarihleri, bütçeyi ve gerçekten ilgilendiğiniz şeyleri seçersiniz; uygulama günlük planı yazar.",
+          en: "TripWalkers is an iPhone app that turns a city you have never visited into an hour-by-hour, walkable day plan. You pick the destination, dates, budget and what you actually care about; the app writes the itinerary.",
+        },
+      },
+      {
+        q: { tr: "Plan çevrimdışı çalışır mı?", en: "Does the plan work offline?" },
+        a: {
+          tr: "Evet. Oluşturulan plan cihazda durur ve internet olmadan görüntülenip düzenlenebilir — yurt dışında veri paketi olmadığında da elinizin altındadır.",
+          en: "Yes. The generated plan stays on the device and can be viewed and edited without a connection — useful abroad when you have no data.",
+        },
+      },
+      {
+        q: { tr: "Aynı planı arkadaşlarımla paylaşabilir miyim?", en: "Can I share a plan with friends?" },
+        a: {
+          tr: "Evet. Grup gezisi özelliğiyle aynı plan üzerinden birden fazla kişi ilerleyebilir; düzenlemeler canlı yansır ve roller ayrılır.",
+          en: "Yes. Group travel lets several people follow the same plan, with live edits and separate roles.",
+        },
+      },
+      {
+        q: { tr: "Ücretli mi?", en: "Is it paid?" },
+        a: {
+          tr: "Ücretsiz bir katmanı vardır; ek özellikler uygulama içi satın almayla açılır. App Store'da yayındadır.",
+          en: "There is a free tier; additional features unlock through in-app purchases. It is live on the App Store.",
+        },
+      },
+      {
+        q: { tr: "Kim yaptı?", en: "Who built it?" },
+        a: {
+          tr: "İstanbul merkezli ürün stüdyosu Corvus Tech tarafından tasarlandı, geliştirildi ve App Store'a çıkarıldı.",
+          en: "Designed, engineered and shipped to the App Store by Corvus Tech, a product studio based in Istanbul.",
+        },
+      },
+    ],
   },
   {
     slug: "quill",
