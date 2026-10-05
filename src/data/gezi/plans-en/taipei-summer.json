@@ -1,0 +1,492 @@
+{
+ "lang": "en",
+ "slug": "taipei-summer",
+ "altSlug": "taipei-yaz",
+ "citySlug": "taipei",
+ "destKey": "taipei",
+ "city": "Taipei",
+ "region": null,
+ "country": "Taiwan",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "TWD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9000,
+  "attractions": 2500,
+  "transport": 1500,
+  "misc": 2000
+ },
+ "notes": [
+  "EasyCard works on the MRT, buses and YouBike. Eating and drinking are banned on the MRT (you will be fined). The MRT to Taoyuan Airport takes 40 minutes.",
+  "Summer brings 33°C heat and humidity, and July to September carries a typhoon risk (everything closes under a T8 signal). Sightsee in the morning, visit museums or malls in the afternoon, and go to night markets in the cooler evening.",
+  "Night markets run 18:00-24:00, and 300 TWD is enough to eat your fill. Tipping is not expected, and cash is still widely used.",
+  "For Jiufen, Shifen and Yehliu, take a tour (~1,500 TWD) or bus 1062. Go to Jiufen in the afternoon, as the lanterns light up after 17:00.",
+  "Take a queue number at Din Tai Fung. Noodles at Yongkang and Lin Dong Fang cost 250 TWD.",
+  "You do not take your shoes off in temples. Divination blocks and incense are open to all."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "EasyCard",
+  "why_chosen": "Works on the MRT, buses, YouBike and in convenience stores, including the Jiufen bus",
+  "coverage": "Taipei Metro, otobüsler, TRA yerel trenler, YouBike",
+  "where_to_buy": "MRT istasyonları ve 7-Eleven; 100 TWD kart",
+  "cost": 100,
+  "currency_code": "TWD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Taipei 101 and Elephant Mountain",
+   "stops": [
+    {
+     "name": "Taipei 101 Observatory",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 600,
+     "tips": "Floor 89. The first slot in the morning is uncrowded. Look for the wind damper ball."
+    },
+    {
+     "name": "Xinyi District",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Shopping malls and the Eslite bookstore, all air-conditioned."
+    },
+    {
+     "name": "Din Tai Fung Xinyi",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 500,
+     "tips": "The brand that made xiaolongbao (soup dumplings) famous. Take a queue number at 11:45."
+    },
+    {
+     "name": "Sun Yat-sen Memorial Hall",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Changing of the guard every hour. The park has views of Taipei 101."
+    },
+    {
+     "name": "Elephant Mountain",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "A steep 20-minute staircase climb. The sunset photo of Taipei 101 is crowded but worth it."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kao Chi Yongkang",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 350,
+     "tips": "A cheaper rival to Din Tai Fung, serving xiaolongbao."
+    },
+    {
+     "name": "Songshan Cultural Park",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Design exhibitions in an old tobacco factory."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Palace Museum and Shilin",
+   "stops": [
+    {
+     "name": "National Palace Museum",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 350,
+     "tips": "Imperial Chinese treasures, including the Jadeite Cabbage and the Meat-shaped Stone, Tuesday to Saturday. Go before the morning tour buses arrive."
+    },
+    {
+     "name": "Shilin Official Residence",
+     "category": "nature",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The gardens of Chiang Kai-shek's residence, with a rose garden."
+    },
+    {
+     "name": "Lin Dong Fang Beef Noodle",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 250,
+     "tips": "Some of the best beef noodle soup in Taipei (Bib Gourmand), with a clear broth."
+    },
+    {
+     "name": "Beitou Thermal Valley",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A steaming green hot spring lake with a sulphur smell. Take the MRT to Xinbeitou."
+    },
+    {
+     "name": "Beitou Public Hot Spring",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 60,
+     "tips": "A public hot spring (60 TWD, swimwear required), shared with locals."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shilin Night Market",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 300,
+     "tips": "Taipei's biggest night market, known for giant fried chicken cutlets and stinky tofu."
+    },
+    {
+     "name": "Beitou Hot Spring Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A Japanese-era bathhouse building, good for a rainy day."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Jiufen, Shifen and Yehliu",
+   "stops": [
+    {
+     "name": "Yehliu Geopark",
+     "category": "nature",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 120,
+     "tips": "See the Queen's Head rock and the mushroom rocks. Arrive before the tour buses."
+    },
+    {
+     "name": "Shifen Waterfall",
+     "category": "nature",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Known as Taiwan's Niagara. A 20-minute walk."
+    },
+    {
+     "name": "Shifen Old Street",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 150,
+     "tips": "Release a sky lantern over the railway tracks (150 TWD) and watch the trains pass."
+    },
+    {
+     "name": "Jiufen Old Street",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A terraced mountain town with taro balls and tea houses, and a Spirited Away feel."
+    },
+    {
+     "name": "A-Mei Tea House Jiufen",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 400,
+     "tips": "A tea house hung with red lanterns. Come for the oolong and the view; the lanterns light up at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jiufen Grandma Lai Taro Ball",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 60,
+     "tips": "Taro ball dessert."
+    },
+    {
+     "name": "Houtong Cat Village",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "A cat village, as an alternative to Shifen."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Dadaocheng and Longshan",
+   "stops": [
+    {
+     "name": "Longshan Temple",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Taipei's oldest temple. Come in the morning for prayers, incense and divination blocks."
+    },
+    {
+     "name": "Bopiliao Historic Block",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "A Qing-era street with a free exhibition."
+    },
+    {
+     "name": "Dihua Street",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Dadaocheng's street of dried goods and tea, with Baroque facades and a Lunar New Year market."
+    },
+    {
+     "name": "Yongle Market Food Court",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 150,
+     "tips": "Local food in the Dadaocheng market. Try the oyster omelette."
+    },
+    {
+     "name": "Dadaocheng Wharf",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Riverside container bars, with sunset views and cycling."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Du Hsiao Yueh Taipei",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 250,
+     "tips": "Tainan danzai noodles in Dadaocheng."
+    },
+    {
+     "name": "Ximending",
+     "category": "shopping",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Taipei's Shibuya, with youth culture and street art. A swap for the wharf."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Yangmingshan",
+   "stops": [
+    {
+     "name": "Yangmingshan Qingtiangang",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Grassland and water buffalo above the city. Cool in summer. Take bus 260."
+    },
+    {
+     "name": "Xiaoyoukeng",
+     "category": "nature",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Sulphur fumaroles and views of Qixing Mountain."
+    },
+    {
+     "name": "Yangmingshan Zhuzihu",
+     "category": "nature",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Calla lily fields and a village restaurant."
+    },
+    {
+     "name": "Yangmingshan Kalla Restaurant",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 300,
+     "tips": "Mountain vegetables and chicken in Zhuzihu."
+    },
+    {
+     "name": "Raohe Night Market",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 300,
+     "tips": "A single-street night market. The charcoal-baked pepper buns (Fuzhou pepper buns) are at the entrance."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ningxia Night Market",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 300,
+     "tips": "A local, food-focused night market."
+    },
+    {
+     "name": "Xiangshan",
+     "category": "nature",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "An alternative hill."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Tamsui",
+   "stops": [
+    {
+     "name": "Tamsui Old Street",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "At the end of the MRT line, an estuary town known for a-gei (stuffed tofu) and fish balls."
+    },
+    {
+     "name": "Fort San Domingo",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 80,
+     "tips": "A Dutch-Spanish fort and British consulate. Look for the red building."
+    },
+    {
+     "name": "Tamsui A-Gei Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 150,
+     "tips": "Glass noodles stuffed in tofu, Tamsui's signature dish."
+    },
+    {
+     "name": "Fisherman's Wharf Tamsui",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Lovers' Bridge. Cross by ferry; there are cafes on the pier."
+    },
+    {
+     "name": "Tamsui Sunset Beach",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Home to some of Taiwan's most famous sunsets, over the estuary."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tamsui Zhengzhong Fish Ball",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 100,
+     "tips": "Fish ball soup."
+    },
+    {
+     "name": "Bali Left Bank",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The opposite bank by ferry, with a cycle path."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Yongkang: a gentle farewell",
+   "stops": [
+    {
+     "name": "Chiang Kai-shek Memorial Hall",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "A giant white monument with a changing of the guard every hour. Liberty Square is out front."
+    },
+    {
+     "name": "Yongkang Street",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Cafes and mango shaved ice. Try Smoothie House."
+    },
+    {
+     "name": "Yongkang Beef Noodle",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 250,
+     "tips": "Serving braised beef noodles since 1963. A good farewell lunch."
+    },
+    {
+     "name": "Da'an Forest Park",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "A city forest for a last walk. The MRT to Taoyuan Airport takes 40 minutes."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Smoothie House Yongkang",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 200,
+     "tips": "Mango snow ice, a dessert in place of noodles."
+    },
+    {
+     "name": "Taipei Botanical Garden",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Lotus ponds, as a swap for the park."
+    }
+   ]
+  }
+ ]
+}

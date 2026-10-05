@@ -1,0 +1,492 @@
+{
+ "lang": "en",
+ "slug": "lisbon-summer",
+ "altSlug": "lizbon-yaz",
+ "citySlug": "lizbon",
+ "destKey": "lisbon",
+ "city": "Lisbon",
+ "region": null,
+ "country": "Portugal",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 360,
+  "attractions": 170,
+  "transport": 70,
+  "misc": 70
+ },
+ "notes": [
+  "The Viva Viagem 24-hour pass costs 7 EUR (covers metro, trams and lifts; Sintra/Cascais trains are not included and cost 2.45 separately). The metro goes to the airport. The hills are steep; Bolt is cheap.",
+  "Summers are 28-32°C. The Santo António festival is in June (sardines in Alfama), Sintra is misty and cool, and the Cascais beaches are busy; August is crowded.",
+  "Pastel de nata 1.40, bica 1, bifana 4, restaurant meals 15-25. Send back the cover charge (bread/olives) if you don't want it. Round up the tip.",
+  "A timed ticket for Pena in Sintra is REQUIRED (online, 09:30 in the morning); book Jerónimos online too. Most museums are closed on Mondays.",
+  "There are pickpockets on tram 28. At night in Bairro Alto, people offering to sell you drugs are fake; ignore them.",
+  "Bacalhau (salt cod) comes in 365 recipes, sardines are in season June-August, and ginjinha (sour cherry liqueur) costs 1.50 EUR at Rossio."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Viva Viagem / Navegante",
+  "why_chosen": "24 hours for 7 EUR on the metro, trams, buses, lifts and the Sintra/Cascais trains",
+  "coverage": "Carris, Metro, CP banliyö, feribot",
+  "where_to_buy": "Metro istasyonu otomatı; kart 0,50 EUR",
+  "cost": 7,
+  "currency_code": "EUR"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Alfama and the castle",
+   "stops": [
+    {
+     "name": "Miradouro de Santa Luzia",
+     "category": "nature",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Azulejo-tiled terrace with views over the Tejo and the Alfama rooftops in the morning light."
+    },
+    {
+     "name": "Castelo de São Jorge",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Moorish castle with peacocks and 360° city views. Buy tickets online to skip the queue, then walk down through the streets of Alfama."
+    },
+    {
+     "name": "Tasca do Chico Alfama",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Sardines and bifana (pork sandwich), with fado in the evening (no reservations, 20:00)."
+    },
+    {
+     "name": "Tram 28 Martim Moniz",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 3,
+     "tips": "The yellow tram runs from Graça to Estrela. Use a 24-hour pass, watch for pickpockets and board at Martim Moniz."
+    },
+    {
+     "name": "Miradouro da Graça",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Views of the castle and the bridge, with a kiosk beer at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "A Baiuca Alfama",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 35,
+     "tips": "Amateur fado (vadio) tavern; set menu required."
+    },
+    {
+     "name": "Panteão Nacional",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 5,
+     "tips": "White-domed pantheon with a terrace. An alternative to Alfama; Tuesday is the Feira da Ladra flea market."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Belém",
+   "stops": [
+    {
+     "name": "Mosteiro dos Jerónimos",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 18,
+     "tips": "Manueline masterpiece of a monastery with Vasco da Gama's tomb. Book a timed ticket online (the queue is 1 hour); closed on Mondays."
+    },
+    {
+     "name": "Pastéis de Belém",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 4,
+     "tips": "Bakery dating from 1837. Have a warm pastel de nata with cinnamon; the tiled rooms inside have no queue."
+    },
+    {
+     "name": "Torre de Belém",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 8,
+     "tips": "UNESCO riverside fortress, with the Monument to the Discoveries on the way. The outside is enough (the queue to go in is 1 hour)."
+    },
+    {
+     "name": "MAAT Museum",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 11,
+     "tips": "Wave-shaped museum on the riverbank. Walk on the roof; LX Factory is across the way."
+    },
+    {
+     "name": "LX Factory",
+     "category": "shopping",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Factory complex with the Ler Devagar bookshop and design shops; there is a market on Sundays."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rio Maravilha LX Factory",
+     "category": "food",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 30,
+     "tips": "Rooftop bar with bridge views."
+    },
+    {
+     "name": "Museu Nacional dos Coches",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 8,
+     "tips": "Royal carriages; an alternative to MAAT."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Sintra",
+   "stops": [
+    {
+     "name": "Palácio da Pena",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 20,
+     "tips": "Train from Rossio, 40 minutes (2.45 EUR), then bus 434. Colourful romantic palace; an online timed ticket is REQUIRED, first slot 09:30. The terrace is free and may be misty."
+    },
+    {
+     "name": "Castelo dos Mouros",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 12,
+     "tips": "Moorish walls with views of Pena, a 10-minute walk away."
+    },
+    {
+     "name": "Sintra Tarihi Merkez",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 15,
+     "tips": "Try travesseiro (puff pastry pillow) and queijada (small cheese tart) at Piriquita; the town square is nearby."
+    },
+    {
+     "name": "Quinta da Regaleira",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 15,
+     "tips": "Masonic garden with the spiral Initiation Well and tunnels; quiet at the end of the day."
+    },
+    {
+     "name": "Sintra Tren Istasyonu Dönüş",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "17:30",
+     "cost": 3,
+     "tips": "Train back to Rossio, or bus 403 to Cabo da Roca (for summer sunsets)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Palácio Nacional de Sintra",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 13,
+     "tips": "Royal palace with twin chimneys, in town; an alternative to Regaleira."
+    },
+    {
+     "name": "Tascantiga Sintra",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Portuguese tapas in town."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Baixa, Chiado and Bairro Alto",
+   "stops": [
+    {
+     "name": "Praça do Comércio",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Square opening onto the river; terrace on the Rua Augusta Arch (4 EUR)."
+    },
+    {
+     "name": "Convento do Carmo",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 7,
+     "tips": "Gothic church whose roof collapsed in the 1755 earthquake; the nave is open to the sky."
+    },
+    {
+     "name": "A Brasileira Chiado",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 6,
+     "tips": "Pessoa's café: have a bica (espresso) and take a photo with his statue."
+    },
+    {
+     "name": "Time Out Market Lisboa",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Chef stalls at Cais do Sodré; try the Manteigaria pastel de nata."
+    },
+    {
+     "name": "Bairro Alto & Miradouro de São Pedro de Alcântara",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "A bohemian neighbourhood for the evening, with terrace views and the Pink Street bars."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cervejaria Ramiro",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 40,
+     "tips": "Legendary seafood beer hall; finish with prawns and a bifana. Expect a queue."
+    },
+    {
+     "name": "Museu Nacional de Arte Antiga",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 10,
+     "tips": "Bosch's Temptation of Saint Anthony; an alternative to Time Out."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Cascais and Cabo da Roca",
+   "stops": [
+    {
+     "name": "Cascais Praia da Rainha",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Train from Cais do Sodré, 40 minutes. Beach and marina of a fishing town."
+    },
+    {
+     "name": "Boca do Inferno",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The Hell's Mouth cliffs, with crashing waves."
+    },
+    {
+     "name": "Marisco na Praça Cascais",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 35,
+     "tips": "Seafood inside the market, sold by weight."
+    },
+    {
+     "name": "Cabo da Roca",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The westernmost point of Europe. Bus 403 takes 30 minutes; lighthouse, cliffs and wind."
+    },
+    {
+     "name": "Praia do Guincho",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Surf beach with dunes; return to Cascais afterwards."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Estoril Casino & Tamariz",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Estoril beach and Europe's largest casino; an alternative to Cabo."
+    },
+    {
+     "name": "Santini Cascais",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 6,
+     "tips": "Ice cream shop since 1949."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Parque das Nações and azulejos",
+   "stops": [
+    {
+     "name": "Museu Nacional do Azulejo",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 8,
+     "tips": "Tile museum with a 1738 panorama of Lisbon and a convent church."
+    },
+    {
+     "name": "Oceanário de Lisboa",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "One of Europe's largest aquariums, on the Expo 98 site."
+    },
+    {
+     "name": "Parque das Nações Nehir Kıyısı",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "Vasco da Gama Bridge (17 km) and the cable car."
+    },
+    {
+     "name": "Vasco da Gama Alışveriş Merkezi Yemek Katı",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "A quick lunch with river views."
+    },
+    {
+     "name": "Mouraria & Martim Moniz",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "The immigrant neighbourhood where fado was born: Severa's house and street art."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zé da Mouraria",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "Huge portions of bacalhau (salt cod) in Mouraria; lunch."
+    },
+    {
+     "name": "Museu Calouste Gulbenkian",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:30",
+     "cost": 10,
+     "tips": "Lalique and Eastern art, plus a garden; an alternative to the aquarium."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Cacilhas: a gentle farewell",
+   "stops": [
+    {
+     "name": "Cais do Sodré Feribot Cacilhas",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "09:45",
+     "cost": 2,
+     "tips": "A 10-minute ferry to the other side of the Tejo."
+    },
+    {
+     "name": "Cristo Rei",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 8,
+     "tips": "Sibling of Rio's Christ. Take the lift up 80 m for a panorama of Lisbon; bus 101."
+    },
+    {
+     "name": "Ponto Final Cacilhas",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Yellow tables on the riverbank. A farewell lunch with views of Lisbon; book ahead."
+    },
+    {
+     "name": "Aeroporto Metro",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "14:15",
+     "cost": 2,
+     "tips": "Red line metro, 25 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Atira-te ao Rio Cacilhas",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 25,
+     "tips": "Neighbouring riverside restaurant."
+    },
+    {
+     "name": "Mercado da Ribeira Sabahı",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Market at Cais do Sodré; an alternative to Cristo Rei."
+    }
+   ]
+  }
+ ]
+}

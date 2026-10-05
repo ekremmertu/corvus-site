@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "krakow-ekim-mayis",
+ "altSlug": "krakow-october-may",
+ "citySlug": "krakow",
+ "destKey": "krakow",
+ "city": "Krakow",
+ "region": null,
+ "country": "Polonya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "PLN",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 900,
+  "attractions": 700,
+  "transport": 250,
+  "misc": 200
+ },
+ "notes": [
+  "Tramvay/otobüs 20 dakikalık bilet 4 PLN, günlük bilet 17 PLN; eski şehir yürünür. Havalimanı treni 17 PLN. Auschwitz, Wieliczka ve Zakopane'ye otobüs veya turla git (Auschwitz turu 150-200 PLN).",
+  "Aralık'ta Rynek'te Noel pazarı kurulur (Avrupa'nın en güzellerinden). Kışın hava -5°C, kar yağar; Zakopane'de kayak yapılır. Nisan-Mayıs ve Eylül ideal; Auschwitz her mevsim ağır.",
+  "Pierogi 25-35 PLN, zapiekanka 15, obwarzanek 3, süt barı 20, bira 12; bahşiş %10. Polonya ucuz, kart her yerde geçer.",
+  "Auschwitz için online rehberli bilet (90 PLN) ZORUNLU; ücretsiz giriş sabah 07:30'dan önce ve akşam. 14 yaş altı önerilmez. Schindler ve Wieliczka için online bilet al; müzeler pazartesi kısıtlı.",
+  "Wawel Devlet Odaları saatli; St Mary sunağı 12:00'de açılır; hejnał her saat başı 4 yöne çalınır.",
+  "Votka: żubrówka elma suyuyla (szarlotka); Kazimierz'de gece Plac Nowy."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Eski Şehir & Wawel",
+   "stops": [
+    {
+     "name": "Rynek Główny",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Avrupa'nın en büyük ortaçağ meydanı; St Mary borazanı her saat başı (hejnał) yarıda kesilir."
+    },
+    {
+     "name": "St. Mary's Basilica",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 20,
+     "tips": "Veit Stoss'un ahşap sunağı 12:00'de açılır; kule 15 PLN."
+    },
+    {
+     "name": "Rynek Underground Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 32,
+     "tips": "Meydanın altında ortaçağ Krakow; multimedya, salı kapalı, online."
+    },
+    {
+     "name": "Przystanek Pierogarnia",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 30,
+     "tips": "El yapımı pierogi (ruskie, mantar); Bonerowska."
+    },
+    {
+     "name": "Wawel Royal Castle & Cathedral",
+     "category": "culture",
+     "start": "14:00",
+     "end": "16:30",
+     "cost": 50,
+     "tips": "Kraliyet şatosu; Devlet Odaları (35 PLN, online), katedral Sigismund çanı ve kral mezarları (25), Ejderha mağarası, avlu ücretsiz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Mleczny Pod Temidą",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 18,
+     "tips": "Süt barı (bar mleczny) Grodzka'da; ucuz Polonya ev yemeği."
+    },
+    {
+     "name": "Collegium Maius",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 20,
+     "tips": "Kopernik'in üniversitesi; avlu ve saat gösterisi 13:00."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Kazimierz & Podgórze",
+   "stops": [
+    {
+     "name": "Old Synagogue Kazimierz",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 18,
+     "tips": "Polonya'nın en eski sinagogu (15. yüzyıl); müze, Szeroka meydanı."
+    },
+    {
+     "name": "Plac Nowy Zapiekanka",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "Yuvarlak Hal'in penceresinden zapiekanka (yarım baget pizza); Endzior klasik."
+    },
+    {
+     "name": "Schindler's Factory Museum",
+     "category": "culture",
+     "start": "12:15",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "Nazi işgali altında Krakow; online (tükenir), pazartesi kısıtlı, Podgórze."
+    },
+    {
+     "name": "Ghetto Heroes Square Sandalyeler",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "70 boş sandalye anıtı; Kartal Altında Eczane Müzesi (Pod Orłem)."
+    },
+    {
+     "name": "Kładka Bernatka Köprüsü & Vistula",
+     "category": "nature",
+     "start": "15:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Asma köprü ve nehir bulvarı; Kazimierz'e dönüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hamsa Kazimierz",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 35,
+     "tips": "İsrail mutfağı, humus; Szeroka."
+    },
+    {
+     "name": "MOCAK Modern Sanat",
+     "category": "culture",
+     "start": "12:15",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Fabrikanın yanında çağdaş sanat; Schindler bileti yoksa."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Auschwitz-Birkenau",
+   "stops": [
+    {
+     "name": "Auschwitz I",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Otobüs/tur 1,5 saat (70 km); rehberli tur ZORUNLU 10-16 arası (online haftalar önce, 90 PLN), 'Arbeit macht frei', bloklar ve gaz odası; 14 yaş altı önerilmez."
+    },
+    {
+     "name": "Auschwitz II Birkenau",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Servis 3 km; rampa, baraka kalıntıları, 1,5 milyon kurban; sessizlik."
+    },
+    {
+     "name": "Oświęcim Kasaba Lokantası",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 30,
+     "tips": "Kasabada sakin öğle; Auschwitz Yahudi Merkezi (sinagog) isteğe bağlı."
+    },
+    {
+     "name": "Planty Park Akşam Yürüyüşü",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Krakow'a dönüşte eski şehri saran park; nefes."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Auschwitz Jewish Center",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Kasabanın kalan sinagogu ve müzesi."
+    },
+    {
+     "name": "Restauracja Starka Kazimierz",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 60,
+     "tips": "Akşam ev yapımı votka ve ördek."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Wieliczka Tuz Madeni & Nowa Huta",
+   "stops": [
+    {
+     "name": "Wieliczka Salt Mine",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 140,
+     "tips": "Tren 20 dakika; 135 m derinde tuz katedrali, avizeler, 800 basamak (asansörle çıkış), 14°C, online (yabancı dil turu ~140 PLN)."
+    },
+    {
+     "name": "Wieliczka Kasaba Öğle Karczma Halit",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 35,
+     "tips": "Maden yanı karczma (han); żurek ve placki."
+    },
+    {
+     "name": "Nowa Huta Plac Centralny",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Stalinist ideal şehir (1949); tramvay 22, sosyalist realist bulvarlar, Ark Kilisesi."
+    },
+    {
+     "name": "Stylowa Restauracja Nowa Huta",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 25,
+     "tips": "1956'dan beri değişmeyen komünist dönem restoranı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nowa Huta Museum",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 16,
+     "tips": "Sığınak ve komünizm sergisi."
+    },
+    {
+     "name": "Ogrodowa Wieliczka",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 30,
+     "tips": "Alternatif kasaba lokantası."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Zakopane",
+   "stops": [
+    {
+     "name": "Krupówki Street Zakopane",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Otobüs 2 saat (FlixBus/Majer); dağ kasabasının ana caddesi, oscypek (füme koyun peyniri) standları."
+    },
+    {
+     "name": "Gubałówka Füniküler",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 35,
+     "tips": "1.120 m; Tatra panoraması, yazın yürüyüş, kışın kayak."
+    },
+    {
+     "name": "Karczma Zapiecek Zakopane",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 40,
+     "tips": "Górale (dağlı) hanı; kwaśnica çorbası ve oscypek yaban mersini reçeliyle."
+    },
+    {
+     "name": "Morskie Oko Gölü",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:30",
+     "cost": 30,
+     "tips": "Kışın donmuş göl ve karlı yol (2,5 saat); ayakkabı çivisi, atlı kızak."
+    },
+    {
+     "name": "Willa Koliba Zakopane Tarzı Müzesi",
+     "category": "culture",
+     "start": "17:45",
+     "end": "18:30",
+     "cost": 20,
+     "tips": "Witkiewicz'in ahşap villası; Zakopane mimarisi, dönüş otobüsü 19:30."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kasprowy Wierch Teleferik",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:30",
+     "cost": 120,
+     "tips": "1.987 m zirve teleferik; Morskie Oko yerine (online)."
+    },
+    {
+     "name": "Bąkowa Zohylina Zakopane",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 45,
+     "tips": "Ünlü górale hanı; canlı müzik."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Kopernik, Wawel altı & Zwierzyniec",
+   "stops": [
+    {
+     "name": "Barbican & Florian Gate",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Ortaçağ sur kapısı ve barbakan; Floriańska caddesi, Kraliyet Yolu başı."
+    },
+    {
+     "name": "Czartoryski Museum",
+     "category": "culture",
+     "start": "10:15",
+     "end": "12:00",
+     "cost": 35,
+     "tips": "Da Vinci'nin Kakımlı Kadın'ı; Rembrandt manzarası, salı ücretsiz."
+    },
+    {
+     "name": "Kościuszko Mound",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 26,
+     "tips": "1823 anıt tepesi; şehir ve Tatra manzarası, tramvay 1 + yürüyüş, kale müzesi."
+    },
+    {
+     "name": "Pod Baranem",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 55,
+     "tips": "Eski şehir Polonya klasiği; ördek ve pierogi."
+    },
+    {
+     "name": "Kazimierz Akşamı Alchemia",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 25,
+     "tips": "Mumlu Kazimierz barı; Plac Nowy, canlı caz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kraków Zoo & Las Wolski",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Orman içinde hayvanat bahçesi; tepe yerine."
+    },
+    {
+     "name": "Chimera Salad Bar",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 25,
+     "tips": "Św. Anny'de vejetaryen büfe; ucuz."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Vistula sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Wawel Dragon Heykeli",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "5 dakikada bir ateş püskürten ejderha; Vistula kıyısı."
+    },
+    {
+     "name": "Vistula Bulwary Yürüyüşü",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Nehir bulvarı; yazın kahve tekneleri, Wawel manzarası."
+    },
+    {
+     "name": "Café Camelot",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 25,
+     "tips": "Bohem eski şehir kafesi; şarlot elmalı, veda."
+    },
+    {
+     "name": "Obwarzanek Standı",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:15",
+     "cost": 3,
+     "tips": "Krakow simidi (UNESCO listesi); haşhaş veya tuzlu."
+    },
+    {
+     "name": "Kraków Główny Havalimanı Treni",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 17,
+     "tips": "Balice'ye tren 20 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Massolit Books & Café",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 20,
+     "tips": "İngilizce kitabevi kafesi; cheesecake."
+    },
+    {
+     "name": "Manggha Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 20,
+     "tips": "Japon sanatı; Vistula karşısı, bulvar yerine."
+    }
+   ]
+  }
+ ]
+}

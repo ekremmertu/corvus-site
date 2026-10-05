@@ -1,0 +1,536 @@
+{
+ "lang": "en",
+ "slug": "izmir-october-may",
+ "altSlug": "izmir-ekim-mayis",
+ "citySlug": "izmir",
+ "destKey": "izmir",
+ "city": "Izmir",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 12200,
+  "attractions": 4668,
+  "transport": 390,
+  "misc": 100
+ },
+ "notes": [
+  "In January Izmir can be cool and rainy (10-15°C). Dress in layers and carry a thin waterproof jacket.",
+  "Cards may not work at small traders such as Kemeraltı and the markets, so carry some cash in TL.",
+  "Tips are not added automatically to the bill in restaurants; leaving 5-10% is local etiquette.",
+  "When entering places of worship such as Hisar Mosque, women should cover their heads and everyone must take off their shoes.",
+  "In crowded bazaar districts such as Kemeraltı and Basmane, carry your bag in front of you and avoid empty side streets in the evening.",
+  "On ferries and buses, giving your seat to the elderly, pregnant women and passengers with children is a social expectation.",
+  "In winter some seafront businesses and boat tours may be closed; this plan balances sea activities with walks and viewpoints."
+ ],
+ "niche": {
+  "name": "Havra Street (Kemeraltı Synagogue Quarter)",
+  "level": "l3",
+  "why_hidden": "Right inside the Kemeraltı bazaar, a few steps from the shopping crowds, lies 500 years of Sephardic heritage. The Sinyora, Shalom, Algazi, Bikur Holim, Etz Hayim, Hevra and Bet Hillel synagogues stand side by side on the same street. Their doors are closed for security reasons, so most tourists only see the street sign and walk on.",
+  "access_instructions": "You can walk the street freely. To enter the synagogues, you need to register for a group tour at least a few days ahead through an authorised guiding company such as Ebruli Turizm, because security clearance is given by the synagogue community.",
+  "local_contact": "Ebruli Turizm — Kıbrıs Şehitleri Cad. Mutlu Apt. No:37 Kat:3 D:3, Alsancak/İzmir; ebruliturizm.com.tr üzerinden ön rezervasyon formu.",
+  "season": "You can walk the street all year; tours inside the synagogues are usually held on weekdays and may be closed on religious holidays.",
+  "insider_tip": "Stop at one of the old coppersmith and antique shops in the middle of the street. Some shopkeepers have worked in the same place for three generations with tools passed down from Sephardic families, and if you ask they will tell you the story of the street.",
+  "show_reason": "İzmir'in çok kültürlü geçmişini (Rum, Ermeni, Levanten, Yahudi) tek bir sokakta somutlaştıran, fotoğraf değeri yüksek ama rehber kitaplarda genelde tek cümleyle geçiştirilen bir rota.",
+  "lat": 38.419785,
+  "lng": 27.135786,
+  "address": "927 Sokak, Mezarlıkbaşı, Konak/İzmir 35250",
+  "cost_range_min": 350,
+  "cost_range_max": 600,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Izmirim Kart",
+  "why_chosen": "The Izmirim Kart covers all public transport in Izmir on a single card, including ESHOT buses, IZBAN, the metro and the IZDENIZ ferry lines between Konak and Karşıyaka. Every transfer in this plan between Kemeraltı, Alsancak, Karşıyaka and Bornova can be made with the same card. Instead of buying single tokens, you buy the card once and top it up at machines whenever needed, and it also gives discounts on transfers.",
+  "coverage": "ESHOT otobüsleri, İZBAN, İzmir Metro, İZDENİZ vapur hatları (Konak-Karşıyaka dahil) — İzmir büyükşehir sınırları içinde tüm hatlar.",
+  "where_to_buy": "Adnan Menderes Havalimanı çıkışındaki otomatlardan, metro istasyonlarındaki yüklematik cihazlarından veya şehir genelindeki İzmirim Kart bayilerinden.",
+  "cost": 300,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Izmir's signatures: Konak, Kemeraltı and Kordon",
+   "stops": [
+    {
+     "name": "Konak Square and Clock Tower",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Early in the morning the crowds around the 1901 Clock Tower are thin, and the low sun is ideal for photos. The nearby Konak Ferry Pier gives you a good frame of the city skyline too."
+    },
+    {
+     "name": "Izmir Food Tour – Taste the Flavors of Kemeraltı Bazaar",
+     "category": "food",
+     "start": "10:30",
+     "end": "13:00",
+     "cost": 1800,
+     "tips": "The tour covers tastings of boyoz (Izmir's pastry), stuffed mussels, kokoreç (grilled seasoned offal) and fresh pomegranate juice in Kemeraltı's backstreets, and your guide also takes you through Kızlarağası Han. Book online at least 1-2 days ahead and come hungry.",
+     "bookingUrl": "https://www.viator.com/searchResults/all?text=Izmir+Food+Tour+Taste+the+Flavors+of+Kemeralti+Bazaar",
+     "bookingProvider": "Viator"
+    },
+    {
+     "name": "Agora of Smyrna",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "The Roman-era columns still stand in their original place. Museum Card is valid here; if you don't have one, buy a ticket at the booth. It is a much quieter visit than Ephesus."
+    },
+    {
+     "name": "Havra Street (Kemeraltı Synagogue Quarter)",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 400,
+     "tips": "You can walk the street freely, but to see inside the synagogues you must book in advance through Ebruli Turizm. Stop at one of the old coppersmith shops in the middle of the street and chat with the shopkeeper."
+    },
+    {
+     "name": "Kordon (Cumhuriyet Square)",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Start in front of the Atatürk statue and walk towards Alsancak. At sunset the orange light over the bay makes Izmir's most classic photo."
+    },
+    {
+     "name": "Deniz Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 2000,
+     "tips": "An institution at the same address since 1981, with an award for \"Türkiye's best fish meze\". Try the sea bass or sea bream with artichoke in olive oil; booking is recommended."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kısmet Lokantası Kemeraltı",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 650,
+     "tips": "One of Kemeraltı's long-established tradesmen's restaurants. Pick one of the day's ready dishes; they come out fresh around 12:30."
+    },
+    {
+     "name": "Hisar Mosque",
+     "category": "culture",
+     "start": "14:45",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "The largest historic mosque in Kemeraltı. You can sit in its courtyard for a few minutes away from the noise of the bazaar; remember to take your shoes off when you go in."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Alsancak: boyoz, Kültürpark and sunset",
+   "stops": [
+    {
+     "name": "Alsancak Dostlar Fırını",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 300,
+     "tips": "Open on Kıbrıs Şehitleri Street since 1983. Order plain or spinach boyoz with tea; arrive before 09:00 or just after to avoid a queue."
+    },
+    {
+     "name": "Kültürpark",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Stroll along the pond. Entry is free, weekday mornings are very quiet and the light is good for photos."
+    },
+    {
+     "name": "Ayşa Boşnak Börekçisi ve Ev Yemekleri",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 700,
+     "tips": "A tradesmen's restaurant listed in the Michelin Bib Gourmand. Try the soup of the day and the rolled börek (layered pastry); it can fill up around 13:00."
+    },
+    {
+     "name": "1453 Street and French Street",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 180,
+     "tips": "Alsancak's back streets, full of boutique shops and cafés. Take a coffee break; the wall graffiti make a good backdrop for photos."
+    },
+    {
+     "name": "Alsancak Ferry Pier",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "From the end of the pier you can photograph a panoramic view of the bay, and ferries coming and going add movement to the frame. Bring a thin jacket against the wind."
+    },
+    {
+     "name": "Pagos Rooftop",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 1600,
+     "tips": "On the roof of the Marriott, this venue offers a bird's-eye view of the bay and the Kordon. Try one of the signature cocktails and reserve a table for just after sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zeynel Ergin Gevrek Fırını",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 250,
+     "tips": "A bakery with a history going back to the 19th century that does justice to Izmir gevrek (sesame ring) and kumru (sandwich). As an alternative to boyoz, go early in the morning."
+    },
+    {
+     "name": "St. John's Church, Alsancak",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A historic Anglican church from Alsancak's Levantine past. Even studying its architecture from outside tells the story of Alsancak's multicultural history."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Across the bay: Karşıyaka and Bostanlı",
+   "stops": [
+    {
+     "name": "Konak-Karşıyaka Ferry (IZDENIZ)",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 40,
+     "tips": "Sit on the open deck and you see both shores of the city from the middle of the bay. You board with the Izmirim Kart, and the crossing takes about 20 minutes."
+    },
+    {
+     "name": "Karşıyaka Bazaar",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A lively bazaar where local traders sell breakfast goods, olives and pickles. It is hard not to be pulled in by the smell as you pass Köfteci Erol."
+    },
+    {
+     "name": "Köfteci Erol",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 650,
+     "tips": "One of Karşıyaka's oldest meatball restaurants. Köfte with piyaz (white bean salad) and frothy ayran is the classic pairing; go around 12:00 to find a table."
+    },
+    {
+     "name": "Bostanlı Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Walk along the shore with its wide pavements, or hire a bike. Take a break at one of the tea gardens and watch the gulls."
+    },
+    {
+     "name": "Bostanlı Viewing Terrace",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:45",
+     "cost": 0,
+     "tips": "Considered one of the best sunset spots in Türkiye. Sit on the steps and watch the bay turn orange; there are also chess tables."
+    },
+    {
+     "name": "Deniz Kent Restoran",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1000,
+     "tips": "A seaview venue on the Karşıyaka waterfront. Seasonal fish and a meze plate make a good combination; ask for a reservation in the evenings."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sakin Meyhane",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 950,
+     "tips": "One of Karşıyaka's favourite rakı-and-fish taverns. The meze selection is wide; ask the waiter about the catch of the day."
+    },
+    {
+     "name": "Mavişehir Beach",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A quieter stretch of shoreline a little north of Bostanlı, where local families come for an early-evening walk."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Izmir from above: Kadifekale and Karataş",
+   "stops": [
+    {
+     "name": "Kadifekale",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The highest point, overlooking Izmir and the bay. Entry is free, bus 33 from Konak gets you there, and morning light is ideal for photos."
+    },
+    {
+     "name": "Bahribaba Park",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A tree-filled, quiet park right at the foot of Kadifekale. Sit for a few minutes to see the city from a different angle."
+    },
+    {
+     "name": "Karataş Neighbourhood",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "See the facades of old Greek and Levantine houses in the narrow streets. As you pass Lutz Coffee, you can stop for a coffee."
+    },
+    {
+     "name": "Historic Elevator and Pablo Artisan",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 220,
+     "tips": "Skip 155 steps by taking the 1907 elevator up. From the terrace of Pablo Artisan next door, watch the view looking at the elevator. Seats can be hard to find, so go early."
+    },
+    {
+     "name": "Balıkçı Ali Şaş'ın Yeri",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1600,
+     "tips": "One of Karataş's family-run fish restaurants. Ask about the day's catch; prices are lower than at the big restaurants on the Kordon."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Salimin Yeri Balık Lokantası",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1500,
+     "tips": "Another family-run fish restaurant in Karataş, known for its wide range of meze and friendly service."
+    },
+    {
+     "name": "Izmir Ethnography Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "In Konak, close to the Kadifekale route. It displays objects from Ottoman-era Izmir life, and with few visitors it is a calm visit."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Local districts: Bornova and Basmane",
+   "stops": [
+    {
+     "name": "Bornova Culture Quarter (Levantine Mansions)",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Visit the Edward Whitall Mansion and the City Archive Museum. Most of the 250-year-old mansions can be seen from outside, and museum entry is free."
+    },
+    {
+     "name": "Topçu Restoran",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "One of Izmir's oldest restaurants, known for its çöp şiş (small skewers) and lahmacun (thin meat flatbread). It fills with local regulars at lunchtime."
+    },
+    {
+     "name": "Bornova Market",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 100,
+     "tips": "When the district's weekly market is set up, drop in for the variety of olives, cheese and nuts. Ask which day it runs that week before you go."
+    },
+    {
+     "name": "Basmane Historic Quarter",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "An area of old Greek and Armenian houses, record shops and antique dealers. Get lost in the streets around Basmane Station."
+    },
+    {
+     "name": "Emniyet Kebap",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 800,
+     "tips": "In the same place since 1979, a kebab restaurant keeping Izmir's old tavern culture alive. Order köfte, liver and lamb chops together with meze."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cihan Et",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "One of the most professional addresses for kebab and grilled meat in Bornova. If you can't choose between Adana kebab and lamb chops, ask for a small portion of each."
+    },
+    {
+     "name": "Bornova Merkez Park",
+     "category": "nature",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A quiet resting spot between the campus and the mansions, ideal for sitting in the shade after lunch."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Selçuk region: Ephesus and Şirince",
+   "stops": [
+    {
+     "name": "Ephesus, House of the Virgin Mary and Şirince Tour",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 3218,
+     "tips": "The tour picks you up in Izmir by vehicle and takes you to Ephesus; explore the Library of Celsus and the Great Theatre with a guide. Wear walking shoes, as you walk a long time on ancient stone paving.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Ephesus+House+of+Virgin+Mary+and+Sirince+Village+Tour+from+Izmir",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "House of the Virgin Mary",
+     "category": "culture",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Included in the tour package. Be quiet as you enter; you can leave a small note on the wishing wall."
+    },
+    {
+     "name": "Lunch in Şirince",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 650,
+     "tips": "Try gözleme (stuffed flatbread) and mantı (small dumplings) at one of the restaurants on the stone streets, then leave time for a fruit wine tasting after the meal."
+    },
+    {
+     "name": "Şirince Village",
+     "category": "culture",
+     "start": "14:15",
+     "end": "16:00",
+     "cost": 250,
+     "tips": "Wander the narrow stone streets and join a tasting of homemade jam and pomegranate wine. Compare a few shops before buying souvenirs; there is room to haggle."
+    },
+    {
+     "name": "Ephesus Museum",
+     "category": "culture",
+     "start": "16:15",
+     "end": "16:45",
+     "cost": 150,
+     "tips": "It houses statues and mosaics recovered from Ephesus. After visiting Ephesus, 30 minutes is enough to put it all in context."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nişanyan Evleri Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 800,
+     "tips": "The restaurant of Şirince's long-established boutique hotel, known for a menu of Aegean herbs and olive oil dishes."
+    },
+    {
+     "name": "Ephesus Terrace Houses",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 500,
+     "tips": "A covered site preserving original mosaics and frescoes from the homes of wealthy Roman-era families. It needs an extra ticket, but the detail is rich."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Çeşme Peninsula: Alaçatı and Çeşme",
+   "stops": [
+    {
+     "name": "Alaçatı Stone Streets",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Walk early among the stone houses with bay windows, without the crowds. Most boutique shops open after 10:00."
+    },
+    {
+     "name": "Alaçatı Windmills",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The stone windmills, now the symbol of the town, are a popular photo stop. In morning light there is little shadow."
+    },
+    {
+     "name": "Kumrucu Şevki",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 400,
+     "tips": "One of Çeşme's most famous kumru (sausage-and-cheese sandwich) shops. Order the sucuk and kaşar kumru with ayran; at lunchtime tables turn over quickly."
+    },
+    {
+     "name": "Çeşme Castle",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 100,
+     "tips": "Look out over the Aegean from the walls of the castle, built in 1508. The museum inside takes 30 minutes; plan your time so you don't miss the return bus."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kumrucu Erol",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 380,
+     "tips": "Another kumru shop loved by locals in Çeşme since 1980. Ask for the classic kumru with buttered bread."
+    },
+    {
+     "name": "Çeşme Marina",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A quiet walk around the marina where the yachts are moored, good for a coffee and one last photo stop before heading back."
+    }
+   ]
+  }
+ ]
+}

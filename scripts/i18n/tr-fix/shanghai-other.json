@@ -1,0 +1,21 @@
+{
+ "source": "7895904786c8",
+ "model": "sonnet",
+ "strings": {
+  "d1.s2.tips": "Bronz ve porselen koleksiyonu; ücretsiz, pasaportla rezervasyon gerekir.",
+  "d1.s4.tips": "Pudong ışıkları 19:00-22:00; Huangpu Nehri turu (~120 CNY) isteğe bağlı.",
+  "d4.s3.tips": "Restore edilmiş shikumen'lerde kafeler; Komünist Parti 1. Kongre Müzesi ücretsiz.",
+  "d5.s0.tips": "17. hat metrosuyla 1 saat; 1571'den kalma beş kemerli köprü, sabah tur otobüsleri gelmeden önce.",
+  "d5.s2.tips": "Kasabanın klasik bahçesi; giriş kombine biletle.",
+  "d5.b1.tips": "Şehre yakın su kasabası; Zhujiajiao'ya kısa alternatif.",
+  "d6.s1.tips": "I.M. Pei'nin beyaz-gri müzesi; ücretsiz, rezervasyon gerekir.",
+  "d7.s3.tips": "Maglev 430 km/s hızla Pudong Havalimanı'na 8 dakikada gider; veda.",
+  "note1": "Vize: 2026'da birçok ülke için 30 gün vizesiz (Türkiye için kontrol et); VPN'i Google/WhatsApp için önceden kur.",
+  "note3": "Xiaolongbao 30-50 CNY; shengjianbao için Yang's; Fransız Bölgesi'nde brunch 100+.",
+  "note4": "Müzeler ücretsiz, ancak pasaportla online rezervasyon gerekir; Şanghay Kulesi biletini online al."
+ },
+ "warnings": [
+  "d3.s2.tips: uzunluk çok değişti → düzeltme atıldı",
+  "note2: uzunluk çok değişti → düzeltme atıldı"
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "source": "d40cf71a50b4",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Ahşap teras 778 tapınağı; 08:00'de boş, Otowa şelalesi 3 su, sonbahar ve ilkbaharda gece açılışı.",
+  "d1.s4.tips": "Geyşa mahallesi; Shirakawa kanalı, akşam 17:30-18:00 maikolar işe gider (fotoğraf kuralları, özel sokaklar yasak).",
+  "d7.s4.tips": "Haruka ekspresi Kansai'ye 75 dakika; Itami için otobüs 55 dakika.",
+  "note2": "Tapınaklar 500-800 JPY nakit; Nishiki'de yürürken yeme yasak; Gion'da özel sokaklar (2024'ten beri) yasak, maikoyu durdurma.",
+  "note4": "Kiyomizu/Fushimi/Bambu 08:00 öncesi; Kinkaku-ji ve Nara 09:00 açılış; Nijo'nun kapalı günlerini kontrol et.",
+  "note5": "Nara geyikleri kâğıt yer, eğilirler; senbeyi bitirince ellerini göster.",
+  "transit.why_chosen": "Kyoto'nun otobüs ağı geniş; metro 2 hatlı; ICOCA her yerde geçer"
+ },
+ "warnings": []
+}

@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "budapest-october-may",
+ "altSlug": "budapeste-ekim-mayis",
+ "citySlug": "budapeste",
+ "destKey": "budapest",
+ "city": "Budapest",
+ "region": null,
+ "country": "Hungary",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "HUF",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 120000,
+  "attractions": 90000,
+  "transport": 15000,
+  "misc": 20000
+ },
+ "notes": [
+  "A Budapest Card or 24-hour ticket costs about 2,500 HUF; tram line 2 has views of the riverbank. The 100E airport bus costs 2,200 HUF. Metro line 1 is historic.",
+  "Winter temperatures range from -2 to 5°C; the Vörösmarty Christmas market runs November to December. Baths with steaming outdoor pools are best in the snow! Széchenyi holds a Saturday 'sparty'.",
+  "Baths cost 12,000-15,000 HUF (cheaper on weekdays), Parliament 10,000 and the synagogue 12,000. Renting a towel and slippers is expensive, so bring your own.",
+  "Goulash (it's a soup!), pörkölt (meat stew), lángos, kürtőskalács, Dobos torta. Tip 10-12%; check whether a 'szervizdíj' (service charge) has already been added to the bill.",
+  "Get forints in cash. Places that accept EUR give a poor exchange rate. Beware the 'no commission' trap at currency exchange offices. At ATMs, choose your own bank's rate.",
+  "The ruin bars are around Kazinczy Street; the synagogue is closed on Saturdays and the Great Market Hall on Sundays."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Buda Castle district",
+   "stops": [
+    {
+     "name": "Fisherman's Bastion",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Fairytale turrets and a view over Parliament. The lower terraces are free; the upper tower costs 1,500 HUF (free before 08:00)."
+    },
+    {
+     "name": "Matthias Church",
+     "category": "culture",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 3500,
+     "tips": "Colourful Zsolnay-tiled roof; a coronation church with a mosaic interior."
+    },
+    {
+     "name": "Buda Castle & Castle Hill Yürüyüşü",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Palace courtyards and the Turul bird statue. The Hungarian National Gallery (4,400 HUF) is optional."
+    },
+    {
+     "name": "Ruszwurm Cukrászda",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 2500,
+     "tips": "The oldest pastry shop, open since 1827; try the krémes (cream-filled puff pastry). It has 5 tables. Afterwards take the funicular and walk across the Chain Bridge to Pest."
+    },
+    {
+     "name": "Gerlóczy Kávéház",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 6000,
+     "tips": "A Parisian-style café in Belváros; goulash and paprikás."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Halászbástya Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 12000,
+     "tips": "Set inside Fisherman's Bastion with views; expensive."
+    },
+    {
+     "name": "Hospital in the Rock",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 6000,
+     "tips": "A WWII hospital and nuclear bunker beneath the castle; a guided tour is compulsory."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Parliament and Széchenyi",
+   "stops": [
+    {
+     "name": "Hungarian Parliament Building",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 10000,
+     "tips": "45-minute tour (Holy Crown). Book online days in advance and bring your passport."
+    },
+    {
+     "name": "St. Stephen's Basilica",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 2000,
+     "tips": "Holds the mummified right hand of St Stephen; the dome panorama costs 3,000 HUF."
+    },
+    {
+     "name": "Belvárosi Disznótoros",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 4000,
+     "tips": "Hungarian butcher's food sold by weight: hurka (liver sausage), kolbász (sausage), eaten standing up."
+    },
+    {
+     "name": "Heroes' Square",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Take Metro line 1 (the oldest metro on the continent). See the Millennium Monument and the seven tribal chieftains."
+    },
+    {
+     "name": "Széchenyi Thermal Bath",
+     "category": "nature",
+     "start": "14:00",
+     "end": "17:30",
+     "cost": 13200,
+     "tips": "Europe's largest thermal bath: a yellow palace, a 38°C outdoor pool and people playing chess. Bring your own slippers and towel; cheaper on weekdays."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gellért Thermal Bath",
+     "category": "nature",
+     "start": "14:00",
+     "end": "17:30",
+     "cost": 12000,
+     "tips": "An Art Nouveau bath; an alternative to Széchenyi."
+    },
+    {
+     "name": "Vajdahunyad Vár Restoranı Városliget",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 6000,
+     "tips": "A restaurant in the castle park."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Jewish Quarter and ruin bars",
+   "stops": [
+    {
+     "name": "Dohány Street Synagogue",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 12000,
+     "tips": "Europe's largest synagogue, with the Weeping Willow memorial. Closed on Saturdays."
+    },
+    {
+     "name": "Karaván Street Food",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 3500,
+     "tips": "A food-truck courtyard next to Szimpla; try lángos (fried dough with garlic and cheese) and kürtőskalács (chimney cake)."
+    },
+    {
+     "name": "Great Market Hall",
+     "category": "shopping",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "An iron market hall from 1897: paprika, salami and lángos upstairs. Closed on Sundays."
+    },
+    {
+     "name": "Liberty Bridge & Gellért Hill",
+     "category": "nature",
+     "start": "15:15",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "The green bridge, then a 30-minute climb up Gellért Hill. At sunset, enjoy the panorama from the Citadella."
+    },
+    {
+     "name": "Szimpla Kert",
+     "category": "food",
+     "start": "20:00",
+     "end": "23:00",
+     "cost": 3000,
+     "tips": "Open in winter too; farmers' market on Sunday mornings."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mazel Tov",
+     "category": "food",
+     "start": "20:00",
+     "end": "23:00",
+     "cost": 7000,
+     "tips": "A Middle Eastern garden restaurant in the Jewish Quarter; book ahead."
+    },
+    {
+     "name": "Hungarian National Museum",
+     "category": "culture",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 4500,
+     "tips": "The steps associated with the 1848 revolution; an alternative to the market."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Day trip to Szentendre",
+   "stops": [
+    {
+     "name": "Szentendre Fő tér",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "40 minutes by HÉV train (from Batthyány tér); a Baroque artists' town with Serbian churches."
+    },
+    {
+     "name": "Blagoveštenska Church Szentendre",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 1000,
+     "tips": "A Serbian Orthodox church on the square."
+    },
+    {
+     "name": "Aranysárkány Vendéglő",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 7000,
+     "tips": "The town's classic restaurant; goulash and chicken paprikás."
+    },
+    {
+     "name": "Szentendre Danube Embankment",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A riverside walk in winter; take the HÉV back."
+    },
+    {
+     "name": "Skanzen Open Air Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 4000,
+     "tips": "Skanzen has limited opening in winter; visit the town's galleries and the Margit Kovács Museum instead."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Álom Lángos Szentendre",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 2000,
+     "tips": "The town's famous lángos; a small stand."
+    },
+    {
+     "name": "Visegrád Castle",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 3000,
+     "tips": "A castle on the Danube Bend; go by bus, instead of Skanzen."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Margaret Island and Andrássy",
+   "stops": [
+    {
+     "name": "Margaret Island",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A park island in the Danube; rent a bike or a pedal cart, and see the musical fountain, the Japanese garden and the ruins."
+    },
+    {
+     "name": "Andrássy Avenue",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A UNESCO-listed boulevard with the Opera, Liszt Square and luxury shops."
+    },
+    {
+     "name": "Menza Liszt Ferenc tér",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 6000,
+     "tips": "A retro Hungarian restaurant on Liszt Square; try the goulash."
+    },
+    {
+     "name": "House of Terror",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 4000,
+     "tips": "The former Nazi and communist secret police headquarters; harrowing but important. Closed on Mondays."
+    },
+    {
+     "name": "Hungarian State Opera",
+     "category": "culture",
+     "start": "16:45",
+     "end": "17:45",
+     "cost": 5000,
+     "tips": "A tour of the Neo-Renaissance opera house (in English at 13:30 and 15:00), or evening tickets from 5,000 HUF."
+    }
+   ],
+   "backups": [
+    {
+     "name": "New York Café",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 8000,
+     "tips": "Billed as the world's most beautiful café; expect a queue and high prices. An alternative to Menza."
+    },
+    {
+     "name": "Miniversum",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 4000,
+     "tips": "Miniature Hungarian railways; an alternative to the House of Terror (with children)."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Óbuda, Lukács and a cruise",
+   "stops": [
+    {
+     "name": "Aquincum Museum",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 2500,
+     "tips": "Ruins of a Roman city; take the HÉV to Óbuda."
+    },
+    {
+     "name": "Lukács Thermal Bath",
+     "category": "nature",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 5000,
+     "tips": "The locals' bath; quieter and cheaper than Széchenyi."
+    },
+    {
+     "name": "Bambi Eszpresszó",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 3000,
+     "tips": "A communist-era café unchanged since 1961; in Buda."
+    },
+    {
+     "name": "Batthyány tér Parliament View",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "The best view of Parliament, framed from across the river."
+    },
+    {
+     "name": "Danube Sightseeing Cruise",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 4500,
+     "tips": "A 1-hour daytime boat ride; glass-covered in winter, with illuminated views after 17:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pesti Disznó",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 6000,
+     "tips": "Modern Hungarian cooking centred on pork; in Pest."
+    },
+    {
+     "name": "Óbuda Fő tér",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The old Óbuda square with its statues holding umbrellas; an alternative to Aquincum."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Váci Street and farewell",
+   "stops": [
+    {
+     "name": "Váci Street",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A pedestrian shopping street; buy paprika and Tokaji wine as souvenirs."
+    },
+    {
+     "name": "Vörösmarty Square Gerbeaud",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 4000,
+     "tips": "A pastry shop dating from 1858; have Dobos torta and coffee as a farewell."
+    },
+    {
+     "name": "Danube Promenade Little Princess",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "The Little Princess statue and tram line 2 running along the river."
+    },
+    {
+     "name": "Deák Ferenc tér 100E Airport Bus",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 2200,
+     "tips": "The direct 100E bus takes 40 minutes; farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Café Central Budapest",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 5000,
+     "tips": "A literary café from 1887; an alternative to Gerbeaud."
+    },
+    {
+     "name": "Erzsébet tér Ferris Wheel",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 3500,
+     "tips": "The Budapest Eye Ferris wheel; an alternative to the river."
+    }
+   ]
+  }
+ ]
+}

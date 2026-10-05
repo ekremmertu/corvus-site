@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "tiflis-ekim-mayis",
+ "altSlug": "tbilisi-october-may",
+ "citySlug": "tiflis",
+ "destKey": "tbilisi",
+ "city": "Tiflis",
+ "region": null,
+ "country": "Gürcistan",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "GEL",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 450,
+  "attractions": 120,
+  "transport": 300,
+  "misc": 100
+ },
+ "notes": [
+  "Metromoney kartı 2 GEL (metro/otobüs/teleferik 1 GEL); Bolt taksi ucuz. Havalimanı otobüsü 337. Kazbegi/Kakheti turu (Gamarjoba, Budget Georgia ~80-100 GEL) veya marşrutka.",
+  "Kış 0-5°C, kar var; Gudauri'de kayak yapılır; karda Gergeti'ye 4x4 ile çıkılır. Nisan-Mayıs ve Eylül-Ekim ideal; Kakheti'de bağbozumu Ekim'de.",
+  "Türk vatandaşları kimlikle girer (1 yıl vizesiz); nakit GEL (ATM), kart yaygın; khinkali 1 GEL/adet, khachapuri 12-18, şarap kadehi 8, hamam 50-100; bahşiş %10.",
+  "Hamamda özel odayı önceden ara (Chreli Abano); Gergeti 4x4 için kasabada pazarlık et; Sighnaghi hafta sonları dolu.",
+  "Supra (ziyafet) ve tamada (kadeh ustası); 'gaumarjos' şerefe; khinkali tepesinden tutulur, çorbası yudumlanır, tepe bırakılır.",
+  "Kvevri amber şarap (UNESCO), chacha (üzüm rakısı), churchkhela, tkemali erik sosu, pkhali."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Eski Tiflis",
+   "stops": [
+    {
+     "name": "Meidan & Sioni Katedrali",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Eski şehir kalbi; Aziz Nino'nun asma haçı, Şardeni sokağı."
+    },
+    {
+     "name": "Narikala Kalesi Teleferik",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 2.5,
+     "tips": "Rike parkından teleferik (Metromoney kartı); 4. yüzyıl kale ve Gürcistan Ana heykeli, Kura manzarası."
+    },
+    {
+     "name": "Abanotubani Kükürt Hamamları",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 50,
+     "tips": "Tuğla kubbeli 17. yüzyıl hamamları (Puşkin burada yıkanmış); özel oda 50-100 GEL, kese. Orbeliani'nin cephesi mavi, cami gibi."
+    },
+    {
+     "name": "Café Leila Old Town",
+     "category": "food",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 30,
+     "tips": "Vejetaryen Gürcü; pkhali ve lobio, Kral Erekle sokağı."
+    },
+    {
+     "name": "Barış Köprüsü & Rike Park",
+     "category": "landmark",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Cam köprü geceleri ışıklı; Kura Nehri."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shavi Lomi",
+     "category": "food",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 40,
+     "tips": "Sanat dolu ev restoranı; modern Gürcü."
+    },
+    {
+     "name": "Leghvtakhevi Şelalesi",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Hamam mahallesinin arkasında şelale; ücretsiz, bahçe yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Rustaveli & Kuru Köprü",
+   "stops": [
+    {
+     "name": "Rustaveli Avenue",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Parlamento, Opera, Rustaveli Tiyatrosu; Sovyet ve art nouveau."
+    },
+    {
+     "name": "Georgian National Museum",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Kolhis altın hazinesi ve Sovyet İşgali Müzesi; Dmanisi kafatasları (1,8 milyon yıl)."
+    },
+    {
+     "name": "Dry Bridge Market",
+     "category": "shopping",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Sovyet madalyası, cam, kilim, resim satılan bit pazarı; her gün açık, hafta sonu daha büyük."
+    },
+    {
+     "name": "Khinkali Barbarestan",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 45,
+     "tips": "19. yüzyıl yemek kitabından tarifler; rezervasyon yap, Aghmashenebeli."
+    },
+    {
+     "name": "Vino Underground Doğal Şarap",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 30,
+     "tips": "Kvevri (toprak küp) amber şarap barı; 8.000 yıllık gelenek, tadım."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Fabrika Tbilisi",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Sovyet dikiş fabrikasında hipster avlu; grafiti, kafeler."
+    },
+    {
+     "name": "Sofia Melnikova's Fantastic Douqan",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 35,
+     "tips": "Yazarlar Evi bahçesinde; khachapuri."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Mtskheta",
+   "stops": [
+    {
+     "name": "Jvari Monastery",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "6. yüzyıl haç manastırı; Aragvi ile Kura'nın birleştiği yerde Lermontov manzarası. Taksi/marşrutka 30 dakika."
+    },
+    {
+     "name": "Svetitskhoveli Cathedral",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "11. yüzyıl UNESCO katedrali; İsa'nın cübbesi efsanesi, kral mezarları, başörtüsü."
+    },
+    {
+     "name": "Salobie Bia Mtskheta",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Lobio (fasulye güveci) toprak kapta ve mchadi mısır ekmeği; Mtskheta klasiği."
+    },
+    {
+     "name": "Samtavro Manastırı",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Aziz Nino'nun böğürtlen çalısı; rahibeler."
+    },
+    {
+     "name": "Chronicle of Georgia Tiflis",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Dönüşte Tsereteli'nin dev taş anıtı; Tiflis Denizi manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shio-Mgvime Manastırı",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "6. yüzyıl kanyon manastırı; Samtavro yerine."
+    },
+    {
+     "name": "Chateau Mukhrani",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "Prens şatosunda şarap tadımı ve öğle yemeği; Mtskheta'ya 30 dakika."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Kazbegi",
+   "stops": [
+    {
+     "name": "Ananuri Fortress",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Gürcü Askeri Yolu (3 saat, tur ~80 GEL); Zhinvali Barajı üstünde 17. yüzyıl kalesi."
+    },
+    {
+     "name": "Gudauri Panorama Rus-Gürcü Dostluk Anıtı",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Sovyet mozaikli yarım daire; 2.400 m'de vadi manzarası, yamaç paraşütü."
+    },
+    {
+     "name": "Gergeti Trinity Church",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "2.170 m'de 14. yüzyıl kilisesi; Kazbek Dağı (5.047 m) karşısında, 4x4 (60 GEL) veya 1,5 saatlik tırmanış."
+    },
+    {
+     "name": "Stepantsminda Öğle Khinkali",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Dağ khinkali'si (Mtiuluri); kasaba."
+    },
+    {
+     "name": "Stepantsminda Kazbek Manzarası",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Rooms Hotel terası; dönüş 3 saat, Pasanauri'de mola."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Truso Vadisi",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Mineral kaynaklı hayalet köyler; ek yürüyüş (tur değilse)."
+    },
+    {
+     "name": "Pasanauri Khinkali Molası",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Khinkali'nin doğduğu kasaba; dönüşte."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Kakheti şarap bölgesi",
+   "stops": [
+    {
+     "name": "Bodbe Monastery",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Sighnaghi'ye 2 saat (tur ~100 GEL); Aziz Nino'nun mezarı, selvi ve Alazani vadisi."
+    },
+    {
+     "name": "Sighnaghi",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "'Aşk şehri' surlu kasaba; Kafkas manzarası, 24 saat nikah dairesi, Pirosmani müzesi."
+    },
+    {
+     "name": "Pheasant's Tears Sighnaghi",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 50,
+     "tips": "Doğal kvevri şarapları ve öğle; John Wurdeman'ın bağı, tadım."
+    },
+    {
+     "name": "Kvareli Kindzmarauli Corporation",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "Kvevri şarap fabrikası; tadım ve yarı tatlı kırmızı."
+    },
+    {
+     "name": "Telavi & Alaverdi Manastırı",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Telavi ana kasabası ve 11. yüzyıl Alaverdi katedrali (50 m); dönüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Khareba Winery Tunnel",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "Dağ içinde 7 km şarap tüneli; Kvareli."
+    },
+    {
+     "name": "Tsinandali Chavchavadze Estate",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 20,
+     "tips": "Prens malikânesi ve bahçe; Telavi yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Sololaki, Mtatsminda & Vake",
+   "stops": [
+    {
+     "name": "Sololaki Avluları",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Art nouveau girişler ve ahşap balkonlar; Kalantarov evi, Betlemi merdiveni."
+    },
+    {
+     "name": "Mother of Georgia Kartlis Deda",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Sololaki tepesindeki alüminyum Ana heykeli; şarap ve kılıç."
+    },
+    {
+     "name": "Mtatsminda Füniküler & Panteon",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 5,
+     "tips": "Füniküler ile 770 m; Griboyedov ve yazarların panteonu, Aziz Davit Kilisesi."
+    },
+    {
+     "name": "Funicular Restaurant Mtatsminda",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 35,
+     "tips": "Lobiani ve Acharuli khachapuri (kayık); şehir panoraması, ünlü ponchiki."
+    },
+    {
+     "name": "Vake Park & Turtle Lake",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Zafer anıtı parkı; teleferikle Kaplumbağa Gölü, kayık."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ethnographic Museum Tbilisi",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 5,
+     "tips": "Kaplumbağa Gölü yanı açık hava Gürcü ev müzesi."
+    },
+    {
+     "name": "Café Stamba",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 40,
+     "tips": "Sovyet matbaasında şık kafe; Vera."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Dezerter Pazarı — hafif veda",
+   "stops": [
+    {
+     "name": "Dezerter Bazaar",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Gar yanında dev yerel pazar; churchkhela, suluguni, tkemali, baharat."
+    },
+    {
+     "name": "Tsminda Sameba Cathedral",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Kutsal Üçlü Katedrali (2004); 87 m, altın kubbe, Avlabari tepesi."
+    },
+    {
+     "name": "Machakhela Avlabari",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 25,
+     "tips": "Acara khachapuri zinciri; veda."
+    },
+    {
+     "name": "Havalimanı Otobüsü 337 Freedom Square",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 1,
+     "tips": "337 numaralı otobüs 40 dakika (Metromoney) veya Bolt 30 GEL; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Metekhi Kilisesi & Vakhtang Gorgasali",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Kaya üstü kilise ve kral heykeli; katedral yerine."
+    },
+    {
+     "name": "Puri Guliani Fırını",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 8,
+     "tips": "Tone (toprak fırın) ekmeği ve lobiani; sokak."
+    }
+   ]
+  }
+ ]
+}

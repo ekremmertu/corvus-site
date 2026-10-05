@@ -1,0 +1,16 @@
+{
+ "source": "a2cedca62ad5",
+ "model": "sonnet",
+ "strings": {
+  "d1.s2.tips": "Beyaz-sarı katedral; Gold Street mağazaları, eşeklere binme.",
+  "d1.s4.tips": "Teleferikle (6 EUR) eski limana; gemi ışıkları, dönüş teleferikle veya 588 basamakla.",
+  "d4.s0.tips": "MÖ 1600 Minos Pompei'si (kül altında 3 katlı evler); kapalı çatı, sabah.",
+  "d6.s3.tips": "Perissa'nın karşısı (dağ ayırır); gezinti yolu ve siyah çakıl, açık hava sineması (yaz).",
+  "d6.s4.tips": "Kışın Kamari gezinti yolu akşamı.",
+  "note0": "KTEL otobüsleri Fira merkezli (Oia 20 dk, Perissa 30 dk, 2 EUR); ATV/scooter 25-40 EUR/gün; taksi az (25-40 EUR). Havalimanı ve Athinios limanı için otobüs var.",
+  "note2": "Akrotiri 12 EUR, Thera 6, volkan turu 30-50, katamaran 120+, şarap tadımı 20-30; kaldera restoranları 30-50, Perissa 15-20; bahşişte hesabı yuvarla."
+ },
+ "warnings": [
+  "note4: sayı değişti → düzeltme atıldı"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "source": "f96e70d39ee9",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Minos sarayı ve labirent efsanesi; 08:00 açılışta gir (öğlen sıcak ve turlar var), Evans restorasyonu, online bilet.",
+  "d1.s3.tips": "Girit mutfağı; dakos, staka, otlar, çiftlik ürünleri.",
+  "d2.s0.tips": "Yolda (KTEL otobüsü 1,5 saat); Venedik feneri ve dar sokaklar.",
+  "d2.s3.tips": "Otobüs 1 saat; Mısır feneri, Yalı Camii, Venedik tersaneleri (Neoria).",
+  "d3.s2.tips": "Pembe kum ve turkuaz sığ lagün; dünyaca ünlü manzara, tekne 3 saat bekler, gölge yok.",
+  "d4.s0.tips": "Hania'dan 06:15 otobüsü, Omalos'a 1 saat; 16 km, 5-7 saat iniş (Mayıs-Ekim açık); su ve spor ayakkabı al; kri-kri keçileri.",
+  "d4.s3.tips": "Boğazın çıkışındaki sahil köyü; deniz, taverna, sonra 17:30 feribotuyla Sougia/Chora Sfakion, oradan otobüsle Hania.",
+  "d4.s4.tips": "Libya Denizi'nde feribot; otobüsle Hania'ya varış 20:30.",
+  "d6.s4.tips": "Heraklion yakınında uzun plaj; gün batımı.",
+  "note0": "Araç kiralamak en iyisi (25-40 EUR/gün); KTEL otobüsleri Heraklion-Rethymno-Hania arasında düzenli çalışır. Hania'da 3 gece + Heraklion'da 2 gece ideal (plan 2 üslü).",
+  "note1": "Yaz 30-35°C; Samaria, Balos teknesi ve Elafonisi tam sezon; öğlen 12-16 arası gölgede kal, Ağustos en kalabalık, deniz Eylül'e kadar 25°C.",
+  "note2": "Knossos 20 EUR (müze ayrı), Samaria 5, Spinalonga 8; taverna 15-25, raki ikram edilir; bahşişte hesabı yuvarla.",
+  "note4": "Balos'un toprak yolu kiralık araç sigortasını geçersiz kılar; tekne ya da jip kullan. Samaria dönüşünde feribot ve otobüs geç saatte.",
+  "note5": "Türkiye'den Heraklion/Hania'ya yazın direkt uçuş var; Schengen vizesi gerekli."
+ },
+ "warnings": []
+}

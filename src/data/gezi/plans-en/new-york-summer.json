@@ -1,0 +1,484 @@
+{
+ "lang": "en",
+ "slug": "new-york-summer",
+ "altSlug": "new-york-yaz",
+ "citySlug": "new-york",
+ "destKey": "new-york",
+ "city": "New York",
+ "region": null,
+ "country": "USA",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 520,
+  "attractions": 330,
+  "transport": 70,
+  "misc": 120
+ },
+ "notes": [
+  "The subway costs 3 USD with OMNY contactless; after 12 rides in a week, further rides are free. Get to JFK by AirTrain plus LIRR or the E train; a taxi is a flat 70 USD.",
+  "Museums: the Met is 30 USD for visitors from outside New York, the Natural History Museum 28 USD, MoMA 30 USD; many offer 'pay what you wish' on certain days.",
+  "Summers are humid, 28-33°C: head to Coney Island and the riverside parks, and Broadway in the evening. There are fireworks on 4 July.",
+  "Tip 18-22% in restaurants and 1-2 USD per drink at bars; prices exclude tax (8.9%).",
+  "Bagels, slice pizza, pastrami and halal carts: 5-15 USD; a sit-down meal is 30+ USD.",
+  "Book the first Statue of Liberty ferry and crown tickets months ahead; Top of the Rock tickets are timed."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "OMNY (contactless)",
+  "why_chosen": "Pay 3 USD per ride on the subway and buses with a contactless card; after 12 rides in a week, the rest are free",
+  "coverage": "MTA metro ve otobüs",
+  "where_to_buy": "Kendi temassız kartın; OMNY kartı marketlerde 1 USD",
+  "cost": 1,
+  "currency_code": "USD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Midtown: Empire State, Bryant Park, Times Square",
+   "stops": [
+    {
+     "name": "Top of the Rock",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 47,
+     "tips": "Rockefeller Center's observation deck: the best view of the Empire State Building. Timed tickets (~47 USD); clearest in the morning."
+    },
+    {
+     "name": "St. Patrick's Cathedral",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Neo-Gothic cathedral on Fifth Avenue; free entry."
+    },
+    {
+     "name": "Ess-a-Bagel",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 8,
+     "tips": "A proper New York bagel: everything bagel with scallion cream cheese. The queue moves fast."
+    },
+    {
+     "name": "New York Public Library & Bryant Park",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "The Rose Main Reading Room is free; take a lunch break in the park."
+    },
+    {
+     "name": "Times Square",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Best after dark, when the lights are on. Buy discounted same-day Broadway tickets at TKTS."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Empire State Building",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 49,
+     "tips": "The 86th-floor deck; the classic alternative to Top of the Rock."
+    },
+    {
+     "name": "Los Tacos No. 1 Times Square",
+     "category": "food",
+     "start": "19:30",
+     "end": "20:30",
+     "cost": 12,
+     "tips": "Adobada tacos (marinated pork); the best quick bite in Times Square."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Lower Manhattan: Liberty and 9/11",
+   "stops": [
+    {
+     "name": "Statue of Liberty Ferry Battery Park",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "11:30",
+     "cost": 26,
+     "tips": "The first Statue City Cruises ferry leaves at 08:30 (~26 USD, pedestal access included). Ellis Island has an immigration museum. Book crown tickets months ahead."
+    },
+    {
+     "name": "9/11 Memorial",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "The twin tower pools; free to visit, museum ~33 USD."
+    },
+    {
+     "name": "Oculus & Westfield World Trade Center",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Calatrava's white station; great for photos."
+    },
+    {
+     "name": "Joe's Pizza Broadway",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 4,
+     "tips": "New York slice pizza: fold it and eat it standing up."
+    },
+    {
+     "name": "Brooklyn Bridge Walk",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Walk from Manhattan to Brooklyn across the bridge in 30 minutes, then head to DUMBO for sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Staten Island Ferry",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A free ferry: see the Statue of Liberty from the water without going up to the pedestal."
+    },
+    {
+     "name": "Eataly Downtown",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "An Italian food market at the World Trade Center."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Central Park and the Met",
+   "stops": [
+    {
+     "name": "Central Park South Tour",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Bethesda Terrace, Bow Bridge and Strawberry Fields; rowing boats in summer."
+    },
+    {
+     "name": "The Metropolitan Museum of Art",
+     "category": "culture",
+     "start": "11:15",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "The Egyptian temple, Vermeer and the American Wing. 30 USD for visitors from outside New York; allow at least 2 hours."
+    },
+    {
+     "name": "Levain Bakery Upper West Side",
+     "category": "food",
+     "start": "14:15",
+     "end": "14:45",
+     "cost": 6,
+     "tips": "Giant cookies, right by Central Park."
+    },
+    {
+     "name": "American Museum of Natural History",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 28,
+     "tips": "Dinosaurs and the blue whale; ~28 USD for visitors from outside New York."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shake Shack Upper West Side",
+     "category": "food",
+     "start": "14:15",
+     "end": "14:45",
+     "cost": 14,
+     "tips": "Burgers, instead of the cookies."
+    },
+    {
+     "name": "Guggenheim Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 30,
+     "tips": "Frank Lloyd Wright's spiral; an alternative to the Natural History Museum."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Brooklyn: DUMBO and Williamsburg",
+   "stops": [
+    {
+     "name": "DUMBO Washington Street",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "The classic Manhattan Bridge view; no crowds in the morning."
+    },
+    {
+     "name": "Brooklyn Bridge Park",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "A riverside park with Jane's Carousel and the Manhattan skyline."
+    },
+    {
+     "name": "Juliana's Pizza",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 30,
+     "tips": "Coal-oven pizza in DUMBO from the original Grimaldi's pizzaiolo. Opens at 11:30."
+    },
+    {
+     "name": "Williamsburg Bedford Avenue",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Vintage shops, record stores and cafes; take the L train."
+    },
+    {
+     "name": "Domino Park",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A riverside park on a former sugar refinery site, with Manhattan sunsets."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Smorgasburg",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 20,
+     "tips": "Williamsburg's Saturday street food market."
+    },
+    {
+     "name": "Brooklyn Heights Promenade",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A scenic walkway in front of the brownstone houses."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "High Line, Chelsea and Greenwich Village",
+   "stops": [
+    {
+     "name": "The High Line",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A park on a former railway line; walk from Gansevoort Street to 34th Street. Quiet in the morning."
+    },
+    {
+     "name": "Chelsea Market",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "A food market in the old Nabisco factory; try Los Tacos No. 1 and a lobster roll."
+    },
+    {
+     "name": "Whitney Museum of American Art",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "American art, plus terraces with views of the High Line."
+    },
+    {
+     "name": "Washington Square Park",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "The arch and street musicians; NYU's neighbourhood."
+    },
+    {
+     "name": "Greenwich Village Walk",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Bleecker Street, the Friends building and a Magnolia Bakery cupcake."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Joe's Pizza Carmine Street",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 4,
+     "tips": "The original Joe's, in the Village."
+    },
+    {
+     "name": "Little Island",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "An artificial island park over the river; an alternative to the Whitney."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Coney Island",
+   "stops": [
+    {
+     "name": "Coney Island Boardwalk",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "1 hour by subway; the boardwalk, the Cyclone (~10 USD) and the Wonder Wheel."
+    },
+    {
+     "name": "Nathan's Famous Coney Island",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 8,
+     "tips": "Hot dogs since 1916; home of the famous eating contest."
+    },
+    {
+     "name": "Coney Island Beach",
+     "category": "nature",
+     "start": "13:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Swim in the Atlantic; bring a towel and sunscreen."
+    },
+    {
+     "name": "New York Aquarium",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 30,
+     "tips": "An aquarium on the boardwalk."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Totonno's Pizzeria",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 25,
+     "tips": "Coney Island's pizzeria since 1924."
+    },
+    {
+     "name": "Brighton Beach",
+     "category": "nature",
+     "start": "13:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The beach of the neighbouring Russian district."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Lower East Side: a gentle farewell",
+   "stops": [
+    {
+     "name": "Russ & Daughters",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 18,
+     "tips": "Lox and bagels since 1914; the perfect farewell breakfast."
+    },
+    {
+     "name": "Tenement Museum",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 30,
+     "tips": "A guided tour of an immigrant tenement building; book ahead."
+    },
+    {
+     "name": "Little Italy Mulberry Street",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Cannoli (at Ferrara) and the Italian quarter."
+    },
+    {
+     "name": "Chinatown Canal Street",
+     "category": "shopping",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Souvenirs and dim sum; try Nom Wah Tea Parlor."
+    },
+    {
+     "name": "Penn Station / AirTrain",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "AirTrain plus LIRR to JFK takes 45 minutes; time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Clinton St. Baking Company",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 22,
+     "tips": "Pancake breakfast, instead of Russ & Daughters."
+    },
+    {
+     "name": "New Museum",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 22,
+     "tips": "Contemporary art on the Bowery."
+    }
+   ]
+  }
+ ]
+}

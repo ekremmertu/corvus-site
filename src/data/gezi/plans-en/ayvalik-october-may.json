@@ -1,0 +1,522 @@
+{
+ "lang": "en",
+ "slug": "ayvalik-october-may",
+ "altSlug": "ayvalik-ekim-mayis",
+ "citySlug": "ayvalik",
+ "destKey": "ayvalik",
+ "city": "Ayvalık",
+ "region": "Balıkesir",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 12400,
+  "attractions": 4690,
+  "transport": 1100,
+  "misc": 500
+ },
+ "notes": [
+  "Cash is preferred in tradesmen's restaurants, markets and village visits. Cards may not work everywhere, so carry some TL.",
+  "Cash payment has been abolished on minibuses between Ayvalık and Cunda. A Balkart or a credit card is required.",
+  "Leaving a 5-10% tip on the bill is common in restaurants and meyhanes. In tradesmen's restaurants, rounding up is enough.",
+  "In January the Aegean wind blows hard and evenings get cold. A waterproof coat, layers and non-slip shoes are essential, as the stone streets get slippery in the rain.",
+  "The sea is cold in winter and it is not swimming season. Boat tours can be cancelled depending on wind and sea conditions, so confirm the day before you go.",
+  "Ayvalık is generally a calm and safe town. Night lighting on the stone streets can be poor, so walk carefully.",
+  "Most Greek houses are still private property, so be respectful when photographing doors and windows. Asking olive producers \"how old is the tree?\" is a good way to start a conversation."
+ ],
+ "niche": {
+  "name": "Şeytanın Kahvesi",
+  "level": "l2",
+  "why_hidden": "A small neighbourhood café squeezed between Ayvalık's Greek houses, run since 1950 by the grandchildren of Şeytan Halil from Lesbos. Popular guides treat the Greek quarter only as a photo stop, and most visitors don't know about the 70-year family story inside or the small bookcase.",
+  "access_instructions": "Turn off Barbaros Street into the side streets where the Greek houses are. On 13 Nisan Caddesi in Zekibey Mahallesi you'll find a small sign. Open from 09:00 to 21:00, no booking needed, just walk in and sit down.",
+  "local_contact": "(0266) 312 84 36 — Şeytanın Kahvesi",
+  "season": "Open all year. In winter, sitting by the stove inside is a pleasure of its own.",
+  "insider_tip": "Ask for the verjuice drink (koruk şerbeti) that isn't on the menu. You can browse a book from the old bookcase in the corner and sit for hours, and nobody will rush you.",
+  "show_reason": "70 yıllık aile mirası, otantik Rum mahallesi dokusu ve neredeyse ücretsiz oluşuyla hem fotoğraf hem hikaye açısından zengin bir durak, ama hiçbir ana rehberde öne çıkarılmıyor.",
+  "lat": 39.3168,
+  "lng": 26.6949,
+  "address": "Zekibey Mahallesi, 13 Nisan Caddesi No:4, 10400 Ayvalık/Balıkesir",
+  "cost_range_min": 50,
+  "cost_range_max": 150,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Balkart",
+  "why_chosen": "Cash payment has now been abolished entirely on minibuses between Ayvalık and Cunda and on city buses and minibuses across Balıkesir, so you can only pay with a Balkart or a credit card. Every Cunda crossing and every local trip in the plan is covered by this one card, which is far cheaper and more practical than daily taxi or dolmuş spending.",
+  "coverage": "Ayvalık-Cunda minibüs hattı ve Balıkesir Büyükşehir Belediyesi'ne bağlı tüm şehir içi otobüs/minibüs/vapur hatları",
+  "where_to_buy": "Ayvalık otogarındaki ve merkezdeki Balkart kiosklarından, anlaşmalı bayilerden veya Migros şubelerinden",
+  "cost": 100,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Ayvalık's signatures: old bazaar, Cunda and Devil's Table",
+   "stops": [
+    {
+     "name": "Ayvalık Old Bazaar and Greek Quarter",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Start on the stone streets off Barbaros Street and look closely at the façade details of the Greek houses. Morning light is best for photos, and weekday mornings are very quiet."
+    },
+    {
+     "name": "Kepçe Lokantası",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 750,
+     "tips": "A home-style tradesmen's restaurant. Try the lentil soup and the olive-oil stuffed courgette flowers. Go early at lunchtime, as it closes in the evening."
+    },
+    {
+     "name": "Cunda Taksiyarhis Church",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 240,
+     "tips": "The wooden iconostasis and the dome frescoes date from the Greek period. Closed on Mondays. It is a 15-minute dolmuş (shared minibus) ride from Ayvalık to Cunda."
+    },
+    {
+     "name": "Cunda Taş Kahve",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 150,
+     "tips": "Stop at this historic coffeehouse on the pier for tea or Turkish coffee. Sitting and watching the fishing boats is a classic Cunda moment."
+    },
+    {
+     "name": "Devil's Table",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Ayvalık's emblematic hill. At sunset, Lesbos and the islands appear in silhouette. Sunset comes early in January, so be on the hilltop between 16:45 and 17:15."
+    },
+    {
+     "name": "Deniz Restoran",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1600,
+     "tips": "A classic fish restaurant on the Cunda waterfront. Sea beans and stuffed courgette flowers arrive as meze, so ask about the fish of the season. Booking is recommended."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Açelya Cafe",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 200,
+     "tips": "A quiet café in central Ayvalık with views of the marina and Cunda. A good alternative at the same time of day if you can't get to Taş Kahve."
+    },
+    {
+     "name": "Ortunç Bay",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A quiet Cunda bay ringed with pine trees. There's no swimming in winter, but it's a good alternative to Devil's Table for a coastal walk and photos."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Cunda's quiet side: hills, bays and market",
+   "stops": [
+    {
+     "name": "Lovers' Hill",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Cunda's most romantic spot, with windmills and decorated walking paths. It's not crowded in the morning light."
+    },
+    {
+     "name": "Cunda Saturday Market",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Set up on Saturdays, with colourful stalls selling handmade soap, knitwear and antiques. If you're not here on a Saturday, the shops on Antique Dealers' Street are open all week."
+    },
+    {
+     "name": "Şef Mehmet'in Balık Evi",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 1000,
+     "tips": "A small seafood specialist in Cunda. Fried calamari and prawn casserole stand out. Go around 12:30, as in the evening it turns into more of a fish tavern."
+    },
+    {
+     "name": "Pateriça Bay",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A quiet bay at the northern tip of Cunda, reached by a dirt road. The road is narrow and rough, so don't go beyond the second village without a high-clearance vehicle. No swimming in winter, but ideal for photos of an empty cove."
+    },
+    {
+     "name": "Cennet Hill",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "One of Cunda's widest panoramic viewpoints. Go close to sunset, when it's less crowded than Lovers' Hill."
+    },
+    {
+     "name": "Son Vapur",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "A Cunda venue with a Greek-island feel, known for fish roe and a generous fish-and-cracker meze. Booking early in the evening is a good idea."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Oli Mera",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 950,
+     "tips": "A stone-walled Cunda spot with an Italian touch and homemade pasta. A good alternative if Şef Mehmet'in Balık Evi is full."
+    },
+    {
+     "name": "Aquarium Bay",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A Cunda bay known for its clear water. Head here if road conditions aren't right for Pateriça. In winter it's only good for a coastal walk."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Islands and the flamingo coast: Küçükköy",
+   "stops": [
+    {
+     "name": "Somun Breakfast Club",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 550,
+     "tips": "A simple, quality breakfast spot on Küçükköy Street. Ideal for an easy start before the boat tour, and quiet very early in the day."
+    },
+    {
+     "name": "Ayvalık Islands Boat Tour",
+     "category": "nature",
+     "start": "10:30",
+     "end": "15:30",
+     "cost": 2000,
+     "tips": "Departs from Ayvalık's central pier and cruises the coves of the 12 Islands area, with lunch included in the price. In winter, trips can be cancelled depending on sea conditions, so confirm by phone the day before. There's no swimming stop at this time of year, only a cove tour.",
+     "bookingUrl": "https://www.viator.com/searchResults/all?text=Ayvalik+Islands+Boat+Tour",
+     "bookingProvider": "Viator"
+    },
+    {
+     "name": "Ayvalık Salt Lake",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:15",
+     "cost": 0,
+     "tips": "This shallow lake near Küçükköy is known for flamingo watching. Spring is the busiest period, but small flocks can be seen in winter too. In golden hour the light brings out the flamingos' pink in photos."
+    },
+    {
+     "name": "Müptela Balık",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "A friendly, affordable local fish restaurant in Ayvalık. Fried sardines and stuffed mussels are the standout dishes. It's a small place, so go early in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bi Küçük Meyhane",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 850,
+     "tips": "A small but welcoming meyhane (tavern) among the stone streets of Küçükköy's historic fabric, known for its olive-oil meze."
+    },
+    {
+     "name": "Sarımsaklı Paşa Bay",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:15",
+     "cost": 0,
+     "tips": "A quiet bay 10 to 15 minutes from Sarımsaklı by minibus. As an alternative to the Salt Lake, it offers an easy coastal walk in winter."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Ayvalık's hidden streets: Greek quarter and olive heritage",
+   "stops": [
+    {
+     "name": "Ayvalık Ayazma",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Also known as the Panagia Phaneromeni holy spring, it was a healing centre before the population exchange. Closed on Mondays, open 10:00 to 17:00."
+    },
+    {
+     "name": "Antique Dealers' Street and Barbaros Street Flea Market",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Records, porcelain and black-and-white photographs from old Greek houses are sold here. On Saturdays it's fully set up and can be browsed from 09:00 to 19:00."
+    },
+    {
+     "name": "Mehmet Usta'nın Yeri",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 800,
+     "tips": "A tradesmen's restaurant combining Antep and Aegean cooking. It's on Eski PTT Aralığı Sokak and is also a spot where local workers drop in."
+    },
+    {
+     "name": "Rahmi M. Koç Museum Ayvalık",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 500,
+     "tips": "An industry and transport museum set in a 200-year-old olive oil factory. Closed on Mondays, with last entry 30 minutes before closing."
+    },
+    {
+     "name": "Ayvalık Waterfront Promenade",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Walk along the shore and watch the sunset. If you catch the hour when the fishing boats return, it's a great time for photos."
+    },
+    {
+     "name": "Şeytanın Kahvesi",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 150,
+     "tips": "A neighbourhood café hidden among the Greek houses, run by the same family since 1950. Ask for the verjuice drink (koruk şerbeti) that isn't on the menu, and sit down with a book from the old bookcase in the corner."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Imren Pastanesi",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 300,
+     "tips": "A historic pastry shop open since 1954. Its lor (fresh curd cheese) dessert and almond cookies come from Cretan cuisine. Good for a light lunch stop if the main restaurant is full."
+    },
+    {
+     "name": "Ayvalık Municipality Historical Olive Gallery",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 100,
+     "tips": "A small gallery converted from the old Vakıflar olive oil factory, displaying olive oil and soap-making tools. It is quieter than the Rahmi Koç Museum and close to free."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Villages of the olive groves: Mutluköy and Dereköy",
+   "stops": [
+    {
+     "name": "Sural Çiftliği",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 800,
+     "tips": "Serves a spread breakfast in a farm setting. Try their own jams and cheeses, and go early on weekends."
+    },
+    {
+     "name": "Ayvada Olive Oil Garden Tasting Tour",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 600,
+     "tips": "A tasting tour in their own groves in the Nalbant/Çardaktepe area, explaining the process from harvest to pressing. The harvest season is November to December, but winter tasting sessions are held. Booking by phone in advance is essential.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Ayvalik+Olive+Oil+Tasting+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Dereköy Olive Grove Walk",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A quiet village surrounded by olive groves. Take a short walk along the asphalt road to see centuries-old olive trees. It's cool in winter, so bring a coat."
+    },
+    {
+     "name": "Mutluköy",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A small olive-growing village that has kept its traditional stone architecture. Take a break under the old plane tree in the village square."
+    },
+    {
+     "name": "Karina Zeytinlik",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1300,
+     "tips": "A venue inside its own olive grove in Cunda, serving dishes made with produce from its own garden. Open only Thursday to Sunday, 17:00 to 23:00. If your day doesn't fall on those days, choose Tamam Meyhane."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tamam Meyhane",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "A meyhane (tavern) known for its seaside branch. Barbunya beans with cinnamon and the olive-oil dishes stand out. A good alternative on days when Karina is closed."
+    },
+    {
+     "name": "Çamlık Village",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A quiet seaside village with boutique guesthouses. Head here if Mutluköy is hard to reach, and take a short walk along the coast."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "An ancient day in Bergama: Pergamon",
+   "stops": [
+    {
+     "name": "Pergamon Acropolis",
+     "category": "culture",
+     "start": "09:15",
+     "end": "11:00",
+     "cost": 950,
+     "tips": "About 50 minutes from Ayvalık. A cable car takes you up to the hilltop, where you'll find the Altar of Zeus and the steep amphitheatre. A guided tour covers entry and the cable car fare, and early mornings are less crowded.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Pergamon+Ancient+City+Guided+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Asklepion",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 200,
+     "tips": "One of the first healing centres of the ancient world. Enter on foot along the sacred way and look for the snake-and-staff column, the symbol of modern medicine."
+    },
+    {
+     "name": "Bergama Sofrası",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "A no-frills local restaurant on the road to Hacı Hekim Hamam. Be sure to try the Bergama köfte and çığırtma (baked aubergine)."
+    },
+    {
+     "name": "Red Basilica",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 200,
+     "tips": "A huge brick structure, also known as the Temple of Serapis. If you can go down into the tunnels inside, it's a good cool break. The return journey takes about 50 minutes."
+    },
+    {
+     "name": "L'Arancia",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 1200,
+     "tips": "A venue in Cunda serving Amalfi-inspired Italian food. A good choice for shaking off the tiredness of the Bergama trip with a light, modern menu."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sarmaşık Lokantası",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 650,
+     "tips": "Also known as Köylümün Yeri. It serves simple, filling examples of traditional Turkish cooking and can be used as an alternative to Bergama Sofrası."
+    },
+    {
+     "name": "Bergama Archaeology Museum",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 200,
+     "tips": "At Zafer Mahallesi, Cumhuriyet Caddesi No:10. It displays statues and ceramics from Pergamon and offers an indoor alternative to the Red Basilica."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Farewell tour: last breakfast and souvenirs",
+   "stops": [
+    {
+     "name": "Kahve Altı Ayvalık",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 700,
+     "tips": "A breakfast spot known for its homemade olive oils, village olives and herb omelette. Ideal for a relaxed farewell breakfast, though it can be busy at weekends."
+    },
+    {
+     "name": "Barbaros Street Souvenir Shopping",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Buy gifts from local shops selling olive oil, soap and Turkish delight. Don't forget to have bottled olive oil packed so it won't leak in your suitcase."
+    },
+    {
+     "name": "Ayvalık Fishing Harbour",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "Take a last walk around the harbour and buy a simit (sesame bread ring) or gözleme (stuffed flatbread) from a kiosk. Watching the boats is the best way to say a quiet goodbye to the town."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mor Salkım",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 650,
+     "tips": "Known for its olive-oil dishes and Bosnian börek. If Kahve Altı is full, choose it for a light brunch instead of breakfast."
+    },
+    {
+     "name": "Küçükköy (Yeniçarohori) Art Village",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "This former Greek settlement is now known for its art and design workshops. Head here if you want a quiet outing for your last day instead of shopping."
+    }
+   ]
+  }
+ ]
+}

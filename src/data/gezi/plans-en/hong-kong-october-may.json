@@ -1,0 +1,492 @@
+{
+ "lang": "en",
+ "slug": "hong-kong-october-may",
+ "altSlug": "hong-kong-ekim-mayis",
+ "citySlug": "hong-kong",
+ "destKey": "hong-kong",
+ "city": "Hong Kong",
+ "region": null,
+ "country": "Hong Kong",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "HKD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 3600,
+  "attractions": 900,
+  "transport": 800,
+  "misc": 800
+ },
+ "notes": [
+  "The Octopus Card works everywhere (MTR, tram, ferry, shops). Buy it at the airport. The Airport Express takes 24 minutes.",
+  "October to December is the best season (22°C, dry). In January and February it's 15°C, a cardigan is enough and it's ideal for walking.",
+  "Dim sum is eaten in the morning and at lunchtime. Queues are normal at cheap Michelin spots like Tim Ho Wan and Kam's Roast Goose.",
+  "Tipping is not expected, and a 10% service charge is added to the bill. Cash is still common, and small restaurants don't take cards.",
+  "The Star Ferry and Peak Tram are Hong Kong rituals. Go up to the Peak at 08:00, and return at 19:00 for the evening lights.",
+  "You need your passport for Macau. Ferries to Lamma and Cheung Chau leave from Central Piers 4 and 5."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Octopus Card",
+  "why_chosen": "It works on the MTR, trams, buses, the Star Ferry and in shops, so it covers everything in Hong Kong.",
+  "coverage": "MTR, otobüs, tramvay, feribotlar, 7-Eleven ve çoğu mağaza",
+  "where_to_buy": "Havalimanı ve MTR istasyonları; 50 HKD depozito",
+  "cost": 150,
+  "currency_code": "HKD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Victoria Peak and Central",
+   "stops": [
+    {
+     "name": "Peak Tram",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 88,
+     "tips": "The first trams at 07:30 have no queue. It's an 8-minute ride to Victoria Peak, around 88 HKD return."
+    },
+    {
+     "name": "Victoria Peak Sky Terrace 428",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 75,
+     "tips": "Terrace at the summit with 360° views of the harbour. The morning haze burns off."
+    },
+    {
+     "name": "Peak Circle Walk",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A flat, shaded 3.5 km walk around the summit with great views."
+    },
+    {
+     "name": "Tim Ho Wan Central",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 120,
+     "tips": "The cheapest Michelin-starred dim sum in the world. Don't miss the BBQ pork buns (char siu bao)."
+    },
+    {
+     "name": "Central Mid-Levels Escalator",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "The world's longest outdoor covered escalator system. It takes you up to SoHo and Tai Kwun."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lan Fong Yuen",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 60,
+     "tips": "A cha chaan teng (Hong Kong-style café) open since 1952. Try the milk tea and the pork chop sandwich."
+    },
+    {
+     "name": "Tai Kwun",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A former police station and prison, now a free cultural centre."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Kowloon and Star Ferry",
+   "stops": [
+    {
+     "name": "Star Ferry Central Pier",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "09:50",
+     "cost": 5,
+     "tips": "The legendary 8-minute ferry from Central to Tsim Sha Tsui. 5 HKD with an Octopus card."
+    },
+    {
+     "name": "Tsim Sha Tsui Promenade",
+     "category": "nature",
+     "start": "09:50",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "The Avenue of Stars and harbour views. Good for morning photos."
+    },
+    {
+     "name": "Hong Kong Museum of Art",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "An art museum on the waterfront. Free entry, with Chinese calligraphy and contemporary art."
+    },
+    {
+     "name": "Mak's Noodle Jordan",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 70,
+     "tips": "The classic wonton noodles. The bowls are small, so order 2."
+    },
+    {
+     "name": "Temple Street Night Market",
+     "category": "shopping",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Fortune tellers, street food and cheap goods. It comes alive after 18:00, so try the claypot rice."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Australia Dairy Company",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 60,
+     "tips": "Scrambled egg toast and steamed milk pudding. The queue moves fast."
+    },
+    {
+     "name": "Kowloon Park",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A park in Tsim Sha Tsui with flamingos. An alternative to the museum."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Lantau: Tian Tan Buddha",
+   "stops": [
+    {
+     "name": "Ngong Ping 360 Cable Car",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 300,
+     "tips": "A 25-minute cable car ride from Tung Chung (around 300 HKD return, glass-bottom cabin extra). You get views of the sea and mountains."
+    },
+    {
+     "name": "Tian Tan Buddha",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "A 34 m bronze Buddha. Climb the 268 steps for views over Lantau."
+    },
+    {
+     "name": "Po Lin Monastery",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The monastery at the foot of the Buddha. Vegetarian meal tickets are sold here."
+    },
+    {
+     "name": "Po Lin Vegetarian Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 150,
+     "tips": "The monastery's vegetarian kitchen. Simple and tasty."
+    },
+    {
+     "name": "Tai O Fishing Village",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A village of stilt houses. A boat trip (with a chance of spotting pink dolphins) costs 30 HKD, and there's a dried fish market."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tai O Dried Seafood Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 100,
+     "tips": "Grilled seafood in Tai O. An alternative to the monastery meal."
+    },
+    {
+     "name": "Wisdom Path",
+     "category": "nature",
+     "start": "14:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A path of wooden sutra pillars next to the Buddha. A short walk."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Mong Kok and Sham Shui Po",
+   "stops": [
+    {
+     "name": "Chi Lin Nunnery",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A Tang-style wooden nunnery built without nails, with lotus ponds."
+    },
+    {
+     "name": "Nan Lian Garden",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "A Chinese garden opposite the nunnery, with a golden pagoda."
+    },
+    {
+     "name": "Wong Tai Sin Temple",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Fortune sticks (kau cim) and incense. The busiest temple in Hong Kong."
+    },
+    {
+     "name": "Kwan Kee Bamboo Noodle",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 60,
+     "tips": "In Sham Shui Po, noodles kneaded with a bamboo pole. Legendary flavour."
+    },
+    {
+     "name": "Sham Shui Po Apliu Street",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "An electronics and fabric market in Hong Kong's most local neighbourhood, with street food."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tim Ho Wan Sham Shui Po",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 120,
+     "tips": "The first Tim Ho Wan branch."
+    },
+    {
+     "name": "Ladies' Market Mong Kok",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A tourist market. Haggle."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Dragon's Back and Stanley",
+   "stops": [
+    {
+     "name": "Dragon's Back Trail",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Hong Kong's most famous ridge hike (2 hours, easy to moderate). It has views of Shek O and is ideal in winter."
+    },
+    {
+     "name": "Stanley Market",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "A market in a seaside town. Good for silk and souvenirs."
+    },
+    {
+     "name": "The Boathouse Stanley",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 350,
+     "tips": "Seafood on the Stanley waterfront, with a terrace."
+    },
+    {
+     "name": "Stanley Promenade",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Murray House and the seafront. Stop for a coffee."
+    },
+    {
+     "name": "Shek O Village",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "The village where the ridge hike ends. There's a beach and a Thai restaurant."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Stanley Plaza Food Court",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 120,
+     "tips": "An affordable lunch."
+    },
+    {
+     "name": "Deep Water Bay",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A quieter bay next to Repulse Bay."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Day trip to Macau",
+   "stops": [
+    {
+     "name": "Yung Shue Wan Lamma",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Take the Macau ferry (1 hour, around 180 HKD) to see the Ruins of St. Paul's and Senado Square. You need your passport."
+    },
+    {
+     "name": "Lamma Family Trail",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A walk taking in A-Ma Temple and Taipa Village."
+    },
+    {
+     "name": "Ruins of St. Paul's",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The church facade that symbolises Macau. Portuguese heritage."
+    },
+    {
+     "name": "Lord Stow's Bakery Macau",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 60,
+     "tips": "Portuguese-style pastel de nata (custard tart). A Macau classic."
+    },
+    {
+     "name": "Senado Square",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A mosaic-paved square with Portuguese buildings. The return ferry to Hong Kong leaves at 18:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Taipa Village Food Street",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 120,
+     "tips": "Street food in Taipa."
+    },
+    {
+     "name": "Macau Tower",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A tower with bungee jumping and views over Macau."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Wan Chai: a light farewell",
+   "stops": [
+    {
+     "name": "Hong Kong Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "A park among the skyscrapers, with an aviary and a lake."
+    },
+    {
+     "name": "Ding Ding Tram Line",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 3,
+     "tips": "Ride the historic double-decker tram to Wan Chai. Take a front seat on the upper deck, 3 HKD."
+    },
+    {
+     "name": "Kam's Roast Goose Wan Chai",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 200,
+     "tips": "Michelin-starred goose. A farewell lunch, with a 30-minute queue."
+    },
+    {
+     "name": "Airport Express Hong Kong Station",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The airport train takes 24 minutes. You can check in in the city."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Joy Hing Roasted Meat",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 80,
+     "tips": "Cheap char siu in Wan Chai."
+    },
+    {
+     "name": "Blue House Wan Chai",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A blue historic building and neighbourhood museum. An alternative to the tram."
+    }
+   ]
+  }
+ ]
+}

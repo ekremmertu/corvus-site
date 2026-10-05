@@ -1,0 +1,16 @@
+{
+ "source": "fed500c2a692",
+ "model": "sonnet",
+ "strings": {
+  "d1.s5.tips": "1981'den beri aynı adreste hizmet veren, \"Türkiye'nin en iyi balık mezesi\" ödülüne sahip bir kurum. Levrek veya çipura ile enginar zeytinyağlısını dene, rezervasyon önerilir.",
+  "d2.s4.tips": "İskelenin ucundan körfezin panoramik manzarasını çekebilirsin; vapur gelip giderken hareketli bir kare yakalarsın. Rüzgâra karşı ince bir mont al.",
+  "d4.s0.tips": "İzmir'e ve körfeze hâkim en yüksek nokta; giriş ücretsiz, 33 numaralı otobüsle Konak'tan ulaşılır, sabah ışığında fotoğraf için ideal.",
+  "d6.s0.tips": "Tur İzmir'den araçla alıp Efes'e götürür; Celsus Kütüphanesi ve Büyük Tiyatro'yu rehberle gez. Yürüyüş ayakkabısı giy, çünkü antik taş zeminde uzun süre yürünüyor.",
+  "d6.s2.tips": "Taş sokaklardaki restoranlardan birinde gözleme ve mantı dene; yemekten sonra meyve şarabı tadımına vakit ayır.",
+  "d6.b1.tips": "Roma dönemi zengin ailelerinin evlerindeki orijinal mozaik ve fresklerin korunduğu kapalı alan; ek bilet gerekiyor ama detay zenginliği yüksek.",
+  "note2": "Restoranlarda bahşiş hesaba otomatik eklenmez, %5-10 bahşiş bırakmak yerel görgü kuralıdır.",
+  "niche.why_hidden": "Kemeraltı çarşısının hemen içinde, alışveriş kalabalığının birkaç adım ötesinde 500 yıllık bir Sefarad mirası saklı; Sinyora, Şalom, Algazi, Bikur Holim, Etz Hayim, Hevra ve Bet Hillel sinagogları aynı sokakta yan yana duruyor. Güvenlik nedeniyle kapıları kapalı olduğundan çoğu turist sadece sokak tabelasını görüp geçiyor.",
+  "niche.access_instructions": "Sokakta serbestçe yürünebilir. Sinagogların içine girebilmek için Ebruli Turizm gibi yetkili bir rehberlik şirketi üzerinden grup turuna en az birkaç gün önceden kayıt yaptırmak gerekir, çünkü güvenlik izni sinagog cemaati tarafından veriliyor."
+ },
+ "warnings": []
+}

@@ -1,0 +1,476 @@
+{
+ "lang": "tr",
+ "slug": "osaka-ekim-mayis",
+ "altSlug": "osaka-october-may",
+ "citySlug": "osaka",
+ "destKey": "osaka",
+ "city": "Osaka",
+ "region": null,
+ "country": "Japonya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "JPY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 48000,
+  "attractions": 22000,
+  "transport": 9000,
+  "misc": 8000
+ },
+ "notes": [
+  "ICOCA kartla tüm trenler; Kansai Havalimanı'na Nankai Rapi:t 40 dakika. Nara ve Kyoto'ya Kintetsu/JR 45 dakika.",
+  "Kasım momiji (Kyoto), Nisan sakura; kış 5-10°C kuru ve kalabalıksız, kani (yengeç) sezonu.",
+  "Osaka = kuidaore (yiyene kadar ye): takoyaki, okonomiyaki, kushikatsu 500-1.500 JPY; Kuromon sabah.",
+  "USJ Nintendo alanı için park açılışında uygulamadan alan bileti; Express Pass 10.000+ JPY.",
+  "Nakit hâlâ önemli; 7-Eleven ATM. Bahşiş yok, kuyrukta sessiz.",
+  "Fushimi Inari 07:30'da boş; 09:00 sonrası tur otobüsleri."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "ICOCA",
+  "why_chosen": "Osaka Metro'da, JR'de ve Hankyu'da geçer; Suica ile aynı sistem.",
+  "coverage": "Kansai tüm tren/metro/otobüs, konbini",
+  "where_to_buy": "İstasyon biletmatikleri; 2.000 JPY (500 depozito)",
+  "cost": 2000,
+  "currency_code": "JPY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Osaka Kalesi & Dotonbori",
+   "stops": [
+    {
+     "name": "Osaka Castle",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 600,
+     "tips": "Toyotomi'nin kalesi; 8. kat manzara, park sabah sakin, sakura Nisan."
+    },
+    {
+     "name": "Osaka Castle Park",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Kale çevresi park ve hendekler; erik bahçesi."
+    },
+    {
+     "name": "Kuromon Ichiba Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 2500,
+     "tips": "Osaka'nın mutfağı; tezgahtan ton balığı, wagyu şiş ve çilek, ayakta."
+    },
+    {
+     "name": "Shinsaibashi-suji",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "600 m kapalı çarşı; Don Quijote ve ilaç-kozmetik."
+    },
+    {
+     "name": "Dotonbori",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "20:30",
+     "cost": 1500,
+     "tips": "Glico koşucusu ve neon; takoyaki (Wanaka) ve Mizuno okonomiyaki, kanal boyu kalabalık."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mizuno Okonomiyaki",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:30",
+     "cost": 1500,
+     "tips": "Dotonbori'de Bib Gourmand okonomiyaki; yam hamuru."
+    },
+    {
+     "name": "Tombori River Cruise",
+     "category": "nature",
+     "start": "18:00",
+     "end": "20:30",
+     "cost": 1200,
+     "tips": "20 dakikalık kanal teknesi; neonlar."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Shinsekai & Tennoji",
+   "stops": [
+    {
+     "name": "Shitennoji Temple",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 300,
+     "tips": "Japonya'nın en eski Budist tapınağı (593); pagoda ve bahçe."
+    },
+    {
+     "name": "Shinsekai",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Retro eğlence mahallesi; Tsutenkaku kulesi ve Billiken heykeli."
+    },
+    {
+     "name": "Tsutenkaku Tower",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 900,
+     "tips": "1912 kulesi; gözlem katı ve kaydırak."
+    },
+    {
+     "name": "Kushikatsu Daruma Shinsekai",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 1500,
+     "tips": "Kızarmış şişler; sosa iki kez batırmak yasak."
+    },
+    {
+     "name": "Abeno Harukas 300",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 1500,
+     "tips": "Japonya'nın en yüksek binasının gözlem katı; Osaka ve deniz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yakko Kushikatsu",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 1300,
+     "tips": "Daruma doluysa; aynı sokak."
+    },
+    {
+     "name": "Tennoji Park & Zoo",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 500,
+     "tips": "Park ve hayvanat bahçesi; Harukas yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Nara",
+   "stops": [
+    {
+     "name": "Nara Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Osaka'dan Kintetsu 40 dakika; 1.200 serbest geyik, kraker 200 JPY, sabah sakin."
+    },
+    {
+     "name": "Todai-ji",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 800,
+     "tips": "Dünyanın en büyük ahşap binasında 15 m Buda; sütundaki delikten geç."
+    },
+    {
+     "name": "Kasuga Taisha",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 500,
+     "tips": "3.000 taş fenerli Şinto tapınağı; orman yolu."
+    },
+    {
+     "name": "Nakatanidou Mochi",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 200,
+     "tips": "Yüksek hızlı mochi dövme gösterisi; taze yomogi mochi."
+    },
+    {
+     "name": "Naramachi",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Eski tüccar evleri mahallesi; kafeler ve el işi, Nara'nın sakin yüzü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kamameshi Shizuka Nara",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 1500,
+     "tips": "Demir tencerede pilav; sıcak öğle."
+    },
+    {
+     "name": "Kofuku-ji",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 700,
+     "tips": "Beş katlı pagoda; Naramachi yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Umeda & Nakanoshima",
+   "stops": [
+    {
+     "name": "Umeda Sky Building",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 2000,
+     "tips": "Yüzen bahçe gözlem katı; sabah net, Kansai'nin en iyi manzaralarından."
+    },
+    {
+     "name": "Nakanoshima Park",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Nehir arasındaki ada park; gül bahçesi ve belediye binası."
+    },
+    {
+     "name": "Osaka Nakanoshima Museum of Art",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 1800,
+     "tips": "Siyah küp müze; Modigliani ve Osaka sanatı."
+    },
+    {
+     "name": "Tenma Kisaburo",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 1200,
+     "tips": "Tenma'da yerel lokanta; günlük teishoku."
+    },
+    {
+     "name": "Tenjinbashisuji Shopping Street",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Japonya'nın en uzun kapalı çarşısı (2,6 km); yerel dükkânlar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hanshin Department Store Snack Park",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 1000,
+     "tips": "Umeda'da ayakta yemek katı; ikayaki."
+    },
+    {
+     "name": "Osaka Museum of Housing and Living",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 600,
+     "tips": "Edo dönemi sokağının canlandırması; kimono kiralama."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Kyoto",
+   "stops": [
+    {
+     "name": "Fushimi Inari Taisha",
+     "category": "culture",
+     "start": "07:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Osaka'dan JR 45 dakika; 10.000 kırmızı torii, 07:30'da boş, dağın yarısına çık."
+    },
+    {
+     "name": "Kiyomizu-dera",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 500,
+     "tips": "Ahşap teras tapınak; Kyoto manzarası, Higashiyama sokakları."
+    },
+    {
+     "name": "Nishiki Market",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 1500,
+     "tips": "Kyoto'nun mutfağı; tsukemono ve tamagoyaki, ayakta."
+    },
+    {
+     "name": "Gion",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Geyşa mahallesi; Hanamikoji sokağı, Yasaka tapınağı."
+    },
+    {
+     "name": "Arashiyama Bambu Korusu",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Bambu tüneli; akşamüstü kalabalık azalır, Togetsukyo köprüsü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kyoto Gogyo Ramen",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 1200,
+     "tips": "Yanık miso ramen; Nishiki yakınında."
+    },
+    {
+     "name": "Kinkaku-ji",
+     "category": "culture",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 500,
+     "tips": "Altın Köşk; Arashiyama yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Universal Studios Japan",
+   "stops": [
+    {
+     "name": "Universal Studios Japan",
+     "category": "culture",
+     "start": "08:30",
+     "end": "17:00",
+     "cost": 8900,
+     "tips": "Super Nintendo World (alan bileti sabah bitiyor) ve Harry Potter; 1-Day Pass ~8.900 JPY, Express Pass kalabalıkta değer, 08:30 açılış öncesi kuyruk."
+    },
+    {
+     "name": "Universal CityWalk Osaka",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 1500,
+     "tips": "Park çıkışında restoranlar; takoyaki müzesi."
+    },
+    {
+     "name": "Tempozan Ferris Wheel",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "Osaka Bay'de dönme dolap; gece ışıkları, USJ'ye 10 dakika."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kaiyukan Aquarium",
+     "category": "culture",
+     "start": "08:30",
+     "end": "17:00",
+     "cost": 2700,
+     "tips": "Balina köpekbalığı akvaryumu; USJ yerine."
+    },
+    {
+     "name": "Osaka Bay Okonomiyaki Chibo",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 1500,
+     "tips": "Okonomiyaki zinciri."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Namba sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Namba Yasaka Shrine",
+     "category": "culture",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Dev aslan başlı sahne tapınak; fotoğraf."
+    },
+    {
+     "name": "Hozenji Yokocho",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Yosunlu Fudo heykeline su dök; taş sokak."
+    },
+    {
+     "name": "Wanaka Takoyaki Sennichimae",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 600,
+     "tips": "Osaka'nın klasik takoyakisi; veda."
+    },
+    {
+     "name": "Namba Parks",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kanyon şeklinde AVM ve çatı bahçesi; Kansai Havalimanı'na Nankai 40 dakika."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ichiran Namba",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 1100,
+     "tips": "Ramen; takoyaki yerine."
+    },
+    {
+     "name": "Kuromon Ichiba Sabah Turu",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Pazarın sabah hali; hediyelik."
+    }
+   ]
+  }
+ ]
+}

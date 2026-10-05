@@ -1,0 +1,520 @@
+{
+ "lang": "tr",
+ "slug": "bodrum-yaz",
+ "altSlug": "bodrum-summer",
+ "citySlug": "bodrum",
+ "destKey": "bodrum",
+ "city": "Bodrum",
+ "region": "Muğla",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 18250,
+  "attractions": 6008,
+  "transport": 1250,
+  "misc": 900
+ },
+ "notes": [
+  "Esnaf lokantaları ve semt pazarlarında çoğunlukla nakit geçer; kart bazı küçük yerlerde çalışmayabilir, yanında bozuk para bulundur.",
+  "Yarımada içi dolmuşlar sık çalışır ama son seferler genelde 23:00 civarı biter; gece geç dönüşlerde taksi/BiTaksi uygulaması daha güvenli.",
+  "Restoran hesaplarında bazen 'servis ücreti' otomatik eklenir; eklenmemişse %5-10 bahşiş yeterli, zorunlu değil.",
+  "Temmuz'da öğle güneşi (12:00-16:00) çok sert; plan bu saatlere yüzme veya gölge molası koyuyor. Şapka ve bol su şart.",
+  "Milas'taki cami ziyaretlerinde omuz ve diz kapatan kıyafet gerekir; yanında hafif bir şal bulundurmak işini görür.",
+  "Kalabalık pazar yerlerinde ve tekne turlarında telefon/cüzdanını su geçirmez bir çantada taşı.",
+  "Küçük köy lokantalarında yüksek sesle pazarlık yapmak yerine gülümseyerek soru sormak Ege kültüründe daha iyi karşılanır."
+ ],
+ "niche": {
+  "name": "Bekiroğlu Zeytinyağı Fabrikası",
+  "level": "l3",
+  "why_hidden": "80 yıldır aynı ailenin işlettiği soğuk sıkım zeytinyağı fabrikası; bahçesinde verdiği serpme köy kahvaltısı hiçbir popüler Bodrum rehberinde geçmiyor, sadece yerel bilenlerin gittiği bir adres.",
+  "access_instructions": "Bodrum merkezden Mumcular yolu üzerinden Yalıçiftlik'e araçla yaklaşık 20-25 dakika. Kahvaltı hizmeti yalnızca önceden telefon veya WhatsApp ile haber verilirse hazırlanıyor, kapıdan gidip masa bulmak mümkün değil.",
+  "local_contact": "+90 532 179 1997",
+  "season": "Yıl boyu açık, ama yaz sabahları 09:00-11:00 arası en keyiflisi; öğleye doğru sıcak ve kalabalık artıyor.",
+  "insider_tip": "O hafta hangi zeytinin sıkıldığını sor, sıcak köy ekmeğinin üstüne taze sızmayı dene; beğenirsen yanına vakumlu şişe alıp götürebiliyorsun.",
+  "show_reason": "Zeytin kültürü, aile hikayesi ve fotojenik bahçe kahvaltısını bir araya getiriyor; ücretsiz turistik rotaların dışında kalan, gerçek bir yerel deneyim sunuyor.",
+  "lat": 37.0028,
+  "lng": 27.5871,
+  "address": "Çiftlik Mahallesi, Kuyubaşı Cad. No:35-A/1, Yalıçiftlik, Bodrum/Muğla",
+  "cost_range_min": 700,
+  "cost_range_max": 950,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Muğla Kent Kart",
+  "why_chosen": "Bodrum yarımadasındaki tüm belediye otobüsü ve dolmuş hatlarında (Gümüşlük, Yalıkavak, Türkbükü, Bitez, Ortakent, Turgutreis dahil) geçerli tek kart; bu plan yedi günün beşinde farklı beldeler arası toplu taşıma gerektiriyor. Nakit bozuk para aramaktan kurtarıyor ve taksiye göre çok daha ekonomik.",
+  "coverage": "Bodrum yarımadası geneli belediye otobüsleri ve dolmuş hatları",
+  "where_to_buy": "Bodrum Otogarı'ndaki Kent Kart basım noktası, dolum-satış otomatları (TVM) veya yetkili bayiler",
+  "cost": 100,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Bodrum'un Kalbi: Kale, Antik Tiyatro ve Yel Değirmenleri",
+   "stops": [
+    {
+     "name": "Bodrum Kalesi ve Sualtı Arkeoloji Müzesi",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 350,
+     "tips": "15. yüzyılda Aziz Petrus Şövalyeleri'nin inşa ettiği kale, dünyanın en zengin sualtı arkeoloji koleksiyonlarından birini barındırır. Sabah erken git, öğleye doğru tur otobüsleriyle çok kalabalıklaşıyor. Bilet gişeden veya Müzekart+ ile alınabiliyor."
+    },
+    {
+     "name": "Bodrum Antik Tiyatrosu",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "M.Ö. 4. yüzyıldan kalma, hâlâ yaz konserlerinde kullanılan 13.000 kişilik antik tiyatro. Giriş ücretsiz ama gölgelik yok, öğlen çok sıcak olur. En üst sıradan kale ve liman manzarası çok güzel bir fotoğraf açısı sunar."
+    },
+    {
+     "name": "Sakallı Lokantası",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 800,
+     "tips": "Bodrum'un onlarca yıldır ayakta kalan az sayıdaki esnaf lokantalarından biri; tezgâhtan seç-al usulü günün ev yemekleri sunuluyor. Nohutlu incik veya patlıcan musakka öğlen 13:00 gibi taze çıkar, geç kalırsan tükeniyor."
+    },
+    {
+     "name": "Kumbahçe Plajı",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Şehir merkezinde, bir yanda kale, bir yanda açık deniz manzaralı tamamen ücretsiz halk plajı. Kendi havlunu getir; kenardaki kafeden şezlong kiralamak istersen yaklaşık 300 TL."
+    },
+    {
+     "name": "Bodrum Yel Değirmenleri",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "18:45",
+     "cost": 0,
+     "tips": "Bodrum-Gümbet sırtındaki taş yel değirmenleri, 360 derece kale-liman-Kos manzarasıyla yarımadanın en ikonik fotoğraf noktası. Gün batımından bir saat önce git, ücretsiz ve gece kapanmıyor."
+    },
+    {
+     "name": "Körfez Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 1900,
+     "tips": "1927'den beri süren, Bodrum'un en eski meyhanelerinden; Girit göçmeni ailenin mirası. Günün balığını garsona sor, fiyatı kiloyla değişir; yaz aylarında rezervasyonsuz masa bulmak zor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Quzine",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 700,
+     "tips": "23 yıllık aile işletmesi; el açması börek ve gözleme çeşitleri öne çıkıyor. Sakallı Lokantası doluysa merkeze yürüme mesafesinde iyi bir alternatif."
+    },
+    {
+     "name": "Zeki Müren Sanat Müzesi",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 250,
+     "tips": "Sanatçının Kumbahçe'deki evinden dönüştürülmüş küçük müze; sahne kostümleri ve eşyaları sergileniyor. Pazartesi kapalı, bunun dışında her gün 09:00-17:00 açık."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Ege'nin Mavisi: Orak Adası Tekne Turu",
+   "stops": [
+    {
+     "name": "Vamos Bodrum",
+     "category": "food",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 450,
+     "tips": "Merkezde yerlilerin sevdiği taze ve sade bir kahvaltı mekanı; tekne kalkışından önce hafif bir kahvaltı için ideal. Menemen veya sade tereyağlı simit hızlı servis edilir."
+    },
+    {
+     "name": "Bodrum Orak Adası Tam Günlük Tekne Turu",
+     "category": "nature",
+     "start": "09:00",
+     "end": "16:30",
+     "cost": 2048,
+     "tips": "Türkçe rehberli, yüzme molalı ve öğle yemeği dahil tam günlük tur; Orak Adası ve çevresindeki koylarda birkaç yüzme molası veriyor. Güneş kremini su geçirmez seç, tekne güvertesinde gölgelik sınırlı.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Bodrum+Orak+Island+Boat+Trip",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Kocadon Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 2200,
+     "tips": "1987'den beri eski bir Rum evinin avlusunda mumla aydınlatılan romantik bir sofra; çiftler için Bodrum'un klasik akşam yemeği adreslerinden. Yaz aylarında rezervasyon şart, avlu masası iste."
+    },
+    {
+     "name": "Neyzen Tevfik Caddesi Sahil Yürüyüşü",
+     "category": "landmark",
+     "start": "21:30",
+     "end": "22:30",
+     "cost": 0,
+     "tips": "Marina boyunca uzanan, kale ışıklarının denize yansıdığı akşam yürüyüş güzergâhı. Yat ve gulet manzarasıyla gece fotoğrafı için ücretsiz ve her zaman açık."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Asmalı Çardak",
+     "category": "food",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 500,
+     "tips": "Yerel forumlarda sıkça önerilen sade bir kahvaltı adresi; sahanda yumurta ve köy ekmeği tercih edilir. Vamos doluysa merkeze yakın bir alternatif."
+    },
+    {
+     "name": "Bodrum Sandalet Atölyeleri (Türkkuyusu Sokağı)",
+     "category": "shopping",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "1970'lerden beri süren 'Bodrum sandaleti' zanaatını hâlâ birkaç küçük atölyede elle üretiyorlar. Turistik mağazalarla karıştırma, en az iki usta dükkânı gez ve fiyat pazarlığı yap."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Gümüşlük: Batık Şehir, Köy Pazarı ve Gün Batımı",
+   "stops": [
+    {
+     "name": "Myndos Antik Kenti (Batık Şehir)",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "M.Ö. 640'ta kurulan Myndos'un kalıntıları depremler sonucu kısmen deniz altında kaldığı için 'Batık Şehir' deniyor. Kral Yolu'ndan yürüyerek karşıdaki Tavşan Adası'na geçilebilir, ücretsiz ve açık alan."
+    },
+    {
+     "name": "Gümüşlük Köy Pazarı",
+     "category": "shopping",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "Çevre köylerin organik zeytinyağı, peynir ve bal ürünlerinin satıldığı, turistik olmayan bir semt pazarı; haftanın belirli bir günü kurulur, gitmeden önce kontrol et. Taze keçi peyniri ve kekik almadan çıkma."
+    },
+    {
+     "name": "Fenerci Restoran",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 1900,
+     "tips": "1979'dan beri Gümüşlük'te yerliler tarafından işletilen balık restoranı. Girit usulü ahtapot ızgara meşhur; sahilde ayaklarını suya sarkıtarak yemek yiyebiliyorsun."
+    },
+    {
+     "name": "Gümüşlük Sahili",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Gümüşlük koyu sığ ve dümdüz, motorlu tekne yasağı olduğu için çok sakin bir yüzme deneyimi sunuyor. Sahildeki restoranların önündeki şezlonglar genelde bir içecek siparişiyle ücretsiz kullanılıyor."
+    },
+    {
+     "name": "Taş Sokak Gün Batımı Noktası",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Gümüşlük'ün ismi 'gün batımında denizin aldığı gümüş renk'ten geliyor; suyun içinden geçen taş yol üzerinde oturup Tavşan Adası'nın arkasında batan güneşi izlemek klasik bir ritüel. Erken git, yer kapmak gerekiyor."
+    },
+    {
+     "name": "Limon Gümüşlük",
+     "category": "food",
+     "start": "20:30",
+     "end": "22:00",
+     "cost": 1700,
+     "tips": "Gümüşlük'ün en bilinen kafe-restoranlarından, sahile sıfır konumda. Akşam meze tabağı ve taze balık kombinasyonu tercih edilir, gün batımı sonrası masalar hızla doluyor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Little Burger Shop by the Sea",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 900,
+     "tips": "Sahilde küçük ama karakterli, yerel müdavimlerin sessiz favorisi; gösterişsiz burger ve soğuk içecekle hızlı bir mola. Fenerci doluysa iyi bir alternatif."
+    },
+    {
+     "name": "Karakaya Köyü Seyir Noktası",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Gümüşlük'ün tepesindeki bu köyden gün batımı farklı bir açıdan, kuşbakışı izlenir. Taş Sokak kalabalıksa buraya çıkmak sakin bir alternatif sunuyor."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Kuzey Sahili: Yalıkavak Marina, Gündoğan Koyu ve Türkbükü Gün Batımı",
+   "stops": [
+    {
+     "name": "Yalıkavak Marina",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Ege'nin en büyük lüks marinalarından biri; süper yatları izlemek ve butik dükkânları gezmek için sabah erken saatler daha sakin. Marina boyunca yürüyüş ücretsiz."
+    },
+    {
+     "name": "Kavaklı Köftecisi",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 700,
+     "tips": "1991'den beri Yalıkavak çarşısında hizmet veren, yöre halkının gittiği bir esnaf köftecisi. Piyaz ve közlenmiş biber eşliğinde ızgara köfte klasik tercih."
+    },
+    {
+     "name": "Gündoğan Sahili",
+     "category": "nature",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Yalıkavak ile Gölköy arasında, mandalina bahçeleriyle çevrili sakin ve aile dostu bir koy. Türkbükü'ye göre çok daha az kalabalık, halk plajı bölümü ücretsiz."
+    },
+    {
+     "name": "Türkbükü (Haremtan Koyu) Gün Batımı",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:45",
+     "cost": 0,
+     "tips": "'Bodrum'un Saint-Tropez'i' olarak bilinen Türkbükü'nün denize uzanan ahşap iskeleleri gün batımında en fotojenik haline bürünüyor. İskele önündeki kafelerden birinde bir içecek alıp izleyebilirsin."
+    },
+    {
+     "name": "Dalgıç Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 2200,
+     "tips": "Türkbükü sahilinde samimi atmosferli, deniz ürünleri ağırlıklı bir restoran. Karides güveç ve günün balığı öne çıkan tercihler, gün batımı sonrası masalar hızla doluyor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eda Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 1600,
+     "tips": "Türkbükü'nün diğer mekânlarına göre daha uygun fiyatlı bir seçenek; Akdeniz mutfağı ve deniz ürünleri sunuyor. Dalgıç doluysa iyi bir alternatif."
+    },
+    {
+     "name": "Yalıkavak TARKO Üretici Pazarı",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 200,
+     "tips": "Küçük üreticilerin kendi ürettiği sebze, reçel ve zeytinyağını sattığı bir üretici pazarı; haftanın belirli bir günü kurulur. Marina kalabalıksa buraya gitmek daha yerel bir sabah sunar."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Güney Yakası: Köy Kahvaltısı, Bardakçı Koyu ve Bitez Sahili",
+   "stops": [
+    {
+     "name": "Bekiroğlu Zeytinyağı Fabrikası",
+     "category": "food",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 850,
+     "tips": "80 yıllık aile işletmesinin bahçesinde serpme köy kahvaltısı; zeytinyağlı sarma ve taze sıkım zeytinyağları tezgâhtan gelir. Yalnızca önceden telefonla haber verilirse hazırlanıyor, habersiz gelen müşteri kabul edilmiyor."
+    },
+    {
+     "name": "Bardakçı Koyu",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Bodrum merkeze çok yakın ama şaşırtıcı derecede sakin, dalgasız ve sığ bir koy; yüzme bilmeyenler için de rahat. Sahil boyunca gürültülü mekan yok, huzurlu bir mola noktası."
+    },
+    {
+     "name": "Kısmet Lokantası",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 800,
+     "tips": "Konacık'ta yerlilerin öğle yemeği için birinci tercihi olan esnaf lokantası. Zeytinyağlılar özellikle övülüyor, tatlı kısmını atlamamak lazım."
+    },
+    {
+     "name": "Yağhane Bodrum",
+     "category": "shopping",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 400,
+     "tips": "Ortakent'te zeytinyağı, organik bal, el yapımı sabun ve seramik satan butik bir dükkan-kafe. Zeytinyağı tadımı için görevliye sorman yeterli, sipariş WhatsApp'tan da alınıyor."
+    },
+    {
+     "name": "Pedasa Antik Kenti",
+     "category": "culture",
+     "start": "17:30",
+     "end": "18:45",
+     "cost": 0,
+     "tips": "Konacık'ın tepesinde, Leleglerin en büyük yerleşimi olan bu ören yeri gün batımında yarımadanın kartpostal manzarasını sunuyor. Ücretsiz ve yıl boyu açık, çam ormanı içinden kısa bir yürüyüş yolu var."
+    },
+    {
+     "name": "Atılay Balık",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 2100,
+     "tips": "Bitez sahilinde yerel balıkçıların tuttuğu günlük balıkla çalışan bir restoran. Tescilli yemeği Levrek Lokum'u mutlaka dene, kılçıksız hazırlanıyor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bitez Dondurmacısı",
+     "category": "food",
+     "start": "16:00",
+     "end": "16:30",
+     "cost": 200,
+     "tips": "Organik meyve ve halis sütle yapılan dondurmalarıyla tüm yarımadada ünlü. Yağhane'ye ek olarak veya alternatif bir mola için uğranabilir."
+    },
+    {
+     "name": "Ortakent-Yahşi Sahili",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Bardakçı'ya göre daha uzun ve geniş bir kumsal, aile dostu ve sakin. Bardakçı kalabalıksa bu koy iyi bir alternatif sunuyor."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Günübirlik: Pamukkale Travertenleri ve Hierapolis",
+   "stops": [
+    {
+     "name": "Pamukkale Travertenleri",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 3510,
+     "tips": "Bodrum'dan yaklaşık 3,5 saatlik yol sonrası ulaşılan, UNESCO listesindeki bembeyaz kireç taraçalar; çıplak ayakla yürünüyor. Tur fiyatına ulaşım, rehberlik ve öğle yemeği dahil, erken kalkış gerekiyor.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Pamukkale+Hierapolis+Day+Trip+from+Bodrum",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Hierapolis Antik Kenti",
+     "category": "culture",
+     "start": "12:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Travertenlerin hemen üstünde kurulmuş antik Roma kenti; tiyatro ve nekropolü görülmeye değer. Kleopatra Antik Havuzu'na girmek istersen ekstra ücret var, tur fiyatına dahil değil."
+    },
+    {
+     "name": "Karahayıt Kırmızı Su",
+     "category": "nature",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Pamukkale'ye birkaç kilometre uzaklıkta, demir zengini kırmızı termal su kaynağı; Pamukkale'nin beyazına tam kontrast. Çoğu tur programında dönüş yolunda kısa bir mola olarak duruyor."
+    },
+    {
+     "name": "Zaguda",
+     "category": "food",
+     "start": "20:30",
+     "end": "22:00",
+     "cost": 1900,
+     "tips": "Uzun dönüş yolculuğu sonrası Bodrum merkezde hafif ama doyurucu bir akşam yemeği için yerel bir öneri. Meze tabağı paylaşarak başlamak iyi bir seçenek."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ece Yengari Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "Karahayıt bölgesinde yerel bir seçenek; tur öğle yemeği farklı bir yerde planlanırsa alternatif olarak kullanılabilir."
+    },
+    {
+     "name": "Laodikya Antik Kenti",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Hierapolis'e yakın, daha az kalabalık bir başka antik kent; bazı tur programlarına dahil ediliyor. Hierapolis çok kalabalıksa iyi bir alternatif."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Günübirlik: Milas'ın Tarihi ve Pazarı",
+   "stops": [
+    {
+     "name": "Beçin Kalesi",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 100,
+     "tips": "Milas Ovası'na hâkim bir kayalık üzerinde, Menteşe Beyliği döneminden kalma kale ve külliye. Bodrum'dan yaklaşık 1 saatlik yol, dolmuşla veya araçla gidilebiliyor."
+    },
+    {
+     "name": "Baltalı Kapı",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Antik Mylasa'nın 2. yüzyıldan kalma kuzey giriş kapısı, şehir merkezinde yürüyerek görülebiliyor. Girişi ücretsiz, üzerindeki çift ağızlı balta figüründen adını alıyor."
+    },
+    {
+     "name": "Milas Pazarı",
+     "category": "shopping",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 200,
+     "tips": "Yerel üreticilerin taze peynir, zeytin ve halı sattığı canlı bir pazar; haftanın belirli bir günü kurulur, gitmeden önce kontrol et. Milas peyniri almadan dönme."
+    },
+    {
+     "name": "Kardelen Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "Milas'ın ot yemekleri ve mezeleriyle ünlü lokantası; kabak çiçeği dolması ve zeytinyağlı enginar öne çıkıyor. Öğleden sonra 15:00 civarı Bodrum'a dönüş yoluna çıkmak için iyi bir zamanlama."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Adalılar Kebap Salonu",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 650,
+     "tips": "Milas'ın en meşhur lokantalarından biri; Milas köftesi ve kebap çeşitleri öne çıkıyor. Kardelen doluysa iyi bir alternatif."
+    },
+    {
+     "name": "Milas Müzesi",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 100,
+     "tips": "1987'den beri açık, Stratonikeia, İasos ve Beçin kazılarından çıkan eserleri sergiliyor. Baltalı Kapı'ya yürüme mesafesinde, hava çok sıcaksa iyi bir iç mekan alternatifi."
+    }
+   ]
+  }
+ ]
+}

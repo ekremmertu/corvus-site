@@ -1,0 +1,493 @@
+{
+ "lang": "tr",
+ "slug": "nice-ekim-mayis",
+ "altSlug": "nice-october-may",
+ "citySlug": "nice",
+ "destKey": "nice",
+ "city": "Nice",
+ "region": null,
+ "country": "Fransa",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 380,
+  "attractions": 150,
+  "transport": 60,
+  "misc": 70
+ },
+ "notes": [
+  "Lignes d'Azur bileti 1,50 EUR (otobüs + tramvay), günlük 5; TER treni kıyı boyunca gider (Monaco 20 dk, Cannes 30 dk). Tramvay 2 havalimanına gider.",
+  "Kışın hava güneşli, 12-15°C (Avrupa'nın kışlığı). Şubat'ta Nice Karnavalı ve Menton Limon Festivali var. Nisan-Mayıs ve Ekim ideal, deniz Ekim'e kadar uygun.",
+  "Socca 4 EUR, pan bagnat 6, salade niçoise 15, restoran 25-40, müzeler 10 (Nice müze kartı 15 EUR/3 gün); bahşiş için hesabı yuvarla.",
+  "Monaco kumarhanesi 14:00 öncesi turistlere açık, akşam kıyafet kuralı var; Èze'ye sabah git; Colombe d'Or için rezervasyon yap, La Merenda'da telefon yok.",
+  "Tramvay 1 ve Cours Saleya'da yankesicilere dikkat; plajlarda eşyanı bırakma.",
+  "Rosé de Provence, pastis, tarte tropézienne; Nice mutfağı İtalyan-Provence karışımı."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Vieux Nice & Colline du Château",
+   "stops": [
+    {
+     "name": "Cours Saleya Market",
+     "category": "food",
+     "start": "08:30",
+     "end": "09:45",
+     "cost": 8,
+     "tips": "Çiçek ve gıda pazarı (pazartesi antika); Chez Thérésa socca (nohut krepi) standı, pan bagnat."
+    },
+    {
+     "name": "Vieux Nice Sokakları",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Ocra renkli İtalyan sokakları; Sainte-Réparate katedrali, Fenocchio dondurma (100 tat)."
+    },
+    {
+     "name": "Colline du Château",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Kale tepesi; şelale ve Baie des Anges panoraması, ücretsiz asansör (Bellanda kulesi)."
+    },
+    {
+     "name": "Chez Pipo",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "1923'ten beri odun ateşinde socca; Port Lympia yanında, kuyruk var."
+    },
+    {
+     "name": "Promenade des Anglais",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Kış promenad yürüyüşü ve mavi sandalye; güneşli 15°C."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Fenocchio Glacier",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 5,
+     "tips": "Lavanta, zeytin, bira dondurması; Rossetti meydanı."
+    },
+    {
+     "name": "Palais Lascaris",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 5,
+     "tips": "Barok saray ve müzik aletleri; Vieux Nice."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Cimiez: Chagall & Matisse",
+   "stops": [
+    {
+     "name": "Musée National Marc Chagall",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 10,
+     "tips": "İncil Mesajı 17 tablo ve vitray; Cimiez, otobüs 15, salı kapalı."
+    },
+    {
+     "name": "Musée Matisse",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 10,
+     "tips": "Kırmızı Cenova villası; Matisse'in kesikleri, zeytinlik park (Roma arenası)."
+    },
+    {
+     "name": "Café Matisse Cimiez",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Müze parkı kafesi; salade niçoise."
+    },
+    {
+     "name": "Place Masséna",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Kırmızı meydan ve 7 kıta heykelleri (gece ışıklı); tramvay."
+    },
+    {
+     "name": "Promenade du Paillon",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Su aynası parkı; Masséna'dan MAMAC'a."
+    }
+   ],
+   "backups": [
+    {
+     "name": "MAMAC",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "Modern sanat (Klein, Niki de Saint Phalle); çatı terası ücretsiz."
+    },
+    {
+     "name": "Lou Pilha Leva Vieux Nice",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 10,
+     "tips": "Ayakta socca, pissaladière ve beignet."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Monaco & Èze",
+   "stops": [
+    {
+     "name": "Èze Village",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Otobüs 82/112 (1,50 EUR) veya tren Èze-sur-Mer'e; Nietzsche yolunda 1 saat tırmanış. Ortaçağdan kalma kartal yuvası köy, Fragonard parfüm fabrikası."
+    },
+    {
+     "name": "Monaco Monte-Carlo Casino",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 19,
+     "tips": "Belle Époque kumarhane (giriş 19 EUR, 14:00 öncesi ziyaret); Café de Paris, Ferrari'ler."
+    },
+    {
+     "name": "Monaco-Ville Kaya & Prens Sarayı",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "Eski şehir kayası; 11:55 nöbet değişimi, Katedral (Grace Kelly mezarı)."
+    },
+    {
+     "name": "Marché de la Condamine",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 15,
+     "tips": "Monaco'nun pazar yemek salonu; barbagiuan ve socca, ucuz Monaco."
+    },
+    {
+     "name": "Musée Océanographique",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:15",
+     "cost": 19,
+     "tips": "Cousteau'nun akvaryumu uçurumda; çatı manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jardin Exotique de Monaco",
+     "category": "nature",
+     "start": "15:45",
+     "end": "17:15",
+     "cost": 8,
+     "tips": "Monaco'nun kaktüs bahçesi ve mağara; akvaryum yerine."
+    },
+    {
+     "name": "Le Nid d'Aigle Èze",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 25,
+     "tips": "Köyün tepesinde teras restoran."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Villefranche & Cap Ferrat",
+   "stops": [
+    {
+     "name": "Villefranche-sur-Mer",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Tren 7 dakika; renkli liman, Cocteau'nun Saint-Pierre şapeli, Rue Obscure tüneli."
+    },
+    {
+     "name": "Plage des Marinières",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Koy boyunca kış yürüyüşü."
+    },
+    {
+     "name": "Villa Ephrussi de Rothschild",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 17,
+     "tips": "Pembe villa ve 9 tema bahçe; müzikli fıskiyeler 20 dakikada bir, çay salonu."
+    },
+    {
+     "name": "Sentier du Littoral Cap Ferrat",
+     "category": "nature",
+     "start": "14:45",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Yarımada kıyı patikası; Saint-Jean limanı, Paloma plajı."
+    },
+    {
+     "name": "Saint-Jean-Cap-Ferrat Limanı",
+     "category": "food",
+     "start": "16:15",
+     "end": "17:15",
+     "cost": 15,
+     "tips": "Liman kafesi; Rothschild villaları arasında milyarder köyü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "La Mère Germaine Villefranche",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 50,
+     "tips": "1938 liman restoranı; bouillabaisse."
+    },
+    {
+     "name": "Beaulieu Villa Kérylos",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 13,
+     "tips": "Deniz kıyısında Yunan villası kopyası; Ephrussi yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Antibes & Cannes",
+   "stops": [
+    {
+     "name": "Antibes Marché Provençal",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 10,
+     "tips": "Tren 25 dakika; kapalı Provence pazarı, zeytin ve tapenade."
+    },
+    {
+     "name": "Musée Picasso Antibes",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 8,
+     "tips": "Grimaldi şatosunda Picasso'nun 1946 atölyesi; deniz terası heykeller."
+    },
+    {
+     "name": "Cannes La Croisette",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Tren 10 dakika; Palais des Festivals el izleri, palmiyeler."
+    },
+    {
+     "name": "Le Suquet Cannes",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 25,
+     "tips": "Eski şehir tepesi; Marché Forville ve liman manzaralı öğle."
+    },
+    {
+     "name": "Île Sainte-Marguerite",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 16,
+     "tips": "Kışın ada sakin; orman yürüyüşü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Plage de la Gravette Antibes",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Surların altında koy; yüzme."
+    },
+    {
+     "name": "Astoux et Brun Cannes",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 35,
+     "tips": "1953 deniz ürünleri; istiridye."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Saint-Paul-de-Vence & Fondation Maeght",
+   "stops": [
+    {
+     "name": "Saint-Paul-de-Vence",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Tren Cagnes + otobüs 655; surlu sanatçı köyü, Chagall'ın mezarı, galeriler, Café de la Place'ta petank."
+    },
+    {
+     "name": "Fondation Maeght",
+     "category": "culture",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 16,
+     "tips": "Miró labirenti, Giacometti avlusu, Chagall mozaiği; Avrupa'nın en güzel modern sanat vakfı."
+    },
+    {
+     "name": "La Colombe d'Or",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:45",
+     "cost": 60,
+     "tips": "Picasso ve Matisse'in yemek karşılığı resim bıraktığı han; teras (rezervasyon) veya menü dışı kafe."
+    },
+    {
+     "name": "Vence Chapelle du Rosaire",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:00",
+     "cost": 7,
+     "tips": "Matisse'in 'şaheserim' dediği şapel; öğleden sonra açık olduğu saatleri kontrol et."
+    },
+    {
+     "name": "Vence Eski Şehir",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "Ortaçağ kasabası; Chagall mozaiği katedralde, dönüş otobüsü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Le Tilleul Saint-Paul",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:45",
+     "cost": 30,
+     "tips": "Ihlamur altı teras; Colombe yerine uygun."
+    },
+    {
+     "name": "Renoir Museum Cagnes",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:45",
+     "cost": 6,
+     "tips": "Renoir'ın zeytinlikli son evi; Vence yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sahil sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Plage Beau Rivage Sabah Yüzme",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Kış promenad koşusu."
+    },
+    {
+     "name": "Marché de la Libération",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:15",
+     "cost": 8,
+     "tips": "Yerlilerin pazarı (Gare du Sud); pissaladière ve peynir."
+    },
+    {
+     "name": "Confiserie Florian",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Kristalize çiçek ve meyve şekerleri; liman, hediyelik."
+    },
+    {
+     "name": "La Merenda",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 30,
+     "tips": "Telefonsuz, kartsız 12 masalık Niçoise efsanesi; daube ve stockfish, veda."
+    },
+    {
+     "name": "Tram 2 Havalimanı",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 2,
+     "tips": "Tramvay 2 ile havalimanına 25 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Le Safari Cours Saleya",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 30,
+     "tips": "Pazar terasında Niçoise klasikleri."
+    },
+    {
+     "name": "Musée Masséna",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 10,
+     "tips": "Belle Époque villa ve Nice tarihi; Promenade."
+    }
+   ]
+  }
+ ]
+}

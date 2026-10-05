@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "rhodes-october-may",
+ "altSlug": "rodos-ekim-mayis",
+ "citySlug": "rodos",
+ "destKey": "rhodes",
+ "city": "Rhodes",
+ "region": null,
+ "country": "Greece",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 330,
+  "attractions": 90,
+  "transport": 220,
+  "misc": 70
+ },
+ "notes": [
+  "A hire car is essential (Lindos, Prasonisi, the west). KTEL buses run regularly along the east coast (Lindos takes 1.5 hours). The airport bus costs 3 EUR.",
+  "From November to March it is 12-18°C, most beach facilities and Lindos tavernas are closed, and the Old Town and villages are quiet. April-May and October are ideal (sea at 22°C).",
+  "The palace costs 12 EUR (April-October), the Lindos acropolis 12 and the Symi ferry 30. A taverna meal runs 20-30. For tips, round up the bill.",
+  "The ferry from Marmaris takes 1 hour (Schengen visa needed for Turkish citizens). There is also a summer ferry from Fethiye.",
+  "Try pitaroudia, melekouni (sesame and honey bar), souma (grape spirit) and Symi shrimp, plus Embona wines.",
+  "Pickpockets are rare in the Old Town. Motor vehicles cannot enter, so you will need to walk with your luggage."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Medieval Rhodes Old Town",
+   "stops": [
+    {
+     "name": "Palace of the Grand Master",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 12,
+     "tips": "The knights' 14th-century palace (restored by Mussolini), with mosaics from Kos. Part of the UNESCO-listed Old Town."
+    },
+    {
+     "name": "Street of the Knights",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Ippoton Street, lined with the inns of the seven languages (France, Spain and others) and stone arches."
+    },
+    {
+     "name": "Sokratous Street & Suleymaniye Mosque",
+     "category": "shopping",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The Ottoman bazaar street from the Turkish period (1522-1912), with the mosque and a Turkish library."
+    },
+    {
+     "name": "Mandraki Harbour Deer",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The deer columns stand where the Colossus of Rhodes is said to have been. Take in the windmills and the Fort of St Nicholas."
+    },
+    {
+     "name": "Nireas Rhodes Old Town",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 25,
+     "tips": "A taverna under a vine canopy, serving octopus. It sits near the Jewish Quarter (Evreon Martyron)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Marco Polo Café",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 30,
+     "tips": "A garden in an Ottoman mansion, also open in the evening."
+    },
+    {
+     "name": "Old Town Walls",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 2,
+     "tips": "Guided walks along the top of the walls run on set days. Walking the moat is free."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Lindos",
+   "stops": [
+    {
+     "name": "Lindos Acropolis",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 12,
+     "tips": "Take the bus (1.5 hours, leave at 08:00) or drive. See the Temple of Athena Lindia and views over St Paul's Bay. Go when it opens at 08:00, as midday reaches 40°C, and walk rather than ride a donkey."
+    },
+    {
+     "name": "Lindos Village",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "White captains' houses with pebble-mosaic courtyards, narrow lanes and the Church of Panagia."
+    },
+    {
+     "name": "St Paul's Bay",
+     "category": "nature",
+     "start": "11:15",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The bay is calm in winter, though swimming takes some courage."
+    },
+    {
+     "name": "Mavrikos Lindos",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "A square-side taverna since 1933, serving seafood and listed in the Michelin guide."
+    },
+    {
+     "name": "Lindos Main Beach",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A winter beach walk with the acropolis lit up above."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Captain's House Lindos",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "A bar in a captain's house in Lindos."
+    },
+    {
+     "name": "Pefkos Beach",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A quiet beach south of Lindos."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "East coast beaches",
+   "stops": [
+    {
+     "name": "Kallithea Springs",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 5,
+     "tips": "A 1929 Italian Art Deco spa with mosaic courtyards. Swim and snorkel in the cove."
+    },
+    {
+     "name": "Anthony Quinn Bay",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The cove from the Greek film Zorba. Turquoise water, pebbles and rock, empty in the morning, with sunbeds."
+    },
+    {
+     "name": "Faliraki Beach",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "A long sandy beach with beach tavernas, good for lunch."
+    },
+    {
+     "name": "Tsambika Beach",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Golden sand and shallow water. The monastery on the hill is up 300 steps and comes with a fertility legend."
+    },
+    {
+     "name": "Tsambika Monastery Sunset",
+     "category": "landmark",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A hilltop monastery with a panorama of the coast."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ladiko Beach",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Anthony Quinn's neighbouring cove, and quieter."
+    },
+    {
+     "name": "Stegna Beach Taverna",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "A fishing-village taverna in Archangelos."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Symi island",
+   "stops": [
+    {
+     "name": "Symi Ferry Mandraki",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 30,
+     "tips": "The Dodecanese high-speed ferry takes 1 hour (return about 30 EUR) and arrives at Yialos harbour."
+    },
+    {
+     "name": "Yialos Harbour Symi",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Pastel neoclassical houses rise like an amphitheatre around what is often called Greece's most beautiful harbour."
+    },
+    {
+     "name": "Kali Strata Stairs & Chorio",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "500 steps up to the old town, with a castle and views. It is cooler in the morning."
+    },
+    {
+     "name": "Symi Shrimp at Manos Fish",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Small fried Symi shrimp, eaten shell and all, by the harbour."
+    },
+    {
+     "name": "Panormitis Monastery",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The monastery of the Archangel Michael, where the ferry calls. It is the holiest in the Dodecanese. Return between 16:00 and 17:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nos Beach Symi",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A small beach beside the harbour, an alternative to the monastery (depending on the ferry route)."
+    },
+    {
+     "name": "Tholos Symi",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 35,
+     "tips": "A seafront taverna at the end of the harbour."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "West: Butterflies and Kamiros",
+   "stops": [
+    {
+     "name": "Valley of the Butterflies Petaloudes",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 5,
+     "tips": "There are no butterflies in winter, but you get a green stream walk and waterfalls."
+    },
+    {
+     "name": "Ancient Kamiros",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 6,
+     "tips": "The Hellenistic \"Pompeii of Rhodes\", with a sea-view agora and a cistern."
+    },
+    {
+     "name": "Kritinia Castle",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The ruins of a knights' castle, with free views over the Aegean."
+    },
+    {
+     "name": "Kritinia Village Taverna",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "On the village square: goat and pitaroudia (chickpea fritters)."
+    },
+    {
+     "name": "Embona Wine Village",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 10,
+     "tips": "Wine tasting at the foot of Mount Attavyros (Emery, Alexandris) in a mountain village."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Monastery of Filerimos",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 6,
+     "tips": "On Ialysos hill, with a Calvary path, a giant cross and peacocks. An alternative to Kamiros."
+    },
+    {
+     "name": "Emery Winery Embona",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 8,
+     "tips": "Vineyard and tasting room."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "South: Prasonisi",
+   "stops": [
+    {
+     "name": "Prasonisi",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "It becomes an island in winter when the water rises. Expect windswept views."
+    },
+    {
+     "name": "Prasonisi Taverna Lighthouse",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "The only cluster of tavernas on the sand spit, serving fish."
+    },
+    {
+     "name": "Kiotari Beach",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A long, quiet beach on the way back."
+    },
+    {
+     "name": "Asklipio Castle & Village",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Byzantine church frescoes and a castle in an inland village."
+    },
+    {
+     "name": "Gennadi Beach Sunset",
+     "category": "nature",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "An empty pebble beach. The drive back takes 1.5 hours."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kiotari Taverna Paraga",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 22,
+     "tips": "On the beach, an alternative to Prasonisi."
+    },
+    {
+     "name": "Monolithos Castle",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A castle on a rock on the west coast with sunset views. An alternative route."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Elli Beach: a gentle farewell",
+   "stops": [
+    {
+     "name": "Elli Beach Morning",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "The city beach, with a diving platform and the Turkish coast in view."
+    },
+    {
+     "name": "Rhodes Aquarium",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 6,
+     "tips": "An Italian aquarium from the 1930s, out on the headland."
+    },
+    {
+     "name": "Nea Agora Mandraki Breakfast",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 10,
+     "tips": "The round courtyard of the New Market, for coffee and loukoumades (honey doughnuts)."
+    },
+    {
+     "name": "Rhodes Airport Bus",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 3,
+     "tips": "The bus to Diagoras Airport takes 30 minutes. Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Koskinou Village",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A village of colourful doors, an alternative to the aquarium."
+    },
+    {
+     "name": "Ronda Beach Bar Elli",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 12,
+     "tips": "Breakfast on the beach."
+    }
+   ]
+  }
+ ]
+}

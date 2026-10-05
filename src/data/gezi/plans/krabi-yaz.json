@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "krabi-yaz",
+ "altSlug": "krabi-summer",
+ "citySlug": "krabi",
+ "destKey": "krabi",
+ "city": "Krabi",
+ "region": null,
+ "country": "Tayland",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "THB",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 6000,
+  "attractions": 10000,
+  "transport": 2500,
+  "misc": 1500
+ },
+ "notes": [
+  "Ao Nang'da kal (Railay pahalı, Krabi Town sakin); longtail Railay 100 THB, Grab/scooter; havalimanı minibüs 150.",
+  "Mayıs-Ekim YAĞMUR mevsimi: öğleden sonra sağanak, deniz dalgalı, bazı ada turları iptal, Maya Bay Ağustos-Eylül KAPALI; ucuz ve yeşil, sabah turları.",
+  "TDAC dijital varış kartı; nakit THB; ada turları 1.000-2.500 + park 400; taverna 200-400; bahşiş yuvarlama.",
+  "Tiger Cave 07:00 (sıcak + maymun), Maya Bay 08:00 seansı, dört ada gün ortası kalabalık; resif dostu güneş kremi, su ayakkabısı.",
+  "Sabah longtail'de ıslanırsın (kuru çanta); Railay'de ATM az.",
+  "Güney Tay: massaman, gaeng som (ekşi köri), roti, kokoslu deniz ürünleri; Müslüman köyleri helal."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Railay & Phra Nang",
+   "stops": [
+    {
+     "name": "Railay West Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Ao Nang'dan 15 dakika longtail (100 THB); kireçtaşı kulelerin arasında plaj, sabah sakin, kaya tırmanışı merkezi."
+    },
+    {
+     "name": "Phra Nang Cave Beach",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Dünyanın en güzel plajlarından; prenses mağarası (fallus adakları), şnorkel, longtail yemek tekneleri."
+    },
+    {
+     "name": "Railay Viewpoint & Lagoon",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Kırmızı toprak ip tırmanışı (kısa ama dik); manzara, lagüne iniş cesaret ister."
+    },
+    {
+     "name": "Mangrove Restaurant Railay East",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 250,
+     "tips": "Mangrov kenarı Tay yemekleri; yeşil köri."
+    },
+    {
+     "name": "Ao Nang Gün Batımı Wang Sai",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 300,
+     "tips": "Ao Nang'ın ucunda deniz ürünleri; gün batımı, dönüş 17:30 longtail."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tonsai Beach",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Hippi tırmanış plajı; alçak gelgitte yürüyerek, manzara yerine."
+    },
+    {
+     "name": "Krua Thara Seafood Klong Muang",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 350,
+     "tips": "Yerlilerin deniz ürünleri devi; Klong Muang."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Dört Ada turu",
+   "stops": [
+    {
+     "name": "Four Islands Tour Ao Nang",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 1000,
+     "tips": "Longtail (1.000) veya sürat teknesi (1.500); ulusal park ücreti 400 ayrıca."
+    },
+    {
+     "name": "Koh Poda",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Beyaz kum ve kule kaya; şnorkel, Ao Nang'ın kartpostalı."
+    },
+    {
+     "name": "Chicken Island Koh Gai",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Tavuk başlı kaya; balıklı şnorkel."
+    },
+    {
+     "name": "Koh Tup Kum Dili Öğle",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Alçak gelgitte 3 adayı birleştiren kum dili (Talay Waek); pilav öğle dahil."
+    },
+    {
+     "name": "Phra Nang Mola & Dönüş",
+     "category": "nature",
+     "start": "13:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Son durak Phra Nang; 16:00 Ao Nang."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hong Island Tour",
+     "category": "nature",
+     "start": "08:30",
+     "end": "15:30",
+     "cost": 1500,
+     "tips": "Hong adası lagünü ve 360° seyir; dört ada yerine (ertesi gün değilse)."
+    },
+    {
+     "name": "Ao Nang Night Market",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 150,
+     "tips": "Cuma-pazar gece pazarı; pad thai ve mango sticky rice."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Hong Adaları",
+   "stops": [
+    {
+     "name": "Hong Island Speedboat",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 1500,
+     "tips": "Ao Nang'dan 30 dakika; Than Bok Khorani Milli Parkı."
+    },
+    {
+     "name": "Hong Lagoon",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Kulelerle çevrili gizli lagün; kano."
+    },
+    {
+     "name": "Koh Hong Ana Plaj",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Beyaz kum, mercan; 360° seyir platformu (419 basamak, 2019'da yapıldı)."
+    },
+    {
+     "name": "Koh Hong Öğle Piknik",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Tura dahil; plaj."
+    },
+    {
+     "name": "Koh Lao Lading & Pakbia",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Paradise Island küçük koy; şnorkel, dönüş 16:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Krabi Town Chao Fah Gece Pazarı",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 150,
+     "tips": "Nehir kenarı akşam yemek standları; Krabi Town."
+    },
+    {
+     "name": "Tup Kaek Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Tur yoksa: Ao Nang kuzeyi sakin plaj; gün batımı."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Kaplan Mağarası & Zümrüt Havuz",
+   "stops": [
+    {
+     "name": "Tiger Cave Temple Wat Tham Suea",
+     "category": "culture",
+     "start": "07:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "1.260 basamak (dik!); zirvede Buda ve 360° panorama; 07:00'de serin, maymunlar, su."
+    },
+    {
+     "name": "Krabi Town Kahvaltı Ruen Mai",
+     "category": "food",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 150,
+     "tips": "Bahçe restoranı; Tay ve güney yemekleri."
+    },
+    {
+     "name": "Emerald Pool Sa Morakot",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 200,
+     "tips": "Orman içinde zümrüt yeşili doğal havuz (1 km ahşap yol); Khao Phra Bang Khram, 1 saat araç."
+    },
+    {
+     "name": "Blue Pool",
+     "category": "nature",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Yüzmenin yasak olduğu mavi kaynak; Zümrüt'ün 800 m ötesi."
+    },
+    {
+     "name": "Klong Thom Hot Springs",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 200,
+     "tips": "Orman deresinde 40°C kaplıca havuzları; şelale."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Khao Khanab Nam Mağaraları",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "Krabi Town longtail; iki kaya arası mağara ve mangrov, havuz yerine."
+    },
+    {
+     "name": "Ko Klang Köyü Öğle",
+     "category": "food",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 120,
+     "tips": "Müslüman balıkçı köyü ev yemeği; tekne."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Phi Phi Adaları",
+   "stops": [
+    {
+     "name": "Phi Phi Speedboat Ao Nang",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 2500,
+     "tips": "45 dakika sürat teknesi (tur ~2.500 THB); ulusal park 400."
+    },
+    {
+     "name": "Maya Bay",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Ağustos-Eylül'de koy kapalı (mercan dinlenme); Pileh lagünü yerine."
+    },
+    {
+     "name": "Pileh Lagoon & Viking Cave",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Zümrüt lagün yüzme; kırlangıç yuvası mağarası dıştan."
+    },
+    {
+     "name": "Phi Phi Don Tonsai Öğle",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Tura dahil büfe; ada köyü."
+    },
+    {
+     "name": "Bamboo Island",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Beyaz kum ve şnorkel; dönüş 16:30."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Phi Phi Viewpoint",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "İki koyu gören klasik manzara; 20 dakika tırmanış, Bamboo yerine."
+    },
+    {
+     "name": "Ao Nang Krua Thara Akşam",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 350,
+     "tips": "Deniz ürünleri; dönüş sonrası."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Klong Muang & Tay masajı",
+   "stops": [
+    {
+     "name": "Klong Muang Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Ao Nang'ın sakin komşusu; resort plajı, yüzme."
+    },
+    {
+     "name": "Tub Kaek Beach",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Hong adaları manzaralı boş plaj; Dragon Crest (Khao Ngon Nak) yürüyüş başlangıcı."
+    },
+    {
+     "name": "Lae Lay Grill",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 400,
+     "tips": "Tepede deniz manzaralı Tay restoranı; ünlü, Ao Nang."
+    },
+    {
+     "name": "Thai Cooking Class Ya's Krabi",
+     "category": "food",
+     "start": "15:00",
+     "end": "18:00",
+     "cost": 1500,
+     "tips": "Yarım gün yemek kursu; pazar alışverişi ve 5 yemek."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Khao Ngon Nak Dragon Crest",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "3,7 km orman tırmanışı; uçurum kaya manzara, plaj yerine."
+    },
+    {
+     "name": "Jenna's Bistro Ao Nang",
+     "category": "food",
+     "start": "15:00",
+     "end": "18:00",
+     "cost": 300,
+     "tips": "Tay ve batı mutfağı; kurs yerine akşam."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Ao Nang sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Ao Nang Beach Sabah Yürüyüşü",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Sabah longtail'ler; Monkey Trail (maymun yolu) Pai Plong plajına."
+    },
+    {
+     "name": "Pai Plong Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Centara koyu; şnorkel, maymunlar."
+    },
+    {
+     "name": "Café 8.98 Ao Nang",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 200,
+     "tips": "Kahvaltı ve kahve; veda."
+    },
+    {
+     "name": "Krabi Havalimanı Minibüs",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 150,
+     "tips": "Ao Nang'dan 40 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ao Nang Landmark Night Market Sabah",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Hediyelik; plaj yerine."
+    },
+    {
+     "name": "Ao Nang Roti Standı",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 60,
+     "tips": "Muzlu roti ve Tay çayı."
+    }
+   ]
+  }
+ ]
+}

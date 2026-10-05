@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "tel-aviv-summer",
+ "altSlug": "tel-aviv-yaz",
+ "citySlug": "tel-aviv",
+ "destKey": "tel-aviv",
+ "city": "Tel Aviv",
+ "region": null,
+ "country": "Israel",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "ILS",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 1800,
+  "attractions": 450,
+  "transport": 300,
+  "misc": 300
+ },
+ "notes": [
+  "Use a Rav-Kav card for buses and light rail (since 2023); bikes and scooters are everywhere. The airport train takes 15 minutes (it does NOT run on Shabbat, from Friday evening to Saturday evening, so take a taxi). Trains run to Haifa.",
+  "Summer is 30-33°C with 70% humidity. Go to the beach at sunrise or sunset and to museums at midday. Pride is in June and August is the most humid.",
+  "SAFETY: The regional situation is changeable. Check official travel advice, use the Home Front Command app and follow shelter instructions.",
+  "Hummus 35-50 ILS, falafel 20-25, breakfast 50-70, restaurant meal 120-180. It is an expensive city; tip 12-15% (cash preferred). Cards are accepted everywhere.",
+  "Shabbat: from Friday sunset to Saturday evening most places close, but the beach, Jaffa and restaurants stay open. Markets are liveliest on Friday morning.",
+  "Buses 405 and 480 reach Jerusalem in 1 hour (not on Shabbat); a day trip is possible."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Jaffa",
+   "stops": [
+    {
+     "name": "Jaffa Port",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "A 4,000-year-old harbour with fishing boats and the Tel Aviv skyline, best in the morning."
+    },
+    {
+     "name": "Old Jaffa Kedumim Square",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Stone lanes, St Peter's Church, the Zodiac alleys and the Hanging Orange Tree."
+    },
+    {
+     "name": "Abu Hassan Ali Karavan",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 40,
+     "tips": "Israel's most famous hummus, served for 50 years. Come before noon (it closes when it sells out); tables are shared."
+    },
+    {
+     "name": "Jaffa Flea Market Shuk HaPishpeshim",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Antiques, vintage and design. Open Sunday to Thursday, closes at 14:00 on Friday; plenty of cafés."
+    },
+    {
+     "name": "Jaffa Beach & Charles Clore Park",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Walk the seafront from Jaffa to Tel Aviv at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dr. Shakshuka",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 55,
+     "tips": "Libyan-style shakshuka; opens at 08:00, in Jaffa."
+    },
+    {
+     "name": "Ilana Goor Museum",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 40,
+     "tips": "The artist's 18th-century house-museum, with sea views from the roof."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Carmel Market and the White City",
+   "stops": [
+    {
+     "name": "Carmel Market",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 40,
+     "tips": "The city's biggest market: sabich, halva and fresh juice. Liveliest on Friday."
+    },
+    {
+     "name": "Rothschild Boulevard",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The Bauhaus boulevard of UNESCO's White City, with Independence Hall (1948) and kiosk cafés."
+    },
+    {
+     "name": "Bauhaus Center Tel Aviv",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Based on Dizengoff: a map of 4,000 Bauhaus buildings and a Friday tour."
+    },
+    {
+     "name": "Miznon Ibn Gabirol",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 50,
+     "tips": "Eyal Shani's pita shop. Try the whole cauliflower, eaten on the street."
+    },
+    {
+     "name": "Dizengoff Square",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Agam's Fire and Water fountain, with cafés around it."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Port Sa'id",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 70,
+     "tips": "A stylish restaurant opposite the Great Synagogue; records and meze."
+    },
+    {
+     "name": "Independence Hall",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 25,
+     "tips": "The hall where the Declaration of Independence was read; book ahead."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Beaches and the port",
+   "stops": [
+    {
+     "name": "Gordon Beach",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "The city beach: the clack of matkot paddles, sunrise swims, sun loungers 15 ILS."
+    },
+    {
+     "name": "Tel Aviv Port Namal",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A wooden boardwalk in the old port; Friday farmers' market."
+    },
+    {
+     "name": "Shuk HaNamal Port Market",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 60,
+     "tips": "An indoor gourmet market with fish and cheese."
+    },
+    {
+     "name": "Yarkon Park",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The city's Central Park: cycling, rowing boats and a tropical garden."
+    },
+    {
+     "name": "Banana Beach Sunset",
+     "category": "nature",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "A beach bar and a Mediterranean sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Benedict Ben Yehuda",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 65,
+     "tips": "A breakfast chain open 24 hours."
+    },
+    {
+     "name": "Hilton Beach",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A gay-friendly surf beach; an alternative to Gordon."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Neve Tzedek and Florentin",
+   "stops": [
+    {
+     "name": "Neve Tzedek",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "The first neighbourhood, founded in 1887: Shabazi Street boutiques and the Suzanne Dellal dance centre."
+    },
+    {
+     "name": "Dallal Bakery",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 30,
+     "tips": "A bakery-café in Neve Tzedek; try the croissant."
+    },
+    {
+     "name": "Florentin Street Art",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The graffiti neighbourhood; spices at Levinsky Market."
+    },
+    {
+     "name": "Levinsky Market Café Levinsky 41",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 30,
+     "tips": "Gazoz (homemade fruit soda) and the spice market; Balkan burek."
+    },
+    {
+     "name": "Sarona Market",
+     "category": "food",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 50,
+     "tips": "A gourmet market in the German Templer colony; Anita ice cream."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nahalat Binyamin Bar Evening Teder",
+     "category": "food",
+     "start": "20:00",
+     "end": "23:00",
+     "cost": 50,
+     "tips": "A courtyard bar-radio; Florentin at night."
+    },
+    {
+     "name": "Nahum Gutman Museum",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 24,
+     "tips": "The Neve Tzedek painter; an alternative to Florentin."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Caesarea, Haifa and Acre",
+   "stops": [
+    {
+     "name": "Caesarea National Park",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:45",
+     "cost": 39,
+     "tips": "45 minutes by train plus a bus or tour. Herod's Roman harbour, hippodrome and theatre, and the aqueduct beach."
+    },
+    {
+     "name": "Bahá'í Gardens Haifa",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "UNESCO's 19-terrace gardens on Mount Carmel. The view from the upper entrance is free (guided tour at 12:00); the German Colony lies below."
+    },
+    {
+     "name": "Haifa German Colony Fattoush",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 70,
+     "tips": "Meze in the Arab-Christian quarter along Ben Gurion Boulevard."
+    },
+    {
+     "name": "Acre Old City",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The Crusader underground city (Hospitaller fortress 50 ILS), the Ottoman market and port, and the Turkish bath museum."
+    },
+    {
+     "name": "Uri Buri Acre",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 120,
+     "tips": "A world-famous fish restaurant; booking essential. Then the train back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hummus Said Acre",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 35,
+     "tips": "Legendary hummus in the Acre market; it sells out by noon."
+    },
+    {
+     "name": "Rosh Hanikra",
+     "category": "nature",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 50,
+     "tips": "A cable car to sea caves on the Lebanese border; an alternative to Acre."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Museums and Shabbat",
+   "stops": [
+    {
+     "name": "Tel Aviv Museum of Art",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 50,
+     "tips": "A building like broken crystal; Israeli and modern art, Lichtenstein, free on Tuesday evening."
+    },
+    {
+     "name": "ANU Museum of the Jewish People",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 52,
+     "tips": "The Diaspora museum at Tel Aviv University; interactive."
+    },
+    {
+     "name": "HaKosem Falafel",
+     "category": "food",
+     "start": "14:45",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "The city's best falafel and sabich, on Shlomo HaMelech."
+    },
+    {
+     "name": "Ben Gurion House",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The prime minister's home and his 20,000 books; free."
+    },
+    {
+     "name": "Shabbat Dinner Ha'achim",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 120,
+     "tips": "Restaurants fill up on Friday evening; charcoal grill, book ahead."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eretz Israel Museum",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 52,
+     "tips": "Archaeology and glass; next to the ANU."
+    },
+    {
+     "name": "Dizengoff Center Food Market",
+     "category": "food",
+     "start": "14:45",
+     "end": "15:30",
+     "cost": 40,
+     "tips": "A food market inside the mall, Thursday and Friday."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Morning on the beach, a gentle farewell",
+   "stops": [
+    {
+     "name": "Frishman Beach Morning",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Swim or run in the morning; the beach is empty."
+    },
+    {
+     "name": "Café Xoho",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:30",
+     "cost": 50,
+     "tips": "Breakfast and bakery, near Gordon."
+    },
+    {
+     "name": "Ben Yehuda Street Souvenirs",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Dead Sea cosmetics and tahini to take home."
+    },
+    {
+     "name": "HaHagana Train Ben Gurion",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "The train to the airport takes 15 minutes (none on Shabbat; on Saturday a taxi costs 150 ILS). Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bucke Cafe Ben Yehuda",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:30",
+     "cost": 45,
+     "tips": "Neighbourhood breakfast."
+    },
+    {
+     "name": "Sarona Gardens Morning",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "The Templer garden; an alternative to souvenir shopping."
+    }
+   ]
+  }
+ ]
+}

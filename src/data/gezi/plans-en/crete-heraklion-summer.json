@@ -1,0 +1,477 @@
+{
+ "lang": "en",
+ "slug": "crete-heraklion-summer",
+ "altSlug": "girit-yaz",
+ "citySlug": "girit",
+ "destKey": "crete",
+ "city": "Crete (Heraklion)",
+ "region": null,
+ "country": "Greece",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 320,
+  "attractions": 90,
+  "transport": 220,
+  "misc": 70
+ },
+ "notes": [
+  "Hiring a car is best (25-40 EUR per day). KTEL buses run regularly between Heraklion, Rethymno and Chania. Three nights in Chania and two in Heraklion is ideal (a two-base plan).",
+  "Summer temperatures reach 30-35°C. Samaria, the Balos boat and Elafonisi are in full season. Stay in the shade between 12:00 and 16:00. August is the busiest month, and the sea stays around 25°C until September.",
+  "Knossos costs 20 EUR (museum separate), Samaria 5 and Spinalonga 8. A taverna meal costs 15-25 EUR, raki is often offered free, and for tips you round up the bill.",
+  "Cretan cuisine: dakos, staka, kalitsounia (small cheese pastries), snails (chochlioi) and tsikoudia. Tap water is drinkable in Chania.",
+  "Driving the Balos dirt road voids rental car insurance, so take the boat or a jeep. After Samaria, the ferry and bus run late in the day.",
+  "In summer there are direct flights from Türkiye to Heraklion and Chania. A Schengen visa is required."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Heraklion and Knossos",
+   "stops": [
+    {
+     "name": "Knossos Palace",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 20,
+     "tips": "The palace of Minos and the labyrinth legend. Arrive at the 08:00 opening, as midday is hot and tour groups arrive. Expect Evans's restorations, and book tickets online."
+    },
+    {
+     "name": "Heraklion Archaeological Museum",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 12,
+     "tips": "Minoan frescoes (the Prince of the Lilies, the Bull-Leaping fresco) and the Phaistos Disc. Air-conditioned."
+    },
+    {
+     "name": "Heraklion Venetian Harbour & Koules",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 4,
+     "tips": "A Venetian fortress and a walk along the breakwater."
+    },
+    {
+     "name": "Peskesi Heraklion",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Cretan cuisine: dakos (barley rusk with tomato and cheese), staka (cream-based dish), wild greens and farm produce."
+    },
+    {
+     "name": "Lions Square & Morosini Fountain",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "The city centre. Try bougatsa (custard pastry) at Kirkor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kirkor Bougatsa Heraklion",
+     "category": "food",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 4,
+     "tips": "Bougatsa since 1922, with cream filling."
+    },
+    {
+     "name": "Agios Minas Cathedral",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The largest cathedral in Crete. An alternative to the harbour."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "On to Chania",
+   "stops": [
+    {
+     "name": "Rethymno Venetian Harbour",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "On the way (1.5 hours by KTEL bus). Take in the Venetian lighthouse and narrow lanes."
+    },
+    {
+     "name": "Fortezza Rethymno",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 4,
+     "tips": "A 16th-century fortress with views over the Aegean."
+    },
+    {
+     "name": "Taverna Knossos Rethymno",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "A family taverna by the harbour. Order the grilled fish."
+    },
+    {
+     "name": "Chania Venetian Harbour",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "1 hour by bus. See the Egyptian lighthouse, the Mosque of the Janissaries and the Venetian shipyards (Neoria)."
+    },
+    {
+     "name": "Chania Old Town Topanas & Splantzia",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "The Turkish and Venetian quarters. Walk the leather street (Skridlof) and enjoy the evening lights."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tamam Chania",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 25,
+     "tips": "A restaurant in an old Turkish bathhouse serving Cretan-Ottoman food."
+    },
+    {
+     "name": "Arkadi Monastery",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 4,
+     "tips": "The monastery of the 1866 resistance. A detour from Rethymno along a mountain road (by car)."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Balos and Gramvousa",
+   "stops": [
+    {
+     "name": "Kissamos Port Balos Boat",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 30,
+     "tips": "40 minutes from Chania. Daily boat to Gramvousa island (May to October, about 30 EUR)."
+    },
+    {
+     "name": "Gramvousa Fortress",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A Venetian fortress on the pirate island. A 137 m climb, plus a shipwreck."
+    },
+    {
+     "name": "Balos Lagoon",
+     "category": "nature",
+     "start": "12:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Pink sand and a shallow turquoise lagoon with world-famous views. The boat waits 3 hours, and there is no shade."
+    },
+    {
+     "name": "Kissamos Taverna Sunset",
+     "category": "food",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 20,
+     "tips": "On the way back, stop at a seaside taverna in Kissamos for stifado (beef stew) and local wine."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Falasarna Beach",
+     "category": "nature",
+     "start": "12:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "An ancient harbour and a long beach, good for sunset. An alternative to Balos (by car)."
+    },
+    {
+     "name": "Cellar Tavern Kissamos",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 18,
+     "tips": "A family taverna in central Kissamos. Lunch option if you skip the boat."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Samaria Gorge",
+   "stops": [
+    {
+     "name": "Samaria Gorge Xyloskalo Entrance",
+     "category": "nature",
+     "start": "07:00",
+     "end": "07:30",
+     "cost": 5,
+     "tips": "Take the 06:15 bus from Chania, 1 hour to Omalos. The descent is 16 km and takes 5 to 7 hours (open May to October). Bring water and trainers, and look out for kri-kri goats."
+    },
+    {
+     "name": "Samaria Abandoned Village",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "An old village halfway along the trail. Rest and refill water."
+    },
+    {
+     "name": "Iron Gates Sideroportes",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The canyon narrows to 3 m. The tightest point."
+    },
+    {
+     "name": "Agia Roumeli",
+     "category": "food",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "The coastal village at the gorge exit. Swim and eat at a taverna, then take the 17:30 ferry to Sougia or Chora Sfakion, and a bus from there to Chania."
+    },
+    {
+     "name": "Chora Sfakion Ferry Return",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 12,
+     "tips": "A ferry ride on the Libyan Sea, then a bus to Chania, arriving at 20:30."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Imbros Gorge",
+     "category": "nature",
+     "start": "07:00",
+     "end": "12:00",
+     "cost": 2,
+     "tips": "An easy 8 km gorge. Choose it if Samaria is closed or too hard."
+    },
+    {
+     "name": "Taverna Tarra Agia Roumeli",
+     "category": "food",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 18,
+     "tips": "A beach taverna."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Elafonisi",
+   "stops": [
+    {
+     "name": "Elafonisi Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "1.5 hours from Chania (bus at 09:00 or by car). A pink-sand shallow lagoon: walk out to the island and rent a sunshade. It gets crowded at midday."
+    },
+    {
+     "name": "Elafonisi Taverna Innachorion",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 18,
+     "tips": "A taverna behind the beach. Try the Cretan salad."
+    },
+    {
+     "name": "Chrysoskalitissa Monastery",
+     "category": "culture",
+     "start": "15:15",
+     "end": "15:45",
+     "cost": 2,
+     "tips": "A white monastery on a rock, with the legend of the golden step."
+    },
+    {
+     "name": "Topolia Gorge & Agia Sofia Cave",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A canyon and a cave church on the way back."
+    },
+    {
+     "name": "Chania Dinner To Maridaki",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 25,
+     "tips": "Seafood meze in Chania's old town."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kedrodasos Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "An empty cedar-lined beach next to Elafonisi. A 20-minute walk."
+    },
+    {
+     "name": "Milia Mountain Retreat Restaurant",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Organic food in a mountain village. A detour."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "East: Spinalonga and Agios Nikolaos",
+   "stops": [
+    {
+     "name": "Plaka Spinalonga Boat",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:15",
+     "cost": 12,
+     "tips": "The way back to Heraklion runs east (by car or KTEL). From Plaka the boat takes 5 minutes (20 minutes from Elounda)."
+    },
+    {
+     "name": "Spinalonga Island",
+     "category": "culture",
+     "start": "10:15",
+     "end": "12:15",
+     "cost": 8,
+     "tips": "A Venetian fortress and a leper colony from 1903 to 1957 (the setting of the novel The Island). The walk takes 1 hour."
+    },
+    {
+     "name": "Elounda",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "A luxury bay village. Try octopus at a harbour taverna."
+    },
+    {
+     "name": "Agios Nikolaos Voulismeni Lake",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The legend of the bottomless lake. Cafes and the harbour."
+    },
+    {
+     "name": "Ammoudara Beach Heraklion",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "A long beach near Heraklion, good for sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kritsa & Panagia Kera",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 3,
+     "tips": "A mountain village and Byzantine frescoes. An alternative to Agios Nikolaos."
+    },
+    {
+     "name": "Ferryman Taverna Elounda",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Used as a location for The Island. On the shore."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Heraklion: a gentle farewell",
+   "stops": [
+    {
+     "name": "Heraklion Central Market 1866 Street",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Honey, olive oil, raki (tsikoudia) and herbs. Good for souvenirs."
+    },
+    {
+     "name": "Nikos Kazantzakis Tomb",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The author of Zorba. His gravestone on the walls reads \"I hope for nothing\", and the view over the city is superb."
+    },
+    {
+     "name": "Ippokampos Heraklion",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 20,
+     "tips": "A harbour meyhane (tavern). Squid and meze for a farewell meal."
+    },
+    {
+     "name": "Heraklion Airport Bus",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 2,
+     "tips": "15 minutes by bus or taxi. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cretan Aquarium",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 10,
+     "tips": "A Mediterranean aquarium in Gournes."
+    },
+    {
+     "name": "Phyllosophies Heraklion",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "A cafe on the square. Try the pastries."
+    }
+   ]
+  }
+ ]
+}

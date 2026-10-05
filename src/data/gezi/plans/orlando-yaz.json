@@ -1,0 +1,405 @@
+{
+ "lang": "tr",
+ "slug": "orlando-yaz",
+ "altSlug": "orlando-summer",
+ "citySlug": "orlando",
+ "destKey": "orlando",
+ "city": "Orlando",
+ "region": null,
+ "country": "ABD",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 450,
+  "attractions": 1050,
+  "transport": 300,
+  "misc": 150
+ },
+ "notes": [
+  "Orlando araç şehri: kiralık araç tut (parklarda otopark 30 USD) ya da Disney/Universal otobüslerini kullan. Kennedy için araç şart.",
+  "Yaz 33°C, nem yüksek ve her öğleden sonra fırtına var (parklar 1 saat durur). Sabah rope drop yap, 13:00-16:00 otel havuzunda dinlen, akşam parkta kal. Kasırga sezonu.",
+  "Park biletleri tarihli ve online. Lightning Lane/Express Pass kalabalıkta değer; mobil sipariş kuyruğu atlatır.",
+  "Park içi yemek 15-25 USD. Restoran rezervasyonunu 60 gün önce yap. Su şişeni doldur (ücretsiz).",
+  "Bahşiş %18-20. Park dışında Mills 50 ve Winter Park yerel ve ucuz.",
+  "7 günde Disney 4 park + Universal 2-3 park. Kennedy'de fırlatma varsa o güne göre planla."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Magic Kingdom",
+   "stops": [
+    {
+     "name": "Magic Kingdom Park",
+     "category": "culture",
+     "start": "08:30",
+     "end": "12:30",
+     "cost": 160,
+     "tips": "Disney'in amiral parkı. Rope drop 08:30 (TRON, Space Mountain). Lightning Lane Multi Pass ekstra, bilet online ve tarihli (~160 USD)."
+    },
+    {
+     "name": "Columbia Harbour House Magic Kingdom",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Park içi hızlı servis; mobil sipariş uygulamadan."
+    },
+    {
+     "name": "Happily Ever After Havai Fişek",
+     "category": "landmark",
+     "start": "20:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "Cinderella Şatosu önünde gece gösterisi; 1 saat önce yerini al."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Disney Springs Chef Art Smith's Homecomin'",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Disney Springs'te kızarmış tavuk; park dışı akşam."
+    },
+    {
+     "name": "Disney Springs",
+     "category": "shopping",
+     "start": "17:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Ücretsiz eğlence ve alışveriş bölgesi; havai fişek yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "EPCOT",
+   "stops": [
+    {
+     "name": "EPCOT",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 150,
+     "tips": "Guardians of the Galaxy ve Frozen; World Showcase'de 11 ülke, festival (Food & Wine sonbaharda)."
+    },
+    {
+     "name": "EPCOT World Showcase Yemek Turu",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Fransa pavyonunda kruvasan, Meksika'da taco; ülke ülke atıştır."
+    },
+    {
+     "name": "Luminous EPCOT Gece Gösterisi",
+     "category": "landmark",
+     "start": "21:00",
+     "end": "21:30",
+     "cost": 0,
+     "tips": "Göl üstünde ışık ve su gösterisi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Space 220 EPCOT",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 60,
+     "tips": "Uzay istasyonu temalı restoran; rezervasyon yap."
+    },
+    {
+     "name": "Disney's BoardWalk",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "EPCOT arkasında sahil bulvarı; ücretsiz."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Universal Epic Universe",
+   "stops": [
+    {
+     "name": "Universal Epic Universe",
+     "category": "culture",
+     "start": "08:00",
+     "end": "13:00",
+     "cost": 139,
+     "tips": "2025'te açılan park; Super Nintendo World, Harry Potter Ministry, Dark Universe. Bilet 139-199 USD, erken giriş var."
+    },
+    {
+     "name": "Celestial Park Epic Universe Öğle",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Park merkezi restoranları; Atlantic (deniz ürünleri)."
+    },
+    {
+     "name": "Universal CityWalk Orlando",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "Park dışı restoran ve bar bölgesi; ücretsiz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Toothsome Chocolate Emporium CityWalk",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 30,
+     "tips": "Steampunk çikolata restoranı."
+    },
+    {
+     "name": "Universal Islands of Adventure",
+     "category": "culture",
+     "start": "08:00",
+     "end": "18:00",
+     "cost": 130,
+     "tips": "VelociCoaster ve Hogsmeade; Epic yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Hollywood Studios & Animal Kingdom",
+   "stops": [
+    {
+     "name": "Disney's Hollywood Studios",
+     "category": "culture",
+     "start": "08:30",
+     "end": "12:00",
+     "cost": 150,
+     "tips": "Rise of the Resistance ve Galaxy's Edge; sabah yarım gün."
+    },
+    {
+     "name": "Docking Bay 7 Galaxy's Edge",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 22,
+     "tips": "Star Wars temalı yemek; mavi süt."
+    },
+    {
+     "name": "Disney's Animal Kingdom",
+     "category": "nature",
+     "start": "15:00",
+     "end": "20:00",
+     "cost": 150,
+     "tips": "Park hopper ile öğleden sonra git; Kilimanjaro Safari gün batımında, Flight of Passage ve Pandora gece."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tiffins Animal Kingdom",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 50,
+     "tips": "Animal Kingdom'ın en iyi restoranı."
+    },
+    {
+     "name": "Disney's Typhoon Lagoon",
+     "category": "nature",
+     "start": "15:00",
+     "end": "20:00",
+     "cost": 75,
+     "tips": "Su parkı; Animal Kingdom yerine yazın."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Kennedy Space Center",
+   "stops": [
+    {
+     "name": "Kennedy Space Center Visitor Complex",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 80,
+     "tips": "Orlando'ya 1 saat. Saturn V ve Space Shuttle Atlantis'i gör, otobüs turuyla fırlatma rampalarına git. Fırlatma takvimine bak."
+    },
+    {
+     "name": "Orbit Cafe Kennedy Space Center",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 18,
+     "tips": "Merkez kafeteryası."
+    },
+    {
+     "name": "Cocoa Beach",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Atlantik plajı ve iskele; Ron Jon Surf Shop, yazın yüzme."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cocoa Beach Pier Restaurant",
+     "category": "food",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 25,
+     "tips": "İskelede deniz ürünleri."
+    },
+    {
+     "name": "Merritt Island Wildlife Refuge",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 10,
+     "tips": "Manatee ve timsah; plaj yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Winter Park & ICON Park",
+   "stops": [
+    {
+     "name": "Winter Park Scenic Boat Tour",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 18,
+     "tips": "Göller ve kanallar arasında 1 saatlik tekne turu; 1938'den beri sürüyor, konak bahçelerini gösterir."
+    },
+    {
+     "name": "Park Avenue Winter Park",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Şık cadde; butikler ve Morse Museum (Tiffany camları, 6 USD)."
+    },
+    {
+     "name": "Prato Winter Park",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 28,
+     "tips": "Park Avenue'da İtalyan restoranı; odun fırını."
+    },
+    {
+     "name": "Charles Hosmer Morse Museum",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 6,
+     "tips": "Tiffany şapel ve cam koleksiyonu."
+    },
+    {
+     "name": "The Wheel at ICON Park",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 30,
+     "tips": "120 m'lik dönme dolap; International Drive, gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Ravenous Pig Winter Park",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 35,
+     "tips": "Orlando'nun gastropub öncüsü."
+    },
+    {
+     "name": "Orlando Museum of Art",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 20,
+     "tips": "Loch Haven'da müze; Morse yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Lake Eola — hafif veda",
+   "stops": [
+    {
+     "name": "Lake Eola Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Şehir merkezindeki göl; kuğu kayıkları ve pazar günü pazarı."
+    },
+    {
+     "name": "Se7en Bites",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 18,
+     "tips": "Güney usulü kahvaltı ve turta; veda öncesi."
+    },
+    {
+     "name": "East End Market",
+     "category": "shopping",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Yerel gıda pazarı; hediyelik için."
+    },
+    {
+     "name": "Orlando International Airport",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Havalimanı 20 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mills 50 Vietnam Mahallesi",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Pho ve banh mi; Se7en Bites yerine."
+    },
+    {
+     "name": "Harry P. Leu Gardens",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "Botanik bahçe; pazar yerine."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,500 @@
+{
+ "lang": "en",
+ "slug": "paris-summer",
+ "altSlug": "paris-yaz",
+ "citySlug": "paris",
+ "destKey": "paris",
+ "city": "Paris",
+ "region": null,
+ "country": "France",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 520,
+  "attractions": 230,
+  "transport": 60,
+  "misc": 90
+ },
+ "notes": [
+  "Use a Navigo Easy with a t+ carnet on the metro; take RER C to Versailles and RER B to CDG (11 EUR). The city is walkable: don't take the metro for 20-minute distances.",
+  "Timed online tickets are essential for the Louvre, Orsay and Sainte-Chapelle. The Louvre is closed on Tuesdays and Orsay on Mondays. The Paris Museum Pass is available for 2 to 6 days.",
+  "Summer brings 25-30°C and daylight until 22:00. Head to the Seine banks (Paris Plages), picnics and terraces. Some bistros close for holiday in August.",
+  "A bistro set lunch (formule) costs 18-25 EUR, about half the price of dinner. Tap water (carafe d'eau) is free; for a tip, just round up the bill.",
+  "Bouillons (Chartier, Racine) are cheap and classic; go for falafel in the Marais and croissants at Pain Pain or Du Pain et des Idées.",
+  "Watch out for pickpockets on metro line 1 and in Montmartre; wear your backpack on your front."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Navigo Easy / t+ carnet",
+  "why_chosen": "Covers metro, RER and buses; a carnet of 10 is the most practical option, with an extra ticket needed for RER C to Versailles.",
+  "coverage": "Paris metro, otobüs, tramvay, RER zone 1",
+  "where_to_buy": "Metro istasyonları biletmatik; Navigo Easy kartı 2 EUR",
+  "cost": 2,
+  "currency_code": "EUR"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Louvre, Tuileries and Eiffel Tower",
+   "stops": [
+    {
+     "name": "Louvre Müzesi",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 22,
+     "tips": "Head straight for the Mona Lisa, then the Denon wing. Book a timed ticket online (32 EUR for non-EU visitors); the Carrousel entrance has no queue."
+    },
+    {
+     "name": "Jardin des Tuileries",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Stroll through the gardens from the Louvre to Concorde; look for the green chairs."
+    },
+    {
+     "name": "Café Kitsuné Palais Royal",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "Coffee and a sandwich in the Palais Royal garden, in a colonnaded courtyard."
+    },
+    {
+     "name": "Musée de l'Orangerie",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "Monet's Water Lilies in oval rooms; right next to the Louvre and quiet."
+    },
+    {
+     "name": "Eiffel Tower",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 29,
+     "tips": "Take the stairs to the 2nd floor, then the lift to the summit (combined ticket ~29 EUR). Book online and go at sunset; take photos from Trocadéro."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Le Petit Cler",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 25,
+     "tips": "A bistro on Rue Cler, close to the Eiffel Tower."
+    },
+    {
+     "name": "Champ de Mars",
+     "category": "nature",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Lawns beneath the tower; picnic here and watch the light show (every hour on the hour)."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Île de la Cité, Latin Quarter and Saint-Germain",
+   "stops": [
+    {
+     "name": "Notre-Dame de Paris",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "The restored cathedral is free; reserve a time slot online. Mornings are quiet."
+    },
+    {
+     "name": "Sainte-Chapelle",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 13,
+     "tips": "1,113 stained-glass panels, at their best on a sunny morning. Book online."
+    },
+    {
+     "name": "Shakespeare and Company",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "The legendary English-language bookshop on the banks of the Seine."
+    },
+    {
+     "name": "Le Comptoir du Panthéon",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 20,
+     "tips": "A bistro opposite the Panthéon, with steak-frites and a terrace."
+    },
+    {
+     "name": "Panthéon",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 13,
+     "tips": "The tombs of Voltaire, Hugo and Curie; Foucault's pendulum."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bouillon Racine",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 18,
+     "tips": "An Art Nouveau bouillon with an inexpensive classic French menu."
+    },
+    {
+     "name": "Jardin du Luxembourg",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "The Senate gardens, with a pond and chairs; go here instead of the Panthéon."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Montmartre",
+   "stops": [
+    {
+     "name": "Sacré-Cœur",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "The basilica is free; the dome costs 8 EUR. The steps are empty in the morning, with views over Paris."
+    },
+    {
+     "name": "Place du Tertre",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "The painters' square; portraits cost 40-60 EUR, and you can haggle."
+    },
+    {
+     "name": "Montmartre Vineyard and Lapin Agile",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Paris's last vineyard and a cabaret, on Rue des Saules."
+    },
+    {
+     "name": "Chantoiseau Montmartre",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 35,
+     "tips": "A neo-bistro 7 minutes from Place du Tertre, with a set lunch menu."
+    },
+    {
+     "name": "Musée de Montmartre",
+     "category": "culture",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "Renoir's studio and gardens, with views over the vineyard."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Boulangerie Pain Pain",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 6,
+     "tips": "Award-winning baguettes and pastries; a quick lunch."
+    },
+    {
+     "name": "Moulin Rouge",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "See it from outside in Pigalle; the evening show is extra (~120 EUR)."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Le Marais",
+   "stops": [
+    {
+     "name": "Place des Vosges",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "The oldest square in Paris, with arcades and Victor Hugo's house (free)."
+    },
+    {
+     "name": "Musée Picasso Paris",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 16,
+     "tips": "The Picasso collection in the Hôtel Salé. Book online."
+    },
+    {
+     "name": "L'As du Fallafel",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 10,
+     "tips": "The falafel place on Rue des Rosiers with a queue out front; eat standing up."
+    },
+    {
+     "name": "Marché des Enfants Rouges",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 12,
+     "tips": "The oldest market in Paris, with Moroccan, Japanese and Lebanese stalls."
+    },
+    {
+     "name": "Centre Pompidou",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 15,
+     "tips": "Inside-out architecture, modern art and views of Paris from the terrace. It is under renovation in 2025-30; if it is closed, go to the Bourse de Commerce."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bourse de Commerce Pinault Collection",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 15,
+     "tips": "Tadao Ando's concrete cylinder and contemporary art; the alternative if the Pompidou is closed."
+    },
+    {
+     "name": "Au Petit Versailles du Marais",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 8,
+     "tips": "Award-winning croissants and quiche; an alternative to the falafel."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Orsay and the Seine",
+   "stops": [
+    {
+     "name": "Musée d'Orsay",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 16,
+     "tips": "Impressionists in a former railway station. Van Gogh is on the 5th floor; photograph the clock face. Book online."
+    },
+    {
+     "name": "Rue du Bac & Le Bon Marché",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The Grande Épicerie food hall; good for souvenirs."
+    },
+    {
+     "name": "Café de Flore",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Saint-Germain's literary café; try the croque monsieur and hot chocolate."
+    },
+    {
+     "name": "Pont des Arts and the Seine Embankment",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "See the Île de la Cité from the bridge, then walk along the riverside path."
+    },
+    {
+     "name": "Bateaux Parisiens Seine Cruise",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:45",
+     "cost": 18,
+     "tips": "A 1-hour river cruise; Notre-Dame and the Eiffel Tower in sunset light. Board at the Eiffel Tower pier."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bateaux Mouches",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:45",
+     "cost": 16,
+     "tips": "The other cruise company, boarding at Pont de l'Alma."
+    },
+    {
+     "name": "La Grande Épicerie de Paris",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "The food hall at Le Bon Marché; have lunch at the counters instead of Café de Flore."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Versailles",
+   "stops": [
+    {
+     "name": "Palace of Versailles",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 21,
+     "tips": "45 minutes by RER C. Get the palace, gardens and Trianon passport (~32 EUR); the Hall of Mirrors is empty when it opens at 09:00."
+    },
+    {
+     "name": "Gardens of Versailles",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Le Nôtre's gardens; in summer, the musical fountain days (extra ticket)."
+    },
+    {
+     "name": "La Flottille Versailles",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 25,
+     "tips": "A restaurant beside the Grand Canal, with rowing boats for hire next door."
+    },
+    {
+     "name": "Petit Trianon and Hameau de la Reine",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Marie Antoinette's hamlet and the queen's farm; included with the passport."
+    },
+    {
+     "name": "Marché Notre-Dame Versailles",
+     "category": "shopping",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A food market in town; pick up cheese on your way back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Angelina Versailles",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 20,
+     "tips": "Hot chocolate and Mont-Blanc inside the palace."
+    },
+    {
+     "name": "Grand Trianon",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A pink marble pavilion; go here instead of the Petit Trianon."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Canal Saint-Martin and a gentle farewell",
+   "stops": [
+    {
+     "name": "Canal Saint-Martin",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Iron footbridges and canal locks; have a morning coffee and spot the Amélie film locations."
+    },
+    {
+     "name": "Du Pain et des Idées",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 8,
+     "tips": "One of the best bakeries in Paris; try the chocolate-pistachio escargot."
+    },
+    {
+     "name": "Marché d'Aligre",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A daily market at Bastille, good for cheese and food souvenirs."
+    },
+    {
+     "name": "Le Baron Rouge",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "A wine bar next to the Aligre market; oysters and wine from the barrel for a farewell."
+    },
+    {
+     "name": "Gare du Nord / RER B",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "RER B to CDG takes 35 minutes. Goodbye, Paris."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Holybelly Canal",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 18,
+     "tips": "Brunch by the canal."
+    },
+    {
+     "name": "Coulée Verte René-Dumont",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A green walkway on a former railway line; go here instead of Aligre."
+    }
+   ]
+  }
+ ]
+}

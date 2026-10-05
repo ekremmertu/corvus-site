@@ -1,0 +1,11 @@
+{
+ "source": "669f033cb0e0",
+ "model": "sonnet",
+ "strings": {
+  "note0": "Metro 3 hatlı; havalimanı metrosu 40 dakika, 10 EUR. Riviera'ya tramvay, Sounion'a KTEL otobüsü (Pedion Areos), adalara Pire feribotu.",
+  "note1": "Akropolis 30 EUR, online saatli bilet; 7 site kombine bilet 36 EUR (5 gün geçerli); ilk pazar (Kasım-Mart) ücretsiz.",
+  "note3": "Souvlaki 4-5 EUR, taverna 15-25 EUR; kahve olarak freddo espresso iç; bahşişte hesabı yuvarla, coperto yok.",
+  "note4": "Yankesicilere metroda ve Monastiraki'de dikkat; Omonia geceleri tenha."
+ },
+ "warnings": []
+}

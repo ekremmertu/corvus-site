@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "jerusalem-october-may",
+ "altSlug": "kudus-ekim-mayis",
+ "citySlug": "kudus",
+ "destKey": "jerusalem",
+ "city": "Jerusalem",
+ "region": null,
+ "country": "Israel",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "ILS",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 1500,
+  "attractions": 500,
+  "transport": 400,
+  "misc": 300
+ },
+ "notes": [
+  "Get a Rav-Kav card and use the light rail (Jaffa Street). On Shabbat (Friday sunset to Saturday night) public transport and most shops are closed, but Arab East Jerusalem stays open. The fast train to Ben Gurion takes 25 minutes.",
+  "Winter temperatures are 5-12°C with rain and occasional snow. The Dead Sea is ideal in winter (25°C). The weeks of Passover and Sukkot are crowded, as is Bethlehem at Christmas in December.",
+  "SAFETY: The situation in the region can change, so check official travel advice before you go. The Temple Mount may close. Go to Bethlehem by taxi or bus (Israeli rental cars cannot enter).",
+  "Dress code at holy sites: cover shoulders and knees, and men cover their heads at the Wall. The Temple Mount is closed Friday and Saturday; Yad Vashem is closed Saturday.",
+  "Hummus costs 40-60 ILS, falafel 20, a restaurant meal 100-150. Tip 12%. Cards are accepted everywhere; bring cash for East Jerusalem.",
+  "Tap water is safe to drink. Mahane Yehuda is liveliest on Friday afternoon."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old City: Jewish and Christian quarters",
+   "stops": [
+    {
+     "name": "Western Wall",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Enter through Jaffa Gate. The Western Wall is open 24 hours, with separate men's and women's sections. Heads must be covered (kippahs are provided), and on Friday evening there is a Shabbat welcome."
+    },
+    {
+     "name": "Temple Mount Dome of the Rock",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Non-Muslims can visit Sunday to Thursday 07:30-11:00 and 13:30-14:30 (via the Mughrabi Bridge). You see the Dome of the Rock from the outside only. Dress modestly; closed Friday and Saturday."
+    },
+    {
+     "name": "Via Dolorosa",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "The 14 Stations of the Cross run from the Lions' Gate to the Church of the Holy Sepulchre. On Fridays at 15:00 there is a Franciscan procession."
+    },
+    {
+     "name": "Church of the Holy Sepulchre",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The site of Jesus's crucifixion and tomb. Climb the steps to Golgotha, expect a queue for the Edicule, and note that the church is shared by 6 denominations."
+    },
+    {
+     "name": "Abu Shukri Via Dolorosa",
+     "category": "food",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 50,
+     "tips": "The Old City's legendary hummus, plus ful (fava bean stew) and falafel."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lina Restaurant Old City",
+     "category": "food",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 45,
+     "tips": "Hummus in the Christian Quarter, a rival to Abu Shukri."
+    },
+    {
+     "name": "Tower of David Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 50,
+     "tips": "A citadel museum with panoramic views from the ramparts. An alternative to the Via Dolorosa."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Mount of Olives and City of David",
+   "stops": [
+    {
+     "name": "Mount of Olives Viewpoint",
+     "category": "nature",
+     "start": "07:30",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "Take a taxi up. The Old City and golden dome look best in morning light. Pass the Jewish cemetery, then walk back down."
+    },
+    {
+     "name": "Church of All Nations Gethsemane",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "The Garden of Gethsemane has 2,000-year-old olive trees. The Dominus Flevit (Tear-Shaped) church is on the way."
+    },
+    {
+     "name": "City of David",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 70,
+     "tips": "Excavations of King David's original city. Choose Hezekiah's Tunnel (knee-deep water, bring a torch) or the dry Canaanite Tunnel."
+    },
+    {
+     "name": "Ja'far Sweets",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Try knafeh (cheese pastry). Pass through the Damascus Gate market in the Muslim Quarter."
+    },
+    {
+     "name": "Ramparts Walk",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 25,
+     "tips": "Walk along the city walls from Jaffa Gate to Lions' Gate for views over rooftops and domes."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Azzahra Restaurant East Jerusalem",
+     "category": "food",
+     "start": "14:00",
+     "end": "14:45",
+     "cost": 90,
+     "tips": "Palestinian cuisine in East Jerusalem; try the maqluba (upside-down rice dish)."
+    },
+    {
+     "name": "Garden Tomb",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The Protestant alternative to the Holy Sepulchre: a peaceful garden outside Damascus Gate."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Yad Vashem and the Israel Museum",
+   "stops": [
+    {
+     "name": "Yad Vashem",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The Holocaust memorial museum, in Safdie's prism-shaped building, with the Children's Memorial. Free, but book online. Children under 10 are not admitted; closed Saturday."
+    },
+    {
+     "name": "Israel Museum",
+     "category": "culture",
+     "start": "12:30",
+     "end": "15:00",
+     "cost": 60,
+     "tips": "See the Dead Sea Scrolls (Shrine of the Book), a model of Second Temple-era Jerusalem and the archaeology galleries. Lunch at the cafeteria."
+    },
+    {
+     "name": "Israel Museum Modern Kafe",
+     "category": "food",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 60,
+     "tips": "The museum restaurant, with a garden overlooking the Dead Sea."
+    },
+    {
+     "name": "Knesset",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "See the parliament from the outside, along with the Menorah sculpture. Tours run on Sundays and Thursdays."
+    },
+    {
+     "name": "Mahane Yehuda Market",
+     "category": "food",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 80,
+     "tips": "The shuk is a market by day and a bar street by night. Try the marzipan rugelach, Azura's kubbeh (stuffed semolina dumplings) and the Hachapuria."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Machneyuda Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 250,
+     "tips": "A chef's restaurant next to the market. Book weeks ahead."
+    },
+    {
+     "name": "Bible Lands Museum",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:15",
+     "cost": 44,
+     "tips": "Next door to the Israel Museum, covering the ancient Near East."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Dead Sea and Masada",
+   "stops": [
+    {
+     "name": "Masada National Park",
+     "category": "landmark",
+     "start": "07:30",
+     "end": "10:00",
+     "cost": 31,
+     "tips": "Take bus 486 or a tour (1.5 hours). Herod's rock fortress and the Roman siege ramp await. Climb the Snake Path for sunrise (in summer climbing is banned after 08:00; cable car 28 ILS)."
+    },
+    {
+     "name": "Ein Gedi Nature Reserve",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 29,
+     "tips": "An oasis with David's Waterfall and ibex. Your shoes will get wet."
+    },
+    {
+     "name": "Ein Gedi Kibbutz Restaurant",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 70,
+     "tips": "The kibbutz dining hall or a beach cafe."
+    },
+    {
+     "name": "Ein Bokek Dead Sea Beach",
+     "category": "nature",
+     "start": "14:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The lowest point on Earth (-430 m). You float rather than swim. Try the mud, and protect your eyes. Free public beach with showers."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Qumran National Park",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 29,
+     "tips": "The caves where the scrolls were found. An alternative to Ein Gedi."
+    },
+    {
+     "name": "Ein Bokek Beach Cafe",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 50,
+     "tips": "A beachfront cafe serving salads and lemonade."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Bethlehem and Ein Karem",
+   "stops": [
+    {
+     "name": "Church of the Nativity Bethlehem",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Take bus 231 or a taxi (Palestinian Authority territory: bring your passport, and Israeli-plated vehicles cannot cross). Visit the cave where Jesus was born; the queue can reach 2 hours."
+    },
+    {
+     "name": "Banksy Walled Off Hotel & Separation Wall",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Graffiti along the wall, plus Banksy's hotel and museum. Go by taxi."
+    },
+    {
+     "name": "Afteem Restaurant Bethlehem",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Falafel since 1948 on Manger Square."
+    },
+    {
+     "name": "Ein Karem",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The village of John the Baptist, with the Church of the Visitation, Mary's Well and art galleries. It lies in western Jerusalem."
+    },
+    {
+     "name": "Karma Ein Karem",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 80,
+     "tips": "A terrace cafe overlooking the village, best in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shepherds' Field Beit Sahour",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "The Shepherds' Field church. An alternative to the wall."
+    },
+    {
+     "name": "Sweet N Karem",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 30,
+     "tips": "An ice cream shop in Ein Karem."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "West Jerusalem and Shabbat",
+   "stops": [
+    {
+     "name": "Yemin Moshe & Montefiore Windmill",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "The first neighbourhood built outside the walls, with a windmill and views of the Old City."
+    },
+    {
+     "name": "First Station Jerusalem",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 50,
+     "tips": "The old Ottoman railway station, now with cafes, a market and a children's area."
+    },
+    {
+     "name": "Azura Mahane Yehuda",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 70,
+     "tips": "Kurdish-Iraqi dishes: kubbeh and aubergine. Expect crowds before Shabbat."
+    },
+    {
+     "name": "Mea Shearim",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "An ultra-Orthodox neighbourhood. Dress modestly and do not take photos. Friday brings a pre-Shabbat rush."
+    },
+    {
+     "name": "Western Wall Shabbat Welcome",
+     "category": "culture",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Friday at sunset: singing and dancing (no photos). On other days there is evening prayer."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Anna Italian Café Ticho House",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 90,
+     "tips": "A garden restaurant in the historic Ticho House."
+    },
+    {
+     "name": "Hebrew University Mount Scopus",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A botanical garden with desert views. An alternative to Mea Shearim."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Armenian Quarter and a gentle farewell",
+   "stops": [
+    {
+     "name": "Armenian Quarter",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "St James Cathedral (service at 15:00) and ceramic workshops."
+    },
+    {
+     "name": "Cardo Jewish Quarter",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "The remains of the Byzantine main street. At the Hurva Synagogue, the dome view costs 20 ILS."
+    },
+    {
+     "name": "Rooftop Promenade Old City",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Walk the rooftops above the bazaar, where the 4 quarters meet. Free."
+    },
+    {
+     "name": "Hummus Ben Sira",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 50,
+     "tips": "West Jerusalem hummus for a farewell meal."
+    },
+    {
+     "name": "Jerusalem Navon Station",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "The fast train reaches Ben Gurion in 25 minutes (not running on Shabbat). Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jerusalem Armenian Ceramics",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Hand-painted tiles, good for souvenirs."
+    },
+    {
+     "name": "Tmol Shilshom",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 60,
+     "tips": "A bookshop cafe serving shakshuka."
+    }
+   ]
+  }
+ ]
+}

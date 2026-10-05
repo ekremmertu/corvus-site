@@ -1,0 +1,469 @@
+{
+ "lang": "tr",
+ "slug": "abu-dabi-ekim-mayis",
+ "altSlug": "abu-dhabi-october-may",
+ "citySlug": "abu-dabi",
+ "destKey": "abu-dhabi",
+ "city": "Abu Dabi",
+ "region": null,
+ "country": "BAE",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "AED",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 1500,
+  "attractions": 1400,
+  "transport": 600,
+  "misc": 300
+ },
+ "notes": [
+  "Taksi (Careem/Uber) ana ulaşım; Hafilat kartıyla otobüs ucuz. Dubai'ye E100 otobüsü 1,5 saat (25 AED). Havalimanı 30 dakika.",
+  "Kasım-Mart arası 22-28°C, mükemmel; Aralık'ta F1 Yas (oteller dolu), Ocak-Şubat'ta plaj; cami gün batımında.",
+  "Cami ücretsiz (kayıt, abaya), Louvre 63, Qasr 65, Ferrari 345, safari 250-350; bahşiş %10; alkol yalnız otel/lisanslı.",
+  "Kıyafet: AVM ve camide omuz-diz kapalı; cami cuma öğle kapalı, Louvre pazartesi kapalı; Ferrari online kombine ucuz.",
+  "Türk vatandaşları 90 gün vizesiz; kart her yerde geçer; hafta sonu cuma-cumartesi.",
+  "Emirati: machboos, harees, luqaimat, deve sütü; Al Fanar, Meylas, Al Mrzab, Erth."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Ulu Cami & Qasr Al Watan",
+   "stops": [
+    {
+     "name": "Sheikh Zayed Grand Mosque",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "82 kubbeli beyaz mermer cami; dünyanın en büyük halısı, ücretsiz, online kayıt, abaya verilir, cuma öğle kapalı, gün batımı büyülü."
+    },
+    {
+     "name": "Wahat Al Karama",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Şehit anıtı alüminyum plakalar; caminin yansıması."
+    },
+    {
+     "name": "Qasr Al Watan",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 65,
+     "tips": "Başkanlık sarayı; Büyük Salon kubbesi, kütüphane, akşam ışık gösterisi (Palace in Motion)."
+    },
+    {
+     "name": "Emirates Palace Le Café",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 120,
+     "tips": "Altın varaklı cappuccino ve palmiye deve sütü; 'saray' oteli."
+    },
+    {
+     "name": "Corniche",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "8 km sahil; gün batımı yürüyüşü, plaj (bayrak alanı 10 AED), bisiklet."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Al Mrzab Emirati",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 90,
+     "tips": "Bib Gourmand Emirati; machboos ve luqaimat."
+    },
+    {
+     "name": "Founder's Memorial",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Şeyh Zayed'in 3D portresi (Constellation) gece ışıklı; Corniche yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Saadiyat: Louvre",
+   "stops": [
+    {
+     "name": "Louvre Abu Dhabi",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 63,
+     "tips": "Jean Nouvel'in 'ışık yağmuru' kubbesi; evrensel müze, Da Vinci La Belle Ferronnière, pazartesi kapalı, online, kayık turu ekstra."
+    },
+    {
+     "name": "Louvre Abu Dhabi Kafe",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 80,
+     "tips": "Kubbe altı su kenarı kafe."
+    },
+    {
+     "name": "Abrahamic Family House",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Cami, kilise ve sinagog bir arada; ücretsiz kayıt."
+    },
+    {
+     "name": "Saadiyat Beach Club",
+     "category": "nature",
+     "start": "15:30",
+     "end": "18:00",
+     "cost": 150,
+     "tips": "Beyaz kumlu korunmuş plaj; kaplumbağa yuvaları, gün batımı, giriş 150 (hafta içi)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Fouquet's Abu Dhabi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 150,
+     "tips": "Louvre içinde Fransız brasserie; kubbe manzarası."
+    },
+    {
+     "name": "Soul Beach Saadiyat",
+     "category": "nature",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 50,
+     "tips": "Halk plajı; kulüp yerine ucuz."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Yas Adası",
+   "stops": [
+    {
+     "name": "Ferrari World Abu Dhabi",
+     "category": "culture",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 345,
+     "tips": "Dünyanın en hızlı hız treni Formula Rossa (240 km/s); kapalı ve klimalı, online (Yas 2 park kombine)."
+    },
+    {
+     "name": "Yas Mall Yemek Katı",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 60,
+     "tips": "Öğle molası; park bileti ile geri dön (16:00'a kadar)."
+    },
+    {
+     "name": "Yas Marina Circuit",
+     "category": "landmark",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "F1 pisti; salı-pazar bisiklet/yürüyüş ücretsiz (akşam), Yas Viceroy oteli."
+    },
+    {
+     "name": "Yas Bay Waterfront",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 120,
+     "tips": "Su kenarı restoranlar ve Etihad Arena; akşam."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Warner Bros World",
+     "category": "culture",
+     "start": "11:00",
+     "end": "16:00",
+     "cost": 345,
+     "tips": "Kapalı çizgi film parkı; Ferrari yerine (çocukla)."
+    },
+    {
+     "name": "Cipriani Yas Island",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 250,
+     "tips": "Marina üstü İtalyan; Yas Bay yerine şık."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Al Ain",
+   "stops": [
+    {
+     "name": "Al Ain Oasis",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "UNESCO 147.000 hurma ağacı ve falaj sulama; 1,5 saat araç/otobüs, gölgeli yol."
+    },
+    {
+     "name": "Al Jahili Fort",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "1891 kalesi; Wilfred Thesiger fotoğraf sergisi, ücretsiz."
+    },
+    {
+     "name": "Al Ain Palace Museum",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Şeyh Zayed'in eski sarayı; odalar."
+    },
+    {
+     "name": "Al Fanar Al Ain",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 90,
+     "tips": "1960'lar Emirati dekoru; machboos ve harees."
+    },
+    {
+     "name": "Jebel Hafeet",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "1.240 m dağ yolu (dünyanın en iyi sürüş yollarından); zirvede gün batımı, çöl ve Umman."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Al Ain Camel Market",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Deve pazarı; sabah canlı, saray yerine."
+    },
+    {
+     "name": "Mercure Jebel Hafeet Kafe",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 60,
+     "tips": "Dağ tepesi otel terası; çay ve manzara."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Çöl safarisi & Mangrov",
+   "stops": [
+    {
+     "name": "Eastern Mangroves Kayak",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 160,
+     "tips": "Şehir içi mangrov ormanında kano; flamingolar ve balıkçıllar, sabah serin."
+    },
+    {
+     "name": "Qasr Al Hosn",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Abu Dhabi'nin en eski binası (1795 kule); şehir tarihi, Kültür Vakfı yanı."
+    },
+    {
+     "name": "Al Mina Balık Pazarı Öğle",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 60,
+     "tips": "Liman pazarı; balığını seç, yan lokantada pişirt."
+    },
+    {
+     "name": "Desert Safari Al Khatim",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 250,
+     "tips": "Dune bashing (4x4), deve binme, kum kayağı; gün batımı, kamp."
+    },
+    {
+     "name": "Çöl Kampı Akşam Yemeği",
+     "category": "food",
+     "start": "17:00",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "BBQ büfe, shisha, henna, tanoura dansı; tura dahil."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cultural Foundation Abu Dhabi",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Sergi ve kütüphane; Qasr Al Hosn yanı."
+    },
+    {
+     "name": "Meylas Al Muneera",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 70,
+     "tips": "Emirati kahvaltı-öğle; balaleet."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Heritage Village & Al Bateen",
+   "stops": [
+    {
+     "name": "Heritage Village",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Bedevi köyü canlandırması; zanaatkârlar, Marina Mall yanı, ücretsiz."
+    },
+    {
+     "name": "Etihad Towers Observation Deck 300",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 95,
+     "tips": "74. kat 300 m; çay dahil, Emirates Palace ve Corniche."
+    },
+    {
+     "name": "Al Bateen Dhow Tersanesi",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Ahşap dhow tekneleri yapımı; Al Bateen limanı."
+    },
+    {
+     "name": "Erth Restaurant",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:15",
+     "cost": 180,
+     "tips": "Michelin yıldızlı modern Emirati; Qasr Al Hosn yanı, rezervasyon."
+    },
+    {
+     "name": "Umm Al Emarat Park",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "Şehir parkı; gölgeli sera ve hayvan bahçesi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Al Bateen Beach",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Sakin şehir plajı; park yerine."
+    },
+    {
+     "name": "Li Beirut Jumeirah Etihad Towers",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:15",
+     "cost": 150,
+     "tips": "Lübnan; kule manzaralı."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Souk sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "World Trade Center Souk",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Foster'ın modern çarşısı; baharat, hurma, ud hediyelik."
+    },
+    {
+     "name": "Al Hosn Kahve Molası",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 40,
+     "tips": "Arap kahvesi ve hurma; veda."
+    },
+    {
+     "name": "Jubail Mangrove Park Boardwalk",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "2 km mangrov ahşap yolu; Saadiyat yolu, havalimanına 20 dakika."
+    },
+    {
+     "name": "Abu Dhabi Zayed Havalimanı",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 90,
+     "tips": "Taksi 30 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Arabia Al Bateen",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 50,
+     "tips": "Villa kafe; Arap kahvaltısı."
+    },
+    {
+     "name": "Mushrif Central Park",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Şehir parkı; mangrov yerine."
+    }
+   ]
+  }
+ ]
+}

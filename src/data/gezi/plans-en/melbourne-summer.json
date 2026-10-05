@@ -1,0 +1,492 @@
+{
+ "lang": "en",
+ "slug": "melbourne-summer",
+ "altSlug": "melbourne-yaz",
+ "citySlug": "melbourne",
+ "destKey": "melbourne",
+ "city": "Melbourne",
+ "region": null,
+ "country": "Australia",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "AUD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 480,
+  "attractions": 480,
+  "transport": 90,
+  "misc": 100
+ },
+ "notes": [
+  "Get a myki card (from 7-Eleven). The centre is a Free Tram Zone, and the SkyBus airport transfer costs 22 AUD. For the Great Ocean Road, Phillip Island and Yarra Valley, take a tour or hire a car (they drive on the left).",
+  "NOTE: From June to September it is WINTER in Melbourne (8-14°C, rain), and you can get four seasons in one day, so dress in layers. Penguins arrive early in winter (17:45). Cafes and museums are warm. The Rising festival takes place in July.",
+  "The coffee culture is among the best in the world: try a flat white or a magic. Brunch costs 25-30 AUD, tours 130-150 AUD, and tipping is not expected.",
+  "Book the Penguin Parade online; photography is not allowed. Twelve Apostles looks best in afternoon light. Queen Vic is closed Monday and Wednesday.",
+  "Laneways: Hosier, ACDC, Centre Place, Degraves. For street art, head to Fitzroy and Collingwood, and Sydney Road in Brunswick.",
+  "UV is high in summer, so wear sunscreen. Tap water is safe to drink."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "myki",
+  "why_chosen": "Covers trams, trains and buses. Trams in the centre are FREE (Free Tram Zone), and the daily cap is about 11 AUD.",
+  "coverage": "Tram, Metro, otobüs; SkyBus ayrı",
+  "where_to_buy": "7-Eleven veya istasyon; 6 AUD kart",
+  "cost": 6,
+  "currency_code": "AUD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Laneways and Federation Square",
+   "stops": [
+    {
+     "name": "Hosier Lane",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Graffiti lane that changes daily, next to ACDC Lane."
+    },
+    {
+     "name": "Degraves Street Breakfast",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 18,
+     "tips": "Laneway cafes: try a flat white and avocado toast, then walk on to Centre Place."
+    },
+    {
+     "name": "State Library Victoria La Trobe Reading Room",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Octagonal reading room, free to enter. Ned Kelly's armour is on display."
+    },
+    {
+     "name": "Federation Square & ACMI",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "ACMI, the film museum, is free. Ian Potter NGV showcases Australian art, and the Yarra riverbank is right there."
+    },
+    {
+     "name": "Lune Croissanterie Fitzroy",
+     "category": "food",
+     "start": "16:00",
+     "end": "16:45",
+     "cost": 10,
+     "tips": "Called the \"world's best croissant\". Take tram 11 to Fitzroy and expect a queue."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Higher Ground Breakfast",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 25,
+     "tips": "Brunch in a former power station on Little Bourke Street."
+    },
+    {
+     "name": "Melbourne Museum Carlton",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 15,
+     "tips": "Natural history and an Aboriginal gallery, next to the Royal Exhibition Building. Alternative to ACMI."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Queen Vic Market and Carlton",
+   "stops": [
+    {
+     "name": "Queen Victoria Market",
+     "category": "food",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 15,
+     "tips": "Market dating from 1878. Try the American Doughnut Kitchen van and the cheese and deli hall. The Wednesday night market runs in summer. Closed Monday and Wednesday."
+    },
+    {
+     "name": "Royal Exhibition Building & Carlton Gardens",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "UNESCO-listed 1880 exhibition hall with fountains and gardens."
+    },
+    {
+     "name": "Lygon Street",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 22,
+     "tips": "Little Italy: visit Brunetti pastry shop and Pellegrini's, where Melbourne coffee culture took off."
+    },
+    {
+     "name": "Fitzroy Brunswick Street",
+     "category": "shopping",
+     "start": "13:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Vintage shops, street art and the Rose Street Artists' Market at weekends."
+    },
+    {
+     "name": "Naked for Satan Rooftop Bar",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 20,
+     "tips": "Fitzroy rooftop with city views at sunset and pintxos (Basque-style snacks)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pellegrini's Espresso Bar",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 18,
+     "tips": "Espresso bar unchanged since 1954, on Bourke Street."
+    },
+    {
+     "name": "Melbourne Zoo",
+     "category": "culture",
+     "start": "13:45",
+     "end": "15:30",
+     "cost": 50,
+     "tips": "Zoo in Royal Park. Alternative to Fitzroy if you have children."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Great Ocean Road",
+   "stops": [
+    {
+     "name": "Bells Beach",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Tour departs 06:30 (130 AUD), or drive. Legendary surf beach at Torquay."
+    },
+    {
+     "name": "Kennett River Koala Walk",
+     "category": "nature",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Wild koalas and parrots in the trees along Grey River Road."
+    },
+    {
+     "name": "Apollo Bay",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 20,
+     "tips": "Fishing town for fish and chips and calamari."
+    },
+    {
+     "name": "Twelve Apostles",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Limestone stacks (8 remain). Gibson Steps lead 86 steps down to the beach. The light is best in the afternoon."
+    },
+    {
+     "name": "Loch Ard Gorge",
+     "category": "nature",
+     "start": "15:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Shipwreck cove and caves, 3 minutes from the Apostles. Allow 3 hours for the return journey."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cape Otway Lightstation",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 20,
+     "tips": "The oldest lighthouse on mainland Australia. Alternative to Apollo Bay."
+    },
+    {
+     "name": "Apollo Bay Bakery",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 8,
+     "tips": "Scallop pie."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "St Kilda and Brighton",
+   "stops": [
+    {
+     "name": "Brighton Bathing Boxes",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "82 colourful bathing boxes on Dendy Street Beach. Take the train to Middle Brighton; it is quiet in the morning."
+    },
+    {
+     "name": "St Kilda Esplanade & Pier",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Take tram 96 to the pier and the Luna Park laughing mouth. Little penguins appear at sunset under the pier."
+    },
+    {
+     "name": "Acland Street Cake Shops",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 12,
+     "tips": "Monarch Cakes (1934) and European patisseries, a legacy of Jewish immigrants."
+    },
+    {
+     "name": "Luna Park Melbourne",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Amusement park from 1912. Entry is free, and the Scenic Railway wooden roller coaster costs 15 AUD."
+    },
+    {
+     "name": "St Kilda Pier Penguins",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Little penguins on the breakwater at sunset. No flash; volunteers are on hand."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Stokehouse St Kilda",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 45,
+     "tips": "Stylish restaurant right on the beach."
+    },
+    {
+     "name": "Jewish Museum of Australia",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "St Kilda's Jewish museum. Alternative to the garden."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Phillip Island",
+   "stops": [
+    {
+     "name": "Brighton to Phillip Island and Churchill Island",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "Tour departs 12:00 (130 AUD, penguins included), or drive for 2 hours. Historic farm with sheep shearing."
+    },
+    {
+     "name": "Koala Conservation Reserve",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 15,
+     "tips": "Koalas seen from treetop boardwalks."
+    },
+    {
+     "name": "Cape Woolamai Coastal Walk",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Pink granite headland and surf beach, with the Pinnacles."
+    },
+    {
+     "name": "The Nobbies & Seal Rocks",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Rocky cliffs, gull colonies and fur seals. Bring binoculars."
+    },
+    {
+     "name": "Penguin Parade",
+     "category": "nature",
+     "start": "17:45",
+     "end": "19:15",
+     "cost": 35,
+     "tips": "Thousands of little penguins waddle from the sea to their burrows at sunset. Book tickets online, no photography allowed, bring a coat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Penguin Parade Cafe",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 20,
+     "tips": "Visitor centre serving fish and soup."
+    },
+    {
+     "name": "Panny's Chocolate Factory",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Chocolate factory. Alternative to the koalas if you have children."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Yarra Valley",
+   "stops": [
+    {
+     "name": "Yarra Valley Dairy",
+     "category": "food",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 10,
+     "tips": "Cheese tasting at Yering."
+    },
+    {
+     "name": "Domaine Chandon Yarra Valley",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 35,
+     "tips": "Sparkling wine tasting with vineyard views. Join a tour (about 150 AUD) or drive for 1 hour."
+    },
+    {
+     "name": "Healesville Sanctuary",
+     "category": "nature",
+     "start": "13:00",
+     "end": "15:30",
+     "cost": 50,
+     "tips": "Native animals: kangaroos, platypuses, wombats and a bird show."
+    },
+    {
+     "name": "Yering Station",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 25,
+     "tips": "Wine house on a historic farm, known for pinot noir and views."
+    }
+   ],
+   "backups": [
+    {
+     "name": "TarraWarra Estate",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 25,
+     "tips": "Wine and an art museum. Alternative to Yering."
+    },
+    {
+     "name": "Innocent Bystander Healesville",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Pizza and wine in the town centre."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Southbank and a gentle farewell",
+   "stops": [
+    {
+     "name": "Royal Botanic Gardens Victoria",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "38 hectares of gardens, with Ornamental Lake and views of the Shrine of Remembrance."
+    },
+    {
+     "name": "Shrine of Remembrance",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "City views from the memorial balcony. Free."
+    },
+    {
+     "name": "Southbank Promenade",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Yarra riverbank walk. Eureka Skydeck (30 AUD) is optional."
+    },
+    {
+     "name": "Southgate Breakfast and Lunch",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 22,
+     "tips": "Riverside views; have a farewell flat white."
+    },
+    {
+     "name": "Southern Cross SkyBus",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 22,
+     "tips": "SkyBus to Tullamarine takes 30 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eureka Skydeck",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 30,
+     "tips": "Level 88 and the Edge glass cube."
+    },
+    {
+     "name": "Ponyfish Island",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 18,
+     "tips": "Floating bar-cafe under the bridge."
+    }
+   ]
+  }
+ ]
+}

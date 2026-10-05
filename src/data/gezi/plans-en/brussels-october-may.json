@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "brussels-october-may",
+ "altSlug": "bruksel-ekim-mayis",
+ "citySlug": "bruksel",
+ "destKey": "brussels",
+ "city": "Brussels",
+ "region": null,
+ "country": "Belgium",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 380,
+  "attractions": 180,
+  "transport": 90,
+  "misc": 80
+ },
+ "notes": [
+  "A STIB day pass costs 8 EUR, and the city centre is walkable. Take the train to Bruges and Ghent (weekend tickets are 50% off). The train to Zaventem takes 20 minutes.",
+  "In December there is a light show on Grand-Place and a Christmas market (Plaisirs d'Hiver). Winter weather is 3-7°C and rainy, so museums and beer bars are warm refuges. The Laeken greenhouses open in April and May.",
+  "Waffles cost 3-7 EUR (Brussels = rectangular and light, Liège = dense and sugary), frites 4-6, moules-frites 25, beer 4-6. For a tip, round up the bill.",
+  "French is spoken in Brussels and Flemish in Bruges and Ghent; English also works. Avoid the restaurants on Rue des Bouchers (tourist traps), except Chez Léon.",
+  "Museums are closed on Mondays. Book Atomium and Belfry tickets online. On the first Wednesday of the month, many museums are free in the afternoon.",
+  "Chocolate: Neuhaus, Marcolini, Wittamer, Mary. Leonidas is cheap and good."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Grand-Place and city centre",
+   "stops": [
+    {
+     "name": "Grand-Place",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "A UNESCO square with guildhouses and the Town Hall, empty before 10:00. Manneken Pis is 2 streets away. In even-numbered years the Flower Carpet appears in August."
+    },
+    {
+     "name": "Galeries Royales Saint-Hubert",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "A glass-roofed arcade from 1847, home to Neuhaus's first shop and Pierre Marcolini."
+    },
+    {
+     "name": "Maison Dandoy Grand-Place",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 7,
+     "tips": "Speculoos and Brussels waffles (rectangular, light) since 1829. Compare with a Liège waffle (dense, sugary)."
+    },
+    {
+     "name": "Fritland",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 8,
+     "tips": "A friterie next to the square. Try the twice-fried chips and a mitraillette sandwich, part of UNESCO-recognised culture."
+    },
+    {
+     "name": "Delirium Café",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 12,
+     "tips": "Guinness record holder with 2,000+ beers. In Impasse de la Fidélité, opposite Jeanneke Pis."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Chez Léon",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 25,
+     "tips": "Moules-frites (mussels and chips) since 1893. On Rue des Bouchers."
+    },
+    {
+     "name": "Museum of the City of Brussels Maison du Roi",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "The city museum in the King's House on the square, with Manneken Pis costumes."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Sablon, Magritte and Marolles",
+   "stops": [
+    {
+     "name": "Magritte Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 10,
+     "tips": "200+ surrealist works (bowler hat, apple). Combined ticket with the Royal Museums 15 EUR, closed Mondays."
+    },
+    {
+     "name": "Place du Grand Sablon",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Antique dealers and chocolatiers (Wittamer, Marcolini), plus an antiques market at weekends."
+    },
+    {
+     "name": "Le Pain Quotidien Sablon",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "The chain's first branch. Try the tartines and soup."
+    },
+    {
+     "name": "Place du Jeu de Balle Flea Market",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A daily flea market in Marolles, best in the morning, in Brueghel's old neighbourhood."
+    },
+    {
+     "name": "Musical Instruments Museum MIM",
+     "category": "culture",
+     "start": "16:15",
+     "end": "17:30",
+     "cost": 15,
+     "tips": "An Art Nouveau building (the Old England store). Instruments come with headphones, and the rooftop café has views."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Wittamer Sablon",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 12,
+     "tips": "A pastry shop from 1910 and royal supplier."
+    },
+    {
+     "name": "Royal Museums of Fine Arts",
+     "category": "culture",
+     "start": "16:15",
+     "end": "17:30",
+     "cost": 10,
+     "tips": "Bruegel and Rubens. Go instead of the MIM (combined ticket with Magritte)."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Bruges",
+   "stops": [
+    {
+     "name": "Markt Bruges",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Take the train, 1 hour from Brussels-Midi (~15 EUR). The square has the Belfry and guildhouses."
+    },
+    {
+     "name": "Belfry of Bruges",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "366 steps to the bell chamber and a panorama over the canal town. Timed tickets."
+    },
+    {
+     "name": "Bruges Canal Boat Tour",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 12,
+     "tips": "A 30-minute boat ride past Rozenhoedkaai (the most photographed corner). 5 departure docks."
+    },
+    {
+     "name": "De Halve Maan Brewery",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 18,
+     "tips": "Home of Brugse Zot beer. The tour takes 45 minutes plus a beer, with rooftop views. Go at lunchtime."
+    },
+    {
+     "name": "Begijnhof Bruges",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "A beguine courtyard from 1245, very peaceful. Minnewater, the Lake of Love, is nearby."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Frituur Bruges Markt",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 6,
+     "tips": "Two chip huts beneath the Belfry."
+    },
+    {
+     "name": "Groeningemuseum",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "Flemish Primitives (van Eyck). Go instead of the Begijnhof."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Atomium and Laeken",
+   "stops": [
+    {
+     "name": "Atomium",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:45",
+     "cost": 16,
+     "tips": "The 102 m iron crystal from Expo 1958. Spheres and views, book online (combined ticket with Design Museum)."
+    },
+    {
+     "name": "Mini-Europe",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 19,
+     "tips": "350 miniatures of Europe's landmarks, at the foot of the Atomium. Good with children."
+    },
+    {
+     "name": "Atomium Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "A restaurant with views in the top sphere. Go to the outdoor café instead."
+    },
+    {
+     "name": "Royal Greenhouses of Laeken",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 4,
+     "tips": "Open for only 3 weeks in April and May. At other times, see Laeken Park and the Japanese Tower from outside."
+    },
+    {
+     "name": "Parc du Cinquantenaire",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A triumphal arch and museums, in the EU quarter."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Frit Flagey",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 6,
+     "tips": "The city's best friterie (Place Flagey). Take the tram."
+    },
+    {
+     "name": "Autoworld Cinquantenaire",
+     "category": "culture",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 15,
+     "tips": "300 classic cars. Go instead of the park."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Ghent",
+   "stops": [
+    {
+     "name": "Gravensteen",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 13,
+     "tips": "35 minutes by train. The counts' castle has a funny audio guide and ramparts with city views."
+    },
+    {
+     "name": "Graslei & Korenlei",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Guildhouses along the canal, the best view in Ghent from St Michael's Bridge."
+    },
+    {
+     "name": "Saint Bavo's Cathedral Ghent Altarpiece",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 16,
+     "tips": "Van Eyck's Adoration of the Mystic Lamb panel (AR tour). Opposite the Belfry."
+    },
+    {
+     "name": "Patershol",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "A medieval quarter full of restaurants. Try Gentse waterzooi (chicken stew)."
+    },
+    {
+     "name": "Ghent Canal Boat Tour",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 9,
+     "tips": "40 minutes, departing from Graslei. Then take the train back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Belfry of Ghent",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 11,
+     "tips": "A UNESCO bell tower. Go instead of the cathedral."
+    },
+    {
+     "name": "Frituur Filip Gent",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 6,
+     "tips": "A Ghent chip hut."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Ixelles, Art Nouveau and the EU",
+   "stops": [
+    {
+     "name": "Horta Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 12,
+     "tips": "The home of Victor Horta, the inventor of Art Nouveau, in Saint-Gilles. Timed tickets, closed Mondays."
+    },
+    {
+     "name": "Avenue Louise Art Nouveau Walk",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "The façades of Hôtel Tassel and Solvay, in Ixelles."
+    },
+    {
+     "name": "Place Flagey & Ixelles Ponds",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "A square and lakeside, with a market at weekends."
+    },
+    {
+     "name": "Belga Café Flagey",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 15,
+     "tips": "A café on Place Flagey. Order a croque and a beer, opposite Frit Flagey."
+    },
+    {
+     "name": "European Parliament Parlamentarium",
+     "category": "culture",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A free interactive EU museum. Hemicycle tour with your passport."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Moeder Lambic Fontainas",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 15,
+     "tips": "A bar for lambic and gueuze beers. A more local option than Delirium."
+    },
+    {
+     "name": "Museum of Natural Sciences",
+     "category": "culture",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 13,
+     "tips": "Europe's largest dinosaur hall. Go instead of the Parlamentarium."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Chocolate morning and farewell",
+   "stops": [
+    {
+     "name": "Choco-Story Brussels",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 12,
+     "tips": "A chocolate museum with demonstrations, next to Grand-Place."
+    },
+    {
+     "name": "Pierre Marcolini Grand Sablon",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "One of Belgium's best chocolatiers. Buy a gift box."
+    },
+    {
+     "name": "Noordzee Mer du Nord",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 15,
+     "tips": "A stand-up fish bar in Sainte-Catherine. Have shrimp croquettes and white wine as a farewell."
+    },
+    {
+     "name": "Gare Centrale",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "The train to Zaventem takes 20 minutes (Midi/Central). The bus to Charleroi takes 1 hour. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Le Pain Quotidien Sainte-Catherine",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 12,
+     "tips": "A café on the square."
+    },
+    {
+     "name": "Comics Art Museum",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 13,
+     "tips": "Tintin and the Smurfs, in a Horta building. Go instead of the chocolate."
+    }
+   ]
+  }
+ ]
+}

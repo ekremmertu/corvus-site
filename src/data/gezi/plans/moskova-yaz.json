@@ -1,0 +1,476 @@
+{
+ "lang": "tr",
+ "slug": "moskova-yaz",
+ "altSlug": "moscow-summer",
+ "citySlug": "moskova",
+ "destKey": "moscow",
+ "city": "Moskova",
+ "region": null,
+ "country": "Rusya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "RUB",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 18000,
+  "attractions": 10000,
+  "transport": 3000,
+  "misc": 3000
+ },
+ "notes": [
+  "Troika kartla metro (dünyanın en güzel istasyonları, tur değerinde); Yandex Go taksi. Aeroexpress havalimanlarına.",
+  "Vize: Türkiye vatandaşı 60 gün vizesiz; e-vize diğerleri. Yabancı banka kartı çalışmaz (2026), nakit ruble veya MIR kartı; Google Pay yok.",
+  "Yaz 22-28°C ve 22:00'ye kadar aydınlık; parklar, nehir teknesi, Gorky Park bisikleti.",
+  "Pelmeni 400-600 RUB, Gürcü restoranı 1.500-2.500, stolovaya 300; bahşiş %10.",
+  "Kremlin ve Silahhane online 2 hafta önce; Lenin Mozolesi salı-perşembe-cumartesi sabah, sıra 30 dakika.",
+  "Kiliselerde kadınlar başörtülü, erkekler şapkasız; fotoğraf içeride yasak olabilir."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Troika Card",
+  "why_chosen": "Metro, otobüs ve tramvay; metro istasyonları dünyanın en güzelleri arasında.",
+  "coverage": "Moskova Metrosu, otobüs, tramvay, Aeroexpress ayrı",
+  "where_to_buy": "Metro gişeleri; 80 RUB kart",
+  "cost": 80,
+  "currency_code": "RUB"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Kızıl Meydan & Kremlin",
+   "stops": [
+    {
+     "name": "Red Square",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Sabah boş meydan; Aziz Vasil ve GUM cepheleri, Lenin Mozolesi (salı-perşembe-cumartesi 10-13)."
+    },
+    {
+     "name": "St. Basil's Cathedral",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 700,
+     "tips": "Soğan kubbeli katedral; iç dar merdivenler, ikon."
+    },
+    {
+     "name": "Moscow Kremlin & Armoury",
+     "category": "culture",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 1500,
+     "tips": "Kremlin katedralleri + Silahhane (Fabergé yumurtaları); online 2 hafta önce, perşembe kapalı, Silahhane saatli."
+    },
+    {
+     "name": "GUM Gastronom No.1",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 800,
+     "tips": "GUM'un Sovyet temalı gıda katı; dondurma (plombir) ve kafeterya."
+    },
+    {
+     "name": "Zaryadye Park Yüzen Köprü",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Kremlin yanında modern park; nehir üstü köprü ve buz mağarası, gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Stolovaya 57 GUM",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 500,
+     "tips": "GUM'da Sovyet kantini; ucuz."
+    },
+    {
+     "name": "State Historical Museum",
+     "category": "culture",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Kızıl Meydan'ın kırmızı müzesi; Kremlin bileti yoksa."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Tretyakov & Zamoskvorechye",
+   "stops": [
+    {
+     "name": "Tretyakov Gallery",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 700,
+     "tips": "Rus resmi; Repin, Vrubel, ikonlar (Rublev Teslis); pazartesi kapalı."
+    },
+    {
+     "name": "Zamoskvorechye Sokakları",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Tüccar mahallesi; Pyatnitskaya caddesi ve kiliseler."
+    },
+    {
+     "name": "Lepim i Varim Pyatnitskaya",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "El yapımı pelmeni; çeşitli dolgular."
+    },
+    {
+     "name": "Muzeon Park & Krymskaya Naberezhnaya",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Sovyet heykel parkı (düşürülmüş Dzerjinski) ve nehir sahili."
+    },
+    {
+     "name": "Gorky Park",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Moskova'nın ana parkı; yazın bisiklet-dans, kışın Avrupa'nın en büyük buz pisti."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Pushkin",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 3000,
+     "tips": "Aristokrat Rus mutfağı; Tverskoy, rezervasyon."
+    },
+    {
+     "name": "Garage Museum of Contemporary Art",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 500,
+     "tips": "Gorky Park'ta çağdaş sanat; Rem Koolhaas binası."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Metro turu & Arbat",
+   "stops": [
+    {
+     "name": "Komsomolskaya Metro İstasyonu",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Mozaikli barok istasyon; metro turu başlangıcı (Troika ile)."
+    },
+    {
+     "name": "Mayakovskaya Metro İstasyonu",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Art deco çelik kemerler ve tavan mozaikleri."
+    },
+    {
+     "name": "Ploshchad Revolyutsii Metro",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Bronz heykeller; köpeğin burnunu ov."
+    },
+    {
+     "name": "Arbat Caddesi",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Yaya caddesi; matruşka ve sokak müzisyenleri, Puşkin evi."
+    },
+    {
+     "name": "Mari Vanna Moscow",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 1500,
+     "tips": "Babaanne evi temalı Rus mutfağı; borş ve pelmeni."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Varenichnaya No.1 Arbat",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 700,
+     "tips": "Sovyet nostaljik zincir; vareniki."
+    },
+    {
+     "name": "Pushkin Museum of Fine Arts",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "Empresyonistler ve Mısır; Arbat yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "VDNKh & Ostankino",
+   "stops": [
+    {
+     "name": "VDNKh",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Sovyet başarı fuarı; Halkların Dostluğu çeşmesi, Kozmos pavyonu (ücretli müze), ücretsiz alan."
+    },
+    {
+     "name": "Museum of Cosmonautics",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 400,
+     "tips": "Uzay fatihleri anıtının altında; Gagarin ve Sputnik."
+    },
+    {
+     "name": "VDNKh Pavilyon Kafeteryası",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 500,
+     "tips": "Fuar içi Sovyet stolovaya; şaşlık."
+    },
+    {
+     "name": "Ostankino TV Kulesi",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 1500,
+     "tips": "540 m kule; pasaportla, cam zemin, saatli."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Moskovskoye Nebo VDNKh",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 800,
+     "tips": "Pavyonda Rus mutfağı."
+    },
+    {
+     "name": "Botanical Garden VDNKh",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 300,
+     "tips": "Fuar yanı botanik; kule yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Sergiyev Posad",
+   "stops": [
+    {
+     "name": "Trinity Lavra of St. Sergius",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Yaroslavsky Garı'ndan tren 1 saat; Rus Ortodoksluğunun merkezi, mavi-altın kubbeler, Aziz Sergius türbesi, başörtüsü."
+    },
+    {
+     "name": "Lavra Trapeznaya Yemekhane",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "Manastır yemekhanesi; balık ve kvas."
+    },
+    {
+     "name": "Sergiev Posad Oyuncak Müzesi",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 300,
+     "tips": "Matruşkanın doğduğu yer; ahşap oyuncak."
+    },
+    {
+     "name": "Blinnaya Gora Seyir Noktası",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Manastırın kartpostal manzarası; tepe."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gostevaya Izba Sergiev Posad",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Geleneksel Rus izbasında öğle."
+    },
+    {
+     "name": "Abramtsevo Estate",
+     "category": "culture",
+     "start": "14:15",
+     "end": "16:15",
+     "cost": 400,
+     "tips": "Sanatçı kolonisi malikanesi; müze yerine (yolda)."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Kolomenskoye & Moskova-City",
+   "stops": [
+    {
+     "name": "Kolomenskoye",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Nehir kenarı çar malikanesi; Göğe Yükseliş Kilisesi (UNESCO), ahşap saray kopyası, elma bahçeleri."
+    },
+    {
+     "name": "Kolomenskoye Çay Evi",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 300,
+     "tips": "Park içi semaver çayı ve blini."
+    },
+    {
+     "name": "Moscow City Federation Tower Panorama 360",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 1500,
+     "tips": "89. kat gözlem; ücretsiz dondurma, gökdelen bölgesi."
+    },
+    {
+     "name": "Khachapuri Restaurant Bolshaya Gruzinskaya",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 1500,
+     "tips": "Gürcü zinciri; khachapuri ve khinkali, Moskova'nın favorisi."
+    },
+    {
+     "name": "Patriarch's Ponds",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Bulgakov'un gölü; kafeler ve akşam yürüyüşü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sakhli Georgian Restaurant",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 2000,
+     "tips": "Tsvetnoy'da Gürcü."
+    },
+    {
+     "name": "Novodevichy Convent",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 300,
+     "tips": "Kızıl duvarlı manastır ve ünlüler mezarlığı; gökdelen yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Bolshoi çevresi — hafif veda",
+   "stops": [
+    {
+     "name": "Bolshoi Theatre",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Cephe ve meydan; gösteri bileti aylar önce, sabah fotoğraf."
+    },
+    {
+     "name": "Eliseevsky / Tverskaya",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Tverskaya caddesi; kahve ve hediyelik (kışın Noel)."
+    },
+    {
+     "name": "Cafe Pushkin Konditerskaya",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 800,
+     "tips": "Pushkin'in pastanesi; pasta ve kahve, veda."
+    },
+    {
+     "name": "Aeroexpress Belorussky",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Sheremetyevo'ya Aeroexpress 35 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dr. Zhivago Restaurant",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 1500,
+     "tips": "National Otel'de Sovyet şık kahvaltı."
+    },
+    {
+     "name": "Bunker-42",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 2500,
+     "tips": "Soğuk Savaş sığınağı turu; Bolshoi yerine."
+    }
+   ]
+  }
+ ]
+}

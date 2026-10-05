@@ -1,0 +1,536 @@
+{
+ "lang": "en",
+ "slug": "bursa-summer",
+ "altSlug": "bursa-yaz",
+ "citySlug": "bursa",
+ "destKey": "bursa",
+ "city": "Bursa",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 11307,
+  "attractions": 3133,
+  "transport": 1050,
+  "misc": 400
+ },
+ "notes": [
+  "Most small businesses, such as those in Kayhan Bazaar, the Grand Bazaar and village restaurants, prefer cash. Cards may not work everywhere, so keep some small notes on you.",
+  "Use BursaKart in the city. The area around the Grand Bazaar and the Grand Mosque is either closed to vehicles or congested, so walking or taking the tram is faster.",
+  "Service is not included in restaurant bills. Leaving 5-10% of the bill is enough and well received.",
+  "When visiting places of worship such as the Grand Mosque and the Green Mosque, your knees and shoulders should be covered, and women need a headscarf. A free scarf or cloak is usually available at the entrance.",
+  "Bursa is hot and humid in July, so afternoons are set aside for resting at the hotel or for indoor stops (bazaar, museum, hamam). Outdoor stops are placed in the morning and early evening.",
+  "On weekends, tours from Istanbul get busy in villages such as Cumalıkızık and Misi. For a quieter trip, it is more enjoyable to go on a weekday.",
+  "Arap Şükrü Sokağı is a tavern street where alcohol is served, though meze and meals are also served to those who don't drink. If you feel uncomfortable, walk towards Setbaşı to find a calmer alternative."
+ ],
+ "niche": {
+  "name": "Misi Silk House",
+  "level": "l2",
+  "why_hidden": "Almost every village tour to Bursa stops at Cumalıkızık. Just 6 km away, Misi and the silk weaving house of the women's cooperative that keeps it going carry the same \"end of the Silk Road\" heritage, but never appear on the radar of tourist buses.",
+  "access_instructions": "It is in the stone streets of Misi Village (Nilüfer), in a small stone building run by the Misi Women's Association. It is open for free entry on weekdays from 09:30 to 17:00 (closed on Mondays). To see a workshop demonstration, just ask at reception.",
+  "local_contact": "Nilüfer Belediyesi Çağrı Merkezi 444 16 03 (ziyaret/organizasyon için İpek Evi'ne yönlendirme yapıyorlar)",
+  "season": "April-October (if you coincide with the silkworm cocoon season in summer, you are more likely to see a live weaving demonstration)",
+  "insider_tip": "In the small shop at the entrance, silk scarves woven by hand by the women are sold directly by the producers, for almost half the price at Koza Han in the Grand Bazaar. Cards usually don't work, so bring cash.",
+  "show_reason": "Aynı ipek mirasını, Koza Han'ın turist kalabalığı olmadan, onu üreten kadınların kendi ağzından dinleme fırsatı sunuyor; maliyeti neredeyse sıfır ama deneyim olarak çok zengin ve sosyal medyada nadiren paylaşılan bir durak.",
+  "lat": 40.1798,
+  "lng": 28.9758,
+  "address": "Misi Mahallesi, Nilüfer, Bursa",
+  "cost_range_min": 0,
+  "cost_range_max": 100,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "BursaKart",
+  "why_chosen": "BursaKart brings almost all public transport in the city onto one card, including the BursaRay metro, the T1/T2 tram lines, city buses and the Uludağ Cable Car. It connects you seamlessly to central stops in your plan such as the Grand Bazaar, Tophane and Muradiye. It is cheaper than single tickets and offers time and fare discounts on transfers. That makes it the most sensible option for a couple spending 5 days in the city.",
+  "coverage": "BursaRay metro, T1/T2 tramvay, şehir içi otobüs ve dolmuş bağlantıları, Uludağ Teleferiği indirimli geçiş",
+  "where_to_buy": "BursaRay istasyonlarındaki otomatik kiosk makinelerinden, otogar/havalimanı kiosklarından veya BURULAŞ mobil uygulaması üzerinden dijital kart/karekod olarak alınabilir",
+  "cost": 150,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Bursa's iconic face: Grand Mosque to Tophane",
+   "stops": [
+    {
+     "name": "Ulu Cami",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Completed in 1399, the mosque has 20 domes. Look for the ablution fountain in the centre and the carved woodwork of the minbar. Entry is free, and it is quiet early in the morning."
+    },
+    {
+     "name": "Koza Han",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Have a tea by the courtyard fountain of this two-storey silk caravanserai, built in 1491. Emir Han and Fidan Han are a few steps away. There is room to haggle on silk scarves."
+    },
+    {
+     "name": "Ömür Köfte",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 650,
+     "tips": "Directly opposite the side door of the Grand Mosque, this small köfte place has long been a local favourite. Köfte in bread with ayran is the classic combination, and the queue shortens after 13:00."
+    },
+    {
+     "name": "Irgandi Köprüsü Sanatçılar Çarşısı",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Both sides of the 15th-century bridge are lined with craft workshops. Walk along the Gökdere Valley and watch the artisans at work."
+    },
+    {
+     "name": "Tophane Clock Tower and the Tombs of Osman Gazi and Orhan Gazi",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Arrive 30-40 minutes before sunset. From the tower, the Uludağ skyline and the orange tones of the Bursa Plain give you golden-hour photos. The tombs are free to visit."
+    },
+    {
+     "name": "Tarihi Mavi Dükkan (Kebapçı Iskender)",
+     "category": "food",
+     "start": "21:00",
+     "end": "22:30",
+     "cost": 950,
+     "tips": "The original Iskender recipe, run by the same family since 1867. The shop is small, so after 21:00 the queue can grow a little, but it moves quickly. Order şıra (grape juice) on the side."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kebapçı Tamer",
+     "category": "food",
+     "start": "21:00",
+     "end": "22:30",
+     "cost": 850,
+     "tips": "A modest Iskender stop with well-balanced portions, popular with locals in recent years. A calm alternative in the evening."
+    },
+    {
+     "name": "Bursa Castle (Hisar) and Zindankapı",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The Hisar district, where pre-Ottoman walls still stand, makes a quiet, free walk through narrow streets and old mansions."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Green Bursa: complexes, Kültürpark and local flavours",
+   "stops": [
+    {
+     "name": "Green Mosque and Green Tomb",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "An early Ottoman work famous for its turquoise tiles. Remember to take off your shoes. Entry is free, and morning light gives the best shots of the tiles."
+    },
+    {
+     "name": "Muradiye Complex",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 150,
+     "tips": "An early Ottoman complex with 13 tombs. Most Cumalıkızık tours skip it, so it is very quiet. Look closely at the decorated tiles of the tombs."
+    },
+    {
+     "name": "4 Köfte",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 650,
+     "tips": "A small köfte place squeezed in among the coppersmiths at the entrance of the Coppersmiths' Bazaar. It is a local lunch classic that rarely appears in tourist guides."
+    },
+    {
+     "name": "Kültürpark",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 100,
+     "tips": "You can rent a rowing boat on the pond of this 393,000 square metre park, and rest in the shade at the tea gardens. Ideal for cooling off on a hot afternoon."
+    },
+    {
+     "name": "Kafkas Kestane Şekeri (Nilüfer)",
+     "category": "food",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 180,
+     "tips": "Candied chestnuts made with the traditional syrup method since 1930. The shop has a free tasting corner, so don't forget to buy some as gifts."
+    },
+    {
+     "name": "Uludağ Kebapçısı",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "A historic Iskender restaurant in the old garages, serving since 1964. Go to the first sitting (19:30) to avoid the rush, and drink şıra with your meal."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kebapçı Hüseyin Usta",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 800,
+     "tips": "Known for its Iskender made with a mix of lamb, mutton and beef, and counted among the best in Bursa."
+    },
+    {
+     "name": "Bursa City Museum",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 100,
+     "tips": "A small but carefully made museum in the old government building that tells the story of the city's memory. Closed on Mondays."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Journey through time: Cumalıkızık and Misi",
+   "stops": [
+    {
+     "name": "Cumalıkızık Village",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Among the UNESCO-listed stone houses, the crowds have not yet arrived early in the morning. At the street stalls you can buy handmade noodles and tarhana (dried soup mix)."
+    },
+    {
+     "name": "Azime Abla'nın Yeri",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 700,
+     "tips": "Directly opposite the house where the film Kınalı Kar was shot, four women roll out gözleme (stuffed flatbread) before your eyes. Weekday lunchtimes are calmer."
+    },
+    {
+     "name": "Misi Silk House",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 100,
+     "tips": "A silk weaving workshop revived through a partnership between Nilüfer Municipality and the Misi Women's Association. In the shop at the entrance, silk scarves woven by hand by the women sell for half the Grand Bazaar price. Bring cash."
+    },
+    {
+     "name": "Misi Ethnography House (Mysia Photography Museum)",
+     "category": "culture",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 100,
+     "tips": "Türkiye's first village photography museum, in a restored old Greek house. Entry is free or by donation, and it is closed on Mondays. Take a break at the tea garden by the Nilüfer Stream."
+    },
+    {
+     "name": "Arap Şükrü Sokağı",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 1300,
+     "tips": "A historic tavern street famous for the trio of rakı, fish and rocket. Violinists and darbuka players wander between the tables. There is also a rich choice of meze and main dishes for those who don't drink alcohol."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Idris Pideli Köfte (Kayhan Çarşısı)",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 650,
+     "tips": "A well-loved pideli köfte place in Kayhan Bazaar, where butter is gently melted over pide from the historic Pidecioğlu bakery."
+    },
+    {
+     "name": "Setbaşı Bridge and Gökdere Bank",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "A calm walk along the river. Good for photos in the early evening light, and free."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Hamams, workshops and hidden eateries",
+   "stops": [
+    {
+     "name": "Ördekli Hamamı Kültür Merkezi",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 80,
+     "tips": "The largest double hamam the Ottomans built in Bursa was turned into a cultural centre in 2008. Visit the traditional craft workshops and the exhibition gallery. Most foreign tourists don't know about this place."
+    },
+    {
+     "name": "Abdal Simit Fırını",
+     "category": "food",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 100,
+     "tips": "The address for Bursa simit (sesame bread ring), baked in a wood-fired oven since 1969. If you catch one hot, you're in luck."
+    },
+    {
+     "name": "Rumeli Kardeşler Sofrası",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 750,
+     "tips": "A tradesmen's restaurant in Gülbahçe whose daily-changing menu offers both Ottoman and Bursa dishes. Finding a table at lunchtime can be hard, so go early."
+    },
+    {
+     "name": "Eski Kaplıca",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 1200,
+     "tips": "This double hamam from the 14th century, built in the reign of Murad I, is still in use. Ask for the scrub-and-foam package. Look out for the lion-head fountain from the Byzantine period."
+    },
+    {
+     "name": "Cumhuriyet Caddesi Nostalgic Tram Walk",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "On Bursa's Istiklal Avenue, watch the nostalgic tram and stroll among 270 wood-and-stone shops. The street is closed to traffic."
+    },
+    {
+     "name": "Hacı Ilyas Lokantası",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 850,
+     "tips": "Opposite the FSM Metro stop, this is where locals eat in the evening. You can choose from the daily home-style dishes."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pidecioğlu Cantık",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 400,
+     "tips": "Behind Kayhan Bazaar and Özdilek, one of the best-known addresses for cantık, Bursa's traditional meat-filled dough."
+    },
+    {
+     "name": "Atatürk House Museum",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 50,
+     "tips": "A 19th-century mansion among pine trees on Çekirge Avenue. It is where Atatürk stayed in Bursa, and it is also valuable as an example of civil architecture."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Green Nilüfer: industrial heritage and neighbourhood flavours",
+   "stops": [
+    {
+     "name": "Merinos Atatürk Kültür Parkı and Textile Industry Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 100,
+     "tips": "An industrial heritage museum in a converted old yarn factory. You can also walk in its large green space."
+    },
+    {
+     "name": "Hayat Lokantası (inside Merinos Park)",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 700,
+     "tips": "A small home-cooking restaurant inside the park, popular with workers nearby. The daily menu changes."
+    },
+    {
+     "name": "Botanik Park (Nilüfer)",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A calm afternoon break with wide walking routes and ponds. Pick the shaded areas. Free to enter."
+    },
+    {
+     "name": "Inci Pide (Anadolu Mah.)",
+     "category": "food",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 300,
+     "tips": "A thin-dough place often recommended on Ekşi Sözlük for cantık, Bursa's meat-filled classic."
+    },
+    {
+     "name": "Kardeşler Pide (Tuzpazarı)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 750,
+     "tips": "A small shop inside Tuzpazarı. Among the local pide varieties, minced meat and cheese are the most popular."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Çiçek Izgara",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 650,
+     "tips": "A long-established grill house that Bursa locals recommend for köfte, a simple and filling lunch option."
+    },
+    {
+     "name": "Kükürtlü Kaplıcası",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A calm walking route in the Çekirge/Kükürtlü area where you can see historic thermal bath architecture from the outside."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Escape to Uludağ: cable car to the summit",
+   "stops": [
+    {
+     "name": "Uludağ Cable Car and Summit Nature Trip",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 1053,
+     "tips": "You rise above the clouds on Türkiye's longest cable car line (9 km). A guided summit nature walk is included. It is cool even in summer, so bring a cardigan.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Bursa+Uludag+cable+car+nature+trip",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Lunch on Uludağ (Cable Car Tour Option)",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 527,
+     "tips": "A lunch package with a view at the summit restaurants. Book ahead. You eat with a view of the Bursa Plain lying below the clouds.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Bursa+Uludag+tour+lunch+cable+car",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Bakacak Viewing Terrace",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "From the glass-floored viewing terrace at 1720 metres, the open-air view stretches as far as the Sea of Marmara. It may occasionally close for maintenance. If it is closed, continue to Sarıalan."
+    },
+    {
+     "name": "Kirazlıyayla",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 200,
+     "tips": "In this quiet highland village at 1530 metres, try the fresh cherry jam and künefe (cheese dessert) sold by villagers. A short but pleasant stop on the way back."
+    },
+    {
+     "name": "Iskender (Ünlü Caddesi)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 950,
+     "tips": "A restaurant with the original recipe, run by Iskender Efendi's third-generation grandson. Ideal for dinner on your return to the city."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Meşhur Kayhan Pideli Köfte (Hacı Hüsamettin Sünneli)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 650,
+     "tips": "A long-established pideli köfte address in Kayhan Bazaar, run by the same family since 1970."
+    },
+    {
+     "name": "Sarıalan Yaylası",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A day-use area reached in 20 minutes by cable car. Suitable for a short walk among pine forests."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Coastal escape: Mudanya and Tirilye",
+   "stops": [
+    {
+     "name": "Mudanya Armistice House Museum",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 100,
+     "tips": "The historic building where the 1922 Mudanya Armistice was signed is a small but moving museum. The entry fee is symbolic."
+    },
+    {
+     "name": "Tirilye Kapanca Harbour",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "One of the oldest harbours in the region. A nostalgic walk among fishing boats and historic Greek houses, at the ideal hour for photos."
+    },
+    {
+     "name": "Çamlı Kahve",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "A place with sea views that has been used as a picnic spot since the early 1900s. Good for lunch or breakfast."
+    },
+    {
+     "name": "Kumyaka Beach",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 150,
+     "tips": "A small, quiet cove between Mudanya and Tirilye, surrounded by old Greek houses. Locals come here for tea, and it is away from the crowds."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tirilye Balık Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 900,
+     "tips": "A seaside restaurant on Yalı Sokak, Iskele Caddesi, serving fresh fish from the boats that return to the harbour in the morning."
+    },
+    {
+     "name": "Gölyazı Village",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A peninsula village on the shore of Lake Uluabat. Famous for its 700-year-old Weeping Plane Tree and its storks, and known for its sunset views."
+    }
+   ]
+  }
+ ]
+}

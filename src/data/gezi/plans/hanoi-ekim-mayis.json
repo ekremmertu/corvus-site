@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "hanoi-ekim-mayis",
+ "altSlug": "hanoi-october-may",
+ "citySlug": "hanoi",
+ "destKey": "hanoi",
+ "city": "Hanoi",
+ "region": null,
+ "country": "Vietnam",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "VND",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 2200000,
+  "attractions": 2400000,
+  "transport": 900000,
+  "misc": 500000
+ },
+ "notes": [
+  "Grab (motor/araç) ucuz; Old Quarter yürünür, motorlar arasında sabit hızla geç. Ha Long ve Ninh Binh için tur (otelden alma dahil) en pratik.",
+  "Ekim-Aralık en iyi (20-25°C, kuru); Ocak-Mart 10-15°C, gri ve çiseli, hırka al; Tet'te (Ocak-Şubat) dükkânlar kapalı.",
+  "Pho 50-70.000 VND, bun cha 70-80.000, egg coffee 35.000, bia hoi 10-15.000; nakit, küçük banknot.",
+  "Mozole pazartesi ve cuma kapalı, sabah açık; tapınaklarda omuz-diz kapalı, mozolede sessizlik.",
+  "Train Street erişimi değişken; kafe sahipleri saat söyler, raydan uzak dur.",
+  "Pazarlık pazarda %30-50; taksi için Grab kullan, sokak taksilerinin taksimetresi hileli olabilir."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old Quarter & Hoan Kiem",
+   "stops": [
+    {
+     "name": "Hoan Kiem Gölü",
+     "category": "nature",
+     "start": "07:00",
+     "end": "08:00",
+     "cost": 0,
+     "tips": "Sabah tai chi ve aerobik; Huc Köprüsü ve Ngoc Son tapınağı (30.000 VND), Kaplumbağa Kulesi."
+    },
+    {
+     "name": "Pho Gia Truyen Bat Dan",
+     "category": "food",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 60000,
+     "tips": "Hanoi'nin efsane pho bo'su; kuyrukta ödeyip taşı, 1966."
+    },
+    {
+     "name": "Hanoi Old Quarter 36 Sokak",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Lonca sokakları (Hang Ma kağıt, Hang Bac gümüş); Ma May 87'deki eski ev (10.000 VND)."
+    },
+    {
+     "name": "Dong Xuan Market",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Eski Mahalle'nin toptan pazarı; arkasında sokak yemeği."
+    },
+    {
+     "name": "Bun Cha Huong Lien",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 80000,
+     "tips": "Obama-Bourdain'in bun cha'sı; ızgara köfte ve erişte, Le Van Huu."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bun Cha Ta Hanoi",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 70000,
+     "tips": "Old Quarter'da bun cha; Huong Lien yerine."
+    },
+    {
+     "name": "Bach Ma Temple",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Hanoi'nin en eski tapınağı; Old Quarter içinde."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Ho Chi Minh kompleksi & Edebiyat Tapınağı",
+   "stops": [
+    {
+     "name": "Ho Chi Minh Mausoleum",
+     "category": "culture",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Amca Ho'nun mumyası; sabah 08:00-11:00, pazartesi ve cuma kapalı, kısa şort yasak, sessiz sıra."
+    },
+    {
+     "name": "Ho Chi Minh Stilt House & One Pillar Pagoda",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 40000,
+     "tips": "Ahşap kazıklı ev ve tek sütunlu pagoda; mozolenin yanı."
+    },
+    {
+     "name": "Temple of Literature",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 70000,
+     "tips": "1070 Konfüçyüs tapınağı, Vietnam'ın ilk üniversitesi; kaplumbağa steller."
+    },
+    {
+     "name": "KOTO Van Mieu",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 150000,
+     "tips": "Sokak çocuklarını eğiten sosyal restoran; tapınak karşısı."
+    },
+    {
+     "name": "Hoa Lo Prison",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 50000,
+     "tips": "Hanoi Hilton; Fransız giyotini ve Amerikan pilot hücreleri, klimalı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cha Ca Thang Long",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 180000,
+     "tips": "Zerdeçallı balık tavası (cha ca); Hanoi'nin özel yemeği."
+    },
+    {
+     "name": "Vietnam Museum of Ethnology",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 40000,
+     "tips": "54 etnik grup; bahçede kabile evleri, hapishane yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Train Street, Fransız Mahallesi & egg coffee",
+   "stops": [
+    {
+     "name": "Hanoi Train Street",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 50000,
+     "tips": "Tren sokağı kafeleri (kafe alışverişiyle giriş); tren saatleri kafeden sor, erişim zaman zaman kapanır."
+    },
+    {
+     "name": "St. Joseph's Cathedral",
+     "category": "culture",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Neo-gotik katedral; çevresinde kafeler."
+    },
+    {
+     "name": "Cafe Giang",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 35000,
+     "tips": "Egg coffee'nin (ca phe trung) mucidi (1946); Nguyen Huu Huan."
+    },
+    {
+     "name": "Hanoi Opera House & Fransız Mahallesi",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Kolonyal bulvarlar; Metropole oteli, opera cephesi."
+    },
+    {
+     "name": "Quan An Ngon Phan Boi Chau",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 120000,
+     "tips": "Bahçede sokak yemeği tezgâhları tek çatı altında; her şeyi dene."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Dinh",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 30000,
+     "tips": "Giang'ın kız kardeşinin gölü gören gizli kafesi; egg coffee."
+    },
+    {
+     "name": "National Museum of Vietnamese History",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 40000,
+     "tips": "Kolonyal binada tarih; opera yanı."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Ha Long Körfezi",
+   "stops": [
+    {
+     "name": "Ha Long Bay Tekne Turu",
+     "category": "nature",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 1200000,
+     "tips": "Hanoi'den 2,5 saat (otoyol); günlük tur (~1.200.000 VND, öğle dahil) veya 1 gece kruvaziyer (~2-3 milyon), 1.600 kireçtaşı ada."
+    },
+    {
+     "name": "Ha Long Teknede Deniz Ürünleri Öğle",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Tur dahil; karides ve kalamar."
+    },
+    {
+     "name": "Sung Sot Mağarası",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Sürpriz Mağarası; sarkıtlar, tur dahil."
+    },
+    {
+     "name": "Ti Top Adası",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Plaj ve 400 basamakla körfez manzarası; kürek kayığı isteğe bağlı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lan Ha Körfezi Turu",
+     "category": "nature",
+     "start": "10:00",
+     "end": "16:00",
+     "cost": 1300000,
+     "tips": "Daha sakin komşu körfez (Cat Ba); Ha Long yerine."
+    },
+    {
+     "name": "Ha Long Şehri Deniz Ürünleri Pazarı",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 200000,
+     "tips": "Karada pazar lokantası."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Ninh Binh",
+   "stops": [
+    {
+     "name": "Trang An Tekne Turu",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 250000,
+     "tips": "Hanoi'den 2 saat; kürekli sampan ile mağaralardan geçen 3 saatlik nehir turu, karadaki Ha Long, UNESCO."
+    },
+    {
+     "name": "Bai Dinh Pagoda",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Güneydoğu Asya'nın en büyük pagoda kompleksi; 500 arhat heykeli."
+    },
+    {
+     "name": "Ninh Binh Keçi Eti Lokantası",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 150000,
+     "tips": "Ninh Binh'in özel yemekleri: de nui (keçi) ve com chay (çıtır pilav)."
+    },
+    {
+     "name": "Hang Mua Seyir Noktası",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 100000,
+     "tips": "500 basamakla ejderha tepesi; Tam Coc pirinç tarlaları manzarası (Mayıs-Haziran sarı)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tam Coc Tekne Turu",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 150000,
+     "tips": "Pirinç tarlaları arasında 2 saat; Trang An yerine."
+    },
+    {
+     "name": "Trang An Restaurant Ninh Binh",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 120000,
+     "tips": "Trang An iskelesi yanı lokanta; keçi yerine balık."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "West Lake & Bat Trang",
+   "stops": [
+    {
+     "name": "Tran Quoc Pagoda",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 0,
+     "tips": "West Lake'te 6. yüzyıl pagodası; sabah ışığı."
+    },
+    {
+     "name": "West Lake Yürüyüşü Quang Ba",
+     "category": "nature",
+     "start": "09:15",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Gölün doğu kıyısı; çiçek pazarı sabah, kafeler."
+    },
+    {
+     "name": "Bat Trang Seramik Köyü",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Hanoi'ye 13 km; 700 yıllık çömlek köyü, atölyede kendi kâseni yap (50.000 VND)."
+    },
+    {
+     "name": "Bat Trang Köy Lokantası",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 100000,
+     "tips": "Köyde pho ve banh cuon."
+    },
+    {
+     "name": "Long Bien Köprüsü",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Eiffel'in demir köprüsü; gün batımında tren ve motorlar, altında muz bahçeleri."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Banh Cuon Gia Truyen Thanh Tri",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 50000,
+     "tips": "Buharda pirinç ruloları; kahvaltı klasiği."
+    },
+    {
+     "name": "Lotte Observation Deck",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 230000,
+     "tips": "65. kat; köprü yerine manzara."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Su kuklası sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Thang Long Water Puppet Theatre",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 100000,
+     "tips": "Su kuklası gösterisi (sabah seansı varsa; akşam 17:00); Hoan Kiem."
+    },
+    {
+     "name": "Hang Gai İpek Dükkânları",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "İpek caddesi; hediyelik."
+    },
+    {
+     "name": "Banh Mi 25",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 40000,
+     "tips": "Hanoi'nin ünlü banh mi'si; Hang Ca."
+    },
+    {
+     "name": "Ta Hien Bia Hoi Köşesi",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 15000,
+     "tips": "Taze fıçı bira köşesi; öğlen sakin, veda."
+    },
+    {
+     "name": "Noi Bai Havalimanı Otobüsü 86",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Old Quarter'dan 86 numaralı otobüsle 45 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Xoi Yen",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 40000,
+     "tips": "Yapışkan pilav (xoi) klasiği."
+    },
+    {
+     "name": "Hanoi Ceramic Mosaic Mural",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "4 km seramik duvar; ipek yerine."
+    }
+   ]
+  }
+ ]
+}

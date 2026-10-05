@@ -1,0 +1,26 @@
+{
+ "source": "c6e4c1fb4a63",
+ "model": "sonnet",
+ "strings": {
+  "d1.s3.tips": "Marina boyunca yürüyüp balıkçı teknelerini izleyin, meydandaki kahvelerde çay molası verin. Kış güneşinde iki deniz arasındaki ışık oyunu fotoğraf için ideal.",
+  "d1.s4.tips": "Atatürk Cad. 70. Sokak'ta, dörtte biri meyhane, dörtte biri lokanta olan salaş bir mekân. Kopanisti peyniri ve mevsim mezelerini mutlaka isteyin, kışın rezervasyonsuz da yer bulunur.",
+  "d2.s0.tips": "Tepelerle çevrili, rüzgârdan en korunaklı koylardan biri; kışın sakin sesiyle kısa bir kıyı yürüyüşü için mükemmel. Denize girme mevsimi değil, sadece manzara ve fotoğraf için durun.",
+  "d2.b0.tips": "Taş konak mimarisiyle dikkat çeken bir mekân; Bademli Latte spesiyalitesini deneyin.",
+  "d3.s3.tips": "Knidos'tan 20-30 dakikalık tırmanışla ulaşılan 1931 yapımı fener; Ege ve Akdeniz'i aynı anda gördüğünüz nokta. Rüzgârlık şart, yol dikenli çalılıklardan geçiyor.",
+  "d3.b0.tips": "Palamutbükü'nde denize sıfır, salaş bir mekân; mevsim mezeleri iyi bir alternatif.",
+  "d5.s0.tips": "Ambarcı Caddesi sonundaki pazar yerinde kurulur; taze otlar, zeytin ve el sanatları bulabilirsiniz. Yerel üreticilerden doğrudan alışveriş yapmak için erken saatte gidin. Pazar günü kurulur, ama hazırlıklar önceki öğleden itibaren başlar.",
+  "d5.s3.tips": "28 yıllık deneyimiyle Datça'nın köklü dalış merkezi; hiç dalmamış olsanız da bire bir eğitmenle deneme dalışı yapabilirsiniz. Kışın su sıcaklığı düşük olduğundan kalın dalış elbisesi isteyin, önceden rezervasyon şart.",
+  "d5.b0.tips": "Mezeleri ve balık çeşitleriyle bilinen orta ölçekli bir mekân; merkeze yakın konumu pratik bir alternatif sunar.",
+  "d6.s2.tips": "Cumhuriyet Cad. No:29'da, mantı başrolde ama Arnavut ciğeri ve portakallı enginar da denenmeli. Yerel halkın gittiği samimi bir ev yemeği mekânı.",
+  "d6.s3.tips": "Kordon boyunca yürüyüp küçük dükkânları gezin, yatları ve karşıdaki Yeşil Ada manzarasını izleyin. Kışın sakin ve neredeyse tenha bir atmosfer bulacaksınız.",
+  "d7.s0.tips": "Datça-Marmaris karayolu üzerinde, merkeze yaklaşık 7-10 km. Taş gövdeli tarihi değirmenler sabah ışığında oldukça fotojenik.",
+  "d7.s1.tips": "Reşadiye Mahallesi No:30'daki butik çiftlikte üretim tesisini gezip organik sertifikalı zeytinyağlarını ücretsiz tadabilirsiniz. Beğendiğiniz ürünü yerinde satın alma imkânı da var.",
+  "d7.s3.tips": "Datça'nın en samimi köşebaşı mekânlarından; ev yapımı reçelleriyle hafif bir kapanış öğle yemeği için uygun. Yolculuk öncesi son mola noktanız olabilir.",
+  "note0": "Küçük esnaf lokantaları, köy dükkânları ve çay bahçelerinde çoğunlukla nakit tercih edilir; kart geçmeyen yerler olabileceğinden yanınızda nakit TL bulundurun.",
+  "note3": "Ocak ayında Datça serin ve rüzgârlıdır, özellikle Deveboynu Feneri, koy kenarları ve tekne/kıyı noktalarında; katmanlı giyinin, rüzgârlık şarttır.",
+  "note4": "Kışın koy kenarındaki (Palamutbükü, Hayıtbükü, Ovabükü) restoran ve pansiyonların büyük kısmı kapalıdır; plandaki uzak koy mekânlarını ziyaretten önce telefonla teyit edin.",
+  "niche.why_hidden": "Burası Datça'nın MÖ 8. yüzyıla uzanan ilk kutsal alanıdır. Turist otobüslerinin tamamı doğrudan Knidos'a gittiği için neredeyse tamamen atlanıyor. Ne gişesi ne tabelası var; sadece arkeoloji meraklıları ve Emecik köylüleri biliyor.",
+  "niche.access_instructions": "Datça-Marmaris karayolundan Emecik tabelasında köye dönün, köy meydanını geçtikten sonra toprak yola girip yaklaşık 1 km ilerleyin; kazı alanı çitle çevrili değildir, giriş serbesttir. Kendi aracınızla ya da taksiyle gitmeniz şart, dolmuş bu noktaya inmez."
+ },
+ "warnings": []
+}

@@ -1,0 +1,533 @@
+{
+ "lang": "tr",
+ "slug": "bozcaada-ekim-mayis",
+ "altSlug": "bozcaada-october-may",
+ "citySlug": "bozcaada",
+ "destKey": "bozcaada",
+ "city": "Bozcaada",
+ "region": "Çanakkale",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 14600,
+  "attractions": 450,
+  "transport": 1000,
+  "misc": 700
+ },
+ "notes": [
+  "Ocak ayında ada çok sakin: birçok restoran ve pansiyon kapalı, açık olanların çoğu haftanın sadece birkaç günü hizmet veriyor. Gitmeden önce telefonla teyit al.",
+  "Kışın küçük esnafın çoğu nakit tercih ediyor; bazı bağ evlerinde ve tekne/koy taraflarında kart geçmiyor. Yanında nakit TL bulundur.",
+  "Ocak kıştır, deniz suyu çok soğuk; Ayazma, Habbele gibi plajlarda yüzme yok. Şezlong ve plaj günü beklentisiyle gitme; amaç yürüyüş ve manzara.",
+  "Ada rüzgârlıdır (özellikle Polente/Tuzburnu tarafı); su geçirmez, rüzgâr kesen mont ve sağlam ayakkabı şart, katmanlı giyin.",
+  "Merkez dışına (Ayazma, Habbele, Polente, Tuzburnu, Ayana) toplu taşıma sınırlı; kışın dolmuş seferleri seyrekleşiyor. Bisiklet kirala ya da taksi/araç ayarla.",
+  "Restoranlarda bahşiş genelde hesaba otomatik eklenmiyor; %5-10 yuvarlama yeterli ve iyi karşılanıyor.",
+  "Rum Mahallesi'ndeki evler hâlâ oturulan özel mülkler; avlulara ve bahçelere izinsiz girme, fotoğraf çekerken kapı önünde oturan sakinlere karşı mesafeli ve kibar ol."
+ ],
+ "niche": {
+  "name": "Çamlıbağ Şarapçılık Mahzen Turu",
+  "level": "l3",
+  "why_hidden": "1925'ten kalma, adanın ilk Türk şarap üreticisinin taş mahzeni. Yazın turistik akışın odağı traktörlü gün batımı bağ turu; ama kışın kapıyı çalıp aile büyükleriyle 100 yıllık fıçıları görmeyi kimse akıl etmiyor, çünkü bu tur hiçbir yerde ilan edilmiyor.",
+  "access_instructions": "Yazın günlük düzenlenen traktörlü bağ turu kış aylarında (Kasım-Mart) yapılmıyor. Bunun yerine hafta içi sabah saatlerinde önceden telefonla haber verip Çınarlı Çarşı Caddesi'ndeki iki katlı taş binaya gidersen mahzeni ve tadım salonunu gezdiriyorlar.",
+  "local_contact": "+90 286 697 80 55 (Çamlıbağ Şarapları merkez mağaza)",
+  "season": "Mağaza yıl boyu açık; kışın mahzen turu yalnızca önceden telefonla randevu alınırsa yapılıyor, yazın ise günlük gün batımı bağ turu (rezervasyonlu) var.",
+  "insider_tip": "Vasilaki beyaz şarabını mutlaka tat; adanın dışında neredeyse hiç satılmıyor, yalnızca kendi dükkânlarında şişe olarak bulunuyor.",
+  "show_reason": "1925'ten kalma aile mahzeni, adanın ilk üreticisi olma hikayesi ve kışın turistin aklına bile gelmeyen 'kapıyı çal, gir' tarzı erişilebilirliğiyle hem tarihi hem de gerçekten niş bir deneyim sunuyor.",
+  "lat": 39.8228,
+  "lng": 26.0702,
+  "address": "Çınarlı Çarşı Caddesi No:82, Bozcaada, 17680 Çanakkale",
+  "cost_range_min": 250,
+  "cost_range_max": 500,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Kale, Çınarlı Çarşı ve Rum Mahallesi — adanın imzası",
+   "stops": [
+    {
+     "name": "Bozcaada Kalesi",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 150,
+     "tips": "Kışın açılış saatleri yazdan kısa olabiliyor. İskeleden 5 dk yürüyüş; burçlara çıkıp boğazı ve Rum Mahallesi'nin çatılarını gör. Bilet kale girişindeki gişeden alınır, Müze Kart geçmiyor."
+    },
+    {
+     "name": "Alaybey ve Rum Mahallesi sokakları",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Pastel boyalı taş-ahşap Rum evleri ile dar sokaklı Türk Mahallesi'ni art arda gez; kapı üstü kabartmalarına ve demir balkonlara dikkat et. Kışın turist azken en sessiz, en fotojenik hali burada yakalanır."
+    },
+    {
+     "name": "Yakamoz Restaurant",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Alaybey'de Yalı Caddesi üzerinde, denize sıfır; adanın klasik meyhane kültürünü öğlen fiyatına yaşatan yerlerden. Günün balığını sor, kışın barbun ve levrek genelde taze."
+    },
+    {
+     "name": "Rengigül Sanat Galerisi",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Adanın ilk sanat galerisi; yerel ve yerleşik sanatçıların işlerini görmek için giriş ücretsiz. Kalabalık olmadığından galericiyle sohbet etme şansın yüksek, hangi eserlerin hikâyesi olduğunu sor."
+    },
+    {
+     "name": "Bozcaadalı Veli Dede",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 150,
+     "tips": "Ünü ada sınırlarını aşan kurabiyeci; badem ezmeli ve şerbetli çeşitleri dene, yanına bir kutu da al. Alaybey'de küçük bir dükkân, kışın da açık."
+    },
+    {
+     "name": "Hasan Tevfik",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "Adanın halis muhlis meyhanesi: salaş, esnaf sıcaklığında, mezeleri klasik. Fiyatlar turistik yerlere göre çok daha ulaşılabilir. Deniz börülcesi ve kalamar tavayı mutlaka sipariş et."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Battı Balık",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1100,
+     "tips": "Rum Mahallesi'nde 22 yıllık meyhane, ada kalamarı ve tava kalamarıyla ünlü. Kabak çiçeği dolması ve barbun tava da öne çıkan lezzetleri."
+    },
+    {
+     "name": "Salhane",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 250,
+     "tips": "Deniz kenarında gün batımı için ideal bar; kışın da açık kalan nadir mekânlardan. Bir kadeh şarapla iskeleyi izlemek için uğra."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Ayazma köyü ve tarihi manastır rotası",
+   "stops": [
+    {
+     "name": "Ayazma Manastırı",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "1734'ten kalma, yaşlı çınarların gölgesindeki küçük Rum Ortodoks manastırı; ibadete sürekli açık değil ama avlusu ve tarihi çeşmesi dıştan gezilebiliyor. Merkezden dolmuş veya taksiyle 15-20 dakika."
+    },
+    {
+     "name": "Ayazma köyü kıyı yürüyüşü",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Kışın yüzme yok ama ıssız kumsal boyunca yürümek en huzurlu hali; rüzgâra karşı mont şart. Sabahın erken saatinde ışık fotoğraf için çok iyi."
+    },
+    {
+     "name": "Vahit'in Yeri",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 900,
+     "tips": "Ayazma'da 12 ay boyunca kesintisiz açık tek işletme; kışın adalılar da burayı tercih ediyor. Meze dolabı geniş, garsonun önerisine güven; servis şaşırtıcı derecede hızlı."
+    },
+    {
+     "name": "Sulubahçe Koyu yürüyüşü",
+     "category": "nature",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Ayazma ile Habbele arasında, yapılaşmanın olmadığı geniş ve tenha bir koy; çoğu rehberde adı bile geçmez. Toprak patika biraz engebeli, rahat ayakkabıyla git."
+    },
+    {
+     "name": "Ayazma Restaurant & Cocktail Bar",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 300,
+     "tips": "Plaja yakın; kışın da sıcak içecek ve hafif atıştırmalıklarla hizmet veriyor. Gün batımına yakın bir mola için ideal. Sıcak şarap veya çay iste."
+    },
+    {
+     "name": "Manastır Restoran",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1400,
+     "tips": "Ayazma'nın tarihi manastırının çınarları altında, kalabalıktan uzak, sakin bir akşam yemeği. Rezervasyon önerilir, kışın masa sayısı azalıyor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Koreli",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 300,
+     "tips": "Plaj üstünde küçük ve sakin bir mekân; kışın kısıtlı saatlerle açık olabilir, önceden ara. Basit ama samimi bir atıştırmalık molası sunuyor."
+    },
+    {
+     "name": "Manastır (bar)",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 400,
+     "tips": "Ayazma manastırının çınarları altında canlı müzikli bar; kışın hafta sonları açık olabiliyor, teyit et. Geceleri ada dışından kimsenin bilmediği bir sessizlik hâkim."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Bağ rotası: mahzenler, tadımlar, adanın şarap kültürü",
+   "stops": [
+    {
+     "name": "Çamlıbağ Şarapçılık Mahzen Turu",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 300,
+     "tips": "1925'ten kalma taş binadaki mahzeni görmek için kışın mutlaka bir gün önceden telefonla haber ver; yazın yapılan traktörlü gün batımı turu kış aylarında yok. Vasilaki beyazını mutlaka tat, adanın dışında neredeyse hiç bulunmuyor."
+    },
+    {
+     "name": "Talay Şarapçılık",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "Adanın en köklü üreticisi; Kuntra üzümünden yapılan kırmızıları dene, 5 farklı şarabın tadıldığı set en iyi değeri veriyor. Dükkândan şişe alıp yanında götürebilirsin."
+    },
+    {
+     "name": "Asma6",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 1000,
+     "tips": "Talay ailesine ait; limanda asmanın altında, loş ışıklı romantik bir öğle sofrası. Levrek marin ve saganaki öne çıkıyor."
+    },
+    {
+     "name": "Tenedion Winehouse",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 300,
+     "tips": "Sıcak ve soğuk şarap çeşitlerinin bir arada sunulduğu küçük şarap evi; kışın sıcak şarabı denemek için doğru durak. Turistlerin çok az uğradığı sakin bir köşe."
+    },
+    {
+     "name": "Uğurlu Dükkan",
+     "category": "shopping",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 250,
+     "tips": "Tasarım ürünleri ile tatlı ve kahve sunan küçük bir dükkân; hediyelik almak ve bir fincan kahve içmek için uğra. Yerel tasarımcıların ürünlerine göz at."
+    },
+    {
+     "name": "Dört Hanımeli",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "Ada mantısı ve ev yemekleriyle turistik listelerde az geçen samimi bir sofra. Şarap tadımı gününün ardından hafif ve doyurucu bir seçim."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Corvus Şarapları Tadım & Satış Ofisi",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "Çınarlı Çarşı'da, adanın tanınmış üreticilerinden biri; tadım seti sipariş edip Karalahna üzümünden yapılan kırmızıyı dene. Küçük dükkân, kışın da açık."
+    },
+    {
+     "name": "Amadeus Şarapçılık",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 250,
+     "tips": "2010'dan beri üretim yapan, adalı bir aile işletmesi; ziyaret için önceden aramak gerekiyor. Küçük ölçekli üretimin hikâyesini dinlemek, turistik bağ turlarından çok farklı bir deneyim."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Yerel pazar, ibadethaneler ve mahalle derinliği",
+   "stops": [
+    {
+     "name": "Bozcaada Çarşamba Pazarı",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Demir Otopark'ta kurulan, esas olarak adalıların gittiği semt pazarı; domates reçeli, ada çayı, kekik ve zeytin çeşitlerine bak. Yaz pazarındaki turistik hediyelik yoğunluğu burada yok, gerçek yerel alışveriş var."
+    },
+    {
+     "name": "Köprülü Mehmet Paşa Camii",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Yalı Camii olarak da bilinir; Venedik döneminde yıkılmış, Köprülü Mehmet Paşa tarafından yeniden yaptırılmış. Namaz vakitleri dışında dıştan mimarisini incelemek için uğra."
+    },
+    {
+     "name": "Şehir Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 800,
+     "tips": "Yerel favorisi; deniz ürünleri ağırlıklı menüsü makul fiyatlı. Günün mezesini sor, fiyat-performansı turistik mekânlardan çok daha iyi."
+    },
+    {
+     "name": "Meryem Ana Kilisesi (Kimisis Teodoku)",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "1869'dan kalma, hâlâ kullanılan tek Rum Ortodoks kilisesi; restorasyon nedeniyle içeri girmek mümkün olmayabilir, çan kulesi ve avlusu dıştan yine de görülmeye değer. Ayin dışı saatlerde sessiz ve saygılı ol."
+    },
+    {
+     "name": "Kahverengi Roastery",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 200,
+     "tips": "Kendi kavurduğu kahveyle tanınan, tasarım dükkânıyla iç içe küçük bir kahveci; filtre kahve sipariş et. Turistlerin neredeyse hiç uğramadığı sakin bir mola noktası."
+    },
+    {
+     "name": "Sandal Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1300,
+     "tips": "Mavi masalarıyla tanınan geleneksel Ege meyhanesi, limana yakın. Mezeleri paylaşmalık sipariş et, akşamları servis biraz yavaşlayabiliyor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mir Ada Patisserie",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 200,
+     "tips": "Bademli kurabiye ve lavanta cheesecake'i öne çıkıyor; kahve molası için sakin bir seçenek. Cumhuriyet Mahallesi'nde, merkeze yakın."
+    },
+    {
+     "name": "Sapa",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 350,
+     "tips": "Adanın en sevilen kokteyl barlarından biri; özel kokteyl menüsü var. Kışın rezervasyon önerilir, masa sayısı sınırlı."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Habbele kıyısı ve yel değirmenlerinde gün batımı",
+   "stops": [
+    {
+     "name": "Habbele Plajı kıyı yürüyüşü",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Akvaryum Koyu'nun sakinliğine benzer ama biraz daha butik bir havası var; kışın kimse yok, sadece rüzgâr ve deniz sesi. Yüzme yok, uzun bir sahil yürüyüşü için git."
+    },
+    {
+     "name": "Simyon",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 1100,
+     "tips": "Mezeleri seçili ve özenle hazırlanan, sakin atmosferli bir meyhane. Kalabalık beklemeden özenli bir öğle yemeği isteyenler için doğru adres."
+    },
+    {
+     "name": "Çınaraltı Cafe",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 200,
+     "tips": "Yüz yıllık çınarın altında, 12 ay açık klasik mekânlardan; gözlem terasında sıcak bir kahve molası ver. Adalıların da uğradığı bir yer, sohbet fırsatı yüksek."
+    },
+    {
+     "name": "Bozcaada Yel Değirmenleri",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Rum Mahallesi'nin arkasındaki otoparktan taş yolda 5 dakika; 2019'da restore edilen üç değirmen gün batımında silüete dönüşüyor. Ocak'ta gün batımı erken olduğundan vaktinde orada ol; adanın en çok paylaşılan karesi burada çekiliyor."
+    },
+    {
+     "name": "Yalova 1940",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1500,
+     "tips": "Köklü geçmişiyle adanın klasik meyhane kültürünü en rafine haliyle yaşatan mekânlardan; levrek marin ve girit ezmesi imza lezzetleri. Rezervasyon önerilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Çamlık Restaurant Hafızın Yeri",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "Esnaf lokantası tarzında, çay bahçesiyle iç içe sakin bir mekan. Günün ev yemeğini sor, fiyatı adanın restoran ortalamasının altında."
+    },
+    {
+     "name": "Beylik Koyu",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Toprak yoldan araçla ulaşılan, adalıların pek bahsetmediği tenha bir koy. Yol engebeli; düşük şasili araçla girmemek daha güvenli."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Polente feneri ve adanın söylenmeyen koyları",
+   "stops": [
+    {
+     "name": "Polente Feneri",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Adanın batı ucunda, kitesurfçülerin de tercih ettiği rüzgârlı bir nokta; deniz fenerinin önünde ufuk çizgisi boyunca uzanan manzara fotoğraf için çok güçlü. Kışın rüzgâr sert olabilir, mont şart."
+    },
+    {
+     "name": "Tuzburnu Koyu",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Asfaltsız, engebeli bir toprak yoldan ulaşılan gizli koylardan biri; adalıların dışarıya pek anlatmadığı bir yer. Araçla gidiyorsan yavaş ve dikkatli ilerle, düşük şasili araçla zorlanabilirsin."
+    },
+    {
+     "name": "Sosyal Tesisler",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "Ekonomik, ev yemeği tarzı bir lokanta; çiğ dolma sipariş edilebiliyor, fiyatlar adanın ortalamasının epey altında. Turistik mekânların aksine sade ve hızlı servis."
+    },
+    {
+     "name": "Ayana Koyu",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Tuzburnu'na yakın, yine toprak yoldan ulaşılan tenha bir koy; kışın tamamen ıssız, sadece rüzgâr ve martı sesi var. Macera ruhu olanlar için keşif hissi yüksek."
+    },
+    {
+     "name": "Orta Kahve",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 200,
+     "tips": "Nitelikli kahvesiyle bilinen, akşamları kokteyle dönüşen küçük bir mekân; uzun koy gezisinden sonra ısınmak için iyi bir mola. Filtre kahve veya sıcak çikolata iste."
+    },
+    {
+     "name": "No:8 Bozcaada",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "Gün batımı tabağı kültürünün öncülerinden; peynir tabağı ve sandviç seçenekleriyle hafif ama doyurucu bir akşam. Hazır tabaklardan birini paylaşmalık sipariş et."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Krasi Bozcaada",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 800,
+     "tips": "Şarap tadımı ve şarküteri tabaklarıyla gün batımı konseptine uygun bir alternatif. Yerli peynir ve zeytin tabağını dene."
+    },
+    {
+     "name": "Bozcaada Sanat Galerisi",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Küçük ama özenli bir koleksiyona sahip; koy gezisi sonrası kısa bir kültür molası için uygun. Giriş genelde ücretsiz."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Hafif veda: kahve, hediyelik, son lezzetler",
+   "stops": [
+    {
+     "name": "Coffee Shelter Bozcaada",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 200,
+     "tips": "Kendi kavurduğu kahveyle adanın en iyisi denilen mekânlardan; filtre kahve sipariş et. Alaybey'de sakin bir köşe, veda kahvaltısı için ideal."
+    },
+    {
+     "name": "Çınarlı Çarşı Caddesi",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 300,
+     "tips": "Son hediyelik ve şarap/zeytinyağı alışverişi için en pratik cadde; bağ evlerinin dükkânları bir arada. Şişe şarap alıyorsan bagaj için sağlam paketleme iste."
+    },
+    {
+     "name": "Çiçek Pastanesi",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 250,
+     "tips": "Bademli, damak çatlatan kurabiyeleriyle ünlü; yola çıkmadan önce bir kutu al. Alaybey'de, feribot iskelesine yürüme mesafesinde."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Vasil Coffee & Bakery",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 200,
+     "tips": "Yeni açılan, taze kurabiyeleriyle dikkat çeken bir kahveci; sabah kahvaltısı için hafif bir alternatif. Kendi kavurduğu kahveyi dene."
+    },
+    {
+     "name": "Bozcaada Yat Limanı",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Feribot iskelesine yakın, tekneleri izleyerek son bir veda yürüyüşü yapabileceğin sakin bir nokta. Kışın neredeyse tamamen boş, sessiz bir kapanış sunuyor."
+    }
+   ]
+  }
+ ]
+}

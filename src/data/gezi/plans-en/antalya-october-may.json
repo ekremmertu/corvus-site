@@ -1,0 +1,488 @@
+{
+ "lang": "en",
+ "slug": "antalya-october-may",
+ "altSlug": "antalya-ekim-mayis",
+ "citySlug": "antalya",
+ "destKey": "antalya",
+ "city": "Antalya",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 11800,
+  "attractions": 6547,
+  "transport": 700,
+  "misc": 500
+ },
+ "notes": [
+  "In January, Antalya is around 12-16°C by day and 8-10°C in the evening. The wind on the coast can be harsh, so dress in layers and bring a windbreaker.",
+  "This is not the season for swimming. The beaches are calm and ideal for photos, but sunbed and cabin services are closed at most of them.",
+  "Cards may not work at tradesmen's restaurants and neighbourhood markets, so carry cash in TRY. At mid-range and upscale restaurants, cards are standard.",
+  "Tipping isn't mandatory, but rounding up the bill at a tradesmen's restaurant and leaving 5-10% at a restaurant is the local custom.",
+  "When entering places of worship such as the Yivli Minaret Mosque, wear clothes that cover your knees and shoulders, and women should bring a headscarf.",
+  "Kaleiçi's narrow stone streets get slippery after rain, so choose comfortable, grippy shoes in winter.",
+  "Museum Pass is valid at sites such as Termessos and Karain; foreign visitors are generally charged entry in euros."
+ ],
+ "niche": {
+  "name": "Antalya: Turkish Cooking Class with a Local Host",
+  "level": "l3",
+  "why_hidden": "Almost every couple visiting Antalya tries street food in restaurants, but very few step into a local family's home to see real home cooking. This workshop barely appears in popular Kaleiçi and beach guides; only genuine enthusiasts searching for a cooking class find it.",
+  "access_instructions": "Book through GetYourGuide at least 1 day in advance. After your booking is confirmed, the host shares the full address and meeting point by in-app message. It takes place in an apartment in the Muratpaşa district, with a maximum group size of 6.",
+  "local_contact": "GetYourGuide rezervasyon sistemi üzerinden ev sahibiyle uygulama içi mesajlaşma; telefon/WhatsApp bilgisi rezervasyon onayından sonra paylaşılır.",
+  "season": "Year-round, on most days of the week in the evening. Being indoors, it isn't affected by weather in the winter months.",
+  "insider_tip": "Ask about the seasonal main dish in your booking note; in winter it's usually a hearty dish such as güveç (clay-pot stew) or kapama (braised meat). If you're vegetarian, say so in advance and the menu will be adjusted.",
+  "show_reason": "Antalya'nın turistik restoran zincirlerinin dışına çıkıp gerçek bir yerel ev mutfağında saat geçirmek; hem yerel mutfak hem de bilinmeyen mekan deneyimini birebir karşılıyor, premium ama sahici.",
+  "lat": 36.8875,
+  "lng": 30.7061,
+  "address": "Muratpaşa, Antalya merkez (tam adres rezervasyon onayı sonrası ev sahibi tarafından paylaşılır)",
+  "cost_range_min": 3800,
+  "cost_range_max": 4200,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "AntalyaKart",
+  "why_chosen": "This is the only electronic card valid on all of Antalya's buses and the AntRay tram, covering most of your daily trips between Kaleiçi, Konyaaltı and Lara with a single card and transfer discounts. It's far cheaper than taxis, and it works on airport-linked lines too, which makes it the only sensible choice.",
+  "coverage": "Antalya şehir içi otobüs hatları + AntRay tramvay hattı (Meydan-Zeytinköy-Fabrikalar), havalimanı bağlantılı hatlar dahil",
+  "where_to_buy": "Antalya Havalimanı çıkışındaki ANTKART otomatları, Kaleiçi/Işıklar ve ana tramvay duraklarındaki kiosklar, bazı büfe ve marketler; NFC destekli telefonu olanlar AntalyaKart Mobil uygulamasından da kullanabilir.",
+  "cost": 150,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Kaleiçi's iconic heart",
+   "stops": [
+    {
+     "name": "Hadrian's Gate",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Go around 09:30 and you'll see both the city side and the ancient side of the three-arched gate without the crowds. Step through the Kaleiçi gate right next to it to start your walk. Free."
+    },
+    {
+     "name": "Yivli Minaret Mosque and Kaleiçi Streets",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "After seeing the 13th-century brick minaret, skip the main street and walk the back lanes (Hesapçı, Kılınçarslan). You'll catch the courtyards of Ottoman mansions. Free to explore."
+    },
+    {
+     "name": "Mevlana Lokantası",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 900,
+     "tips": "Open since 1956, this is the tradesmen's spot locals name first when asked where to have soup. Try the kelle paça (trotter soup) and the lentil soup, and don't miss the homemade jams. Open 24/7."
+    },
+    {
+     "name": "Suna and Inan Kıraç Kaleiçi Museum",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 100,
+     "tips": "It brings Ottoman-era mansion life to life with wax figures, and with the Antalya Museum closed for restoration, this has become the city's cultural stop. Closed on Wednesdays, so check before you go."
+    },
+    {
+     "name": "Hıdırlık Tower and Kaleiçi Marina",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A quiet corner where locals go for sunset and tourist coaches don't stop. Sit on the stone bench at the foot of the tower and watch the harbour. For photos, the golden hour is around 17:00."
+    },
+    {
+     "name": "Parlak Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 2200,
+     "tips": "Set in a historic stone building in Kaleiçi, it serves grills and seafood. From the meze, order the Antalya-style piyaz (white bean salad) and the seasonal fish. Expect 2,000-2,500 TL per person."
+    }
+   ],
+   "backups": [
+    {
+     "name": "7 Mehmet Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 2000,
+     "tips": "A long-running Kaleiçi restaurant that locals also choose for special occasions. Known for its grills and meze."
+    },
+    {
+     "name": "Karaalioğlu Park",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "East of Kaleiçi, a clifftop park right by the sea. A free spot with views of the snowy Beydağları mountains, lovely in the morning and the evening."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Konyaaltı and the west coast",
+   "stops": [
+    {
+     "name": "Konyaaltı Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "In winter the beach is almost empty and the snowy peaks of the Beydağları follow you along the shore. Ideal for a calm morning walk on the pebbles. Free."
+    },
+    {
+     "name": "Antalya Aquarium",
+     "category": "culture",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 155,
+     "tips": "One of the world's longest tunnel aquariums, and a perfect indoor option in winter. Entry is about 153 TL as of 2026; buy your ticket online in advance and skip the queue."
+    },
+    {
+     "name": "Özdoyüm Restaurant (Fener Branch)",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 700,
+     "tips": "Known for Antalya's signature şiş köfte with piyaz, it has grown from an industrial-estate shop into a three-storey local favourite. Be sure to try the pumpkin dessert with walnut and tahini."
+    },
+    {
+     "name": "Antalya Falez Walking Path",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A clifftop walking route running from Konyaaltı towards Kaleiçi. It's the route of local runners and cyclists, with sea and city views together. Free."
+    },
+    {
+     "name": "Adab-ı Balık",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1800,
+     "tips": "A family-run place in Konyaaltı known for fresh fish and fair prices. Grilled sea bass is the classic choice, and the friendly service sets it apart from the touristy spots."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Konyaaltı Balıkçısı",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1700,
+     "tips": "A long-established fish restaurant in Konyaaltı with high Tripadvisor ratings. Ask what the catch of the season is and order accordingly."
+    },
+    {
+     "name": "Konyaaltı Beach Park",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The green space on the Konyaaltı seafront, a calm spot to walk and sit in winter. Free entry, and the view gets better closer to sunset."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Düden Waterfalls and Lara",
+   "stops": [
+    {
+     "name": "Upper Düden Waterfall",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 100,
+     "tips": "You can walk through the cave passage behind the waterfall and pass right through the water. The winter flow is high, so the view is at its most impressive. Entry is 100 TL, plus 100 TL for parking."
+    },
+    {
+     "name": "Girgin Cafe",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 750,
+     "tips": "Where the Düden meets the sea, a calm breakfast spot with floor seating and a spread of small dishes. Locals escape here at weekends; go early for the view."
+    },
+    {
+     "name": "Lower Düden Waterfall",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "The waterfall drops 40 metres straight into the sea. The best view is from the viewing terrace on the cliff edge, the famous postcard scene that boat tours capture from the sea. Free, public park."
+    },
+    {
+     "name": "Lara Beach",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "In winter nobody is around, so you can stroll the long sandy beach in peace. The sunbeds are closed, but the best time to walk down to the sand and photograph the Beydağları mountains is close to sunset."
+    },
+    {
+     "name": "Lara Balık (Port Beach Branch)",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 2200,
+     "tips": "Lara börek and fish pastırma (cured fish) are the signature dishes. Ask about the seasonal fish; fresh stuffed mussels are always on the menu too."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Serpme Balık Evi",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1900,
+     "tips": "Known for grilled turbot and sea bass, fish kokoreç (grilled offal-style wrap, fish version) and Cretan pumpkin with peanuts. Fresh fish is always served."
+    },
+    {
+     "name": "Kurşunlu Waterfall Nature Park",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 60,
+     "tips": "A calmer, more wooded alternative to the Düden, with wooden walkways and ponds that make it a good spot for photos."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Deep dive into local food",
+   "stops": [
+    {
+     "name": "Balbey Neighbourhood",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "An old Greek-Ottoman neighbourhood outside Kaleiçi's tourist flow, where locals still live. Walk quietly among the unrestored stone houses; nobody will try to sell you a tour."
+    },
+    {
+     "name": "Can Can Pide Yemek Salonu",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 650,
+     "tips": "Open since 1994 and a regular haunt for locals, this tradesmen's restaurant is ideal for hot pide and home-style dishes at very fair prices."
+    },
+    {
+     "name": "Coppersmiths' Bazaar",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A few masters in Kaleiçi still hammer copper by hand. If you want a handmade gift, bargaining is the local custom. Browsing is free."
+    },
+    {
+     "name": "Antalya: Turkish Cooking Class with a Local Host",
+     "category": "food",
+     "start": "18:00",
+     "end": "21:00",
+     "cost": 4000,
+     "tips": "A four-course menu is prepared in a local home: börek (savoury pastry), sarma (stuffed vine leaves), a seasonal salad and a main dish. Book through GetYourGuide at least 1 day ahead; groups are limited to 6 people.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Antalya+Turkish+Cooking+Class+with+a+Local+Host",
+     "bookingProvider": "GetYourGuide"
+    }
+   ],
+   "backups": [
+    {
+     "name": "Şişçi Ramazan",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 650,
+     "tips": "A tradesmen's restaurant that keeps appearing on local lists for köfte and piyaz. Order the şiş köfte with piyaz."
+    },
+    {
+     "name": "Atatürk House Museum",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 50,
+     "tips": "The mansion in Kaleiçi where Atatürk stayed on his visits to Antalya. A small, quiet museum break without crowds."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "The ancient city on the mountain",
+   "stops": [
+    {
+     "name": "Karain Cave",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 220,
+     "tips": "A cave with some of the oldest traces of settlement in Türkiye. You turn off the Antalya-Burdur road, and since most tourists leave it out of their Aspendos/Perge tours, it's a peaceful visit. Entry is about €5; Museum Pass is valid."
+    },
+    {
+     "name": "Termessos",
+     "category": "culture",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 100,
+     "tips": "A city built on a mountaintop at 1,050 metres, one even Alexander the Great did not dare to conquer. Its never-excavated theatre is striking. Comfortable shoes are a must. The climb is tough, but it's almost unreachable by public transport, so there are no crowds."
+    },
+    {
+     "name": "Piyazcı Ahmet",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 650,
+     "tips": "One of Antalya's famous piyaz places, ideal for a stop on the way back. Don't miss the şiş köfte and piyaz pairing."
+    },
+    {
+     "name": "Sedir Lokantası",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1200,
+     "tips": "A calm restaurant in Kaleiçi serving local flavours, mostly pide and home-style dishes. A light, affordable option for the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Piyazcı Mustafa",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 650,
+     "tips": "Another classic address often mentioned on local forums for Antalya-style piyaz, usually ordered with şiş köfte."
+    },
+    {
+     "name": "Düzlerçamı National Park",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A quiet picnic area in a pine forest near Karain. A good option for a short nature break before moving on to Termessos."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Pamukkale day trip",
+   "stops": [
+    {
+     "name": "Pamukkale Hot Air Balloon and Lunch Tour",
+     "category": "nature",
+     "start": "06:00",
+     "end": "07:30",
+     "cost": 1872,
+     "tips": "The round trip from Antalya takes about 3-3.5 hours, and the tour company picks you up from your hotel or a meeting point. The balloon flight is at sunrise and depends on weather; if it's cancelled, the tour continues with the lunch programme.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Pamukkale+Hot+Air+Balloon+Tour+with+Lunch+from+Antalya",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Pamukkale Travertines",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "You walk barefoot on the white limestone terraces, so bring socks or slippers. Entry is included in the tour package, and with fewer people in winter, photos are much easier."
+    },
+    {
+     "name": "Hierapolis and Cleopatra's Antique Pool",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The ancient theatre and necropolis are part of the tour. If you want to swim in Cleopatra's Pool, it costs extra (about 600 TL as of 2026) and is not included in the tour price."
+    },
+    {
+     "name": "Mehmet's Heaven",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Close to the travertines and known for warm Turkish hospitality. Lunch is included in most tour packages, with plenty of kebab and pide options."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kayaş Wine House Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "A family-run restaurant in central Pamukkale. Grilled aubergine and şiş kebab stand out, and there are local wine options too."
+    },
+    {
+     "name": "Laodicea",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 25,
+     "tips": "A vast ancient city 12 km from Pamukkale that gets far fewer visitors. If you have time, add it as an alternative to Hierapolis."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Farewell: one last Kaleiçi morning",
+   "stops": [
+    {
+     "name": "Kutu Plus",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 750,
+     "tips": "Serves a spread breakfast in a calm garden surrounded by stone walls in Kaleiçi. Known for its cheese and olive selection and its gözleme (stuffed flatbread), an ideal start for late risers."
+    },
+    {
+     "name": "Kaleiçi Uzun Çarşı",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "For last-minute souvenir shopping. Don't hesitate to bargain on olive oil soap, handmade textiles and copperware. Free to enter."
+    },
+    {
+     "name": "Mermerli Beach and Kaleiçi Marina",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "One last sea view from the small cove tucked into the castle walls. Photos taken here are Antalya's best-known postcard shot. Free."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Varuna Gezgin Cafe",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 700,
+     "tips": "A waterside cafe in Kaleiçi, popular for morning breakfasts and suited to a calm farewell breakfast."
+    },
+    {
+     "name": "Republic Square",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The main entrance to Kaleiçi, a square known for its equestrian statue of Atatürk. A short last stop before heading to the airport."
+    }
+   ]
+  }
+ ]
+}

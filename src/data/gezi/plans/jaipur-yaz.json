@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "jaipur-yaz",
+ "altSlug": "jaipur-summer",
+ "citySlug": "jaipur",
+ "destKey": "jaipur",
+ "city": "Jaipur",
+ "region": null,
+ "country": "Hindistan",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "INR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 7000,
+  "attractions": 10500,
+  "transport": 9000,
+  "misc": 3000
+ },
+ "notes": [
+  "Jaipur'da otorikşa ve Uber; kaleler için günlük araç (~2.500 INR). Composite bilet (1.500 INR yabancı) 2 gün 8 anıt.",
+  "Haziran-Eylül 40°C ve muson: gezini 08:00-12:00 arasına ve 16:00 sonrasına koy, öğlen saray ve müzeye git. Ekim-Mart ideal (20-28°C); Kasım-Ocak sabahları sis olur.",
+  "Dal baati churma, pyaz kachori, ghewar ve lassi; Pushkar'da et-alkol yok. Bahşiş %10.",
+  "Anıt girişleri yabancı için 200-1.000 INR; Amber 08:00'de serin ve boş, fil binme yerine cip.",
+  "Ranthambore safarisi 3 ay önce online (kaplan bölgeleri 1-5); bir gece kalmak safari için şart değil ama rahat.",
+  "Pazarlık: ilk fiyatın üçte biri; blok baskı kumaşı Sanganer'de üreticiden."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Pembe Şehir",
+   "stops": [
+    {
+     "name": "Hawa Mahal",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 200,
+     "tips": "Rüzgâr Sarayı 953 pencere; sabah ışığı cepheye vurur, karşı kafeden (Wind View) fotoğraf."
+    },
+    {
+     "name": "City Palace Jaipur",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 1000,
+     "tips": "Maharaja sarayı; Pritam Niwas avlusundaki 4 mevsim kapısı, müze."
+    },
+    {
+     "name": "Jantar Mantar Jaipur",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 200,
+     "tips": "Dev taş gözlemevi, 27 m güneş saati; UNESCO."
+    },
+    {
+     "name": "Laxmi Misthan Bhandar",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 300,
+     "tips": "1727'den beri Johari Bazaar'da; dal baati churma, ghewar ve pyaz kachori."
+    },
+    {
+     "name": "Johari Bazaar",
+     "category": "shopping",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Mücevher ve blok baskı kumaş; pazarlık, öğle sıcağında dükkânlar gölgeli."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rawat Misthan Bhandar",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 150,
+     "tips": "Pyaz kachori; sokak lezzeti."
+    },
+    {
+     "name": "Albert Hall Museum",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 300,
+     "tips": "Indo-Sarazen müze; klimalı, gece ışıklı."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Amber, Jaigarh & Nahargarh",
+   "stops": [
+    {
+     "name": "Amber Fort",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 500,
+     "tips": "Tepede Racput kalesi; Sheesh Mahal ayna sarayı, fil yerine cip, 08:00 açılışta serin."
+    },
+    {
+     "name": "Panna Meena ka Kund",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Amber altında basamaklı kuyu; simetrik fotoğraf."
+    },
+    {
+     "name": "Jaigarh Fort",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 200,
+     "tips": "Dünyanın en büyük tekerlekli topu Jaivana; Amber'in üstünde."
+    },
+    {
+     "name": "1135 AD Amber Fort Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 900,
+     "tips": "Kale içinde kraliyet thali; gümüş tabak."
+    },
+    {
+     "name": "Nahargarh Fort",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 200,
+     "tips": "Şehre tepeden bakan kale; Padao kafede gün batımı ve Pembe Şehir ışıkları."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Samode Haveli Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 800,
+     "tips": "Haveli'de öğle; kale yerine."
+    },
+    {
+     "name": "Jal Mahal Seyir",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Göl ortasındaki saray; dıştan, gün batımı, Nahargarh yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Tapınaklar & el sanatları",
+   "stops": [
+    {
+     "name": "Galtaji Monkey Temple",
+     "category": "culture",
+     "start": "07:30",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Vadide kutsal havuzlar ve maymunlar; sabah serin, 200 INR kamera."
+    },
+    {
+     "name": "Birla Mandir Jaipur",
+     "category": "culture",
+     "start": "09:15",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Beyaz mermer Lakshmi Narayan tapınağı."
+    },
+    {
+     "name": "Anokhi Museum of Hand Printing",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 80,
+     "tips": "Amber'de blok baskı müzesi; atölye gösterisi."
+    },
+    {
+     "name": "Anokhi Cafe Jaipur",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 400,
+     "tips": "Organik kafe; blok baskı mağazası altında."
+    },
+    {
+     "name": "Sanganer Blok Baskı Atölyeleri",
+     "category": "shopping",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Jaipur'un baskı köyü; kumaş ve kâğıt fabrikaları, üreticiden al."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tapri Central Jaipur",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "Çatı çayhanesi; chai ve bun maska."
+    },
+    {
+     "name": "Patrika Gate",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Rengârenk boyalı kapı; Jawahar Circle, Sanganer yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Pushkar",
+   "stops": [
+    {
+     "name": "Pushkar Lake Ghats",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Jaipur'a 2,5 saat; kutsal göl ve 52 ghat, ayakkabısız, çiçek satıcılarına dikkat."
+    },
+    {
+     "name": "Brahma Temple Pushkar",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Dünyanın nadir Brahma tapınaklarından; mavi-beyaz."
+    },
+    {
+     "name": "Pushkar Bazaar",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Hippi çarşısı; deri, gümüş ve müzik."
+    },
+    {
+     "name": "Sunset Cafe Pushkar",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "Göl kenarı kafe; vejetaryen (Pushkar'da et ve alkol yok), falafel."
+    },
+    {
+     "name": "Savitri Temple Ropeway",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 150,
+     "tips": "Teleferikle tepe tapınağı; göl ve çöl gün batımı, deve safarisi opsiyon."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Honey & Spice Pushkar",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "Sağlıklı kafe."
+    },
+    {
+     "name": "Pushkar Deve Safarisi",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 800,
+     "tips": "Kumullarda gün batımı devesi; tapınak yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Ranthambore",
+   "stops": [
+    {
+     "name": "Ranthambore National Park Safari",
+     "category": "nature",
+     "start": "06:00",
+     "end": "09:30",
+     "cost": 2500,
+     "tips": "Jaipur'a 3,5 saat (bir gece kalmak ideal); sabah cip safarisi, kaplan bölgeleri 1-5; online rezervasyon 3 ay önce."
+    },
+    {
+     "name": "Ranthambore Fort",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Parkın içinde 10. yüzyıl kalesi; Ganesh tapınağı ve göl manzarası."
+    },
+    {
+     "name": "Ranthambore Dhaba Öğle",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 300,
+     "tips": "Sawai Madhopur'da dhaba; dal ve roti."
+    },
+    {
+     "name": "Dastkar Ranthambore",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Kadın kooperatifi el işi; kaplan baskılı tekstil."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ranthambore Öğleden Sonra Safarisi",
+     "category": "nature",
+     "start": "14:00",
+     "end": "17:30",
+     "cost": 2500,
+     "tips": "İkinci safari şansı; alışveriş yerine."
+    },
+    {
+     "name": "Sawai Madhopur Station Kantini",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 150,
+     "tips": "Tren garı yemeği."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Tapınak sabahı & pazar",
+   "stops": [
+    {
+     "name": "Govind Dev Ji Temple",
+     "category": "culture",
+     "start": "07:30",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "City Palace bahçesinde Krishna tapınağı; sabah aarti kalabalık ve coşkulu."
+    },
+    {
+     "name": "Bapu Bazaar",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Jaipur'un tekstil ve mojari (deri terlik) pazarı; pazarlık."
+    },
+    {
+     "name": "Masala Chowk",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 250,
+     "tips": "Açık hava yerel yemek avlusu; Ram Niwas bahçesinde, pani puri ve pav bhaji."
+    },
+    {
+     "name": "Hawa Mahal Çatı Kafeleri",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 200,
+     "tips": "Tattoo Cafe çatısından Hawa Mahal gün batımı çayı."
+    },
+    {
+     "name": "Chokhi Dhani",
+     "category": "culture",
+     "start": "19:00",
+     "end": "22:00",
+     "cost": 1200,
+     "tips": "Rajasthan köy temalı akşam; kukla, deve, dal baati sınırsız (şehre 20 km)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Peacock Rooftop Pearl Palace",
+     "category": "food",
+     "start": "19:00",
+     "end": "22:00",
+     "cost": 500,
+     "tips": "Çatı restoranı; köy parkı yerine."
+    },
+    {
+     "name": "Jawahar Kala Kendra",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Correa'nın sanat merkezi; sergiler, pazar yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Blok baskı — hafif veda",
+   "stops": [
+    {
+     "name": "Rambagh Palace Gardens",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Saray otelinin bahçeleri; tavus kuşları, kahvaltı ya da çay (pahalı)."
+    },
+    {
+     "name": "Anokhi Café Jaipur",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 350,
+     "tips": "Organik kafe ve blok baskı mağazası; veda kahvaltısı."
+    },
+    {
+     "name": "Jaipur Modern Mağazası",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Modern Rajasthan tasarım hediyelik."
+    },
+    {
+     "name": "Jaipur Airport Yolu",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Havalimanı 30 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sahu Chai Wala",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 100,
+     "tips": "Chaura Rasta'da efsane sokak çayı; veda chai."
+    },
+    {
+     "name": "Ram Niwas Garden",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Albert Hall'ün çevresindeki bahçe; mağaza yerine."
+    }
+   ]
+  }
+ ]
+}

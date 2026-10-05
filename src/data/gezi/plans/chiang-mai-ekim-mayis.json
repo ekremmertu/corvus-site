@@ -1,0 +1,469 @@
+{
+ "lang": "tr",
+ "slug": "chiang-mai-ekim-mayis",
+ "altSlug": "chiang-mai-october-may",
+ "citySlug": "chiang-mai",
+ "destKey": "chiang-mai",
+ "city": "Chiang Mai",
+ "region": null,
+ "country": "Tayland",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "THB",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 5000,
+  "attractions": 9000,
+  "transport": 3000,
+  "misc": 2000
+ },
+ "notes": [
+  "Grab (taksi/moto) ucuz; kırmızı songthaew 30-60 THB; skuter 250/gün (ehliyet). Havalimanı şehre 15 dakika.",
+  "Kasım-Şubat serin ve kuru (en iyi; Kasım Yi Peng fener festivali, Loy Krathong); Mart-Nisan yakma dumanı (hava kirliliği kötü, maske), Nisan Songkran su savaşı.",
+  "TDAC dijital varış kartı; Türk vatandaşı 60 gün vizesiz. Nakit THB; kart AVM.",
+  "Khao soi 50-70, sokak 40-60, restoran 150-250; fil parkı 2.500, kurs 1.200-1.500; bahşiş yuvarlama.",
+  "Tapınaklarda omuz-diz kapalı; fil binme YOK, yalnız 'sanctuary'. Doi Suthep sabah, pazar Walking Street akşam.",
+  "Kahve kültürü Nimman'da; Akha Ama, Ristr8to, Graph."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Eski Şehir tapınakları",
+   "stops": [
+    {
+     "name": "Wat Phra Singh",
+     "category": "culture",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 40,
+     "tips": "Lanna tarzı altın tapınak; Aslan Buda, sabah keşişler."
+    },
+    {
+     "name": "Wat Chedi Luang",
+     "category": "culture",
+     "start": "09:15",
+     "end": "10:15",
+     "cost": 50,
+     "tips": "1391 dev tuğla stupa (depremde yıkık); keşişle sohbet (monk chat) öğleden sonra."
+    },
+    {
+     "name": "Khao Soi Khun Yai",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 60,
+     "tips": "Kuzey Tayland'ın hindistan cevizli erişte çorbası (khao soi); saat 14:00'te biter, Sri Phum."
+    },
+    {
+     "name": "Three Kings Monument & Lanna Folklife Museum",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 90,
+     "tips": "Kurucu üç kral ve Lanna kültür müzesi (klimalı)."
+    },
+    {
+     "name": "Tha Phae Gate",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Eski şehir kapısı ve güvercinler; pazar günü Walking Street buradan başlar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "SP Chicken",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 120,
+     "tips": "Şişte ızgara tavuk (gai yang); Wat Phra Singh yanı."
+    },
+    {
+     "name": "Wat Chiang Man",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Şehrin en eski tapınağı (1296); fil stupa, müze yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Doi Suthep & Nimman",
+   "stops": [
+    {
+     "name": "Wat Phra That Doi Suthep",
+     "category": "culture",
+     "start": "07:30",
+     "end": "09:30",
+     "cost": 50,
+     "tips": "Dağ tapınağı 1.000 m; kırmızı songthaew 60 THB, 306 basamak naga merdiveni, altın stupa ve şehir manzarası, sabah sissiz."
+    },
+    {
+     "name": "Wat Pha Lat",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Ormanda gizli tapınak; Keşiş Yolu (Monk's Trail) ile 45 dakika iniş, şelale."
+    },
+    {
+     "name": "Nimmanhaemin Road",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Nimman; kafeler, One Nimman, Think Park, butikler."
+    },
+    {
+     "name": "Tong Tem Toh Nimman",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 150,
+     "tips": "Kuzey Tayland mutfağı; nam prik ong ve sai oua sosis, kuyruk."
+    },
+    {
+     "name": "Maya Mall Çatı Bar",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 150,
+     "tips": "Nimman'da gün batımı/doi manzarası; hızlı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ristr8to Nimman",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 120,
+     "tips": "Ödüllü latte art kahve."
+    },
+    {
+     "name": "Chiang Mai University Ang Kaew Gölü",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Kampüs gölü ve dağ manzarası; Nimman yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Elephant Nature Park",
+   "stops": [
+    {
+     "name": "Elephant Nature Park",
+     "category": "nature",
+     "start": "08:00",
+     "end": "15:30",
+     "cost": 2500,
+     "tips": "Kurtarılmış fil koruma alanı; binme YOK, besleme ve nehirde yürüyüş, aylar önce online, öğle yemeği (vejetaryen) dahil, otelden alınma 60 km."
+    },
+    {
+     "name": "Mae Taeng Nehri Manzarası",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Dönüş yolunda vadi; fotoğraf."
+    },
+    {
+     "name": "Huen Phen",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 200,
+     "tips": "1970'lerden Lanna evi restoranı; khantoke tabağı, gecede antika dolu oda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Elephant Jungle Sanctuary",
+     "category": "nature",
+     "start": "08:00",
+     "end": "15:30",
+     "cost": 2400,
+     "tips": "Alternatif etik koruma alanı; yarım gün."
+    },
+    {
+     "name": "Dash! Restaurant Old City",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 150,
+     "tips": "Tik evinde Tay mutfağı; Huen Phen yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Doi Inthanon",
+   "stops": [
+    {
+     "name": "Doi Inthanon Zirve",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 300,
+     "tips": "Tayland'ın en yüksek noktası 2.565 m; tur veya kiralık araç 2 saat, 10°C sabah, Ang Ka yosun ormanı yolu."
+    },
+    {
+     "name": "King & Queen Pagodas",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 40,
+     "tips": "İkiz pagodalar ve bahçeler; bulut denizi."
+    },
+    {
+     "name": "Wachirathan Waterfall",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Gürleyen 80 m şelale; gökkuşağı."
+    },
+    {
+     "name": "Pha Dok Siew Nature Trail",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "Karen köylü rehberle 2,5 km orman ve pirinç terasları; Mae Klang Luang köyünde kahve."
+    },
+    {
+     "name": "Mae Klang Luang Karen Köyü",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 100,
+     "tips": "Terasta öğle; köy kahvesi ve balık."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sirithan Waterfall",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Alternatif şelale; kalabalıksız."
+    },
+    {
+     "name": "Royal Project Inthanon Restoran",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 150,
+     "tips": "Kraliyet projesi tarım istasyonu; alabalık ve çilek."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Yemek kursu & Wararot",
+   "stops": [
+    {
+     "name": "Thai Farm Cooking School",
+     "category": "food",
+     "start": "08:30",
+     "end": "13:30",
+     "cost": 1500,
+     "tips": "Organik çiftlikte yemek kursu; pazar alışverişi, 5 yemek (khao soi, curry macunu), otelden alınma."
+    },
+    {
+     "name": "Warorot Market Kad Luang",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Yerlilerin pazarı; kuru meyve, sai oua, Lanna kumaşları, Çin mahallesi."
+    },
+    {
+     "name": "Wat Ket Karam & Ping Nehri",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Nehir karşısı tapınak ve kafeler; Wat Ket mahallesi."
+    },
+    {
+     "name": "Ping Nehri Kıyısı Woo Cafe",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 150,
+     "tips": "Galeri-kafe; nehir kenarı."
+    },
+    {
+     "name": "Night Bazaar Chiang Mai",
+     "category": "shopping",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "Chang Khlan gece pazarı; her gece, pazarlık, Kalare food court."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Basil Cookery School",
+     "category": "food",
+     "start": "08:30",
+     "end": "13:30",
+     "cost": 1200,
+     "tips": "Eski şehirde kurs; çiftlik yerine."
+    },
+    {
+     "name": "Ploen Ruedee Night Market",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 200,
+     "tips": "Gece pazarı yanı canlı müzikli yemek avlusu."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Mae Kampong & Sticky Waterfall",
+   "stops": [
+    {
+     "name": "Bua Tong Sticky Waterfall",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Kireç kayalı 'yapışkan' şelaleye tırmanış (kaymaz); şehre 1 saat kuzey, ücretsiz."
+    },
+    {
+     "name": "Mae Kampong Köyü",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Bulutlardaki dağ köyü; çay ve kahve, ahşap evler, Tay köylüler."
+    },
+    {
+     "name": "Mae Kampong Köy Lokantası",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 100,
+     "tips": "Yerel miang (fermente çay yaprağı) ve kuzey yemekleri."
+    },
+    {
+     "name": "Mae Kampong Şelalesi",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Köy içinde 7 katlı şelale; yürüyüş."
+    },
+    {
+     "name": "Flight of the Gibbon Zipline",
+     "category": "nature",
+     "start": "15:15",
+     "end": "17:00",
+     "cost": 3000,
+     "tips": "Orman zipline (isteğe bağlı, pahalı); veya San Kamphaeng kaplıcaları."
+    }
+   ],
+   "backups": [
+    {
+     "name": "San Kamphaeng Hot Springs",
+     "category": "nature",
+     "start": "15:15",
+     "end": "17:00",
+     "cost": 100,
+     "tips": "Kaplıcada ayak banyosu ve haşlanmış yumurta; zipline yerine."
+    },
+    {
+     "name": "Mae Kampong Kahve Evi",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 80,
+     "tips": "Köy kahvesi ve miang; lokanta yerine hafif."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Pazar Walking Street — hafif veda",
+   "stops": [
+    {
+     "name": "Wat Umong",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Ormanda tünel tapınağı; keşiş sözleri ağaçlarda."
+    },
+    {
+     "name": "Baan Kang Wat Sanatçı Köyü",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Ahşap atölye köyü; seramik, kafe, Wat Umong yanı."
+    },
+    {
+     "name": "Khao Soi Mae Sai",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 60,
+     "tips": "Yerlilerin khao soi'si; Ratchaphuek."
+    },
+    {
+     "name": "Chiang Mai Havalimanı",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 150,
+     "tips": "Şehre 15 dakika Grab; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sunday Walking Street Ratchadamnoen",
+     "category": "shopping",
+     "start": "17:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "Pazarsa: 1 km el sanatı pazarı ve tapınak avlusu yemekleri; uçuşu geç al."
+    },
+    {
+     "name": "Blue Diamond Breakfast Club",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 120,
+     "tips": "Eski şehir kahvaltı ve fırın."
+    }
+   ]
+  }
+ ]
+}

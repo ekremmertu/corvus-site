@@ -1,0 +1,552 @@
+{
+ "lang": "tr",
+ "slug": "izmir-yaz",
+ "altSlug": "izmir-summer",
+ "citySlug": "izmir",
+ "destKey": "izmir",
+ "city": "İzmir",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 11750,
+  "attractions": 4968,
+  "transport": 485,
+  "misc": 1350
+ },
+ "notes": [
+  "İzmirim Kart olmadan hiçbir toplu taşımaya (otobüs, metro, vapur) binilmez; kartsız sadece temassız banka kartıyla biraz daha pahalıya biniş yapılabilir.",
+  "Temmuz'da öğlen sıcaklığı 34-38°C'ye çıkar; 12:00-16:00 arası uzun yürüyüşten kaçının, imbat rüzgarı serin hissettirse de güneş yakar, şapka ve krem şart.",
+  "Havra Sokak'taki sinagog ziyaretinde omuz ve diz kapatan kıyafet tercih edin; erkeklere kapıda kippa verilir, fotoğraf çekmeden önce rehbere sorun.",
+  "Esnaf lokantalarında (Bizim Lokanta, Güven Lokantası gibi) bahşiş zorunlu değil; daha modern restoranlarda (Deniz Restaurant, Yasef'in Meyhanesi) hesaba dahil değilse %10 bırakmak adettendir.",
+  "Efes ve Alaçatı gibi gün gezilerine mümkünse ilk saatlerde (08:00-09:00) çıkın; hem yaz sıcağından hem tur otobüsü kalabalığından kurtulursunuz.",
+  "Kemeraltı Çarşısı'nın dar sokaklarında özellikle öğleden sonra kalabalık artar, çantanızı önde taşımak faydalı olur.",
+  "Şirince ve Alaçatı'da yerel üreticiden şarap/reçel alırken pazarlık yapmak ayıp sayılmaz, özellikle toplu alımda indirim istenebilir."
+ ],
+ "niche": {
+  "name": "Havra Sokak Sinagogları (Bikur Holim ve Algazi Sinagogu)",
+  "level": "l3",
+  "why_hidden": "Turist rehberlerinin çoğu Kemeraltı'nın baharat kokusunu ve renkli tezgahlarını anlatır ama hemen arkasındaki 500 yıllık Sefarad mirasını atlar. İzmir'in küçülen Yahudi cemaati nedeniyle sinagoglar günlük ibadete kapalı durumda ve sadece özel izinle, önceden randevu alınarak gezilebiliyor.",
+  "access_instructions": "Ebruli Turizm'i en az 2-3 gün önceden arayarak Havra Sokak turuna (Şalom, Algazi, Bikur Holim ve restore edilmiş Etz Hayim Sinagogu dahil) yer ayırtın. Grup buluşma noktası Mezarlıkbaşı Mahallesi'nde, 927 Sokak'ın Kemeraltı'ndan girişidir.",
+  "local_contact": "Ebruli Turizm - Tel: +90 232 464 07 18, E-posta: ebrulitur@ebruliturizm.com.tr, Instagram: @ebrulitur",
+  "season": "Yıl boyu mümkündür, ancak ilkbaharda düzenlenen Sefarad Kültür Festivali döneminde ek etkinlikler ve konserler düzenlenir.",
+  "insider_tip": "Kapıda erkeklere kippa verilir, omuz ve diz kapatan kıyafet giyin. Rehberden 19. yüzyıl Kemeraltı'nın 'Cadde-i Kebir' dönemine ait eski fotoğrafları göstermesini isteyin, standart turlarda bu anlatılmaz.",
+  "show_reason": "500 yıllık Sefarad tarihine kilitli kapıların ötesinden erişim sağlıyor; fotoğraf değeri çok yüksek olmasına rağmen sosyal medyada neredeyse hiç paylaşılmamış, gerçek bir 'bilen bilir' deneyimi.",
+  "lat": 38.4186,
+  "lng": 27.1281,
+  "address": "Havra Sokak, 927 Sokak, Mezarlıkbaşı Mahallesi, Konak, İzmir",
+  "cost_range_min": 700,
+  "cost_range_max": 1200,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "İzmirim Kart",
+  "why_chosen": "İzmir'de metro, tramvay, İZBAN, tüm ESHOT otobüsleri (Alaçatı'ya giden 984-760 hatları dahil) ve İZDENİZ vapurları (Konak-Karşıyaka hattı dahil) tek bu kartla çalışıyor; planınızdaki neredeyse her gün en az bir toplu taşıma bağlantısı gerektiriyor. Tekli bilet almaya göre hem daha ucuz hem de her istasyonda dolum otomatı bulunduğu için pratik.",
+  "coverage": "İzmir Metro, İZBAN, Tramvay, tüm ESHOT otobüs hatları ve İZDENİZ vapur hatları (Konak-Karşıyaka-Bostanlı dahil)",
+  "where_to_buy": "Adnan Menderes Havalimanı gişeleri, Konak ve Üçkuyular vapur iskelesi gişeleri, herhangi bir metro istasyonundaki yüklematik otomatlar",
+  "cost": 250,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "İzmir'in İkonik Yüzü: Kordon, Kemeraltı ve Konak",
+   "stops": [
+    {
+     "name": "Saat Kulesi ve Konak Meydanı",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "1901'den kalma saat kulesi İzmir'in resmi simgesidir, sabah erken saatte kalabalık olmadan fotoğraf çekmek için ideal. Meydandaki Konak Vapur İskelesi'nden güne başlamadan önce simit-çay molası verebilirsiniz."
+    },
+    {
+     "name": "Kemeraltı Çarşısı (Anafartalar Caddesi)",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "12:15",
+     "cost": 250,
+     "tips": "Baharatçılar, kuyumcular ve Kızlarağası Hanı'nın çevresindeki dar sokaklarda kaybolun; her köşe başında farklı bir esnaf var. Yaz sıcağında tezgahlardaki taze kayısı/kuru meyve alışverişi ucuz ve pratik bir atıştırmalık olur."
+    },
+    {
+     "name": "İzmir Kemeraltı Çarşısı Lezzet Turu",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 1800,
+     "tips": "Rehberli tadım turu boyoz, kokoreç, baklava ve Türk kahvesi gibi 6-7 duraklı bir lezzet rotası sunar; kendi başınıza bulamayacağınız esnaf dükkanlarına götürür. En az 1 gün önceden online rezervasyon yapın, aç karnına katılın.",
+     "bookingUrl": "https://www.viator.com/searchResults/all?text=Izmir+Food+Tour+Kemeralti+Bazaar",
+     "bookingProvider": "Viator"
+    },
+    {
+     "name": "Kültürpark",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 100,
+     "tips": "1936'dan kalma kent parkında gölette sandal kiralanabilir (100-150 TL). Ağaçlık alanlar öğleden sonra sıcağından korunmak için idealdir. Fuar alanı Eylül'de İzmir Enternasyonal Fuarı için kapanabilir, o dönem dışında sakindir."
+    },
+    {
+     "name": "Kordon (Cumhuriyet Bulvarı) Gün Batımı Yürüyüşü",
+     "category": "landmark",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 150,
+     "tips": "Alsancak İskelesi hizasından körfeze karşı gün batımı izlenir, palmiye ağaçlı yürüyüş yolunda bisikletli/koşucu yerliler yoğundur. Seyyar kahvecilerden Türk kahvesi 100-150 TL civarı, oturmak için bank aramanıza gerek yok."
+    },
+    {
+     "name": "Deniz Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 2200,
+     "tips": "İzmir Palas Oteli'nde 30 yılı aşkın süredir hizmet veren, Kordon'a sıfır manzaralı klasik bir balık restoranı. Mevsim mezeleri ve günün balığını sorun, yaz akşamları bahçe masaları için rezervasyon (0232 464 4499) önerilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tarihi Güven Lokantası",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 800,
+     "tips": "1939'dan beri Kemeraltı'nda hizmet veren, sadece öğlen açık esnaf lokantası. Nohutlu işkembe ve kuru fasulyeyi deneyin, 13:00 sonrası sıra olabilir."
+    },
+    {
+     "name": "Hisar Camii",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "1597 yapımı, İzmir'in en büyük ve en eski camisi; Kızlarağası Hanı'na bitişik. Tek şerefeli minaresi ve altı küçük kubbesiyle Kemeraltı gezisinde kısa bir mola noktasıdır."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Tarihin Katmanları: Havra Sokak, Agora ve Kadifekale",
+   "stops": [
+    {
+     "name": "Agora Ören Yeri",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 300,
+     "tips": "Roma dönemi antik pazar yerinin ayakta kalan sütunları arasında gezinin; 08:30 açılışında kalabalık olmaz. Müzekart geçerlidir. Gölge az olduğu için erken gitmek şart."
+    },
+    {
+     "name": "Havra Sokak Sinagogları (Bikur Holim ve Algazi Sinagogu)",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 900,
+     "tips": "500 yıllık Sefarad mirasına ait kilitli sinagoglar yalnızca özel izinle gezilir. Ebruli Turizm'i en az 2-3 gün önce arayıp Havra Sokak turuna yer ayırtın. Buluşma noktası Mezarlıkbaşı, 927 Sokak girişidir."
+    },
+    {
+     "name": "Bizim Lokanta",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 750,
+     "tips": "39 yıllık aile işletmesi, nohutlu işkembe ve balık çorbasıyla ünlü; salı-cuma balık çorbası, çarşamba paça çorbası servis edilir. Kızlarağası Hanı'na paralel 911. Sokak'ta, tabelasız gibi duran sade bir esnaf lokantasıdır."
+    },
+    {
+     "name": "Kızlarağası Hanı",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 200,
+     "tips": "18. yüzyıldan kalma kervansaray avlusunda antikacılar, el sanatları ve nargile kafeler var. Avludaki çay bahçesinde mola verip esnafla sohbet etmek turun en keyifli kısmı."
+    },
+    {
+     "name": "Kadifekale Gün Batımı Manzarası",
+     "category": "landmark",
+     "start": "18:45",
+     "end": "19:45",
+     "cost": 100,
+     "tips": "Kentin en yüksek noktasından körfezin tamamı kızıl tonlara bürünür; gün batımından 45 dakika önce gelin, mavi saat (batıştan 20-30 dk sonra) en dramatik ışığı verir. Sur dibindeki seyyar çaycılardan çay için."
+    },
+    {
+     "name": "Park Pide Salonu",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 500,
+     "tips": "Kadifekale eteğindeki Güven Mahallesi'nde, semtin yerlisinin gittiği sade bir pide salonu. Kaşarlı veya kıymalı pideyi ayranla deneyin, akşamları yerel aileler kalabalık eder."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kısmet Lokantası",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Kemeraltı'nda Küçük Demirhan içinde 40 yılı aşkın süredir hizmet veren esnaf lokantası. Günlük tencere yemeklerinden ne varsa tezgahtan seçin, fiyatlar Bizim Lokanta'ya yakın."
+    },
+    {
+     "name": "YOLO (Abacıoğlu Hanı)",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 150,
+     "tips": "Kemeraltı'nın hanlarından birinde, üst katında sürekli değişen sergiler ve vintage eşyalar bulunan alternatif bir mekân. İthal bira ve ev yapımı hamburgerle de mola verilebilir."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Alsancak'ın Ruhu: Boyoz, Sanat ve Taş Evler",
+   "stops": [
+    {
+     "name": "Zeynel Ergin Gevrek Fırını",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 300,
+     "tips": "1466. Sokak'taki bu fırın İzmir'in gevrek (simit) sembolü, 06:30'dan beri taze pişiyor. Boyozu da unutmayın, çikolatalı ve peynirli çeşitleri var, sabah erken gidilirse sıcak servis edilir."
+    },
+    {
+     "name": "Alsancak Punta Tarihi Evleri",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Osmanlı döneminde 'La Punta' olarak bilinen bu bölgede 19. yüzyıldan kalma renkli cepheli konsolosluk ve konak binaları var. Turist kalabalığının uğramadığı sakin bir fotoğraf rotası."
+    },
+    {
+     "name": "Arkas Sanat Merkezi",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "1900'lerin başından kalma eski Fransız konsolosluk binasında ücretsiz gezilen bir sanat galerisi, 9 sergi salonu var. Pazartesi kapalı, 1-2 saatte rahatça gezilir."
+    },
+    {
+     "name": "Alsancak'ta Kumru ve Midye Dolma Molası",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "Kıbrıs Şehitleri Caddesi çevresindeki büfelerden kumru ve midye dolma deneyin; İzmirlilerin öğlen arası uğrağı, ayaküstü hızlı ve ucuz bir seçenek. Ayran veya şalgam eşlik eder."
+    },
+    {
+     "name": "Kıbrıs Şehitleri Caddesi Ara Sokakları",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Ana caddenin arkasındaki 1461-1465. sokaklarda eski Alsancak yapıları, butik dükkanlar ve küçük kafeler saklı. Google Maps'te işaretli değil, kendi keşfinize bırakılan bir rota."
+    },
+    {
+     "name": "Yasef'in Meyhanesi",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 1800,
+     "tips": "80 yıl önce kapanan tarihi bir meyhanenin torunu tarafından yeniden açılmış samimi bir mekan. Ege mezeleri ve rakı eşliğinde canlı sohbet ortamı; hafta sonu için önceden yer ayırtın."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dostlar Fırını",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 300,
+     "tips": "Alsancak'ın bir diğer efsane boyozcusu; çikolatalı, tahinli ve mercimekli çeşitleriyle biliniyor. Zeynel Ergin'e alternatif olarak sabah kahvaltısı için ideal."
+    },
+    {
+     "name": "Gündoğdu Meydanı",
+     "category": "landmark",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Atatürk'ün atlı heykeliyle bilinen, Alsancak'ın en canlı meydanlarından biri; çevresinde oturup halkı izlemek için banklar var. Akşamüstü serinlemek için uğranabilir."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Körfezin Öte Yakası: Karşıyaka ve Bostanlı",
+   "stops": [
+    {
+     "name": "Konak-Karşıyaka Vapuru ve Karşıyaka Çarşısı",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 185,
+     "tips": "Konak İskelesi'nden İzmirim Kart ile 35 TL'ye biniş yapılan 25 dakikalık vapur yolculuğu körfezi tepeden görmenin en güzel yolu. Karşıyaka İskelesi'nin karşısındaki çarşıda kitapçılar ve kafeler arasında dolaşın."
+    },
+    {
+     "name": "Milli Mücadele Parkı ve Müzesi (Latife Hanım Köşkü)",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 50,
+     "tips": "Atatürk'ün annesi Zübeyde Hanım'ın son günlerini geçirdiği köşk, Kurtuluş Savaşı dönemine dair objeler sergiliyor. Karşıyaka'nın en çok atlanan tarihi durağı, genelde sakin gezilir."
+    },
+    {
+     "name": "Köfteci Erol",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 500,
+     "tips": "Karşıyaka Çarşısı içinde salaş dekorasyonlu, semtin en eski köftecilerinden. Piyaz ve bol köpüklü ayranla birlikte sipariş edin, öğlen saatlerinde yerli müdavimlerle doludur."
+    },
+    {
+     "name": "Bostanlı Pazarı",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 200,
+     "tips": "Çarşamba ve cumartesi günleri kurulan bu pazar organik sebze-meyveden ev yapımı reçele kadar geniş bir yelpazeye sahip. Yerel üreticilerle sohbet edip küçük bir hediyelik alabilirsiniz."
+    },
+    {
+     "name": "Bostanlı Sahili ve Bisiklet Yolu",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 150,
+     "tips": "Körfez manzaralı uzun bisiklet ve yürüyüş yolunda kiralık bisikletle (150 TL civarı) keyifli bir tur atılabilir. Akşamüstü İzmirlilerin spor yaptığı en hareketli saat."
+    },
+    {
+     "name": "Bostanlı Günbatımı Seyir Terası ve Kumrucu Ömür",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 350,
+     "tips": "Denize doğru uzanan seyir terasından gün batımını izledikten sonra hemen yakındaki Bostanlı'nın en iyi kumrucusu Kumrucu Ömür'de akşam yemeği yiyin. Tam kumru ve ayran klasik kombinasyondur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kumrucu Şevki",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 450,
+     "tips": "Karşıyaka'nın en bilinen kumrucularından biri, günün her saati açık olmasıyla pratik bir seçenek. Tam kumru ve ayran ikilisi standarttır."
+    },
+    {
+     "name": "Bostanlı Vapur İskelesi",
+     "category": "landmark",
+     "start": "17:45",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "Karşıyaka'nın diğer iskelesi, sahil terasına alternatif bir gün batımı noktası. İskelenin çevresindeki balıkçılarla sohbet edebilirsiniz."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Kentin Sakin Sahili: Güzelbahçe, Balçova ve Narlıdere",
+   "stops": [
+    {
+     "name": "Balçova Termal Tesisleri (Agamemnon Kaplıcaları)",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 100,
+     "tips": "Antik çağdan beri kullanılan termal suların günübirlik havuz girişi 75-100 TL civarı. Son giriş saati 17:00 olduğundan sabah erken gidip rahat bir kaplıca deneyimi yaşayın."
+    },
+    {
+     "name": "İnciraltı Kent Ormanı",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Geniş yeşil alanları ve yürüyüş yollarıyla ailelerin piknik yaptığı, turistlerin neredeyse hiç uğramadığı bir kent ormanı. Gölgelik alanlarda öğle sıcağından korunabilirsiniz."
+    },
+    {
+     "name": "Güzelbahçe Balıkçı Barınağı",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Küçük tekneleri ve ağlarıyla Ege'nin en samimi köşelerinden biri; balıkçılar sabah avından döndüğünde barınak hareketlenir. Fotoğraf için en sakin ve otantik nokta."
+    },
+    {
+     "name": "Güzelbahçe'de Öğle Yemeği",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 1400,
+     "tips": "Balıkçı barınağına yakın küçük bir balık lokantasında günün taze balığını sorun; fiyatlar Kordon'a göre daha uygun. Yerel halkın hafta sonu tercih ettiği sakin bir nokta."
+    },
+    {
+     "name": "Güzelbahçe Sahili Yürüyüş ve Bisiklet",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 150,
+     "tips": "Sessiz sahil şeridinde bisiklet kiralanabilir, denize girilebilecek noktalar da mevcut. Kordon'un kalabalığından uzak, yerlilerin tercih ettiği bir sahil."
+    },
+    {
+     "name": "Narlıdere Sahilinde Gün Batımı ve Balık Ekmek",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 500,
+     "tips": "Dönüş yolunda Narlıdere sahilinde gün batımını izleyip seyyar tekneden balık ekmek yiyin; en otantik ve ucuz akşam yemeği seçeneklerinden. Ayran veya şalgam eşlik eder."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Balçova Termal Otel Restoranı",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 900,
+     "tips": "Termal tesis kompleksi içindeki restoran, kaplıca sonrası pratik bir öğle yemeği seçeneği sunar. Yöresel ev yemekleri ağırlıklı bir menüsü var."
+    },
+    {
+     "name": "İzmir Balçova Teleferik",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 80,
+     "tips": "Balçova'dan Şirinyer'e uzanan teleferikle şehri kuşbakışı görebilirsiniz, biniş ücreti 80 TL. Yaz döneminde kapanış saati 20:00'ye kadar uzatılmıştır."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Efes, Meryem Ana ve Şirince: Antik Çağdan Şarap Mahzenlerine",
+   "stops": [
+    {
+     "name": "Efes Antik Kenti",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 3218,
+     "tips": "Dünyanın en iyi korunmuş antik kentlerinden biri; Celsus Kütüphanesi ve Büyük Tiyatro'yu kaçırmayın. Tur fiyatına ulaşım, rehberlik ve ören yeri girişi dahildir, sıcaktan kaçınmak için erken saatte gidin.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Ephesus+Virgin+Mary+House+Sirince+Tour+from+Izmir",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Meryem Ana Evi",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 100,
+     "tips": "Hristiyanlıkta Meryem Ana'nın son yıllarını geçirdiğine inanılan küçük taş ev, hem Hristiyan hem Müslüman ziyaretçiler için kutsal sayılır. Dilek duvarına bir dilek bırakabilirsiniz."
+    },
+    {
+     "name": "Selçuk'ta Öğle Yemeği",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 750,
+     "tips": "Selçuk Köftecisi'nde (Şehabettin Dede Caddesi) yöresel köfte deneyin, Efes turundan sonra otogar civarında pratik bir duraktır. Kaymaklı Ödemiş köftesi bölgenin özel lezzetidir."
+    },
+    {
+     "name": "Şirince Köyü Taş Sokakları",
+     "category": "culture",
+     "start": "14:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Rum mimarisinden kalan taş evler ve dar sokaklarda kaybolun; şarap mahzenlerinde tadım tamamen ücretsizdir. Kalabalıktan kaçmak için ana caddenin arka sokaklarına sapın."
+    },
+    {
+     "name": "Şirince'de Yerel Şarap ve Reçel Alışverişi",
+     "category": "shopping",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 250,
+     "tips": "Nar, çilek ve karadut şaraplarından birkaçını tadıp beğendiğinizi alın; köylülerin evlerinde ürettiği organik reçel ve zeytinyağı da mutlaka denenmeli. Nakit ödemede pazarlık payı vardır."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ayasuluk Kalesi ve İsa Bey Camii",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 200,
+     "tips": "Efes'e alternatif olarak Selçuk'un tepesindeki bu kale, St. Jean Bazilikası kalıntılarını da barındırır. Müzekart geçerlidir, kapanış 17:30'dur."
+    },
+    {
+     "name": "Selçuk Köftecisi",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 700,
+     "tips": "Otogar karşısında, yöre halkının tercih ettiği köfteci; ana lokantaya alternatif sade ve hızlı bir seçenek."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Alaçatı ve Çeşme: Taş Sokaklardan Sahile",
+   "stops": [
+    {
+     "name": "Alaçatı Taş Sokakları ve Yel Değirmenleri",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "150 yıllık yel değirmenleri Alaçatı'nın girişinde, gün ışığında en fotojenik hali; hemen ardından renkli kapılı taş sokaklarda yürüyün. ESHOT'un 984-760 hattıyla İzmirim Kart kullanarak gelinir."
+    },
+    {
+     "name": "Pazaryeri Camii (Ayios Konstantinos Kilisesi)",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "1874'te kilise olarak inşa edilip zamanla camiye dönüşen ilginç bir yapı, farklı inançların iç içe geçtiği bir simge. Alaçatı'nın turistik rotalarında nadiren anılır."
+    },
+    {
+     "name": "Kumrucu Hüseyin",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 350,
+     "tips": "Kumrunun mucidi Hüseyin Usta 1966'dan beri aynı yerde, 85 yaşında hâlâ dükkânın başında. Tam kumru sipariş edin, Çeşme'nin en özgün lezzet durağıdır."
+    },
+    {
+     "name": "İlıca Plajı'nda Deniz Keyfi",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 200,
+     "tips": "Çeşme'nin girişindeki halka açık, ücretsiz sahil; sığ ve berrak sularıyla ailelerin de tercih ettiği bir plaj. Şezlong kiralamak isterseniz 150-250 TL civarı ek ücret ödersiniz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kumrucu Erol",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 350,
+     "tips": "1980'lerden beri aile işletmesi olarak süren, Kumrucu Hüseyin'e alternatif bir diğer tarihi kumrucu. Yerli halkın da favorilerinden."
+    },
+    {
+     "name": "Çeşme Kalesi",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:00",
+     "cost": 150,
+     "tips": "Ceneviz döneminden kalma kale, İlıca'ya alternatif olarak dönüş öncesi kısa bir tarih molası sunar. İçindeki müzede korsanlık ve denizcilik tarihine dair objeler sergilenir."
+    }
+   ]
+  }
+ ]
+}

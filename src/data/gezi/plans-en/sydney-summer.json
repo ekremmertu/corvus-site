@@ -1,0 +1,500 @@
+{
+ "lang": "en",
+ "slug": "sydney-summer",
+ "altSlug": "sidney-yaz",
+ "citySlug": "sidney",
+ "destKey": "sydney",
+ "city": "Sydney",
+ "region": null,
+ "country": "Australia",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "AUD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 520,
+  "attractions": 260,
+  "transport": 100,
+  "misc": 100
+ },
+ "notes": [
+  "Use an Opal or contactless card on ferries, trains and buses; the Sunday fare cap is cheap. The airport train takes 20 minutes (surcharge ~17 AUD).",
+  "NOTE: June to September is WINTER in Sydney (12-18°C, rain possible); beaches are good for walking, it is whale season and the crowds are thinner.",
+  "Coffee culture: a flat white costs 5 AUD, brunch 25-30; fish and chips 20, restaurants 40+. Tipping is not expected.",
+  "Swim between the flags at beaches (rip currents); the Bondi to Coogee walk is cool in the morning.",
+  "Book the Opera House tour and BridgeClimb online; Taronga offers a combined ferry and entry ticket.",
+  "The train from Central to the Blue Mountains takes 2 hours; Scenic World tickets are discounted online."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Opal Card / contactless",
+  "why_chosen": "Covers trains, ferries, buses and light rail; the Sunday cap is ~9 AUD",
+  "coverage": "Sydney Trains, feribotlar, otobüs, Light Rail, havalimanı treni (ek ücret)",
+  "where_to_buy": "Kendi temassız kartın veya istasyon/market",
+  "cost": 0,
+  "currency_code": "AUD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Harbour icons",
+   "stops": [
+    {
+     "name": "Sydney Opera House",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 45,
+     "tips": "Take the 1-hour interior tour (~45 AUD) or admire it from outside; Bennelong Point has lovely morning light."
+    },
+    {
+     "name": "Royal Botanic Garden Sydney",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Harbourside gardens; Mrs Macquarie's Chair frames the Opera House and the bridge."
+    },
+    {
+     "name": "The Rocks",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Colonial-era stone lanes; weekend market and Cadmans Cottage."
+    },
+    {
+     "name": "The Rocks Cafe",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Breakfast or lunch in the Rocks; try the Australian breakfast."
+    },
+    {
+     "name": "Sydney Harbour Bridge Pylon Lookout",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "200 steps up the bridge's south-east pylon; a cheap alternative to BridgeClimb (300+ AUD), then walk across the bridge."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Opera Bar",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Harbourside bar beneath the Opera House; great at sunset."
+    },
+    {
+     "name": "Museum of Contemporary Art Australia",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Free museum at Circular Quay; rooftop cafe."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Bondi to Coogee",
+   "stops": [
+    {
+     "name": "Bondi Beach",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Australia's most famous beach; surfers in the morning, Icebergs pool (9 AUD), sea around 22°C in summer."
+    },
+    {
+     "name": "Bondi to Coogee Coastal Walk",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "6 km of rocky clifftop path past Tamarama, Bronte, Waverley Cemetery and Clovelly."
+    },
+    {
+     "name": "Coogee Pavilion",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 28,
+     "tips": "Rooftop bar and restaurant on Coogee Beach; pizza and seafood."
+    },
+    {
+     "name": "Coogee Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Calm cove with the Wylie's Baths rock pool."
+    },
+    {
+     "name": "Bondi Icebergs Sunset",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Views of the famous rock pool and the beach; return by bus."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bills Bondi",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Ricotta hotcakes; the Bondi brunch classic."
+    },
+    {
+     "name": "Bronte Baths",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Rock pool at Bronte; an alternative to Coogee."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Manly ferry",
+   "stops": [
+    {
+     "name": "Manly Ferry Circular Quay",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 8,
+     "tips": "30-minute ferry ride, \"the world's best 8 dollar harbour cruise\"; pay with Opal."
+    },
+    {
+     "name": "Manly Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Surf beach lined with Norfolk pines; stroll along The Corso."
+    },
+    {
+     "name": "Manly to Spit Bridge Walk",
+     "category": "nature",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "10 km harbourside walk past Aboriginal rock carvings and coves (short version: Shelly Beach, 1 km)."
+    },
+    {
+     "name": "Manly Wharf Hotel",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "Wharfside pub; fish and beer with harbour views."
+    },
+    {
+     "name": "Manly Ferry Sunset Return",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:00",
+     "cost": 8,
+     "tips": "On the ferry heading west, watch the sun set over the Opera House and the bridge."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shelly Beach Manly",
+     "category": "nature",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Snorkelling cove; a shorter option than the long walk."
+    },
+    {
+     "name": "Hugos Manly",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 35,
+     "tips": "Pizza and seafood on the wharf."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Blue Mountains",
+   "stops": [
+    {
+     "name": "Echo Point Three Sisters",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "2 hours by train (Katoomba); free views of the Three Sisters rock formation and the valley."
+    },
+    {
+     "name": "Scenic World Katoomba",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:30",
+     "cost": 55,
+     "tips": "The world's steepest railway, a cableway and a rainforest boardwalk (~55 AUD)."
+    },
+    {
+     "name": "Katoomba Yellow Deli",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Wood-panelled cafe in Katoomba; sandwiches and soup."
+    },
+    {
+     "name": "Wentworth Falls Walk",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Waterfall and clifftop trail (short section of the National Pass); start from the train station."
+    },
+    {
+     "name": "Leura Village",
+     "category": "landmark",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Pretty town with cherry trees and antique shops; take the train back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Leura Garage",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Restaurant in a former garage in Leura."
+    },
+    {
+     "name": "Jenolan Caves",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 50,
+     "tips": "Limestone caves; an alternative to Wentworth Falls (by car)."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Taronga and Darling Harbour",
+   "stops": [
+    {
+     "name": "Taronga Zoo Sydney",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 50,
+     "tips": "12 minutes by ferry; koalas and kangaroos, plus a cable car with harbour views."
+    },
+    {
+     "name": "Taronga Zoo Ferry Wharf",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "12:45",
+     "cost": 8,
+     "tips": "Take the ferry to Darling Harbour or Circular Quay."
+    },
+    {
+     "name": "Darling Harbour",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Waterfront stroll and Pyrmont Bridge."
+    },
+    {
+     "name": "Sydney Fish Market",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "The Southern Hemisphere's largest fish market; sashimi and oysters straight from the counter, in a new building."
+    },
+    {
+     "name": "Barangaroo Reserve",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Harbourside park; sunset and the Wulugul Walk."
+    }
+   ],
+   "backups": [
+    {
+     "name": "SEA LIFE Sydney Aquarium",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 45,
+     "tips": "Aquarium at Darling Harbour; an alternative to the zoo."
+    },
+    {
+     "name": "Chinatown Sydney Dixon Street",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 18,
+     "tips": "Dim sum and Chinatown; an alternative to the fish market."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Surry Hills, Newtown and Paddington",
+   "stops": [
+    {
+     "name": "Surry Hills Crown Street",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Cafes and boutiques; Bourke Street Bakery."
+    },
+    {
+     "name": "Bourke Street Bakery",
+     "category": "food",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 8,
+     "tips": "Sydney's famous bakery; try the ginger brûlée tart and sausage roll."
+    },
+    {
+     "name": "Paddington Reservoir Gardens",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Sunken gardens in a former water reservoir; Oxford Street is close by."
+    },
+    {
+     "name": "Paddington Markets",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Saturday market (on other days, browse the boutiques on Oxford Street)."
+    },
+    {
+     "name": "Newtown King Street",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Street art, vegan cafes and vintage shops; Enmore Theatre."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mary's Newtown",
+     "category": "food",
+     "start": "14:00",
+     "end": "16:30",
+     "cost": 20,
+     "tips": "Burgers and fried chicken in Newtown."
+    },
+    {
+     "name": "Brett Whiteley Studio",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Painter's studio in Surry Hills (weekends only); an alternative to the reservoir."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Watsons Bay: a gentle farewell",
+   "stops": [
+    {
+     "name": "Watsons Bay Ferry",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 8,
+     "tips": "30 minutes from Circular Quay; towards the harbour entrance."
+    },
+    {
+     "name": "The Gap Lookout",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Ocean cliffs; whale watching (May to November)."
+    },
+    {
+     "name": "Camp Cove Beach",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Calm harbour beach; good for swimming in summer."
+    },
+    {
+     "name": "Doyles on the Beach Watsons Bay",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 45,
+     "tips": "Seafood restaurant since 1885; a farewell lunch with views of the Opera House."
+    },
+    {
+     "name": "Circular Quay Airport Train",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The airport train takes 20 minutes; time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Watsons Bay Boutique Hotel",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Beer garden and fish and chips."
+    },
+    {
+     "name": "South Head Heritage Trail",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Walk to Hornby Lighthouse; an alternative to the beach."
+    }
+   ]
+  }
+ ]
+}

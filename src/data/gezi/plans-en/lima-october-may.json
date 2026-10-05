@@ -1,0 +1,477 @@
+{
+ "lang": "en",
+ "slug": "lima-october-may",
+ "altSlug": "lima-ekim-mayis",
+ "citySlug": "lima",
+ "destKey": "lima",
+ "city": "Lima",
+ "region": null,
+ "country": "Peru",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "PEN",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 1100,
+  "attractions": 600,
+  "transport": 450,
+  "misc": 200
+ },
+ "notes": [
+  "Use Uber or Cabify (safer than street taxis); the Metropolitano bus is fast; Airport Express Lima costs 25 PEN. Stay in Miraflores, Barranco or San Isidro.",
+  "Summer in Lima runs from December to April: 25-28°C and sunny, with beaches (Punta Hermosa) open. February is the hottest month. May and October are transitional months.",
+  "Ceviche costs 40-70 PEN (lunch only, freshest then), menú del día (set lunch) 15, luxury 200+; tip 10%; cards are widely accepted, markets take cash. Don't drink tap water.",
+  "Larco and San Francisco are visited on tours or with guides; the Paracas trip leaves at 05:00 and makes a long day (the Cruz del Sur bus is comfortable); Huaca Pucllana is guided.",
+  "Safety: the centre is empty at night, don't stray outside Callao Monumental, and watch your phone on the street; Miraflores is safe.",
+  "Pisco sour, chicha morada (purple corn drink), lomo saltado, ají de gallina (creamy chicken stew), anticuchos, picarones; lucuma ice cream."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Miraflores",
+   "stops": [
+    {
+     "name": "Huaca Pucllana",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 15,
+     "tips": "A 1,500-year-old adobe pyramid in the middle of the city. Guided tour required; lit up in the evening."
+    },
+    {
+     "name": "Parque Kennedy",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Miraflores' park full of cats; stop at the picarones (fried sweet potato doughnuts) stand."
+    },
+    {
+     "name": "Malecón de Miraflores",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Clifftop coastal path; Parque del Amor (El Beso), paragliding (80 USD)."
+    },
+    {
+     "name": "La Mar Cebichería",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 70,
+     "tips": "Gastón Acurio's temple to ceviche. Lunch only; without a reservation expect a queue at 12:00. Try the leche de tigre."
+    },
+    {
+     "name": "Malecón Gün Batımı Faro",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Lighthouse and surfers; Pacific sunset (in summer)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Punto Azul Miraflores",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "Good, cheap ceviche; expect a queue."
+    },
+    {
+     "name": "Museo Amano",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "Chancay textiles; in Miraflores."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Historic centre",
+   "stops": [
+    {
+     "name": "Plaza de Armas Lima",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "UNESCO-listed centre; changing of the guard at the Government Palace at 12:00, the Cathedral (Pizarro's tomb) and the Town Hall."
+    },
+    {
+     "name": "Convento de San Francisco",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "Catacombs with 25,000 skeletons and a Moorish-style library. Tour required; no photography."
+    },
+    {
+     "name": "Casa de Aliaga",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 30,
+     "tips": "Home of the same family since 1535, the oldest private house in the Americas. Reservation needed."
+    },
+    {
+     "name": "El Cordano",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 35,
+     "tips": "A 1905 tavern next to the palace; butifarra sandwich (pork sandwich) and pisco sour, a haunt of presidents."
+    },
+    {
+     "name": "Barrio Chino Calle Capón",
+     "category": "food",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 25,
+     "tips": "Chifa (Chinese-Peruvian) district; try Wa Lok."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo del Banco Central",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Gold and ceramics; free entry, an alternative to Aliaga."
+    },
+    {
+     "name": "Chifa Wa Lok Barrio Chino",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 45,
+     "tips": "Lima's most famous chifa; arroz chaufa (fried rice)."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Larco and Barranco",
+   "stops": [
+    {
+     "name": "Museo Larco",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 40,
+     "tips": "Peru's best museum: 5,000-year-old gold, Moche ceramics, an erotic gallery, a bougainvillea garden and open storage."
+    },
+    {
+     "name": "Museo Larco Café",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 50,
+     "tips": "Garden restaurant; lomo saltado (stir-fried beef), lovely setting."
+    },
+    {
+     "name": "Barranco Puente de los Suspiros",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The Bridge of Sighs; the Bajada de los Baños path leads down to the ocean, with street art along the way."
+    },
+    {
+     "name": "MATE Museo Mario Testino",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Museum of the fashion photographer, in a Barranco mansion."
+    },
+    {
+     "name": "Ayahuasca Bar Barranco",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 50,
+     "tips": "Pisco cocktail bar in a restored mansion; go in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Isolina Taberna Barranco",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 60,
+     "tips": "Criollo cooking in giant portions; reservation needed."
+    },
+    {
+     "name": "Pedro de Osma Museum",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "Colonial art in a Barranco mansion."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Paracas and Ballestas",
+   "stops": [
+    {
+     "name": "Paracas Ballestas Adaları Teknesi",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 60,
+     "tips": "3.5 hours from Lima (tour departs 05:00, about 200 PEN) or by Cruz del Sur bus. The 'poor man's Galapagos': sea lions, Humboldt penguins and the Candelabro geoglyph."
+    },
+    {
+     "name": "Paracas National Reserve",
+     "category": "nature",
+     "start": "10:30",
+     "end": "13:00",
+     "cost": 11,
+     "tips": "Where desert meets ocean: Playa Roja red beach, the Catedral rock and flamingos."
+    },
+    {
+     "name": "Paracas Lagunillas Balık Lokantası",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 50,
+     "tips": "Fishing cove inside the reserve; ceviche and chicharrón de pescado (fried fish)."
+    },
+    {
+     "name": "El Chaco Paracas Sahili",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Town beach; pisco sour, then 4 hours back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Huacachina Vahası Ica",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:30",
+     "cost": 30,
+     "tips": "Sand dunes and buggy rides (1 hour from Ica); pisco vineyard. An alternative to Chaco (return at night)."
+    },
+    {
+     "name": "Chalana Paracas",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 60,
+     "tips": "Seafront restaurant; seafood."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Pachacamac and San Isidro",
+   "stops": [
+    {
+     "name": "Pachacamac",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Pre-Inca pilgrimage centre (30 km south); Temple of the Sun and Acllahuasi, new museum. Go in the morning, before the haze."
+    },
+    {
+     "name": "Huaca Huallamarca San Isidro",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 5,
+     "tips": "Restored adobe pyramid in the middle of a residential neighbourhood."
+    },
+    {
+     "name": "El Olivar San Isidro",
+     "category": "nature",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Park with an olive grove of 1,500-year-old trees; peaceful."
+    },
+    {
+     "name": "Astrid y Gastón Casa Moreyra",
+     "category": "food",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 250,
+     "tips": "The restaurant of Peru's culinary revolution; lunch menu, reservation needed (or choose cheaper Panchita)."
+    },
+    {
+     "name": "Bosque El Olivar Kafe & Sanat",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Galleries in San Isidro."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Panchita Miraflores",
+     "category": "food",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 60,
+     "tips": "Acurio's criollo restaurant; anticuchos (beef heart skewers)."
+    },
+    {
+     "name": "Museo de la Nación",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "National museum; Yuyanapaq exhibition."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Callao and Chorrillos",
+   "stops": [
+    {
+     "name": "Real Felipe Fortress",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 15,
+     "tips": "Spanish fortress from 1747; tour, harbour."
+    },
+    {
+     "name": "Callao Monumental",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Old port district with colourful murals; galleries (stay in the safe area)."
+    },
+    {
+     "name": "La Rana Verde La Punta",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 55,
+     "tips": "Yacht club restaurant; ceviche with sea views."
+    },
+    {
+     "name": "Morro Solar Chorrillos",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Cross on the Chorrillos hilltop; panorama of Lima bay. Take a taxi."
+    },
+    {
+     "name": "Mercado de Surquillo",
+     "category": "food",
+     "start": "17:15",
+     "end": "18:00",
+     "cost": 15,
+     "tips": "Local market; fruit (lucuma, chirimoya) and emoliente (warm herbal drink)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Magic Water Circuit",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 4,
+     "tips": "Light-and-music park with 13 fountains; go in the evening. Guinness record holder."
+    },
+    {
+     "name": "Sonia Chorrillos",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 45,
+     "tips": "A cevichería run by a fishing family."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Ceviche morning and a gentle farewell",
+   "stops": [
+    {
+     "name": "Mercado de Surquillo No.1 Kahvaltı",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 15,
+     "tips": "Juice and tamal (steamed corn parcel) at a market stall."
+    },
+    {
+     "name": "Parque del Amor Sabah",
+     "category": "nature",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Statue of the kissing couple; mosaic bench."
+    },
+    {
+     "name": "Al Toke Pez Surquillo",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 30,
+     "tips": "Ceviche and chicharrón combo at the counter; opens 11:30. Your farewell meal."
+    },
+    {
+     "name": "Havalimanı Express Bus",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Airport Express Lima from Miraflores takes 1 hour; farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo de Sitio Pucllana Kafe",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 40,
+     "tips": "Restaurant with a view of the pyramid."
+    },
+    {
+     "name": "Indian Market Miraflores",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Alpaca goods and handicraft souvenirs; on Petit Thouars."
+    }
+   ]
+  }
+ ]
+}

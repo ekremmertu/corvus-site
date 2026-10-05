@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "frankfurt-ekim-mayis",
+ "altSlug": "frankfurt-october-may",
+ "citySlug": "frankfurt",
+ "destKey": "frankfurt",
+ "city": "Frankfurt",
+ "region": null,
+ "country": "Almanya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 350,
+  "attractions": 140,
+  "transport": 110,
+  "misc": 70
+ },
+ "notes": [
+  "RMV günlük bilet 6 EUR (merkez); S-Bahn ile havalimanı 15 dakika (Avrupa'nın ana aktarma merkezi). Heidelberg/Rüdesheim için RE treni; Hessen-Ticket grup için ucuz.",
+  "Aralık Römerberg Noel pazarı (Almanya'nın en eskilerinden); kış 0-5°C, müzeler (Museumsufer 2 gün bileti), Alte Oper konserler; ilkbahar Palmengarten.",
+  "Apfelwein 0,3 l 2,50 EUR (Bembel sürahide), Grüne Soße 12, Schnitzel 18, müze 8-18; bahşiş için hesabı yuvarla.",
+  "Museumsufer Ticket 21 EUR 34 müze 2 gün; Städel salı kapalı; Kleinmarkthalle pazar kapalı; bit pazarı cumartesi.",
+  "Bahnhofsviertel (gar mahallesi) uyuşturucu sahnesi — gündüz geç, geceleri kaçın; geceleri bar için Sachsenhausen.",
+  "Frankfurter Würstchen, Handkäs mit Musik (soğanlı peynir), Bethmännchen (badem kurabiyesi), Frankfurter Kranz."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Altstadt & Main Tower",
+   "stops": [
+    {
+     "name": "Römerberg",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Yeniden inşa edilmiş yarı ahşap meydan; Römer belediye. 09:30'dan önce boş, Noel pazarı Aralık'ta."
+    },
+    {
+     "name": "Frankfurter Dom",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "İmparatorların taç giyme katedrali; kule 3 EUR (328 basamak)."
+    },
+    {
+     "name": "Kleinmarkthalle",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 10,
+     "tips": "1954'te açılan kapalı pazar, 60+ tezgah; Grüne Soße (7 otlu yeşil sos), Frankfurter sosis, üst katta şarap standı. Pazar günleri kapalı."
+    },
+    {
+     "name": "Main Tower",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 9,
+     "tips": "200 m gözlem terası; 'Mainhattan' silüeti, Taunus."
+    },
+    {
+     "name": "Eiserner Steg & Main Kıyısı",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Aşk kilitli demir köprü; Sachsenhausen'e geç, nehir bulvarı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zum Gemalten Haus Sachsenhausen",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 18,
+     "tips": "Apfelwein (elma şarabı) tavernası; Handkäs mit Musik."
+    },
+    {
+     "name": "Historisches Museum Frankfurt",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 8,
+     "tips": "Şehir tarihi ve maket; kule yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Museumsufer",
+   "stops": [
+    {
+     "name": "Städel Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 18,
+     "tips": "700 yıllık Avrupa sanatı; Vermeer, Botticelli, Beckmann, Richter; Museumsufer bileti 21 EUR (34 müze/2 gün), salı kapalı."
+    },
+    {
+     "name": "Städel Café Holbein's",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Müze kafesi; öğle."
+    },
+    {
+     "name": "Liebieghaus",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 10,
+     "tips": "Villada heykel müzesi; bahçe kafe."
+    },
+    {
+     "name": "Deutsches Filmmuseum",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:45",
+     "cost": 8,
+     "tips": "Sinema tarihi interaktif; Museumsufer."
+    },
+    {
+     "name": "Museum Angewandte Kunst",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 12,
+     "tips": "Richard Meier'in beyaz tasarım müzesi; park."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museum für Moderne Kunst MMK",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:45",
+     "cost": 12,
+     "tips": "'Pasta dilimi' bina; çağdaş, Filmmuseum yerine."
+    },
+    {
+     "name": "Maincafé Sachsenhausen",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "Nehir kıyısı çimen kafe; yazın."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Heidelberg",
+   "stops": [
+    {
+     "name": "Heidelberg Schloss",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 9,
+     "tips": "Tren 1 saat (RE); Neckar üzerinde kızıl kumtaşı harabe şato, füniküler, dünyanın en büyük şarap fıçısı, Eczane Müzesi."
+    },
+    {
+     "name": "Alte Brücke Heidelberg",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "1788 taş köprü ve maymun heykeli; Philosophenweg manzarası."
+    },
+    {
+     "name": "Zum Roten Ochsen",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 22,
+     "tips": "1703 öğrenci tavernası; Mark Twain burada yemek yemiş, Schnitzel."
+    },
+    {
+     "name": "Hauptstraße & Universitätsplatz",
+     "category": "shopping",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Almanya'nın en uzun yaya caddesi 1,6 km; Öğrenci Hapishanesi (Studentenkarzer 4 EUR)."
+    },
+    {
+     "name": "Philosophenweg",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Neckar'ın karşı yakasındaki filozof yolu; şato ve eski şehir kartpostal manzarası, dönüş treni."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Königstuhl Bergbahn",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 14,
+     "tips": "568 m tepe füniküler; Ren ovası, yol yerine."
+    },
+    {
+     "name": "Café Knösel Heidelberg",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 12,
+     "tips": "1863 kafesi; Heidelberger Studentenkuss çikolata."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Palmengarten & Bornheim",
+   "stops": [
+    {
+     "name": "Palmengarten",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 7,
+     "tips": "1871 botanik bahçesi; palmiye evi, tropik sera, Alman ilkbaharı."
+    },
+    {
+     "name": "Grüneburgpark",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Rothschild'lerin eski parkı; Kore bahçesi, IG Farben binası (üniversite)."
+    },
+    {
+     "name": "Senckenberg Naturmuseum",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "Almanya'nın en büyük dinozor koleksiyonu; T-Rex ve Messel fosilleri."
+    },
+    {
+     "name": "Bornheim Berger Straße",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 15,
+     "tips": "'Bernem' mahallesi kafe caddesi; Apfelwein Solzer."
+    },
+    {
+     "name": "Günthersburgpark",
+     "category": "nature",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Mahalle parkı; gül bahçesi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Goethe-Haus",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 10,
+     "tips": "Goethe'nin doğduğu ev; Senckenberg yerine, merkez."
+    },
+    {
+     "name": "Apfelwein Solzer Bornheim",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 18,
+     "tips": "Bornheim'ın klasik apfelwein tavernası."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Ren Vadisi: Rüdesheim",
+   "stops": [
+    {
+     "name": "Rüdesheim Drosselgasse",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Tren 1 saat (RB); 144 m şarap sokağı, turistik ama şirin."
+    },
+    {
+     "name": "Niederwalddenkmal Teleferik",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 10,
+     "tips": "Bağların üstünden teleferik; Germania anıtı ve Ren kıvrımı, UNESCO Orta Ren."
+    },
+    {
+     "name": "Rüdesheimer Schloss Şarap Evi",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Riesling tadımı ve Rüdesheimer Kaffee (Asbach brendi, alevli)."
+    },
+    {
+     "name": "KD Ren Teknesi Rüdesheim–St. Goar",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:45",
+     "cost": 30,
+     "tips": "Kışın tekne sınırlı; Assmannshausen'e teleferik-yürüyüş veya Eberbach Manastırı (Gülün Adı seti)."
+    },
+    {
+     "name": "St. Goar & Burg Rheinfels",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 6,
+     "tips": "Loreley karşısındaki kasaba ve harabe kale; dönüş treni 1,5 saat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kloster Eberbach",
+     "category": "culture",
+     "start": "14:00",
+     "end": "17:00",
+     "cost": 13,
+     "tips": "1136 Sistersiyen manastırı ve şarap; Gülün Adı filmi, tekne yerine."
+    },
+    {
+     "name": "Breuer's Rüdesheimer Schloss Restoran",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 28,
+     "tips": "Aynı otelin restoranı; Ren balığı."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Sachsenhausen & Höchst",
+   "stops": [
+    {
+     "name": "Höchst Altstadt",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "S-Bahn 15 dakika; yarı ahşap eski kasaba, Justinuskirche (830), Bolongaro sarayı, Main feribotu."
+    },
+    {
+     "name": "Alt-Sachsenhausen Öğle Apfelwein Wagner",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "1931 apfelwein tavernası; Schnitzel mit Grüner Soße, uzun masalar."
+    },
+    {
+     "name": "Sachsenhausen Arnavut Kaldırımı Sokakları",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Klappergasse, Kuhhirtenturm kulesi; akşam bar bölgesi."
+    },
+    {
+     "name": "Museum Giersch",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 6,
+     "tips": "Ren-Main bölgesi sanatı; villa, Museumsufer."
+    },
+    {
+     "name": "Frankfurt Flohmarkt Sachsenhausen",
+     "category": "shopping",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Cumartesi bit pazarı, Main kıyısında (2 haftada bir); diğer günler nehir yürüyüşü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Adolf Wagner Apfelwein",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Sachsenhausen'in en sevilen apfelwein evi."
+    },
+    {
+     "name": "Ebbelwoi-Express Tramvayı",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 8,
+     "tips": "Elma şaraplı nostaljik tramvay turu (hafta sonu); sokak yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Zeil & Opera — hafif veda",
+   "stops": [
+    {
+     "name": "Alte Oper",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "1880 opera binası; meydan çeşmesi."
+    },
+    {
+     "name": "Zeil & MyZeil",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Almanya'nın en işlek alışveriş caddesi; MyZeil cam huni AVM."
+    },
+    {
+     "name": "Café Hauptwache",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 12,
+     "tips": "1730 barok karakol kafesi; veda."
+    },
+    {
+     "name": "Hauptwache S-Bahn Havalimanı",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 6,
+     "tips": "S8/S9 havalimanı 15 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Konstablerwache Çiftçi Pazarı",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 10,
+     "tips": "Perşembe-cumartesi pazar; apfelwein standı."
+    },
+    {
+     "name": "Eschenheimer Turm",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "1428 ortaçağ kulesi; opera yerine."
+    }
+   ]
+  }
+ ]
+}

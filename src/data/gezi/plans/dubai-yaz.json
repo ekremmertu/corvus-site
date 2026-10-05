@@ -1,0 +1,484 @@
+{
+ "lang": "tr",
+ "slug": "dubai-yaz",
+ "altSlug": "dubai-summer",
+ "citySlug": "dubai",
+ "destKey": "dubai",
+ "city": "Dubai",
+ "region": null,
+ "country": "BAE",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "AED",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 2200,
+  "attractions": 2000,
+  "transport": 400,
+  "misc": 500
+ },
+ "notes": [
+  "Nol kartla metro (Red Line havalimanından Marina'ya); taksi ucuz ve güvenilir (Careem/Uber). Abu Dhabi'ye E100 otobüsü 25 AED.",
+  "Yazın 42-45°C ve nem var: 10:00-17:00 arasında kapalı mekânda ol (AVM, müze, su parkı). Plaja sabah 07:00'de veya akşam git. Ramazan'da gündüz yeme içme yalnız kapalı alanlarda yapılır.",
+  "Cami ziyaretinde uzun kol ve başörtüsü gerekir; Sheikh Zayed'de abaya verilir. Alkol yalnız lisanslı otel ve restoranlarda.",
+  "Burj Khalifa gün batımı biletleri haftalar önce tükenir; Museum of the Future biletleri de.",
+  "Old Dubai ucuz ve otantik: abra 1 AED, Al Ustad kebap 60 AED; Downtown ve Marina pahalı.",
+  "Bahşiş %10 yaygın; souk'larda pazarlık şart, fiyatın yarısından başla."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Nol Card",
+  "why_chosen": "Metro, tramvay, otobüs ve abrada geçer; Silver kart en pratik.",
+  "coverage": "Dubai Metro, tram, RTA otobüs, su otobüsü, abra",
+  "where_to_buy": "Metro istasyonları; 25 AED (6 AED bakiye dahil)",
+  "cost": 25,
+  "currency_code": "AED"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Downtown & Burj Khalifa",
+   "stops": [
+    {
+     "name": "Dubai Mall",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Dünyanın en büyük AVM'si; akvaryum, buz pisti, klimalı başlangıç."
+    },
+    {
+     "name": "Dubai Aquarium & Underwater Zoo",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 199,
+     "tips": "AVM'nin içinde tünel akvaryum; köpekbalıkları."
+    },
+    {
+     "name": "Social House Dubai Mall",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 120,
+     "tips": "Fıskiye manzaralı uluslararası menü; öğle yemeği."
+    },
+    {
+     "name": "Burj Khalifa At the Top",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 219,
+     "tips": "124-125. kat; gün batımı seansı (~219 AED). Haftalar önce online al; gün batımı ve şehir ışıkları birlikte görünür."
+    },
+    {
+     "name": "Dubai Fountain",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Burj Gölü'nde her 30 dakikada bir fıskiye gösterisi; Souk Al Bahar terasından ücretsiz izle."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Time Out Market Dubai",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 100,
+     "tips": "Souk Al Bahar'da yemek pazarı; seçenekli öğle yemeği."
+    },
+    {
+     "name": "Sky Views Observatory",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 80,
+     "tips": "Burj'a bakan cam yürüyüş yolu; Burj bileti bulunamazsa."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Old Dubai: Al Fahidi, abra & souk'lar",
+   "stops": [
+    {
+     "name": "Al Fahidi Historical Neighbourhood",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Rüzgâr kuleli taş evler; Arabian Tea House'da kahvaltı, kahve müzesi. Sabah serindir."
+    },
+    {
+     "name": "Dubai Museum Al Shindagha",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 50,
+     "tips": "Shindagha'da inci tarihi ve Creek müzesi; klimalı."
+    },
+    {
+     "name": "Dubai Creek Abra",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:20",
+     "cost": 1,
+     "tips": "Ahşap tekneyle Deira'ya 1 AED; Dubai'nin en ucuz ve en güzel anlarından biri."
+    },
+    {
+     "name": "Deira Spice Souk",
+     "category": "shopping",
+     "start": "11:20",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Baharat, safran ve tütsü; pazarlık şart, yarı fiyat normaldir."
+    },
+    {
+     "name": "Al Ustad Special Kabab",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 60,
+     "tips": "1978'den beri İran kebabı; Bur Dubai'de, duvarlar fotoğraf dolu. Dubai'nin en ünlü ucuz lokantası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Arabian Tea House Al Fahidi",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 90,
+     "tips": "Avluda Emirati kahvaltı-öğle."
+    },
+    {
+     "name": "Deira Gold Souk",
+     "category": "shopping",
+     "start": "11:20",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Altın çarşısı; vitrin turu, Spice Souk'un yanında."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Aquaventure & Palm",
+   "stops": [
+    {
+     "name": "Aquaventure Waterpark Atlantis",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 345,
+     "tips": "Palm'daki dev su parkı; yaz sıcağının tek çaresi. Online bilet al, sabah kalabalık az."
+    },
+    {
+     "name": "Jumeirah Mosque",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 40,
+     "tips": "Cami turu 14:00'te; SMCCU rehberli."
+    },
+    {
+     "name": "Al Fanar Restaurant Jumeirah",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 120,
+     "tips": "1960'lar Emirati temalı restoran; machboos ve luqaimat."
+    },
+    {
+     "name": "Madinat Jumeirah Souk",
+     "category": "shopping",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Kanallı yapay souk; abra turu 100 AED, Burj Al Arab'ın gün batımı manzarası."
+    },
+    {
+     "name": "Burj Al Arab Seyir Noktası",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Jumeirah Beach sahilinden yelken şeklindeki otelin gün batımı manzarası; ücretsiz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pierchic Madinat",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 400,
+     "tips": "Denizin üstünde iskele restoran; özel akşam yemeği."
+    },
+    {
+     "name": "Etihad Museum",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "BAE'nin kuruluş müzesi; klimalı."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Marina & Palm",
+   "stops": [
+    {
+     "name": "Dubai Marina Walk",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Gökdelenler arasında marina yürüyüşü; kahve molası."
+    },
+    {
+     "name": "The View at The Palm",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 100,
+     "tips": "Palm Jumeirah'ın 52. kat seyir terası; palmiye şekli buradan görülür."
+    },
+    {
+     "name": "Nakheel Mall",
+     "category": "shopping",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Palm'ın AVM'si; klimalı geçiş."
+    },
+    {
+     "name": "Bu Qtair Jumeirah",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 70,
+     "tips": "Balıkçı barakasından efsaneye dönen yer; günün balığı kızartma, ayakta veya tabureyle."
+    },
+    {
+     "name": "JBR The Walk & Beach",
+     "category": "nature",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "JBR sahil bandı; kışın deniz, yazın akşam yürüyüşü ve Ain Dubai manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Marina Social Dubai",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 300,
+     "tips": "Marina'da modern menü."
+    },
+    {
+     "name": "Ain Dubai",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 130,
+     "tips": "Dünyanın en büyük dönme dolabı; hava açıksa."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Çöl safarisi",
+   "stops": [
+    {
+     "name": "Museum of the Future",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 149,
+     "tips": "Geleceğin müzesi; Arapça hatlı dev halka. Online bileti haftalar önce al."
+    },
+    {
+     "name": "Dubai Frame",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 50,
+     "tips": "Eski ve yeni Dubai'yi ayıran altın çerçeve; cam köprü, klimalı."
+    },
+    {
+     "name": "Ravi Restaurant Satwa",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 40,
+     "tips": "Pakistan mutfağı; Dubai'nin en ünlü ucuz lokantası, dal ve tavuk karahi."
+    },
+    {
+     "name": "Çöl Safarisi Lahbab",
+     "category": "nature",
+     "start": "16:00",
+     "end": "21:00",
+     "cost": 250,
+     "tips": "Yazın akşam safarisi 17:00'den sonra; kum sıcak, gösteri ve BBQ, 250-400 AED."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Al Mallah Satwa",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 40,
+     "tips": "Lübnan şawarması ve meyve kokteyli; Ravi yerine."
+    },
+    {
+     "name": "Al Qudra Lakes",
+     "category": "nature",
+     "start": "16:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "Çölde yapay göller ve flamingolar; safari yerine araçla."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Abu Dhabi",
+   "stops": [
+    {
+     "name": "Sheikh Zayed Grand Mosque",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Dubai'ye 1,5 saat (E100 otobüsü 25 AED); dünyanın en büyük halısı ve avizeleri, ücretsiz. Online kayıt gerekir, abaya girişte verilir."
+    },
+    {
+     "name": "Louvre Abu Dhabi",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:30",
+     "cost": 63,
+     "tips": "Jean Nouvel'in yağmur kubbesi; Saadiyat Adası, klimalı."
+    },
+    {
+     "name": "Louvre Abu Dhabi Cafe",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 90,
+     "tips": "Müze kafesinde öğle yemeği; kubbenin altında."
+    },
+    {
+     "name": "Qasr Al Watan",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 65,
+     "tips": "Başkanlık sarayı; beyaz mermer ve kütüphane."
+    },
+    {
+     "name": "Abu Dhabi Corniche",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Sahil bandı; dönüş otobüsü 18:30'da."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Emirates Palace Le Café",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "Altın kaplama cappuccino; saray otelinde."
+    },
+    {
+     "name": "Yas Island Ferrari World",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 345,
+     "tips": "Dünyanın en hızlı hız treni; saray yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Souk Madinat sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Alserkal Avenue",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Al Quoz'da sanat galerileri mahallesi; kahve ve sergi, ücretsiz."
+    },
+    {
+     "name": "Karama Market",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Hediyelik eşya ve tekstil; pazarlık yap."
+    },
+    {
+     "name": "Logma Boxpark",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 80,
+     "tips": "Modern Emirati kafe; regag ekmek ve karak çay, veda yemeği."
+    },
+    {
+     "name": "Dubai Metro Red Line Havalimanı",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Metroyla DXB Terminal 1-3'e; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Karak House Jumeirah",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 50,
+     "tips": "Karak çay ve Emirati kahvaltı; hafif veda."
+    },
+    {
+     "name": "Jameel Arts Centre",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Creek kenarında çağdaş sanat; Alserkal yerine."
+    }
+   ]
+  }
+ ]
+}

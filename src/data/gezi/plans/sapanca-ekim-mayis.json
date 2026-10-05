@@ -1,0 +1,437 @@
+{
+ "lang": "tr",
+ "slug": "sapanca-ekim-mayis",
+ "altSlug": "sapanca-october-may",
+ "citySlug": "sapanca",
+ "destKey": "sapanca",
+ "city": "Sapanca",
+ "region": "Sakarya",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 5500,
+  "attractions": 2500,
+  "transport": 1800,
+  "misc": 500
+ },
+ "notes": [
+  "Sapanca, İstanbul'a 1,5 saat (otoyol veya YHT Arifiye); göl çevresi araçla veya bisikletle. Maşukiye ve Kartepe 20 dakika.",
+  "Kartepe kayak sezonu Aralık-Mart arasıdır; kar lastiği zorunlu, teleferik rüzgârda kapanır.",
+  "Alabalık, serpme kahvaltı, ıslama köfte (Adapazarı) ve kestane yöreseldir.",
+  "Bungalov konaklama Sapanca'nın kimliği; hafta içi yarı fiyat.",
+  "Kartepe zirvesi yazın 10°C serin; hırka al.",
+  "Göl kenarı yürüyüş yolu 5 km; sabah sisi fotoğraf için."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Sapanca Gölü",
+   "stops": [
+    {
+     "name": "Sapanca Gölü Yürüyüş Yolu",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Göl kenarı 5 km yürüyüş ve bisiklet yolu; sabah sisi ve yeşil."
+    },
+    {
+     "name": "Sapanca Gölü İskele Kafe",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 200,
+     "tips": "Gölde kahvaltı-kahve; Kırkpınar sahili."
+    },
+    {
+     "name": "Kırkpınar Sahili",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kış gölü ve sis; sahil yürüyüşü."
+    },
+    {
+     "name": "Sapanca Göl Balıkçısı",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 500,
+     "tips": "Gölde alabalık ve sazan; göl manzaralı."
+    },
+    {
+     "name": "Sapanca Gölü Gün Batımı İskelesi",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Batı kıyısında gün batımı; fotoğraf."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sapanca Kahvaltı Köyü",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 400,
+     "tips": "Serpme kahvaltı."
+    },
+    {
+     "name": "Sapanca Çarşı",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kasaba çarşısı; bal ve ceviz."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Maşukiye",
+   "stops": [
+    {
+     "name": "Maşukiye Şelalesi",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Kartepe eteğinde dere ve şelale; yürüyüş."
+    },
+    {
+     "name": "Maşukiye Alabalık Tesisi",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 500,
+     "tips": "Dere üstünde alabalık ve kahvaltı; Maşukiye'nin klasiği."
+    },
+    {
+     "name": "Maşukiye Köyü",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Köy meydanı ve pazar; ceviz, kestane, bal."
+    },
+    {
+     "name": "Kartepe Teleferik",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 400,
+     "tips": "Kayak merkezine teleferik; kar ve kızak, skipass ayrı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Maşukiye Gözlemeci",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "Gözleme ve ayran."
+    },
+    {
+     "name": "Kuzuyayla Tabiat Parkı",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 50,
+     "tips": "Kartepe yolunda orman ve piknik; teleferik yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Kartepe zirve",
+   "stops": [
+    {
+     "name": "Kartepe Kayak Merkezi",
+     "category": "nature",
+     "start": "09:30",
+     "end": "13:00",
+     "cost": 1200,
+     "tips": "Kayak (skipass ~1.200 TL, kiralık takım); pistler sabah taze."
+    },
+    {
+     "name": "Kartepe Zirve Restoran",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 500,
+     "tips": "Zirvede sucuk ekmek ve mantı; manzara."
+    },
+    {
+     "name": "Kartepe Yürüyüş Parkuru",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Zirve çevresi orman yolu; kışın kar yürüyüşü."
+    },
+    {
+     "name": "Sapanca Akşam Çarşı",
+     "category": "shopping",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Dönüşte çarşı; yerel ürünler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kartepe Kahvaltı Evi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 400,
+     "tips": "Zirvede kahvaltı."
+    },
+    {
+     "name": "Derbent Bahçeleri",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Kartepe eteğinde bahçe kafeler."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Sakarya & Taraklı",
+   "stops": [
+    {
+     "name": "Taraklı",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Sapanca'ya 1 saat; Osmanlı evleri, Yunus Paşa Camii, hıdırlık tepesi."
+    },
+    {
+     "name": "Taraklı Konak Lokantası",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 350,
+     "tips": "Konakta ev yemekleri; uhut ve mantı."
+    },
+    {
+     "name": "Taraklı Kaplıcaları",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 300,
+     "tips": "Termal havuz; kışın ideal."
+    },
+    {
+     "name": "Sakarya Adapazarı Çarşı",
+     "category": "shopping",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Dönüşte Adapazarı; ıslama köfte için."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Adapazarı Islama Köftecisi",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 300,
+     "tips": "Sakarya'nın ıslama köftesi."
+    },
+    {
+     "name": "Geyve Boğazı",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Sakarya Nehri vadisi; kaplıca yerine manzara."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Poyrazlar & Karasu",
+   "stops": [
+    {
+     "name": "Poyrazlar Gölü",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Sapanca'ya 40 dakika; kum tepeleri arasında göl, yürüyüş."
+    },
+    {
+     "name": "Karasu Plajı",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kış dalgaları ve kumsal yürüyüşü."
+    },
+    {
+     "name": "Karasu Balıkçısı",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 500,
+     "tips": "Karadeniz balığı ve mısır ekmeği."
+    },
+    {
+     "name": "Acarlar Longozu",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 50,
+     "tips": "Subasar ormanı; ahşap yürüyüş yolu, kuşlar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Karasu Pide Salonu",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 250,
+     "tips": "Karadeniz pidesi."
+    },
+    {
+     "name": "Kocaali Sahili",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Daha sakin kumsal."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Bungalov & doğa",
+   "stops": [
+    {
+     "name": "Sapanca Kırkpınar Bahçe Kafeler",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 400,
+     "tips": "Bahçede serpme kahvaltı; Sapanca klasiği."
+    },
+    {
+     "name": "Sapanca Bisiklet Turu",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:30",
+     "cost": 200,
+     "tips": "Göl çevresinde kiralık bisiklet; 20 km düz yol."
+    },
+    {
+     "name": "Sapanca Mahmudiye Köyü",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Bungalovların köyü; orman ve dere."
+    },
+    {
+     "name": "Mahmudiye Orman Yürüyüşü",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Köy üstü orman patikası; sonbahar renkleri."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sapanca Tost Evi",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 200,
+     "tips": "Tost ve çay."
+    },
+    {
+     "name": "Sapanca Göl Kenarı Piknik Alanı",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Piknik."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Göl sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Sapanca Gölü Sabah Yürüyüşü",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Göl kenarında son yürüyüş."
+    },
+    {
+     "name": "Sapanca Pazar Yeri",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Cuma pazarı (değilse çarşı); bal, ceviz, kestane."
+    },
+    {
+     "name": "Sapanca Sahil Kahvaltıcısı",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 350,
+     "tips": "Veda kahvaltısı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sapanca Göl Kenarı Çay Bahçesi",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 200,
+     "tips": "Gölde çay ve tost; veda."
+    },
+    {
+     "name": "Sapanca Tren Garı",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Adapazarı-İstanbul treni; veda."
+    }
+   ]
+  }
+ ]
+}

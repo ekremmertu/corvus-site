@@ -1,0 +1,492 @@
+{
+ "lang": "en",
+ "slug": "copenhagen-october-may",
+ "altSlug": "kopenhag-ekim-mayis",
+ "citySlug": "kopenhag",
+ "destKey": "copenhagen",
+ "city": "Copenhagen",
+ "region": null,
+ "country": "Denmark",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "DKK",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 3200,
+  "attractions": 1500,
+  "transport": 300,
+  "misc": 500
+ },
+ "notes": [
+  "The Copenhagen Card (72 hours, 889 DKK) covers transport and museums, including Louisiana, Kronborg and Roskilde, and pays for itself on this plan. Bikes cost 100-150 per day and the city is flat. The metro to the airport takes 15 minutes.",
+  "Winter is 0-5°C and dark by 16:00. For hygge: Tivoli at Christmas (November to December), Louisiana and cafes. Reffen is closed. Cherry blossom at Bispebjerg in April and May.",
+  "Coffee is 45 DKK, smørrebrød 90-150, a restaurant meal 250-400 and a beer 60. No tipping. Cards are accepted everywhere (no cash needed).",
+  "Nordic cuisine: Noma has closed, but there are Geranium and Alchemist. Budget options: Hija de Sanchez, Gasoline Grill burgers, and the Juno and Hart bakeries.",
+  "Follow the photo rule in Christiania (none on a green light). Pusher Street is closed. Don't walk in the bike lane (cyclists will ring their bells).",
+  "Kronborg and Louisiana are covered by the Copenhagen Card. Tivoli's lights come on after 17:00 in the evening."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Copenhagen Card",
+  "why_chosen": "80+ museums plus all public transport (including Louisiana, Kronborg and Roskilde). 3 days for 889 DKK.",
+  "coverage": "Metro, S-tog, otobüs, liman otobüsü, bölgesel tren",
+  "where_to_buy": "Online uygulama",
+  "cost": 889,
+  "currency_code": "DKK"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Nyhavn and the centre",
+   "stops": [
+    {
+     "name": "Nyhavn",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Colourful 17th-century harbour. Andersen lived at No. 20. Quiet in the morning, and canal tours depart from here."
+    },
+    {
+     "name": "Canal Tour Copenhagen",
+     "category": "nature",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 115,
+     "tips": "One-hour canal tour (Stromma or the cheaper Netto). See the Little Mermaid from the water, plus the Opera House and Christianshavn."
+    },
+    {
+     "name": "Amalienborg Palace",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "The royal residence. The changing of the guard is at 12:00, and the Marble Church dome is nearby."
+    },
+    {
+     "name": "Torvehallerne",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 120,
+     "tips": "Glass market at Nørreport: Hallernes smørrebrød (open sandwich), Grød porridge and Coffee Collective."
+    },
+    {
+     "name": "Round Tower",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 40,
+     "tips": "Round tower from 1642 with a spiral ramp and views over the city."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Schønnemann",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "A smørrebrød institution since 1877. Book ahead; try the herring and schnapps."
+    },
+    {
+     "name": "Designmuseum Danmark",
+     "category": "culture",
+     "start": "14:15",
+     "end": "16:00",
+     "cost": 130,
+     "tips": "Corridor of Danish design chairs. An alternative to the Round Tower."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Rosenborg and Tivoli",
+   "stops": [
+    {
+     "name": "Rosenborg Castle",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 135,
+     "tips": "Renaissance castle with the Crown Jewels in the basement, set beside the King's Garden."
+    },
+    {
+     "name": "Kongens Have",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A winter stroll through the gardens."
+    },
+    {
+     "name": "Statens Museum for Kunst",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 130,
+     "tips": "The national gallery: Matisse and the Danish Golden Age."
+    },
+    {
+     "name": "Aamanns 1921",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 250,
+     "tips": "Modern smørrebrød. Book ahead."
+    },
+    {
+     "name": "Tivoli Gardens",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "21:00",
+     "cost": 175,
+     "tips": "Amusement park and gardens from 1843, said to have inspired Disney. Lights in the evening and free summer concerts on Fridays. Entry is 175 plus a ride ticket. In winter it runs Christmas and Halloween seasons."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tivoli Food Hall",
+     "category": "food",
+     "start": "17:00",
+     "end": "21:00",
+     "cost": 120,
+     "tips": "Food hall next to the park. No entry ticket needed."
+    },
+    {
+     "name": "Ny Carlsberg Glyptotek",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 125,
+     "tips": "Rodin, Gauguin and a winter garden. An alternative to SMK, and free on Tuesdays."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Christianshavn and Christiania",
+   "stops": [
+    {
+     "name": "Church of Our Saviour",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 65,
+     "tips": "Tower with an external spiral staircase of 400 steps, overlooking the Christianshavn canals."
+    },
+    {
+     "name": "Freetown Christiania",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Hippie autonomous district founded in 1971. Pusher Street was closed (2024). Follow the photo rule. Cafes and Grå Hal."
+    },
+    {
+     "name": "Reffen Street Food",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 130,
+     "tips": "Reffen is closed in winter. Go to Broens Gadekøkken (under the bridge) or La Banchina instead."
+    },
+    {
+     "name": "Copenhagen Opera House",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Henning Larsen's opera house on Holmen. See it from the outside."
+    },
+    {
+     "name": "Copenhill Amager Bakke",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Ski slope and walking trail on the roof of a waste-to-energy plant. The city views are free."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Christianshavns Bådudlejning",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 150,
+     "tips": "Cafe on the canal, with boat hire."
+    },
+    {
+     "name": "Danish Architecture Center BLOX",
+     "category": "culture",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 125,
+     "tips": "Architecture centre with a slide. An alternative to Copenhill."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Louisiana and Kronborg",
+   "stops": [
+    {
+     "name": "Louisiana Museum of Modern Art",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 145,
+     "tips": "35 minutes by train (Humlebæk). Giacometti, Kusama and a sculpture garden overlooking the Øresund, among the world's most beautiful museums."
+    },
+    {
+     "name": "Louisiana Café",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 150,
+     "tips": "Museum cafe with sea views and a smørrebrød buffet."
+    },
+    {
+     "name": "Kronborg Castle",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 145,
+     "tips": "In Helsingør: Hamlet's Elsinore, with Holger Danske in the casemates and the Swedish coast across the water."
+    },
+    {
+     "name": "Helsingør Old Town",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:15",
+     "cost": 0,
+     "tips": "Medieval streets and the Maritime Museum (BIG). Take the train back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Brasserie Kronborg",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 120,
+     "tips": "On Helsingør harbour, beside the castle."
+    },
+    {
+     "name": "Karen Blixen Museum Rungstedlund",
+     "category": "culture",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 100,
+     "tips": "Home of the author of Out of Africa. On the way to Louisiana, as an alternative to Kronborg."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Vesterbro and Carlsberg",
+   "stops": [
+    {
+     "name": "Carlsberg Byen",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Former brewery district with the Elephant Gate and Home of Carlsberg (visitor centre 130 DKK)."
+    },
+    {
+     "name": "Frederiksberg Gardens",
+     "category": "nature",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Romantic park and palace. Take a canal boat, and you can spot the zoo's elephants."
+    },
+    {
+     "name": "Værnedamsvej",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "The 'Little Paris' street: granola brunch, a cheesemonger and a wine shop."
+    },
+    {
+     "name": "Kødbyen Meatpacking",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The White Meatpacking District, with galleries and evening bars."
+    },
+    {
+     "name": "Warpigs Kødbyen",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 180,
+     "tips": "Mikkeller x Three Floyds beer and Texas BBQ."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hija de Sanchez Kødbyen",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 120,
+     "tips": "Tacos from a Noma chef."
+    },
+    {
+     "name": "Copenhagen Zoo",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 235,
+     "tips": "Zoo in Frederiksberg with an elephant house by Norman Foster."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Nørrebro and Roskilde",
+   "stops": [
+    {
+     "name": "Assistens Kirkegård",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Cemetery-park where Andersen and Kierkegaard are buried, by the yellow wall of Nørrebro."
+    },
+    {
+     "name": "Superkilen Park",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "BIG's red-and-black multicultural park, with a Moroccan fountain and a Thai boxing ring."
+    },
+    {
+     "name": "Jægersborggade",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 120,
+     "tips": "Nørrebro's hip street: Grød, Meyers Bageri and Coffee Collective."
+    },
+    {
+     "name": "Viking Ship Museum Roskilde",
+     "category": "culture",
+     "start": "13:45",
+     "end": "15:45",
+     "cost": 160,
+     "tips": "25 minutes by train. Five original Viking ships and the fjord. In summer (May to September) you can go aboard a ship."
+    },
+    {
+     "name": "Roskilde Cathedral",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 60,
+     "tips": "Burial place of 40 Danish monarchs. UNESCO-listed brick Gothic."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mirabelle Bakery Nørrebro",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 80,
+     "tips": "Sourdough and kanelsnegl (cinnamon snail)."
+    },
+    {
+     "name": "Frederiksborg Castle Hillerød",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "17:00",
+     "cost": 110,
+     "tips": "Renaissance castle on a lake, with the Museum of National History. An alternative to Roskilde."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "The Little Mermaid and farewell",
+   "stops": [
+    {
+     "name": "Kastellet",
+     "category": "nature",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Star-shaped fortress and windmill. Morning joggers."
+    },
+    {
+     "name": "The Little Mermaid",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Statue from 1913 at Langelinie. Small and crowded, but a must."
+    },
+    {
+     "name": "Gefion Fountain & St Alban's",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Fountain with oxen and the English church."
+    },
+    {
+     "name": "Juno the Bakery Østerbro",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 60,
+     "tips": "The city's best bakery. Try the kardemommebolle (cardamom bun) with a farewell coffee."
+    },
+    {
+     "name": "Østerport Metro Airport",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Metro or train to Kastrup takes 15 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Andersen Bakery Østerbro",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 50,
+     "tips": "Danish-Japanese bakery."
+    },
+    {
+     "name": "Nyboder",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Yellow sailors' houses. An alternative to the fountain."
+    }
+   ]
+  }
+ ]
+}

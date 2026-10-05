@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "rio-de-janeiro-yaz",
+ "altSlug": "rio-de-janeiro-summer",
+ "citySlug": "rio-de-janeiro",
+ "destKey": "rio-de-janeiro",
+ "city": "Rio de Janeiro",
+ "region": null,
+ "country": "Brezilya",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "BRL",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 1800,
+  "attractions": 900,
+  "transport": 600,
+  "misc": 300
+ },
+ "notes": [
+  "Metro (Zona Sul-Merkez) güvenli ve temiz; Uber/99 ucuz; Niterói feribot Praça XV. Galeão 45-60 dakika, Santos Dumont şehir içi.",
+  "Haziran-Eylül Rio'da KIŞ = en iyi mevsim: 22-26°C kuru, güneşli, deniz 22°C, kalabalık az; Festa Junina Haziran.",
+  "GÜVENLİK: telefonu sokakta gösterme, plajda eşya bırakma (yalnız yüzme yok), gece sahil yürüyüşü yok, favela'ya rehbersiz girme; Zona Sul (Ipanema/Leblon/Copacabana) gündüz rahat.",
+  "Corcovado tren 100 BRL, Şeker Ekmeği 180, Maracanã 60; kilo restoran (por quilo) 40-60, chope 12, caipirinha 20; bahşiş %10 hesaba ekli. Kart her yerde geçer, Pix de kullanılır.",
+  "İsa heykeli 08:00 (sis öğleden sonra), Şeker Ekmeği gün batımı; Ilha Grande tur erken; Pedra Bonita sabah.",
+  "Feijoada cumartesi, açaí, pão de queijo, moqueca, picanha; Globo bisküvisi plajda."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Corcovado & Santa Teresa",
+   "stops": [
+    {
+     "name": "Christ the Redeemer Corcovado",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 100,
+     "tips": "Cosme Velho'dan kremayerli tren (online saatli, 08:00 ilk, ~100 BRL) Tijuca ormanından geçer; 38 m İsa, sabah sisiz."
+    },
+    {
+     "name": "Parque Lage",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Corcovado'nun altında konak ve havuz avlusu; Snoop Dogg klibi, orman."
+    },
+    {
+     "name": "Santa Teresa Bar do Mineiro",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 60,
+     "tips": "Bohem tepe mahallesi; feijoada (cumartesi) ve bolinho, tramvay (bonde) ile."
+    },
+    {
+     "name": "Escadaria Selarón",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "2.000 çinili merdiven (Şilili sanatçı); Lapa'ya iner, Türk çinisi de var."
+    },
+    {
+     "name": "Arcos da Lapa",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "1750 su kemeri; gece samba (cuma Rio Scenarium)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Aprazível Santa Teresa",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 120,
+     "tips": "Ağaç evli orman restoranı; Guanabara manzarası, rezervasyon."
+    },
+    {
+     "name": "Museu Chácara do Céu",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 6,
+     "tips": "Santa Teresa'da modern sanat villası; manzara."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Copacabana, Ipanema & Şeker Ekmeği",
+   "stops": [
+    {
+     "name": "Copacabana Beach",
+     "category": "nature",
+     "start": "07:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "4 km dalga mozaik kaldırım; Posto 6 balıkçılar, sabah koşucular, Copacabana Palace."
+    },
+    {
+     "name": "Arpoador Kayası",
+     "category": "nature",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Copacabana-Ipanema arası kaya; sörfçüler ve Dois Irmãos manzarası."
+    },
+    {
+     "name": "Ipanema Beach Posto 9",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Girl from Ipanema plajı; biscoito Globo ve mate satıcıları, Posto 9 genç."
+    },
+    {
+     "name": "Garota de Ipanema Bar",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 70,
+     "tips": "Şarkının yazıldığı bar; picanha ve chope (fıçı bira)."
+    },
+    {
+     "name": "Sugarloaf Pão de Açúcar",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:30",
+     "cost": 180,
+     "tips": "İki kademeli teleferik (Urca 220 m, Şeker Ekmeği 396 m); gün batımı ve gece ışıkları, online saatli."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Urca",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 40,
+     "tips": "Urca deniz duvarında bira ve pastel; yerli klasik, teleferik öncesi."
+    },
+    {
+     "name": "Forte de Copacabana",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 6,
+     "tips": "Plajın ucunda kale ve Confeitaria Colombo kafe; Arpoador yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Merkez & Samba",
+   "stops": [
+    {
+     "name": "Museu do Amanhã",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 30,
+     "tips": "Calatrava'nın Yarının Müzesi; Porto Maravilha rıhtımı, salı ücretsiz."
+    },
+    {
+     "name": "Mosteiro de São Bento",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "1590 altın kaplı barok manastır; pazar 10:00 Gregoryen ayin."
+    },
+    {
+     "name": "Confeitaria Colombo",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 50,
+     "tips": "1894 Belle Époque pastane; aynalı salon, pastel de nata ve salgados."
+    },
+    {
+     "name": "Real Gabinete Português de Leitura",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Dünyanın en güzel kütüphanelerinden (neo-Manuelin); ücretsiz."
+    },
+    {
+     "name": "Pedra do Sal Samba",
+     "category": "food",
+     "start": "19:00",
+     "end": "22:00",
+     "cost": 30,
+     "tips": "Samba'nın doğduğu kaya; pazartesi ve cuma sokak roda, caipirinha."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rio Scenarium Lapa",
+     "category": "food",
+     "start": "20:00",
+     "end": "23:00",
+     "cost": 60,
+     "tips": "Antika dolu 3 katlı samba evi; cuma-cumartesi."
+    },
+    {
+     "name": "Theatro Municipal Turu",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Paris operası kopyası; tur saatleri."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Tijuca & Pedra Bonita",
+   "stops": [
+    {
+     "name": "Pedra Bonita Trilha",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Tijuca'da 693 m; 40 dakika kolay tırmanış, yamaç paraşütü rampası, Pedra da Gávea ve São Conrado manzarası."
+    },
+    {
+     "name": "Cascatinha Taunay Tijuca Forest",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Dünyanın en büyük şehir ormanında 30 m şelale; maymunlar, Uber/taksi."
+    },
+    {
+     "name": "Mirante Dona Marta",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "İsa, Şeker Ekmeği ve körfezin en ünlü kadrajı; Michael Jackson klibi."
+    },
+    {
+     "name": "Jardim Botânico",
+     "category": "nature",
+     "start": "13:15",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "1808 botanik bahçesi; 134 m imparatorluk palmiye yolu, Vitória Régia."
+    },
+    {
+     "name": "Braseiro da Gávea",
+     "category": "food",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 80,
+     "tips": "Gávea'da picanha ve chope; yerlilerin et lokantası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lagoa Rodrigo de Freitas Bisiklet",
+     "category": "nature",
+     "start": "13:15",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Lagün çevresi 7,5 km; kayık, botanik yerine."
+    },
+    {
+     "name": "Bar Lagoa",
+     "category": "food",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 60,
+     "tips": "1934 lagün kenarı Alman-Brezilya barı."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Ilha Grande",
+   "stops": [
+    {
+     "name": "Conceição de Jacareí Ilha Grande Teknesi",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:00",
+     "cost": 50,
+     "tips": "Rio'dan 2,5 saat transfer + 20 dakika tekne (tur ~250 BRL); araçsız orman adası."
+    },
+    {
+     "name": "Vila do Abraão",
+     "category": "landmark",
+     "start": "09:15",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Adanın köyü; kumlu sokaklar ve kilise."
+    },
+    {
+     "name": "Lopes Mendes Beach",
+     "category": "nature",
+     "start": "10:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Brezilya'nın en güzel plajlarından; tekne + 20 dakika orman yürüyüşü, beyaz kum, bodyboard."
+    },
+    {
+     "name": "Abraão Plaj Tavernası Lua e Mar",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 60,
+     "tips": "Moqueca (balık güveci) ve caipirinha; dönüş teknesi 16:30."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lagoa Azul Şnorkel Turu",
+     "category": "nature",
+     "start": "10:30",
+     "end": "14:00",
+     "cost": 80,
+     "tips": "Mavi Lagün tekne turu; kaplumbağa ve balık, Lopes Mendes yerine."
+    },
+    {
+     "name": "Praia do Abraãozinho Kiosk",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 40,
+     "tips": "Köy yanı koy plajı."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Niterói & Maracanã",
+   "stops": [
+    {
+     "name": "Museu de Arte Contemporânea Niterói",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 16,
+     "tips": "Niemeyer'in uçan dairesi; feribot 20 dakika (Praça XV), Rio silüetinin en iyi manzarası."
+    },
+    {
+     "name": "Parque da Cidade Niterói",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Niterói tepesi; İsa'ya kadar körfez panoraması, yamaç paraşütü."
+    },
+    {
+     "name": "Itacoatiara Beach",
+     "category": "nature",
+     "start": "12:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Niterói'nin vahşi sörf plajı; Costão kayası, yerliler."
+    },
+    {
+     "name": "Mercado São Pedro Niterói",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 60,
+     "tips": "Balık pazarı üst kat lokantaları; kızarmış balık."
+    },
+    {
+     "name": "Maracanã Stadium Tour",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 60,
+     "tips": "Dünyanın efsane stadyumu; tur veya maç (Flamengo/Fluminense, deneyim!), metro."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Flamengo Maçı Maracanã",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "21:30",
+     "cost": 100,
+     "tips": "Maç günü tribün; en iyi Rio deneyimi, online bilet."
+    },
+    {
+     "name": "Skunna Niterói",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 70,
+     "tips": "Niterói sahil restoranı; manzara."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Leblon — hafif veda",
+   "stops": [
+    {
+     "name": "Mirante do Leblon",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 0,
+     "tips": "Leblon ucu seyir; Ipanema-Leblon plajları ve Dois Irmãos."
+    },
+    {
+     "name": "Leblon Beach Sabah",
+     "category": "nature",
+     "start": "09:15",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Rio'nun en şık plajı; hindistan cevizi suyu (água de coco)."
+    },
+    {
+     "name": "Talho Capixaba Leblon",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 50,
+     "tips": "Leblon'un fırın-şarküteri kahvaltısı; pão de queijo, veda."
+    },
+    {
+     "name": "Feira Hippie Ipanema",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Pazar günü Praça General Osório el sanatı pazarı (diğer günler Havaianas mağazası)."
+    },
+    {
+     "name": "Galeão Havalimanı Uber",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 90,
+     "tips": "Uber 45-60 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bibi Sucos Leblon",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 25,
+     "tips": "Açaí ve meyve suyu kültü."
+    },
+    {
+     "name": "Museu Casa do Pontal",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 20,
+     "tips": "Brezilya halk sanatı; Barra."
+    }
+   ]
+  }
+ ]
+}

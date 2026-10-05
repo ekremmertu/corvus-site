@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "amsterdam-summer",
+ "altSlug": "amsterdam-yaz",
+ "citySlug": "amsterdam",
+ "destKey": "amsterdam",
+ "city": "Amsterdam",
+ "region": null,
+ "country": "Netherlands",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 420,
+  "attractions": 230,
+  "transport": 50,
+  "misc": 80
+ },
+ "notes": [
+  "Get around by bike or on foot; the GVB day pass is 9 EUR, and the train to Schiphol takes 15 minutes. Don't walk in the bike lane (cyclists will ring their bells).",
+  "Rijks, Van Gogh, Anne Frank: timed tickets online only; Anne Frank tickets are released six weeks ahead on Tuesdays at 10:00.",
+  "Summer is 20-24°C with changeable weather, so bring a raincoat. Vondelpark, canal jetties and open boats; the Grachtenfestival takes place in August.",
+  "Eat stroopwafel hot at the market, herring from the stand, and bitterballen in a brown café; coffee is 3.5 EUR, beer 5 EUR.",
+  "A coffeeshop is not a cafe; photography is forbidden in the Red Light District. Round up the bill to tip.",
+  "Take the Sprinter from Centraal to Zaanse Schans (20 minutes); go before 10:00."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Museumplein",
+   "stops": [
+    {
+     "name": "Rijksmuseum",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 25,
+     "tips": "Rembrandt's Night Watch and Vermeer; book a timed ticket online, opens 09:00, don't miss the library."
+    },
+    {
+     "name": "Van Gogh Museum",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 24,
+     "tips": "Sunflowers and Almond Blossom; online tickets only, they sell out 3-7 days ahead."
+    },
+    {
+     "name": "Museumplein Picnic",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "Grab sandwiches from Albert Heijn and eat on the grass; a paddling pool in summer, an ice rink in winter."
+    },
+    {
+     "name": "Vondelpark",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The city park: rent a bike, and catch the open-air theatre in summer."
+    },
+    {
+     "name": "De Pijp & Albert Cuyp Markt",
+     "category": "shopping",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Amsterdam's biggest street market; try the stroopwafel (syrup waffle) stall (Rudi's) and the cheese."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Moco Museum",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 22,
+     "tips": "Banksy and modern art; a good option if you have no Van Gogh ticket."
+    },
+    {
+     "name": "Bakers & Roasters De Pijp",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 18,
+     "tips": "Brunch, instead of the picnic."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Jordaan & Anne Frank",
+   "stops": [
+    {
+     "name": "Anne Frank House",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 17,
+     "tips": "Online only; tickets are released six weeks ahead on Tuesdays at 10:00. If they sell out, check the daily cancellation time."
+    },
+    {
+     "name": "Westerkerk",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The church where Rembrandt is buried; tower tours in summer."
+    },
+    {
+     "name": "Jordaan Streets",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Hofje courtyards (Karthuizerhof), Prinsengracht canals, and the Noordermarkt on Saturdays."
+    },
+    {
+     "name": "Winkel 43",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 8,
+     "tips": "Amsterdam's most famous apple pie; on the corner of Noordermarkt."
+    },
+    {
+     "name": "Café 't Smalle",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 10,
+     "tips": "A canalside brown café (traditional pub) open since 1786; drink a beer on the jetty."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Café de Prins",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "A brown café opposite the Anne Frank House for lunch."
+    },
+    {
+     "name": "Houseboat Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 5,
+     "tips": "See life aboard a canal boat in the Jordaan."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Centre & canal cruise",
+   "stops": [
+    {
+     "name": "Dam Square & Royal Palace",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 12,
+     "tips": "Tour the Royal Palace interior; the square is calm in the morning."
+    },
+    {
+     "name": "Begijnhof",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "A hidden courtyard with a wooden house; peaceful."
+    },
+    {
+     "name": "Bloemenmarkt",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The floating flower market; tulip bulbs make good souvenirs."
+    },
+    {
+     "name": "Foodhallen",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 20,
+     "tips": "A food market in a former tram depot; try bitterballen (deep-fried meat croquettes) and Vietnamese food."
+    },
+    {
+     "name": "Canal Cruise",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:15",
+     "cost": 18,
+     "tips": "A one-hour open boat trip (Those Dam Boat Guys / Flagship); the UNESCO canal ring in sunset light."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Brouw Ten Katestraat",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 20,
+     "tips": "BBQ next to Foodhallen."
+    },
+    {
+     "name": "Amsterdam Museum",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 20,
+     "tips": "The city's history, next to the Begijnhof."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "East: Zoo, brewery & Oosterpark",
+   "stops": [
+    {
+     "name": "Hortus Botanicus",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 14,
+     "tips": "A botanical garden from 1638, with a butterfly greenhouse."
+    },
+    {
+     "name": "Artis Zoo",
+     "category": "culture",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "An inner-city zoo with a planetarium."
+    },
+    {
+     "name": "Brouwerij 't IJ",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 15,
+     "tips": "A brewery beneath a windmill; order a cheese platter and the IJwit."
+    },
+    {
+     "name": "Oosterpark",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The park in the east, next to the Tropenmuseum."
+    },
+    {
+     "name": "De Hallen Kino",
+     "category": "culture",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 12,
+     "tips": "A cinema and boutiques in a former tram depot; a good rainy-day option."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tropenmuseum Cafe",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 15,
+     "tips": "The cafe of the world cultures museum."
+    },
+    {
+     "name": "NEMO Science Museum Roof",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A free rooftop terrace on the ship-shaped museum, with views of the harbour."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Noord & NDSM",
+   "stops": [
+    {
+     "name": "Centraal Ferry Buiksloterweg",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "A free ferry from behind the station; 3 minutes."
+    },
+    {
+     "name": "A'DAM Lookout",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 16,
+     "tips": "An observation deck on the north shore with the Over the Edge swing."
+    },
+    {
+     "name": "EYE Filmmuseum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 12,
+     "tips": "The white bird-shaped building; exhibitions and a cafe, with views over the water."
+    },
+    {
+     "name": "NDSM Werf",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Street art and container cafes in a former shipyard; take ferry 906."
+    },
+    {
+     "name": "Pllek NDSM",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 18,
+     "tips": "A restaurant in a shipping container; beach chairs and views over the IJ."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Café de Ceuvel",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 15,
+     "tips": "A sustainable canalside cafe in Noord."
+    },
+    {
+     "name": "Noorderpark",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "The northern park, instead of NDSM."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Zaanse Schans",
+   "stops": [
+    {
+     "name": "Zaanse Schans Windmills",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "20 minutes by train (Zaandijk); working windmills (entry 5-6 EUR) and green wooden houses. Go before the morning tour buses arrive."
+    },
+    {
+     "name": "Catharina Hoeve Cheese Farm",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Cheese-making and tasting; free."
+    },
+    {
+     "name": "Zaanse Schans Clog Workshop",
+     "category": "shopping",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "A demonstration of wooden shoe making."
+    },
+    {
+     "name": "De Hoop op d'Swarte Walvis",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 30,
+     "tips": "A historic restaurant in Zaanse; fish and Dutch cuisine."
+    },
+    {
+     "name": "Haarlem Grote Markt",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Stop in Haarlem on the way back; the cathedral square and the Jopen beer church."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Haarlem Jopenkerk",
+     "category": "food",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 15,
+     "tips": "A brewery in a church."
+    },
+    {
+     "name": "Volendam & Marken",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A fishing town and an island, instead of Haarlem."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Nine Streets: a gentle farewell",
+   "stops": [
+    {
+     "name": "De 9 Straatjes",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The Nine Streets: vintage shops, design and canal corners."
+    },
+    {
+     "name": "Stubbe's Haring",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 5,
+     "tips": "A herring stand on a canal corner; eat it with onion and pickles, a Dutch ritual."
+    },
+    {
+     "name": "Van Stapele Koekmakerij",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 4,
+     "tips": "One kind of cookie only (with white chocolate); expect a 20-minute queue."
+    },
+    {
+     "name": "Amsterdam Centraal",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "15 minutes by train to Schiphol; time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Café Luxembourg",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Brasserie breakfast on Spui."
+    },
+    {
+     "name": "Spui Book Market",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The Friday book market, instead of the streets."
+    }
+   ]
+  }
+ ]
+}

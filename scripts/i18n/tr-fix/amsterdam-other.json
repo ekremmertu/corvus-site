@@ -1,0 +1,11 @@
+{
+ "source": "6fa492f890c7",
+ "model": "sonnet",
+ "strings": {
+  "d1.s4.tips": "Amsterdam'ın en büyük sokak pazarı; stroopwafel tezgâhı (Rudi's) ve peynir.",
+  "d3.s3.tips": "Eski tramvay deposunda yemek pazarı; bitterballen ve Vietnam mutfağı.",
+  "d6.s4.tips": "19 Mart-10 Mayıs arası lale bahçesi (yalnız o aylarda; diğer aylarda Haarlem); 7 milyon çiçek, online bilet.",
+  "note3": "Stroopwafel sıcak pazardan, ringa tezgâhtan, bitterballen brown café'de; kahve 3,5 EUR, bira 5 EUR."
+ },
+ "warnings": []
+}

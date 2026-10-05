@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "atina-yaz",
+ "altSlug": "athens-summer",
+ "citySlug": "atina",
+ "destKey": "athens",
+ "city": "Atina",
+ "region": null,
+ "country": "Yunanistan",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 300,
+  "attractions": 150,
+  "transport": 70,
+  "misc": 60
+ },
+ "notes": [
+  "Metro 3 hat; havalimanı metrosu 40 dakika, 10 EUR. Riviera'ya tramvay, Sounion'a KTEL otobüsü (Pedion Areos), adalara Pire'den feribot.",
+  "Akropolis 30 EUR, online saatli; 7 site kombine 36 EUR, 5 gün geçerli; ilk pazar (Kasım-Mart) ücretsiz.",
+  "Yaz 35-40°C: Akropolis'e 08:00'de git, öğlen müzeye, öğleden sonra Riviera plajına. Ağustos'ta yerliler adalarda olur.",
+  "Souvlaki 4-5 EUR, taverna 15-25 EUR; kahve freddo espresso; bahşiş yuvarlama, coperto yok.",
+  "Yankesici metroda ve Monastiraki'de çok; Omonia gece tenha.",
+  "Pazar günü Monastiraki bit pazarı ve Syntagma töreni var; müzeler salı kapalı olabilir."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Akropolis & Plaka",
+   "stops": [
+    {
+     "name": "Acropolis of Athens",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 30,
+     "tips": "Parthenon; 08:00 açılışta online saatli bilet (30 EUR, 7 site kombine 36 EUR). Yazın 12:00-17:00 arası sıcak nedeniyle kapalı olabilir."
+    },
+    {
+     "name": "Acropolis Museum",
+     "category": "culture",
+     "start": "10:15",
+     "end": "12:00",
+     "cost": 20,
+     "tips": "Cam zeminli müze; Parthenon frizi, Akropolis manzaralı kafe."
+    },
+    {
+     "name": "Plaka",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Akropolis eteğinde neoklasik sokaklar; Anafiotika'nın Kiklad beyaz evleri."
+    },
+    {
+     "name": "Kostas Souvlaki Syntagma",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 4,
+     "tips": "1950'den beri tek çeşit souvlaki; Agia Irini meydanı, 14:00'te kapanır."
+    },
+    {
+     "name": "Anafiotika",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Akropolis kayasına yaslanmış ada köyü; dar merdivenler, kediler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "O Thanasis Monastiraki",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "Kebap-pide klasiği; Monastiraki Meydanı."
+    },
+    {
+     "name": "Areopagus Hill",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Akropolis yanında kaya tepesi; ücretsiz manzara, gün batımı."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Antik Agora & Monastiraki",
+   "stops": [
+    {
+     "name": "Ancient Agora of Athens",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Kombine biletle gir; Hephaistos Tapınağı en sağlam Yunan tapınağı, Stoa müzesi de var."
+    },
+    {
+     "name": "Monastiraki Bit Pazarı",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Pazar günü antika pazarı kurulur; diğer günler dükkânlar açık. Avissinias Meydanı."
+    },
+    {
+     "name": "Roman Agora & Rüzgârlar Kulesi",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Kombine bilet; sekizgen su saati kulesi."
+    },
+    {
+     "name": "Varvakios Central Market",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "Merkez et-balık pazarı; içindeki tavernalarda patsas ve ızgara."
+    },
+    {
+     "name": "Psyrri",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Grafitili mahalle; gündüz kafeler ve Little Kook, akşam meyhaneler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Diporto Varvakios",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "Menüsüz bodrum tavernası; nohut ve balık, nakit."
+    },
+    {
+     "name": "Kerameikos",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Antik mezarlık; kombine bilet geçerli, Roma Agorası'ndan daha sakin."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Lycabettus, Kolonaki & müzeler",
+   "stops": [
+    {
+     "name": "Mount Lycabettus",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:45",
+     "cost": 10,
+     "tips": "Füniküler ya da 20 dakikalık tırmanış; Atina'nın en yüksek noktası, Akropolis ve deniz manzarası."
+    },
+    {
+     "name": "Kolonaki",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Şık mahalle; Skoufa caddesi kafeleri."
+    },
+    {
+     "name": "Benaki Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 12,
+     "tips": "Yunan tarihi ve el sanatları konağı; teras kafe var."
+    },
+    {
+     "name": "National Archaeological Museum",
+     "category": "culture",
+     "start": "13:15",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "Miken altın maskesi, Antikythera mekanizması; öğle sıcağında klimalı."
+    },
+    {
+     "name": "Exarcheia",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Anarşist-öğrenci mahallesi; plakçılar ve rebetiko barları."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Philos Athens Kolonaki",
+     "category": "food",
+     "start": "13:15",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "Kolonaki'de brunch; müze yerine öğle yemeği."
+    },
+    {
+     "name": "Museum of Cycladic Art",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 12,
+     "tips": "Kiklad idolleri; Benaki yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Atina Rivierası",
+   "stops": [
+    {
+     "name": "Vouliagmeni Gölü",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 15,
+     "tips": "Tramvay ve otobüsle 1 saat; termal göl ve balıklı pedikür, kışın da 22°C."
+    },
+    {
+     "name": "Astir Beach Vouliagmeni",
+     "category": "nature",
+     "start": "11:15",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Riviera'da şık plaj; şezlong dahil, deniz berrak."
+    },
+    {
+     "name": "Ithaki Restaurant Vouliagmeni",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 40,
+     "tips": "Deniz kenarında balık; Riviera klasiği."
+    },
+    {
+     "name": "Glyfada Merkez",
+     "category": "shopping",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Riviera'nın çarşısı; tramvayla dönüş."
+    },
+    {
+     "name": "Flisvos Marina",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Yat limanında sahil yürüyüşü ve gün batımı; Averof zırhlısı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Akrogiali Vouliagmeni",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 25,
+     "tips": "Uygun balık tavernası."
+    },
+    {
+     "name": "Stavros Niarchos Foundation Park",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Renzo Piano parkı ve opera binası; Flisvos yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Sounion",
+   "stops": [
+    {
+     "name": "Lavrio Arkeoloji Müzesi",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 4,
+     "tips": "Antik gümüş madenleri kasabası; yol üstünde, Atina'dan KTEL ile 1,5 saat."
+    },
+    {
+     "name": "Akrogiali Sounion Taverna",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Koyda balık tavernası; tapınak manzarası."
+    },
+    {
+     "name": "Sounion Plajı",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Tapınağın altındaki koy; yazın yüzme."
+    },
+    {
+     "name": "Temple of Poseidon Sounion",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 20,
+     "tips": "Burun üstünde tapınak; gün batımı için 17:30 (kışın 16:30), Byron'ın imzası sütunda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cape Sounion Gün Batımı Kafe",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 10,
+     "tips": "Tapınak yanı kafe."
+    },
+    {
+     "name": "Lavrio Limanı",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Balıkçı limanı; müze yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Hydra",
+   "stops": [
+    {
+     "name": "Hydra Limanı",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Pire'den hızlı feribotla 1,5 saat (~30 EUR); araçsız ada, eşekler ve taş konaklar."
+    },
+    {
+     "name": "Hydra Kamini Yürüyüşü",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Sahil yolu boyunca Kamini köyüne yürü; kayalık yüzme platformları var."
+    },
+    {
+     "name": "Hydra Spilia Beach",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Kayadan denize atlama; yazın."
+    },
+    {
+     "name": "Kodylenia's Taverna Hydra",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "Kamini'de deniz manzaralı taverna."
+    },
+    {
+     "name": "Hydra Kasaba Sokakları",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Amfitiyatro gibi kasaba; feribot 17:00'de."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hydra Sunset Restaurant",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 35,
+     "tips": "Alternatif taverna."
+    },
+    {
+     "name": "Hydra Manastırı Tırmanışı",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Alternatif rota."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Panathenaic & Ulusal Bahçe — hafif veda",
+   "stops": [
+    {
+     "name": "Panathenaic Stadium",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 10,
+     "tips": "Mermer olimpiyat stadı; pistte koşabilirsin."
+    },
+    {
+     "name": "National Garden Athens",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Kraliyet bahçesi; palmiye ve kaplumbağalar, Zappeion."
+    },
+    {
+     "name": "Syntagma Nöbet Değişimi",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Evzon askerleri saat başı; pazar 11:00 büyük tören."
+    },
+    {
+     "name": "Ta Karamanlidika tou Fani",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 18,
+     "tips": "Şarküteri-meyhane; pastırma ve peynir tabağı, veda yemeği."
+    },
+    {
+     "name": "Syntagma Metro Havalimanı",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Havalimanı metrosu 40 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Feyrouz Athens",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 8,
+     "tips": "Lahmacun ve peynirli; hızlı veda yemeği."
+    },
+    {
+     "name": "Temple of Olympian Zeus",
+     "category": "culture",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Kombine bilet; dev sütunlar, stad yerine."
+    }
+   ]
+  }
+ ]
+}

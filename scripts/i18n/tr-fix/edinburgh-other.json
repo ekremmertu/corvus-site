@@ -1,0 +1,17 @@
+{
+ "source": "6be8e0a5118c",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "Kaleden Holyrood'a 1,6 km; St Giles Katedrali (Thistle Şapeli), close'lar (dar geçitler), Mary King's Close turu.",
+  "d1.s2.tips": "Dr. Jekyll'ın ilham kaynağı olan hırsız meclis üyesi; haggis, neeps & tatties.",
+  "d3.s1.tips": "Gotik roket biçimli anıt, 287 basamak; kale manzaralı bahçe, çiçek saati.",
+  "d3.s4.tips": "1670'ten beri botanik bahçesi; seralar (ücretli), Inverleith tepesinden kale manzarası.",
+  "d4.s0.tips": "Da Vinci Şifresi'nin 1446 şapeli; Çırak Sütunu ve yüzlerce oyma, 37 numaralı otobüs 40 dakika.",
+  "d7.s3.tips": "Tramvayla havalimanı 35 dakika; veda.",
+  "note0": "Lothian otobüsü günlük 5,50 GBP (uygulama); havalimanı tramvayı 7. Stirling ve Loch Lomond'a tren; Rosslyn'e 37 numaralı otobüs. Şehir tepelik ve yürünür.",
+  "note1": "Aralıkta Hogmanay (Yılbaşı sokak partisi, meşale alayı 30 Aralık) ve Noel pazarı var; kış 3-7°C, rüzgârlı ve yağmurlu, 15:30'da hava kararır; Mayıs ideal."
+ },
+ "warnings": [
+  "note4: sayı değişti → düzeltme atıldı"
+ ]
+}

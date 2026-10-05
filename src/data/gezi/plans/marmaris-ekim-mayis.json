@@ -1,0 +1,506 @@
+{
+ "lang": "tr",
+ "slug": "marmaris-ekim-mayis",
+ "altSlug": "marmaris-october-may",
+ "citySlug": "marmaris",
+ "destKey": "marmaris",
+ "city": "Marmaris",
+ "region": "Muğla",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 11200,
+  "attractions": 4750,
+  "transport": 1650,
+  "misc": 450
+ },
+ "notes": [
+  "Ocak ayında Marmaris'te tekne turları, jeep safari ve dalış gibi deniz aktiviteleri sezon dışı olduğu için çalışmaz; plan bu yüzden yürüyüş, pazar, hamam ve köy gezilerine odaklandı.",
+  "Marmaris'te dolmuş ve belediye otobüslerinde 2020'den beri nakit geçmiyor; MuğlaKart olmadan araca binemezsin.",
+  "Kışın hava serin ve zaman zaman yağmurlu olur (gündüz 10-15°C); su geçirmez mont ve kaymaz taban ayakkabı şart. Birçok sahil restoranı ve bar kışın kapalı olduğundan plan açık kalan esnaf mekânlarını seçti.",
+  "Hamamda karışık/ayrı seans uygulaması işletmeden işletmeye değişir; rezervasyon sırasında çift olarak birlikte mi, ayrı mı alınacağını sor.",
+  "Restoranlarda hesaba %5-10 bahşiş bırakmak yaygındır; fişte 'servis ücreti' yoksa elden bırakılır.",
+  "Yerel pazarlarda pazarlık normaldir ama esnaf lokantalarında fiyatlar sabittir; saygılı bir dille sorabilirsin.",
+  "Turgut, Selimiye ve Söğüt gibi köylerde akşam dolmuşları erken (18:00-19:00 civarı) kesilir; dönüş için taksi numarasını önceden not et."
+ ],
+ "niche": {
+  "name": "Marmaris Bal Evi ve Arıcılık Müzesi",
+  "level": "l3",
+  "why_hidden": "Dünya çam balı üretiminin büyük kısmının çıktığı kızılçam ormanlarındaki Basra böceği-arı ilişkisini anlatan küçük bir aile müzesi. Marmaris rehberleri kale ve sahil odaklı olduğundan merkeze 20 km uzaktaki bu müzeyi çoğu turist bilmiyor.",
+  "access_instructions": "Marmaris merkezden Datça yönüne özel araç veya taksiyle yaklaşık 25 dakika; Osmaniye Mahallesi Hacıağaç Mevkii'nde, tabelalar sınırlı olduğundan Google Maps'te 'Marmaris Bal Evi' arat. Grup tadım turu için bir gün önceden telefonla haber ver.",
+  "local_contact": "0252 488 10 50 / 0530 764 07 96 (Marmaris Bal Evi)",
+  "season": "Yıl boyu açık; kışın (Kasım-Mart) ziyaretçi azken tadım daha sakin ve samimi geçer, üretim sezonu ise yaz sonu (Ağustos-Eylül).",
+  "insider_tip": "Klasik çiçek balı değil, doğrudan kızılçam reçinesinden üretilen orijinal çam balını tat ve müzedeki eski kovan koleksiyonuna bakmadan geçme; hediyelik kavanozları vakumlu paketleteceğini söylersen yol boyunca bozulmadan taşırsın.",
+  "show_reason": "Marmaris'in turizm kimliğinin altında yatan gerçek ekonomik ve kültürel mirası (dünya çam balı üretiminin büyük kısmı buradan çıkıyor) gösteriyor; ücretsiz/ucuz, fotojenik ve hiçbir ana rehberde öne çıkmıyor.",
+  "lat": 36.8447,
+  "lng": 28.1392,
+  "address": "Osmaniye Mah. Hacıağaç Mevkii, 48700 Marmaris/Muğla",
+  "cost_range_min": 0,
+  "cost_range_max": 250,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "MuğlaKart",
+  "why_chosen": "Marmaris'te dolmuş ve belediye otobüslerinde 2020'den beri nakit kabul edilmiyor, bu yüzden MuğlaKart şehir içi ulaşım için zorunlu hale geldi. Kart Muğla genelinde (Bodrum, Fethiye, Datça dahil) da geçerli olduğu için Turunç, İçmeler gibi yakın çevredeki günlük gezilerde de aynı kartla devam edebilirsin. Kartla ödeme, tek bilete göre belirgin şekilde daha ucuz.",
+  "coverage": "Marmaris şehir içi MUTTAŞ otobüsleri, dolmuşlar ve Muğla genelindeki (Bodrum, Fethiye, Datça dahil) belediye otobüs hatları",
+  "where_to_buy": "Marmaris Otogarı'ndaki otomatik kart makineleri, merkezdeki MUTTAŞ bayileri veya bazı market/büfeler; bakiye yükleme durak kiosklarından da yapılabilir.",
+  "cost": 200,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Marmaris'in Kalbi: Kaleiçi ve Uzunyalı Sahili",
+   "stops": [
+    {
+     "name": "Marmaris: Guided Walking Tour with Port Transfers",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 800,
+     "tips": "Rehber Kaleiçi'nin dar sokaklarını ve liman tarihini anlatır; buluşma noktası genelde İskele Meydanı'dır. Online rezervasyonunu bir gün önceden yap.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Marmaris+Guided+Walking+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Marmaris Kalesi Müzesi",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 200,
+     "tips": "1522'de Kanuni Sultan Süleyman tarafından yaptırılan kale artık küçük bir etnografya müzesi; kışın bazı günler erken kapanabilir, gitmeden Muğla Müze Müdürlüğü hattından teyit et."
+    },
+    {
+     "name": "Rota Barış Usta",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 750,
+     "tips": "Netsel Marina'nın arka sokağındaki bu esnaf lokantası dönerinden çok kebap ve ızgaralarıyla bilinir; 0252 413 05 84'ten arayıp masa sorabilirsin."
+    },
+    {
+     "name": "Netsel Marina Yürüyüşü",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Yüzlerce yatın bağlı olduğu marinada golden hour öncesi yürü; iskelenin ucuna kadar gidersen Kaleiçi sırtını ve tekneleri aynı karede yakalarsın."
+    },
+    {
+     "name": "Uzunyalı Sahili",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Kışın plaj boş, palmiyeli yürüyüş yolu gün batımında turuncuya döner; sahil kahvelerinden birinde sıcak salep alıp devam edebilirsin."
+    },
+    {
+     "name": "Hacı'nın Yeri (Yiğit Lokantası)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 850,
+     "tips": "Çamdibi Mahallesi'ndeki bu gösterişsiz esnaf lokantası kışın öğrenci ve yerel halkın tercih ettiği yer; günün çorbasını ve güvecini sor, akşam erken kapanabilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kale Minör Sanat Evi & Cafe",
+     "category": "food",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 180,
+     "tips": "Kale kapısının karşısında taş duvarlı küçük bir sanat kahvesi; mekân sahipleriyle sohbet edip Türk kahvesi içebilirsin."
+    },
+    {
+     "name": "Marmaris Amfitiyatrosu",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "Kışın sessiz kalan açık hava sahnesi deniz manzarasıyla fotoğraf için iyi bir ara durak; yazın burada konserler düzenlenir."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Yerel Pazar, Hamam ve Türk Gecesi: Armutalan'ın Sakin Yüzü",
+   "stops": [
+    {
+     "name": "Marmaris Semt Pazarı",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 150,
+     "tips": "Haftanın belirli bir gününde kurulan bu pazarda yöre halkı çam balı, zeytin ve kışlık sebze alır; turist çarşısından çok daha ucuz ve gerçek; pazarlık yapabilirsin."
+    },
+    {
+     "name": "Armutalan Hamamı Türk Hamamı Deneyimi",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 1800,
+     "tips": "Marmaris'in en büyük geleneksel hamamlarından biri; kese-köpük masajı dahil paketler önerilir, kışın hamam tam kıvamında sıcak olur.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Marmaris+Turkish+Bath+Experience",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Mabel Ocakbaşı",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "Armutalan'daki Yaylalı Center'da yer alan bu ocakbaşı yerel halkın tercih ettiği bir kebap-ızgara adresi; hamamdan sonra mercimek çorbasıyla hafif başla."
+    },
+    {
+     "name": "Marmaris Kültür Merkezi",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Merkeze yürürken kültür merkezi önündeki meydanda yerel halkın günlük hayatını izleyebilirsin; etkinlik takvimine bakmayı unutma."
+    },
+    {
+     "name": "Kervansaray Türk Gecesi",
+     "category": "culture",
+     "start": "19:30",
+     "end": "22:30",
+     "cost": 1700,
+     "tips": "Akşam yemeği, canlı müzik ve halk dansları gösterisiyle gelen paket; sınırsız içecek seçeneği genelde ek ücretli olduğundan rezervasyonda netleştir.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Marmaris+Turkish+Night+Dinner+Show",
+     "bookingProvider": "GetYourGuide"
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ege Vera Restoran",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 700,
+     "tips": "Armutalan'da yerel halkın sakin bir öğle yemeği için tercih ettiği mekân; ev usulü ara sıcaklar ve mevsim salataları öne çıkar."
+    },
+    {
+     "name": "Atatürk Anıtı ve İskele Meydanı",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Marmaris'in sembol meydanı; kordonda oturup yerel halkı izlemek için iyi bir es molası, akşam ışıklandırmasıyla fotoğraf için de uygun."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "İçmeler'in Sakin Kıyısı ve Pazarı",
+   "stops": [
+    {
+     "name": "İçmeler Çarşamba Pazarı",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 100,
+     "tips": "Genelde haftanın ortasına denk gelen bu pazarda yöre halkı kışlık turşuluk sebze ve zeytin alır; erken saatte gidince tezgâhlar en dolu haliyle görülür."
+    },
+    {
+     "name": "İçmeler Sahil Yürüyüş Yolu",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Yat Limanı'ndan İçmeler'e uzanan 11 km'lik yürüyüş yolunun İçmeler ucu; kışın plaj boş ama dağ-deniz manzarası fotoğraf için harika."
+    },
+    {
+     "name": "Şamdan Restoran Cafe & Bar",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "Yerel halkın da tercih ettiği sakin bir mekân; günün ev yemeği menüsünü sor, kışın fiyatlar yaz sezonuna göre daha uygundur."
+    },
+    {
+     "name": "İçmeler Marina",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Küçük tekne iskelesinde yerel balıkçıları izleyebilirsiniz; kışın sakin, gürültüsüz bir es molası için iyi bir nokta."
+    },
+    {
+     "name": "Love Maris Meyhane",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 1500,
+     "tips": "Aile işletmesi bu meyhane mahallenin saklı hazinesi olarak biliniyor; meze çeşitlerini ve günün balığını sor, kışın rezervasyon önerilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Love Boat Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1400,
+     "tips": "Devamlı Hotel'in içinde denizci temalı bir mekân; kuru olgunlaştırılmış biftekleriyle tanınır, hafta sonu rezervasyon önerilir."
+    },
+    {
+     "name": "Hisarönü Körfezi Manzara Noktası",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "İçmeler'e yakın sakin bir koy manzarası; kışın kimse olmaz, golden hour için iyi bir alternatif durak."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Turunç Koyu ve Amos Antik Kenti Yürüyüşü",
+   "stops": [
+    {
+     "name": "Turunç Plajı",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Kışın denize girilmez ama mavi bayraklı koyun sakin kıyısında yürümek başlı başına keyifli; dolmuşla Marmaris'ten yaklaşık 30-40 dakika."
+    },
+    {
+     "name": "Amos Antik Kenti",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Turunç'a yarım saatlik yürüme mesafesinde, tepeden Kumlubük ve Turunç koylarının muhteşem manzarası; giriş genelde ücretsiz, tabelayı kontrol et."
+    },
+    {
+     "name": "Şerife's Kitchen",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 800,
+     "tips": "Ev yapımı zeytinyağlılar, köfte ve börekleriyle bilinen küçük bir mekân; enginar ve zeytinyağlı yaprak sarmasını mutlaka dene."
+    },
+    {
+     "name": "Kumlubük Koyu",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Amos ile Turunç arasındaki bu sakin koyda kışın kimse olmaz; taze deniz ürünü servis eden birkaç iskele restoranı hâlâ açık olabilir."
+    },
+    {
+     "name": "Pasha's Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 950,
+     "tips": "Turunç'ta et yemekleri, karnıbahar dolması ve kuzu tandırıyla bilinen bir mekan; dönmeden önce erken akşam yemeği için idealdir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Antik Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 800,
+     "tips": "Ege mutfağının geleneksel lezzetlerini denemek için ideal; ot yemekleri ve zeytinyağlılar öne çıkar."
+    },
+    {
+     "name": "Turunç İskelesi",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Köyün küçük tekne iskelesi, sabah ışığında fotoğraf için sakin bir alternatif; balıkçı teknelerini izleyebilirsiniz."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Kızılçam Ormanları: Bal Evi ve Turgut Şelalesi",
+   "stops": [
+    {
+     "name": "Turgut Şelalesi",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Giriş ve park ücretsiz; kışın su akışı en güçlü halinde. Kaygan taşlara dikkat et, su geçirmez ayakkabı önerilir."
+    },
+    {
+     "name": "Meryemana Ev Yemekleri Mantı Evi",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 750,
+     "tips": "Ev yapımı mantı ve gözlemesiyle bilinen otantik bir lokanta; yöresel otlarla hazırlanan iç harcı meşhur, kışın sıcak çorbayla başla."
+    },
+    {
+     "name": "Marmaris Bal Evi ve Arıcılık Müzesi",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 250,
+     "tips": "Çam balının kızılçam ormanlarındaki Basra böceğinden nasıl üretildiğini anlatan küçük bir aile müzesi; grup tadım turu için bir gün önceden telefonla haber ver, kışın ziyaretçi azken tadım çok daha samimi geçer."
+    },
+    {
+     "name": "Tepe Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "Armutalan'da şehir ve deniz manzarası eşliğinde akşam yemeği; kebap ve ızgara ağırlıklı menü, gün batımı saatine denk getirmeye çalış."
+    }
+   ],
+   "backups": [
+    {
+     "name": "La Kebap",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 850,
+     "tips": "Armutalan'ın vazgeçilmez kebapçısı; paket sipariş de veriyorlar, rezervasyon için 0252 417 45 32'yi arayabilirsin."
+    },
+    {
+     "name": "Turgut Köyü Meydanı",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Şelaleden sonra köyün sakin meydanında kısa bir mola; köylülerin günlük hayatını izlemek için iyi bir duraktır."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Bozburun Yarımadası: Kızkumu'ndan Selimiye'ye",
+   "stops": [
+    {
+     "name": "Kızkumu",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Orhaniye'deki bu doğal kum şeridinde iki tarafı da denizle çevrili yolda yürüyebilirsin; giriş ve otopark ücretsiz, kışın tamamen senin. Marmaris'ten özel araç/taksiyle yaklaşık 35 dakika."
+    },
+    {
+     "name": "Selimiye Sahili ve Tekne Çekek Yeri",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Bozburun Yarımadası'nın ahşap tekne/gulet imalat geleneğini burada iskele boyunca izleyebilirsin; ustaların çalıştığı saatlerde (öğleden önce) daha hareketlidir."
+    },
+    {
+     "name": "Sardunya Restoran",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 1300,
+     "tips": "Selimiye'de deniz kenarında yaz-kış hizmet veren bir balık restoranı; günün balığını mevsim mezeleriyle iste."
+    },
+    {
+     "name": "Hydas Antik Kenti",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Selimiye'nin üç kalesinden birine ait kalıntılar ve antik kent izleri; girişi ücretsiz, kısa ama manzaralı bir yürüyüş."
+    },
+    {
+     "name": "Mavi Beyaz Balık Restoran",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 1300,
+     "tips": "Armutalan'da mevsim balıklarıyla bilinen bir mekân; döndükten sonra hafif ve taze bir akşam yemeği için iyi bir seçim."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Badem Mantı",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 700,
+     "tips": "Selimiye'de ıspanaklı ve kızarmış mantı çeşitleriyle bilinen, tekne tatilcilerinin uğrak yeri; hafif bir öğle yemeği için ideal."
+    },
+    {
+     "name": "Bozburun İskelesi",
+     "category": "landmark",
+     "start": "15:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Selimiye'ye 15 km uzaklıkta, dünyanın en iyi ahşap guletlerinin yapıldığı tersaneler boyunca yürüyüş yapılabilir."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Vedadan Önce: Bedesten ve Söğüt'ün Sakinliği",
+   "stops": [
+    {
+     "name": "Bedesten (Eski Kapalı Çarşı)",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 200,
+     "tips": "Haftanın her günü açık olan tarihi çarşı; kilim, takı ve hediyelik için son alışveriş molası, pazarlık yapmaktan çekinme."
+    },
+    {
+     "name": "Söğüt Sahili",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Marmaris'ten Datça yönünde sakin bir balıkçı köyü; kıyı boyunca kısa bir yürüyüş yapıp fotoğraf çekebilirsin."
+    },
+    {
+     "name": "Söğüt Balıkçılık",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 600,
+     "tips": "Tüm Türkiye'deki balık ekmekçilere fark atan örnek bir köy lokantası; balık ekmeğin yanına köy ayranı iste, rahat bir final öğle yemeği için ideal."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kalimera Restaurant",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 1200,
+     "tips": "Netsel Marina içinde yılın her günü açık bir deniz ürünleri restoranı; merkeze dönmeden hızlı bir alternatif final yemeği."
+    },
+    {
+     "name": "Söğüt Köyü Meydanı",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Köyün sakin meydanında kısa bir mola; balıkçı teknelerini ve günlük köy hayatını izlemek için iyi bir nokta."
+    }
+   ]
+  }
+ ]
+}

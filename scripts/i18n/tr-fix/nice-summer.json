@@ -1,0 +1,18 @@
+{
+ "source": "ebf062c1557f",
+ "model": "sonnet",
+ "strings": {
+  "d1.s3.tips": "1923'ten beri odun ateşinde socca; Port Lympia yanında, kuyruk var.",
+  "d3.s0.tips": "Otobüs 82/112 (1,50 EUR) veya tren (Èze-sur-Mer); Nietzsche yolunda 1 saat tırmanış. Ortaçağ kartal yuvası köy, Fragonard parfüm fabrikası.",
+  "d4.s2.tips": "Pembe villa ve 9 temalı bahçe; müzikli fıskiyeler 20 dakikada bir, çay salonu.",
+  "d4.b1.tips": "Deniz kıyısında Yunan villası kopyası; Ephrussi yerine.",
+  "d5.s1.tips": "Grimaldi şatosunda Picasso'nun 1946 atölyesi; deniz terasında heykeller.",
+  "d6.s3.tips": "Matisse'in 'şaheserim' dediği şapel; öğleden sonra saatlerini kontrol et.",
+  "d6.b0.tips": "Ihlamur altında teras; Colombe yerine uygun.",
+  "d7.s4.tips": "Tramvay 2 ile havalimanı 25 dakika; veda.",
+  "note0": "Lignes d'Azur bileti 1,50 EUR (otobüs + tramvay), günlük bilet 5; TER treni kıyı boyunca gider (Monaco 20 dk, Cannes 30 dk). Tramvay 2 havalimanına gider.",
+  "note1": "Yaz 27-30°C; plajlar çakıllı, ayakkabı al. Cannes-Antibes trenleri dolu olur; Èze ve Monaco'ya sabah git. Temmuz'da Nice Jazz, Ağustos'ta Fransız tatili var.",
+  "note4": "Tramvay 1 ve Cours Saleya'da yankesiciye dikkat; plajda eşyanı yanından ayırma."
+ },
+ "warnings": []
+}

@@ -1,0 +1,16 @@
+{
+ "source": "5df28e606608",
+ "model": "sonnet",
+ "strings": {
+  "d1.s4.tips": "Belcekız kumsalının arka sırasında, aynı ailenin yıllardır çevirdiği bahçeli restoran; sahil şeridindeki 'menü fotoğraflı' yerlerden çok daha uygun. Güveçte kuzu tandır ya da köy usulü tavuk şiş sipariş et; ev yapımı sütlacı kaçırma. Sonrasında Belcekız kumsalında gece yürüyüşü yap, kalabalık 21:00'den sonra çekiliyor.",
+  "d1.b0.tips": "Belcekız'da geniş bahçeli, Türk mutfağı ağırlıklı aile restoranı. Öğlen mezeli ızgara köfte ya da kiremitte tavuk iste; serpme kahvaltıyı 12:00'ye kadar veriyorlar. Nakit ödemede daha iyi fiyat çıkıyor.",
+  "d1.b1.tips": "Ölüdeniz'in halka açık, ücretsiz ana kumsalı; paraşütçülerin indiği yer. Kumsalın sol ucundaki kayalık taraf daha sakin ve deniz daha berrak. Şezlong kiralamak istemezsen havlunu ser. Akşamüstü gökyüzü paraşütle doluyor, fotoğraf için ideal.",
+  "d2.s4.tips": "Şehrin içinde yerlilerin girdiği ücretsiz koy; Karagözler yarımadasında, merkezden dolmuşla 10 dk. Duş ve kabin var, şezlong yok, havlu getir. Şövalye Adası tam karşında; akşamüstü gün ışığı tersanenin arkasından yumuşayınca fotoğraf için en iyi an.",
+  "d3.s1.tips": "Fethiye'nin klasik tekne günü: Kızılada, Yassıca Adaları, Tersane Adası, Akvaryum Koyu ve Göcek Adası duraklarında yüzme molası, öğle yemeği dahil. En fazla 40 kişilik küçük tekne seç, büyükler gürültülü. İçecekler ayrı ücretli, deniz ayakkabısı ve şnorkel getir; Yassıca'da sığ lagünlü ada arası fotoğraf noktası.",
+  "d4.s0.tips": "1923 mübadelesiyle boşalan Rum köyü; 400'e yakın taş ev ve iki kilise. Gişe 09:00'da açılıyor, Müzekart geçerli. Aşağı Kilise'nin (Panayia Pirgiotissa) mozaik zeminini gez. Köyün tamamının göründüğü kare için yamaçtan Yukarı Kilise'ye tırman; gölge yok, su al.",
+  "d4.s1.tips": "Kayaköy'ün batı ucundan Likya Yolu işaretli patikayla 40 dk iniş; araç yolu yok, o yüzden yerliden başka kimse bilmiyor. Koyda dipten soğuk tatlı su kaynıyor, deniz berrak ve buz gibi. Tekneler öğlen 13:00'ten sonra uğruyor; ondan önce koy sana kalıyor. Dönüşte çıkış 50 dk, sıcakta yavaş git.",
+  "d4.s2.tips": "Kayaköy'ün efsane 'kendin pişir' mangalcısı: eti tezgâhtan kiloyla seç (kuzu pirzola/kaburga), masana mangal gelir. İki kişiye 800 gr et + közleme + ayran yeter. Bağ evinin çardağı öğlen serin; hafta sonu öğlen Fethiyeli ailelerle dolar, hafta içi rahat.",
+  "transit.why_chosen": "Muğla genelinde dolmuş ve belediye otobüslerinde nakit kaldırıldı; Fethiye-Ölüdeniz, Fethiye-Kayaköy, Fethiye-Çalış, Fethiye-Göcek (Katrancı/Yanıklar) ve Ölüdeniz-Faralya/Kabak hatlarının hepsinde bu kart okutuluyor. Plandaki bütün gün içi ulaşımlar bu dolmuşlarla yapılıyor. Kart, tam ücretli temassız banka kartından biraz daha ucuz. Temassız kredi/banka kartı da geçiyor; yabancı kartın çalışmadığı durumlarda MuğlaKart tek güvenli yol."
+ },
+ "warnings": []
+}

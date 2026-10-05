@@ -1,0 +1,9 @@
+{
+ "source": "1f22cfa2529b",
+ "model": "sonnet",
+ "strings": {
+  "note2": "CityPASS 130 CAD, 5 cazibe merkezi; müzeler 25-30, CN Tower 45. Vergi (%13) fiyata dahil değil, bahşiş %18-20.",
+  "transit.why_chosen": "TTC metro, tramvay, otobüs ve GO treninde geçerli; temassız banka kartı da geçer"
+ },
+ "warnings": []
+}

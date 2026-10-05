@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "rio-de-janeiro-october-may",
+ "altSlug": "rio-de-janeiro-ekim-mayis",
+ "citySlug": "rio-de-janeiro",
+ "destKey": "rio-de-janeiro",
+ "city": "Rio de Janeiro",
+ "region": null,
+ "country": "Brazil",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "BRL",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 1800,
+  "attractions": 900,
+  "transport": 600,
+  "misc": 300
+ },
+ "notes": [
+  "The metro (Zona Sul to Centro) is safe and clean; Uber and 99 are cheap; the Niterói ferry leaves from Praça XV. Galeão takes 45-60 minutes; Santos Dumont is in the city.",
+  "December to March is summer: 35-40°C, humid and rainy. Carnival falls in February or March (hotels cost three times as much, with blocos street parties). On New Year's Eve, 2 million people dress in white on Copacabana.",
+  "SAFETY: Don't show your phone on the street, don't leave belongings on the beach (swim one at a time), don't walk on the seafront at night, and don't enter a favela without a guide. Zona Sul (Ipanema, Leblon, Copacabana) is comfortable by day.",
+  "Corcovado train 100 BRL, Sugarloaf 180, Maracanã 60; por quilo (pay-by-weight) restaurant 40-60, chope 12, caipirinha 20; 10% service charge is added to the bill. Cards are accepted everywhere, and Pix works too.",
+  "Christ the Redeemer at 08:00 (cloud rolls in after noon), Sugarloaf at sunset; take the Ilha Grande tour early; Pedra Bonita in the morning.",
+  "Feijoada on Saturday, açaí, pão de queijo, moqueca, picanha; Globo biscuits on the beach."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Corcovado and Santa Teresa",
+   "stops": [
+    {
+     "name": "Christ the Redeemer Corcovado",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 100,
+     "tips": "The cog train from Cosme Velho (timed online tickets, first departure 08:00, about 100 BRL) climbs through Tijuca Forest. The 38 m Christ is quiet in the morning."
+    },
+    {
+     "name": "Parque Lage",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A mansion and pool courtyard beneath Corcovado, set in the forest. It was a location for a Snoop Dogg video."
+    },
+    {
+     "name": "Santa Teresa Bar do Mineiro",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 60,
+     "tips": "A bohemian hilltop neighbourhood. Try feijoada (Saturday) and bolinho (fried snack), and ride the tram (bonde)."
+    },
+    {
+     "name": "Escadaria Selarón",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "2,000 tiled steps by a Chilean artist, leading down to Lapa. There are Turkish tiles among them too."
+    },
+    {
+     "name": "Arcos da Lapa",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "An aqueduct from 1750. Samba at night (Fridays at Rio Scenarium)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Aprazível Santa Teresa",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 120,
+     "tips": "A forest restaurant with treehouse-style dining. Views over Guanabara Bay; book ahead."
+    },
+    {
+     "name": "Museu Chácara do Céu",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 6,
+     "tips": "A modern art villa in Santa Teresa, with views."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Copacabana, Ipanema and Sugarloaf",
+   "stops": [
+    {
+     "name": "Copacabana Beach",
+     "category": "nature",
+     "start": "07:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Winter (Jun-Sep) is sunny at 24°C, which locals say is the best season. The sea is 22°C."
+    },
+    {
+     "name": "Arpoador Rock",
+     "category": "nature",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A rock between Copacabana and Ipanema, with surfers and views of Dois Irmãos."
+    },
+    {
+     "name": "Ipanema Beach Posto 9",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The beach of The Girl from Ipanema. Vendors sell biscoito Globo (light crunchy biscuits) and mate; Posto 9 has a young crowd."
+    },
+    {
+     "name": "Garota de Ipanema Bar",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 70,
+     "tips": "The bar where the song was written. Order picanha (grilled beef) and chope (draught beer)."
+    },
+    {
+     "name": "Sugarloaf Mountain",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:30",
+     "cost": 180,
+     "tips": "A two-stage cable car (Urca 220 m, Sugarloaf 396 m). Go for sunset and the city lights at night; timed online tickets."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Urca",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 40,
+     "tips": "Beer and pastel (fried pastry) on the Urca sea wall. A local classic, before the cable car."
+    },
+    {
+     "name": "Forte de Copacabana",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 6,
+     "tips": "A fort at the end of the beach, with the Confeitaria Colombo café. An alternative to Arpoador."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Downtown and samba",
+   "stops": [
+    {
+     "name": "Museum of Tomorrow",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 30,
+     "tips": "Calatrava's Museum of Tomorrow on the Porto Maravilha waterfront. Free on Tuesdays."
+    },
+    {
+     "name": "Monastery of São Bento",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A gold-covered Baroque monastery from 1590. Gregorian mass on Sundays at 10:00."
+    },
+    {
+     "name": "Confeitaria Colombo",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 50,
+     "tips": "A Belle Époque pastry shop from 1894. Mirrored hall, pastel de nata and salgados (savoury snacks)."
+    },
+    {
+     "name": "Real Gabinete Português de Leitura",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "One of the world's most beautiful libraries (Neo-Manueline style). Free."
+    },
+    {
+     "name": "Pedra do Sal",
+     "category": "food",
+     "start": "19:00",
+     "end": "22:00",
+     "cost": 30,
+     "tips": "The rock where samba was born. Street roda (samba circle) on Mondays and Fridays; try a caipirinha."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rio Scenarium",
+     "category": "food",
+     "start": "20:00",
+     "end": "23:00",
+     "cost": 60,
+     "tips": "A three-storey samba house packed with antiques. Fridays and Saturdays."
+    },
+    {
+     "name": "Theatro Municipal",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "A replica of the Paris Opera. Check tour times."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Tijuca and Pedra Bonita",
+   "stops": [
+    {
+     "name": "Pedra Bonita Trail",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "693 m in Tijuca. An easy 40-minute climb to a hang-gliding ramp, with views of Pedra da Gávea and São Conrado."
+    },
+    {
+     "name": "Cascatinha Taunay Tijuca Forest",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A 30 m waterfall in the world's largest urban forest. Look out for monkeys; take an Uber or taxi."
+    },
+    {
+     "name": "Dona Marta Viewpoint",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The most famous frame of Christ, Sugarloaf and the bay. A Michael Jackson video was shot here."
+    },
+    {
+     "name": "Rio de Janeiro Botanical Garden",
+     "category": "nature",
+     "start": "13:15",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "A botanical garden from 1808. A 134 m avenue of imperial palms and Vitória Régia giant water lilies."
+    },
+    {
+     "name": "Braseiro da Gávea",
+     "category": "food",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 80,
+     "tips": "Picanha and chope in Gávea. A meat restaurant popular with locals."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lagoa Rodrigo de Freitas Cycling",
+     "category": "nature",
+     "start": "13:15",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "A 7.5 km loop around the lagoon, with boats. An alternative to the botanical garden."
+    },
+    {
+     "name": "Bar Lagoa",
+     "category": "food",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 60,
+     "tips": "A German-Brazilian bar on the lagoon shore, open since 1934."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Ilha Grande",
+   "stops": [
+    {
+     "name": "Conceição de Jacareí Ilha Grande Boat",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:00",
+     "cost": 50,
+     "tips": "A 2.5-hour transfer from Rio plus a 20-minute boat ride (tour about 250 BRL). A car-free forest island."
+    },
+    {
+     "name": "Vila do Abraão",
+     "category": "landmark",
+     "start": "09:15",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "The island's village, with sandy streets and a church."
+    },
+    {
+     "name": "Lopes Mendes Beach",
+     "category": "nature",
+     "start": "10:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "One of Brazil's most beautiful beaches. Take a boat plus a 20-minute forest walk; white sand and bodyboarding."
+    },
+    {
+     "name": "Lua e Mar Beach Tavern Abraão",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 60,
+     "tips": "Moqueca (fish stew) and caipirinha. The return boat leaves at 16:30."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lagoa Azul Snorkelling Tour",
+     "category": "nature",
+     "start": "10:30",
+     "end": "14:00",
+     "cost": 80,
+     "tips": "A boat tour to the Blue Lagoon with turtles and fish. An alternative to Lopes Mendes."
+    },
+    {
+     "name": "Praia do Abraãozinho Kiosk",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 40,
+     "tips": "A cove beach next to the village."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Niterói and Maracanã",
+   "stops": [
+    {
+     "name": "Niterói Contemporary Art Museum",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 16,
+     "tips": "Niemeyer's flying saucer. The ferry takes 20 minutes (from Praça XV), and it has the best view of the Rio skyline."
+    },
+    {
+     "name": "Parque da Cidade Niterói",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A hilltop in Niterói with a bay panorama stretching to Christ the Redeemer, and hang-gliding."
+    },
+    {
+     "name": "Itacoatiara Beach",
+     "category": "nature",
+     "start": "12:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Watch the winter surf. Beach kiosks."
+    },
+    {
+     "name": "Mercado São Pedro Niterói",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 60,
+     "tips": "Upstairs restaurants above the fish market. Fried fish."
+    },
+    {
+     "name": "Maracanã Stadium Tour",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 60,
+     "tips": "The world's legendary stadium. Take a tour or catch a match (Flamengo or Fluminense, a real experience!); get there by metro."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Flamengo Match Maracanã",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "21:30",
+     "cost": 100,
+     "tips": "A match-day stand. The best Rio experience; buy tickets online."
+    },
+    {
+     "name": "Skunna Niterói",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 70,
+     "tips": "A seafront restaurant in Niterói, with views."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Leblon: a gentle farewell",
+   "stops": [
+    {
+     "name": "Mirante do Leblon",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 0,
+     "tips": "A lookout at the end of Leblon, with views of the Ipanema and Leblon beaches and Dois Irmãos."
+    },
+    {
+     "name": "Leblon Beach Morning",
+     "category": "nature",
+     "start": "09:15",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Rio's most elegant beach. Have coconut water (água de coco)."
+    },
+    {
+     "name": "Talho Capixaba Leblon",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 50,
+     "tips": "A Leblon bakery-deli breakfast. Pão de queijo (cheese bread) for your farewell."
+    },
+    {
+     "name": "Feira Hippie Ipanema",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "A handicrafts market on Sundays at Praça General Osório (on other days, visit a Havaianas store)."
+    },
+    {
+     "name": "Galeão Airport Uber",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 90,
+     "tips": "Uber takes 45-60 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bibi Sucos Leblon",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 25,
+     "tips": "A cult spot for açaí and fruit juice."
+    },
+    {
+     "name": "Museu Casa do Pontal",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 20,
+     "tips": "Brazilian folk art, in Barra."
+    }
+   ]
+  }
+ ]
+}

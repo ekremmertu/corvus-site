@@ -1,0 +1,469 @@
+{
+ "lang": "en",
+ "slug": "eskisehir-october-may",
+ "altSlug": "eskisehir-ekim-mayis",
+ "citySlug": "eskisehir",
+ "destKey": "eskisehir",
+ "city": "Eskişehir",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 5000,
+  "attractions": 1300,
+  "transport": 1800,
+  "misc": 500
+ },
+ "notes": [
+  "The high-speed train (YHT) takes 2.5 hours from Istanbul and 1.5 hours from Ankara. The city tram (ESTRAM) goes everywhere in town. You will need a car for the Phrygian Valley and Sivrihisar.",
+  "Çibörek, balaban köfte, met helvası and Tatar mantı are local specialities, and Odunpazarı has plenty of çibörek places.",
+  "Winters are cold (-5°C) and snowy. Odunpazarı looks lovely under snow, and the museums are indoor options.",
+  "Odunpazarı Modern Museum is closed on Mondays. Entry is about 300 TL.",
+  "It is a student city: cafes are cheap and the evenings are lively.",
+  "Roads in the Phrygian Valley are dusty in summer, so set off early in the morning."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Odunpazarı old town",
+   "stops": [
+    {
+     "name": "Odunpazarı Houses",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Colourful Ottoman houses with bay windows and cobbled streets, quiet in the morning."
+    },
+    {
+     "name": "Odunpazarı Modern Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 300,
+     "tips": "Kengo Kuma's timber museum: contemporary Turkish art, with architecture that is an exhibit in itself."
+    },
+    {
+     "name": "Çibörek Evi Odunpazarı",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 300,
+     "tips": "Tatar çibörek (fried meat pastry), served hot with ayran. Three or four will fill you up."
+    },
+    {
+     "name": "Meerschaum Museum Eskişehir",
+     "category": "culture",
+     "start": "14:00",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "Meerschaum carving in Odunpazarı, with a workshop and museum."
+    },
+    {
+     "name": "Kurşunlu Complex",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Odunpazarı's Ottoman complex, home to glass art workshops."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Odunpazarı Met Helvası Shop",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 100,
+     "tips": "Taste met helvası (a local sweet)."
+    },
+    {
+     "name": "Atlıhan Handicrafts Bazaar",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "Meerschaum and handmade glass."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Porsuk and city centre",
+   "stops": [
+    {
+     "name": "Porsuk River Gondola Tour",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 250,
+     "tips": "Take a gondola from Köprübaşı for a Venice feel, calm in the morning."
+    },
+    {
+     "name": "Köprübaşı",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The heart of the city, with bridges over the Porsuk and cafes."
+    },
+    {
+     "name": "Haller Youth Centre",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Cafes and art in the old market hall, with a student-town atmosphere."
+    },
+    {
+     "name": "Mangal Keyfi Eskişehir",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 400,
+     "tips": "One of Eskişehir's best-known meat restaurants, famous for balaban köfte."
+    },
+    {
+     "name": "Kent Park Eskişehir",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "An artificial beach and park on the Porsuk: sand beach in summer, walks in winter."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eskişehir Balaban Köfte Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 350,
+     "tips": "The classic balaban köfte."
+    },
+    {
+     "name": "Eskişehir Contemporary Arts Gallery",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A gallery in the centre, good for a rainy day."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Sazova and science",
+   "stops": [
+    {
+     "name": "Sazova Science, Culture and Art Park",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A fairytale castle, pirate ship and Japanese garden, good for a walk with or without children."
+    },
+    {
+     "name": "Sabancı Space House",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "Planetarium show, inside the park."
+    },
+    {
+     "name": "Sazova Cafe",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "Lunch inside the park."
+    },
+    {
+     "name": "Eti Underwater World",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 150,
+     "tips": "Tunnel aquarium, inside the park."
+    },
+    {
+     "name": "Kentpark Waterfront Walk",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "An evening walk along the Porsuk."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sazova Çibörek Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 250,
+     "tips": "Çibörek near the park."
+    },
+    {
+     "name": "Air Museum Eskişehir",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 50,
+     "tips": "Aircraft museum, an alternative to the aquarium."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Yazılıkaya and Phrygian Valley",
+   "stops": [
+    {
+     "name": "Yazılıkaya Midas Monument",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 50,
+     "tips": "80 km from Eskişehir: a Phrygian rock monument and the city of Midas, best in morning light."
+    },
+    {
+     "name": "Phrygian Valley Rock Churches",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Rock tombs and churches at Han, reached on foot."
+    },
+    {
+     "name": "Han Village Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 300,
+     "tips": "A village restaurant serving kuru fasulye (white bean stew) and gözleme (stuffed flatbread)."
+    },
+    {
+     "name": "Ayazini Village",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Cappadocia-like fairy chimneys and a rock church, the loveliest village in the Phrygian Valley."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seyitgazi Complex Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 250,
+     "tips": "A restaurant in Seyitgazi."
+    },
+    {
+     "name": "Seyitgazi Complex",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The tomb of Battal Gazi and the complex, an alternative to Ayazini."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Sivrihisar and Pessinus",
+   "stops": [
+    {
+     "name": "Sivrihisar Grand Mosque",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A Seljuk mosque with wooden columns, one hour from Eskişehir."
+    },
+    {
+     "name": "Sivrihisar Armenian Church",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "A restored church, now a cultural centre."
+    },
+    {
+     "name": "Sivrihisar Nasreddin Hoca House",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Hoca's birthplace, the village of Hortu, is nearby. In town there is a memorial house."
+    },
+    {
+     "name": "Sivrihisar Yemekçi",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 300,
+     "tips": "A town restaurant serving kuru fasulye (white bean stew) and rice pilaf."
+    },
+    {
+     "name": "Pessinus Ancient City",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 50,
+     "tips": "A Cybele temple and theatre at Ballıhisar, in a Phrygian-Roman city."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sivrihisar Market Breakfast Place",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 250,
+     "tips": "Breakfast."
+    },
+    {
+     "name": "Nasreddin Hoca Hortu Village",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Hoca's village, an alternative to Pessinus."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Museums and Tepebaşı",
+   "stops": [
+    {
+     "name": "Eskişehir Archaeology Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 50,
+     "tips": "Finds from Dorylaion and the Phrygians."
+    },
+    {
+     "name": "Glass Arts Museum",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Glassblowing in Odunpazarı, with workshops to watch."
+    },
+    {
+     "name": "Ciğerci Eskişehir",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 350,
+     "tips": "Eskişehir's liver wrap (ciğer dürüm), a student classic."
+    },
+    {
+     "name": "Tepebaşı Art Street",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Cafes and street art."
+    },
+    {
+     "name": "Vişnelik Garden Eskişehir",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:15",
+     "cost": 0,
+     "tips": "A city garden for a stroll."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eskişehir Historic Bulgur House",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 300,
+     "tips": "Bulgur pilaf and balaban."
+    },
+    {
+     "name": "Eskişehir Caricature Museum",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Caricature art in Odunpazarı, an alternative to the glass museum."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Odunpazarı morning, gentle farewell",
+   "stops": [
+    {
+     "name": "Odunpazarı Bazaar",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Meerschaum, met helvası and glass souvenirs."
+    },
+    {
+     "name": "Odunpazarı Breakfast Place",
+     "category": "food",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 350,
+     "tips": "Breakfast, with met helvası for dessert."
+    },
+    {
+     "name": "Eskişehir Railway Station",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "High-speed train: Ankara in 1.5 hours, Istanbul in 2.5 hours. Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Odunpazarı Tatar Mantı House",
+     "category": "food",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 300,
+     "tips": "Tatar mantı (small dumplings), a farewell meal."
+    },
+    {
+     "name": "Porsuk River Walkway",
+     "category": "nature",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "One last walk."
+    }
+   ]
+  }
+ ]
+}

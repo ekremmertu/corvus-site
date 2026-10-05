@@ -1,0 +1,27 @@
+{
+ "source": "26c0356e6ce6",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Kabataş'tan 09:00 vapuruyla git; iskeleden elektrikli minibüsle ya da 40 dakikalık yokuş yürüyüşüyle Yücetepe'ye çık. Tepede kilise ve Marmara manzarası var.",
+  "d1.s3.tips": "Adanın ortasındaki çam meydanı; bisiklet turunun başlangıç noktası.",
+  "d1.s4.tips": "İskele yanında köklü bir balıkçı; meze ve balık var, kışın kapalı bölüm ısıtmalı.",
+  "d2.s0.tips": "İskele arkasında bisiklet kiralama (~300 TL/gün); büyük tur 12 km.",
+  "d2.s3.tips": "Kalpazankaya'da deniz kenarında balık ve meze; gün batımı ünlüdür.",
+  "d3.s0.tips": "Tepede 1844'te kurulan Rum Ortodoks okulu; bahçe ve manzara, ziyaret rehberli.",
+  "d4.s0.tips": "Yazarın evi; adanın edebî kalbi.",
+  "d4.s3.tips": "En küçük ada; kırmızı toprak ve sahil yürüyüşü, vapur aktarması var.",
+  "d5.s0.tips": "Aya Nikola'da adaların tarihi; Rum-Ermeni-Yahudi mirası.",
+  "d5.s2.tips": "Avrupa'nın en büyük ahşap binası (dışarıdan); ormanda yürüyüş.",
+  "d6.s0.tips": "Kışın tekne seyrek; yerine Büyükada'da Dil Burnu yürüyüşü.",
+  "d6.s1.tips": "Büyükada meydanında öğle yemeği.",
+  "d6.b1.tips": "Ücretsiz plaj; Sedef yerine.",
+  "d7.s2.tips": "Son yürüyüş; 12:30 vapuruyla Kabataş'a dön.",
+  "note0": "Kabataş ve Bostancı'dan vapur (İstanbulkart) yazın 30 dakikada bir, kışın saatte bir kalkar; son vapur 20:00 civarı.",
+  "note1": "Adada araç yok: elektrikli minibüs, bisiklet ya da yürüyüş. Aya Yorgi yokuşu 40 dakika; elektrikli araç 100 TL.",
+  "note2": "Kışın adalar sakin; Gülistan Caddesi balıkçıları ısıtmalı, plajlar kapalı. Hafta sonu İstanbullular gelir.",
+  "note3": "Sıcak lokma, ada dondurması ve balık-meze dene; Gülistan Caddesi restoranlarında rezervasyon gerekmez.",
+  "note4": "Adalarda ATM az; nakit götür.",
+  "note5": "Adalar arası vapur 15 dakika sürer."
+ },
+ "warnings": []
+}

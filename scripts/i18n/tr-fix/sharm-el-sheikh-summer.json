@@ -1,0 +1,16 @@
+{
+ "source": "ba4ab16fd5d2",
+ "model": "sonnet",
+ "strings": {
+  "d1.s2.tips": "Sharm'ın ünlü deniz ürünleri; tezgâhtan seç, kilo ile, Sinai kalamar.",
+  "d1.b1.tips": "Eski pazar; baharat, papirüs, pazarlık, El Sahaba Camisi (gece ışıklı).",
+  "d2.b0.tips": "Şehir içi burun resifi (Hadaba); tekne yoksa Farsha kafesi manzarası.",
+  "d3.s0.tips": "Sharm'dan 3 saat (tur 22:00 kalkışlı); Musa'nın 10 Emir dağı 2.285 m, deve yolu + 750 basamak, gün doğumu; kışın hava -5°C olur, kaban al.",
+  "d3.s2.tips": "3.750 basamak keşiş yolu (Elijah Havzası); dizlerini zorlar.",
+  "d3.b0.tips": "Sina yerine: Dahab'ın efsanevi 100 m'lik Mavi Çukur'unda şnorkel (Bells), hippi kasabası, 1,5 saat.",
+  "d6.s2.tips": "Öğleden sonra pazar ve El Sahaba Camisi; pazarlık.",
+  "d6.s3.tips": "Uçurumda İtalyan deniz ürünleri; fener ve gün batımı.",
+  "note1": "Yaz 38-42°C, kuru sıcak; deniz 28°C, harika. 11-16 arası havuz veya gölge, sabah 7'de şnorkel; Sina gece tırmanışı serin."
+ },
+ "warnings": []
+}

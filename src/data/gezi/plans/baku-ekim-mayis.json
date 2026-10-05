@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "baku-ekim-mayis",
+ "altSlug": "baku-october-may",
+ "citySlug": "baku",
+ "destKey": "baku",
+ "city": "Bakü",
+ "region": null,
+ "country": "Azerbaycan",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "AZN",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 300,
+  "attractions": 120,
+  "transport": 150,
+  "misc": 60
+ },
+ "notes": [
+  "BakıKart (metro/otobüs 0,50 AZN); Bolt taksi ucuz. Havalimanı H1 otobüsü. Gobustan/Şeki tur veya kiralık araç.",
+  "Kış 2-8°C rüzgârlı; Mart Novruz (bahar bayramı, ateş atlama); Nisan-Mayıs ve Eylül-Ekim ideal, Şeki sonbaharı altın.",
+  "Türk vatandaşı 30 gün vizesiz (2025'ten kimlikle); manat ≈ 0,6 USD; kutab 2 AZN, piti 8, restoran 20-30, müze 5-15; bahşiş %10.",
+  "Alev Kuleleri gece 21:00'den sonra; Yanar Dag akşam; Heydar Aliyev Center pazartesi kapalı.",
+  "Piti, kutab, plov (şah plov), dolma, levengi, Şeki halvası, nar suyu, armudu çay + reçel.",
+  "Türkçe anlaşılır (Azerbaycan Türkçesi); Rusça yaygın. Petrol şehri: Bibi-Heybat'ta pompalar."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "İçerişehir & Bulvar",
+   "stops": [
+    {
+     "name": "Icherisheher Eski Şehir",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "UNESCO surlu 12. yüzyıl şehri; dar sokaklar, Elmas Kol filminin çekildiği yer, halıcılar."
+    },
+    {
+     "name": "Maiden Tower Kız Kulesi",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "8 katlı gizemli kule (Zerdüşt?); tepeden Hazar ve Alev Kuleleri."
+    },
+    {
+     "name": "Palace of the Shirvanshahs",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "15. yüzyıl Şirvanşahlar sarayı; türbe, divanhane, hamam."
+    },
+    {
+     "name": "Firuze Restoranı Eski Şehir",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 25,
+     "tips": "Azerbaycan mutfağı; kutab (ince börek), piti, saç."
+    },
+    {
+     "name": "Baku Boulevard",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Hazar kıyısında 3,7 km'lik bulvar (1909); dönme dolap, Mini Venedik'te gondol; 20:00'den sonra füniküler ile Highland Park'a çık, Alev Kuleleri ışık gösterisini izle."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sehirli Tendir",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 15,
+     "tips": "Tandır ekmeği ve kutab; eski şehir sokak."
+    },
+    {
+     "name": "Museum of Miniature Books",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Guinness rekortmeni minyatür kitaplar; ücretsiz, saray yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Heydar Aliyev & Halı Müzesi",
+   "stops": [
+    {
+     "name": "Heydar Aliyev Center",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Zaha Hadid'in dalgalı beyaz şaheseri; klasik araba sergisi, dıştan fotoğraf ücretsiz."
+    },
+    {
+     "name": "Azerbaijan Carpet Museum",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "Rulo halı şeklinde bina; Bulvar, dokuma gösterisi."
+    },
+    {
+     "name": "Nargiz Restaurant Bulvar",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 20,
+     "tips": "Hazar manzaralı Azerbaycan; dolma ve kebap."
+    },
+    {
+     "name": "Nizami Street Torgovaya",
+     "category": "shopping",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Yaya alışveriş caddesi; 19. yüzyıl petrol baronu binaları."
+    },
+    {
+     "name": "Baku Crystal Hall & Bayrak Meydanı Yürüyüşü",
+     "category": "landmark",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Eurovision 2012 salonu; Bulvar ucu gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museum of Modern Art Baku",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 5,
+     "tips": "Azerbaycan modern sanatı; halı yerine."
+    },
+    {
+     "name": "Paul's Bakery Fountains Square",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 8,
+     "tips": "Kahve ve pasta; meydan."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Gobustan & çamur volkanları",
+   "stops": [
+    {
+     "name": "Gobustan Rock Art",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 10,
+     "tips": "60 km güneyde (tur ~40 AZN veya taksi); 6.000'den fazla, 10.000 yıllık kaya resmi, UNESCO, müze."
+    },
+    {
+     "name": "Gobustan Mud Volcanoes",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 10,
+     "tips": "Dünyanın çamur volkanlarının yarısı Azerbaycan'da; fokurdayan soğuk çamur konileri, eski Lada ile ulaşım."
+    },
+    {
+     "name": "Bibi-Heybat Camii",
+     "category": "culture",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Hazar kıyısında cami (Sovyetlerin yıktığı, sonra yeniden yapılan); petrol pompaları arasında."
+    },
+    {
+     "name": "Qobustan Yolu Balık Lokantası",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 20,
+     "tips": "Hazar balığı (kutum) ve levengi; yol üstü."
+    },
+    {
+     "name": "Yanar Dag Yanan Dağ",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 5,
+     "tips": "60 yıldır sürekli yanan gaz yamacı, Zerdüşt geleneği; akşam karanlıkta etkileyici, 25 km kuzeyde."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ateshgah Fire Temple",
+     "category": "culture",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 5,
+     "tips": "Surakhani Zerdüşt-Hindu ateş tapınağı; Yanar Dag ile aynı yönde, yerine veya ek olarak."
+    },
+    {
+     "name": "Qala Köy Restoranı",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "Etnografik köy yanında tandır ve sac; yol üstü lokanta yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Abşeron: Ateşgah & Qala",
+   "stops": [
+    {
+     "name": "Ateshgah of Baku",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 5,
+     "tips": "Surakhani ateş tapınağı (17. yüzyıl Hindu-Zerdüşt); doğal gaz ateşi, hücreler."
+    },
+    {
+     "name": "Qala Archaeological Ethnographic Complex",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 5,
+     "tips": "Abşeron köyü açık hava müzesi; kale, tandır, deve."
+    },
+    {
+     "name": "Mardakan Kalesi & Kasabası",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "14. yüzyıl kale ve dendropark; Yesenin'in evi."
+    },
+    {
+     "name": "Mardakan Balık Tavernası",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 20,
+     "tips": "Sahil kasabası ızgara balık."
+    },
+    {
+     "name": "Bilgah Beach Hazar",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Kış Hazar rüzgârı; sahil yürüyüşü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Amburan Beach Club",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 20,
+     "tips": "Şezlonglu plaj kulübü; Bilgah."
+    },
+    {
+     "name": "Gala Köyü Çayhanesi",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 10,
+     "tips": "Armudu bardakta çay, reçel; köy."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Şeki (uzun gün) veya Qabala",
+   "stops": [
+    {
+     "name": "Şeki Han Sarayı",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 5,
+     "tips": "Bakü'den 4 saat (erken tur veya araç; gece kalmak ideal); 1762 yapımı şebeke vitraylı saray, UNESCO, çivisiz."
+    },
+    {
+     "name": "Şeki Kervansarayı",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "18. yüzyıl kervansaray-otel; avlu ve tonozlar."
+    },
+    {
+     "name": "Şeki Piti Öğle Gagarin",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "Şeki'nin toprak çömlekte piti çorbası (ritüel: önce suyu ekmekle, sonra eti ez); Şeki halvası."
+    },
+    {
+     "name": "Kish Albanian Church",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 2,
+     "tips": "Kafkas Albanya kilisesi (1. yüzyıl efsanesi); Thor Heyerdahl teorisi, köy."
+    },
+    {
+     "name": "Şeki Halva Atölyesi",
+     "category": "shopping",
+     "start": "15:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Şeki halvası hediyelik; dönüş yolu (Bakü 20:00)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Qabala Tufandağ Teleferik",
+     "category": "nature",
+     "start": "10:30",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Kafkas dağı teleferiği ve Nohur gölü; Şeki yerine yakın (3 saat)."
+    },
+    {
+     "name": "Lahıc Köy Çayhanesi",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 10,
+     "tips": "Taş kaldırımlı bakırcı köyünde çay ve kebap; Şeki yolunda alternatif."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Yasamal & modern Bakü",
+   "stops": [
+    {
+     "name": "Taza Bazaar",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 10,
+     "tips": "Yerel pazar; nar, safran, sumak, peynir tadımı, kurutulmuş meyve."
+    },
+    {
+     "name": "Baku Funicular & Martyrs' Lane Gündüz",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Gündüz Şehitler Hıyabanı ve Ebedi Ateş; Türk Şehitliği camisi."
+    },
+    {
+     "name": "Sumakh Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 30,
+     "tips": "Şık Azerbaycan mutfağı; sac ve kutab, Xaqani."
+    },
+    {
+     "name": "Bakü Deniz Tekne Turu",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "Bulvardan 1 saatlik Hazar tekne turu; silüet."
+    },
+    {
+     "name": "Nizami Kino & Pasaj Kafeleri Akşam",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 15,
+     "tips": "Sahil Bahçesi ve Torgovaya çayhaneleri; nargile."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Stone Chronicle Museum",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Taş yazıtlar müzesi; Bulvar."
+    },
+    {
+     "name": "Çay Bağı 145 Eski Şehir",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 12,
+     "tips": "Eski şehirde çay ve reçel; Azeri çay geleneği."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Bulvar sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Bulvar Sabah Yürüyüşü Little Venice",
+     "category": "nature",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Gondollu kanallar ve sabah sakinliği."
+    },
+    {
+     "name": "Mugham Center Dıştan",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Tar (saz) şeklindeki bina; Bulvar."
+    },
+    {
+     "name": "Qaynana Restoranı Kahvaltı",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "Azeri kahvaltısı: kaymak, bal, tandır ekmeği, kuymak; Fountains yanı."
+    },
+    {
+     "name": "Baku Airport Bus H1",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 2,
+     "tips": "H1 otobüsü 28 Mayıs'tan kalkar, 40 dakika sürer (BakıKart); veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ali and Nino Kitapçı Kafe",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 8,
+     "tips": "Kitapçı-kafe kahvaltısı; romanın şehri."
+    },
+    {
+     "name": "Government House Dıştan",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Stalin dönemi dev bina; Azadlıq meydanı."
+    }
+   ]
+  }
+ ]
+}

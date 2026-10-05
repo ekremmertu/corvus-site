@@ -1,0 +1,15 @@
+{
+ "source": "0ff7d1b801fa",
+ "model": "sonnet",
+ "strings": {
+  "d1.s4.tips": "Amsterdam'ın en büyük sokak pazarı; stroopwafel tezgâhı (Rudi's) ve peynir.",
+  "d2.s0.tips": "Yalnız online; biletler 6 hafta önce salı 10:00'da açılır, tükenirse günlük iptal saatini kontrol et.",
+  "d3.s3.tips": "Eski tramvay deposunda yemek pazarı; bitterballen ve Vietnam mutfağı.",
+  "d6.s0.tips": "Tren 20 dakika (Zaandijk); çalışan değirmenler (giriş 5-6 EUR), yeşil ahşap evler. Sabah tur otobüsleri gelmeden önce git.",
+  "note2": "Yaz 20-24°C, hava değişken; yağmurluk al. Vondelpark, kanal iskeleleri, açık tekneler; Ağustos'ta Grachtenfestival.",
+  "note3": "Stroopwafel'i pazarda sıcak ye, ringayı tezgâhtan, bitterballen'i brown café'de; kahve 3,5 EUR, bira 5 EUR.",
+  "note4": "Coffeeshop ≠ kafe; Kırmızı Fener'de fotoğraf yasak. Bahşiş için hesabı yuvarla.",
+  "note5": "Zaanse Schans'a Centraal'dan Sprinter 20 dakika; 10:00'dan önce git."
+ },
+ "warnings": []
+}

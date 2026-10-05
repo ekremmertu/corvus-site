@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "girit-ekim-mayis",
+ "altSlug": "crete-heraklion-october-may",
+ "citySlug": "girit",
+ "destKey": "crete",
+ "city": "Girit",
+ "region": null,
+ "country": "Yunanistan",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 320,
+  "attractions": 90,
+  "transport": 220,
+  "misc": 70
+ },
+ "notes": [
+  "Araç kiralama en iyisi (25-40 EUR/gün); KTEL otobüsleri Heraklion-Rethymno-Hania arasında düzenli çalışır. Hania'da 3 gece + Heraklion'da 2 gece ideal (plan 2 üslü).",
+  "Kasım-Mart Samaria kapalı, Balos teknesi yok (jip), Elafonisi ıssız; 15°C güneşli kış, zeytin hasadı, Nisan-Mayıs kır çiçekleri ve Paskalya.",
+  "Knossos 20 EUR (müze ayrı), Samaria 5, Spinalonga 8; taverna 15-25, raki ikram; bahşiş için hesabı yuvarla.",
+  "Girit mutfağı: dakos, staka, kalitsounia, salyangoz (chochlioi), tsikoudia; su musluktan içilir (Hania).",
+  "Balos toprak yolu kiralık araç sigortasını geçersiz kılar — tekne veya jip; Samaria dönüşü feribot+otobüs geç saatte.",
+  "Türkiye'den Heraklion/Hania'ya direkt uçuş yazın; Schengen vizesi."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Heraklion & Knossos",
+   "stops": [
+    {
+     "name": "Knossos Palace",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 20,
+     "tips": "Minos sarayı ve labirent efsanesi; 08:00 açılışta gir (öğlen sıcak+turlar), Evans restorasyonu, online bilet."
+    },
+    {
+     "name": "Heraklion Archaeological Museum",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 12,
+     "tips": "Minos freskleri (Zambak Prensi, Boğa atlama), Phaistos diski; klimalı."
+    },
+    {
+     "name": "Heraklion Venedik Limanı & Koules",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 4,
+     "tips": "Venedik kalesi ve mendirek yürüyüşü."
+    },
+    {
+     "name": "Peskesi Heraklion",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Girit mutfağı; dakos, staka, otlar, çiftlikten."
+    },
+    {
+     "name": "Lions Square & Morosini Çeşmesi",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Şehir merkezi; bougatsa (Kirkor)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kirkor Bougatsa Heraklion",
+     "category": "food",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 4,
+     "tips": "1922'den beri bougatsa; kremalı."
+    },
+    {
+     "name": "Agios Minas Cathedral",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Girit'in en büyük katedrali; liman yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Hania'ya geçiş",
+   "stops": [
+    {
+     "name": "Rethymno Venedik Limanı",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Yolda (KTEL otobüsüyle 1,5 saat); Venedik feneri ve dar sokaklar."
+    },
+    {
+     "name": "Fortezza Rethymno",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 4,
+     "tips": "16. yüzyıl kalesi; Ege manzarası."
+    },
+    {
+     "name": "Taverna Knossos Rethymno",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Liman kenarı aile tavernası; ızgara balık."
+    },
+    {
+     "name": "Chania Venetian Harbour",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Otobüs 1 saat; Mısır feneri, Yalı Cami, Venedik tersaneleri (Neoria)."
+    },
+    {
+     "name": "Chania Old Town Topanas & Splantzia",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Türk ve Venedik mahalleleri; deri sokağı (Skridlof), akşam ışıkları."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tamam Chania",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 25,
+     "tips": "Eski Türk hamamında restoran; Girit-Osmanlı."
+    },
+    {
+     "name": "Arkadi Monastery",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 4,
+     "tips": "1866 direniş manastırı; Rethymno içinden dağ yoluna sapma (araçla)."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Balos & Gramvousa",
+   "stops": [
+    {
+     "name": "Kissamos Limanı Balos Teknesi",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 30,
+     "tips": "Kışın tekne yok; jip/araçla toprak yol (8 km) + 20 dakika iniş, dalgalı ama bomboş."
+    },
+    {
+     "name": "Gramvousa Kalesi",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Korsan adası Venedik kalesi; 137 m tırmanış, batık gemi."
+    },
+    {
+     "name": "Balos Lagoon",
+     "category": "nature",
+     "start": "12:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Kış lagünü; yürüyüş ve rüzgâr, yüzme cesur işi."
+    },
+    {
+     "name": "Kissamos Taverna Sunset",
+     "category": "food",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 20,
+     "tips": "Dönüşte Kissamos kıyı tavernası; stifado ve yerel şarap."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Falasarna Beach",
+     "category": "nature",
+     "start": "12:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Antik liman ve uzun kumsal; gün batımı, Balos yerine (araç)."
+    },
+    {
+     "name": "Cellar Tavern Kissamos",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 18,
+     "tips": "Kissamos merkezde aile tavernası; tekne yoksa öğle."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Samaria Boğazı",
+   "stops": [
+    {
+     "name": "Samaria Gorge Xyloskalo Girişi",
+     "category": "nature",
+     "start": "07:00",
+     "end": "07:30",
+     "cost": 5,
+     "tips": "Kışın boğaz KAPALI (sel); alternatif: Imbros Boğazı (8 km, yıl boyu) veya Aptera antik kenti."
+    },
+    {
+     "name": "Samaria Terkedilmiş Köyü",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Yolun ortasında eski köy; dinlenme ve su."
+    },
+    {
+     "name": "Iron Gates Sideroportes",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "3 m'ye daralan kanyon; en dar nokta."
+    },
+    {
+     "name": "Agia Roumeli",
+     "category": "food",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Boğazın çıktığı sahil köyü; deniz, taverna, sonra 17:30 feribotuyla Sougia/Chora Sfakion'a, oradan otobüsle Hania'ya."
+    },
+    {
+     "name": "Chora Sfakion Feribot Dönüşü",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 12,
+     "tips": "Libya Denizi feribotu; otobüsle Hania'ya 20:30'da varış."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Imbros Gorge",
+     "category": "nature",
+     "start": "07:00",
+     "end": "12:00",
+     "cost": 2,
+     "tips": "Kolay 8 km boğaz; Samaria kapalıysa/zorsa."
+    },
+    {
+     "name": "Taverna Tarra Agia Roumeli",
+     "category": "food",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 18,
+     "tips": "Plaj tavernası."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Elafonisi",
+   "stops": [
+    {
+     "name": "Elafonisi Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Kış pembe kumu boş; rüzgârlı yürüyüş."
+    },
+    {
+     "name": "Elafonisi Taverna Innachorion",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 18,
+     "tips": "Plaj arkası taverna; Girit salatası."
+    },
+    {
+     "name": "Chrysoskalitissa Monastery",
+     "category": "culture",
+     "start": "15:15",
+     "end": "15:45",
+     "cost": 2,
+     "tips": "Kaya üstü beyaz manastır; altın basamak efsanesi."
+    },
+    {
+     "name": "Topolia Gorge & Agia Sofia Mağarası",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Dönüş yolunda kanyon ve mağara kilisesi."
+    },
+    {
+     "name": "Chania Akşam Yemeği To Maridaki",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 25,
+     "tips": "Deniz ürünleri meze; Hania eski şehir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kedrodasos Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Elafonisi'nin yanında sedirli boş plaj; 20 dakika yürüyüş."
+    },
+    {
+     "name": "Milia Mountain Retreat Restoran",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Dağ köyünde organik; sapma."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Doğu: Spinalonga & Agios Nikolaos",
+   "stops": [
+    {
+     "name": "Plaka Spinalonga Teknesi",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:15",
+     "cost": 12,
+     "tips": "Heraklion'a dönüşte doğuya sap (araç/KTEL); Plaka'dan 5 dakika tekne (Elounda'dan 20 dakika)."
+    },
+    {
+     "name": "Spinalonga Island",
+     "category": "culture",
+     "start": "10:15",
+     "end": "12:15",
+     "cost": 8,
+     "tips": "Venedik kalesi ve 1903-57 cüzzam kolonisi (The Island romanı); yürüyüş 1 saat."
+    },
+    {
+     "name": "Elounda",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Lüks koy köyü; liman tavernasında ahtapot."
+    },
+    {
+     "name": "Agios Nikolaos Voulismeni Gölü",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Dipsiz göl efsanesi; kafeler ve liman."
+    },
+    {
+     "name": "Ammoudara Beach Heraklion",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Kış sahil yürüyüşü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kritsa & Panagia Kera",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 3,
+     "tips": "Dağ köyü ve Bizans freskleri; Agios Nikolaos yerine."
+    },
+    {
+     "name": "Ferryman Taverna Elounda",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "The Island setinde; kıyı."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Heraklion — hafif veda",
+   "stops": [
+    {
+     "name": "Heraklion Central Market 1866 Street",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Bal, zeytinyağı, raki (tsikoudia), otlar; hediyelik."
+    },
+    {
+     "name": "Nikos Kazantzakis Mezarı",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Zorba'nın yazarı; surlarda 'hiçbir şey ummuyorum' mezar taşı ve şehir manzarası."
+    },
+    {
+     "name": "Ippokampos Heraklion",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 20,
+     "tips": "Liman meyhanesi; kalamar ve meze, veda."
+    },
+    {
+     "name": "Heraklion Havalimanı Otobüsü",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 2,
+     "tips": "Otobüs 15 dakika veya taksi; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cretan Aquarium",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 10,
+     "tips": "Akdeniz akvaryumu; Gournes."
+    },
+    {
+     "name": "Phyllosophies Heraklion",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "Meydan kafesi; pasta."
+    }
+   ]
+  }
+ ]
+}

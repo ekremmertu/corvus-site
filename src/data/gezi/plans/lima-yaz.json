@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "lima-yaz",
+ "altSlug": "lima-summer",
+ "citySlug": "lima",
+ "destKey": "lima",
+ "city": "Lima",
+ "region": null,
+ "country": "Peru",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "PEN",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 1100,
+  "attractions": 600,
+  "transport": 450,
+  "misc": 200
+ },
+ "notes": [
+  "Uber/Cabify (sokak taksisinden güvenli); Metropolitano otobüsü hızlı; Airport Express Lima 25 PEN. Miraflores/Barranco/San Isidro'da kal.",
+  "Haziran-Eylül 'garúa': gri sis, 15-18°C, nem, güneş yok ama yağmur da yok; kat giy, Paracas güneşli olabilir.",
+  "Ceviche 40-70 PEN (sadece öğle, taze), menú del día 15, lüks 200+; bahşiş %10; kart yaygın, pazarda nakit. Musluk suyu içilmez.",
+  "Larco ve San Francisco tur/rehberli; Paracas 05:00 kalkış uzun gün (Cruz del Sur otobüsü rahat); Huaca Pucllana rehberli.",
+  "Güvenlik: Merkez gece boş, Callao Monumental dışına çıkma, telefon sokakta dikkat; Miraflores güvenli.",
+  "Pisco sour, chicha morada, lomo saltado, ají de gallina, anticuchos, picarones; lucuma dondurma."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Miraflores",
+   "stops": [
+    {
+     "name": "Huaca Pucllana",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 15,
+     "tips": "Şehir ortasında 1.500 yıllık kerpiç piramit; rehberli tur zorunlu, akşam ışıklı."
+    },
+    {
+     "name": "Parque Kennedy",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Miraflores'in kedili meydanı; picarones standı."
+    },
+    {
+     "name": "Malecón de Miraflores",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Uçurum üstü sahil yolu; Parque del Amor (El Beso), yamaç paraşütü (80 USD)."
+    },
+    {
+     "name": "La Mar Cebichería",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 70,
+     "tips": "Gastón Acurio'nun ceviche tapınağı; rezervasyonsuz 12:00'de kuyruk, sadece öğle, leche de tigre."
+    },
+    {
+     "name": "Malecón Gün Batımı Faro",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Kış sisi; kafe ve kitap."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Punto Azul Miraflores",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "Ucuz iyi ceviche; kuyruk."
+    },
+    {
+     "name": "Museo Amano",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "Chancay tekstilleri; Miraflores."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Tarihi Merkez",
+   "stops": [
+    {
+     "name": "Plaza de Armas Lima",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "UNESCO merkez; Hükümet Sarayı nöbet değişimi 12:00, Katedral (Pizarro'nun mezarı), Belediye."
+    },
+    {
+     "name": "Convento de San Francisco",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "Katakomplar 25.000 iskelet, Mağribi kütüphane; tur zorunlu, fotoğraf yasak."
+    },
+    {
+     "name": "Casa de Aliaga",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 30,
+     "tips": "1535'ten beri aynı ailenin konağı; Amerika'nın en eski özel evi, rezervasyon."
+    },
+    {
+     "name": "El Cordano",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 35,
+     "tips": "1905 saray yanı taverna; butifarra sandviç ve pisco sour, başkanların yeri."
+    },
+    {
+     "name": "Barrio Chino Calle Capón",
+     "category": "food",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 25,
+     "tips": "Chifa (Çin-Peru) mahallesi; Wa Lok."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo del Banco Central",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Altın ve seramik; ücretsiz, Aliaga yerine."
+    },
+    {
+     "name": "Chifa Wa Lok Barrio Chino",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 45,
+     "tips": "Lima'nın en ünlü chifası; arroz chaufa."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Larco & Barranco",
+   "stops": [
+    {
+     "name": "Museo Larco",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 40,
+     "tips": "Peru'nun en iyi müzesi; 5.000 yıllık altın, Moche seramiği, erotik galeri, begonvilli bahçe, depo açık."
+    },
+    {
+     "name": "Museo Larco Café",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 50,
+     "tips": "Bahçe restoranı; lomo saltado, güzel."
+    },
+    {
+     "name": "Barranco Puente de los Suspiros",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "İç Çekişler Köprüsü; Bajada de los Baños yolu okyanusa, sokak sanatı."
+    },
+    {
+     "name": "MATE Museo Mario Testino",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Moda fotoğrafçısının müzesi; Barranco konağı."
+    },
+    {
+     "name": "Ayahuasca Bar Barranco",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 50,
+     "tips": "Restore konakta pisco kokteyl barı; akşam."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Isolina Taberna Barranco",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 60,
+     "tips": "Criollo mutfağı dev porsiyon; rezervasyon."
+    },
+    {
+     "name": "Pedro de Osma Museum",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "Kolonyal sanat; Barranco konağı."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Paracas & Ballestas",
+   "stops": [
+    {
+     "name": "Paracas Ballestas Adaları Teknesi",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 60,
+     "tips": "Lima'dan 3,5 saat (tur 05:00 kalkış, ~200 PEN) veya Cruz del Sur otobüsü; 'fakir Galapagos': deniz aslanları, Humboldt penguenleri, Candelabro jeoglifi."
+    },
+    {
+     "name": "Paracas National Reserve",
+     "category": "nature",
+     "start": "10:30",
+     "end": "13:00",
+     "cost": 11,
+     "tips": "Çöl-okyanus buluşması; Playa Roja kırmızı plaj, Catedral kayası, flamingolar."
+    },
+    {
+     "name": "Paracas Lagunillas Balık Lokantası",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 50,
+     "tips": "Rezerv içi balıkçı koyu; ceviche ve chicharrón de pescado."
+    },
+    {
+     "name": "El Chaco Paracas Sahili",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Kasaba sahili; pisco sour, dönüş 4 saat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Huacachina Vahası Ica",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:30",
+     "cost": 30,
+     "tips": "Kum tepeleri ve buggy (Ica 1 saat); pisco bağı, Chaco yerine (gece dön)."
+    },
+    {
+     "name": "Chalana Paracas",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 60,
+     "tips": "Sahil restoran; deniz ürünleri."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Pachacamac & San Isidro",
+   "stops": [
+    {
+     "name": "Pachacamac",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "İnka öncesi hac merkezi (30 km güney); Güneş Tapınağı ve Akllawasi, yeni müze, sabah sissiz."
+    },
+    {
+     "name": "Huaca Huallamarca San Isidro",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 5,
+     "tips": "Restore edilmiş kerpiç piramit; mahalle içinde."
+    },
+    {
+     "name": "El Olivar San Isidro",
+     "category": "nature",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "1.500 yaşındaki zeytin korusu parkı; huzur."
+    },
+    {
+     "name": "Astrid y Gastón Casa Moreyra",
+     "category": "food",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 250,
+     "tips": "Peru'nun mutfak devriminin restoranı; öğle menüsü, rezervasyon (veya Panchita ucuz)."
+    },
+    {
+     "name": "Bosque El Olivar Kafe & Sanat",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Galeriler; San Isidro."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Panchita Miraflores",
+     "category": "food",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 60,
+     "tips": "Acurio'nun criollo lokantası; anticuchos (yürek şiş)."
+    },
+    {
+     "name": "Museo de la Nación",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Ulusal müze; Yuyanapaq sergisi."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Callao & Chorrillos",
+   "stops": [
+    {
+     "name": "Fortaleza del Real Felipe Callao",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 15,
+     "tips": "1747 İspanyol kalesi; tur, liman."
+    },
+    {
+     "name": "Callao Monumental",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Renkli duvar resimli eski liman mahallesi; galeriler (güvenli alan)."
+    },
+    {
+     "name": "La Rana Verde La Punta",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 55,
+     "tips": "Yat kulübü restoranı; deniz manzaralı ceviche."
+    },
+    {
+     "name": "Morro Solar Chorrillos",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Chorrillos tepesi haçı; Lima koyu panoraması, taksi."
+    },
+    {
+     "name": "Mercado de Surquillo",
+     "category": "food",
+     "start": "17:15",
+     "end": "18:00",
+     "cost": 15,
+     "tips": "Yerel pazar; meyve (lucuma, chirimoya) ve emoliente."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Circuito Mágico del Agua",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 4,
+     "tips": "13 çeşmeli ışık-müzik parkı; akşam, Guinness."
+    },
+    {
+     "name": "Sonia Chorrillos",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 45,
+     "tips": "Balıkçı ailenin cebicheria'sı."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Ceviche sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Mercado de Surquillo No.1 Kahvaltı",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 15,
+     "tips": "Pazar tezgahında meyve suyu ve tamal."
+    },
+    {
+     "name": "Parque del Amor Sabah",
+     "category": "nature",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Öpüşen çift heykeli; mozaik bank."
+    },
+    {
+     "name": "Al Toke Pez Surquillo",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 30,
+     "tips": "Tezgahta ceviche + chicharrón kombosu; 11:30 açılış, veda."
+    },
+    {
+     "name": "Havalimanı Express Bus",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Airport Express Lima Miraflores'ten 1 saat; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo de Sitio Pucllana Kafe",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 40,
+     "tips": "Piramit manzaralı restoran."
+    },
+    {
+     "name": "Indian Market Miraflores",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Alpaka ve el sanatı hediyelik; Petit Thouars."
+    }
+   ]
+  }
+ ]
+}

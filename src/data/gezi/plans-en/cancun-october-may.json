@@ -1,0 +1,461 @@
+{
+ "lang": "en",
+ "slug": "cancun-october-may",
+ "altSlug": "cancun-ekim-mayis",
+ "citySlug": "cancun",
+ "destKey": "cancun",
+ "city": "Cancún",
+ "region": null,
+ "country": "Mexico",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "MXN",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 6500,
+  "attractions": 7500,
+  "transport": 4000,
+  "misc": 1500
+ },
+ "notes": [
+  "The Hotel Zone R1/R2 bus costs 15 MXN. ADO buses run to Chichén, Tulum and Playa. A hire car gives you freedom for the cenotes (insurance is expensive).",
+  "December to April is dry and 28°C, but it is the busiest and priciest period (Christmas, March spring break). November and April are the sweet spot.",
+  "Reach Chichén Itzá and Tulum at the 08:00 opening; by midday it is 35°C and tour buses arrive. Non-biodegradable sunscreen is banned in the cenotes.",
+  "Hotel Zone restaurants are 3-5 times pricier; Mercado 28 and downtown (Parque de las Palapas) have local prices. Pay in pesos; the dollar rate is poor.",
+  "Tip 10-15%; say 'no gracias' to beach vendors. Drink bottled water.",
+  "Ferries: Isla Mujeres from Puerto Juárez (Hotel Zone piers are pricier), Cozumel from Playa, Holbox from Chiquilá."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Hotel Zone beaches",
+   "stops": [
+    {
+     "name": "Playa Delfines",
+     "category": "nature",
+     "start": "08:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Cancún's biggest free beach: no hotels, turquoise Caribbean water. Check for sargassum season (May to August)."
+    },
+    {
+     "name": "Cancún Sign Playa Delfines",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Colourful CANCUN letters, perfect for photos."
+    },
+    {
+     "name": "El Fish Fritanga",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "Local fish restaurant on the lagoon. Try the ceviche and tikin xic (grilled marinated fish); rare value for the Hotel Zone."
+    },
+    {
+     "name": "Museo Maya de Cancún",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 100,
+     "tips": "Maya museum with the San Miguelito ruins; an air-conditioned afternoon option."
+    },
+    {
+     "name": "Playa Chac Mool",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Central public beach for sunset and waves."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mercado 28 Los De Pescado",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 150,
+     "tips": "Fish tacos in the downtown market, a spot for locals."
+    },
+    {
+     "name": "Playa Tortugas",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Calm beach on the lagoon side, next to the ferry dock."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Isla Mujeres",
+   "stops": [
+    {
+     "name": "Ultramar Feribot Puerto Juárez",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:00",
+     "cost": 280,
+     "tips": "20-minute ferry (about 28 USD return). Rent a golf cart on the island (about 800 MXN)."
+    },
+    {
+     "name": "Playa Norte",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "One of the world's best beaches: shallow and calm, loungers 100-200 MXN."
+    },
+    {
+     "name": "Punta Sur Isla Mujeres",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 50,
+     "tips": "The island's southern tip, with the Ixchel temple ruin and a sculpture park. Mexico's first sunrise."
+    },
+    {
+     "name": "Mango Cafe Isla Mujeres",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 250,
+     "tips": "Caribbean breakfast and lunch; the coconut French toast is the island's famous dish."
+    },
+    {
+     "name": "MUSA Underwater Museum Snorkelling",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 600,
+     "tips": "500 underwater sculptures. Snorkelling tours leave from the pier; catch the 17:30 ferry back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Isla Mujeres Mercado Municipal",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 120,
+     "tips": "Cheap local food at the municipal market."
+    },
+    {
+     "name": "Garrafón Reef Park",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 1200,
+     "tips": "Zipline and snorkelling park, an alternative to MUSA."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Chichén Itzá and cenote",
+   "stops": [
+    {
+     "name": "Chichén Itzá",
+     "category": "culture",
+     "start": "08:00",
+     "end": "11:00",
+     "cost": 697,
+     "tips": "2.5 hours from Cancún (ADO bus or tour). See the Kukulkan pyramid and ball court; at the 08:00 opening it is cool and empty. Entry about 697 MXN."
+    },
+    {
+     "name": "Cenote Ik Kil",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "5 minutes from Chichén. An open cenote 26 m deep with hanging vines; life jacket compulsory."
+    },
+    {
+     "name": "Valladolid Casa Tía Micha",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 250,
+     "tips": "Yucatán cuisine in Valladolid: cochinita pibil (slow-roasted pork) and sopa de lima (lime soup)."
+    },
+    {
+     "name": "Valladolid Calzada de los Frailes",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Pastel-coloured colonial street leading to the Convent of San Bernardino."
+    },
+    {
+     "name": "Cenote Suytun",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:15",
+     "cost": 250,
+     "tips": "Cave cenote with a famous beam of light; best in afternoon light. The return trip takes 2 hours."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cenote Zací Valladolid",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:15",
+     "cost": 80,
+     "tips": "A cenote in the town itself, instead of Suytun."
+    },
+    {
+     "name": "El Mesón del Marqués Valladolid",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 350,
+     "tips": "Colonial restaurant on the main square."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Tulum",
+   "stops": [
+    {
+     "name": "Tulum Ruins",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 95,
+     "tips": "2 hours from Cancún. A Maya fortress by the sea, opening at 08:00; entry about 95 MXN plus a parking fee. Look out for iguanas."
+    },
+    {
+     "name": "Playa Ruinas Tulum",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The beach below the ruins, good for a short swim."
+    },
+    {
+     "name": "Gran Cenote",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 500,
+     "tips": "Cave cenote for snorkelling, with turtles and stalactites. The water is clearest in the morning."
+    },
+    {
+     "name": "Taquería Honorio Tulum",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "Tulum's legendary breakfast and lunch taco spot; cochinita and lechón (suckling pig), sold out by 14:00."
+    },
+    {
+     "name": "Tulum Beach Road",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Palm-lined coast road. Choose a beach club (Papaya Playa) or a public beach (Playa Paraíso)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cenote Dos Ojos",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 450,
+     "tips": "A cave system with two \"eyes\", instead of Gran Cenote."
+    },
+    {
+     "name": "Antojitos La Chiapaneca",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 100,
+     "tips": "Al pastor in Tulum town; an evening stop."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Xcaret",
+   "stops": [
+    {
+     "name": "Xcaret Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "13:00",
+     "cost": 2800,
+     "tips": "Underground rivers, a Maya village and an evening show (about 150 USD). 1 hour from Cancún; lunch is included in the Plus package."
+    },
+    {
+     "name": "Xcaret Buffet",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Buffet inside the park, included in the Plus package."
+    },
+    {
+     "name": "Xcaret México Espectacular",
+     "category": "culture",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "A show on Mexican history with 300 performers; included in the park ticket."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Playa del Carmen Quinta Avenida",
+     "category": "shopping",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Playa's pedestrian street."
+    },
+    {
+     "name": "El Fogón Playa del Carmen",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "Al pastor tacos in Playa, as an alternative to the park."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Holbox",
+   "stops": [
+    {
+     "name": "Chiquilá Ferry Holbox",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 250,
+     "tips": "2.5 hours from Cancún plus a 20-minute ferry. A car-free island."
+    },
+    {
+     "name": "Holbox Punta Cocos",
+     "category": "nature",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Shallow, warm lagoon with flamingos and hammock bars."
+    },
+    {
+     "name": "Holbox Roots Pizza",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 300,
+     "tips": "Lobster pizza on Holbox."
+    },
+    {
+     "name": "Holbox Punta Mosquito Sandbar",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A sandbar you can walk to at low tide. Come for sunset, or a whale shark tour from May to September."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Holbox Las Panchas",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "Local breakfast and lunch."
+    },
+    {
+     "name": "Isla Contoy Tour",
+     "category": "nature",
+     "start": "10:00",
+     "end": "17:30",
+     "cost": 2500,
+     "tips": "Bird island with snorkelling off Isla Mujeres, instead of Holbox or Cozumel."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Mercado 28: a light farewell",
+   "stops": [
+    {
+     "name": "Mercado 28",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Downtown crafts market: hammocks and silver, with 40% haggling room."
+    },
+    {
+     "name": "Cocina La Chaya Mercado 28",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 150,
+     "tips": "Yucatán home cooking: panuchos (stuffed fried tortillas) and chaya juice. A farewell meal."
+    },
+    {
+     "name": "Parque de las Palapas",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Downtown square with marquesitas (crispy crepes) stalls in the evening; quiet by day."
+    },
+    {
+     "name": "ADO Airport Bus",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "ADO from downtown to the airport takes 30 minutes; time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Taquería Los Charros Cancún",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 120,
+     "tips": "Tacos downtown, instead of the market."
+    },
+    {
+     "name": "Playa Langosta",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "One last swim in the Hotel Zone."
+    }
+   ]
+  }
+ ]
+}

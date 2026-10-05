@@ -1,0 +1,16 @@
+{
+ "source": "2164f73d54cd",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "Andifli Mahallesi'nde 2001'den beri ev yemeği yapan aile işletmesi. Karnıyarık, mantı ve hünkar beğendi dene; yeşil bahçede oturmayı iste. Kalabalıktan önce, öğlen 12:30 gibi git.",
+  "d2.s0.tips": "Kaş Balıkçı Barınağı'ndan kalkar; 5 yüzme molası ve öğle yemeği dahil. Kaleköy'de tekne demirlediğinde kaleye çıkan patikaya vakit ayır, giriş ~190 TL ayrı ödenir (Müzekart geçmez). Sabah erken bin, iskele kenarında gölgeli bir yer kapmaya çalış.",
+  "d3.s0.tips": "187 basamaklı merdivenle inilir; giriş kişi başı ~60 TL. Yer bulmak için erken git; yol kenarındaki ücretsiz park cepleri hızla doluyor.",
+  "d3.s2.tips": "Kaş limanından teknelerle birkaç dakika; birbirine komşu, sakin, dalgasız koylar. Sahildeki küçük tavernalarda taze köfte/balık ekmek yiyebilirsin, fiyat tekne+öğle yemeğini kapsar.",
+  "d5.s1.tips": "Pınarbaşı köyünde, Phellos'un yamacında 22 yıldır üretim yapan Sibel Düzel'in atölyesi. Instagram'dan önceden haber ver; yoksa kapıyı kapalı bulabilirsin.",
+  "d6.s1.tips": "Avrupa'nın en derin ikinci kanyonlarından; sırığa tutunarak ıslak geçiş var. Kiralık su ayakkabısı kullan; su buz gibi soğuk.",
+  "d6.s2.tips": "Gelemiş köyünde aile işletmesi gözlemeci; kanyon sonrası karnını doyurmak için ideal, otlu ve peynirli gözleme dene.",
+  "niche.why_hidden": "Antik Phellos kentinin hemen eteğinde, Pınarbaşı köyünde 22 yıldır tek başına üretim yapan seramik ustası Sibel Düzel'in atölyesi. Kaş'ın 'dalış ve tekne turu' imajının tamamen dışında kalan bir sanat cebi; hiçbir klasik gezi rehberinde geçmiyor.",
+  "niche.insider_tip": "Ziyaretten önce kendi ellerinle bir parça şekillendirmek istediğini söyle. Sibel Düzel atölyenin altındaki evin bahçesinde çay ikram eder, üretim sürecini anlatır; seçtiğin parçayı pişirip sana kargolar."
+ },
+ "warnings": []
+}

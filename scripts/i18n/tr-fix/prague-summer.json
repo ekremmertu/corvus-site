@@ -1,0 +1,22 @@
+{
+ "source": "a6323c11c6df",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "Týn Kilisesi, Jan Hus anıtı; Astronomik Saat 09:00-23:00 arası her saat başı (12 havari).",
+  "d2.s0.tips": "Dünyanın en büyük kalesi; St Vitus Katedrali (Mucha vitrayı), Eski Kraliyet Sarayı, Altın Sokak (Kafka'nın 22 numarası); 09:00 açılışta gir, yazın saatli bilet al, kapıda güvenlik var.",
+  "d2.s1.tips": "Nerudova Caddesi'nde işaretli evler; St Nicholas barok kilisesi (kubbe).",
+  "d2.s4.tips": "Füniküler (tramvay bileti), 63 m'lik mini Eyfel, 299 basamak; gün batımı.",
+  "d3.s0.tips": "Prag Kalesi'nin öncülü olan tepe kale; Slavín mezarlığı (Dvořák, Mucha), Rotunda, nehir manzarası, ücretsiz.",
+  "d3.s4.tips": "Žižkov'un eski pub'ı; 10'dan fazla tank bira ve domuz bacağı.",
+  "d4.b0.tips": "IV. Charles'ın gotik kalesi, tren 40 dakika; Kutná Hora yerine (pazartesi kapalı).",
+  "note0": "Lítačka 24 saat bilet 120 CZK (tramvay/metro/füniküler); merkez yürünür. Havalimanına AE otobüsü 100 CZK. Taksi yerine Bolt/Uber.",
+  "note2": "Bira 50-70 CZK (sudan ucuz), gulaş 200-250, svíčková 250; kruvasan-kahve 100. Bahşiş %10; 'kuver' bazen hesaba eklenir.",
+  "note3": "Döviz büfelerinde \"%0 komisyon\" tuzağı var (kötü kur). ATM'de kendi bankanın kurunu seç; EUR ile ödeme önerirse kur kötüdür. Her yerde kartla ödeyebilirsin.",
+  "note4": "Kale ana devresi 450 CZK; Josefov cumartesi kapalı; Sedlec Kemik Kilisesi için online bilet al, fotoğraf yasak; Krumlov otobüsü (RegioJet) için günler önce bilet al.",
+  "note5": "Trdelník Çek değil (Macar/Slovak) ama tatlı. Gerçek Çek yemekleri: svíčková, vepřo knedlo zelo, smažený sýr, koláče."
+ },
+ "warnings": [
+  "d1.s0.tips: sayı değişti → düzeltme atıldı",
+  "note1: sayı değişti → düzeltme atıldı"
+ ]
+}

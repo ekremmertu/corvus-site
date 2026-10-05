@@ -1,0 +1,18 @@
+{
+ "source": "712e993b5664",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "Týn Kilisesi, Jan Hus anıtı; Astronomik Saat 09:00-23:00 arasında her saat başı (12 havari).",
+  "d2.s1.tips": "Nerudova Caddesi'nde işaretli evler; St Nicholas Barok Kilisesi (kubbe).",
+  "d2.s4.tips": "Kışın gün batımı 16:30; kuleden ışıklı şehir.",
+  "d3.s0.tips": "Prag Kalesi'nin öncülü olan tepe kale; Slavín Mezarlığı (Dvořák, Mucha), Rotunda, nehir manzarası, ücretsiz.",
+  "d4.b0.tips": "IV. Charles'ın gotik kalesi, tren 40 dakika; Kutná Hora yerine (pazartesi kapalı).",
+  "note0": "Lítačka 24 saat bilet 120 CZK (tramvay/metro/füniküler); merkez yürünür. AE otobüsü havalimanına 100 CZK. Taksi yerine Bolt/Uber.",
+  "note1": "Aralık'ta Noel pazarları (Eski Şehir Meydanı, 1 Aralık-6 Ocak); kış -3 ila 3°C, kar; kale ve köprü boş, Kutná Hora huzurlu.",
+  "note3": "Döviz büfelerinde %0 komisyon tuzağı (kötü kur). ATM'de kendi bankanın kurunu seç; EUR ile ödeme önerirse kur kötüdür. Her yerde kartla ödenir.",
+  "note4": "Kale 450 CZK ana devre; Josefov cumartesi kapalı; Sedlec Kemik Kilisesi'nde bilet online, fotoğraf yasak; Krumlov otobüs biletini RegioJet'ten günler önce al."
+ },
+ "warnings": [
+  "d1.s0.tips: sayı değişti → düzeltme atıldı"
+ ]
+}

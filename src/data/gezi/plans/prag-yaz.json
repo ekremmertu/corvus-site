@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "prag-yaz",
+ "altSlug": "prague-summer",
+ "citySlug": "prag",
+ "destKey": "prague",
+ "city": "Prag",
+ "region": null,
+ "country": "Çekya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "CZK",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 8000,
+  "attractions": 5000,
+  "transport": 1500,
+  "misc": 1500
+ },
+ "notes": [
+  "Lítačka 24 saat bilet 120 CZK (tramvay/metro/füniküler); merkez yürünür. Havalimanına AE otobüsü 100 CZK. Taksi yerine Bolt/Uber.",
+  "Yaz 25-30°C; Charles Köprüsü 7:30 öncesi, kale saatli bilet, bira bahçeleri (Letná, Riegrovy), Krumlov rafting; Ağustos en kalabalık.",
+  "Bira 50-70 CZK (sudan ucuz), gulaş 200-250, svíčková 250; kruvasan-kahve 100. Bahşiş %10; 'kuver' bazen hesaba eklenir.",
+  "Döviz büfelerinde \"%0 komisyon\" tuzağı var (kötü kur). ATM'de kendi bankanın kurunu seç; EUR ile ödeme önerirse kur kötüdür. Her yerde kartla ödeyebilirsin.",
+  "Kale ana devresi 450 CZK; Josefov cumartesi kapalı; Sedlec Kemik Kilisesi için online bilet al, fotoğraf yasak; Krumlov otobüsü (RegioJet) için günler önce bilet al.",
+  "Trdelník Çek değil (Macar/Slovak) ama tatlı. Gerçek Çek yemekleri: svíčková, vepřo knedlo zelo, smažený sýr, koláče."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Eski Şehir & Charles Köprüsü",
+   "stops": [
+    {
+     "name": "Charles Bridge",
+     "category": "landmark",
+     "start": "07:30",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "14. yüzyıl köprüsü; 30 heykel, sabah 8 öncesi boş, Nepomuk heykeline dokun."
+    },
+    {
+     "name": "Old Town Square",
+     "category": "landmark",
+     "start": "08:45",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Týn Kilisesi, Jan Hus anıtı; Astronomik Saat 09:00-23:00 arası her saat başı (12 havari)."
+    },
+    {
+     "name": "Old Town Hall Tower",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 300,
+     "tips": "Asansörlü kule; meydan panoraması, sabah kuyruksuz."
+    },
+    {
+     "name": "Jewish Quarter Josefov",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:45",
+     "cost": 550,
+     "tips": "Eski-Yeni Sinagog, Eski Mezarlık (12.000 mezar taşı), Pinkas; cumartesi kapalı."
+    },
+    {
+     "name": "Lokál Dlouhá",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 250,
+     "tips": "Pilsner Urquell'in en iyi tankından bira; svíčková (kremalı et) ve gulaş, klasik lokanta."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sisters Bistro",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 150,
+     "tips": "Modern chlebíčky (açık sandviç); Dlouhá."
+    },
+    {
+     "name": "Klementinum",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:45",
+     "cost": 380,
+     "tips": "Barok kütüphane ve astronomi kulesi; Josefov yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Prag Kalesi & Malá Strana",
+   "stops": [
+    {
+     "name": "Prague Castle",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 450,
+     "tips": "Dünyanın en büyük kalesi; St Vitus Katedrali (Mucha vitrayı), Eski Kraliyet Sarayı, Altın Sokak (Kafka'nın 22 numarası); 09:00 açılışta gir, yazın saatli bilet al, kapıda güvenlik var."
+    },
+    {
+     "name": "Malá Strana Yürüyüşü",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Nerudova Caddesi'nde işaretli evler; St Nicholas barok kilisesi (kubbe)."
+    },
+    {
+     "name": "U Modré Kachničky",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 600,
+     "tips": "Mavi ördek; kaz ve ördek Bohemya klasiği, Malá Strana."
+    },
+    {
+     "name": "Kampa Island & Museum",
+     "category": "nature",
+     "start": "15:20",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Nehir adası parkı; David Černý'nin bebekleri, Kampa Müzesi (Kupka) 350 CZK."
+    },
+    {
+     "name": "Petřín Hill Funicular & Tower",
+     "category": "nature",
+     "start": "16:45",
+     "end": "18:00",
+     "cost": 250,
+     "tips": "Füniküler (tramvay bileti), 63 m'lik mini Eyfel, 299 basamak; gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Café Savoy",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 450,
+     "tips": "Tavanlı 1893 kafesi; Malá Strana."
+    },
+    {
+     "name": "Strahov Monastery Library",
+     "category": "culture",
+     "start": "16:45",
+     "end": "18:00",
+     "cost": 150,
+     "tips": "Barok kütüphane ve bira; Petřín yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Vyšehrad, Vinohrady & Žižkov",
+   "stops": [
+    {
+     "name": "Vyšehrad",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Prag Kalesi'nin öncülü olan tepe kale; Slavín mezarlığı (Dvořák, Mucha), Rotunda, nehir manzarası, ücretsiz."
+    },
+    {
+     "name": "Vinohradský Parlament",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 300,
+     "tips": "Vinohrady Çek lokantası; vepřo knedlo zelo (domuz-knedlík-lahana)."
+    },
+    {
+     "name": "Riegrovy Sady",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Park bira bahçesi ve kale manzarası; yazın gün batımı."
+    },
+    {
+     "name": "Žižkov Television Tower",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 300,
+     "tips": "Černý'nin tırmanan bebekleri; 93 m gözlem katı."
+    },
+    {
+     "name": "U Slovanské Lípy",
+     "category": "food",
+     "start": "17:15",
+     "end": "18:30",
+     "cost": 250,
+     "tips": "Žižkov'un eski pub'ı; 10'dan fazla tank bira ve domuz bacağı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kavárna Slavia",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 300,
+     "tips": "Nehir kenarı 1884 kafesi; Ulusal Tiyatro karşısı."
+    },
+    {
+     "name": "National Museum",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 300,
+     "tips": "Wenceslas Meydanı'nın başında; kubbe, Žižkov yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Kutná Hora",
+   "stops": [
+    {
+     "name": "Sedlec Ossuary",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 300,
+     "tips": "Tren 1 saat (Hlavní); 40.000 iskeletten avize ve arma (Kemik Kilisesi), online bilet, fotoğraf yasak."
+    },
+    {
+     "name": "St. Barbara's Cathedral",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 200,
+     "tips": "Gümüş madencilerinin gotik katedrali; UNESCO, Cizvit koleji terası."
+    },
+    {
+     "name": "Kutná Hora Tarihi Merkez",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Ortaçağ sokakları; Taş Çeşme, İtalyan Sarayı (darphane)."
+    },
+    {
+     "name": "Dačický Kutná Hora",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 350,
+     "tips": "Ortaçağ birahanesi; yerel bira ve ördek."
+    },
+    {
+     "name": "Czech Museum of Silver Hrádek",
+     "category": "culture",
+     "start": "14:45",
+     "end": "16:15",
+     "cost": 300,
+     "tips": "Ortaçağ gümüş madenine iniş (kask+önlük); tur, dönüş treni."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Karlštejn Castle",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 400,
+     "tips": "IV. Charles'ın gotik kalesi, tren 40 dakika; Kutná Hora yerine (pazartesi kapalı)."
+    },
+    {
+     "name": "Pivnice Dačický Bahçe",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 250,
+     "tips": "Aynı yerin bahçesi; sosis."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Holešovice, Letná & DOX",
+   "stops": [
+    {
+     "name": "Letná Park Metronome",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Stalin heykelinin yerindeki metronom; köprüler manzarası, bira bahçesi (yaz)."
+    },
+    {
+     "name": "National Technical Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 300,
+     "tips": "Uçaklar, trenler ve tarihi otomobiller; Letná."
+    },
+    {
+     "name": "Holešovice Market Hall",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 200,
+     "tips": "Pražská tržnice; Vietnam pho ve Çek büfeler."
+    },
+    {
+     "name": "DOX Centre for Contemporary Art",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 280,
+     "tips": "Çağdaş sanat ve çatıdaki zeplin; Holešovice."
+    },
+    {
+     "name": "Stromovka Park",
+     "category": "nature",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Kraliyet av parkı; göletler ve planetaryum."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Prague Zoo",
+     "category": "culture",
+     "start": "14:00",
+     "end": "17:00",
+     "cost": 330,
+     "tips": "Avrupa'nın en iyi hayvanat bahçelerinden (Troja); DOX+Stromovka yerine."
+    },
+    {
+     "name": "Bistro 8 Letná",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 250,
+     "tips": "Letná brunch."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Český Krumlov",
+   "stops": [
+    {
+     "name": "Český Krumlov Castle",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 320,
+     "tips": "RegioJet otobüs 3 saat (Florenc, ~200 CZK, 07:00 kalk); Vltava'nın kıvrımında UNESCO kasaba ve 2. büyük kale, kule 180 CZK, barok tiyatro turu."
+    },
+    {
+     "name": "Castle Garden Český Krumlov",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kaskadlı bahçe ve döner seyirci tiyatrosu."
+    },
+    {
+     "name": "Krčma v Šatlavské",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 350,
+     "tips": "Ortaçağ zindan tavernası; açık ateş et."
+    },
+    {
+     "name": "Český Krumlov Eski Şehir",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Latrán ve meydan; Egon Schiele Art Centrum (200 CZK)."
+    },
+    {
+     "name": "Vltava Rafting Krumlov",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 300,
+     "tips": "Kasaba içinden 1 saatlik lastik bot; bendler eğlenceli (Mayıs-Eylül)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Papa's Living Restaurant Krumlov",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 300,
+     "tips": "Nehir manzaralı teras."
+    },
+    {
+     "name": "Hluboká Castle",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 300,
+     "tips": "Windsor benzeri beyaz şato; Krumlov yolunda alternatif."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Wenceslas — hafif veda",
+   "stops": [
+    {
+     "name": "Wenceslas Square",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "1989 Kadife Devrim meydanı; Ulusal Müze başta, Lucerna pasajında ters at."
+    },
+    {
+     "name": "Havelské Tržiště",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Eski şehirde pazar; hediyelik ve meyve, Bohemya kristali için Moser."
+    },
+    {
+     "name": "Café Louvre",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 300,
+     "tips": "1902 kafesi (Kafka, Einstein); veda kahvaltısı ve bilardo."
+    },
+    {
+     "name": "Hlavní Nádraží Havalimanı Otobüsü",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 100,
+     "tips": "AE otobüsü 35 dakika veya metro+119; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trdelník Standı Old Town",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 100,
+     "tips": "Dondurmalı trdelník (turistik ama tatlı); veda."
+    },
+    {
+     "name": "Mucha Museum",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 300,
+     "tips": "Art nouveau afişler; pazar yerine."
+    }
+   ]
+  }
+ ]
+}

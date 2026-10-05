@@ -1,0 +1,539 @@
+{
+ "lang": "en",
+ "slug": "cappadocia-october-may",
+ "altSlug": "kapadokya-ekim-mayis",
+ "citySlug": "kapadokya",
+ "destKey": "kapadokya",
+ "city": "Cappadocia",
+ "region": "Nevşehir",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9800,
+  "attractions": 13000,
+  "transport": 2000,
+  "misc": 850
+ },
+ "notes": [
+  "Cash (TRY) is a must in village eateries, markets and small workshops, and many places have no card reader.",
+  "Travel between towns is by dolmuş or minibus, but services run less often in winter. For day tours, a private car or transfer is far more practical and saves time.",
+  "Service is generally not included in restaurant bills, and leaving a 5-10% tip is local custom.",
+  "Underground cities and cave churches are cool and damp, so dress in layers. You may need to stoop in narrow tunnels.",
+  "In January, balloon flights are often postponed or cancelled depending on the wind. Leave 1 day of flexibility in your schedule. Snowfall can temporarily close some village roads.",
+  "On valley walks (Ihlara, Red Valley, Pancarlık) the winter ground can be muddy or slippery, so waterproof shoes are recommended. Daylight ends around 17:15.",
+  "Handmade goods sold by village women (rag dolls, knitwear, jam) are open to bargaining. Ask permission before taking photos, a small but important courtesy."
+ ],
+ "niche": {
+  "name": "Cappadocia Home Cooking (Ayvalı Village Home Cooking Class)",
+  "level": "l3",
+  "why_hidden": "It is only 10 km from Ürgüp, but the half-cave village of Ayvalı lies completely off the bus-tour routes. No tourist on the Red or Green Tour stops here; only those who book ahead step into a local family's kitchen.",
+  "access_instructions": "Book at least 1 day ahead via GetYourGuide or cappadociahomecooking.com. You reach the village by private car (15 minutes from Ürgüp), and the host family greets you at the door. The class starts with picking vegetables in the garden.",
+  "local_contact": "cappadociahomecooking.com (online rezervasyon) veya GetYourGuide 'Cappadocia Home Cooking Class with Locals' sayfası",
+  "season": "Open year-round. In winter the class is held indoors in the home kitchen, so the weather doesn't affect it.",
+  "insider_tip": "If you want to knead the manti or gözleme dough yourself, say so from the start. The host family writes the recipe on paper and gives it to you as a gift.",
+  "show_reason": "Otobüs turlarının hiç uğramadığı gerçek bir Kapadokya köy evinde, yerel bir aileyle omuz omuza yemek pişirme deneyimi — hem gastronomi hem samimi insan teması sunuyor.",
+  "lat": 38.5825,
+  "lng": 34.9628,
+  "address": "Ayvalı Köyü, Ürgüp, Nevşehir",
+  "cost_range_min": 1700,
+  "cost_range_max": 2100,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Göreme highlights: balloon, museum, Uçhisar",
+   "stops": [
+    {
+     "name": "Cappadocia Sunrise Hot Air Balloon Tour",
+     "category": "nature",
+     "start": "05:45",
+     "end": "08:45",
+     "cost": 6800,
+     "tips": "You are picked up from your hotel early. Flights can be cancelled or postponed depending on the weather, so leave some flexibility in your schedule. A standard flight lasts 60-90 minutes, and there is a toast ceremony after landing.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cappadocia+hot+air+balloon+sunrise+flight",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Göreme Open Air Museum",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 700,
+     "tips": "The Dark Church has a separate ticket fee, and its frescoes are worth it. Groups are smaller early in the morning, while tour buses usually peak in the afternoon."
+    },
+    {
+     "name": "Göreme Women's Cooperative",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 550,
+     "tips": "Manti (Turkish dumplings) and stuffed vine leaves cooked by local women are on the set menu. It is on Kağnı Yolu Sokak, a 5-minute walk from the museum road, and is a genuine local eatery off the tourist route."
+    },
+    {
+     "name": "Uçhisar Castle",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 150,
+     "tips": "The highest point in Cappadocia, reached by narrow stairs to the top. In the afternoon light you get a 360° view of the whole region. It can be windy, so bring a jacket."
+    },
+    {
+     "name": "Sunset Point (Aktepe / Lovers Hill), Göreme",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:15",
+     "cost": 80,
+     "tips": "It is a 15-20 minute uphill walk from central Göreme. Set out early to grab a spot 45 minutes before sunset. There is a small cafe at the top, and you only pay for tea and coffee."
+    },
+    {
+     "name": "Seten Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1200,
+     "tips": "Stuffed squash blossoms and stuffed vine leaves prepared by Göreme women over an open fire are the highlights. They don't take reservations, so arriving at 19:00 and queuing is the safest bet."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Topdeck Cave Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1000,
+     "tips": "A small cave restaurant with just 10 tables, on Hafız Abdullah Efendi Sokak. The lamb and chicken wraps are recommended. In high season, call ahead to reserve a table."
+    },
+    {
+     "name": "Pigeon Valley",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A short valley walk between Göreme and Uçhisar, famous for its rock-carved dovecotes. It is free, and the entrance is a signposted path near Göreme bus station."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Ürgüp, Red Valley and sunset adventure",
+   "stops": [
+    {
+     "name": "Red Valley",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A short route between Ortahisar and Ürgüp. In winter the ground can be muddy, so waterproof shoes are a must. You see the red rocks at their most vivid in morning light."
+    },
+    {
+     "name": "Three Beauties Fairy Chimneys",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "A free photo stop on the Ürgüp-Nevşehir road. Three fairy chimneys stand side by side, ideal for a short break by car."
+    },
+    {
+     "name": "Nazar Börek & Cafe",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 550,
+     "tips": "Sigara böreği (cigar-shaped pastry rolls) and the various gözleme stand out, and try the lentil soup too. A local address in central Ürgüp, a little off the main tourist street."
+    },
+    {
+     "name": "Temenni Hill and Ürgüp Old Bazaar",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Ürgüp's highest hill. There are rock-carved monumental tombs, and entry is free. On the way down, take a short walk through the stone streets of the old bazaar."
+    },
+    {
+     "name": "Cappadocia Sunset ATV Tour",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 900,
+     "tips": "The tour is guided in Turkish. No driving licence is needed, but riding clothes are recommended. You watch the sunset over the valleys. In winter the wind can be harsh, so bring warm gloves."
+    },
+    {
+     "name": "Dimrit Cafe & Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 850,
+     "tips": "In Ürgüp's Yunak district, a venue with a panoramic terrace. Testi kebab (kebab cooked in a clay pot) and mushroom güveç (casserole) are the signature dishes. It sits a little off the main street, so it is quiet."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ziggy Cafe & Shoppe",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 750,
+     "tips": "The meze platter and paçanga böreği (pastırma and cheese pastry) are recommended, and the terrace overlooks the town. A family-run place using fresh local produce daily."
+    },
+    {
+     "name": "Esbelli Neighbourhood",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A historic neighbourhood northeast of Ürgüp with stone and rock-carved houses. A short walk along the narrow streets starting at Esbelli Mosque is enough."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Fairy chimneys, pottery and whirling dervishes",
+   "stops": [
+    {
+     "name": "Paşabağ (Monks Valley)",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Famous for its multi-headed fairy chimneys. Entry and parking are completely free. Go early in the morning before the tour buses and you may have it to yourself."
+    },
+    {
+     "name": "Devrent Valley (Imagination Valley)",
+     "category": "nature",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "A free open area where the rocks resemble animal shapes. Follow the roadside signs to find the camel-shaped rock."
+    },
+    {
+     "name": "Zelve Open Air Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 250,
+     "tips": "A real rock village where people lived until the 1950s, so you may need to stoop in the tunnels. The entrance is only 2 km from Paşabağ, and MüzeKart is accepted."
+    },
+    {
+     "name": "Öcalan Sofrası, Avanos",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 650,
+     "tips": "One of Avanos's local testi kebab addresses, set a little behind the touristy riverside restaurants. In the afternoon you can take a quick look at the pottery workshops along the Kızılırmak."
+    },
+    {
+     "name": "Saruhan Caravanserai Whirling Dervish Show",
+     "category": "culture",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 1000,
+     "tips": "A 45-minute authentic sema (whirling dervish ceremony) in a Seljuk caravanserai built in 1249, ending with a sherbet treat. The showtime is fixed, and you must book at least 1 day in advance.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cappadocia+whirling+dervish+ceremony",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Sur Balık Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 750,
+     "tips": "On the banks of the Kızılırmak, serving daily fresh carp and catfish. Try the fish köfte and mezes too, and ask for a table with a river view."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kıyı Cafe, Avanos",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "A simple breakfast and lunch spot on the Kızılırmak with a wide variety of gözleme. Locals drop in too, and it sits away from the tourist flow."
+    },
+    {
+     "name": "Çavuşin Old Village",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "An abandoned old rock village and the Church of Saint Ioannis, a free stop on the road to Zelve. Take care in the houses reached by narrow stairs."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Underground city and Greek Sinasos",
+   "stops": [
+    {
+     "name": "Kaymaklı Underground City",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 500,
+     "tips": "At 8 levels deep, it is the region's largest underground city, and you need to stoop in the narrow tunnels. If you are claustrophobic, its corridors are airier than those at Derinkuyu."
+    },
+    {
+     "name": "Old Greek House Restaurant, Mustafapaşa",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 900,
+     "tips": "In a stone Greek mansion built in 1876, hünkar beğendi (lamb on smoked aubergine purée) and red barbunya beans in olive oil are the standout dishes. It is 30 minutes by car from Kaymaklı, in the same direction."
+    },
+    {
+     "name": "Cappadocia Art & History Museum",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 150,
+     "tips": "In a 170-year-old mansion, Anatolian legends are told through 3,000 handmade dolls. It is a quiet museum most tours skip. Closed on Mondays, so check before you go."
+    },
+    {
+     "name": "Mustafapaşa (Sinasos) Village Walk",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Wander among the Konstantin-Eleni Church and the stone mansions, with free entry. Don't head back without seeing Maraşoğlu Bridge."
+    },
+    {
+     "name": "Gomeda Valley Short Walk",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A quiet valley right next to Mustafapaşa, known for its rock churches but with very few tourists. Finish the short trail before sunset."
+    },
+    {
+     "name": "Deve Hanı Cappadocia",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "A calm inn-style restaurant in stone architecture, in central Ürgüp. With its ocakbaşı grills and mezes, it is an easy choice for the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ürgüp Pide and Kebab Hall",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 550,
+     "tips": "A traditional pide and kebab hall frequented by locals and travellers alike. The minced-meat pide and Kayseri manti stand out."
+    },
+    {
+     "name": "Damsa Dam",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A calm reservoir surrounded by pine trees, on the Mustafapaşa-Taşkınpaşa road. A spot locals favour for a picnic break."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Ortahisar and Ayvalı home cooking",
+   "stops": [
+    {
+     "name": "Ortahisar Castle",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 100,
+     "tips": "An 80-metre rock fortress. Also see the surrounding caves once used as citrus storehouses. Its old stone streets have houses where locals still live."
+    },
+    {
+     "name": "Pancarlık Valley and Church",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "On the Ürgüp-Mustafapaşa road, a frescoed rock church that most guides skip. It is run by the municipality, so MüzeKart is not accepted. Carry cash for the ticket booth."
+    },
+    {
+     "name": "Cappadocia Home Cooking (Ayvalı Village Home Cooking Class)",
+     "category": "culture",
+     "start": "12:30",
+     "end": "15:30",
+     "cost": 1900,
+     "tips": "10 km from Ürgüp, a 3-hour cooking class in a family home in the half-cave village of Ayvalı. Picking vegetables in the garden is included, and you need to book online at least 1 day ahead.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cappadocia+home+cooking+class+with+locals",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Ayvalı Village Walk",
+     "category": "nature",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "A free-form village walk among cave houses and dovecotes. A genuinely quiet place that tour buses don't visit, and it is free to explore."
+    },
+    {
+     "name": "Muti Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 800,
+     "tips": "A calm Ürgüp address blending local flavours with world cuisine. An easy choice for the evening, and relaxing after a busy day."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Elai Restaurant, Uçhisar",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1200,
+     "tips": "A venue in Uçhisar with a panoramic terrace, working with seasonal local ingredients. It is 10 minutes by car from Ortahisar, and a reservation is recommended."
+    },
+    {
+     "name": "Stirrup Valley",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Near Ortahisar, a quiet valley that is less known than Red Valley. A short, easy trail, and free."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Ihlara Valley and Güzelyurt: a green day",
+   "stops": [
+    {
+     "name": "Ihlara Valley Hike",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 350,
+     "tips": "The drive from Ürgüp or Göreme takes about 1.5 hours, so leave early. Factor in the 397 steps down into the valley. The 6 km trail from Ihlara Village to Belisırma is the classic route."
+    },
+    {
+     "name": "Belisırma Village Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 650,
+     "tips": "Fresh trout is served on wooden platforms beside the Melendiz Stream. Some restaurant owners bring their car to the end point of the hike, so ask."
+    },
+    {
+     "name": "Selime Monastery (Selime Cathedral)",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Your Ihlara entry ticket is valid here too, so keep it. A multi-storey rock-carved monastery, with a superb valley view from the upper terrace."
+    },
+    {
+     "name": "Güzelyurt (Monastery Valley)",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 100,
+     "tips": "A former Greek village with underground passages and stone houses, far quieter than Ihlara. A short walk around the High Church (St. Gregory) is enough."
+    },
+    {
+     "name": "Babayan Evi Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1400,
+     "tips": "A venue in Ürgüp serving modern Anatolian cuisine, listed in the Michelin guide. It is on the way back, and a reservation is recommended."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Star Restorant, Aksaray",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "A classic Turkish restaurant towards Aksaray, a practical option on the way back from Ihlara. Mostly home-style dishes at fair prices."
+    },
+    {
+     "name": "Ihlara Valley Viewing Terrace (Ihlara Village entrance)",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "A free viewpoint where you see the whole canyon from above before descending into the valley. Ideal for photos once the morning mist clears."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Soğanlı Valley: rag dolls, easy day",
+   "stops": [
+    {
+     "name": "Soğanlı Valley Churches",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "It takes about 1-1.5 hours from Ürgüp, so leave early, and it is closed on Mondays. Don't miss the frescoes of Karabaş Church and Snake Church (Yılanlı Kilise). Entry is free."
+    },
+    {
+     "name": "Rag Doll Shopping with Soğanlı Village Women",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 250,
+     "tips": "Handmade dolls dressed in local costume by village women aged 60-65, sold only here. Polite bargaining is accepted."
+    },
+    {
+     "name": "Taşkınpaşa Complex",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A Seljuk-era mosque and madrasa complex on the road back from Soğanlı, with no ticket booth and almost no visitors. Ideal for a short break."
+    },
+    {
+     "name": "Şömine Restaurant, Ürgüp",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "A simple, filling lunch option in Ürgüp on the way back. It is the last stop of the day, and the programme winds down gently after this."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ürgüp Evi Restaurant",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "A calm restaurant inside a cave hotel, known for a menu of home-style dishes. Close to the return route, and an easy option."
+    },
+    {
+     "name": "Keşiş Valley, Cemil Village",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A small monastery valley near Taşkınpaşa that sees almost no tourists. A short walk takes you to its rock churches."
+    }
+   ]
+  }
+ ]
+}

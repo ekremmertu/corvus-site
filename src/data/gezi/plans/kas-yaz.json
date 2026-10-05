@@ -1,0 +1,473 @@
+{
+ "lang": "tr",
+ "slug": "kas-yaz",
+ "altSlug": "kas-summer",
+ "citySlug": "kas",
+ "destKey": "kas",
+ "city": "Kaş",
+ "region": "Antalya",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9900,
+  "attractions": 11511,
+  "transport": 2200,
+  "misc": 1000
+ },
+ "notes": [
+  "Kaş'ta esnaf lokantaları ve köy pazarlarında nakit (TL) hâlâ tercih edilir; küçük mekânlarda kart bazen çalışmaz, yanında nakit bulundur.",
+  "Şehir içi ve köyler arası ana ulaşım dolmuş (minibüs); seferler sık değil, akşam planını son dolmuşu kaçırmayacak şekilde yap.",
+  "Restoranlarda hesabın %5-10'u kadar bahşiş yaygın ama zorunlu değil; tekne turlarında kaptan ve mürettebata ayrıca küçük bahşiş beklenir.",
+  "Antik kent ve kale gezilerinde omuz/diz kapatan hafif bir şal işine yarar; Kaputaş gibi merdivenli plajlarda kaymaz ayakkabı şart.",
+  "Temmuz'da öğle sıcağı (12:00-16:00) çok yüksek olur; bu saatlerde gölge/deniz tercih et, güneş kremini sık yenile, bol su iç.",
+  "Özel tekne/kayıkçı pazarlıklarında (Mavi Mağara, Limanağzı) fiyatı binmeden önce netleştir; ücret kişi başı mı tekne başı mı sor.",
+  "Üzümlü, Pınarbaşı, Çukurbağ gibi köy ziyaretlerinde yerel halkın bahçesine girmeden ve fotoğraf çekmeden önce izin iste."
+ ],
+ "niche": {
+  "name": "Elden Ne Gelir Seramik Atölyesi",
+  "level": "l3",
+  "why_hidden": "Antik Phellos kentinin hemen eteğinde, Pınarbaşı köyünde 22 yıldır tek başına üretim yapan seramik ustası Sibel Düzel'in atölyesi. Kaş'ın 'dalış ve tekne turu' imajının tamamen dışında kalan bir sanat cebi; hiçbir klasik gezi rehberinde geçmiyor.",
+  "access_instructions": "Kaş merkezden Çukurbağ köyü üzerinden Pınarbaşı'na özel araçla ~20 dakika; son 500 metre tabelasız orman yolu. Önceden haber vermeden gidersen sahibini evde bulamayabilirsin, atölye kapısı genelde kapalı durur.",
+  "local_contact": "Instagram @eldennegelir (DM ile en az 1 gün önceden randevu iste)",
+  "season": "Nisan-Ekim (kış aylarında köy yolu ve atölye zaman zaman kapanabiliyor)",
+  "insider_tip": "Ziyaretten önce kendi ellerinle bir parça şekillendirmek istediğini söyle. Sibel Düzel atölyenin altındaki evin bahçesinde çay ikram eder, üretim sürecini anlatır; seçtiğin parçayı pişirip sana kargolar.",
+  "show_reason": "Kaş'ın turistik tekne-plaj rutininin tam zıttı: antik bir kentin içinde, tek bir ustanın elinden çıkan sanat üretimini görme şansı; hem tarihi hem yaratıcı katman bir arada.",
+  "lat": 36.2464,
+  "lng": 29.6797,
+  "address": "Pınarbaşı Mahallesi, Phellos Antik Kenti yamacı, Kaş, Antalya",
+  "cost_range_min": 500,
+  "cost_range_max": 1500,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Kaş'ın İmza Günü: Antik Liman ve Turkuaz Çakıl",
+   "stops": [
+    {
+     "name": "Antiphellos Antik Tiyatrosu",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Anadolu'nun denize sıfır tek antik tiyatrosu; giriş serbest ve ücretsiz. Çıkışta Uzun Çarşı'nın hemen üstündeki dev Likya kaya mezarına da uğra, sabah 9:30 gibi git ki tur otobüsleri gelmeden sakin gezersin."
+    },
+    {
+     "name": "Bi'Lokma Bahçe",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 700,
+     "tips": "Andifli Mahallesi'nde 2001'den beri ev yemeği yapan aile işletmesi. Karnıyarık, mantı ve hünkar beğendi dene; yeşil bahçede oturmayı iste. Kalabalıktan önce, öğlen 12:30 gibi git."
+    },
+    {
+     "name": "Büyükçakıl Plajı",
+     "category": "nature",
+     "start": "14:15",
+     "end": "16:30",
+     "cost": 300,
+     "tips": "Kaş'ın simge çakıl plajı, şehir merkezinden yürünür. Kendi havlunu getirirsen şezlong ücreti ödemezsin, belediye şezlongu ~150 TL'ye çıkıyor."
+    },
+    {
+     "name": "Uzun Çarşı",
+     "category": "shopping",
+     "start": "17:00",
+     "end": "18:15",
+     "cost": 150,
+     "tips": "El yapımı sandalet, gümüş takı ve butik dükkânlar; pazarlık payı var. Akşamüstü ışığı fotoğraf için en iyi zaman."
+    },
+    {
+     "name": "Smileys Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1600,
+     "tips": "Kaş Yat Limanı içinde, kendi olta balıkçılığı yapıyorlar. Günün balığını sor, marina manzaralı masa iste; rezervasyon önerilir."
+    },
+    {
+     "name": "Meis (Kastellorizo) Adası Manzara Noktası",
+     "category": "landmark",
+     "start": "21:15",
+     "end": "22:00",
+     "cost": 0,
+     "tips": "Kaş merkezden yürünen sahil şeridi; gece ışıkları yanan Yunan adasını karşıdan seyret. Tamamen ücretsiz, romantik kapanış."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Taşbahçe",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 650,
+     "tips": "Şekersiz marmelat, acuka ve bol zeytinli serpme kahvaltı/öğle sofrası; Bi'Lokma dolu çıkarsa buraya geç."
+    },
+    {
+     "name": "Küçük Çakıl Plajı",
+     "category": "nature",
+     "start": "14:15",
+     "end": "16:30",
+     "cost": 250,
+     "tips": "Büyükçakıl kalabalıksa şehir merkezine daha yakın bu küçük koya geç; su sakin, aileler için de uygun."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Kekova Mavi Turu: Batık Şehir, Gökkaya ve Simena",
+   "stops": [
+    {
+     "name": "Kekova Mavi Turu (Batık Şehir, Gökkaya Koyu, Kaleköy Kalesi)",
+     "category": "culture",
+     "start": "09:00",
+     "end": "16:30",
+     "cost": 4578,
+     "tips": "Kaş Balıkçı Barınağı'ndan kalkar; 5 yüzme molası ve öğle yemeği dahil. Kaleköy'de tekne demirlediğinde kaleye çıkan patikaya vakit ayır, giriş ~190 TL ayrı ödenir (Müzekart geçmez). Sabah erken bin, iskele kenarında gölgeli bir yer kapmaya çalış.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Kekova+Sunken+City+Boat+Trip",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Kaş Yat Limanı Akşam Yürüyüşü",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Tur dönüşü yorgun ayaklarına iyi gelir; tekneler demirlemiş halde ışıklandırılır, dondurmacılar açık."
+    },
+    {
+     "name": "Deniz'in Sesi Balıkçısı",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1500,
+     "tips": "Deniz kenarında taze balık ve yöresel mezeler; midye dolma ve günün balığını dene, sahil masası iste."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ehlikeyf Meyhane",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1400,
+     "tips": "Akşam eğlencesi ve mezeleriyle bilinir; Deniz'in Sesi doluysa buraya geç, rakı-balık sofrası kurulur."
+    },
+    {
+     "name": "Üçağız Köyü",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Kekova bölgesinin sakin balıkçı köyü; tur teknesi buraya da uğrayabilir, ahşap iskelede oturup çay içmek için iyi bir mola noktası."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Turkuaz Koylar: Kaputaş'tan Limanağzı'na",
+   "stops": [
+    {
+     "name": "Kaputaş Plajı",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 300,
+     "tips": "187 basamaklı merdivenle inilir; giriş kişi başı ~60 TL. Yer bulmak için erken git; yol kenarındaki ücretsiz park cepleri hızla doluyor."
+    },
+    {
+     "name": "Mavi Mağara Tekne Turu",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 400,
+     "tips": "Kaş limanından kayıkçıyla pazarlıkla kiralanan küçük tekne; mağaraya sadece deniz yoluyla girilir, 15-20 dakika sürer. Işık oyunları için öğle saatleri en iyisi."
+    },
+    {
+     "name": "Limanağzı Koyu",
+     "category": "nature",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 800,
+     "tips": "Kaş limanından teknelerle birkaç dakika; birbirine komşu, sakin, dalgasız koylar. Sahildeki küçük tavernalarda taze köfte/balık ekmek yiyebilirsin, fiyat tekne+öğle yemeğini kapsar."
+    },
+    {
+     "name": "Türkmen Sofrası",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 450,
+     "tips": "Cami'den otogara giden ana caddede Nedim ve ailesinin işlettiği esnaf lokantası; günün ev yemeğini sor, uygun fiyatlı ve doyurucu."
+    },
+    {
+     "name": "Panorama Seyir Tepesi",
+     "category": "landmark",
+     "start": "21:15",
+     "end": "22:00",
+     "cost": 0,
+     "tips": "Kaş'ın en bilinen gün batımı noktası; gündüz Meis Adası'na, gece ışıklarına bakılır. Kalabalık olabilir ama manzara buna değer."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Helios Meyhane",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 500,
+     "tips": "Kaş kahvaltısı ve meze-balık bir arada; Türkmen Sofrası kapalıysa akşam için iyi alternatif."
+    },
+    {
+     "name": "Akvaryum Koyu",
+     "category": "nature",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 700,
+     "tips": "Limanağzı'na erişim zorsa aynı bölgedeki bu berrak koya geç; kayıkla ulaşılır, dip görüşü çok net."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Kaş'ın Sualtı Dünyası ve Çukurbağ Yarımadası",
+   "stops": [
+    {
+     "name": "Kaş: Tüplü Dalış Deneyimi",
+     "category": "nature",
+     "start": "09:00",
+     "end": "13:00",
+     "cost": 2633,
+     "tips": "Türkiye'nin dalış başkenti sayılan Kaş'ta eğitmenli deneme dalışı; ekipman, tekne ve sigorta dahil. Brövesi olmayanlar için ~5 metre derinlikte 20-25 dakikalık sualtı gezisi yapılır.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Kas+Scuba+Diving+Experience",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Maşuk Meyhane",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 700,
+     "tips": "Liman Sokak'ta süt balık ve mercimek piyazıyla tanınır; dalıştan sonra hafif ve doyurucu bir öğle için ideal, öğlen fiyatları akşama göre daha uygun."
+    },
+    {
+     "name": "Çukurbağ Yarımadası",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Butik pansiyonların arasından geçen sahil yolu; turist akınının dışında sakin koylar. Yürüyerek keşfet, girişi tamamen ücretsiz."
+    },
+    {
+     "name": "Demeti Meyhane",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1300,
+     "tips": "Limon ağaçlarıyla çevrili bahçesiyle yaz akşamları için ideal; mezeler zengin, rezervasyon önerilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hideaway",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 650,
+     "tips": "Minderli masalarda serpme kahvaltı/hafif öğle sunar; Maşuk doluysa buraya geç."
+    },
+    {
+     "name": "Gökkaya Koyu",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 300,
+     "tips": "Kayıkçılardan kısa tekne turuyla ulaşılır; korsan mağarasında yüzülebilir, Çukurbağ'a alternatif sakin bir koy."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Antik Phellos ve Dağ Köyünde Sanat",
+   "stops": [
+    {
+     "name": "Phellos Antik Kenti Yürüyüşü",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Çukurbağ köyü üzerinden orman yolunda ~30 dakikalık tırmanış; sağlam ayakkabı ve bol su şart, kalabalık neredeyse hiç yok."
+    },
+    {
+     "name": "Elden Ne Gelir Seramik Atölyesi",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 1000,
+     "tips": "Pınarbaşı köyünde, Phellos'un yamacında 22 yıldır üretim yapan Sibel Düzel'in atölyesi. Instagram'dan önceden haber ver; yoksa kapıyı kapalı bulabilirsin."
+    },
+    {
+     "name": "Kaş Köy Sofrası",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "Sarıbelen yolu üzerinde doğayla iç içe; köy peyniri, zeytin, reçel ve taze gözlemeyle dolu serpme sofra."
+    },
+    {
+     "name": "Voyn Meyhane",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "Andifli Mahallesi'nde deniz ürünleri ve kahvaltı tabakları bir arada; Antep fıstıklı enginar ve rom karidesini dene."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Çınarlar Kahvaltı Evi",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 550,
+     "tips": "Geniş bahçesiyle sakin bir öğle molası; Köy Sofrası uzak gelirse şehir merkezine yakın bu alternatife geç."
+    },
+    {
+     "name": "Kaş Kral Mezarı (Likya Kaya Mezarı)",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Atölye randevusu tutmazsa, Uzun Çarşı üstündeki dev Likya lahdini detaylı incelemek için zaman ayır; tamamen ücretsiz ve merkezi."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Patara Vadisi: Xanthos, Saklıkent ve Patara Plajı",
+   "stops": [
+    {
+     "name": "Xanthos Antik Kenti",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 300,
+     "tips": "UNESCO listesindeki Likya başkenti; Kaş'tan dolmuş/araçla ~1 saat. Girişi ayrı biletli, erken saatte gölge daha bol."
+    },
+    {
+     "name": "Saklıkent Kanyonu",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 150,
+     "tips": "Avrupa'nın en derin ikinci kanyonlarından; sırığa tutunarak ıslak geçiş var. Kiralık su ayakkabısı kullan; su buz gibi soğuk."
+    },
+    {
+     "name": "Ayşe Pancake House",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "Gelemiş köyünde aile işletmesi gözlemeci; kanyon sonrası karnını doyurmak için ideal, otlu ve peynirli gözleme dene."
+    },
+    {
+     "name": "Patara Plajı & Patara Antik Kenti",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:30",
+     "cost": 700,
+     "tips": "Türkiye'nin en uzun kumsalı (18 km) antik kent kalıntılarıyla iç içe; giriş ücreti (~15€) hem ören yerini hem plajı kapsar. Gölgelik azdır, şapka ve şemsiye götür."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Inn Patara",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 450,
+     "tips": "Gelemiş'te küçük ama lezzetli bir kafe; Ayşe Pancake House doluysa kahvaltılık/hafif öğle için buraya geç."
+    },
+    {
+     "name": "Letoon Antik Kenti",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 250,
+     "tips": "Xanthos'a çok yakın, UNESCO listesindeki kutsal alan; Xanthos kalabalıksa veya kapalıysa buraya geç, daha sakin gezilir."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Kalkan ve Üzümlü Köyü: Veda Turu",
+   "stops": [
+    {
+     "name": "Üzümlü Köyü Gözlemecileri",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 550,
+     "tips": "Kalkan'ın tepesindeki bağ köyü; anne eli değmiş gibi ince açılan sac gözlemeleri ve ev yapımı reçelleriyle ünlü. Köy meydanındaki kahveden sorunca seni yönlendirirler, tabela yok."
+    },
+    {
+     "name": "Kalkan Eski Çarşı",
+     "category": "shopping",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 200,
+     "tips": "Arnavut kaldırımlı, begonvilli sokaklar; butik dükkânlarda pazarlık payı var, öğlen sıcağında gölgeli sokaklar tercih edilir."
+    },
+    {
+     "name": "Kalkan Halk Plajı",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Mavi bayraklı belediye plajı, girişi tamamen ücretsiz; küçük çakıl taşları var, su ayakkabısı işine yarar."
+    },
+    {
+     "name": "Salonika 1881 Restaurant",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 800,
+     "tips": "Taş sokaklar arasında, ev yapımı burger ve mezeleriyle bilinir; veda öğle yemeği için ideal, erken saatte sakin oluyor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Del-Mar",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 700,
+     "tips": "Kalkan merkezde öğle yemeği için pratik bir seçenek; Salonika 1881 doluysa buraya geç."
+    },
+    {
+     "name": "Kalamar Koyu",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "Kalkan Halk Plajı kalabalıksa, deniz bisikleti ve kano imkânı olan bu koya geç; giriş ücreti aktivitelere dahil."
+    }
+   ]
+  }
+ ]
+}

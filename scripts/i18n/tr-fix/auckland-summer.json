@@ -1,0 +1,16 @@
+{
+ "source": "dd0ff0318017",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "328 m ile Güney Yarımküre'nin en yüksek kulesi; cam zemin, SkyWalk/SkyJump ekstra, online bilet.",
+  "d1.s2.tips": "Viktorya Parkı; çiçek saati.",
+  "d1.b1.tips": "Polinezya kanolarından yatlara; tekneyle liman turu.",
+  "d2.b1.tips": "Orman ve deniz manzaralı zipline; şarap yerine.",
+  "d3.s3.tips": "Kısa tırmanış; şehir silüeti ve karşıda Rangitoto, kışla topları.",
+  "note1": "DİKKAT: Haziran-Eylül arası Yeni Zelanda'da kış (10-15°C, yağmur, kısa gün); yürüyüşler çamurlu, Waiheke sakin. Matariki (Maori yeni yılı) Haziran-Temmuz'da tatildir.",
+  "note2": "NZeTA + IVL turizm vergisi online; Türk vatandaşları için vize gerekir (kontrol et). Kahve 5-6 NZD, kafe yemeği 25, tur 250; bahşiş yok.",
+  "note4": "Maori kültürünü müzedeki haka gösterisinde gör; 'kia ora' selamdır. Fish and chips ve flat white, hokey pokey dondurma.",
+  "transit.why_chosen": "Otobüs, tren ve feribot; Devonport/Waiheke feribotları hariç. Temassız banka kartı da geçer."
+ },
+ "warnings": []
+}

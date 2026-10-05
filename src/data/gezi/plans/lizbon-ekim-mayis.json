@@ -1,0 +1,492 @@
+{
+ "lang": "tr",
+ "slug": "lizbon-ekim-mayis",
+ "altSlug": "lisbon-october-may",
+ "citySlug": "lizbon",
+ "destKey": "lisbon",
+ "city": "Lizbon",
+ "region": null,
+ "country": "Portekiz",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 360,
+  "attractions": 170,
+  "transport": 70,
+  "misc": 70
+ },
+ "notes": [
+  "Viva Viagem 24 saat 7 EUR (metro, tramvay, asansörler dahil; Sintra/Cascais treni dahil değil, ayrı 2,45). Havalimanı metro. Tepeler dik; Bolt ucuz.",
+  "Kış 10-15°C; yağmurlu ama güneşli günler de var. Nisan-Mayıs ideal; pastel ve fado yıl boyu; kışın Cascais sakin.",
+  "Pastel de nata 1,40, bica 1, bifana 4, restoran 15-25; kuver (ekmek/zeytin) istemezsen geri gönder. Bahşiş yuvarlama.",
+  "Sintra Pena saatli bilet ZORUNLU (online, sabah 09:30); Jerónimos online; pazartesi çoğu müze kapalı.",
+  "Tramvay 28 yankesici; Bairro Alto gece 'uyuşturucu' satıcıları sahte, görmezden gel.",
+  "Bacalhau (morina) 365 tarif, sardalya (Haziran-Ağustos), ginjinha (vişne likörü) 1,50 EUR Rossio."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Viva Viagem / Navegante",
+  "why_chosen": "Metro, tramvay, otobüs, asansör ve Sintra/Cascais treninde 24 saat 7 EUR",
+  "coverage": "Carris, Metro, CP banliyö, feribot",
+  "where_to_buy": "Metro istasyonu otomatı; kart 0,50 EUR",
+  "cost": 7,
+  "currency_code": "EUR"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Alfama & Kale",
+   "stops": [
+    {
+     "name": "Miradouro de Santa Luzia",
+     "category": "nature",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Azulejo kaplı teras; Tejo ve Alfama çatıları, sabah ışığı."
+    },
+    {
+     "name": "Castelo de São Jorge",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Mağribi kale; tavus kuşları ve 360° şehir, online bilet kuyruksuz; sonra Alfama sokaklarından in."
+    },
+    {
+     "name": "Tasca do Chico Alfama",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Sardalya ve bifana; akşam fado (rezervasyonsuz, 20:00)."
+    },
+    {
+     "name": "Tram 28 Martim Moniz",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 3,
+     "tips": "Sarı tramvay Graça'dan Estrela'ya; 24 saat kartla, yankesiciye dikkat, Martim Moniz'den bin."
+    },
+    {
+     "name": "Miradouro da Graça",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Kale ve köprü manzarası; gün batımı kiosk birası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "A Baiuca Alfama",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 35,
+     "tips": "Amatör fado (vadio) tavernası; menü zorunlu."
+    },
+    {
+     "name": "Panteão Nacional",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 5,
+     "tips": "Beyaz kubbeli panteon; teras. Alfama yerine. Salı günü Feira da Ladra pazarı."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Belém",
+   "stops": [
+    {
+     "name": "Mosteiro dos Jerónimos",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 18,
+     "tips": "Manuel üslubunun şaheseri manastır; Vasco da Gama mezarı, saatli online bilet (kuyruk 1 saat), pazartesi kapalı."
+    },
+    {
+     "name": "Pastéis de Belém",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 4,
+     "tips": "1837 fırını; sıcak pastel de nata tarçınla, içerideki çinili salonlar kuyruksuz."
+    },
+    {
+     "name": "Torre de Belém",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 8,
+     "tips": "UNESCO mirası nehir kalesi; yolda Keşifler Anıtı, dıştan yeter (iç kuyruk 1 saat)."
+    },
+    {
+     "name": "MAAT Museum",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 11,
+     "tips": "Nehir kıyısı dalgalı müze; çatıda yürü, karşıda LX Factory."
+    },
+    {
+     "name": "LX Factory",
+     "category": "shopping",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Fabrika kompleksi; Ler Devagar kitabevi, tasarım dükkânları, pazar günü pazar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rio Maravilha LX Factory",
+     "category": "food",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 30,
+     "tips": "Çatı bar; köprü manzarası."
+    },
+    {
+     "name": "Museu Nacional dos Coches",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 8,
+     "tips": "Kraliyet arabaları; MAAT yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Sintra",
+   "stops": [
+    {
+     "name": "Palácio da Pena",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 20,
+     "tips": "Rossio'dan tren 40 dakika (2,45 EUR) + otobüs 434; renkli, romantik saray. Saatli online bilet ZORUNLU, ilk seans 09:30. Teras ücretsiz, sis olabilir."
+    },
+    {
+     "name": "Castelo dos Mouros",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 12,
+     "tips": "Mağribi surları; Pena manzarası, yürüyerek 10 dakika."
+    },
+    {
+     "name": "Sintra Tarihi Merkez",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 15,
+     "tips": "Piriquita'da travesseiro ve queijada; kasaba meydanı."
+    },
+    {
+     "name": "Quinta da Regaleira",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 15,
+     "tips": "Masonik bahçe; spiral Başlangıç Kuyusu, tüneller, gün sonu boş."
+    },
+    {
+     "name": "Sintra Tren İstasyonu Dönüş",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "17:30",
+     "cost": 3,
+     "tips": "Rossio'ya tren; Cabo da Roca için 403 otobüsü (yazın gün batımı)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Palácio Nacional de Sintra",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 13,
+     "tips": "İkiz bacalı kraliyet sarayı; Regaleira yerine (kasabada)."
+    },
+    {
+     "name": "Tascantiga Sintra",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Portekiz tapas; kasaba."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Baixa, Chiado & Bairro Alto",
+   "stops": [
+    {
+     "name": "Praça do Comércio",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Nehre açılan meydan; Rua Augusta kemeri terası (4 EUR)."
+    },
+    {
+     "name": "Convento do Carmo",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 7,
+     "tips": "1755 depreminde çatısı çökmüş gotik kilise; açık hava nefi."
+    },
+    {
+     "name": "A Brasileira Chiado",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 6,
+     "tips": "Pessoa'nın kafesi; bica (espresso) ve heykelle fotoğraf."
+    },
+    {
+     "name": "Time Out Market Lisboa",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Cais do Sodré'de şef tezgahları; Manteigaria pastel de nata."
+    },
+    {
+     "name": "Bairro Alto & Miradouro de São Pedro de Alcântara",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Bohem mahalle akşamı; teras manzarası, Pink Street barları."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cervejaria Ramiro",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 40,
+     "tips": "Efsane deniz ürünleri birahanesi; karides ve bifana finali, kuyruk."
+    },
+    {
+     "name": "Museu Nacional de Arte Antiga",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 10,
+     "tips": "Bosch'un Aziz Antonius'u; Time Out yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Cascais & Cabo da Roca",
+   "stops": [
+    {
+     "name": "Cascais Praia da Rainha",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Kış sahil yürüyüşü; kasaba."
+    },
+    {
+     "name": "Boca do Inferno",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Cehennem Ağzı kayalıkları; dalga."
+    },
+    {
+     "name": "Marisco na Praça Cascais",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 35,
+     "tips": "Pazar içinde deniz ürünleri; ağırlıkla."
+    },
+    {
+     "name": "Cabo da Roca",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Avrupa'nın en batı ucu; 403 otobüsü 30 dakika, fener ve uçurumlar, rüzgâr."
+    },
+    {
+     "name": "Praia do Guincho",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Kış dalgaları; sahil yürüyüşü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Estoril Casino & Tamariz",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Estoril plajı ve Avrupa'nın en büyük kumarhanesi; Cabo yerine."
+    },
+    {
+     "name": "Santini Cascais",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 6,
+     "tips": "1949 dondurmacı."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Parque das Nações & azulejo",
+   "stops": [
+    {
+     "name": "Museu Nacional do Azulejo",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 8,
+     "tips": "Çini müzesi; 1738 Lizbon panoraması, manastır kilisesi."
+    },
+    {
+     "name": "Oceanário de Lisboa",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Avrupa'nın en büyük akvaryumu; Expo 98 alanı."
+    },
+    {
+     "name": "Parque das Nações Nehir Kıyısı",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "Vasco da Gama köprüsü (17 km) ve teleferik."
+    },
+    {
+     "name": "Vasco da Gama Alışveriş Merkezi Yemek Katı",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "Hızlı öğle; nehir manzaralı."
+    },
+    {
+     "name": "Mouraria & Martim Moniz",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Fado'nun doğduğu göçmen mahallesi; Severa evi, sokak sanatı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zé da Mouraria",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "Mouraria'da bacalhau (morina) dev porsiyon; öğle."
+    },
+    {
+     "name": "Museu Calouste Gulbenkian",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:30",
+     "cost": 10,
+     "tips": "Lalique ve doğu sanatı, bahçe; akvaryum yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Cacilhas — hafif veda",
+   "stops": [
+    {
+     "name": "Cais do Sodré Feribot Cacilhas",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "09:45",
+     "cost": 2,
+     "tips": "10 dakikalık feribot; Tejo'nun karşısı."
+    },
+    {
+     "name": "Cristo Rei",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 8,
+     "tips": "Rio'daki İsa'nın kardeşi; asansörle 80 m, Lizbon panoraması, otobüs 101."
+    },
+    {
+     "name": "Ponto Final Cacilhas",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Nehir kıyısında sarı masalar; Lizbon manzaralı veda öğle yemeği, rezervasyon."
+    },
+    {
+     "name": "Aeroporto Metro",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "14:15",
+     "cost": 2,
+     "tips": "Metro kırmızı hat 25 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Atira-te ao Rio Cacilhas",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 25,
+     "tips": "Komşu nehir restoranı."
+    },
+    {
+     "name": "Mercado da Ribeira Sabahı",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Cais do Sodré pazarı; Cristo Rei yerine."
+    }
+   ]
+  }
+ ]
+}

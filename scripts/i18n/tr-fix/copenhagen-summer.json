@@ -1,0 +1,15 @@
+{
+ "source": "4c3e3f2333ff",
+ "model": "sonnet",
+ "strings": {
+  "d2.s4.tips": "1843 lunapark-bahçe; Disney'e ilham verdi, akşam ışıklar, cuma yaz konserleri (ücretsiz), giriş 175 + yolculuk bileti; kışın Noel ve Halloween sezonları.",
+  "d4.b1.tips": "Afrika Hatıraları yazarının evi; Louisiana yolunda, Kronborg yerine.",
+  "d6.s1.tips": "BIG'in kırmızı-siyah çok kültürlü parkı; Fas çeşmesi, Tay boks ringi.",
+  "note0": "Copenhagen Card 72 saat 889 DKK, ulaşım + müzeler (Louisiana, Kronborg, Roskilde dahil); bu plan için karşılığını verir. Bisiklet 100-150/gün, şehir düz. Metroyla havalimanı 15 dakika.",
+  "note1": "Yaz 20-24°C, gün ışığı 22:00'ye kadar sürer; limanda yüzme (Islands Brygge), Reffen, Tivoli cuma konserleri, Roskilde Festivali (Haziran sonu-Temmuz).",
+  "note3": "Kuzey mutfağı: Noma kapandı ama Geranium, Alchemist var; uygun fiyatlı: Hija de Sanchez, Gasoline Grill burger, Juno/Hart fırınları.",
+  "note5": "Kronborg ve Louisiana Copenhagen Card kapsamında; Tivoli'de ışıklar 17:00'den sonra yanar.",
+  "transit.why_chosen": "80'den fazla müze + tüm toplu taşıma (Louisiana, Kronborg, Roskilde dahil); 3 gün için 889 DKK"
+ },
+ "warnings": []
+}

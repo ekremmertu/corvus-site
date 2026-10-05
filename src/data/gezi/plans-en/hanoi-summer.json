@@ -1,0 +1,477 @@
+{
+ "lang": "en",
+ "slug": "hanoi-summer",
+ "altSlug": "hanoi-yaz",
+ "citySlug": "hanoi",
+ "destKey": "hanoi",
+ "city": "Hanoi",
+ "region": null,
+ "country": "Vietnam",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "VND",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 2200000,
+  "attractions": 2400000,
+  "transport": 900000,
+  "misc": 500000
+ },
+ "notes": [
+  "Grab (motorbike or car) is cheap; the Old Quarter is walkable, so cross among the motorbikes at a steady pace. For Ha Long and Ninh Binh, a tour (hotel pick-up included) is the most practical.",
+  "From May to September it is 33°C, humid and showery; sightsee in the morning and duck into a cafe at midday. Ha Long trips can be cancelled because of storms.",
+  "Pho costs 50-70,000 VND, bun cha 70-80,000, egg coffee 35,000, bia hoi 10-15,000; bring cash in small notes.",
+  "The mausoleum is closed Monday and Friday, and even when open it is only open in the morning. Cover shoulders and knees in temples, and stay quiet in the mausoleum.",
+  "Train Street access varies; cafe owners will tell you the times. Keep away from the track.",
+  "Haggle 30-50% in markets; use Grab for taxis, as street taxi meters can be rigged."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old Quarter and Hoan Kiem",
+   "stops": [
+    {
+     "name": "Hoan Kiem Gölü",
+     "category": "nature",
+     "start": "07:00",
+     "end": "08:00",
+     "cost": 0,
+     "tips": "Tai chi and aerobics in the morning; Huc Bridge and Ngoc Son Temple (30,000 VND), Turtle Tower."
+    },
+    {
+     "name": "Pho Gia Truyen Bat Dan",
+     "category": "food",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 60000,
+     "tips": "Hanoi's legendary beef pho (pho bo); pay in the queue and carry your bowl to a table. Since 1966."
+    },
+    {
+     "name": "Hanoi Old Quarter 36 Sokak",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Guild streets (Hang Ma for paper, Hang Bac for silver); the old house at 87 Ma May (10,000 VND)."
+    },
+    {
+     "name": "Dong Xuan Market",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The Old Quarter's wholesale market, with street food behind it."
+    },
+    {
+     "name": "Bun Cha Huong Lien",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 80000,
+     "tips": "The bun cha of the Obama-Bourdain dinner: grilled pork patties and noodles, on Le Van Huu."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bun Cha Ta Hanoi",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 70000,
+     "tips": "Bun cha in the Old Quarter; an alternative to Huong Lien."
+    },
+    {
+     "name": "Bach Ma Temple",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Hanoi's oldest temple, inside the Old Quarter."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Ho Chi Minh complex and Temple of Literature",
+   "stops": [
+    {
+     "name": "Ho Chi Minh Mausoleum",
+     "category": "culture",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "The embalmed body of Uncle Ho; open 08:00-11:00 in the morning, closed Monday and Friday. No shorts, and silence in the queue."
+    },
+    {
+     "name": "Ho Chi Minh Stilt House & One Pillar Pagoda",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 40000,
+     "tips": "A wooden stilt house and a single-pillar pagoda, right next to the mausoleum."
+    },
+    {
+     "name": "Temple of Literature",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 70000,
+     "tips": "A Confucian temple from 1070 and Vietnam's first university; stelae resting on turtles."
+    },
+    {
+     "name": "KOTO Van Mieu",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 150000,
+     "tips": "A social enterprise restaurant that trains street children, opposite the temple."
+    },
+    {
+     "name": "Hoa Lo Prison",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 50000,
+     "tips": "The \"Hanoi Hilton\": a French guillotine and the cells of American pilots. Air-conditioned."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cha Ca Thang Long",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 180000,
+     "tips": "Turmeric fish fried in a pan (cha ca), a Hanoi speciality."
+    },
+    {
+     "name": "Vietnam Museum of Ethnology",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 40000,
+     "tips": "54 ethnic groups, with tribal houses in the garden. An alternative to the prison."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Train Street, French Quarter and egg coffee",
+   "stops": [
+    {
+     "name": "Hanoi Train Street",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 50000,
+     "tips": "Cafes along the tracks (buy a drink to get in); ask the cafe for train times, as access is sometimes closed."
+    },
+    {
+     "name": "St. Joseph's Cathedral",
+     "category": "culture",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "A neo-Gothic cathedral with cafes around it."
+    },
+    {
+     "name": "Cafe Giang",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 35000,
+     "tips": "The inventor of egg coffee (ca phe trung), since 1946; on Nguyen Huu Huan."
+    },
+    {
+     "name": "Hanoi Opera House & French Quarter",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Colonial boulevards, the Metropole hotel and the opera house facade."
+    },
+    {
+     "name": "Quan An Ngon Phan Boi Chau",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 120000,
+     "tips": "Street food stalls gathered under one roof in a garden; try everything."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Dinh",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 30000,
+     "tips": "A hidden lake-view cafe run by Giang's sister; egg coffee."
+    },
+    {
+     "name": "National Museum of Vietnamese History",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 40000,
+     "tips": "History in a colonial building, next to the opera house."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Ha Long Bay",
+   "stops": [
+    {
+     "name": "Ha Long Bay Tekne Turu",
+     "category": "nature",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 1200000,
+     "tips": "2.5 hours from Hanoi by expressway; a day tour (about 1,200,000 VND, lunch included) or a 1-night cruise (about 2-3 million), among 1,600 limestone islands."
+    },
+    {
+     "name": "Ha Long Teknede Deniz Ürünleri Öğle",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Included in the tour; prawns and squid."
+    },
+    {
+     "name": "Sung Sot Cave",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "The Surprise Cave, with stalactites. Included in the tour."
+    },
+    {
+     "name": "Ti Top Island",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A beach and 400 steps up to a view over the bay; kayaking is optional."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lan Ha Bay Tour",
+     "category": "nature",
+     "start": "10:00",
+     "end": "16:00",
+     "cost": 1300000,
+     "tips": "A quieter neighbouring bay (Cat Ba); an alternative to Ha Long."
+    },
+    {
+     "name": "Ha Long City Seafood Market",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 200000,
+     "tips": "A market restaurant on land."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Ninh Binh",
+   "stops": [
+    {
+     "name": "Trang An Boat Tour",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 250000,
+     "tips": "2 hours from Hanoi; a 3-hour river tour by rowed sampan through caves, the \"Ha Long on land\". UNESCO-listed."
+    },
+    {
+     "name": "Bai Dinh Pagoda",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Southeast Asia's largest pagoda complex, with 500 arhat statues."
+    },
+    {
+     "name": "Ninh Binh Goat Meat Restaurant",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 150000,
+     "tips": "Ninh Binh's specialities: de nui (goat) and com chay (crispy rice)."
+    },
+    {
+     "name": "Hang Mua Viewpoint",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 100000,
+     "tips": "500 steps up to the dragon hill, with a view over the Tam Coc rice fields (golden in May-June)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tam Coc Boat Tour",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 150000,
+     "tips": "2 hours among the rice fields; an alternative to Trang An."
+    },
+    {
+     "name": "Trang An Restaurant Ninh Binh",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 120000,
+     "tips": "A restaurant by the Trang An pier; fish instead of goat."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "West Lake and Bat Trang",
+   "stops": [
+    {
+     "name": "Tran Quoc Pagoda",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 0,
+     "tips": "A 6th-century pagoda on West Lake; best in the morning light."
+    },
+    {
+     "name": "West Lake Quang Ba Walk",
+     "category": "nature",
+     "start": "09:15",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "The lake's eastern shore; a flower market in the morning, and cafes."
+    },
+    {
+     "name": "Bat Trang Ceramic Village",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "13 km from Hanoi; a 700-year-old pottery village where you can make your own bowl in a workshop (50,000 VND)."
+    },
+    {
+     "name": "Bat Trang Village Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 100000,
+     "tips": "Pho and banh cuon in the village."
+    },
+    {
+     "name": "Long Bien Bridge",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Eiffel's iron bridge; trains and motorbikes at sunset, banana gardens below."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Banh Cuon Gia Truyen Thanh Tri",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 50000,
+     "tips": "Steamed rice rolls; a breakfast classic."
+    },
+    {
+     "name": "Lotte Observation Deck",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 230000,
+     "tips": "The 65th floor; a view instead of the bridge."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Water puppets and a gentle goodbye",
+   "stops": [
+    {
+     "name": "Thang Long Water Puppet Theatre",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 100000,
+     "tips": "A water puppet show (if there is a morning session; otherwise 17:00 in the evening); by Hoan Kiem."
+    },
+    {
+     "name": "Hang Gai Ipek Dükkânları",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "The silk street, for souvenirs."
+    },
+    {
+     "name": "Banh Mi 25",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 40000,
+     "tips": "Hanoi's famous banh mi, on Hang Ca."
+    },
+    {
+     "name": "Ta Hien Bia Hoi Corner",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 15000,
+     "tips": "The fresh draught beer corner; quiet at midday, ideal for a farewell."
+    },
+    {
+     "name": "Noi Bai Airport Bus 86",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Bus 86 from the Old Quarter takes 45 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Xoi Yen",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 40000,
+     "tips": "A sticky rice (xoi) classic."
+    },
+    {
+     "name": "Hanoi Ceramic Mosaic Mural",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A 4 km ceramic mural; an alternative to the silk shops."
+    }
+   ]
+  }
+ ]
+}

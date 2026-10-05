@@ -1,0 +1,492 @@
+{
+ "lang": "tr",
+ "slug": "seul-ekim-mayis",
+ "altSlug": "seoul-october-may",
+ "citySlug": "seul",
+ "destKey": "seoul",
+ "city": "Seul",
+ "region": null,
+ "country": "Güney Kore",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "KRW",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 350000,
+  "attractions": 170000,
+  "transport": 60000,
+  "misc": 80000
+ },
+ "notes": [
+  "T-money kartı her yerde geçer; Climate Card 7 gün sınırsız (~20.000 KRW). Incheon'a AREX 45 dakika, Naver Map Google'dan iyi.",
+  "Ekim-Kasım sonbahar renkleri en iyi mevsim; kış -10°C, saray karda güzel, ondol sıcak, kaplıca (jjimjilbang).",
+  "Kore BBQ 2 kişi 50.000-80.000 KRW; Gwangjang sokak yemeği 5.000-10.000. Bahşiş yok.",
+  "Saraylar salı (Gyeongbokgung) veya pazartesi (Changdeokgung) kapalı; hanbokla giriş bedava.",
+  "DMZ turu pasaportla, 1-2 hafta önce; JSA (Panmunjom) ayrı ve nadir.",
+  "Kafeler Seul kültürü: Seongsu, Yeonnam, Ikseon-dong; kahve 5.000-7.000 KRW."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "T-money / Climate Card",
+  "why_chosen": "Metro ve otobüste geçer; 7 günlük Climate Card sınırsız (~20.000 KRW)",
+  "coverage": "Seul metro, otobüs, taksi",
+  "where_to_buy": "Havalimanı ve GS25/CU marketler",
+  "cost": 4000,
+  "currency_code": "KRW"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Gyeongbokgung & Bukchon",
+   "stops": [
+    {
+     "name": "Gyeongbokgung Palace",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 3000,
+     "tips": "Joseon ana sarayı; 10:00'da nöbet değişimi, hanbok giyene giriş bedava (yakında kiralama 20.000 KRW), salı kapalı."
+    },
+    {
+     "name": "National Folk Museum of Korea",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Saray içinde ücretsiz halk müzesi."
+    },
+    {
+     "name": "Tosokchon Samgyetang",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 20000,
+     "tips": "Sarayın yanında ginsengli tavuk çorbası; 1983'ten beri kuyruk."
+    },
+    {
+     "name": "Bukchon Hanok Village",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Hanok evleri ve dar sokaklar; sessiz ol (yerleşim alanı), 8 manzara noktası."
+    },
+    {
+     "name": "Insadong",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Geleneksel el işi ve çay evleri; Ssamziegil avlusu."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gwanghwamun Jip Kimchi Jjigae",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 9000,
+     "tips": "Kimchi güveç; ucuz ve efsane."
+    },
+    {
+     "name": "Changdeokgung Secret Garden",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 8000,
+     "tips": "UNESCO saray ve gizli bahçe; saatli tur, Bukchon yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Myeongdong & Namsan",
+   "stops": [
+    {
+     "name": "Myeongdong Shopping Street",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Kozmetik ve moda; sokak yemeği tezgahları öğleden sonra."
+    },
+    {
+     "name": "Myeongdong Kyoja",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 12000,
+     "tips": "Kalguksu erişte ve mandu; Michelin Bib, 1966."
+    },
+    {
+     "name": "Namsan Cable Car",
+     "category": "nature",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 15000,
+     "tips": "Myeongdong'dan teleferik; ya da 40 dakikalık Namsan yürüyüşü."
+    },
+    {
+     "name": "N Seoul Tower",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 21000,
+     "tips": "Gözlem katı ve aşk kilitleri; gün batımı için 17:00'ye kadar kal."
+    },
+    {
+     "name": "Namdaemun Market",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 8000,
+     "tips": "Kore'nin en büyük geleneksel pazarı; hotteok ve kalguksu sokağı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Isaac Toast Myeongdong",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 5000,
+     "tips": "Kore tostu; hızlı."
+    },
+    {
+     "name": "Seoul Museum of Art",
+     "category": "culture",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Deoksugung'un yanında ücretsiz müze; yağmurda."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Gangnam & COEX",
+   "stops": [
+    {
+     "name": "Bongeunsa Temple",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Gangnam gökdelenleri arasında Budist tapınağı; dev Buda."
+    },
+    {
+     "name": "Starfield Library COEX",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "13 m kitap rafları; ücretsiz, fotoğraf."
+    },
+    {
+     "name": "Gangnam Station Underground",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Yeraltı çarşısı ve K-pop mağazaları."
+    },
+    {
+     "name": "Samwon Garden Gangnam",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 50000,
+     "tips": "1976'dan beri Kore BBQ ve galbi; bahçe."
+    },
+    {
+     "name": "Seonjeongneung Royal Tombs",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 1000,
+     "tips": "Şehrin ortasında Joseon kral mezarları ve orman; sakin."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gangnam Myeongga Galbi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 30000,
+     "tips": "Daha uygun BBQ."
+    },
+    {
+     "name": "Lotte World Tower Seoul Sky",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 29000,
+     "tips": "555 m gözlem; cam zemin, mezar yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Hongdae & Yeouido",
+   "stops": [
+    {
+     "name": "Gyeongui Line Forest Park",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Eski demiryolu parkı; Yeonnam-dong kafeleri."
+    },
+    {
+     "name": "Hongdae Street",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Üniversite mahallesi; sokak gösterileri, vintage, foto kabinleri."
+    },
+    {
+     "name": "Hongdae Jokbal Sokağı",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15000,
+     "tips": "Domuz paçası ve bossam; paylaşımlı."
+    },
+    {
+     "name": "Yeouido Hangang Park",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Kışın nehir yürüyüşü; kafeler."
+    },
+    {
+     "name": "Hangang Nehir Turu",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 18000,
+     "tips": "Yeouido'dan gün batımı teknesi; köprüler ve gökdelenler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hongdae Andong Jjimdak",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 12000,
+     "tips": "Soslu tavuk güveci."
+    },
+    {
+     "name": "63 Building Art Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 13000,
+     "tips": "Yeouido'da altın gökdelen; yağmurda."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "DMZ",
+   "stops": [
+    {
+     "name": "Imjingak Park",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "DMZ turu (~70.000 KRW, pasaport şart, 1-2 hafta önce rezervasyon, pazartesi yok); Özgürlük Köprüsü ve mermi delikli tren."
+    },
+    {
+     "name": "Third Infiltration Tunnel",
+     "category": "culture",
+     "start": "09:15",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Kuzey Kore'nin kazdığı tünel; 350 m eğimli yürüyüş, baret."
+    },
+    {
+     "name": "Dora Observatory",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Dürbünle Kuzey Kore köyü ve propaganda kulesi."
+    },
+    {
+     "name": "Dorasan Station",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Pyongyang'a gitmeyen tren istasyonu."
+    },
+    {
+     "name": "Paju Provence Village",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 15000,
+     "tips": "Dönüşte Fransız köyü temalı kafe kasabası; öğle ve fırın."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tongilchon Köy Lokantası",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 10000,
+     "tips": "DMZ köyünde soya fasulyesi."
+    },
+    {
+     "name": "Heyri Art Village",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Sanatçı köyü; Provence yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Gwangjang & Dongdaemun",
+   "stops": [
+    {
+     "name": "Jogyesa Temple",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Kore Budizm'inin merkezi; fener festivali Mayıs'ta."
+    },
+    {
+     "name": "Ikseon-dong Hanok Village",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Restore hanok kafeler ve butikler; en fotojenik sokaklar."
+    },
+    {
+     "name": "Gwangjang Market",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 15000,
+     "tips": "Bindaetteok (mung fasulyesi gözleme) ve mayak gimbap; Netflix pazarı, taburede yenir."
+    },
+    {
+     "name": "Cheonggyecheon Stream",
+     "category": "nature",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "Şehir ortasında restore dere; 5 km yürüyüş yolu."
+    },
+    {
+     "name": "Dongdaemun Design Plaza",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Zaha Hadid'in gümüş binası; sergiler ve gece pazarı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ikseon-dong Farm BBQ",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 40000,
+     "tips": "Hanwoo ve İberico BBQ; Ikseon-dong."
+    },
+    {
+     "name": "Dongdaemun Market Gece Alışverişi",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Toptan moda; gece 23:00'ten sonra."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Seongsu — hafif veda",
+   "stops": [
+    {
+     "name": "Seongsu-dong",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Seul'ün Brooklyn'i; eski fabrika kafeleri ve pop-up mağazalar."
+    },
+    {
+     "name": "Seoul Forest",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Geyik parkı ve ginkgo yolu; sonbaharda sarı."
+    },
+    {
+     "name": "Onion Seongsu",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 12000,
+     "tips": "Fabrikadan kafe; pastane ve kahve, veda."
+    },
+    {
+     "name": "Seoul Station AREX",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Incheon'a AREX ekspres 45 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seongsu Galbi",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 25000,
+     "tips": "Galbi; kafe yerine."
+    },
+    {
+     "name": "Ttukseom Hangang Park",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Nehir parkı; orman yerine."
+    }
+   ]
+  }
+ ]
+}

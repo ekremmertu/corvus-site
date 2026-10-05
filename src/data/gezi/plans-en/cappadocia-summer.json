@@ -1,0 +1,515 @@
+{
+ "lang": "en",
+ "slug": "cappadocia-summer",
+ "altSlug": "kapadokya-yaz",
+ "citySlug": "kapadokya",
+ "destKey": "kapadokya",
+ "city": "Cappadocia",
+ "region": "Nevşehir",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 10500,
+  "attractions": 12000,
+  "transport": 1500,
+  "misc": 800
+ },
+ "notes": [
+  "Village restaurants, markets and small workshops mostly prefer cash, and cards may not work everywhere, so carry cash.",
+  "Minibuses between villages run infrequently. A rental car or a daily private driver tour is the most practical way to get around.",
+  "Restaurants don't add an automatic service charge to the bill. Leaving a 5-10% tip is local custom.",
+  "Keep your shoulders and knees covered in rock churches and monasteries. In some churches, photos without flash are allowed, but flash is forbidden.",
+  "In July, midday temperatures exceed 30°C. Plan valley hikes for early morning or late afternoon, and carry plenty of water and a hat.",
+  "Balloon tours can be cancelled at the last minute because of wind. That's why it's on the first day: if it's cancelled, you can still move it to another day.",
+  "Bargaining is normal for handicrafts like pottery and carpets, but not for food or entry fees."
+ ],
+ "niche": {
+  "name": "Pancarlık Valley and Church",
+  "level": "l2",
+  "why_hidden": "Beside the Ortahisar-Mustafapaşa road is a small valley with a single-nave church from the 11th century, a place no big tour bus visits. Even most local hotels don't know it exists. It isn't included in Red or Green Tour packages.",
+  "access_instructions": "On the Ürgüp-Mustafapaşa road, after the Ortahisar sign, follow the \"Pancarlık\" signs. About 1 km after passing Sarıca Church there is a small car park, and from there it's a 5-minute walk down into the valley.",
+  "local_contact": "Yok — gişe görevlisi bazı saatlerde yerinde, resmi bir telefon hattı veya rezervasyon sistemi yok, walk-in serbest giriş.",
+  "season": "April to October is the most comfortable period. In winter the road turns muddy and the church stays damp, and there are almost no visitors.",
+  "insider_tip": "If you also see Sarıca Church on the same road, you can visit both churches in 45 minutes. Go around 9 in the morning, before the midday heat, as there's almost no shade in the valley.",
+  "show_reason": "Freskleri hâlâ okunaklı, otobüs turlarının uğramadığı sessiz bir vadi, tamamen ücretsiz — fotojenik ve 'bilen bilir' hissi veren, sosyal medyada nadiren paylaşılan bir durak.",
+  "lat": 38.6142213,
+  "lng": 34.8926923,
+  "address": "Pancarlık Vadisi, Ortahisar-Mustafapaşa yolu üzeri, Ürgüp, Nevşehir",
+  "cost_range_min": 0,
+  "cost_range_max": 0,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Göreme's signature: fairy chimneys from the sky",
+   "stops": [
+    {
+     "name": "Cappadocia Hot Air Balloon Tour",
+     "category": "nature",
+     "start": "05:00",
+     "end": "08:00",
+     "cost": 6800,
+     "tips": "Göreme's signature experience, with hotel transfer included. Flights can be cancelled because of wind. After landing you get a celebratory glass of sparkling wine or fruit juice and a certificate. Book at least 1 day ahead.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cappadocia+Hot+Air+Balloon+Ride",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Göreme Open Air Museum",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 300,
+     "tips": "Entry to the Dark Church costs extra. Its frescoes are the best preserved, so don't skip it. Go early and finish before the tour buses arrive."
+    },
+    {
+     "name": "Love Valley",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A free walk along a natural corridor of fairy chimneys between Göreme and Uçhisar. Bring water and a hat, as shade thins out towards noon."
+    },
+    {
+     "name": "Dibek Restaurant (Göreme)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 550,
+     "tips": "Order the pottery kebab with the breaking service, where the clay jug is cracked open at your table. It gets busy in summer, so arriving before 13:00 makes finding a table easier."
+    },
+    {
+     "name": "Kızılçukur (Red Valley) Sunset Point",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Grab a spot 45 minutes before sunset, when the rocks turn red-gold. You can buy dried apricots and walnuts from the stalls nearby, and parking is free."
+    },
+    {
+     "name": "Topdeck Cave Restaurant (Göreme)",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 750,
+     "tips": "A cave-carved venue with a menu of local meze and grilled dishes. It fills up after 20:00, so book a table."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nostalji Restaurant (Göreme)",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 650,
+     "tips": "A calm spot in central Göreme mixing local and international cuisine. Pick from the meze before choosing a main course."
+    },
+    {
+     "name": "Göreme Panorama (Sunset Point)",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "A free viewing terrace overlooking the whole of Göreme town. A quieter, less crowded alternative to Kızılçukur."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Uçhisar and Ortahisar: castles and a quiet valley",
+   "stops": [
+    {
+     "name": "Wish Terrace (Uçhisar)",
+     "category": "food",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 650,
+     "tips": "Walk through the narrow lanes of the Tekelli neighbourhood to a terrace facing Pigeon Valley. Homemade jam and village clotted cream are the highlights. There are few tables, so go early."
+    },
+    {
+     "name": "Uçhisar Castle",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 200,
+     "tips": "The highest point in Cappadocia, reached by narrow carved stairways. Allow some time at the top for the 360-degree views."
+    },
+    {
+     "name": "Ortahisar Castle",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 50,
+     "tips": "Known as the most authentic town in the region. You can stop for tea in the small square around the 86-metre fortress."
+    },
+    {
+     "name": "Köy Sofrası Kapadokya (Ortahisar)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 550,
+     "tips": "A friendly local table with regional cheeses, olives and fresh bread. The breakfast plate is big enough for two to share."
+    },
+    {
+     "name": "Pancarlık Valley and Church",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A quiet valley on the Ürgüp-Mustafapaşa road that even hotels don't know about. Visit Sarıca Church on the same trip and look closely at its fresco details."
+    },
+    {
+     "name": "Elai Restaurant (Uçhisar)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 3200,
+     "tips": "Cappadocia's first gourmet restaurant, serving French-Turkish fusion cuisine with views of Pigeon Valley and Red Valley. Book ahead for a table at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ürgüp Garden Cafe",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "A airy garden setting and a good stop for tea after breakfast."
+    },
+    {
+     "name": "Pigeon Valley Viewpoint",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A free viewpoint over the valley running from Uçhisar to Göreme. The pigeon holes in the rock are still visible."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Avanos and the northern valleys: pottery, river and Devrent",
+   "stops": [
+    {
+     "name": "Chez Galip Pottery Workshop (Avanos)",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "At this Guinness-record workshop you can watch masters shape pots from Kızılırmak clay. The Hair Museum is in the same building. After the workshop, take a short walk along the Kızılırmak riverbank."
+    },
+    {
+     "name": "Cevizli Bahçe (Avanos)",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "One of the strongest names in the region for pottery kebab. The breaking service is done at your table, so ask for a seat in the garden overlooking the Kızılırmak."
+    },
+    {
+     "name": "Paşabağ (Monks Valley)",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Famous for its three-headed fairy chimneys. Entry and parking are free. Morning light is better for photos, and late afternoon is also less crowded."
+    },
+    {
+     "name": "Zelve Open Air Museum",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 150,
+     "tips": "An abandoned rock settlement spread across three valleys. Some tunnels require stooping, so anyone who dislikes tight spaces should take care."
+    },
+    {
+     "name": "Devrent Valley (Imagination Valley)",
+     "category": "nature",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "The camel-shaped rock is the most famous figure. Entry is free. At sunset the rocks turn golden, which is the best time for photos."
+    },
+    {
+     "name": "Kirkit Pension Restaurant (Avanos)",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 500,
+     "tips": "A classic stop for backpackers, with a home-style menu that changes daily. No reservation is needed, but go early in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seyyahhan (Avanos)",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "An alternative with stone architecture, a wide terrace and views of the Kızılırmak. Regional meat dishes and meze are strong."
+    },
+    {
+     "name": "Kızılırmak Riverside Park (Avanos)",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "A free walking path along the river. It works as a short break around your pottery workshop visit."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Ürgüp market and Mustafapaşa: wine, bazaar and Greek architecture",
+   "stops": [
+    {
+     "name": "Ürgüp Market/Bazaar",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Producers from surrounding villages sell fresh cheese, butter, molasses and pestil (dried fruit leather). Go early, as the freshest products sell out in the first hours."
+    },
+    {
+     "name": "Turasan Winery Cellar",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 400,
+     "tips": "The region's most established winery, producing since 1943. Try a tasting set of Kalecik Karası and Emir grape wines. The cellar tour is free."
+    },
+    {
+     "name": "Ziggy's Cafe & Restaurant (Ürgüp)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Known for its garden setting and a menu blending local and international cuisine. At lunchtime, choose a shaded table."
+    },
+    {
+     "name": "Mustafapaşa (Sinasos) Walk",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Wander for free through the stone mansion facades and churches of a Greek village emptied by the 1924 population exchange. It's easy to walk without a guide, so don't hesitate to turn into the side streets."
+    },
+    {
+     "name": "Hanımeli Restaurant (Mustafapaşa)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 600,
+     "tips": "A family-run place known for pottery kebab and home cooking. The bread and meze are made in-house."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Areni Cappadocia Restaurant (Ürgüp)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 650,
+     "tips": "An authentic setting in classic Cappadocian mansion architecture, and a strong alternative for pottery kebab."
+    },
+    {
+     "name": "Temenni Hill (Ürgüp)",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "Ürgüp's \"wishing hill\", a free viewpoint with a commanding view of the town. Go close to sunset."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Çavuşin and abandoned valleys: quiet trails and sunset ATV",
+   "stops": [
+    {
+     "name": "Kılıçlar Valley - Meskendir Valley Hike",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Starts 600 m beyond the entrance to Göreme Open Air Museum and follows a quiet trail all the way to Çavuşin. The markings are unclear in places, so bring water and comfortable shoes."
+    },
+    {
+     "name": "Çavuşin Village (Old Çavuşin Rock Settlement)",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Abandoned houses are carved into a huge rock mass. The climb up is tiring, but the view from the top is worth it. Entry is free."
+    },
+    {
+     "name": "Cavusin Han Restaurant (Çavuşin)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 550,
+     "tips": "Mantı (Turkish dumplings) with buttered yoghurt sauce and yağlama (layered flatbread) are the highlights. A family-run place with a simple village-style table."
+    },
+    {
+     "name": "ATV Sunset Tour through Güllüdere (Rose Valley)",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 1600,
+     "tips": "Helmet and goggles are provided, and two people can ride one ATV. Booking is recommended. The last 30 minutes, when the sun paints the valley red, are the best for photos.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cappadocia+Sunset+ATV+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Local Restaurant (Göreme)",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 650,
+     "tips": "A simple but tasty menu in central Göreme, and a good choice for a relaxed sit-down after the ATV tour."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sedef Restaurant (Göreme)",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 600,
+     "tips": "A quiet, grill-focused spot close to central Göreme."
+    },
+    {
+     "name": "Haçlı Church (Çavuşin)",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A small free rock church on the Çavuşin-Güllüdere-Kızılçukur trail. Easy to add to the main hiking route."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Green Tour: Ihlara canyon and underground city",
+   "stops": [
+    {
+     "name": "Ihlara Valley Hike",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 1800,
+     "tips": "Choose a 3.5-6 km route from the Ihlara village entrance to Belisırma. The canyon is deep, so there's plenty of natural shade. The guided Green Tour usually includes transport and entry. Water and walking shoes are essential.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cappadocia+Green+Tour+Ihlara+Valley+Derinkuyu",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Belisırma Seyir Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Tables are set up beside the Melendiz Stream, and fish baked on a tile is the most popular dish. Some tables let you dangle your feet in the water."
+    },
+    {
+     "name": "Selime Monastery",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "A huge monastery complex carved into the rock. Narrow stairways lead to the upper levels. Entry is free."
+    },
+    {
+     "name": "Derinkuyu Underground City",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 600,
+     "tips": "It's naturally cool underground, making it the most comfortable stop on a hot day. You'll need to stoop in the narrow tunnels, and anyone who feels claustrophobic should not descend to the lower levels."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Belisırma Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "An alternative to Seyir Restaurant: a different venue by the river in the same village."
+    },
+    {
+     "name": "Yaprakhisar Viewpoint",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Also known as \"Star Wars Valley\". A free viewpoint and an alternative to Selime, with interesting rock textures."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Soğanlı Valley: Cappadocia's unknown eastern edge (easy day)",
+   "stops": [
+    {
+     "name": "Soğanlı Valley Rock Churches Walk",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Daily visitor numbers are tiny, perhaps 5-10 people. Visit the Kubbeli, Karabaş and Yılanlı churches. Entry is free, the route takes 2-3 hours, and there's plenty of shade."
+    },
+    {
+     "name": "Kadın Emeği Zeytin Cafe and Home Cooking (Soğanlı)",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 500,
+     "tips": "A small cooperative run by village women. Gözleme (stuffed flatbread) and home-style dishes are prepared daily. Cash is preferred."
+    },
+    {
+     "name": "Yeşilhisar Apricot Orchards",
+     "category": "nature",
+     "start": "13:45",
+     "end": "14:15",
+     "cost": 100,
+     "tips": "A short stop on the way back. This is Türkiye's apricot country, and you can buy dried apricots from the roadside stalls."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Soğanlı Valley Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 450,
+     "tips": "A simple village-style eatery at the valley entrance. Gözleme and ayran (salted yoghurt drink) are the classic choices."
+    },
+    {
+     "name": "Karabaş Church (Soğanlı)",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "One of the best-preserved churches for frescoes. It can be included in the main walking route, and entry is free."
+    }
+   ]
+  }
+ ]
+}

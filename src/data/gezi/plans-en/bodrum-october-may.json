@@ -1,0 +1,514 @@
+{
+ "lang": "en",
+ "slug": "bodrum-october-may",
+ "altSlug": "bodrum-ekim-mayis",
+ "citySlug": "bodrum",
+ "destKey": "bodrum",
+ "city": "Bodrum",
+ "region": "Muğla",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 14550,
+  "attractions": 9250,
+  "transport": 850,
+  "misc": 2050
+ },
+ "notes": [
+  "In January the sea is ~16°C, so no swimming. Dress in layers, especially as Yalıkavak and Türkbükü evenings are windy.",
+  "Dolmuşes and municipal buses do not take cash. Since 2020 you can only board with a Muğla Kentkart.",
+  "In the winter season some small shops and restaurants in the coastal towns may be closed on weekdays. Confirm they are open before you go.",
+  "In restaurants, leaving 5-10% of the bill as a tip is enough. No tip is expected in taxis or dolmuşes.",
+  "When walking the narrow streets of places like Karakaya Village and Ortakent Old Village, avoid peering into homes: these are still living spaces.",
+  "Sunset comes early in winter (around 17:30-18:00), so bring your evening plans forward accordingly.",
+  "The Pamukkale day involves a long round trip (~7 hours on the road). Comfortable shoes and a warm coat are essential, and the travertine area is walked barefoot."
+ ],
+ "niche": {
+  "name": "Karakaya Village",
+  "level": "l2",
+  "why_hidden": "Just above Gümüşlük, this 800-year-old stone village was emptied during the population exchange. Tours go down to the beachfront sunset but almost none know about this abandoned village right above it. Apart from the restored 300-year-old mosque, there are no signs, visitor centre or guides.",
+  "access_instructions": "After passing Dereköy on the Bodrum-Gümüşlük road, a narrow winding road takes you by car to the village entrance. The lanes inside are very narrow, so leave the vehicle and continue on foot. There are no signs.",
+  "local_contact": "Yok — resmi rehber ya da randevu sistemi bulunmuyor, serbest dolaşım; yön sormak isterseniz Gümüşlük merkezindeki esnaf genelde tarif verir.",
+  "season": "Open year-round. The most atmospheric time is winter (November-March): the village is never crowded even in summer, but in winter it is completely quiet and all yours.",
+  "insider_tip": "Climb the stone steps right beside the restored mosque to the highest point of the village. From there you get a panoramic view of Gümüşlük Bay and Rabbit Island, and very few visitors know it.",
+  "show_reason": "Ücretsiz, fotojenik ve tarihi katmanlı (mübadele hikayesi) bir deneyim — kalabalık Gümüşlük sahilinin hemen üstünde ama sosyal medyada neredeyse hiç görünmüyor.",
+  "lat": 37.053,
+  "lng": 27.2408,
+  "address": "Karakaya Mahallesi, Gümüşlük, Bodrum/Muğla",
+  "cost_range_min": 0,
+  "cost_range_max": 0,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Muğla Kentkart",
+  "why_chosen": "Since 2020, all dolmuş, minibus and municipal bus lines on the Bodrum peninsula (including Gümüşlük, Yalıkavak, Gündoğan-Türkbükü and Bitez-Ortakent) have run on this card only, and cash is not accepted. This plan has you taking a dolmuş to a different town every day, so one card covers every line and gives you the discounted fare. Boarding a dolmuş without the card is not possible, so in practical terms it is the only option.",
+  "coverage": "Bodrum merkez, Gümüşlük, Yalıkavak, Gündoğan, Türkbükü, Bitez ve Ortakent dahil tüm yarımadadaki dolmuş/minibüs ve belediye otobüs hatları",
+  "where_to_buy": "Bodrum Otogarı (Muttaş) gişeleri, PTT şubeleri ve BİM/Migros kasalarındaki Kentkart yükleme noktaları; bakiye yükleme Muğla Büyükşehir Belediyesi'nin mobil uygulamasından da yapılabilir.",
+  "cost": 400,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "The heart of Bodrum: castle, theatre and bazaar",
+   "stops": [
+    {
+     "name": "Bodrum Castle",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 450,
+     "tips": "The castle is partly closed for a two-year restoration. For now only the Uluburun Shipwreck and shipwreck sections can be visited, but the outer courtyard and towers still give you harbour views. In winter the museum is open 08:30-17:00, the ticket office closes at 16:30, and entry is free with a Museum Pass."
+    },
+    {
+     "name": "Bodrum Ancient Theatre",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "An open-air theatre from the 4th century BC, still used for concerts. Entry is free and it is usually empty in winter. Climb to the upper rows for the panoramic shot of Bodrum Castle and the harbour."
+    },
+    {
+     "name": "Kısmet Lokantası",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 750,
+     "tips": "One of the well-known esnaf lokantası (working-people's restaurants) in Konacık: you queue with a tray and choose from the dishes of the day. Plain, genuine home cooking. It is a 10-minute dolmuş ride from the centre, and the counter is at its fullest between 12:00 and 14:00."
+    },
+    {
+     "name": "Bodrum Bazaar",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 300,
+     "tips": "The narrow streets around Cevat Şakir Caddesi are lined with shops selling sponges, leather sandals and silver jewellery. Haggling is normal. Prices get fairer once you turn off the main street into the back lanes."
+    },
+    {
+     "name": "Kumbahçe Beach",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 200,
+     "tips": "The stretch of shore just below the Zeki Müren Museum is quiet in winter and is where locals take their evening walk. Get a tea or coffee (~200 TL) from a small beachside café and watch the sunset."
+    },
+    {
+     "name": "Nazik Ana Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 900,
+     "tips": "They have been cooking home-style food in a stone house courtyard on Eski Hükümet Sokak for over 25 years. Try the smoked aubergine and the olive-oil vegetable dishes. There are few tables, so call ahead to reserve for the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nefis Içli Köfte ve Ev Yemekleri",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "A simple eatery serving içli köfte (stuffed bulgur meatballs) and daily home-cooked dishes. A good option near the centre if Kısmet Lokantası is full. Fresher at lunchtime."
+    },
+    {
+     "name": "Myndos Gate",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The western gate of ancient Halicarnassus and the sarcophagi around it sit on the Bodrum-Turgutreis road, with almost no tourists. Entry is free, ideal for a short stop."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Gümüşlük and the forgotten hilltop stone village",
+   "stops": [
+    {
+     "name": "Karakaya Village",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Just above Gümüşlük, this 800-year-old stone village was emptied by the population exchange. Leave your vehicle at the village entrance and explore the narrow lanes on foot. Climb the steps beside the restored 300-year-old mosque for a panoramic view of Gümüşlük Bay and Rabbit Island."
+    },
+    {
+     "name": "Rabbit Island",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A stone path through knee-deep shallow water leads over the ruins of the ancient Myndos harbour to Rabbit Island. Water shoes come in handy. Entry is free, and in winter walking across the stones is enough."
+    },
+    {
+     "name": "Gümüşlük Crafts Market",
+     "category": "shopping",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 300,
+     "tips": "A small market selling ceramics, gourd lamps and leather goods. In winter some shops may open only at weekends, so it is worth confirming with the traders before you go."
+    },
+    {
+     "name": "Gümüşlük Beach",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 150,
+     "tips": "Gümüşlük's famous sunset can be watched for free from the terraces of the beachfront restaurants. One coffee (~150 TL) is enough. It is not crowded in winter, so you can easily get the best table."
+    },
+    {
+     "name": "Fenerci Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 3000,
+     "tips": "A long-established fish restaurant serving in Gümüşlük since 1979, facing the Rabbit Island causeway. Try the marinated, grilled octopus and the seasonal meze. In winter it is easy to find a table after 19:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dereköy Lokantası",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 2200,
+     "tips": "A Michelin Guide-recommended restaurant in Dereköy, on the Bodrum-Gümüşlük road, serving traditional recipes with a modern touch. If Fenerci is full, it is a 10-minute detour along the way."
+    },
+    {
+     "name": "Kadıkalesi Old Greek Houses",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A quiet coastal neighbourhood between Turgutreis and Gümüşlük with old Greek houses and small historic remains, almost untouched by tourists. Entry is free, good for a short walk."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Yalıkavak: windmills and abandoned villages",
+   "stops": [
+    {
+     "name": "Havva Ana",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 800,
+     "tips": "They serve a spread-style breakfast in the courtyard of an old village house in Gökçebel, Yalıkavak. Try the gözleme (stuffed flatbread), bazlama (griddle bread) and homemade jams. It is a 10-minute taxi ride from the centre, and breakfast is served 09:00-12:00."
+    },
+    {
+     "name": "Yalıkavak Windmills",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The hill with the most windmills on the Bodrum peninsula. The stone mills once used to grind wheat now stand only for the view. Entry is free, ideal for photos in midday light."
+    },
+    {
+     "name": "Sandima Village",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A quiet village that keeps Yalıkavak's memory alive with its abandoned stone houses. Most tour programmes skip it. You reach it by car, and it can be explored on foot in 20-30 minutes."
+    },
+    {
+     "name": "Yalıkavak Marina",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 300,
+     "tips": "In the old bazaar streets just behind the luxury marina, local traders are still going. Take a coffee break among the stone houses. The marina side is expensive, but prices become normal once you move into the old bazaar."
+    },
+    {
+     "name": "Kavanoz Yalıkavak",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 400,
+     "tips": "A cocktail bar on the Yalıkavak ridge known for its sunset view. Get there early to grab a table, order a drink (~400 TL) and watch the sun go down. In winter there is also an indoor seating area against the wind."
+    },
+    {
+     "name": "Memedof Balık Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 3000,
+     "tips": "On Çökertme Caddesi, one of Bodrum's classic fish addresses. Sea bream, sea bass and red mullet arrive each morning from the local fisherman. It gets busy in the evenings, so booking is recommended."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Asmalı Çardak",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 750,
+     "tips": "A quiet spot in the garden of an old village house serving a spread-style breakfast with böreks (savoury pastries) and gözleme cooked on a griddle. A good alternative if Havva Ana is full. Open from 09:00."
+    },
+    {
+     "name": "Çökertme Bay",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Yalıkavak's calm bay, favoured for windsurfing. Even without surfers in winter, its windswept views and empty beach are worth a photo. It is right next to Memedof, reachable on foot."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Gündoğan and Türkbükü: the quiet coast in the glitterati's shadow",
+   "stops": [
+    {
+     "name": "Quzine Kahvaltı Evi",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 800,
+     "tips": "A warm, family-run breakfast house in Gündoğan. Try the stuffed courgette flowers and eggs with çökelek (dry curd cheese). They use organic produce and open from 09:00."
+    },
+    {
+     "name": "Gündoğan Street Market",
+     "category": "shopping",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "There is no fixed market site: the stalls spread through the back streets of Gündoğan Çarşı. The market is held on the same day each week, so check the current day with your accommodation before you go. A good stop for olives, cheese and homemade jam."
+    },
+    {
+     "name": "Türkbükü Beach",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Türkbükü, known as Bodrum's \"high-society bay\", goes completely quiet in winter and becomes an empty beach without the luxury yachts. Walking along the shore is free, with no trace of the summer crowds."
+    },
+    {
+     "name": "Gündoğan Beach",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 150,
+     "tips": "Get a tea (~150 TL) at one of the small cafés on Gündoğan beach and watch the sunset. It gets dark early in winter, so around 17:00 is the best time."
+    },
+    {
+     "name": "FEZA South Beach Café Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 2500,
+     "tips": "A restaurant right on the water on Gündoğan beach, known for fresh seafood. Try the calamari and the catch of the day. Go early to get a table with a sea view."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bodrum Hayat Kahvaltı Evi",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 750,
+     "tips": "One of Gündoğan's favourite breakfast addresses, known for fresh jams and a good range of böreks. A good alternative within a 5-minute walk if Quzine is full."
+    },
+    {
+     "name": "Türkbükü Marina",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Unlike the main beach walk, the end of the marina gives you a viewpoint over the whole bay. Access is open in winter and it is completely quiet."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Ortakent, Etrim and Bitez: Bodrum's farming and craft heart",
+   "stops": [
+    {
+     "name": "Ortakent Old Village",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "The forgotten face of Ortakent, with old Greek houses (Apranga), Ottoman tower houses and narrow cobbled streets. Entry is free, and early morning light is best for photos."
+    },
+    {
+     "name": "Dibeklihan Culture and Art Village",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "In Türkiye's first culture and art village, there are galleries and workshops among traditional stone buildings. Fewer exhibitions run in winter, but the galleries and café stay open. Entry is for a symbolic fee."
+    },
+    {
+     "name": "Cooking Class in Authentic Etrim Village",
+     "category": "culture",
+     "start": "12:30",
+     "end": "15:30",
+     "cost": 2300,
+     "tips": "In the authentic village of Etrim, 20 minutes from Bodrum, you cook traditional dishes with seasonal vegetables alongside a local family, and the bread is baked in the village oven. The price includes a private round-trip transfer and lunch. Online booking at least 1 day in advance is required.",
+     "bookingUrl": "https://www.viator.com/searchResults/all?text=Cooking+Class+in+Authentic+Etrim+Village",
+     "bookingProvider": "Viator"
+    },
+    {
+     "name": "Bitez Beach",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A calm beach walk among palm trees, almost deserted in winter. Free, and walking shoes are enough."
+    },
+    {
+     "name": "Kurul Bitez",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 2000,
+     "tips": "A Michelin Guide-recommended restaurant inspired by Antep cuisine. Try the pistachio lahmacun and the dert alan kebab. The garden under the olive trees is kept open in winter with heaters, and booking is recommended."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sakız Ana",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "A long-established village restaurant opposite the Ortakent-Yahşi junction that serves only home cooking. You can see the dishes of the day and choose. A plain but genuine alternative if Kurul Bitez is full."
+    },
+    {
+     "name": "Kargı Bay",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A quiet walking route along the Ortakent-Yahşi shore, completely empty and windswept in winter. Free, and the light is lovely if you go close to sunset."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Pamukkale and Hierapolis day trip",
+   "stops": [
+    {
+     "name": "Bodrum: Pamukkale Cotton Castle and Hierapolis Day Trip with Lunch",
+     "category": "nature",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 3600,
+     "tips": "You set off by vehicle from Bodrum early in the morning (around 06:30) and return around 20:00 in the evening. You walk barefoot on the white travertines, so thick socks come in handy. The tour price includes transport, a guide and lunch, and online booking in advance is required.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Bodrum+Pamukkale+Hierapolis+Day+Trip+with+Lunch",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Tour Lunch",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "An open buffet lunch at a local restaurant included in the tour package, with no extra payment needed. If you want a vegetarian option, mention it when booking."
+    },
+    {
+     "name": "Cleopatra Antique Pool",
+     "category": "culture",
+     "start": "14:00",
+     "end": "14:45",
+     "cost": 1000,
+     "tips": "Swimming in the thermal pool where Roman-era columns lie submerged is an extra paid separately at the entrance, and towel and locker hire are not included in the price. It can be skipped if you are short on time: it is a fully optional stop."
+    },
+    {
+     "name": "Hierapolis Necropolis",
+     "category": "culture",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "One of Anatolia's largest ancient cemeteries, a quiet area just above the travertines that the crowds do not visit. The same site ticket is valid, with no extra charge."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kayaş Restaurant and Bar",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "A quiet restaurant in the Pamukkale area with local dishes and vegetarian options. Suitable for a short stop on the way back if you do not like the tour lunch."
+    },
+    {
+     "name": "Karahayıt Red Water",
+     "category": "nature",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "A lively village 5 km from Pamukkale, known for its mineral-rich red thermal water. If you have time left, a good choice for a short photo stop on the way back."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Farewell Bodrum: hamam and harbour",
+   "stops": [
+    {
+     "name": "Turkish Bath Hamam The Real One Authentic & Original Bodrum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 1800,
+     "tips": "A traditional hamam experience including sauna, scrub and foam massage. Online booking at least 1 day in advance is recommended. An ideal closing break to warm up after the winter cold.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Bodrum+Turkish+Hamam+Experience",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Bodrum Meze ve Ev Yemekleri",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 800,
+     "tips": "A simple, modest place serving daily meze and home-cooked dishes. Far from tourist menus, it offers a genuine Bodrum table at local prices. Fresh options are more plentiful between 12:00 and 14:00."
+    },
+    {
+     "name": "Bodrum Marina",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "One last walk along the marina where the yachts are moored. Get a coffee and take a final look at Bodrum Castle for a lovely finish. Free, and we wrap up at 15:00 to leave time for departure preparations."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Orkide Balık",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 1500,
+     "tips": "On Sahil Sokak, a place where you feel sand under your feet and fresh fish goes from the sea to the table. A good alternative if you want something light after the hamam."
+    },
+    {
+     "name": "Zeki Müren Art Museum",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 300,
+     "tips": "A small but special museum displaying the artist's belongings, in the Kumbahçe neighbourhood. Closed on Mondays, with a low entry fee. Suitable for a short cultural break before the marina walk."
+    }
+   ]
+  }
+ ]
+}

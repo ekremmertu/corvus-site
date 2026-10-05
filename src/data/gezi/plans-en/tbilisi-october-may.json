@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "tbilisi-october-may",
+ "altSlug": "tiflis-ekim-mayis",
+ "citySlug": "tiflis",
+ "destKey": "tbilisi",
+ "city": "Tbilisi",
+ "region": null,
+ "country": "Georgia",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "GEL",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 450,
+  "attractions": 120,
+  "transport": 300,
+  "misc": 100
+ },
+ "notes": [
+  "A Metromoney card costs 2 GEL (metro, bus and cable car rides 1 GEL). Bolt taxis are cheap. Take airport bus 337. For Kazbegi and Kakheti, book a tour (Gamarjoba, Budget Georgia, about 80-100 GEL) or use a marshrutka.",
+  "Winter is 0-5°C with snow; you can ski in Gudauri, and in snow you reach Gergeti by 4x4. April-May and September-October are ideal; the Kakheti grape harvest is in October.",
+  "Turkish citizens enter with an ID card (1 year visa-free). Carry cash in GEL (ATMs available); cards are widely accepted. Khinkali costs 1 GEL each, khachapuri 12-18 GEL, a glass of wine 8 GEL and a bath 50-100 GEL. Tip 10%.",
+  "Call ahead to book a private bath room (Chreli Abano). Haggle for a Gergeti 4x4 in town. Sighnaghi is full at weekends.",
+  "Georgian feasts are called supra, led by a tamada (toastmaster). \"Gaumarjos\" means cheers. Hold khinkali by the top, sip the broth and leave the top.",
+  "Kvevri amber wine (UNESCO), chacha (grape brandy), churchkhela, tkemali plum sauce and pkhali."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old Tbilisi",
+   "stops": [
+    {
+     "name": "Meidan & Sioni Katedrali",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "The heart of the old city: St Nino's hanging cross and Shardeni Street."
+    },
+    {
+     "name": "Narikala Fortress Cable Car",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 2.5,
+     "tips": "Take the cable car from Rike Park (Metromoney card). You get a 4th-century fortress, the Mother of Georgia statue and views over the Kura."
+    },
+    {
+     "name": "Abanotubani Sulphur Baths",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 50,
+     "tips": "Brick-domed 17th-century bathhouses where Pushkin is said to have bathed. A private room costs 50-100 GEL, scrub included. Orbeliani's facade is blue and looks like a mosque."
+    },
+    {
+     "name": "Café Leila Old Town",
+     "category": "food",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 30,
+     "tips": "Vegetarian Georgian food: try pkhali and lobio. On King Erekle Street."
+    },
+    {
+     "name": "Bridge of Peace & Rike Park",
+     "category": "landmark",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A glass bridge lit up at night, over the Kura River."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shavi Lomi",
+     "category": "food",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 40,
+     "tips": "A home-style restaurant full of art, serving modern Georgian food."
+    },
+    {
+     "name": "Leghvtakhevi Waterfall",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A waterfall behind the bath district. Free; a good alternative to a garden stroll."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Rustaveli & the Dry Bridge",
+   "stops": [
+    {
+     "name": "Rustaveli Avenue",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Parliament, the Opera and the Rustaveli Theatre, in Soviet and Art Nouveau styles."
+    },
+    {
+     "name": "Georgian National Museum",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Colchis gold treasures and the Museum of Soviet Occupation, plus the Dmanisi skulls (1.8 million years old)."
+    },
+    {
+     "name": "Dry Bridge Market",
+     "category": "shopping",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "A flea market selling Soviet medals, glass, kilims and paintings. Open daily, bigger at weekends."
+    },
+    {
+     "name": "Barbarestan Khinkali",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 45,
+     "tips": "Recipes from a 19th-century cookbook. Book ahead; on Aghmashenebeli."
+    },
+    {
+     "name": "Vino Underground Natural Wine",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 30,
+     "tips": "A bar for amber wine made in kvevri (clay vessels), an 8,000-year-old tradition. Tastings available."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Fabrika Tbilisi",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A hipster courtyard in a former Soviet sewing factory, with graffiti and cafes."
+    },
+    {
+     "name": "Sofia Melnikova's Fantastic Douqan",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 35,
+     "tips": "In the garden of the Writers' House; try the khachapuri."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Mtskheta",
+   "stops": [
+    {
+     "name": "Jvari Monastery",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A 6th-century cross-shaped monastery above the meeting of the Aragvi and Kura, with Lermontov views. 30 minutes by taxi or marshrutka."
+    },
+    {
+     "name": "Svetitskhoveli Cathedral",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "An 11th-century UNESCO cathedral with the legend of Christ's robe and royal tombs. Bring a headscarf."
+    },
+    {
+     "name": "Salobie Bia Mtskheta",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Lobio (bean stew) in a clay pot and mchadi cornbread: a Mtskheta classic."
+    },
+    {
+     "name": "Samtavro Monastery",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "St Nino's blackberry bush and a community of nuns."
+    },
+    {
+     "name": "Chronicle of Georgia Tbilisi",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "On the way back, Tsereteli's giant stone monument with views of the Tbilisi Sea."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shio-Mgvime Monastery",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "A 6th-century canyon monastery; an alternative to Samtavro."
+    },
+    {
+     "name": "Chateau Mukhrani",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "Wine tasting and lunch in a princely chateau, 30 minutes from Mtskheta."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Kazbegi",
+   "stops": [
+    {
+     "name": "Ananuri Fortress",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "On the Georgian Military Road (3 hours; tour about 80 GEL). A 17th-century fortress above the Zhinvali Reservoir."
+    },
+    {
+     "name": "Gudauri Panorama Russia-Georgia Friendship Monument",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A semicircle with Soviet mosaics at 2,400 m, with valley views and paragliding."
+    },
+    {
+     "name": "Gergeti Trinity Church",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "A 14th-century church at 2,170 m facing Mount Kazbek (5,047 m). Go by 4x4 (60 GEL) or a 1.5-hour climb."
+    },
+    {
+     "name": "Stepantsminda Lunch Khinkali",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Mountain-style khinkali (Mtiuluri) in the town."
+    },
+    {
+     "name": "Stepantsminda Kazbek View",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The terrace of Rooms Hotel. The return takes 3 hours, with a stop in Pasanauri."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Truso Valley",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Ghost villages with mineral springs. An extra hike if you are not on a tour."
+    },
+    {
+     "name": "Pasanauri Khinkali Stop",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "The town where khinkali was born; stop on the way back."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Kakheti wine region",
+   "stops": [
+    {
+     "name": "Bodbe Monastery",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "2 hours from Sighnaghi (tour about 100 GEL). St Nino's tomb, cypresses and the Alazani Valley."
+    },
+    {
+     "name": "Sighnaghi",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "The walled \"city of love\" with Caucasus views, a 24-hour wedding registry and a Pirosmani museum."
+    },
+    {
+     "name": "Pheasant's Tears Sighnaghi",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 50,
+     "tips": "Natural kvevri wines and lunch at John Wurdeman's winery. Tastings available."
+    },
+    {
+     "name": "Kvareli Kindzmarauli Corporation",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "A kvevri wine producer with tastings of the semi-sweet red."
+    },
+    {
+     "name": "Telavi & Alaverdi Monastery",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Telavi's main town and the 11th-century Alaverdi Cathedral (50 m tall), then the drive back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Khareba Winery Tunnel",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "A 7 km wine tunnel inside the mountain, in Kvareli."
+    },
+    {
+     "name": "Tsinandali Chavchavadze Estate",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 20,
+     "tips": "A princely manor and garden; an alternative to Telavi."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Sololaki, Mtatsminda & Vake",
+   "stops": [
+    {
+     "name": "Sololaki Courtyards",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Art Nouveau entrances and wooden balconies, the Kalantarov house and the Betlemi stairs."
+    },
+    {
+     "name": "Mother of Georgia Kartlis Deda",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "The aluminium Mother statue on Sololaki hill, holding wine and a sword."
+    },
+    {
+     "name": "Mtatsminda Funicular & Pantheon",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 5,
+     "tips": "The funicular takes you up to 770 m. See the pantheon of Griboyedov and other writers, and St David's Church."
+    },
+    {
+     "name": "Funicular Restaurant Mtatsminda",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 35,
+     "tips": "Lobiani and Acharuli khachapuri (boat-shaped), a city panorama and famous ponchiki."
+    },
+    {
+     "name": "Vake Park & Turtle Lake",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A park with a victory monument. Take the cable car to Turtle Lake and rent a boat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ethnographic Museum Tbilisi",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 5,
+     "tips": "An open-air museum of Georgian houses next to Turtle Lake."
+    },
+    {
+     "name": "Café Stamba",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 40,
+     "tips": "A stylish cafe in a Soviet printing house, in Vera."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Dezerter Bazaar and a gentle farewell",
+   "stops": [
+    {
+     "name": "Dezerter Bazaar",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "A huge local market by the station: churchkhela, suluguni, tkemali and spices."
+    },
+    {
+     "name": "Tsminda Sameba Cathedral",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "The Holy Trinity Cathedral (2004), 87 m tall with a golden dome, on Avlabari hill."
+    },
+    {
+     "name": "Machakhela Avlabari",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 25,
+     "tips": "An Adjarian khachapuri chain; a farewell meal."
+    },
+    {
+     "name": "Airport Bus 337 Freedom Square",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 1,
+     "tips": "Bus 337 takes 40 minutes (Metromoney), or take a Bolt for 30 GEL."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Metekhi Church & Vakhtang Gorgasali",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "A church on a rock and a statue of the king; an alternative to the cathedral."
+    },
+    {
+     "name": "Puri Guliani Bakery",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 8,
+     "tips": "Bread from a tone (clay oven) and lobiani, on the street."
+    }
+   ]
+  }
+ ]
+}

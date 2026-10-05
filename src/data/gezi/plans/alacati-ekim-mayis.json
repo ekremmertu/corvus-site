@@ -1,0 +1,487 @@
+{
+ "lang": "tr",
+ "slug": "alacati-ekim-mayis",
+ "altSlug": "alacati-october-may",
+ "citySlug": "alacati",
+ "destKey": "alacati",
+ "city": "Alaçatı",
+ "region": "İzmir",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 19000,
+  "attractions": 1740,
+  "transport": 1800,
+  "misc": 800
+ },
+ "notes": [
+  "Ocak ayı Alaçatı'da düşük sezondur; bazı restoran ve beach club'lar kapalı olabilir, gideceğiniz mekânın açık olduğunu bir gün önceden telefonla teyit edin.",
+  "Kışın deniz soğuktur; plaj duraklarının hepsi yürüyüş ve fotoğraf içindir, yüzme yok. Alaçatı'nın meşhur rüzgârı kışın da eser, kalın mont ve rüzgârlık şart.",
+  "Köy pazarı ve esnaf lokantaları çoğunlukla nakit çalışır; yanınızda bozuk para bulundurun, her yerde kart geçmeyebilir.",
+  "Delikli Koy, Germiyan Köyü ve Dalyanköy'e toplu taşıma ulaşmaz; günlük araç kiralamak veya anlaşmalı taksi tutmak en pratik çözümdür.",
+  "Meyhane ve restoranlarda bahşiş hesabın yaklaşık %10'u kadardır, servis ücreti eklenmemişse elden bırakılır.",
+  "Pazaryeri Camii gibi ibadet yerlerine girerken kadınların başını örtmesi ve herkesin ayakkabısız girmesi beklenir.",
+  "Taş sokaklar kaygan Arnavut kaldırımıyla döşeli; kış yağmurunda kaymayan ayakkabı tercih edin."
+ ],
+ "niche": {
+  "name": "Delikli Koy",
+  "level": "l2",
+  "why_hidden": "Alaçatı Port ile Ovacık Mahallesi arasında, son 500 metresi patika olan bu koy, iki kayanın doğal aşınmayla birleşip bir 'delik' oluşturmasıyla ünlü. Toplu taşıması ve tabelası olmadığı için popüler plaj listelerinde nadiren geçer; çoğunlukla yerel motosikletliler ve arazi sürüşü meraklıları bilir.",
+  "access_instructions": "Alaçatı Port'a gidip Alkoçlar Exclusive Alaçatı yönünde yaklaşık 4 km ilerleyin, tesisi geçtikten sonra 500 metrelik patikayı takip edin. Toplu taşıma yok; özel araç, bisiklet ya da Alaçatı merkezden tutulan taksiyle ulaşılır.",
+  "local_contact": "Yok — resmi işletme, rehber veya bilet gişesi bulunmuyor, tamamen walk-in.",
+  "season": "Yıl boyu ziyaret edilebilir; kışın (Kasım-Nisan) deniz girişi yapılmaz, sadece manzara ve yürüyüş içindir, yaz aylarında koya inilip yüzülebilir.",
+  "insider_tip": "Kışın koy tamamen ıssız kalır, yol tabelası ve çoğu zaman cep telefonu sinyali yoktur; haritayı önceden indirin. Gün batımına yakın saatlerde kayalıklar altın rengine bürünür, en fotojenik an budur.",
+  "show_reason": "Ücretsiz, yerel bilgi gerektiren ve mainstream plaj rehberlerinde nadiren geçen saklı bir koy; jeolojik 'delik' formuyla fotoğraf açısından da benzersiz.",
+  "lat": 38.227791,
+  "lng": 26.338968,
+  "address": "Ovacık Mahallesi, Alaçatı-Çeşme arası, Çeşme/İzmir",
+  "cost_range_min": 0,
+  "cost_range_max": 0,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Alaçatı'nın İmzası: Taş Sokaklar, Kilise-Cami ve Yel Değirmenleri",
+   "stops": [
+    {
+     "name": "Kemalpaşa Caddesi Taş Sokaklar",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Alaçatı'yı Alaçatı yapan taş ev dokusunu en iyi bu caddede görürsünüz; begonvillerle süslü cumbalı evler arasında erken saatte yürüyün ki kalabalıksız fotoğraf çekebilesiniz. Rengarenk kapılar sabah ışığında en güzel halini alır."
+    },
+    {
+     "name": "Apero Bakery Alaçatı",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 250,
+     "tips": "Kahvaltıdan çok filtre kahve ve ekşi mayalı çöreğiyle tanınır; tezgâh sabah erken saatte en tazedir. Oturacak yer azdır, alıp yürüyerek içmek de yaygın bir tercih."
+    },
+    {
+     "name": "Pazaryeri Camii (Ayios Konstantinos Kilisesi)",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "1874'te Rum Ortodoks kilisesi olarak inşa edilmiş, mübadeleden sonra camiye çevrilmiş; dış cephesindeki taş işçiliği hâlâ kilise formunu koruyor. Çoğu turist bunun eski bir kilise olduğunu bilmeden önünden geçer."
+    },
+    {
+     "name": "Yusuf Usta Ev Yemekleri",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 500,
+     "tips": "Alaçatı'nın en gerçek esnaf lokantası; günün çorbası ve sac kavurma tavsiye edilir. Öğlen 13:00 civarı sıcak yemek tükenmeden gidin."
+    },
+    {
+     "name": "Alaçatı Yel Değirmenleri",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "150 yıllık dört taş değirmen gün batımında altın rengine bürünür, kasabanın en bilinen fotoğraf noktasıdır. Gün batımından 30 dakika önce yer kapın, kalabalık olur."
+    },
+    {
+     "name": "Asma Yaprağı",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 750,
+     "tips": "Michelin Bib Gourmand listesindeki mekân kışın kapalı salonda hizmet veriyor; 2-3 paylaşımlık meze ile bir ana yemek bütçeyi dengede tutar. Zeytinyağlı sarma ve ot kavurması imza lezzetleri arasında."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bom Dia Alaçatı",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 350,
+     "tips": "Klasik Türk kahvaltısı yanında smoothie kâse ve yumurta çeşitleriyle bilinir. Apero Bakery'ye alternatif olarak sakin bir kahvaltı için uygun."
+    },
+    {
+     "name": "Alaçatı Açık Hava Tiyatrosu",
+     "category": "culture",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Yel değirmenlerinin hemen yanındaki bu küçük amfi, yazın konserlere ev sahipliği yapar; kışın sessizliğinde tepeden Alaçatı manzarası izlenir. Ücretsiz ve her zaman açık."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Sahil Şeridi: Ilıca, Boyalık ve Saklı Delikli Koy",
+   "stops": [
+    {
+     "name": "Ilıca Sahili",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Kışın neredeyse kimsenin olmadığı uzun kumsalda sakin bir yürüyüş yapılır; kıyı boyunca termal kaynakların buharı hissedilir. Rüzgâr güçlü olabilir, kalın mont şart."
+    },
+    {
+     "name": "Boyalık Plajı",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Ilıca'nın devamı sayılan bu 4 km'lik kumsal kışın neredeyse tenha; yazın sörfçülerin uğrak noktası, kışın sadece martılara kalır. Yürüyüş için ideal, plaj ekipmanı yok."
+    },
+    {
+     "name": "Cevat'ın Yeri (Dalyanköy)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "Onlarca yıldır aynı kalitede hizmet veren balıkçı lokantası limanın sakin atmosferinde kurulu; ahtapot salatası ve tereyağlı karides imza lezzetleri. Liman manzaralı masa için önceden telefonla haber verin."
+    },
+    {
+     "name": "Delikli Koy",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Alaçatı Port'tan yaklaşık 4 km, son 500 metresi patika; toplu taşıma yok, taksi ya da kendi aracınızla gidin. Kışın denize girilmez ama iki kayanın arasından açılan doğal deliğin manzarası gün batımına yakın en fotojenik hâlini alır."
+    },
+    {
+     "name": "Karina Alaçatı",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 750,
+     "tips": "Yıl boyu açık kalan nadir mekânlardan; taş sokağa taşan masalarında balık çeşitleri ve meze tabağı önerilir. Kışın rezervasyonsuz da yer bulunur ama hafta sonu aramakta fayda var."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Defne Yaprağı Balık Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 700,
+     "tips": "Dalyanköy'de deniz kıyısında huzurlu bir balık restoranı, 4.5 puanlık değerlendirmesiyle hem yerel hem tatilci favorisi. Cevat'ın Yeri doluysa doğrudan alternatif."
+    },
+    {
+     "name": "Yılancı Burnu",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Alaçatı'nın dünyaca bilinen rüzgâr sörfü noktası; kışın rüzgârlı ve ıssız kumsal yürüyüşü için ideal. Sandbank manzarası kışın bile etkileyici."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Çeşme Merkez: Kale, Balıkçı Barınağı ve Kumru Kültürü",
+   "stops": [
+    {
+     "name": "Çeşme Balıkçı Barınağı",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Sabah saatlerinde tekneler döner, balık mezatının canlılığı izlenir; hiçbir turistik düzenlemesi yok, tamamen yerel balıkçı hayatı. Fotoğraf çekerken balıkçılara kibar ve mesafeli olun."
+    },
+    {
+     "name": "Çeşme Kalesi ve Müzesi",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 190,
+     "tips": "1508'de Sultan II. Bayezid tarafından yaptırılan kale içinde Roma-Bizans-Osmanlı eserleri sergileniyor; kış saatleri 08:30-18:00. Burçlardan liman manzarası çok güzel."
+    },
+    {
+     "name": "Kumrucu Şevki",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 300,
+     "tips": "Çeşme'nin imza sandviçi kumru için şehrin en bilinen adresi; sucuklu-kaşarlı klasik kumru ve ayran ikilisi yeterli. Deniz kenarındaki masalar öğlen hızlı dolar."
+    },
+    {
+     "name": "Çeşme Marina",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Yat limanı boyunca yürüyüş ücretsiz ve keyifli; öğleden sonra ışığı fotoğraf için idealdir. Ferdi Baba restoranının vitrininden günün balığına göz atabilirsiniz."
+    },
+    {
+     "name": "Meyhane Şerefe",
+     "category": "food",
+     "start": "19:30",
+     "end": "22:00",
+     "cost": 850,
+     "tips": "Çeşme'nin köklü meyhanelerinden, yıl boyu açık ve canlı müzik programı gece 02:00'a kadar sürüyor. Kalabalık olabileceğinden akşam için yer ayırtmanızı öneririm."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kumrucu Hüseyin",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 300,
+     "tips": "Uzun yıllardır aynı taş binada hizmet veren aile mekânı; Kumrucu Şevki'ye uygun fiyatlı bir alternatif. Deniz manzaralı masaları var."
+    },
+    {
+     "name": "Ildırı Erythrai Antik Kenti",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 150,
+     "tips": "12 İyon kentinden biri olan Erythrai'nin kalıntıları doğal kamp alanları arasında yer alır; çoğu turistin bilmediği bir antik kenttir. Çeşme Marina yerine daha sakin bir alternatif arayanlar için."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Alaçatı Pazarı, Zeytin Bahçeleri ve Germiyan'ın Slow Food Lezzetleri",
+   "stops": [
+    {
+     "name": "Alaçatı Köy Pazarı",
+     "category": "shopping",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 250,
+     "tips": "1994'ten beri kurulan köy pazarında radika, deniz börülcesi gibi mevsim otları ve yöre kadınlarının el işi tekstilleri satılıyor. Haftalık kurulum gününü Çeşme Belediyesi'nden teyit edin, en taze ürünler sabah erken tükeniyor."
+    },
+    {
+     "name": "Alaçatı Zeytin Tarla",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 700,
+     "tips": "Kendi zeytinliği ve sebze bahçesinin ortasında kurulu; ekşi mayalı odun fırını pizzası ve mevsim salatası önerilir. Kapasitesi sınırlı, önceden arayın."
+    },
+    {
+     "name": "Germiyan Köyü",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 300,
+     "tips": "Türkiye'nin ilk Slow Food köyü; beyaz badanalı Osmanlı evleri arasında yürürken köy kadınlarının yaptığı kopanisti peyniri ve Germiyan ekmeğini tadabilirsiniz. Resmi satış noktası yok, köy meydanındaki kahvede sorarak bulabilirsiniz."
+    },
+    {
+     "name": "Momo Alaçatı",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 250,
+     "tips": "Kış aylarında da açık kalan nadir kafelerden; sıcak çikolata ve mevsim tatlıları meşhur. Soğuk günlerde taş sokakları camdan izlemek için ideal bir mola."
+    },
+    {
+     "name": "Fava Alaçatı",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 650,
+     "tips": "Bahçe konseptiyle bilinen mekânın adını verdiği fava mezesi ve zeytinyağlılar sofranın vazgeçilmezi. Kışın bahçe kısmı ısıtıcılarla kullanılıyor, yine de kalın giyinin."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tarla",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 750,
+     "tips": "Taş ev avlusunda geleneksel Ege kahvaltı-öğle kompozisyonu; taze çörekler ve ev reçelleri öne çıkıyor. Zeytin Tarla'ya rahat bir alternatif."
+    },
+    {
+     "name": "Terra Cotta Seramik Atölyesi",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "Hacımemiş'te pastel renkli el yapımı seramikler üretilen küçük atölye; ustaları iş başında izleyebilirsiniz. Germiyan gezisine vakit kalmazsa şehir içi kültür alternatifi."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Hacımemiş'in Bohem Sokakları ve Pırlanta'nın Işıltısı",
+   "stops": [
+    {
+     "name": "Sakız Reçeli",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 600,
+     "tips": "Alaçatı Çarşı'daki bu kahvaltı mekânı adını sakız (mastik) reçelinden alıyor; otlu yumurta mutlaka denenmeli. Hafta sonu canlı caz eşliğinde servis yapılıyor."
+    },
+    {
+     "name": "Hacımemiş Mahallesi Sanat Galerileri",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 150,
+     "tips": "Kemalpaşa Caddesi'nin gürültüsünden uzak, bohem ve sessiz bir mahalle; cam işçiliği ve seramik atölyelerine göz atabilirsiniz. El yapımı seramikler hediyelik için iyi bir seçenek."
+    },
+    {
+     "name": "Pırlanta Plajı",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "İnce, parlayan kumundan adını alan bu SİT alanı kışın yürüyüş ve fotoğraf için sakin bir durak; yazın sörfçülerin uğrak noktası, kışın neredeyse boş kalıyor. Alaçatı'dan araçla yaklaşık 25-30 dakika sürüyor."
+    },
+    {
+     "name": "Sota Alaçatı (Viento Otel)",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 750,
+     "tips": "Viento Otel bünyesinde yıl boyu hizmet veren şık bir restoran; Ege mutfağının modern yorumları sunuluyor. Kışın daha sakin olduğu için masa bulma şansınız yüksek, yine de arayın."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Roka",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 700,
+     "tips": "Alaçatılıların da sevdiği, mevsimsel Ege mutfağı sunan sakin bir restoran. Sota'ya rezervasyon yapılamazsa iyi bir alternatif."
+    },
+    {
+     "name": "Çiftlikköy Halk Plajı",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Pırlanta'ya yakın, sakin bir belediye plajı; kışın ıssız yürüyüş için uygun. Pırlanta kalabalıksa doğrudan alternatif."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Urla: Şarap Bağları, Zeytinyağı ve Eski Çarşı",
+   "stops": [
+    {
+     "name": "Urla Eski Çarşı (Arasta Çarşısı)",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "İki asırlık Malgaca Pazarı ve Arasta Çarşısı'nda hâlâ çalışan terzi, saatçi ve kumaşçı esnafını görebilirsiniz. Alaçatı'dan araçla yaklaşık 40 dakika, sabah erken çıkarsanız günü rahat kullanırsınız."
+    },
+    {
+     "name": "Köstem Zeytinyağı Müzesi",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 180,
+     "tips": "Dünyanın en büyük zeytinyağı müzelerinden biri; Anadolu'nun tarihi zeytin ezme sistemlerini sergiliyor. Pazartesi kapalı, hafta içi 10:00-17:00 arası ziyaret edilebilir."
+    },
+    {
+     "name": "Urla Bağ Rotası: İki Şaraphanede Tadım Turu",
+     "category": "food",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 1300,
+     "tips": "Urla'nın 6.000 yıllık bağcılık geleneğini iki butik şaraphanede tadım eşliğinde keşfediyorsunuz, transfer tura dahil. Rezervasyonu en az 2 gün önceden yapın, kış aylarında tur sıklığı azalıyor.",
+     "bookingUrl": "https://www.viator.com/searchResults/all?text=Wine+Tasting+Tour+at+Two+Wineries+in+Urla+Turkey",
+     "bookingProvider": "Viator"
+    },
+    {
+     "name": "Barbun Alaçatı",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 700,
+     "tips": "Urla dönüşü Alaçatı'da akşam yemeği için sevilen adreslerden; balık ve meze dengesini iyi kuruyor. Şarap turundan sonra hafif bir menü tercih edenler için uygun."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Urla Şarapçılık Tadım",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 600,
+     "tips": "Bölgenin köklü üreticilerinden biri, rezervasyonsuz kısa tadım imkânı sunar. Organize tur dolarsa bağımsız gidilebilecek bir alternatif."
+    },
+    {
+     "name": "Urla Sanat Sokağı",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Antikalar, el yapımı sanat ürünleri ve seramiklerin sergilendiği sokak; ustaları iş başında izleyebilirsiniz. Eski Çarşı'ya yürüme mesafesinde."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Sığacık ve Teos: Antik Liman Kasabası",
+   "stops": [
+    {
+     "name": "Sığacık Kaleiçi",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Kaptan-ı Derya Barbaros'un yaptırdığı surlarla çevrili küçük balıkçı kasabası; dar sokakları ve rengarenk kapılarıyla Alaçatı'nın kalabalıksız hâli gibi. Alaçatı'dan araçla yaklaşık 50 dakika."
+    },
+    {
+     "name": "Teos Antik Kenti",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 200,
+     "tips": "MÖ 1000'lerden kalma bu İyon kentinde Anadolu'nun en büyük Dionysos Tapınağı ve antik tiyatro yer alıyor; gezi yaklaşık 1,5-2 saat sürüyor. Kış saatleri 08:30-17:30."
+    },
+    {
+     "name": "La'dude Art Cafe",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 400,
+     "tips": "Sığacık Kaleiçi'nde en iyi gözlemeyi yapan sanat temalı kafe; peynirli ya da ıspanaklı gözleme ve ayran klasik ikili. Dönüş yoluna çıkmadan önce hafif bir öğle molası için ideal."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ermiş Balıkçılık",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "Sığacık'ta levrek, kalamar ve karidesiyle bilinen köklü bir balıkçı restoranı. La'dude doluysa doğrudan alternatif."
+    },
+    {
+     "name": "Akkum Plajı",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Sığacık'a yakın sakin bir kumsal; kışın yürüyüş için uygun, Teos'a alternatif kısa bir doğa molası. Yazın aile plajı olarak bilinir."
+    }
+   ]
+  }
+ ]
+}

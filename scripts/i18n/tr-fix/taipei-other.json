@@ -1,0 +1,33 @@
+{
+ "source": "b3ca99b08a3e",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "89. kat; sabah ilk slot kalabalıksızdır. Rüzgâr sönümleyici topu gör.",
+  "d1.s2.tips": "Xiaolongbao'nun doğduğu marka; 11:45'te numara al.",
+  "d1.s4.tips": "20 dakika dik merdiven; Taipei 101'in gün batımı fotoğrafı, kalabalık ama değer.",
+  "d2.s0.tips": "Çin imparatorluk hazinesi; yeşim lahana ve et taşı. Salı-cumartesi git, sabah tur otobüsleri gelmeden önce gir.",
+  "d2.s1.tips": "Çan Kay-şek'in konutunun bahçeleri; gül bahçesi.",
+  "d2.s2.tips": "Taipei'nin en iyi sığır etli erişte çorbası (Bib Gourmand); berrak et suyu.",
+  "d2.b1.tips": "Japon dönemi kaplıca binası; yağmurlu günde git.",
+  "d3.s2.tips": "Demiryolu üstünde dilek feneri uçur (150 TWD); tren geçişini izle.",
+  "d3.s3.tips": "Teraslı dağ kasabası; taro topu ve çay evleri, Spirited Away havası.",
+  "d3.s4.tips": "Kırmızı fenerli çay evi; oolong ve manzara, gün batımında fenerler yanar.",
+  "d4.s4.tips": "Nehir kenarı konteyner barlar; gün batımı ve bisiklet.",
+  "d4.b1.tips": "Taipei'nin Shibuya'sı; gençlik ve sokak sanatı, rıhtım yerine.",
+  "d5.s1.tips": "Tepede oolong çayı ve çaylı yemek; Taipei manzarası.",
+  "d5.s4.tips": "Tek sokak gece pazarı; girişte kömürde pişen biberli çörek (Fuzhou pepper bun).",
+  "d6.s1.tips": "Hollanda-İspanyol kalesi ve İngiliz konsolosluğu; kırmızı bina.",
+  "d6.s2.tips": "Tofu içinde şeffaf erişte; Tamsui'nin yemeği.",
+  "d7.s3.tips": "Şehir ormanı; son yürüyüş. MRT ile Taoyuan Havalimanı'na 40 dakika.",
+  "note0": "EasyCard MRT, otobüs ve YouBike'ta geçer; MRT'de yeme-içme yasak (ceza var). MRT ile Taoyuan Havalimanı'na 40 dakika.",
+  "note1": "Ekim-Aralık en iyi mevsim (22-26°C). Ocak-Şubat 12-15°C ve yağmurlu, kaplıca sezonu. Çin Yeni Yılı'nda dükkânlar kapalı.",
+  "note2": "Gece pazarları 18:00-24:00 açık; 300 TWD ile doyarsın. Bahşiş yok, nakit hâlâ yaygın.",
+  "note3": "Jiufen-Shifen-Yehliu için tur (~1.500 TWD) ya da 1062 otobüsü; Jiufen'e öğleden sonra git, fenerler 17:00'den sonra yanar.",
+  "note4": "Din Tai Fung'da numara al; Yongkang'da Lin Dong Fang erişte 250 TWD.",
+  "note5": "Tapınaklarda ayakkabı çıkarılmaz; fal blokları ve tütsü serbest.",
+  "transit.why_chosen": "MRT, otobüs, YouBike ve marketlerde geçer; Jiufen otobüsü dahil."
+ },
+ "warnings": [
+  "d4.s3.tips: uzunluk çok değişti → düzeltme atıldı"
+ ]
+}

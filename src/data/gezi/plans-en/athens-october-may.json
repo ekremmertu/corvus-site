@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "athens-october-may",
+ "altSlug": "atina-ekim-mayis",
+ "citySlug": "atina",
+ "destKey": "athens",
+ "city": "Athens",
+ "region": null,
+ "country": "Greece",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 300,
+  "attractions": 150,
+  "transport": 70,
+  "misc": 60
+ },
+ "notes": [
+  "The metro has 3 lines; the airport metro takes 40 minutes and costs 10 EUR. Take the tram to the Riviera, a KTEL bus to Sounion (Pedion Areos), and a Piraeus ferry to the islands.",
+  "The Acropolis costs 30 EUR with a timed online ticket. The 7-site combined ticket costs 36 EUR (valid for 5 days). Entry is free on the first Sunday (November to March).",
+  "Winter is sunny at 10-15°C, with no crowds. Lake Vouliagmeni stays warm in winter, and sunset at Sounion is at 17:00.",
+  "Souvlaki costs 4-5 EUR and a taverna meal 15-25 EUR. Drink freddo espresso as your coffee, and round up the bill as a tip; there is no coperto (cover charge).",
+  "Watch for pickpockets on the metro and in Monastiraki. Omonia is quiet at night.",
+  "On Sundays there is the Monastiraki flea market and the Syntagma ceremony. Museums may be closed on Tuesdays."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Acropolis and Plaka",
+   "stops": [
+    {
+     "name": "Acropolis of Athens",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 30,
+     "tips": "The Parthenon. Book a timed online ticket for the 08:00 opening (30 EUR, or 36 EUR for the 7-site combined ticket). In summer it may close from 12:00 to 17:00 because of the heat."
+    },
+    {
+     "name": "Acropolis Museum",
+     "category": "culture",
+     "start": "10:15",
+     "end": "12:00",
+     "cost": 20,
+     "tips": "A museum with glass floors, the Parthenon frieze and a café with Acropolis views."
+    },
+    {
+     "name": "Plaka",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Neoclassical streets at the foot of the Acropolis, plus the white Cycladic-style houses of Anafiotika."
+    },
+    {
+     "name": "Kostas Souvlaki Syntagma",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 4,
+     "tips": "One type of souvlaki since 1950, on Agia Irini square. It closes at 14:00."
+    },
+    {
+     "name": "Anafiotika",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "An island village tucked against the Acropolis rock, with narrow stairways and cats."
+    }
+   ],
+   "backups": [
+    {
+     "name": "O Thanasis Monastiraki",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "A kebab and pitta classic on Monastiraki square."
+    },
+    {
+     "name": "Areopagus Hill",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A rocky hill beside the Acropolis with free views and sunset."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Ancient Agora and Monastiraki",
+   "stops": [
+    {
+     "name": "Ancient Agora of Athens",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Covered by the combined ticket. The Temple of Hephaestus is the best-preserved Greek temple, and the Stoa has a museum."
+    },
+    {
+     "name": "Monastiraki Flea Market",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "An antiques market on Sundays. On other days the shops are open, around Avissinias square."
+    },
+    {
+     "name": "Roman Agora and Tower of the Winds",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Combined ticket. The tower is an octagonal water clock."
+    },
+    {
+     "name": "Varvakios Central Market",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "The central meat and fish market. The tavernas inside serve patsas (tripe soup) and grilled dishes."
+    },
+    {
+     "name": "Psyrri",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A graffiti-covered neighbourhood with cafés and Little Kook, and meyhanes (taverns) in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Diporto Varvakios",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "A basement taverna with no menu. Chickpeas and fish, cash only."
+    },
+    {
+     "name": "Kerameikos",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "An ancient cemetery. Combined ticket, and quieter than the Roman Agora."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Lycabettus, Kolonaki and museums",
+   "stops": [
+    {
+     "name": "Mount Lycabettus",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:45",
+     "cost": 10,
+     "tips": "Take the funicular or climb for 20 minutes. It is the highest point in Athens, with views of the Acropolis and the sea."
+    },
+    {
+     "name": "Kolonaki",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A chic neighbourhood with cafés along Skoufa street."
+    },
+    {
+     "name": "Benaki Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 12,
+     "tips": "Greek history and crafts in a mansion, with a terrace café."
+    },
+    {
+     "name": "National Archaeological Museum",
+     "category": "culture",
+     "start": "13:15",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "The Mycenaean gold mask and the Antikythera mechanism. Air-conditioned, so good for the midday heat."
+    },
+    {
+     "name": "Exarcheia",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "An anarchist and student neighbourhood with record shops and rebetiko bars."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Philos Athens Kolonaki",
+     "category": "food",
+     "start": "13:15",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "Brunch in Kolonaki, as a lunch alternative to the museum."
+    },
+    {
+     "name": "Museum of Cycladic Art",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 12,
+     "tips": "Cycladic idols, as an alternative to the Benaki."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "The Athens Riviera",
+   "stops": [
+    {
+     "name": "Lake Vouliagmeni",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 15,
+     "tips": "One hour by tram and bus. A thermal lake with fish pedicures, and 22°C even in winter."
+    },
+    {
+     "name": "Kavouri Coastal Walk",
+     "category": "nature",
+     "start": "11:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "A pine-lined coastal path in Kavouri, with winter sun."
+    },
+    {
+     "name": "Ithaki Restaurant Vouliagmeni",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 40,
+     "tips": "Seafront fish, a Riviera classic."
+    },
+    {
+     "name": "Glyfada Centre",
+     "category": "shopping",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "The Riviera's shopping district. Return by tram."
+    },
+    {
+     "name": "Flisvos Marina",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "A marina promenade and sunset spot, with the Averof battleship."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Akrogiali Vouliagmeni",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 25,
+     "tips": "An affordable fish taverna."
+    },
+    {
+     "name": "Stavros Niarchos Foundation Park",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "A Renzo Piano park and opera house, as an alternative to Flisvos."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Sounion",
+   "stops": [
+    {
+     "name": "Lavrio Archaeological Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 4,
+     "tips": "In an ancient silver-mining town on the way, 1.5 hours from Athens by KTEL bus."
+    },
+    {
+     "name": "Akrogiali Sounion Taverna",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "A fish taverna in the bay with views of the temple."
+    },
+    {
+     "name": "Sounion Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A winter beach walk."
+    },
+    {
+     "name": "Temple of Poseidon Sounion",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 20,
+     "tips": "A temple on the cape. Arrive at 17:30 for sunset (16:30 in winter). Byron's signature is carved on a column."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cape Sounion Sunset Café",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 10,
+     "tips": "A café next to the temple."
+    },
+    {
+     "name": "Lavrio Port",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A fishing harbour, as an alternative to the museum."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Aegina",
+   "stops": [
+    {
+     "name": "Aegina Port",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A 40-minute ferry from Piraeus (about 10 EUR). The pistachio island, with horse-drawn carriages."
+    },
+    {
+     "name": "Temple of Aphaia",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 6,
+     "tips": "A Doric temple on a hilltop in Aegina, older than the Parthenon."
+    },
+    {
+     "name": "Agia Marina Aegina",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "A sandy beach and village, good for a winter walk."
+    },
+    {
+     "name": "Skotadis Aegina",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "A fish taverna on the harbour, with pistachio desserts."
+    },
+    {
+     "name": "Aegina Pistachio Market",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Buy Aegina pistachios as souvenirs. The ferry leaves at 17:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Aegina Miltos Balık",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 35,
+     "tips": "An alternative taverna."
+    },
+    {
+     "name": "Paleochora Aegina",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "An alternative route."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Panathenaic and National Garden: a gentle farewell",
+   "stops": [
+    {
+     "name": "Panathenaic Stadium",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 10,
+     "tips": "A marble Olympic stadium. Run on the track."
+    },
+    {
+     "name": "National Garden Athens",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "A royal garden with palms and turtles, next to the Zappeion."
+    },
+    {
+     "name": "Syntagma Changing of the Guard",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "The Evzones guards change every hour. On Sundays at 11:00 there is a large ceremony."
+    },
+    {
+     "name": "Ta Karamanlidika tou Fani",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 18,
+     "tips": "A deli and meyhane (tavern). Pastirma (cured beef) and cheese platter for a farewell."
+    },
+    {
+     "name": "Syntagma Metro Airport",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The airport metro takes 40 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Feyrouz Athens",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 8,
+     "tips": "Lahmacun (thin Turkish flatbread with minced meat) and cheese pides. A quick farewell meal."
+    },
+    {
+     "name": "Temple of Olympian Zeus",
+     "category": "culture",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Combined ticket. Giant columns, as an alternative to the stadium."
+    }
+   ]
+  }
+ ]
+}

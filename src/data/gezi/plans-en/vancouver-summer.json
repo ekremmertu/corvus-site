@@ -1,0 +1,477 @@
+{
+ "lang": "en",
+ "slug": "vancouver-summer",
+ "altSlug": "vancouver-yaz",
+ "citySlug": "vancouver",
+ "destKey": "vancouver",
+ "city": "Vancouver",
+ "region": null,
+ "country": "Canada",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "CAD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 450,
+  "attractions": 450,
+  "transport": 150,
+  "misc": 80
+ },
+ "notes": [
+  "Get a Compass card for the SkyTrain, buses and SeaBus (North Vancouver). The Canada Line to YVR takes 25 minutes (extra 5 CAD). Free shuttles to Capilano and Grouse leave from Canada Place.",
+  "Summer is dry and 22-26°C, with daylight until 21:30. The Celebration of Light fireworks (July-August), Whistler summit hikes and the beaches make this the best season.",
+  "Tax (12%) is not included in prices, and tipping is 18%. Capilano is expensive at 75 CAD (Lynn is free), Grouse is 80 and the Whistler bus is 50-70.",
+  "Try salmon, sushi (Miku aburi), Japadog and spot prawns (May); have breakfast at Granville Market.",
+  "Book your Whistler bus with Skylynx days ahead. Peak 2 Peak is cheaper on summer weekdays; combine it with the Sea to Sky Gondola.",
+  "Apply for the Canada eTA online. Vancouver is safe; just pass through the Downtown Eastside (Hastings) without stopping."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Stanley Park and Coal Harbour",
+   "stops": [
+    {
+     "name": "Stanley Park Seawall Bisiklet",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Rent a bike from Denny's/Spokes (15 CAD for 2 hours). Ride the 9 km seawall, passing under Lions Gate Bridge to Third Beach."
+    },
+    {
+     "name": "Stanley Park Totem Poles",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The totem poles at Brockton Point; First Nations heritage."
+    },
+    {
+     "name": "Vancouver Aquarium",
+     "category": "culture",
+     "start": "12:15",
+     "end": "14:00",
+     "cost": 45,
+     "tips": "Inside the park; sea otters and the Amazon gallery."
+    },
+    {
+     "name": "Prospect Point Cafe",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Park cafe with views of the bridge."
+    },
+    {
+     "name": "Coal Harbour Seawall & Canada Place",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "The terminal with its sail-shaped roofs. Try FlyOver Canada (35 CAD) and watch seaplanes take off and land."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cardero's Coal Harbour",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 35,
+     "tips": "Marina restaurant; try the salmon."
+    },
+    {
+     "name": "Vancouver Lookout Harbour Centre",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Observation tower; an alternative to the aquarium."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Granville Island and Kitsilano",
+   "stops": [
+    {
+     "name": "Granville Island Public Market",
+     "category": "food",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 20,
+     "tips": "An arts island under the bridge. Try Lee's Donuts and the salmon, and take the Aquabus ferry (5 CAD) to get there."
+    },
+    {
+     "name": "Granville Island Sanatçı Atölyeleri",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Glass, ceramics and the Net Loft; Kids Market."
+    },
+    {
+     "name": "Kitsilano Beach",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Kits Beach and its saltwater pool (137 m, summer only), with mountain views."
+    },
+    {
+     "name": "Sophie's Cosmic Cafe Kitsilano",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 18,
+     "tips": "Retro brunch on 4th Avenue."
+    },
+    {
+     "name": "Museum of Anthropology UBC",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:30",
+     "cost": 25,
+     "tips": "Bill Reid's Raven sculpture and totem poles, in a glass building on the UBC campus."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Vanier Park & Museum of Vancouver",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:30",
+     "cost": 20,
+     "tips": "Space centre and city museum; close to MOA, so a good alternative."
+    },
+    {
+     "name": "Go Fish Granville",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 18,
+     "tips": "Fish taco shack on the pier."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "North Shore: Capilano and Grouse",
+   "stops": [
+    {
+     "name": "Capilano Suspension Bridge Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 75,
+     "tips": "A 137 m suspension bridge, plus Treetops and Cliffwalk. Take the free shuttle from Canada Place; it is quiet at 09:00. In winter, see the Canyon Lights."
+    },
+    {
+     "name": "Grouse Mountain Skyride",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:30",
+     "cost": 80,
+     "tips": "Ride the gondola up to 1,100 m. Watch the lumberjack show, see the grizzly bears, or tackle the Grouse Grind (a steep 2.9 km hike, free to climb)."
+    },
+    {
+     "name": "Grouse Mountain Altitudes Bistro",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 25,
+     "tips": "Lunch at the summit with views over the city."
+    },
+    {
+     "name": "Lynn Canyon Park",
+     "category": "nature",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Free suspension bridge and the 30 Foot Pool; Capilano's free sibling."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lonsdale Quay Market",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 18,
+     "tips": "Market by the SeaBus terminal in North Vancouver."
+    },
+    {
+     "name": "Deep Cove",
+     "category": "nature",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Canoe rental and the Quarry Rock hike; try the Honey Doughnuts. A good alternative to Lynn."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Whistler",
+   "stops": [
+    {
+     "name": "Sea to Sky Highway Shannon Falls",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Take the bus (Skylynx/YVR), about 2 hours. On the way, stop at the 335 m waterfall and see the Stawamus Chief."
+    },
+    {
+     "name": "Sea to Sky Gondola Squamish",
+     "category": "nature",
+     "start": "09:15",
+     "end": "10:45",
+     "cost": 70,
+     "tips": "Gondola up to 885 m, with a suspension bridge and fjord views."
+    },
+    {
+     "name": "Whistler Village",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The pedestrian Olympic village, with the rings and shops."
+    },
+    {
+     "name": "Peak 2 Peak Gondola",
+     "category": "nature",
+     "start": "12:30",
+     "end": "15:00",
+     "cost": 90,
+     "tips": "The record-breaking gondola (3 km) between Whistler and Blackcomb. Enjoy summit hikes and glacier views in summer, skiing in winter."
+    },
+    {
+     "name": "Purebread Whistler",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 12,
+     "tips": "A legendary bakery; try the scones and cakes, then catch the return bus."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Brandywine Falls",
+     "category": "nature",
+     "start": "09:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "A 70 m waterfall; free, so a good alternative to the gondola."
+    },
+    {
+     "name": "Araxi Whistler",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 50,
+     "tips": "The village's chef-led restaurant."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Gastown, Chinatown and Yaletown",
+   "stops": [
+    {
+     "name": "Gastown Steam Clock",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "The steam clock whistles every 15 minutes. Visit Gassy Jack Square and its cobblestones."
+    },
+    {
+     "name": "Dr. Sun Yat-Sen Classical Chinese Garden",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 16,
+     "tips": "The first Ming-style garden outside China; the neighbouring park is free."
+    },
+    {
+     "name": "Phnom Penh",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 25,
+     "tips": "Cambodian-Vietnamese food; try the chicken wings and beef luc lac. Expect a queue."
+    },
+    {
+     "name": "Yaletown",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A former warehouse district. See the Roundhouse locomotive, David Lam Park and the False Creek seawall."
+    },
+    {
+     "name": "Japadog Robson",
+     "category": "food",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "Japanese-style hot dogs (terimayo); on Robson Street."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Meat & Bread Gastown",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "Porchetta sandwich in Gastown."
+    },
+    {
+     "name": "Vancouver Art Gallery",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 30,
+     "tips": "The Emily Carr collection; an alternative to the police museum."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Queen Elizabeth and Commercial Drive",
+   "stops": [
+    {
+     "name": "Queen Elizabeth Park",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The city's highest point, with quarry gardens, the skyline and the Bloedel Conservatory (8 CAD)."
+    },
+    {
+     "name": "VanDusen Botanical Garden",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 13,
+     "tips": "Summer flowers and a maze."
+    },
+    {
+     "name": "Main Street Vintage",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Vintage and design shops in Mount Pleasant, plus murals (August festival)."
+    },
+    {
+     "name": "Commercial Drive",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 20,
+     "tips": "Little Italy: coffee at Cafe Calabria, Havana, and sandwiches at La Grotta del Formaggio."
+    },
+    {
+     "name": "Trout Lake Park",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A neighbourhood lake; farmers' market on Saturdays."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Vij's Restaurant",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 45,
+     "tips": "Canada's famous Indian restaurant on Cambie. No reservations, so expect a queue."
+    },
+    {
+     "name": "Science World",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 35,
+     "tips": "Science museum in a geodesic dome by False Creek; an alternative to the garden (with kids)."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "English Bay: a gentle farewell",
+   "stops": [
+    {
+     "name": "English Bay Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "A-maze-ing Laughter sculptures and the Inukshuk; a good morning walk."
+    },
+    {
+     "name": "Davie Village",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Rainbow crosswalks and cafes in the West End."
+    },
+    {
+     "name": "Medina Cafe",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 22,
+     "tips": "The city's most famous brunch; waffles and tagine. Expect a queue."
+    },
+    {
+     "name": "Waterfront Canada Line YVR",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 10,
+     "tips": "The Canada Line reaches the airport in 25 minutes. Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Breka Bakery Davie",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 10,
+     "tips": "24-hour bakery; breakfast."
+    },
+    {
+     "name": "Roedde House Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 8,
+     "tips": "A Victorian house in the West End; an alternative to Davie."
+    }
+   ]
+  }
+ ]
+}

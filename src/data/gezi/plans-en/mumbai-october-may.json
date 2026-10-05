@@ -1,0 +1,493 @@
+{
+ "lang": "en",
+ "slug": "mumbai-october-may",
+ "altSlug": "mumbai-ekim-mayis",
+ "citySlug": "mumbai",
+ "destKey": "mumbai",
+ "city": "Mumbai",
+ "region": null,
+ "country": "India",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "INR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9000,
+  "attractions": 5000,
+  "transport": 4000,
+  "misc": 2500
+ },
+ "notes": [
+  "Use Uber/Ola (air-conditioned) and black-and-yellow taxis (metered); suburban trains are very crowded (the first carriage is reserved for women). Metro Line 3 (Colaba-Bandra-airport) has been running since 2025. The airport takes 45-90 minutes depending on traffic.",
+  "The best time is November to February (25-30°C, dry). March to May is 35°C and humid. Diwali falls in October and the Ganesh festival in September (statues are immersed at Chowpatty).",
+  "Get an e-Visa (30 days) online. Carry cash in INR (break your 500 notes); UPI is limited for foreigners, and cards work at larger places.",
+  "Street food: vada pav 20-30, pav bhaji 100, bhel puri 60; breakfast at an Irani cafe 300; restaurant meals 600-1,000. Drink bottled water; be careful with ice and raw salads.",
+  "Elephanta is closed on Mondays and Britannia on Sundays; go to Haji Ali at low tide; museums open at 10:15.",
+  "Take the Dharavi tour only with a responsible company (Reality Tours); a Bollywood studio tour (Film City) costs 2,000+ INR."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Colaba and South Mumbai",
+   "stops": [
+    {
+     "name": "Gateway of India",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 0,
+     "tips": "A basalt triumphal arch built in 1924, opposite the Taj Mahal Palace Hotel. Watch the morning pigeons and boats."
+    },
+    {
+     "name": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 700,
+     "tips": "The former Prince of Wales Museum: an Indo-Saracenic dome, miniature paintings and an audio guide."
+    },
+    {
+     "name": "Kala Ghoda Art District",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Galleries, the free Jehangir Art Gallery and Rhythm House; there is a festival in February."
+    },
+    {
+     "name": "Leopold Cafe",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "A Parsi cafe dating from 1871 (of Shantaram fame); beer and chicken tikka, with bullet marks still on the walls."
+    },
+    {
+     "name": "Colaba Causeway",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A street market: haggle, and clothes and souvenirs are cheap."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bademiya Colaba",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 400,
+     "tips": "A late-night kebab stand behind the Taj: seekh kebab and roti."
+    },
+    {
+     "name": "Afghan Church Colaba",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A church from 1858; quieter than Kala Ghoda."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Elephanta Island and Marine Drive",
+   "stops": [
+    {
+     "name": "Elephanta Caves",
+     "category": "culture",
+     "start": "09:00",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "1 hour by ferry from the Gateway (about 200 INR, first boat 09:00); 6th-century rock-cut Shiva temples, the Trimurti and 120 steps. Watch out for monkeys; closed on Mondays."
+    },
+    {
+     "name": "Gateway of India Ferry Terminal",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "For the return trip; Elephanta has only snacks."
+    },
+    {
+     "name": "Britannia & Co Ballard Estate",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 700,
+     "tips": "A Parsi cafe from 1923; berry pulao, closed on Sundays and shuts at 16:00."
+    },
+    {
+     "name": "Marine Drive",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "The \"Queen's Necklace\", a 3.6 km seafront; walk from Nariman Point to Chowpatty and watch the sunset and the street lamps."
+    },
+    {
+     "name": "Girgaon Chowpatty Beach",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 200,
+     "tips": "The beach has bhel puri and pav bhaji stands; swimming is not allowed."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kanheri Caves Sanjay Gandhi",
+     "category": "culture",
+     "start": "09:00",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "If the ferry is cancelled: 109 Buddhist caves in the national park, near Borivali."
+    },
+    {
+     "name": "Cafe Mondegar Colaba",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 600,
+     "tips": "A cafe with Mario Miranda murals; beer and sandwiches."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "CST, Crawford and Haji Ali",
+   "stops": [
+    {
+     "name": "Chhatrapati Shivaji Maharaj Terminus",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "A UNESCO-listed Victorian Gothic station with 3 million passengers a day. Look from outside and in the hall."
+    },
+    {
+     "name": "Dhobi Ghat Mahalaxmi",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "The world's largest open-air laundry; view it from the bridge, or take a tour for 200 INR."
+    },
+    {
+     "name": "Haji Ali Dargah",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "A shrine in the sea dating from 1431; reached by a causeway (open only at low tide), with loudspeaker chanting. A head covering is required."
+    },
+    {
+     "name": "Haji Ali Juice Centre",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 200,
+     "tips": "The famous juice shop opposite; try the custard apple cream."
+    },
+    {
+     "name": "Mani Bhavan Gandhi Museum",
+     "category": "culture",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Gandhi's Mumbai home between 1917 and 1934; in Gamdevi, free entry."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shree Thaker Bhojanalay Kalbadevi",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 600,
+     "tips": "Unlimited Gujarati thali; a well-known spot."
+    },
+    {
+     "name": "Mahalaxmi Temple",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "A seaside temple; go here instead of Haji Ali at high tide."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Dharavi and Banganga",
+   "stops": [
+    {
+     "name": "Dharavi Slum Tour Reality Tours",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 1200,
+     "tips": "One of Asia's largest slums, with recycling, leather and pottery workshops. Go with a responsible tour; no photos are allowed, and 80% of the income goes to the community."
+    },
+    {
+     "name": "Mahim Dargah",
+     "category": "culture",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "A 15th-century shrine near Dharavi."
+    },
+    {
+     "name": "Sarvi Byculla",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 500,
+     "tips": "A place from the 1920s; seekh kebab and khichda; in Byculla."
+    },
+    {
+     "name": "Banganga Tank",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A sacred tank on Malabar Hill dating from 1127; a village-like corner of Mumbai."
+    },
+    {
+     "name": "Hanging Gardens Malabar Hill",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Sculpted hedges and views of Marine Drive; the Shoe House is in Kamala Nehru Park."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bhau Daji Lad Museum Byculla",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 100,
+     "tips": "The city's oldest museum; in Byculla, as an alternative to Banganga."
+    },
+    {
+     "name": "Swati Snacks Tardeo",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 400,
+     "tips": "A Gujarati street food restaurant; panki and dahi puri."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Bandra",
+   "stops": [
+    {
+     "name": "Mount Mary Basilica",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "A basilica on Bandra Hill; the Bandra Fair takes place in September."
+    },
+    {
+     "name": "Bandstand Promenade",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "The seafront; Shah Rukh Khan's home Mannat, and views of the Sea Link from Bandra Fort."
+    },
+    {
+     "name": "Candies Bandra",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 400,
+     "tips": "A cafe with a garden; Parsi and Goan food, a city favourite."
+    },
+    {
+     "name": "Linking Road and Hill Road",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A street market selling cheap shoes and clothes."
+    },
+    {
+     "name": "Carter Road Sunset",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "A rocky seafront promenade; popular with Bandra's young crowd, with cafes."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Elco Bandra",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "A pani puri and chaat stop on Hill Road."
+    },
+    {
+     "name": "Pali Village Cafe",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 800,
+     "tips": "An ivy-covered cafe in Pali Hill; go in the evening."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Sanjay Gandhi and Juhu",
+   "stops": [
+    {
+     "name": "Sanjay Gandhi National Park",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 100,
+     "tips": "A 100 km² forest inside the city, at Borivali. There are leopards (not seen in daytime) and a tiger safari."
+    },
+    {
+     "name": "Kanheri Caves",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 300,
+     "tips": "109 Buddhist caves dating from the 1st century BCE to the 10th century; 20 minutes by park bus."
+    },
+    {
+     "name": "Global Vipassana Pagoda",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The world's largest stone dome, in Gorai; take the ferry (from Borivali West). Meditation is offered."
+    },
+    {
+     "name": "Juhu Beach",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "The Bollywood beach: pav bhaji and gola stands, and sunset; swimming is not allowed."
+    },
+    {
+     "name": "Prithvi Cafe Juhu",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 300,
+     "tips": "A theatre cafe; Irish coffee and keema pav, with play evenings."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Anand Stall Juhu",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 150,
+     "tips": "Vada pav and dosa opposite Mithibai College; street food."
+    },
+    {
+     "name": "ISKCON Juhu",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The Hare Krishna Temple; a nearby alternative to the pagoda."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Fort morning and a gentle farewell",
+   "stops": [
+    {
+     "name": "Asiatic Society Library Town Hall",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "A neoclassical building from 1830 on Horniman Circle; its steps look like a Bollywood set."
+    },
+    {
+     "name": "Horniman Circle Gardens",
+     "category": "nature",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "A garden and St Thomas Cathedral (1718)."
+    },
+    {
+     "name": "Kyani & Co Marine Lines",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 300,
+     "tips": "An Irani cafe from 1904; bun maska and chai, keema; a farewell stop."
+    },
+    {
+     "name": "Ashok Vada Pav Dadar",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 30,
+     "tips": "The city's most famous vada pav (potato fritter in a bread roll); near Kirti College."
+    },
+    {
+     "name": "Mumbai Airport Metro/Taxi",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "45-90 minutes by Uber/Ola, depending on traffic; farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yazdani Bakery Fort",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 150,
+     "tips": "An Irani bakery from 1953; brun maska."
+    },
+    {
+     "name": "Flora Fountain",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "A fountain on Fort Square; an alternative to the garden."
+    }
+   ]
+  }
+ ]
+}

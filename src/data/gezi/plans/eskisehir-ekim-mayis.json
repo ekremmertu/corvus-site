@@ -1,0 +1,469 @@
+{
+ "lang": "tr",
+ "slug": "eskisehir-ekim-mayis",
+ "altSlug": "eskisehir-october-may",
+ "citySlug": "eskisehir",
+ "destKey": "eskisehir",
+ "city": "Eskişehir",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 5000,
+  "attractions": 1300,
+  "transport": 1800,
+  "misc": 500
+ },
+ "notes": [
+  "Eskişehir YHT ile İstanbul 2,5, Ankara 1,5 saat; şehir içi tramvay (ESTRAM) her yere gider. Frig Vadisi ve Sivrihisar için araç.",
+  "Çibörek, balaban köfte, met helvası ve Tatar mantısı yöresel; Odunpazarı'nda çibörekçiler.",
+  "Kış soğuk (-5°C) ve karlı; Odunpazarı kar altında güzel, müzeler kapalı mekânda gezilir.",
+  "Odunpazarı Modern Müze pazartesi kapalı; giriş ~300 TL.",
+  "Öğrenci şehri: kafeler ucuz, akşam hareketli.",
+  "Frig Vadisi yolları yazın tozlu; sabah erken çık."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Odunpazarı",
+   "stops": [
+    {
+     "name": "Odunpazarı Evleri",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Rengârenk cumbalı Osmanlı evleri; Arnavut kaldırımı sokaklar, sabah boş."
+    },
+    {
+     "name": "Odunpazarı Modern Müze",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 300,
+     "tips": "Kengo Kuma'nın ahşap müzesi; çağdaş Türk sanatı, mimari başlı başına eser."
+    },
+    {
+     "name": "Çibörek Evi Odunpazarı",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 300,
+     "tips": "Tatar çiböreği; sıcak sıcak, ayranla, 3-4 tane doyurur."
+    },
+    {
+     "name": "Lületaşı Müzesi Eskişehir",
+     "category": "culture",
+     "start": "14:00",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "Odunpazarı'nda lületaşı oymacılığı; atölye ve müze."
+    },
+    {
+     "name": "Kurşunlu Külliyesi",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Odunpazarı'nın Osmanlı külliyesi; cam sanatları atölyeleri."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Odunpazarı Met Helvası Dükkânı",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 100,
+     "tips": "Met helvası tadımı."
+    },
+    {
+     "name": "Atlıhan El Sanatları Çarşısı",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "Lületaşı ve cam el işi."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Porsuk & şehir merkezi",
+   "stops": [
+    {
+     "name": "Porsuk Çayı Gondol Turu",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 250,
+     "tips": "Köprübaşı'ndan gondol; Venedik hissi, sabah sakin."
+    },
+    {
+     "name": "Köprübaşı",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Şehrin kalbi; Porsuk köprüleri ve kafeler."
+    },
+    {
+     "name": "Haller Gençlik Merkezi",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Eski hal binasında kafeler ve sanat; öğrenci şehri atmosferi."
+    },
+    {
+     "name": "Mangal Keyfi Eskişehir",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 400,
+     "tips": "Eskişehir'in bilinen et lokantası; balaban köfte."
+    },
+    {
+     "name": "Kent Park Eskişehir",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Porsuk kenarında yapay plaj ve park; yazın kum plaj, kışın yürüyüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eskişehir Balaban Köfte Salonu",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 350,
+     "tips": "Balaban köfte klasiği."
+    },
+    {
+     "name": "Eskişehir Çağdaş Sanatlar Galerisi",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Merkezde galeri; yağmurlu gün."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Sazova & Bilim",
+   "stops": [
+    {
+     "name": "Sazova Bilim Kültür ve Sanat Parkı",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Masal şatosu, korsan gemisi, Japon bahçesi; çocuklu-çocuksuz yürüyüş."
+    },
+    {
+     "name": "Sabancı Uzay Evi",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "Planetaryum gösterisi; parkın içinde."
+    },
+    {
+     "name": "Sazova Kafe",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "Park içinde öğle."
+    },
+    {
+     "name": "Eti Sualtı Dünyası",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 150,
+     "tips": "Tünel akvaryum; park içinde."
+    },
+    {
+     "name": "Kentpark Sahil Yürüyüş",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Porsuk boyunca akşam yürüyüşü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sazova Çibörekçi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 250,
+     "tips": "Park yakınında çibörek."
+    },
+    {
+     "name": "Hava Müzesi Eskişehir",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 50,
+     "tips": "Uçak müzesi; akvaryum yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Yazılıkaya & Frig Vadisi",
+   "stops": [
+    {
+     "name": "Yazılıkaya Midas Anıtı",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 50,
+     "tips": "Eskişehir'e 80 km; Frig kaya anıtı ve Midas kenti, sabah ışığı."
+    },
+    {
+     "name": "Frig Vadisi Kaya Kiliseleri",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Han'da kaya mezarları ve kiliseler; yürüyüş."
+    },
+    {
+     "name": "Han Köyü Lokantası",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 300,
+     "tips": "Köy lokantası; kuru fasulye ve gözleme."
+    },
+    {
+     "name": "Ayazini Köyü",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Kapadokya benzeri peri bacaları ve kaya kilisesi; Frig Vadisi'nin en güzel köyü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seyitgazi Külliyesi Lokantası",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 250,
+     "tips": "Seyitgazi'de lokanta."
+    },
+    {
+     "name": "Seyitgazi Külliyesi",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Battal Gazi türbesi ve külliye; Ayazini yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Sivrihisar & Pessinus",
+   "stops": [
+    {
+     "name": "Sivrihisar Ulu Camii",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Ahşap direkli Selçuklu camisi; Eskişehir'e 1 saat."
+    },
+    {
+     "name": "Sivrihisar Ermeni Kilisesi",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Restore edilmiş kilise; kültür merkezi."
+    },
+    {
+     "name": "Sivrihisar Nasreddin Hoca Evi",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Hoca'nın doğduğu köy Hortu yakında; kasabada anıt ev."
+    },
+    {
+     "name": "Sivrihisar Yemekçi",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 300,
+     "tips": "Kasaba lokantası; kuru fasulye ve pilav."
+    },
+    {
+     "name": "Pessinus Antik Kenti",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 50,
+     "tips": "Ballıhisar'da Kibele tapınağı ve tiyatro; Frig-Roma kenti."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sivrihisar Pazar Kahvaltıcısı",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 250,
+     "tips": "Kahvaltı."
+    },
+    {
+     "name": "Nasreddin Hoca Hortu Köyü",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Hoca'nın köyü; Pessinus yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Müzeler & Tepebaşı",
+   "stops": [
+    {
+     "name": "Eskişehir Arkeoloji Müzesi",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 50,
+     "tips": "Dorylaion ve Frig buluntuları."
+    },
+    {
+     "name": "Cam Sanatları Müzesi",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Odunpazarı'nda cam üfleme; atölye izle."
+    },
+    {
+     "name": "Ciğerci Eskişehir",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 350,
+     "tips": "Eskişehir ciğer dürümü; öğrenci klasiği."
+    },
+    {
+     "name": "Tepebaşı Sanat Sokağı",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Kafeler ve sokak sanatı."
+    },
+    {
+     "name": "Vişnelik Bahçesi Eskişehir",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:15",
+     "cost": 0,
+     "tips": "Şehir bahçesi; yürüyüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eskişehir Tarihi Bulgur Evi",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 300,
+     "tips": "Bulgur pilavı ve balaban."
+    },
+    {
+     "name": "Eskişehir Karikatür Müzesi",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Odunpazarı'nda karikatür; cam müzesi yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Odunpazarı sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Odunpazarı Çarşı",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Lületaşı, met helvası ve cam hediyelik."
+    },
+    {
+     "name": "Odunpazarı Kahvaltıcısı",
+     "category": "food",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 350,
+     "tips": "Kahvaltı; met helvası tatlısı."
+    },
+    {
+     "name": "Eskişehir Garı",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "YHT ile Ankara 1,5 saat, İstanbul 2,5 saat; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Odunpazarı Tatar Mantısı Evi",
+     "category": "food",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 300,
+     "tips": "Tatar mantısı; veda."
+    },
+    {
+     "name": "Porsuk Çayı Yürüyüş Yolu",
+     "category": "nature",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Son yürüyüş."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,461 @@
+{
+ "lang": "tr",
+ "slug": "safranbolu-ekim-mayis",
+ "altSlug": "safranbolu-october-may",
+ "citySlug": "safranbolu",
+ "destKey": "safranbolu",
+ "city": "Safranbolu",
+ "region": "Karabük",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 12150,
+  "attractions": 1350,
+  "transport": 800,
+  "misc": 100
+ },
+ "notes": [
+  "Küçük esnaf lokantaları, köy pazarları ve kır bahçeleri genelde nakit ister; yanına bozuk para da bulundur.",
+  "Şehir içinde akıllı toplu taşıma kartı yok; dolmuş/minibüse biner binmez nakit ödenir.",
+  "Bahşiş zorunlu değil ama esnaf lokantalarında hesabı yuvarlamak, konak restoranlarında %5-10 bırakmak yerel görgüye uygun.",
+  "Ocak ayı Safranbolu'da soğuk ve zaman zaman karlı-yağmurlu geçer; Arnavut kaldırımlı yokuşlar ıslakken kayganlaşır, su geçirmez ve tabanı tutan ayakkabı şart.",
+  "Konaklarda ve cami avlularında ayakkabı çıkarma/örtünme kuralına dikkat et; çoğu caminin girişinde ziyaretçi için başörtüsü bulunur.",
+  "Hafta sonu kurulan pazar/köy günleri (Yöresel Ürünler Pazarı vb.) mevsime göre değişebilir; gittiğin gün açık olup olmadığını Safranbolu Turizm Danışma'dan (çarşı girişi) teyit et.",
+  "Amasra günü kışın deniz rüzgârı serttir; Boztepe ve liman kıyısında rüzgârlık önerilir, deniz mevsimi olmadığı için plaj/şezlong planı yoktur."
+ ],
+ "niche": {
+  "name": "Lokum ve Safran Müzesi",
+  "level": "l2",
+  "why_hidden": "Türkiye'nin ilk lokum ve safran müzesi olmasına rağmen Kaymakamlar Müzesi ve Cinci Hamamı gibi büyük duraklar öncelik kazandığı için çoğu tur programı ve rehber burayı hiç saymıyor. Müze işletmecisi Onur Şen'in ailesinin üç kuşaktır sürdürdüğü zanaati anlatan üç katlı konak, çarşının gündelik akışında sessizce duruyor.",
+  "access_instructions": "Çavuş Mahallesi, Mimar Sinan Caddesi'nde, Kaymakamlar Müzesi'nden yürüyerek 10 dakika; kapıdan doğrudan girilebilir (walk-in). Kalabalık dönemlerde grup olarak önceden haber verirsen üst kattaki safran anlatımı daha ayrıntılı yapılıyor.",
+  "local_contact": "0541 720 8329 (Safran Evi Lokumları / işletmeci Onur Şen)",
+  "season": "Yıl boyu açık; canlı safran hasadı sadece Ekim-Kasım aylarında görülebilir, kış aylarında müze anlatımı ve lokum yapım gösterimi normal şekilde devam eder.",
+  "insider_tip": "Üst kattaki safran bölümünde 'bir gram safran kaç çiçekten çıkıyor' diye sor; Onur Bey'in ailesi anlatmayı seviyor. Çıkışta genelde ücretsiz lokum tadımı ikram ediliyor, beğenirsen vakumlu paket sipariş edip kargoyla da gönderebiliyorlar.",
+  "show_reason": "Safranbolu'ya adını veren bitkiyi ve şehrin lokum zanaatını tek çatı altında anlatan, mainstream rehberlerde ve sosyal medyada neredeyse hiç görünmeyen otantik bir aile müzesi.",
+  "lat": 41.2413,
+  "lng": 32.6939,
+  "address": "Çavuş Mahallesi, Mimar Sinan Caddesi, 78600 Safranbolu/Karabük",
+  "cost_range_min": 250,
+  "cost_range_max": 350,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Safranbolu'nun Kalbi: Konaklar, Çarşı ve Gün Batımı",
+   "stops": [
+    {
+     "name": "Kaymakamlar Müze Evi",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 250,
+     "tips": "Osmanlı konak yaşamını balmumu figürlerle canlandıran ev-müze; üst kattaki hanım odasını ve mutfağı kaçırma. Kart genelde geçer ama az miktar nakit yedekte tut."
+    },
+    {
+     "name": "Cinci Hanı",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "17. yüzyıldan kalma kervansaray; avlusuna serbest girilir, içindeki küçük dükkanlarda safranlı sabun ve baharat satılır. Fotoğraf için taş kemerli avlu en iyi kare."
+    },
+    {
+     "name": "Kadıefendi Et Lokantası",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 800,
+     "tips": "Kuyu kebabı ve etli ekmek burada olmazsa olmaz; sıcak ekmek tereyağı ve balla geliyor. Öğlen 13:00'ten önce git, hafta sonu kalabalık olabiliyor."
+    },
+    {
+     "name": "Hıdırlık Tepesi",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:15",
+     "cost": 100,
+     "tips": "Şehrin ikonik gün batımı noktası; kırmızı çatılı vadinin tamamını buradan görürsün. Çarşıdan yürüyerek 15 dk ya da minibüsle çık; yanındaki büfede sahlep ya da çay iç. Kışın gün batımı 17:00 civarı."
+    },
+    {
+     "name": "Hanım Sultan",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1100,
+     "tips": "Cinci Hamamı'nın hemen altında; etli yaprak sarması ve mantısı öne çıkıyor. Akşam rezervasyon önerilir, konak atmosferi kış akşamında özellikle keyifli."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kaya Mahallesi",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Çarşının hemen üstünde, cumbalı evlerin sıralandığı sakin bir sokak; turist akışının dışında kaldığı için fotoğraf çekmek daha rahat."
+    },
+    {
+     "name": "Safran Lezzet Sofrası",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 650,
+     "tips": "Atatürk Caddesi üzerinde klasik esnaf lokantası; mercimek çorbası ve ızgara köfte hesaplı. Yerel memurların öğle molası verdiği yer."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "İncekaya Vadisi: Su Kemeri, Mağara ve Kanyon Havası",
+   "stops": [
+    {
+     "name": "İncekaya Su Kemeri ve Kristal Cam Teras",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 200,
+     "tips": "Osmanlı su kemerinin üzerine kurulu cam teras vadiye tepeden bakıyor; yükseklik hissi güçlü, çocuklu ailelere uygun değil. Sabah erken gidilirse ışık fotoğraf için daha iyi."
+    },
+    {
+     "name": "Bulak Mencilis Mağarası",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 250,
+     "tips": "Türkiye'nin en uzun mağaralarından biri; sarkıt-dikitler aydınlatmayla gösteriliyor. İçerisi serin, hafif bir mont al; zemin nemli olduğundan kaymaz ayakkabı şart."
+    },
+    {
+     "name": "Taş Bahçe Kafe Restoran",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Tarihi çarşıda ev sofrası havası; kendi yapımı reçelleri ve kuymağı dene. Öğlen serpme tabak paylaşımlık, iki kişiye yeter boyutta."
+    },
+    {
+     "name": "Zencefil Yöresel Lezzetler",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 750,
+     "tips": "Musalla Mahallesi'nde küçük ve samimi bir mekan; çıtır mantısı ile tanınıyor. Masa sayısı az, akşam için önceden ara."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yemeniciler Arastası",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Eski deri işçiliğinin sürdüğü dar sokak; el yapımı yemeni ve keçe ürünlerini ustasından alabilirsin."
+    },
+    {
+     "name": "Boncuk Kahve ve Oteli",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 400,
+     "tips": "Konak avlusunda nargile ve Türk kahvesi molası; öğleden sonra sakin, kış günlerinde sobalı iç mekanı tercih et."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Yörük Köyü ve Safranın İzinde",
+   "stops": [
+    {
+     "name": "Yörük Köyü",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 100,
+     "tips": "93 korunmuş konağıyla Safranbolu'nun minyatürü; 450 yıllık Onbaşıgil Evi ve 250 yıllık ortak çamaşırhaneyi kaçırma. Merkeze 14 km, dolmuş ya da taksiyle 20 dk."
+    },
+    {
+     "name": "Lokum ve Safran Müzesi",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 300,
+     "tips": "Üç katlı konağın alt katları lokum tarihini, üst katı safran ekimi ve hasadını anlatıyor. Çıkışta genelde ücretsiz lokum tadımı ikram ediliyor, yerinde küçük bir kutu alabilirsin."
+    },
+    {
+     "name": "Safranbolu Sofrası",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 800,
+     "tips": "Peruhi, yaprak sarması ve bükme pidesi bu mekanın klasikleri; yöresel iskender de burada denenebilir."
+    },
+    {
+     "name": "Köprülü Meze & Ocakbaşı",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 1200,
+     "tips": "Tarihi sokaklardan birinde ocakbaşı ağırlıklı akşam mekanı; meze tabağını paylaşarak başla, sonra ızgaraya geç. Kışın içerideki ocak keyifli bir sıcaklık veriyor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yöresel Ürünler Pazarı",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Tarihi Çarşı Han Arkası'nda köy kadınlarının ürettiği reçel, erişte ve el işlerinin satıldığı hafta sonu pazarı; açık olup olmadığını çarşı girişindeki Turizm Danışma'dan sor."
+    },
+    {
+     "name": "Tarihi Havuzlu Köşk",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 750,
+     "tips": "1600'lerden kalma konakta tamamen alkolsüz servis; sakin, aile dostu bir öğle molası için uygun."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Ustaların Elinden: Demirciler, Cami ve Kent Sofrası",
+   "stops": [
+    {
+     "name": "Demirciler Çarşısı",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "İzzet Mehmet Paşa Camii'nin yanında, Akçasu Deresi kıyısında kurulu; demir ustalarını iş başında izleyebilir, el yapımı bakır ibrik alabilirsin. Sabah saatlerinde ustalar daha müsait sohbet ediyor."
+    },
+    {
+     "name": "Eski Cami ve Süleyman Paşa Medresesi",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Medrese, caminin alt katında; Osmanlı sivil mimarisinin yanında dini mimariyi de görmek için uğra. Namaz vakitlerinde ziyareti kısa tut."
+    },
+    {
+     "name": "Safranbolu Belediyesi Kent Lokantası",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 350,
+     "tips": "Belediyenin işlettiği son derece uygun fiyatlı halk lokantası; günün çorbası ve ev yemeği burada turistik fiyatların çok altında. Yerel memur ve esnafın öğle molası noktası."
+    },
+    {
+     "name": "Gülin Safranbolu Lokantası",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1000,
+     "tips": "Ev yapımı yöresel yemeklerin döndüğü mütevazı bir lokanta; günlük menüyü sor, safranlı pilav çıkarsa kaçırma."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Arasta Kahvesi",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 150,
+     "tips": "300 yıldır aynı yerde hizmet veren Osmanlı kahvehanesi; kahve/çay eşliğinde tavla oynayan yerel emeklilerle aynı masaları paylaşırsın."
+    },
+    {
+     "name": "Köfteci Hakkı Usta",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "Köfte ekmeğiyle tanınan küçük bir esnaf dükkanı; hızlı ve doyurucu bir öğle atıştırması için ideal."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Kaleden Kanyona: Şarap Evi'yle Kapanış",
+   "stops": [
+    {
+     "name": "Safranbolu Kalesi (Hisar)",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 50,
+     "tips": "Şehre tepeden bakan Bizans-Osmanlı katmanlı kale kalıntısı; çarşının fotoğrafını en yükseğinden çekmek için erken saat idealdir."
+    },
+    {
+     "name": "Tokatlı Kanyonu",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Kısa bir yürüyüş parkuru ve seyir noktaları var; kışın patika ıslak olabiliyor, iyi taban tutan ayakkabı giy."
+    },
+    {
+     "name": "Mihra Kır Bahçesi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Açık hava bahçesinde köz patlıcanlı yoğurt ve hamsi tava öne çıkan lezzetler; kışın kapalı bölümü de aktif çalışıyor."
+    },
+    {
+     "name": "Taşev Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "Bölgenin tek sanat ve şarap evi; taş duvarlar ve loş ışıkla romantik bir akşam sofrası kurulur. Şarap eşliğinde et yemeklerini tercih et, önceden masa ayırt."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Havuzlu Asmazlar Konağı",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 200,
+     "tips": "1830 tarihli konak, restore edilip butik otele dönüştürülmüş; avlusundaki havuzu ve döneme ait odaları gezebilirsin."
+    },
+    {
+     "name": "Kürkçü Konak",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 650,
+     "tips": "Konağın geniş bahçesinde açık ve kapalı alanda servis var; serpme kahvaltı tabağı öğlen de sipariş edilebiliyor."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Karadeniz'e Uzanış: Amasra Günü",
+   "stops": [
+    {
+     "name": "Amasra Kalesi",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Safranbolu'dan otobüsle yaklaşık 1,5-2 saat (Metro Turizm, Safranbolu Otogarı'ndan). Kaleye varınca önce Büyük ve Küçük Liman'ı ayıran yarımadayı gör; Bizans kapıları hâlâ ayakta."
+    },
+    {
+     "name": "Boztepe",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Amasra'nın yarımada silüetini ve Karadeniz'i yukarıdan gördüğün nokta; kış rüzgârı sert olabilir, mont şart."
+    },
+    {
+     "name": "Büyük Liman ve Kemer Köprüsü",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Balıkçı teknelerinin bağlandığı ana liman; köprüden geçip karşı yakadaki dükkanları da gez, kış aylarında sakin ve fotoğraf için boş."
+    },
+    {
+     "name": "Mustafa Amca'nın Yeri",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 1800,
+     "tips": "1945'ten beri işletilen köklü balık restoranı; mevsim balığını sor, kışın palamut ve hamsi öne çıkar. Liman manzaralı masa iste."
+    },
+    {
+     "name": "Nurşen Hanımın Yeri",
+     "category": "food",
+     "start": "16:00",
+     "end": "16:45",
+     "cost": 350,
+     "tips": "Mendirek girişinde balık ekmek ve balık tava yapan mütevazı bir yer; dönüş otobüsünden önce hafif bir atıştırma için ideal. 17:00-17:30 otobüsünü kaçırma."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Amasra Müzesi",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 75,
+     "tips": "Geç Osmanlı mimarili binada arkeoloji ve etnografya salonları var; pazartesi kapalı, 08:30-17:00 arası açık."
+    },
+    {
+     "name": "Türkan Hanımın Yeri",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "Kum Mahallesi'nde sabah yoğunluğu erken başlayan serpme kahvaltı mekanı; öğlen de hafif tabaklar servis ediyor."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Yavaş Bir Veda: Son Kahvaltı ve Kır Bahçesi",
+   "stops": [
+    {
+     "name": "Leyla Hanım Konağı",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 750,
+     "tips": "Restore edilmiş konağın yemyeşil bahçesinde geleneksel Türk kahvaltısı; kışın kapalı veranda kullanılıyor, rezervasyon önerilir."
+    },
+    {
+     "name": "Kazdağlılar Konağı",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "Safranbolu'nun anıtsal konaklarından biri; cumba ve tavan işçiliğine yakından bakma fırsatı, çarşıya çok yakın son bir mola noktası."
+    },
+    {
+     "name": "Bağlar Gazoz Bahçesi",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 650,
+     "tips": "Şehrin sakin, doğayla iç içe kesiminde geniş bahçe; doğal peynirler, reçeller ve sıcak gözlemeyle hafif bir kapanış öğünü yap. Planın en rahat, acelesiz durağı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Köprülü Mehmet Paşa Camii",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "1661 yapımı sade ve etkileyici Osmanlı cami mimarisi; kesme taş işçiliğine yakından bak."
+    },
+    {
+     "name": "Atiş Butik Restaurant",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 700,
+     "tips": "Rum mantısı ve Safranbolu bükmesiyle tanınan butik kahvaltı-öğle mekanı; kahvaltı tabağı iki kişilik paylaşımlık geliyor."
+    }
+   ]
+  }
+ ]
+}

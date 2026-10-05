@@ -1,0 +1,29 @@
+{
+ "source": "49f6c6fd2c04",
+ "model": "sonnet",
+ "strings": {
+  "d1.s2.tips": "1956'dan beri açık, Antalyalıların 'çorba nerede içilir' dediğinde ilk akla gelen esnaf mekânı; kelle paça ve mercimek çorbasını dene, ev yapımı reçelleri kaçırma. 7/24 açık.",
+  "d1.b0.tips": "Kaleiçi'nde uzun yıllardır hizmet veren, yerel halkın da özel günlerde tercih ettiği bir mekân; ızgara çeşitleri ve mezeleriyle bilinir.",
+  "d2.s1.tips": "Dünyanın en uzun tünel akvaryumlarından biri, kışın kapalı mekân alternatifi olarak mükemmel. Giriş 2026 itibarıyla ~153 TL, biletini önceden online alırsan kuyruğa girmezsin.",
+  "d2.s2.tips": "Antalya'nın imzası şiş köfte-piyazını yapan, sanayi sitesinden üç katlı esnaf mekânına büyümüş bir yer; ceviz tahinli kabak tatlısını da mutlaka dene.",
+  "d2.b0.tips": "Konyaaltı'nda uzun süredir hizmet veren, Tripadvisor'da yüksek puanlı bir balık lokantası; mevsim balığını sorup ona göre sipariş ver.",
+  "d3.s0.tips": "Şelalenin arkasındaki mağara geçidinden yürüyerek suyun içinden geçebilirsin. Kışın debi yüksek olduğu için manzara en etkileyici hâlinde; giriş 100 TL, ayrıca 100 TL otopark var.",
+  "d3.s1.tips": "Düden'in denizle buluştuğu noktada, sedirli ve sakin bir serpme kahvaltı mekânı; yerel halkın hafta sonu kaçtığı yerlerden biri, manzara için erken saat tercih et.",
+  "d3.s3.tips": "Kışın kimse olmuyor, uzun kumsalda sakin bir yürüyüş yapabilirsin. Şezlonglar kapalı ama kumsala inip Beydağları manzarasında fotoğraf çekmek için en uygun saat gün batımına yakın zamandır.",
+  "d3.b0.tips": "Kalkan ve levrek ızgarası, balık kokoreç ve yer fıstıklı Girit kabağı ile bilinen bir mekân; taze balık her zaman servis edilir.",
+  "d4.s2.tips": "Kaleiçi'nde hâlâ bakır dövme yapan birkaç ustanın dükkânı bulunuyor; el yapımı bir hediye almak istersen fiyat pazarlığı yerel adettir, gezmek ücretsiz.",
+  "d4.s3.tips": "Yerel bir evde 4 kişilik menü hazırlanıyor: börek, sarma, mevsim salatası ve ana yemek; en az 1 gün önceden GetYourGuide üzerinden rezervasyon şart, gruplar en fazla 6 kişi.",
+  "d5.b0.tips": "Antalya usulü piyaz için yerel forumlarda sıkça adı geçen bir başka klasik adres; şiş köfteyle birlikte tercih edilir.",
+  "d6.s3.tips": "Travertenlere yakın, sıcak Türk misafirperverliğiyle bilinen bir mekân; öğle yemeği çoğu tur paketine dahildir, kebap ve pide çeşitleri bol.",
+  "d7.b0.tips": "Kaleiçi'nde su kenarında konumlanan, sabah kahvaltıları için tercih edilen bir kafe; sakin bir veda kahvaltısı için uygun.",
+  "note0": "Ocak ayında Antalya gündüz 12-16°C, akşam 8-10°C civarındadır; sahilde rüzgâr sert olabileceği için katman katman giyin ve rüzgârlık bulundur.",
+  "note2": "Esnaf lokantası ve semt pazarlarında kart geçmeyebilir, yanında nakit TRY bulundur; orta-üst restoranlarda kart standarttır.",
+  "note3": "Bahşiş zorunlu değil ama esnaf lokantasında hesabı yuvarlamak, restoranda hesabın %5-10'unu bırakmak yerel adettir.",
+  "note4": "Yivli Minare Camii gibi ibadet mekânlarına girerken dizlerini ve omuzlarını kapatan kıyafet giy, kadınlar yanına bir eşarp alsın.",
+  "note5": "Kaleiçi'nin dar taş sokakları yağmur sonrası kayganlaşır, kışın rahat tabanlı ayakkabı tercih et.",
+  "niche.why_hidden": "Antalya'ya gelen çiftlerin neredeyse tamamı restoranlarda sokak lezzetlerini dener ama yerel bir ailenin evine girip gerçek ev mutfağını görenler çok az; bu atölye popüler Kaleiçi/plaj rehberlerinde neredeyse hiç geçmiyor, sadece yemek atölyesi arayan gerçek meraklılar bulur.",
+  "niche.insider_tip": "Rezervasyon notunda mevsimlik ana yemeği sor; kışın genelde güveç/kapama gibi ağır yemekler yapılıyor. Vejetaryen tercihin varsa mutlaka önceden belirt, menü ona göre ayarlanır.",
+  "transit.why_chosen": "Antalya'da otobüs ve AntRay tramvayının tamamında geçerli tek elektronik kart bu; Kaleiçi-Konyaaltı-Lara arası günlük hareketlerinin çoğunu tek kartla ve aktarma indirimiyle karşılıyor. Taksiye göre çok daha ekonomik, havalimanı bağlantılı hatlarda da geçerli olması onu tek mantıklı seçenek yapıyor."
+ },
+ "warnings": []
+}

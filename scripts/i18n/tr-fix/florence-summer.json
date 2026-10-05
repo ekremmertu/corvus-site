@@ -1,0 +1,19 @@
+{
+ "source": "a6bf512e420e",
+ "model": "sonnet",
+ "strings": {
+  "d1.b0.tips": "Kuyruk olan schiacciata sandviç dükkânı; Via dei Neri.",
+  "d2.s0.tips": "Botticelli'nin Venüs'ü, Leonardo, Caravaggio; ilk seans 08:15, online bilet (29 EUR), 2,5 saat.",
+  "d2.s4.tips": "Şehrin kartpostal manzarası; gün batımı, San Miniato kilisesi 10 dakika üstte (Gregoryen ilahisi 17:30).",
+  "d2.b1.tips": "Belediye sarayı ve Beşyüzler Salonu; kule manzarası.",
+  "d3.s0.tips": "Michelangelo'nun David'i ve Esirler; 08:15 online seans.",
+  "d4.s2.tips": "Boboli biletiyle; morsalkım tüneli (Nisan-Mayıs) ve Duomo manzarası.",
+  "d5.s4.tips": "Orta Çağ Manhattan'ı; 14 kule, Gelateria Dondoli (dünya şampiyonu dondurma), gün batımında sur.",
+  "d7.s3.tips": "Pisa 1 saat, Roma 1,5 saat; havalimanına tramvay T2 ile 20 dakika, veda.",
+  "note0": "Floransa'da yürünür; merkezde ZTL var, araç yasak. Siena/San Gimignano için otobüs (SITA), Chianti için araç veya tur. Havalimanına tramvay T2.",
+  "note1": "Uffizi, Accademia, kubbe: saatli online bileti haftalar önce al. Ayın ilk pazarı ücretsiz (kalabalık). Firenze Card 72 saat için 85 EUR.",
+  "note2": "Yazın 33-36°C ve kalabalık; müzeler 08:15, öğlen siesta, Piazzale Michelangelo 19:30. Ağustos'ta Ferragosto'da kapalı yerler olur.",
+  "note4": "Musluk suyu içilir; Duomo ve kiliselerde omuzlar ve dizler kapalı olmalı."
+ },
+ "warnings": []
+}

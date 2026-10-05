@@ -1,0 +1,445 @@
+{
+ "lang": "en",
+ "slug": "buyukada-summer",
+ "altSlug": "buyukada-yaz",
+ "citySlug": "buyukada",
+ "destKey": "buyukada",
+ "city": "Büyükada",
+ "region": "İstanbul",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 7200,
+  "attractions": 2600,
+  "transport": 1200,
+  "misc": 500
+ },
+ "notes": [
+  "Ferries run from Kabataş and Bostancı (Istanbulkart accepted): every 30 minutes in summer, hourly in winter; the last ferry leaves around 20:00.",
+  "There are no cars on the island: use an electric minibus, a bike or your feet. The Aya Yorgi climb takes 40 minutes; an electric vehicle costs 100 TL.",
+  "Summer weekend ferries are very crowded, so go on a weekday. Beaches cost 500 TL, sun lounger included.",
+  "Try hot lokma, island ice cream and fish with meze; the restaurants on Gülistan Avenue don't need reservations.",
+  "There are few ATMs on the island, so bring cash.",
+  "The ferry between the islands takes 15 minutes."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Aya Yorgi and Nakibey",
+   "stops": [
+    {
+     "name": "Aya Yorgi Church",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Take the 09:00 ferry from Kabataş; from the pier, ride an electric minibus or walk 40 minutes uphill to Yücetepe. The hilltop church has views over the Marmara."
+    },
+    {
+     "name": "Yücetepe Kır Gazinosu",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "Köfte (grilled meatballs) and gözleme (stuffed flatbread) with a view, just below Aya Yorgi."
+    },
+    {
+     "name": "Nakibey Beach, Büyükada",
+     "category": "nature",
+     "start": "13:30",
+     "end": "17:00",
+     "cost": 500,
+     "tips": "A family beach on the south of the island; service boat and sun lounger included."
+    },
+    {
+     "name": "Luna Park Square, Büyükada",
+     "category": "landmark",
+     "start": "17:15",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "The pine-shaded square in the middle of the island; the starting point for bike tours."
+    },
+    {
+     "name": "Ali Baba Restaurant Büyükada",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 900,
+     "tips": "A long-established fish restaurant beside the pier; meze and fish, with a heated enclosed section in winter."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Milto Restaurant Büyükada",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 800,
+     "tips": "Fish opposite the pier."
+    },
+    {
+     "name": "Eskibağ Beach, Büyükada",
+     "category": "nature",
+     "start": "13:30",
+     "end": "17:00",
+     "cost": 300,
+     "tips": "A pine-shaded beach on the west of the island; an alternative to Nakibey."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Bike tour and Dil Burnu",
+   "stops": [
+    {
+     "name": "Büyükada Bike Rental",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 300,
+     "tips": "Bike rental behind the pier (about 300 TL/day); the full island loop is 12 km."
+    },
+    {
+     "name": "Büyükada Grand Tour Road",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A paved road around the island, with pine forest and coves."
+    },
+    {
+     "name": "Dil Burnu",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "A nature park at the island's southern tip; swimming and picnics in summer."
+    },
+    {
+     "name": "Büyükada Kalpazankaya Restaurant",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 700,
+     "tips": "Seaside fish and meze at Kalpazankaya; famous for its sunsets."
+    },
+    {
+     "name": "Çankaya Avenue Mansions, Büyükada",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Greek mansions and John Pasha Mansion; wooden architecture."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kalpazankaya Beach, Büyükada",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "A rocky beach; an alternative to Dil Burnu."
+    },
+    {
+     "name": "Lokmacı Square, Büyükada",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 150,
+     "tips": "Hot lokma (syrupy doughnut bites) on the square."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Heybeliada",
+   "stops": [
+    {
+     "name": "Heybeliada Halki Seminary",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A Greek Orthodox school from 1844 on the hilltop; gardens and views, visits are guided."
+    },
+    {
+     "name": "Çam Limanı, Heybeliada",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "A cove in the pine forest; swimming and picnics in summer."
+    },
+    {
+     "name": "Heybeliada Square Fish Restaurant",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 700,
+     "tips": "Fish at the Heybeliada pier."
+    },
+    {
+     "name": "Heybeliada Naval High School Shore",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A coastal road and the Aya Triada monastery; ferry back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Heybeliada Lokantası",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 500,
+     "tips": "Home-style cooking."
+    },
+    {
+     "name": "Değirmen Tepesi, Heybeliada",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The island's hilltop; views."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Burgazada and Kınalıada",
+   "stops": [
+    {
+     "name": "Sait Faik Museum, Burgazada",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "The writer's house; the literary heart of the island."
+    },
+    {
+     "name": "Kalpazankaya, Burgazada",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Burgaz's western cove; swimming in summer, famous for its sunsets."
+    },
+    {
+     "name": "Burgazada Kalpazankaya Restaurant",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 700,
+     "tips": "Fish and meze in the cove."
+    },
+    {
+     "name": "Kınalıada Beach",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "The smallest island; red earth and a seaside walk, with a ferry transfer."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Burgazada Square Breakfast Place",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 400,
+     "tips": "Breakfast."
+    },
+    {
+     "name": "Aya Yani Church, Burgazada",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The church on the square; an alternative to the cove."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Büyükada mansions and museum",
+   "stops": [
+    {
+     "name": "Princes' Islands Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 50,
+     "tips": "The history of the islands at Aya Nikola; Greek, Armenian and Jewish heritage."
+    },
+    {
+     "name": "Hamidiye Mosque, Büyükada",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Abdülhamid II's mosque, near the pier."
+    },
+    {
+     "name": "Büyükada Greek Orphanage Viewpoint",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Europe's largest wooden building, seen from outside; walk in the forest."
+    },
+    {
+     "name": "Prinkipo Breakfast, Büyükada",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 450,
+     "tips": "Island breakfast on the square."
+    },
+    {
+     "name": "Yörükali Beach, Büyükada",
+     "category": "nature",
+     "start": "15:30",
+     "end": "18:00",
+     "cost": 400,
+     "tips": "A sandy beach; swim in the afternoon."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Büyükada Ice Cream Shop, Square",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 120,
+     "tips": "Island ice cream; a light lunch."
+    },
+    {
+     "name": "Aya Dimitri Church, Büyükada",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A Greek church; an alternative to the mosque."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Sedef Island and boat",
+   "stops": [
+    {
+     "name": "Sedef Island",
+     "category": "nature",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "10 minutes by boat from Büyükada; private island beach, sun lounger included, clear water."
+    },
+    {
+     "name": "Sedef Island Beach Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Lunch on the beach."
+    },
+    {
+     "name": "Aya Nikola Beach, Büyükada",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "The island's east shore; rocks, and a good spot before sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "By Şükrü Restaurant Büyükada",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 800,
+     "tips": "A fish restaurant on Gülistan Avenue."
+    },
+    {
+     "name": "Büyükada Public Beach",
+     "category": "nature",
+     "start": "11:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A free beach; an alternative to Sedef."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "The square: a light farewell",
+   "stops": [
+    {
+     "name": "Pier Square, Büyükada",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "The clock tower and square; quiet in the morning."
+    },
+    {
+     "name": "Büyükada Pastry Shop, Square",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 300,
+     "tips": "An island pastry shop; breakfast and ice cream."
+    },
+    {
+     "name": "Plane Tree Square, Büyükada",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A last walk; the 12:30 ferry to Kabataş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pier Tea Garden, Büyükada",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 100,
+     "tips": "Tea and simit (sesame bread ring) at the pier; a farewell."
+    },
+    {
+     "name": "Gülistan Avenue, Büyükada",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A street of fish restaurants; seafront."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,533 @@
+{
+ "lang": "en",
+ "slug": "bozcaada-october-may",
+ "altSlug": "bozcaada-ekim-mayis",
+ "citySlug": "bozcaada",
+ "destKey": "bozcaada",
+ "city": "Bozcaada",
+ "region": "Çanakkale",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 14600,
+  "attractions": 450,
+  "transport": 1000,
+  "misc": 700
+ },
+ "notes": [
+  "In January the island is very quiet: many restaurants and guesthouses are closed, and most of those that are open serve only a few days a week. Confirm by phone before you go.",
+  "In winter most small businesses prefer cash, and some wine estates and places around the boats and bays don't take cards. Carry cash in TL.",
+  "January is winter and the sea is very cold, so there's no swimming at beaches like Ayazma and Habbele. Don't go expecting sun loungers and a beach day; the point is walking and views.",
+  "The island is windy (especially around Polente and Tuzburnu), so a waterproof, windproof coat and sturdy shoes are essential. Dress in layers.",
+  "Public transport to places outside the centre (Ayazma, Habbele, Polente, Tuzburnu, Ayana) is limited, and dolmuş services thin out in winter. Rent a bicycle or arrange a taxi or car.",
+  "In restaurants, a tip is generally not added to the bill automatically. Rounding up by 5-10% is enough and appreciated.",
+  "The houses in the Greek Quarter are still private homes where people live, so don't enter courtyards or gardens without permission. When taking photos, keep your distance and be polite to residents sitting at their doors."
+ ],
+ "niche": {
+  "name": "Çamlıbağ Winery Cellar Tour",
+  "level": "l3",
+  "why_hidden": "The stone cellar of the island's first Turkish wine producer, dating from 1925. In summer the focus of tourist traffic is the tractor sunset vineyard tour. But in winter nobody thinks of knocking on the door to see the 100-year-old barrels with the family elders, because this tour isn't advertised anywhere.",
+  "access_instructions": "The tractor vineyard tour held daily in summer doesn't run in the winter months (November-March). Instead, phone ahead for a weekday morning and go to the two-storey stone building on Çınarlı Çarşı Street, and they'll show you around the cellar and the tasting room.",
+  "local_contact": "+90 286 697 80 55 (Çamlıbağ Şarapları merkez mağaza)",
+  "season": "The shop is open all year. In winter the cellar tour runs only by phone appointment, while in summer there's a daily sunset vineyard tour (reservation required).",
+  "insider_tip": "Be sure to taste the Vasilaki white wine. It's almost never sold off the island and can be found as bottles only in their own shops.",
+  "show_reason": "1925'ten kalma aile mahzeni, adanın ilk üreticisi olma hikayesi ve kışın turistin aklına bile gelmeyen 'kapıyı çal, gir' tarzı erişilebilirliğiyle hem tarihi hem de gerçekten niş bir deneyim sunuyor.",
+  "lat": 39.8228,
+  "lng": 26.0702,
+  "address": "Çınarlı Çarşı Caddesi No:82, Bozcaada, 17680 Çanakkale",
+  "cost_range_min": 250,
+  "cost_range_max": 500,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Castle, Çınarlı Çarşı and the Greek Quarter: the island's signature",
+   "stops": [
+    {
+     "name": "Bozcaada Castle",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 150,
+     "tips": "Winter opening hours can be shorter than in summer. It's a 5-minute walk from the pier. Climb the bastions for views over the strait and the rooftops of the Greek Quarter. Tickets are sold at the booth at the castle entrance, and the Museum Card is not accepted."
+    },
+    {
+     "name": "Alaybey and Greek Quarter streets",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Walk the pastel-painted stone-and-timber Greek houses and the narrow lanes of the Turkish Quarter back to back, and look out for the reliefs above doorways and the wrought-iron balconies. In winter, with few tourists around, this is the quietest and most photogenic version of the island."
+    },
+    {
+     "name": "Yakamoz Restaurant",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "On Yalı Caddesi in Alaybey, right on the water. It's one of the places where you get the island's classic meyhane (tavern) experience at lunchtime prices. Ask about the catch of the day; red mullet and sea bass are usually fresh in winter."
+    },
+    {
+     "name": "Rengigül Art Gallery",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The island's first art gallery, with free entry to see work by local and resident artists. It's rarely crowded, so you have a good chance of chatting with the gallery owner. Ask which pieces have a story behind them."
+    },
+    {
+     "name": "Bozcaadalı Veli Dede",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 150,
+     "tips": "A biscuit maker whose fame reaches well beyond the island. Try the almond paste and syrup-soaked varieties, and take a box with you. It's a small shop in Alaybey and stays open in winter."
+    },
+    {
+     "name": "Hasan Tevfik",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "The island's genuine meyhane: rough-and-ready, with the warmth of a local joint and classic meze. Prices are far more reasonable than at the tourist spots. Be sure to order the sea beans and the fried squid."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Battı Balık",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1100,
+     "tips": "A 22-year-old meyhane in the Greek Quarter, famous for island squid and fried squid. The stuffed courgette flowers and fried red mullet also stand out."
+    },
+    {
+     "name": "Salhane",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 250,
+     "tips": "A seaside bar that's ideal for sunset and one of the rare places that stays open in winter. Stop by for a glass of wine and a view of the pier."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Ayazma village and the historic monastery route",
+   "stops": [
+    {
+     "name": "Ayazma Monastery",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A small Greek Orthodox monastery from 1734, shaded by old plane trees. It isn't always open for worship, but you can see the courtyard and the historic fountain from outside. It's 15-20 minutes from the centre by dolmuş (shared minibus) or taxi."
+    },
+    {
+     "name": "Ayazma village coastal walk",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "There's no swimming in winter, but walking along the deserted beach is the most peaceful way to see it. A coat is essential against the wind. The early-morning light is excellent for photos."
+    },
+    {
+     "name": "Vahit'in Yeri",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 900,
+     "tips": "The only business in Ayazma open all 12 months, and islanders choose it in winter too. The meze cabinet is large, so trust the waiter's recommendation. Service is surprisingly fast."
+    },
+    {
+     "name": "Sulubahçe Bay walk",
+     "category": "nature",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "A wide, quiet bay between Ayazma and Habbele with no buildings, and most guides don't even mention it. The dirt path is a bit rough, so wear comfortable shoes."
+    },
+    {
+     "name": "Ayazma Restaurant & Cocktail Bar",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 300,
+     "tips": "Close to the beach, it serves hot drinks and light snacks in winter too. It's ideal for a break near sunset. Ask for mulled wine or tea."
+    },
+    {
+     "name": "Monastery Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1400,
+     "tips": "A calm dinner away from the crowds, under the plane trees of Ayazma's historic monastery. Booking is recommended, as there are fewer tables in winter."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Koreli",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 300,
+     "tips": "A small, quiet spot above the beach. In winter it may open on limited hours, so call ahead. It offers a simple but friendly snack break."
+    },
+    {
+     "name": "Monastery (bar)",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 400,
+     "tips": "A bar with live music under the plane trees of Ayazma Monastery. It may open on winter weekends, so confirm first. At night a silence reigns that nobody off the island knows about."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Vineyard route: cellars, tastings and the island's wine culture",
+   "stops": [
+    {
+     "name": "Çamlıbağ Winery Cellar Tour",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 300,
+     "tips": "To see the cellar in the stone building from 1925, you must phone a day ahead in winter. The summer tractor sunset tour doesn't run in the winter months. Be sure to taste the Vasilaki white, which is almost impossible to find off the island."
+    },
+    {
+     "name": "Talay Winery",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "The island's most established producer. Try the reds made from Kuntra grapes; the set with 5 different wines to taste gives the best value. You can buy bottles at the shop to take with you."
+    },
+    {
+     "name": "Asma6",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 1000,
+     "tips": "Owned by the Talay family, this is a romantic, dimly lit lunch table under a vine at the harbour. The marinated sea bass and the saganaki stand out."
+    },
+    {
+     "name": "Tenedion Winehouse",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 300,
+     "tips": "A small wine house serving both hot and cold wines, and the right stop for trying mulled wine in winter. It's a quiet corner that tourists rarely visit."
+    },
+    {
+     "name": "Uğurlu Shop",
+     "category": "shopping",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 250,
+     "tips": "A small shop selling design products plus sweets and coffee. Stop by for souvenirs and a cup of coffee, and look at the work of local designers."
+    },
+    {
+     "name": "Dört Hanımeli",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "A friendly table with island manti (dumplings) and home cooking that rarely appears on tourist lists. After a day of wine tasting, it's a light but filling choice."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Corvus Wines Tasting & Sales Office",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "In Çınarlı Çarşı, run by one of the island's well-known producers. Order a tasting set and try the red made from Karalahna grapes. It's a small shop and stays open in winter."
+    },
+    {
+     "name": "Amadeus Winery",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 250,
+     "tips": "A family business run by islanders and producing since 2010. You need to call ahead to visit. Hearing the story of small-scale production is a very different experience from the touristy vineyard tours."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Local market, places of worship and neighbourhood depth",
+   "stops": [
+    {
+     "name": "Bozcaada Wednesday Market",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "A neighbourhood market held at Demir Otopark (car park) and used mainly by islanders. Look for tomato jam, island tea, thyme and olive varieties. It lacks the crowd of tourist souvenirs you find at the summer market, and offers real local shopping."
+    },
+    {
+     "name": "Köprülü Mehmet Pasha Mosque",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Also known as Yalı Mosque. It was destroyed in the Venetian period and rebuilt by Köprülü Mehmet Pasha. Outside prayer times, stop by to look at the architecture from outside."
+    },
+    {
+     "name": "Şehir Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 800,
+     "tips": "A local favourite with a seafood-focused menu at reasonable prices. Ask for the meze of the day; the value for money is much better than at the tourist places."
+    },
+    {
+     "name": "Virgin Mary Church (Kimisis Teodoku)",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "From 1869, this is the only Greek Orthodox church still in use. You may not be able to go inside because of restoration, but the bell tower and courtyard are still worth seeing from outside. Outside service hours, keep quiet and be respectful."
+    },
+    {
+     "name": "Kahverengi Roastery",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 200,
+     "tips": "A small coffee shop known for its own roasted coffee, combined with a design shop. Order a filter coffee. It's a quiet break spot that tourists almost never visit."
+    },
+    {
+     "name": "Sandal Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1300,
+     "tips": "A traditional Aegean meyhane known for its blue tables, close to the harbour. Order meze to share. In the evenings service can slow down a bit."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mir Ada Patisserie",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 200,
+     "tips": "The almond biscuits and lavender cheesecake stand out, and it's a quiet choice for a coffee break. It's in Cumhuriyet Mahallesi, close to the centre."
+    },
+    {
+     "name": "Sapa",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 350,
+     "tips": "One of the island's best-loved cocktail bars, with a special cocktail menu. Booking is recommended in winter, as tables are limited."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Habbele coast and sunset at the windmills",
+   "stops": [
+    {
+     "name": "Habbele Beach coastal walk",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "It feels like the calm of Akvaryum Bay but a little more boutique. In winter there's no one, just the wind and the sea. No swimming; go for a long walk along the shore."
+    },
+    {
+     "name": "Simyon",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 1100,
+     "tips": "A calm meyhane with a carefully chosen, carefully prepared meze selection. It's the right address if you want a thoughtful lunch without waiting among crowds."
+    },
+    {
+     "name": "Çınaraltı Cafe",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 200,
+     "tips": "One of the classic places open 12 months a year, under a hundred-year-old plane tree. Take a hot coffee break on the observation terrace. Islanders stop by too, so there's a good chance of conversation."
+    },
+    {
+     "name": "Bozcaada Windmills",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A 5-minute walk on a stone road from the car park behind the Greek Quarter. The three windmills, restored in 2019, turn into silhouettes at sunset. Sunset comes early in January, so be there in good time; the island's most-shared shot is taken here."
+    },
+    {
+     "name": "Yalova 1940",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1500,
+     "tips": "With its long history, it's one of the places that keeps the island's classic meyhane culture alive in its most refined form. Marinated sea bass and Cretan cheese spread are the signature dishes. Booking is recommended."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Çamlık Restaurant Hafızın Yeri",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "A calm place in the style of a tradesmen's eatery, combined with a tea garden. Ask for the home-cooked dish of the day; the price is below the island's restaurant average."
+    },
+    {
+     "name": "Beylik Bay",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A secluded bay reached by a dirt road by car, one that islanders rarely mention. The road is rough, so it's safer not to go in a low-clearance car."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Polente Lighthouse and the island's unspoken bays",
+   "stops": [
+    {
+     "name": "Polente Lighthouse",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "At the western tip of the island, a windy spot that kitesurfers also favour. The view stretching along the horizon in front of the lighthouse is very strong for photos. The wind can be harsh in winter, so a coat is essential."
+    },
+    {
+     "name": "Tuzburnu Bay",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "One of the hidden bays reached by an unpaved, rough dirt road, a place islanders don't talk about much with outsiders. If you're driving, go slowly and carefully; you may struggle in a low-clearance car."
+    },
+    {
+     "name": "Sosyal Tesisler",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "A budget, home-cooking-style eatery where you can order çiğ dolma (stuffed leaves). Prices are well below the island's average. Unlike the tourist venues, the service is plain and fast."
+    },
+    {
+     "name": "Ayana Bay",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A secluded bay near Tuzburnu, also reached by dirt road. In winter it's completely deserted, with only the sound of wind and gulls. It has a strong sense of discovery for those with an adventurous spirit."
+    },
+    {
+     "name": "Orta Kahve",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 200,
+     "tips": "A small place known for its quality coffee that turns into a cocktail bar in the evenings. It's a good break to warm up after a long bay trip. Ask for a filter coffee or hot chocolate."
+    },
+    {
+     "name": "No:8 Bozcaada",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "One of the pioneers of the sunset-platter culture. With its cheese platter and sandwich options, it makes for a light but filling evening. Order one of the ready-made platters to share."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Krasi Bozcaada",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 800,
+     "tips": "An alternative that suits the sunset concept, with wine tasting and charcuterie platters. Try the local cheese and olive platter."
+    },
+    {
+     "name": "Bozcaada Art Gallery",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "It has a small but carefully chosen collection, suitable for a short culture break after the bay trip. Entry is usually free."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "A light farewell: coffee, souvenirs, last tastes",
+   "stops": [
+    {
+     "name": "Coffee Shelter Bozcaada",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 200,
+     "tips": "One of the places said to be the island's best, with its own roasted coffee. Order a filter coffee. It's a quiet corner in Alaybey, ideal for a farewell breakfast."
+    },
+    {
+     "name": "Çınarlı Çarşı Street",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 300,
+     "tips": "The most practical street for last-minute souvenirs and wine and olive oil shopping, with the shops of the wine estates all together. If you're buying bottles of wine, ask for sturdy packing for your luggage."
+    },
+    {
+     "name": "Çiçek Patisserie",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 250,
+     "tips": "Famous for its almond biscuits, which are mouth-wateringly good. Buy a box before you set off. It's in Alaybey, within walking distance of the ferry pier."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Vasil Coffee & Bakery",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 200,
+     "tips": "A newly opened coffee shop that stands out for its fresh biscuits, and a light alternative for a morning breakfast. Try the coffee it roasts itself."
+    },
+    {
+     "name": "Bozcaada Marina",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Close to the ferry pier, a calm spot for a last farewell walk while watching the boats. In winter it's almost completely empty, offering a quiet close to your trip."
+    }
+   ]
+  }
+ ]
+}

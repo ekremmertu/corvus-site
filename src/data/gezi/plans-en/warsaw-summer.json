@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "warsaw-summer",
+ "altSlug": "varsova-yaz",
+ "citySlug": "varsova",
+ "destKey": "warsaw",
+ "city": "Warsaw",
+ "region": null,
+ "country": "Poland",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "PLN",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 900,
+  "attractions": 500,
+  "transport": 150,
+  "misc": 200
+ },
+ "notes": [
+  "Trams, metro and buses: a 20-minute ticket is 3.40 PLN and a day ticket 15 PLN; use the Jakdojade app. The SKM airport train takes 20 minutes. Public transport is extensive, and trams are essential.",
+  "Summer is 22-27°C; look out for Sunday Chopin concerts at Łazienki (July-September 2026), Vistula beach bars and the Warsaw Summer Jazz Days.",
+  "Pierogi cost 30-40 PLN, a milk bar meal 20, the vodka museum 60, POLIN 45 and the Uprising Museum 30. Poland is good value, cards are accepted everywhere, and the tip is 10%.",
+  "Free days at museums: Royal Castle on Wednesday, POLIN on Thursday, Uprising Museum on Thursday, National Museum on Tuesday. POLIN and the Uprising Museum are CLOSED on Tuesday.",
+  "Milk bar (bar mleczny): take a tray, order at the counter, pay at the till; try Prasowy, Bambino and Rusałka.",
+  "Try Żubrówka with apple juice, żurek (sour rye soup), bigos (hunter's stew) and pączki (doughnuts; on Fat Thursday, in February)."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old Town & the Royal Route",
+   "stops": [
+    {
+     "name": "Castle Square Sigismund's Column",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "A UNESCO old town flattened in 1944 and rebuilt brick by brick; look for the king's column."
+    },
+    {
+     "name": "Royal Castle Warsaw",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 50,
+     "tips": "The royal castle, with Rembrandts and Canaletto's views of Warsaw (used in the reconstruction). Free on Wednesdays."
+    },
+    {
+     "name": "Old Town Market Square Syrenka",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "The mermaid statue, colourful merchants' houses, the Barbican and the city walls."
+    },
+    {
+     "name": "Zapiecek Pierogarnia",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 40,
+     "tips": "A pierogi chain (in the old town): try ruskie (potato and cheese) and fried pierogi, with kompot."
+    },
+    {
+     "name": "Krakowskie Przedmieście",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The Royal Route: Presidential Palace, Chopin benches (they play music), the University and Hotel Bristol."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Mleczny Pod Barbakanem",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "A milk bar in the old town: kotlet (breaded cutlet) and naleśniki (filled crêpes)."
+    },
+    {
+     "name": "Warsaw Uprising Monument & Krasiński Garden",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The Uprising monument and park; swap in for the column."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "POLIN & Ghetto traces",
+   "stops": [
+    {
+     "name": "POLIN Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 45,
+     "tips": "1,000 years of Polish Jewish history; one of Europe's best museums, with a wooden synagogue ceiling. Free on Thursdays, closed Tuesdays."
+    },
+    {
+     "name": "Ghetto Heroes Monument",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:20",
+     "cost": 0,
+     "tips": "Rapoport's monument in front of the museum, where Willy Brandt knelt."
+    },
+    {
+     "name": "Charlotte Menora Plac Grzybowski",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 40,
+     "tips": "A bakery-café next to the Nożyk Synagogue: bread and chałka (braided sweet bread)."
+    },
+    {
+     "name": "Nożyk Synagogue",
+     "category": "culture",
+     "start": "15:15",
+     "end": "15:45",
+     "cost": 10,
+     "tips": "The only synagogue to survive the war; see the ghetto-era houses on Próżna street."
+    },
+    {
+     "name": "Hala Koszyki",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 60,
+     "tips": "A food hall in a 1908 market hall; go in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jewish Historical Institute",
+     "category": "culture",
+     "start": "15:15",
+     "end": "15:45",
+     "cost": 20,
+     "tips": "Home of the Ringelblum Archive; swap in for the synagogue."
+    },
+    {
+     "name": "Bar Bambino Mleczny",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 20,
+     "tips": "A milk bar on Krucza street."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Uprising Museum & Wola",
+   "stops": [
+    {
+     "name": "Warsaw Uprising Museum",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 30,
+     "tips": "The 1944 uprising; the 3D film 'City of Ruins' and a sewer tunnel. Closed Tuesdays, free on Thursdays, book online."
+    },
+    {
+     "name": "Wola Murals Elektrownia Powiśle",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "A mall and food venue in a former power plant on the Vistula bank."
+    },
+    {
+     "name": "Elektrownia Powiśle Food Hall",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 50,
+     "tips": "The food hall."
+    },
+    {
+     "name": "Copernicus Science Centre",
+     "category": "culture",
+     "start": "14:45",
+     "end": "16:45",
+     "cost": 50,
+     "tips": "Interactive science, good with children, with a planetarium and a riverside setting."
+    },
+    {
+     "name": "Vistula Boulevards",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "The riverside promenade: in summer, bars with sand beaches (Cud nad Wisłą), the Syrenka statue and sunsets."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Neon Museum Soho Factory",
+     "category": "culture",
+     "start": "14:45",
+     "end": "16:45",
+     "cost": 20,
+     "tips": "Communist-era neon signs in Praga; swap in for the science centre."
+    },
+    {
+     "name": "Bar Prasowy Mleczny",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "A legendary milk bar on Marszałkowska."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Łazienki & Wilanów",
+   "stops": [
+    {
+     "name": "Łazienki Park",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A royal park with peacocks and the Chopin monument (free concerts on summer Sundays at 12:00 and 16:00)."
+    },
+    {
+     "name": "Palace on the Isle",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 40,
+     "tips": "A neoclassical summer palace on an island, built for Poniatowski."
+    },
+    {
+     "name": "Belvedere Restaurant Łazienki",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 120,
+     "tips": "A smart lunch in the orangery; a park café is the alternative."
+    },
+    {
+     "name": "Wilanów Palace",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 50,
+     "tips": "Poland's Versailles (King Sobieski), with baroque gardens. Take bus 116 or 180; in winter there is a garden of lights."
+    },
+    {
+     "name": "Wilanów Poster Museum",
+     "category": "culture",
+     "start": "16:30",
+     "end": "17:15",
+     "cost": 15,
+     "tips": "The Polish poster school, next to the palace."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Łazienki Amphitheatre Café",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 40,
+     "tips": "A café in the park for a light bite."
+    },
+    {
+     "name": "Ujazdów Castle CSW",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 20,
+     "tips": "A contemporary art centre next to Łazienki; swap in for Wilanów."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Praga & Zabytkowa",
+   "stops": [
+    {
+     "name": "Ząbkowska Street Praga",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The east bank that survived the war: brick courtyards, shrines to the Virgin Mary, street art. 10 minutes by tram."
+    },
+    {
+     "name": "Koneser Polish Vodka Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 60,
+     "tips": "A museum in a former vodka factory with 3 tastings; the Koneser courtyard."
+    },
+    {
+     "name": "Bazar Różyckiego",
+     "category": "shopping",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "An open-air market from 1901; pyzy (potato dumplings) straight from the jar."
+    },
+    {
+     "name": "Bar Mleczny Rusałka Praga",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "An unchanged retro milk bar next to Praga Park."
+    },
+    {
+     "name": "Soho Factory & Neon Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 20,
+     "tips": "A factory complex with a neon museum and cafés."
+    }
+   ],
+   "backups": [
+    {
+     "name": "W Oparach Absurdu",
+     "category": "food",
+     "start": "19:00",
+     "end": "22:00",
+     "cost": 40,
+     "tips": "A bar with absurdist décor on Ząbkowska; vodka."
+    },
+    {
+     "name": "Warsaw Zoo",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 40,
+     "tips": "The zoo of The Zookeeper's Wife, in Praga; swap in for Soho."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Palace of Culture & Chopin",
+   "stops": [
+    {
+     "name": "Palace of Culture and Science",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 25,
+     "tips": "Stalin's 237 m gift; the terrace on the 30th floor gives a city panorama."
+    },
+    {
+     "name": "Fryderyk Chopin Museum",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 30,
+     "tips": "Multimedia exhibits in the Ostrogski Palace, including his last piano. Free on Sundays."
+    },
+    {
+     "name": "Kafka Powiśle",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 35,
+     "tips": "A bohemian café next to the Chopin museum, overlooking the river."
+    },
+    {
+     "name": "Holy Cross Church Chopin's Heart",
+     "category": "culture",
+     "start": "15:15",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Chopin's heart is kept in a pillar here, on Krakowskie Przedmieście."
+    },
+    {
+     "name": "Chopin Concert Chopin Point",
+     "category": "culture",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 90,
+     "tips": "An evening Chopin recital in the old town (daily); in summer, free Sunday concerts at Łazienki."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Restauracja Zoni Koneser",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 120,
+     "tips": "Modern Polish cuisine in Praga; swap in for the concert."
+    },
+    {
+     "name": "National Museum Warsaw",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 25,
+     "tips": "Matejko's Grunwald; swap in for the Chopin museum. Free on Tuesdays."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Saska Kępa: a gentle farewell",
+   "stops": [
+    {
+     "name": "Saska Kępa Francuska Street",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Modernist villas and cafés in a calm east-bank neighbourhood."
+    },
+    {
+     "name": "Skwer Breakfast Saska Kępa",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 35,
+     "tips": "A neighbourhood café for a farewell breakfast."
+    },
+    {
+     "name": "National Stadium from Outside",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The red-and-white national stadium, across the Vistula."
+    },
+    {
+     "name": "Warszawa Centralna Airport Train",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 5,
+     "tips": "The train to Chopin Airport takes 20 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Kulturalna Palace of Culture",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 30,
+     "tips": "A café inside the palace; swap in for Saska Kępa."
+    },
+    {
+     "name": "Museum of Polish History Citadel",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:45",
+     "cost": 30,
+     "tips": "A huge new history museum, opened in 2023, at the citadel."
+    }
+   ]
+  }
+ ]
+}

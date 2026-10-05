@@ -1,0 +1,492 @@
+{
+ "lang": "tr",
+ "slug": "sanghay-yaz",
+ "altSlug": "shanghai-summer",
+ "citySlug": "sanghay",
+ "destKey": "shanghai",
+ "city": "Şanghay",
+ "region": null,
+ "country": "Çin",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "CNY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 2200,
+  "attractions": 1200,
+  "transport": 250,
+  "misc": 400
+ },
+ "notes": [
+  "Alipay/WeChat Pay yabancı kartla çalışır, nakit nadir; metro ucuz ve geniş (3-7 CNY). Maglev Pudong'a 8 dakika.",
+  "Vize: 2026'da birçok ülke için 30 gün vizesiz (Türkiye için kontrol et); Google/WhatsApp için VPN'i önceden kur.",
+  "Yaz 35°C ve nemli; Temmuz-Ağustos'ta tayfun var. Sabah Bund, öğleden sonra müze/AVM, gece Pudong ışıkları.",
+  "Xiaolongbao 30-50 CNY; shengjianbao için Yang's; Fransız Bölgesi'nde brunch 100+.",
+  "Müzeler ücretsiz ama pasaportla online rezervasyon gerekir; Şanghay Kulesi biletini online al.",
+  "Bahşiş yok; pazarlık pazarlarda var, mağazada yok."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Shanghai Public Transportation Card / Alipay",
+  "why_chosen": "Metro ve otobüste; Alipay Transport kodu yabancı kartla da çalışır",
+  "coverage": "Metro, otobüs, feribot, taksi",
+  "where_to_buy": "Metro istasyonları (20 CNY depozito); Alipay uygulaması",
+  "cost": 20,
+  "currency_code": "CNY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Bund & Nanjing Road",
+   "stops": [
+    {
+     "name": "The Bund",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Kolonyal bina sırası ve karşıda Pudong; sabah tai chi yapanlar, kalabalık yok."
+    },
+    {
+     "name": "Nanjing Road East",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Çin'in en işlek yaya caddesi; Shanghai First Food Store."
+    },
+    {
+     "name": "People's Square & Shanghai Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Bronz ve porselen koleksiyonu; ücretsiz, pasaportla rezervasyon."
+    },
+    {
+     "name": "Yang's Fry Dumplings",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Shengjianbao (kızarmış çorbalı mantı); Huanghe Road, ısır-emme tekniği."
+    },
+    {
+     "name": "Bund Gece Manzarası",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Pudong ışıkları 19:00-22:00; Huangpu nehir turu (~120 CNY) isteğe bağlı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jia Jia Tang Bao",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Xiaolongbao efsanesi; Huanghe Road, erken biter."
+    },
+    {
+     "name": "Huangpu River Cruise",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 120,
+     "tips": "Gece nehir turu; Bund yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Yu Garden & Eski Şehir",
+   "stops": [
+    {
+     "name": "Yu Garden",
+     "category": "nature",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 40,
+     "tips": "Ming dönemi klasik bahçe; 08:30 açılışta sakin, zikzak köprü."
+    },
+    {
+     "name": "Yuyuan Bazaar",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Bahçenin çevresinde çarşı; hediyelik ve çay."
+    },
+    {
+     "name": "Nanxiang Mantou Dian",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 50,
+     "tips": "1900'den beri xiaolongbao'nun doğduğu yer; üst kat oturmalı, alt kat kuyruklu paket."
+    },
+    {
+     "name": "City God Temple",
+     "category": "culture",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 10,
+     "tips": "Tao tapınağı; çarşının ortasında."
+    },
+    {
+     "name": "Tianzifang",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Shikumen ara sokaklarında atölyeler ve kafeler; Fransız Bölgesi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lin Long Fang",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 40,
+     "tips": "Yerel xiaolongbao; Fransız Bölgesi, turist yok."
+    },
+    {
+     "name": "Huxinting Teahouse",
+     "category": "food",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 50,
+     "tips": "Yu Garden gölünün üstünde çay evi."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Pudong gökdelenleri",
+   "stops": [
+    {
+     "name": "Shanghai Tower Top of Shanghai",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 180,
+     "tips": "118. kat, 632 m; sabah net hava, dünyanın en hızlı asansörü."
+    },
+    {
+     "name": "Lujiazui Yaya Köprüsü",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Dairesel köprüden Oriental Pearl ve kuleler."
+    },
+    {
+     "name": "Shanghai Ocean Aquarium",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 160,
+     "tips": "155 m sualtı tüneli; çocukla."
+    },
+    {
+     "name": "Din Tai Fung Pudong",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 100,
+     "tips": "Xiaolongbao ve tavuk çorbası; klimalı."
+    },
+    {
+     "name": "Century Park",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 10,
+     "tips": "Pudong'un dev parkı; göl ve bisiklet."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shanghai Grandma Pudong",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 60,
+     "tips": "Yerel Shanghai mutfağı; hongshao rou."
+    },
+    {
+     "name": "Oriental Pearl Tower",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 199,
+     "tips": "Retro pembe kule; Shanghai Tower yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Fransız Bölgesi",
+   "stops": [
+    {
+     "name": "Wukang Road",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Platanlı bulvar ve Wukang Mansion; art deco villalar, kafeler."
+    },
+    {
+     "name": "Propaganda Poster Art Centre",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 25,
+     "tips": "Bir apartman bodrumunda Mao dönemi afişleri; gizli ve ilginç."
+    },
+    {
+     "name": "Fu 1039",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 200,
+     "tips": "1913 villasında Shanghai mutfağı; sarhoş tavuk ve kırmızı domuz."
+    },
+    {
+     "name": "Xintiandi",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Restore shikumen'lerde kafeler; Komünist Parti 1. Kongre Müzesi ücretsiz."
+    },
+    {
+     "name": "Fuxing Park",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Fransız parkı; dans eden ve mahjong oynayan emekliler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jesse Restaurant",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 120,
+     "tips": "Eski Jesse; hongshao rou, rezervasyon."
+    },
+    {
+     "name": "Shanghai Museum of Art Pudong",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Bund karşısında yeni müze; Xintiandi yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Zhujiajiao",
+   "stops": [
+    {
+     "name": "Zhujiajiao Fangsheng Bridge",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Metro 17. hat ile 1 saat; 1571 yapımı beş kemerli köprü; sabah, tur otobüsleri gelmeden git."
+    },
+    {
+     "name": "Zhujiajiao Kanal Tekne Turu",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 80,
+     "tips": "Gondolla kanallar; 20 dakika."
+    },
+    {
+     "name": "Kezhi Garden",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 20,
+     "tips": "Kasabanın klasik bahçesi; giriş kombine biletle."
+    },
+    {
+     "name": "Zhujiajiao Kanal Kenarı Lokanta",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 60,
+     "tips": "Zongzi ve domuz paçası; nehir masaları."
+    },
+    {
+     "name": "Zhujiajiao Bei Dajie",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Kuzey caddesi dükkânları; kavrulmuş kestane."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ah Po Cha Lou Zhujiajiao",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 40,
+     "tips": "Kanal üstü çay evi; dim sum."
+    },
+    {
+     "name": "Qibao Ancient Town",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Şehre yakın su kasabası; Zhujiajiao yerine kısa."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Suzhou",
+   "stops": [
+    {
+     "name": "Humble Administrator's Garden",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 80,
+     "tips": "Hongqiao'dan hızlı tren 25 dakika; Çin'in en ünlü klasik bahçesi, UNESCO."
+    },
+    {
+     "name": "Suzhou Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "I.M. Pei'nin beyaz-gri müzesi; ücretsiz, rezervasyon."
+    },
+    {
+     "name": "Pingjiang Road",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Kanal boyu eski cadde; ipek dükkânları ve çay evleri."
+    },
+    {
+     "name": "Pingjiang Road Noodle House",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 40,
+     "tips": "Suzhou tatlı erişte çorbası."
+    },
+    {
+     "name": "Tiger Hill",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 60,
+     "tips": "Eğik pagoda ve Wu kralının mezarı; dönüş treni 18:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Songhelou Suzhou",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 120,
+     "tips": "1757'den beri Suzhou mutfağı; sincap balığı."
+    },
+    {
+     "name": "Shantang Street",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Kanal caddesi; Tiger Hill yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Jing'an — hafif veda",
+   "stops": [
+    {
+     "name": "Jing'an Temple",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 50,
+     "tips": "Altın çatılı tapınak gökdelenler arasında; Jing'an."
+    },
+    {
+     "name": "Jing'an Kerry Centre",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "AVM; hediyelik ve kahve."
+    },
+    {
+     "name": "Xiaoyang Shengjian Jing'an",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 30,
+     "tips": "Shengjianbao; veda öğle yemeği."
+    },
+    {
+     "name": "Maglev Longyang Road",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 50,
+     "tips": "430 km/s maglev ile Pudong Havalimanı 8 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Wagas Jing'an",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 60,
+     "tips": "Salata ve kahve; hafif."
+    },
+    {
+     "name": "Jing'an Sculpture Park",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Heykel parkı ve Doğa Tarihi Müzesi."
+    }
+   ]
+  }
+ ]
+}

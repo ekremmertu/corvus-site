@@ -1,0 +1,14 @@
+{
+ "source": "701738709b47",
+ "model": "sonnet",
+ "strings": {
+  "d2.s0.tips": "Statue City Cruises'ın ilk feribotu 08:30'da (~26 USD, kaide dahil); Ellis Island'da göçmen müzesi var. Taç bileti aylar önce alınmalı.",
+  "d2.s4.tips": "Manhattan'dan Brooklyn'e köprüde 30 dakika yürü; gün batımı için DUMBO'ya var.",
+  "d2.b0.tips": "Ücretsiz feribot; Özgürlük Heykeli'ni kaideye çıkmadan denizden gör.",
+  "d3.s1.tips": "Mısır tapınağı, Vermeer, Amerikan kanadı; NY dışından 30 USD, en az 2 saat ayır.",
+  "note1": "Müzeler: Met NY dışından 30 USD, AMNH 28, MoMA 30; birçoğu belirli günlerde 'istediğin kadar öde' uygular.",
+  "note2": "Yaz nemli, 28-33°C; Coney Island ve nehir parkları, akşam Broadway. 4 Temmuz'da havai fişek var.",
+  "note3": "Bahşiş restoranda %18-22, barda 1-2 USD; fiyatlara vergi dahil değil (%8,9)."
+ },
+ "warnings": []
+}

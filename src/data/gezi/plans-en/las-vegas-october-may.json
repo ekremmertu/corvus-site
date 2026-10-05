@@ -1,0 +1,461 @@
+{
+ "lang": "en",
+ "slug": "las-vegas-october-may",
+ "altSlug": "las-vegas-ekim-mayis",
+ "citySlug": "las-vegas",
+ "destKey": "las-vegas",
+ "city": "Las Vegas",
+ "region": null,
+ "country": "USA",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 500,
+  "attractions": 600,
+  "transport": 250,
+  "misc": 150
+ },
+ "notes": [
+  "The Strip is 7 km long. A Deuce bus 24-hour pass costs 8 USD, there's also the monorail, and Uber costs 10-20 USD. You need a car for Red Rock, Hoover Dam and Valley of Fire.",
+  "October to April is ideal at 15-25°C, for desert hikes and the Grand Canyon day. Nights in December and January drop to 5°C, and New Year and CES are very crowded.",
+  "The resort fee (30-50 USD per night) isn't included in the hotel price. Buffets cost 60-80 USD and shows 100-150 USD; Tix4Tonight offers half price.",
+  "Drinks are free in casinos while you gamble. Tip 1-2 USD; in restaurants, 18-20%.",
+  "Book Sphere and O tickets weeks ahead. Red Rock scenic drive needs a timed reservation (October to May).",
+  "Grand Canyon West is 2.5 hours away (Skywalk) and the South Rim 4.5 hours; helicopter tours cost 400+ USD."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "The Strip: Bellagio to the Venetian",
+   "stops": [
+    {
+     "name": "Bellagio Conservatory",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Free seasonal flower garden; look up in the lobby for the Chihuly glass ceiling."
+    },
+    {
+     "name": "Bellagio Fountains",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A free music-and-water show every 30 minutes, and every 15 minutes in the evening. It's the icon of the Strip."
+    },
+    {
+     "name": "Bacchanal Buffet Caesars",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:30",
+     "cost": 80,
+     "tips": "Vegas's most famous buffet, with 250 dishes. Book ahead to skip the queue."
+    },
+    {
+     "name": "Forum Shops Caesars",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Roman-themed mall with a painted sky ceiling and the Atlantis show. Air-conditioned."
+    },
+    {
+     "name": "Venetian Grand Canal Gondola",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 40,
+     "tips": "An indoor Venetian canal with gondoliers, next to a replica of St. Mark's Square."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eataly Park MGM",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Italian food market; an alternative to the buffet."
+    },
+    {
+     "name": "Wynn Lake of Dreams",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "The Wynn's lake show. Free, in the evening."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Sphere and Fremont",
+   "stops": [
+    {
+     "name": "Sphere Las Vegas Experience",
+     "category": "culture",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 100,
+     "tips": "The world's largest LED sphere. Postcard from Earth film (~100 USD); the exterior display is free at night."
+    },
+    {
+     "name": "The LINQ High Roller",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 35,
+     "tips": "A 170 m observation wheel with air-conditioned cabins. Sunset rides are pricey."
+    },
+    {
+     "name": "Fremont Street Experience",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "Downtown's covered LED canopy, with live music, the Golden Nugget and the SlotZilla zipline (~50 USD)."
+    },
+    {
+     "name": "Container Park Downtown",
+     "category": "shopping",
+     "start": "21:00",
+     "end": "21:45",
+     "cost": 0,
+     "tips": "A shopping area built from shipping containers. The giant praying mantis sculpture shoots flames."
+    },
+    {
+     "name": "Evel Pie Fremont",
+     "category": "food",
+     "start": "21:45",
+     "end": "22:30",
+     "cost": 15,
+     "tips": "Punk rock pizza joint: slices and beer."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Carson Kitchen Downtown",
+     "category": "food",
+     "start": "21:45",
+     "end": "22:30",
+     "cost": 30,
+     "tips": "One of Downtown's good restaurants."
+    },
+    {
+     "name": "Mob Museum",
+     "category": "culture",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Museum of the Mafia; an alternative to Sphere."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Red Rock Canyon",
+   "stops": [
+    {
+     "name": "Red Rock Canyon Scenic Drive",
+     "category": "nature",
+     "start": "07:00",
+     "end": "09:30",
+     "cost": 20,
+     "tips": "30 minutes from the city. A 21 km scenic loop that needs a timed reservation. It's cool in the morning and the rocks glow red."
+    },
+    {
+     "name": "Calico Tanks Trail",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A 4 km walk to a rock basin, with views of the Strip from above."
+    },
+    {
+     "name": "Red Rock Casino Feast Buffet",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 35,
+     "tips": "A local buffet in Summerlin, cheaper than the Strip."
+    },
+    {
+     "name": "Downtown Summerlin",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Open-air mall with air-conditioned shops."
+    },
+    {
+     "name": "Cosmopolitan Chandelier Bar",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 25,
+     "tips": "A bar inside a three-storey chandelier. Try the Verbena cocktail."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Spring Mountain Ranch",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 10,
+     "tips": "Ranch and lake at the foot of the canyon; an alternative to the hike."
+    },
+    {
+     "name": "Lotus of Siam",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Vegas's famous Northern Thai restaurant; an alternative to the buffet."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Hoover Dam and Valley of Fire",
+   "stops": [
+    {
+     "name": "Hoover Dam",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 15,
+     "tips": "45 minutes from the city. A 1936 dam with a Powerplant tour (15 USD) and a walk across the Mike O'Callaghan Bridge."
+    },
+    {
+     "name": "Lake Mead Overlook",
+     "category": "nature",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Viewpoint over the reservoir, where the water level shows a \"bathtub ring\"."
+    },
+    {
+     "name": "Boulder City Coffee Cup Cafe",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "1950s-style cafe in the town that built the dam. Good for breakfast or lunch."
+    },
+    {
+     "name": "Valley of Fire State Park",
+     "category": "nature",
+     "start": "13:00",
+     "end": "16:00",
+     "cost": 15,
+     "tips": "Red sandstone and petroglyphs. Hike to the Fire Wave, and in summer go in the morning (42°C)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seven Magic Mountains",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Colourful stone towers in the desert by Ugo Rondinone, just off the I-15; an alternative to Valley of Fire."
+    },
+    {
+     "name": "Boulder Dam Brewing",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 18,
+     "tips": "Brewery in Boulder City."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Grand Canyon West",
+   "stops": [
+    {
+     "name": "Grand Canyon West Skywalk",
+     "category": "nature",
+     "start": "06:30",
+     "end": "12:30",
+     "cost": 80,
+     "tips": "2.5 hours from the city (tour ~150 USD, or drive). The Hualapai tribe's glass bridge and Eagle Point. The South Rim is 5 hours away, too far."
+    },
+    {
+     "name": "Hualapai Ranch Lunch",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Lunch in the cowboy village at the Skywalk."
+    },
+    {
+     "name": "Hoover Dam Bypass Viewpoint",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Admire the bridge on the way back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nacho Daddy Downtown",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Nachos and scorpion shots Downtown; an alternative lunch."
+    },
+    {
+     "name": "Grand Canyon Helicopter Tour",
+     "category": "nature",
+     "start": "06:30",
+     "end": "12:30",
+     "cost": 400,
+     "tips": "Helicopter flight over the canyon from Vegas (~400 USD); an alternative to driving."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Show night",
+   "stops": [
+    {
+     "name": "The Neon Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 30,
+     "tips": "Old neon signs, visited on a guided tour. In winter, go during the day."
+    },
+    {
+     "name": "Pinball Hall of Fame",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 10,
+     "tips": "1,000 pinball machines, 25 cents a play."
+    },
+    {
+     "name": "In-N-Out Burger Las Vegas",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "Behind the LINQ. Order it animal style."
+    },
+    {
+     "name": "Cirque du Soleil O Bellagio",
+     "category": "culture",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 130,
+     "tips": "\"O\", the water-stage show at the Bellagio. Buy tickets online, or try TKTS (Tix4Tonight) for half-price same-day tickets."
+    },
+    {
+     "name": "Bellagio Fountains at Night",
+     "category": "landmark",
+     "start": "21:00",
+     "end": "21:30",
+     "cost": 0,
+     "tips": "Every 15 minutes at night; catch it after the show."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Absinthe Caesars",
+     "category": "culture",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 100,
+     "tips": "Adult cabaret in a tent; an alternative to O."
+    },
+    {
+     "name": "Hash House A Go Go",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Giant breakfast plates."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Welcome sign and a gentle farewell",
+   "stops": [
+    {
+     "name": "Welcome to Fabulous Las Vegas Sign",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "At the southern end of the Strip. No queue in the morning."
+    },
+    {
+     "name": "The Park MGM & T-Mobile Arena",
+     "category": "landmark",
+     "start": "08:45",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Pedestrian park and the Bliss Dance sculpture."
+    },
+    {
+     "name": "Peppermill Restaurant",
+     "category": "food",
+     "start": "09:45",
+     "end": "11:00",
+     "cost": 20,
+     "tips": "A 24-hour cafe with 1972 pink neon. Giant pancakes make a good farewell breakfast."
+    },
+    {
+     "name": "Fashion Show Mall",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Last-minute souvenirs; the airport is 15 minutes away."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bouchon Bakery Venetian",
+     "category": "food",
+     "start": "09:45",
+     "end": "11:00",
+     "cost": 12,
+     "tips": "Thomas Keller's bakery."
+    },
+    {
+     "name": "Aria Fine Art Collection",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Free art collection in the hotel; an alternative to the mall."
+    }
+   ]
+  }
+ ]
+}

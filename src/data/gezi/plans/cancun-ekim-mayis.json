@@ -1,0 +1,461 @@
+{
+ "lang": "tr",
+ "slug": "cancun-ekim-mayis",
+ "altSlug": "cancun-october-may",
+ "citySlug": "cancun",
+ "destKey": "cancun",
+ "city": "Cancún",
+ "region": null,
+ "country": "Meksika",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "MXN",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 6500,
+  "attractions": 7500,
+  "transport": 4000,
+  "misc": 1500
+ },
+ "notes": [
+  "Hotel Zone R1/R2 otobüsü 15 MXN; ADO otobüsleri Chichén, Tulum ve Playa'ya; kiralık araç cenote'ler için özgürlük (sigorta pahalı).",
+  "Aralık-Nisan kuru ve 28°C, en kalabalık ve pahalı dönem (Noel, Mart bahar tatili); Kasım ve Nisan altın orta.",
+  "Chichén Itzá ve Tulum'a 08:00 açılışta git; öğlen 35°C ve tur otobüsleri var. Cenote'lerde biyolojik olarak parçalanmayan krem yasak.",
+  "Hotel Zone restoranları 3-5 kat pahalı; Mercado 28 ve merkezde (Parque de las Palapas) yerel fiyat var. Peso ile öde; dolarda kur kötü.",
+  "Bahşiş %10-15; plaj satıcılarına 'no gracias'. İçme suyu şişeden.",
+  "Feribotlar: Isla Mujeres Puerto Juárez'den (Hotel Zone iskeleleri pahalı), Cozumel Playa'dan, Holbox Chiquilá'dan."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Hotel Zone plajları",
+   "stops": [
+    {
+     "name": "Playa Delfines",
+     "category": "nature",
+     "start": "08:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Cancún'un en büyük ücretsiz plajı; otel yok, turkuaz Karayip, sargazo mevsimine bak (Mayıs-Ağustos)."
+    },
+    {
+     "name": "Cancún Tabelası Playa Delfines",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Renkli CANCUN harfleri; fotoğraf."
+    },
+    {
+     "name": "El Fish Fritanga",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "Lagün kenarında yerel balık lokantası; ceviche ve tikin xic, Hotel Zone'da nadir ucuz."
+    },
+    {
+     "name": "Museo Maya de Cancún",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 100,
+     "tips": "Maya müzesi ve San Miguelito kalıntıları; klimalı öğleden sonra."
+    },
+    {
+     "name": "Playa Chac Mool",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Merkezi halk plajı; gün batımı ve dalga."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mercado 28 Los De Pescado",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 150,
+     "tips": "Şehir merkezi pazarında balık tacosu; Cancún'luların yeri."
+    },
+    {
+     "name": "Playa Tortugas",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Sakin lagün tarafı plaj; feribot iskelesi."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Isla Mujeres",
+   "stops": [
+    {
+     "name": "Ultramar Feribot Puerto Juárez",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:00",
+     "cost": 280,
+     "tips": "20 dakikalık feribot (~28 USD gidiş-dönüş); adada golf arabası kirala (~800 MXN)."
+    },
+    {
+     "name": "Playa Norte",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Dünyanın en iyi plajlarından; sığ ve durgun, şezlong 100-200 MXN."
+    },
+    {
+     "name": "Punta Sur Isla Mujeres",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 50,
+     "tips": "Adanın güney ucu; Ixchel tapınağı kalıntısı ve heykel parkı, Meksika'nın ilk güneşi."
+    },
+    {
+     "name": "Mango Cafe Isla Mujeres",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 250,
+     "tips": "Karayip kahvaltı-öğle; coconut French toast, adanın ünlüsü."
+    },
+    {
+     "name": "MUSA Sualtı Müzesi Şnorkel",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 600,
+     "tips": "500 sualtı heykeli; şnorkel turu iskeleden, 17:30 feribot."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Isla Mujeres Mercado Municipal",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 120,
+     "tips": "Belediye pazarında ucuz yerel."
+    },
+    {
+     "name": "Garrafón Reef Park",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 1200,
+     "tips": "Zipline ve şnorkel parkı; MUSA yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Chichén Itzá & cenote",
+   "stops": [
+    {
+     "name": "Chichén Itzá",
+     "category": "culture",
+     "start": "08:00",
+     "end": "11:00",
+     "cost": 697,
+     "tips": "Cancún'a 2,5 saat (ADO otobüs veya tur); Kukulkan piramidi ve top sahası, 08:00 açılışta serin ve boş, giriş ~697 MXN."
+    },
+    {
+     "name": "Cenote Ik Kil",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "Chichén'e 5 dakika; 26 m derin açık cenote, sarmaşıklar, can yeleği zorunlu."
+    },
+    {
+     "name": "Valladolid Casa Tía Micha",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 250,
+     "tips": "Valladolid'de Yucatán mutfağı; cochinita pibil ve sopa de lima."
+    },
+    {
+     "name": "Valladolid Calzada de los Frailes",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Pastel kolonyal sokak ve Convento de San Bernardino."
+    },
+    {
+     "name": "Cenote Suytun",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:15",
+     "cost": 250,
+     "tips": "Mağara cenote ve ışık huzmesi; öğleden sonra ışık, dönüş 2 saat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cenote Zací Valladolid",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:15",
+     "cost": 80,
+     "tips": "Şehir içinde cenote; Suytun yerine."
+    },
+    {
+     "name": "El Meson del Marqués Valladolid",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 350,
+     "tips": "Meydanda kolonyal restoran."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Tulum",
+   "stops": [
+    {
+     "name": "Tulum Ruins",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 95,
+     "tips": "Cancún'a 2 saat; deniz kenarı Maya kalesi, 08:00 açılış, giriş ~95 MXN + park ücreti, iguanalar."
+    },
+    {
+     "name": "Playa Ruinas Tulum",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Kalıntıların altındaki plaj; kısa yüzme."
+    },
+    {
+     "name": "Gran Cenote",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 500,
+     "tips": "Şnorkelli mağara cenote; kaplumbağa ve sarkıtlar, sabah berrak."
+    },
+    {
+     "name": "Taquería Honorio Tulum",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "Tulum'un efsane sabah-öğle tacosu; cochinita ve lechón, 14:00'te biter."
+    },
+    {
+     "name": "Tulum Beach Road",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Palmiyeli sahil yolu; beach club (Papaya Playa) veya halk plajı (Playa Paraíso)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cenote Dos Ojos",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 450,
+     "tips": "İki gözlü mağara sistemi; Gran Cenote yerine."
+    },
+    {
+     "name": "Antojitos La Chiapaneca",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 100,
+     "tips": "Tulum kasabasında al pastor; akşam."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Xcaret",
+   "stops": [
+    {
+     "name": "Xcaret Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "13:00",
+     "cost": 2800,
+     "tips": "Yeraltı nehirleri, Maya köyü ve akşam gösterisi (~150 USD); Cancún'a 1 saat, öğle Plus pakette."
+    },
+    {
+     "name": "Xcaret Büfe",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Park içi büfe; Plus pakette dahil."
+    },
+    {
+     "name": "Xcaret México Espectacular",
+     "category": "culture",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "300 sanatçılı Meksika tarihi gösterisi; park bileti dahil."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Playa del Carmen Quinta Avenida",
+     "category": "shopping",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Playa'nın yaya caddesi."
+    },
+    {
+     "name": "El Fogón Playa del Carmen",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "Playa'da al pastor tacosu; park yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Holbox",
+   "stops": [
+    {
+     "name": "Chiquilá Feribot Holbox",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 250,
+     "tips": "Cancún'a 2,5 saat + 20 dakika feribot; araçsız ada."
+    },
+    {
+     "name": "Holbox Punta Cocos",
+     "category": "nature",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Sığ ve ılık lagün; flamingolar, hamak barlar."
+    },
+    {
+     "name": "Holbox Roots Pizza",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 300,
+     "tips": "Holbox'ta ıstakoz pizza."
+    },
+    {
+     "name": "Holbox Punta Mosquito Sandbar",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Gelgitte yürünen kum dili; gün batımı, Mayıs-Eylül balina köpekbalığı turu."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Holbox Las Panchas",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "Yerel kahvaltı-öğle."
+    },
+    {
+     "name": "Isla Contoy Turu",
+     "category": "nature",
+     "start": "10:00",
+     "end": "17:30",
+     "cost": 2500,
+     "tips": "Kuş adası ve Isla Mujeres şnorkel; Holbox/Cozumel yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Mercado 28 — hafif veda",
+   "stops": [
+    {
+     "name": "Mercado 28",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Şehir merkezi el işi pazarı; hamak, gümüş, pazarlık %40."
+    },
+    {
+     "name": "Cocina La Chaya Mercado 28",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 150,
+     "tips": "Yucatán ev yemekleri; panuchos ve chaya suyu, veda."
+    },
+    {
+     "name": "Parque de las Palapas",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Şehir merkezi meydanı; marquesitas (krep) tezgahları akşam, gündüz sakin."
+    },
+    {
+     "name": "ADO Havalimanı Otobüsü",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Merkezden havalimanına ADO 30 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Taquería Los Charros Cancún",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 120,
+     "tips": "Merkezde taco; pazar yerine."
+    },
+    {
+     "name": "Playa Langosta",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Hotel Zone'da son deniz."
+    }
+   ]
+  }
+ ]
+}

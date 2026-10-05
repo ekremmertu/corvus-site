@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "floransa-ekim-mayis",
+ "altSlug": "florence-october-may",
+ "citySlug": "floransa",
+ "destKey": "florence",
+ "city": "Floransa",
+ "region": null,
+ "country": "İtalya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 400,
+  "attractions": 230,
+  "transport": 80,
+  "misc": 80
+ },
+ "notes": [
+  "Floransa yürünür (merkez ZTL araç yasak); Siena/San Gimignano otobüs (SITA), Chianti için araç veya tur. Havalimanına tramvay T2.",
+  "Uffizi, Accademia, kubbe: saatli bileti haftalar önce online al; ilk pazar ücretsiz (kalabalık). Firenze Card 85 EUR, 72 saat.",
+  "Kasım-Şubat sakin ve 8-12°C; müzelerde kuyruk yok, Aralık'ta Noel pazarı, Kasım'da Chianti'de zeytinyağı hasadı.",
+  "Lampredotto 5 EUR, schiacciata 8, trattoria 20-30, bistecca 50-60 EUR/kg; coperto 2-3, kahve ayakta 1,30.",
+  "Musluk suyu içilir; Duomo ve kiliselerde omuz-diz kapalı.",
+  "Vasari Koridoru yeniden açık (Uffizi'den rezervasyon)."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Duomo & merkez",
+   "stops": [
+    {
+     "name": "Cattedrale di Santa Maria del Fiore",
+     "category": "culture",
+     "start": "08:15",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Katedral içi ücretsiz (kuyruk); Brunelleschi Pass (30 EUR) kubbe+kule+vaftizhane+müze."
+    },
+    {
+     "name": "Brunelleschi Kubbesi Tırmanışı",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "463 basamak; saatli rezervasyonu haftalar önce yap. Fresklerin arasından şehir manzarası."
+    },
+    {
+     "name": "Battistero di San Giovanni",
+     "category": "culture",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Ghiberti'nin Cennet Kapıları (kopya) ve mozaik tavan; pas dahil."
+    },
+    {
+     "name": "Mercato Centrale Firenze",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 12,
+     "tips": "Alt kat pazar, üst kat yemek katı; lampredotto (Nerbone) ve trüflü sandviç."
+    },
+    {
+     "name": "Piazza della Signoria",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Açık hava heykel müzesi; Loggia dei Lanzi, Neptün çeşmesi, David kopyası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "All'Antico Vinaio",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 8,
+     "tips": "Önünde kuyruk olan schiacciata sandviç; Via dei Neri."
+    },
+    {
+     "name": "Museo dell'Opera del Duomo",
+     "category": "culture",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Orijinal Cennet Kapıları ve Michelangelo Pietà'sı; pas dahil."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Uffizi & Ponte Vecchio",
+   "stops": [
+    {
+     "name": "Galleria degli Uffizi",
+     "category": "culture",
+     "start": "08:15",
+     "end": "11:00",
+     "cost": 29,
+     "tips": "Botticelli'nin Venüs'ü, Leonardo, Caravaggio; 08:15 ilk seans, online (29 EUR), 2,5 saat."
+    },
+    {
+     "name": "Ponte Vecchio",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Kuyumcular köprüsü; Vasari Koridoru üstte."
+    },
+    {
+     "name": "Trattoria Sergio Gozzi",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 18,
+     "tips": "San Lorenzo'da 1915'ten beri esnaf trattoria; ribollita ve bistecca, öğle."
+    },
+    {
+     "name": "Basilica di San Lorenzo & Medici Şapelleri",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 9,
+     "tips": "Michelangelo'nun Yeni Sakristi heykelleri; Medici mezarları."
+    },
+    {
+     "name": "Piazzale Michelangelo",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Şehrin kartpostal manzarası; gün batımı, San Miniato kilisesi 10 dakika üstte (Gregoryen ilahi 17:30)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trattoria Mario",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 18,
+     "tips": "Pazar karşısında paylaşımlı masalarda öğle; nakit."
+    },
+    {
+     "name": "Palazzo Vecchio",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "Belediye sarayı ve Beşyüzler Salonu; kuleden manzara."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Accademia & San Marco",
+   "stops": [
+    {
+     "name": "Galleria dell'Accademia",
+     "category": "culture",
+     "start": "08:15",
+     "end": "09:45",
+     "cost": 20,
+     "tips": "Michelangelo'nun David'i ve Esirler; 08:15 online seans."
+    },
+    {
+     "name": "Museo di San Marco",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 8,
+     "tips": "Fra Angelico freskli manastır hücreleri; sakin."
+    },
+    {
+     "name": "Mercato di Sant'Ambrogio",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 10,
+     "tips": "Yerel pazar; Cibrèo kafesi ve Trattoria da Rocco (pazar içi)."
+    },
+    {
+     "name": "Santa Croce Bazilikası",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 8,
+     "tips": "Michelangelo, Galileo, Machiavelli mezarları; Giotto freskleri."
+    },
+    {
+     "name": "Scuola del Cuoio",
+     "category": "shopping",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Santa Croce arkasında deri okulu; atölye izle."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trattoria da Rocco Sant'Ambrogio",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 12,
+     "tips": "Pazar içi ucuz öğle."
+    },
+    {
+     "name": "Museo Galileo",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 13,
+     "tips": "Bilim aletleri; Santa Croce yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Oltrarno",
+   "stops": [
+    {
+     "name": "Palazzo Pitti Galleria Palatina",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 16,
+     "tips": "Medici sarayı; Raffaello ve Tiziano, Uffizi kombine 40 EUR."
+    },
+    {
+     "name": "Giardino di Boboli",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 10,
+     "tips": "Rönesans bahçesi; Neptün havuzu ve Bardini'ye geçiş."
+    },
+    {
+     "name": "Giardino Bardini",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Boboli biletiyle; salkım söğüt tüneli (Nisan-Mayıs) ve Duomo manzarası."
+    },
+    {
+     "name": "Gustapizza Oltrarno",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 10,
+     "tips": "Napoli pizzası; Santo Spirito, kuyruk."
+    },
+    {
+     "name": "Piazza Santo Spirito",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Zanaatkâr mahallesinin meydanı; Brunelleschi kilisesi, atölyeler (Via Maggio), akşam aperitivo."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Il Santo Bevitore",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 35,
+     "tips": "Oltrarno'nun ünlü akşam restoranı; rezervasyon."
+    },
+    {
+     "name": "Cappella Brancacci",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 10,
+     "tips": "Masaccio freskleri; Santa Maria del Carmine, rezervasyon."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Siena & San Gimignano",
+   "stops": [
+    {
+     "name": "Piazza del Campo Siena",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Otobüs 1,5 saat; istiridye şekilli meydan, Palio (2 Temmuz-16 Ağustos)."
+    },
+    {
+     "name": "Duomo di Siena",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 8,
+     "tips": "Siyah-beyaz çizgili katedral; Piccolomini kütüphanesi, mermer zemin (Ağustos-Ekim açık)."
+    },
+    {
+     "name": "Torre del Mangia",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 10,
+     "tips": "400 basamak kule; Campo manzarası."
+    },
+    {
+     "name": "Osteria Le Logge Siena",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 30,
+     "tips": "Campo yanında Toskana mutfağı; pici makarnası."
+    },
+    {
+     "name": "San Gimignano Kuleleri",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Ortaçağ Manhattan'ı; 14 kule, Gelateria Dondoli (dünya şampiyonu dondurma), gün batımında sur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gelateria Dondoli San Gimignano",
+     "category": "food",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 4,
+     "tips": "Dondurma; şampiyon."
+    },
+    {
+     "name": "Monteriggioni",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Yuvarlak surlu köy; San Gimignano yerine yakın."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Chianti",
+   "stops": [
+    {
+     "name": "Greve in Chianti",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Chianti'nin başkenti; üçgen meydan ve Antica Macelleria Falorni."
+    },
+    {
+     "name": "Castello di Verrazzano Şarap Turu",
+     "category": "culture",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Kale bağı turu ve tadım; rezervasyon, tur veya araç."
+    },
+    {
+     "name": "Castello di Verrazzano Öğle",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 35,
+     "tips": "Bağda Toskana öğle; şarap eşliğinde."
+    },
+    {
+     "name": "Panzano in Chianti",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Dario Cecchini'nin kasap köyü; şiirli kasap."
+    },
+    {
+     "name": "Castellina in Chianti",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Etrüsk tüneli ve sur; gün batımı bağlar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Officina della Bistecca Dario Cecchini",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 50,
+     "tips": "Cecchini'nin bistecca menüsü; rezervasyon."
+    },
+    {
+     "name": "Badia a Passignano",
+     "category": "culture",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Manastır ve Antinori bağları; Verrazzano yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Santa Maria Novella — hafif veda",
+   "stops": [
+    {
+     "name": "Basilica di Santa Maria Novella",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 7,
+     "tips": "Masaccio'nun Teslis'i; gar yanı."
+    },
+    {
+     "name": "Officina Profumo-Farmaceutica di Santa Maria Novella",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "1221'den beri eczane-parfümeri; hediyelik."
+    },
+    {
+     "name": "Trattoria Sostanza",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 25,
+     "tips": "1869'dan beri tereyağlı tavuk göğsü; nakit, öğle."
+    },
+    {
+     "name": "Firenze Santa Maria Novella Garı",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Pisa 1 saat, Roma 1,5 saat; havalimanına tramvay T2 20 dakika, veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trattoria Sabatino Oltrarno",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "Ucuz esnaf lokantası."
+    },
+    {
+     "name": "Museo Novecento",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 10,
+     "tips": "20. yüzyıl sanatı; bazilika yerine."
+    }
+   ]
+  }
+ ]
+}

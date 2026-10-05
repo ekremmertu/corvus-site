@@ -1,0 +1,10 @@
+{
+ "source": "bc7ad9a818d5",
+ "model": "sonnet",
+ "strings": {
+  "d2.s3.tips": "Sovyet heykel parkı (devrilmiş Dzerjinski) ve nehir sahili.",
+  "d2.s4.tips": "Kışın buz pisti (paten kiralama), sıcak çay.",
+  "transit.why_chosen": "Metro, otobüs ve tramvay; metro istasyonları dünyanın en güzelleri arasında."
+ },
+ "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+ "source": "7c19f29149b1",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "Alaçatı'yı 'Alaçatı' yapan asıl cadde; renkli kepenkli taş evler ve butik dükkânlar arasında yürüyün. Kalabalık öğleden sonra artıyor, sabah saatlerinde neredeyse tenha.",
+  "d1.s2.tips": "Kemalpaşa'nın gürültüsünden uzak, begonvillerle kaplı sakin sokaklar. Yerel oturuş kültürünü görmek için kapı önü sohbetlerine göz atın. Fotoğraf için ideal ışık öğleden öncesinde olur.",
+  "d2.theme": "Rüzgârın başkenti: Pırlanta'da sörf ve balıkçı limanı",
+  "d2.s0.tips": "Alaçatı'yı dünya çapında ünlü yapan geniş kumsal ve sığ, sürekli rüzgârlı koy. Sabah rüzgârı daha hafif olduğundan yüzmek için ideal, öğleden sonra sörfçüler için sertleşiyor.",
+  "d2.s1.tips": "Yerel sörf merkezinde 1,5 saatlik başlangıç windsurf dersi; ekipman fiyata dahil. En az 1 gün önce telefonla veya Instagram'dan yer ayırtın, rüzgâra göre ders saati değişebiliyor.",
+  "d2.s2.tips": "1993'ten beri balıkçı limanında hizmet veren köklü mekân; günün balığını buğulama isteyin. Rezervasyon önerilir, +90 232 716 76 91'den arayabilirsiniz.",
+  "d2.s3.tips": "Alaçatı merkezden 20 dakikalık yürüyüşle ulaşılan, renkli balıkçı tekneleriyle dolu sakin bir liman. Gün batımına yakın ışık en güzeli; Kemalpaşa'ya göre çok daha az kalabalık.",
+  "d2.b0.tips": "Dışarıdan sade bir çay bahçesi gibi görünen ama içeride kafe-restorana dönüşmüş samimi bir mekân. Fahri'nin Yeri doluysa hafif bir öğle molası için uygun.",
+  "d2.b1.tips": "Sıcak, sığ ve turkuaz suyuyla ailelerin tercih ettiği geniş kumsal. Pırlanta rüzgâr yüzünden uygun değilse buraya yönelin, deniz çok daha durgun.",
+  "d3.s2.tips": "14. yüzyıldan kalma Ceneviz kalesi, içindeki küçük müzeyle birlikte gezilir. Müzekart geçerli; geçmiyorsa giriş ücreti düşük. Kule terasından liman manzarası harika.",
+  "d3.s4.tips": "Çeşme merkezde yerel halkın sıkça tercih ettiği köklü balıkçı; günlük avlanan balığı ızgara isteyin. Fiyatı komşu turistik mekânlara göre daha makul.",
+  "d4.s1.tips": "Alaçatı'nın gerçek esnaf lokantası; günlük hazırlanan sulu yemek ve zeytinyağlılardan seçin, kilosuyla ödersiniz. Turistik mekânlara göre fiyatı çok daha gerçekçi, öğle saatinde yoğun olabilir.",
+  "d4.s2.tips": "Restore edilerek kültürel mekâna dönüştürülmüş eski bir Rum kilisesi; taş işçiliğine ve içindeki sergilere göz atın. Genelde sessiz ve az turistli, fotoğraf için iyi bir ara durak.",
+  "d5.s1.tips": "Halka açık, sakin bir başka plaj; büyük plaj kulüplerinin aksine sade ve ücretsiz. Kısa bir yüzme molası için Paşalimanı'na yakın olduğundan güzel bir ikinci durak.",
+  "d5.s2.tips": "Dalyanköy'de yerelin tercih ettiği deniz ürünleri mekânı; mevsim balığını buğulama isteyin. Turistik rotanın biraz dışında kaldığı için fiyatlar daha makul.",
+  "d5.b0.tips": "2026'da yeni yerinde açılan, sabahtan geceye uzanan konseptiyle esnek bir öğle yemeği seçeneği. Defne Yaprağı doluysa alternatif olarak değerlendirin.",
+  "d6.s0.tips": "Alaçatı'dan yaklaşık 1-1,5 saatlik yolun ardından, tamamen kadınların çalıştığı bu belediye mandırasında Kopanisti ve sepet peynirinin üretimini yerinde görebilirsiniz. Ziyaret için önceden belediyeyi arayıp haber verin. Vakumlu peynir almak için yanınızda nakit bulundurun.",
+  "d7.s3.tips": "Bilet gidiş-dönüş alındıysa ek ücret yok; pasaport kontrolü için son saatten en az 20 dakika önce iskelede olun. Gün ışığında dönüş, Çeşme koyunun manzarasını görmek için güzel bir fırsat.",
+  "note3": "Restoranlarda hesaba servis ücreti (%5-10) çoğu zaman otomatik eklenir. Hesabı yuvarlayarak bahşiş bırakmak yerelde adettir ama zorunlu değildir.",
+  "note4": "Sakız Adası (Chios) günübirlik geçişinde pasaport zorunlu. AB vizesi olmayan T.C. vatandaşları için kapıda 'gün ziyaretçi' uygulaması olabilir; feribot şirketinden güncel kuralı teyit edin.",
+  "note5": "Taş sokaklarda ve kiliselerde/camilerde omuz ve dizleri kapatan kıyafet tercih edin; plaj kıyafetiyle köyiçi dükkânlarına girmek yerelde hoş karşılanmaz.",
+  "note6": "Rüzgârlı bir bölgedir (özellikle öğleden sonra 'meltem'); sörf yapmıyorsanız bile plajda şemsiye/eşya güvenliğine dikkat edin.",
+  "niche.why_hidden": "Çeşme-Alaçatı'daki turist akışı plaj ve sörfe odaklanıyor. Yarımadanın diğer ucundaki Karaburun'da ise tamamen kadınların işlettiği bir belediye mandırası, dağda kekik ve adaçayıyla beslenen keçilerden elde edilen Kopanisti ve sepet peynirini üretiyor. Rehber kitaplarda neredeyse hiç yer almıyor; ziyaretçilerin büyük kısmı sadece satış noktalarından paket peynir alıyor, üretim sürecini hiç görmüyor.",
+  "niche.access_instructions": "Alaçatı'dan özel araçla veya Çeşme'den kalkan dolmuşla Karaburun merkeze ulaşın (yaklaşık 1-1,5 saat); mandıra Karaburun merkez, Cumhuriyet Mahallesi'nde. Grup ziyareti veya üretim sürecini görmek için belediyeyi bir gün önceden aramanız gerekiyor. Randevusuz satış noktasına girip peynir almak ise her zaman mümkün."
+ },
+ "warnings": []
+}

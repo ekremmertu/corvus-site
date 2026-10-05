@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "vancouver-yaz",
+ "altSlug": "vancouver-summer",
+ "citySlug": "vancouver",
+ "destKey": "vancouver",
+ "city": "Vancouver",
+ "region": null,
+ "country": "Kanada",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "CAD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 450,
+  "attractions": 450,
+  "transport": 150,
+  "misc": 80
+ },
+ "notes": [
+  "Compass kartı; SkyTrain, otobüs, SeaBus (Kuzey Vancouver); Canada Line YVR 25 dakika (ek 5 CAD). Capilano ve Grouse ücretsiz servisler Canada Place'ten.",
+  "Yaz kuru ve 22-26°C; gün ışığı 21:30'a kadar. Celebration of Light havai fişek (Temmuz-Ağustos), Whistler zirve yürüyüşleri, plajlar; en iyi mevsim.",
+  "Vergi (%12) fiyata dahil değil, bahşiş %18; Capilano 75 CAD pahalı (Lynn ücretsiz), Grouse 80, Whistler otobüs 50-70.",
+  "Somon, sushi (Miku aburi), Japadog, spot prawn (Mayıs); Granville pazarı kahvaltı.",
+  "Whistler otobüsü için Skylynx'ten günler önce bilet al; Peak 2 Peak yazın hafta içi ucuz; Sea to Sky Gondola ile birleştir.",
+  "Kanada eTA online; Vancouver güvenli, Downtown Eastside (Hastings) sadece geçilir."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Stanley Park & Coal Harbour",
+   "stops": [
+    {
+     "name": "Stanley Park Seawall Bisiklet",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Denny's/Spokes'tan bisiklet (15 CAD/2 saat); 9 km deniz duvarı, Lions Gate köprüsü altı, Third Beach."
+    },
+    {
+     "name": "Stanley Park Totem Poles",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Brockton Point totemleri; First Nations."
+    },
+    {
+     "name": "Vancouver Aquarium",
+     "category": "culture",
+     "start": "12:15",
+     "end": "14:00",
+     "cost": 45,
+     "tips": "Parkın içinde; deniz samurları ve Amazon."
+    },
+    {
+     "name": "Prospect Point Cafe",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Köprü manzaralı park kafesi."
+    },
+    {
+     "name": "Coal Harbour Seawall & Canada Place",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Yelken çatılı terminal; FlyOver Canada (35 CAD), deniz uçakları iniş kalkış."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cardero's Coal Harbour",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 35,
+     "tips": "Marina restoranı; somon."
+    },
+    {
+     "name": "Vancouver Lookout Harbour Centre",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Gözlem kulesi; akvaryum yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Granville Island & Kitsilano",
+   "stops": [
+    {
+     "name": "Granville Island Public Market",
+     "category": "food",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 20,
+     "tips": "Köprü altı sanatçı adası; Lee's Donuts, somon, Aquabus feribotu (5 CAD) ile git."
+    },
+    {
+     "name": "Granville Island Sanatçı Atölyeleri",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Cam, seramik, Net Loft; Kids Market."
+    },
+    {
+     "name": "Kitsilano Beach",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Kits plajı ve tuzlu su havuzu (137 m, yazın); dağ manzarası."
+    },
+    {
+     "name": "Sophie's Cosmic Cafe Kitsilano",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 18,
+     "tips": "Retro brunch; 4th Avenue."
+    },
+    {
+     "name": "Museum of Anthropology UBC",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:30",
+     "cost": 25,
+     "tips": "Bill Reid'in Kuzgun heykeli ve totemler; UBC kampüsü, cam bina."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Vanier Park & Museum of Vancouver",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:30",
+     "cost": 20,
+     "tips": "Uzay merkezi ve şehir müzesi; MOA yerine yakın."
+    },
+    {
+     "name": "Go Fish Granville",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 18,
+     "tips": "İskelede fish taco kulübesi."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Kuzey Kıyı: Capilano & Grouse",
+   "stops": [
+    {
+     "name": "Capilano Suspension Bridge Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 75,
+     "tips": "137 m asma köprü, Treetops ve Cliffwalk; Canada Place'ten ücretsiz servis, 09:00 boş, kışın ışıklar (Canyon Lights)."
+    },
+    {
+     "name": "Grouse Mountain Skyride",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:30",
+     "cost": 80,
+     "tips": "Teleferikle 1.100 m; ağaç kesme gösterisi, boz ayılar, Grouse Grind (2,9 km dik yürüyüş, ücretsiz çıkış)."
+    },
+    {
+     "name": "Grouse Mountain Altitudes Bistro",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 25,
+     "tips": "Zirvede şehir manzaralı öğle."
+    },
+    {
+     "name": "Lynn Canyon Park",
+     "category": "nature",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Ücretsiz asma köprü ve 30 Foot Pool; Capilano'nun bedava kardeşi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lonsdale Quay Market",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 18,
+     "tips": "SeaBus terminali pazarı; Kuzey Vancouver."
+    },
+    {
+     "name": "Deep Cove",
+     "category": "nature",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Kano kiralama ve Quarry Rock yürüyüşü; Honey Doughnuts, Lynn yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Whistler",
+   "stops": [
+    {
+     "name": "Sea to Sky Highway Shannon Falls",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Otobüs (Skylynx/YVR) 2 saat; yolda 335 m şelale, Squamish Chief."
+    },
+    {
+     "name": "Sea to Sky Gondola Squamish",
+     "category": "nature",
+     "start": "09:15",
+     "end": "10:45",
+     "cost": 70,
+     "tips": "885 m'ye teleferik; asma köprü ve fiyort manzarası."
+    },
+    {
+     "name": "Whistler Village",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Olimpik köy yaya bölgesi; halkalar, dükkânlar."
+    },
+    {
+     "name": "Peak 2 Peak Gondola",
+     "category": "nature",
+     "start": "12:30",
+     "end": "15:00",
+     "cost": 90,
+     "tips": "Whistler-Blackcomb arası dünya rekoru teleferik (3 km); zirve yürüyüşleri ve buzul manzarası (yaz), kayak (kış)."
+    },
+    {
+     "name": "Purebread Whistler",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 12,
+     "tips": "Efsane fırın; scone ve kek, dönüş otobüsü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Brandywine Falls",
+     "category": "nature",
+     "start": "09:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "70 m şelale; gondola yerine ücretsiz."
+    },
+    {
+     "name": "Araxi Whistler",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 50,
+     "tips": "Köyün şef restoranı."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Gastown, Chinatown & Yaletown",
+   "stops": [
+    {
+     "name": "Gastown Steam Clock",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Buharlı saat 15 dakikada bir ıslık çalar; Gassy Jack meydanı, kaldırım taşları."
+    },
+    {
+     "name": "Dr. Sun Yat-Sen Classical Chinese Garden",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 16,
+     "tips": "Çin dışındaki ilk Ming bahçesi; komşu park ücretsiz."
+    },
+    {
+     "name": "Chinatown Phnom Penh",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 25,
+     "tips": "Kamboçya-Vietnam; tavuk kanadı ve biftek luc lac, kuyruk."
+    },
+    {
+     "name": "Yaletown",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Depo mahallesi; Roundhouse lokomotifi, David Lam parkı, False Creek seawall."
+    },
+    {
+     "name": "Japadog Robson",
+     "category": "food",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "Japon usulü hot dog (terimayo); Robson Street."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Meat & Bread Gastown",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "Porchetta sandviç; Gastown."
+    },
+    {
+     "name": "Vancouver Art Gallery",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 30,
+     "tips": "Emily Carr koleksiyonu; polis müzesi yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Queen Elizabeth & Commercial Drive",
+   "stops": [
+    {
+     "name": "Queen Elizabeth Park",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Şehrin en yüksek noktası; taş ocağı bahçeleri ve silüet, Bloedel Serası (8 CAD)."
+    },
+    {
+     "name": "VanDusen Botanical Garden",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 13,
+     "tips": "Yaz çiçekleri ve labirent."
+    },
+    {
+     "name": "Main Street Vintage",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Mount Pleasant vintage ve tasarım; duvar resimleri (Ağustos festivali)."
+    },
+    {
+     "name": "Commercial Drive",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 20,
+     "tips": "Little Italy; Cafe Calabria kahve, Havana, La Grotta del Formaggio sandviç."
+    },
+    {
+     "name": "Trout Lake Park",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Mahalle gölü; cumartesi çiftçi pazarı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Vij's Restaurant",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 45,
+     "tips": "Kanada'nın ünlü Hint restoranı; rezervasyonsuz kuyruk, Cambie."
+    },
+    {
+     "name": "Science World",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 35,
+     "tips": "Küre bina bilim müzesi; False Creek, bahçe yerine (çocukla)."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "English Bay — hafif veda",
+   "stops": [
+    {
+     "name": "English Bay Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "A-maze-ing Laughter heykelleri; Inukshuk, sabah yürüyüşü."
+    },
+    {
+     "name": "Davie Village",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Gökkuşağı geçitleri ve kafeler; West End."
+    },
+    {
+     "name": "Medina Cafe",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 22,
+     "tips": "Şehrin en ünlü brunch'ı; waffle ve tagine, kuyruk."
+    },
+    {
+     "name": "Waterfront Canada Line YVR",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 10,
+     "tips": "Canada Line havalimanı 25 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Breka Bakery Davie",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 10,
+     "tips": "24 saat fırın; kahvaltı."
+    },
+    {
+     "name": "Roedde House Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 8,
+     "tips": "West End Viktorya evi; Davie yerine."
+    }
+   ]
+  }
+ ]
+}

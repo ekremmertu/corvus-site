@@ -1,0 +1,560 @@
+{
+ "lang": "en",
+ "slug": "istanbul-october-may",
+ "altSlug": "istanbul-ekim-mayis",
+ "citySlug": "istanbul",
+ "destKey": "istanbul",
+ "city": "Istanbul",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 15900,
+  "attractions": 4332,
+  "transport": 1250,
+  "misc": 250
+ },
+ "notes": [
+  "Payment: Cards work almost everywhere, but carry cash (small notes) for tradesmen's restaurants, market stalls and old districts like Vefa and Zeyrek. Tips also need cash.",
+  "Tipping: In restaurants leave 5-10% on the table; hammam and boat staff are tipped separately. For taxis, rounding up the fare is enough.",
+  "Getting around: One Istanbulkart works on ferries, trams, the metro, Marmaray and buses, including the Bosphorus and Islands ferries. Prefer ferry + Marmaray to taxis, as traffic is heavy in winter too.",
+  "Dress and manners: In mosques cover shoulders and knees; women need a headscarf (provided at the entrance), and shoes come off. Visits pause for about 30 minutes at prayer times. Keep quiet in the Patriarchate and the synagogue, and ask before taking photos.",
+  "Season: In January it is 3-10°C, rainy and windy, and it gets dark around 17:50. Wear waterproof shoes and layers; on the Bosphorus shore and the Islands the wind feels 5°C colder. Ferries can be cancelled on lodos or storm days, so check the Şehir Hatları app in the morning.",
+  "Safety: In Sultanahmet and Galata, don't fall for the 'shoe-shiner dropping his brush' or 'new friend who buys you tea' tricks. For taxis, insist on the meter or use BiTaksi/Uber.",
+  "Dining etiquette: In a meyhane you pick from the meze tray, rakı is sipped slowly and the table runs long. In tradesmen's restaurants 12:00-13:30 is the busiest lunch time, so go early."
+ ],
+ "niche": {
+  "name": "Ahrida Synagogue",
+  "level": "l3",
+  "why_hidden": "Founded in the early 15th century by Romaniote Jews arriving from Ohrid, this is Istanbul's largest and oldest active synagogue. Its bimah is shaped like Noah's Ark, or the prow of the ship that carried the Sephardim, and exists in no other synagogue. Everyone exploring Balat passes it on Vodina Caddesi, but the door always looks closed. For security, entry is only by pre-approved appointment, so guidebooks say 'view from outside'.",
+  "access_instructions": "Visits are on weekdays 10:00-14:00; it is closed after 12:00 on Fridays, on Saturdays and on Jewish holidays. At least 3 days ahead, email your full name, an ID or passport copy and your requested date and time to the 500th Year Foundation Museum of Turkish Jews. After approval, pass the security check at the entrance with the same ID. With the same application you can also ask for the Yanbol Synagogue a few streets away.",
+  "local_contact": "info@muze500.com / +90 212 292 63 33 (Türk Musevileri Müzesi, randevu ve onay); alternatif 0532 349 76 57",
+  "season": "Year-round; in winter, with no Balat crowds, appointments are easier to get. Visits stop during Jewish holiday weeks (Pesach, Rosh Hashanah, Yom Kippur).",
+  "insider_tip": "Asking the staff about the original wooden dome paintings uncovered in the 1992 500th-year restoration stretches the standard 10-minute talk to 40 minutes, and they will also show you the midrash room in the courtyard. Men get a kippah at the entrance; ask permission before taking photos. If you visit on the Friday morning before Shabbat, you will see the preparations.",
+  "show_reason": "İstanbul'un en gizli açık kapısı: ücretsiz, tarihi katmanı derin, fotoğrafı sosyal medyada nadir ve randevu süreci sayesinde 'bilen bilir' hissini gerçekten verir. Balat gününe 1 saatlik ekle ile mahalleyi renkli evlerden ibaret sanan turistten ayrışırsın.",
+  "lat": 41.03,
+  "lng": 28.9481,
+  "address": "Kürkçü Çeşme Sk. No:9, Balat Mah., 34087 Fatih, İstanbul",
+  "cost_range_min": 0,
+  "cost_range_max": 0,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Istanbulkart",
+  "why_chosen": "Every day of the plan uses ferries (Kadıköy, Fener, the Islands, Üsküdar), the tram (Sultanahmet), Marmaray and Bosphorus-shore buses (22, 25E, 15). Istanbulkart covers all of them with one card and gives a transfer discount. A single-use card or contactless credit card costs more per ride and gives no transfer on the Islands ferry. The card does not have to belong to one person, so a couple can tap one card, but separate cards pay off better for the transfer discount.",
+  "coverage": "İETT otobüs, metro, tramvay, Marmaray, Metrobüs, Şehir Hatları ve Adalar vapurları, Büyükada elektrikli minibüs, İSPARK",
+  "where_to_buy": "Havalimanı metro istasyonu ve tüm metro/tramvay istasyonlarındaki sarı İstanbulkart otomatları (165 TL kart + yükleme), Kabataş ve Kadıköy iskelesi gişeleri, A101/BİM/Migros kasaları; bakiye yükleme İstanbulkart mobil uygulamasından kredi kartıyla",
+  "cost": 665,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old city icons, hidden Zeyrek terrace",
+   "stops": [
+    {
+     "name": "Sultanahmet Square",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "12:15",
+     "cost": 1,
+     "tips": "Be the first into Hagia Sophia at 09:00. With a Turkish ID the prayer floor is free; if you have foreign guests, the upper gallery ticket is separate. Then visit the Blue Mosque (outside prayer times) and the Basilica Cistern, which costs 1 TL for Turkish citizens. Buy your ticket online from Passo and skip the queue. The square is quiet in winter, and the fountain line between Hagia Sophia and the Blue Mosque is the best photo angle."
+    },
+    {
+     "name": "Şehzade Cağ Kebap",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 800,
+     "tips": "At the entrance of Hocapaşa Sokak in Sirkeci, Erzurum-style cağ kebab (lamb on a horizontal spit) over a wood fire since 1989. A portion is 2 skewers: wrap them in lavaş (flatbread) and eat with sumac onions. A favourite of Vedat Milor and Ekşi Sözlük, rarely in tourist guides. It fills up at 12:00, so arrive before 12:30 or expect a 10-minute wait."
+    },
+    {
+     "name": "Süleymaniye Mosque",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Sinan's masterpiece. The inner courtyard and the back-garden terrace with Golden Horn views are quieter than Hagia Sophia and free. Sinan's tomb is in the graveyard along the north wall. From the Beyazıt tram stop, walk 10 minutes uphill."
+    },
+    {
+     "name": "Vefa Bozacısı",
+     "category": "food",
+     "start": "15:30",
+     "end": "16:00",
+     "cost": 150,
+     "tips": "In the same shop since 1876. Drink boza (a fermented millet drink), the winter classic, with cinnamon, and buy roasted yellow chickpeas (leblebi) from the counter next door. The glass Atatürk drank from is in the window. Real boza appears only in winter; summer versions lean towards vinegar."
+    },
+    {
+     "name": "Zeyrek Mosque",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "The Byzantine Pantokrator Monastery, reopened after restoration in 2019. The terrace of the Fatih Municipality's Zeyrek Tea Garden next door is the best sunset spot facing the Golden Horn and Galata (around 17:45 in winter). Tea is 50-70 TL. On the way down, look for perde pilavı (pilaf baked in a pastry crust) and bıttım soap (terebinth soap) at the Siirt stalls in the Women's Market."
+    },
+    {
+     "name": "Siirt Şeref Büryan Kebap Salonu",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 850,
+     "tips": "In the Women's Market at the foot of the Bozdoğan Aqueduct, this is the best Siirt pit-cooked lamb (büryan) in Istanbul. It is sold by weight: 200 g + perde pilavı + ayran is ideal. No alcohol, busy family atmosphere. Büryan runs out towards 21:00, so don't be late."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Erzincanlı Ali Baba Kuru Fasulye",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 600,
+     "tips": "The oldest on the 'kuru fasulye row' opposite Süleymaniye Mosque. The classic is buttery white beans with rice and pickles. The lunchtime queue moves fast; the interior is small."
+    },
+    {
+     "name": "Gülhane Park",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "The old outer garden of Topkapı. Free, with winter walks under plane trees and a view of where the Bosphorus meets the Golden Horn from the Sarayburnu end. The Gülhane tram stop is right at the gate."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Karaköy to Asmalımescit: banks, tower, meyhane",
+   "stops": [
+    {
+     "name": "Namlı Gurme Karaköy",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 750,
+     "tips": "Karaköy's deli and breakfast spot. Pick a cheese plate, eggs with sucuk and pastırma (cured beef) from the counter and have them brought to your table. On weekday mornings it is the ritual of the surrounding offices; at weekends there is a queue after 10:00."
+    },
+    {
+     "name": "SALT Galata",
+     "category": "culture",
+     "start": "10:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "First climb the Art Nouveau Kamondo Stairs from Bankalar Caddesi (morning light is ideal for photos). Then go inside when SALT Galata, the former Ottoman Bank building, opens at 11:00: a free exhibition, the bank's original vault and a library. Closed Monday."
+    },
+    {
+     "name": "Tarihi Nato Lokantası",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 750,
+     "tips": "A tradesmen's restaurant on Karanlık Fırın Sokak since 1952. At lunch there are 80 kinds of home cooking and an olive-oil counter, and the bill is written on paper. Open only Monday-Thursday 11:00-16:00; on other days go to the backup stop."
+    },
+    {
+     "name": "Galata Tower",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 650,
+     "tips": "The ticket is 650 TL, Museum Pass valid; the shortest queue is 13:30-15:00. The terrace is narrow, windy and cold in winter; move to the south side for the Golden Horn and Historic Peninsula view. Galata Square below has also been redone: for a photo of the tower, look from Camekan Sokak."
+    },
+    {
+     "name": "Turkish Coffee on Sand Workshop (Ünver Galata Apart Hotel)",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 1500,
+     "tips": "A 4-minute walk from the tower: brew Turkish coffee two ways, in sand and in a cezve, with fortune reading and a gift set. 1.5 hours, in English or Turkish. Book on GetYourGuide at least 1 day ahead; the 15:00-16:00 sessions are open in winter. On the way out, walk through the boutiques of Serdar-ı Ekrem Sokak to Istiklal.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Istanbul+Turkish+Coffee+on+Sand+Workshop",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Asmalı Cavit",
+     "category": "food",
+     "start": "18:45",
+     "end": "20:45",
+     "cost": 1700,
+     "tips": "Asmalımescit's genuine old-style meyhane (tavern). Cavit Bey is famous for meze trays (topik, fava, lakerda, or cured bonito) and ciğer 'kavurma' (pan-fried liver). It opens at 18:00 and a table without a booking is hard to find, so call in the afternoon. Rakı + 5-6 meze + a hot starter per person fits this budget."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Karaköy Lokantası",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 1300,
+     "tips": "A turquoise-tiled hall with a tradesmen's set lunch at midday and a meyhane in the evening; the olive-oil dishes and lamb tandır are good. Open daily, and at lunch you can walk in without a reservation."
+    },
+    {
+     "name": "Galata Mevlevi Lodge Museum",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 250,
+     "tips": "The 1491 Mevlevi lodge at the top of Tünel, with its semahane (whirling hall) and cemetery. Museum Pass valid. Closed Monday; the courtyard is peaceful even in winter."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Kadıköy: market, Moda, Kadife Sokak",
+   "stops": [
+    {
+     "name": "Baylan Pastanesi Kadıköy",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 400,
+     "tips": "On Muvakkithane Caddesi since 1961. Instead of breakfast, ask for 'kup griye' (a caramel ice-cream sundae) or the strawberry sundae with Turkish coffee, an old Istanbul patisserie ritual. Marble tables and veteran waiters; at weekends there is a queue after 11:00."
+    },
+    {
+     "name": "Kadıköy Historic Market",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Fishmongers on Güneşli Bahçe Sokak, the Petek pickle shop, nut sellers in the Ottoman Historic Market and 1930s shops like Yasemin Ecza. The fishmongers are liveliest 10:00-11:00. In winter the anchovy and bluefish stalls are ideal for photos."
+    },
+    {
+     "name": "Çiya Sofrası",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 950,
+     "tips": "Musa Dağdeviren's southeastern Anatolian cooking. Pick 3-4 'small plates' from the counter (in winter kelle paça, a sheep's head and trotter soup; alinazik; yuvalama, a yoghurt soup with meatballs). Arrive when the doors open at 12:00; by 13:00 there are no tables. Among the syrupy desserts, ask for the pumpkin dessert with tahini."
+    },
+    {
+     "name": "Moda Seafront",
+     "category": "nature",
+     "start": "14:00",
+     "end": "17:45",
+     "cost": 0,
+     "tips": "Walk from the market to Moda Caddesi and go down to the shore at the historic Moda Pier building. Sunset comes after 17:00, with the Historic Peninsula skyline right across the water (17:45 in winter). Tea at Moda Tea Garden is 60-80 TL, and Dondurmacı Ali Usta is open in winter too."
+    },
+    {
+     "name": "Yanyalı Fehmi Lokantası",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1000,
+     "tips": "In the market since 1919 and a 2026 Michelin Bib Gourmand. It has a counter of Ottoman home cooking and stays open until 22:30 in the evening. Classic orders are ezogelin soup, iç pilav (spiced liver rice), lamb tandır and şekerpare (semolina cookies in syrup). No alcohol, no reservation needed."
+    },
+    {
+     "name": "Arkaoda",
+     "category": "landmark",
+     "start": "20:45",
+     "end": "22:15",
+     "cost": 400,
+     "tips": "Kadife Sokak No:18, Kadıköy's 20-year-old alternative music bar, with DJ sets from dub to Anatolian psych. The back garden is closed in winter, but the indoor room is stove-heated and calm. Beer is 250-300 TL; on weekdays it fills with locals after 21:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Müdavim Lokantası",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 700,
+     "tips": "On Recaizade Sokak in Yeldeğirmeni, with a home-cooking menu that changes daily and the neighbourhood's lunch address. An olive-oil dish or stew + rice + ayran per person fits this budget."
+    },
+    {
+     "name": "Yeldeğirmeni Sanat",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "An arts centre run by Kadıköy Municipality in a former Greek church. The Mural Istanbul murals around it (Karakolhane and Macit Erbudak streets) make Kadıköy's best photo route. Free; closed Monday for exhibitions."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Fener–Balat: Patriarchate, synagogue, mosaics",
+   "stops": [
+    {
+     "name": "Fener Greek Orthodox Patriarchate",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "St George's Church is free on weekdays 08:30-16:00. Inside are a column fragment believed to be where Christ was bound and a gold iconostasis. During the service every Sunday 09:15-12:20 there is no sightseeing, but you can watch quietly from the back. Walk 5 minutes from the Fener pier on the Golden Horn."
+    },
+    {
+     "name": "Ahrida Synagogue",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Dating from the 15th century, this is Istanbul's largest-capacity synagogue; its bimah shaped like a ship's prow exists only here. Visits are weekdays 10:00-14:00. You must apply at least 3 days ahead with an ID copy to the Museum of Turkish Jews (info@muze500.com, +90 212 292 63 33); walk-ins without an appointment are not accepted. Closed Friday after 12:00 and on Saturday."
+    },
+    {
+     "name": "Köfteci Arnavut",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 650,
+     "tips": "On Mürselpaşa Caddesi since 1937: square köfte, piyaz (white bean salad) and Albanian-style liver, then semolina helva. It closes when the köfte runs out (usually 15:00) and is closed on Sundays. Bring cash; there are 8-10 tables, so expect to share at 12:30."
+    },
+    {
+     "name": "Chora Church",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Chora's 14th-century mosaics and frescoes (the Anastasis) reopened in 2024. Free for Turkish citizens, 20 € for foreigners. Closed to visits on Fridays; other days 09:00-18:00, with a 30-minute break at prayer times. From Balat take bus 36CE/99 to Edirnekapı or walk 20 minutes uphill."
+    },
+    {
+     "name": "Merdivenli Yokuş",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:45",
+     "cost": 0,
+     "tips": "Balat's coloured houses and pavement stairs. The best time for photos is after 16:30, when the light softens; mornings stay in shade. Drop by the antique dealers on Kiremit Caddesi and Vodina Caddesi and Balat's old Greek bakeries. Ask residents for permission when photographing house fronts."
+    },
+    {
+     "name": "Agora Meyhanesi 1890",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1800,
+     "tips": "Opened in 1890 by the Greek captain Asteri, this Balat meyhane has been the subject of songs. Expect Greek-Armenian meze (topik, lakerda, lentil köfte) and evening fasıl (live Ottoman-style music). For a weekend fasıl night booking is essential (+90 546 631 21 30); weekdays are calmer and cheaper."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Forno Balat",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 800,
+     "tips": "Stone-oven pide and lahmacun, serpme breakfast on weekdays and an open buffet breakfast at weekends. Closed Monday. A perfect match for Sundays, when Köfteci Arnavut is closed."
+    },
+    {
+     "name": "Bulgarian St Stephen Church",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "The cast-iron 'Iron Church' on the Golden Horn was built in 1898 from prefabricated parts made in Vienna. After the 2018 restoration it is free and open daily 09:00-17:00. It is 5 minutes to Balat along the waterfront."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Bosphorus shore: mansions, fortress, night cruise",
+   "stops": [
+    {
+     "name": "Ortaköy Mosque",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "The most classic Istanbul photo, in the same frame as the Bosphorus Bridge. At 09:30 the square is empty, before the kumpir (baked potato) sellers open. Go inside the mosque too: its windows facing the Bosphorus are crystal clear in winter."
+    },
+    {
+     "name": "Akıntı Burnu",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Take bus 22/25E from Ortaköy to Arnavutköy and walk along the shore to see the wooden waterfront mansion facades. At Akıntı Burnu, where the Bosphorus runs fastest, anglers cast their lines. For photos, Arnavutköy's back streets (Beyaz Gül Caddesi) are less known than the mansions."
+    },
+    {
+     "name": "Adem Baba Balık Lokantası",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 1300,
+     "tips": "Arnavutköy's alcohol-free local fish restaurant: grilled catch of the day, fried anchovies and, in winter on Sundays only, scorpion fish soup. Open 12:00-22:30 and empty at lunch. Meze + fish per person fits this budget, but the evening bill climbs."
+    },
+    {
+     "name": "Rumeli Fortress",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 250,
+     "tips": "The fortress Mehmed the Conqueror finished in 4 months in 1452. Free with the Museum Pass; other tickets are pegged to foreign currency. Closed Monday, open 08:30-18:30. From the Zağanos Pasha tower you get views of the FSM Bridge and Anadolu Hisarı. The stairs have no railings, so be careful in the rain."
+    },
+    {
+     "name": "Aşiyan Museum",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Tevfik Fikret's wooden house, which he designed himself in 1906, is Türkiye's first literature museum. It is run by the Istanbul Metropolitan Municipality (IBB), free, closed Monday, open 09:00-17:00. Just above the fortress, its study and balcony overlooking the Bosphorus are missing from guidebooks. Afterwards, watch the sunset in Bebek Park, then take a bus to Kabataş."
+    },
+    {
+     "name": "Bosphorus Dinner Cruise (Kabataş Iskelesi)",
+     "category": "nature",
+     "start": "20:00",
+     "end": "23:00",
+     "cost": 1931,
+     "tips": "Istanbul's signature experience: a dinner cruise leaving Kabataş at 20:00-20:30, with a private table, live fasıl and folk dances. You pass two bridges, the Maiden's Tower and the lit waterfront mansions. On GetYourGuide choose the starting price (alcohol-free) and add a window-seat request. Be at the pier 45 minutes before departure, and bring a coat for the upper deck.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Istanbul+Bosphorus+Dinner+Cruise+with+Private+Table",
+     "bookingProvider": "GetYourGuide"
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bebek Kahve",
+     "category": "food",
+     "start": "16:45",
+     "end": "17:45",
+     "cost": 300,
+     "tips": "A 1950s seaside café beside Bebek pier, with samovar tea and toasties and chairs right at the water. Even in winter wind it is the early-evening meeting point for Bebek locals."
+    },
+    {
+     "name": "Emirgan Park",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Two stops beyond Rumeli Fortress. Walking paths facing the Bosphorus wind around the Yellow and Pink Pavilions; there are no tulips in winter, but no crowds either. Free; tea in the pavilion cafés is 80-100 TL."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Büyükada winter day and island night",
+   "stops": [
+    {
+     "name": "Büyükada Clock Tower",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Take the Şehir Hatları ferry from Kabataş around 09:20 (1.5 hours, Istanbulkart about 140 TL one way); it also leaves from Kadıköy. From the pier go up to 23 Nisan Caddesi. The clock tower on the square and the shuttered mansions give a winter emptiness that is ideal for photos. There are no horse carriages; electric minibuses (Istanbulkart) and bike rental are available."
+    },
+    {
+     "name": "Church of St George, Büyükada",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Take the electric minibus to Lunapark (Birlik) Square, then climb 20-30 minutes up a steep cobbled slope to Yücetepe. Entry is free, candles 20-50 TL. From the island's highest point you see the Marmara and Sedef Island; without winter fog the Kartal shore is visible. On the 23rd of each month and on 23 April there is a queue of wish-makers; on weekdays it is empty."
+    },
+    {
+     "name": "Yücetepe Kır Gazinosu",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 950,
+     "tips": "At the foot of the church, a countryside restaurant from the 1930s, open all four seasons. In winter you eat köfte, grills and meze by the wood stove in the stone hall. The tables with a view are outside, while the spot by the stove is warm. After the climb there are also island tea and gözleme (stuffed flatbread)."
+    },
+    {
+     "name": "Dilburnu Nature Park",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A pine grove at the island's western tip: 15 minutes by bike from Lunapark Square, 35 minutes on foot on a flat road. Heybeliada and the Halki Seminary are right opposite, and there are no picnickers in winter. The light softens after 16:00, with sunset behind Heybeliada."
+    },
+    {
+     "name": "Büyükada Greek Orphanage",
+     "category": "landmark",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Europe's largest wooden building (1898), visible from outside on the road to Christ Hill. You cannot go in, but a silhouette shot from the pine road is the frame most island visitors miss. Return by electric minibus on the Nizam route; it is dark by 17:45 in winter."
+    },
+    {
+     "name": "Milto Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1700,
+     "tips": "On Gülistan Caddesi since 1935, the fish restaurant of island residents, open in winter too: squid, catch of the day and sea beans (deniz börülcesi). One shared fish + 4 meze fits this budget, wine extra. For the return, the Bostancı line is frequent in the evening as well (40 minutes), then take Marmaray. Confirm times in the Şehir Hatları app in the morning, since sailings are cancelled in a lodos (southwesterly gale)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Secret Garden Büyükada",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1500,
+     "tips": "A courtyard restaurant near the square, with a set menu and a covered garden in winter; it is on the same stretch of street if Milto is full. Book ahead, as it fills on weekend evenings."
+    },
+    {
+     "name": "Princes' Islands Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:15",
+     "cost": 100,
+     "tips": "A small museum at Aya Nikola telling the Greek, Armenian, Jewish and summer-resident history of the islands. Quiet on weekdays, closed Monday. Electric minibus stop: Aya Nikola."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Kuzguncuk and Üsküdar farewell",
+   "stops": [
+    {
+     "name": "Kuzguncuk Bostan Cafe",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 850,
+     "tips": "Serpme breakfast right next to the neighbourhood bostan (market garden). Ask for honey with clotted cream and, in winter, sac böreği (griddle pastry). It is 3 minutes from the Kuzguncuk stop on bus 15 from Üsküdar. Queue after 10:30 at weekends, calm on weekdays."
+    },
+    {
+     "name": "Kuzguncuk Bostan",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A 700-year-old neighbourhood market garden, farmed by locals through a cooperative. If the gate is open, go in: in winter there are cabbage and leek plots. On Icadiye Caddesi you find streets where a mosque, church and synagogue stand side by side, plus colourful wooden houses and the street from the 'Perihan Abla' series. Morning light is ideal for the coloured facades."
+    },
+    {
+     "name": "Kanaat Lokantası",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 900,
+     "tips": "Ottoman palace and home cooking in Üsküdar since 1933: elbasan tava (baked lamb with an egg-yoghurt topping), hünkar beğendi (lamb on smoked aubergine purée) and quince with clotted cream for dessert. It is a 25-minute waterfront walk from Kuzguncuk, or take bus 15. No alcohol. Between 12:30 and 13:30 it is packed with civil servants and tradesmen; ask the waiter 'what's special today'."
+    },
+    {
+     "name": "Salacak Waterfront",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Walk 15 minutes south along the shore from Üsküdar pier. The Maiden's Tower is opposite, with the Historic Peninsula skyline behind it, and in winter the afternoon light illuminates the tower fully. Tea gardens on the shore serve samovar tea for 70-90 TL. A boat to the tower costs 75 TL (Museum Pass), but looking from across the water is enough."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ismet Baba Restaurant",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 1500,
+     "tips": "A fish restaurant at Kuzguncuk pier since 1951, right on the Bosphorus, serving anchovy, bluefish and spinach meze in winter. Calm at lunch; reservations are essential in the evening."
+    },
+    {
+     "name": "Historic Üsküdar Çinili Hamam",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 900,
+     "tips": "Kösem Sultan's twin hammam of 1640, with neighbourhood prices rather than tourist prices. Scrub and foam per person fits this budget. The women's and men's sections have separate entrances; open daily, and towel and peştamal are provided."
+    }
+   ]
+  }
+ ]
+}

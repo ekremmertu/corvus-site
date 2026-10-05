@@ -1,0 +1,504 @@
+{
+ "lang": "en",
+ "slug": "cesme-october-may",
+ "altSlug": "cesme-ekim-mayis",
+ "citySlug": "cesme",
+ "destKey": "cesme",
+ "city": "Çeşme",
+ "region": "İzmir",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 7150,
+  "attractions": 15776,
+  "transport": 120,
+  "misc": 50
+ },
+ "notes": [
+  "Although Çeşme is a coastal town, the sea season is closed in January. Many summer beach businesses and some restaurants may be closed. Confirm by phone before you go.",
+  "Most tradesmen's restaurants (such as Sakarya and Tokmak Hasan) prefer cash, while card payment is standard in restaurants and cafes. Carry some cash with you.",
+  "In winter, minibus services are less frequent (once an hour instead of every half hour), so download the BiTaksi app to your phone.",
+  "Tips are usually left by rounding up the bill or at 5-10%. No tip is expected in tradesmen's restaurants.",
+  "In January the Aegean wind (poyraz) is harsh. Dress in layers, and a windproof coat is essential for coastal walks.",
+  "Çeşme is a very calm and safe town in winter. On quiet village roads (Ildırı, Karaburun), traffic thins out in the evenings, so prefer sightseeing during the day.",
+  "Old Greek churches such as Ayios Haralambos are cultural heritage. Be quiet inside; if there is no event, they can also be photographed from outside."
+ ],
+ "niche": {
+  "name": "Sakarya Lokantası",
+  "level": "l2",
+  "why_hidden": "A 40-year-old tradesmen's restaurant right in the middle of the touristy meyhanes and restaurants of Çeşme bazaar, rarely mentioned in guidebooks because of its plain sign. Local shopkeepers and fishermen eat here at lunchtime, while most tourists walk past without even noticing it.",
+  "access_instructions": "In Çeşme bazaar, on Inkılap Street, within walking distance of Çeşme Castle. It serves daily home cooking and sac kavurma (griddle-fried meat) at lunchtime only (about 12:00-15:00) and closes in the evening.",
+  "local_contact": "Yok - walk-in esnaf lokantası, telefon rezervasyonu gerekmiyor.",
+  "season": "Open all year. In winter you share tables with local tradesmen at lunchtime. In summer the tourist numbers rise, but the regular local customers never disappear.",
+  "insider_tip": "There is no fixed menu. Ask about the day's sac dish in the display and order accordingly; whatever comes out of the kitchen is what gets cooked. The bread arrives fresh from the bakery at the door, so order extra.",
+  "show_reason": "Turistik çarşının tam ortasında ama turistin fark etmediği, 40 yıllık aile işletmesi bir esnaf sofrası - Çeşme'nin gerçek gündelik tadını yansıtır, sosyal medyada neredeyse hiç görünmez.",
+  "address": "İnkılap Cad. No: 46, Çeşme/İzmir",
+  "lat": 38.3263,
+  "lng": 26.3041,
+  "cost_range_min": 500,
+  "cost_range_max": 700,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Izmirim Kart",
+  "why_chosen": "Izmirim Kart is the single card valid on the minibus lines between Çeşme, Alaçatı, Ilıca and Dalyan, and on all of Izmir's public transport (ESHOT buses, metro, ferries). So you can handle almost all the in-town days of the plan with one card. The card is not valid on days outside the district, such as Karaburun and Ephesus; a private transfer or taxi is budgeted for those days. Compared with a single paper ticket, Izmirim Kart is both cheaper and advantageous for journeys with transfers.",
+  "coverage": "Çeşme-Alaçatı-Ilıca-Dalyan minibüs hatları + İzmir genelinde ESHOT otobüs, metro ve vapur.",
+  "where_to_buy": "Çeşme otogarındaki minibüs durağı gişesi, çarşıdaki çoğu market/büfe, ESHOT Mobil uygulaması üzerinden yükleme.",
+  "cost": 150,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Çeşme centre: castle, bazaar and Greek heritage",
+   "stops": [
+    {
+     "name": "Çeşme Castle",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 100,
+     "tips": "Open 08:00-17:00 in winter. Go early in the morning and you can see Chios from the ramparts. The replica ship catapults in the inner courtyard make a good photo spot."
+    },
+    {
+     "name": "Çeşme Bazaar and Greek Houses",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Along Inkılap Street, restored stone Greek houses hold small olive oil and spice shops. You don't have to buy anything: walk through to take in the character of the streets."
+    },
+    {
+     "name": "Sakarya Lokantası",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 600,
+     "tips": "A 40-year-old tradesmen's restaurant with no fixed menu. Ask about the day's sac dish (meat and vegetables cooked on a griddle) and order accordingly. Open at lunchtime only, closed in the evening."
+    },
+    {
+     "name": "Ayios Haralambos Church",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "A stone church from 1832, restored and turned into a cultural centre, free to visit. Go in if there is an exhibition; otherwise admiring the stonework from outside is enough."
+    },
+    {
+     "name": "Çeşme Waterfront and Marina Sunset Walk",
+     "category": "landmark",
+     "start": "16:45",
+     "end": "17:45",
+     "cost": 0,
+     "tips": "In January the sun sets around 17:15. It is the ideal time for photos of the boats along the marina with the castle behind. It can be windy, so bring a coat."
+    },
+    {
+     "name": "Imren Lokantası",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 550,
+     "tips": "A calm place serving home cooking at the start of the bazaar. The olive oil stuffed vine leaves and the casserole of the day are good choices. No reservation needed, and it is quiet in winter."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hanımeli Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 550,
+     "tips": "A family-run place serving home cooking at the start of the bazaar. Choose from the dishes of the day; good value for money."
+    },
+    {
+     "name": "Çeşme Caravanserai",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "An Ottoman inn from 1528, now a boutique hotel. Its outer courtyard and stone gate are free to see, right next to the castle."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Alaçatı: stone streets, kumru and wine",
+   "stops": [
+    {
+     "name": "Kemalpaşa Street Stone Alleys",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "The streets are empty before 10:00 in the morning, the best time to photograph the stone houses with bay windows without crowds. The bougainvillea is bare in winter, but the door colours are still photogenic."
+    },
+    {
+     "name": "Alaçatı Windmills",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Four 150-year-old windmills on a hill at the entrance to Alaçatı. It is a short climb, and from the top you see both the town and the sea. Free, open at all hours."
+    },
+    {
+     "name": "Kumrucu Şevki",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 350,
+     "tips": "Open since the 1980s. Try Çeşme's signature sandwich, kumru, here; the classic with kashar cheese and sucuk (spicy sausage) is the usual pick. There may be a short queue at lunchtime."
+    },
+    {
+     "name": "Çakabey Neighbourhood Walk",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "This neighbourhood behind Kemalpaşa Street sits outside the tourist flow. Wander quietly through the streets where real Alaçatı locals live."
+    },
+    {
+     "name": "Vino Alaçatı Wine House",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:15",
+     "cost": 550,
+     "tips": "A boutique wine house in a 100-year-old stone \"priest's house\" serving 37 varieties of Aegean wine. Ask for a small tasting menu, and they will pair it with a cheese plate."
+    },
+    {
+     "name": "Aysel Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 650,
+     "tips": "A simple but tasty meyhane-style place on Kemalpaşa Street. Seasonal meze and sautéed wild greens (ot kavurma) go down well."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kumrucu Erol",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 350,
+     "tips": "Open since 1980, another classic kumru spot and an alternative to Şevki. It is on the same street, and the bread is a little thicker."
+    },
+    {
+     "name": "Çark Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Alaçatı's surf bay, deserted and wavy in winter. Even watching surfers train from a distance is enjoyable, and the wide, windswept beach makes a good photo backdrop."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Islands and coves: the sea around Çeşme",
+   "stops": [
+    {
+     "name": "Çeşme Pier Morning Walk",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 0,
+     "tips": "Take a short walk on the pier before boarding the boat. In the morning light the fishing boats make good shots."
+    },
+    {
+     "name": "From Izmir: Full-Day Boat Tour around Çeşme with Barbecue Lunch",
+     "category": "nature",
+     "start": "09:00",
+     "end": "17:00",
+     "cost": 4095,
+     "tips": "A full-day tour covering spots such as Sek Island, Blue Cove and Kış Limanı (Winter Harbour). Lunch (barbecue) is included. In winter it runs depending on weather and demand, so confirm with the operator before booking.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cesme+Full+Day+Boat+Tour+BBQ+Lunch",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Dalyan Pier Sunset Walk",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "On the way back, stop at Dalyan and take a short walk on the pier. The fishing boats and evening light are good for photos."
+    },
+    {
+     "name": "Defne Yaprağı Fish Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "A place in Dalyan Village rated 4.7 and known for fresh seafood. Try the fish of the season and the shrimp casserole, and book ahead by phone."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ba-Ni Fish Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "An alternative to Defne Yaprağı in Dalyan: another long-established place in the same area serving fresh fish and meze."
+    },
+    {
+     "name": "Çeşme Marina",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "If the boat tour returns to Çeşme, take an evening walk at the marina instead of Dalyan, with a sunset view of the castle silhouette."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Ilıca-Boyalık coast and Şifne hot springs",
+   "stops": [
+    {
+     "name": "Ilıca Beach Coastal Walk",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "This long beach is crowded in summer but almost empty in winter. Walk along the shore and photograph the view of Chios, but don't swim."
+    },
+    {
+     "name": "Boyalık Beach",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The 4 km beach is deserted and photogenic in winter. It is ideal for a long walk along the sand in the morning light; there are no beach facilities."
+    },
+    {
+     "name": "Tokmak Hasan'ın Yeri",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 550,
+     "tips": "In the same spot for 30 years in the Musalla neighbourhood, a tradesmen's restaurant serving doner and home cooking. Pick the dish of the day; reasonably priced."
+    },
+    {
+     "name": "Şifne Hot Springs",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 500,
+     "tips": "Sulphurous healing water at 42-55 degrees, ideal for winter tourism. Towels and slippers can usually be rented at the facility. Entry may be a little cheaper on public days."
+    },
+    {
+     "name": "Ilıca Veysi's",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 550,
+     "tips": "A place in Ilıca known for fast service and good food. The dessert treats are good too, and it is a relaxed option for the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yıldızburnu Nevi",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 700,
+     "tips": "A restaurant by the sea with a stylish atmosphere and especially good meze. A good alternative if Veysi's is full."
+    },
+    {
+     "name": "Paşalimanı Cove",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A quiet cove as an alternative to Boyalık. Completely empty in winter, and good for a shoreline walk and photos."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Ovacık countryside and Çiftlikköy coast",
+   "stops": [
+    {
+     "name": "Ovacık Village Countryside Walk",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The agricultural heart of the Çeşme Peninsula. Take a calm walk among artichoke fields and vineyards; no tourist buses come here."
+    },
+    {
+     "name": "Noni's House",
+     "category": "food",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "A calm place serving village breakfast and brunch in a garden. Don't miss the homemade jam and the olive oil börek with wild greens. Booking is recommended."
+    },
+    {
+     "name": "Alaçatı Antiques Bazaar",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A local cluster of antique shops selling old olive oil and grain presses and decorative items. It is less touristy than the main Kemalpaşa Street."
+    },
+    {
+     "name": "Salonis Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 750,
+     "tips": "A fish restaurant in Çiftlikköy with a view of Chios, open since 2009. Seasonal meze and grilled fish are a good choice; book by phone."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kumrucu Hikmet",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 350,
+     "tips": "Right at the entrance to Alaçatı and known for its generously filled kumru. A light lunch alternative to Noni's House."
+    },
+    {
+     "name": "Ovacık Olive Groves Viewpoint",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A short hill walk through the olive groves around the village. Quiet views after the olive harvest in winter."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Day trip to Ephesus: in the ancient city's footsteps",
+   "stops": [
+    {
+     "name": "Ephesus",
+     "category": "culture",
+     "start": "07:30",
+     "end": "13:00",
+     "cost": 11081,
+     "tips": "A guided tour departing from Çeşme, covering the archaeological site including the Library of Celsus and the theatre. The site entry fee is usually included in the tour price; check your booking confirmation. The round trip takes about 1.5-2 hours.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Ephesus+Highlights+Tour+from+Cesme",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "House of the Virgin Mary",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "A small chapel visited as part of the same tour. Be quiet inside; there may be a queue for those who want to drink from the fountain outside."
+    },
+    {
+     "name": "Selçuk Bazaar Short Break",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A short break in central Selçuk before heading back. You can see the Isa Bey Mosque and the view of Mount Bülbül from a distance."
+    },
+    {
+     "name": "Port Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "20:45",
+     "cost": 500,
+     "tips": "A quiet place near the marina for a light dinner after returning to Çeşme. After a long day, choose options that aren't heavy."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mercan Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "In Selçuk, known for Şirince kebab and olive oil greens. A good option if the tour programme includes a lunch break."
+    },
+    {
+     "name": "Şirince Village Short Break",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Some Ephesus tours add a short Şirince stop to the route: a brief walk through the stone streets and a chance to look into local wine shops."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "A short escape to Karaburun",
+   "stops": [
+    {
+     "name": "Sarpıncık Lighthouse",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "A secluded lighthouse at the tip of Karaburun. The last stretch is a dirt road, so drive carefully. It offers one of the widest open-sea views in the Aegean."
+    },
+    {
+     "name": "Mordoğan Seafront Walk",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A calm pier with fishing boats, almost empty in winter and also good for a short coffee break."
+    },
+    {
+     "name": "Sazak Old Greek Village",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "A ghost village abandoned in the 1923 population exchange, left among wind turbines. There are no clear signs, so mark the location on your map beforehand."
+    },
+    {
+     "name": "Poyraz Balık Evi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "A small fish house in Mordoğan rated 5 and known for fresh seafood. Ideal for a light lunch before heading back; the tour ends here."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rakım Sıfır Restoran & Pub",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "An alternative to Poyraz in Mordoğan: another place focused on Mediterranean food and seafood."
+    },
+    {
+     "name": "Mimoza Cove",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A little-known quiet cove on the Karaburun route. Nobody is there in winter, so it is good for a short viewpoint stop."
+    }
+   ]
+  }
+ ]
+}

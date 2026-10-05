@@ -1,0 +1,14 @@
+{
+ "source": "7a38d13649d3",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "89. kat; sabahki ilk seans kalabalıksız. Rüzgâr sönümleyici topu gör.",
+  "d2.s0.tips": "Çin imparatorluk hazinesi; yeşim lahana ve et taşı, salı-cumartesi. Sabah tur otobüslerinden önce git.",
+  "d2.s1.tips": "Çan Kay-şek'in konutunun bahçeleri; gül bahçesi.",
+  "d5.s1.tips": "Kükürt fumarolleri ve Qixing Dağı.",
+  "d7.s3.tips": "Şehir ormanı; son yürüyüş, MRT ile Taoyuan Havalimanı'na 40 dakika.",
+  "note0": "EasyCard MRT, otobüs ve YouBike'ta; MRT'de yeme-içme yasak (ceza). MRT ile Taoyuan Havalimanı'na 40 dakika.",
+  "note1": "Yaz 33°C ve nem, Temmuz-Eylül tayfun riski (T8'de her şey kapanır); sabah gez, öğleden sonra müze/AVM, gece pazarı akşam serinliğinde."
+ },
+ "warnings": []
+}

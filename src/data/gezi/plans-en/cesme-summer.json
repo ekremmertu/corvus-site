@@ -1,0 +1,478 @@
+{
+ "lang": "en",
+ "slug": "cesme-summer",
+ "altSlug": "cesme-yaz",
+ "citySlug": "cesme",
+ "destKey": "cesme",
+ "city": "Çeşme",
+ "region": "İzmir",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 13100,
+  "attractions": 7310,
+  "transport": 1800,
+  "misc": 500
+ },
+ "notes": [
+  "In summer (July-August) card payment is accepted everywhere in Çeşme, but at small fish restaurants such as those in Dalyan and Ildırı you can ask for a cash discount; carry 1000-2000 TL in cash.",
+  "For travel within towns and between them, dolmuş/minibuses often run late at peak hours (17:00-19:00); a taxi or a municipal bus with an Izmirim Kart is more reliable.",
+  "In restaurants, leave a waiter's tip of 5-10% of the bill in cash; at beach clubs, a separate small tip is expected for the sunbed attendant.",
+  "In central Alaçatı and Çeşme the stone streets get very hot in the afternoon (35°C+ in July); 09:00-11:00 in the morning and after 18:00 in the evening are the coolest times to explore.",
+  "When entering places of worship such as mosques and Greek churches, wear clothing that covers shoulders and knees, and don't go in beachwear.",
+  "Don't leave valuables in remote coves such as Ildırı and Boyabağı. After 21:00 the roads in these areas may be unlit, so go by car.",
+  "When swimming in windsurf/kitesurf areas (Pırlanta, Alaçatı Bay), stay away from surfers' routes and follow the lifeguard flags."
+ ],
+ "niche": {
+  "name": "Erythrai Ancient City (Ildır Archaeological Site)",
+  "level": "l2",
+  "why_hidden": "Almost all tourists coming to Çeşme focus on the coast and beaches. This ancient city, one of the 12 founding cities of the Ionian League, stays almost empty, along with its acropolis, which Homer called \"the place where the sun sets most beautifully\". Mainstream Çeşme guides highlight Alaçatı and the beaches and don't even mention this site.",
+  "access_instructions": "From central Çeşme it is about 25 minutes by car towards Ildır on the D-300; follow the brown culture sign at the village entrance. The site guard is usually on duty from 08:30 to 17:00 between April and October, and the car park is in the village square.",
+  "local_contact": "Çeşme Müze Müdürlüğü +90 232 712 66 08 (güncel ziyaret saati ve bekçi durumu için arayın)",
+  "season": "Open April to October; the best time to visit is late afternoon, close to sunset, for views of the Aegean and the islands from the acropolis.",
+  "insider_tip": "The path up to the acropolis is unmarked; ask villagers for \"the road to the theatre\". There is no shade, so be sure to bring water and a hat. After your visit, dinner at sunset at one of the village's fish restaurants makes a good finish.",
+  "show_reason": "Tarihi katman, ücretsize yakın giriş ve fotojenik akropol manzarası bir arada; plaj ve tekne turu imajının gölgesinde kalan gerçek bir 'bilen bilir' deneyimi sunuyor.",
+  "lat": 38.408,
+  "lng": 26.499,
+  "address": "Ildır Köyü Ören Yeri, Çeşme, İzmir",
+  "cost_range_min": 50,
+  "cost_range_max": 150,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Izmirim Kart",
+  "why_chosen": "Izmirim Kart is valid on the ESHOT/IZULAŞ bus lines covering Çeşme, Alaçatı, Ilıca, Dalyan, Urla and Izmir. For the moves within the centre in our plan (Alaçatı, central Çeşme, Ilıca) it is cheaper and more predictable than the dolmuş. For the Karaburun day trip and places like Ildırı, where bus service is weak, you will need to supplement it with a taxi or a rental car, but on the town days a single card is enough.",
+  "coverage": "Çeşme merkez, Alaçatı, Ilıca, Dalyan, Urla ve İzmir arası ESHOT/İZULAŞ otobüs hatları",
+  "where_to_buy": "Çeşme Otogarı gişesi, İzmirim Kart bayisi marketler veya İzmirimKart mobil uygulaması üzerinden sanal kart",
+  "cost": 150,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Alaçatı's stone streets and windy history",
+   "stops": [
+    {
+     "name": "Kemalpaşa Street and Hacımemiş Neighbourhood Walk",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Walk the car-free main street early in the morning, before the crowds, to see the Greek stone houses and art galleries. The Hacımemiş side is quieter and more bohemian, so browse the antique shops."
+    },
+    {
+     "name": "Alaçatı Windmills Park",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 150,
+     "tips": "Be sure to try the mastic coffee at the café next to the 150-year-old windmills, about 100-150 TL per person. For photos, the back of the windmills is less crowded."
+    },
+    {
+     "name": "Katre",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 850,
+     "tips": "A garden venue serving an organic village breakfast; ask for the eggs with wild herbs and the homemade jams. It fills up on summer mornings, so arrive around 12:30 for a garden table."
+    },
+    {
+     "name": "Alaçatı Beach",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 400,
+     "tips": "A sunbed and umbrella costs about 350-450 TL per person. The wind picks up in the afternoon, so head to the bay end of the beach to watch the surfers."
+    },
+    {
+     "name": "Tokmak Hasan'ın Yeri",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 750,
+     "tips": "A friendly local eatery favoured by residents; ask for the meat dish of the day and the döner (sliced roast meat), which is excellent value. No reservation needed, but on weekends arrive before 19:30."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Noni's House",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 800,
+     "tips": "A spread-style breakfast in a laid-back garden; try the homemade böreks (savoury pastries). If Katre is full, come straight here."
+    },
+    {
+     "name": "Ayios Konstantinos and Eleni Church (Alaçatı Greek Church)",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A Greek church built in 1874, with free entry. Be respectful and take photos inside without flash."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Çeşme's coves and islands by boat, evening in Dalyan",
+   "stops": [
+    {
+     "name": "Çeşme: Islands and Coves Boat Tour with Barbecue Lunch",
+     "category": "nature",
+     "start": "09:30",
+     "end": "17:30",
+     "cost": 3510,
+     "tips": "The price includes a barbecue lunch; bring swimwear, a towel and sunscreen. Book a day ahead. The departure point is usually the Çeşme/Dalyan pier; be there 20 minutes before the time on your ticket.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cesme+BBQ+Lunch+Boat+Trip+Islands+and+Bays",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Boyalık Beach",
+     "category": "nature",
+     "start": "17:45",
+     "end": "19:00",
+     "cost": 300,
+     "tips": "Ideal for a short cool-off in the last light of the day after leaving the boat. You can swim in the public section without renting a sunbed, and entry is free."
+    },
+    {
+     "name": "Cevat'ın Yeri",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1800,
+     "tips": "A decades-old fishermen's classic in Dalyanköy; don't miss the grilled octopus and sea beans. Booking is essential in summer, call 0542 724 7045."
+    },
+    {
+     "name": "Dalyan Pier Night Walk",
+     "category": "landmark",
+     "start": "21:15",
+     "end": "21:45",
+     "cost": 0,
+     "tips": "A quiet evening stroll along the pier where the fishing boats are moored. The best time for photos is when the lights come on, just after sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Defne Yaprağı Balık Restaurant Dalyanköy",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1700,
+     "tips": "If Cevat'ın Yeri is full, this place on the same street is a good alternative. Ask for the catch of the day, as prices on the menu may vary."
+    },
+    {
+     "name": "Çark Beach",
+     "category": "nature",
+     "start": "17:45",
+     "end": "19:00",
+     "cost": 250,
+     "tips": "The windsurf beach on Alaçatı Bay. If Boyalık is crowded, head here; the wind can still be strong in the late afternoon."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Çeşme bazaar and public beach under the castle",
+   "stops": [
+    {
+     "name": "Çeşme Castle and Maritime Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 150,
+     "tips": "A Genoese castle built in 1508, with an archaeology museum inside. MüzeKart is valid; go early in the morning, as the stones get very hot in the afternoon."
+    },
+    {
+     "name": "Çeşme Caravanserai and Bazaar Walk",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "See the exterior of the 16th-century caravanserai, then browse the small souvenir and olive oil shops in the back streets."
+    },
+    {
+     "name": "Imren Lokantası (Çeşme)",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "Çeşme's classic local eatery. From the daily home-style dishes, choose the Izmir köfte (meatballs in tomato sauce) or güveç (clay-pot stew); the set-plate price is reasonable."
+    },
+    {
+     "name": "Çeşme Public Beach",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 100,
+     "tips": "A public beach within walking distance of the centre, with both free and paid sections. It suits you if you'd rather lay out your own towel than rent a sunbed, and entry is nominal."
+    },
+    {
+     "name": "Karina Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1600,
+     "tips": "One of Çeşme's addresses for the local rakı-and-fish tradition. Order meze (small starters) to share and book a table for the evening in advance."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Horasan Balık",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1500,
+     "tips": "They don't give out menus, so always ask the price before ordering. Prawns with orange and seafood noodles are the signature dishes."
+    },
+    {
+     "name": "Çeşme Harbour Lighthouse and Seafront Walk",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "If the Public Beach is crowded, take a walk along the harbour; the boat moorings offer a good angle for sunset photos."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Ildırı: oracles of the red city and a quiet fishing village",
+   "stops": [
+    {
+     "name": "Erythrai Ancient City (Ildır Archaeological Site)",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "One of the 12 cities of the Ionian League. The path up to the theatre and acropolis is unmarked, so bring water and a hat. In the morning there is almost nobody here."
+    },
+    {
+     "name": "Ildırı Bay",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "In the small cove just below the archaeological site there is no music and no crowd; you may need suitable shoes to enter from the rocks."
+    },
+    {
+     "name": "Ildır Village Stone Streets and Greek Houses Walk",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Villagers have turned old Greek houses into boutique restaurants. Walk in the shade of the pepper trees; the afternoon light is good for photos."
+    },
+    {
+     "name": "Ildiri Balik Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1800,
+     "tips": "Fresh fish on a pier over the sea, facing the sunset; this is the view Homer called \"the place where the sun sets most beautifully\". Book early for summer weekends."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Salonis",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 2000,
+     "tips": "If the Ildırı restaurants are full, this place on the way back is a good alternative with seafood and meze."
+    },
+    {
+     "name": "Donkey Island Viewpoint (Ildırı Coast)",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A quiet viewpoint you can choose instead of the village walk; golden hour is ideal for photographing the islet opposite."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Ilıca and Pırlanta: a day of wind and fine sand",
+   "stops": [
+    {
+     "name": "Ilıca Public Beach",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 100,
+     "tips": "Shallow, calm water and a strong family-beach character. It is less crowded early in the morning; entry is almost free, and only sunbeds cost extra."
+    },
+    {
+     "name": "Imren Lokantası (Ilıca)",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 750,
+     "tips": "A different branch of the same chain as the one in Çeşme. The soup of the day and the grills stand out; it can be busy at midday."
+    },
+    {
+     "name": "Pırlanta Beach & Active Surf Center",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 1800,
+     "tips": "A 1.5-hour trial windsurf/kitesurf lesson at the IKO-certified school costs about 1500-2000 TL per person. The sea is shallow for 200 metres, ideal for beginners. The beach itself is completely free."
+    },
+    {
+     "name": "Miso Seafood",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 2500,
+     "tips": "A stylish seafood restaurant inside Biblos Resort, ideal for the dish of the week. Booking is recommended."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sakızlar Restoran",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 850,
+     "tips": "A venue serving a spread-style village breakfast and lunch in its green garden since 1997. A good alternative if Imren is full."
+    },
+    {
+     "name": "Ilıca Beach Walking Path",
+     "category": "landmark",
+     "start": "17:15",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "A seafront strip for a quiet walk after your surf lesson; towards sunset the light is lovely for photos."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Karaburun Peninsula: Mordoğan and Boyabağı Bay",
+   "stops": [
+    {
+     "name": "Mordoğan Seafront Walk",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "About 1-1.5 hours by car from Çeşme; plan to leave around 09:00. Take a quiet morning walk in the small harbour where the fishing boats are moored."
+    },
+    {
+     "name": "Özen Boyabağı Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 1200,
+     "tips": "A boutique venue at the entrance to Boyabağı Bay. Ask for the seasonal dishes and meze of the day; it makes a good stop for a meal before heading down to the bay."
+    },
+    {
+     "name": "Boyabağı Bay",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 200,
+     "tips": "A bay known as Karaburun's \"hidden paradise\". The road is narrow and winding, so drive carefully. The bay is clear and deep, and worth bringing a snorkel for."
+    },
+    {
+     "name": "Mordoğan Harbour Square Sunset",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "The last stop before heading back to Çeşme; watch the sunset from the seating areas on the harbour square. The return drive takes about 1-1.5 hours, and you reach Çeşme around 19:30."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mordoğan Seafront Fish Sandwich Stalls",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 400,
+     "tips": "If Özen Boyabağı is closed, the fish sandwich (balık ekmek) stalls by the harbour are a quick, cheap alternative."
+    },
+    {
+     "name": "Ayıbalığı Bay (Karaburun)",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 150,
+     "tips": "If getting to Boyabağı is difficult, this bay is easier and on the way. It is named after the Mediterranean monk seals occasionally seen in the area, so try to stay quiet."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Farewell day: Ovacık olive groves and a last swim at Altınkum",
+   "stops": [
+    {
+     "name": "Ovacık Olive Groves Walk",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A short, quiet morning walk through the olive groves on the Ovacık-Alaçatı road; dress lightly, as shade is scarce."
+    },
+    {
+     "name": "Seher Teyze's Gözleme and Breakfast Garden",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 700,
+     "tips": "An authentic, charming garden in the heart of Çeşme. Ask for fresh gözleme (stuffed flatbread) and a spread-style breakfast; it is also a favourite with locals."
+    },
+    {
+     "name": "Altınkum Beach",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 300,
+     "tips": "Ideal for a last swim, with shallow, safe water that stays cooler than at other beaches. Choose the public beach section over a sunbed, as entry is cheaper."
+    },
+    {
+     "name": "Asma Yaprağı",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:00",
+     "cost": 400,
+     "tips": "A light dessert or meze stop to say goodbye, at Kerimoğlu locality in Ovacık. Stuffed courgette flowers are among the signature dishes; a small taste is enough instead of a full meal."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yeni Yer (Ovacık-Alaçatı Road)",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 900,
+     "tips": "A home-cooking address with a Michelin Green Star that practises sustainable farming. A good alternative if Seher Teyze is full."
+    },
+    {
+     "name": "Çeşme-Ovacık Olive Groves Viewpoint",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "For those who want a short viewpoint stop instead of a walk; the olive trees photograph beautifully in the morning light."
+    }
+   ]
+  }
+ ]
+}

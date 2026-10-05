@@ -1,0 +1,21 @@
+{
+ "source": "a5789e64187a",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "Her 30 dakikada, akşamları 15 dakikada bir müzikli fıskiye; ücretsiz, Strip'in simgesi.",
+  "d1.s2.tips": "Vegas'ın en ünlü büfesi; 250 yemek, kuyruğa girmemek için rezervasyon yap.",
+  "d1.s3.tips": "Roma temalı AVM; gökyüzü tavanı ve Atlantis gösterisi, klimalı.",
+  "d1.s4.tips": "Kapalı Venedik kanalı ve gondolcu; St. Mark Meydanı kopyası.",
+  "d2.s1.tips": "170 m dönme dolap; gün batımı seansı pahalı, klimalı kabin.",
+  "d2.s3.tips": "Konteynerlerden çarşı; peygamber devesi heykeli ateş püskürtür.",
+  "d3.s0.tips": "Şehre 30 dakika; 21 km manzara yolu, saatli rezervasyon. Sabah serin, kayalar kızıl.",
+  "d4.s0.tips": "Şehre 45 dakika; 1936 barajı, Powerplant turu (15 USD), Mike O'Callaghan Köprüsü'nden yürüyüş.",
+  "d4.s3.tips": "Kızıl kumtaşı ve petroglifler; Fire Wave yürüyüşü, yazın sabah git (42°C).",
+  "d5.s0.tips": "Şehre 2,5 saat (tur ~150 USD veya araç); Hualapai kabilesinin cam köprüsü, Eagle Point. Güney Rim 5 saat, çok uzak.",
+  "d5.s1.tips": "Skywalk'ta kovboy köyünde öğle yemeği.",
+  "d5.s2.tips": "Dönüşte köprüyü seyret.",
+  "d6.s3.tips": "Bellagio'da su sahnesi 'O'; biletler online, gün içi yarı fiyat için TKTS (Tix4Tonight).",
+  "note0": "Strip 7 km: Deuce otobüsü 24 saatlik bilet 8 USD, monoray, Uber 10-20 USD; Red Rock, Hoover, Valley of Fire için araç şart."
+ },
+ "warnings": []
+}

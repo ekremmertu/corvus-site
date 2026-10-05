@@ -1,0 +1,493 @@
+{
+ "lang": "en",
+ "slug": "bali-summer",
+ "altSlug": "bali-yaz",
+ "citySlug": "bali",
+ "destKey": "bali",
+ "city": "Bali",
+ "region": null,
+ "country": "Indonesia",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "IDR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 3500000,
+  "attractions": 3200000,
+  "transport": 2500000,
+  "misc": 1000000
+ },
+ "notes": [
+  "Bali has no public transport: use a scooter (international licence and helmet), Grab/Gojek or a car with a driver by the day (~700,000 IDR). Allow 1-2 hours of traffic between Ubud, Canggu and Uluwatu.",
+  "April to October is the dry season, ideal for surfing, Batur and Penida. July and August are crowded and expensive.",
+  "Sarongs and sashes are compulsory at temples (provided at the entrance). Do not enter during menstruation, and be respectful on ceremony days.",
+  "Babi guling costs 40-60,000 IDR at a warung and nasi campur 30-50,000. Beach club minimum spend is 300-500,000.",
+  "Monkeys (Uluwatu, Monkey Forest) snatch glasses and phones. Do not show them food.",
+  "Take the morning boat from Sanur for the Nusa Penida tour. The Kelingking descent is difficult, so looking from above is enough."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Ubud: rice terraces and palace",
+   "stops": [
+    {
+     "name": "Tegallalang Rice Terrace",
+     "category": "nature",
+     "start": "07:30",
+     "end": "09:00",
+     "cost": 50000,
+     "tips": "Terraced rice fields, quiet and cool at 07:30. The swing is optional, 150,000 IDR."
+    },
+    {
+     "name": "Tirta Empul",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 75000,
+     "tips": "A holy spring purification temple. Sarongs are provided, and the pool has 13 fountains."
+    },
+    {
+     "name": "Ubud Palace",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The royal palace courtyard, with an evening legong dance (100,000 IDR)."
+    },
+    {
+     "name": "Warung Babi Guling Ibu Oka",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 60000,
+     "tips": "The roast pork Bourdain praised, opposite the palace. It sells out by lunchtime."
+    },
+    {
+     "name": "Ubud Monkey Forest",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 100000,
+     "tips": "A sacred monkey forest with temples. Watch your glasses and bag."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Warung Babi Guling Gung Cung",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 40000,
+     "tips": "Local babi guling (roast suckling pig) near the palace."
+    },
+    {
+     "name": "Campuhan Ridge Walk",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A 2 km ridge walk, also good for sunset."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Mount Batur and Ubud culture",
+   "stops": [
+    {
+     "name": "Mount Batur Sunrise Trek",
+     "category": "nature",
+     "start": "03:30",
+     "end": "08:30",
+     "cost": 450000,
+     "tips": "You are picked up from your hotel at 02:00. Climb for 2 hours, then watch sunrise at 1,717 m and eat eggs cooked in volcanic steam. Tour ~450,000 IDR."
+    },
+    {
+     "name": "Toya Devasya Hot Springs",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 250000,
+     "tips": "Hot springs on the shore of Lake Batur, welcome after the trek."
+    },
+    {
+     "name": "Ubud Art Market",
+     "category": "shopping",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "A souvenir market. Start bargaining at half the asking price."
+    },
+    {
+     "name": "Warung Biah Biah Ubud",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 80000,
+     "tips": "Balinese tapas (small plates), local and affordable."
+    },
+    {
+     "name": "Saraswati Temple",
+     "category": "culture",
+     "start": "15:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A temple with a lotus pond, next to Starbucks."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Warung Pulau Kelapa Ubud",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 90000,
+     "tips": "Indonesian cuisine, with a garden."
+    },
+    {
+     "name": "Tegenungan Waterfall",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 25000,
+     "tips": "A waterfall close to Ubud, an alternative to the hot springs."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Ubud to Canggu via Tanah Lot",
+   "stops": [
+    {
+     "name": "Jatiluwih Rice Terraces",
+     "category": "nature",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 50000,
+     "tips": "UNESCO-listed terraces, wider and calmer than Tegallalang, with walking trails."
+    },
+    {
+     "name": "Ulun Danu Beratan Temple",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 75000,
+     "tips": "A temple that appears to float on the lake, with misty mountains behind."
+    },
+    {
+     "name": "Jatiluwih Warung Dhea",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 70000,
+     "tips": "Nasi campur (mixed rice plate) with a terrace view."
+    },
+    {
+     "name": "Tanah Lot",
+     "category": "culture",
+     "start": "16:30",
+     "end": "18:30",
+     "cost": 75000,
+     "tips": "A rock temple in the sea. Sunset is the famous moment, and it gets crowded."
+    },
+    {
+     "name": "Canggu Batu Bolong Beach",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Canggu's beach bars: beer and surf lights after sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Old Man's Canggu",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 100000,
+     "tips": "A beach bar, best in the evening."
+    },
+    {
+     "name": "Handara Gate",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 50000,
+     "tips": "The Instagram gate, next to the lake temple."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Canggu and Seminyak",
+   "stops": [
+    {
+     "name": "Echo Beach Canggu",
+     "category": "nature",
+     "start": "07:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "A surf lesson (~350,000 IDR) or a morning swim. The waves are clean in the dry season."
+    },
+    {
+     "name": "Crate Cafe Canggu",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 90000,
+     "tips": "Canggu's brunch culture, with smoothie bowls."
+    },
+    {
+     "name": "Seminyak Village",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Boutiques and a mall on Oberoi Street."
+    },
+    {
+     "name": "Babi Guling Pak Malen Seminyak",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 50000,
+     "tips": "Seminyak's babi guling (roast suckling pig), with crispy skin."
+    },
+    {
+     "name": "Seminyak Beach Sunset",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Ku De Ta or Potato Head beach club (minimum spend), or a beanbag on the sand for sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Potato Head Beach Club",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 300000,
+     "tips": "A beach club with a pool and DJ."
+    },
+    {
+     "name": "Petitenget Temple",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Seminyak's temple, best on ceremony days."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Nusa Penida",
+   "stops": [
+    {
+     "name": "Kelingking Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "45 minutes by speedboat from Sanur, plus a tour by vehicle (~900,000 IDR). See T-Rex Rock and the view from the top (the descent takes 1 hour and is difficult)."
+    },
+    {
+     "name": "Angel's Billabong",
+     "category": "nature",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A natural pool. Swimming is forbidden at high tide."
+    },
+    {
+     "name": "Broken Beach",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A cove with a natural rock arch."
+    },
+    {
+     "name": "Nusa Penida Warung Crystal Bay",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 70000,
+     "tips": "A warung at Crystal Bay serving nasi goreng (fried rice)."
+    },
+    {
+     "name": "Crystal Bay Snorkelling",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 150000,
+     "tips": "See manta rays at Manta Point (boat ~200,000 IDR) or snorkel at Crystal Bay. The boat leaves at 16:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Diamond Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "White sand in east Penida, instead of snorkelling."
+    },
+    {
+     "name": "Penida Colada Beach Bar",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 80000,
+     "tips": "A beach bar."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Uluwatu",
+   "stops": [
+    {
+     "name": "Padang Padang Beach",
+     "category": "nature",
+     "start": "08:30",
+     "end": "11:00",
+     "cost": 15000,
+     "tips": "A small cove reached through the rocks. Quiet in the morning, with monkeys around."
+    },
+    {
+     "name": "Bingin Beach Warung",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 80000,
+     "tips": "Grilled fish at the cliffside warungs, reached by stairs."
+    },
+    {
+     "name": "Single Fin Uluwatu",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 120000,
+     "tips": "A cliff bar: watch the surf and have lunch."
+    },
+    {
+     "name": "Uluwatu Temple",
+     "category": "culture",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 50000,
+     "tips": "A sea temple on the cliff. Monkeys snatch glasses, and a sarong is included in the entry fee."
+    },
+    {
+     "name": "Kecak Fire Dance Uluwatu",
+     "category": "culture",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 150000,
+     "tips": "A kecak dance with 100 performers at sunset. Buy your ticket at 17:00 and sit near the front."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Suluban Beach",
+     "category": "nature",
+     "start": "08:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A surf beach reached through a cave, instead of Padang Padang."
+    },
+    {
+     "name": "Jimbaran Bay Seafood Grill",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 250000,
+     "tips": "Grilled seafood on the sand, on the way back from Uluwatu."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sanur: a gentle farewell",
+   "stops": [
+    {
+     "name": "Sanur Beach Promenade",
+     "category": "nature",
+     "start": "07:00",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "A 5 km seafront path, with sunrise on Bali's east coast and calm water."
+    },
+    {
+     "name": "Sindhu Market Sanur",
+     "category": "food",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 30000,
+     "tips": "A morning market for bubur (rice porridge) and coffee."
+    },
+    {
+     "name": "Sanur Village Spa",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 200000,
+     "tips": "A Balinese massage to say goodbye."
+    },
+    {
+     "name": "Warung Mak Beng Sanur",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 50000,
+     "tips": "Fried fish and soup since 1941, with a single set menu."
+    },
+    {
+     "name": "Ngurah Rai Airport Transfer",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "The airport is 30 minutes away."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Genius Cafe Sanur",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 80000,
+     "tips": "A beachfront cafe for a light bite."
+    },
+    {
+     "name": "Le Mayeur Museum Sanur",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 50000,
+     "tips": "The home of the Belgian painter, instead of the spa."
+    }
+   ]
+  }
+ ]
+}

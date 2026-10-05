@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "sao-paulo-ekim-mayis",
+ "altSlug": "sao-paulo-october-may",
+ "citySlug": "sao-paulo",
+ "destKey": "sao-paulo",
+ "city": "São Paulo",
+ "region": null,
+ "country": "Brezilya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "BRL",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 1700,
+  "attractions": 450,
+  "transport": 600,
+  "misc": 300
+ },
+ "notes": [
+  "Metro güvenli ve temiz (Bilhete Único); Uber/99 ucuz; trafik korkunç (17-20 arası). Guarulhos 45-90 dakika, Congonhas şehir içi.",
+  "Aralık-Mart yaz: 30°C ve öğleden sonra sağanak (sel); Şubat'ta karnaval Anhembi'de; Mayıs-Ekim ideal.",
+  "GÜVENLİK: Merkez (Sé, Luz, 25 de Março) gündüz cüzdan önde, gece boş; telefonu sokakta çıkarma; Paulista/Jardins/Vila Madalena rahat.",
+  "Pizza 80-100 BRL, kilo restoran 50, mortadella sandviç 40, padaria kahvaltı 30; bahşiş %10 ekli; Pix/kart her yerde.",
+  "MASP salı, Pinacoteca cumartesi ücretsiz; Paulista pazar yaya; A Casa do Porco aylar önce; Embu hafta sonu.",
+  "Coxinha, pão de queijo, pastel, mortadella, feijoada (çarşamba/cumartesi), caipirinha; Japon mutfağı Liberdade."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Paulista & MASP",
+   "stops": [
+    {
+     "name": "MASP",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 75,
+     "tips": "Lina Bo Bardi'nin havada duran müzesi; cam kaidelerde Van Gogh, Portinari; salı ücretsiz, Paulista pazar günü araçsız."
+    },
+    {
+     "name": "Avenida Paulista",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Finans bulvarı; pazar günü yaya, sokak müzisyenleri, Japan House."
+    },
+    {
+     "name": "Bráz Pizzaria Paulista",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 80,
+     "tips": "São Paulo pizzası (dünyada 2. pizza şehri); ince kenarlı, muçarela de búfala."
+    },
+    {
+     "name": "Parque Trianon",
+     "category": "nature",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Paulista'da Atlantik ormanı kalıntısı; gölge."
+    },
+    {
+     "name": "Sesc Avenida Paulista Terası",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Ücretsiz çatı terası; şehir panoraması, kültür merkezi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mocotó Vila Medeiros",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 70,
+     "tips": "Kuzeydoğu Brezilya mutfağı efsanesi; uzak ama değer (Uber)."
+    },
+    {
+     "name": "Instituto Moreira Salles",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Fotoğraf müzesi ve terası; Paulista, ücretsiz."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Merkez & Mercado Municipal",
+   "stops": [
+    {
+     "name": "Mercado Municipal Mercadão",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 40,
+     "tips": "1933 vitraylı pazar; mortadella sandviçi (Hocca Bar, 300 g) ve pastel de bacalhau, egzotik meyve tadımı (ısrarcı)."
+    },
+    {
+     "name": "Catedral da Sé & Marco Zero",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Neogotik katedral ve şehrin sıfır noktası; Pátio do Colégio (1554 kuruluş)."
+    },
+    {
+     "name": "Edifício Martinelli / Farol Santander",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 40,
+     "tips": "1929 gökdelen; Farol Santander 26. kat gözlem ve kaykay pisti."
+    },
+    {
+     "name": "Theatro Municipal",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Paris Operası'nın taklidi; tur (çarşamba-cuma), Ramos de Azevedo meydanı."
+    },
+    {
+     "name": "Edifício Copan",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Niemeyer'in dalgalı 1.160 daireli binası; dıştan (teras kapalı olabilir), Bar da Dona Onça."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar da Dona Onça Copan",
+     "category": "food",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 60,
+     "tips": "Copan'ın altında Brezilya klasikleri; feijoada cumartesi."
+    },
+    {
+     "name": "Pinacoteca do Estado",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Ramos de Azevedo tuğla müzesi; Brezilya sanatı, cumartesi ücretsiz, Luz gar yanı."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Ibirapuera & Jardins",
+   "stops": [
+    {
+     "name": "Parque Ibirapuera",
+     "category": "nature",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Şehrin Central Park'ı (Niemeyer pavyonları); bisiklet, göl, Oca."
+    },
+    {
+     "name": "Museu Afro Brasil",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "Park içinde Afrika-Brezilya kültürü; kölelik ve sanat."
+    },
+    {
+     "name": "Figueira Rubaiyat Jardins",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "Dev incir ağacının altında et; Jardins lüks mahallesi."
+    },
+    {
+     "name": "Rua Oscar Freire",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Brezilya'nın en lüks caddesi; Havaianas amiral mağazası, Melissa."
+    },
+    {
+     "name": "Museu da Imagem e do Som",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 20,
+     "tips": "Ses ve görüntü müzesi; pop sergileri."
+    }
+   ],
+   "backups": [
+    {
+     "name": "A Casa do Porco",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 120,
+     "tips": "Dünyanın en iyi 50'sinde; domuz tadım menüsü, Merkez, aylar önce rezervasyon."
+    },
+    {
+     "name": "Casa de Vidro Lina Bo Bardi",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 30,
+     "tips": "Mimarın cam evi Morumbi; rezervasyon."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Vila Madalena & Pinheiros",
+   "stops": [
+    {
+     "name": "Beco do Batman",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Batman Sokağı grafiti; Vila Madalena, her hafta değişir."
+    },
+    {
+     "name": "Coffee Lab Vila Madalena",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 25,
+     "tips": "Brezilya kahve laboratuvarı; Isabela Raposeiras."
+    },
+    {
+     "name": "Mercado de Pinheiros",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 50,
+     "tips": "Mahalle pazarı; Comedoria Gonzales, Peru mutfağı, Rodrigo Oliveira."
+    },
+    {
+     "name": "Instituto Tomie Ohtake",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Ruy Ohtake'nin mor-kırmızı binası; ücretsiz sergiler, Pinheiros."
+    },
+    {
+     "name": "Vila Madalena Bar Akşamı São Cristóvão",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:30",
+     "cost": 60,
+     "tips": "Futbol fanatiği bar; Aspicuelta sokağı, cuma-cumartesi sokak partisi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Praça Benedito Calixto Pazarı",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Cumartesi antika ve el sanatı pazarı; chorinho müziği."
+    },
+    {
+     "name": "Bar Veloso Vila Mariana",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:30",
+     "cost": 50,
+     "tips": "Şehrin en iyi coxinha'sı (tavuk kroket) ve caipirinha; kuyruk."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Liberdade & Bixiga",
+   "stops": [
+    {
+     "name": "Liberdade Japon Mahallesi",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Japonya dışındaki en büyük Japon topluluğu; kırmızı torii ve fenerler, pazar günü Praça da Liberdade pazarı."
+    },
+    {
+     "name": "Liberdade Ramen Aska",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 45,
+     "tips": "Küçük Japon ramen dükkânı; kuyruk, nakit."
+    },
+    {
+     "name": "Museu da Imigração Mooca",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Eski göçmen hanı (Ellis Island gibi); İtalyan, Japon, Türk-Suriyeli göçü."
+    },
+    {
+     "name": "Bixiga İtalyan Mahallesi",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Rua 13 de Maio'da cantinalar; Vai-Vai samba okulu, Nossa Senhora Achiropita festivali Ağustos'ta."
+    },
+    {
+     "name": "Cantina Famiglia Mancini",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 90,
+     "tips": "Rua Avanhandava'da 1980 cantina; dev porsiyon makarna, kuyruk."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Templo Busshinji Liberdade",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Zen tapınağı; müze yerine."
+    },
+    {
+     "name": "Sujinho Consolação",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 70,
+     "tips": "Gece et lokantası; churrasco, 24 saat."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Embu das Artes",
+   "stops": [
+    {
+     "name": "Embu das Artes Feira de Artesanato",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "27 km kolonyal sanatçı kasabası; hafta sonu el sanatı pazarı (hafta içi dükkânlar), otobüs 1 saat."
+    },
+    {
+     "name": "Igreja Nossa Senhora do Rosário Embu",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 5,
+     "tips": "1690 Cizvit kilisesi ve kutsal sanat müzesi."
+    },
+    {
+     "name": "Restaurante Os Girassóis Embu",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 70,
+     "tips": "Kolonyal ev restoranı; feijoada ve mineira mutfağı."
+    },
+    {
+     "name": "Embu Antikacılar & Rüstik Mobilya",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Ahşap mobilya ve seramik; nakliye."
+    },
+    {
+     "name": "Parque Villa-Lobos Dönüş",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "São Paulo batısı park; gün batımı ve bisiklet."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Parque Estadual da Cantareira",
+     "category": "nature",
+     "start": "10:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Şehrin kuzeyinde Atlantik ormanı; Pedra Grande manzarası, Embu yerine doğa."
+    },
+    {
+     "name": "Casa do Sino Embu",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 50,
+     "tips": "Cantina; pizza ve makarna."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Higienópolis — hafif veda",
+   "stops": [
+    {
+     "name": "Parque Buenos Aires Higienópolis",
+     "category": "nature",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Fransız bahçesi; mahalle sabahı."
+    },
+    {
+     "name": "Padaria Santa Teresa",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 35,
+     "tips": "Padaria (Brezilya fırın) kahvaltısı; pão na chapa ve pingado, veda."
+    },
+    {
+     "name": "Museu do Futebol Pacaembu",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 20,
+     "tips": "Pacaembu stadyumu içinde futbol müzesi; Pelé ve Garrincha, interaktif."
+    },
+    {
+     "name": "Guarulhos Havalimanı Uber",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 90,
+     "tips": "Uber 45-90 dakika trafik; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rua Augusta Kahve Bar",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 25,
+     "tips": "Consolação'nun alternatif caddesi; kahve."
+    },
+    {
+     "name": "Museu do Ipiranga",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "2022'de restore edilen Bağımsızlık Müzesi; bahçe, futbol yerine."
+    }
+   ]
+  }
+ ]
+}

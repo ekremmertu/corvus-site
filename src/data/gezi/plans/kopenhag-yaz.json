@@ -1,0 +1,492 @@
+{
+ "lang": "tr",
+ "slug": "kopenhag-yaz",
+ "altSlug": "copenhagen-summer",
+ "citySlug": "kopenhag",
+ "destKey": "copenhagen",
+ "city": "Kopenhag",
+ "region": null,
+ "country": "Danimarka",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "DKK",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 3200,
+  "attractions": 1500,
+  "transport": 300,
+  "misc": 500
+ },
+ "notes": [
+  "Copenhagen Card 72 saat 889 DKK, ulaşım + müzeler (Louisiana, Kronborg, Roskilde dahil); bu plan için karşılığını verir. Bisiklet 100-150/gün, şehir düz. Metroyla havalimanı 15 dakika.",
+  "Yaz 20-24°C, gün ışığı 22:00'ye kadar sürer; limanda yüzme (Islands Brygge), Reffen, Tivoli cuma konserleri, Roskilde Festivali (Haziran sonu-Temmuz).",
+  "Kahve 45 DKK, smørrebrød 90-150, restoran 250-400, bira 60; bahşiş yok. Kart her yerde (nakit gerekmez).",
+  "Kuzey mutfağı: Noma kapandı ama Geranium, Alchemist var; uygun fiyatlı: Hija de Sanchez, Gasoline Grill burger, Juno/Hart fırınları.",
+  "Christiania'da fotoğraf kuralı (yeşil ışıkta yok); Pusher Street kapalı. Bisiklet yolunda yürüme (zil çalarlar).",
+  "Kronborg ve Louisiana Copenhagen Card kapsamında; Tivoli'de ışıklar 17:00'den sonra yanar."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Copenhagen Card",
+  "why_chosen": "80'den fazla müze + tüm toplu taşıma (Louisiana, Kronborg, Roskilde dahil); 3 gün için 889 DKK",
+  "coverage": "Metro, S-tog, otobüs, liman otobüsü, bölgesel tren",
+  "where_to_buy": "Online uygulama",
+  "cost": 889,
+  "currency_code": "DKK"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Nyhavn & merkez",
+   "stops": [
+    {
+     "name": "Nyhavn",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Renkli 17. yüzyıl limanı; Andersen 20 numarada, sabah boş, kanal turu buradan."
+    },
+    {
+     "name": "Canal Tour Copenhagen",
+     "category": "nature",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 115,
+     "tips": "1 saatlik kanal turu (Stromma/Netto ucuz); Küçük Deniz Kızı denizden, Opera, Christianshavn."
+    },
+    {
+     "name": "Amalienborg Palace",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Kraliyet ikametgâhı; nöbet değişimi 12:00, Marmara Kilisesi kubbesi."
+    },
+    {
+     "name": "Torvehallerne",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 120,
+     "tips": "Nørreport cam pazar; Hallernes smørrebrød (açık sandviç), Grød yulaf, Coffee Collective."
+    },
+    {
+     "name": "Rundetårn",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 40,
+     "tips": "1642 yuvarlak kule; spiral rampa, şehir manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Schønnemann",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "1877 smørrebrød kurumu; rezervasyon, ringa ve schnapps."
+    },
+    {
+     "name": "Designmuseum Danmark",
+     "category": "culture",
+     "start": "14:15",
+     "end": "16:00",
+     "cost": 130,
+     "tips": "Danimarka tasarımı sandalye koridoru; Rundetårn yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Rosenborg & Tivoli",
+   "stops": [
+    {
+     "name": "Rosenborg Castle",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 135,
+     "tips": "Rönesans şato; Taç mücevherleri bodrumda, Kral Bahçesi."
+    },
+    {
+     "name": "Kongens Have",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Kral bahçesi; yazın piknik ve kukla tiyatrosu."
+    },
+    {
+     "name": "Statens Museum for Kunst",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 130,
+     "tips": "Ulusal galeri; Matisse ve Danimarka Altın Çağı."
+    },
+    {
+     "name": "Aamanns 1921",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 250,
+     "tips": "Modern smørrebrød; rezervasyon."
+    },
+    {
+     "name": "Tivoli Gardens",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "21:00",
+     "cost": 175,
+     "tips": "1843 lunapark-bahçe; Disney'e ilham verdi, akşam ışıklar, cuma yaz konserleri (ücretsiz), giriş 175 + yolculuk bileti; kışın Noel ve Halloween sezonları."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tivoli Food Hall",
+     "category": "food",
+     "start": "17:00",
+     "end": "21:00",
+     "cost": 120,
+     "tips": "Park yanı yemek salonu; giriş gerekmez."
+    },
+    {
+     "name": "Ny Carlsberg Glyptotek",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 125,
+     "tips": "Rodin, Gauguin ve kış bahçesi; SMK yerine, salı ücretsiz."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Christianshavn & Christiania",
+   "stops": [
+    {
+     "name": "Church of Our Saviour",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 65,
+     "tips": "Dış spiral merdivenli kule 400 basamak; Christianshavn kanalları."
+    },
+    {
+     "name": "Freetown Christiania",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "1971 hippi özerk bölgesi; Pusher Street kapatıldı (2024), fotoğraf kuralı, kafeler, Grå Hal."
+    },
+    {
+     "name": "Reffen Street Food",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 130,
+     "tips": "Refshaleøen konteyner yemek pazarı (Nisan-Ekim); liman otobüsü ile."
+    },
+    {
+     "name": "Copenhagen Opera House",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Holmen'de Henning Larsen operası; dıştan."
+    },
+    {
+     "name": "Copenhill Amager Bakke",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Atık yakma tesisinin çatısında kayak pisti ve yürüyüş yolu; şehir manzarası ücretsiz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Christianshavns Bådudlejning",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 150,
+     "tips": "Kanal üstü kafe; tekne kiralama."
+    },
+    {
+     "name": "Danish Architecture Center BLOX",
+     "category": "culture",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 125,
+     "tips": "Mimarlık merkezi ve kaydırak; Copenhill yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Louisiana & Kronborg",
+   "stops": [
+    {
+     "name": "Louisiana Museum of Modern Art",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 145,
+     "tips": "Tren 35 dakika (Humlebæk); Giacometti, Kusama, Øresund manzaralı heykel bahçesi, dünyanın en güzel müzelerinden."
+    },
+    {
+     "name": "Louisiana Café",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 150,
+     "tips": "Deniz manzaralı müze kafesi; smørrebrød büfe."
+    },
+    {
+     "name": "Kronborg Castle",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 145,
+     "tips": "Helsingør; Hamlet'in Elsinore'u, kazematlarda Holger Danske, İsveç kıyısı karşıda."
+    },
+    {
+     "name": "Helsingør Eski Şehir",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:15",
+     "cost": 0,
+     "tips": "Ortaçağ sokakları ve Denizcilik Müzesi (BIG); tren dönüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Brasserie Kronborg",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 120,
+     "tips": "Helsingør limanı; kale yanı."
+    },
+    {
+     "name": "Karen Blixen Museum Rungstedlund",
+     "category": "culture",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 100,
+     "tips": "Afrika Hatıraları yazarının evi; Louisiana yolunda, Kronborg yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Vesterbro & Carlsberg",
+   "stops": [
+    {
+     "name": "Carlsberg Byen",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Eski bira fabrikası mahallesi; Fil Kapısı, Home of Carlsberg (ziyaretçi merkezi 130 DKK)."
+    },
+    {
+     "name": "Frederiksberg Gardens",
+     "category": "nature",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Romantik park ve saray; kanal kayığı, hayvanat bahçesi filleri görünür."
+    },
+    {
+     "name": "Værnedamsvej",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "'Küçük Paris' sokağı; Granola brunch, peynirci ve şarapçı."
+    },
+    {
+     "name": "Kødbyen Meatpacking",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Beyaz et hali; galeriler ve akşam barları."
+    },
+    {
+     "name": "Warpigs Kødbyen",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 180,
+     "tips": "Mikkeller x Three Floyds bira ve Teksas BBQ."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hija de Sanchez Kødbyen",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 120,
+     "tips": "Noma şefinin tacoları."
+    },
+    {
+     "name": "Copenhagen Zoo",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 235,
+     "tips": "Frederiksberg'de hayvanat bahçesi; Norman Foster fil evi."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Nørrebro & Roskilde",
+   "stops": [
+    {
+     "name": "Assistens Kirkegård",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Andersen ve Kierkegaard'ın mezarlık-parkı; Nørrebro sarı duvar."
+    },
+    {
+     "name": "Superkilen Park",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "BIG'in kırmızı-siyah çok kültürlü parkı; Fas çeşmesi, Tay boks ringi."
+    },
+    {
+     "name": "Jægersborggade",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 120,
+     "tips": "Nørrebro'nun hip sokağı; Grød, Meyers Bageri, Coffee Collective."
+    },
+    {
+     "name": "Viking Ship Museum Roskilde",
+     "category": "culture",
+     "start": "13:45",
+     "end": "15:45",
+     "cost": 160,
+     "tips": "Tren 25 dakika; 5 orijinal Viking gemisi ve fiyort, yazın gemiye bin (Mayıs-Eylül)."
+    },
+    {
+     "name": "Roskilde Cathedral",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 60,
+     "tips": "40 Danimarka kralının mezarı; UNESCO tuğla gotik."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mirabelle Bakery Nørrebro",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 80,
+     "tips": "Ekşi maya ve kanelsnegl."
+    },
+    {
+     "name": "Frederiksborg Castle Hillerød",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "17:00",
+     "cost": 110,
+     "tips": "Göl üstü Rönesans şato ve Ulusal Tarih Müzesi; Roskilde yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Küçük Deniz Kızı — hafif veda",
+   "stops": [
+    {
+     "name": "Kastellet",
+     "category": "nature",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Yıldız kale ve yel değirmeni; sabah koşucuları."
+    },
+    {
+     "name": "The Little Mermaid",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "1913 heykel; küçük ve kalabalık ama gerekli, Langelinie."
+    },
+    {
+     "name": "Gefion Fountain & St Alban's",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Öküzlü çeşme ve İngiliz kilisesi."
+    },
+    {
+     "name": "Juno the Bakery Østerbro",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 60,
+     "tips": "Şehrin en iyi fırını; kardemommebolle, veda kahvesi."
+    },
+    {
+     "name": "Østerport Metro Havalimanı",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Metro/tren Kastrup 15 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Andersen Bakery Østerbro",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 50,
+     "tips": "Danimarka-Japon fırın."
+    },
+    {
+     "name": "Nyboder",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Sarı denizci evleri; çeşme yerine."
+    }
+   ]
+  }
+ ]
+}

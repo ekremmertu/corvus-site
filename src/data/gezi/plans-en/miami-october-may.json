@@ -1,0 +1,477 @@
+{
+ "lang": "en",
+ "slug": "miami-october-may",
+ "altSlug": "miami-ekim-mayis",
+ "citySlug": "miami",
+ "destKey": "miami",
+ "city": "Miami",
+ "region": null,
+ "country": "USA",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 480,
+  "attractions": 220,
+  "transport": 180,
+  "misc": 100
+ },
+ "notes": [
+  "Miami is hard without a car: rent one for the Everglades and Key Biscayne, and use Uber or Lyft for South Beach, Wynwood and Little Havana. Metromover is free.",
+  "December to April is ideal (24°C, dry). March brings spring break crowds, Art Basel is in December, and stone crab season runs October to May.",
+  "Cuban coffee (cafecito) from a ventanita costs 2 USD; Cuban sandwiches, croquetas and ropa vieja in Little Havana cost 15-25 USD.",
+  "Tip 18-20% (some places add it to the bill automatically, so don't pay twice); beach loungers cost 30-50 USD.",
+  "Sunscreen and water are essential; UV is very high at midday.",
+  "Book Everglades airboat tours 2-3 days ahead; alligators are most active in the morning."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "South Beach and Art Deco",
+   "stops": [
+    {
+     "name": "Ocean Drive Art Deco",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Pastel Art Deco hotels; best in morning light. Look out for the Versace mansion (Casa Casuarina)."
+    },
+    {
+     "name": "South Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "White sand and lifeguard huts; 10th Street is the famous stretch. Mornings are calm and windless."
+    },
+    {
+     "name": "Puerto Sagua Restaurant",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "A Cuban diner since 1962; try the ropa vieja (shredded beef stew) and café con leche in South Beach."
+    },
+    {
+     "name": "Española Way",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Mediterranean-style pedestrian street with cafés."
+    },
+    {
+     "name": "South Pointe Park",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "A park and pier at the tip of the island; watch ships pass and catch the sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Joe's Stone Crab",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 60,
+     "tips": "Serving stone crab since 1913 (October to May); in South Pointe."
+    },
+    {
+     "name": "Wolfsonian FIU",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "A design museum focused on Art Deco; a good rainy-day option."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Wynwood and Design District",
+   "stops": [
+    {
+     "name": "Wynwood Walls",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 12,
+     "tips": "The world's best-known street art garden. Buy tickets online; the surrounding streets are free."
+    },
+    {
+     "name": "Wynwood Street Art Tour",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Murals along NW 2nd Ave, plus galleries."
+    },
+    {
+     "name": "Coyo Taco Wynwood",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "Mexican street tacos, with a hidden bar in the back room."
+    },
+    {
+     "name": "Design District",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Luxury shops and public art, including the Buckminster Fuller dome; ICA Miami is free."
+    },
+    {
+     "name": "Institute of Contemporary Art Miami",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Free contemporary art in the Design District."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zak the Baker Wynwood",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "An award-winning sourdough bakery; an alternative to tacos."
+    },
+    {
+     "name": "Pérez Art Museum Miami",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 18,
+     "tips": "A waterfront museum with hanging gardens."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Little Havana",
+   "stops": [
+    {
+     "name": "Calle Ocho",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "SW 8th Street: rooster statues, cigar shops and salsa."
+    },
+    {
+     "name": "Domino Park Máximo Gómez",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A park where older locals play dominoes; ask permission before taking photos."
+    },
+    {
+     "name": "Ball & Chain",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 15,
+     "tips": "A salsa club dating from 1935; come at lunchtime for a mojito and empanada, with live music."
+    },
+    {
+     "name": "Versailles Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "The world's best-known Cuban restaurant (1971); get a cafecito from the ventanita (walk-up window), plus croquetas and vaca frita (fried shredded beef)."
+    },
+    {
+     "name": "Azucar Ice Cream",
+     "category": "food",
+     "start": "14:15",
+     "end": "14:45",
+     "cost": 8,
+     "tips": "Cuban ice cream; try the Abuela María flavour."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Pub Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 18,
+     "tips": "Cuban sandwich; a good choice if the Versailles queue is long."
+    },
+    {
+     "name": "Cubaocho Museum",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Cuban art and a rum bar; an alternative to Ball & Chain."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Coconut Grove and Vizcaya",
+   "stops": [
+    {
+     "name": "Vizcaya Museum and Gardens",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 25,
+     "tips": "A 1916 Italian villa with bayfront gardens; cooler in the morning, closed on Tuesdays."
+    },
+    {
+     "name": "Coconut Grove",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A neighbourhood of banyan trees, with CocoWalk."
+    },
+    {
+     "name": "GreenStreet Cafe",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 22,
+     "tips": "A Coconut Grove brunch classic with a terrace."
+    },
+    {
+     "name": "Crandon Park",
+     "category": "nature",
+     "start": "15:00",
+     "end": "18:00",
+     "cost": 7,
+     "tips": "Reach the island over the Rickenbacker Causeway; shallow water and palm trees. Entry is 7 USD per car."
+    },
+    {
+     "name": "Bill Baggs Cape Florida Lighthouse",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 8,
+     "tips": "A lighthouse and beach; good for sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rusty Pelican Key Biscayne",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "Seafood with views over the bay."
+    },
+    {
+     "name": "Fairchild Tropical Botanic Garden",
+     "category": "nature",
+     "start": "15:00",
+     "end": "18:00",
+     "cost": 25,
+     "tips": "A tropical garden; an alternative to the beach."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Everglades",
+   "stops": [
+    {
+     "name": "Everglades Safari Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 42,
+     "tips": "45 minutes from Miami (by car or tour). Take an airboat ride (about 42 USD) past alligators and sawgrass; cooler in the morning."
+    },
+    {
+     "name": "Shark Valley Tram",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "A 24 km tram or bike ride in the national park, with an observation tower and alligators along the way."
+    },
+    {
+     "name": "Robert Is Here Fruit Stand",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "A tropical fruit stand in Homestead; try the key lime milkshake."
+    },
+    {
+     "name": "Coral Castle",
+     "category": "landmark",
+     "start": "15:15",
+     "end": "16:15",
+     "cost": 18,
+     "tips": "A castle of coral rock carved by one man, in Homestead."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Everglades Holiday Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 35,
+     "tips": "An alternative airboat option."
+    },
+    {
+     "name": "Homestead Cuban Restaurant",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "Cheap Cuban food in Homestead."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Bayside and Brickell",
+   "stops": [
+    {
+     "name": "Bayside Marketplace",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A waterfront market; boat tours depart from here."
+    },
+    {
+     "name": "Biscayne Bay Boat Tour",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 30,
+     "tips": "Millionaires' islands and the city skyline; 90 minutes."
+    },
+    {
+     "name": "Brickell City Centre",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "A shopping centre in the financial district; air-conditioned."
+    },
+    {
+     "name": "La Mar by Gastón Acurio",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 45,
+     "tips": "Peruvian cuisine at the Mandarin Oriental; ceviche with views over the bay."
+    },
+    {
+     "name": "Brickell Key Walkway",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "A waterfront path around the island; sunset and skyscrapers."
+    }
+   ],
+   "backups": [
+    {
+     "name": "CVI.CHE 105 Downtown",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "Peruvian ceviche at a more affordable price."
+    },
+    {
+     "name": "Phillip and Patricia Frost Museum of Science",
+     "category": "culture",
+     "start": "13:00",
+     "end": "15:30",
+     "cost": 32,
+     "tips": "An aquarium and planetarium; a good rainy-day option."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Miami Beach morning, easy farewell",
+   "stops": [
+    {
+     "name": "Lincoln Road Mall",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "A pedestrian shopping street; coffee and last-minute souvenirs."
+    },
+    {
+     "name": "Miami Beach Boardwalk",
+     "category": "nature",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "A wooden seafront path from 21st to 46th Street; your last look at the sea."
+    },
+    {
+     "name": "Yardbird Southern Table",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Southern cooking: fried chicken and waffles for a farewell meal."
+    },
+    {
+     "name": "Miami International Airport Metrorail",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "20 minutes to the airport; time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "La Sandwicherie Miami Beach",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 12,
+     "tips": "French-style sandwiches for a quick farewell bite."
+    },
+    {
+     "name": "Bass Museum of Art",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "Miami Beach's art museum; an alternative to the boardwalk."
+    }
+   ]
+  }
+ ]
+}

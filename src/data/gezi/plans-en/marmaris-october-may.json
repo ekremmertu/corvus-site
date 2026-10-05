@@ -1,0 +1,506 @@
+{
+ "lang": "en",
+ "slug": "marmaris-october-may",
+ "altSlug": "marmaris-ekim-mayis",
+ "citySlug": "marmaris",
+ "destKey": "marmaris",
+ "city": "Marmaris",
+ "region": "Muğla",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 11200,
+  "attractions": 4750,
+  "transport": 1650,
+  "misc": 450
+ },
+ "notes": [
+  "In January, sea activities in Marmaris such as boat tours, jeep safaris and diving don't run because it's off-season, so the plan focuses on walks, markets, hammams and village visits.",
+  "Cash has not been accepted on dolmuşes and municipal buses in Marmaris since 2020; without a MuğlaKart you can't board.",
+  "Winter weather is cool and occasionally rainy (10-15°C by day), so a waterproof jacket and non-slip shoes are essential. Many seafront restaurants and bars close in winter, so the plan picks tradesmen's places that stay open.",
+  "Mixed or separate hammam sessions vary from venue to venue. When booking, ask whether couples will be together or separate.",
+  "Leaving a 5-10% tip at restaurants is common. If the bill has no service charge, tip in cash.",
+  "Haggling is normal in local markets, but prices are fixed in tradesmen's restaurants. Ask politely.",
+  "In villages such as Turgut, Selimiye and Söğüt, evening dolmuşes stop early (around 18:00-19:00), so note down a taxi number for the return trip in advance."
+ ],
+ "niche": {
+  "name": "Marmaris Honey House and Beekeeping Museum",
+  "level": "l3",
+  "why_hidden": "A small family museum explaining the relationship between the Marchalina hellenica insect and bees in the red pine forests, where much of the world's pine honey comes from. Marmaris guides focus on the castle and the seafront, and the museum lies 20 km from the centre, so most tourists don't know it.",
+  "access_instructions": "About 25 minutes from central Marmaris by private car or taxi, heading towards Datça. It's in the Hacıağaç area of Osmaniye neighbourhood; signs are limited, so search for 'Marmaris Bal Evi' on Google Maps. Call a day ahead for a group tasting tour.",
+  "local_contact": "0252 488 10 50 / 0530 764 07 96 (Marmaris Bal Evi)",
+  "season": "Open year-round. In winter (November-March), with fewer visitors, tastings are calmer and friendlier; the production season is late summer (August-September).",
+  "insider_tip": "Taste the original pine honey, made from red pine resin rather than flowers, and don't leave without seeing the museum's collection of old hives. Ask for souvenir jars to be vacuum-packed and they'll travel safely all the way home.",
+  "show_reason": "Marmaris'in turizm kimliğinin altında yatan gerçek ekonomik ve kültürel mirası (dünya çam balı üretiminin büyük kısmı buradan çıkıyor) gösteriyor; ücretsiz/ucuz, fotojenik ve hiçbir ana rehberde öne çıkmıyor.",
+  "lat": 36.8447,
+  "lng": 28.1392,
+  "address": "Osmaniye Mah. Hacıağaç Mevkii, 48700 Marmaris/Muğla",
+  "cost_range_min": 0,
+  "cost_range_max": 250,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "MuğlaKart",
+  "why_chosen": "Cash has not been accepted on dolmuşes and municipal buses in Marmaris since 2020, so MuğlaKart has become essential for getting around town. The card is valid across Muğla (including Bodrum, Fethiye and Datça), so you can use it on day trips to nearby places like Turunç and Içmeler too. Paying by card is noticeably cheaper than a single ticket.",
+  "coverage": "Marmaris şehir içi MUTTAŞ otobüsleri, dolmuşlar ve Muğla genelindeki (Bodrum, Fethiye, Datça dahil) belediye otobüs hatları",
+  "where_to_buy": "Marmaris Otogarı'ndaki otomatik kart makineleri, merkezdeki MUTTAŞ bayileri veya bazı market/büfeler; bakiye yükleme durak kiosklarından da yapılabilir.",
+  "cost": 200,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "The heart of Marmaris: Kaleiçi and Uzunyalı",
+   "stops": [
+    {
+     "name": "Marmaris: Guided Walking Tour with Port Transfers",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 800,
+     "tips": "Your guide covers the narrow streets of Kaleiçi and the history of the port; the meeting point is usually Iskele Square. Book online a day ahead.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Marmaris+Guided+Walking+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Marmaris Castle Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 200,
+     "tips": "Built in 1522 by Suleiman the Magnificent, the castle is now a small ethnography museum. It may close early on some winter days, so confirm with the Muğla Museum Directorate line before you go."
+    },
+    {
+     "name": "Rota Barış Usta",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 750,
+     "tips": "This tradesmen's restaurant on the back street of Netsel Marina is known more for its kebabs and grills than its döner. Call 0252 413 05 84 to ask about a table."
+    },
+    {
+     "name": "Netsel Marina Walk",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Walk the marina, where hundreds of yachts are moored, before golden hour. Go to the end of the pier and you can catch the Kaleiçi hillside and the boats in one frame."
+    },
+    {
+     "name": "Uzunyalı Beach",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "In winter the beach is empty and the palm-lined promenade turns orange at sunset. Pick up a hot salep (orchid-root drink) at one of the beachfront cafés and keep strolling."
+    },
+    {
+     "name": "Hacı'nın Yeri (Yiğit Lokantası)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 850,
+     "tips": "This unassuming tradesmen's restaurant in Çamdibi neighbourhood is a winter favourite with students and locals. Ask for the soup of the day and the güveç (clay-pot stew); it may close early in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kale Minör Sanat Evi & Cafe",
+     "category": "food",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 180,
+     "tips": "A small stone-walled art café opposite the castle gate. Chat with the owners over a Turkish coffee."
+    },
+    {
+     "name": "Marmaris Amphitheatre",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "This open-air stage, quiet in winter, is a good stop for sea-view photos. Concerts are held here in summer."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Local market, hammam and Turkish night: quiet Armutalan",
+   "stops": [
+    {
+     "name": "Marmaris Neighbourhood Market",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 150,
+     "tips": "Held on one day of the week, this market is where locals buy pine honey, olives and winter vegetables. It is far cheaper and more genuine than the tourist bazaar, and you can haggle."
+    },
+    {
+     "name": "Armutalan Hamam Turkish Bath Experience",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 1800,
+     "tips": "One of the largest traditional hammams in Marmaris. Packages that include a scrub-and-foam massage are recommended, and in winter the hammam is perfectly warm.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Marmaris+Turkish+Bath+Experience",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Mabel Ocakbaşı",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "Located in Yaylalı Center in Armutalan, this ocakbaşı (open-grill restaurant) is a kebab and grill address favoured by locals. After the hammam, start light with lentil soup."
+    },
+    {
+     "name": "Marmaris Cultural Centre",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "On your walk to the centre, watch everyday local life in the square in front of the cultural centre. Don't forget to check the events calendar."
+    },
+    {
+     "name": "Kervansaray Turkish Night",
+     "category": "culture",
+     "start": "19:30",
+     "end": "22:30",
+     "cost": 1700,
+     "tips": "A package with dinner, live music and a folk dance show. Unlimited drinks usually cost extra, so clarify this when you book.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Marmaris+Turkish+Night+Dinner+Show",
+     "bookingProvider": "GetYourGuide"
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ege Vera Restoran",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 700,
+     "tips": "A spot in Armutalan where locals go for a quiet lunch. Homestyle meze and seasonal salads stand out."
+    },
+    {
+     "name": "Atatürk Monument and Iskele Square",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The emblematic square of Marmaris. Sit on the waterfront promenade to watch locals, a good place for a break, and the evening lighting suits photos too."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Içmeler's quiet coast and market",
+   "stops": [
+    {
+     "name": "Içmeler Wednesday Market",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 100,
+     "tips": "Usually held midweek, this market is where locals buy vegetables for winter pickling and olives. Go early and the stalls are at their fullest."
+    },
+    {
+     "name": "Içmeler Seafront Walking Path",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "This is the Içmeler end of the 11 km walking path running from the Marina to Içmeler. The beach is empty in winter, but the mountain and sea views are great for photos."
+    },
+    {
+     "name": "Şamdan Restoran Cafe & Bar",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "A quiet place that locals favour too. Ask for the home-cooked menu of the day; winter prices are lower than in summer."
+    },
+    {
+     "name": "Içmeler Marina",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "At the small boat pier you can watch local fishermen at work. It's a good spot for a calm, quiet break in winter."
+    },
+    {
+     "name": "Love Maris Meyhane",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 1500,
+     "tips": "This family-run meyhane (tavern) is known as the neighbourhood's hidden treasure. Ask about the meze selection and the catch of the day; booking is recommended in winter."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Love Boat Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1400,
+     "tips": "A sailor-themed restaurant inside the Devamlı Hotel, known for its dry-aged steaks. Book ahead at weekends."
+    },
+    {
+     "name": "Hisarönü Bay Viewpoint",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A calm bay view close to Içmeler. In winter you'll have it to yourself, and it's a good alternative stop for golden hour."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Turunç Bay and the Amos ancient city walk",
+   "stops": [
+    {
+     "name": "Turunç Beach",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "You can't swim in winter, but walking along the quiet shore of this Blue Flag bay is a pleasure in itself. It takes about 30-40 minutes by dolmuş (shared minibus) from Marmaris."
+    },
+    {
+     "name": "Amos Ancient City",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Half an hour's walk from Turunç, with superb views of Kumlubük and Turunç bays from the hilltop. Entry is usually free, but check the sign."
+    },
+    {
+     "name": "Şerife's Kitchen",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 800,
+     "tips": "A small place known for homemade olive oil dishes, köfte and böreks. Be sure to try the artichoke and the zeytinyağlı yaprak sarma (stuffed vine leaves in olive oil)."
+    },
+    {
+     "name": "Kumlubük Bay",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "In winter you'll have this quiet bay between Amos and Turunç to yourself. A few pier restaurants serving fresh seafood may still be open."
+    },
+    {
+     "name": "Pasha's Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 950,
+     "tips": "A restaurant in Turunç known for its meat dishes, stuffed cauliflower and tandır lamb (slow-cooked in a clay oven). Ideal for an early dinner before heading back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Antik Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 800,
+     "tips": "Ideal for trying the traditional flavours of Aegean cuisine. Wild greens and olive oil dishes stand out."
+    },
+    {
+     "name": "Turunç Pier",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "The village's small boat pier is a calm alternative for photos in the morning light. You can watch the fishing boats."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Red pine forests: honey house and Turgut Waterfall",
+   "stops": [
+    {
+     "name": "Turgut Waterfall",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Entry and parking are free, and in winter the water flow is at its strongest. Watch out for slippery stones; waterproof shoes are recommended."
+    },
+    {
+     "name": "Meryemana Ev Yemekleri Mantı Evi",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 750,
+     "tips": "An authentic restaurant known for homemade mantı (Turkish dumplings) and gözleme (stuffed flatbread). The filling made with local herbs is famous; in winter, start with a hot soup."
+    },
+    {
+     "name": "Marmaris Honey House and Beekeeping Museum",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 250,
+     "tips": "A small family museum explaining how pine honey is made from the Marchalina hellenica insect in the red pine forests. Call a day ahead for a group tasting tour; in winter, with fewer visitors, the tasting feels much friendlier."
+    },
+    {
+     "name": "Tepe Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "Dinner with city and sea views in Armutalan. The menu leans towards kebabs and grills; try to time it with sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "La Kebap",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 850,
+     "tips": "Armutalan's must-visit kebab place. They also take takeaway orders; call 0252 417 45 32 to book."
+    },
+    {
+     "name": "Turgut Village Square",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "A short break in the village's quiet square after the waterfall. A good stop for watching the villagers' daily life."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Bozburun Peninsula: from Kızkumu to Selimiye",
+   "stops": [
+    {
+     "name": "Kızkumu",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "On this natural sand strip in Orhaniye you can walk along a path with sea on both sides. Entry and parking are free, and in winter it's all yours. It takes about 35 minutes from Marmaris by private car or taxi."
+    },
+    {
+     "name": "Selimiye Beach and Boat Yard",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Here you can watch the Bozburun Peninsula's wooden boat and gulet building tradition along the pier. It's livelier while the craftsmen are working (before noon)."
+    },
+    {
+     "name": "Sardunya Restoran",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 1300,
+     "tips": "A seaside fish restaurant in Selimiye, open in both summer and winter. Ask for the catch of the day with seasonal meze."
+    },
+    {
+     "name": "Hydas Ancient City",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Ruins belonging to one of Selimiye's three castles, plus traces of the ancient city. Entry is free; it's a short but scenic walk."
+    },
+    {
+     "name": "Mavi Beyaz Balık Restoran",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 1300,
+     "tips": "A place in Armutalan known for seasonal fish. A good choice for a light, fresh dinner after you return."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Badem Mantı",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 700,
+     "tips": "Known in Selimiye for its spinach and fried mantı varieties, and a regular stop for boat holidaymakers. Ideal for a light lunch."
+    },
+    {
+     "name": "Bozburun Pier",
+     "category": "landmark",
+     "start": "15:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Located 15 km from Selimiye, you can walk along the shipyards where some of the world's finest wooden gulets are built."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Before goodbye: Bedesten and quiet Söğüt",
+   "stops": [
+    {
+     "name": "Bedesten (Old Covered Bazaar)",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 200,
+     "tips": "This historic bazaar is open every day of the week. It's a final shopping stop for kilims, jewellery and souvenirs; don't hesitate to haggle."
+    },
+    {
+     "name": "Söğüt Beach",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A quiet fishing village on the road from Marmaris towards Datça. Take a short walk along the shore and snap some photos."
+    },
+    {
+     "name": "Söğüt Balıkçılık",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 600,
+     "tips": "A village restaurant that puts fish sandwich spots across Türkiye to shame. Ask for village ayran (yoghurt drink) with your balık ekmek (fish sandwich); ideal for a relaxed final lunch."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kalimera Restaurant",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 1200,
+     "tips": "A seafood restaurant inside Netsel Marina, open every day of the year. A quick alternative final meal before you head back to the centre."
+    },
+    {
+     "name": "Söğüt Village Square",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A short break in the village's quiet square. A good spot to watch the fishing boats and daily village life."
+    }
+   ]
+  }
+ ]
+}

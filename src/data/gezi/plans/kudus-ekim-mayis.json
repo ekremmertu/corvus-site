@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "kudus-ekim-mayis",
+ "altSlug": "jerusalem-october-may",
+ "citySlug": "kudus",
+ "destKey": "jerusalem",
+ "city": "Kudüs",
+ "region": null,
+ "country": "İsrail",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "ILS",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 1500,
+  "attractions": 500,
+  "transport": 400,
+  "misc": 300
+ },
+ "notes": [
+  "Rav-Kav kartı; hafif raylı (Yafa Caddesi); Şabat (cuma gün batımı-cumartesi gece) toplu taşıma ve çoğu dükkân kapalı, Arap Doğu Kudüs açık. Ben Gurion'a hızlı tren 25 dakika.",
+  "Kışın 5-12°C, yağmur, nadiren kar; Ölü Deniz kışın ideal (25°C); Pesah/Sukot haftaları kalabalık; Aralık'ta Noel'de Beytüllahim kalabalık.",
+  "GÜVENLİK: Bölge durumu değişken — seyahat öncesi resmi uyarıları kontrol et; Tapınak Tepesi kapanabilir; Beytüllahim'e taksi/otobüsle (İsrail kiralık araç giremez).",
+  "Kutsal yerlerde kıyafet: omuz-diz kapalı, erkekler Duvar'da başını örter. Cuma-cumartesi Tapınak Tepesi kapalı; cumartesi Yad Vashem kapalı.",
+  "Humus 40-60 ILS, falafel 20, restoran 100-150; bahşiş %12. Kart her yerde; Doğu Kudüs'te nakit.",
+  "Su: musluk içilir. Mahane Yehuda cuma öğleden sonra en canlı."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Eski Şehir — Yahudi & Hristiyan mahalleleri",
+   "stops": [
+    {
+     "name": "Western Wall",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Yafa Kapısı'ndan gir; Ağlama Duvarı 24 saat açık, kadın/erkek bölümleri, başı örtülü (kipa verilir), cuma akşamı Şabat karşılaması."
+    },
+    {
+     "name": "Temple Mount Dome of the Rock",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Müslüman olmayanlara Pazar-Perşembe 07:30-11:00 ve 13:30-14:30 (Mughrabi köprüsü); dıştan Kubbetü's-Sahra, örtülü kıyafet, cuma-cumartesi kapalı."
+    },
+    {
+     "name": "Via Dolorosa",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "14 durak Çile Yolu; Aslanlı Kapı'dan Kutsal Kabir'e, cuma 15:00 Fransisken alayı."
+    },
+    {
+     "name": "Church of the Holy Sepulchre",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "İsa'nın çarmıh ve kabir yeri; Golgota basamakları, Edicule kuyruğu, 6 mezhep paylaşımı."
+    },
+    {
+     "name": "Abu Shukri Via Dolorosa",
+     "category": "food",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 50,
+     "tips": "Eski Şehir'in efsane humusu; ful ve falafel."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lina Restaurant Old City",
+     "category": "food",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 45,
+     "tips": "Hristiyan mahallesinde humus; Abu Shukri'nin rakibi."
+    },
+    {
+     "name": "Tower of David Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 50,
+     "tips": "Kale müzesi ve surlardan panorama; Via Dolorosa yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Zeytin Dağı & Davut Şehri",
+   "stops": [
+    {
+     "name": "Mount of Olives Viewpoint",
+     "category": "nature",
+     "start": "07:30",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "Taksi ile çık; Eski Şehir ve altın kubbe sabah ışığında, Yahudi mezarlığı, sonra aşağı yürü."
+    },
+    {
+     "name": "Church of All Nations Gethsemane",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Getsemani Bahçesi'nde 2.000 yıllık zeytinler; Dominus Flevit gözyaşı kilisesi yolda."
+    },
+    {
+     "name": "City of David",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 70,
+     "tips": "Kral Davut'un asıl şehrinin kazıları; Hezekiya Tüneli (dizine kadar su, fener) veya kuru Kenan Tüneli."
+    },
+    {
+     "name": "Ja'far Sweets",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Knafeh (peynirli tatlı); Şam Kapısı çarşısından geç, Müslüman mahallesi."
+    },
+    {
+     "name": "Ramparts Walk",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 25,
+     "tips": "Sur üstü yürüyüşü (Yafa Kapısı'ndan Aslanlı Kapı'ya); çatılar ve kubbeler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Azzahra Restaurant East Jerusalem",
+     "category": "food",
+     "start": "14:00",
+     "end": "14:45",
+     "cost": 90,
+     "tips": "Doğu Kudüs'te Filistin mutfağı; maqluba."
+    },
+    {
+     "name": "Garden Tomb",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Protestanların kabir alternatifi; huzurlu bahçe, Şam Kapısı dışı."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Yad Vashem & İsrail Müzesi",
+   "stops": [
+    {
+     "name": "Yad Vashem",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Holokost anıt müzesi; Safdie'nin prizma binası, Çocuk Anıtı, ücretsiz, online rezervasyon, 10 yaş altı giremez, cumartesi kapalı."
+    },
+    {
+     "name": "Israel Museum",
+     "category": "culture",
+     "start": "12:30",
+     "end": "15:00",
+     "cost": 60,
+     "tips": "Ölü Deniz Parşömenleri (Kitap Türbesi), 2. Tapınak dönemi Kudüs maketi, arkeoloji; kafeterya öğle."
+    },
+    {
+     "name": "Israel Museum Modern Kafe",
+     "category": "food",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 60,
+     "tips": "Müze restoranı; Ölü Deniz manzaralı bahçe."
+    },
+    {
+     "name": "Knesset",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Parlamento dıştan ve Menorah heykeli; Pazar/Perşembe tur."
+    },
+    {
+     "name": "Mahane Yehuda Market",
+     "category": "food",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 80,
+     "tips": "Şuk; gündüz pazar, akşam bar sokakları; Marzipan rugelach, Azura kubbe, Hachapuria."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Machneyuda Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 250,
+     "tips": "Pazar yanı şef restoranı; rezervasyon haftalar önce."
+    },
+    {
+     "name": "Bible Lands Museum",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:15",
+     "cost": 44,
+     "tips": "İsrail Müzesi komşusu; antik Yakın Doğu."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Ölü Deniz & Masada",
+   "stops": [
+    {
+     "name": "Masada National Park",
+     "category": "landmark",
+     "start": "07:30",
+     "end": "10:00",
+     "cost": 31,
+     "tips": "Otobüs 486 veya tur 1,5 saat; Herod'un kaya kalesi ve Roma kuşatması, Yılan Yolu'ndan gün doğumu (yazın 08:00 sonrası tırmanış yasak, teleferik 28 ILS)."
+    },
+    {
+     "name": "Ein Gedi Nature Reserve",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 29,
+     "tips": "Vaha; Davut Şelalesi ve dağ keçileri, ayakkabı ıslanır."
+    },
+    {
+     "name": "Ein Gedi Kibbutz Restoranı",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 70,
+     "tips": "Kibbutz yemekhanesi veya plaj kafesi."
+    },
+    {
+     "name": "Ein Bokek Dead Sea Beach",
+     "category": "nature",
+     "start": "14:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Dünyanın en alçak noktası (-430 m); yüzme değil yatma, çamur, gözü koru, ücretsiz halk plajı ve duşlar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Qumran National Park",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 29,
+     "tips": "Parşömenlerin bulunduğu mağaralar; Ein Gedi yerine."
+    },
+    {
+     "name": "Ein Bokek Plaj Kafesi",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 50,
+     "tips": "Plaj kenarı kafe; salata ve limonata."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Beytüllahim & Ein Karem",
+   "stops": [
+    {
+     "name": "Church of the Nativity Bethlehem",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Otobüs 231 veya taksi (Filistin Yönetimi; pasaport gerekir, İsrail plakalı araç geçmez); İsa'nın doğduğu mağara, 2 saat kuyruk olabilir."
+    },
+    {
+     "name": "Banksy Walled Off Hotel & Ayrım Duvarı",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Duvar grafitileri ve Banksy'nin oteli ve müzesi; taksi."
+    },
+    {
+     "name": "Afteem Restaurant Bethlehem",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Manger Meydanı'nda 1948 falafel."
+    },
+    {
+     "name": "Ein Karem",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Vaftizci Yahya'nın köyü; Ziyaret Kilisesi ve Meryem Kuyusu, sanat galerileri, Kudüs'ün batısı."
+    },
+    {
+     "name": "Karma Ein Karem",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 80,
+     "tips": "Köy manzaralı teras kafe; akşam."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shepherds' Field Beit Sahour",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Çobanlar tarlası kilisesi; duvar yerine."
+    },
+    {
+     "name": "Sweet N Karem",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 30,
+     "tips": "Ein Karem dondurmacısı."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Batı Kudüs & Şabat",
+   "stops": [
+    {
+     "name": "Yemin Moshe & Montefiore Windmill",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Surların dışındaki ilk mahalle; yel değirmeni ve Eski Şehir manzarası."
+    },
+    {
+     "name": "First Station Jerusalem",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 50,
+     "tips": "Eski Osmanlı gar; kafeler ve pazar, çocuk alanı."
+    },
+    {
+     "name": "Azura Mahane Yehuda",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 70,
+     "tips": "Kürt-Irak yemekleri; kubbe ve patlıcan, Şabat öncesi kalabalık."
+    },
+    {
+     "name": "Mea Shearim",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Ultra-Ortodoks mahalle; örtülü giyim, fotoğraf çekme, Şabat öncesi cuma telaşı."
+    },
+    {
+     "name": "Western Wall Şabat Karşılaması",
+     "category": "culture",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Cuma gün batımı: şarkı ve dans (fotoğraf yok); diğer günler akşam duası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Anna Italian Café Ticho House",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 90,
+     "tips": "Tarihi Ticho evinde bahçe restoranı."
+    },
+    {
+     "name": "Hebrew University Mount Scopus",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Botanik bahçe ve çöl manzarası; Mea Shearim yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Ermeni mahallesi — hafif veda",
+   "stops": [
+    {
+     "name": "Armenian Quarter",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "St James Katedrali (15:00 ayin), seramik atölyeleri."
+    },
+    {
+     "name": "Cardo Jewish Quarter",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Bizans ana caddesi kalıntısı; Hurva Sinagogu (kubbe manzarası 20 ILS)."
+    },
+    {
+     "name": "Rooftop Promenade Old City",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Çarşı üstü çatılar; 4 mahalle kavşağı, ücretsiz."
+    },
+    {
+     "name": "Hummus Ben Sira",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 50,
+     "tips": "Batı Kudüs humusu; veda."
+    },
+    {
+     "name": "Jerusalem Navon Station",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Hızlı tren Ben Gurion'a 25 dakika (Şabat'ta çalışmaz); veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jerusalem Armenian Ceramics",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "El boyaması çini; hediyelik."
+    },
+    {
+     "name": "Tmol Shilshom",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 60,
+     "tips": "Kitapçı kafe; shakshuka."
+    }
+   ]
+  }
+ ]
+}

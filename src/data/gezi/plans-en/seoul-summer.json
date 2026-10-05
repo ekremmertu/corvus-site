@@ -1,0 +1,492 @@
+{
+ "lang": "en",
+ "slug": "seoul-summer",
+ "altSlug": "seul-yaz",
+ "citySlug": "seul",
+ "destKey": "seoul",
+ "city": "Seoul",
+ "region": null,
+ "country": "South Korea",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "KRW",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 350000,
+  "attractions": 170000,
+  "transport": 60000,
+  "misc": 80000
+ },
+ "notes": [
+  "Use a T-money card for everything. The Climate Card gives 7 days of unlimited travel (~20,000 KRW). AREX to Incheon takes 45 minutes. Naver Map beats Google Maps here.",
+  "June to August brings 30°C+ heat and the monsoon (jangma in July). Do palaces in the morning, malls and museums in the afternoon, and the Han River in the evening.",
+  "Korean BBQ for two costs 50,000-80,000 KRW; Gwangjang street food costs 5,000-10,000 KRW. No tipping.",
+  "Palaces close on Tuesdays (Gyeongbokgung) or Mondays (Changdeokgung). Wearing a hanbok gets you free entry.",
+  "Take your passport on the DMZ tour and book 1-2 weeks ahead. The JSA (Panmunjom) is a separate tour and rarely available.",
+  "Cafes are part of Seoul culture: try Seongsu, Yeonnam and Ikseon-dong. Coffee costs 5,000-7,000 KRW."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "T-money / Climate Card",
+  "why_chosen": "Works on the metro and buses. The 7-day Climate Card is unlimited (~20,000 KRW).",
+  "coverage": "Seul metro, otobüs, taksi",
+  "where_to_buy": "Havalimanı ve GS25/CU marketler",
+  "cost": 4000,
+  "currency_code": "KRW"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Gyeongbokgung and Bukchon",
+   "stops": [
+    {
+     "name": "Gyeongbokgung Palace",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 3000,
+     "tips": "The main Joseon palace. The changing of the guard is at 10:00, entry is free if you rent a hanbok (soon 20,000 KRW), closed Tuesdays."
+    },
+    {
+     "name": "National Folk Museum of Korea",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "A free folk museum inside the palace grounds."
+    },
+    {
+     "name": "Tosokchon Samgyetang",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 20000,
+     "tips": "Ginseng chicken soup next to the palace, with queues since 1983."
+    },
+    {
+     "name": "Bukchon Hanok Village",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Hanok houses and narrow lanes. Keep quiet, as this is a residential area. There are 8 viewpoints."
+    },
+    {
+     "name": "Insadong",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Traditional crafts and tea houses, plus the Ssamziegil courtyard."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gwanghwamun Jip Kimchi Jjigae",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 9000,
+     "tips": "Kimchi stew that is cheap and legendary."
+    },
+    {
+     "name": "Changdeokgung Secret Garden",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 8000,
+     "tips": "A UNESCO-listed palace with a secret garden. Visits are by timed tour, a swap for Bukchon."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Myeongdong and Namsan",
+   "stops": [
+    {
+     "name": "Myeongdong Shopping Street",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Cosmetics and fashion, with street food stalls out in the afternoon."
+    },
+    {
+     "name": "Myeongdong Kyoja",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 12000,
+     "tips": "Kalguksu (hand-cut noodle soup) and mandu dumplings. Michelin Bib Gourmand, since 1966."
+    },
+    {
+     "name": "Namsan Cable Car",
+     "category": "nature",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 15000,
+     "tips": "Take the cable car up from Myeongdong, or walk up Namsan in 40 minutes."
+    },
+    {
+     "name": "N Seoul Tower",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 21000,
+     "tips": "An observation deck and love locks. Stay until 17:00 for sunset."
+    },
+    {
+     "name": "Namdaemun Market",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 8000,
+     "tips": "Korea's largest traditional market, with a hotteok (sweet filled pancake) and kalguksu alley."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Isaac Toast Myeongdong",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 5000,
+     "tips": "Korean-style toast, and quick."
+    },
+    {
+     "name": "Seoul Museum of Art",
+     "category": "culture",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A free museum next to Deoksugung, good for a rainy day."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Gangnam and COEX",
+   "stops": [
+    {
+     "name": "Bongeunsa Temple",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A Buddhist temple among Gangnam's skyscrapers, with a giant Buddha."
+    },
+    {
+     "name": "Starfield Library COEX",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "13 m bookshelves. Free, and great for photos."
+    },
+    {
+     "name": "Gangnam Station Underground",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "An underground shopping arcade and K-pop stores."
+    },
+    {
+     "name": "Samwon Garden Gangnam",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 50000,
+     "tips": "Korean BBQ and galbi since 1976, with a garden setting."
+    },
+    {
+     "name": "Seonjeongneung Royal Tombs",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 1000,
+     "tips": "Joseon royal tombs and woodland in the middle of the city. Calm and quiet."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gangnam Myeongga Galbi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 30000,
+     "tips": "More affordable BBQ."
+    },
+    {
+     "name": "Lotte World Tower Seoul Sky",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 29000,
+     "tips": "A 555 m observation deck with a glass floor, a swap for the tombs."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Hongdae and Yeouido",
+   "stops": [
+    {
+     "name": "Gyeongui Line Forest Park",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A park on a former railway line, with cafes in Yeonnam-dong."
+    },
+    {
+     "name": "Hongdae Street",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A university district with street performances, vintage shops and photo booths."
+    },
+    {
+     "name": "Hongdae Jokbal Street",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15000,
+     "tips": "Pig's trotters (jokbal) and bossam (boiled pork wraps), served to share."
+    },
+    {
+     "name": "Yeouido Hangang Park",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A park on the Han River with ramyeon vending machines and bike hire. Picnics in summer."
+    },
+    {
+     "name": "Han River Cruise",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 18000,
+     "tips": "A sunset boat from Yeouido, with views of the bridges and skyscrapers."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hongdae Andong Jjimdak",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 12000,
+     "tips": "Braised chicken stew in a savoury sauce."
+    },
+    {
+     "name": "63 Building Art Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 13000,
+     "tips": "A golden skyscraper in Yeouido, good for a rainy day."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "The DMZ",
+   "stops": [
+    {
+     "name": "Imjingak Park",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "DMZ tour (~70,000 KRW). Bring your passport and book 1-2 weeks ahead. No tours on Mondays. See the Freedom Bridge and the bullet-riddled train."
+    },
+    {
+     "name": "Third Infiltration Tunnel",
+     "category": "culture",
+     "start": "09:15",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A tunnel dug by North Korea. It is a 350 m sloping walk, and you wear a hard hat."
+    },
+    {
+     "name": "Dora Observatory",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Look through binoculars at a North Korean village and a propaganda tower."
+    },
+    {
+     "name": "Dorasan Station",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A train station with no trains to Pyongyang."
+    },
+    {
+     "name": "Paju Provence Village",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 15000,
+     "tips": "On the way back, a cafe town with a French village theme. Stop for lunch and the bakery."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tongilchon Village Restaurant",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 10000,
+     "tips": "Soybean dishes in a DMZ village."
+    },
+    {
+     "name": "Heyri Art Village",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "An artists' village, a swap for Provence."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Gwangjang and Dongdaemun",
+   "stops": [
+    {
+     "name": "Jogyesa Temple",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "The centre of Korean Buddhism, with a lantern festival in May."
+    },
+    {
+     "name": "Ikseon-dong Hanok Village",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Restored hanok cafes and boutiques, on the most photogenic lanes."
+    },
+    {
+     "name": "Gwangjang Market",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 15000,
+     "tips": "Bindaetteok (mung bean pancake) and mayak gimbap. The market made famous by Netflix, with seating on low stools."
+    },
+    {
+     "name": "Cheonggyecheon Stream",
+     "category": "nature",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "A restored stream in the middle of the city, with a 5 km walking path."
+    },
+    {
+     "name": "Dongdaemun Design Plaza",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Zaha Hadid's silver building, with exhibitions and a night market."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ikseon-dong Farm BBQ",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 40000,
+     "tips": "Hanwoo (Korean beef) and Iberico BBQ in Ikseon-dong."
+    },
+    {
+     "name": "Dongdaemun Market Night Shopping",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Wholesale fashion, best after 23:00."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Seongsu and a gentle farewell",
+   "stops": [
+    {
+     "name": "Seongsu-dong",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Seoul's Brooklyn, with old factory cafes and pop-up stores."
+    },
+    {
+     "name": "Seoul Forest",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A deer park and ginkgo path, golden in autumn."
+    },
+    {
+     "name": "Onion Seongsu",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 12000,
+     "tips": "A cafe in a former factory, with pastries and coffee for a farewell treat."
+    },
+    {
+     "name": "Seoul Station AREX",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "The AREX express to Incheon takes 45 minutes. Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seongsu Galbi",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 25000,
+     "tips": "Galbi, a swap for the cafe."
+    },
+    {
+     "name": "Ttukseom Hangang Park",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A riverside park, a swap for the forest."
+    }
+   ]
+  }
+ ]
+}

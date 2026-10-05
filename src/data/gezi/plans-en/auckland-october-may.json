@@ -1,0 +1,484 @@
+{
+ "lang": "en",
+ "slug": "auckland-october-may",
+ "altSlug": "auckland-ekim-mayis",
+ "citySlug": "auckland",
+ "destKey": "auckland",
+ "city": "Auckland",
+ "region": null,
+ "country": "New Zealand",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "NZD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 520,
+  "attractions": 700,
+  "transport": 180,
+  "misc": 100
+ },
+ "notes": [
+  "Use AT HOP or contactless. Ferries are run by Fullers (Waiheke and Rangitoto need separate tickets). The SkyDrive airport bus takes 45 minutes. For Piha and Hobbiton, hire a car or take a tour (drive on the left).",
+  "December to February is summer, at 22-26°C, when Waiheke and the beaches are lively. Pohutukawa trees bloom red in December. Christmas falls in midsummer and hotels fill up.",
+  "The NZeTA and IVL tourist levy are paid online. Turkish citizens need a visa (check this). Coffee costs 5-6 NZD, a café meal 25 and a tour 250. Tipping is not expected.",
+  "Book Hobbiton online weeks ahead. Photography is banned at Waitomo. Rangitoto has no water or shops. At Piha, rip currents can be deadly, so obey the flags.",
+  "Māori culture is best seen in the museum, with a haka. 'Kia ora' is a greeting. Try fish and chips, a flat white and hokey pokey ice cream.",
+  "UV levels are very high (thin ozone layer). In summer you can burn in 15 minutes."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "AT HOP / contactless",
+  "why_chosen": "Covers buses, trains and ferries (some, such as Devonport and Waiheke, excepted). Contactless bank cards also work.",
+  "coverage": "AT otobüs, tren, feribot",
+  "where_to_buy": "Kendi temassız kartın veya AT HOP 5 NZD",
+  "cost": 0,
+  "currency_code": "NZD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "City and Sky Tower",
+   "stops": [
+    {
+     "name": "Sky Tower",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 40,
+     "tips": "At 328 m, the tallest tower in the Southern Hemisphere. Glass floor; SkyWalk and SkyJump cost extra. Book online."
+    },
+    {
+     "name": "Auckland Art Gallery",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Māori and Pacific art under a kauri timber roof. Free entry (20 NZD for foreign visitors)."
+    },
+    {
+     "name": "Albert Park & Üniversite",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Victorian park with a floral clock."
+    },
+    {
+     "name": "Depot Eatery Federal Street",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 35,
+     "tips": "Al Brown's oyster and seafood bar, right below the Sky Tower."
+    },
+    {
+     "name": "Viaduct Harbour & Wynyard Quarter",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Marina with America's Cup yachts. Visit Silo Park and the Maritime Museum (25 NZD)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Auckland Fish Market Wynyard",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Fish market food hall: try the fish and chips."
+    },
+    {
+     "name": "New Zealand Maritime Museum",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 25,
+     "tips": "From Polynesian canoes to yachts, plus a boat tour of the harbour."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Waiheke Island",
+   "stops": [
+    {
+     "name": "Waiheke Ferry Fullers",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:40",
+     "cost": 60,
+     "tips": "40 minutes from Downtown (return about 60 NZD) across the Hauraki Gulf."
+    },
+    {
+     "name": "Oneroa Beach & Village",
+     "category": "nature",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Winter beach walk and galleries."
+    },
+    {
+     "name": "Mudbrick Vineyard",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 45,
+     "tips": "Vineyard and restaurant with city views. Try the syrah; book ahead."
+    },
+    {
+     "name": "Cable Bay Vineyards",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Neighbouring vineyard with wine and cheese platters on the terrace."
+    },
+    {
+     "name": "Onetangi Beach",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Winter beach walk. Stonyridge vineyard (Larose) is an alternative."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Man O' War Vineyard",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 30,
+     "tips": "Beachfront vineyard at the far end of the island. Take a taxi or drive."
+    },
+    {
+     "name": "Waiheke EcoZip",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 120,
+     "tips": "Zipline with forest and sea views; an alternative to wine tasting."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Volcanoes: Mount Eden and Devonport",
+   "stops": [
+    {
+     "name": "Mount Eden",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "196 m volcanic crater with 360° views of the city and Sky Tower. Best in morning light."
+    },
+    {
+     "name": "Auckland War Memorial Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 32,
+     "tips": "Māori hall (war canoe, marae), haka performance (extra) and volcano gallery, set in the Domain park."
+    },
+    {
+     "name": "Devonport Ferry",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "13:45",
+     "cost": 8,
+     "tips": "12-minute ferry to a Victorian town."
+    },
+    {
+     "name": "Mount Victoria Devonport",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Short climb to views of the city skyline and Rangitoto opposite. Winter guns are in place."
+    },
+    {
+     "name": "Devonport Chocolates & Waterfront",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 10,
+     "tips": "Town main street, chocolate and Cheltenham Beach."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Wintergarden Domain",
+     "category": "nature",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Glasshouses next to the museum. Free."
+    },
+    {
+     "name": "Devonport Stone Oven Bakery",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 12,
+     "tips": "Bakery café."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Piha and Waitākere",
+   "stops": [
+    {
+     "name": "Arataki Visitor Centre",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Gateway to the Waitākere forest (45 minutes by car). Māori carvings and views."
+    },
+    {
+     "name": "Kitekite Falls",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "40 m waterfall. Easy 1-hour return walk, with a swimming pool at the base."
+    },
+    {
+     "name": "Piha Beach & Lion Rock",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Winter waves; beach walk and the rock."
+    },
+    {
+     "name": "Piha Cafe",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Beach café with fish and coffee."
+    },
+    {
+     "name": "Karekare Beach",
+     "category": "nature",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The beach from the film The Piano. Waterfall and empty sands."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Muriwai Gannet Colony",
+     "category": "nature",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Gannet colony (August to March); an alternative to Karekare."
+    },
+    {
+     "name": "Elevation Café Waitakere",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 18,
+     "tips": "Café with views on the Scenic Drive."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Hobbiton and Waitomo",
+   "stops": [
+    {
+     "name": "Hobbiton Movie Set",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 120,
+     "tips": "2.5 hours to Matamata (tour about 250 NZD from Auckland). 44 hobbit holes, with a beer included at the Green Dragon. Book online weeks ahead."
+    },
+    {
+     "name": "Matamata Lunch",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 20,
+     "tips": "Town café; try a pie."
+    },
+    {
+     "name": "Waitomo Glowworm Caves",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 65,
+     "tips": "Glowworm cave reached by quiet boat. No photography; Ruakuri costs extra."
+    },
+    {
+     "name": "Waitomo Caves Village",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Short break before the 3-hour drive back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ruakuri Cave",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 90,
+     "tips": "Cave with a spiral entrance. Photography allowed; an alternative to Glowworm Caves."
+    },
+    {
+     "name": "Huhu Cafe Waitomo",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 25,
+     "tips": "The best café in the cave town."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Rangitoto and Ponsonby",
+   "stops": [
+    {
+     "name": "Rangitoto Island Ferry",
+     "category": "landmark",
+     "start": "09:15",
+     "end": "09:45",
+     "cost": 45,
+     "tips": "25-minute ferry (Fullers) to a 600-year-old volcanic island."
+    },
+    {
+     "name": "Rangitoto Summit Track",
+     "category": "nature",
+     "start": "09:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "1-hour climb of 260 m past lava caves and the crater, through the world's largest pohutukawa forest. Bring water, as there are no shops."
+    },
+    {
+     "name": "Rangitoto Wharf Return",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Ferries at 12:45 and 15:30 back to the city."
+    },
+    {
+     "name": "Ponsonby Road",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Boutiques and cafés, plus the Ponsonby Central food court."
+    },
+    {
+     "name": "Ponsonby Central",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 25,
+     "tips": "Food market: try Bird on a Wire chicken and El Sizzling Chorizo."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tiritiri Matangi Island",
+     "category": "nature",
+     "start": "09:15",
+     "end": "15:00",
+     "cost": 95,
+     "tips": "Bird sanctuary island (takahe, kokako). Ferries Wednesday to Sunday; an alternative to Rangitoto."
+    },
+    {
+     "name": "Ponsonby Dizengoff",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 22,
+     "tips": "A breakfast classic."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Mission Bay: a gentle farewell",
+   "stops": [
+    {
+     "name": "Tamaki Drive Walk",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Coastal road with views of Okahu Bay and Rangitoto."
+    },
+    {
+     "name": "Mission Bay Beach",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "City beach with a fountain. Kelly Tarlton's aquarium is nearby."
+    },
+    {
+     "name": "Mission Bay Breakfast",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 22,
+     "tips": "Cafés opposite the beach. Eggs benedict for a farewell."
+    },
+    {
+     "name": "Britomart SkyDrive",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 20,
+     "tips": "SkyDrive airport bus, 45 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kelly Tarlton's Sea Life",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 45,
+     "tips": "Penguins and a shark tunnel; an alternative to the beach."
+    },
+    {
+     "name": "Giapo Ice Cream",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 15,
+     "tips": "Ice cream as art, on Gore Street."
+    }
+   ]
+  }
+ ]
+}

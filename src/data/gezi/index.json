@@ -1,0 +1,4002 @@
+[
+ {
+  "destKey": "istanbul",
+  "city": "İstanbul",
+  "cityEn": "Istanbul",
+  "countryEn": "Türkiye",
+  "citySlug": "istanbul",
+  "region": null,
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": false,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "istanbul-yaz",
+    "enSlug": "istanbul-summer",
+    "hasEn": true,
+    "firstThemeEn": "Sultanahmet and Süleymaniye: three landmarks, a madrasa courtyard, sunset over the Golden Horn",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 40,
+    "quality": "v2",
+    "firstTheme": "Sultanahmet & Süleymaniye — imza günü: üç anıt, bir medrese avlusu, Haliç üstünde gün batımı"
+   },
+   {
+    "season": "other",
+    "slug": "istanbul-ekim-mayis",
+    "enSlug": "istanbul-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old city icons, hidden Zeyrek terrace",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 40,
+    "quality": "v2",
+    "firstTheme": "Tarihi Yarımada: ikonlardan Zeyrek'in gizli terasına"
+   }
+  ]
+ },
+ {
+  "destKey": "antalya",
+  "city": "Antalya",
+  "cityEn": "Antalya",
+  "countryEn": "Türkiye",
+  "citySlug": "antalya",
+  "region": null,
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": true,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "antalya-yaz",
+    "enSlug": "antalya-summer",
+    "hasEn": true,
+    "firstThemeEn": "Kaleiçi classics: Roman gate to meyhane",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v2",
+    "firstTheme": "Kaleiçi'nin imzası: Roma kapısından Bizans kayalığına, akşam meyhane"
+   },
+   {
+    "season": "other",
+    "slug": "antalya-ekim-mayis",
+    "enSlug": "antalya-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Kaleiçi's iconic heart",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 31,
+    "quality": "v2",
+    "firstTheme": "Kaleiçi'nin İkonik Kalbi"
+   }
+  ]
+ },
+ {
+  "destKey": "fethiye",
+  "city": "Fethiye",
+  "cityEn": "Fethiye",
+  "countryEn": "Türkiye",
+  "citySlug": "fethiye",
+  "region": "Muğla",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": true,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "fethiye-yaz",
+    "enSlug": "fethiye-summer",
+    "hasEn": true,
+    "firstThemeEn": "Ölüdeniz classics: Babadağ flight, the lagoon and locals' Kıdrak",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v2",
+    "firstTheme": "Ölüdeniz imzası: Babadağ'dan uçuş, lagün ve yerlilerin koyu Kıdrak"
+   },
+   {
+    "season": "other",
+    "slug": "fethiye-ekim-mayis",
+    "enSlug": "fethiye-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Fethiye's heart: Kordon to Karagözler",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v2",
+    "firstTheme": "Fethiye'nin Kalbi: Kordon'dan Karagözler'e"
+   }
+  ]
+ },
+ {
+  "destKey": "bodrum",
+  "city": "Bodrum",
+  "cityEn": "Bodrum",
+  "countryEn": "Türkiye",
+  "citySlug": "bodrum",
+  "region": "Muğla",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": true,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "bodrum-yaz",
+    "enSlug": "bodrum-summer",
+    "hasEn": true,
+    "firstThemeEn": "The heart of Bodrum: castle, theatre and windmills",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v2",
+    "firstTheme": "Bodrum'un Kalbi: Kale, Antik Tiyatro ve Yel Değirmenleri"
+   },
+   {
+    "season": "other",
+    "slug": "bodrum-ekim-mayis",
+    "enSlug": "bodrum-october-may",
+    "hasEn": true,
+    "firstThemeEn": "The heart of Bodrum: castle, theatre and bazaar",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v2",
+    "firstTheme": "Bodrum'un Kalbi: Kale, Amfitiyatro ve Çarşı"
+   }
+  ]
+ },
+ {
+  "destKey": "cesme",
+  "city": "Çeşme",
+  "cityEn": "Çeşme",
+  "countryEn": "Türkiye",
+  "citySlug": "cesme",
+  "region": "İzmir",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": true,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "cesme-yaz",
+    "enSlug": "cesme-summer",
+    "hasEn": true,
+    "firstThemeEn": "Alaçatı's stone streets and windy history",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 30,
+    "quality": "v2",
+    "firstTheme": "Alaçatı'nın taş sokakları ve rüzgârlı tarihi"
+   },
+   {
+    "season": "other",
+    "slug": "cesme-ekim-mayis",
+    "enSlug": "cesme-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Çeşme centre: castle, bazaar and Greek heritage",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v2",
+    "firstTheme": "Çeşme Merkez: Kale, Çarşı ve Rum Mirası"
+   }
+  ]
+ },
+ {
+  "destKey": "alacati",
+  "city": "Alaçatı",
+  "cityEn": "Alaçatı",
+  "countryEn": "Türkiye",
+  "citySlug": "alacati",
+  "region": "İzmir",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": true,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "alacati-yaz",
+    "enSlug": "alacati-summer",
+    "hasEn": true,
+    "firstThemeEn": "The heart of Alaçatı: stone streets, old town and windmill sunset",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v2",
+    "firstTheme": "Alaçatı'nın kalbi: taş sokaklar, köyiçi ve yel değirmenlerinde gün batımı"
+   },
+   {
+    "season": "other",
+    "slug": "alacati-ekim-mayis",
+    "enSlug": "alacati-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Alacati's signature: stone streets, church-mosque and windmills",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 32,
+    "quality": "v2",
+    "firstTheme": "Alaçatı'nın İmzası: Taş Sokaklar, Kilise-Cami ve Yel Değirmenleri"
+   }
+  ]
+ },
+ {
+  "destKey": "kas",
+  "city": "Kaş",
+  "cityEn": "Kaş",
+  "countryEn": "Türkiye",
+  "citySlug": "kas",
+  "region": "Antalya",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": true,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "kas-yaz",
+    "enSlug": "kas-summer",
+    "hasEn": true,
+    "firstThemeEn": "Kaş signature day: ancient harbour and turquoise pebbles",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 30,
+    "quality": "v2",
+    "firstTheme": "Kaş'ın İmza Günü: Antik Liman ve Turkuaz Çakıl"
+   },
+   {
+    "season": "other",
+    "slug": "kas-ekim-mayis",
+    "enSlug": "kas-october-may",
+    "hasEn": true,
+    "firstThemeEn": "The heart of Kaş: theatre, bazaar and sunset",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v2",
+    "firstTheme": "Kaş'ın Kalbi: Antik Tiyatro, Çarşı ve Gün Batımı"
+   }
+  ]
+ },
+ {
+  "destKey": "kapadokya",
+  "city": "Kapadokya",
+  "cityEn": "Cappadocia",
+  "countryEn": "Türkiye",
+  "citySlug": "kapadokya",
+  "region": "Nevşehir",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": false,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "kapadokya-yaz",
+    "enSlug": "cappadocia-summer",
+    "hasEn": true,
+    "firstThemeEn": "Göreme's signature: fairy chimneys from the sky",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v2",
+    "firstTheme": "Göreme'nin İmzası: Gökyüzünden Peri Bacalarına"
+   },
+   {
+    "season": "other",
+    "slug": "kapadokya-ekim-mayis",
+    "enSlug": "cappadocia-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Göreme highlights: balloon, museum, Uçhisar",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 38,
+    "quality": "v2",
+    "firstTheme": "Göreme'nin İmzası: Balon, Açık Hava Müzesi ve Uçhisar"
+   }
+  ]
+ },
+ {
+  "destKey": "izmir",
+  "city": "İzmir",
+  "cityEn": "Izmir",
+  "countryEn": "Türkiye",
+  "citySlug": "izmir",
+  "region": null,
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": true,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "izmir-yaz",
+    "enSlug": "izmir-summer",
+    "hasEn": true,
+    "firstThemeEn": "Izmir's iconic face: Kordon, Kemeraltı, Konak",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 39,
+    "quality": "v2",
+    "firstTheme": "İzmir'in İkonik Yüzü: Kordon, Kemeraltı ve Konak"
+   },
+   {
+    "season": "other",
+    "slug": "izmir-ekim-mayis",
+    "enSlug": "izmir-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Izmir's signatures: Konak, Kemeraltı and Kordon",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 37,
+    "quality": "v2",
+    "firstTheme": "İzmir'in İmzası: Konak, Kemeraltı ve Kordon"
+   }
+  ]
+ },
+ {
+  "destKey": "marmaris",
+  "city": "Marmaris",
+  "cityEn": "Marmaris",
+  "countryEn": "Türkiye",
+  "citySlug": "marmaris",
+  "region": "Muğla",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": true,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "marmaris-yaz",
+    "enSlug": "marmaris-summer",
+    "hasEn": true,
+    "firstThemeEn": "Marmaris Castle and Icmeler",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 29,
+    "quality": "v1",
+    "firstTheme": "Marmaris Kalesi & İçmeler"
+   },
+   {
+    "season": "other",
+    "slug": "marmaris-ekim-mayis",
+    "enSlug": "marmaris-october-may",
+    "hasEn": true,
+    "firstThemeEn": "The heart of Marmaris: Kaleiçi and Uzunyalı",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v2",
+    "firstTheme": "Marmaris'in Kalbi: Kaleiçi ve Uzunyalı Sahili"
+   }
+  ]
+ },
+ {
+  "destKey": "datca",
+  "city": "Datça",
+  "cityEn": "Datça",
+  "countryEn": "Türkiye",
+  "citySlug": "datca",
+  "region": "Muğla",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": true,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "datca-yaz",
+    "enSlug": "datca-summer",
+    "hasEn": true,
+    "firstThemeEn": "The heart of Datça: stone lanes and sunset at the pier",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v2",
+    "firstTheme": "Datça'nın Kalbi: Eski Datça'nın Taş Sokakları ve İskele'de Gün Batımı"
+   },
+   {
+    "season": "other",
+    "slug": "datca-ekim-mayis",
+    "enSlug": "datca-october-may",
+    "hasEn": true,
+    "firstThemeEn": "The heart of Datça: Old Datça and the centre",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v2",
+    "firstTheme": "Datça'nın Kalbi: Eski Datça ve Merkez"
+   }
+  ]
+ },
+ {
+  "destKey": "ayvalik",
+  "city": "Ayvalık",
+  "cityEn": "Ayvalık",
+  "countryEn": "Türkiye",
+  "citySlug": "ayvalik",
+  "region": "Balıkesir",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": true,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "ayvalik-yaz",
+    "enSlug": "ayvalik-summer",
+    "hasEn": true,
+    "firstThemeEn": "Cunda's stone lanes, a hidden cove and Greek cuisine",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 36,
+    "quality": "v2",
+    "firstTheme": "Cunda Adası'nın taş sokakları, gizli bir koy ve Rum mutfağı"
+   },
+   {
+    "season": "other",
+    "slug": "ayvalik-ekim-mayis",
+    "enSlug": "ayvalik-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Ayvalık's signatures: old bazaar, Cunda and Devil's Table",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v2",
+    "firstTheme": "Ayvalık'ın İmzası: Tarihi Çarşı, Cunda ve Şeytan Sofrası"
+   }
+  ]
+ },
+ {
+  "destKey": "bozcaada",
+  "city": "Bozcaada",
+  "cityEn": "Bozcaada",
+  "countryEn": "Türkiye",
+  "citySlug": "bozcaada",
+  "region": "Çanakkale",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": true,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "bozcaada-yaz",
+    "enSlug": "bozcaada-summer",
+    "hasEn": true,
+    "firstThemeEn": "Bozcaada's signatures: fortress, Greek quarter and Ayazma",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v2",
+    "firstTheme": "Bozcaada'nın İmzası: Kale, Rum Mahallesi ve Ayazma"
+   },
+   {
+    "season": "other",
+    "slug": "bozcaada-ekim-mayis",
+    "enSlug": "bozcaada-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Castle, Çınarlı Çarşı and the Greek Quarter: the island's signature",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 38,
+    "quality": "v2",
+    "firstTheme": "Kale, Çınarlı Çarşı ve Rum Mahallesi — adanın imzası"
+   }
+  ]
+ },
+ {
+  "destKey": "trabzon",
+  "city": "Trabzon",
+  "cityEn": "Trabzon",
+  "countryEn": "Türkiye",
+  "citySlug": "trabzon",
+  "region": null,
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": false,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "trabzon-yaz",
+    "enSlug": "trabzon-summer",
+    "hasEn": true,
+    "firstThemeEn": "Trabzon essentials: Boztepe views, Atatürk Pavilion and Uzun Sokak",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v2",
+    "firstTheme": "Trabzon'un imzası: Boztepe manzarası, Atatürk Köşkü ve Uzun Sokak"
+   },
+   {
+    "season": "other",
+    "slug": "trabzon-ekim-mayis",
+    "enSlug": "trabzon-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Trabzon's signatures: Boztepe, Hagia Sophia and the old bazaar",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 36,
+    "quality": "v2",
+    "firstTheme": "Trabzon'un İmzası: Boztepe, Ayasofya ve Tarihi Çarşı"
+   }
+  ]
+ },
+ {
+  "destKey": "safranbolu",
+  "city": "Safranbolu",
+  "cityEn": "Safranbolu",
+  "countryEn": "Türkiye",
+  "citySlug": "safranbolu",
+  "region": "Karabük",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": false,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "safranbolu-yaz",
+    "enSlug": "safranbolu-summer",
+    "hasEn": true,
+    "firstThemeEn": "Safranbolu essentials: Old Bazaar, Cinci Han and well kebab",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v2",
+    "firstTheme": "Safranbolu'nun İmzası: Eski Çarşı, Cinci Hanı ve Kuyu Kebabı"
+   },
+   {
+    "season": "other",
+    "slug": "safranbolu-ekim-mayis",
+    "enSlug": "safranbolu-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Safranbolu's heart: mansions, bazaar and sunset",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 29,
+    "quality": "v2",
+    "firstTheme": "Safranbolu'nun Kalbi: Konaklar, Çarşı ve Gün Batımı"
+   }
+  ]
+ },
+ {
+  "destKey": "bursa",
+  "city": "Bursa",
+  "cityEn": "Bursa",
+  "countryEn": "Türkiye",
+  "citySlug": "bursa",
+  "region": null,
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": false,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "bursa-yaz",
+    "enSlug": "bursa-summer",
+    "hasEn": true,
+    "firstThemeEn": "Bursa's iconic face: Grand Mosque to Tophane",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 37,
+    "quality": "v2",
+    "firstTheme": "Bursa'nın İkonik Yüzü: Ulu Cami'den Tophane'ye"
+   },
+   {
+    "season": "other",
+    "slug": "bursa-ekim-mayis",
+    "enSlug": "bursa-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Ottoman heart: Grand Mosque to Kayhan",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 37,
+    "quality": "v2",
+    "firstTheme": "Osmanlı'nın Kalbi: Ulu Cami'den Kayhan'a"
+   }
+  ]
+ },
+ {
+  "destKey": "eskisehir",
+  "city": "Eskişehir",
+  "cityEn": "Eskişehir",
+  "countryEn": "Türkiye",
+  "citySlug": "eskisehir",
+  "region": null,
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": false,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "eskisehir-yaz",
+    "enSlug": "eskisehir-summer",
+    "hasEn": true,
+    "firstThemeEn": "Odunpazarı old town",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Odunpazarı"
+   },
+   {
+    "season": "other",
+    "slug": "eskisehir-ekim-mayis",
+    "enSlug": "eskisehir-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Odunpazarı old town",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Odunpazarı"
+   }
+  ]
+ },
+ {
+  "destKey": "mardin",
+  "city": "Mardin",
+  "cityEn": "Mardin",
+  "countryEn": "Türkiye",
+  "citySlug": "mardin",
+  "region": null,
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": false,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "mardin-yaz",
+    "enSlug": "mardin-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old Mardin",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 31,
+    "quality": "v1",
+    "firstTheme": "Eski Mardin"
+   },
+   {
+    "season": "other",
+    "slug": "mardin-ekim-mayis",
+    "enSlug": "mardin-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old Mardin",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 31,
+    "quality": "v1",
+    "firstTheme": "Eski Mardin"
+   }
+  ]
+ },
+ {
+  "destKey": "sapanca",
+  "city": "Sapanca",
+  "cityEn": "Sapanca",
+  "countryEn": "Türkiye",
+  "citySlug": "sapanca",
+  "region": "Sakarya",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": false,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "sapanca-yaz",
+    "enSlug": "sapanca-summer",
+    "hasEn": true,
+    "firstThemeEn": "Lake Sapanca",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 28,
+    "quality": "v1",
+    "firstTheme": "Sapanca Gölü"
+   },
+   {
+    "season": "other",
+    "slug": "sapanca-ekim-mayis",
+    "enSlug": "sapanca-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Lake Sapanca",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 28,
+    "quality": "v1",
+    "firstTheme": "Sapanca Gölü"
+   }
+  ]
+ },
+ {
+  "destKey": "buyukada",
+  "city": "Büyükada",
+  "cityEn": "Büyükada",
+  "countryEn": "Türkiye",
+  "citySlug": "buyukada",
+  "region": "İstanbul",
+  "country": "Türkiye",
+  "isTurkey": true,
+  "coastal": true,
+  "rank": null,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "buyukada-yaz",
+    "enSlug": "buyukada-summer",
+    "hasEn": true,
+    "firstThemeEn": "Aya Yorgi and Nakibey",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 29,
+    "quality": "v1",
+    "firstTheme": "Aya Yorgi & Nakibey"
+   },
+   {
+    "season": "other",
+    "slug": "buyukada-ekim-mayis",
+    "enSlug": "buyukada-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Aya Yorgi and Nakibey",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 29,
+    "quality": "v1",
+    "firstTheme": "Aya Yorgi & Nakibey"
+   }
+  ]
+ },
+ {
+  "destKey": "bangkok",
+  "city": "Bangkok",
+  "cityEn": "Bangkok",
+  "countryEn": "Thailand",
+  "citySlug": "bangkok",
+  "region": null,
+  "country": "Tayland",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 1,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "bangkok-yaz",
+    "enSlug": "bangkok-summer",
+    "hasEn": true,
+    "firstThemeEn": "Grand Palace, Wat Pho and Wat Arun",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Grand Palace, Wat Pho & Wat Arun"
+   },
+   {
+    "season": "other",
+    "slug": "bangkok-ekim-mayis",
+    "enSlug": "bangkok-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Grand Palace, Wat Pho and Wat Arun",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Grand Palace, Wat Pho & Wat Arun"
+   }
+  ]
+ },
+ {
+  "destKey": "hong-kong",
+  "city": "Hong Kong",
+  "cityEn": "Hong Kong",
+  "countryEn": "Hong Kong",
+  "citySlug": "hong-kong",
+  "region": null,
+  "country": "Hong Kong",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 2,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "hong-kong-yaz",
+    "enSlug": "hong-kong-summer",
+    "hasEn": true,
+    "firstThemeEn": "Victoria Peak and Central",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Victoria Peak & Central"
+   },
+   {
+    "season": "other",
+    "slug": "hong-kong-ekim-mayis",
+    "enSlug": "hong-kong-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Victoria Peak and Central",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Victoria Peak & Central"
+   }
+  ]
+ },
+ {
+  "destKey": "london",
+  "city": "Londra",
+  "cityEn": "London",
+  "countryEn": "United Kingdom",
+  "citySlug": "londra",
+  "region": null,
+  "country": "Birleşik Krallık",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 3,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "londra-yaz",
+    "enSlug": "london-summer",
+    "hasEn": true,
+    "firstThemeEn": "Westminster and South Bank",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Westminster & South Bank"
+   },
+   {
+    "season": "other",
+    "slug": "londra-ekim-mayis",
+    "enSlug": "london-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Westminster and South Bank",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Westminster & South Bank"
+   }
+  ]
+ },
+ {
+  "destKey": "dubai",
+  "city": "Dubai",
+  "cityEn": "Dubai",
+  "countryEn": "UAE",
+  "citySlug": "dubai",
+  "region": null,
+  "country": "BAE",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 4,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "dubai-yaz",
+    "enSlug": "dubai-summer",
+    "hasEn": true,
+    "firstThemeEn": "Downtown and Burj Khalifa",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Downtown & Burj Khalifa"
+   },
+   {
+    "season": "other",
+    "slug": "dubai-ekim-mayis",
+    "enSlug": "dubai-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Downtown and Burj Khalifa",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Downtown & Burj Khalifa"
+   }
+  ]
+ },
+ {
+  "destKey": "paris",
+  "city": "Paris",
+  "cityEn": "Paris",
+  "countryEn": "France",
+  "citySlug": "paris",
+  "region": null,
+  "country": "Fransa",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 5,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "paris-yaz",
+    "enSlug": "paris-summer",
+    "hasEn": true,
+    "firstThemeEn": "Louvre, Tuileries and Eiffel Tower",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Louvre, Tuileries & Eyfel"
+   },
+   {
+    "season": "other",
+    "slug": "paris-ekim-mayis",
+    "enSlug": "paris-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Louvre, Tuileries and the Eiffel Tower",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Louvre, Tuileries & Eyfel"
+   }
+  ]
+ },
+ {
+  "destKey": "kuala-lumpur",
+  "city": "Kuala Lumpur",
+  "cityEn": "Kuala Lumpur",
+  "countryEn": "Malaysia",
+  "citySlug": "kuala-lumpur",
+  "region": null,
+  "country": "Malezya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 6,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "kuala-lumpur-yaz",
+    "enSlug": "kuala-lumpur-summer",
+    "hasEn": true,
+    "firstThemeEn": "KLCC and Petronas",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "KLCC & Petronas"
+   },
+   {
+    "season": "other",
+    "slug": "kuala-lumpur-ekim-mayis",
+    "enSlug": "kuala-lumpur-october-may",
+    "hasEn": true,
+    "firstThemeEn": "KLCC and the Petronas Towers",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "KLCC & Petronas"
+   }
+  ]
+ },
+ {
+  "destKey": "singapore",
+  "city": "Singapur",
+  "cityEn": "Singapore",
+  "countryEn": "Singapore",
+  "citySlug": "singapur",
+  "region": null,
+  "country": "Singapur",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 7,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "singapur-yaz",
+    "enSlug": "singapore-summer",
+    "hasEn": true,
+    "firstThemeEn": "Marina Bay and Gardens by the Bay",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Marina Bay & Gardens by the Bay"
+   },
+   {
+    "season": "other",
+    "slug": "singapur-ekim-mayis",
+    "enSlug": "singapore-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Marina Bay and Gardens by the Bay",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Marina Bay & Gardens by the Bay"
+   }
+  ]
+ },
+ {
+  "destKey": "new-york",
+  "city": "New York",
+  "cityEn": "New York",
+  "countryEn": "USA",
+  "citySlug": "new-york",
+  "region": null,
+  "country": "ABD",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 8,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "new-york-yaz",
+    "enSlug": "new-york-summer",
+    "hasEn": true,
+    "firstThemeEn": "Midtown: Empire State, Bryant Park, Times Square",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Midtown: Empire State, Bryant & Times Square"
+   },
+   {
+    "season": "other",
+    "slug": "new-york-ekim-mayis",
+    "enSlug": "new-york-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Midtown: Empire State, Bryant Park, Times Square",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Midtown: Empire State, Bryant & Times Square"
+   }
+  ]
+ },
+ {
+  "destKey": "delhi",
+  "city": "Delhi",
+  "cityEn": "Delhi",
+  "countryEn": "India",
+  "citySlug": "delhi",
+  "region": null,
+  "country": "Hindistan",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 9,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "delhi-yaz",
+    "enSlug": "delhi-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old Delhi",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Eski Delhi"
+   },
+   {
+    "season": "other",
+    "slug": "delhi-ekim-mayis",
+    "enSlug": "delhi-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old Delhi",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Eski Delhi"
+   }
+  ]
+ },
+ {
+  "destKey": "mumbai",
+  "city": "Mumbai",
+  "cityEn": "Mumbai",
+  "countryEn": "India",
+  "citySlug": "mumbai",
+  "region": null,
+  "country": "Hindistan",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 10,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "mumbai-yaz",
+    "enSlug": "mumbai-summer",
+    "hasEn": true,
+    "firstThemeEn": "Colaba and South Mumbai",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Colaba & Güney Mumbai"
+   },
+   {
+    "season": "other",
+    "slug": "mumbai-ekim-mayis",
+    "enSlug": "mumbai-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Colaba and South Mumbai",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Colaba & Güney Mumbai"
+   }
+  ]
+ },
+ {
+  "destKey": "phuket",
+  "city": "Phuket",
+  "cityEn": "Phuket",
+  "countryEn": "Thailand",
+  "citySlug": "phuket",
+  "region": null,
+  "country": "Tayland",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 11,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "phuket-yaz",
+    "enSlug": "phuket-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old Town and Big Buddha",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 31,
+    "quality": "v1",
+    "firstTheme": "Old Town & Big Buddha"
+   },
+   {
+    "season": "other",
+    "slug": "phuket-ekim-mayis",
+    "enSlug": "phuket-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old Town and Big Buddha",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 31,
+    "quality": "v1",
+    "firstTheme": "Old Town & Big Buddha"
+   }
+  ]
+ },
+ {
+  "destKey": "rome",
+  "city": "Roma",
+  "cityEn": "Rome",
+  "countryEn": "Italy",
+  "citySlug": "roma",
+  "region": null,
+  "country": "İtalya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 12,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "roma-yaz",
+    "enSlug": "rome-summer",
+    "hasEn": true,
+    "firstThemeEn": "Ancient Rome: Colosseum and Forum",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Antik Roma: Kolezyum & Forum"
+   },
+   {
+    "season": "other",
+    "slug": "roma-ekim-mayis",
+    "enSlug": "rome-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Ancient Rome: Colosseum and Forum",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Antik Roma: Kolezyum & Forum"
+   }
+  ]
+ },
+ {
+  "destKey": "tokyo",
+  "city": "Tokyo",
+  "cityEn": "Tokyo",
+  "countryEn": "Japan",
+  "citySlug": "tokyo",
+  "region": null,
+  "country": "Japonya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 13,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "tokyo-yaz",
+    "enSlug": "tokyo-summer",
+    "hasEn": true,
+    "firstThemeEn": "Asakusa and Skytree",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Asakusa & Skytree"
+   },
+   {
+    "season": "other",
+    "slug": "tokyo-ekim-mayis",
+    "enSlug": "tokyo-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Asakusa and Skytree",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Asakusa & Skytree"
+   }
+  ]
+ },
+ {
+  "destKey": "taipei",
+  "city": "Taipei",
+  "cityEn": "Taipei",
+  "countryEn": "Taiwan",
+  "citySlug": "taipei",
+  "region": null,
+  "country": "Tayvan",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 14,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "taipei-yaz",
+    "enSlug": "taipei-summer",
+    "hasEn": true,
+    "firstThemeEn": "Taipei 101 and Elephant Mountain",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Taipei 101 & Elephant Mountain"
+   },
+   {
+    "season": "other",
+    "slug": "taipei-ekim-mayis",
+    "enSlug": "taipei-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Taipei 101 & Elephant Mountain",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Taipei 101 & Elephant Mountain"
+   }
+  ]
+ },
+ {
+  "destKey": "prague",
+  "city": "Prag",
+  "cityEn": "Prague",
+  "countryEn": "Czechia",
+  "citySlug": "prag",
+  "region": null,
+  "country": "Çekya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 15,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "prag-yaz",
+    "enSlug": "prague-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old Town & Charles Bridge",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Eski Şehir & Charles Köprüsü"
+   },
+   {
+    "season": "other",
+    "slug": "prag-ekim-mayis",
+    "enSlug": "prague-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old Town and Charles Bridge",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Eski Şehir & Charles Köprüsü"
+   }
+  ]
+ },
+ {
+  "destKey": "seoul",
+  "city": "Seul",
+  "cityEn": "Seoul",
+  "countryEn": "South Korea",
+  "citySlug": "seul",
+  "region": null,
+  "country": "Güney Kore",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 16,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "seul-yaz",
+    "enSlug": "seoul-summer",
+    "hasEn": true,
+    "firstThemeEn": "Gyeongbokgung and Bukchon",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Gyeongbokgung & Bukchon"
+   },
+   {
+    "season": "other",
+    "slug": "seul-ekim-mayis",
+    "enSlug": "seoul-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Gyeongbokgung and Bukchon",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Gyeongbokgung & Bukchon"
+   }
+  ]
+ },
+ {
+  "destKey": "amsterdam",
+  "city": "Amsterdam",
+  "cityEn": "Amsterdam",
+  "countryEn": "Netherlands",
+  "citySlug": "amsterdam",
+  "region": null,
+  "country": "Hollanda",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 17,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "amsterdam-yaz",
+    "enSlug": "amsterdam-summer",
+    "hasEn": true,
+    "firstThemeEn": "Museumplein",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Museumplein"
+   },
+   {
+    "season": "other",
+    "slug": "amsterdam-ekim-mayis",
+    "enSlug": "amsterdam-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Museumplein",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Museumplein"
+   }
+  ]
+ },
+ {
+  "destKey": "miami",
+  "city": "Miami",
+  "cityEn": "Miami",
+  "countryEn": "USA",
+  "citySlug": "miami",
+  "region": null,
+  "country": "ABD",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 18,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "miami-yaz",
+    "enSlug": "miami-summer",
+    "hasEn": true,
+    "firstThemeEn": "South Beach and Art Deco",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "South Beach & Art Deco"
+   },
+   {
+    "season": "other",
+    "slug": "miami-ekim-mayis",
+    "enSlug": "miami-october-may",
+    "hasEn": true,
+    "firstThemeEn": "South Beach and Art Deco",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "South Beach & Art Deco"
+   }
+  ]
+ },
+ {
+  "destKey": "osaka",
+  "city": "Osaka",
+  "cityEn": "Osaka",
+  "countryEn": "Japan",
+  "citySlug": "osaka",
+  "region": null,
+  "country": "Japonya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 19,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "osaka-yaz",
+    "enSlug": "osaka-summer",
+    "hasEn": true,
+    "firstThemeEn": "Osaka Castle and Dotonbori",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Osaka Kalesi & Dotonbori"
+   },
+   {
+    "season": "other",
+    "slug": "osaka-ekim-mayis",
+    "enSlug": "osaka-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Osaka Castle and Dotonbori",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Osaka Kalesi & Dotonbori"
+   }
+  ]
+ },
+ {
+  "destKey": "los-angeles",
+  "city": "Los Angeles",
+  "cityEn": "Los Angeles",
+  "countryEn": "USA",
+  "citySlug": "los-angeles",
+  "region": null,
+  "country": "ABD",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 20,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "los-angeles-yaz",
+    "enSlug": "los-angeles-summer",
+    "hasEn": true,
+    "firstThemeEn": "Hollywood and Griffith",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Hollywood & Griffith"
+   },
+   {
+    "season": "other",
+    "slug": "los-angeles-ekim-mayis",
+    "enSlug": "los-angeles-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Hollywood and Griffith",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Hollywood & Griffith"
+   }
+  ]
+ },
+ {
+  "destKey": "shanghai",
+  "city": "Şanghay",
+  "cityEn": "Shanghai",
+  "countryEn": "China",
+  "citySlug": "sanghay",
+  "region": null,
+  "country": "Çin",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 21,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "sanghay-yaz",
+    "enSlug": "shanghai-summer",
+    "hasEn": true,
+    "firstThemeEn": "Bund and Nanjing Road",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Bund & Nanjing Road"
+   },
+   {
+    "season": "other",
+    "slug": "sanghay-ekim-mayis",
+    "enSlug": "shanghai-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Bund and Nanjing Road",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Bund & Nanjing Road"
+   }
+  ]
+ },
+ {
+  "destKey": "ho-chi-minh-city",
+  "city": "Ho Chi Minh",
+  "cityEn": "Ho Chi Minh City",
+  "countryEn": "Vietnam",
+  "citySlug": "ho-chi-minh",
+  "region": null,
+  "country": "Vietnam",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 22,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "ho-chi-minh-yaz",
+    "enSlug": "ho-chi-minh-city-summer",
+    "hasEn": true,
+    "firstThemeEn": "District 1 classics",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "District 1 klasikleri"
+   },
+   {
+    "season": "other",
+    "slug": "ho-chi-minh-ekim-mayis",
+    "enSlug": "ho-chi-minh-city-october-may",
+    "hasEn": true,
+    "firstThemeEn": "District 1 classics",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "District 1 klasikleri"
+   }
+  ]
+ },
+ {
+  "destKey": "bali",
+  "city": "Bali",
+  "cityEn": "Bali",
+  "countryEn": "Indonesia",
+  "citySlug": "bali",
+  "region": null,
+  "country": "Endonezya",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 23,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "bali-yaz",
+    "enSlug": "bali-summer",
+    "hasEn": true,
+    "firstThemeEn": "Ubud: rice terraces and palace",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Ubud: pirinç tarlaları & saray"
+   },
+   {
+    "season": "other",
+    "slug": "bali-ekim-mayis",
+    "enSlug": "bali-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Ubud: rice terraces and palace",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Ubud: pirinç tarlaları & saray"
+   }
+  ]
+ },
+ {
+  "destKey": "barcelona",
+  "city": "Barselona",
+  "cityEn": "Barcelona",
+  "countryEn": "Spain",
+  "citySlug": "barselona",
+  "region": null,
+  "country": "İspanya",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 24,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "barselona-yaz",
+    "enSlug": "barcelona-summer",
+    "hasEn": true,
+    "firstThemeEn": "Gaudí: Sagrada and Eixample",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Gaudí: Sagrada & Eixample"
+   },
+   {
+    "season": "other",
+    "slug": "barselona-ekim-mayis",
+    "enSlug": "barcelona-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Gaudí: Sagrada and Eixample",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Gaudí: Sagrada & Eixample"
+   }
+  ]
+ },
+ {
+  "destKey": "las-vegas",
+  "city": "Las Vegas",
+  "cityEn": "Las Vegas",
+  "countryEn": "USA",
+  "citySlug": "las-vegas",
+  "region": null,
+  "country": "ABD",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 25,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "las-vegas-yaz",
+    "enSlug": "las-vegas-summer",
+    "hasEn": true,
+    "firstThemeEn": "The Strip: Bellagio to the Venetian",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 31,
+    "quality": "v1",
+    "firstTheme": "Strip: Bellagio'dan Venetian'a"
+   },
+   {
+    "season": "other",
+    "slug": "las-vegas-ekim-mayis",
+    "enSlug": "las-vegas-october-may",
+    "hasEn": true,
+    "firstThemeEn": "The Strip: Bellagio to the Venetian",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 31,
+    "quality": "v1",
+    "firstTheme": "Strip: Bellagio'dan Venetian'a"
+   }
+  ]
+ },
+ {
+  "destKey": "milan",
+  "city": "Milano",
+  "cityEn": "Milan",
+  "countryEn": "Italy",
+  "citySlug": "milano",
+  "region": null,
+  "country": "İtalya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 26,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "milano-yaz",
+    "enSlug": "milan-summer",
+    "hasEn": true,
+    "firstThemeEn": "Duomo and Galleria",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Duomo & Galleria"
+   },
+   {
+    "season": "other",
+    "slug": "milano-ekim-mayis",
+    "enSlug": "milan-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Duomo and Galleria",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Duomo & Galleria"
+   }
+  ]
+ },
+ {
+  "destKey": "vienna",
+  "city": "Viyana",
+  "cityEn": "Vienna",
+  "countryEn": "Austria",
+  "citySlug": "viyana",
+  "region": null,
+  "country": "Avusturya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 27,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "viyana-yaz",
+    "enSlug": "vienna-summer",
+    "hasEn": true,
+    "firstThemeEn": "Innere Stadt and Hofburg",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Innere Stadt & Hofburg"
+   },
+   {
+    "season": "other",
+    "slug": "viyana-ekim-mayis",
+    "enSlug": "vienna-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Inner City and Hofburg",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Innere Stadt & Hofburg"
+   }
+  ]
+ },
+ {
+  "destKey": "jaipur",
+  "city": "Jaipur",
+  "cityEn": "Jaipur",
+  "countryEn": "India",
+  "citySlug": "jaipur",
+  "region": null,
+  "country": "Hindistan",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 28,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "jaipur-yaz",
+    "enSlug": "jaipur-summer",
+    "hasEn": true,
+    "firstThemeEn": "The Pink City",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Pembe Şehir"
+   },
+   {
+    "season": "other",
+    "slug": "jaipur-ekim-mayis",
+    "enSlug": "jaipur-october-may",
+    "hasEn": true,
+    "firstThemeEn": "The Pink City",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Pembe Şehir"
+   }
+  ]
+ },
+ {
+  "destKey": "cancun",
+  "city": "Cancún",
+  "cityEn": "Cancún",
+  "countryEn": "Mexico",
+  "citySlug": "cancun",
+  "region": null,
+  "country": "Meksika",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 29,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "cancun-yaz",
+    "enSlug": "cancun-summer",
+    "hasEn": true,
+    "firstThemeEn": "Hotel Zone beaches",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 31,
+    "quality": "v1",
+    "firstTheme": "Hotel Zone plajları"
+   },
+   {
+    "season": "other",
+    "slug": "cancun-ekim-mayis",
+    "enSlug": "cancun-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Hotel Zone beaches",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 31,
+    "quality": "v1",
+    "firstTheme": "Hotel Zone plajları"
+   }
+  ]
+ },
+ {
+  "destKey": "berlin",
+  "city": "Berlin",
+  "cityEn": "Berlin",
+  "countryEn": "Germany",
+  "citySlug": "berlin",
+  "region": null,
+  "country": "Almanya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 30,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "berlin-yaz",
+    "enSlug": "berlin-summer",
+    "hasEn": true,
+    "firstThemeEn": "Mitte: Brandenburg Gate and Reichstag",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Mitte: Brandenburg & Reichstag"
+   },
+   {
+    "season": "other",
+    "slug": "berlin-ekim-mayis",
+    "enSlug": "berlin-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Mitte: Brandenburg Gate and Reichstag",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Mitte: Brandenburg & Reichstag"
+   }
+  ]
+ },
+ {
+  "destKey": "cairo",
+  "city": "Kahire",
+  "cityEn": "Cairo",
+  "countryEn": "Egypt",
+  "citySlug": "kahire",
+  "region": null,
+  "country": "Mısır",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 31,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "kahire-yaz",
+    "enSlug": "cairo-summer",
+    "hasEn": true,
+    "firstThemeEn": "Giza Pyramids and Sphinx",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Giza Piramitleri & Sfenks"
+   },
+   {
+    "season": "other",
+    "slug": "kahire-ekim-mayis",
+    "enSlug": "cairo-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Giza Pyramids and Sphinx",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Giza Piramitleri & Sfenks"
+   }
+  ]
+ },
+ {
+  "destKey": "athens",
+  "city": "Atina",
+  "cityEn": "Athens",
+  "countryEn": "Greece",
+  "citySlug": "atina",
+  "region": null,
+  "country": "Yunanistan",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 32,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "atina-yaz",
+    "enSlug": "athens-summer",
+    "hasEn": true,
+    "firstThemeEn": "Acropolis and Plaka",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Akropolis & Plaka"
+   },
+   {
+    "season": "other",
+    "slug": "atina-ekim-mayis",
+    "enSlug": "athens-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Acropolis and Plaka",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Akropolis & Plaka"
+   }
+  ]
+ },
+ {
+  "destKey": "orlando",
+  "city": "Orlando",
+  "cityEn": "Orlando",
+  "countryEn": "USA",
+  "citySlug": "orlando",
+  "region": null,
+  "country": "ABD",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 33,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "orlando-yaz",
+    "enSlug": "orlando-summer",
+    "hasEn": true,
+    "firstThemeEn": "Magic Kingdom",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 24,
+    "quality": "v1",
+    "firstTheme": "Magic Kingdom"
+   },
+   {
+    "season": "other",
+    "slug": "orlando-ekim-mayis",
+    "enSlug": "orlando-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Magic Kingdom",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 24,
+    "quality": "v1",
+    "firstTheme": "Magic Kingdom"
+   }
+  ]
+ },
+ {
+  "destKey": "moscow",
+  "city": "Moskova",
+  "cityEn": "Moscow",
+  "countryEn": "Russia",
+  "citySlug": "moskova",
+  "region": null,
+  "country": "Rusya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 34,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "moskova-yaz",
+    "enSlug": "moscow-summer",
+    "hasEn": true,
+    "firstThemeEn": "Red Square and the Kremlin",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Kızıl Meydan & Kremlin"
+   },
+   {
+    "season": "other",
+    "slug": "moskova-ekim-mayis",
+    "enSlug": "moscow-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Red Square and the Kremlin",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Kızıl Meydan & Kremlin"
+   }
+  ]
+ },
+ {
+  "destKey": "venice",
+  "city": "Venedik",
+  "cityEn": "Venice",
+  "countryEn": "Italy",
+  "citySlug": "venedik",
+  "region": null,
+  "country": "İtalya",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 35,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "venedik-yaz",
+    "enSlug": "venice-summer",
+    "hasEn": true,
+    "firstThemeEn": "St Mark's Square",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "San Marco"
+   },
+   {
+    "season": "other",
+    "slug": "venedik-ekim-mayis",
+    "enSlug": "venice-october-may",
+    "hasEn": true,
+    "firstThemeEn": "San Marco",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "San Marco"
+   }
+  ]
+ },
+ {
+  "destKey": "madrid",
+  "city": "Madrid",
+  "cityEn": "Madrid",
+  "countryEn": "Spain",
+  "citySlug": "madrid",
+  "region": null,
+  "country": "İspanya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 36,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "madrid-yaz",
+    "enSlug": "madrid-summer",
+    "hasEn": true,
+    "firstThemeEn": "Prado and Retiro",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Prado & Retiro"
+   },
+   {
+    "season": "other",
+    "slug": "madrid-ekim-mayis",
+    "enSlug": "madrid-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Prado and Retiro",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Prado & Retiro"
+   }
+  ]
+ },
+ {
+  "destKey": "dublin",
+  "city": "Dublin",
+  "cityEn": "Dublin",
+  "countryEn": "Ireland",
+  "citySlug": "dublin",
+  "region": null,
+  "country": "İrlanda",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 37,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "dublin-yaz",
+    "enSlug": "dublin-summer",
+    "hasEn": true,
+    "firstThemeEn": "Trinity and Temple Bar",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Trinity & Temple Bar"
+   },
+   {
+    "season": "other",
+    "slug": "dublin-ekim-mayis",
+    "enSlug": "dublin-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Trinity and Temple Bar",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Trinity & Temple Bar"
+   }
+  ]
+ },
+ {
+  "destKey": "florence",
+  "city": "Floransa",
+  "cityEn": "Florence",
+  "countryEn": "Italy",
+  "citySlug": "floransa",
+  "region": null,
+  "country": "İtalya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 38,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "floransa-yaz",
+    "enSlug": "florence-summer",
+    "hasEn": true,
+    "firstThemeEn": "Duomo and city centre",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Duomo & merkez"
+   },
+   {
+    "season": "other",
+    "slug": "floransa-ekim-mayis",
+    "enSlug": "florence-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Duomo and city centre",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Duomo & merkez"
+   }
+  ]
+ },
+ {
+  "destKey": "hanoi",
+  "city": "Hanoi",
+  "cityEn": "Hanoi",
+  "countryEn": "Vietnam",
+  "citySlug": "hanoi",
+  "region": null,
+  "country": "Vietnam",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 39,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "hanoi-yaz",
+    "enSlug": "hanoi-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old Quarter and Hoan Kiem",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Old Quarter & Hoan Kiem"
+   },
+   {
+    "season": "other",
+    "slug": "hanoi-ekim-mayis",
+    "enSlug": "hanoi-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old Quarter and Hoan Kiem",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Old Quarter & Hoan Kiem"
+   }
+  ]
+ },
+ {
+  "destKey": "toronto",
+  "city": "Toronto",
+  "cityEn": "Toronto",
+  "countryEn": "Canada",
+  "citySlug": "toronto",
+  "region": null,
+  "country": "Kanada",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 40,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "toronto-yaz",
+    "enSlug": "toronto-summer",
+    "hasEn": true,
+    "firstThemeEn": "Downtown and CN Tower",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Downtown & CN Tower"
+   },
+   {
+    "season": "other",
+    "slug": "toronto-ekim-mayis",
+    "enSlug": "toronto-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Downtown and CN Tower",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Downtown & CN Tower"
+   }
+  ]
+ },
+ {
+  "destKey": "sydney",
+  "city": "Sidney",
+  "cityEn": "Sydney",
+  "countryEn": "Australia",
+  "citySlug": "sidney",
+  "region": null,
+  "country": "Avustralya",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 41,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "sidney-yaz",
+    "enSlug": "sydney-summer",
+    "hasEn": true,
+    "firstThemeEn": "Harbour icons",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Liman ikonları"
+   },
+   {
+    "season": "other",
+    "slug": "sidney-ekim-mayis",
+    "enSlug": "sydney-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Harbour icons",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Liman ikonları"
+   }
+  ]
+ },
+ {
+  "destKey": "munich",
+  "city": "Münih",
+  "cityEn": "Munich",
+  "countryEn": "Germany",
+  "citySlug": "munih",
+  "region": null,
+  "country": "Almanya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 42,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "munih-yaz",
+    "enSlug": "munich-summer",
+    "hasEn": true,
+    "firstThemeEn": "Marienplatz and the Altstadt",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Marienplatz & Altstadt"
+   },
+   {
+    "season": "other",
+    "slug": "munih-ekim-mayis",
+    "enSlug": "munich-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Marienplatz and the Altstadt",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Marienplatz & Altstadt"
+   }
+  ]
+ },
+ {
+  "destKey": "beijing",
+  "city": "Pekin",
+  "cityEn": "Beijing",
+  "countryEn": "China",
+  "citySlug": "pekin",
+  "region": null,
+  "country": "Çin",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 43,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "pekin-yaz",
+    "enSlug": "beijing-summer",
+    "hasEn": true,
+    "firstThemeEn": "Tiananmen and the Forbidden City",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 31,
+    "quality": "v1",
+    "firstTheme": "Tiananmen & Yasak Şehir"
+   },
+   {
+    "season": "other",
+    "slug": "pekin-ekim-mayis",
+    "enSlug": "beijing-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Tiananmen and the Forbidden City",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 31,
+    "quality": "v1",
+    "firstTheme": "Tiananmen & Yasak Şehir"
+   }
+  ]
+ },
+ {
+  "destKey": "saint-petersburg",
+  "city": "St. Petersburg",
+  "cityEn": "Saint Petersburg",
+  "countryEn": "Russia",
+  "citySlug": "st-petersburg",
+  "region": null,
+  "country": "Rusya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 44,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "st-petersburg-yaz",
+    "enSlug": "saint-petersburg-summer",
+    "hasEn": true,
+    "firstThemeEn": "Nevsky and Spilled Blood",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Nevski & Kanlı Kilise"
+   },
+   {
+    "season": "other",
+    "slug": "st-petersburg-ekim-mayis",
+    "enSlug": "saint-petersburg-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Nevsky and the Blood Church",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Nevski & Kanlı Kilise"
+   }
+  ]
+ },
+ {
+  "destKey": "brussels",
+  "city": "Brüksel",
+  "cityEn": "Brussels",
+  "countryEn": "Belgium",
+  "citySlug": "bruksel",
+  "region": null,
+  "country": "Belçika",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 45,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "bruksel-yaz",
+    "enSlug": "brussels-summer",
+    "hasEn": true,
+    "firstThemeEn": "Grand-Place and city centre",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Grand-Place & merkez"
+   },
+   {
+    "season": "other",
+    "slug": "bruksel-ekim-mayis",
+    "enSlug": "brussels-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Grand-Place and city centre",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Grand-Place & merkez"
+   }
+  ]
+ },
+ {
+  "destKey": "jerusalem",
+  "city": "Kudüs",
+  "cityEn": "Jerusalem",
+  "countryEn": "Israel",
+  "citySlug": "kudus",
+  "region": null,
+  "country": "İsrail",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 46,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "kudus-yaz",
+    "enSlug": "jerusalem-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old City: Jewish and Christian quarters",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Eski Şehir — Yahudi & Hristiyan mahalleleri"
+   },
+   {
+    "season": "other",
+    "slug": "kudus-ekim-mayis",
+    "enSlug": "jerusalem-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old City: Jewish and Christian quarters",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Eski Şehir — Yahudi & Hristiyan mahalleleri"
+   }
+  ]
+ },
+ {
+  "destKey": "budapest",
+  "city": "Budapeşte",
+  "cityEn": "Budapest",
+  "countryEn": "Hungary",
+  "citySlug": "budapeste",
+  "region": null,
+  "country": "Macaristan",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 47,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "budapeste-yaz",
+    "enSlug": "budapest-summer",
+    "hasEn": true,
+    "firstThemeEn": "Buda Castle",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Buda Kalesi"
+   },
+   {
+    "season": "other",
+    "slug": "budapeste-ekim-mayis",
+    "enSlug": "budapest-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Buda Castle district",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Buda Kalesi"
+   }
+  ]
+ },
+ {
+  "destKey": "lisbon",
+  "city": "Lizbon",
+  "cityEn": "Lisbon",
+  "countryEn": "Portugal",
+  "citySlug": "lizbon",
+  "region": null,
+  "country": "Portekiz",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 48,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "lizbon-yaz",
+    "enSlug": "lisbon-summer",
+    "hasEn": true,
+    "firstThemeEn": "Alfama and the castle",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Alfama & Kale"
+   },
+   {
+    "season": "other",
+    "slug": "lizbon-ekim-mayis",
+    "enSlug": "lisbon-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Alfama and the castle",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Alfama & Kale"
+   }
+  ]
+ },
+ {
+  "destKey": "crete",
+  "city": "Girit",
+  "cityEn": "Crete (Heraklion)",
+  "countryEn": "Greece",
+  "citySlug": "girit",
+  "region": null,
+  "country": "Yunanistan",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 49,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "girit-yaz",
+    "enSlug": "crete-heraklion-summer",
+    "hasEn": true,
+    "firstThemeEn": "Heraklion and Knossos",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Heraklion & Knossos"
+   },
+   {
+    "season": "other",
+    "slug": "girit-ekim-mayis",
+    "enSlug": "crete-heraklion-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Heraklion and Knossos",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Heraklion & Knossos"
+   }
+  ]
+ },
+ {
+  "destKey": "kyoto",
+  "city": "Kyoto",
+  "cityEn": "Kyoto",
+  "countryEn": "Japan",
+  "citySlug": "kyoto",
+  "region": null,
+  "country": "Japonya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 50,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "kyoto-yaz",
+    "enSlug": "kyoto-summer",
+    "hasEn": true,
+    "firstThemeEn": "Higashiyama & Gion",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Higashiyama & Gion"
+   },
+   {
+    "season": "other",
+    "slug": "kyoto-ekim-mayis",
+    "enSlug": "kyoto-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Higashiyama and Gion",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Higashiyama & Gion"
+   }
+  ]
+ },
+ {
+  "destKey": "vancouver",
+  "city": "Vancouver",
+  "cityEn": "Vancouver",
+  "countryEn": "Canada",
+  "citySlug": "vancouver",
+  "region": null,
+  "country": "Kanada",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 51,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "vancouver-yaz",
+    "enSlug": "vancouver-summer",
+    "hasEn": true,
+    "firstThemeEn": "Stanley Park and Coal Harbour",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Stanley Park & Coal Harbour"
+   },
+   {
+    "season": "other",
+    "slug": "vancouver-ekim-mayis",
+    "enSlug": "vancouver-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Stanley Park and Coal Harbour",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Stanley Park & Coal Harbour"
+   }
+  ]
+ },
+ {
+  "destKey": "chiang-mai",
+  "city": "Chiang Mai",
+  "cityEn": "Chiang Mai",
+  "countryEn": "Thailand",
+  "citySlug": "chiang-mai",
+  "region": null,
+  "country": "Tayland",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 52,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "chiang-mai-yaz",
+    "enSlug": "chiang-mai-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old City temples",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Eski Şehir tapınakları"
+   },
+   {
+    "season": "other",
+    "slug": "chiang-mai-ekim-mayis",
+    "enSlug": "chiang-mai-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old City temples",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Eski Şehir tapınakları"
+   }
+  ]
+ },
+ {
+  "destKey": "copenhagen",
+  "city": "Kopenhag",
+  "cityEn": "Copenhagen",
+  "countryEn": "Denmark",
+  "citySlug": "kopenhag",
+  "region": null,
+  "country": "Danimarka",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 53,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "kopenhag-yaz",
+    "enSlug": "copenhagen-summer",
+    "hasEn": true,
+    "firstThemeEn": "Nyhavn and the centre",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Nyhavn & merkez"
+   },
+   {
+    "season": "other",
+    "slug": "kopenhag-ekim-mayis",
+    "enSlug": "copenhagen-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Nyhavn and the centre",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Nyhavn & merkez"
+   }
+  ]
+ },
+ {
+  "destKey": "san-francisco",
+  "city": "San Francisco",
+  "cityEn": "San Francisco",
+  "countryEn": "USA",
+  "citySlug": "san-francisco",
+  "region": null,
+  "country": "ABD",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 54,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "san-francisco-yaz",
+    "enSlug": "san-francisco-summer",
+    "hasEn": true,
+    "firstThemeEn": "Union Square, Chinatown and cable cars",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Union Square, Chinatown & Cable Car"
+   },
+   {
+    "season": "other",
+    "slug": "san-francisco-ekim-mayis",
+    "enSlug": "san-francisco-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Union Square, Chinatown and cable cars",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Union Square, Chinatown & Cable Car"
+   }
+  ]
+ },
+ {
+  "destKey": "melbourne",
+  "city": "Melbourne",
+  "cityEn": "Melbourne",
+  "countryEn": "Australia",
+  "citySlug": "melbourne",
+  "region": null,
+  "country": "Avustralya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 55,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "melbourne-yaz",
+    "enSlug": "melbourne-summer",
+    "hasEn": true,
+    "firstThemeEn": "Laneways and Federation Square",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Laneway'ler & Federation Square"
+   },
+   {
+    "season": "other",
+    "slug": "melbourne-ekim-mayis",
+    "enSlug": "melbourne-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Laneways and Federation Square",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Laneway'ler & Federation Square"
+   }
+  ]
+ },
+ {
+  "destKey": "krakow",
+  "city": "Krakow",
+  "cityEn": "Krakow",
+  "countryEn": "Poland",
+  "citySlug": "krakow",
+  "region": null,
+  "country": "Polonya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 56,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "krakow-yaz",
+    "enSlug": "krakow-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old Town and Wawel",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Eski Şehir & Wawel"
+   },
+   {
+    "season": "other",
+    "slug": "krakow-ekim-mayis",
+    "enSlug": "krakow-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old Town and Wawel",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Eski Şehir & Wawel"
+   }
+  ]
+ },
+ {
+  "destKey": "marrakech",
+  "city": "Marakeş",
+  "cityEn": "Marrakech",
+  "countryEn": "Morocco",
+  "citySlug": "marakes",
+  "region": null,
+  "country": "Fas",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 57,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "marakes-yaz",
+    "enSlug": "marrakech-summer",
+    "hasEn": true,
+    "firstThemeEn": "Medina and Jemaa el-Fnaa",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Medina & Jemaa el-Fnaa"
+   },
+   {
+    "season": "other",
+    "slug": "marakes-ekim-mayis",
+    "enSlug": "marrakech-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Medina and Jemaa el-Fnaa",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Medina & Jemaa el-Fnaa"
+   }
+  ]
+ },
+ {
+  "destKey": "auckland",
+  "city": "Auckland",
+  "cityEn": "Auckland",
+  "countryEn": "New Zealand",
+  "citySlug": "auckland",
+  "region": null,
+  "country": "Yeni Zelanda",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 58,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "auckland-yaz",
+    "enSlug": "auckland-summer",
+    "hasEn": true,
+    "firstThemeEn": "City and Sky Tower",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Şehir & Sky Tower"
+   },
+   {
+    "season": "other",
+    "slug": "auckland-ekim-mayis",
+    "enSlug": "auckland-october-may",
+    "hasEn": true,
+    "firstThemeEn": "City and Sky Tower",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Şehir & Sky Tower"
+   }
+  ]
+ },
+ {
+  "destKey": "tel-aviv",
+  "city": "Tel Aviv",
+  "cityEn": "Tel Aviv",
+  "countryEn": "Israel",
+  "citySlug": "tel-aviv",
+  "region": null,
+  "country": "İsrail",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 59,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "tel-aviv-yaz",
+    "enSlug": "tel-aviv-summer",
+    "hasEn": true,
+    "firstThemeEn": "Jaffa",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Yafa (Jaffa)"
+   },
+   {
+    "season": "other",
+    "slug": "tel-aviv-ekim-mayis",
+    "enSlug": "tel-aviv-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Jaffa",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Yafa (Jaffa)"
+   }
+  ]
+ },
+ {
+  "destKey": "honolulu",
+  "city": "Honolulu",
+  "cityEn": "Honolulu",
+  "countryEn": "USA",
+  "citySlug": "honolulu",
+  "region": null,
+  "country": "ABD",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 60,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "honolulu-yaz",
+    "enSlug": "honolulu-summer",
+    "hasEn": true,
+    "firstThemeEn": "Waikiki and Diamond Head",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Waikiki & Diamond Head"
+   },
+   {
+    "season": "other",
+    "slug": "honolulu-ekim-mayis",
+    "enSlug": "honolulu-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Waikiki and Diamond Head",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Waikiki & Diamond Head"
+   }
+  ]
+ },
+ {
+  "destKey": "warsaw",
+  "city": "Varşova",
+  "cityEn": "Warsaw",
+  "countryEn": "Poland",
+  "citySlug": "varsova",
+  "region": null,
+  "country": "Polonya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 61,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "varsova-yaz",
+    "enSlug": "warsaw-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old Town & the Royal Route",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Eski Şehir & Kraliyet Yolu"
+   },
+   {
+    "season": "other",
+    "slug": "varsova-ekim-mayis",
+    "enSlug": "warsaw-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old Town and Royal Route",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Eski Şehir & Kraliyet Yolu"
+   }
+  ]
+ },
+ {
+  "destKey": "buenos-aires",
+  "city": "Buenos Aires",
+  "cityEn": "Buenos Aires",
+  "countryEn": "Argentina",
+  "citySlug": "buenos-aires",
+  "region": null,
+  "country": "Arjantin",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 62,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "buenos-aires-yaz",
+    "enSlug": "buenos-aires-summer",
+    "hasEn": true,
+    "firstThemeEn": "Centre and San Telmo",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Merkez & San Telmo"
+   },
+   {
+    "season": "other",
+    "slug": "buenos-aires-ekim-mayis",
+    "enSlug": "buenos-aires-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Centre and San Telmo",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Merkez & San Telmo"
+   }
+  ]
+ },
+ {
+  "destKey": "frankfurt",
+  "city": "Frankfurt",
+  "cityEn": "Frankfurt",
+  "countryEn": "Germany",
+  "citySlug": "frankfurt",
+  "region": null,
+  "country": "Almanya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 63,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "frankfurt-yaz",
+    "enSlug": "frankfurt-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old Town and Main Tower",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Altstadt & Main Tower"
+   },
+   {
+    "season": "other",
+    "slug": "frankfurt-ekim-mayis",
+    "enSlug": "frankfurt-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old Town and Main Tower",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Altstadt & Main Tower"
+   }
+  ]
+ },
+ {
+  "destKey": "stockholm",
+  "city": "Stokholm",
+  "cityEn": "Stockholm",
+  "countryEn": "Sweden",
+  "citySlug": "stokholm",
+  "region": null,
+  "country": "İsveç",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 64,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "stokholm-yaz",
+    "enSlug": "stockholm-summer",
+    "hasEn": true,
+    "firstThemeEn": "Gamla Stan old town",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Gamla Stan"
+   },
+   {
+    "season": "other",
+    "slug": "stokholm-ekim-mayis",
+    "enSlug": "stockholm-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Gamla Stan",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Gamla Stan"
+   }
+  ]
+ },
+ {
+  "destKey": "lima",
+  "city": "Lima",
+  "cityEn": "Lima",
+  "countryEn": "Peru",
+  "citySlug": "lima",
+  "region": null,
+  "country": "Peru",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 65,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "lima-yaz",
+    "enSlug": "lima-summer",
+    "hasEn": true,
+    "firstThemeEn": "Miraflores",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Miraflores"
+   },
+   {
+    "season": "other",
+    "slug": "lima-ekim-mayis",
+    "enSlug": "lima-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Miraflores",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Miraflores"
+   }
+  ]
+ },
+ {
+  "destKey": "da-nang",
+  "city": "Da Nang",
+  "cityEn": "Da Nang",
+  "countryEn": "Vietnam",
+  "citySlug": "da-nang",
+  "region": null,
+  "country": "Vietnam",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 66,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "da-nang-yaz",
+    "enSlug": "da-nang-summer",
+    "hasEn": true,
+    "firstThemeEn": "My Khe and Son Tra",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "My Khe & Son Tra"
+   },
+   {
+    "season": "other",
+    "slug": "da-nang-ekim-mayis",
+    "enSlug": "da-nang-october-may",
+    "hasEn": true,
+    "firstThemeEn": "My Khe and Son Tra",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "My Khe & Son Tra"
+   }
+  ]
+ },
+ {
+  "destKey": "nice",
+  "city": "Nice",
+  "cityEn": "Nice",
+  "countryEn": "France",
+  "citySlug": "nice",
+  "region": null,
+  "country": "Fransa",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 67,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "nice-yaz",
+    "enSlug": "nice-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old Nice and Castle Hill",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Vieux Nice & Colline du Château"
+   },
+   {
+    "season": "other",
+    "slug": "nice-ekim-mayis",
+    "enSlug": "nice-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old Nice and Castle Hill",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Vieux Nice & Colline du Château"
+   }
+  ]
+ },
+ {
+  "destKey": "abu-dhabi",
+  "city": "Abu Dabi",
+  "cityEn": "Abu Dhabi",
+  "countryEn": "UAE",
+  "citySlug": "abu-dabi",
+  "region": null,
+  "country": "BAE",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 68,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "abu-dabi-yaz",
+    "enSlug": "abu-dhabi-summer",
+    "hasEn": true,
+    "firstThemeEn": "Grand Mosque & Qasr Al Watan",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Ulu Cami & Qasr Al Watan"
+   },
+   {
+    "season": "other",
+    "slug": "abu-dabi-ekim-mayis",
+    "enSlug": "abu-dhabi-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Grand Mosque and Qasr Al Watan",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Ulu Cami & Qasr Al Watan"
+   }
+  ]
+ },
+ {
+  "destKey": "porto",
+  "city": "Porto",
+  "cityEn": "Porto",
+  "countryEn": "Portugal",
+  "citySlug": "porto",
+  "region": null,
+  "country": "Portekiz",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 69,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "porto-yaz",
+    "enSlug": "porto-summer",
+    "hasEn": true,
+    "firstThemeEn": "Ribeira and Gaia",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Ribeira & Gaia"
+   },
+   {
+    "season": "other",
+    "slug": "porto-ekim-mayis",
+    "enSlug": "porto-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Ribeira and Gaia",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Ribeira & Gaia"
+   }
+  ]
+ },
+ {
+  "destKey": "rhodes",
+  "city": "Rodos",
+  "cityEn": "Rhodes",
+  "countryEn": "Greece",
+  "citySlug": "rodos",
+  "region": null,
+  "country": "Yunanistan",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 70,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "rodos-yaz",
+    "enSlug": "rhodes-summer",
+    "hasEn": true,
+    "firstThemeEn": "Medieval Rhodes Old Town",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Rodos Ortaçağ Şehri"
+   },
+   {
+    "season": "other",
+    "slug": "rodos-ekim-mayis",
+    "enSlug": "rhodes-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Medieval Rhodes Old Town",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Rodos Ortaçağ Şehri"
+   }
+  ]
+ },
+ {
+  "destKey": "rio-de-janeiro",
+  "city": "Rio de Janeiro",
+  "cityEn": "Rio de Janeiro",
+  "countryEn": "Brazil",
+  "citySlug": "rio-de-janeiro",
+  "region": null,
+  "country": "Brezilya",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 71,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "rio-de-janeiro-yaz",
+    "enSlug": "rio-de-janeiro-summer",
+    "hasEn": true,
+    "firstThemeEn": "Corcovado and Santa Teresa",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Corcovado & Santa Teresa"
+   },
+   {
+    "season": "other",
+    "slug": "rio-de-janeiro-ekim-mayis",
+    "enSlug": "rio-de-janeiro-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Corcovado and Santa Teresa",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Corcovado & Santa Teresa"
+   }
+  ]
+ },
+ {
+  "destKey": "krabi",
+  "city": "Krabi",
+  "cityEn": "Krabi",
+  "countryEn": "Thailand",
+  "citySlug": "krabi",
+  "region": null,
+  "country": "Tayland",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 72,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "krabi-yaz",
+    "enSlug": "krabi-summer",
+    "hasEn": true,
+    "firstThemeEn": "Railay and Phra Nang",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Railay & Phra Nang"
+   },
+   {
+    "season": "other",
+    "slug": "krabi-ekim-mayis",
+    "enSlug": "krabi-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Railay and Phra Nang",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Railay & Phra Nang"
+   }
+  ]
+ },
+ {
+  "destKey": "tbilisi",
+  "city": "Tiflis",
+  "cityEn": "Tbilisi",
+  "countryEn": "Georgia",
+  "citySlug": "tiflis",
+  "region": null,
+  "country": "Gürcistan",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 73,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "tiflis-yaz",
+    "enSlug": "tbilisi-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old Tbilisi",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Eski Tiflis"
+   },
+   {
+    "season": "other",
+    "slug": "tiflis-ekim-mayis",
+    "enSlug": "tbilisi-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old Tbilisi",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Eski Tiflis"
+   }
+  ]
+ },
+ {
+  "destKey": "sao-paulo",
+  "city": "São Paulo",
+  "cityEn": "São Paulo",
+  "countryEn": "Brazil",
+  "citySlug": "sao-paulo",
+  "region": null,
+  "country": "Brezilya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 74,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "sao-paulo-yaz",
+    "enSlug": "sao-paulo-summer",
+    "hasEn": true,
+    "firstThemeEn": "Paulista and MASP",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Paulista & MASP"
+   },
+   {
+    "season": "other",
+    "slug": "sao-paulo-ekim-mayis",
+    "enSlug": "sao-paulo-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Paulista and MASP",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Paulista & MASP"
+   }
+  ]
+ },
+ {
+  "destKey": "edinburgh",
+  "city": "Edinburgh",
+  "cityEn": "Edinburgh",
+  "countryEn": "United Kingdom",
+  "citySlug": "edinburgh",
+  "region": null,
+  "country": "Birleşik Krallık",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 75,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "edinburgh-yaz",
+    "enSlug": "edinburgh-summer",
+    "hasEn": true,
+    "firstThemeEn": "Royal Mile and the castle",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Royal Mile & Kale"
+   },
+   {
+    "season": "other",
+    "slug": "edinburgh-ekim-mayis",
+    "enSlug": "edinburgh-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Royal Mile and the castle",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 33,
+    "quality": "v1",
+    "firstTheme": "Royal Mile & Kale"
+   }
+  ]
+ },
+ {
+  "destKey": "seville",
+  "city": "Sevilla",
+  "cityEn": "Seville",
+  "countryEn": "Spain",
+  "citySlug": "sevilla",
+  "region": null,
+  "country": "İspanya",
+  "isTurkey": false,
+  "coastal": false,
+  "rank": 76,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "sevilla-yaz",
+    "enSlug": "seville-summer",
+    "hasEn": true,
+    "firstThemeEn": "Alcázar and Cathedral",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Alcázar & Katedral"
+   },
+   {
+    "season": "other",
+    "slug": "sevilla-ekim-mayis",
+    "enSlug": "seville-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Alcázar and Cathedral",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 35,
+    "quality": "v1",
+    "firstTheme": "Alcázar & Katedral"
+   }
+  ]
+ },
+ {
+  "destKey": "santorini",
+  "city": "Santorini",
+  "cityEn": "Santorini",
+  "countryEn": "Greece",
+  "citySlug": "santorini",
+  "region": null,
+  "country": "Yunanistan",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 77,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "santorini-yaz",
+    "enSlug": "santorini-summer",
+    "hasEn": true,
+    "firstThemeEn": "Fira and the caldera",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Fira & kaldera"
+   },
+   {
+    "season": "other",
+    "slug": "santorini-ekim-mayis",
+    "enSlug": "santorini-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Fira and the caldera",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Fira & kaldera"
+   }
+  ]
+ },
+ {
+  "destKey": "mykonos",
+  "city": "Mikonos",
+  "cityEn": "Mykonos",
+  "countryEn": "Greece",
+  "citySlug": "mikonos",
+  "region": null,
+  "country": "Yunanistan",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 78,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "mikonos-yaz",
+    "enSlug": "mykonos-summer",
+    "hasEn": true,
+    "firstThemeEn": "Chora and Little Venice",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Chora & Küçük Venedik"
+   },
+   {
+    "season": "other",
+    "slug": "mikonos-ekim-mayis",
+    "enSlug": "mykonos-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Chora and Little Venice",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "Chora & Küçük Venedik"
+   }
+  ]
+ },
+ {
+  "destKey": "baku",
+  "city": "Bakü",
+  "cityEn": "Baku",
+  "countryEn": "Azerbaijan",
+  "citySlug": "baku",
+  "region": null,
+  "country": "Azerbaycan",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 79,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "baku-yaz",
+    "enSlug": "baku-summer",
+    "hasEn": true,
+    "firstThemeEn": "Old City and the Boulevard",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "İçerişehir & Bulvar"
+   },
+   {
+    "season": "other",
+    "slug": "baku-ekim-mayis",
+    "enSlug": "baku-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Old City and Boulevard",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 34,
+    "quality": "v1",
+    "firstTheme": "İçerişehir & Bulvar"
+   }
+  ]
+ },
+ {
+  "destKey": "sharm-el-sheikh",
+  "city": "Şarm El Şeyh",
+  "cityEn": "Sharm El Sheikh",
+  "countryEn": "Egypt",
+  "citySlug": "sarm-el-seyh",
+  "region": null,
+  "country": "Mısır",
+  "isTurkey": false,
+  "coastal": true,
+  "rank": 80,
+  "seasons": [
+   {
+    "season": "summer",
+    "slug": "sarm-el-seyh-yaz",
+    "enSlug": "sharm-el-sheikh-summer",
+    "hasEn": true,
+    "firstThemeEn": "Naama Bay and the reef",
+    "seasonLabelEn": "June–September",
+    "seasonSlug": "yaz",
+    "seasonLabel": "Haziran–Eylül",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Naama Bay & resif"
+   },
+   {
+    "season": "other",
+    "slug": "sarm-el-seyh-ekim-mayis",
+    "enSlug": "sharm-el-sheikh-october-may",
+    "hasEn": true,
+    "firstThemeEn": "Naama Bay and the reef",
+    "seasonLabelEn": "October–May",
+    "seasonSlug": "ekim-mayis",
+    "seasonLabel": "Ekim–Mayıs",
+    "stops": 32,
+    "quality": "v1",
+    "firstTheme": "Naama Bay & resif"
+   }
+  ]
+ }
+]

@@ -1,0 +1,493 @@
+{
+ "lang": "en",
+ "slug": "ho-chi-minh-city-october-may",
+ "altSlug": "ho-chi-minh-ekim-mayis",
+ "citySlug": "ho-chi-minh",
+ "destKey": "ho-chi-minh-city",
+ "city": "Ho Chi Minh City",
+ "region": null,
+ "country": "Vietnam",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "VND",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 2500000,
+  "attractions": 1600000,
+  "transport": 900000,
+  "misc": 600000
+ },
+ "notes": [
+  "Grab (motorbike or car) is cheap and safe; a motorbike taxi costs 30,000-60,000 VND. Metro Line 1 (Ben Thanh-Suoi Tien) is open.",
+  "May to October is the rainy season: expect an hour-long downpour every afternoon, so sightsee in the morning. It is 32°C and humid.",
+  "Pho costs 60-90,000 VND, banh mi 30-60,000, coffee 30-60,000. Street stools are safe, and the ice is factory-made.",
+  "A tour (hotel pick-up included) is the most practical way to do Cu Chi and the Mekong. The Ben Duoc tunnels are quieter than Ben Dinh.",
+  "Cross the road at a steady pace (the motorbikes will go around you), and don't hold your phone in your hand on the street, as bag snatchers operate.",
+  "Tipping is not expected; bargain 30-50% off in markets."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "District 1 classics",
+   "stops": [
+    {
+     "name": "War Remnants Museum",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 40000,
+     "tips": "A museum on the Vietnam War: heavy but important. Go in the cool of the morning."
+    },
+    {
+     "name": "Independence Palace",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 65000,
+     "tips": "The palace the tanks rolled into in 1975. Look for the 1960s architecture and the bunker."
+    },
+    {
+     "name": "Notre-Dame Cathedral Saigon",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A French-built cathedral (under restoration), with the Central Post Office opposite."
+    },
+    {
+     "name": "Pho Hoa Pasteur",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 90000,
+     "tips": "A classic serving pho since 1968, on Pasteur Street."
+    },
+    {
+     "name": "Ben Thanh Market",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The city's emblematic market: coffee, dried mango, and bargaining is a must."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Banh Mi Huynh Hoa",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 60000,
+     "tips": "Saigon's most famous banh mi, with 10 kinds of meat. Expect a queue."
+    },
+    {
+     "name": "Saigon Central Post Office",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "The post office designed by Eiffel. Step inside to see it."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Cu Chi Tunnels",
+   "stops": [
+    {
+     "name": "Cu Chi Tunnels Ben Duoc",
+     "category": "culture",
+     "start": "08:00",
+     "end": "12:00",
+     "cost": 125000,
+     "tips": "1.5 hours from the city (tour ~500,000 VND, or bus no. 13). A 200 km tunnel network; Ben Duoc is less touristy. Expect 20-100 m of crawling."
+    },
+    {
+     "name": "Cu Chi Tapioca Tasting",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "At the tunnel exit, try war-era tapioca and tea. Included in the tour."
+    },
+    {
+     "name": "Cu Chi Local Eatery",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 80000,
+     "tips": "Com tam (broken rice) on the way back."
+    },
+    {
+     "name": "Jade Emperor Pagoda",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Saigon's most atmospheric temple, with a turtle pond and incense smoke."
+    },
+    {
+     "name": "Nguyen Hue Walking Street",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "A pedestrian boulevard in front of City Hall, with the cafes of Cafe Apartment (42 Nguyen Hue)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Apartment Saigon",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 60000,
+     "tips": "A nine-storey apartment block full of cafes, with balcony views."
+    },
+    {
+     "name": "Ho Chi Minh City Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 30000,
+     "tips": "The city's history. An alternative to the pagoda."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Cho Lon (Chinatown)",
+   "stops": [
+    {
+     "name": "Binh Tay Market",
+     "category": "shopping",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Cho Lon's wholesale market: lively in the morning, with street breakfast."
+    },
+    {
+     "name": "Thien Hau Temple",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A temple to the sea goddess, hung with spiral incense coils."
+    },
+    {
+     "name": "Cho Lon Street Food Tour",
+     "category": "food",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 100000,
+     "tips": "Hu tieu (Cho Lon noodle soup) and dim sum on Ha Ton Quyen Street."
+    },
+    {
+     "name": "Cha Tam Church",
+     "category": "culture",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "The church where Diem was captured, in Cho Lon."
+    },
+    {
+     "name": "Bui Vien Walking Street",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "The backpacker street: beer on plastic stools, and plenty of noise."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Com Tam Ba Ghien",
+     "category": "food",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 70000,
+     "tips": "The city's most famous com tam, in Phu Nhuan."
+    },
+    {
+     "name": "Saigon Opera House",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 700000,
+     "tips": "Home of the A O Show bamboo circus. An alternative to Bui Vien."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Coffee and District 3",
+   "stops": [
+    {
+     "name": "Tan Dinh Church",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "The pink-painted cathedral. Good for photos."
+    },
+    {
+     "name": "Tan Dinh Market",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 50000,
+     "tips": "A local market, good for a banh cuon breakfast."
+    },
+    {
+     "name": "Vietnam Coffee Tour Cong Caphe",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 60000,
+     "tips": "Coconut coffee at Cong Caphe, plus egg coffee."
+    },
+    {
+     "name": "Turtle Lake",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "The Turtle Lake roundabout, popular with young locals and street snacks."
+    },
+    {
+     "name": "Secret Garden Restaurant Saigon",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 150000,
+     "tips": "Vietnamese home cooking in a rooftop garden, in District 1."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Banh Xeo 46A",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 100000,
+     "tips": "Vietnamese crispy pancakes on Dinh Cong Trang."
+    },
+    {
+     "name": "Fine Arts Museum Saigon",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 30000,
+     "tips": "Art in a colonial mansion. An alternative to the coffee stop."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Mekong Delta",
+   "stops": [
+    {
+     "name": "My Tho Vinh Trang Pagoda",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "1.5 hours from the city (tour ~600,000 VND, lunch included). Look for the giant Buddhas."
+    },
+    {
+     "name": "Mekong River Boat Tour",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A boat on the main river, with stops at Unicorn Island and honey and coconut candy workshops."
+    },
+    {
+     "name": "Ben Tre Canoe Tour",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "A sampan ride through palm-lined canals. Included in the tour."
+    },
+    {
+     "name": "Mekong Island Restaurant",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Elephant ear fish and rice paper rolls. Included in the tour."
+    },
+    {
+     "name": "Ben Tre Coconut Workshop",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Coconut candy and souvenirs."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cai Be Floating Market",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A morning floating market, instead of My Tho (early start)."
+    },
+    {
+     "name": "My Tho Hu Tieu Restaurant",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 60000,
+     "tips": "My Tho noodle soup. An alternative to the island stop."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Thu Thiem and Bitexco",
+   "stops": [
+    {
+     "name": "Bitexco Saigon Skydeck",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 200000,
+     "tips": "Views from the 49th floor, clearest in the morning."
+    },
+    {
+     "name": "Ho Thi Ky Flower Market",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A flower market with Cambodian street food, in District 10."
+    },
+    {
+     "name": "Ho Thi Ky Cambodian Noodles",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 70000,
+     "tips": "Num banh chok (Khmer rice noodles), inside the market."
+    },
+    {
+     "name": "Landmark 81 SkyView",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 300000,
+     "tips": "Vietnam's tallest building, in Binh Thanh."
+    },
+    {
+     "name": "Thu Thiem Riverside",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "The city skyline at sunset from the new bridge, with cafes nearby."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Quan Ut Ut Thu Thiem",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 200000,
+     "tips": "American-style BBQ by the river."
+    },
+    {
+     "name": "Saigon Water Bus",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 15000,
+     "tips": "The river bus from Bach Dang. A cheap alternative to Landmark."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Morning market and a gentle farewell",
+   "stops": [
+    {
+     "name": "Tao Dan Park",
+     "category": "nature",
+     "start": "07:00",
+     "end": "08:00",
+     "cost": 0,
+     "tips": "Morning tai chi and birdcage coffee: the city's daily ritual."
+    },
+    {
+     "name": "Pho Le",
+     "category": "food",
+     "start": "08:15",
+     "end": "09:15",
+     "cost": 80000,
+     "tips": "Sweet-style pho in District 5. A farewell breakfast."
+    },
+    {
+     "name": "Saigon Square",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Cheap clothing and souvenirs, and air-conditioned."
+    },
+    {
+     "name": "L'Usine Le Loi",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 120000,
+     "tips": "A cafe-boutique for coffee and pastries. A last farewell stop."
+    },
+    {
+     "name": "Tan Son Nhat Airport Bus 109",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "The bus to the airport takes 30 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Banh Mi 37 Nguyen Trai",
+     "category": "food",
+     "start": "08:15",
+     "end": "09:15",
+     "cost": 30000,
+     "tips": "Banh mi with grilled meatballs, from a street cart."
+    },
+    {
+     "name": "Saigon Botanical Garden",
+     "category": "nature",
+     "start": "07:00",
+     "end": "08:00",
+     "cost": 50000,
+     "tips": "A botanical garden and zoo. An alternative to the park."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,560 @@
+{
+ "lang": "tr",
+ "slug": "istanbul-yaz",
+ "altSlug": "istanbul-summer",
+ "citySlug": "istanbul",
+ "destKey": "istanbul",
+ "city": "İstanbul",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 12650,
+  "attractions": 7068,
+  "transport": 1300,
+  "misc": 600
+ },
+ "notes": [
+  "Ödeme: kart her yerde geçer ama esnaf lokantası, pazar tezgâhı, Adalar'daki plaj motoru ve çay bahçeleri için yanında 1.500-2.000 TL nakit bulundur.",
+  "Ulaşım: tek İstanbulkart ile metro, tramvay, vapur, teleferik ve Adalar vapuru dahil her şeye biniyorsun; aktarma indirimi 2 saat içinde otomatik uygulanır. Bir kartı iki kişi arka arkaya okutabilir.",
+  "Bahşiş: lokantada %5-10 yeterli, hesaba ekli değildir; meyhanede masaya bırakılır. Hamamda tellak/natıra 100-200 TL ayrı bahşiş beklenir.",
+  "Kıyafet: cami ve Patrikhane ziyaretlerinde diz-omuz kapalı; kadınlar için baş örtüsü girişte veriliyor ama kendi şalını taşırsan sıra beklemezsin. Sinagog ziyaretinde erkekler için kipa verilir.",
+  "Temmuz sıcağı: 12:00-15:00 arasını gölgede, klimalı müzede veya denizde geçir; su şişesi taşı, çeşmelerden doldurabilirsin. Gün batımı Temmuz'da ~20:30, altın saat 19:45'te başlar.",
+  "Güvenlik: Sultanahmet ve Eminönü'nde 'ayakkabı boyacısı fırça düşürme' ve 'bir çay içelim' numaralarına takılma; taksi yerine vapur/tramvay tercih et, taksi şartsa BiTaksi/Uber uygulamasından çağır.",
+  "Görgü: meyhanede rakı bardağına buz atma, önce su karıştırılır; vapurda simit atarak martı beslemek gelenek ama güvertede içeceğini kapat. Cami avlusunda namaz saatlerinde (özellikle Cuma öğle) ziyaret durur."
+ ],
+ "niche": {
+  "name": "Ahrida Sinagogu",
+  "level": "l3",
+  "why_hidden": "1430'larda Makedonya Ohri'den gelen Romaniot Yahudilerin kurduğu, Türkiye'nin hâlâ ibadete açık en eski sinagogu; içindeki tevası Nuh'un gemisi ya da 1492'de Sefaradları İspanya'dan getiren gemileri simgeleyen tekne biçiminde — dünyada başka örneği yok. Balat'a gelen turist renkli evleri çeker ve geçer; güvenlik nedeniyle kapısında tabela yok, randevusuz kimse içeri alınmaz.",
+  "access_instructions": "En az 3 gün önce Balat Ahrida Musevi Sinagogu Vakfı'na kimlik/pasaport fotokopisiyle ziyaret talebi gönder (web sitesindeki form veya e-posta). Ziyaret hafta içi 10:00-14:00 arası, Cuma 12:00 sonrası, Cumartesi ve Yahudi bayramlarında kapalı. Randevu saatinde Kürkçü Çeşmesi Sokak'taki demir kapıda görevli karşılar; kimlik gösterilir, erkeklere kipa verilir.",
+  "local_contact": "+90 532 217 26 78 / info@balatsinagoglari.com / Instagram @balatsinagoglari (Balat Ahrida Musevi Sinagogu Vakfı — Mois Gabay)",
+  "season": "Yıl boyu hafta içi; Roş Aşana–Yom Kipur (Eylül-Ekim) ve Pesah (Nisan) haftalarında kapalı. Yaz aylarında talep az, randevu kolay.",
+  "insider_tip": "Aynı randevuda 200 metre ötedeki Yanbol Sinagogu'nu da görmek istediğini yaz — tek başvuruyla iki sinagog açılır, çoğu ziyaretçi bilmez. Tevanın kıvrımlı ahşabını sabah 10:00 ışığında kubbe pencerelerinden gelen ışıkla çek; görevliye Sultan II. Bayezid'in 1492'de Sefaradları kabul fermanını sor, anlatmayı sever.",
+  "show_reason": "Balat'ın 'renkli evler' klişesinin altındaki gerçek katman: 600 yıllık çok dinli mahalle hafızası, ücretsiz, çok fotojenik ve randevu gerektirdiği için sosyal medyada neredeyse hiç yok. Çiftler için 'bilen bilir' anını en güçlü veren durak.",
+  "lat": 41.0328,
+  "lng": 28.9456,
+  "address": "Kürkçü Çeşmesi Sk. No:7, Ayvansaray (Balat), 34087 Fatih, İstanbul",
+  "cost_range_min": 0,
+  "cost_range_max": 200,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "İstanbulkart",
+  "why_chosen": "Plandaki her hareket — Sultanahmet tramvayı, Karaköy-Kadıköy vapuru, Boğaz kıyısı otobüsleri, Eyüp teleferiği, Büyükada vapuru ve adadaki elektrikli araç — tek kartla ödeniyor ve 2 saat içinde aktarma indirimi otomatik uygulanıyor. Tek biniş ~46 TL; günlük/turist kartları İstanbul'da iki kişilik yavaş tempolu gezide daha pahalıya gelir. Bir kartı iki kişi arka arkaya okutabilir, ama vapur turnikelerinde ayrı kart daha pratik.",
+  "coverage": "Metro, tramvay, Marmaray, İETT otobüsü, Şehir Hatları vapuru, teleferik (TF1/TF2), Adalar vapuru ve Büyükada elektrikli araçları — İstanbul'un tamamı.",
+  "where_to_buy": "Kabataş, Eminönü, Kadıköy ve tüm metro istasyonlarındaki sarı Biletmatik cihazları (boş kart ~165 TL), İstanbulkart mobil uygulaması (NFC telefonla yükleme), havalimanı metro/otobüs peronu kioskları.",
+  "cost": 665,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Sultanahmet & Süleymaniye — imza günü: üç anıt, bir medrese avlusu, Haliç üstünde gün batımı",
+   "stops": [
+    {
+     "name": "Sultanahmet Camii, Ayasofya ve Yerebatan Sarnıcı Rehberli Turu",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 2867,
+     "tips": "Sabah 09:00 grubunu seç; Ayasofya'nın üst galeri kuyruğu 10:30'dan sonra bir saati bulur. Yerebatan'ın yeni ışık düzeninde Medusa başlarını sütunun arkasından çek, flaş yasak. Bilet ve rehber turda dahil, yanına sadece baş örtüsü ve su al.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Istanbul+Blue+Mosque+Hagia+Sophia+Basilica+Cistern+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Şehzade Erzurum Cağ Kebabı",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 600,
+     "tips": "Sirkeci Hocapaşa Sokak'ta, Sultanahmet'ten 10 dakika yürüyüş; turist tuzağı köftecilerin arasında Erzurumluların gittiği yer. Kişi başı 4-5 şiş cağ + ezme + ayran iste, lavaşa sarıp yiyorsun; şiş tek tek gelir, 'yeter' demeden kesmezler. 13:00'ten sonra esnaf kuyruğu oluşur, erken git."
+    },
+    {
+     "name": "Caferağa Medresesi",
+     "category": "culture",
+     "start": "13:45",
+     "end": "15:15",
+     "cost": 200,
+     "tips": "Ayasofya'nın hemen arkasında, Caferiye Sokak'ta Mimar Sinan yapımı bir medrese; avlusunda ebru, hat, çini atölyeleri çalışıyor ve gölgeli avluda çay içiliyor. Öğlen sıcağında en serin köşe burası; atölye kapıları açıksa ustalar çalışırken izlemene izin verir. Pazartesi kapalı, 09:30-18:00."
+    },
+    {
+     "name": "Süleymaniye Camii",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:45",
+     "cost": 0,
+     "tips": "Kapalıçarşı üstünden Fetva Yokuşu'nu çıkarak gel; dış avlunun Haliç tarafındaki set duvarı İstanbul'un en iyi ücretsiz manzarası. İkindi namazı çıkışında içeri gir, ışık kubbeye tam o saatte düşer. Avludaki Mimar Sinan türbesini kaçırma, çoğu ziyaretçi görmeden gider."
+    },
+    {
+     "name": "Mimar Sinan Teras Cafe",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 700,
+     "tips": "Fetva Yokuşu'ndaki Mimar Sinan Han'ın çatısı: Süleymaniye kubbesi, Galata Kulesi ve Haliç aynı karede, gün batımı 20:30 civarı. Menüde gözleme, kiremitte mantı, köfte; sofistike değil ama manzara için buraya geliniyor, kişi başı 600-800 TL. Cam kenarı masa için 19:00'da otur, 20:00'de yer bulunmaz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tarihi Kuru Fasulyeci Ali Baba (Süleymaniye)",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 500,
+     "tips": "Süleymaniye Camii'nin yanı başında 1924'ten beri kuru fasulye + pilav + turşu. Tek yemek yenir, menü sorma; sıra hızlı akar. Öğlen 12:30'dan sonra esnaf yoğunluğu var."
+    },
+    {
+     "name": "Türk ve İslam Eserleri Müzesi",
+     "category": "culture",
+     "start": "13:45",
+     "end": "15:15",
+     "cost": 400,
+     "tips": "Sultanahmet Meydanı'nda İbrahim Paşa Sarayı'nın içinde; klimalı salonlarda Selçuklu halıları ve etnografya bölümü. Öğle sıcağı için ideal, Müzekart geçerli. Avlusundaki kafede Ayasofya'ya bakarak çay içilir."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Karaköy, Galata & Cihangir — Ceneviz sokakları, ücretsiz bir banka müzesi, Boğaz'a bakan bir cami avlusunda gün batımı",
+   "stops": [
+    {
+     "name": "Karaköy Güllüoğlu",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 350,
+     "tips": "İstanbul'un baklava referansı; sabah 09:30'da tepsiler fırından yeni iner, tezgâhtan 'sıcak su böreği + bir dilim fıstıklı kuru baklava + çay' iste. Kasada ödeyip fişle tezgâha git, masalar self-servis. 11:00'den sonra tur otobüsleri gelir."
+    },
+    {
+     "name": "Arap Camii",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Perşembe Pazarı'nın içinde, 14. yüzyıl Ceneviz San Domenico kilisesi; minaresi hâlâ Gotik çan kulesi biçiminde. İstanbul'un en ilginç camisi ama rehber kitaplarda bir satır. Ahşap tavanı ve avlusundaki Ceneviz mezar taşlarına bak; hırdavatçı sokaklarından geçerek gelmek deneyimin parçası."
+    },
+    {
+     "name": "Karaköy Lokantası",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 750,
+     "tips": "Turkuaz çinili duvarlarıyla öğlen esnaf lokantası, akşam meyhane olan yer; öğlen menüsü çok daha uygun. Tezgâhtan günün zeytinyağlısı + bir et yemeği + ayran seç, sonra tavuk göğsü tatlısı iste. Rezervasyon almazlar, 12:30'dan önce gel."
+    },
+    {
+     "name": "SALT Galata",
+     "category": "culture",
+     "start": "14:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Eski Osmanlı Bankası binası, ücretsiz; alt katta kasa dairesi ve banka müzesi, üstte sergiler ve devasa bir kütüphane. Öğle sıcağını klimalı okuma salonunda geçir, arka terasından Haliç görünür. Pazartesi kapalı, 11:00-19:00."
+    },
+    {
+     "name": "Cihangir Camii",
+     "category": "landmark",
+     "start": "18:45",
+     "end": "20:00",
+     "cost": 50,
+     "tips": "Cihangirlilerin gün batımı yeri: caminin Boğaz'a bakan avlu duvarında oturulur, karşıda Kız Kulesi, Üsküdar ve Tarihi Yarımada silüeti. Yanındaki küçük çay ocağından çay alıp duvara otur; Instagram kalabalığı yok, mahalleli ve kediler var. Altın saat 19:45-20:30."
+    },
+    {
+     "name": "Fıccın Cihangir",
+     "category": "food",
+     "start": "20:15",
+     "end": "21:45",
+     "cost": 750,
+     "tips": "Asmalımescit'in efsane Çerkes lokantası Fıccın'ın yeni Cihangir şubesi, Akarsu Yokuşu'nda. Sipariş: Çerkes mantısı (yoğurtlu, sarımsaklı) + fıccın böreği + Çerkes tavuğu; mantı porsiyonu 300-350 TL. Bira/şarap var, ortam mahalle lokantası, rezervasyon gerekmez."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Asmalı Cavit",
+     "category": "food",
+     "start": "20:15",
+     "end": "22:00",
+     "cost": 1800,
+     "tips": "Asmalımescit'in gerçek eski meyhanesi, mezeleri yerinden seç. Ciğer ve fava mutlaka; masalar diz dize, kalabalık ama Beyoğlu'nun hâlâ en samimi rakı masası. Akşam için mutlaka telefonla yer ayırt."
+    },
+    {
+     "name": "Kamondo Merdivenleri",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Bankalar Caddesi'nden Galata'ya çıkan Art Nouveau kıvrımlı merdiven, 1870'ler. Sabah 10:00'dan önce boş, yukarıdan aşağıya çekilen fotoğraf klasik kare. Merdivenin üstünden Galata Kulesi'ne 3 dakika."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Kadıköy, Yeldeğirmeni & Moda — duvar resimleri, çarşı tezgâhları, Marmara kıyısında ayazmalı bir meyhane",
+   "stops": [
+    {
+     "name": "Yeldeğirmeni Mahallesi",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Kadıköy iskelesinden 10 dakika yukarıda, Mural İstanbul festivalinin dev duvar resimleri (Karakolhane ve Duatepe sokakları) sabah ışığında en iyi çekilir. Mahalle 1900'lerin apartmanları, Notre Dame du Rosaire Kilisesi ve üçüncü dalga kahveciler; yürüyüş için harita gerekmez, sokaklarda kaybol. 11:00'den önce kafeler boş."
+    },
+    {
+     "name": "Kadıköy Tarihi Çarşı (Güneşlibahçe Sokak)",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 200,
+     "tips": "Balıkçılar, turşucular, zeytinciler, baharatçılar tek sokakta; Özcan Turşucu'dan bir bardak turşu suyu iç (yaz sıcağında yerel serinleme). Balık tezgâhlarını incele, Temmuz'da sardalya ve istavrit mevsimi. Kurutulmuş meyve ve peynir örnekleri ücretsiz tattırılır, pazarlık yok, fiyatlar etiketli."
+    },
+    {
+     "name": "Çiya Sofrası",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 750,
+     "tips": "Musa Dağdeviren'in Anadolu mutfağı arşivi, Güneşlibahçe Sokak'ta; tezgâhtan tabak tabak seçiyorsun, kâseyi tartıyla ücretlendirirler. Mevsime göre erik yahnisi, perde pilavı, kısır çeşitleri; tatlıda mutlaka kabak tatlısı tahinli veya şekerlenmiş patlıcan. 13:00'te sıra oluşur, tam 12:30'da gir."
+    },
+    {
+     "name": "Baylan Pastanesi",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 300,
+     "tips": "1961'den beri Muvakkithane Caddesi'nde, Kadıköylülerin öğleden sonra ritüeli: Kup Griye (dondurma + karamel + krokan + krema), kaşık bırakılmaz. Klimalı, sakin; sıcak saatte tam yerinde bir mola. Kişi başı 250-350 TL, kart geçer."
+    },
+    {
+     "name": "Moda Sahil Parkı",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:15",
+     "cost": 150,
+     "tips": "Moda Burnu çayırında Kadıköylüler yere serdiği örtüde bira ve simitle gün batımını bekler; Adalar ve Tarihi Yarımada karşında. Tarihi Moda İskelesi'ne (1917, Vedat Tek) yürü, iskele üstündeki çay bahçesinde çay iç. Kadıköy iskelesinden nostaljik tramvayla da gelinir."
+    },
+    {
+     "name": "Koço Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 1500,
+     "tips": "1928'den beri Moda Caddesi'nin sonunda, altında Aya Ekaterini ayazması olan tek meyhane; garsona 'ayazmayı görebilir miyiz' de, merdivenden indirirler. Tereyağlı karides ve ızgara ahtapot imzası, mezeleri paylaşımlı al; tatlıda 'atom'. Deniz manzaralı masa için 1-2 gün önce ara, hafta içi aynı gün olur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yanyalı Fehmi Lokantası",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "1919'dan beri Kadıköy Çarşı'da Osmanlı saray mutfağı tencere yemekleri; hünkâr beğendi ve kâğıt kebabı klasik. Tezgâhtan seçiyorsun, öğlen esnafla dolar. Akşam erken kapanır, öğle yemeği için düşün."
+    },
+    {
+     "name": "Süreyya Operası",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Bahariye Caddesi'nde 1927 tarihli Art Deco opera binası; cephesi ve fuayesi gündüz gişe açıkken ücretsiz görülür. Yaz sezonunda konser programını gişeden sor, biletler genelde 300-600 TL. Karşısındaki Boğa heykeli Kadıköy'ün buluşma noktası."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Balat, Fener & Eyüp — Haliç'in çok dinli mahallesi: sinagog, patrikhane, mozaikler ve 1890 tarihli meyhane",
+   "stops": [
+    {
+     "name": "Ahrida Sinagogu",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "1430'lardan kalan, tekne biçimli tevası (Nuh'un gemisi/İspanya'dan getiren gemiler) ile Türkiye'nin en eski aktif sinagogu; en az 3 gün önce kimlik fotokopisiyle Balat Ahrida Sinagogu Vakfı'ndan (+90 532 217 26 78, @balatsinagoglari) randevu şart. Hafta içi 10:00-14:00, Cuma öğleden sonra ve Cumartesi kapalı. Fotoğraf için görevliden izin al, erkekler kipa takar."
+    },
+    {
+     "name": "Fener Rum Ortodoks Patrikhanesi",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Ortodoks dünyasının Vatikan'ı, Aya Yorgi Kilisesi ücretsiz gezilir; 1821'de Patrik'in asıldığı kapı hâlâ kapalı, orta kapıdan girilir. İçeride İsa'nın bağlandığı söylenen sütun parçası ve mozaik ikonalar var. Yukarıdaki kırmızı tuğlalı Fener Rum Lisesi'ni Sadrazam Ali Paşa Caddesi'nden çek, içeri girilmez."
+    },
+    {
+     "name": "Forno Balat",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 600,
+     "tips": "Fener Kireçhane Sokak'ta taş fırınlı mahalle fırını; öğlen lahmacun ve kıymalı pide için gel, hamur ince ve kenarları çıtır. İki kişiye 4 lahmacun + 1 pide + ayran yeterli, kişi başı 500-700 TL. Renkli evlerin olduğu Kiremit Caddesi 2 dakika yukarıda, öğle sonrası fotoğraf için oradan geç."
+    },
+    {
+     "name": "Kariye Camii",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Bizans'ın en iyi korunmuş mozaik ve freskleri (Chora); 2024'te cami olarak yeniden açıldı, Türk vatandaşı ücretsiz, yabancı 20 €. Cuma sadece ibadete açık, diğer günler 09:00-18:00, namaz vakitlerinde 15 dakika ara verilir. Parekklesion bölümündeki 'Anastasis' freski için boynunu yukarı kaldır, mozaik parıltısı için gün ışığı yeter."
+    },
+    {
+     "name": "Pierre Loti Tepesi",
+     "category": "landmark",
+     "start": "18:30",
+     "end": "19:45",
+     "cost": 200,
+     "tips": "Eyüp Sultan'dan İstanbulkart'la teleferik (TF2) 3 dakikada tepeye çıkarır; Haliç'in tamamı, Fener-Balat kıyısı ve arkada Süleymaniye. Tarihi kahvede semaver çayı iç, gün batımına 30-40 dakika kala yerini al. İnişte mezarlık içinden yürüyüp Eyüp Sultan Camii avlusuna in, akşam ezanında büyüleyici."
+    },
+    {
+     "name": "Agora Meyhanesi 1890",
+     "category": "food",
+     "start": "20:15",
+     "end": "22:15",
+     "cost": 1600,
+     "tips": "Balat Çıfıtçarşı'da 1890'da Rum kaptan Asteri'nin açtığı, 2014'te aslına uygun restore edilen meyhane; ahşap tavan ve eski Balat fotoğrafları. Mezeleri dolaptan seçme usulü, lakerda ve topik öne çıkıyor, kişi başı rakılı 1.500-2.000 TL. Pazartesi kapalı, 13:00-24:00; akşam için mutlaka telefonla rezervasyon."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cibalikapı Balıkçısı Haliç",
+     "category": "food",
+     "start": "20:15",
+     "end": "22:15",
+     "cost": 1800,
+     "tips": "Kadir Has Üniversitesi'nin yanında üç katlı ahşap binada 2001'den beri meyhane; üst kat terası Haliç'e bakar. Levrek dolmalı marul ve asma yaprağında sardalya imzası. Hafta sonu rezervasyon şart."
+    },
+    {
+     "name": "Sveti Stefan Bulgar Kilisesi",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 100,
+     "tips": "Haliç kıyısında dünyanın tek dökme demir kilisesi (1898, Viyana'da döküldü, parçalar gemiyle geldi). 2018 restorasyonu sonrası altın yaldızlı içi çok fotojenik, cüzi giriş ücreti. Fener'den sahil boyunca 10 dakika yürüyüş."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Boğaz'ın Avrupa kıyısı — Rumelihisarı kahvaltısı, koru, hisar, Arnavutköy'de balık ve gece Boğaz turu",
+   "stops": [
+    {
+     "name": "Sade Kahve",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 550,
+     "tips": "Rumelihisarı'nda 2002'den beri, hisar duvarının dibinde Boğaz'a bakan mahalle kahvesi; Bebek'in fiyatlı kahvaltıcılarının yerine yerliler buraya gelir. Serpme yerine 'çiğ börek + Apikoğlu sucuklu sandviç + külde Türk kahvesi' iste, kişi başı 450-600 TL. Hafta sonu 09:30'dan sonra sıra var, hafta içi rahat."
+    },
+    {
+     "name": "Emirgan Korusu",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Hidiv İsmail Paşa'nın korusu, İstanbul'un en bakımlı parkı; Sarı Köşk'ün önündeki gölet ve Boğaz'a bakan yürüyüş terasları. Sabah serinliğinde 45 dakikalık bir tur yap, Pembe Köşk yanındaki çay bahçesinde otur. Rumelihisarı'ndan 25E/22 otobüsüyle 5 dakika."
+    },
+    {
+     "name": "Rumeli Hisarı",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 100,
+     "tips": "Fatih'in 1452'de 4 ayda diktirdiği hisar; Halil Paşa Kulesi'ne çıkıp Fatih Sultan Mehmet Köprüsü'nü kare al. Giriş Müzekart'la ücretsiz, biletli girişte cüzi ücret; Çarşamba kapalı, yazın 09:00-19:00. Merdivenler korkuluksuz, spor ayakkabı giy."
+    },
+    {
+     "name": "Adem Baba Balık Lokantası",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 1100,
+     "tips": "1992'de Bebek koyunda bir teknede başlayan, şimdi Arnavutköy Satış Meydanı'ndaki alkolsüz balık lokantası; Arnavutköylüler burada yer, turistler yandaki pahalı balıkçılarda. Balık çorbası + günün tavası (Temmuz'da sardalya/istavrit) + salata, kişi başı 1.000-1.300 TL. Kuyruk olur, 13:30 sınırdır."
+    },
+    {
+     "name": "Ortaköy Camii",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Büyük Mecidiye Camii ile 15 Temmuz Şehitler Köprüsü aynı karede: İstanbul'un en çok basılan kartpostalı, iskele meydanının sol köşesinden çek. Arnavutköy'den sahil boyunca yalıların önünden 30 dakikalık yürüyüşle gel, gün ışığı yumuşarken varırsın. Meydandaki kumpircilere girmene gerek yok, akşam yemeği teknede."
+    },
+    {
+     "name": "Boğaz Turu ve Akşam Yemeği (Özel Masa)",
+     "category": "nature",
+     "start": "20:00",
+     "end": "23:30",
+     "cost": 1931,
+     "tips": "Kabataş'tan 20:30'da kalkan yemekli gece turu; Dolmabahçe, Kız Kulesi, köprüler ışıklı, halk oyunları ve canlı müzik dahil. 'Özel masa' seçeneği seni grup masasına oturtmaz, çift için ideal; alkolsüz menüde içecek sınırlı, alkollü paket fark ödeyerek alınır. Ortaköy'den Kabataş'a 22RE otobüsüyle 20 dakika, 19:45'te iskelede ol.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Istanbul+Bosphorus+Dinner+Cruise+Private+Table",
+     "bookingProvider": "GetYourGuide"
+    }
+   ],
+   "backups": [
+    {
+     "name": "Arnavutköy Balıkçısı",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 2200,
+     "tips": "Arnavutköy sahilinde yalıların arasında klasik balık restoranı, rakılı öğle için. Mezeler tepsiden seçilir, ızgara balık kilo fiyatıyla; ödeme öncesi fiyatı sor. Hafta sonu öğlen rezervasyon yaptır."
+    },
+    {
+     "name": "Aşiyan Müzesi",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Rumelihisarı'nın hemen üstünde şair Tevfik Fikret'in 1906'da kendi çizdiği ahşap evi, İBB müzesi ücretsiz. Üst kat balkonundan Boğaz manzarası fotoğraf için harika, hafta içi neredeyse boş. Pazartesi kapalı."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Büyükada — vapurla ada günü: Aya Yorgi tırmanışı, tepede köfte, yerlilerin koyunda deniz, 1935'ten kalma bir lokantada akşam",
+   "stops": [
+    {
+     "name": "Şehir Hatları Adalar Vapuru (Kabataş İskelesi)",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 180,
+     "tips": "Kabataş'tan kalkan Şehir Hatları vapuru Büyükada'ya 1,5 saatte varır (İstanbulkart'la biniş, hızlı motorların iki katı sürer ama açık güverte ve simit-çay bunun için). Sağ tarafa (Anadolu yakası) otur, Kız Kulesi ve Kınalıada'dan geçersin. Yaz hafta sonu 08:40-09:00 seferleri dolar, hafta içi rahat; dönüş için son sefer saatini iskele tabelasından not al (yazın 21:00 sonrası da Turyol/Dentur var)."
+    },
+    {
+     "name": "Aya Yorgi Kilisesi ve Manastırı",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:30",
+     "cost": 120,
+     "tips": "İskeleden elektrikli araçla Lunapark durağına (İstanbulkart ~120 TL), oradan 25 dakikalık dik taş yol tepeye. Adanın ve Marmara'nın 360 derece manzarası; kilise ücretsiz, içeride mum yakılır, dilek ipleri yol boyunca ağaçlarda. Sabah 11:00'den önce çıkarsan gölgede ve serinde tırmanırsın."
+    },
+    {
+     "name": "Yücetepe Kır Gazinosu",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 750,
+     "tips": "Aya Yorgi'nin hemen yanında, 200 m yükseklikte çardak altında masalar; kilometrelerce deniz manzarasıyla köfte-piyaz ve soğuk Bozcaada şarabı/bira. Menü kısa ve iyi: köfte, patates kızartması, kaşarlı tost, gözleme. Deniz tarafındaki masalar için 12:30'da orada ol, öğleden sonra kalabalık iner."
+    },
+    {
+     "name": "Halik Koyu Plajı (Büyükada)",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:30",
+     "cost": 250,
+     "tips": "Adanın arka tarafında, Eskibağ'da yerlilerin koyu: 800 metrelik çakıl-kum sahil, çam gölgesi, beach club müziği yok. İskeleden saatlik motorla ya da bisikletle (Aya Yorgi inişinden 20 dakika) ulaşılır; giriş cüzi (2026'da ~150-200 TL), şezlong ayrı. Yiyecek sınırlı, iskeleden su ve meyve al; deniz ayakkabısı işe yarar."
+    },
+    {
+     "name": "Çankaya Caddesi Köşkleri (Büyükada)",
+     "category": "landmark",
+     "start": "17:45",
+     "end": "19:15",
+     "cost": 300,
+     "tips": "İskele yakınından bisiklet kirala (saatlik/günlük ~300 TL) ve Çankaya Caddesi boyunca 19. yüzyıl ahşap köşklerini gör: Con Paşa Köşkü, Mizzi Köşkü, Troçki'nin kaldığı Yanaros Köşkü (Hamlacı Sokak). Altın saatte ahşap cepheler turuncuya döner, sokaklar boşalır. Fayton kalktı, adayı bisiklet ve elektrikli araç dolaşıyor."
+    },
+    {
+     "name": "Milto Restaurant 1935 Büyükada",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1300,
+     "tips": "İskele meydanındaki turistik sıra restoranların iki sokak arkasında, Gülistan Caddesi'nde 1935'ten beri adalıların lokantası. Kalamar tava, karides güveç ve günün ızgarası; mezeleri paylaşımlı al, kişi başı 1.200-1.500 TL. Vapurdan önce yemek için 19:30'da otur, 21:00 civarı iskeleye 3 dakika yürü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ali Baba Restaurant Büyükada",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1500,
+     "tips": "İskele sahilinde 1950'lerden kalan klasik balık restoranı; deniz kenarı masalar vapur ışıklarına bakar. Ahtapot salatası ve balık buğulama iyi. Fiyatı balık tezgâhından tartıyla sor, sürprizle karşılaşma."
+    },
+    {
+     "name": "Nakibey Plajı",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:30",
+     "cost": 900,
+     "tips": "Büyükada'nın en bilinen plaj kulübü, iskeleden ücretsiz servis motoruyla 10 dakika. Şezlong-şemsiye girişe dahil, restoranı var; hafta içi çok daha sakin. Adaya ilk gelenler için güvenli, düzenli seçim."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Kuzguncuk & Üsküdar — hafif veda: mahalle bostanı, fırın kahvaltısı, 1640 tarihli hamam, Kız Kulesi karşısında son kare",
+   "stops": [
+    {
+     "name": "Kuzguncuk Bostanı",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "İcadiye Caddesi'nden Bostan Sokak'a döndüğünde 700 yıllık bir mahalle bostanı: mahalleli parselleri ekiyor, çocuk atölyeleri ve hasat günleri var, giriş serbest. Sabah erken bahçede çalışan komşularla iki kelime edilir, domates-fesleğen kokusu Boğaz'ın 200 metre yukarısında. Yanındaki cami-kilise-sinagog yan yana sokağı Kuzguncuk'un simgesidir."
+    },
+    {
+     "name": "Pita Kuzguncuk",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 400,
+     "tips": "İcadiye Caddesi 41/A'da el açması pita ve börekleriyle mahalle fırını; kahvaltı için sıcak ıspanaklı pita + peynirli börek + çay yeter, kişi başı 350-450 TL. Dükkân küçük, dışarıdaki iki masa ya da yürüyerek Boğaz kıyısında ye. Karşıdaki Tarihi Kuzguncuk Fırını'ndan kurabiye al, yolda gider."
+    },
+    {
+     "name": "Çinili Hamam Üsküdar",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:15",
+     "cost": 1300,
+     "tips": "Kösem Sultan'ın 1640'ta yaptırdığı, Üsküdarlıların hâlâ haftalık yıkandığı çifte hamam; Sultanahmet'teki turistik hamamların üçte biri fiyatına gerçek mahalle deneyimi. Kese-köpük paketi iste, kendi bornozu-havlusu var, peştemal verilir; erkek ve kadın bölümleri ayrı kapıdan (0216 553 15 93 / 0216 334 97 10). Hafta içi öğlen boş, tellak/natıraya 100-200 TL bahşiş."
+    },
+    {
+     "name": "Kanaat Lokantası",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 650,
+     "tips": "1933'ten beri Üsküdar Selmanipak Caddesi'nde, İstanbul'un en saygın esnaf lokantası; tezgâhta 40 çeşit tencere yemeği. Sipariş: Özbek pilavı veya tas kebabı + zeytinyağlı yaprak sarma + tatlıda kaymaklı ekmek kadayıfı veya fıstıklı sütlü tatlılardan 'elmasiye'. Kart geçer, alkol yok, kişi başı 550-750 TL."
+    },
+    {
+     "name": "Salacak Sahili",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Üsküdar iskelesinden sahil boyunca 10 dakika güneye; Kız Kulesi'ne en yakın kara noktası, arkasında Ayasofya-Sultanahmet-Topkapı silüeti aynı karede. Sahil bankında çaycıdan bir bardak alıp otur, gezinin son fotoğrafı burası. Buradan Marmaray/vapurla her yere 20 dakikada dönülür."
+    }
+   ],
+   "backups": [
+    {
+     "name": "İsmet Baba Restaurant Kuzguncuk",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 1600,
+     "tips": "Kuzguncuk sahilinde 1951'den beri Boğaz'a sıfır balık lokantası; köprü manzaralı teras masaları. Mezeleri tepsiden seç, mevsim balığını ızgara iste. Hafta sonu öğlen rezervasyon iyi olur."
+    },
+    {
+     "name": "Fethi Paşa Korusu",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Kuzguncuk ile Paşalimanı arasındaki yamaçta 16 hektarlık koru; yürüyüş yolları Boğaz Köprüsü'ne bakar, ücretsiz. Sabah serinliğinde 30 dakikalık tur ve tepedeki çay bahçesi. Kuzguncuk'a inen patikadan mahalleye bağlanır."
+    }
+   ]
+  }
+ ]
+}

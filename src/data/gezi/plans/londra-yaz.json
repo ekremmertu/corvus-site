@@ -1,0 +1,492 @@
+{
+ "lang": "tr",
+ "slug": "londra-yaz",
+ "altSlug": "london-summer",
+ "citySlug": "londra",
+ "destKey": "london",
+ "city": "Londra",
+ "region": null,
+ "country": "Birleşik Krallık",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "GBP",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 420,
+  "attractions": 210,
+  "transport": 70,
+  "misc": 80
+ },
+ "notes": [
+  "Temassız kart/Oyster ile günlük tavan (~9 GBP); Tube yerine otobüs üst katı manzaralı ve ucuz. Heathrow'a Elizabeth Line.",
+  "Büyük müzeler ücretsiz (British, Tate, NHM, V&A); Tower, Westminster Abbey, St Paul's ücretli, online ucuz.",
+  "Yaz 20-25°C ama yağmur olası; parklar ve nehir turları yazın, uzun gün ışığı 21:30'a kadar.",
+  "Pub kültürü: barda sipariş, bahşiş yok; restoranlarda %12,5 servis ekli olabilir.",
+  "Borough Market pazartesi kapalı; Portobello cumartesi, Columbia Road pazar.",
+  "Sunday roast için pazar rezervasyon şart; pie and mash, fish and chips ve Dishoom Londra klasikleri."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Oyster / Contactless",
+  "why_chosen": "Tube, otobüs, DLR ve trenlerde günlük tavan (cap) ile en ucuzu; temassız kartın kendisi de aynı işi görür",
+  "coverage": "Tüm TfL ağı: Tube, otobüs, Overground, DLR, Elizabeth Line",
+  "where_to_buy": "Metro istasyonları; ya da kendi temassız kartını kullan",
+  "cost": 7,
+  "currency_code": "GBP"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Westminster & South Bank",
+   "stops": [
+    {
+     "name": "Westminster Abbey",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 30,
+     "tips": "Kraliyet taç giyme kilisesi; online bilet (~30 GBP), 09:30'da girişte kuyruk yok."
+    },
+    {
+     "name": "Big Ben & Houses of Parliament",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Westminster Köprüsü'nden klasik fotoğraf; Parlamento turu ayrı."
+    },
+    {
+     "name": "Borough Market",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 20,
+     "tips": "Londra'nın gıda pazarı; Kappacasein raclette, Bread Ahead donut, ayakta öğle."
+    },
+    {
+     "name": "Tate Modern",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Eski santralde modern sanat; ücretsiz, 10. kat manzara terası."
+    },
+    {
+     "name": "South Bank Yürüyüşü",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Millennium Bridge'den London Eye'a Thames kıyısı; sokak sanatçıları ve kitap pazarı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Padella Borough",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 18,
+     "tips": "El yapımı makarna; kuyruk uygulamayla."
+    },
+    {
+     "name": "London Eye",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 35,
+     "tips": "Dönme dolap; online bilet, gün batımı saati."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Tower & City",
+   "stops": [
+    {
+     "name": "Tower of London",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 37,
+     "tips": "Taç mücevherleri ve Beefeater turu; 09:00 açılışta gir, mücevherlere ilk koş. Online ~37 GBP."
+    },
+    {
+     "name": "Tower Bridge",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Köprüden yürü; cam zeminli geçit ayrı bilet (~13 GBP)."
+    },
+    {
+     "name": "St Dunstan in the East",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Bombalanmış kilisenin bahçe kalıntısı; şehrin gizli köşesi."
+    },
+    {
+     "name": "Leadenhall Market",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 15,
+     "tips": "Viktorya dönemi çarşısı (Harry Potter); pub öğle yemeği."
+    },
+    {
+     "name": "St Paul's Cathedral",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 25,
+     "tips": "Wren'in kubbesi; 528 basamakla Golden Gallery, manzara."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sky Garden",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Walkie Talkie'nin ücretsiz bahçe terası; önceden online rezervasyon."
+    },
+    {
+     "name": "The Dickens Inn St Katharine Docks",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Tower Bridge yanında marina pub'ı; fish and chips."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "British Museum & Soho",
+   "stops": [
+    {
+     "name": "British Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Rosetta Taşı ve Parthenon mermerleri; ücretsiz, 10:00 açılış, Büyük Avlu."
+    },
+    {
+     "name": "Dishoom Covent Garden",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Bombay kafesi; black daal ve bacon naan, kuyruk 20 dakika."
+    },
+    {
+     "name": "Covent Garden",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Piazza sokak gösterileri ve Apple Market."
+    },
+    {
+     "name": "Soho & Carnaby Street",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Butikler ve Chinatown; Berwick Street pazarı."
+    },
+    {
+     "name": "The French House Soho",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 12,
+     "tips": "Soho'nun edebi pub'ı; yarım pint geleneği."
+    }
+   ],
+   "backups": [
+    {
+     "name": "National Gallery",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Trafalgar'da Van Gogh ve Turner; ücretsiz, müze yerine."
+    },
+    {
+     "name": "Bao Soho",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Tayvan bao; hızlı ve ünlü."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Notting Hill, Kensington & Hyde Park",
+   "stops": [
+    {
+     "name": "Portobello Road Market",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Cumartesi antika pazarı (diğer günler dükkânlar); Notting Hill'de pastel evler."
+    },
+    {
+     "name": "Kensington Palace Gardens",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kensington Sarayı bahçeleri ve Prenses Diana anıtı; sarayın içi ~24 GBP."
+    },
+    {
+     "name": "The Churchill Arms",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 18,
+     "tips": "Çiçekle kaplı pub; içinde Tay mutfağı, Londra klasiği."
+    },
+    {
+     "name": "Natural History Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Dinozor iskeletleri ve mavi balina; ücretsiz, Hintze Hall."
+    },
+    {
+     "name": "Hyde Park & Serpentine",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Serpentine gölü ve Speakers' Corner; yazın kayık."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Victoria and Albert Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Tasarım müzesi; ücretsiz, avlu kafesi."
+    },
+    {
+     "name": "Ottolenghi Notting Hill",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "Salata ve pasta vitrini."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Camden & Regent's Park",
+   "stops": [
+    {
+     "name": "Camden Market",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "1.000 tezgah; sokak yemeği ve punk-vintage, Stables Market."
+    },
+    {
+     "name": "Camden Lock Sokak Yemekleri",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "Pazarın yemek avlusu; dünya mutfağı."
+    },
+    {
+     "name": "Regent's Canal Yürüyüşü",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "Camden'dan Little Venice'e kanal boyu; dar tekneler."
+    },
+    {
+     "name": "Primrose Hill",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Londra silüetinin en iyi ücretsiz manzarası."
+    },
+    {
+     "name": "Regent's Park Rose Garden",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Queen Mary's Gardens; yazın 12.000 gül."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Engineer Primrose Hill",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Gastropub öğle."
+    },
+    {
+     "name": "ZSL London Zoo",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 33,
+     "tips": "Regent's Park'ta hayvanat bahçesi; çocukla."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Greenwich",
+   "stops": [
+    {
+     "name": "Uber Boat Thames Clipper",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 10,
+     "tips": "Westminster'dan Greenwich'e nehir otobüsü (Oyster geçer); köprülerin altından."
+    },
+    {
+     "name": "Cutty Sark",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 20,
+     "tips": "Çay kliperi; güvertede yürü."
+    },
+    {
+     "name": "Greenwich Market",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 12,
+     "tips": "Hafta sonu el işi ve sokak yemeği pazarı."
+    },
+    {
+     "name": "Royal Observatory Greenwich",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Sıfır meridyen çizgisi ve planetaryum; parkın tepesinde manzara."
+    },
+    {
+     "name": "Greenwich Park",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Tepeden Canary Wharf ve nehir; piknik."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Goddards at Greenwich",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 10,
+     "tips": "1890'dan beri pie and mash."
+    },
+    {
+     "name": "National Maritime Museum",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Ücretsiz denizcilik müzesi; gözlemevi yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sunday roast — hafif veda",
+   "stops": [
+    {
+     "name": "Columbia Road Flower Market",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Pazar günü çiçek pazarı (diğer günler sokak kafeleri); East End."
+    },
+    {
+     "name": "Brick Lane",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Sokak sanatı, vintage ve bagel (Beigel Bake 24 saat)."
+    },
+    {
+     "name": "The Cat and Mutton Broadway Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 28,
+     "tips": "Londra'nın en iyi Sunday roast'larından; pazar rezervasyon, diğer günler pub menüsü."
+    },
+    {
+     "name": "Liverpool Street Station",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "Elizabeth Line ile Heathrow 45 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Beigel Bake Brick Lane",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 8,
+     "tips": "Tuzlu dana bagel; hızlı veda."
+    },
+    {
+     "name": "Spitalfields Market",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Kapalı pazar; Brick Lane yerine."
+    }
+   ]
+  }
+ ]
+}

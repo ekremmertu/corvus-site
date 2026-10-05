@@ -1,0 +1,477 @@
+{
+ "lang": "en",
+ "slug": "edinburgh-summer",
+ "altSlug": "edinburgh-yaz",
+ "citySlug": "edinburgh",
+ "destKey": "edinburgh",
+ "city": "Edinburgh",
+ "region": null,
+ "country": "United Kingdom",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "GBP",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 330,
+  "attractions": 180,
+  "transport": 60,
+  "misc": 70
+ },
+ "notes": [
+  "A Lothian bus day ticket costs 5.50 GBP (via the app) and the airport tram 7 GBP. Take the train to Stirling and Loch Lomond, and the 37 bus to Rosslyn. The city is hilly but walkable.",
+  "August brings the Fringe and Tattoo festivals (3,000 shows). Hotels cost three times as much, so book months ahead. Summer is 15-20°C with changeable weather, and daylight lasts until 22:00. June and July are ideal.",
+  "The castle costs 20 GBP and online tickets are mandatory. The museums (National, Galleries) are free. A pub lunch costs 15-20 GBP, a whisky tasting 25 GBP, and a tip is 10%.",
+  "Try haggis, Cullen skink, Scotch pie, cranachan and Irn-Bru. For whisky, Islay is smoky and Speyside is sweet.",
+  "You can get four seasons in an hour: carry a raincoat and dress in layers. The wind is fierce on Calton Hill and Arthur's Seat.",
+  "Harry Potter spots: Victoria Street, Greyfriars, the Elephant House, and room 552 at the Balmoral Hotel."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Royal Mile and the castle",
+   "stops": [
+    {
+     "name": "Edinburgh Castle",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 20,
+     "tips": "A fortress on a volcanic rock: the Scottish Crown Jewels, the Stone of Destiny and the 13:00 one o'clock gun. Book timed tickets online, as they sell out."
+    },
+    {
+     "name": "Royal Mile Walk",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "1.6 km from the castle to Holyrood. Take in St Giles' Cathedral (Thistle Chapel) and the closes (narrow alleys), and join a Mary King's Close tour."
+    },
+    {
+     "name": "Deacon Brodie's Tavern",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 18,
+     "tips": "Named after the thieving councillor who inspired Dr Jekyll. Try haggis, neeps and tatties."
+    },
+    {
+     "name": "The Real Mary King's Close",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 23,
+     "tips": "Buried 17th-century streets beneath the road, with tales of the plague. Book ahead."
+    },
+    {
+     "name": "Scotch Whisky Experience",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 25,
+     "tips": "A barrel ride and a tasting, plus a collection of 3,000 bottles. On Castlehill."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Oink Victoria Street",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 8,
+     "tips": "Hog roast sandwiches. Expect a queue."
+    },
+    {
+     "name": "Camera Obscura",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "An illusion tower from 1835. A swap for Mary King's Close if you have children."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Arthur's Seat and Holyrood",
+   "stops": [
+    {
+     "name": "Arthur's Seat",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "An extinct volcano, 251 m high. 45 minutes from Holyrood Park, with panoramic views of the city and the Firth of Forth. Expect wind."
+    },
+    {
+     "name": "Palace of Holyroodhouse",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 20,
+     "tips": "The monarch's palace in Scotland. See Mary, Queen of Scots' rooms and the ruined abbey."
+    },
+    {
+     "name": "The Sheep Heid Inn",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Scotland's oldest pub, dating from 1360 (a queen once visited). It has a skittles alley and a village setting in Duddingston."
+    },
+    {
+     "name": "Calton Hill",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The National Monument (an unfinished Parthenon) and the Nelson Monument. The best postcard view of the city, especially at sunset."
+    },
+    {
+     "name": "Dean Village",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "A medieval milling village on the Water of Leith. A fairy tale within the city."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dynamic Earth",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 19,
+     "tips": "A science centre telling the history of the planet. A swap for Holyrood if you have children."
+    },
+    {
+     "name": "Holyrood 9A",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 16,
+     "tips": "Burgers and craft beer, just off the Royal Mile."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "New Town and Stockbridge",
+   "stops": [
+    {
+     "name": "National Gallery of Scotland",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Free, on the Mound. See Titian, Raeburn's The Skating Minister and The Monarch of the Glen."
+    },
+    {
+     "name": "Princes Street Gardens & Scott Monument",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 8,
+     "tips": "A Gothic rocket of a monument with 287 steps. The gardens look up to the castle and have a floral clock."
+    },
+    {
+     "name": "Stockbridge Market & Circus Lane",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "The market runs on Sundays. Circus Lane is a flower-lined back street, popular for photos."
+    },
+    {
+     "name": "The Scran & Scallie",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 25,
+     "tips": "Tom Kitchin's gastropub, serving Scottish produce."
+    },
+    {
+     "name": "Royal Botanic Garden Edinburgh",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A botanic garden founded in 1670. The glasshouses are ticketed, and Inverleith Hill has views of the castle."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Scottish National Portrait Gallery",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A neo-Gothic red building. Free, with portraits of Mary Stuart."
+    },
+    {
+     "name": "The Pantry",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 15,
+     "tips": "Brunch in Stockbridge. Expect a queue."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Rosslyn and the Pentlands",
+   "stops": [
+    {
+     "name": "Rosslyn Chapel",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 12,
+     "tips": "The 1446 chapel from The Da Vinci Code. See the Apprentice Pillar and hundreds of carvings. Take the 37 bus, 40 minutes."
+    },
+    {
+     "name": "Roslin Glen Walk",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A stream valley below the chapel, with castle ruins."
+    },
+    {
+     "name": "The Original Rosslyn Inn",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 18,
+     "tips": "A village inn. Pub lunch."
+    },
+    {
+     "name": "Flotterstone, Pentland Hills",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Hills south of the city. Walk to Glencorse Reservoir past grazing sheep. Take the 101 bus."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Craigmillar Castle",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 7,
+     "tips": "A ruined castle where Mary Stuart took refuge. Inside the city, so a swap for the Pentlands."
+    },
+    {
+     "name": "Flotterstone Inn",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 18,
+     "tips": "A pub at the entrance to the Pentlands."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Stirling and Loch Lomond",
+   "stops": [
+    {
+     "name": "Stirling Castle",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 17,
+     "tips": "50 minutes by train. The castle of the Scottish kings, with the Great Hall and views of the Wallace Monument."
+    },
+    {
+     "name": "National Wallace Monument",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 11,
+     "tips": "A 67 m tower to the Braveheart hero, marking the Battle of Stirling Bridge (1297). 246 steps."
+    },
+    {
+     "name": "Stirling Old Town Lunch",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 16,
+     "tips": "A café beside the Old Town Jail. Try the Cullen skink soup."
+    },
+    {
+     "name": "Balloch, Loch Lomond",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "1 hour by tour or train. Scotland's largest loch, with Balloch Castle park and boat trips (summer)."
+    },
+    {
+     "name": "Luss",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "17:45",
+     "cost": 0,
+     "tips": "A stone village on the loch shore. Watch the sunset from the pier (by tour or car)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Doune Castle",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 10,
+     "tips": "The castle of Monty Python and Outlander. A swap for the Wallace Monument (by car)."
+    },
+    {
+     "name": "The Portcullis",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 18,
+     "tips": "A pub at the castle gate in Stirling."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Leith and Britannia",
+   "stops": [
+    {
+     "name": "Royal Yacht Britannia",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 20,
+     "tips": "The Queen's yacht from 1953 to 1997. At Leith's Ocean Terminal, with an audio guide."
+    },
+    {
+     "name": "The Shore, Leith",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The old harbour. This is the Trainspotting district, with Michelin-starred restaurants."
+    },
+    {
+     "name": "Fishers Leith",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 28,
+     "tips": "Seafood in the harbour tower. Open since 1991."
+    },
+    {
+     "name": "Water of Leith Walkway",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A 5 km riverside path from Leith to Dean Village, passing Antony Gormley statues in the water."
+    },
+    {
+     "name": "Surgeons' Hall Museums",
+     "category": "culture",
+     "start": "16:15",
+     "end": "17:15",
+     "cost": 9,
+     "tips": "A surgical museum covering the body snatchers Burke and Hare. Only if you have a strong stomach."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Kitchin",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 60,
+     "tips": "Michelin-starred. Lunch menu, so book ahead."
+    },
+    {
+     "name": "Portobello Beach",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A city beach with a Victorian promenade. A swap for Leith."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Greyfriars and a gentle farewell",
+   "stops": [
+    {
+     "name": "Greyfriars Kirkyard",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "The statue of Greyfriars Bobby the dog. Harry Potter names appear on the gravestones (Tom Riddle)."
+    },
+    {
+     "name": "The Elephant House Breakfast",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 12,
+     "tips": "The café where Rowling wrote (now reopened). The back room has views of the castle."
+    },
+    {
+     "name": "National Museum of Scotland",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Dolly the sheep and the Lewis chessmen. Free, with a roof terrace."
+    },
+    {
+     "name": "Waverley Tram to the Airport",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 7,
+     "tips": "35 minutes to the airport by tram. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mums Great Comfort Food",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 12,
+     "tips": "On Forrest Road. Sausages and mash."
+    },
+    {
+     "name": "Grassmarket Saturday Market",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "A farmers' and crafts market on Saturdays."
+    }
+   ]
+  }
+ ]
+}

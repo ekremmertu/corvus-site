@@ -1,0 +1,461 @@
+{
+ "lang": "tr",
+ "slug": "pekin-yaz",
+ "altSlug": "beijing-summer",
+ "citySlug": "pekin",
+ "destKey": "beijing",
+ "city": "Pekin",
+ "region": null,
+ "country": "Çin",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "CNY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 2000,
+  "attractions": 1200,
+  "transport": 700,
+  "misc": 400
+ },
+ "notes": [
+  "Metro 3-9 CNY, geniş ve İngilizce; Didi taksi (Alipay ile). Havalimanı ekspresi Dongzhimen. Mutianyu ve Ming için tur veya Didi.",
+  "Vize: 2026'da birçok ülkeye 30 gün vizesiz (Türkiye'yi kontrol et); Alipay/WeChat Pay yabancı kartla; VPN önceden.",
+  "Yaz 32-35°C ve nem, Temmuz-Ağustos yağmur; sur ve saraylar 08:00, öğlen müze/AVM, hava kirliliği yazın düşük.",
+  "Yasak Şehir ve Mao Mozolesi pasaportla; Yasak Şehir bileti 7 gün önce online tükenir, pazartesi kapalı.",
+  "Pekin ördeği 200-300 CNY (2 kişi), jiaozi 30-60, hot pot 150; bahşiş yok. Sokakta jianbing kahvaltı 10 CNY.",
+  "Google/WhatsApp yok; Baidu Maps veya Apple Maps çalışır."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Tiananmen & Yasak Şehir",
+   "stops": [
+    {
+     "name": "Tiananmen Square",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 0,
+     "tips": "Dünyanın en büyük meydanı; pasaport kontrolü, güvenlik kuyruğu, Mao Mozolesi sabah."
+    },
+    {
+     "name": "Forbidden City",
+     "category": "culture",
+     "start": "08:45",
+     "end": "12:30",
+     "cost": 60,
+     "tips": "Ming-Qing sarayı; pasaportla 7 gün önce online (WeChat/resmi site, tükenir), güneyden kuzeye 3,5 saat, pazartesi kapalı."
+    },
+    {
+     "name": "Jingshan Park",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 2,
+     "tips": "Yasak Şehir'in kuzeyinde tepe; altın çatıların 360° manzarası."
+    },
+    {
+     "name": "Siji Minfu Peking Duck",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 200,
+     "tips": "Jingshan yanı Pekin ördeği; Quanjude'den iyi ve uygun, kuyruk."
+    },
+    {
+     "name": "Beihai Park",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "İmparatorluk gölü ve Beyaz Dagoba; kayık."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Quanjude Qianmen",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 300,
+     "tips": "1864 Pekin ördeği kurumu; turistik ama tarihi."
+    },
+    {
+     "name": "National Museum of China",
+     "category": "culture",
+     "start": "08:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Tiananmen'de dev müze; ücretsiz, Yasak Şehir bileti yoksa."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Çin Seddi Mutianyu",
+   "stops": [
+    {
+     "name": "Mutianyu Great Wall",
+     "category": "nature",
+     "start": "08:30",
+     "end": "13:00",
+     "cost": 120,
+     "tips": "Yazın 08:30 erken çık (32°C); teleferik+kızak, su."
+    },
+    {
+     "name": "Mutianyu Köy Lokantası",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 60,
+     "tips": "Sur altında köy lokantası; alabalık ve dumpling."
+    },
+    {
+     "name": "Hongluo Temple",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 50,
+     "tips": "Dönüş yolunda dağ tapınağı; Huairou."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jinshanling Great Wall",
+     "category": "nature",
+     "start": "08:30",
+     "end": "13:00",
+     "cost": 65,
+     "tips": "Daha vahşi ve boş sur; 2,5 saat, yürüyüşçüler."
+    },
+    {
+     "name": "Subway Restaurant Mutianyu",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "Tur girişinde fast food; köy yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Cennet Tapınağı & Hutong",
+   "stops": [
+    {
+     "name": "Temple of Heaven",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 35,
+     "tips": "Mavi çatılı Hasat Duası Salonu; sabah parkta emekliler tai chi, dans ve raket."
+    },
+    {
+     "name": "Qianmen Street",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Restore Qing caddesi; Dashilan ara sokakları."
+    },
+    {
+     "name": "Liqun Roast Duck",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 250,
+     "tips": "Hutong içinde efsane ördek; rezervasyon, yıkık dökük ama iyi."
+    },
+    {
+     "name": "Shichahai & Houhai Gölü",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Göl çevresi; yazın kayık, kışın buz pateni."
+    },
+    {
+     "name": "Nanluoguxiang Hutong",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Turistik hutong sokağı; yan sokaklarda gerçek avlu evleri, rikşa turu 100 CNY."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mr. Shi's Dumplings Nanluoguxiang",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 60,
+     "tips": "Dumpling; ördek yerine."
+    },
+    {
+     "name": "Drum and Bell Towers",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "Davul kulesinde gösteri; göl yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Yazlık Saray & 798",
+   "stops": [
+    {
+     "name": "Summer Palace",
+     "category": "culture",
+     "start": "08:00",
+     "end": "11:30",
+     "cost": 60,
+     "tips": "Kunming Gölü ve Uzun Koridor; sabah boş, tekne 20 CNY, Mermer Tekne."
+    },
+    {
+     "name": "Summer Palace Suzhou Street",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 40,
+     "tips": "Saray içi kanal caddesi; atıştırma."
+    },
+    {
+     "name": "798 Art District",
+     "category": "culture",
+     "start": "13:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Eski fabrikalarda galeriler; UCCA (60 CNY), grafiti, kafeler."
+    },
+    {
+     "name": "798 Café Timezone 8",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 50,
+     "tips": "Sanat bölgesinde kafe."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Old Summer Palace Yuanmingyuan",
+     "category": "culture",
+     "start": "13:30",
+     "end": "16:00",
+     "cost": 25,
+     "tips": "Yakılmış saray harabeleri; 798 yerine."
+    },
+    {
+     "name": "Nuage Vietnamese Houhai",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 120,
+     "tips": "Göl kenarı Vietnam; akşam."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Lama Tapınağı, Konfüçyüs & Wangfujing",
+   "stops": [
+    {
+     "name": "Lama Temple Yonghegong",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 25,
+     "tips": "Tibet Budist tapınağı; 18 m tek ağaçtan Maitreya, tütsü dahil."
+    },
+    {
+     "name": "Confucius Temple Beijing",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 30,
+     "tips": "Sakin avlu ve steller; Guozijian caddesi."
+    },
+    {
+     "name": "Wudaoying Hutong",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 80,
+     "tips": "Hipster hutong; kafeler ve vegan, Lama Tapınağı yanı."
+    },
+    {
+     "name": "Wangfujing",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Alışveriş caddesi; Oriental Plaza, kitapçı."
+    },
+    {
+     "name": "Ghost Street Gui Jie",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 150,
+     "tips": "Kırmızı fenerli 24 saat yemek caddesi; malaxiaolongxia (acılı kerevit) ve hot pot."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Haidilao Hot Pot Wangfujing",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 180,
+     "tips": "Servis efsanesi hot pot zinciri."
+    },
+    {
+     "name": "Ditan Park",
+     "category": "nature",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 2,
+     "tips": "Toprak Tapınağı parkı; Konfüçyüs yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Ming Mezarları & Olimpiyat",
+   "stops": [
+    {
+     "name": "Ming Tombs Changling",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 45,
+     "tips": "Şehre 1 saat; 13 imparator mezarı, Kutsal Yol heykelleri."
+    },
+    {
+     "name": "Sacred Way Ming Tombs",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 30,
+     "tips": "Taş hayvan ve memur heykelli yol."
+    },
+    {
+     "name": "Changping Köy Lokantası",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 50,
+     "tips": "Dönüş yolunda köy yemeği; jiaozi."
+    },
+    {
+     "name": "Olympic Park Bird's Nest",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "2008 Kuş Yuvası ve Su Küpü; dıştan ücretsiz, iç 50 CNY."
+    },
+    {
+     "name": "Olympic Forest Park",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Dev park; yürüyüş ve göl."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Water Cube Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 80,
+     "tips": "Su Küpü yanında."
+    },
+    {
+     "name": "Juyongguan Great Wall",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:45",
+     "cost": 45,
+     "tips": "Ming Mezarları yanı sur geçidi; ikinci sur günü."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Jingshan sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Ritan Park",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Elçilik mahallesi parkı; sabah tai chi."
+    },
+    {
+     "name": "Sanlitun Taikoo Li",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Modern alışveriş ve Apple; kafeler."
+    },
+    {
+     "name": "Jing-A Brewing Sanlitun",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 120,
+     "tips": "Pekin'in craft birası ve burger; veda öğle yemeği."
+    },
+    {
+     "name": "Beijing Capital Airport Express Dongzhimen",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 25,
+     "tips": "Havalimanı ekspresi 25 dakika; Daxing için Caoqiao."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Xian Lao Man Dumplings",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 60,
+     "tips": "Dumpling zinciri; ucuz veda."
+    },
+    {
+     "name": "Silk Street Market",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Taklit ve ipek pazarı; pazarlık, Taikoo yerine."
+    }
+   ]
+  }
+ ]
+}

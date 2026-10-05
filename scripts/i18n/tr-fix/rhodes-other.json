@@ -1,0 +1,12 @@
+{
+ "source": "a5e0e3514ce8",
+ "model": "sonnet",
+ "strings": {
+  "d2.s0.tips": "Otobüs 1,5 saat (08:00'de kalk) veya araç. Athena Lindia tapınağı ve Aziz Paul koyu manzarası; 08:00 açılışta git (öğlen 40°C, eşek yerine yürü).",
+  "d2.s2.tips": "Kışın koy sakin; yüzmek cesaret ister.",
+  "note0": "Kiralık araç şart (Lindos/Prasonisi/batı). KTEL otobüsleri doğu kıyısında düzenli çalışır (Lindos 1,5 saat). Havalimanı otobüsü 3 EUR.",
+  "note2": "Saray 12 EUR (Nisan-Ekim), Lindos akropol 12, Symi feribotu 30; taverna 20-30; bahşişte hesabı yuvarla.",
+  "note5": "Eski şehirde yankesici az; motorlu araç girmez, bavulla yürümen gerekir."
+ },
+ "warnings": []
+}

@@ -1,0 +1,492 @@
+{
+ "lang": "tr",
+ "slug": "hong-kong-yaz",
+ "altSlug": "hong-kong-summer",
+ "citySlug": "hong-kong",
+ "destKey": "hong-kong",
+ "city": "Hong Kong",
+ "region": null,
+ "country": "Hong Kong",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "HKD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 3600,
+  "attractions": 900,
+  "transport": 800,
+  "misc": 800
+ },
+ "notes": [
+  "Octopus Card her şeyde geçer (MTR, tramvay, feribot, market); havalimanında al. Airport Express 24 dakika.",
+  "Yaz nemli ve 33°C, tayfun uyarısı olabilir (T8'de her şey kapanır); sabah gez, öğleden sonra AVM/müze.",
+  "Dim sum sabah-öğle yenir; Tim Ho Wan, Kam's Roast Goose gibi Michelin'li ucuz yerlerde kuyruk normal.",
+  "Bahşiş yok, %10 servis ekli. Nakit hâlâ yaygın; küçük lokantalar kart almaz.",
+  "Star Ferry ve Peak Tram HK'nın ritüeli; Peak'e sabah 08:00'de çık, akşam ışıkları için 19:00'da tekrar git.",
+  "Macau için pasaport; Lamma/Cheung Chau feribotları Central Pier 4-5."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Octopus Card",
+  "why_chosen": "MTR, tramvay, otobüs, Star Ferry ve marketlerde geçer; HK'de her yerde işe yarar.",
+  "coverage": "MTR, otobüs, tramvay, feribotlar, 7-Eleven ve çoğu mağaza",
+  "where_to_buy": "Havalimanı ve MTR istasyonları; 50 HKD depozito",
+  "cost": 150,
+  "currency_code": "HKD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Victoria Peak & Central",
+   "stops": [
+    {
+     "name": "Peak Tram",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 88,
+     "tips": "07:30'da ilk tramlar kuyruksuz; Victoria Peak'e 8 dakika, gidiş-dönüş ~88 HKD."
+    },
+    {
+     "name": "Victoria Peak Sky Terrace 428",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 75,
+     "tips": "Zirvedeki teras; limanın 360° manzarası, sabah sisi dağılır."
+    },
+    {
+     "name": "Peak Circle Walk",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Zirve çevresinde 3,5 km düz yürüyüş; gölgeli ve manzaralı."
+    },
+    {
+     "name": "Tim Ho Wan Central",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 120,
+     "tips": "Dünyanın en ucuz Michelin dim sum'ı; BBQ domuzlu çörek (char siu bao) şart."
+    },
+    {
+     "name": "Central Mid-Levels Escalator",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Dünyanın en uzun açık hava yürüyen merdiveni; SoHo ve Tai Kwun'a çıkar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lan Fong Yuen",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 60,
+     "tips": "1952'den beri cha chaan teng; sütlü çay ve domuz pirzolalı sandviç."
+    },
+    {
+     "name": "Tai Kwun",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Eski polis karakolu ve hapishane, ücretsiz kültür merkezi."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Kowloon & Star Ferry",
+   "stops": [
+    {
+     "name": "Star Ferry Central Pier",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "09:50",
+     "cost": 5,
+     "tips": "Central'dan Tsim Sha Tsui'ye 8 dakikalık efsane feribot; Octopus ile 5 HKD."
+    },
+    {
+     "name": "Tsim Sha Tsui Promenade",
+     "category": "nature",
+     "start": "09:50",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Avenue of Stars ve liman manzarası; sabah fotoğraf."
+    },
+    {
+     "name": "Hong Kong Museum of Art",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Liman kenarı sanat müzesi; ücretsiz, Çin kaligrafisi ve çağdaş sanat."
+    },
+    {
+     "name": "Mak's Noodle Jordan",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 70,
+     "tips": "Wonton erişte klasiği; küçük kâse, 2 tane al."
+    },
+    {
+     "name": "Temple Street Night Market",
+     "category": "shopping",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Falcılar, sokak yemeği ve ucuz eşya; akşam 18:00 sonrası canlanır, claypot rice."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Australia Dairy Company",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 60,
+     "tips": "Yumurtalı tost ve buharda süt pudingi; kuyruk hızlı."
+    },
+    {
+     "name": "Kowloon Park",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "TST'de park ve flamingolar; müze yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Lantau: Tian Tan Buddha",
+   "stops": [
+    {
+     "name": "Ngong Ping 360 Cable Car",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 300,
+     "tips": "Tung Chung'dan 25 dakikalık teleferik (~300 HKD gidiş-dönüş, cam tabanlı ekstra); deniz ve dağ manzarası."
+    },
+    {
+     "name": "Tian Tan Buddha",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "34 m bronz Buda; 268 basamak, tepeden Lantau."
+    },
+    {
+     "name": "Po Lin Manastırı",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Buda'nın altındaki manastır; vejetaryen yemek biletleri burada."
+    },
+    {
+     "name": "Po Lin Vejetaryen Restoran",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 150,
+     "tips": "Manastırın vejetaryen mutfağı; sade ve iyi."
+    },
+    {
+     "name": "Tai O Balıkçı Köyü",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Kazıklı evlerin köyü; tekne turu (pembe yunus şansı) 30 HKD, kurutulmuş balık pazarı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tai O Kurutulmuş Deniz Ürünleri Pazarı",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 100,
+     "tips": "Tai O'da ızgara deniz ürünleri; manastır yerine."
+    },
+    {
+     "name": "Cheung Sha Beach",
+     "category": "nature",
+     "start": "14:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Lantau'nun uzun kumsalı; yazın yüzme."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Mong Kok & Sham Shui Po",
+   "stops": [
+    {
+     "name": "Chi Lin Nunnery",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Tang tarzı ahşap manastır; çivi yok, lotus havuzları."
+    },
+    {
+     "name": "Nan Lian Garden",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Manastırın karşısında Çin bahçesi; altın pagoda."
+    },
+    {
+     "name": "Wong Tai Sin Temple",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Fal çubukları (kau cim) ve tütsü; HK'nın en işlek tapınağı."
+    },
+    {
+     "name": "Kwan Kee Bamboo Noodle",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 60,
+     "tips": "Sham Shui Po'da bambu sopayla yoğrulan erişte; efsane."
+    },
+    {
+     "name": "Sham Shui Po Apliu Street",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Elektronik ve kumaş pazarı; HK'nın en yerel mahallesi, sokak yemeği."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tim Ho Wan Sham Shui Po",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 120,
+     "tips": "Orijinal Tim Ho Wan şubesi."
+    },
+    {
+     "name": "Ladies' Market Mong Kok",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Turistik pazar; pazarlık."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Repulse Bay & Stanley",
+   "stops": [
+    {
+     "name": "Repulse Bay Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Adanın güneyinde kumlu plaj; şezlong bedava, duş var, sabah sakin."
+    },
+    {
+     "name": "Stanley Market",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Sahil kasabasında pazar; ipek ve hediyelik."
+    },
+    {
+     "name": "The Boathouse Stanley",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 350,
+     "tips": "Stanley sahilinde deniz ürünleri; teras."
+    },
+    {
+     "name": "Stanley Promenade",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Murray House ve sahil; kahve."
+    },
+    {
+     "name": "Shek O Beach",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Köy plajı; gün batımı yüzmesi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Stanley Plaza Food Court",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 120,
+     "tips": "Uygun öğle."
+    },
+    {
+     "name": "Deep Water Bay",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Repulse'un yanında daha sakin koy."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Lamma Island",
+   "stops": [
+    {
+     "name": "Yung Shue Wan Lamma",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Central'dan feribot 30 dakika; araçsız ada köyü, kafeler."
+    },
+    {
+     "name": "Lamma Family Trail",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Yung Shue Wan'dan Sok Kwu Wan'a 1,5 saat sahil yürüyüşü; Hung Shing Yeh plajında mola."
+    },
+    {
+     "name": "Hung Shing Yeh Beach",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Lamma'nın yüzme plajı; duş ve büfe."
+    },
+    {
+     "name": "Rainbow Seafood Lamma",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 300,
+     "tips": "Sok Kwu Wan'da deniz ürünleri; ücretsiz feribot Central'a."
+    },
+    {
+     "name": "Sok Kwu Wan Pier",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Balık çiftlikleri ve dönüş feribotu."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lamma Bookworm Cafe",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 120,
+     "tips": "Vejetaryen kafe."
+    },
+    {
+     "name": "Cheung Chau Island",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Alternatif ada; bisiklet ve plaj."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Wan Chai — hafif veda",
+   "stops": [
+    {
+     "name": "Hong Kong Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Gökdelenler arasında park; kuşhane ve göl."
+    },
+    {
+     "name": "Ding Ding Tramvay Hattı",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 3,
+     "tips": "Çift katlı tarihi tramvayla Wan Chai'ye; üst kat ön koltuk, 3 HKD."
+    },
+    {
+     "name": "Kam's Roast Goose Wan Chai",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 200,
+     "tips": "Michelin yıldızlı kaz eti; veda öğle yemeği, kuyruk 30 dakika."
+    },
+    {
+     "name": "Airport Express Hong Kong Station",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Havalimanı treni 24 dakika; şehir içi check-in."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Joy Hing Roasted Meat",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 80,
+     "tips": "Wan Chai'de ucuz char siu."
+    },
+    {
+     "name": "Blue House Wan Chai",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Mavi tarihi bina ve mahalle müzesi; tramvay yerine."
+    }
+   ]
+  }
+ ]
+}

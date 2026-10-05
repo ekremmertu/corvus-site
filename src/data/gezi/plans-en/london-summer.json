@@ -1,0 +1,492 @@
+{
+ "lang": "en",
+ "slug": "london-summer",
+ "altSlug": "londra-yaz",
+ "citySlug": "londra",
+ "destKey": "london",
+ "city": "London",
+ "region": null,
+ "country": "United Kingdom",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "GBP",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 420,
+  "attractions": 210,
+  "transport": 70,
+  "misc": 80
+ },
+ "notes": [
+  "Pay with a contactless card or Oyster for a daily cap (~9 GBP). Buses are cheaper than the Tube and the upper deck has views. Take the Elizabeth Line to Heathrow.",
+  "The big museums are free (British Museum, Tate, Natural History Museum, V&A). The Tower, Westminster Abbey and St Paul's charge entry, and online tickets are cheaper.",
+  "Summer temperatures are 20-25°C, but rain is possible. Enjoy parks and river trips in summer, with daylight lasting until 21:30.",
+  "Pub culture: order at the bar and don't tip. Restaurants may add a 12.5% service charge.",
+  "Borough Market is closed on Mondays; Portobello is a Saturday market and Columbia Road a Sunday one.",
+  "Reserve for Sunday roast. Pie and mash, fish and chips and Dishoom are London classics."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Oyster / Contactless",
+  "why_chosen": "The cheapest option thanks to the daily cap on the Tube, buses, DLR and trains. A contactless card does the same job.",
+  "coverage": "Tüm TfL ağı: Tube, otobüs, Overground, DLR, Elizabeth Line",
+  "where_to_buy": "Metro istasyonları; ya da kendi temassız kartını kullan",
+  "cost": 7,
+  "currency_code": "GBP"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Westminster and South Bank",
+   "stops": [
+    {
+     "name": "Westminster Abbey",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 30,
+     "tips": "The royal coronation church. Book tickets online (~30 GBP) and arrive at 09:30 to avoid a queue at the entrance."
+    },
+    {
+     "name": "Big Ben & Houses of Parliament",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Get the classic photo from Westminster Bridge. Parliament tours are booked separately."
+    },
+    {
+     "name": "Borough Market",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 20,
+     "tips": "London's food market: try the Kappacasein raclette and a Bread Ahead doughnut, and eat lunch standing up."
+    },
+    {
+     "name": "Tate Modern",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Modern art in a former power station. Entry is free, and the 10th-floor viewing terrace has great views."
+    },
+    {
+     "name": "South Bank Walk",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Follow the Thames from the Millennium Bridge to the London Eye, past street performers and a book market."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Padella Borough",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 18,
+     "tips": "Handmade pasta. Join the queue through the app."
+    },
+    {
+     "name": "London Eye",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 35,
+     "tips": "The observation wheel. Book online and go at sunset."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Tower and the City",
+   "stops": [
+    {
+     "name": "Tower of London",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 37,
+     "tips": "The Crown Jewels and a Beefeater tour. Enter at the 09:00 opening and head straight for the jewels. Online ~37 GBP."
+    },
+    {
+     "name": "Tower Bridge",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Walk across the bridge. The glass-floored walkway needs a separate ticket (~13 GBP)."
+    },
+    {
+     "name": "St Dunstan in the East",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The garden ruins of a bombed church, a hidden corner of the city."
+    },
+    {
+     "name": "Leadenhall Market",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 15,
+     "tips": "A Victorian market hall (seen in Harry Potter). Have a pub lunch here."
+    },
+    {
+     "name": "St Paul's Cathedral",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 25,
+     "tips": "Wren's dome. Climb 528 steps to the Golden Gallery for the view."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sky Garden",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The free garden terrace at the Walkie Talkie. Reserve online in advance."
+    },
+    {
+     "name": "The Dickens Inn St Katharine Docks",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "A marina pub next to Tower Bridge. Order the fish and chips."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "British Museum and Soho",
+   "stops": [
+    {
+     "name": "British Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The Rosetta Stone and the Parthenon marbles. Free entry, opens at 10:00, and don't miss the Great Court."
+    },
+    {
+     "name": "Dishoom Covent Garden",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "A Bombay-style café. Order the black daal and bacon naan; expect a 20-minute queue."
+    },
+    {
+     "name": "Covent Garden",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Street performances on the Piazza and the Apple Market."
+    },
+    {
+     "name": "Soho & Carnaby Street",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Boutiques and Chinatown, plus Berwick Street Market."
+    },
+    {
+     "name": "The French House Soho",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 12,
+     "tips": "Soho's literary pub, with a tradition of serving half pints."
+    }
+   ],
+   "backups": [
+    {
+     "name": "National Gallery",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Van Gogh and Turner on Trafalgar Square. Free entry; an alternative to the museum."
+    },
+    {
+     "name": "Bao Soho",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Taiwanese bao buns, quick and famous."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Notting Hill, Kensington and Hyde Park",
+   "stops": [
+    {
+     "name": "Portobello Road Market",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "The antiques market runs on Saturdays (other days only the shops are open). Look out for the pastel houses of Notting Hill."
+    },
+    {
+     "name": "Kensington Palace Gardens",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The gardens of Kensington Palace and the Princess Diana memorial. Entry to the palace itself is ~24 GBP."
+    },
+    {
+     "name": "The Churchill Arms",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 18,
+     "tips": "A pub covered in flowers, with Thai food inside. A London classic."
+    },
+    {
+     "name": "Natural History Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Dinosaur skeletons and a blue whale. Free entry; head for Hintze Hall."
+    },
+    {
+     "name": "Hyde Park & Serpentine",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "The Serpentine lake and Speakers' Corner. Rent a boat in summer."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Victoria and Albert Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A design museum. Free entry, with a café in the courtyard."
+    },
+    {
+     "name": "Ottolenghi Notting Hill",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "A display of salads and pastries."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Camden and Regent's Park",
+   "stops": [
+    {
+     "name": "Camden Market",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "1,000 stalls selling street food and punk-vintage clothes, including Stables Market."
+    },
+    {
+     "name": "Camden Lock Street Food",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "The market's food court, with cuisines from around the world."
+    },
+    {
+     "name": "Regent's Canal Walk",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "Follow the canal from Camden to Little Venice, past narrowboats."
+    },
+    {
+     "name": "Primrose Hill",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The best free view of the London skyline."
+    },
+    {
+     "name": "Regent's Park Rose Garden",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Queen Mary's Gardens, with 12,000 roses in summer."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Engineer Primrose Hill",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Gastropub lunch."
+    },
+    {
+     "name": "ZSL London Zoo",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 33,
+     "tips": "A zoo in Regent's Park, good if you're travelling with children."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Greenwich",
+   "stops": [
+    {
+     "name": "Uber Boat Thames Clipper",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 10,
+     "tips": "The river bus from Westminster to Greenwich (Oyster accepted). You pass under the bridges."
+    },
+    {
+     "name": "Cutty Sark",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 20,
+     "tips": "A tea clipper. Walk along the deck."
+    },
+    {
+     "name": "Greenwich Market",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 12,
+     "tips": "A weekend market of handicrafts and street food."
+    },
+    {
+     "name": "Royal Observatory Greenwich",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "The Prime Meridian line and a planetarium. There are views from the top of the park."
+    },
+    {
+     "name": "Greenwich Park",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "From the hill you can see Canary Wharf and the river. Good for a picnic."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Goddards at Greenwich",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 10,
+     "tips": "Pie and mash since 1890."
+    },
+    {
+     "name": "National Maritime Museum",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A free maritime museum, an alternative to the observatory."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sunday roast and a gentle farewell",
+   "stops": [
+    {
+     "name": "Columbia Road Flower Market",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A flower market on Sundays (on other days, street cafés only). In the East End."
+    },
+    {
+     "name": "Brick Lane",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Street art, vintage shops and bagels (Beigel Bake is open 24 hours)."
+    },
+    {
+     "name": "The Cat and Mutton Broadway Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 28,
+     "tips": "One of London's best Sunday roasts. Reserve for Sunday; on other days there's a pub menu."
+    },
+    {
+     "name": "Liverpool Street Station",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "Heathrow is 45 minutes away on the Elizabeth Line. Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Beigel Bake Brick Lane",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 8,
+     "tips": "Salt beef bagel, a quick farewell bite."
+    },
+    {
+     "name": "Spitalfields Market",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "An indoor market, an alternative to Brick Lane."
+    }
+   ]
+  }
+ ]
+}

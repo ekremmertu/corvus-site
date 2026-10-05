@@ -1,0 +1,520 @@
+{
+ "lang": "en",
+ "slug": "bodrum-summer",
+ "altSlug": "bodrum-yaz",
+ "citySlug": "bodrum",
+ "destKey": "bodrum",
+ "city": "Bodrum",
+ "region": "Muğla",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 18250,
+  "attractions": 6008,
+  "transport": 1250,
+  "misc": 900
+ },
+ "notes": [
+  "Cash is mostly used in tradesmen's restaurants and neighbourhood markets; cards may not work in some small places, so carry small change.",
+  "Dolmuşes within the peninsula run frequently, but the last services usually end around 23:00; for late returns, a taxi or the BiTaksi app is safer.",
+  "A 'service charge' is sometimes added automatically to restaurant bills; if it isn't, a 5-10% tip is enough and is not compulsory.",
+  "The midday sun in July (12:00-16:00) is very harsh; the plan puts swimming or a shade break in these hours. A hat and plenty of water are essential.",
+  "Clothes covering shoulders and knees are required for mosque visits in Milas; carrying a light shawl does the job.",
+  "In crowded markets and on boat tours, keep your phone and wallet in a waterproof bag.",
+  "In small village restaurants, asking questions with a smile goes down better in Aegean culture than haggling loudly."
+ ],
+ "niche": {
+  "name": "Bekiroğlu Olive Oil Factory",
+  "level": "l3",
+  "why_hidden": "A cold-pressed olive oil factory run by the same family for 80 years; the spread-style village breakfast it serves in its garden appears in no popular Bodrum guide, and only locals in the know go.",
+  "access_instructions": "About 20-25 minutes by car from central Bodrum to Yalıçiftlik via the Mumcular road. Breakfast is prepared only if you call or WhatsApp ahead; it is not possible to turn up and find a table.",
+  "local_contact": "+90 532 179 1997",
+  "season": "Open all year, but summer mornings between 09:00 and 11:00 are the most enjoyable; it gets hotter and busier towards midday.",
+  "insider_tip": "Ask which olives were pressed that week and try the fresh extra virgin on warm village bread; if you like it, you can take a vacuum-packed bottle with you.",
+  "show_reason": "Zeytin kültürü, aile hikayesi ve fotojenik bahçe kahvaltısını bir araya getiriyor; ücretsiz turistik rotaların dışında kalan, gerçek bir yerel deneyim sunuyor.",
+  "lat": 37.0028,
+  "lng": 27.5871,
+  "address": "Çiftlik Mahallesi, Kuyubaşı Cad. No:35-A/1, Yalıçiftlik, Bodrum/Muğla",
+  "cost_range_min": 700,
+  "cost_range_max": 950,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Muğla Kent Kart",
+  "why_chosen": "The one card valid on all municipal bus and dolmuş lines on the Bodrum peninsula (including Gümüşlük, Yalıkavak, Türkbükü, Bitez, Ortakent and Turgutreis); this plan needs public transport between different towns on five of the seven days. It saves you hunting for coins and is far cheaper than a taxi.",
+  "coverage": "Bodrum yarımadası geneli belediye otobüsleri ve dolmuş hatları",
+  "where_to_buy": "Bodrum Otogarı'ndaki Kent Kart basım noktası, dolum-satış otomatları (TVM) veya yetkili bayiler",
+  "cost": 100,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "The heart of Bodrum: castle, theatre and windmills",
+   "stops": [
+    {
+     "name": "Bodrum Castle and Museum of Underwater Archaeology",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 350,
+     "tips": "Built by the Knights of St John in the 15th century, the castle houses one of the world's richest underwater archaeology collections. Go early: by midday tour buses make it very crowded. Tickets are available at the box office or with Museum Pass+."
+    },
+    {
+     "name": "Bodrum Ancient Theatre",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Dating from the 4th century BC and still used for summer concerts, this ancient theatre seats 13,000. Entry is free but there is no shade, so it gets very hot at midday. The top row gives a great photo angle over the castle and harbour."
+    },
+    {
+     "name": "Sakallı Lokantası",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 800,
+     "tips": "One of the few tradesmen's restaurants in Bodrum that has survived for decades, serving daily home-style dishes you pick from the counter. The chickpea shank or aubergine moussaka comes out fresh around 13:00, and if you arrive late it runs out."
+    },
+    {
+     "name": "Kumbahçe Beach",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A completely free public beach in the town centre, with the castle on one side and open sea on the other. Bring your own towel; if you want a sunlounger from the café on the edge, it costs about 300 TL."
+    },
+    {
+     "name": "Bodrum Windmills",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "18:45",
+     "cost": 0,
+     "tips": "The stone windmills on the Bodrum-Gümbet ridge offer a 360-degree view of the castle, harbour and Kos, and are the peninsula's most iconic photo spot. Go an hour before sunset; it is free and never closes at night."
+    },
+    {
+     "name": "Körfez Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 1900,
+     "tips": "Running since 1927, this is one of Bodrum's oldest meyhanes (traditional taverns), a legacy of a family of Cretan migrants. Ask the waiter about the catch of the day, as the price varies by the kilo; in summer it is hard to find a table without a reservation."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Quzine",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 700,
+     "tips": "A 23-year-old family business, known for hand-rolled börek and gözleme varieties. If Sakallı Lokantası is full, it is a good alternative within walking distance of the centre."
+    },
+    {
+     "name": "Zeki Müren Arts Museum",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 250,
+     "tips": "A small museum converted from the artist's home in Kumbahçe, displaying his stage costumes and belongings. Closed on Mondays, otherwise open daily 09:00-17:00."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "The Aegean blue: Orak Island boat trip",
+   "stops": [
+    {
+     "name": "Vamos Bodrum",
+     "category": "food",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 450,
+     "tips": "A fresh, simple breakfast spot in the centre that locals like, ideal for a light breakfast before the boat departs. Menemen (eggs with tomatoes and peppers) or plain simit (sesame bread ring) with butter is served quickly."
+    },
+    {
+     "name": "Bodrum Orak Island Full-Day Boat Tour",
+     "category": "nature",
+     "start": "09:00",
+     "end": "16:30",
+     "cost": 2048,
+     "tips": "A full-day tour with a Turkish-speaking guide, swimming stops and lunch included, with several swimming breaks at Orak Island and the surrounding coves. Choose a waterproof sunscreen, as shade on the boat deck is limited.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Bodrum+Orak+Island+Boat+Trip",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Kocadon Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 2200,
+     "tips": "Since 1987, a romantic candlelit table in the courtyard of an old Greek house, one of Bodrum's classic dinner addresses for couples. Booking is essential in summer; ask for a courtyard table."
+    },
+    {
+     "name": "Neyzen Tevfik Caddesi Seafront Walk",
+     "category": "landmark",
+     "start": "21:30",
+     "end": "22:30",
+     "cost": 0,
+     "tips": "An evening walking route along the marina, where the castle lights reflect on the sea. With its view of yachts and gulets, it is free and always open for night photos."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Asmalı Çardak",
+     "category": "food",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 500,
+     "tips": "A simple breakfast address often recommended on local forums; fried eggs and village bread are the usual choice. A near-centre alternative if Vamos is full."
+    },
+    {
+     "name": "Bodrum Sandal Workshops (Türkkuyusu Sokağı)",
+     "category": "shopping",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "A few small workshops still make the 'Bodrum sandal' by hand, a craft that dates back to the 1970s. Don't confuse them with tourist shops: visit at least two craftsmen's shops and haggle over the price."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Gümüşlük: sunken city, village market and sunset",
+   "stops": [
+    {
+     "name": "Ancient City of Myndos (Sunken City)",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "The ruins of Myndos, founded in 640 BC, are partly underwater after earthquakes, hence the name 'Sunken City'. You can walk along the Kral Yolu (King's Road) to Rabbit Island opposite; it is free and open-air."
+    },
+    {
+     "name": "Gümüşlük Village Market",
+     "category": "shopping",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "A non-touristy neighbourhood market selling organic olive oil, cheese and honey from nearby villages; it is held on one day of the week, so check before you go. Don't leave without fresh goat's cheese and thyme."
+    },
+    {
+     "name": "Fenerci Restaurant",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 1900,
+     "tips": "A fish restaurant run by locals in Gümüşlük since 1979. The Cretan-style grilled octopus is famous, and you can eat on the shore with your feet dangling in the water."
+    },
+    {
+     "name": "Gümüşlük Beach",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Gümüşlük bay is shallow and flat, and with a ban on motorboats it offers a very calm swim. The sunloungers in front of the beachfront restaurants are usually free with a drink order."
+    },
+    {
+     "name": "Stone Path Sunset Spot",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Gümüşlük's name comes from the silver colour the sea takes on at sunset; sitting on the stone path running through the water and watching the sun set behind Rabbit Island is a classic ritual. Go early, as you need to grab a spot."
+    },
+    {
+     "name": "Limon Gümüşlük",
+     "category": "food",
+     "start": "20:30",
+     "end": "22:00",
+     "cost": 1700,
+     "tips": "One of Gümüşlük's best-known café-restaurants, right on the shore. A meze plate with fresh fish is the usual choice in the evening, and tables fill quickly after sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Little Burger Shop by the Sea",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 900,
+     "tips": "Small but full of character on the shore, a quiet favourite of local regulars; a quick stop for an unpretentious burger and a cold drink. A good alternative if Fenerci is full."
+    },
+    {
+     "name": "Karakaya Village Viewpoint",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "From this village above Gümüşlük you watch the sunset from a different angle, a bird's-eye view. If the Stone Path is crowded, heading up here is a quiet alternative."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "North coast: Yalıkavak Marina, Gündoğan Bay and Türkbükü sunset",
+   "stops": [
+    {
+     "name": "Yalıkavak Marina",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "One of the Aegean's largest luxury marinas; early morning is calmer for watching the superyachts and browsing the boutiques. Walking along the marina is free."
+    },
+    {
+     "name": "Kavaklı Köftecisi",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 700,
+     "tips": "A tradesmen's köfte (meatball) place that has served Yalıkavak's market since 1991, popular with locals. Grilled köfte with piyaz (white bean salad) and roasted peppers is the classic choice."
+    },
+    {
+     "name": "Gündoğan Beach",
+     "category": "nature",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A calm, family-friendly bay between Yalıkavak and Gölköy, surrounded by mandarin orchards. Much less crowded than Türkbükü, and the public beach section is free."
+    },
+    {
+     "name": "Türkbükü (Haremtan Bay) Sunset",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:45",
+     "cost": 0,
+     "tips": "Known as 'the Saint-Tropez of Bodrum', Türkbükü has wooden jetties stretching into the sea that look their most photogenic at sunset. You can grab a drink at one of the cafés by the jetties and watch."
+    },
+    {
+     "name": "Dalgıç Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 2200,
+     "tips": "A seafood-focused restaurant with a friendly atmosphere on the Türkbükü shore. Shrimp casserole and the catch of the day stand out, and tables fill quickly after sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eda Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 1600,
+     "tips": "A more affordable option than most of Türkbükü's venues, serving Mediterranean cuisine and seafood. A good alternative if Dalgıç is full."
+    },
+    {
+     "name": "Yalıkavak TARKO Producers' Market",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 200,
+     "tips": "A producers' market where small growers sell their own vegetables, jam and olive oil; it is held on one day of the week. If the marina is crowded, coming here gives you a more local morning."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "The south side: village breakfast, Bardakçı Bay and Bitez Beach",
+   "stops": [
+    {
+     "name": "Bekiroğlu Olive Oil Factory",
+     "category": "food",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 850,
+     "tips": "A spread-style village breakfast in the garden of an 80-year-old family business; olive oil-dressed stuffed vine leaves and freshly pressed olive oils come from the counter. It is prepared only if you call ahead, and customers who turn up unannounced are not accepted."
+    },
+    {
+     "name": "Bardakçı Bay",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Very close to central Bodrum but surprisingly calm, a wave-free and shallow bay that is comfortable even for non-swimmers. There are no noisy venues along the shore, making it a peaceful stop."
+    },
+    {
+     "name": "Kısmet Lokantası",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 800,
+     "tips": "A tradesmen's restaurant that is the locals' first choice for lunch in Konacık. The dishes cooked in olive oil are especially praised, and you shouldn't skip dessert."
+    },
+    {
+     "name": "Yağhane Bodrum",
+     "category": "shopping",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 400,
+     "tips": "A boutique shop-café in Ortakent selling olive oil, organic honey, handmade soap and ceramics. For an olive oil tasting, just ask the staff; orders are also taken via WhatsApp."
+    },
+    {
+     "name": "Pedasa Ancient City",
+     "category": "culture",
+     "start": "17:30",
+     "end": "18:45",
+     "cost": 0,
+     "tips": "On the hilltop above Konacık, this site was the largest settlement of the Leleges and offers the peninsula's postcard view at sunset. It is free and open all year, with a short walking path through the pine forest."
+    },
+    {
+     "name": "Atılay Balık",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 2100,
+     "tips": "A restaurant on Bitez beach working with the daily catch from local fishermen. Be sure to try its signature dish, Levrek Lokum (sea bass bites), which is prepared boneless."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bitez Ice Cream Shop",
+     "category": "food",
+     "start": "16:00",
+     "end": "16:30",
+     "cost": 200,
+     "tips": "Famous across the whole peninsula for ice cream made with organic fruit and pure milk. Drop in as an addition to Yağhane or as an alternative stop."
+    },
+    {
+     "name": "Ortakent-Yahşi Beach",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A longer and wider beach than Bardakçı, family-friendly and calm. If Bardakçı is crowded, this bay is a good alternative."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Day trip: Pamukkale Travertines and Hierapolis",
+   "stops": [
+    {
+     "name": "Pamukkale Travertines",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 3510,
+     "tips": "Reached after about 3.5 hours by road from Bodrum, these brilliant white limestone terraces are UNESCO-listed; you walk on them barefoot. The tour price includes transport, guiding and lunch, and an early start is required.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Pamukkale+Hierapolis+Day+Trip+from+Bodrum",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Hierapolis Ancient City",
+     "category": "culture",
+     "start": "12:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "An ancient Roman city built right above the travertines; the theatre and necropolis are worth seeing. Entering the Cleopatra Antique Pool costs extra and is not included in the tour price."
+    },
+    {
+     "name": "Karahayıt Red Water",
+     "category": "nature",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "An iron-rich red thermal spring a few kilometres from Pamukkale, a perfect contrast to Pamukkale's white. Most tour programmes include it as a short stop on the way back."
+    },
+    {
+     "name": "Zaguda",
+     "category": "food",
+     "start": "20:30",
+     "end": "22:00",
+     "cost": 1900,
+     "tips": "A local recommendation for a light but filling dinner in central Bodrum after the long journey back. Starting with a shared meze plate is a good choice."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ece Yengari Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "A local option in the Karahayıt area; it can be used as an alternative if the tour's lunch is planned elsewhere."
+    },
+    {
+     "name": "Laodicea Ancient City",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Another ancient city near Hierapolis, less crowded; some tour programmes include it. A good alternative if Hierapolis is too crowded."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Day trip: Milas history and market",
+   "stops": [
+    {
+     "name": "Beçin Castle",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 100,
+     "tips": "A castle and complex from the Menteşe Principality era, on a rocky outcrop overlooking the Milas Plain. It is about 1 hour from Bodrum by road, reachable by dolmuş (shared minibus) or car."
+    },
+    {
+     "name": "Baltalı Kapı",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The 2nd-century north gate of ancient Mylasa, which you can see on foot in the town centre. Entry is free, and it takes its name from the double-headed axe figure on it."
+    },
+    {
+     "name": "Milas Market",
+     "category": "shopping",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 200,
+     "tips": "A lively market where local producers sell fresh cheese, olives and carpets; it is held on one day of the week, so check before you go. Don't go back without Milas cheese."
+    },
+    {
+     "name": "Kardelen Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "Milas's restaurant famous for its wild greens dishes and mezes; stuffed courgette flowers and artichokes in olive oil stand out. Around 15:00 is a good time to set off back to Bodrum."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Adalılar Kebap Salonu",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 650,
+     "tips": "One of Milas's most famous restaurants; Milas köfte and kebab varieties stand out. A good alternative if Kardelen is full."
+    },
+    {
+     "name": "Milas Museum",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 100,
+     "tips": "Open since 1987, it displays finds from the Stratonikeia, Iasos and Beçin excavations. Within walking distance of Baltalı Kapı, it is a good indoor alternative if the weather is very hot."
+    }
+   ]
+  }
+ ]
+}

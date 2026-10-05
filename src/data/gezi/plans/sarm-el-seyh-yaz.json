@@ -1,0 +1,469 @@
+{
+ "lang": "tr",
+ "slug": "sarm-el-seyh-yaz",
+ "altSlug": "sharm-el-sheikh-summer",
+ "citySlug": "sarm-el-seyh",
+ "destKey": "sharm-el-sheikh",
+ "city": "Şarm El Şeyh",
+ "region": null,
+ "country": "Mısır",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EGP",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 8000,
+  "attractions": 12000,
+  "transport": 3000,
+  "misc": 2000
+ },
+ "notes": [
+  "Taksi pazarlık (Naama-Old Market 100-150 EGP) veya otel servisi; Uber/Careem sınırlı. Havalimanı 15 dakika. Turlar otelden (Ras Mohammed, Tiran, Sina, safari).",
+  "Yaz 38-42°C, kuru sıcak; deniz 28°C, harika. 11-16 arası havuz veya gölge, sabah 7'de şnorkel; Sina gece tırmanışı serin.",
+  "Sinai vizesi: yalnız Sharm/Dahab/Sina için 15 gün ücretsiz 'Sinai only' damgası; Kahire'ye geçilmez. Türk vatandaşı e-vize/varışta 25 USD.",
+  "Tur fiyatları USD: Ras Mohammed 40-60, Tiran 50, Sina 40, safari 35-60, deneme dalışı 90; restoran 200-400 EGP; bahşiş (bakşiş) her yerde 20-50 EGP.",
+  "Mercana basma yasak (ceza), resif dostu güneş kremi; su ayakkabısı; kadınlar için resort rahat, Old Market kapalı giyim.",
+  "Sinai kalamar, Mısır kahvaltısı (ful, taameya), koshari, umm ali tatlısı; alkol otellerde."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Naama Bay & resif",
+   "stops": [
+    {
+     "name": "Naama Bay Beach",
+     "category": "nature",
+     "start": "07:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Şehrin kalbi koy; otel plajları, ev resifi şnorkel (koyun kuzeyi), sabah serin."
+    },
+    {
+     "name": "Naama Bay Promenade",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Yaya promenad; kafeler, nargile, pazarlıklı dükkânlar."
+    },
+    {
+     "name": "Fares Seafood Naama",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "Sharm'ın ünlü deniz ürünleri; tezgâhtan seç, kilo ile, Sinai kalamar."
+    },
+    {
+     "name": "Otel Havuzu / Siesta",
+     "category": "nature",
+     "start": "14:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Öğlen sıcağında havuz ve gölge; Kızıldeniz sahil rutini."
+    },
+    {
+     "name": "SOHO Square Akşam",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 0,
+     "tips": "Dans eden çeşme, buz bar, Culturama; akşam eğlence."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Masrien Grill Naama",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "Mısır ızgarası; kofta ve tavuk, yerel."
+    },
+    {
+     "name": "Sharm Old Market Akşam",
+     "category": "shopping",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 0,
+     "tips": "Eski pazar; baharat, papirüs, pazarlık, El Sahaba Camisi (gece ışıklı)."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Ras Mohammed Milli Parkı",
+   "stops": [
+    {
+     "name": "Ras Mohammed National Park",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 15,
+     "tips": "Sinai'nin ucu (tekne veya araç 30 dakika); dünyanın en iyi dalış-şnorkel yerlerinden, park ücreti ~15 USD."
+    },
+    {
+     "name": "Shark Reef & Yolanda Reef Şnorkel",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Duvar resifleri; napoleon balığı, barrakuda, Yolanda gemisinin tuvaletleri."
+    },
+    {
+     "name": "Mangrove Channel & Enchanted Lagoon",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Mangrov kanalı ve tuzlu 'sihirli göl' (depremle oluşmuş)."
+    },
+    {
+     "name": "Tekne Öğle Yemeği",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Tura dahil; ızgara balık ve pilav."
+    },
+    {
+     "name": "Marsa Bareika Koyu",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Sakin koy; şnorkel ve plaj, dönüş 16:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ras Um Sid Resif",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Şehir içi burun resifi (Hadaba); tekne yoksa Farsha kafesi manzarası."
+    },
+    {
+     "name": "Farsha Café Ras Um Sid",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 150,
+     "tips": "Uçurum üstü bedevi kilimli kafe; gün batımı ve nargile."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Sina Dağı & Aziz Katerina",
+   "stops": [
+    {
+     "name": "Mount Sinai Gece Tırmanışı",
+     "category": "nature",
+     "start": "02:00",
+     "end": "06:00",
+     "cost": 10,
+     "tips": "Sharm'dan 3 saat (tur 22:00 kalkışlı); Musa'nın 10 Emir dağı 2.285 m, deve yolu + 750 basamak, gün doğumu; kışın hava -5°C olur, kaban al."
+    },
+    {
+     "name": "Gün Doğumu Zirve Şapeli",
+     "category": "nature",
+     "start": "06:00",
+     "end": "06:45",
+     "cost": 0,
+     "tips": "Kutsal Üçlü şapeli; Sina'nın kızıl dağları aydınlanır."
+    },
+    {
+     "name": "Steps of Repentance İniş",
+     "category": "nature",
+     "start": "06:45",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "3.750 basamak keşiş yolu (Elijah Havzası); dizlerini zorlar."
+    },
+    {
+     "name": "Saint Catherine's Monastery",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "6. yüzyıl UNESCO manastırı (dünyanın en eski aktifi); Yanan Çalı, Musa Kuyusu, ikonlar, cuma-pazar kapalı olabilir."
+    },
+    {
+     "name": "Aziz Katerina Köyü Bedevi Kahvaltısı",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 100,
+     "tips": "Bedevi çadırında çay, ekmek ve bal; dönüş 15:00 (öğleden sonra uyku)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dahab Blue Hole",
+     "category": "nature",
+     "start": "09:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Sina yerine: Dahab'ın efsanevi 100 m'lik Mavi Çukur'unda şnorkel (Bells), hippi kasabası, 1,5 saat."
+    },
+    {
+     "name": "Fox Camp St Catherine",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 80,
+     "tips": "Bedevi kamp kahvaltısı."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Dinlenme & Tiran Adası",
+   "stops": [
+    {
+     "name": "Tiran Island Tekne Turu",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 50,
+     "tips": "Sharm'dan 1 saat tekne (tur ~50 USD); Akabe Körfezi girişindeki ada, 4 resif (Jackson, Woodhouse, Thomas, Gordon)."
+    },
+    {
+     "name": "Jackson Reef Şnorkel",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Renkli mercan bahçesi; kaplumbağa, batık Lara."
+    },
+    {
+     "name": "Tekne Öğle Yemeği Tiran",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Güvertede öğle; dahil."
+    },
+    {
+     "name": "Gordon Reef Yüzme",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Sığ mercan platosu; Loullia batığı görünür, dönüş 15:30."
+    },
+    {
+     "name": "Naama Bay Gün Batımı Yürüyüşü",
+     "category": "nature",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Promenad ve deniz; akşam."
+    }
+   ],
+   "backups": [
+    {
+     "name": "White Island Kum Adası",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Gelgitte ortaya çıkan kum adası; Ras Mohammed turu versiyonu."
+    },
+    {
+     "name": "Camel Bar Naama",
+     "category": "food",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 100,
+     "tips": "Camel Dive Club çatı barı; dalgıç sohbeti."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Çöl safarisi & Bedeviler",
+   "stops": [
+    {
+     "name": "Wadi Mandar Quad Safari",
+     "category": "nature",
+     "start": "07:00",
+     "end": "09:30",
+     "cost": 35,
+     "tips": "Sinai çölünde ATV/quad 1,5 saat; toz, gözlük."
+    },
+    {
+     "name": "Bedevi Köyü Ziyareti",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Bedevi çayı ve ekmek pişirme; deve gezisi kısa."
+    },
+    {
+     "name": "Otel Öğle & Siesta",
+     "category": "food",
+     "start": "13:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Öğlen sıcağı; havuz, öğle."
+    },
+    {
+     "name": "Çöl Gün Batımı & Yıldız Turu",
+     "category": "nature",
+     "start": "17:30",
+     "end": "20:30",
+     "cost": 40,
+     "tips": "Deve, bedevi akşam yemeği, teleskopla yıldızlar (ışık kirliliği yok); tur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Colored Canyon Nuweiba",
+     "category": "nature",
+     "start": "07:00",
+     "end": "13:00",
+     "cost": 60,
+     "tips": "Renkli kaya kanyonu yürüyüşü (2,5 saat yol); safari yerine tam gün."
+    },
+    {
+     "name": "Bedouin Dinner Camp",
+     "category": "food",
+     "start": "17:30",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Tura dahil kuzu ve pilav."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Dalış günü (veya Dahab)",
+   "stops": [
+    {
+     "name": "Discover Scuba Diving Naama",
+     "category": "nature",
+     "start": "08:00",
+     "end": "12:00",
+     "cost": 90,
+     "tips": "Deneme dalışı (sertifikasız, eğitmenle 12 m); Camel/Emperor Divers, Kızıldeniz görüş 30 m."
+    },
+    {
+     "name": "Dalış Merkezi Kafe Öğle",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 100,
+     "tips": "Dalış sonrası; sandviç."
+    },
+    {
+     "name": "Sharm Aquarium / Old Market",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Öğleden sonra pazar ve El Sahaba Camisi; pazarlık."
+    },
+    {
+     "name": "Al Fanar Ras Um Sid Akşam",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 350,
+     "tips": "Uçurumda İtalyan deniz ürünleri; fener ve gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dahab Lighthouse Reef & Kasaba",
+     "category": "nature",
+     "start": "08:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Dahab günü: Lighthouse şnorkel, sahil kafeleri, 1,5 saat."
+    },
+    {
+     "name": "Hard Rock Cafe Naama",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 300,
+     "tips": "Akşam alternatifi; canlı müzik."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Son yüzme — hafif veda",
+   "stops": [
+    {
+     "name": "Shark's Bay Şnorkel Sabah",
+     "category": "nature",
+     "start": "07:30",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Havalimanına yakın koy; ev resifi ve iskele, son yüzme."
+    },
+    {
+     "name": "Otel Kahvaltısı",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Uzun kahvaltı; kabin bagajı."
+    },
+    {
+     "name": "Sharm Old Market Hediyelik",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Baharat, hurma, alabastır; pazarlık."
+    },
+    {
+     "name": "Sharm El Sheikh Havalimanı",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 150,
+     "tips": "Naama'dan 15 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Il Mercato Hadaba",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Açık hava AVM; pazar yerine."
+    },
+    {
+     "name": "Tam Tam Naama Kahvaltı",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:15",
+     "cost": 100,
+     "tips": "Mısır kahvaltısı: ful ve taameya."
+    }
+   ]
+  }
+ ]
+}

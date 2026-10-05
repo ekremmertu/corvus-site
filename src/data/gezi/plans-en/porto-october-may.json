@@ -1,0 +1,500 @@
+{
+ "lang": "en",
+ "slug": "porto-october-may",
+ "altSlug": "porto-ekim-mayis",
+ "citySlug": "porto",
+ "destKey": "porto",
+ "city": "Porto",
+ "region": null,
+ "country": "Portugal",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 320,
+  "attractions": 140,
+  "transport": 90,
+  "misc": 60
+ },
+ "notes": [
+  "The Andante 24-hour pass costs 7 EUR (metro and bus); metro line E reaches the airport in 30 minutes. Book CP trains to the Douro, Guimarães and Aveiro online (sit on the right for the Douro). The hills are steep.",
+  "Winters are rainy at 10-15°C (Porto is wet); September to October brings the golden Douro grape harvest, Christmas lights go up on Aliados, and April to May is ideal.",
+  "Francesinha 12-15 EUR, pastel 1.30 EUR, port tasting 20-25 EUR, Lello 10 EUR (counts towards a book), coffee 1 EUR; round up the bill as a tip.",
+  "Book Lello online for 09:00; visit Clérigos in the morning; the Douro train fills up on summer weekends, so book ahead; Bolhão market is closed.",
+  "Tripas à moda do Porto (tripe, hence the city's nickname \"tripeiros\"), bacalhau, francesinha, vinho verde, tawny and ruby port.",
+  "Ribeira is safe at night; the Gaia cellars close at 17:00."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Andante 24-hour pass",
+  "why_chosen": "Metro, bus and tram; includes metro line E to the airport",
+  "coverage": "Metro do Porto, STCP otobüs, tramvay",
+  "where_to_buy": "Metro otomatı; kart 0,60 EUR",
+  "cost": 7,
+  "currency_code": "EUR"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Ribeira and Gaia",
+   "stops": [
+    {
+     "name": "São Bento Station",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "A station hall covered in 20,000 azulejo tiles telling Portuguese history."
+    },
+    {
+     "name": "Ribeira",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "UNESCO-listed riverside quarter of colourful houses; take in Praça da Ribeira and the narrow lanes."
+    },
+    {
+     "name": "Dom Luís I Bridge",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Double-deck iron bridge by a student of Eiffel; walk across the upper level (next to the metro)."
+    },
+    {
+     "name": "Taylor's Port Cellars",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "A port wine cellar in Gaia dating from 1692; audio tour with 3 tastings and a garden terrace."
+    },
+    {
+     "name": "Jardim do Morro Sunset",
+     "category": "nature",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Garden at the bridge end; watch the Porto skyline at sunset, then take the cable car (6 EUR) down."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Graham's Port Lodge",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Vintage port and river views; an alternative to Taylor's."
+    },
+    {
+     "name": "Mosteiro da Serra do Pilar",
+     "category": "landmark",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 2,
+     "tips": "Terrace of a round monastery on the Gaia hilltop; the best view."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Baixa and Clérigos",
+   "stops": [
+    {
+     "name": "Livraria Lello",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 10,
+     "tips": "Often called the world's most beautiful bookshop (red staircase); book an online ticket for the 09:00 opening slot (the price counts towards a book)."
+    },
+    {
+     "name": "Clérigos Tower",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 8,
+     "tips": "A 76 m Baroque tower with 240 steps; panoramic city views."
+    },
+    {
+     "name": "Igreja do Carmo",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 5,
+     "tips": "Twin churches with a blue-tiled side façade; look for the 1 m-wide house between them."
+    },
+    {
+     "name": "Mercado do Bolhão",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "Restored 1914 market; cheese, tinned sardines and stalls on the upper floor."
+    },
+    {
+     "name": "Café Majestic",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 8,
+     "tips": "A 1921 Belle Époque café on Santa Catarina; pricey but worth seeing."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Casa Guedes Praça Poveiros",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 8,
+     "tips": "Pernil (roast pork leg) sandwich with Serra cheese; expect a queue."
+    },
+    {
+     "name": "Igreja de São Francisco",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 10,
+     "tips": "Baroque interior covered in gold leaf (300 kg of gold); also catacombs."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Douro Valley",
+   "stops": [
+    {
+     "name": "Pinhão Railway Station",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The Linha do Douro train from São Bento takes 2.5 hours (along the river, sit on the right-hand side); the station is decorated with tiles."
+    },
+    {
+     "name": "Quinta do Bomfim",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 25,
+     "tips": "Dow's vineyard; terrace tasting and a walk through the vines."
+    },
+    {
+     "name": "Pinhão Rabelo Boat Tour",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 15,
+     "tips": "One hour on a traditional rabelo boat; the terraced vineyards are UNESCO-listed."
+    },
+    {
+     "name": "Pinhão Lunch at Veladouro",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "Riverside tavern; try posta (veal steak) and Douro wine."
+    },
+    {
+     "name": "Miradouro de Casal de Loivos",
+     "category": "nature",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The best view of the valley (10 minutes by taxi); the return train leaves at 17:20."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Quinta das Carvalhas",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 20,
+     "tips": "Vineyard on the opposite bank; jeep tour."
+    },
+    {
+     "name": "Museu do Douro, Peso da Régua",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 7,
+     "tips": "On the way back, get off at Régua to visit the museum, then catch a later train."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Foz and Tram 1",
+   "stops": [
+    {
+     "name": "Tram 1 Ribeira–Foz",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 6,
+     "tips": "A 1930s wooden tram runs along the river to the Atlantic; board at the Infante stop."
+    },
+    {
+     "name": "Foz do Douro Lighthouse",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Lighthouse and crashing waves; see the Pérgola seafront columns."
+    },
+    {
+     "name": "Praia dos Ingleses and Seafront",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Winter Atlantic waves; stop for a coffee."
+    },
+    {
+     "name": "Casa de Pasto da Palmeira Foz",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Small plates facing the sea; modern Portuguese cooking."
+    },
+    {
+     "name": "Palácio de Cristal Gardens",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Terraced gardens with peacocks; views of the river and bridge. Take bus 500."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Serralves Museum",
+     "category": "culture",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 20,
+     "tips": "Siza's contemporary art museum and Art Deco villa park; an alternative to the Crystal Palace."
+    },
+    {
+     "name": "Brasão Cervejaria Foz",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "Francesinha (Porto's \"heart attack\" sandwich) with its sauce."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Guimarães and Braga",
+   "stops": [
+    {
+     "name": "Guimarães Castle",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 2,
+     "tips": "1 hour by train; a 10th-century castle known as the \"birthplace of Portugal\"."
+    },
+    {
+     "name": "Palace of the Dukes of Braganza",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 5,
+     "tips": "Burgundian-style ducal palace; look out for the tapestries."
+    },
+    {
+     "name": "Largo da Oliveira, Guimarães",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "UNESCO-listed medieval square; lunch at Cor de Tangerina."
+    },
+    {
+     "name": "Bom Jesus do Monte",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Take a bus or train to Braga; a Baroque zigzag staircase of 577 steps and a water-powered funicular (1882), with views."
+    },
+    {
+     "name": "Braga Cathedral",
+     "category": "culture",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 5,
+     "tips": "Portugal's oldest cathedral; then the train back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Santuário do Sameiro",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Sanctuary above Bom Jesus; views."
+    },
+    {
+     "name": "Frigideiras do Cantinho Braga",
+     "category": "food",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 6,
+     "tips": "A café dating from 1796; try the frigideira pastry."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Aveiro and Costa Nova",
+   "stops": [
+    {
+     "name": "Aveiro Moliceiro Boat",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 13,
+     "tips": "1 hour by train; canal boats in the \"Venice of Portugal\" (45 minutes) and Art Nouveau houses."
+    },
+    {
+     "name": "Ovos Moles Confeitaria Peixinho",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 5,
+     "tips": "A pastry shop from 1856; ovos moles, an egg yolk sweet (shell-shaped)."
+    },
+    {
+     "name": "Costa Nova Striped Houses",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "30 minutes by bus; candy-striped fishermen's houses (palheiros) and a beach."
+    },
+    {
+     "name": "Costa Nova Lunch at Dóri",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Lagoon-side fish restaurant; try the caldeirada (fish stew)."
+    },
+    {
+     "name": "Praia da Costa Nova",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Watch the winter waves."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Fábrica Vista Alegre",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 8,
+     "tips": "Porcelain factory museum in Ílhavo."
+    },
+    {
+     "name": "Salpoente Aveiro",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "Bacalhau tasting menu in a former salt warehouse."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Cedofeita: a gentle farewell",
+   "stops": [
+    {
+     "name": "Rua de Miguel Bombarda Galleries",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A street of art galleries; Centro Comercial Bombarda for design."
+    },
+    {
+     "name": "Cedofeita Neighbourhood",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Street art (Hazul) and cafés."
+    },
+    {
+     "name": "Manteigaria Porto",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 4,
+     "tips": "Warm pastel de nata; near Clérigos."
+    },
+    {
+     "name": "Rua das Flores",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 10,
+     "tips": "Pedestrian street; say goodbye at Casa Portuguesa do Pastel de Bacalhau."
+    },
+    {
+     "name": "Trindade Metro Airport",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 2,
+     "tips": "Metro line E, 30 minutes; farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bonjardim Grill",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 12,
+     "tips": "Piri piri chicken at a no-frills street restaurant."
+    },
+    {
+     "name": "Casa da Música",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 12,
+     "tips": "Koolhaas's white concrete concert hall; tour at 11:00, an alternative to the galleries."
+    }
+   ]
+  }
+ ]
+}

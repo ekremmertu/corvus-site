@@ -1,0 +1,18 @@
+{
+ "source": "40c8be6c857f",
+ "model": "sonnet",
+ "strings": {
+  "d1.s4.tips": "Restore edilmiş konağın altında 1730 tünelleri; tur.",
+  "d2.s0.tips": "Mermer mozole şehri; Evita'nın mezarı (Duarte), kediler, ücretsiz (yabancılara 2025'ten beri 14.000 ARS bilet).",
+  "d2.s4.tips": "'Dünyanın en iyi biftek restoranı'; rezervasyonsuzsan 18:45'te kuyruğa gir (şampanya ikram), bife de chorizo ve malbec.",
+  "d4.s0.tips": "Retiro'dan Mitre treniyle 1 saat (manzaralı alternatif: Tren de la Costa); Tigre iskelesi.",
+  "d6.s4.tips": "San Telmo'nun en geleneksel tango şovu; akşam yemeği paketi veya milonga (La Viruta, ucuz).",
+  "note1": "Ekim-Kasım: mor jakaranda ağaçları, ilkbahar (en iyi dönem). Aralık-Şubat: 30-35°C ve nem; yerliler tatilde, şehir boş. Mart-Mayıs: sonbahar.",
+  "note3": "Parrilla 30-60.000 ARS, empanada 2.000, kahve+medialuna 5.000, tango şovu 90.000+; bahşiş %10 nakit; akşam yemeği 21:00 sonrası.",
+  "note4": "Yankesiciye dikkat: Caminito'da ana sokak dışı ve Retiro otobüs terminali; telefonu sokakta gösterme. Colonia için pasaport.",
+  "note5": "Mate paylaşımı, dulce de leche, alfajor (Havanna), malbec; Recoleta pazar günü pazarı."
+ },
+ "warnings": [
+  "note2: uzunluk çok değişti → düzeltme atıldı"
+ ]
+}

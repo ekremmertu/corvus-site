@@ -1,0 +1,42 @@
+{
+ "source": "14716bc1fe7d",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Parthenon; 08:00 açılışta online saatli bilet (30 EUR, 7 site kombine 36 EUR). Yazın 12:00-17:00 arası sıcak nedeniyle kapalı olabilir.",
+  "d1.s3.tips": "1950'den beri tek çeşit souvlaki; Agia Irini meydanı, 14:00'te kapanır.",
+  "d1.b0.tips": "Kebap-pide klasiği; Monastiraki Meydanı.",
+  "d2.s0.tips": "Kombine biletle gir; Hephaistos Tapınağı en sağlam Yunan tapınağı, Stoa müzesi de var.",
+  "d2.s1.tips": "Pazar günü antika pazarı kurulur; diğer günler dükkânlar açık. Avissinias Meydanı.",
+  "d2.s4.tips": "Grafitili mahalle; gündüz kafeler ve Little Kook, akşam meyhaneler.",
+  "d2.b1.tips": "Antik mezarlık; kombine bilet geçerli, Roma Agorası'ndan daha sakin.",
+  "d3.s0.tips": "Füniküler ya da 20 dakikalık tırmanış; Atina'nın en yüksek noktası, Akropolis ve deniz manzarası.",
+  "d3.s2.tips": "Yunan tarihi ve el sanatları konağı; teras kafe var.",
+  "d3.s3.tips": "Miken altın maskesi, Antikythera mekanizması; öğle sıcağında klimalı.",
+  "d3.b0.tips": "Kolonaki'de brunch; müze yerine öğle yemeği.",
+  "d4.s0.tips": "Tramvay ve otobüsle 1 saat; termal göl ve balıklı pedikür, kışın da 22°C.",
+  "d4.s1.tips": "Riviera'da şık plaj; şezlong dahil, deniz berrak.",
+  "d4.s2.tips": "Deniz kenarında balık; Riviera klasiği.",
+  "d4.s4.tips": "Yat limanında sahil yürüyüşü ve gün batımı; Averof zırhlısı.",
+  "d4.b1.tips": "Renzo Piano parkı ve opera binası; Flisvos yerine.",
+  "d5.s0.tips": "Antik gümüş madenleri kasabası; yol üstünde, Atina'dan KTEL ile 1,5 saat.",
+  "d5.s3.tips": "Burun üstünde tapınak; gün batımı için 17:30 (kışın 16:30), Byron'ın imzası sütunda.",
+  "d6.s0.tips": "Pire'den hızlı feribotla 1,5 saat (~30 EUR); araçsız ada, eşekler ve taş konaklar.",
+  "d6.s1.tips": "Sahil yolu boyunca Kamini köyüne yürü; kayalık yüzme platformları var.",
+  "d6.s2.tips": "Kayadan denize atlama; yazın.",
+  "d6.s4.tips": "Amfitiyatro gibi kasaba; feribot 17:00'de.",
+  "d7.s0.tips": "Mermer olimpiyat stadı; pistte koşabilirsin.",
+  "d7.s3.tips": "Şarküteri-meyhane; pastırma ve peynir tabağı, veda yemeği.",
+  "d7.s4.tips": "Havalimanı metrosu 40 dakika; veda.",
+  "d7.b0.tips": "Lahmacun ve peynirli; hızlı veda yemeği.",
+  "d7.b1.tips": "Kombine bilet; dev sütunlar, stad yerine.",
+  "note0": "Metro 3 hat; havalimanı metrosu 40 dakika, 10 EUR. Riviera'ya tramvay, Sounion'a KTEL otobüsü (Pedion Areos), adalara Pire'den feribot.",
+  "note1": "Akropolis 30 EUR, online saatli; 7 site kombine 36 EUR, 5 gün geçerli; ilk pazar (Kasım-Mart) ücretsiz.",
+  "note2": "Yaz 35-40°C: Akropolis'e 08:00'de git, öğlen müzeye, öğleden sonra Riviera plajına. Ağustos'ta yerliler adalarda olur.",
+  "note3": "Souvlaki 4-5 EUR, taverna 15-25 EUR; kahve freddo espresso; bahşiş yuvarlama, coperto yok.",
+  "note4": "Yankesici metroda ve Monastiraki'de çok; Omonia gece tenha.",
+  "note5": "Pazar günü Monastiraki bit pazarı ve Syntagma töreni var; müzeler salı kapalı olabilir."
+ },
+ "warnings": [
+  "d7.s2.tips: uzunluk çok değişti → düzeltme atıldı"
+ ]
+}

@@ -1,0 +1,469 @@
+{
+ "lang": "tr",
+ "slug": "dublin-yaz",
+ "altSlug": "dublin-summer",
+ "citySlug": "dublin",
+ "destKey": "dublin",
+ "city": "Dublin",
+ "region": null,
+ "country": "İrlanda",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 400,
+  "attractions": 230,
+  "transport": 120,
+  "misc": 80
+ },
+ "notes": [
+  "Leap Visitor Card 72 saat 16 EUR (otobüs, DART, Luas); havalimanı için 747 Aircoach. Şehir yürünebilir; Howth'a DART, Glendalough'a St Kevin's Bus, Moher'e tur.",
+  "Yaz 15-20°C, değişken hava, 22:00'ye kadar aydınlık; kayalıklar ve Howth için yağmurluk şart, Ağustos kalabalık.",
+  "Pint 6-9 EUR (Temple Bar 9+), fish and chips 12-15, pub öğle yemeği 15-20; bahşiş restoranda %10, pub'da yok.",
+  "Book of Kells ve Guinness saatli online bilet ister; Kilmainham Gaol biletleri aylar önce tükenir.",
+  "Geleneksel müzik: The Cobblestone, O'Donoghue's; Temple Bar turistik ve pahalı.",
+  "Cliffs of Moher günü 12 saat sürer; yol yorucu ama İrlanda'nın en iyi manzarası."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Trinity & Temple Bar",
+   "stops": [
+    {
+     "name": "Trinity College Book of Kells",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 25,
+     "tips": "9. yüzyıl el yazması ve Long Room kütüphanesi; 10:00 için online bilet al."
+    },
+    {
+     "name": "Grafton Street",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Yaya alışveriş caddesi; sokak müzisyenleri, Bewley's kafe."
+    },
+    {
+     "name": "St Stephen's Green",
+     "category": "nature",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Viktorya dönemi parkı; ördekler ve Joyce büstü."
+    },
+    {
+     "name": "The Pig's Ear Dublin",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Trinity karşısı modern İrlanda mutfağı; öğle menüsü."
+    },
+    {
+     "name": "Temple Bar",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:30",
+     "cost": 8,
+     "tips": "Arnavut kaldırımlı pub mahallesi; The Temple Bar pub turistik (pint 9 EUR), Palace Bar yerel."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Stag's Head",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:30",
+     "cost": 7,
+     "tips": "1895 tarihli Viktorya dönemi pub'ı; Guinness ve canlı müzik."
+    },
+    {
+     "name": "Dublin Castle",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 8,
+     "tips": "Şato ve Chester Beatty Kütüphanesi (ücretsiz); Grafton Caddesi yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Guinness & Liberties",
+   "stops": [
+    {
+     "name": "St Patrick's Cathedral",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 10,
+     "tips": "İrlanda'nın en büyük katedrali; Swift'in mezarı."
+    },
+    {
+     "name": "Guinness Storehouse",
+     "category": "culture",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "7 katlı bira müzesi; Gravity Bar'da ücretsiz pint ve şehir manzarası, online bilet (26-33 EUR)."
+    },
+    {
+     "name": "The Liberties Teeling Whiskey Distillery",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Şehir içinde viski damıtımevi turu ve tadım."
+    },
+    {
+     "name": "Leo Burdock Fish and Chips",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 12,
+     "tips": "1913'ten beri Dublin'in fish and chips adresi; Christchurch yakını."
+    },
+    {
+     "name": "Christ Church Cathedral",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 10,
+     "tips": "Viking dönemi katedrali ve kripta (mumyalanmış kedi ile fare)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Brazen Head",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 18,
+     "tips": "İrlanda'nın en eski pub'ı (1198); Irish stew."
+    },
+    {
+     "name": "Kilmainham Gaol",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 8,
+     "tips": "1916 ayaklanması hapishanesi; rehberli tur, aylar önceden online bilet al."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Howth",
+   "stops": [
+    {
+     "name": "Howth Cliff Walk",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "DART ile 30 dakika; Bog of Frogs döngüsü 6 km, deniz feneri ve fok."
+    },
+    {
+     "name": "Howth Market",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Hafta sonu pazarı; el işi ve yemek tezgâhları."
+    },
+    {
+     "name": "Beshoff Bros Howth",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "Liman kenarında fish and chips; 1913'ten beri aile işletmesi."
+    },
+    {
+     "name": "Howth Harbour Fok İzleme",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Liman iskelesinde foklar ve balıkçı tekneleri."
+    },
+    {
+     "name": "Howth Castle Rhododendron Bahçesi",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Mayıs-Haziran'da çiçek; diğer aylarda park yürüyüşü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Aqua Restaurant Howth",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 30,
+     "tips": "İskele ucunda deniz ürünleri."
+    },
+    {
+     "name": "Ireland's Eye Tekne Turu",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Kuş adasına tekne; yalnız yazın."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Wicklow & Glendalough",
+   "stops": [
+    {
+     "name": "Glendalough Monastic Site",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Dublin'e 1,5 saat (St Kevin's Bus); 6. yüzyıldan kalma manastır ve yuvarlak kule, ücretsiz."
+    },
+    {
+     "name": "Glendalough Upper Lake Yürüyüşü",
+     "category": "nature",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "İki göl arasında orman ve maden köyü patikası; Spinc yolu 3 saat."
+    },
+    {
+     "name": "Wicklow Heather Restaurant Laragh",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "Laragh'ta pub-restoran; Irish stew ve viski kütüphanesi."
+    },
+    {
+     "name": "Sally Gap & Lough Tay",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Guinness Gölü manzarası; araçla veya turla, PS I Love You köprüsü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Powerscourt Estate",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 13,
+     "tips": "İrlanda'nın en güzel bahçeleri ve şelale; Sally Gap yerine."
+    },
+    {
+     "name": "Glendalough Hotel Bar",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 18,
+     "tips": "Manastır yanı pub öğle."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Kuzey Dublin: Museum & Phoenix",
+   "stops": [
+    {
+     "name": "National Museum of Ireland Archaeology",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Kelt altınları ve bataklık mumyaları; ücretsiz, Kildare Street'te."
+    },
+    {
+     "name": "EPIC The Irish Emigration Museum",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 21,
+     "tips": "Göç müzesi; CHQ binasında, interaktif."
+    },
+    {
+     "name": "Urbanity Coffee",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 15,
+     "tips": "Smithfield'da kavurma kafe; brunch."
+    },
+    {
+     "name": "Phoenix Park",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Avrupa'nın en büyük şehir parklarından biri; geyikler, Papa Haçı, bisiklet kiralama."
+    },
+    {
+     "name": "Jameson Distillery Bow St.",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:15",
+     "cost": 26,
+     "tips": "Viski tadım turu; Smithfield'da."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Cobblestone Smithfield",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:15",
+     "cost": 7,
+     "tips": "Geleneksel müzik pub'ı; her akşam canlı session."
+    },
+    {
+     "name": "Dublin Zoo",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 22,
+     "tips": "Phoenix Park içinde; park yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Cliffs of Moher",
+   "stops": [
+    {
+     "name": "Cliffs of Moher",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:30",
+     "cost": 12,
+     "tips": "Dublin'den günlük tur (~60 EUR, 3 saat yol); 214 m yüksekliğinde kayalıklar, O'Brien Kulesi, rüzgârlı, online bilet al."
+    },
+    {
+     "name": "Cliffs of Moher Visitor Centre Kafe",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 12,
+     "tips": "Ziyaretçi merkezi kafesi; çorba ve soda ekmeği."
+    },
+    {
+     "name": "The Burren",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Kireçtaşından ay manzarası; Poulnabrone dolmeni, tur güzergâhında."
+    },
+    {
+     "name": "Galway Latin Quarter",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Tur dönüşünde Galway'de 1 saat; sokak müzisyenleri, Quay Street pub'ları."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Doolin Gus O'Connor's Pub",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "Kayalıkların altındaki köyde müzik pub'ı; Doolin turunda."
+    },
+    {
+     "name": "Kilkenny & Rock of Cashel",
+     "category": "culture",
+     "start": "12:00",
+     "end": "16:30",
+     "cost": 10,
+     "tips": "Alternatif güney turu; ortaçağ şehri ve kaya kalesi."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Georgian Dublin — hafif veda",
+   "stops": [
+    {
+     "name": "Merrion Square",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Georgian kapılar ve Oscar Wilde heykeli."
+    },
+    {
+     "name": "National Gallery of Ireland",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Caravaggio ve Vermeer; ücretsiz."
+    },
+    {
+     "name": "Bewley's Grafton Street",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 14,
+     "tips": "1927'den kalma kafe; Harry Clarke vitrayları, veda kahvaltısı."
+    },
+    {
+     "name": "Ha'penny Bridge",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Liffey üzerindeki demir köprü; havalimanı otobüsü 747 O'Connell'dan 30 dakika."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Winding Stair",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 25,
+     "tips": "Kitapçının üstünde restoran; Liffey manzaralı."
+    },
+    {
+     "name": "Little Museum of Dublin",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Stephen's Green'de şehir müzesi; galeri yerine."
+    }
+   ]
+  }
+ ]
+}

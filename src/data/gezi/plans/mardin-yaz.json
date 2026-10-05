@@ -1,0 +1,461 @@
+{
+ "lang": "tr",
+ "slug": "mardin-yaz",
+ "altSlug": "mardin-summer",
+ "citySlug": "mardin",
+ "destKey": "mardin",
+ "city": "Mardin",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 6000,
+  "attractions": 600,
+  "transport": 2500,
+  "misc": 600
+ },
+ "notes": [
+  "Mardin Havalimanı şehre 20 dakika; Eski Mardin'de araç işe yaramaz, yürü. Midyat, Dara ve Nusaybin için araç veya minibüs.",
+  "Kaburga dolması önceden sipariş (Cercis Murat); mırra acı kahve, fincan geri verilir. Badem şekeri ve bıttım sabunu hediyelik.",
+  "Yaz 40°C+: sabah 08:30-12:00 ve akşam 17:00 sonrası gez, öğlen konak avlularında dinlen, 3 litre su.",
+  "Süryani kilise ve manastırlarında ayin saatlerine saygı; Deyrulzafaran rehberli tur, kısa kollu girilmez.",
+  "Eski Mardin sokakları dik ve taş; rahat ayakkabı, abbaralarda serinle.",
+  "Kasımiye gün batımı Mardin'in en ünlü anı; 1 saat önce git."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Eski Mardin",
+   "stops": [
+    {
+     "name": "Zinciriye Medresesi",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 50,
+     "tips": "Mardin'in en yüksek medresesi; kubbeli terastan Mezopotamya ovası, sabah serin."
+    },
+    {
+     "name": "Mardin Ulu Camii",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Artuklu minaresi; çarşı içinde."
+    },
+    {
+     "name": "Mardin Bakırcılar Çarşısı",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Bakır, badem şekeri, Mardin sabunu; taş sokaklarda eşekli nakliyat."
+    },
+    {
+     "name": "Cercis Murat Konağı",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 900,
+     "tips": "Taş konakta Süryani-Mardin mutfağı; kaburga dolması önceden sipariş, teras manzaralı."
+    },
+    {
+     "name": "Kasımiye Medresesi",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 50,
+     "tips": "Çift kubbeli medrese ve havuzlu avlu; gün batımında ova kızarır."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seyr-i Merdin Kafe",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "Teraslı kafe; kahve ve Mardin çöreği."
+    },
+    {
+     "name": "Mardin Müzesi",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 50,
+     "tips": "Eski patrikhanede arkeoloji müzesi; medrese yerine kapalı mekân."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Deyrulzafaran & Kırklar",
+   "stops": [
+    {
+     "name": "Deyrulzafaran Manastırı",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 150,
+     "tips": "1.500 yıllık Süryani manastırı; rehberli tur, güneş tapınağı ve patrik mezarları. Sabah ilk grup."
+    },
+    {
+     "name": "Kırklar Kilisesi",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Eski Mardin'de aktif Süryani kilisesi; sessiz avlu."
+    },
+    {
+     "name": "Antik Mardin Sofrası",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "Konak restoranında ikbebet, sembusek ve dobo."
+    },
+    {
+     "name": "Mardin Şahkulubey Konağı",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Taş konak ve avlu; çarşı sokaklarında yürüyüş."
+    },
+    {
+     "name": "Mardin Kalesi Seyir Noktası",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Kale askeri ama eteğindeki seyir noktası açık; şehir ve ova gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mardin Kebapçısı Yusuf Usta",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 400,
+     "tips": "Mardin kebabı ve içli köfte."
+    },
+    {
+     "name": "Sakıp Sabancı Mardin Kent Müzesi",
+     "category": "culture",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 50,
+     "tips": "Şehir müzesi; kapalı mekân."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Dara & Savur",
+   "stops": [
+    {
+     "name": "Dara Antik Kenti",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 100,
+     "tips": "Mardin'e 30 km; Roma sarnıcı, nekropol ve kaya mezarları, 'Mezopotamya'nın Efes'i'."
+    },
+    {
+     "name": "Dara Köy Kahvaltısı",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 300,
+     "tips": "Köy evinde Mardin kahvaltısı; dövme peynir ve yumurtalı bulgur."
+    },
+    {
+     "name": "Savur",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Küçük Mardin denen taş kasaba; kale ve konaklar, dut bahçeleri."
+    },
+    {
+     "name": "Savur Kahveci Konağı",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 150,
+     "tips": "Konakta mırra (acı kahve) ve dut pekmezi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kızıltepe Ulu Camii",
+     "category": "culture",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Artuklu camisi; Savur yerine."
+    },
+    {
+     "name": "Dara Kahve Evi",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 150,
+     "tips": "Köyde mırra."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Midyat",
+   "stops": [
+    {
+     "name": "Midyat Konukevi",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 50,
+     "tips": "Sıla dizisinin konağı; teras ve taş işçiliği, Midyat 1 saat."
+    },
+    {
+     "name": "Midyat Eski Çarşı",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Telkâri (gümüş tel) ustaları ve Süryani şarabı."
+    },
+    {
+     "name": "Mor Barsavmo Kilisesi",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Midyat'ın aktif Süryani kilisesi."
+    },
+    {
+     "name": "Midyat Kasr-ı Nehroz Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Taş konakta Süryani mutfağı; perde pilavı ve alluciye."
+    },
+    {
+     "name": "Mor Gabriel Manastırı",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Dünyanın en eski aktif manastırlarından (397); rehberli tur, mozaikler, Midyat'a 20 km."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Midyat Gelüşke Hanı",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "Handa öğle."
+    },
+    {
+     "name": "Hasankeyf",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Yeni Hasankeyf ve kale; Mor Gabriel yerine (1 saat)."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Nusaybin & Mor Yakup",
+   "stops": [
+    {
+     "name": "Mor Yakup Kilisesi Nusaybin",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "4. yüzyıl kilisesi ve Nisibis okulu kazısı; Suriye sınırında."
+    },
+    {
+     "name": "Nusaybin Zeynel Abidin Camii",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Türbe ve cami; kilisenin yanında."
+    },
+    {
+     "name": "Nusaybin Çarşı Lokantası",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "Kasaba lokantası; kaburga ve pilav."
+    },
+    {
+     "name": "Gırnavaz Höyüğü",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Nusaybin yakınında Asur höyüğü; kazı alanı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nusaybin Kahvaltıcısı",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "Kahvaltı."
+    },
+    {
+     "name": "Mardin Dara Yolu Seyir",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Ova manzarası; höyük yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Konaklar & sabun",
+   "stops": [
+    {
+     "name": "Mardin Sabun Atölyesi",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Bıttım sabunu yapımı ve alışveriş."
+    },
+    {
+     "name": "Mardin Protestan Kilisesi",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Restore kilise, kültür merkezi."
+    },
+    {
+     "name": "Mardin Abbaralar",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Evlerin altından geçen tonozlu sokaklar; serin geçitler."
+    },
+    {
+     "name": "Mardin Leyli Kahvaltı",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 400,
+     "tips": "Mardin kahvaltısı; kaymaklı bal ve sembusek."
+    },
+    {
+     "name": "Mardin Şehidiye Medresesi",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Minareli medrese ve çay bahçesi; gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mardin Mırra Evi",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 150,
+     "tips": "Mırra ve badem şekeri."
+    },
+    {
+     "name": "Latifiye Camii",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Artuklu camisi; Şehidiye yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Çarşı — hafif veda",
+   "stops": [
+    {
+     "name": "Mardin Badem Şekercisi",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Badem şekeri, Mardin sabunu ve telkâri hediyelik."
+    },
+    {
+     "name": "Mardin 1. Cadde",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Eski Mardin'in ana caddesi; son yürüyüş."
+    },
+    {
+     "name": "Mardin Kahvaltı Konağı",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 400,
+     "tips": "Veda kahvaltısı; teras."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mardin Maristan Kafe",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 250,
+     "tips": "Eski Artuklu şifahanesinde kafe; mırra ve teras."
+    },
+    {
+     "name": "Emir Hamamı Mardin",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 300,
+     "tips": "Artuklu dönemi hamamı; kese-köpük veda."
+    }
+   ]
+  }
+ ]
+}

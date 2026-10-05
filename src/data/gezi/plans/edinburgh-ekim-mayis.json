@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "edinburgh-ekim-mayis",
+ "altSlug": "edinburgh-october-may",
+ "citySlug": "edinburgh",
+ "destKey": "edinburgh",
+ "city": "Edinburgh",
+ "region": null,
+ "country": "Birleşik Krallık",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "GBP",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 330,
+  "attractions": 180,
+  "transport": 60,
+  "misc": 70
+ },
+ "notes": [
+  "Lothian otobüsü günlük 5,50 GBP (uygulama); havalimanı tramvayı 7. Stirling ve Loch Lomond'a tren; Rosslyn'e 37 numaralı otobüs. Şehir tepelik ve yürünür.",
+  "Aralıkta Hogmanay (Yılbaşı sokak partisi, meşale alayı 30 Aralık) ve Noel pazarı var; kış 3-7°C, rüzgârlı ve yağmurlu, 15:30'da hava kararır; Mayıs ideal.",
+  "Kale 20 GBP online zorunlu; müzeler (National, Galleries) ÜCRETSİZ; pub öğle 15-20, viski tadım 25; bahşiş %10.",
+  "Haggis, Cullen skink, Scotch pie, cranachan, Irn-Bru; viski: Islay (dumanlı) vs Speyside (tatlı).",
+  "Hava saatte 4 mevsim: yağmurluk ve katman; rüzgâr Calton/Arthur's Seat'te sert.",
+  "Harry Potter: Victoria Street, Greyfriars, Elephant House, Balmoral otel 552 odası."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Royal Mile & Kale",
+   "stops": [
+    {
+     "name": "Edinburgh Castle",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 20,
+     "tips": "Volkanik kaya üstü kale; İskoç Taç Mücevherleri, Kader Taşı, 13:00 top atışı, online saatli (tükenir)."
+    },
+    {
+     "name": "Royal Mile Yürüyüşü",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kaleden Holyrood'a 1,6 km; St Giles Katedrali (Thistle Şapeli), close'lar (dar geçitler), Mary King's Close turu."
+    },
+    {
+     "name": "Deacon Brodie's Tavern",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 18,
+     "tips": "Dr. Jekyll'ın ilham kaynağı olan hırsız meclis üyesi; haggis, neeps & tatties."
+    },
+    {
+     "name": "Real Mary King's Close",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 23,
+     "tips": "Sokağın altında 17. yüzyıl gömülü sokaklar; veba, rezervasyon."
+    },
+    {
+     "name": "Scotch Whisky Experience",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 25,
+     "tips": "Fıçı yolculuğu ve tadım; 3.000 şişe koleksiyonu, Castlehill."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Oink Victoria Street",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 8,
+     "tips": "Hog roast sandviç; kuyruk."
+    },
+    {
+     "name": "Camera Obscura",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "1835 illüzyon kulesi; Mary King yerine (çocukla)."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Arthur's Seat & Holyrood",
+   "stops": [
+    {
+     "name": "Arthur's Seat",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "251 m sönmüş volkan; Holyrood parkından 45 dakika, şehir ve Firth of Forth panoraması, rüzgâr."
+    },
+    {
+     "name": "Palace of Holyroodhouse",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 20,
+     "tips": "Kral'ın İskoçya sarayı; Mary Queen of Scots odaları, harabe manastır."
+    },
+    {
+     "name": "The Sheep Heid Inn Duddingston",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "1360'tan beri İskoçya'nın en eski pub'ı (Kraliçe geldi); skittles salonu, köy."
+    },
+    {
+     "name": "Calton Hill",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Ulusal Anıt (bitmemiş Parthenon), Nelson kulesi; en iyi şehir kartpostalı, gün batımı."
+    },
+    {
+     "name": "Dean Village",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Water of Leith dere kenarı ortaçağ değirmen köyü; şehir içinde masal."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dynamic Earth",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 19,
+     "tips": "Dünyanın tarihi bilim merkezi; Holyrood yerine (çocukla)."
+    },
+    {
+     "name": "Holyrood 9A",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 16,
+     "tips": "Burger ve craft bira; Royal Mile altı."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "New Town & Stockbridge",
+   "stops": [
+    {
+     "name": "Scottish National Gallery",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Mound'da ücretsiz; Titian, Raeburn'un Paten Kayan Rahibi, Monarch of the Glen."
+    },
+    {
+     "name": "Princes Street Gardens & Scott Monument",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 8,
+     "tips": "Gotik roket biçimli anıt, 287 basamak; kale manzaralı bahçe, çiçek saati."
+    },
+    {
+     "name": "Stockbridge Market & Circus Lane",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Pazar günü pazar; Circus Lane'in çiçekli arka sokağı, Instagram."
+    },
+    {
+     "name": "The Scran & Scallie Stockbridge",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 25,
+     "tips": "Tom Kitchin'in gastropub'ı; İskoç malzeme."
+    },
+    {
+     "name": "Royal Botanic Garden Edinburgh",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "1670'ten beri botanik bahçesi; seralar (ücretli), Inverleith tepesinden kale manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Scottish National Portrait Gallery",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Neogotik kırmızı bina; ücretsiz, Mary Stuart portreleri."
+    },
+    {
+     "name": "The Pantry Stockbridge",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 15,
+     "tips": "Brunch; kuyruk."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Rosslyn & Pentlands",
+   "stops": [
+    {
+     "name": "Rosslyn Chapel",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 12,
+     "tips": "Da Vinci Şifresi'nin 1446 şapeli; Çırak Sütunu ve yüzlerce oyma, 37 numaralı otobüs 40 dakika."
+    },
+    {
+     "name": "Roslin Glen Yürüyüşü",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Şapel altı dere vadisi ve kale harabesi."
+    },
+    {
+     "name": "The Original Rosslyn Inn",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 18,
+     "tips": "Köy hanı; pub öğle."
+    },
+    {
+     "name": "Pentland Hills Flotterstone",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Kış tepeleri; Hillend yapay kayak pisti alternatif."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Craigmillar Castle",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 7,
+     "tips": "Mary Stuart'ın sığındığı harabe kale; şehir içi, Pentlands yerine."
+    },
+    {
+     "name": "Flotterstone Inn",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 18,
+     "tips": "Pentlands girişi pub."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Stirling & Loch Lomond",
+   "stops": [
+    {
+     "name": "Stirling Castle",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 17,
+     "tips": "Tren 50 dakika; İskoç kralların şatosu, Büyük Salon ve Wallace anıtı manzarası."
+    },
+    {
+     "name": "National Wallace Monument",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 11,
+     "tips": "Braveheart'ın 67 m kulesi; Stirling köprüsü savaşı 1297, 246 basamak."
+    },
+    {
+     "name": "Stirling Old Town Öğle",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 16,
+     "tips": "Old Town Jail yanı kafe; Cullen skink çorbası."
+    },
+    {
+     "name": "Loch Lomond Balloch",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Kış göl kıyısı; Luss köyü (araçla)."
+    },
+    {
+     "name": "Luss Köyü",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "17:45",
+     "cost": 0,
+     "tips": "Göl kıyısı taş köy; iskele gün batımı (tur/araçla)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Doune Castle",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 10,
+     "tips": "Monty Python ve Outlander kalesi; Wallace yerine (araçla)."
+    },
+    {
+     "name": "The Portcullis Stirling",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 18,
+     "tips": "Kale kapısı pub."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Leith & Britannia",
+   "stops": [
+    {
+     "name": "Royal Yacht Britannia",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 20,
+     "tips": "Kraliçe'nin 1953-97 yatı; Leith Ocean Terminal, sesli rehber."
+    },
+    {
+     "name": "The Shore Leith",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Eski liman; Trainspotting mahallesi, Michelin restoranları."
+    },
+    {
+     "name": "Fishers Leith",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 28,
+     "tips": "Liman kulesinde deniz ürünleri; 1991."
+    },
+    {
+     "name": "Water of Leith Walkway",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Dere yolu Leith'ten Dean Village'a 5 km; Antony Gormley heykelleri suda."
+    },
+    {
+     "name": "Surgeons' Hall Museums",
+     "category": "culture",
+     "start": "16:15",
+     "end": "17:15",
+     "cost": 9,
+     "tips": "Cerrahi müzesi; Burke ve Hare ceset hırsızları, kalp dayanıklıysa."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Kitchin Leith",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 60,
+     "tips": "Michelin yıldızlı; öğle menüsü rezervasyon."
+    },
+    {
+     "name": "Portobello Beach",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Şehir plajı ve Viktorya promenadı; Leith yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Greyfriars — hafif veda",
+   "stops": [
+    {
+     "name": "Greyfriars Kirkyard",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Greyfriars Bobby köpek heykeli; Harry Potter isimleri mezar taşlarında (Tom Riddle)."
+    },
+    {
+     "name": "The Elephant House Kahvaltı",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 12,
+     "tips": "Rowling'in yazdığı kafe (yeniden açıldı); kale manzaralı arka oda."
+    },
+    {
+     "name": "National Museum of Scotland",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Koyun Dolly, Lewis satranç taşları; ücretsiz, çatı terası."
+    },
+    {
+     "name": "Waverley Tram Havalimanı",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 7,
+     "tips": "Tramvayla havalimanı 35 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mums Great Comfort Food",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 12,
+     "tips": "Forrest Road; sosis ve püre."
+    },
+    {
+     "name": "Grassmarket Cumartesi Pazarı",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Cumartesi çiftçi ve zanaat pazarı."
+    }
+   ]
+  }
+ ]
+}

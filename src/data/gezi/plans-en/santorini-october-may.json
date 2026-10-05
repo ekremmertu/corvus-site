@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "santorini-october-may",
+ "altSlug": "santorini-ekim-mayis",
+ "citySlug": "santorini",
+ "destKey": "santorini",
+ "city": "Santorini",
+ "region": null,
+ "country": "Greece",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 420,
+  "attractions": 220,
+  "transport": 150,
+  "misc": 80
+ },
+ "notes": [
+  "KTEL buses run from Fira (Oia 20 min, Perissa 30 min, 2 EUR). ATV or scooter 25-40 EUR/day. Taxis are scarce (25-40 EUR). Buses serve the airport and Athinios port.",
+  "From November to March most hotels and restaurants are closed and it is 12-16°C; the caldera is empty, melancholy and beautiful. April-May and October are ideal (sea 20-23°C, sunset at 19:00).",
+  "Akrotiri 12 EUR, Thera 6, volcano tour 30-50, catamaran 120+, wine tasting 20-30. Caldera restaurants 30-50, Perissa 15-20. For tips, round up the bill.",
+  "Fava (yellow split pea purée), tomatokeftedes, chlorotyri cheese, white aubergine, Assyrtiko and Vinsanto. Santorini tomatoes are tiny.",
+  "Do the caldera hike at 07:00-08:00 (in summer). Donkey rides are available. Luggage can't be wheeled in Oia (steps), so stay in Fira or Imerovigli.",
+  "The hot springs stain swimsuits. Red Beach has a rockfall warning."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Fira and the caldera",
+   "stops": [
+    {
+     "name": "Fira Caldera Walking Path",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Fira's caldera edge: white cubes and blue domes, with the volcano across the water."
+    },
+    {
+     "name": "Museum of Prehistoric Thera",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 6,
+     "tips": "Akrotiri frescoes (the Blue Monkeys). Small but a must."
+    },
+    {
+     "name": "Fira Catholic Cathedral & Streets",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "White-and-yellow cathedral, Gold Street shops, donkey rides."
+    },
+    {
+     "name": "Argo Restaurant Fira",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Caldera views; fish and fava."
+    },
+    {
+     "name": "Fira Cable Car & Old Port at Sunset",
+     "category": "nature",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 6,
+     "tips": "Take the cable car (6 EUR) down to the old port for ship lights. Return by cable car or the 588 steps."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lucky's Souvlakis Fira",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 6,
+     "tips": "Cheap gyros, instead of caldera prices."
+    },
+    {
+     "name": "Santozeum / Megaro Gyzi",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 4,
+     "tips": "Photos of the 1956 earthquake in the Gyzi mansion; a museum alternative."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Caldera hike Fira to Oia",
+   "stops": [
+    {
+     "name": "Skaros Rock",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "1 hour from Fira along the caldera path (set off at 07:00 in summer). A Venetian fortress rock below Imerovigli with the best views, free."
+    },
+    {
+     "name": "Imerovigli–Oia Trail",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Profitis Ilias chapel and a ridge of volcanic rock, then the descent into Oia. Carry 1.5 litres of water."
+    },
+    {
+     "name": "Melitini Oia",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Meze restaurant in Oia for lunch, with a sea-view terrace."
+    },
+    {
+     "name": "Ammoudi Bay",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Winter cove with fish tavernas (some open)."
+    },
+    {
+     "name": "Oia Castle",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Ruins of the Agios Nikolaos fortress and the world-famous sunset. Grab a spot 1 hour early (or book a restaurant). Expect crowds and a bus back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sunset Ammoudi Taverna",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 35,
+     "tips": "Grilled octopus by the bay at Ammoudi."
+    },
+    {
+     "name": "Atlantis Books Oia",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Cave-like bookshop, instead of the bay."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Volcano and hot springs",
+   "stops": [
+    {
+     "name": "Nea Kameni Volcano Boat",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 30,
+     "tips": "Boat from the old port (tour 30-50 EUR) to the volcanic island."
+    },
+    {
+     "name": "Nea Kameni Crater Walk",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 5,
+     "tips": "Black lava path 130 m up to the crater, with sulphur fumes. Park fee 5 EUR."
+    },
+    {
+     "name": "Palea Kameni Hot Springs",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Jump off the boat and swim to muddy 35°C water (wear a dark swimsuit)."
+    },
+    {
+     "name": "Thirassia Island Lunch",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "Quiet island across the caldera. Taverna in Korfos village (if included in your tour), steps up to Manolas."
+    },
+    {
+     "name": "Return to Oia via Ammoudi",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The boat returns to Ammoudi or Fira."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Catamaran Caldera Cruise",
+     "category": "nature",
+     "start": "10:30",
+     "end": "16:30",
+     "cost": 120,
+     "tips": "Catamaran trip to Red Beach, White Beach and the hot springs, with food and drinks included. An alternative to the volcano tour (afternoon sunset version)."
+    },
+    {
+     "name": "To Psaraki Vlychada",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "Fish at Vlychada harbour, if you skip the tour."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Akrotiri and Red Beach",
+   "stops": [
+    {
+     "name": "Akrotiri Archaeological Site",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 12,
+     "tips": "The Minoan Pompeii of 1600 BC (three-storey houses under ash). Covered roof, go in the morning."
+    },
+    {
+     "name": "Red Beach",
+     "category": "nature",
+     "start": "10:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A winter view of the cliffs."
+    },
+    {
+     "name": "Akrotiri Lighthouse",
+     "category": "nature",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "1892 lighthouse at the island's southwestern tip, with views."
+    },
+    {
+     "name": "The Cave of Nikolas Akrotiri",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Beach taverna in Akrotiri: tomatokeftedes (tomato fritters) and fava."
+    },
+    {
+     "name": "Vlychada Beach",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "In winter: the tomato factory museum and white cliffs."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tomato Industrial Museum Vlychada",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 6,
+     "tips": "1945 tomato paste factory, telling the story of Santorini's tiny tomatoes."
+    },
+    {
+     "name": "Dolphins Akrotiri Beach Taverna",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 22,
+     "tips": "Wooden taverna over the water."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Wine route: Pyrgos and Megalochori",
+   "stops": [
+    {
+     "name": "Pyrgos Village & Kastelli",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The island's highest village, with a Venetian castle quarter and 360° views. Few tourists."
+    },
+    {
+     "name": "Santo Wines Pyrgos",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Cooperative with caldera views. Taste Assyrtiko and Vinsanto (6 wines) with meze."
+    },
+    {
+     "name": "Megalochori",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Quiet village with a bell tower, wine cellars and a square."
+    },
+    {
+     "name": "Venetsanos Winery",
+     "category": "food",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 20,
+     "tips": "1947 winery carved into the cliff. Go early for sunset."
+    },
+    {
+     "name": "Domaine Sigalas Oia",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 30,
+     "tips": "In winter, Sigalas is by appointment only."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Art Space Winery Exo Gonia",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 10,
+     "tips": "Art gallery in a cave winery, instead of Venetsanos."
+    },
+    {
+     "name": "Metaxy Mas Exo Gonia",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Locals' favourite taverna. Book ahead; an alternative to Santo."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "East coast beaches: Perissa and Kamari",
+   "stops": [
+    {
+     "name": "Ancient Thera",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 6,
+     "tips": "Dorian-Roman city on Mesa Vouno mountain. Zigzag road up from Kamari (taxi or scooter), with the agora and sea views."
+    },
+    {
+     "name": "Perissa Black Beach",
+     "category": "nature",
+     "start": "10:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A winter walk on black sand."
+    },
+    {
+     "name": "Perivolos Tranquilo Beach Bar",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 18,
+     "tips": "Sustainable beach bar serving couscous and burgers."
+    },
+    {
+     "name": "Kamari Beach",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Across from Perissa (a mountain separates them). Promenade and black pebbles, plus an open-air cinema (summer)."
+    },
+    {
+     "name": "Kamari Open Air Cinema",
+     "category": "culture",
+     "start": "21:00",
+     "end": "23:00",
+     "cost": 8,
+     "tips": "In winter, an evening stroll along the Kamari promenade."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Monastery Kamari",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "Restaurant in a monastery courtyard in Kamari."
+    },
+    {
+     "name": "Eleftherios Venizelos Museum Kamari",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Small museum, a rainy-day alternative to the beach."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Imerovigli morning and farewell",
+   "stops": [
+    {
+     "name": "Mezzo Imerovigli Breakfast",
+     "category": "food",
+     "start": "08:30",
+     "end": "09:45",
+     "cost": 20,
+     "tips": "Breakfast with caldera views, quiet in the morning. Greek yoghurt and honey."
+    },
+    {
+     "name": "Anastasi Church Imerovigli",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Blue dome and bell. Visit after breakfast."
+    },
+    {
+     "name": "Fira Factory Souvenirs",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Vinsanto, capers, fava and volcanic stone souvenirs in Fira."
+    },
+    {
+     "name": "Santorini Airport",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 2,
+     "tips": "From Fira: bus 20 minutes or taxi 25 EUR. Farewell (30 minutes to Athinios port for the ferry)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mama's House Fira Breakfast",
+     "category": "food",
+     "start": "08:30",
+     "end": "09:45",
+     "cost": 10,
+     "tips": "Legendary cheap giant breakfast, near Fira bus station."
+    },
+    {
+     "name": "Skaros Morning Walk",
+     "category": "nature",
+     "start": "09:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Return to the rock, instead of souvenir shopping."
+    }
+   ]
+  }
+ ]
+}

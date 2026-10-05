@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "delhi-yaz",
+ "altSlug": "delhi-summer",
+ "citySlug": "delhi",
+ "destKey": "delhi",
+ "city": "Delhi",
+ "region": null,
+ "country": "Hindistan",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "INR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 8000,
+  "attractions": 7500,
+  "transport": 6000,
+  "misc": 3000
+ },
+ "notes": [
+  "Delhi Metro temiz, ucuz ve klimalı (kadın vagonu var). Uber/Ola güvenli; otorikşada pazarlık et. Agra'ya Gatimaan Express, Jaipur'a Shatabdi.",
+  "Haziran-Eylül'de 38-45°C ve muson var: sabah 08:00-11:00 ve 16:00 sonrası gez, öğlen klimalı mekânda ol, günde 3-4 litre su iç, Taj'ı gün doğumunda gör.",
+  "Anıt girişleri yabancı için 500-600 INR (Hintli için 35); online ASI bileti kuyruğu atlatır. Taj cuma, Red Fort pazartesi kapalı.",
+  "Sokak yemeği pişmiş ve sıcak seç, buz ve çiğ salata atla; şişe su. Delhi belly için probiyotik.",
+  "Tapınak ve camilerde ayakkabı çıkar, omuz ve dizler kapalı olsun; Sih gurdwara'larda başın örtülü olsun, yemek ücretsiz.",
+  "Bahşiş %10; pazarlık her yerde geçerli, ilk fiyatın üçte birinden başla."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Eski Delhi",
+   "stops": [
+    {
+     "name": "Jama Masjid",
+     "category": "culture",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 300,
+     "tips": "Hindistan'ın en büyük camisi; minare bileti manzara, omuz-diz kapalı, ayakkabı dışarıda."
+    },
+    {
+     "name": "Chandni Chowk",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Eski Delhi'nin ana çarşısı; rikşayla dar sokaklar, baharat pazarı Khari Baoli."
+    },
+    {
+     "name": "Paranthe Wali Gali",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 150,
+     "tips": "Yağda kızarmış dolgulu paratha sokağı; 1870'lerden beri, 3-4 çeşit."
+    },
+    {
+     "name": "Red Fort",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "Şah Cihan'ın kırmızı kalesi; UNESCO, yabancı 600 INR, pazartesi kapalı."
+    },
+    {
+     "name": "Karim's Jama Masjid",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 400,
+     "tips": "1913'ten beri Babür mutfağı; mutton burra ve nihari, camiye bakan sokakta."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Al Jawahar Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 350,
+     "tips": "Karim's'in karşısındaki rakip; kebap ve korma."
+    },
+    {
+     "name": "Gurudwara Sis Ganj Sahib",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Chandni Chowk'ta Sih tapınağı; ücretsiz langar yemeği, başın örtülü olsun."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Yeni Delhi: Humayun & Lodhi",
+   "stops": [
+    {
+     "name": "Humayun's Tomb",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 600,
+     "tips": "Taj Mahal'in öncüsü Babür türbesi; sabah ışığı, bahçeler."
+    },
+    {
+     "name": "Nizamuddin Dargah",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Sufi türbesi; perşembe akşamı qawwali müziği, dar sokaklar."
+    },
+    {
+     "name": "Lodhi Garden",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "15. yüzyıl türbeleri arasında park; Delhi'nin en sakin yeri."
+    },
+    {
+     "name": "Khan Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Şık çarşı; Khan Chacha'da kathi roll, kitapçılar."
+    },
+    {
+     "name": "India Gate",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Savaş anıtı ve Rajpath; akşam aileler ve dondurma."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sodabottleopenerwala Khan Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Parsi kafe; berry pulao."
+    },
+    {
+     "name": "National Museum Delhi",
+     "category": "culture",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 650,
+     "tips": "Harappa ve Babür minyatürleri; sıcakta kapalı mekân."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Qutub & Güney Delhi",
+   "stops": [
+    {
+     "name": "Qutub Minar",
+     "category": "culture",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 600,
+     "tips": "73 m 12. yüzyıl minaresi ve paslanmayan demir sütun; sabah serin."
+    },
+    {
+     "name": "Mehrauli Archaeological Park",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Qutub'un yanında ücretsiz kalıntı parkı; Jamali Kamali."
+    },
+    {
+     "name": "Hauz Khas Village",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Göl kenarı medrese kalıntıları ve butikler; kafeler."
+    },
+    {
+     "name": "Hauz Khas Social",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Göl manzaralı kafe-bar; öğle."
+    },
+    {
+     "name": "Lotus Temple",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Bahai lotus tapınağı; sessizlik, pazartesi kapalı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Naivedyam Hauz Khas",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "Güney Hint dosa; vejetaryen."
+    },
+    {
+     "name": "Dilli Haat INA",
+     "category": "shopping",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 30,
+     "tips": "El sanatları ve eyalet mutfakları pazarı; tapınak yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Agra: Taj Mahal",
+   "stops": [
+    {
+     "name": "Taj Mahal",
+     "category": "culture",
+     "start": "06:30",
+     "end": "09:00",
+     "cost": 1300,
+     "tips": "Gatimaan Express 08:10 (1,5 saat) ya da araçla 05:00 çıkış; gün doğumu bileti (1.100 + 200 mezar), cuma kapalı, ayakkabı kılıfı verilir."
+    },
+    {
+     "name": "Agra Fort",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 650,
+     "tips": "Şah Cihan'ın hapsedildiği kale; Taj'ı nehir üstünden gör."
+    },
+    {
+     "name": "Pinch of Spice Agra",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 500,
+     "tips": "Agra'da Kuzey Hint mutfağı; klimalı."
+    },
+    {
+     "name": "Itmad-ud-Daulah (Baby Taj)",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 310,
+     "tips": "Mermer kakma öncüsü küçük türbe; kalabalık yok."
+    },
+    {
+     "name": "Mehtab Bagh",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 300,
+     "tips": "Nehir karşısı bahçe; muson ayında yeşil."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Joney's Place Agra",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 200,
+     "tips": "Sırt çantacı klasiği; lassi."
+    },
+    {
+     "name": "Fatehpur Sikri",
+     "category": "culture",
+     "start": "13:15",
+     "end": "16:00",
+     "cost": 610,
+     "tips": "Terk edilmiş Babür başkenti (40 km); Baby Taj yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Jaipur",
+   "stops": [
+    {
+     "name": "Amber Fort",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 550,
+     "tips": "Delhi'den tren/araç 4-5 saat (bir gece kalınırsa ideal); tepede ayna sarayı, fil yerine cip."
+    },
+    {
+     "name": "Hawa Mahal",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 200,
+     "tips": "Rüzgâr Sarayı cephesi; karşıdaki kafeden fotoğraf."
+    },
+    {
+     "name": "City Palace Jaipur",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "Maharaja sarayı ve müze; Pembe Şehir'in kalbi."
+    },
+    {
+     "name": "Laxmi Misthan Bhandar",
+     "category": "food",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 300,
+     "tips": "1727'den beri tatlıcı-lokanta; dal bati ve ghewar."
+    },
+    {
+     "name": "Johari Bazaar",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Mücevher ve blok baskı kumaş çarşısı; pazarlık."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jantar Mantar Jaipur",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 200,
+     "tips": "Dev taş gözlemevi aletleri; saray yerine."
+    },
+    {
+     "name": "Rawat Misthan Bhandar",
+     "category": "food",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 150,
+     "tips": "Pyaz kachori; Jaipur'un sokak lezzeti."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Connaught Place & Akshardham",
+   "stops": [
+    {
+     "name": "Akshardham Temple",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Dev modern Hindu tapınağı kompleksi; telefon-kamera yasak (emanet), sergiler ~250 INR."
+    },
+    {
+     "name": "Connaught Place",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Beyaz sütunlu dairesel çarşı; Delhi'nin merkezi."
+    },
+    {
+     "name": "Saravana Bhavan Connaught Place",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 350,
+     "tips": "Güney Hint thali ve dosa; klimalı."
+    },
+    {
+     "name": "Janpath Market",
+     "category": "shopping",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "Tibet pazarı ve tekstil; pazarlık."
+    },
+    {
+     "name": "Gurudwara Bangla Sahib",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Altın kubbeli Sih tapınağı ve kutsal havuz; langar mutfağı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kake Da Hotel Connaught",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 300,
+     "tips": "Punjabi et yemekleri; 1931'den beri."
+    },
+    {
+     "name": "Agrasen ki Baoli",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "Basamaklı kuyu; Janpath yakınında fotoğraf."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sabah pazarı — hafif veda",
+   "stops": [
+    {
+     "name": "Sunder Nursery",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 100,
+     "tips": "Humayun yanında restore Babür bahçesi; sabah yürüyüş, pazar günü organik pazar."
+    },
+    {
+     "name": "Cafe Lota Pragati Maidan",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 500,
+     "tips": "El sanatları müzesi bahçesinde modern Hint kahvaltı-öğle; veda."
+    },
+    {
+     "name": "National Crafts Museum",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 200,
+     "tips": "El sanatları müzesi ve usta tezgahları; hediyelik."
+    },
+    {
+     "name": "Delhi Metro Airport Express",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "New Delhi istasyonundan havalimanına 20 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Andhra Bhavan Canteen",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 200,
+     "tips": "Ucuz sınırsız thali; Delhi efsanesi."
+    },
+    {
+     "name": "Purana Qila",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 300,
+     "tips": "Eski Kale ve göl; müze yerine."
+    }
+   ]
+  }
+ ]
+}

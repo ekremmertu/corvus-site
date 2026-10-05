@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "kahire-yaz",
+ "altSlug": "cairo-summer",
+ "citySlug": "kahire",
+ "destKey": "cairo",
+ "city": "Kahire",
+ "region": null,
+ "country": "Mısır",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EGP",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 6500,
+  "attractions": 7500,
+  "transport": 3500,
+  "misc": 2000
+ },
+ "notes": [
+  "Uber/Careem güvenli ve ucuz; taksiye taksimetre açtıramazsın, pazarlık et. Kıpti Kahire'ye Metro 1. hat (Mar Girgis). Giza'ya trafikle 1 saat.",
+  "Haziran-Eylül 38-42°C: piramitler 07:00, müzeler öğlen, Nil akşam; şapka, 3 litre su.",
+  "Anıt girişleri yalnız kartla (2026), nakit yok; GEM online saatli bilet, Giza içi Keops 1.500 EGP.",
+  "Koshary 50-80 EGP, ful-ta'meya 30, restoran 300-600; bahşiş (baksheesh) her yerde 20-50 EGP, restoranda %10.",
+  "Piramitlerde 'ücretsiz' fotoğraf/deve teklifi yok; 'la shukran' de ve yürü. Kadınlar omuzları ve dizleri kapalı, rahat giyinsin.",
+  "Camilerde ayakkabı çıkar, başörtüsü; cuma öğle namazı saatinde ziyaret yok."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Giza Piramitleri & Sfenks",
+   "stops": [
+    {
+     "name": "Giza Pyramids",
+     "category": "culture",
+     "start": "07:00",
+     "end": "10:00",
+     "cost": 700,
+     "tips": "Keops, Kefren, Mikerinos; 07:00 açılışta serin ve boş, Keops içi ek 1.500 EGP (dar tünel), deve pazarlığı 200-300 EGP, kart ödeme."
+    },
+    {
+     "name": "Great Sphinx of Giza",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Piramit biletiyle; Vadi Tapınağı'ndan yaklaş, sabah ışığı yüze vurur."
+    },
+    {
+     "name": "Panorama Point Giza",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Üç piramidi birden gören çöl noktası; klasik fotoğraf."
+    },
+    {
+     "name": "Khufu's Restaurant Giza",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 900,
+     "tips": "Piramit manzaralı modern Mısır mutfağı; rezervasyon, 9 Pyramids Lounge alternatif."
+    },
+    {
+     "name": "Giza Sound and Light Show",
+     "category": "culture",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 600,
+     "tips": "Sfenks önünde ışık-ses gösterisi; gece serin, önden bilet."
+    }
+   ],
+   "backups": [
+    {
+     "name": "9 Pyramids Lounge",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 500,
+     "tips": "Çölde piramit manzaralı öğle; Khufu's doluysa."
+    },
+    {
+     "name": "Giza Deve Turu",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 300,
+     "tips": "Çölde 30 dakika deve; fiyatı önceden sabitle."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Grand Egyptian Museum",
+   "stops": [
+    {
+     "name": "Grand Egyptian Museum",
+     "category": "culture",
+     "start": "08:30",
+     "end": "12:30",
+     "cost": 1450,
+     "tips": "2025'te açılan dev müze; Tutankhamun'un tüm hazinesi (5.000 parça) ve Keops güneş teknesi, online saatli bilet (~1.450 EGP), 3-4 saat, sabah slotu."
+    },
+    {
+     "name": "GEM Food Court",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "Müze içi yemek alanı; piramit manzaralı."
+    },
+    {
+     "name": "Grand Egyptian Museum Bahçesi & Obelisk",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Asılı obelisk ve dış avlu; piramit siluetiyle fotoğraf."
+    },
+    {
+     "name": "Koshary Abou Tarek",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 80,
+     "tips": "1950'lerden beri Kahire'nin en ünlü koshary'si (pirinç-mercimek-makarna); Downtown, 4 katlı, 80 EGP."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zooba Downtown",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 150,
+     "tips": "Modern Mısır sokak yemeği; ta'meya ve hawawshi."
+    },
+    {
+     "name": "Egyptian Museum Tahrir",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 550,
+     "tips": "Eski müze; GEM'e taşınmayan mumyalar ve eserler."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "İslami Kahire & Khan el-Khalili",
+   "stops": [
+    {
+     "name": "Citadel of Saladin & Muhammad Ali Mosque",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 550,
+     "tips": "Kale ve alabastır cami; terasta Kahire manzarası ve piramitler."
+    },
+    {
+     "name": "Sultan Hassan Mosque",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 300,
+     "tips": "Memlük şaheseri; dev avlu ve sükûnet."
+    },
+    {
+     "name": "Al-Muizz Street",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Fatımi caddesi; camiler, sebiller ve Beyt el-Suheymi evi, gece ışıklı."
+    },
+    {
+     "name": "Naguib Mahfouz Cafe",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 400,
+     "tips": "Khan el-Khalili'nin içinde Oberoi işletmesi; molokhia ve nane çayı, klimalı."
+    },
+    {
+     "name": "Khan el-Khalili",
+     "category": "shopping",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "14. yüzyıl çarşısı; bakır, baharat, papirüs; pazarlık ilk fiyatın üçte biri, El Fishawy kahvesi 24 saat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Fishawy Cafe",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 100,
+     "tips": "1773'ten beri aynalı kahve; nane çayı ve shisha."
+    },
+    {
+     "name": "Al-Azhar Mosque",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "970'ten beri üniversite-cami; Sultan Hassan yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Kıpti Kahire & Nil",
+   "stops": [
+    {
+     "name": "Hanging Church",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Roma kalesi üstüne kurulu 3. yüzyıl kilisesi; Kıpti Kahire, Mar Girgis metrosu."
+    },
+    {
+     "name": "Coptic Museum",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 300,
+     "tips": "Kıpti sanatı ve Nag Hammadi metinleri."
+    },
+    {
+     "name": "Ben Ezra Synagogue",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Musa'nın bulunduğu söylenen yer; Kahire Geniza."
+    },
+    {
+     "name": "Abou El Sid Zamalek",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 450,
+     "tips": "Zamalek'te 1920'ler dekorlu Mısır mutfağı; güvercin dolması ve molokhia."
+    },
+    {
+     "name": "Nil Felucca Turu",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 400,
+     "tips": "Zamalek'ten yelkenli felucca 1 saat; gün batımı, tekne başı pazarlık."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sequoia Zamalek",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 600,
+     "tips": "Nil kenarı teras; shisha ve meze, felucca yerine."
+    },
+    {
+     "name": "Cairo Tower",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 300,
+     "tips": "Zamalek'te 187 m kule; şehir manzarası."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Saqqara, Dahshur & Memphis",
+   "stops": [
+    {
+     "name": "Saqqara Step Pyramid",
+     "category": "culture",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 700,
+     "tips": "Dünyanın en eski piramidi (Djoser); Serapeum yeraltı boğa lahitleri ek bilet, sabah serin."
+    },
+    {
+     "name": "Dahshur Red Pyramid",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 150,
+     "tips": "Kırmızı Piramit'in içine giriş dahil (dik tünel); Bükük Piramit yanında, turist az."
+    },
+    {
+     "name": "Memphis Open Air Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 200,
+     "tips": "Eski başkent; Ramses II dev heykeli ve alabastır sfenks."
+    },
+    {
+     "name": "Saqqara Country Club Öğle",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 400,
+     "tips": "Palmiyeler arasında çiftlik restoranı; ızgara ve Mısır ekmeği."
+    },
+    {
+     "name": "Sakkara Halı Okulu",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "El dokuma halı atölyesi; baskı yok, izle."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Abou Shakra Giza",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 350,
+     "tips": "Kebap klasiği; dönüşte."
+    },
+    {
+     "name": "Bent Pyramid Dahshur",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Bükük Piramit içi; Kırmızı yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "İskenderiye",
+   "stops": [
+    {
+     "name": "Bibliotheca Alexandrina",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 70,
+     "tips": "Kahire'den tren 2,5 saat; modern kütüphane ve müzeler, disk şekilli bina."
+    },
+    {
+     "name": "Qaitbay Citadel",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 150,
+     "tips": "Antik deniz fenerinin yerindeki 15. yüzyıl kalesi; Akdeniz manzarası."
+    },
+    {
+     "name": "Fish Market Restaurant Alexandria",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Kornişte balık; tezgahtan seç, Akdeniz manzaralı."
+    },
+    {
+     "name": "Kom El Shoqafa Catacombs",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 200,
+     "tips": "Roma dönemi yeraltı mezarları; Mısır-Yunan karışımı."
+    },
+    {
+     "name": "Alexandria Corniche",
+     "category": "nature",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Sahil bulvarı yürüyüşü ve Montaza'ya tramvay; dönüş treni 18:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mohamed Ahmed Foul Alexandria",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 100,
+     "tips": "İskenderiye'nin ful ve falafel klasiği."
+    },
+    {
+     "name": "Pompey's Pillar",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 100,
+     "tips": "Roma sütunu; katakomp yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Zamalek sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Gezira Island Zamalek Yürüyüşü",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Ada mahallesi; sarmaşıklı elçilik sokakları ve Nil."
+    },
+    {
+     "name": "Aisha Fahmy Palace",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 50,
+     "tips": "Zamalek'te art nouveau saray-galeri."
+    },
+    {
+     "name": "Ovio Zamalek",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 300,
+     "tips": "Zamalek'in kahvaltı-brunch kafesi; veda."
+    },
+    {
+     "name": "Zamalek Nil Kenarı Son Çay",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 100,
+     "tips": "Nil manzaralı kafede son çay; havalimanı 45 dakika."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cairo Kitchen Zamalek",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 250,
+     "tips": "Ev yemekleri; Ovio yerine."
+    },
+    {
+     "name": "Museum of Islamic Art Cairo",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 300,
+     "tips": "Dünyanın en iyi İslam sanatı koleksiyonlarından; Zamalek yerine."
+    }
+   ]
+  }
+ ]
+}

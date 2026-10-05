@@ -1,0 +1,493 @@
+{
+ "lang": "en",
+ "slug": "nice-october-may",
+ "altSlug": "nice-ekim-mayis",
+ "citySlug": "nice",
+ "destKey": "nice",
+ "city": "Nice",
+ "region": null,
+ "country": "France",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 380,
+  "attractions": 150,
+  "transport": 60,
+  "misc": 70
+ },
+ "notes": [
+  "A Lignes d'Azur ticket costs 1.50 EUR (bus and tram), or 5 EUR for a day pass; TER trains run along the coast (Monaco 20 min, Cannes 30 min). Tram 2 goes to the airport.",
+  "Winter is sunny at 12-15°C (Europe's winter retreat). February brings the Nice Carnival and the Menton Lemon Festival. April-May and October are ideal, and the sea is warm enough for swimming until October.",
+  "Socca 4 EUR, pan bagnat 6, salade niçoise 15, restaurants 25-40, museums 10 (Nice museum pass 15 EUR/3 days); round up the bill for a tip.",
+  "Monaco's casino is open to tourists before 14:00 and has an evening dress code; go to Èze in the morning; book ahead for La Colombe d'Or, and remember La Merenda has no phone.",
+  "Watch for pickpockets on tram 1 and at Cours Saleya; don't leave belongings on the beaches.",
+  "Rosé de Provence, pastis, tarte tropézienne; Nice's cuisine blends Italian and Provençal."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old Nice and Castle Hill",
+   "stops": [
+    {
+     "name": "Cours Saleya Market",
+     "category": "food",
+     "start": "08:30",
+     "end": "09:45",
+     "cost": 8,
+     "tips": "Flower and food market (antiques on Mondays); try socca (chickpea pancake) at the Chez Thérésa stand, and pan bagnat."
+    },
+    {
+     "name": "Vieux Nice Streets",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Ochre-coloured Italianate streets; Sainte-Réparate cathedral, Fenocchio ice cream (100 flavours)."
+    },
+    {
+     "name": "Colline du Château",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Castle hill with a waterfall and views over the Baie des Anges; free lift (Bellanda tower)."
+    },
+    {
+     "name": "Chez Pipo",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "Wood-fired socca since 1923; next to Port Lympia, expect a queue."
+    },
+    {
+     "name": "Promenade des Anglais",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "A winter stroll along the promenade and its blue chairs; sunny 15°C."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Fenocchio Glacier",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 5,
+     "tips": "Lavender, olive and beer ice cream; on Place Rossetti."
+    },
+    {
+     "name": "Palais Lascaris",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 5,
+     "tips": "Baroque palace with a collection of musical instruments; in Vieux Nice."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Cimiez: Chagall and Matisse",
+   "stops": [
+    {
+     "name": "Musée National Marc Chagall",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 10,
+     "tips": "The 17 paintings of the Biblical Message and stained glass; in Cimiez, bus 15, closed Tuesdays."
+    },
+    {
+     "name": "Musée Matisse",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 10,
+     "tips": "Red Genoese villa; Matisse's cut-outs, olive-grove park (Roman arena)."
+    },
+    {
+     "name": "Café Matisse Cimiez",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Café in the museum park; salade niçoise."
+    },
+    {
+     "name": "Place Masséna",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Red-paved square with statues of the 7 continents (lit up at night); by tram."
+    },
+    {
+     "name": "Promenade du Paillon",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Park with a water mirror; walk from Masséna to MAMAC."
+    }
+   ],
+   "backups": [
+    {
+     "name": "MAMAC",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "Modern art (Klein, Niki de Saint Phalle); free rooftop terrace."
+    },
+    {
+     "name": "Lou Pilha Leva Vieux Nice",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 10,
+     "tips": "Socca, pissaladière and beignets eaten standing up."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Monaco and Èze",
+   "stops": [
+    {
+     "name": "Èze Village",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Bus 82/112 (1.50 EUR) or train to Èze-sur-Mer; 1 hour climb up the Nietzsche Path. Medieval eagle's-nest village with a Fragonard perfume factory."
+    },
+    {
+     "name": "Monte-Carlo Casino",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 19,
+     "tips": "Belle Époque casino (entry 19 EUR, visit before 14:00); Café de Paris, Ferraris."
+    },
+    {
+     "name": "Monaco-Ville Rock and Prince's Palace",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "The old town on the Rock; changing of the guard at 11:55, Cathedral (Grace Kelly's tomb)."
+    },
+    {
+     "name": "Marché de la Condamine",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 15,
+     "tips": "Monaco's market food hall; barbagiuan and socca, the affordable side of Monaco."
+    },
+    {
+     "name": "Oceanographic Museum",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:15",
+     "cost": 19,
+     "tips": "Cousteau's aquarium on the cliff edge; rooftop views."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jardin Exotique de Monaco",
+     "category": "nature",
+     "start": "15:45",
+     "end": "17:15",
+     "cost": 8,
+     "tips": "Monaco's cactus garden and cave; an alternative to the aquarium."
+    },
+    {
+     "name": "Le Nid d'Aigle Èze",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 25,
+     "tips": "Terrace restaurant at the top of the village."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Villefranche and Cap Ferrat",
+   "stops": [
+    {
+     "name": "Villefranche-sur-Mer",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "7 minutes by train; colourful harbour, Cocteau's Saint-Pierre chapel, Rue Obscure tunnel."
+    },
+    {
+     "name": "Plage des Marinières",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Winter walk along the bay."
+    },
+    {
+     "name": "Villa Ephrussi de Rothschild",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 17,
+     "tips": "Pink villa with 9 themed gardens; musical fountains every 20 minutes, tea room."
+    },
+    {
+     "name": "Sentier du Littoral Cap Ferrat",
+     "category": "nature",
+     "start": "14:45",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Coastal path around the peninsula; Saint-Jean harbour, Paloma beach."
+    },
+    {
+     "name": "Saint-Jean-Cap-Ferrat Harbour",
+     "category": "food",
+     "start": "16:15",
+     "end": "17:15",
+     "cost": 15,
+     "tips": "Harbour café; a billionaires' village among the Rothschild villas."
+    }
+   ],
+   "backups": [
+    {
+     "name": "La Mère Germaine Villefranche",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 50,
+     "tips": "Harbour restaurant since 1938; bouillabaisse."
+    },
+    {
+     "name": "Villa Kérylos Beaulieu",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 13,
+     "tips": "Replica of a Greek villa on the seafront; an alternative to Ephrussi."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Antibes and Cannes",
+   "stops": [
+    {
+     "name": "Marché Provençal Antibes",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 10,
+     "tips": "25 minutes by train; covered Provençal market, olives and tapenade."
+    },
+    {
+     "name": "Musée Picasso Antibes",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 8,
+     "tips": "Picasso's 1946 studio in the Grimaldi castle; sculptures on the sea terrace."
+    },
+    {
+     "name": "Cannes La Croisette",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "10 minutes by train; handprints at the Palais des Festivals, palm trees."
+    },
+    {
+     "name": "Le Suquet Cannes",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 25,
+     "tips": "Old town hill; lunch near Marché Forville with views over the harbour."
+    },
+    {
+     "name": "Île Sainte-Marguerite",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 16,
+     "tips": "Quiet in winter; forest walk."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Plage de la Gravette Antibes",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Cove beneath the ramparts; swimming."
+    },
+    {
+     "name": "Astoux et Brun Cannes",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 35,
+     "tips": "Seafood since 1953; oysters."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Saint-Paul-de-Vence and Fondation Maeght",
+   "stops": [
+    {
+     "name": "Saint-Paul-de-Vence",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Train to Cagnes plus bus 655; walled artists' village, Chagall's grave, galleries, pétanque at Café de la Place."
+    },
+    {
+     "name": "Fondation Maeght",
+     "category": "culture",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 16,
+     "tips": "Miró labyrinth, Giacometti courtyard, Chagall mosaic; one of Europe's finest modern art foundations."
+    },
+    {
+     "name": "La Colombe d'Or",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:45",
+     "cost": 60,
+     "tips": "The inn where Picasso and Matisse left paintings in exchange for meals; terrace (reservation needed) or café outside meal service."
+    },
+    {
+     "name": "Chapelle du Rosaire Vence",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:00",
+     "cost": 7,
+     "tips": "The chapel Matisse called his masterpiece; check its afternoon opening hours."
+    },
+    {
+     "name": "Vence Old Town",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "Medieval town; Chagall mosaic in the cathedral, then the bus back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Le Tilleul Saint-Paul",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:45",
+     "cost": 30,
+     "tips": "Terrace under a linden tree; a good alternative to the Colombe."
+    },
+    {
+     "name": "Renoir Museum Cagnes",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:45",
+     "cost": 6,
+     "tips": "Renoir's last home, set in an olive grove; an alternative to Vence."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Seaside morning and a gentle farewell",
+   "stops": [
+    {
+     "name": "Plage Beau Rivage Morning Swim",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Winter run along the promenade."
+    },
+    {
+     "name": "Marché de la Libération",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:15",
+     "cost": 8,
+     "tips": "The locals' market (Gare du Sud); pissaladière and cheese."
+    },
+    {
+     "name": "Confiserie Florian",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Crystallised flowers and fruit sweets; by the harbour, good for souvenirs."
+    },
+    {
+     "name": "La Merenda",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 30,
+     "tips": "A Niçoise legend with 12 tables, no phone and no cards; daube and stockfish, a farewell meal."
+    },
+    {
+     "name": "Tram 2 to the Airport",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 2,
+     "tips": "25 minutes to the airport on tram 2; farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Le Safari Cours Saleya",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 30,
+     "tips": "Niçoise classics on the market terrace."
+    },
+    {
+     "name": "Musée Masséna",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 10,
+     "tips": "Belle Époque villa and the history of Nice; on the Promenade."
+    }
+   ]
+  }
+ ]
+}

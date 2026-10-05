@@ -1,0 +1,478 @@
+{
+ "lang": "tr",
+ "slug": "cesme-yaz",
+ "altSlug": "cesme-summer",
+ "citySlug": "cesme",
+ "destKey": "cesme",
+ "city": "Çeşme",
+ "region": "İzmir",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 13100,
+  "attractions": 7310,
+  "transport": 1800,
+  "misc": 500
+ },
+ "notes": [
+  "Yaz ayında (Temmuz-Ağustos) Çeşme'de kartla ödeme her yerde geçerli ama Dalyan/Ildırı gibi küçük balıkçı lokantalarında nakit indirim isteyebilirsin; yanında 1000-2000 TL nakit bulundur.",
+  "Şehir içi ve kasabalar arası ulaşımda dolmuş/minibüs yoğun saatlerde (17:00-19:00) sık aksar; taksi veya İzmirim Kart'lı belediye otobüsü daha güvenilir.",
+  "Restoranlarda garson bahşişi hesabın %5-10'u nakit bırakılır; plaj kulüplerinde şezlong görevlisine ayrı küçük bahşiş beklenir.",
+  "Alaçatı ve Çeşme merkezde taş sokaklar öğleden sonra çok sıcak olur (Temmuz'da 35°C+); sabah 09:00-11:00 ve akşam 18:00 sonrası gezi için en serin saatler.",
+  "Camiler ve Rum kiliseleri gibi ibadet mekânlarına girerken omuz ve diz kapatan kıyafet tercih et, plaj kıyafetiyle girme.",
+  "Ildırı, Boyabağı gibi ıssız koylarda değerli eşya bırakma; akşam 21:00 sonrası bu bölgelerin yolları aydınlatmasız olabilir, araçla git.",
+  "Windsurf/kitesurf bölgelerinde (Pırlanta, Alaçatı Körfezi) yüzerken sörfçü rotalarından uzak dur, cankurtaran bayraklarını takip et."
+ ],
+ "niche": {
+  "name": "Erythrai Antik Kenti (Ildır Ören Yeri)",
+  "level": "l2",
+  "why_hidden": "Çeşme'ye gelen turistlerin neredeyse tamamı sahil ve plaj odaklı geziyor; İyon Birliği'nin 12 kurucu kentinden biri olan bu antik şehir, Homeros'un 'güneşin en güzel battığı yer' dediği akropolüyle birlikte neredeyse boş kalıyor. Ana akım Çeşme rehberleri Alaçatı'yı ve plajları öne çıkarırken bu ören yerine değinmiyor bile.",
+  "access_instructions": "Çeşme merkezden Ildır yönüne D-300 üzerinden araçla yaklaşık 25 dakika; köy girişindeki kahverengi kültür tabelasını takip et. Ören yeri bekçisi genelde Nisan-Ekim arası 08:30-17:00 saatlerinde görevde, otopark köy meydanında.",
+  "local_contact": "Çeşme Müze Müdürlüğü +90 232 712 66 08 (güncel ziyaret saati ve bekçi durumu için arayın)",
+  "season": "Nisan-Ekim arası açık; en iyi ziyaret zamanı öğleden sonra geç saat, gün batımına yakın (akropolden Ege ve adalar manzarası için).",
+  "insider_tip": "Akropole çıkan patika işaretsizdir; köylülerden 'tiyatroya giden yol' diye sor. Gölge yoktur, mutlaka su ve şapka götür. Ziyaretten sonra köydeki balık restoranlarında gün batımında akşam yemeği yemek iyi bir kapanış olur.",
+  "show_reason": "Tarihi katman, ücretsize yakın giriş ve fotojenik akropol manzarası bir arada; plaj ve tekne turu imajının gölgesinde kalan gerçek bir 'bilen bilir' deneyimi sunuyor.",
+  "lat": 38.408,
+  "lng": 26.499,
+  "address": "Ildır Köyü Ören Yeri, Çeşme, İzmir",
+  "cost_range_min": 50,
+  "cost_range_max": 150,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "İzmirim Kart",
+  "why_chosen": "İzmirim Kart, Çeşme-Alaçatı-Ilıca-Dalyan-Urla-İzmir arasını kapsayan ESHOT/İZULAŞ otobüs hatlarında geçerli. Planımızdaki merkez içi hareketlerde (Alaçatı-Çeşme merkez-Ilıca) dolmuşa göre daha ucuz ve öngörülebilir. Karaburun günübirlik gezisi ve Ildırı gibi otobüs hattının zayıf olduğu yerlerde taksi ya da araç kiralamayla tamamlaman gerekir, ama şehir içi günlerde tek kart yeterli.",
+  "coverage": "Çeşme merkez, Alaçatı, Ilıca, Dalyan, Urla ve İzmir arası ESHOT/İZULAŞ otobüs hatları",
+  "where_to_buy": "Çeşme Otogarı gişesi, İzmirim Kart bayisi marketler veya İzmirimKart mobil uygulaması üzerinden sanal kart",
+  "cost": 150,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Alaçatı'nın taş sokakları ve rüzgârlı tarihi",
+   "stops": [
+    {
+     "name": "Kemalpaşa Caddesi ve Hacımemiş Mahallesi Yürüyüşü",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Araç trafiğine kapalı ana caddede sabah erken saatte kalabalık olmadan Rum taş evlerini ve sanat galerilerini gez. Hacımemiş tarafı daha sakin ve bohem, antika dükkânlarına göz at."
+    },
+    {
+     "name": "Alaçatı Yel Değirmenleri Parkı",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 150,
+     "tips": "150 yıllık değirmenlerin yanındaki kafede damla sakızlı kahveyi mutlaka dene, kişi başı yaklaşık 100-150 TL. Fotoğraf için değirmenlerin arka tarafı daha az kalabalık."
+    },
+    {
+     "name": "Katre",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 850,
+     "tips": "Organik köy kahvaltısı yapan bahçeli bir mekân; otlu yumurta ve ev yapımı reçelleri iste. Yaz sabahları dolar, bahçede masa için 12:30 gibi git."
+    },
+    {
+     "name": "Alaçatı Plajı",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 400,
+     "tips": "Şezlong+şemsiye kişi başı yaklaşık 350-450 TL. Rüzgâr öğleden sonra artar, sörfçüleri izlemek için sahilin körfez tarafına geç."
+    },
+    {
+     "name": "Tokmak Hasan'ın Yeri",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 750,
+     "tips": "Yerlilerin gittiği samimi bir esnaf lokantası; günün etli yemeğini ve dönerini sor, fiyat/performans çok iyi. Rezervasyon gerekmez ama hafta sonu 19:30'dan önce git."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Noni's House",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 800,
+     "tips": "Salaş ambiyanslı bahçede serpme kahvaltı; ev yapımı böreklerini dene. Katre doluysa doğrudan buraya geç."
+    },
+    {
+     "name": "Ayios Konstantinos ve Eleni Kilisesi (Alaçatı Rum Kilisesi)",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "1874 yapımı Rum kilisesi, girişi ücretsiz. Saygılı davran, iç mekânda flaşsız fotoğraf çek."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Çeşme'nin koyları ve adaları tekneyle, akşamı Dalyan'da",
+   "stops": [
+    {
+     "name": "Çeşme: Barbekü Öğle Yemekli Adalar ve Koylar Tekne Turu",
+     "category": "nature",
+     "start": "09:30",
+     "end": "17:30",
+     "cost": 3510,
+     "tips": "Fiyata öğle barbeküsü dahil; mayo, havlu ve güneş kremi götür. Rezervasyonu bir gün önceden yap. Kalkış noktası genelde Çeşme/Dalyan iskelesi; bilette yazan saatten 20 dk önce orada ol.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cesme+BBQ+Lunch+Boat+Trip+Islands+and+Bays",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Boyalık Plajı",
+     "category": "nature",
+     "start": "17:45",
+     "end": "19:00",
+     "cost": 300,
+     "tips": "Tekneden indikten sonra günün son ışığında kısa bir serinleme için ideal; şezlong kiralamadan yalnızca halk kısmında yüzebilirsin, giriş ücretsiz."
+    },
+    {
+     "name": "Cevat'ın Yeri",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1800,
+     "tips": "Dalyanköy'ün onlarca yıllık balıkçı klasiği; ızgara ahtapot ve deniz börülcesini kaçırma. Yazın rezervasyon şart, 0542 724 7045'ten ara."
+    },
+    {
+     "name": "Dalyan İskele Gece Yürüyüşü",
+     "category": "landmark",
+     "start": "21:15",
+     "end": "21:45",
+     "cost": 0,
+     "tips": "Balıkçı teknelerinin bağlı olduğu iskelede sakin bir akşam yürüyüşü; ışıklar yanınca (gün batımından hemen sonra) fotoğraf için en güzel saat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Defne Yaprağı Balık Restaurant Dalyanköy",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1700,
+     "tips": "Cevat'ın Yeri doluysa aynı sokakta bu adres iyi bir alternatif; günün balığını sor, fiyat menüde değişken olabilir."
+    },
+    {
+     "name": "Çark Plajı",
+     "category": "nature",
+     "start": "17:45",
+     "end": "19:00",
+     "cost": 250,
+     "tips": "Alaçatı Körfezi'nin windsurf plajı; Boyalık kalabalıksa buraya geç, rüzgâr akşamüstü hâlâ güçlü olabilir."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Kalenin gölgesinde Çeşme çarşısı ve halk plajı",
+   "stops": [
+    {
+     "name": "Çeşme Kalesi ve Deniz Müzesi",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 150,
+     "tips": "1508 yapımı Cenevizli kalesi, içinde arkeoloji müzesi var. MüzeKart geçerli; sabah erken git, öğleden sonra taşlar çok ısınıyor."
+    },
+    {
+     "name": "Çeşme Kervansarayı ve Çarşı Yürüyüşü",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "16. yüzyıl kervansarayının dış cephesini gör, ardından arka sokaklardaki küçük hediyelik ve zeytinyağı dükkânlarına göz at."
+    },
+    {
+     "name": "İmren Lokantası (Çeşme)",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "Çeşme'nin klasik esnaf lokantası; günlük ev yemeklerinden İzmir köftesi veya güveç seç, tabldot fiyatı uygun."
+    },
+    {
+     "name": "Çeşme Halk Plajı",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 100,
+     "tips": "Merkeze yürüme mesafesinde, hem ücretsiz hem ücretli bölümleri olan bir halk plajı; şezlong yerine kendi havlunu sermek istiyorsan uygun, giriş sembolik."
+    },
+    {
+     "name": "Karina Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1600,
+     "tips": "Yerel rakı-balık kültürünün Çeşme'deki adreslerinden biri; mezeleri paylaşarak sipariş et, masayı akşam için önceden ayırt."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Horasan Balık",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1500,
+     "tips": "Menü vermiyorlar, sipariş öncesi mutlaka fiyat sor; portakallı karides ve deniz mahsullü erişte imza lezzetleri."
+    },
+    {
+     "name": "Çeşme Liman Feneri ve Sahil Yürüyüşü",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Halk Plajı kalabalıksa liman boyunca yürüyüşe çık; tekne bağlama noktalarında gün batımı fotoğrafı için iyi bir açı bulunur."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Ildırı: kırmızı şehrin kâhinleri ve sakin balıkçı köyü",
+   "stops": [
+    {
+     "name": "Erythrai Antik Kenti (Ildır Ören Yeri)",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "İyon Birliği'nin 12 kentinden biri; tiyatro ve akropole çıkan patika işaretsiz, su ve şapka götür. Sabah saatlerinde neredeyse kimse yok."
+    },
+    {
+     "name": "Ildırı Koyu",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "Ören yerinin hemen altındaki küçük koyda müzik yok, kalabalık yok; kayalıktan girişe uygun ayakkabı gerekebilir."
+    },
+    {
+     "name": "Ildır Köyü Taş Sokakları ve Rum Evleri Yürüyüşü",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Köy halkı eski Rum evlerini butik restorana çevirmiş; karabiber ağaçlarının gölgesinde yürü, fotoğraf için öğleden sonra ışığı iyi."
+    },
+    {
+     "name": "Ildiri Balik Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1800,
+     "tips": "Denizin üstündeki iskelede gün batımına karşı taze balık; Homeros'un 'güneşin en güzel battığı yer' dediği manzara burada. Yazın hafta sonu için erkenden yer ayırt."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Salonis",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 2000,
+     "tips": "Ildırı restoranları doluysa dönüş yolunda bu adres deniz ürünleri ve mezeleriyle iyi bir alternatif."
+    },
+    {
+     "name": "Eşek Adası Manzara Noktası (Ildırı Sahili)",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Köy yürüyüşü yerine tercih edilebilecek sakin bir manzara noktası; karşıdaki adacığın fotoğrafı için altın saat idealdir."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Ilıca ve Pırlanta: rüzgârın ve ince kumun günü",
+   "stops": [
+    {
+     "name": "Ilıca Halk Plajı",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 100,
+     "tips": "Sığ ve sakin deniz, aile plajı karakteri güçlü. Sabah erken saatte daha az kalabalık; giriş neredeyse ücretsiz, yalnızca şezlong ücretli."
+    },
+    {
+     "name": "İmren Lokantası (Ilıca)",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 750,
+     "tips": "Aynı zincirin Çeşme'dekinden farklı şubesi; günün çorbası ve ızgaraları öne çıkıyor, öğlen yoğun olabilir."
+    },
+    {
+     "name": "Pırlanta Plajı & Active Surf Center",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 1800,
+     "tips": "IKO sertifikalı okulda 1,5 saatlik deneme windsurf/kitesurf dersi kişi başı yaklaşık 1500-2000 TL; deniz 200 metre boyunca sığ, yeni başlayanlar için ideal. Plajın kendisi tamamen ücretsiz."
+    },
+    {
+     "name": "Miso Seafood",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 2500,
+     "tips": "Biblos Resort içinde şık bir deniz ürünleri restoranı; haftanın özel yemeği için ideal, rezervasyon önerilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sakızlar Restoran",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 850,
+     "tips": "1997'den beri yeşil bahçesinde serpme köy kahvaltısı ve öğle yemeği sunan bir mekân; İmren doluysa iyi bir alternatif."
+    },
+    {
+     "name": "Ilıca Sahili Yürüyüş Yolu",
+     "category": "landmark",
+     "start": "17:15",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "Sörf dersinden sonra sakin bir yürüyüş için sahil şeridi; gün batımına doğru ışık fotoğraf için güzel."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Karaburun Yarımadası: Mordoğan ve Boyabağı Koyu",
+   "stops": [
+    {
+     "name": "Mordoğan Sahili Yürüyüşü",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Çeşme'den araçla yaklaşık 1-1,5 saat; kalkışı 09:00 civarı planla. Balıkçı teknelerinin bulunduğu küçük limanda sakin bir sabah yürüyüşü yapılır."
+    },
+    {
+     "name": "Özen Boyabağı Restoran",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 1200,
+     "tips": "Boyabağı Koyu'nun girişindeki butik işletme; günün mevsim yemeklerini ve mezelerini sor, koya inmeden önce yemek iyi bir mola."
+    },
+    {
+     "name": "Boyabağı Koyu",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 200,
+     "tips": "Karaburun'un 'saklı cenneti' diye anılan koy; yol dar ve virajlı, dikkatli sür. Berrak ve derin bir koy, şnorkel götürmeye değer."
+    },
+    {
+     "name": "Mordoğan Liman Meydanı Gün Batımı",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Çeşme'ye dönüş öncesi son mola; liman meydanındaki oturma alanlarından gün batımı izlenir. Dönüş yolu yaklaşık 1-1,5 saat, akşam 19:30 gibi Çeşme'ye varılır."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mordoğan Sahili Balık Ekmek Tezgahları",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 400,
+     "tips": "Özen Boyabağı kapalıysa liman kenarındaki balık ekmek tezgahları hızlı ve ekonomik bir alternatif."
+    },
+    {
+     "name": "Ayıbalığı Koyu (Karaburun)",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 150,
+     "tips": "Boyabağı'na ulaşım zorsa bu koy daha kolay yol üzerinde; adını bölgede zaman zaman görülen Akdeniz foklarından alır, sessiz kalmaya çalış."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Veda günü: Ovacık'ın zeytinlikleri ve Altınkum'da son yüzüş",
+   "stops": [
+    {
+     "name": "Ovacık Zeytinlikleri Yürüyüşü",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Ovacık-Alaçatı yolu üzerindeki zeytinlik arazilerinde kısa ve sakin bir sabah yürüyüşü; hafif giyinin, gölge azdır."
+    },
+    {
+     "name": "Seher Teyze'nin Gözleme ve Kahvaltı Bahçesi",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 700,
+     "tips": "Çeşme'nin kalbinde otantik ve şirin bir bahçe; taze gözleme ve serpme kahvaltı iste, yerel halkın da uğrak noktası."
+    },
+    {
+     "name": "Altınkum Plajı",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 300,
+     "tips": "Sığ ve güvenli deniziyle son yüzüş için ideal; suyu diğer plajlara göre daha serin kalır. Şezlong yerine halk plajı bölümünü tercih et, giriş daha ekonomik."
+    },
+    {
+     "name": "Asma Yaprağı",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:00",
+     "cost": 400,
+     "tips": "Ovacık, Kerimoğlu Mevkii'nde veda için hafif bir tatlı/meze molası; kabak çiçeği dolması imza lezzetleri arasında, tam yemek yerine küçük bir tadım yeterli."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yeni Yer (Ovacık-Alaçatı Yolu)",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 900,
+     "tips": "Michelin Yeşil Yıldızlı, sürdürülebilir tarım yapan bir ev yemekleri adresi; Seher Teyze doluysa iyi bir alternatif."
+    },
+    {
+     "name": "Çeşme-Ovacık Zeytinlikleri Manzara Noktası",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Yürüyüş yerine kısa bir manzara molası isteyenler için; sabah ışığında zeytin ağaçlarının fotoğrafı güzel çıkar."
+    }
+   ]
+  }
+ ]
+}

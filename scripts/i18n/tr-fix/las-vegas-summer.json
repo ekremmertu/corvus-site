@@ -1,0 +1,12 @@
+{
+ "source": "85657a383732",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "Her 30 dakikada bir (akşam 15 dakikada bir) müzikli fıskiye; ücretsiz, Strip'in simgesi.",
+  "d1.s3.tips": "Roma temalı AVM; gökyüzü tavanı ve Atlantis gösterisi, klimalı.",
+  "d2.s3.tips": "Konteynerlerden çarşı; ateş püskürten peygamber devesi heykeli.",
+  "d5.s1.tips": "Vegas'ın en sevilen İtalyan restoranı; rezervasyon yap.",
+  "d6.s3.tips": "Bellagio'da su sahnesi 'O'; biletler online, gün içi yarı fiyat için Tix4Tonight (TKTS)."
+ },
+ "warnings": []
+}

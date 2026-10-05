@@ -1,0 +1,500 @@
+{
+ "lang": "tr",
+ "slug": "sidney-ekim-mayis",
+ "altSlug": "sydney-october-may",
+ "citySlug": "sidney",
+ "destKey": "sydney",
+ "city": "Sidney",
+ "region": null,
+ "country": "Avustralya",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "AUD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 520,
+  "attractions": 260,
+  "transport": 100,
+  "misc": 100
+ },
+ "notes": [
+  "Opal/temassız kartla feribot, tren, otobüs; pazar günü ulaşım tavanı ucuz. Havalimanı treni 20 dakika (ek ücret ~17 AUD).",
+  "Ekim-Nisan sıcak sezon (Aralık-Şubat 26-30°C); plaj, güneş kremi (UV çok yüksek). Yılbaşı havai fişeği için liman aylar önce dolar.",
+  "Kahve kültürü: flat white 5 AUD, brunch 25-30; fish and chips 20, restoran 40+. Bahşiş beklenmez.",
+  "Plajlarda bayraklar arasında yüz (rip akıntısı); Bondi-Coogee yürüyüşü sabah serin.",
+  "Opera turu ve BridgeClimb online; Taronga feribot+giriş kombine.",
+  "Blue Mountains'a Central'dan tren 2 saat; Scenic World online indirimli."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Opal Card / temassız",
+  "why_chosen": "Tren, feribot, otobüs ve hafif raylı sistem; pazar günü tavan ~9 AUD",
+  "coverage": "Sydney Trains, feribotlar, otobüs, Light Rail, havalimanı treni (ek ücret)",
+  "where_to_buy": "Kendi temassız kartın veya istasyon/market",
+  "cost": 0,
+  "currency_code": "AUD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Liman ikonları",
+   "stops": [
+    {
+     "name": "Sydney Opera House",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 45,
+     "tips": "1 saatlik iç tur (~45 AUD) veya dıştan; Bennelong Point sabah ışığı."
+    },
+    {
+     "name": "Royal Botanic Garden Sydney",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Limana bakan bahçe; Mrs Macquarie's Chair'de opera ve köprü kadrajı."
+    },
+    {
+     "name": "The Rocks",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Sömürge dönemi taş sokaklar; hafta sonu pazar, Cadmans Cottage."
+    },
+    {
+     "name": "The Rocks Cafe",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Rocks'ta kahvaltı-öğle; Australian breakfast."
+    },
+    {
+     "name": "Sydney Harbour Bridge Pylon Lookout",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Köprünün güneydoğu ayağında 200 basamak; BridgeClimb (300+ AUD) yerine ucuz manzara, köprüyü yürüyerek geç."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Opera Bar",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Opera'nın altında liman barı; gün batımı."
+    },
+    {
+     "name": "Museum of Contemporary Art Australia",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Circular Quay'de ücretsiz müze; çatı kafesi."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Bondi'den Coogee'ye",
+   "stops": [
+    {
+     "name": "Bondi Beach",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Kış sabahı 15°C; yüzücüler Icebergs'te, sahil yürüyüşü."
+    },
+    {
+     "name": "Bondi to Coogee Coastal Walk",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "6 km kayalık sahil yolu; Tamarama, Bronte, Waverley mezarlığı, Clovelly."
+    },
+    {
+     "name": "Coogee Pavilion",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 28,
+     "tips": "Coogee plajında çatı barı-restoran; pizza ve deniz ürünleri."
+    },
+    {
+     "name": "Coogee Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Kaya havuzu seyri; yürüyüş."
+    },
+    {
+     "name": "Bondi Icebergs Gün Batımı",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Ünlü kaya havuzu ve plaj manzarası; otobüsle dönüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bills Bondi",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Ricotta hotcakes; Bondi brunch."
+    },
+    {
+     "name": "Bronte Baths",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Bronte'de kaya havuzu; Coogee yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Manly feribotu",
+   "stops": [
+    {
+     "name": "Manly Ferry Circular Quay",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 8,
+     "tips": "30 dakikalık feribot; 'dünyanın en iyi 8 dolarlık liman turu', Opal ile."
+    },
+    {
+     "name": "Manly Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Kış sörf izleme ve sahil."
+    },
+    {
+     "name": "Manly to Spit Bridge Walk",
+     "category": "nature",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "10 km liman kıyısı yürüyüşü; Aborjin kaya oymaları, koylar (kısa versiyon Shelly Beach 1 km)."
+    },
+    {
+     "name": "Manly Wharf Hotel",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "İskele pub'ı; balık ve bira, liman manzarası."
+    },
+    {
+     "name": "Manly Feribotu Gün Batımı Dönüşü",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:00",
+     "cost": 8,
+     "tips": "Batıya dönen feribotta opera ve köprü gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shelly Beach Manly",
+     "category": "nature",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Şnorkel koyu; uzun yürüyüş yerine."
+    },
+    {
+     "name": "Hugos Manly",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 35,
+     "tips": "İskelede pizza ve deniz."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Blue Mountains",
+   "stops": [
+    {
+     "name": "Echo Point Three Sisters",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Tren 2 saat (Katoomba); Üç Kız Kardeş kayaları ve vadi, ücretsiz seyir."
+    },
+    {
+     "name": "Scenic World Katoomba",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:30",
+     "cost": 55,
+     "tips": "Dünyanın en dik demiryolu, teleferik ve orman yürüyüş yolu (~55 AUD)."
+    },
+    {
+     "name": "Katoomba Yellow Deli",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Katoomba'da ahşap kafe; sandviç ve çorba."
+    },
+    {
+     "name": "Wentworth Falls Yürüyüşü",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Şelale ve uçurum yolu (National Pass kısa bölüm); tren istasyonundan."
+    },
+    {
+     "name": "Leura Village",
+     "category": "landmark",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Şirin kasaba; kiraz ağaçları ve antikacılar, tren dönüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Leura Garage",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Leura'da tamirhaneden restoran."
+    },
+    {
+     "name": "Jenolan Caves",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 50,
+     "tips": "Kireçtaşı mağaralar; Wentworth yerine (araç)."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Taronga & Darling Harbour",
+   "stops": [
+    {
+     "name": "Taronga Zoo Sydney",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 50,
+     "tips": "Feribotla 12 dakika; koala ve kanguru, liman manzaralı teleferik."
+    },
+    {
+     "name": "Taronga Zoo Feribot İskelesi",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "12:45",
+     "cost": 8,
+     "tips": "Feribotla Darling Harbour veya Circular Quay."
+    },
+    {
+     "name": "Darling Harbour",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Yürüyüş ve Pyrmont Köprüsü."
+    },
+    {
+     "name": "Sydney Fish Market",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "Güney yarımkürenin en büyük balık pazarı; tezgahtan sashimi ve istiridye, yeni bina."
+    },
+    {
+     "name": "Barangaroo Reserve",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Liman parkı; gün batımı ve Wulugul Walk."
+    }
+   ],
+   "backups": [
+    {
+     "name": "SEA LIFE Sydney Aquarium",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 45,
+     "tips": "Darling Harbour akvaryumu; hayvanat bahçesi yerine."
+    },
+    {
+     "name": "Chinatown Sydney Dixon Street",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 18,
+     "tips": "Dim sum ve Chinatown; balık pazarı yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Surry Hills, Newtown & Paddington",
+   "stops": [
+    {
+     "name": "Surry Hills Crown Street",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Kafeler ve butikler; Bourke Street Bakery."
+    },
+    {
+     "name": "Bourke Street Bakery",
+     "category": "food",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 8,
+     "tips": "Sydney'in ünlü fırını; ginger brûlée tart ve sausage roll."
+    },
+    {
+     "name": "Paddington Reservoir Gardens",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Eski su deposu bahçesi; Oxford Street."
+    },
+    {
+     "name": "Paddington Markets",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Cumartesi pazarı (diğer günler Oxford Street butikleri)."
+    },
+    {
+     "name": "Newtown King Street",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Sokak sanatı, vegan kafeler ve vintage; Enmore tiyatrosu."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mary's Newtown",
+     "category": "food",
+     "start": "14:00",
+     "end": "16:30",
+     "cost": 20,
+     "tips": "Burger ve kızarmış tavuk; Newtown."
+    },
+    {
+     "name": "Brett Whiteley Studio",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Surry Hills'te ressam atölyesi (hafta sonu); rezervuar yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Watsons Bay — hafif veda",
+   "stops": [
+    {
+     "name": "Watsons Bay Feribotu",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 8,
+     "tips": "Circular Quay'den 30 dakika; liman girişi."
+    },
+    {
+     "name": "The Gap Lookout",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Okyanus uçurumu; balina (Mayıs-Kasım)."
+    },
+    {
+     "name": "Camp Cove Beach",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Kış sahili; yürüyüş."
+    },
+    {
+     "name": "Doyles on the Beach Watsons Bay",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 45,
+     "tips": "1885'ten beri balık restoranı; opera manzaralı veda öğle yemeği."
+    },
+    {
+     "name": "Circular Quay Havalimanı Treni",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Havalimanı treni 20 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Watsons Bay Boutique Hotel",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Bira bahçesi ve fish and chips."
+    },
+    {
+     "name": "South Head Heritage Trail",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Hornby feneri yürüyüşü; plaj yerine."
+    }
+   ]
+  }
+ ]
+}

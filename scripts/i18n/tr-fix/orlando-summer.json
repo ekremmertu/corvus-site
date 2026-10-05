@@ -1,0 +1,32 @@
+{
+ "source": "a3bca792b80c",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Disney'in amiral parkı. Rope drop 08:30 (TRON, Space Mountain). Lightning Lane Multi Pass ekstra, bilet online ve tarihli (~160 USD).",
+  "d1.b1.tips": "Ücretsiz eğlence ve alışveriş bölgesi; havai fişek yerine.",
+  "d1.s2.tips": "Cinderella Şatosu önünde gece gösterisi; 1 saat önce yerini al.",
+  "d2.s0.tips": "Guardians of the Galaxy ve Frozen; World Showcase'de 11 ülke, festival (Food & Wine sonbaharda).",
+  "d2.s1.tips": "Fransa pavyonunda kruvasan, Meksika'da taco; ülke ülke atıştır.",
+  "d2.s2.tips": "Göl üstünde ışık ve su gösterisi.",
+  "d2.b0.tips": "Uzay istasyonu temalı restoran; rezervasyon yap.",
+  "d3.s0.tips": "2025'te açılan park; Super Nintendo World, Harry Potter Ministry, Dark Universe. Bilet 139-199 USD, erken giriş var.",
+  "d3.s2.tips": "Park dışı restoran ve bar bölgesi; ücretsiz.",
+  "d3.b1.tips": "VelociCoaster ve Hogsmeade; Epic yerine.",
+  "d4.s2.tips": "Park hopper ile öğleden sonra git; Kilimanjaro Safari gün batımında, Flight of Passage ve Pandora gece.",
+  "d5.s0.tips": "Orlando'ya 1 saat. Saturn V ve Space Shuttle Atlantis'i gör, otobüs turuyla fırlatma rampalarına git. Fırlatma takvimine bak.",
+  "d6.s0.tips": "Göller ve kanallar arasında 1 saatlik tekne turu; 1938'den beri sürüyor, konak bahçelerini gösterir.",
+  "d6.s2.tips": "Park Avenue'da İtalyan restoranı; odun fırını.",
+  "d6.s4.tips": "120 m'lik dönme dolap; International Drive, gün batımı.",
+  "d7.s0.tips": "Şehir merkezindeki göl; kuğu kayıkları ve pazar günü pazarı.",
+  "d7.s1.tips": "Güney usulü kahvaltı ve turta; veda öncesi.",
+  "d7.s2.tips": "Yerel gıda pazarı; hediyelik için.",
+  "d7.s3.tips": "Havalimanı 20 dakika; veda.",
+  "note0": "Orlando araç şehri: kiralık araç tut (parklarda otopark 30 USD) ya da Disney/Universal otobüslerini kullan. Kennedy için araç şart.",
+  "note1": "Yaz 33°C, nem yüksek ve her öğleden sonra fırtına var (parklar 1 saat durur). Sabah rope drop yap, 13:00-16:00 otel havuzunda dinlen, akşam parkta kal. Kasırga sezonu.",
+  "note2": "Park biletleri tarihli ve online. Lightning Lane/Express Pass kalabalıkta değer; mobil sipariş kuyruğu atlatır.",
+  "note3": "Park içi yemek 15-25 USD. Restoran rezervasyonunu 60 gün önce yap. Su şişeni doldur (ücretsiz).",
+  "note4": "Bahşiş %18-20. Park dışında Mills 50 ve Winter Park yerel ve ucuz.",
+  "note5": "7 günde Disney 4 park + Universal 2-3 park. Kennedy'de fırlatma varsa o güne göre planla."
+ },
+ "warnings": []
+}

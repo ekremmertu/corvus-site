@@ -1,0 +1,23 @@
+{
+ "source": "6add4f2fa7b9",
+ "model": "sonnet",
+ "strings": {
+  "d1.b0.tips": "Kuzeydoğu Brezilya mutfağı efsanesi; uzak ama buna değer (Uber).",
+  "d2.s0.tips": "1933 vitraylı pazar; mortadella sandviçi (Hocca Bar, 300 g) ve pastel de bacalhau, egzotik meyve tadımı (satıcılar ısrarcı).",
+  "d2.s1.tips": "Neogotik katedral ve şehrin sıfır noktası; Pátio do Colégio (1554'te kuruldu).",
+  "d2.s3.tips": "Paris Operası'nın taklidi; tur (çarşamba-cuma), Ramos de Azevedo meydanı.",
+  "d3.b0.tips": "Dünyanın en iyi 50 restoranı arasında; domuz tadım menüsü, Merkez, aylar önce rezervasyon.",
+  "d3.b1.tips": "Mimarın cam evi; Morumbi, rezervasyon.",
+  "d4.s0.tips": "Batman Sokağı'nda grafiti; Vila Madalena, her hafta değişir.",
+  "d4.s4.tips": "Futbol fanatiği bar; Aspicuelta Sokağı, cuma-cumartesi sokak partisi.",
+  "d5.s2.tips": "Eski göçmen hanı (Ellis Island gibi); İtalyan, Japon, Türk-Suriyeli göçü.",
+  "d5.s3.tips": "Rua 13 de Maio'da cantinalar; Vai-Vai samba okulu, Nossa Senhora Achiropita festivali Ağustos'ta.",
+  "d5.s4.tips": "Rua Avanhandava'da 1980 tarihli cantina; dev porsiyon makarna, kuyruk.",
+  "d6.s4.tips": "São Paulo'nun batısında park; gün batımı ve bisiklet.",
+  "d7.s3.tips": "Uber'le 45-90 dakika, trafiğe göre; veda.",
+  "d7.b1.tips": "2022'de restore edilen Bağımsızlık Müzesi; bahçe, futbol yerine."
+ },
+ "warnings": [
+  "note0: sayı değişti → düzeltme atıldı"
+ ]
+}

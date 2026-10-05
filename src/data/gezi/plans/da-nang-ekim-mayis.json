@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "da-nang-ekim-mayis",
+ "altSlug": "da-nang-october-may",
+ "citySlug": "da-nang",
+ "destKey": "da-nang",
+ "city": "Da Nang",
+ "region": null,
+ "country": "Vietnam",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "VND",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 2500000,
+  "attractions": 2500000,
+  "transport": 1500000,
+  "misc": 800000
+ },
+ "notes": [
+  "Grab (moto/araba) ucuz; scooter 150.000/gün (uluslararası ehliyet gerekir). Hoi An 45 dakika; havalimanı şehir içinde.",
+  "Ekim-Ocak arası yağmur ve sel olur (Hoi An sular altında kalabilir), hava 20-25°C. Şubat-Mayıs ideal (kuru, 28°C). Hoi An fener festivali her ay dolunayda.",
+  "Vietnam e-vizesi 90 gün (Türk vatandaşları için e-vize). Nakit VND kullan (1 USD ≈ 25.000, VARSAYIM); kart yalnız otellerde geçer.",
+  "Bánh mì 25-30.000, mì quảng 40.000, restoran 150-250.000, Ba Na 950.000, Hoi An bileti 120.000. Bahşiş yok, pazarda pazarlık var.",
+  "Ba Na'ya 08:00 açılışta git (Altın Köprü boş), Mỹ Sơn'a 07:00'de. Marble Mountains'a sabah git; Dragon Bridge cumartesi-pazar 21:00.",
+  "Cao lầu (Hoi An), mì quảng, bánh xèo, tuzlu kahve, egg coffee; sokak yemeği güvenli (kalabalık tezgâhı seç)."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "My Khe & Son Tra",
+   "stops": [
+    {
+     "name": "My Khe Beach",
+     "category": "nature",
+     "start": "06:30",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "Kışta (Ekim-Ocak) deniz dalgalı ve yağmurlu olur; sahilde yürüyüş yap."
+    },
+    {
+     "name": "Bánh Mì Bà Lan",
+     "category": "food",
+     "start": "08:45",
+     "end": "09:30",
+     "cost": 25000,
+     "tips": "Da Nang'ın efsane bánh mì'si; sabah kuyruk."
+    },
+    {
+     "name": "Linh Ung Pagoda Lady Buddha",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Son Tra yarımadasında 67 m'lik Kadın Buda; körfez manzarası. Scooter veya Grab ile 20 dakika."
+    },
+    {
+     "name": "Mì Quảng 1A",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 40000,
+     "tips": "Quảng eriştesi (mì quảng) klasiği; Hai Phong caddesi."
+    },
+    {
+     "name": "Dragon Bridge Ateş Gösterisi",
+     "category": "landmark",
+     "start": "21:00",
+     "end": "21:30",
+     "cost": 0,
+     "tips": "Cumartesi-pazar 21:00'de ejderha ateş ve su püskürtür; Han Nehri köprüleri."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Han Market",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 50000,
+     "tips": "Merkez pazar; yemek katı ve kurutulmuş meyve."
+    },
+    {
+     "name": "Museum of Cham Sculpture",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 60000,
+     "tips": "Dünyanın en büyük Cham heykel koleksiyonu; yağmurlu günde Buda yerine buraya git."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Ba Na Hills",
+   "stops": [
+    {
+     "name": "Ba Na Hills Cable Car",
+     "category": "nature",
+     "start": "08:00",
+     "end": "08:30",
+     "cost": 950000,
+     "tips": "Dünyanın en uzun teleferiklerinden biri (5,8 km); 1.487 m'ye çıkar. Bilet 950.000 VND (tüm gün), açılış 08:00."
+    },
+    {
+     "name": "Golden Bridge Cầu Vàng",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Dev taş ellerin tuttuğu altın köprü; 09:30'dan sonra kalabalık olur, sis çıkabilir."
+    },
+    {
+     "name": "Le Jardin d'Amour & Linh Ung Ba Na",
+     "category": "nature",
+     "start": "09:45",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Fransız bahçeleri ve pagoda; tepede."
+    },
+    {
+     "name": "French Village Ba Na",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Yapay Fransız köyü ve Fantasy Park (kapalı lunapark dahil); gösteriler var."
+    },
+    {
+     "name": "Ba Na Büfe Öğle",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 250000,
+     "tips": "Tepede büfe restoranlar var; dönüş 15:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Fantasy Park Ba Na",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Kapalı lunapark bilete dahil; çocukla gidiyorsan köy yerine buraya git."
+    },
+    {
+     "name": "Bếp Cuốn Da Nang",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 150000,
+     "tips": "Akşam şehirde; Vietnam sarma (cuốn) tabakları."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Mermer Dağlar & Hội An",
+   "stops": [
+    {
+     "name": "Marble Mountains Ngũ Hành Sơn",
+     "category": "nature",
+     "start": "07:30",
+     "end": "09:30",
+     "cost": 40000,
+     "tips": "Beş mermer tepe; Huyen Khong Mağarası'nda ışık huzmesi var. Asansör 15.000, sabah serin."
+    },
+    {
+     "name": "Hội An Ancient Town",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 120000,
+     "tips": "UNESCO listesinde 16. yüzyıldan kalma liman kasabası; sarı evler, Japon Köprüsü. 5 mekânlık bilet 120.000."
+    },
+    {
+     "name": "Bánh Mì Phượng",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 30000,
+     "tips": "Bourdain'in bánh mì'si; Hoi An'da."
+    },
+    {
+     "name": "Hội An Terzi Bebe Tailor",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "24 saatte ısmarlama takım elbise; Hoi An'da 400'den fazla terzi var."
+    },
+    {
+     "name": "Hội An Fener Gecesi & Thu Bồn Teknesi",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 150000,
+     "tips": "Nehirde fenerli kayık (150.000); dolunayda festival, Nguyen Hoang gece pazarı. Yemekte cao lầu dene."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Morning Glory Hoi An",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 150000,
+     "tips": "Ms Vy'nin restoranı; cao lầu ve white rose dumpling."
+    },
+    {
+     "name": "Precious Heritage Museum Réhahn",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Fotoğrafçının 54 etnik grup portreleri; ücretsiz. Terzi yerine buraya git."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Hải Vân Geçidi & Lăng Cô",
+   "stops": [
+    {
+     "name": "Hải Vân Pass",
+     "category": "nature",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Top Gear'ın \"dünyanın en iyi kıyı yolu\"; scooter veya easy rider turuyla ya da araçla çık. 500 m'lik geçit, Fransız ve ABD bunkerları var."
+    },
+    {
+     "name": "Lăng Cô Lagünü",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Turkuaz lagün ve balıkçı köyü; istiridye çiftlikleri."
+    },
+    {
+     "name": "Lăng Cô Deniz Ürünleri Lokantası",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 200000,
+     "tips": "Lagün üstünde ahşap restoran; istiridye ve karides."
+    },
+    {
+     "name": "Elephant Springs Suối Voi",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 20000,
+     "tips": "Kışın soğuk olur; Lăng Cô plajında yürü, Bach Ma manzarasına bak."
+    },
+    {
+     "name": "Nam Ô Reef Gün Batımı",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Da Nang'a dönüşte kayalık burun; deniz yosunu kayaları (Mart-Nisan'da yeşil)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bạch Mã National Park",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 60000,
+     "tips": "Bulut ormanı ve Fransız villa harabeleri; jeep turu. Kaynak yerine buraya git."
+    },
+    {
+     "name": "Bé Mặn Nam Ô",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 120000,
+     "tips": "Deniz kıyısı ızgara balık; Nam Ô."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Mỹ Sơn",
+   "stops": [
+    {
+     "name": "Mỹ Sơn Sanctuary",
+     "category": "culture",
+     "start": "07:00",
+     "end": "10:00",
+     "cost": 150000,
+     "tips": "Champa Krallığı'nın 4-13. yüzyıl Hindu tapınakları (Angkor'un kuzeni); 07:00 açılışında boştur. Apsara dansı 09:30, tur 1,5 saat."
+    },
+    {
+     "name": "Mỹ Sơn Köy Lokantası",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 60000,
+     "tips": "Köy kahvaltı-öğle; bánh xèo."
+    },
+    {
+     "name": "Thanh Hà Çömlek Köyü",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 35000,
+     "tips": "Hoi An yakınında 500 yıllık çömlek köyü; çarkta çömlek yap, Terracotta Park'a bak."
+    },
+    {
+     "name": "An Bàng Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Kışın dalgalı; beach bar ve yürüyüş."
+    },
+    {
+     "name": "Sound of Silence An Bang",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 80000,
+     "tips": "Plaj kafesi; gün batımında kahve."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trà Quế Sebze Köyü",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 35000,
+     "tips": "Organik bahçe köyü; bisiklet ve yemek kursu. Çömlek yerine buraya git."
+    },
+    {
+     "name": "The Deck House An Bang",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 150000,
+     "tips": "Plaj restoranı; deniz ürünleri."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Cù Lao Chàm veya Hue",
+   "stops": [
+    {
+     "name": "Cù Lao Chàm Adası Sürat Teknesi",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 450000,
+     "tips": "Kışın deniz kapalıdır: Hue'ye günübirlik git (2,5 saat). İmparatorluk Şehri ve Tu Duc Mezarı'nı gez; Kraliyet Şehri bileti 200.000."
+    },
+    {
+     "name": "Cù Lao Chàm Şnorkel",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Hue'de Thien Mu Pagoda; Parfüm Nehri'nde tekne."
+    },
+    {
+     "name": "Ada Balıkçı Köyü Öğle",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Hue'de Bún Bò Huế Mệ Kéo; Hue eriştesi."
+    },
+    {
+     "name": "Da Nang Akşam Bà Dưỡng Bánh Xèo",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 80000,
+     "tips": "Da Nang'ın çıtır krepi bánh xèo ve nem lụi (limon otlu şiş); Hoàng Diệu ara sokağı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hue Imperial City",
+     "category": "culture",
+     "start": "08:00",
+     "end": "13:00",
+     "cost": 200000,
+     "tips": "Yasak Mor Şehir; kışın ya da deniz kapalıysa."
+    },
+    {
+     "name": "Quán Trần Da Nang",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 120000,
+     "tips": "Bánh tráng cuốn thịt heo (domuz sarma); yerel lezzet."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Han Nehri — hafif veda",
+   "stops": [
+    {
+     "name": "Cà Phê Muối Tuz Kahvesi",
+     "category": "food",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 25000,
+     "tips": "Tuzlu köpüklü Hue kahvesi; sabah içilir."
+    },
+    {
+     "name": "Con Market Chợ Cồn",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Yerel pazar; kurutulmuş sığır eti (bò khô), hediyelik kahve."
+    },
+    {
+     "name": "Han River Promenade",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Nehir yürüyüşü; Love Lock Köprüsü ve Sarı Ejderha."
+    },
+    {
+     "name": "Madame Lân",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 150000,
+     "tips": "Nehir kıyısında geniş Vietnam menüsü; bún chả cá, veda yemeği."
+    },
+    {
+     "name": "Da Nang Havalimanı",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 100000,
+     "tips": "Şehre Grab ile 10 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bún Chả Cá 109",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 40000,
+     "tips": "Balık köftesi erişte çorbası; Nguyễn Chí Thanh Caddesi."
+    },
+    {
+     "name": "Da Nang Museum",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 20000,
+     "tips": "Şehir tarihi; pazar yerine."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,461 @@
+{
+ "lang": "en",
+ "slug": "mardin-summer",
+ "altSlug": "mardin-yaz",
+ "citySlug": "mardin",
+ "destKey": "mardin",
+ "city": "Mardin",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 6000,
+  "attractions": 600,
+  "transport": 2500,
+  "misc": 600
+ },
+ "notes": [
+  "Mardin Airport is 20 minutes from the city. A car is useless in Old Mardin, so walk. For Midyat, Dara and Nusaybin, use a car or minibus.",
+  "Order the stuffed ribs (kaburga dolması) in advance at Cercis Murat. Mırra is a bitter coffee, and the cup is handed back. Almond candy and terebinth soap make good souvenirs.",
+  "Summer temperatures top 40°C: sightsee from 08:30 to 12:00 and after 17:00, rest in mansion courtyards at midday, and carry 3 litres of water.",
+  "Respect service times at Syriac churches and monasteries. Deyrulzafaran is by guided tour only, and short sleeves are not allowed.",
+  "The streets of Old Mardin are steep and paved with stone; wear comfortable shoes and cool off in the abbaras.",
+  "Sunset at Kasimiye is Mardin's most famous moment; arrive 1 hour early."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old Mardin",
+   "stops": [
+    {
+     "name": "Zinciriye Medresesi",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 50,
+     "tips": "Mardin's highest madrasa; from the domed terrace you look over the Mesopotamian plain. Cool in the morning."
+    },
+    {
+     "name": "Mardin Grand Mosque",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Artuqid minaret in the middle of the bazaar."
+    },
+    {
+     "name": "Mardin Coppersmiths' Bazaar",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Copper, almond candy and Mardin soap; donkeys still carry goods along the stone lanes."
+    },
+    {
+     "name": "Cercis Murat Konağı",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 900,
+     "tips": "Syriac-Mardin cuisine in a stone mansion; order the stuffed ribs (kaburga dolması) in advance. Terrace views."
+    },
+    {
+     "name": "Kasimiye Madrasa",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 50,
+     "tips": "Twin-domed madrasa with a courtyard pool; the plain turns red at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seyr-i Merdin Kafe",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "Terrace café for coffee and Mardin pastry (Mardin çöreği)."
+    },
+    {
+     "name": "Mardin Museum",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 50,
+     "tips": "Archaeology museum in the former patriarchate; an indoor option instead of the madrasa."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Deyrulzafaran and Kırklar",
+   "stops": [
+    {
+     "name": "Deyrulzafaran Monastery",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 150,
+     "tips": "1,500-year-old Syriac monastery; guided tour covers the sun temple and patriarch tombs. Take the first group in the morning."
+    },
+    {
+     "name": "Kırklar Church",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Active Syriac church in Old Mardin; quiet courtyard."
+    },
+    {
+     "name": "Antik Mardin Sofrası",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "Ikbebet, sembusek and dobo in a mansion restaurant."
+    },
+    {
+     "name": "Şahkulubey Mansion",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Stone mansion and courtyard; walk on through the bazaar lanes."
+    },
+    {
+     "name": "Mardin Castle Viewpoint",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "The castle is military, but the viewpoint at its foot is open; city and plain at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mardin Kebapçısı Yusuf Usta",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 400,
+     "tips": "Mardin kebab and içli köfte (stuffed bulgur meatballs)."
+    },
+    {
+     "name": "Sakıp Sabancı Mardin City Museum",
+     "category": "culture",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 50,
+     "tips": "City museum; an indoor option."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Dara and Savur",
+   "stops": [
+    {
+     "name": "Dara Ancient City",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 100,
+     "tips": "30 km from Mardin; Roman cistern, necropolis and rock tombs, known as the \"Ephesus of Mesopotamia\"."
+    },
+    {
+     "name": "Dara Village Breakfast",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 300,
+     "tips": "Mardin breakfast in a village house; crumbled cheese and bulgur with eggs."
+    },
+    {
+     "name": "Savur",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Stone town nicknamed Little Mardin; castle, mansions and mulberry orchards."
+    },
+    {
+     "name": "Savur Kahveci Konağı",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 150,
+     "tips": "Mırra (bitter coffee) and mulberry molasses in a mansion."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kızıltepe Grand Mosque",
+     "category": "culture",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Artuqid mosque; an alternative to Savur."
+    },
+    {
+     "name": "Dara Kahve Evi",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 150,
+     "tips": "Mırra in the village."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Midyat",
+   "stops": [
+    {
+     "name": "Midyat Konukevi",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 50,
+     "tips": "The mansion from the TV series Sıla; terrace and stonework. Midyat is 1 hour away."
+    },
+    {
+     "name": "Midyat Old Bazaar",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Telkari (silver filigree) masters and Syriac wine."
+    },
+    {
+     "name": "Mor Barsavmo Church",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Midyat's active Syriac church."
+    },
+    {
+     "name": "Midyat Kasr-ı Nehroz Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Syriac cuisine in a stone mansion; try perde pilavı (pastry-wrapped rice) and alluciye."
+    },
+    {
+     "name": "Mor Gabriel Monastery",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "One of the world's oldest active monasteries (397); guided tour, mosaics. 20 km from Midyat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Midyat Gelüşke Hanı",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "Lunch at the caravanserai."
+    },
+    {
+     "name": "Hasankeyf",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "New Hasankeyf and the castle; an alternative to Mor Gabriel (1 hour)."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Nusaybin and Mor Yakup",
+   "stops": [
+    {
+     "name": "Mor Yakup Church Nusaybin",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "4th-century church and the excavation of the School of Nisibis; on the Syrian border."
+    },
+    {
+     "name": "Nusaybin Zeynel Abidin Mosque",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Tomb and mosque, next to the church."
+    },
+    {
+     "name": "Nusaybin Çarşı Lokantası",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "Town eatery serving ribs and pilaf."
+    },
+    {
+     "name": "Girnavaz Mound",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Assyrian mound near Nusaybin; excavation site."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nusaybin Kahvaltıcısı",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "Breakfast."
+    },
+    {
+     "name": "Mardin Dara Road Viewpoint",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Views over the plain; an alternative to the mound."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Mansions and soap",
+   "stops": [
+    {
+     "name": "Mardin Soap Workshop",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "See how terebinth (bıttım) soap is made, and shop."
+    },
+    {
+     "name": "Mardin Protestant Church",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Restored church, now a cultural centre."
+    },
+    {
+     "name": "Mardin Abbaras",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Vaulted lanes running beneath houses; cool passages."
+    },
+    {
+     "name": "Mardin Leyli Kahvaltı",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 400,
+     "tips": "Mardin breakfast with clotted cream and honey, plus sembusek."
+    },
+    {
+     "name": "Şehidiye Madrasa",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Madrasa with a minaret and a tea garden; sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mardin Mırra Evi",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 150,
+     "tips": "Mırra and almond candy."
+    },
+    {
+     "name": "Latifiye Mosque",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Artuqid mosque; an alternative to Şehidiye."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Bazaar and a gentle farewell",
+   "stops": [
+    {
+     "name": "Mardin Badem Şekercisi",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Almond candy, Mardin soap and telkari souvenirs."
+    },
+    {
+     "name": "Mardin 1. Cadde",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Old Mardin's main street; one last walk."
+    },
+    {
+     "name": "Mardin Kahvaltı Konağı",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 400,
+     "tips": "Farewell breakfast; terrace."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mardin Maristan Kafe",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 250,
+     "tips": "Café in an old Artuqid hospital; mırra and a terrace."
+    },
+    {
+     "name": "Emir Hamamı Mardin",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 300,
+     "tips": "Artuqid-era hammam; a scrub-and-foam farewell."
+    }
+   ]
+  }
+ ]
+}
