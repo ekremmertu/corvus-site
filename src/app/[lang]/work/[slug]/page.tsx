@@ -181,14 +181,6 @@ export default async function ProjectPage({
           </div>
         )}
 
-        {project.slug === "tripwalkers" ? (
-          <p className="mt-5 text-[15px]">
-            <Link href="/tripwalkers/planlar" className="underline underline-offset-4">
-              {lang === "tr" ? "100 şehir için hazır gezi planlarına bak →" : "Browse ready-made trip plans for 100 cities (Turkish) →"}
-            </Link>
-          </p>
-        ) : null}
-
         {project.screenshots ? (
           <figure className="shots mt-8">
             <ul className={`shots-row${project.screenshotsSeamless ? " shots-seamless" : ""}`}>
