@@ -71,6 +71,11 @@ export interface Project {
    */
   screenshotsSeamless?: boolean;
   /**
+   * Görseller dile göre ayrı: `public/appstore/<slug>/<lang>/1..N.jpg`.
+   * TripWalkers vitrini TR ve EN iki ayrı set (v7, 05.10.2026).
+   */
+  screenshotsPerLang?: boolean;
+  /**
    * Projenin ikinci evi. Ameliea hem web platformu hem iOS uygulaması —
    * iki sekmede birden görünür, tek detay sayfası paylaşır.
    */

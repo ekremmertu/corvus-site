@@ -187,7 +187,7 @@ export default async function ProjectPage({
               {Array.from({ length: project.screenshots }, (_, i) => (
                 <li key={i}>
                   <img
-                    src={`/appstore/${project.slug}/${i + 1}.jpg`}
+                    src={`/appstore/${project.slug}/${project.screenshotsPerLang ? `${lang}/` : ""}${i + 1}.jpg`}
                     alt=""
                     width={640}
                     height={1385}

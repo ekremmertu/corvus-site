@@ -25,6 +25,7 @@ export const projects: Project[] = [
     appStoreUrl: "https://apps.apple.com/tr/app/tripwalkers/id6764424121",
     screenshots: 7,
     screenshotsSeamless: true,
+    screenshotsPerLang: true,
     summary: {
       en: "AI travel planner that turns a city and three free days into an hour-by-hour itinerary.",
       tr: "Bir şehri ve üç boş günü saat saat gezi planına çeviren AI seyahat planlayıcı.",
