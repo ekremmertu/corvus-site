@@ -1,0 +1,484 @@
+{
+ "lang": "tr",
+ "slug": "new-york-yaz",
+ "altSlug": "new-york-summer",
+ "citySlug": "new-york",
+ "destKey": "new-york",
+ "city": "New York",
+ "region": null,
+ "country": "ABD",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 520,
+  "attractions": 330,
+  "transport": 70,
+  "misc": 120
+ },
+ "notes": [
+  "Metro OMNY temassız 3 USD; haftada 12 binişten sonra bedava. JFK'ya AirTrain + LIRR/E treni; taksi 70 USD sabit.",
+  "Müzeler: Met NY dışından 30 USD, AMNH 28, MoMA 30; birçoğu belirli günlerde 'istediğin kadar öde' uygular.",
+  "Yaz nemli, 28-33°C; Coney Island ve nehir parkları, akşam Broadway. 4 Temmuz'da havai fişek var.",
+  "Bahşiş restoranda %18-22, barda 1-2 USD; fiyatlara vergi dahil değil (%8,9).",
+  "Bagel, dilim pizza, pastrami, halal cart: 5-15 USD; oturmalı yemek 30+ USD.",
+  "Özgürlük Heykeli ilk feribot ve taç bileti aylar önce; Top of the Rock saatli."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "OMNY (temassız)",
+  "why_chosen": "Metro ve otobüste temassız kartla 3 USD/biniş, haftada 12 binişten sonrası bedava",
+  "coverage": "MTA metro ve otobüs",
+  "where_to_buy": "Kendi temassız kartın; OMNY kartı marketlerde 1 USD",
+  "cost": 1,
+  "currency_code": "USD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Midtown: Empire State, Bryant & Times Square",
+   "stops": [
+    {
+     "name": "Top of the Rock",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 47,
+     "tips": "Rockefeller'ın terası; Empire State'i görmek için en iyi manzara, saatli bilet (~47 USD), sabah net."
+    },
+    {
+     "name": "St. Patrick's Cathedral",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "5. Cadde'de neo-gotik katedral; ücretsiz."
+    },
+    {
+     "name": "Ess-a-Bagel",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 8,
+     "tips": "New York bagel'ı: everything bagel + scallion cream cheese; kuyruk hızlı."
+    },
+    {
+     "name": "New York Public Library & Bryant Park",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Rose okuma salonu ücretsiz; parkta öğle molası."
+    },
+    {
+     "name": "Times Square",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Akşam ışıkları; TKTS'den indirimli Broadway bileti (gün içi)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Empire State Building",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 49,
+     "tips": "86. kat; Top of the Rock yerine klasik."
+    },
+    {
+     "name": "Los Tacos No. 1 Times Square",
+     "category": "food",
+     "start": "19:30",
+     "end": "20:30",
+     "cost": 12,
+     "tips": "Adobada taco; Times Square'de en iyi hızlı yemek."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Aşağı Manhattan: Özgürlük & 9/11",
+   "stops": [
+    {
+     "name": "Statue of Liberty Ferry Battery Park",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "11:30",
+     "cost": 26,
+     "tips": "Statue City Cruises'ın ilk feribotu 08:30'da (~26 USD, kaide dahil); Ellis Island'da göçmen müzesi var. Taç bileti aylar önce alınmalı."
+    },
+    {
+     "name": "9/11 Memorial",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "İkiz kule havuzları; ücretsiz, müze ~33 USD."
+    },
+    {
+     "name": "Oculus & Westfield WTC",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Calatrava'nın beyaz istasyonu; fotoğraf."
+    },
+    {
+     "name": "Joe's Pizza Broadway",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 4,
+     "tips": "New York dilim pizzası; ayakta katla ye."
+    },
+    {
+     "name": "Brooklyn Bridge Yürüyüşü",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Manhattan'dan Brooklyn'e köprüde 30 dakika yürü; gün batımı için DUMBO'ya var."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Staten Island Ferry",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Ücretsiz feribot; Özgürlük Heykeli'ni kaideye çıkmadan denizden gör."
+    },
+    {
+     "name": "Eataly Downtown",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "WTC'de İtalyan gıda pazarı."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Central Park & Met",
+   "stops": [
+    {
+     "name": "Central Park Güney Turu",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Bethesda Terrace, Bow Bridge, Strawberry Fields; yazın kayık."
+    },
+    {
+     "name": "The Metropolitan Museum of Art",
+     "category": "culture",
+     "start": "11:15",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Mısır tapınağı, Vermeer, Amerikan kanadı; NY dışından 30 USD, en az 2 saat ayır."
+    },
+    {
+     "name": "Levain Bakery Upper West Side",
+     "category": "food",
+     "start": "14:15",
+     "end": "14:45",
+     "cost": 6,
+     "tips": "Dev kurabiye; Central Park kenarında."
+    },
+    {
+     "name": "American Museum of Natural History",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 28,
+     "tips": "Dinozorlar ve mavi balina; NY dışından ~28 USD."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shake Shack Upper West Side",
+     "category": "food",
+     "start": "14:15",
+     "end": "14:45",
+     "cost": 14,
+     "tips": "Burger; kurabiye yerine."
+    },
+    {
+     "name": "Guggenheim Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 30,
+     "tips": "Frank Lloyd Wright spirali; AMNH yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Brooklyn: DUMBO, Williamsburg",
+   "stops": [
+    {
+     "name": "DUMBO Washington Street",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Manhattan Köprüsü kadrajı; sabah kalabalık yok."
+    },
+    {
+     "name": "Brooklyn Bridge Park",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Nehir kenarı park; Jane's Carousel ve Manhattan silüeti."
+    },
+    {
+     "name": "Juliana's Pizza",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 30,
+     "tips": "DUMBO'da kömür fırın pizza; Grimaldi'nin orijinal ustası, 11:30 açılış."
+    },
+    {
+     "name": "Williamsburg Bedford Avenue",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Vintage, kayıt dükkânları ve kafeler; L treni."
+    },
+    {
+     "name": "Domino Park",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Eski şeker fabrikasının nehir parkı; Manhattan gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Smorgasburg",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 20,
+     "tips": "Cumartesi Williamsburg sokak yemeği pazarı."
+    },
+    {
+     "name": "Brooklyn Heights Promenade",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Yalıların önünde manzara yolu."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "High Line, Chelsea & Greenwich Village",
+   "stops": [
+    {
+     "name": "The High Line",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Eski demiryolu üstünde park; Gansevoort'tan 34. Cadde'ye, sabah sakin."
+    },
+    {
+     "name": "Chelsea Market",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "Eski Nabisco fabrikasında gıda pazarı; Los Tacos No.1 ve lobster roll."
+    },
+    {
+     "name": "Whitney Museum of American Art",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Amerikan sanatı ve High Line manzaralı teraslar."
+    },
+    {
+     "name": "Washington Square Park",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "Kemer ve sokak müzisyenleri; NYU."
+    },
+    {
+     "name": "Greenwich Village Yürüyüşü",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Bleecker Street, Friends binası, Magnolia Bakery cupcake."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Joe's Pizza Carmine Street",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 4,
+     "tips": "Orijinal Joe's; Village'da."
+    },
+    {
+     "name": "Little Island",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Nehir üstü yapay ada park; Whitney yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Coney Island",
+   "stops": [
+    {
+     "name": "Coney Island Boardwalk",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Metroyla 1 saat; tahta yürüyüş yolu, Cyclone (~10 USD) ve Wonder Wheel."
+    },
+    {
+     "name": "Nathan's Famous Coney Island",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 8,
+     "tips": "1916'dan beri hot dog; yarışmanın yeri."
+    },
+    {
+     "name": "Coney Island Beach",
+     "category": "nature",
+     "start": "13:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Atlantik'te yüzme; havlu ve güneş kremi."
+    },
+    {
+     "name": "New York Aquarium",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 30,
+     "tips": "Boardwalk'ta akvaryum."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Totonno's Pizzeria",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 25,
+     "tips": "Coney Island'ın 1924 pizzası."
+    },
+    {
+     "name": "Brighton Beach",
+     "category": "nature",
+     "start": "13:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Yanındaki Rus mahallesi plajı."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Lower East Side — hafif veda",
+   "stops": [
+    {
+     "name": "Russ & Daughters",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 18,
+     "tips": "1914'ten beri lox ve bagel; veda kahvaltısı."
+    },
+    {
+     "name": "Tenement Museum",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 30,
+     "tips": "Göçmen apartmanı rehberli tur; rezervasyon."
+    },
+    {
+     "name": "Little Italy Mulberry Street",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Cannoli (Ferrara) ve İtalyan mahallesi."
+    },
+    {
+     "name": "Chinatown Canal Street",
+     "category": "shopping",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Hediyelik ve dim sum; Nom Wah Tea Parlor."
+    },
+    {
+     "name": "Penn Station / AirTrain",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "JFK'ya AirTrain + LIRR 45 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Clinton St. Baking Company",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 22,
+     "tips": "Pancake kahvaltısı; Russ yerine."
+    },
+    {
+     "name": "New Museum",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 22,
+     "tips": "Bowery'de çağdaş sanat."
+    }
+   ]
+  }
+ ]
+}

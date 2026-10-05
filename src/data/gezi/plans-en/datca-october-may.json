@@ -1,0 +1,513 @@
+{
+ "lang": "en",
+ "slug": "datca-october-may",
+ "altSlug": "datca-ekim-mayis",
+ "citySlug": "datca",
+ "destKey": "datca",
+ "city": "Datça",
+ "region": "Muğla",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 10480,
+  "attractions": 4800,
+  "transport": 1600,
+  "misc": 900
+ },
+ "notes": [
+  "Small tradesmen's restaurants, village shops and tea gardens mostly prefer cash. Some places may not take cards, so carry cash in TL.",
+  "The Datça peninsula is large and the bays are far apart. In winter, dolmuş (shared minibus) services become infrequent, so a rental car or taxi is the most practical way to get around.",
+  "Tips of 5-10%, not included in the bill, are a common courtesy in restaurants.",
+  "In January Datça is cool and windy, especially at Deveboynu Lighthouse, on the bay edges and at boat and shore spots. Dress in layers; a windproof jacket is essential.",
+  "In winter most restaurants and guesthouses on the bays (Palamutbükü, Hayıtbükü, Ovabükü) are closed. Confirm the remote bay venues in the plan by phone before visiting.",
+  "Datça is a very safe small district, and even walking alone at night is no problem. Still, keep an eye on your valuables.",
+  "On village visits such as Emecik and Reşadiye, be respectful to locals and do not enter private gardens or farmland without permission."
+ ],
+ "niche": {
+  "name": "Emecik Sanctuary of Apollo Karneios",
+  "level": "l2",
+  "why_hidden": "This is Datça's first sacred site, dating back to the 8th century BC. Because all the tourist buses go straight to Knidos, it is almost entirely overlooked. It has no ticket booth and no signpost; only archaeology enthusiasts and Emecik villagers know it.",
+  "access_instructions": "From the Datça-Marmaris road, turn into the village at the Emecik sign, pass the village square, then take the dirt track for about 1 km. The excavation site is not fenced and entry is free. You must go by your own car or taxi, as the dolmuş does not stop here.",
+  "local_contact": "Yok — ziyaretçi merkezi ya da gişe yok; Emecik Mahalle Muhtarlığı'na sorulabilir, köy kahvesindekiler de yönü tarif eder.",
+  "season": "Accessible year-round from 08:00 to 19:00. In winter (January-February) the dirt track can be muddy, so waterproof shoes are recommended.",
+  "insider_tip": "Be sure to see the cult cave to the north of the site; its entrance is hidden among the grass, so a torch will come in handy. If you ask villagers for the 'temple road' or 'Sarılıman', they will point you to the right path.",
+  "show_reason": "Knidos'un kimsenin bilmediği 'küçük kardeşi' — ücretsiz, sessiz, kalabalıksız bir antik alanda Datça'nın Dor kökenli dini tarihine adım atıyorsunuz; özgün ve paylaşılmamış bir arka plan sunuyor.",
+  "lat": 36.7783,
+  "lng": 27.8143,
+  "address": "Emecik Mahallesi, Datça-Marmaris Karayolu üzeri, Datça, Muğla",
+  "cost_range_min": 0,
+  "cost_range_max": 0,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "The heart of Datça: Old Datça and the centre",
+   "stops": [
+    {
+     "name": "Old Datça Stone Streets",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Wander without a plan among stone houses draped in bougainvillea, and stop by the old village square around the Old Datça Mosque. With no tourist crowds in winter, you have a good chance of chatting with locals."
+    },
+    {
+     "name": "Mehtap Cafe (Mehtap'ın Yeri)",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 180,
+     "tips": "Try the almond coffee at Old Datça's best-known café. Winter mornings are quiet, so the tables in the stone courtyard are usually empty, making it a pleasant place to pause."
+    },
+    {
+     "name": "Baba Lokantası",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 650,
+     "tips": "On Iskele Mahallesi 93/1. Sokak, a genuine home-cooking restaurant where the local tradesmen eat. Ask for the vegetable dish of the day and the soup; the set-plate (tabldot) pricing is easy on your wallet."
+    },
+    {
+     "name": "Datça Iskele & Cumhuriyet Square",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Walk along the marina watching the fishing boats, and stop for tea at the cafés on the square. In the winter sun, the play of light between the two seas is ideal for photos."
+    },
+    {
+     "name": "Fevzi'nin Yeri",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1000,
+     "tips": "On Atatürk Cad. 70. Sokak, a laid-back spot that is part meyhane (tavern), part restaurant. Be sure to ask for the kopanisti cheese and seasonal meze; in winter you can find a table without a reservation."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Inn Datça",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 180,
+     "tips": "On Kumluk Yolu in Iskele Mahallesi, this is the locals' morning meeting point. You can also drop in for a spread breakfast."
+    },
+    {
+     "name": "Kumluk Beach",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The beach is empty in winter, so you can walk along the shore and watch the sunset. It is not swimming season; it is only suitable for a coastal stroll."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "The Three Beauties: Mesudiye, Hayıtbükü and Ovabükü",
+   "stops": [
+    {
+     "name": "Hayıtbükü Bay",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "One of the bays best sheltered from the wind, ringed by hills; its winter quiet makes it perfect for a short coastal walk. It is not swimming season, so stop only for the views and photos."
+    },
+    {
+     "name": "Ovabükü Bay",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "The widest of the Three Beauties bays. Take a short walk along the shore and photograph the sea views between the empty guesthouses. There is no trace of the summer crowds, so enjoy the silence."
+    },
+    {
+     "name": "Mesudiye Central Church",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "A small historic church notable for its stonework, with a surrounding area that suits photography. Visiting is free; if you cannot go inside, explore the exterior and the courtyard."
+    },
+    {
+     "name": "Yakamengen",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 700,
+     "tips": "A stone house converted from an old olive oil workshop at Yaka Köyü No:70. Try the breakfast/brunch plate made with their own pressed olive oil. Confirm whether it is open in winter on (0252) 725 53 93."
+    },
+    {
+     "name": "Kızılbük Bay",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The most natural and peaceful of the Three Beauties bays, opposite Hayıtbükü. Drop by for a short coastal break and golden-hour photos."
+    },
+    {
+     "name": "Ege Meyhanesi",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1100,
+     "tips": "Iskele Mah. Ambarcı Cad. No:11/B, open every day 13:00-23:59. Known for its balık pastırması (cured fish) and cold meze, and its bougainvillea garden is pleasant even in winter."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kocca Ev Cafe & Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 700,
+     "tips": "A venue notable for its stone mansion architecture; try the Bademli Latte (almond latte) speciality."
+    },
+    {
+     "name": "Domuzçukuru Bay",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Known locally as Domuzbükü, a hidden bay surrounded by fig trees. In winter, drive in from the Kargı direction; the path may be somewhat neglected."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "The tip of the peninsula: Palamutbükü and Knidos",
+   "stops": [
+    {
+     "name": "Palamutbükü Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Datça's longest beach, surrounded by olive and almond trees. Businesses on the shore may be closed in winter, so stop for a short coastal walk and a photo break."
+    },
+    {
+     "name": "Knidos Ancient City Half-Day Guided Tour",
+     "category": "culture",
+     "start": "10:45",
+     "end": "13:15",
+     "cost": 1600,
+     "tips": "With a guide you explore the theatre, the agora and the traces of Aphrodite. The entrance fee of 200 TL for Turkish citizens is included in the tour price. There may be a minimum of 3 people, so book in advance.",
+     "bookingUrl": "https://www.viator.com/searchResults/all?text=Half+Day+Guided+Knidos+Ancient+City+Tour",
+     "bookingProvider": "Viator"
+    },
+    {
+     "name": "Palamut Restaurant",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "A long-established family business in Palamutbükü; ask for the catch of the day. In winter, we recommend confirming opening hours by phone beforehand."
+    },
+    {
+     "name": "Deveboynu Lighthouse",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "A lighthouse built in 1931, reached by a 20-30 minute climb from Knidos; from here you see the Aegean and the Mediterranean at the same time. A windproof jacket is essential, and the path runs through thorny scrub."
+    },
+    {
+     "name": "Ali Baba Pide Kebap Çorba Salonu",
+     "category": "food",
+     "start": "19:30",
+     "end": "20:45",
+     "cost": 600,
+     "tips": "A light, affordable dinner after a long day out; we suggest pide (Turkish flatbread with toppings) and lentil soup. A haunt of local tradesmen, with quick service."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sarıhoş Restaurant",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "A laid-back spot right on the sea in Palamutbükü; the seasonal meze make a good alternative."
+    },
+    {
+     "name": "Karaincir Beach",
+     "category": "nature",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Near Emecik, a calm bay known for its mirror-like clarity; in winter it is almost completely deserted."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "The scent of olives and poetry: Reşadiye and Yaka Köyü",
+   "stops": [
+    {
+     "name": "Can Yücel House",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "The house where the poet spent much of his life and died, within Reşadiye Mahallesi, 4 km from the centre. Photograph it from outside and walk the plane-tree-shaded streets of the neighbourhood."
+    },
+    {
+     "name": "Karya Tea Garden (Orhan'ın Yeri)",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 150,
+     "tips": "The tea garden Can Yücel visited most often in his lifetime; try the famous Datça bitter almond soda (Acı Bademli Datça Gazozu). A peaceful stop among the greenery."
+    },
+    {
+     "name": "Datça Village Products Reşadiye Store",
+     "category": "shopping",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 350,
+     "tips": "At the store on Ahmet Taner Kışlalı Caddesi you can taste almond cookies, almond halva and cold-pressed olive oil. The honeycomb varieties make ideal gifts."
+    },
+    {
+     "name": "Hestia Mantı Evi",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 700,
+     "tips": "A modern mantı (Turkish dumplings) house in the Yaka area; among about 12 kinds of mantı, try the Hestia special and the crispy mantı."
+    },
+    {
+     "name": "Kekik Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "On Kumluk Caddesi 67. Sokak, serving by the sea in central Datça since 2012. Aegean meze and seasonal fish are recommended, and in winter it offers a calm, relaxed evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eski Ev Cafe & Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 650,
+     "tips": "Serves in the garden of a historic stone house; known for its crispy gözleme (savoury flatbread)."
+    },
+    {
+     "name": "Reşadiye Mosque",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "The historic mosque of Reşadiye Mahallesi; together with the surrounding stone houses, it suits a short visit."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Datça's pulse: market, Emecik and deep blue",
+   "stops": [
+    {
+     "name": "Datça Saturday Market",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 250,
+     "tips": "Set up in the market area at the end of Ambarcı Caddesi; you can find fresh herbs, olives and handicrafts. Go early to buy directly from local producers. It runs on Sunday, but preparations begin from the previous afternoon."
+    },
+    {
+     "name": "Emecik Sanctuary of Apollo Karneios",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "There is no signpost; ask Emecik villagers for the 'temple road' or 'Sarılıman'. At this cult site dating from the 8th century BC, be sure to see the cave to the north; a torch will come in handy."
+    },
+    {
+     "name": "Valentino",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 650,
+     "tips": "On the right as you head from the market to the marina, a restaurant known for its home-style cooking. Ask for the dish of the day and order tabldot (set-plate) style."
+    },
+    {
+     "name": "Ucanbalık Diving (Trial Dive)",
+     "category": "nature",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 3200,
+     "tips": "With 28 years of experience, Datça's long-established dive centre; even if you have never dived, you can do a trial dive with a one-to-one instructor. Water is cold in winter, so ask for a thick wetsuit; booking in advance is essential.",
+     "bookingUrl": "https://www.viator.com/searchResults/all?text=Datca+Discover+Scuba+Diving+Trial",
+     "bookingProvider": "Viator"
+    },
+    {
+     "name": "Poseidon Fish House",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "One of Datça's most popular fish restaurants, known for its rich meze plate and seasonal fish. An ideal dinner stop to recharge after diving."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ada Balık Datça",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "A mid-sized venue known for its meze and fish varieties; its location near the centre makes it a practical alternative."
+    },
+    {
+     "name": "Kargı Bay",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Within walking distance of the centre and one of the starting points of the Carian Trail; suitable for a short coastal walk."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Gulet village: day trip to Bozburun",
+   "stops": [
+    {
+     "name": "Bozburun Gulet Shipyards",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "About 1 hour 50 minutes from Datça, so set off early. At around 35 shipyards you can watch traditional gulet (wooden sailing yacht) building and chat with the craftsmen."
+    },
+    {
+     "name": "Bozburun Castle",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A strategic fortress from the Ottoman period; a short climb rewards you with views of the village and bay."
+    },
+    {
+     "name": "Lokum Mantı Evi ve Ev Yemekleri",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 650,
+     "tips": "At Cumhuriyet Cad. No:29, mantı (Turkish dumplings) takes the lead, but the Albanian-style liver (Arnavut ciğeri) and artichoke with orange are also worth trying. A friendly home-cooking spot where locals eat."
+    },
+    {
+     "name": "Bozburun Bazaar & Marina Waterfront",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Stroll along the waterfront and browse the small shops, watching the yachts and the view of Yeşil Ada opposite. In winter you will find a calm, almost deserted atmosphere."
+    },
+    {
+     "name": "Filika Restaurant",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 1000,
+     "tips": "Be sure to stop in for the famous shrimp casserole. The drive back to Datça is long, so we recommend eating dinner early and setting off before sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kandil Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 650,
+     "tips": "Octopus, calamari and shrimp are cooked the way you like, accompanied by fresh vegetable salads."
+    },
+    {
+     "name": "Selimiye Village Beach",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "About 20 minutes from Bozburun, a quiet stretch of shore; a good alternative for those who want to escape the crowds."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Farewell: windmills and the scent of olives",
+   "stops": [
+    {
+     "name": "Kızlan Windmills",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "On the Datça-Marmaris road, about 7-10 km from the centre. The historic stone-bodied windmills are very photogenic in the morning light."
+    },
+    {
+     "name": "Olive Farm Olive Oil Tasting Tour",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "At the boutique farm at Reşadiye Mahallesi No:30 you can tour the production facility and taste the organic-certified olive oils for free. You can also buy any product you like on the spot."
+    },
+    {
+     "name": "Datça Village Products Central Store",
+     "category": "shopping",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "Unlike the Reşadiye branch, this store in central Datça also carries the same almond and honey varieties; ideal for last-minute gift shopping."
+    },
+    {
+     "name": "Güneş Büfe",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 400,
+     "tips": "One of Datça's friendliest corner spots; with its homemade jams, it suits a light farewell lunch. It could be your last stop before the journey."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Meşhur Datça Badem Kurabiyecisi",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 250,
+     "tips": "At Iskele, Atatürk Cd. No:37/C; you can have the bitter almond cookies, which made TasteAtlas's world list, packed to take before your journey."
+    },
+    {
+     "name": "Mehmet Ali Ağa Mansion",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A historic mansion in Reşadiye Mahallesi; photograph it from outside and take a short walk through the neighbourhood's stone streets."
+    }
+   ]
+  }
+ ]
+}

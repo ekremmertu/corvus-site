@@ -1,0 +1,484 @@
+{
+ "lang": "tr",
+ "slug": "stokholm-ekim-mayis",
+ "altSlug": "stockholm-october-may",
+ "citySlug": "stokholm",
+ "destKey": "stockholm",
+ "city": "Stokholm",
+ "region": null,
+ "country": "İsveç",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "SEK",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 4200,
+  "attractions": 2600,
+  "transport": 900,
+  "misc": 600
+ },
+ "notes": [
+  "SL kartı 72 saat; Djurgården tramvay 7/feribot dahil. Arlanda Express 340 SEK (Flygbussarna 130). Nakit yok; her yerde kart geçer (Swish).",
+  "Kışın hava -5°C, 15:00'te kararır. Aralık'ta Gamla Stan Noel pazarı ve Lucia (13 Aralık), Vasa boş. Nisan-Mayıs'ta Kungsträdgården'de kiraz, Şubat'ta semla.",
+  "Köfte 200 SEK, fika 80-110, restoran 300-500, müze 150-280; bahşiş için hesabı yuvarla; pahalı şehir. Müzeler için Stockholm Pass'i (Go City) hesapla.",
+  "Vasa 09:00 açılışta; ABBA online saatli; Belediye turu zorunlu; Drottningholm'e yazın tekneyle (1 saat) git, keyifli.",
+  "Fika kültürü: kanelbulle (4 Ekim günü!), kardemummabulle, prinsesstårta; smörgåsbord, gravlax, surströmming (cesaret ister).",
+  "Systembolaget (devlet içki dükkânı) 20:00 kapanır, pazar kapalı; bar bira 80 SEK."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "SL 72 saat + Stockholm Pass isteğe bağlı",
+  "why_chosen": "Metro, otobüs, tramvay 7, Djurgården feribotu dahil; 72 saat ~350 SEK",
+  "coverage": "SL metro, otobüs, banliyö, Djurgården feribotu",
+  "where_to_buy": "SL uygulaması veya temassız kart",
+  "cost": 350,
+  "currency_code": "SEK"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Gamla Stan",
+   "stops": [
+    {
+     "name": "Stortorget",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Ortaçağ meydanı ve renkli evler; Nobel Müzesi, 1520 kan banyosu, sabah boş."
+    },
+    {
+     "name": "Royal Palace Stockholm",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:45",
+     "cost": 200,
+     "tips": "600 odalı saray; Devlet Daireleri, Hazine, 12:15 nöbet değişimi (yazın atlı)."
+    },
+    {
+     "name": "Under Kastanjen Gamla Stan",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 180,
+     "tips": "Kestane ağaçlı avlu kafe; köfte ve kanelbulle."
+    },
+    {
+     "name": "Mårten Trotzigs Gränd & Prästgatan",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "90 cm en dar sokak; runik taş, Västerlånggatan turist caddesinden kaç."
+    },
+    {
+     "name": "Riddarholmen Kilisesi & Monteliusvägen",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Kral mezarları (yaz), sonra Södermalm kayalığından Gamla Stan gün batımı manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nobel Prize Museum",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 140,
+     "tips": "Nobel sandalyeleri (altına imza); sokak yerine."
+    },
+    {
+     "name": "Kaffekoppen Stortorget",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 120,
+     "tips": "Meydan kafesi; fika."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Djurgården müzeleri",
+   "stops": [
+    {
+     "name": "Vasa Museum",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 190,
+     "tips": "1628'de ilk seferinde batan 69 m savaş gemisi (%98 orijinal); dünyanın en iyi müzelerinden, 09:00 açılış."
+    },
+    {
+     "name": "Skansen",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 270,
+     "tips": "Dünyanın ilk açık hava müzesi (1891); İsveç köy evleri, geyik, ren, kurt, yazın dans."
+    },
+    {
+     "name": "Skansen Solliden Restoran",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 180,
+     "tips": "Skansen içinde manzaralı; köfte."
+    },
+    {
+     "name": "ABBA The Museum",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 280,
+     "tips": "Sahnede ABBA ile söyle; online saatli."
+    },
+    {
+     "name": "Rosendals Trädgård",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 120,
+     "tips": "Kışın sera kafesi; sıcak çikolata."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nordiska Museet",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 180,
+     "tips": "İskandinav yaşam kültürü; Sami, ABBA yerine."
+    },
+    {
+     "name": "Blå Porten Djurgården",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 160,
+     "tips": "Bahçeli klasik kafe."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Södermalm & Fotografiska",
+   "stops": [
+    {
+     "name": "Fotografiska",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 210,
+     "tips": "Fotoğraf müzesi eski gümrük binasında; çatı kafe liman manzarası, gece 23:00 açık."
+    },
+    {
+     "name": "Nytorget & SoFo",
+     "category": "shopping",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Hipster Södermalm; vintage, Greta Garbo'nun mahallesi."
+    },
+    {
+     "name": "Meatballs for the People",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 220,
+     "tips": "14 çeşit köfte (geyik, ren); SoFo."
+    },
+    {
+     "name": "Skinnarviksberget",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Şehrin en yüksek doğal noktası; Riddarfjärden manzarası, piknik."
+    },
+    {
+     "name": "Mariaberget & Monteliusvägen Gün Batımı",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:15",
+     "cost": 0,
+     "tips": "Kayalık yürüyüş yolu; Belediye ve Gamla Stan gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pelikan Södermalm",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 250,
+     "tips": "1904 bira salonu; İsveç klasikleri."
+    },
+    {
+     "name": "Spritmuseum Djurgården",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 150,
+     "tips": "Snaps ve akvavit müzesi; Fotografiska yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Drottningholm & Belediye",
+   "stops": [
+    {
+     "name": "Stockholm City Hall Stadshuset",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 150,
+     "tips": "Nobel ziyafeti Mavi Salon'da; Altın Salon'da mozaikler. Tur zorunlu, kule (yaz) 106 m."
+    },
+    {
+     "name": "Drottningholm Palace",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:30",
+     "cost": 180,
+     "tips": "Kraliyet ailesinin evi UNESCO; barok bahçe ve Çin Köşkü, Stadshuskajen'den tekne 1 saat (yaz) veya metro+otobüs."
+    },
+    {
+     "name": "Drottningholm Slottsteater",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 120,
+     "tips": "1766 barok tiyatro; orijinal sahne makineleri, tur."
+    },
+    {
+     "name": "Drottningholms Paviljong Kafe",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 150,
+     "tips": "Saray bahçesi kafe; smörgås ve fika."
+    },
+    {
+     "name": "Lovön Adası Yürüyüşü",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Mälaren gölü kıyısı; dönüş tekne/otobüs."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Millesgården Lidingö",
+     "category": "culture",
+     "start": "11:30",
+     "end": "14:15",
+     "cost": 180,
+     "tips": "Heykeltıraş Milles'in teraslı bahçe müzesi; Drottningholm yerine."
+    },
+    {
+     "name": "Stadshuskällaren",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 300,
+     "tips": "Belediye bodrumunda Nobel menüsü (geçmiş yılların)."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Takımadalar: Vaxholm & Grinda",
+   "stops": [
+    {
+     "name": "Waxholmsbolaget Strömkajen",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 180,
+     "tips": "Takımada feribotu (30.000 ada); Vaxholm 1 saat, Båtluffarkortet 5 gün 995 SEK."
+    },
+    {
+     "name": "Vaxholm Kalesi",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 80,
+     "tips": "Ada kalesi ve müze; kasaba ahşap evleri."
+    },
+    {
+     "name": "Vaxholms Hembygdsgård Kafe",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 150,
+     "tips": "Deniz kıyısı kafe; karides sandviçi (räksmörgås)."
+    },
+    {
+     "name": "Grinda Adası",
+     "category": "nature",
+     "start": "14:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Kışın Vaxholm ve Fjäderholmarna (20 dakika) yeterli; kar ve buz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Fjäderholmarna",
+     "category": "nature",
+     "start": "14:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Şehre en yakın ada (20 dakika); zanaatkârlar ve restoran."
+    },
+    {
+     "name": "Grinda Wärdshus",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "Ada hanı; yerel balık."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Östermalm & Uppsala",
+   "stops": [
+    {
+     "name": "Östermalms Saluhall",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 150,
+     "tips": "1888 gurme hal; Lisa Elmqvist balık, fika."
+    },
+    {
+     "name": "Uppsala Domkyrka",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Tren 40 dakika; İskandinavya'nın en büyük katedrali, Gustav Vasa mezarı, Linnaeus."
+    },
+    {
+     "name": "Gustavianum & Üniversite",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 80,
+     "tips": "1620 anatomi tiyatrosu; Uppsala üniversitesi."
+    },
+    {
+     "name": "Güntherska Hovkonditori Uppsala",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 120,
+     "tips": "1870 pastanesi; prinsesstårta (yeşil marzipan)."
+    },
+    {
+     "name": "Gamla Uppsala",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 100,
+     "tips": "Viking kral höyükleri ve müze; otobüs 2, dönüş treni."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sigtuna",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "İsveç'in en eski kasabası (980); runik taşlar, Uppsala yerine."
+    },
+    {
+     "name": "Hambergs Fisk Uppsala",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 250,
+     "tips": "Uppsala balık restoranı."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Kungsholmen — hafif veda",
+   "stops": [
+    {
+     "name": "Rålambshovsparken",
+     "category": "nature",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Kıyı parkı; Västerbron köprüsü manzarası."
+    },
+    {
+     "name": "Vete-Katten",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 110,
+     "tips": "1928 pastanesi; kanelbulle ve semla (Şubat), veda fikası."
+    },
+    {
+     "name": "Drottninggatan & Sergels Torg",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Yaya alışveriş caddesi; NK, Kulturhuset, Dala atı hediyelik."
+    },
+    {
+     "name": "Arlanda Express Centralen",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 340,
+     "tips": "20 dakikalık hızlı tren; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hallwyl Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "1898 saray-ev ücretsiz; alışveriş yerine."
+    },
+    {
+     "name": "Café Pascal Norrmalm",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 90,
+     "tips": "Modern fika."
+    }
+   ]
+  }
+ ]
+}

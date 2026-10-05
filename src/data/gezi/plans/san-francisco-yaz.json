@@ -1,0 +1,492 @@
+{
+ "lang": "tr",
+ "slug": "san-francisco-yaz",
+ "altSlug": "san-francisco-summer",
+ "citySlug": "san-francisco",
+ "destKey": "san-francisco",
+ "city": "San Francisco",
+ "region": null,
+ "country": "ABD",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 520,
+  "attractions": 230,
+  "transport": 120,
+  "misc": 100
+ },
+ "notes": [
+  "Clipper (telefonda) Muni 2,75, cable car 9, BART SFO 10. Tepeler dik; Muni Metro + otobüs iyi. Uber/Lyft/Waymo (sürücüsüz).",
+  "YAZ SİSLİ: Haziran-Ağustos sabah sis ve 15-18°C ('en soğuk kış SF yazı'); kat kat giyin, köprü öğleden sonra açılır; Eylül-Ekim en güneşli.",
+  "Alcatraz ve Muir Woods rezervasyonu haftalar önce; Academy 45 USD, Alcatraz 45; vergi %8,6 + bahşiş %18-20 fiyata ekli değil.",
+  "Ekşi maya (Tartine, Boudin), Mission burrito, cioppino, dim sum, Ferry Building istiridye; kahve Blue Bottle/Ritual.",
+  "Tenderloin (Union Square'in batısı) ve SoMa 6. cadde geceleri tehlikeli, kaçın; arabada eşya bırakma (cam kırma); evsizlik görünür ama tehlike az.",
+  "Karl the Fog Instagram'da; Twin Peaks/Battery Spencer sisin dansı için gün batımı."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Clipper Card",
+  "why_chosen": "Muni, cable car, BART, feribotlarda; telefona yüklenir",
+  "coverage": "Muni otobüs/metro/cable car, BART, Golden Gate feribotu",
+  "where_to_buy": "Apple/Google Wallet veya istasyon",
+  "cost": 0,
+  "currency_code": "USD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Union Square, Chinatown & Cable Car",
+   "stops": [
+    {
+     "name": "Powell Street Cable Car",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 9,
+     "tips": "Powell-Hyde hattı 1873 teleferik; 08:30 kuyruksuz, dışarıda asılı git, Lombard'da in."
+    },
+    {
+     "name": "Lombard Street",
+     "category": "landmark",
+     "start": "09:15",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "'Dünyanın en kıvrımlı sokağı' 8 viraj; Hyde'dan aşağı bak."
+    },
+    {
+     "name": "Chinatown Dragon Gate & Grant Avenue",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Kuzey Amerika'nın en eski Chinatown'u; Golden Gate Fortune Cookie fabrikası (Ross Alley)."
+    },
+    {
+     "name": "Good Mong Kok Bakery",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 8,
+     "tips": "Nakit dim sum kutusu; kuyruk hızlı."
+    },
+    {
+     "name": "Ferry Building Marketplace",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "1898 feribot binası pazarı; istiridye (Hog Island), Blue Bottle, Acme ekşi maya, salı-perşembe-cumartesi çiftçi pazarı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Boudin Bakery Fisherman's Wharf",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 15,
+     "tips": "1849 ekşi maya; clam chowder ekmek kâsesinde."
+    },
+    {
+     "name": "Exploratorium",
+     "category": "culture",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 40,
+     "tips": "Bilim müzesi Pier 15; Embarcadero yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Golden Gate bisiklet & Sausalito",
+   "stops": [
+    {
+     "name": "Crissy Field & Fort Point",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Fisherman's Wharf'ta bisiklet kirala (40 USD/gün); köprü altından Presidio sahili, Palace of Fine Arts yolda."
+    },
+    {
+     "name": "Golden Gate Bridge",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "2,7 km köprü bisikletle (doğu kaldırımı hafta içi); sis yazın öğleye kadar, rüzgâr."
+    },
+    {
+     "name": "Sausalito",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Köprünün ötesinde Akdeniz havası; yüzen evler (Waldo Point)."
+    },
+    {
+     "name": "Fish Sausalito",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 30,
+     "tips": "Liman kenarı sürdürülebilir balık; nakit."
+    },
+    {
+     "name": "Sausalito Feribotu",
+     "category": "nature",
+     "start": "15:00",
+     "end": "15:30",
+     "cost": 14,
+     "tips": "Golden Gate Ferry ile şehre dönüş (bisikletle); Alcatraz ve silüet manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Golden Gate Welcome Center Vista Point",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Bisikletsiz: 28 numaralı otobüsle köprü başı ve yürüyüş."
+    },
+    {
+     "name": "Scoma's Sausalito",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "Deniz üstü klasik."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Alcatraz & North Beach",
+   "stops": [
+    {
+     "name": "Alcatraz Island",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:45",
+     "cost": 45,
+     "tips": "Pier 33'ten feribot (Alcatraz City Cruises, 45 USD); hücre sesli turu (eski mahkûmlar anlatır), haftalar önce online, 08:45 ilk feribot."
+    },
+    {
+     "name": "Pier 39 Deniz Aslanları",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "K-Dock'ta yüzlerce deniz aslanı; turistik ama eğlenceli."
+    },
+    {
+     "name": "Tony's Pizza Napoletana",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "North Beach'in dünya şampiyonu pizzası; Washington Square."
+    },
+    {
+     "name": "City Lights Bookstore",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Beat kuşağı kitabevi (1953); Vesuvio bar yanı."
+    },
+    {
+     "name": "Coit Tower",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 10,
+     "tips": "Telegraph Hill'de 1933 kule; Diego Rivera okulu fresk, asansör manzara, Filbert basamakları papağanlar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mama's on Washington Square",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "North Beach brunch; kuyruk."
+    },
+    {
+     "name": "Musée Mécanique",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Pier 45'te antika oyun makineleri; ücretsiz, deniz aslanı yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Golden Gate Park & Haight",
+   "stops": [
+    {
+     "name": "California Academy of Sciences",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 45,
+     "tips": "Yaşayan çatı, yağmur ormanı küresi, akvaryum, planetaryum; Golden Gate Park."
+    },
+    {
+     "name": "Japanese Tea Garden",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 15,
+     "tips": "1894 çay bahçesi; pagoda ve köprü, sabah erken ücretsiz."
+    },
+    {
+     "name": "Nopalito Haight",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 22,
+     "tips": "Sürdürülebilir Meksika; carnitas, park yanı."
+    },
+    {
+     "name": "Haight-Ashbury",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "1967 hippi köşesi; Amoeba Music, vintage dükkânları, Painted Ladies'e Alamo Square (20 dakika)."
+    },
+    {
+     "name": "Alamo Square Painted Ladies",
+     "category": "landmark",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Viktorya evleri ve silüet; Full House kadrajı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zazie Cole Valley",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 22,
+     "tips": "Fransız brunch; bahçe."
+    },
+    {
+     "name": "Conservatory of Flowers",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 13,
+     "tips": "Viktorya serası; çay bahçesi yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Muir Woods & Marin",
+   "stops": [
+    {
+     "name": "Muir Woods National Monument",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Kıyı sekoyaları 80 m; park/servis rezervasyonu ZORUNLU (gomuirwoods.com), tur veya araç 45 dakika, ana döngü 1 saat."
+    },
+    {
+     "name": "Muir Beach Overlook",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Pasifik uçurumu manzarası; 2. Dünya Savaşı gözetleme."
+    },
+    {
+     "name": "Pelican Inn Muir Beach",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 25,
+     "tips": "İngiliz pub; fish and chips, şömine."
+    },
+    {
+     "name": "Mill Valley",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Sekoya kasabası; Depot kitabevi meydanı."
+    },
+    {
+     "name": "Marin Headlands Battery Spencer",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Golden Gate'in en iyi kartpostal manzarası; Hawk Hill, sis dansı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Stinson Beach",
+     "category": "nature",
+     "start": "14:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Uzun Pasifik plajı; Mill Valley + Headlands yerine (yazın)."
+    },
+    {
+     "name": "Equator Coffees Mill Valley",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "Kasaba kahvesi ve sandviç."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Mission & Castro",
+   "stops": [
+    {
+     "name": "Tartine Bakery",
+     "category": "food",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 12,
+     "tips": "Efsane ekşi maya ve morning bun; 08:00 kuyruk, Guerrero; karşıda 1776 Mission Dolores kilisesi."
+    },
+    {
+     "name": "Clarion Alley & Balmy Alley Duvar Resimleri",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Latin sokak sanatı; Women's Building freski, Precita Eyes turu isteğe bağlı."
+    },
+    {
+     "name": "La Taqueria Mission",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 14,
+     "tips": "Ödüllü Mission burrito (pilavsız); nakit, kuyruk."
+    },
+    {
+     "name": "Dolores Park",
+     "category": "nature",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Şehir manzaralı tepe park; Bi-Rite dondurma (kuyruk), güneşli mahalle."
+    },
+    {
+     "name": "Castro Street & Castro Theatre",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "LGBT mahallesi; gökkuşağı geçit, Harvey Milk, 1922 sinema."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bi-Rite Creamery",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 8,
+     "tips": "Tuzlu karamel dondurma; park yanı."
+    },
+    {
+     "name": "Twin Peaks",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "280 m şehir panoraması; Castro'dan 37 numaralı otobüs, rüzgâr."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Presidio — hafif veda",
+   "stops": [
+    {
+     "name": "Palace of Fine Arts",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "1915 Roma harabesi taklidi ve gölet; kuğular."
+    },
+    {
+     "name": "Presidio Tunnel Tops",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Yeni park; Golden Gate manzarası ve oyun alanı, Walt Disney Müzesi yanı."
+    },
+    {
+     "name": "Presidio Social Club",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 25,
+     "tips": "Eski kışla lokantası; brunch, veda."
+    },
+    {
+     "name": "BART SFO",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 10,
+     "tips": "BART havalimanı 30 dakika (Embarcadero'dan); veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Walt Disney Family Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 25,
+     "tips": "Presidio'da Disney müzesi; Tunnel Tops yerine."
+    },
+    {
+     "name": "Marina Green Kahvaltı Blue Barn",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 18,
+     "tips": "Marina salata ve sandviç."
+    }
+   ]
+  }
+ ]
+}

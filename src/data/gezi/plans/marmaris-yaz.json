@@ -1,0 +1,445 @@
+{
+ "lang": "tr",
+ "slug": "marmaris-yaz",
+ "altSlug": "marmaris-summer",
+ "citySlug": "marmaris",
+ "destKey": "marmaris",
+ "city": "Marmaris",
+ "region": "Muğla",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 8300,
+  "attractions": 2400,
+  "transport": 1800,
+  "misc": 700
+ },
+ "notes": [
+  "Marmaris merkezden İçmeler, Turunç ve Cennet Adası'na dolmuş ve deniz otobüsü; Selimiye-Bozburun ve Dalyan için araç en pratik.",
+  "Tekne turlarını sahildeki tezgâhlardan bir gün önce al (~1.000 TL, öğle dahil); Kızkumu için sığ su ayakkabısı.",
+  "Yaz sıcağı 38°C: 12:00-16:00 deniz, antik kentleri sabah.",
+  "Marmaris çam balı ve deniz mahsullü börek yöresel; çarşıda fiyat pazarlığı normal.",
+  "Halk plajları merkez, İçmeler ve Selimiye'de bedava; beach club şezlongu 300-1.000 TL.",
+  "Dalaman Havalimanı 1,5 saat uzakta; Havaş havalimanı otobüsü otogardan kalkar."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Marmaris Kalesi & İçmeler",
+   "stops": [
+    {
+     "name": "Marmaris Kalesi",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 60,
+     "tips": "Kanuni'nin kalesi ve küçük arkeoloji müzesi; sabah serin, surlardan marina. Müzekart geçer."
+    },
+    {
+     "name": "Marmaris Çarşı",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Kale altındaki eski çarşı; bal, deri ve tekstil, pazarlık normal."
+    },
+    {
+     "name": "İçmeler Plajı",
+     "category": "nature",
+     "start": "11:30",
+     "end": "15:00",
+     "cost": 150,
+     "tips": "Marmaris'e 15 dakika dolmuş; sığ, durgun ve temiz koy, şezlong ücretli, halk plajı bölümü var."
+    },
+    {
+     "name": "İçmeler Çarşı Balıkçısı",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 800,
+     "tips": "İçmeler sahilinde balık ve meze; plaj sonrası geç öğle."
+    },
+    {
+     "name": "Marmaris Netsel Marina",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Marina yürüyüşü; yatlar, kafeler ve gün batımı, akşam yemeği için restoranlar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Marmaris Balıkçı Barınağı Restaurant",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 900,
+     "tips": "Merkezde balıkçı."
+    },
+    {
+     "name": "Marmaris Halk Plajı",
+     "category": "nature",
+     "start": "11:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Merkez sahilde bedava plaj; İçmeler'e alternatif."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Tekne turu: Kızkumu, Selimiye & Orhaniye",
+   "stops": [
+    {
+     "name": "Kızkumu Plajı",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 1000,
+     "tips": "Marmaris'ten 09:30 tekne (~1.000 TL, öğle ve içecek dahil); Orhaniye Koyu'nda denizin ortasında 600 m yürünen kum dili."
+    },
+    {
+     "name": "Selimiye Koyu",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Teknede öğle yemeği ve yüzme; durgun koy, köy iskelesi."
+    },
+    {
+     "name": "Kamelya Adası",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Son yüzme molası; küçük ada ve berrak su, dönüş 18:00."
+    },
+    {
+     "name": "Marmaris Kordon Balık Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "Sahil bandında balık; tekne sonrası akşam."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Marmaris Liman Meyhanesi",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 800,
+     "tips": "Meze ve rakı."
+    },
+    {
+     "name": "Tavşan Adası",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Tur rotasında alternatif ada molası."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Turunç & Kumlubük",
+   "stops": [
+    {
+     "name": "Turunç Plajı",
+     "category": "nature",
+     "start": "10:00",
+     "end": "13:30",
+     "cost": 150,
+     "tips": "Marmaris'e 30 dakika (dolmuş veya deniz otobüsü); çam kokulu koy, deniz derin ve berrak, şezlong ücretli."
+    },
+    {
+     "name": "Turunç Sahil Restaurant",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 700,
+     "tips": "Sahilde ızgara balık ve meze."
+    },
+    {
+     "name": "Kumlubük Plajı",
+     "category": "nature",
+     "start": "15:30",
+     "end": "18:00",
+     "cost": 100,
+     "tips": "Turunç'un arkasındaki daha sakin kum koy; gün batımında yüzme."
+    },
+    {
+     "name": "Amos Antik Kenti",
+     "category": "culture",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Kumlubük'ün üstünde tepe; tiyatro ve gün batımı manzarası, 20 dakika tırmanış."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Turunç Köy Kahvaltısı",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 400,
+     "tips": "Köy evinde gözleme."
+    },
+    {
+     "name": "Turunç Şelalesi",
+     "category": "nature",
+     "start": "15:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Köyün arkasında küçük şelale; yürüyüş."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Selimiye & Bozburun",
+   "stops": [
+    {
+     "name": "Selimiye Köyü",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Bozburun yarımadasında balıkçı köyü; taş evler, marina ve sakin koy, kahve."
+    },
+    {
+     "name": "Selimiye Halk Plajı",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Köy plajı; durgun su, bedava."
+    },
+    {
+     "name": "Sardunya Restaurant Selimiye",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 900,
+     "tips": "Selimiye'nin sahil restoranı; deniz ürünlü börek ve meze."
+    },
+    {
+     "name": "Bozburun Marina",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Ahşap gulet tezgâhlarının köyü; marina ve gün batımı yürüyüşü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bozburun Balıkçısı",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 800,
+     "tips": "Bozburun'da balık."
+    },
+    {
+     "name": "Söğüt Köyü Plajı",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Bozburun'un ötesinde sakin köy plajı."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Cennet Adası & Günnücek",
+   "stops": [
+    {
+     "name": "Günnücek Milli Parkı",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 30,
+     "tips": "Marmaris'in yanında günlük ağacı ormanı; sabah yürüyüş, gölge."
+    },
+    {
+     "name": "Cennet Adası Plajı",
+     "category": "nature",
+     "start": "11:00",
+     "end": "14:30",
+     "cost": 200,
+     "tips": "Marmaris'ten deniz otobüsü veya araçla; koy ve beach club, Fosforlu Mağara'ya kayık."
+    },
+    {
+     "name": "Cennet Adası Restaurant",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 700,
+     "tips": "Adadaki restoran; ızgara ve salata."
+    },
+    {
+     "name": "Marmaris Atatürk Heykeli Sahili",
+     "category": "nature",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Merkez sahilde akşam yürüyüşü; dondurma ve gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Marmaris Çarşı Köftecisi",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 400,
+     "tips": "Çarşıda köfte-piyaz."
+    },
+    {
+     "name": "Nimara Mağarası",
+     "category": "culture",
+     "start": "11:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Cennet Adası'nda tarih öncesi mağara; yürüyüşle."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Dalyan & İztuzu",
+   "stops": [
+    {
+     "name": "Kaunos Antik Kenti",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 150,
+     "tips": "Marmaris'e 1,5 saat; Dalyan'dan kayıkla geçilen Karya kenti, kaya mezarları karşıda."
+    },
+    {
+     "name": "İztuzu Plajı",
+     "category": "nature",
+     "start": "11:30",
+     "end": "14:30",
+     "cost": 50,
+     "tips": "Caretta plajı; 4,5 km kum, şezlong ücretli, tekneyle veya dolmuşla, gölge az."
+    },
+    {
+     "name": "Dalyan Çarşı Balıkçısı",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 800,
+     "tips": "Dalyan çayı kenarında balık; kaya mezarı manzarası."
+    },
+    {
+     "name": "Dalyan Kaya Mezarları",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:15",
+     "cost": 0,
+     "tips": "Çay kenarından Likya kaya mezarları; fotoğraf noktası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dalyan Çamur Banyosu",
+     "category": "nature",
+     "start": "11:30",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "Sultaniye kaplıcaları ve çamur; plaj yerine."
+    },
+    {
+     "name": "Dalyan Köyüm Restaurant",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 600,
+     "tips": "Dalyan'da ev yemekleri."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Marmaris sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Marmaris Cuma Pazarı",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Cuma ise büyük pazar (bal, otlar, tekstil); değilse Marmaris Kapalı Çarşı."
+    },
+    {
+     "name": "Marmaris Bal Evi",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 300,
+     "tips": "Marmaris çam balı tadımı ve alışverişi; kahvaltıyla."
+    },
+    {
+     "name": "Marmaris Sahil Yürüyüş Yolu",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kaleden marinaya son yürüyüş."
+    },
+    {
+     "name": "Marmaris Kordon Çay Bahçesi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "Sahilde çay ve tost; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Marmaris Çarşı Kahvaltıcısı",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 400,
+     "tips": "Çarşıda kahvaltı."
+    },
+    {
+     "name": "Marmaris Marina Çarşı",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Marina dükkânları."
+    }
+   ]
+  }
+ ]
+}

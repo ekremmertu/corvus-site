@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "rodos-yaz",
+ "altSlug": "rhodes-summer",
+ "citySlug": "rodos",
+ "destKey": "rhodes",
+ "city": "Rodos",
+ "region": null,
+ "country": "Yunanistan",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 330,
+  "attractions": 90,
+  "transport": 220,
+  "misc": 70
+ },
+ "notes": [
+  "Araç kiralamak şart (Lindos/Prasonisi/batı); KTEL otobüsleri doğu kıyısına düzenli çalışır (Lindos 1,5 saat). Havalimanı otobüsü 3 EUR.",
+  "Yaz 30-35°C ve meltem; Lindos akropolü 08:00, plajlar öğleden sonra, kelebekler Haziran-Eylül, Ağustos çok kalabalık.",
+  "Saray 12 EUR (Nisan-Ekim), Lindos akropol 12, Symi feribot 30; taverna 20-30; bahşişte hesabı yuvarla.",
+  "Marmaris'ten feribot 1 saat (Türk vatandaşı için Schengen vizesi); Fethiye'den de yaz feribotu var.",
+  "Pitaroudia, melekouni (susam bal), souma (üzüm rakısı), Symi karidesi; Embona şarapları.",
+  "Eski şehirde yankesici az; motorlu araç girmez, bavulla yürü."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Rodos Ortaçağ Şehri",
+   "stops": [
+    {
+     "name": "Palace of the Grand Master",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 12,
+     "tips": "Şövalyelerin 14. yüzyıl sarayı (Mussolini restore etti); Kos mozaikleri, UNESCO eski şehir."
+    },
+    {
+     "name": "Street of the Knights",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Ippoton caddesi; 7 dil hanı (Fransa, İspanya...), taş kemerler."
+    },
+    {
+     "name": "Sokratous Caddesi & Süleymaniye Camii",
+     "category": "shopping",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Osmanlı çarşı caddesi (1522-1912 Türk dönemi); cami ve Türk kütüphanesi."
+    },
+    {
+     "name": "Mandraki Limanı Geyikler",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Rodos Heykeli'nin yerinde geyik sütunları, yel değirmenleri, Aziz Nikolaos kalesi."
+    },
+    {
+     "name": "Nireas Rhodes Old Town",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 25,
+     "tips": "Asma altı taverna; ahtapot ve Yahudi mahallesi (Evreon Martyron)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Marco Polo Café",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 30,
+     "tips": "Osmanlı konağı bahçesi; akşam da."
+    },
+    {
+     "name": "Surlar Yürüyüşü Old Town Walls",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 2,
+     "tips": "Sur üstü tur (belirli günler); hendek yürüyüşü ücretsiz."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Lindos",
+   "stops": [
+    {
+     "name": "Lindos Acropolis",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 12,
+     "tips": "Otobüsle 1,5 saat (08:00'de kalk) ya da araçla; Athena Lindia tapınağı ve Aziz Paul koyu manzarası. 08:00 açılışında git (öğlen 40°C; eşek yerine yürü)."
+    },
+    {
+     "name": "Lindos Köyü",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Beyaz kaptan evleri (çakıl mozaik avlular) ve dar sokaklar; Panagia kilisesi."
+    },
+    {
+     "name": "St Paul's Bay",
+     "category": "nature",
+     "start": "11:15",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Kalp şeklinde koy; şnorkel ve şapel, yazın kalabalık."
+    },
+    {
+     "name": "Mavrikos Lindos",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "1933'ten beri meydan tavernası; deniz ürünleri, Michelin listeli."
+    },
+    {
+     "name": "Lindos Main Beach",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Kumlu koy; şezlong, dönüş otobüsü 18:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Captain's House Lindos",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Kaptan evinde bar; Lindos."
+    },
+    {
+     "name": "Pefkos Beach",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Lindos'un güneyinde sakin plaj."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Doğu kıyısı plajları",
+   "stops": [
+    {
+     "name": "Kallithea Springs",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 5,
+     "tips": "1929 İtalyan art deco kaplıca; mozaik avlular ve koyda yüzme, şnorkel."
+    },
+    {
+     "name": "Anthony Quinn Bay",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Yunan Zorba filmi koyu; turkuaz çakıl ve kaya, sabah boş, şezlong."
+    },
+    {
+     "name": "Faliraki Beach",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Uzun kumsal ve plaj tavernaları; öğle."
+    },
+    {
+     "name": "Tsambika Beach",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Altın kum ve sığ deniz; tepedeki manastır (300 basamak, doğurganlık efsanesi)."
+    },
+    {
+     "name": "Tsambika Monastery Gün Batımı",
+     "category": "landmark",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Tepe manastırı; kıyı panoraması."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ladiko Beach",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Anthony Quinn'in komşu koyu; daha boş."
+    },
+    {
+     "name": "Stegna Beach Taverna",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Balıkçı köyü tavernası; Archangelos."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Symi Adası",
+   "stops": [
+    {
+     "name": "Symi Feribotu Mandraki",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 30,
+     "tips": "Dodekanisos hızlı feribotu 1 saat (gidiş-dönüş ~30 EUR); Yialos limanı."
+    },
+    {
+     "name": "Yialos Limanı Symi",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Pastel neoklasik evler amfitiyatro gibi; Yunanistan'ın en güzel limanı."
+    },
+    {
+     "name": "Kali Strata Merdiveni & Chorio",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Eski şehre 500 basamak; kale ve manzara, sabah serin."
+    },
+    {
+     "name": "Symi Karidesleri Manos Fish",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Küçük kızarmış Symi karidesi (kabuğuyla); liman."
+    },
+    {
+     "name": "Panormitis Manastırı",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Feribotun uğradığı Aziz Mikail manastırı; Dodekanez'in en kutsalı, dönüş 16:00-17:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nos Beach Symi",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Liman yanı küçük plaj; manastır yerine (feribot rotasına bağlı)."
+    },
+    {
+     "name": "Tholos Symi",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 35,
+     "tips": "Liman ucu deniz kıyısı taverna."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Batı: Kelebekler Vadisi & Kamiros",
+   "stops": [
+    {
+     "name": "Valley of the Butterflies Petaloudes",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 5,
+     "tips": "Haziran-Eylül milyonlarca Jersey kaplan kelebeği (sessiz ol); ormanlı dere yolu."
+    },
+    {
+     "name": "Ancient Kamiros",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 6,
+     "tips": "Helenistik 'Rodos Pompeisi'; deniz manzaralı agora ve sarnıç."
+    },
+    {
+     "name": "Kritinia Castle",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Şövalye kale harabesi; Ege manzarası ücretsiz."
+    },
+    {
+     "name": "Kritinia Köyü Taverna",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Köy meydanı; keçi ve pitaroudia (nohut köftesi)."
+    },
+    {
+     "name": "Embona Şarap Köyü",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 10,
+     "tips": "Attavyros dağı eteğinde şarap tadımı (Emery, Alexandris); dağ köyü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Filerimos Manastırı",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 6,
+     "tips": "Ialysos tepesi; Golgota yolu ve dev haç, tavus kuşları, Kamiros yerine."
+    },
+    {
+     "name": "Emery Winery Embona",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 8,
+     "tips": "Bağ ve tadım salonu."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Güney: Prasonisi",
+   "stops": [
+    {
+     "name": "Prasonisi",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Adanın güney ucu; iki denizin birleştiği kum dili. Bir yanda dalga (kite/rüzgâr sörfü), bir yanda durgun deniz; yazın karayla bağlanır."
+    },
+    {
+     "name": "Prasonisi Taverna Lighthouse",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Kum dilinde tek taverna kümesi; balık."
+    },
+    {
+     "name": "Kiotari Beach",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Uzun sakin plaj; dönüş yolu."
+    },
+    {
+     "name": "Asklipio Kalesi & Köyü",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Bizans kilisesi freskleri ve kale; iç köy."
+    },
+    {
+     "name": "Gennadi Plajı Gün Batımı",
+     "category": "nature",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Boş çakıl plaj; dönüş 1,5 saat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kiotari Taverna Paraga",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 22,
+     "tips": "Plaj kenarı; Prasonisi yerine."
+    },
+    {
+     "name": "Monolithos Castle",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Batı kıyısı kaya kalesi ve gün batımı; alternatif rota."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Elli plajı — hafif veda",
+   "stops": [
+    {
+     "name": "Elli Beach Sabah",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Şehir plajı; atlama platformu, Türkiye kıyısı görünür."
+    },
+    {
+     "name": "Aquarium Rhodes",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 6,
+     "tips": "1930'lar İtalyan akvaryumu; burun."
+    },
+    {
+     "name": "Nea Agora Mandraki Kahvaltı",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 10,
+     "tips": "Yeni Pazar yuvarlak avlusu; kahve ve loukoumades."
+    },
+    {
+     "name": "Rhodes Havalimanı Otobüsü",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 3,
+     "tips": "Diagoras Havalimanı'na otobüs 30 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Koskinou Köyü",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Renkli kapılı köy; akvaryum yerine."
+    },
+    {
+     "name": "Ronda Beach Bar Elli",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 12,
+     "tips": "Plaj kahvaltısı."
+    }
+   ]
+  }
+ ]
+}

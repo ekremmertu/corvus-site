@@ -1,0 +1,500 @@
+{
+ "lang": "en",
+ "slug": "tokyo-summer",
+ "altSlug": "tokyo-yaz",
+ "citySlug": "tokyo",
+ "destKey": "tokyo",
+ "city": "Tokyo",
+ "region": null,
+ "country": "Japan",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "JPY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 50000,
+  "attractions": 16000,
+  "transport": 8000,
+  "misc": 10000
+ },
+ "notes": [
+  "Every train accepts a Suica card, and Google Maps is flawless for train times. A JR Pass is unnecessary within Tokyo; for Nikko, get the Tobu pass.",
+  "Summer brings 33°C heat and humidity, plus festivals and fireworks (hanabi) in July and August. Go out early in the morning and choose indoor venues in the afternoon.",
+  "Cash still matters, especially at small ramen shops. 7-Eleven ATMs accept foreign cards. There is no tipping.",
+  "Be quiet in temples and do not take photos inside. Do not talk on the phone on the metro, and do not eat while walking.",
+  "Book Shibuya Sky and teamLab tickets weeks ahead. Visit Tsukiji before 10:00.",
+  "Ramen costs 1,000-1,500 JPY, a konbini (convenience store) breakfast 500 JPY, and a sushi counter 3,000+."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Suica / Welcome Suica",
+  "why_chosen": "Works on JR, metro, buses and at konbini (convenience stores), and can be added to your phone",
+  "coverage": "Tokyo'daki tüm tren ve metro hatları, otobüsler, marketler",
+  "where_to_buy": "Havalimanı ve JR istasyonları; iPhone Wallet",
+  "cost": 2000,
+  "currency_code": "JPY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Asakusa and Skytree",
+   "stops": [
+    {
+     "name": "Senso-ji",
+     "category": "culture",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Tokyo's oldest temple. See the Kaminarimon lantern, and come at 08:00 when Nakamise is empty. Draw an omikuji fortune."
+    },
+    {
+     "name": "Nakamise Dori",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Shops lining the temple approach. Try ningyo-yaki (small sponge cakes) and senbei (rice crackers)."
+    },
+    {
+     "name": "Asakusa Kappabashi",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Kitchenware street. Look for Japanese knives and plastic food models."
+    },
+    {
+     "name": "Asakusa Unatoto",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 1500,
+     "tips": "Cheap unagi (eel) donburi. The queue is short."
+    },
+    {
+     "name": "Tokyo Skytree",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 3100,
+     "tips": "634 m tall. Book Tembo Deck tickets online, go in the afternoon for clear skies, and walk over the Sumida River."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Asakusa Imahan",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 4000,
+     "tips": "Sukiyaki since 1895. Go for the special lunch."
+    },
+    {
+     "name": "Sumida River Cruise",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 1200,
+     "tips": "Water bus from Asakusa to Odaiba. Take it instead of Skytree."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Shibuya and Harajuku",
+   "stops": [
+    {
+     "name": "Meiji Jingu",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Shinto shrine in the forest. See the sake barrels. It is calm in the morning, and wedding processions pass on weekends."
+    },
+    {
+     "name": "Takeshita Street",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Harajuku youth fashion. Crepe stalls line the street, and it gets packed after 11:00."
+    },
+    {
+     "name": "Omotesando",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Tokyo's Champs-Élysées. Come for the architecture and the mirrored entrance of Tokyu Plaza."
+    },
+    {
+     "name": "Afuri Ramen Harajuku",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 1200,
+     "tips": "Yuzu shio ramen. Order from the ticket machine."
+    },
+    {
+     "name": "Shibuya Sky",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 2500,
+     "tips": "Open-air terrace above the Shibuya Scramble. Book the sunset slot online weeks ahead, and watch the crossing from above."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ichiran Shibuya",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 1100,
+     "tips": "Tonkotsu ramen in single-person booths. Open 24 hours."
+    },
+    {
+     "name": "Yoyogi Park",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Park next to Meiji Jingu. Rockabilly dancers perform on weekends."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Tsukiji, Ginza and teamLab",
+   "stops": [
+    {
+     "name": "Tsukiji Outer Market",
+     "category": "food",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 2500,
+     "tips": "Morning stalls serve tamago (sweet omelette), uni and tuna. Go before 10:00 and eat standing up."
+    },
+    {
+     "name": "Hamarikyu Gardens",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 300,
+     "tips": "Edo-period garden among the skyscrapers. Have matcha in the tea house."
+    },
+    {
+     "name": "Ginza Chuo Dori",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Closed to traffic on weekends. Visit the Itoya stationery store and the 12-floor Uniqlo."
+    },
+    {
+     "name": "Ginza Kagari Ramen",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 1500,
+     "tips": "Chicken paitan ramen. It is a small counter, so expect a queue."
+    },
+    {
+     "name": "teamLab Planets",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 3800,
+     "tips": "Digital art museum where you wade through water. Book online weeks ahead and wear shorts (the water is knee-deep)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sushi Dai Toyosu",
+     "category": "food",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 5000,
+     "tips": "Legendary sushi at Toyosu Market. The queue starts at 05:00."
+    },
+    {
+     "name": "Ginza Six Rooftop Garden",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Shopping mall rooftop. Go here if you have no teamLab ticket."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Shinjuku and Yanaka",
+   "stops": [
+    {
+     "name": "Tokyo Metropolitan Government Building",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Free observation deck on the 45th floor. Mount Fuji is visible in clear weather."
+    },
+    {
+     "name": "Shinjuku Gyoen",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:15",
+     "cost": 500,
+     "tips": "Japanese, English and French gardens. Best in sakura and momiji (autumn leaf) season."
+    },
+    {
+     "name": "Fuunji Shinjuku",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 1100,
+     "tips": "Tsukemen (dipping ramen) legend. Expect a 20-minute queue."
+    },
+    {
+     "name": "Yanaka Ginza",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Old Tokyo (shitamachi) shopping street. Look for cats and menchi katsu (fried minced meat cutlet), and visit Yanaka Cemetery."
+    },
+    {
+     "name": "Omoide Yokocho",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 2500,
+     "tips": "Izakaya alley in Shinjuku. Yakitori and beer, nicknamed 'Piss Alley'."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Golden Gai",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 2000,
+     "tips": "Neighbourhood of tiny bars. Ask about the cover charge."
+    },
+    {
+     "name": "Nezu Shrine",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Tunnel of red torii gates near Yanaka. Azaleas bloom in April."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Akihabara, Ueno and Odaiba",
+   "stops": [
+    {
+     "name": "Ueno Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Park of museums. It is the heart of Tokyo in sakura season."
+    },
+    {
+     "name": "Tokyo National Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 1000,
+     "tips": "Japan's largest museum. See samurai armour and ukiyo-e prints."
+    },
+    {
+     "name": "Ameyoko Market",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 1000,
+     "tips": "Market beneath the Ueno tracks. Street food and dried fruit."
+    },
+    {
+     "name": "Akihabara Electric Town",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Electronics, anime and retro games. Try Yodobashi and Super Potato."
+    },
+    {
+     "name": "Odaiba Seaside Park",
+     "category": "nature",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Artificial island reached by the Yurikamome line. Watch sunset at Rainbow Bridge and see the giant Gundam."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kanda Matsuya Soba",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 1000,
+     "tips": "Soba since 1884. Next to Akihabara."
+    },
+    {
+     "name": "Ueno Zoo",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 600,
+     "tips": "Pandas. Go instead of the museum."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Kamakura",
+   "stops": [
+    {
+     "name": "Kotoku-in Great Buddha",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 300,
+     "tips": "One hour from Tokyo. A 13 m bronze Buddha you can step inside."
+    },
+    {
+     "name": "Hase-dera",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 400,
+     "tips": "Temple with a hydrangea garden. Views over Kamakura's coast."
+    },
+    {
+     "name": "Komachi Dori",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 1500,
+     "tips": "Kamakura's food street. Try shirasu (baby fish) donburi."
+    },
+    {
+     "name": "Yuigahama Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Kamakura's beach. Swimming and beach cafes in summer."
+    },
+    {
+     "name": "Enoshima Island",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Reach the island by Enoden train. Sunset and the silhouette of Mount Fuji."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kamakura Bowls Cafe",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 1500,
+     "tips": "Alternative lunch."
+    },
+    {
+     "name": "Tsurugaoka Hachimangu",
+     "category": "culture",
+     "start": "13:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Kamakura's main shrine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Tokyo Station and Imperial Palace: a gentle farewell",
+   "stops": [
+    {
+     "name": "Imperial Palace East Gardens",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Gardens of the former Edo castle. Free entry, closed on Mondays and Fridays."
+    },
+    {
+     "name": "Tokyo Station Marunouchi",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Red-brick station from 1914. Visit Character Street and pick up an ekiben (station bento)."
+    },
+    {
+     "name": "Rokurinsha Tokyo Station",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 1300,
+     "tips": "Tsukemen on Ramen Street. A farewell lunch."
+    },
+    {
+     "name": "Tokyo Character Street",
+     "category": "shopping",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Souvenirs. Look for Kit Kat flavours and Tokyo Banana."
+    },
+    {
+     "name": "Narita Express / Keisei",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Narita takes 1 hour, Haneda 30 minutes. Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kitchen Street Tokyo Station",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 1500,
+     "tips": "Restaurants beneath the station."
+    },
+    {
+     "name": "Nihonbashi Bridge",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Japan's kilometre zero. Coredo shopping mall."
+    }
+   ]
+  }
+ ]
+}

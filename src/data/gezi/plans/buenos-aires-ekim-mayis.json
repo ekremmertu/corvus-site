@@ -1,0 +1,493 @@
+{
+ "lang": "tr",
+ "slug": "buenos-aires-ekim-mayis",
+ "altSlug": "buenos-aires-october-may",
+ "citySlug": "buenos-aires",
+ "destKey": "buenos-aires",
+ "city": "Buenos Aires",
+ "region": null,
+ "country": "Arjantin",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "ARS",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 450000,
+  "attractions": 250000,
+  "transport": 150000,
+  "misc": 80000
+ },
+ "notes": [
+  "SUBE kartı (kiosk); metro (Subte) ve otobüs (colectivo) ucuz; Uber/Cabify güvenli. Ezeiza 1 saat, Aeroparque şehir içi.",
+  "Ekim-Kasım: mor jakaranda ağaçları, ilkbahar (en iyi dönem). Aralık-Şubat: 30-35°C ve nem; yerliler tatilde, şehir boş. Mart-Mayıs: sonbahar.",
+  "ARS enflasyon: fiyatlar hızla değişir (VARSAYIM 2026 ortası); 'dólar MEP' kartla otomatik iyi kur, Western Union nakit; USD 100'lük yeni seri.",
+  "Parrilla 30-60.000 ARS, empanada 2.000, kahve+medialuna 5.000, tango şovu 90.000+; bahşiş %10 nakit; akşam yemeği 21:00 sonrası.",
+  "Yankesiciye dikkat: Caminito'da ana sokak dışı ve Retiro otobüs terminali; telefonu sokakta gösterme. Colonia için pasaport.",
+  "Mate paylaşımı, dulce de leche, alfajor (Havanna), malbec; Recoleta pazar günü pazarı."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Merkez & San Telmo",
+   "stops": [
+    {
+     "name": "Plaza de Mayo",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Casa Rosada (pembe saray, hafta sonu ücretsiz tur), Katedral (Papa Francis'in eski kilisesi), Mayıs Anneleri perşembe 15:30."
+    },
+    {
+     "name": "Café Tortoni",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 6000,
+     "tips": "1858 kafesi; churros ve chocolate, kuyruk, Avenida de Mayo."
+    },
+    {
+     "name": "San Telmo Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 12000,
+     "tips": "1897 pazar; choripán ve empanada tezgahları, antikacılar, pazar günü Defensa caddesi feria (10 blok)."
+    },
+    {
+     "name": "Plaza Dorrego",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Sokak tangosu (pazar); antika dükkânları."
+    },
+    {
+     "name": "El Zanjón de Granados",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:15",
+     "cost": 8000,
+     "tips": "Restore edilmiş konağın altında 1730 tünelleri; tur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "La Brigada San Telmo",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 30000,
+     "tips": "Futbol dekorlu parrilla; kaşıkla kesilen et."
+    },
+    {
+     "name": "Museo Histórico Nacional",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Parque Lezama'da ulusal tarih; ücretsiz, Zanjón yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Recoleta & Palermo",
+   "stops": [
+    {
+     "name": "Recoleta Cemetery",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Mermer mozole şehri; Evita'nın mezarı (Duarte), kediler, ücretsiz (yabancılara 2025'ten beri 14.000 ARS bilet)."
+    },
+    {
+     "name": "Floralis Genérica",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Güneşle açılıp kapanan dev çelik çiçek; Plaza Naciones Unidas."
+    },
+    {
+     "name": "MALBA",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 12000,
+     "tips": "Latin Amerika sanatı; Frida Kahlo, Berni, çarşamba indirimli."
+    },
+    {
+     "name": "Bosques de Palermo & Rosedal",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Gül bahçesi ve göller; kayık, bisiklet."
+    },
+    {
+     "name": "Don Julio",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:30",
+     "cost": 60000,
+     "tips": "'Dünyanın en iyi biftek restoranı'; rezervasyonsuzsan 18:45'te kuyruğa gir (şampanya ikram), bife de chorizo ve malbec."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Preferido de Palermo",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:30",
+     "cost": 35000,
+     "tips": "Don Julio'nun pembe kardeşi; milanesa ve tapas."
+    },
+    {
+     "name": "Museo Nacional de Bellas Artes",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Ücretsiz; Rodin, Monet, Recoleta."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "La Boca & Puerto Madero",
+   "stops": [
+    {
+     "name": "Caminito",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Rengârenk sac evler ve sokak tangosu; gündüz git, ana sokaklardan çıkma."
+    },
+    {
+     "name": "La Bombonera Boca Juniors",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 25000,
+     "tips": "Stadyum ve müze turu; Maradona kutsalı."
+    },
+    {
+     "name": "El Obrero La Boca",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 25000,
+     "tips": "1954 işçi kantini; milanesa ve tortilla, Bono yemiş."
+    },
+    {
+     "name": "Puerto Madero Puente de la Mujer",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Calatrava köprüsü ve eski liman; Fragata Sarmiento gemisi."
+    },
+    {
+     "name": "Reserva Ecológica Costanera Sur",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Rio de la Plata kıyısı doğa rezervi; gün batımı, choripán standları dışarıda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cabaña Las Lilas Puerto Madero",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 70000,
+     "tips": "Liman kenarı lüks parrilla."
+    },
+    {
+     "name": "Usina del Arte",
+     "category": "culture",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Eski santralde konser-galeri; La Boca, ücretsiz."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Tigre Deltası",
+   "stops": [
+    {
+     "name": "Tren de la Costa Tigre",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 2000,
+     "tips": "Retiro'dan Mitre treniyle 1 saat (manzaralı alternatif: Tren de la Costa); Tigre iskelesi."
+    },
+    {
+     "name": "Puerto de Frutos",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Meyve limanı pazarı; hasır, ahşap, mate kabakları."
+    },
+    {
+     "name": "Tigre Delta Tekne Turu",
+     "category": "nature",
+     "start": "11:45",
+     "end": "13:15",
+     "cost": 15000,
+     "tips": "Paraná deltası kanalları; yüzen evler, market tekneleri (Interisleña toplu tekne ucuz)."
+    },
+    {
+     "name": "Museo de Arte Tigre",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 3000,
+     "tips": "1912 Tigre Club sarayı; nehir kıyısı Belle Époque."
+    },
+    {
+     "name": "María Luján Tigre",
+     "category": "food",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 25000,
+     "tips": "Nehir kenarı parrilla; asado ve manzara."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo del Mate",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 3000,
+     "tips": "Mate müzesi ve tadım; Tigre."
+    },
+    {
+     "name": "Almacén de Ramos Generales Tigre",
+     "category": "food",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 18000,
+     "tips": "Eski bakkal-restoran; picada."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Colonia del Sacramento (Uruguay)",
+   "stops": [
+    {
+     "name": "Buquebus Colonia Feribotu",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "09:15",
+     "cost": 70000,
+     "tips": "1 saat 15 dakika feribot (pasaport, online ~70.000 ARS gidiş-dönüş); Uruguay."
+    },
+    {
+     "name": "Barrio Histórico Colonia",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "UNESCO Portekiz-İspanyol kasabası; Calle de los Suspiros, Portekiz kapısı."
+    },
+    {
+     "name": "Faro de Colonia",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 50,
+     "tips": "1857 feneri; Rio de la Plata manzarası (UYU nakit)."
+    },
+    {
+     "name": "Charco Bistró Colonia",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 1500,
+     "tips": "Nehir kıyısı bistro; chivito (Uruguay sandviçi), UYU/USD."
+    },
+    {
+     "name": "Rambla & Plaza Mayor",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Sahil yolu; klasik arabalar, gün batımı öncesi feribot 17:00-19:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo Portugués Colonia",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 100,
+     "tips": "Portekiz dönemi müzesi; fener yerine."
+    },
+    {
+     "name": "El Buen Suspiro Colonia",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 1200,
+     "tips": "Calle de los Suspiros'ta şarap ve picada."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Palermo Soho & tango",
+   "stops": [
+    {
+     "name": "Palermo Soho Plaza Serrano",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Butikler ve duvar resimleri; hafta sonu tasarım pazarı."
+    },
+    {
+     "name": "La Cabrera Palermo",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 45000,
+     "tips": "Parrilla ve 15 küçük garnitür; 12:00-13:30 happy hour %40 indirim."
+    },
+    {
+     "name": "Museo Evita",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:45",
+     "cost": 8000,
+     "tips": "Evita'nın kıyafetleri ve hayatı; Palermo konağı."
+    },
+    {
+     "name": "El Ateneo Grand Splendid",
+     "category": "culture",
+     "start": "17:15",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Tiyatroda kitabevi; dünyanın en güzeli, Santa Fe."
+    },
+    {
+     "name": "Tango Show El Viejo Almacén",
+     "category": "culture",
+     "start": "20:00",
+     "end": "22:30",
+     "cost": 90000,
+     "tips": "San Telmo'nun en geleneksel tango şovu; akşam yemeği paketi veya milonga (La Viruta, ucuz)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "La Viruta Milonga",
+     "category": "culture",
+     "start": "23:00",
+     "end": "02:00",
+     "cost": 8000,
+     "tips": "Yerlilerin dans ettiği milonga; ders + gece."
+    },
+    {
+     "name": "Sarkis Palermo",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 20000,
+     "tips": "Ermeni meze; parrilla yerine, kuyruk."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Teatro Colón — hafif veda",
+   "stops": [
+    {
+     "name": "Teatro Colón",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 25000,
+     "tips": "Dünyanın en iyi akustikli operası; İngilizce tur saat başı, altın salon."
+    },
+    {
+     "name": "Obelisco & Avenida 9 de Julio",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Dünyanın en geniş caddesi ve dikilitaş; BA simgesi."
+    },
+    {
+     "name": "Confitería La Ideal",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 12000,
+     "tips": "1912 restore edilmiş kafe; medialunas ve café con leche, veda."
+    },
+    {
+     "name": "Galerías Pacífico",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Fresk kubbeli AVM; deri hediyelik (Calle Florida)."
+    },
+    {
+     "name": "Ezeiza Havalimanı Tienda León",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "14:45",
+     "cost": 20000,
+     "tips": "Otobüs/taksi 1 saat; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo de Arte Decorativo",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 4000,
+     "tips": "Errázuriz sarayı; Colón yerine."
+    },
+    {
+     "name": "Las Violetas Almagro",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 12000,
+     "tips": "1884 vitray kafe; medialunas."
+    }
+   ]
+  }
+ ]
+}

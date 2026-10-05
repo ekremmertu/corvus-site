@@ -1,0 +1,492 @@
+{
+ "lang": "tr",
+ "slug": "toronto-yaz",
+ "altSlug": "toronto-summer",
+ "citySlug": "toronto",
+ "destKey": "toronto",
+ "city": "Toronto",
+ "region": null,
+ "country": "Kanada",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "CAD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 420,
+  "attractions": 320,
+  "transport": 90,
+  "misc": 80
+ },
+ "notes": [
+  "PRESTO/temassız kartla TTC; UP Express Pearson 25 dakika. Niagara'ya GO tren (yazın direkt) veya tur.",
+  "Yaz 25-30°C nemli; adalar, plajlar ve festivaller (Caribana Ağustos, TIFF Eylül), gün ışığı 21:00.",
+  "CityPASS 130 CAD, 5 turistik mekân; müzeler 25-30, CN Tower 45. Vergi %13 fiyata dahil değil, bahşiş %18-20.",
+  "St. Lawrence Market pazartesi kapalı; Kensington pazar günü yaya.",
+  "Poutine, peameal bacon sandviç, butter tart; çok kültürlü mutfak (Chinatown, Little Italy, Greektown).",
+  "Adalar feribotu yazın çok dolu; online saatli bilet."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "PRESTO Card",
+  "why_chosen": "TTC metro, tramvay, otobüs ve GO treninde; temassız banka kartı da geçer",
+  "coverage": "TTC, GO Transit, UP Express",
+  "where_to_buy": "Metro istasyonları ve Shoppers Drug Mart; 6 CAD kart",
+  "cost": 6,
+  "currency_code": "CAD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Downtown & CN Tower",
+   "stops": [
+    {
+     "name": "CN Tower",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 45,
+     "tips": "553 m kule; cam zemin ve LookOut, online (~45 CAD), sabah açılışta kuyruksuz, EdgeWalk ekstra."
+    },
+    {
+     "name": "Ripley's Aquarium of Canada",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:15",
+     "cost": 48,
+     "tips": "Kulenin dibinde köpekbalığı tüneli; CityPASS ile."
+    },
+    {
+     "name": "St. Lawrence Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "1803'ten beri pazar; Carousel Bakery'de peameal bacon sandviç, pazartesi kapalı."
+    },
+    {
+     "name": "Distillery District",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Viktorya dönemi viski damıtımevi; galeriler, Soma çikolata, Noel pazarı Aralık."
+    },
+    {
+     "name": "Harbourfront Centre",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Göl kıyısı yürüyüşü ve kanolar; gün batımında adalar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cluny Bistro Distillery",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 30,
+     "tips": "Distillery'de Fransız bistro."
+    },
+    {
+     "name": "Hockey Hall of Fame",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:15",
+     "cost": 25,
+     "tips": "Stanley Kupası; akvaryum yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Toronto Adaları",
+   "stops": [
+    {
+     "name": "Jack Layton Ferry Terminal",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "09:45",
+     "cost": 9,
+     "tips": "Centre Island feribotu 15 dakika (~9 CAD gidiş-dönüş); online."
+    },
+    {
+     "name": "Centre Island",
+     "category": "nature",
+     "start": "09:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Bisiklet kiralama, Centreville lunaparkı; şehir silüeti manzarası."
+    },
+    {
+     "name": "Ward's Island Plajı",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Sakin plaj ve kulübeler; yazın yüzme."
+    },
+    {
+     "name": "The Riviera Ward's Island",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Ada kafesi; göl manzaralı öğle."
+    },
+    {
+     "name": "Hanlan's Point Gün Batımı",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Adanın batı ucu; gün batımı ve havalimanı uçakları, 19:00 feribot."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Toronto Island BBQ & Beer Co",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "Centre Island'da bahçe."
+    },
+    {
+     "name": "Gibraltar Point Feneri",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "1808 feneri; hayaletli, gün batımı yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Kensington, Chinatown & AGO",
+   "stops": [
+    {
+     "name": "Kensington Market",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Vintage, Latin marketler ve grafiti; pazar günü araçsız (Mayıs-Ekim)."
+    },
+    {
+     "name": "Chinatown Spadina",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Kanada'nın en büyük Chinatown'larından; dim sum."
+    },
+    {
+     "name": "Rol San Chinatown",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 20,
+     "tips": "Dim sum klasiği; 24 saat açık."
+    },
+    {
+     "name": "Art Gallery of Ontario",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "Gehry'nin ahşap spirali; Group of Seven ve Rubens, çarşamba akşamı ücretsiz."
+    },
+    {
+     "name": "Graffiti Alley",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Rush Lane boyunca sokak sanatı; Queen West."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seven Lives Tacos Kensington",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "Baja balık tacosu; kuyruk."
+    },
+    {
+     "name": "Bata Shoe Museum",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 14,
+     "tips": "Ayakkabı müzesi; AGO yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Yorkville, ROM & Casa Loma",
+   "stops": [
+    {
+     "name": "Royal Ontario Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 26,
+     "tips": "Dinozorlar ve Libeskind kristali; salı akşamı indirimli."
+    },
+    {
+     "name": "Yorkville",
+     "category": "shopping",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Lüks mahalle; Bloor Street mağazaları."
+    },
+    {
+     "name": "Sassafraz Yorkville",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 35,
+     "tips": "Yorkville'in brunch klasiği; sarı ev."
+    },
+    {
+     "name": "Casa Loma",
+     "category": "culture",
+     "start": "15:15",
+     "end": "17:00",
+     "cost": 40,
+     "tips": "Gotik şato; gizli tünel ve kule, bahçeler Mayıs-Ekim."
+    },
+    {
+     "name": "Spadina Museum",
+     "category": "culture",
+     "start": "17:00",
+     "end": "17:45",
+     "cost": 10,
+     "tips": "Casa Loma yanında Edward dönemi konak."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gardiner Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "Seramik müzesi; ROM karşısı."
+    },
+    {
+     "name": "Bar Isabel Little Italy",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 45,
+     "tips": "İspanyol tapas; akşam."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Niagara Şelalesi",
+   "stops": [
+    {
+     "name": "Niagara Falls Table Rock",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "GO tren + otobüs 2 saat (veya tur ~90 CAD); Horseshoe Falls'un dibi, ücretsiz."
+    },
+    {
+     "name": "Niagara City Cruises Hornblower",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 35,
+     "tips": "Şelalenin altına tekne (Nisan-Kasım); yağmurluk verilir."
+    },
+    {
+     "name": "Niagara Parkway Yürüyüşü",
+     "category": "nature",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Nehir boyu park; Clifton Hill lunaparkı turistik."
+    },
+    {
+     "name": "Table Rock Market Öğle",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Şelale manzaralı yemek katı."
+    },
+    {
+     "name": "Niagara-on-the-Lake",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Viktorya kasabası ve şarap bağları; icewine tadımı (Inniskillin), otobüs WEGO."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Inniskillin Winery",
+     "category": "food",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 20,
+     "tips": "Icewine tadımı; kasaba yerine."
+    },
+    {
+     "name": "Skylon Tower",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 20,
+     "tips": "Şelale kulesi; tekne kapalıysa."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Doğu: Beaches & Leslieville",
+   "stops": [
+    {
+     "name": "The Beaches Boardwalk",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "3 km ahşap sahil yolu; Woodbine plajı, yazın yüzme."
+    },
+    {
+     "name": "Queen Street East Beaches",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Mahalle dükkânları ve kafeler."
+    },
+    {
+     "name": "Lady Marmalade Leslieville",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 22,
+     "tips": "Leslieville brunch; kuyruk."
+    },
+    {
+     "name": "Evergreen Brick Works",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Eski tuğla fabrikasında park ve pazar (cumartesi); Don Vadisi yürüyüşü."
+    },
+    {
+     "name": "Riverdale Park East Seyir",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Şehir silüetinin en iyi ücretsiz gün batımı manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bonjour Brioche Leslieville",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "Fransız fırın."
+    },
+    {
+     "name": "Tommy Thompson Park",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Gölde yapay burun; kuşlar, Brick Works yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Queen West — hafif veda",
+   "stops": [
+    {
+     "name": "Trinity Bellwoods Park",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Hipster park; beyaz sincaplar."
+    },
+    {
+     "name": "Queen Street West",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Butikler ve MOCA yakını; Ossington."
+    },
+    {
+     "name": "Aunties and Uncles",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 18,
+     "tips": "Klasik brunch lokantası; veda."
+    },
+    {
+     "name": "Union Station UP Express",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "Pearson'a UP Express 25 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bang Bang Ice Cream",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 8,
+     "tips": "Dondurma sandviç; Ossington."
+    },
+    {
+     "name": "Museum of Contemporary Art Toronto",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 14,
+     "tips": "Junction'da çağdaş sanat; Queen West yerine."
+    }
+   ]
+  }
+ ]
+}

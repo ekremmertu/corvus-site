@@ -1,0 +1,528 @@
+{
+ "lang": "en",
+ "slug": "trabzon-october-may",
+ "altSlug": "trabzon-ekim-mayis",
+ "citySlug": "trabzon",
+ "destKey": "trabzon",
+ "city": "Trabzon",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9540,
+  "attractions": 5270,
+  "transport": 1140,
+  "misc": 250
+ },
+ "notes": [
+  "Cards may not be accepted at tradesmen's restaurants and small workshops, so carry cash, especially in districts such as Sürmene and Vakfıkebir.",
+  "If you board a bus without a Trabzon Kart you can pay the driver in cash, but travelling with the card is always cheaper.",
+  "Tipping is not compulsory. In restaurants, leaving about 5-10% of the bill is enough and well received.",
+  "The Black Sea is rainy and windy in January. A waterproof coat and non-slip shoes are essential, and layer up especially on the Uzungöl and Sumela days.",
+  "When entering Hagia Sophia Museum and mosques, headscarves for women are usually provided at the door, but carrying a scarf of your own makes things easier.",
+  "Trabzon people are very hospitable but don't shy away from direct questions. It is seen as part of friendly conversation, so don't take offence.",
+  "The road to Sumela and Uzungöl is mountainous and winding. If you go by private car, check for winter tyres or chains. On a guided tour you won't have this worry."
+ ],
+ "niche": {
+  "name": "Ali Usta Knife Workshop, Sürmene",
+  "level": "l3",
+  "why_hidden": "Sürmene's hand-forged knife tradition, going back to the 1950s, still lives on in small workshops with no signs. This is not an official museum or demonstration centre but a real place of work, so tour buses never stop here. It hardly appears in Trabzon guidebooks, and those in the know phone the master directly.",
+  "access_instructions": "From central Trabzon to Sürmene it takes about 40 minutes by private car or dolmuş along the D-010 coastal road. When you reach the workshop at Vural Street No:4A in Çarşı Mahallesi, knock on the door and ask 'can we look around the workshop?'. If they are not busy they usually agree.",
+  "local_contact": "+90 544 746 17 61 (Ali Usta) — gitmeden birkaç saat önce arayıp haber vermek nezaket gereği ve boş bulma ihtimalini artırır.",
+  "season": "Open year-round; it may close only during religious holidays.",
+  "insider_tip": "Ask him to show you not a finished knife but the heat treatment (tempering) stage of steel that has not yet been hammered, because that is where the real mastery lies. If you pay in cash you may get a small discount.",
+  "show_reason": "Karadeniz'in ünlü çelik zanaatını doğrudan ustanın elinden, hiçbir turist kalabalığı olmadan izleme fırsatı — fotoğraflık değil, gerçek bir zanaat deneyimi.",
+  "lat": 40.9186,
+  "lng": 40.1156,
+  "address": "Çarşı Mah., Vural Cad. No:4A, Sürmene, Trabzon",
+  "cost_range_min": 0,
+  "cost_range_max": 500,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Trabzon Kart",
+  "why_chosen": "It is the one card valid in all districts under Trabzon Metropolitan Municipality (including Akçaabat, Yomra, Maçka, Sürmene and Vakfıkebir), so it also helps on the district trips in your plan. It gives a clear discount per bus ride compared with paying cash and saves you hunting for small change. It may not work on some special lines such as the Boztepe cable car, so carry a small amount of cash too.",
+  "coverage": "Trabzon Büyükşehir Belediyesi otobüs hatları — şehir merkezi, Boztepe eteği, Akçaabat, Yomra, Değirmendere, Maçka ve Sürmene yönü dahil",
+  "where_to_buy": "Meydan çevresindeki KentKart bayilerinden veya otobüs duraklarındaki dolum otomatlarından; havalimanı çıkışında da otomat bulunur",
+  "cost": 75,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Trabzon's signatures: Boztepe, Hagia Sophia and the old bazaar",
+   "stops": [
+    {
+     "name": "Boztepe Cable Car & Viewing Terrace",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 180,
+     "tips": "Buy a return cable car ticket at the booth or pay with a Trabzon Kart. On a clear day this is the best panorama of the city and the Black Sea. The wind is harsh in winter, so bring a coat, and stop for a glass of tea at the tea garden on the terrace."
+    },
+    {
+     "name": "Hagia Sophia Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 120,
+     "tips": "The 13th-century Byzantine frescoes are among the most striking wall paintings in Anatolia. The Müzekart is valid. It is open in winter hours (08:30-16:30) and is quiet early in the morning."
+    },
+    {
+     "name": "Kalender Restaurant and Cafe",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 550,
+     "tips": "Order kuymak (cornmeal and cheese fondue), karalahana sarması (black cabbage rolls) and turşu kavurması (stir-fried pickles). All three are classics of Trabzon's tradesmen's kitchens. It is in the city centre near the bazaar, so it fits easily into the route after Hagia Sophia."
+    },
+    {
+     "name": "Atatürk Pavilion",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 80,
+     "tips": "This wooden pavilion housed Atatürk on his Black Sea trips, and its garden has a lovely view over the city. The entrance fee is small and the Müzekart is valid. Photography is allowed inside, but no flash."
+    },
+    {
+     "name": "Bedesten & Cobblers' Bazaar",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Explore the single-domed 16th-century bedesten. In the restored buildings, traditional crafts are both displayed and taught. It opens after 10:30 in the morning, and the late-afternoon light is ideal for photos."
+    },
+    {
+     "name": "Kordonboyu Balık",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 1400,
+     "tips": "A seafront restaurant open since 2005. In anchovy and bonito season you get the freshest options. Book early to secure a table by the sea, as it fills up quickly in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Liman Fish Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1300,
+     "tips": "An alternative if Kordonboyu Balık is full, known for fresh fish and a wide choice of meze. Booking is recommended for the evening."
+    },
+    {
+     "name": "Iskenderpaşa Mosque",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A historic mosque near the main square that can also be admired from outside. It is a short alternative stop if you cannot visit the Bedesten. It may not be appropriate to enter during prayer times."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "The soul of Ortahisar: castle, Zeytinlik and historic pilaf",
+   "stops": [
+    {
+     "name": "Trabzon Castle (Ortahisar)",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Free entry, open daily 08:00-18:00. Walk the cobbled streets among wooden mansions with bay windows. Morning light is best for photos."
+    },
+    {
+     "name": "Kostaki Mansion (Trabzon Museum)",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 90,
+     "tips": "A banker's mansion from the early 1900s, with archaeology on the lower floor and ethnography upstairs. It is on Zeytinlik Street, a 10-minute walk from the castle."
+    },
+    {
+     "name": "Historic Kalkanoğlu Pilaf Shop",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 150,
+     "tips": "They have served pilaf with kavurma (braised meat) and kuru fasulye (white bean stew) from the same recipe since 1856. The shop in Pazarkapı is open 10:00-17:00 and closed on Sundays. Cheap and filling, it is the tradesmen's table at its most authentic."
+    },
+    {
+     "name": "Zağnos Valley Park",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "The city's largest open-air park, with ponds, the 15th-century Zağnos Bridge and an amphitheatre. The walking paths stay open in winter and are easy to reach."
+    },
+    {
+     "name": "Sera Lake National Garden",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "A lakeside walk close to the city centre, with a misty, calm atmosphere in winter. Near sunset the light reflecting on the water is great for photos."
+    },
+    {
+     "name": "Sümer Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 700,
+     "tips": "Try the kuymak first. They serve Black Sea cooking in a setting surrounded by nature. It is wise to phone ahead for an evening table."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Müzeyyen Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "Licensed as first class by the Ministry of Tourism, with sac kavurma (griddle-fried meat) and grilled sea bass as highlights. A stylish alternative if Sümer Restaurant is full, though prices are a little higher."
+    },
+    {
+     "name": "Uzun Sokak historic street walk",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "The historic street around Zafer Bazaar is full of tradesmen's shops and old buildings. A good walking alternative if Zağnos Valley is closed."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Sürmene's steel and Akçaabat's Ortamahalle",
+   "stops": [
+    {
+     "name": "Ali Usta Knife Workshop, Sürmene",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 150,
+     "tips": "About 40 minutes from central Trabzon along the D-010 coastal road. It is a small workshop with no sign on Vural Street in Çarşı Mahallesi, and knocking on the door and asking is enough. Phoning ahead reduces the chance of a wasted trip."
+    },
+    {
+     "name": "Sürmene Seafront",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A short seaside walk after the workshop. Fishing boats and the view of the pier make good photos. It can be windy in winter, so bring a coat."
+    },
+    {
+     "name": "Akçaabat Ortamahalle",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 50,
+     "tips": "Declared an urban conservation area in 1988, with 19th-century Ottoman mansions and stone streets. The restored Timurcular, Kanoğlu and Mehmet Efendi mansions can be seen. Follow the signs from the junction in front of Nihat Usta Köfte."
+    },
+    {
+     "name": "Timurcular Mansion Cafe",
+     "category": "food",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 290,
+     "tips": "A stop for local sweets and coffee in a restored historic mansion, where watching the street from the wooden bay windows is a pleasure. It is the natural continuation of the Ortamahalle visit, with no extra walking."
+    },
+    {
+     "name": "Nihat Usta",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "The address for Akçaabat meatballs since 1974, by the sea. Ask for pilaki (beans in tomato sauce) and piyaz (bean salad) on the side. Booking is recommended for the evening, and weekends are busier."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Merkez Hasan Usta Meatballs & Fish",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:15",
+     "cost": 850,
+     "tips": "On Inönü Street in Akçaabat, an alternative meatball and fish place to Nihat Usta. Good value for money and a calmer atmosphere."
+    },
+    {
+     "name": "Kanoğlu Mansion",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 50,
+     "tips": "Another restored historic mansion in Ortamahalle, and an alternative photo stop to Timurcular Mansion. It is in the same area, a few minutes' walk away."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "From Kemerkaya to the coast: football, market and sea",
+   "stops": [
+    {
+     "name": "Trabzonspor Museum (Mustafa Şamil Ekinci Museum)",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Free entry, closed on Mondays. It tells the story of Ottoman and Republican-era city life together with the history of Trabzonspor. Even if you are not a fan, it is interesting for understanding the city's culture."
+    },
+    {
+     "name": "Çömlekçi Market",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 150,
+     "tips": "A neighbourhood market set up under the viaduct, where you can find fresh hazelnuts, local cheese and butter. Check with local shopkeepers beforehand which day it runs; it usually falls midweek."
+    },
+    {
+     "name": "Lezzet Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 500,
+     "tips": "A classic tradesmen's restaurant with a set menu that changes daily and a wide choice of stews and soups. A practical lunch stop near the centre on your way back from the market."
+    },
+    {
+     "name": "Atatürk Square (Meydan)",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "The square where the city's pulse beats, with historic plane trees and old building facades that photograph well. Stop for a tea and watch local life go by."
+    },
+    {
+     "name": "Adabeyi Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 1500,
+     "tips": "A Kordon favourite for special occasions, known for fresh seafood and carefully made meze. You may need to reserve for the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kordon Boyu Fish House",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1300,
+     "tips": "Another reliable fish restaurant on the Kordon if Adabeyi is full, with a wide choice of meze and Black Sea cooking."
+    },
+    {
+     "name": "Ganita Coastal Park",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "A coastal park with a place in locals' memories, with a long walking path and tea gardens facing the sea. A quiet place to pause as an alternative to Meydan."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "The western coast: Vakfıkebir and Beşikdüzü",
+   "stops": [
+    {
+     "name": "Vakfıkebir Coastal Park",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "About 45 minutes from central Trabzon. A calm morning by the sea, with long walking paths and a cycling track. It can be windy in winter, so dress warmly."
+    },
+    {
+     "name": "Historic Vakfıkebir Mosque",
+     "category": "culture",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "A historic mosque built with traditional stone and wood craftsmanship. Outside prayer times it can also be comfortably viewed from outside. It is a few minutes' walk from the coastal park."
+    },
+    {
+     "name": "Islamoğlu Vakfıkebir Bakery and Delicatessen",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "Try Vakfıkebir's famous stone-oven bread while it is hot, and pair it with local butter and cheese. Close to Beşikdüzü, it is an ideal lunch break."
+    },
+    {
+     "name": "Beşikdüzü Martyr First Lieutenant Erdal Kurtoğlu Coastal Park",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Often described as one of the Black Sea's finest coastal parks, with a long walking path, a cycling track and small cafes for a coffee break. The sea view in daylight is great for photos."
+    },
+    {
+     "name": "100. Yıl Fish Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 1500,
+     "tips": "A fish restaurant on the seafront in Ortahisar, known for its superb location. It is wise to phone ahead to book a table for dinner after you return."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kalyera Fish Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1300,
+     "tips": "An alternative if 100. Yıl is full, known for its wide choice of meze and its view. Easy to reach in the city centre."
+    },
+    {
+     "name": "Sağrı Waterfall",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "One of Vakfıkebir's hidden natural beauties, with a short walk accompanied by the cool sound of water and greenery. A nature-focused alternative to the Beşikdüzü coast."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Uzungöl: highland air and lakeside",
+   "stops": [
+    {
+     "name": "Rüştü's Bakery",
+     "category": "food",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 300,
+     "tips": "A quick breakfast stop before setting off, known for Trabzon bread with fresh butter and for its poğaça (savoury pastry). The road to Uzungöl is long, so don't set off hungry."
+    },
+    {
+     "name": "Uzungöl Group Tour: Discover Nature and Taste the Tea",
+     "category": "nature",
+     "start": "09:30",
+     "end": "14:00",
+     "cost": 2100,
+     "tips": "About 94-100 km from central Trabzon, 1.5-2 hours by private car. Services are less frequent in winter, so a guided tour is the most comfortable option. It includes a lakeside walk and a highland tea break. Dress warmly.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Trabzon+Uzungol+Nature+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Ferah Restaurant",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 900,
+     "tips": "One of Uzungöl's best-known places. Try the buttery trout and mıhlama (cornmeal and cheese fondue) made with natural ingredients. Tables with a lake view are easier to get early."
+    },
+    {
+     "name": "Uzungöl Lake Pier & Photo Stop",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Shots taken from the lake's wooden pier are among the most recognisable photos of Uzungöl. In winter the misty atmosphere adds its own beauty."
+    },
+    {
+     "name": "Muharrem Usta",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:15",
+     "cost": 400,
+     "tips": "A döner place that has served at the same address since 1940, on Maraş Street in Kemerkaya. Ideal for a light, quick dinner after Uzungöl."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sofra Restaurant",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 850,
+     "tips": "Right in the heart of Uzungöl, known for mıhlama and karalahana sarması. A good alternative if Ferah Restaurant is full."
+    },
+    {
+     "name": "Uzungöl Nature Park",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "The official nature park walking path around the lake. It offers a quieter alternative route if the pier is crowded."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Sumela and Hamsiköy: the valley's stone memory",
+   "stops": [
+    {
+     "name": "Sumela Monastery",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 2350,
+     "tips": "A monastery from the 4th century carved into the cliffs of the Altındere Valley in Maçka. Winter hours are 08:30-16:30, with last entry at 15:30. The stairs are steep and some sections can be slippery, so sturdy shoes are a must.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Trabzon+Sumela+Monastery+Hamsikoy+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Sumela Monastery Viewpoint",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:20",
+     "cost": 0,
+     "tips": "The best spot to see the monastery clinging to the rock from the opposite slope of the valley, and more impressive for photos than from inside the monastery. It is a few minutes' walk from the car park area."
+    },
+    {
+     "name": "Osman Usta's Place",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 200,
+     "tips": "The address for old-style oven-baked rice pudding, next to the mosque in Hamsiköy since 1972. It comes topped with plenty of hazelnuts, so ask for the one served hot."
+    },
+    {
+     "name": "Altındere Valley National Park walk",
+     "category": "nature",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A short walking path on the valley floor of the national park that holds the monastery. A calm finish with pine forest and the sound of the stream. It can be damp in winter, so non-slip soles matter."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ahmet Usta Sütlaç",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 180,
+     "tips": "On the right at the entrance to Hamsiköy, an old-style rice pudding shop and an alternative to Osman Usta. It serves rice pudding cooked slowly on a wood stove, without baking it."
+    },
+    {
+     "name": "Vazelon Monastery",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "In Maçka, a monastery ruin less well known than Sumela but valuable for history lovers. Road conditions vary in winter, so check them before you go."
+    }
+   ]
+  }
+ ]
+}

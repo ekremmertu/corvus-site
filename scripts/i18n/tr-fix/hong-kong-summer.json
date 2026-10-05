@@ -1,0 +1,15 @@
+{
+ "source": "7785903b6ba3",
+ "model": "sonnet",
+ "strings": {
+  "d1.s2.tips": "Zirve çevresinde 3,5 km düz yürüyüş; gölgeli ve manzaralı.",
+  "d1.b0.tips": "1952'den beri cha chaan teng; sütlü çay ve domuz pirzolalı sandviç.",
+  "d2.s2.tips": "Liman kenarı sanat müzesi; ücretsiz, Çin kaligrafisi ve çağdaş sanat.",
+  "d5.s0.tips": "Adanın güneyinde kumlu plaj; şezlong bedava, duş var, sabah sakin.",
+  "note2": "Dim sum sabah-öğle yenir; Tim Ho Wan, Kam's Roast Goose gibi Michelin'li ucuz yerlerde kuyruk normal.",
+  "transit.why_chosen": "MTR, tramvay, otobüs, Star Ferry ve marketlerde geçer; HK'de her yerde işe yarar."
+ },
+ "warnings": [
+  "d5.b0.tips: uzunluk çok değişti → düzeltme atıldı"
+ ]
+}

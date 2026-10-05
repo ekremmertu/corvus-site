@@ -1,0 +1,492 @@
+{
+ "lang": "en",
+ "slug": "shanghai-october-may",
+ "altSlug": "sanghay-ekim-mayis",
+ "citySlug": "sanghay",
+ "destKey": "shanghai",
+ "city": "Shanghai",
+ "region": null,
+ "country": "China",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "CNY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 2200,
+  "attractions": 1200,
+  "transport": 250,
+  "misc": 400
+ },
+ "notes": [
+  "Alipay and WeChat Pay work with foreign cards, and cash is rarely used; the metro is cheap and extensive (3-7 CNY). The maglev takes 8 minutes to Pudong.",
+  "Visa: in 2026 many countries get 30 days visa-free (check for Türkiye); set up a VPN for Google and WhatsApp in advance.",
+  "October to November is best (18-22°C); winter is damp and cold at 5°C, February is closed for Chinese New Year, April brings cherry blossom.",
+  "Xiaolongbao costs 30-50 CNY; go to Yang's for shengjianbao; brunch in the French Concession is 100+.",
+  "Museums are free, but you need to reserve online with your passport; buy your Shanghai Tower ticket online.",
+  "No tipping; bargaining works in markets, not in shops."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Shanghai Public Transportation Card / Alipay",
+  "why_chosen": "For metro and buses; the Alipay Transport code also works with foreign cards",
+  "coverage": "Metro, otobüs, feribot, taksi",
+  "where_to_buy": "Metro istasyonları (20 CNY depozito); Alipay uygulaması",
+  "cost": 20,
+  "currency_code": "CNY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Bund and Nanjing Road",
+   "stops": [
+    {
+     "name": "The Bund",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "A row of colonial buildings with Pudong across the river; tai chi practitioners in the morning, no crowds."
+    },
+    {
+     "name": "Nanjing Road East",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "China's busiest pedestrian street; visit the Shanghai First Food Store."
+    },
+    {
+     "name": "People's Square & Shanghai Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Bronze and porcelain collections; free, but you need to reserve with your passport."
+    },
+    {
+     "name": "Yang's Fry Dumplings",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Shengjianbao (pan-fried soup dumplings); on Huanghe Road, bite and suck the soup."
+    },
+    {
+     "name": "Bund Night View",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Pudong lights 19:00-22:00; a Huangpu River cruise (~120 CNY) is optional."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jia Jia Tang Bao",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "A xiaolongbao legend; on Huanghe Road, closes early."
+    },
+    {
+     "name": "Huangpu River Cruise",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 120,
+     "tips": "Night river cruise; instead of the Bund."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Yu Garden and Old City",
+   "stops": [
+    {
+     "name": "Yu Garden",
+     "category": "nature",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 40,
+     "tips": "A classical Ming-dynasty garden; quiet at the 08:30 opening, with a zigzag bridge."
+    },
+    {
+     "name": "Yuyuan Bazaar",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A bazaar around the garden; souvenirs and tea."
+    },
+    {
+     "name": "Nanxiang Mantou Dian",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 50,
+     "tips": "The birthplace of xiaolongbao since 1900; upstairs has seating, downstairs has a queue for takeaway."
+    },
+    {
+     "name": "City God Temple",
+     "category": "culture",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 10,
+     "tips": "A Taoist temple in the middle of the bazaar."
+    },
+    {
+     "name": "Tianzifang",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Studios and cafes in the Shikumen alleys; in the French Concession."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lin Long Fang",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 40,
+     "tips": "Local xiaolongbao; in the French Concession, no tourists."
+    },
+    {
+     "name": "Huxinting Teahouse",
+     "category": "food",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 50,
+     "tips": "A teahouse over the Yu Garden lake."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Pudong skyscrapers",
+   "stops": [
+    {
+     "name": "Shanghai Tower Top of Shanghai",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 180,
+     "tips": "118th floor, 632 m; best on a clear morning, with the world's fastest lift."
+    },
+    {
+     "name": "Lujiazui Pedestrian Bridge",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Views of the Oriental Pearl and the towers from the circular bridge."
+    },
+    {
+     "name": "Shanghai Ocean Aquarium",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 160,
+     "tips": "A 155 m underwater tunnel; good with children."
+    },
+    {
+     "name": "Din Tai Fung Pudong",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 100,
+     "tips": "Xiaolongbao and chicken soup; air-conditioned."
+    },
+    {
+     "name": "Century Park",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 10,
+     "tips": "Pudong's huge park; lake and cycling."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shanghai Grandma Pudong",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 60,
+     "tips": "Local Shanghai cuisine; hongshao rou (red-braised pork)."
+    },
+    {
+     "name": "Oriental Pearl Tower",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 199,
+     "tips": "A retro pink tower; instead of Shanghai Tower."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "The French Concession",
+   "stops": [
+    {
+     "name": "Wukang Road",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A plane-tree-lined boulevard and Wukang Mansion; Art Deco villas and cafes."
+    },
+    {
+     "name": "Propaganda Poster Art Centre",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 25,
+     "tips": "Mao-era posters in an apartment block basement; hidden and fascinating."
+    },
+    {
+     "name": "Fu 1039",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 200,
+     "tips": "Shanghai cuisine in a 1913 villa; drunken chicken and red-braised pork."
+    },
+    {
+     "name": "Xintiandi",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Cafes in restored Shikumen houses; the Museum of the First National Congress of the Communist Party is free."
+    },
+    {
+     "name": "Fuxing Park",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A French-style park; retirees dancing and playing mahjong."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jesse Restaurant",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 120,
+     "tips": "The old Jesse; hongshao rou (red-braised pork), reservation needed."
+    },
+    {
+     "name": "Shanghai Museum of Art Pudong",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A new museum across from the Bund; instead of Xintiandi."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Zhujiajiao",
+   "stops": [
+    {
+     "name": "Zhujiajiao Fangsheng Bridge",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "1 hour on Metro Line 17; a five-arch bridge from 1571, best before the tour buses arrive in the morning."
+    },
+    {
+     "name": "Zhujiajiao Canal Boat Tour",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 80,
+     "tips": "Gondola ride through the canals; 20 minutes."
+    },
+    {
+     "name": "Kezhi Garden",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 20,
+     "tips": "The town's classical garden; entry with a combined ticket."
+    },
+    {
+     "name": "Zhujiajiao Canalside Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 60,
+     "tips": "Zongzi (sticky rice dumplings) and pork trotters; riverside tables."
+    },
+    {
+     "name": "Zhujiajiao Bei Dajie",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Shops along North Street; roasted chestnuts."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ah Po Cha Lou Zhujiajiao",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 40,
+     "tips": "A teahouse over the canal; dim sum."
+    },
+    {
+     "name": "Qibao Ancient Town",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A water town close to the city; a short alternative to Zhujiajiao."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Suzhou",
+   "stops": [
+    {
+     "name": "Humble Administrator's Garden",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 80,
+     "tips": "25 minutes by high-speed train from Hongqiao; China's most famous classical garden, a UNESCO site."
+    },
+    {
+     "name": "Suzhou Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "I.M. Pei's white-and-grey museum; free, reservation required."
+    },
+    {
+     "name": "Pingjiang Road",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "An old street along the canal; silk shops and teahouses."
+    },
+    {
+     "name": "Pingjiang Road Noodle House",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 40,
+     "tips": "Suzhou sweet noodle soup."
+    },
+    {
+     "name": "Tiger Hill",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 60,
+     "tips": "A leaning pagoda and the tomb of the King of Wu; return train at 18:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Songhelou Suzhou",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 120,
+     "tips": "Suzhou cuisine since 1757; squirrel fish."
+    },
+    {
+     "name": "Shantang Street",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A canal street; instead of Tiger Hill."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Jing'an: a light farewell",
+   "stops": [
+    {
+     "name": "Jing'an Temple",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 50,
+     "tips": "A gold-roofed temple among skyscrapers; in Jing'an."
+    },
+    {
+     "name": "Jing'an Kerry Centre",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A shopping centre; souvenirs and coffee."
+    },
+    {
+     "name": "Xiaoyang Shengjian Jing'an",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 30,
+     "tips": "Shengjianbao (pan-fried soup dumplings); your farewell lunch."
+    },
+    {
+     "name": "Maglev Longyang Road",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 50,
+     "tips": "The maglev reaches Pudong Airport in 8 minutes at 430 km/h; a fitting farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Wagas Jing'an",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 60,
+     "tips": "Salads and coffee; light."
+    },
+    {
+     "name": "Jing'an Sculpture Park",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A sculpture park and the Natural History Museum."
+    }
+   ]
+  }
+ ]
+}

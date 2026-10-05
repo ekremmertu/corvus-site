@@ -1,0 +1,12 @@
+{
+ "source": "38a53758a0bf",
+ "model": "sonnet",
+ "strings": {
+  "d2.s0.tips": "Statue City Cruises'ın ilk feribotu 08:30'da (~26 USD, kaide dahil); Ellis Island'da göçmen müzesi var. Taç bileti aylar önce alınmalı.",
+  "d3.s1.tips": "Mısır tapınağı, Vermeer, Amerikan kanadı; NY dışından 30 USD, en az 2 saat.",
+  "note1": "Müzeler: Met NY dışından 30 USD, AMNH 28, MoMA 30; birçoğu belirli günlerde \"istediğin kadar öde\" uygular.",
+  "note2": "Kış 0-5°C, kar olası; müze ağırlıklı plan. Noel vitrinleri ve buz pistleri Aralık'ta, Ocak'ta indirimler var.",
+  "note3": "Bahşiş restoranda %18-22, barda 1-2 USD; fiyatlara vergi dahil değil (%8,9)."
+ },
+ "warnings": []
+}

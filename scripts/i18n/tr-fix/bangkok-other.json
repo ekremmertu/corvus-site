@@ -1,0 +1,14 @@
+{
+ "source": "e837292c0928",
+ "model": "sonnet",
+ "strings": {
+  "d1.s4.tips": "Nehir kenarında Tayland ev mutfağı; Wat Arun manzaralı öğle yemeği, moo palo ve som tam.",
+  "d1.b1.tips": "Wat Pho yanında interaktif Tayland müzesi; yağmurlu gün için.",
+  "d2.b1.tips": "Nehir kenarında restore edilmiş Çin tapınağı-depo; Iconsiam yerine sakin.",
+  "d4.s3.tips": "Michelin yıldızlı sokak lokantası; yengeç omleti (~1.000 THB), aylar önceden rezervasyon yap ya da 14:00'te sıraya gir.",
+  "note0": "BTS Skytrain ve MRT şehri gezmenin en hızlı yolu; taksiye taksimetre açtır, tuk-tuk pazarlıklı ve turistik. Grab uygulaması güvenilir.",
+  "note1": "Tapınaklarda omuz ve diz kapalı olmalı; Grand Palace'ta kontrol sıkı, sarong satılır ama pahalı.",
+  "note2": "Kasım-Şubat en iyi mevsim (28°C, kuru); Mart-Mayıs'ta 38°C sıcak olur, sabah erken gez, klimalı mola ver."
+ },
+ "warnings": []
+}

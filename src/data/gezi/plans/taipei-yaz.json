@@ -1,0 +1,492 @@
+{
+ "lang": "tr",
+ "slug": "taipei-yaz",
+ "altSlug": "taipei-summer",
+ "citySlug": "taipei",
+ "destKey": "taipei",
+ "city": "Taipei",
+ "region": null,
+ "country": "Tayvan",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TWD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9000,
+  "attractions": 2500,
+  "transport": 1500,
+  "misc": 2000
+ },
+ "notes": [
+  "EasyCard MRT, otobüs ve YouBike'ta; MRT'de yeme-içme yasak (ceza). MRT ile Taoyuan Havalimanı'na 40 dakika.",
+  "Yaz 33°C ve nem, Temmuz-Eylül tayfun riski (T8'de her şey kapanır); sabah gez, öğleden sonra müze/AVM, gece pazarı akşam serinliğinde.",
+  "Gece pazarları 18:00-24:00; 300 TWD ile doyarsın. Bahşiş yok, nakit hâlâ yaygın.",
+  "Jiufen-Shifen-Yehliu için tur (~1.500 TWD) veya otobüs 1062; Jiufen'e öğleden sonra git, fenerler 17:00 sonrası.",
+  "Din Tai Fung'da numara al; Yongkang/Lin Dong Fang erişte 250 TWD.",
+  "Tapınaklarda ayakkabı çıkarılmaz; fal blokları ve tütsü serbest."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "EasyCard",
+  "why_chosen": "MRT, otobüs, YouBike ve marketlerde geçer; Jiufen otobüsü dahil",
+  "coverage": "Taipei Metro, otobüsler, TRA yerel trenler, YouBike",
+  "where_to_buy": "MRT istasyonları ve 7-Eleven; 100 TWD kart",
+  "cost": 100,
+  "currency_code": "TWD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Taipei 101 & Elephant Mountain",
+   "stops": [
+    {
+     "name": "Taipei 101 Observatory",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 600,
+     "tips": "89. kat; sabahki ilk seans kalabalıksız. Rüzgâr sönümleyici topu gör."
+    },
+    {
+     "name": "Xinyi District",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "AVM'ler ve Eslite kitapçı; klimalı."
+    },
+    {
+     "name": "Din Tai Fung Xinyi",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 500,
+     "tips": "Xiaolongbao'nun doğduğu marka; 11:45'te numara al."
+    },
+    {
+     "name": "Sun Yat-sen Memorial Hall",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Nöbet değişimi saat başı; 101 manzaralı park."
+    },
+    {
+     "name": "Elephant Mountain",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "20 dakika dik merdiven; Taipei 101 gün batımı fotoğrafı, kalabalık ama değer."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kao Chi Yongkang",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 350,
+     "tips": "Din Tai Fung'un ucuz rakibi; xiaolongbao."
+    },
+    {
+     "name": "Songshan Cultural Park",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Eski tütün fabrikasında tasarım sergileri."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Saray Müzesi & Shilin",
+   "stops": [
+    {
+     "name": "National Palace Museum",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 350,
+     "tips": "Çin imparatorluk hazinesi; yeşim lahana ve et taşı, salı-cumartesi. Sabah tur otobüslerinden önce git."
+    },
+    {
+     "name": "Shilin Official Residence",
+     "category": "nature",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Çan Kay-şek'in konutunun bahçeleri; gül bahçesi."
+    },
+    {
+     "name": "Lin Dong Fang Beef Noodle",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 250,
+     "tips": "Taipei'nin en iyi sığır erişte çorbası (Bib Gourmand); berrak et suyu."
+    },
+    {
+     "name": "Beitou Thermal Valley",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Buharlı yeşil kaplıca gölü; sülfür kokusu, MRT Xinbeitou."
+    },
+    {
+     "name": "Beitou Public Hot Spring",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 60,
+     "tips": "Halk kaplıcası (60 TWD, mayo zorunlu); yerlilerle."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shilin Night Market",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 300,
+     "tips": "Taipei'nin en büyük gece pazarı; dev tavuk şnitzel ve stinky tofu."
+    },
+    {
+     "name": "Beitou Hot Spring Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Japon dönemi kaplıca binası; yağmurda."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Jiufen, Shifen & Yehliu",
+   "stops": [
+    {
+     "name": "Yehliu Geopark",
+     "category": "nature",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 120,
+     "tips": "Kraliçe Başı kayası ve mantar kayalar; sabah tur otobüsleri gelmeden."
+    },
+    {
+     "name": "Shifen Waterfall",
+     "category": "nature",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Tayvan'ın Niagara'sı; 20 dakika yürüyüş."
+    },
+    {
+     "name": "Shifen Old Street",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 150,
+     "tips": "Demiryolu üstünde dilek feneri uçur (150 TWD); tren geçişi."
+    },
+    {
+     "name": "Jiufen Old Street",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Teraslı dağ kasabası; taro topu ve çay evleri, Spirited Away hissi."
+    },
+    {
+     "name": "A-Mei Tea House Jiufen",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 400,
+     "tips": "Kırmızı fenerli çay evi; oolong ve manzara, gün batımında fenerler yanar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jiufen Grandma Lai Taro Ball",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 60,
+     "tips": "Taro topu tatlısı."
+    },
+    {
+     "name": "Houtong Cat Village",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Kedi köyü; Shifen yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Dadaocheng & Longshan",
+   "stops": [
+    {
+     "name": "Longshan Temple",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Taipei'nin en eski tapınağı; sabah dua, tütsü ve fal blokları."
+    },
+    {
+     "name": "Bopiliao Historic Block",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Qing dönemi sokak; ücretsiz sergi."
+    },
+    {
+     "name": "Dihua Street",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Dadaocheng'in kuru gıda ve çay caddesi; Baroque cepheler, Çin Yeni Yılı pazarı."
+    },
+    {
+     "name": "Yongle Market Food Court",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 150,
+     "tips": "Dadaocheng pazarında yerel yemek; oyster omelet."
+    },
+    {
+     "name": "Dadaocheng Wharf",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Nehir kenarı konteyner barlar; gün batımı ve bisiklet."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Du Hsiao Yueh Taipei",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 250,
+     "tips": "Tainan danzai erişte; Dadaocheng."
+    },
+    {
+     "name": "Ximending",
+     "category": "shopping",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Taipei'nin Shibuya'sı; gençlik ve sokak sanatı, wharf yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Yangmingshan",
+   "stops": [
+    {
+     "name": "Yangmingshan Qingtiangang",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Şehrin üstünde çayır ve su bufaloları; yaz serinliği, otobüs 260."
+    },
+    {
+     "name": "Xiaoyoukeng",
+     "category": "nature",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kükürt fumarolleri ve Qixing Dağı."
+    },
+    {
+     "name": "Yangmingshan Zhuzihu",
+     "category": "nature",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Calla zambağı tarlaları ve köy lokantası."
+    },
+    {
+     "name": "Yangmingshan Kalla Lokantası",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 300,
+     "tips": "Zhuzihu'da dağ sebzeleri ve tavuk."
+    },
+    {
+     "name": "Raohe Night Market",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 300,
+     "tips": "Tek sokak gece pazarı; kömürde biberli çörek (Fuzhou pepper bun) girişte."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ningxia Night Market",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 300,
+     "tips": "Yerel ve yemek odaklı gece pazarı."
+    },
+    {
+     "name": "Xiangshan",
+     "category": "nature",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Alternatif tepe."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Tamsui",
+   "stops": [
+    {
+     "name": "Tamsui Old Street",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "MRT hattının sonu; nehir ağzı kasabası, a-gei ve balık topu."
+    },
+    {
+     "name": "Fort San Domingo",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 80,
+     "tips": "Hollanda-İspanyol kalesi ve İngiliz konsolosluğu; kırmızı bina."
+    },
+    {
+     "name": "Tamsui A-Gei Lokantası",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 150,
+     "tips": "Tofu içinde şeffaf erişte; Tamsui'nin yemeği."
+    },
+    {
+     "name": "Fisherman's Wharf Tamsui",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Aşıklar Köprüsü; feribotla geçilir, iskele kafeleri."
+    },
+    {
+     "name": "Tamsui Gün Batımı Sahili",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Tayvan'ın en ünlü gün batımlarından; nehir ağzı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tamsui Zhengzhong Fish Ball",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 100,
+     "tips": "Balık topu çorbası."
+    },
+    {
+     "name": "Bali Left Bank",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Feribotla karşı kıyı; bisiklet yolu."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Yongkang — hafif veda",
+   "stops": [
+    {
+     "name": "Chiang Kai-shek Memorial Hall",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Dev beyaz anıt ve nöbet değişimi (saat başı); Özgürlük Meydanı."
+    },
+    {
+     "name": "Yongkang Street",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Kafeler ve mango buzu; Smoothie House."
+    },
+    {
+     "name": "Yongkang Beef Noodle",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 250,
+     "tips": "1963'ten beri kızarmış sığır erişte; veda öğle yemeği."
+    },
+    {
+     "name": "Da'an Forest Park",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Şehir ormanı; son yürüyüş, MRT ile Taoyuan Havalimanı'na 40 dakika."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Smoothie House Yongkang",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 200,
+     "tips": "Mango kar buzu; erişte yerine tatlı."
+    },
+    {
+     "name": "Taipei Botanical Garden",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Lotus havuzları; park yerine."
+    }
+   ]
+  }
+ ]
+}

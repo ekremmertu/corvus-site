@@ -1,0 +1,21 @@
+{
+ "source": "746b43fbcc0c",
+ "model": "sonnet",
+ "strings": {
+  "d1.s2.tips": "Kuyu kebabı ve etli ekmek burada olmazsa olmaz; sıcak ekmek tereyağı ve balla geliyor. Öğlen 13:00'ten önce git, hafta sonu kalabalık olabiliyor.",
+  "d1.s3.tips": "Şehrin ikonik gün batımı noktası; kırmızı çatılı vadinin tamamını buradan görürsün. Çarşıdan yürüyerek 15 dk ya da minibüsle çık; yanındaki büfede sahlep ya da çay iç. Kışın gün batımı 17:00 civarı.",
+  "d3.s3.tips": "Tarihi sokaklardan birinde ocakbaşı ağırlıklı akşam mekanı; meze tabağını paylaşarak başla, sonra ızgaraya geç. Kışın içerideki ocak keyifli bir sıcaklık veriyor.",
+  "d3.b0.tips": "Tarihi Çarşı Han Arkası'nda köy kadınlarının ürettiği reçel, erişte ve el işlerinin satıldığı hafta sonu pazarı; açık olup olmadığını çarşı girişindeki Turizm Danışma'dan sor.",
+  "d5.theme": "Kaleden Kanyona: Şarap Evi'yle Kapanış",
+  "d5.s3.tips": "Bölgenin tek sanat ve şarap evi; taş duvarlar ve loş ışıkla romantik bir akşam sofrası kurulur. Şarap eşliğinde et yemeklerini tercih et, önceden masa ayırt.",
+  "d6.s0.tips": "Safranbolu'dan otobüsle yaklaşık 1,5-2 saat (Metro Turizm, Safranbolu Otogarı'ndan). Kaleye varınca önce Büyük ve Küçük Liman'ı ayıran yarımadayı gör; Bizans kapıları hâlâ ayakta.",
+  "d6.s4.tips": "Mendirek girişinde balık ekmek ve balık tava yapan mütevazı bir yer; dönüş otobüsünden önce hafif bir atıştırma için ideal. 17:00-17:30 otobüsünü kaçırma.",
+  "d6.b0.tips": "Geç Osmanlı mimarili binada arkeoloji ve etnografya salonları var; pazartesi kapalı, 08:30-17:00 arası açık.",
+  "note4": "Konaklarda ve cami avlularında ayakkabı çıkarma/örtünme kuralına dikkat et; çoğu caminin girişinde ziyaretçi için başörtüsü bulunur.",
+  "note5": "Hafta sonu kurulan pazar/köy günleri (Yöresel Ürünler Pazarı vb.) mevsime göre değişebilir; gittiğin gün açık olup olmadığını Safranbolu Turizm Danışma'dan (çarşı girişi) teyit et.",
+  "niche.why_hidden": "Türkiye'nin ilk lokum ve safran müzesi olmasına rağmen Kaymakamlar Müzesi ve Cinci Hamamı gibi büyük duraklar öncelik kazandığı için çoğu tur programı ve rehber burayı hiç saymıyor. Müze işletmecisi Onur Şen'in ailesinin üç kuşaktır sürdürdüğü zanaati anlatan üç katlı konak, çarşının gündelik akışında sessizce duruyor.",
+  "niche.access_instructions": "Çavuş Mahallesi, Mimar Sinan Caddesi'nde, Kaymakamlar Müzesi'nden yürüyerek 10 dakika; kapıdan doğrudan girilebilir (walk-in). Kalabalık dönemlerde grup olarak önceden haber verirsen üst kattaki safran anlatımı daha ayrıntılı yapılıyor.",
+  "niche.insider_tip": "Üst kattaki safran bölümünde 'bir gram safran kaç çiçekten çıkıyor' diye sor; Onur Bey'in ailesi anlatmayı seviyor. Çıkışta genelde ücretsiz lokum tadımı ikram ediliyor, beğenirsen vakumlu paket sipariş edip kargoyla da gönderebiliyorlar."
+ },
+ "warnings": []
+}

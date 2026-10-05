@@ -1,0 +1,477 @@
+{
+ "lang": "en",
+ "slug": "los-angeles-summer",
+ "altSlug": "los-angeles-yaz",
+ "citySlug": "los-angeles",
+ "destKey": "los-angeles",
+ "city": "Los Angeles",
+ "region": null,
+ "country": "USA",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 450,
+  "attractions": 250,
+  "transport": 350,
+  "misc": 100
+ },
+ "notes": [
+  "LA is a car city, so a rental car is essential (parking 20-40 USD). The Metro B Line is useful between Hollywood and Downtown. An Uber between the coast and the city costs 20-40 USD.",
+  "Summer is 28°C and dry, with morning fog on the coast (June gloom). The beaches are warmest from June to September (sea 20°C), and Universal is crowded.",
+  "The Getty and the Broad are free (reservation required); Griffith is free; Universal costs 109+ USD.",
+  "Tacos cost 3-5 USD (Guisados, Leo's), In-N-Out 10 USD, restaurants 30-50 USD. Tip 18-20%, and 9.5% tax is not included in the listed price.",
+  "Take the DASH bus up to Griffith (the car park fills up) and arrive 1 hour before sunset.",
+  "The sea is cold (18-20°C) with waves and currents, so watch for the lifeguard flags."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Hollywood and Griffith",
+   "stops": [
+    {
+     "name": "Hollywood Walk of Fame",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "See the handprints and stars at the TCL Chinese Theatre; the crowds are thinner in the morning."
+    },
+    {
+     "name": "Hollywood Sign Seyir Noktası Lake Hollywood Park",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The closest free spot to see the sign. Take your photos here."
+    },
+    {
+     "name": "Grand Central Market",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 18,
+     "tips": "A market open since 1917. Try Eggslut, Tacos Tumbras a Tomas and Sarita's pupusas."
+    },
+    {
+     "name": "The Broad",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A free contemporary art museum. Book online for the Infinity Mirror room."
+    },
+    {
+     "name": "Griffith Observatory",
+     "category": "nature",
+     "start": "17:30",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "A free observatory with sunset and city lights views. The car park fills up, so take the DASH bus."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Musso & Frank Grill",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 45,
+     "tips": "Hollywood's restaurant since 1919. Order a martini."
+    },
+    {
+     "name": "Walt Disney Concert Hall",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Gehry's silver building. The garden tour is free."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Santa Monica and Venice",
+   "stops": [
+    {
+     "name": "Santa Monica Pier",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "The end of Route 66. Ride the Pacific Park Ferris wheel (~15 USD)."
+    },
+    {
+     "name": "Santa Monica Beach",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Summer sun. There are no loungers, so bring a towel and sunscreen. The sea is 20°C."
+    },
+    {
+     "name": "Venice Beach Boardwalk",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Muscle Beach, street performers and the skate park."
+    },
+    {
+     "name": "Gjusta Venice",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 22,
+     "tips": "Venice's cult bakery-cafe. Try the smoked fish and the bread."
+    },
+    {
+     "name": "Venice Canals",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Canals and bridges dating from 1905. A quiet walk."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Abbot Kinney Boulevard",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Boutiques and coffee. An alternative to the canals."
+    },
+    {
+     "name": "The Butcher's Daughter Venice",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 20,
+     "tips": "A vegetarian cafe."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Getty and Beverly Hills",
+   "stops": [
+    {
+     "name": "Getty Center",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A free museum (parking 20 USD, reservation required). See Van Gogh's Irises, the gardens and the city views. Take the tram up."
+    },
+    {
+     "name": "Getty Center Garden Terrace Cafe",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 18,
+     "tips": "The museum cafe, with garden views."
+    },
+    {
+     "name": "Rodeo Drive",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Beverly Hills' luxury street. Go window shopping."
+    },
+    {
+     "name": "Beverly Gardens Park",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "The Beverly Hills sign and a cactus garden."
+    },
+    {
+     "name": "In-N-Out Burger Sunset",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 10,
+     "tips": "A California classic. Order a Double-Double animal style from the secret menu."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nate 'n Al's Beverly Hills",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "A deli since 1945. Try the pastrami."
+    },
+    {
+     "name": "Los Angeles County Museum of Art",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 28,
+     "tips": "The Urban Light lamps. An alternative to the Getty."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Downtown and Koreatown",
+   "stops": [
+    {
+     "name": "Bradbury Building",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "The iron atrium from Blade Runner. The lobby is free."
+    },
+    {
+     "name": "Angels Flight Railway",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:20",
+     "cost": 1,
+     "tips": "The world's shortest railway, on Bunker Hill."
+    },
+    {
+     "name": "Little Tokyo",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The Japanese Village Plaza and the Japanese American National Museum."
+    },
+    {
+     "name": "Sushi Gen Little Tokyo",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 30,
+     "tips": "A sashimi lunch set. A queue forms by 11:15."
+    },
+    {
+     "name": "Koreatown BBQ Kang Ho-dong Baekjeong",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 40,
+     "tips": "Korean BBQ in K-town. Some branches are open 24 hours."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Arts District",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Murals and breweries, next to Little Tokyo."
+    },
+    {
+     "name": "Langer's Delicatessen",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 25,
+     "tips": "The #19 pastrami sandwich since 1947, by MacArthur Park."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Malibu",
+   "stops": [
+    {
+     "name": "Malibu Pier",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "A 45-minute drive along the PCH. Have breakfast on the pier at Malibu Farm."
+    },
+    {
+     "name": "El Matador State Beach",
+     "category": "nature",
+     "start": "10:45",
+     "end": "13:00",
+     "cost": 8,
+     "tips": "Summer mornings start with fog (June gloom), then sun. It gets crowded at midday."
+    },
+    {
+     "name": "Malibu Seafood",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "A roadside fish counter. Order fish and chips and sit at the tables with PCH views."
+    },
+    {
+     "name": "Point Dume",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A walk along the headland. Look for whales in season (December to April) and seals."
+    },
+    {
+     "name": "Getty Villa",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A free museum of ancient art. A good indoor stop when it's hot."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Neptune's Net",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "A seafood classic with a biker crowd, on the PCH."
+    },
+    {
+     "name": "Zuma Beach",
+     "category": "nature",
+     "start": "10:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A wide beach. An alternative to El Matador."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Universal Studios Hollywood",
+   "stops": [
+    {
+     "name": "Universal Studios Hollywood",
+     "category": "culture",
+     "start": "09:00",
+     "end": "17:00",
+     "cost": 109,
+     "tips": "The Studio Tour (Jaws, Psycho) and Super Nintendo World. A one-day ticket is ~109 USD, so buy online. Get the Express pass when it's crowded."
+    },
+    {
+     "name": "Universal CityWalk",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 25,
+     "tips": "Restaurants by the park exit, plus Voodoo Doughnut."
+    },
+    {
+     "name": "Warner Bros. Studio Tour Seyir",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "The Burbank studio gate. The tour is separate and takes place the next day (~70 USD)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Warner Bros. Studio Tour",
+     "category": "culture",
+     "start": "09:00",
+     "end": "13:00",
+     "cost": 70,
+     "tips": "A tour of a real working studio. A calmer option than Universal."
+    },
+    {
+     "name": "Pink's Hot Dogs",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 8,
+     "tips": "A hot dog stand since 1939, on La Brea."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Silver Lake: a gentle farewell",
+   "stops": [
+    {
+     "name": "Silver Lake Reservoir Yürüyüşü",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "A 3.5 km walk around the reservoir, with plenty of neighbourhood dogs."
+    },
+    {
+     "name": "Micheltorena Stairs",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "The heart-shaped stairs. Take a Silver Lake photo."
+    },
+    {
+     "name": "Intelligentsia Coffee Silver Lake",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 8,
+     "tips": "LA's third-wave coffee, with a courtyard."
+    },
+    {
+     "name": "Guisados Echo Park",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 12,
+     "tips": "Braised tacos. Order the sampler plate as your farewell meal."
+    },
+    {
+     "name": "LAX FlyAway Union Station",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "The bus from Union Station to LAX takes 45 minutes. Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pine & Crane Silver Lake",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 18,
+     "tips": "Taiwanese cuisine. An alternative to tacos."
+    },
+    {
+     "name": "Echo Park Lake",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "A lotus pond and pedal boats. An alternative to the reservoir."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "source": "2ad41c853c8b",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Yazın 09:00'da açılıyor, ilk saatlerde kalabalık az oluyor. İçindeki küçük müzede amforalara ve ada tarihine bakın, surlardan Ege manzarası için üst kata çıkın.",
+  "d1.s3.tips": "Adanın en ünlü ve en geniş kumsalı; şezlong ve şemsiye fiyata dahil, kum ince, su serin. Yaz sezonunda merkezden dolmuş kalkıyor, yoksa taksiyle 10 dakika.",
+  "d1.b0.tips": "Hafızın Yeri doluysa alternatif: sade ama doyurucu ev yapımı tabaklar sunuyor. Merkeze yakın, öğlen kısa bir bekleme olabilir.",
+  "d2.s0.tips": "Rum Mahallesi arkasındaki büyük otoparktan lavanta kokulu taş yola girip 15-20 dakika yürüyün. Sabah erken saatte ışık ve rüzgâr fotoğraf için ideal.",
+  "d2.s1.tips": "Merkezdeki kiralama noktalarından bisiklet alıp değirmenlerden bağ yollarına doğru sürün; yol düz, araç trafiği az. Günlük kiralama ücreti kişi başıdır, yarım gün için de anlaşabilirsiniz.",
+  "d2.s4.tips": "Bozcaada'nın en bilinen gün batımı noktası; gün batımından 40 dakika önce gelip fener ve rüzgâr gülleri kadrajını deneyin. Merkezden yürüyüş yaklaşık 20 dakika, araçla 10 dakika.",
+  "d2.s5.tips": "Zeytinyağlı ev yemekleri konusunda adanın klasiklerinden; enginar ve taze fasulye mevsiminde çok iyi. Gürültüsüz, aile işletmesi bir sofra.",
+  "d3.s2.tips": "Talay ve Amadeus gibi farklı bağ evlerini gezip her durakta tadım yapıyorsunuz; sabahki Corvus'tan farklı üreticiler görüyorsunuz. Yüksek sezonda en az 2 gün önce rezervasyon şart.",
+  "d3.s3.tips": "Adanın ilk Türk şarap üreticisi Çamlıbağ, yaz akşamları sizi traktörle bağlarına götürüp peynir ve şarap eşliğinde gün batımı izletiyor. Buluşma noktası ve saati önceden telefonla teyit edin.",
+  "d4.s0.tips": "İskeleden kalkıp Akvaryum Koyu, Mavra (Tavşan) Adası ve Poyraz Limanı'nda yüzme molaları veriyor; öğle yemeği tur ücretine dahil. Yüksek sezonda tur dolabilir, en az 2 gün önce rezervasyon yapın.",
+  "d5.s0.tips": "Türk Mahallesi olarak bilinen bu kısımda kıvrımlı sokaklar ve ahşap cumbalı evler dikkat çekiyor. Mimari farkı görmek için Cumhuriyet Mahallesi ile karşılaştırarak yürüyün; ücretsiz.",
+  "d5.s3.tips": "Merkeze en yakın koylardan biri, yürüyerek 15 dakika. Yolda Ayazma Manastırı kalıntılarının yanından geçersiniz, kısa bir bakış için durabilirsiniz.",
+  "d6.s0.tips": "Yükyeri-Geyikli feribotuyla adadan çıkıp yaklaşık 1 saat 10 dakikalık yolla Behramkale'ye ulaşıyorsunuz; toplam gidiş yaklaşık 2 saat sürer. Akropolisteki Dor tapınağından Midilli Adası'nı görürsünüz, manzara için biraz vakit ayırın.",
+  "d6.s1.tips": "Taş evler ve dar sokaklarıyla köyü yürüyerek gezin, zeytinyağı ve el işi satan küçük dükkânlara göz atın. Araç köyün üst kısmındaki otoparka bırakılıyor.",
+  "d6.s3.tips": "Behramkale'ye 2 km mesafede, Midilli Adası'na bakan uzun ve sakin bir kumsal. Köyden araçla veya taksiyle 10 dakika; tesis sınırlı olduğundan su ve atıştırmalık götürün.",
+  "d7.s0.tips": "Modern bir kahvaltı molası için kruvasan ve flat white iyi bir ikili. Merkezde, sabah erken saatte oturacak yer bulmak kolay.",
+  "note0": "Adada çoğu restoran ve mağazada kart geçiyor, ama çarşamba pazarında, bağ evlerinde ve küçük esnaf lokantalarında nakit TL bulundurmak işinizi kolaylaştırır.",
+  "note1": "Bozcaada çok küçük: merkezden hemen her yere yürüyüş 10-25 dakika. Dolmuş sınırlı çalışıyor, bisiklet en pratik ulaşım aracı.",
+  "note3": "Temmuz-Ağustos yüksek sezon: tekne turu, bağ turu ve meyhane rezervasyonlarını en az 2-3 gün önceden yapın, yoksa yer bulamayabilirsiniz.",
+  "note4": "Öğle 12:00-16:00 arası güneş çok sert; bu saatlerde plajda veya gölgede kalın, güneş kremi ve şapka şart.",
+  "note5": "Ada çok güvenli, gece yürüyüşü rahat; ama Habbele ve Sulubahçe gibi tesissiz koylarda cankurtaran yok, dikkatli yüzün.",
+  "niche.why_hidden": "Ada içinde, çamlar ve bağlar arasında saklı bir bahçede kurulu; tabelası yok, sosyal medyada nadiren geçiyor. Selçuk Bey randevusuz kimseyi ağırlamıyor. Bu sofra, ekşi mayalı ekmek ile adanın keçi peynirini bir araya getiriyor ve ana akım rehberlerin çoğu burayı atlıyor.",
+  "niche.access_instructions": "Ziyaretten en az 1-2 gün önce telefon veya WhatsApp ile rezervasyon yaptırın; randevusuz gidilirse masa bulunamıyor. Amerikan Çeşme mevkiine merkezden taksiyle 10 dakika. Bağ yolları arasında tabela yok, adresi teyit ederek gidin.",
+  "niche.insider_tip": "Sabit menüyü önceden sorun; bazı günler menüde İstanbul'dan getirilen etler oluyor. Ekşi mayalı ekmeği keçi peyniriyle birlikte isteyin. Öğle vakti akşama göre daha sakin geçiyor."
+ },
+ "warnings": []
+}

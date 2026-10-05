@@ -1,0 +1,476 @@
+{
+ "lang": "en",
+ "slug": "osaka-october-may",
+ "altSlug": "osaka-ekim-mayis",
+ "citySlug": "osaka",
+ "destKey": "osaka",
+ "city": "Osaka",
+ "region": null,
+ "country": "Japan",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "JPY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 48000,
+  "attractions": 22000,
+  "transport": 9000,
+  "misc": 8000
+ },
+ "notes": [
+  "An ICOCA card works on all trains. Kansai Airport is 40 minutes away on the Nankai Rapi:t. Nara and Kyoto are 45 minutes by Kintetsu or JR.",
+  "November brings momiji (autumn leaves) in Kyoto and April brings cherry blossom. Winter is dry at 5-10°C and uncrowded, and it is kani (crab) season.",
+  "Osaka is all about kuidaore (eat until you drop): takoyaki, okonomiyaki and kushikatsu cost 500-1,500 JPY. Go to Kuromon in the morning.",
+  "For the USJ Nintendo area, book an area ticket in the app when the park opens. Express Pass costs 10,000+ JPY.",
+  "Cash still matters; use the 7-Eleven ATMs. There is no tipping, and people queue quietly.",
+  "Fushimi Inari is empty at 07:30; tour buses arrive after 09:00."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "ICOCA",
+  "why_chosen": "It works on the Osaka Metro, JR and Hankyu, and uses the same system as Suica.",
+  "coverage": "Kansai tüm tren/metro/otobüs, konbini",
+  "where_to_buy": "İstasyon biletmatikleri; 2.000 JPY (500 depozito)",
+  "cost": 2000,
+  "currency_code": "JPY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Osaka Castle and Dotonbori",
+   "stops": [
+    {
+     "name": "Osaka Castle",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 600,
+     "tips": "Toyotomi's castle: views from the 8th floor, a quiet park in the morning, cherry blossom in April."
+    },
+    {
+     "name": "Osaka Castle Park",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Parkland and moats around the castle, plus a plum grove."
+    },
+    {
+     "name": "Kuromon Ichiba Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 2500,
+     "tips": "Osaka's kitchen: tuna from the stall, wagyu skewers and strawberries, all eaten standing up."
+    },
+    {
+     "name": "Shinsaibashi-suji",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A 600 m covered arcade with Don Quijote and drugstores and cosmetics."
+    },
+    {
+     "name": "Dotonbori",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "20:30",
+     "cost": 1500,
+     "tips": "The Glico running man and neon lights; try takoyaki (Wanaka) and Mizuno okonomiyaki, with crowds all along the canal."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mizuno Okonomiyaki",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:30",
+     "cost": 1500,
+     "tips": "A Bib Gourmand okonomiyaki (savoury pancake) in Dotonbori, made with a yam batter."
+    },
+    {
+     "name": "Tombori River Cruise",
+     "category": "nature",
+     "start": "18:00",
+     "end": "20:30",
+     "cost": 1200,
+     "tips": "A 20-minute canal boat ride past the neon."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Shinsekai and Tennoji",
+   "stops": [
+    {
+     "name": "Shitennoji Temple",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 300,
+     "tips": "Japan's oldest Buddhist temple (593), with a pagoda and garden."
+    },
+    {
+     "name": "Shinsekai",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A retro entertainment district with Tsutenkaku Tower and the Billiken statue."
+    },
+    {
+     "name": "Tsutenkaku Tower",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 900,
+     "tips": "A tower from 1912 with an observation deck and a slide."
+    },
+    {
+     "name": "Kushikatsu Daruma Shinsekai",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 1500,
+     "tips": "Deep-fried skewers; double-dipping in the sauce is forbidden."
+    },
+    {
+     "name": "Abeno Harukas 300",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 1500,
+     "tips": "The observation deck of Japan's tallest building, with views over Osaka and the sea."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yakko Kushikatsu",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 1300,
+     "tips": "If Daruma is full, it is on the same street."
+    },
+    {
+     "name": "Tennoji Park & Zoo",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 500,
+     "tips": "A park and zoo, as an alternative to Harukas."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Nara",
+   "stops": [
+    {
+     "name": "Nara Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "40 minutes from Osaka by Kintetsu; 1,200 free-roaming deer, crackers 200 JPY, quiet in the morning."
+    },
+    {
+     "name": "Todai-ji",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 800,
+     "tips": "A 15 m Buddha inside the world's largest wooden building; crawl through the hole in the pillar."
+    },
+    {
+     "name": "Kasuga Taisha",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 500,
+     "tips": "A Shinto shrine with 3,000 stone lanterns, reached by a forest path."
+    },
+    {
+     "name": "Nakatanidou Mochi",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 200,
+     "tips": "A show of high-speed mochi pounding; try the fresh yomogi (mugwort) mochi."
+    },
+    {
+     "name": "Naramachi",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A district of old merchant houses with cafés and crafts, Nara's quiet side."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kamameshi Shizuka Nara",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 1500,
+     "tips": "Rice cooked in an iron pot; a hot lunch."
+    },
+    {
+     "name": "Kofuku-ji",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 700,
+     "tips": "A five-storey pagoda, as an alternative to Naramachi."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Umeda and Nakanoshima",
+   "stops": [
+    {
+     "name": "Umeda Sky Building",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 2000,
+     "tips": "The Floating Garden Observatory: clear in the morning, among the best views in Kansai."
+    },
+    {
+     "name": "Nakanoshima Park",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A park on an island between two rivers, with a rose garden and the city hall."
+    },
+    {
+     "name": "Osaka Nakanoshima Museum of Art",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 1800,
+     "tips": "A museum in a black cube, with Modigliani and Osaka art."
+    },
+    {
+     "name": "Tenma Kisaburo",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 1200,
+     "tips": "A local restaurant in Tenma serving a daily teishoku (set meal)."
+    },
+    {
+     "name": "Tenjinbashisuji Shopping Street",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Japan's longest covered shopping street (2.6 km), full of local shops."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hanshin Department Store Snack Park",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 1000,
+     "tips": "A standing-room food floor in Umeda; try ikayaki (grilled squid)."
+    },
+    {
+     "name": "Osaka Museum of Housing and Living",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 600,
+     "tips": "A re-created Edo-period street, with kimono rental."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Kyoto",
+   "stops": [
+    {
+     "name": "Fushimi Inari Taisha",
+     "category": "culture",
+     "start": "07:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "45 minutes from Osaka by JR; 10,000 red torii gates, empty at 07:30, so climb halfway up the mountain."
+    },
+    {
+     "name": "Kiyomizu-dera",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 500,
+     "tips": "A temple with a wooden terrace, views over Kyoto and the streets of Higashiyama."
+    },
+    {
+     "name": "Nishiki Market",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 1500,
+     "tips": "Kyoto's kitchen: tsukemono (pickles) and tamagoyaki (rolled omelette), eaten standing up."
+    },
+    {
+     "name": "Gion",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The geisha district, with Hanamikoji Street and Yasaka Shrine."
+    },
+    {
+     "name": "Arashiyama Bamboo Grove",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "A bamboo tunnel; the crowds thin out in the late afternoon. Cross Togetsukyo Bridge."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kyoto Gogyo Ramen",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 1200,
+     "tips": "Burnt miso ramen, near Nishiki."
+    },
+    {
+     "name": "Kinkaku-ji",
+     "category": "culture",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 500,
+     "tips": "The Golden Pavilion, as an alternative to Arashiyama."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Universal Studios Japan",
+   "stops": [
+    {
+     "name": "Universal Studios Japan",
+     "category": "culture",
+     "start": "08:30",
+     "end": "17:00",
+     "cost": 8900,
+     "tips": "Super Nintendo World (area tickets run out in the morning) and Harry Potter; 1-Day Pass about 8,900 JPY, Express Pass is worth it in crowds, queue before the 08:30 opening."
+    },
+    {
+     "name": "Universal CityWalk Osaka",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 1500,
+     "tips": "Restaurants by the park exit, plus a takoyaki museum."
+    },
+    {
+     "name": "Tempozan Ferris Wheel",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "A Ferris wheel on Osaka Bay with night lights, 10 minutes from USJ."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kaiyukan Aquarium",
+     "category": "culture",
+     "start": "08:30",
+     "end": "17:00",
+     "cost": 2700,
+     "tips": "An aquarium with a whale shark, as an alternative to USJ."
+    },
+    {
+     "name": "Osaka Bay Okonomiyaki Chibo",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 1500,
+     "tips": "An okonomiyaki chain."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Namba morning and a gentle farewell",
+   "stops": [
+    {
+     "name": "Namba Yasaka Shrine",
+     "category": "culture",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "A shrine with a stage shaped like a giant lion's head; good for photos."
+    },
+    {
+     "name": "Hozenji Yokocho",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Pour water over the moss-covered Fudo statue; a stone-paved lane."
+    },
+    {
+     "name": "Wanaka Takoyaki Sennichimae",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 600,
+     "tips": "Osaka's classic takoyaki for a farewell."
+    },
+    {
+     "name": "Namba Parks",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A canyon-shaped mall with a rooftop garden; Kansai Airport is 40 minutes away by Nankai."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ichiran Namba",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 1100,
+     "tips": "Ramen, as an alternative to takoyaki."
+    },
+    {
+     "name": "Kuromon Ichiba Morning Tour",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "The market at its morning best; good for souvenirs."
+    }
+   ]
+  }
+ ]
+}

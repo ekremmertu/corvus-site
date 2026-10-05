@@ -1,0 +1,497 @@
+{
+ "lang": "en",
+ "slug": "kas-october-may",
+ "altSlug": "kas-ekim-mayis",
+ "citySlug": "kas",
+ "destKey": "kas",
+ "city": "Kaş",
+ "region": "Antalya",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 16050,
+  "attractions": 6850,
+  "transport": 750,
+  "misc": 450
+ },
+ "notes": [
+  "In Kaş, most small local restaurants and village eateries prefer cash to cards. Carry cash in TL, especially in villages such as Islamlar and Boğazcık.",
+  "Getting around town and between Kalkan and Patara is by dolmuş (shared minibus), paid in cash. Kaş has no public transport card system, so you pay the driver directly.",
+  "A service charge is generally not added automatically to restaurant bills. Leaving a 5-10% tip is a common habit.",
+  "January is low season in Kaş: the sea is not suitable for swimming, and some seaside restaurants and cove businesses may be closed for the winter. Check that places are open before you go.",
+  "Kaş is a safe, small and walkable town. Walking alone late at night is generally fine, but watch for vehicle traffic on the narrow stone streets.",
+  "If you plan to visit several archaeological sites such as Patara and Xanthos, buying a MüzeKart (2026: 100 TL) may be cheaper than buying individual tickets.",
+  "Prices are generally fixed at village markets and women's cooperatives, but polite haggling in small souvenir shops is normal local custom."
+ ],
+ "niche": {
+  "name": "Boğazcık Barak Kilim Women's Cooperative",
+  "level": "l2",
+  "why_hidden": "The 400-year-old Barak weaving tradition, brought by families who migrated from Gaziantep 300 years ago, was revived in 2023 with 13 looms in an old village school, supported by Kaş Municipality. It never appears in Kaş's sea-and-cove-focused tourist guides, and shows up only in local news and development project reports.",
+  "access_instructions": "From central Kaş, Boğazcık neighbourhood on the Lycian Way is about 30 minutes by private car or taxi (22 km, around 300 m altitude). The workshop in the old school building is open to visitors during daytime hours on weekdays. You can see the cooperative's women working at their looms and buy kilims directly.",
+  "local_contact": "Kaş Belediyesi Santral: 0242 836 1020 (Barak Kadın Girişimi ve İşletme Kooperatifi ziyaret gün/saatini teyit etmek için)",
+  "season": "Open year-round. In the winter months (October to May) the women weave more intensively in the workshop, so you are more likely to see them at the looms than in summer.",
+  "insider_tip": "Instead of buying a ready-made kilim, you can choose a size and colours and leave an order. They ship it within a few months. Bring cash, as the card reader may not always work.",
+  "show_reason": "400 yıllık göçmen dokuma kültürü, kadın istihdamı ve devlet destekli canlanma hikayesi — Kaş'ın 'deniz ve koy' imajının tam zıttı, derin ve sosyal bir katman sunuyor.",
+  "lat": 36.1963,
+  "lng": 29.7536,
+  "address": "Boğazcık Mahallesi, Eski Okul Binası, Kaş, Antalya",
+  "cost_range_min": 0,
+  "cost_range_max": 3000,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "The heart of Kaş: theatre, bazaar and sunset",
+   "stops": [
+    {
+     "name": "Antiphellos Ancient Theatre",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A Hellenistic theatre in the middle of Kaş, facing the sea. Entry is free and it is quiet early in the morning. From the steps you can see the Greek island of Meis (Kastellorizo), and the daylight is ideal for photos."
+    },
+    {
+     "name": "Uzun Çarşı",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 250,
+     "tips": "The narrow lanes above the ancient theatre are lined with small shops selling olive oil soap, felt slippers and handmade jewellery. It is nothing like a shopping mall, and you can haggle with the shopkeepers."
+    },
+    {
+     "name": "Bi Lokma",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 700,
+     "tips": "This small restaurant on Hükümet Caddesi serves a village breakfast with fresh olives and tomatoes. Don't miss the muhammara (red pepper and walnut dip) and sigara böreği (fried cheese rolls). It can fill up between 12:00 and 13:00, so go earlier."
+    },
+    {
+     "name": "Büyükçakıl Beach",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "The pebble beach closest to the centre of Kaş. There is no swimming in January, but it is lovely for a walk and photos along the shore. Entry is free."
+    },
+    {
+     "name": "Cumhuriyet Square (Kaş)",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "The square overlooks the marina and the fishing boats, and it is the best spot for golden hour at sunset. The light is at its best after 16:30. Grab a coffee and sit on the stone benches."
+    },
+    {
+     "name": "Dolphin Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1500,
+     "tips": "This family-run place on Sandıkçı Sokak is known for grilled octopus and shrimp casserole, with seafood bought daily from local fishermen. Tables can fill up early after 19:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zaika",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1600,
+     "tips": "This restaurant focuses on ocakbaşı (grill counter) cooking, with Ali Nazik (kebab on smoky aubergine yoghurt) and pides as highlights. A good evening alternative if Dolphin is full."
+    },
+    {
+     "name": "Küçükçakıl Beach",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "A smaller, quieter pebble beach than Büyükçakıl, within walking distance of the centre. In winter it can stand in for a walk and photos."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Kekova blue cruise: sunken city and Kaleköy",
+   "stops": [
+    {
+     "name": "Kaş: Kekova Blue Cruise with Sunken City and Swim Stops",
+     "category": "nature",
+     "start": "09:00",
+     "end": "17:00",
+     "cost": 4200,
+     "tips": "The tour leaves from Kaş harbour and shows you the sunken city from the boat. The price includes the Lycian castle and rock tombs at Kaleköy (Simena), plus lunch in the village of Üçağız. The sea is cold in winter, so instead of swim stops you get photo and walking breaks on deck. Bring a coat.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Kas+Kekova+Sunken+City+Boat+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Kaş Fishing Harbour",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "A small fishing shelter next to the marina, where you can see the day's catch when the boats come back in the late afternoon. Away from the tourist crowds, it shows real Kaş life."
+    },
+    {
+     "name": "Nereid Gurme",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1700,
+     "tips": "This meze house near Cumhuriyet Square stands out for its Aegean greens and olive oil dishes. Order a sharing platter of meze with wine. Evening tables fill up early."
+    },
+    {
+     "name": "Mavi Bar",
+     "category": "landmark",
+     "start": "21:15",
+     "end": "22:00",
+     "cost": 400,
+     "tips": "A modest, friendly bar where locals stop for mussels and beer in the late afternoon. It is much cheaper than the touristy meyhanes (tavernas)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Naturel Restoran",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1300,
+     "tips": "Known for vegetarian-friendly options such as handmade pasta and a falafel bowl. A good alternative if Nereid Gurme is full."
+    },
+    {
+     "name": "Inceboğaz Coastal Path",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "The last stretch of the coastal walking path that runs from the marina to the peninsula. Use it for an evening walk instead of the fishing harbour."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Hidden coves of the Çukurbağ Peninsula",
+   "stops": [
+    {
+     "name": "Limanağzı Bay",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 350,
+     "tips": "A quiet bay with no road access. You get there by small water taxi (about 15 minutes) from Kaş marina. In winter, come for the clear water and the rocks to photograph rather than for swimming."
+    },
+    {
+     "name": "Mezetaryen",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 1400,
+     "tips": "At this stylish meze house on Cumhuriyet Square, the homemade gnocchi and the saffron mussel pilaf stand out. It is calmer at lunchtime."
+    },
+    {
+     "name": "Hidayet Bay",
+     "category": "nature",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A turquoise-watered bay on the Çukurbağ Peninsula that locals love too. In winter it is ideal for walking the shoreline and taking scenery photos. Entry is free."
+    },
+    {
+     "name": "Çukurbağ Peninsula",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "A coastal walking and cycling path that starts at the marina and runs through olive groves, with yachts on one side and olive trees on the other. The light is best near sunset."
+    },
+    {
+     "name": "L'Apéro",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 2000,
+     "tips": "A Mediterranean-French fusion menu prepared by a French chef in a 150-year-old stone house, and one of the most special places to eat in Kaş. Be sure to book for the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Corner Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 1900,
+     "tips": "A place that blends seafood and European cooking and is known for quick service. A good alternative if Mezetaryen is full."
+    },
+    {
+     "name": "Aquarium Bay",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 300,
+     "tips": "Another hidden cove, known for its rich underwater life. If no boat is available to Limanağzı, the same water taxi can take you here instead."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Kaş the diving capital and the old Greek quarter",
+   "stops": [
+    {
+     "name": "Kaş: Scuba Diving Adventure and Underwater Experience",
+     "category": "nature",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 2500,
+     "tips": "Kaş is considered the diving capital of Türkiye. The tour leaves the harbour in the morning and offers an underwater experience at two different dive sites, with equipment included. It suits beginners, and experienced divers are directed to a different route.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Kas+Scuba+Diving+Experience",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Taşbahçe Breakfast",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 800,
+     "tips": "A modest breakfast place with a garden, popular with locals for its homemade jams. Ideal for a late breakfast or lunch after diving."
+    },
+    {
+     "name": "Old Kaş (Greek Quarter)",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "The old Greek quarter, where stone houses draped in bougainvillea line the streets. In the narrow lanes you can photograph door knockers and wooden shutters. The afternoon light reflects beautifully off the stone walls."
+    },
+    {
+     "name": "Kaş Lighthouse",
+     "category": "landmark",
+     "start": "16:45",
+     "end": "17:45",
+     "cost": 0,
+     "tips": "The lighthouse at the tip of the peninsula is a quiet spot that locals know for watching the sunset, and tourist buses don't stop here. Bring a coat against the wind."
+    },
+    {
+     "name": "Sardelaki",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1800,
+     "tips": "A neighbourhood meyhane (tavern) known for classic Aegean meze (fava, octopus salad), plus shrimp in butter and calamari. Some tables have harbour views."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Oburus Momus",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "A calm place known for vegetarian-friendly vegetable dishes, salads and desserts. A good choice if Sardelaki is full."
+    },
+    {
+     "name": "Kaş Friday Market",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Kaş's weekly neighbourhood market, where you can browse stalls of local cheese, honey and vegetables. It is held on Fridays only, so check that your plans fall on this day."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Boğazcık mountain village: Barak weaving and the Lycian Way",
+   "stops": [
+    {
+     "name": "Boğazcık Barak Kilim Women's Cooperative",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 200,
+     "tips": "The Barak weaving tradition, brought by families who migrated from Gaziantep 300 years ago, has been revived with 13 looms in an old village school. You can watch the women at their looms and buy kilims directly. The visit is free, and small souvenirs cost around 200-500 TL."
+    },
+    {
+     "name": "Lycian Way (Boğazcık Section)",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "This stretch of the Lycian Way passes through the village at 300 metres altitude and, along a short section, shows mountain views and old Lycian remains. Bring sturdy shoes and a water bottle."
+    },
+    {
+     "name": "Dudu Mutfak",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 850,
+     "tips": "A calm place serving home cooking made with organic, seasonal ingredients. Far from the noise of Kaş, it is favoured by local families."
+    },
+    {
+     "name": "Mumi Cafe Beach",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1600,
+     "tips": "Right on the water and known for its simple but good-quality evening menu. In winter the indoor section is heated. It is best to get a table just after sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Omlet Beach & Breakfast",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 900,
+     "tips": "A breakfast and lunch spot right on the sea, known for its range of omelettes. An alternative if Dudu Mutfak is closed."
+    },
+    {
+     "name": "Çoban Bay",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "A quiet bay west of Kaş that locals know about. If you have time on the way back from Boğazcık, it works for a short stop."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Kalkan day: Kaputaş, old town and mountain trout",
+   "stops": [
+    {
+     "name": "Kaputaş Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 60,
+     "tips": "The region's most iconic view: a staircase running down from the roadside to the sea and a turquoise cove. There is no swimming in winter, but you are free to walk down the steps and take photos. The 2026 entry fee is 60 TL per person."
+    },
+    {
+     "name": "Kalkan Old Town",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The heart of Kalkan, with bougainvillea-covered stone houses and cobbled streets. Browse the handmade jewellery and ceramics shops. You can stop for coffee by the marina."
+    },
+    {
+     "name": "Islamlar Village Değirmen Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 1000,
+     "tips": "This village, 6 km from Kalkan at 600 metres altitude, is famous for trout raised in its ice-cold spring water, and the tables are set over the stream. Order the trout in butter and the village meze."
+    },
+    {
+     "name": "Kalkan Local Products Market",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "At this market, supported by Kaş Municipality, rural products such as Barak kilims, Gömbe tarhana (fermented soup mix) and Islamlar tahini are sold directly by the producers. It is open only two days a week (Wednesday and Saturday), so check that your plans fall on one of these days."
+    },
+    {
+     "name": "Korsan Meze Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 2050,
+     "tips": "One of Kalkan's oldest restaurants, a reliable classic for fish and meze, with a terrace overlooking the harbour. Booking is recommended for the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Aubergine Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 2000,
+     "tips": "A busy restaurant near Kalkan harbour, recognisable by its aubergine sign. An evening alternative if Korsan Meze is full."
+    },
+    {
+     "name": "Kalkan Marina Promenade",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A short seafront walk along Kalkan marina. If the market is closed, use it for a sunset break."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Patara: Lycian capital and endless beach",
+   "stops": [
+    {
+     "name": "Patara Ancient City",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 90,
+     "tips": "The capital of the Lycian League. You walk among the remains of the colonnaded street, the theatre and the harbour baths. Entry without a MüzeKart is 90 TL per person, and the ticket also covers beach access."
+    },
+    {
+     "name": "Patara Lighthouse",
+     "category": "culture",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "One of the oldest surviving lighthouses, dating from the 1st century AD and open to visitors in its restored form. It is in the same area as the ancient city, with no extra charge on that ticket."
+    },
+    {
+     "name": "Patara Beach",
+     "category": "nature",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "At 18 km long, one of the longest beaches in Türkiye. There is no swimming in winter, but you can take a long walk on the empty sand and read the caretta caretta (loggerhead turtle) information boards. You enter with the ancient city ticket."
+    },
+    {
+     "name": "Patara Gözleme House",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 650,
+     "tips": "A local favourite in the village of Gelemiş, where gözleme (stuffed flatbread) is rolled out and cooked in front of you. The potato and cheese, and the tahini, honey and walnut versions are the most popular."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ayşe Pancake House",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 600,
+     "tips": "One of Patara's long-running gözleme houses. A good alternative if Patara Gözleme House is full."
+    },
+    {
+     "name": "Xanthos Ancient City",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 90,
+     "tips": "The former Lycian capital, on the UNESCO list, 15 minutes from Patara. If time allows, you can move the ancient city visit here."
+    }
+   ]
+  }
+ ]
+}

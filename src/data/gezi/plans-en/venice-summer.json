@@ -1,0 +1,493 @@
+{
+ "lang": "en",
+ "slug": "venice-summer",
+ "altSlug": "venedik-yaz",
+ "citySlug": "venedik",
+ "destKey": "venice",
+ "city": "Venice",
+ "region": null,
+ "country": "Italy",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 380,
+  "attractions": 220,
+  "transport": 70,
+  "misc": 90
+ },
+ "notes": [
+  "A single vaporetto ticket costs 9.50 EUR, a 72-hour pass 45 EUR. Venice is best explored on foot (getting lost is normal). From Marco Polo airport, take the Alilaguna boat or the bus.",
+  "Day-visitor fee: 5-10 EUR on certain days from April to July (hotel guests are exempt). San Marco and the Doge's Palace require timed online tickets.",
+  "Summer brings 30°C heat, humidity and crowds. Visit San Marco at 07:30 and the islands in the afternoon. Mosquitoes in August.",
+  "Standing at a bacaro, cicchetti cost 1.5-3 EUR and an ombra 2 EUR. A sit-down meal runs 25-40 EUR, and a café on San Marco 10+ EUR.",
+  "Coperto (cover charge) is 3-5 EUR. The official gondola tariff is 90 EUR for 30 minutes and can be shared (up to 6 people).",
+  "Watch for pickpockets on bridges and in crowds. Suitcase wheels are a nightmare on cobbles, so pack light."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "St Mark's Square",
+   "stops": [
+    {
+     "name": "Piazza San Marco",
+     "category": "landmark",
+     "start": "07:30",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "Pigeons and an empty square at 07:30, perfect for photos. After 10:00 it gets packed."
+    },
+    {
+     "name": "Basilica di San Marco",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 12,
+     "tips": "Golden mosaics. Book a timed ticket online (12 EUR); the Pala d'Oro costs extra. Shoulders and knees must be covered."
+    },
+    {
+     "name": "Palazzo Ducale",
+     "category": "culture",
+     "start": "10:15",
+     "end": "12:15",
+     "cost": 35,
+     "tips": "The Doge's Palace and the Bridge of Sighs. Book online; the Secret Itineraries tour is optional."
+    },
+    {
+     "name": "Campanile di San Marco",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 12,
+     "tips": "Take the lift up the bell tower for views over the lagoon."
+    },
+    {
+     "name": "Rosticceria Gislon",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "Standing counter behind San Marco. Try the mozzarella in carrozza (fried mozzarella sandwich) and arancini (rice balls). Cheap."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Caffè Florian",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "The square's café since 1720. The orchestra costs extra."
+    },
+    {
+     "name": "Museo Correr",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Included with the Doge's Palace ticket. A museum on the square itself."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Rialto and Cannaregio",
+   "stops": [
+    {
+     "name": "Rialto Fish Market",
+     "category": "food",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 5,
+     "tips": "Morning market with seafood and vegetables. Closed on Mondays."
+    },
+    {
+     "name": "Ponte di Rialto",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "The bridge over the Grand Canal. Quiet in the morning."
+    },
+    {
+     "name": "Cantina Do Mori",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 8,
+     "tips": "A bacaro (Venetian wine bar) since 1462. Eat cicchetti (small bites) and drink an ombra (small glass of wine), standing."
+    },
+    {
+     "name": "Cannaregio Ghetto",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The world's first ghetto, with tall houses and synagogues."
+    },
+    {
+     "name": "Fondamenta della Misericordia",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 15,
+     "tips": "A row of canalside bacari in Cannaregio, including Vino Vero and Al Timon. Come in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Al Timon Cannaregio",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 20,
+     "tips": "Tables on a boat, and cicchetti."
+    },
+    {
+     "name": "Ca' d'Oro",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 8,
+     "tips": "A Gothic palace on the Grand Canal. Visit it instead of the Ghetto."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Dorsoduro",
+   "stops": [
+    {
+     "name": "Gallerie dell'Accademia",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 15,
+     "tips": "Venetian painting: Bellini, Titian, Veronese. Book online."
+    },
+    {
+     "name": "Peggy Guggenheim Collection",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 16,
+     "tips": "Modern art on the canal, with a garden."
+    },
+    {
+     "name": "Punta della Dogana",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "The tip of the canal, with the Salute church and San Marco across the water."
+    },
+    {
+     "name": "Cantine del Vino già Schiavi",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "A legendary cicchetti bar. Stand by the canal; it closes at 14:30."
+    },
+    {
+     "name": "Zattere Waterfront",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Walk along the Giudecca Canal and try the gianduiotto (chocolate-hazelnut gelato) at Gelateria Nico."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Osteria al Squero",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "Cicchetti opposite the gondola boatyard."
+    },
+    {
+     "name": "Squero di San Trovaso",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A gondola-building boatyard. View it from the outside."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Murano and Burano",
+   "stops": [
+    {
+     "name": "Murano Glass Workshop",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Take vaporetto 4.1 or 4.2 (day pass 25 EUR). Watch a glassblowing demonstration; the Murano Glass Museum costs 10 EUR."
+    },
+    {
+     "name": "Museo del Vetro Murano",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 10,
+     "tips": "The glass museum."
+    },
+    {
+     "name": "Burano Colourful Houses",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Take vaporetto 12 for 40 minutes. Brightly painted fishermen's houses and a leaning bell tower."
+    },
+    {
+     "name": "Trattoria al Gatto Nero Burano",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 40,
+     "tips": "Burano's famous risotto di gò (goby fish risotto). Book ahead."
+    },
+    {
+     "name": "Mazzorbo Venissa Vineyard",
+     "category": "nature",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "An island linked to Burano by a bridge. A walled vineyard and a quiet stroll; return by vaporetto."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Burano Bussolà Bakery",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 5,
+     "tips": "Bussolà biscuits. Choose this instead of Gatto Nero."
+    },
+    {
+     "name": "Torcello Santa Maria Assunta",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 6,
+     "tips": "A cathedral with Byzantine mosaics. Visit it instead of Mazzorbo."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Castello and Giardini",
+   "stops": [
+    {
+     "name": "Arsenale di Venezia",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "The shipyard gate and its lions. Exhibitions run in Biennale years (May to November)."
+    },
+    {
+     "name": "Via Garibaldi",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 6,
+     "tips": "A local Castello street, good for breakfast and the market."
+    },
+    {
+     "name": "Giardini della Biennale",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The Biennale gardens. A park when there is no exhibition."
+    },
+    {
+     "name": "San Pietro di Castello",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Venice's old cathedral, on a quiet island."
+    },
+    {
+     "name": "Trattoria alla Rampa del Piave",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "A local trattoria on Via Garibaldi. Seafood pasta."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Refolo Via Garibaldi",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 10,
+     "tips": "Cicchetti and wine."
+    },
+    {
+     "name": "Scuola di San Giorgio degli Schiavoni",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 6,
+     "tips": "Carpaccio's painting cycle. Visit it instead of San Pietro."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "San Giorgio and Giudecca",
+   "stops": [
+    {
+     "name": "San Giorgio Maggiore",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 8,
+     "tips": "Take vaporetto 2 to the island. A Palladio church, and the bell tower gives the best view of San Marco."
+    },
+    {
+     "name": "Giudecca Walk",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A quiet island across from Zattere, with the Redentore church."
+    },
+    {
+     "name": "Trattoria Altanella Giudecca",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Canalside since 1920. Fish."
+    },
+    {
+     "name": "Gondola Ride",
+     "category": "nature",
+     "start": "16:00",
+     "end": "16:30",
+     "cost": 90,
+     "tips": "The official tariff is 90 EUR for 30 minutes (110 EUR at night). Depart from Bacino Orseolo."
+    },
+    {
+     "name": "Vaporetto 1 Grand Canal at Sunset",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Line 1 from Piazzale Roma to San Marco. Grab a front seat for the palace façades."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Harry's Dolci Giudecca",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 40,
+     "tips": "Cipriani's pastry shop and restaurant on Giudecca. Choose it instead of Altanella."
+    },
+    {
+     "name": "Fondazione Cini",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 14,
+     "tips": "A monastery tour on San Giorgio. Visit it instead of Giudecca."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Santa Croce: a light farewell",
+   "stops": [
+    {
+     "name": "Scuola Grande di San Rocco",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 10,
+     "tips": "Sixty paintings by Tintoretto. Use a mirror to see the ceiling."
+    },
+    {
+     "name": "Frari Basilica",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 5,
+     "tips": "Titian's Assumption in a Gothic church."
+    },
+    {
+     "name": "Pasticceria Tonolo",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 4,
+     "tips": "Venice's best pastry shop. Try the cream pastries and frittelle (carnival fritters)."
+    },
+    {
+     "name": "Campo Santa Margherita",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The students' square. Have a last spritz."
+    },
+    {
+     "name": "Piazzale Roma / Vaporetto Alilaguna",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "To Marco Polo airport, take the Alilaguna boat (1 hour) or the bus (20 minutes). Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Osteria Bancogiro",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 25,
+     "tips": "Canalside lunch at Rialto."
+    },
+    {
+     "name": "Ca' Pesaro",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 10,
+     "tips": "A palace of modern art. Visit it instead of San Rocco."
+    }
+   ]
+  }
+ ]
+}

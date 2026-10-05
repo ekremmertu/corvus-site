@@ -1,0 +1,477 @@
+{
+ "lang": "en",
+ "slug": "cairo-summer",
+ "altSlug": "kahire-yaz",
+ "citySlug": "kahire",
+ "destKey": "cairo",
+ "city": "Cairo",
+ "region": null,
+ "country": "Egypt",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "EGP",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 6500,
+  "attractions": 7500,
+  "transport": 3500,
+  "misc": 2000
+ },
+ "notes": [
+  "Uber and Careem are safe and cheap. You can't get taxi drivers to switch on the meter, so haggle. For Coptic Cairo, take Metro Line 1 (Mar Girgis). Giza is 1 hour away in traffic.",
+  "From June to September it is 38-42°C: visit the pyramids at 07:00, museums at midday and the Nile in the evening. Bring a hat and 3 litres of water.",
+  "Monument entrances take card only (2026), no cash. Book the GEM online with a timed ticket. Entering the Great Pyramid inside the Giza complex costs 1,500 EGP.",
+  "Koshary costs 50-80 EGP, ful and ta'meya 30, restaurants 300-600. Tipping (baksheesh) is expected everywhere: 20-50 EGP, or 10% in restaurants.",
+  "There are no 'free' photo or camel offers at the pyramids. Say 'la shukran' (no, thank you) and keep walking. Women should dress comfortably, with shoulders and knees covered.",
+  "In mosques, take off your shoes and women should cover their hair. Do not visit during Friday midday prayer."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Giza Pyramids and Sphinx",
+   "stops": [
+    {
+     "name": "Giza Pyramids",
+     "category": "culture",
+     "start": "07:00",
+     "end": "10:00",
+     "cost": 700,
+     "tips": "Khufu, Khafre, Menkaure. Arrive at the 07:00 opening for cool, quiet conditions. Entering the Great Pyramid costs an extra 1,500 EGP (narrow tunnel). Haggle camel rides to 200-300 EGP. Card payment only."
+    },
+    {
+     "name": "Great Sphinx of Giza",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Included with the pyramid ticket. Approach from the Valley Temple, where the morning light hits the face."
+    },
+    {
+     "name": "Panorama Point Giza",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "A desert viewpoint that takes in all three pyramids at once: the classic photo."
+    },
+    {
+     "name": "Khufu's Restaurant Giza",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 900,
+     "tips": "Modern Egyptian cuisine with pyramid views. Book ahead; 9 Pyramids Lounge is an alternative."
+    },
+    {
+     "name": "Giza Sound and Light Show",
+     "category": "culture",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 600,
+     "tips": "A sound and light show in front of the Sphinx. Nights are cool; buy tickets in advance."
+    }
+   ],
+   "backups": [
+    {
+     "name": "9 Pyramids Lounge",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 500,
+     "tips": "Lunch in the desert with pyramid views. Go here if Khufu's is full."
+    },
+    {
+     "name": "Giza Camel Ride",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 300,
+     "tips": "30 minutes on a camel in the desert. Fix the price beforehand."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Grand Egyptian Museum",
+   "stops": [
+    {
+     "name": "Grand Egyptian Museum",
+     "category": "culture",
+     "start": "08:30",
+     "end": "12:30",
+     "cost": 1450,
+     "tips": "The vast museum opened in 2025. It holds Tutankhamun's complete treasure (5,000 pieces) and Khufu's solar boat. Book a timed ticket online (~1,450 EGP), allow 3-4 hours and take a morning slot."
+    },
+    {
+     "name": "GEM Food Court",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "The eating area inside the museum, with pyramid views."
+    },
+    {
+     "name": "Grand Egyptian Museum Garden and Obelisk",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The hanging obelisk and the outer courtyard. Good for photos with the pyramid skyline."
+    },
+    {
+     "name": "Koshary Abou Tarek",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 80,
+     "tips": "Cairo's most famous koshary (rice, lentils and pasta) since the 1950s. Downtown, four floors, 80 EGP."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zooba Downtown",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 150,
+     "tips": "Modern Egyptian street food: ta'meya and hawawshi."
+    },
+    {
+     "name": "Egyptian Museum Tahrir",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 550,
+     "tips": "The old museum, home to the mummies and artefacts not moved to the GEM."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Islamic Cairo and Khan el-Khalili",
+   "stops": [
+    {
+     "name": "Citadel of Saladin and Muhammad Ali Mosque",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 550,
+     "tips": "A fortress and an alabaster mosque. The terrace has views over Cairo and the pyramids."
+    },
+    {
+     "name": "Sultan Hassan Mosque",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 300,
+     "tips": "A Mamluk masterpiece with a huge courtyard and a sense of calm."
+    },
+    {
+     "name": "Al-Muizz Street",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "A Fatimid street of mosques, sabils (public fountains) and the Beit el-Suhaymi house, lit up at night."
+    },
+    {
+     "name": "Naguib Mahfouz Cafe",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 400,
+     "tips": "Run by Oberoi inside Khan el-Khalili. Try the molokhia (jute leaf stew) and mint tea; air-conditioned."
+    },
+    {
+     "name": "Khan el-Khalili",
+     "category": "shopping",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "A 14th-century bazaar selling copper, spices and papyrus. Haggle down to a third of the first price. El Fishawy cafe is open 24 hours."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Fishawy Cafe",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 100,
+     "tips": "A mirrored cafe since 1773: mint tea and shisha."
+    },
+    {
+     "name": "Al-Azhar Mosque",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "A mosque-university since 970. Go here instead of Sultan Hassan."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Coptic Cairo and the Nile",
+   "stops": [
+    {
+     "name": "Hanging Church",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "A 3rd-century church built over a Roman fortress, in Coptic Cairo. Take the metro to Mar Girgis."
+    },
+    {
+     "name": "Coptic Museum",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 300,
+     "tips": "Coptic art and the Nag Hammadi texts."
+    },
+    {
+     "name": "Ben Ezra Synagogue",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Said to be where Moses was found. Home of the Cairo Geniza."
+    },
+    {
+     "name": "Abou El Sid Zamalek",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 450,
+     "tips": "Egyptian food in 1920s-style decor in Zamalek. Try the stuffed pigeon and molokhia."
+    },
+    {
+     "name": "Nile Felucca Ride",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 400,
+     "tips": "A one-hour sail on a felucca from Zamalek at sunset. Agree the price per boat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sequoia Zamalek",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 600,
+     "tips": "A terrace on the Nile with shisha and meze. Go here instead of the felucca."
+    },
+    {
+     "name": "Cairo Tower",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 300,
+     "tips": "A 187 m tower in Zamalek with city views."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Saqqara, Dahshur and Memphis",
+   "stops": [
+    {
+     "name": "Saqqara Step Pyramid",
+     "category": "culture",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 700,
+     "tips": "The world's oldest pyramid (Djoser). The Serapeum, with its underground bull sarcophagi, costs an extra ticket. Cooler in the morning."
+    },
+    {
+     "name": "Dahshur Red Pyramid",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 150,
+     "tips": "Entry inside the Red Pyramid is included (steep tunnel). The Bent Pyramid is next door and there are few tourists."
+    },
+    {
+     "name": "Memphis Open Air Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 200,
+     "tips": "The ancient capital, with a colossal statue of Ramses II and an alabaster sphinx."
+    },
+    {
+     "name": "Saqqara Country Club Lunch",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 400,
+     "tips": "A farm restaurant among palm trees. Grills and Egyptian bread."
+    },
+    {
+     "name": "Saqqara Carpet School",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "A hand-woven carpet workshop. No pressure to buy; just watch."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Abou Shakra Giza",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 350,
+     "tips": "A kebab classic, for the way back."
+    },
+    {
+     "name": "Bent Pyramid Dahshur",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Inside the Bent Pyramid. Go here instead of the Red Pyramid."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Alexandria",
+   "stops": [
+    {
+     "name": "Bibliotheca Alexandrina",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 70,
+     "tips": "2.5 hours from Cairo by train. A modern library and museums in a disc-shaped building."
+    },
+    {
+     "name": "Qaitbay Citadel",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 150,
+     "tips": "A 15th-century fortress on the site of the ancient lighthouse, with Mediterranean views."
+    },
+    {
+     "name": "Fish Market Restaurant Alexandria",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Fish on the Corniche. Choose from the counter and eat with Mediterranean views."
+    },
+    {
+     "name": "Kom El Shoqafa Catacombs",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 200,
+     "tips": "Roman-era underground tombs, a blend of Egyptian and Greek styles."
+    },
+    {
+     "name": "Alexandria Corniche",
+     "category": "nature",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Walk the seafront boulevard and take the tram to Montaza. Return train at 18:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mohamed Ahmed Foul Alexandria",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 100,
+     "tips": "Alexandria's classic for ful and falafel."
+    },
+    {
+     "name": "Pompey's Pillar",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 100,
+     "tips": "A Roman column. Go here instead of the catacombs."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Zamalek morning, gentle farewell",
+   "stops": [
+    {
+     "name": "Gezira Island Zamalek Walk",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "The island neighbourhood: ivy-covered embassy streets and the Nile."
+    },
+    {
+     "name": "Aisha Fahmy Palace",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 50,
+     "tips": "An art nouveau palace and gallery in Zamalek."
+    },
+    {
+     "name": "Ovio Zamalek",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 300,
+     "tips": "Zamalek's breakfast and brunch cafe, for a farewell meal."
+    },
+    {
+     "name": "Zamalek Nile Bank Last Tea",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 100,
+     "tips": "A last tea at a cafe with Nile views. The airport is 45 minutes away."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cairo Kitchen Zamalek",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 250,
+     "tips": "Home-style cooking. Go here instead of Ovio."
+    },
+    {
+     "name": "Museum of Islamic Art Cairo",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 300,
+     "tips": "One of the world's best Islamic art collections. Go here instead of the Zamalek plans."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "varsova-ekim-mayis",
+ "altSlug": "warsaw-october-may",
+ "citySlug": "varsova",
+ "destKey": "warsaw",
+ "city": "Varşova",
+ "region": null,
+ "country": "Polonya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "PLN",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 900,
+  "attractions": 500,
+  "transport": 150,
+  "misc": 200
+ },
+ "notes": [
+  "Tramvay/metro/otobüs 20 dakika 3,40 PLN, günlük 15; Jakdojade uygulaması. Havalimanı treni SKM 20 dakika. Şehir geniş bir alana yayılmış, tramvay şart.",
+  "Kış -3 ila 3°C, kar; Aralık'ta Noel pazarı eski şehirde, ışık bahçesi Wilanów'da; müzeler boş, süt barları sıcak.",
+  "Pierogi 30-40 PLN, süt barı 20, votka müzesi 60, POLIN 45, Ayaklanma 30; Polonya uygun, kart her yer, bahşiş %10.",
+  "Müzelerin ücretsiz günleri: Kraliyet Şatosu çarşamba, POLIN perşembe, Ayaklanma perşembe, Ulusal salı; POLIN/Ayaklanma salı KAPALI.",
+  "Süt barı (bar mleczny): tepsi al, tezgahta iste, kasa; Prasowy, Bambino, Rusałka.",
+  "Żubrówka + elma suyu, żurek, bigos, pączki (cuma tłusty czwartek)."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Eski Şehir & Kraliyet Yolu",
+   "stops": [
+    {
+     "name": "Castle Square Sigismund Sütunu",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "1944'te yerle bir olup tuğla tuğla yeniden inşa edilen UNESCO eski şehri; kral sütunu."
+    },
+    {
+     "name": "Royal Castle Warsaw",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 50,
+     "tips": "Kraliyet şatosu; Rembrandt'lar ve Canaletto'nun Varşova manzaraları (yeniden inşada kullanıldı), çarşamba ücretsiz."
+    },
+    {
+     "name": "Old Town Market Square Syrenka",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Deniz kızı heykeli; renkli tüccar evleri, Barbakan ve surlar."
+    },
+    {
+     "name": "Zapiecek Pierogarnia",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 40,
+     "tips": "Pierogi zinciri (eski şehirde); ruskie ve kızarmış, kompot."
+    },
+    {
+     "name": "Krakowskie Przedmieście",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Kraliyet Yolu; Cumhurbaşkanlığı Sarayı, Chopin bankları (müzik çalar), Üniversite, Bristol oteli."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Mleczny Pod Barbakanem",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Eski şehirde süt barı; kotlet ve naleśniki."
+    },
+    {
+     "name": "Warsaw Uprising Monument & Krasiński Bahçesi",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Ayaklanma anıtı ve park; kule yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "POLIN & Getto izleri",
+   "stops": [
+    {
+     "name": "POLIN Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 45,
+     "tips": "1.000 yıllık Polonya Yahudi tarihi; Avrupa'nın en iyi müzelerinden, ahşap sinagog tavanı, perşembe ücretsiz, salı kapalı."
+    },
+    {
+     "name": "Ghetto Heroes Monument",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:20",
+     "cost": 0,
+     "tips": "Müze önü Rapoport anıtı; Willy Brandt'ın diz çöktüğü yer."
+    },
+    {
+     "name": "Charlotte Menora Plac Grzybowski",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 40,
+     "tips": "Nożyk Sinagogu yanı fırın-kafe; ekmek ve chałka."
+    },
+    {
+     "name": "Nożyk Synagogue",
+     "category": "culture",
+     "start": "15:15",
+     "end": "15:45",
+     "cost": 10,
+     "tips": "Savaştan kalan tek sinagog; Próżna caddesi getto evleri."
+    },
+    {
+     "name": "Hala Koszyki",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 60,
+     "tips": "1908 hal yemek salonu; akşam."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jewish Historical Institute",
+     "category": "culture",
+     "start": "15:15",
+     "end": "15:45",
+     "cost": 20,
+     "tips": "Ringelblum arşivi; sinagog yerine."
+    },
+    {
+     "name": "Bar Bambino Mleczny",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 20,
+     "tips": "Kruczej'de süt barı."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Ayaklanma Müzesi & Wola",
+   "stops": [
+    {
+     "name": "Warsaw Uprising Museum",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 30,
+     "tips": "1944 ayaklanması; 3D film 'Yıkım Şehri', kanalizasyon tüneli, salı kapalı, perşembe ücretsiz, çevrimiçi."
+    },
+    {
+     "name": "Wola Duvar Resimleri Elektrownia Powiśle",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Eski santralde AVM-yemek; Vistula kıyısı."
+    },
+    {
+     "name": "Elektrownia Powiśle Food Hall",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 50,
+     "tips": "Yemek salonu."
+    },
+    {
+     "name": "Copernicus Science Centre",
+     "category": "culture",
+     "start": "14:45",
+     "end": "16:45",
+     "cost": 50,
+     "tips": "İnteraktif bilim; çocuklarla, planetaryum, nehir kıyısı."
+    },
+    {
+     "name": "Vistula Boulevards",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Kış nehir yürüyüşü; Kopernik bilim merkezi çatısı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Neon Museum Soho Factory",
+     "category": "culture",
+     "start": "14:45",
+     "end": "16:45",
+     "cost": 20,
+     "tips": "Komünist dönem neonları; Praga, bilim merkezi yerine."
+    },
+    {
+     "name": "Bar Prasowy Mleczny",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Marszałkowska'da efsane süt barı."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Łazienki & Wilanów",
+   "stops": [
+    {
+     "name": "Łazienki Park",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Kraliyet parkı; tavus kuşları, Chopin anıtı (yazın pazar 12:00 ve 16:00 ücretsiz konser)."
+    },
+    {
+     "name": "Palace on the Isle",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 40,
+     "tips": "Ada üstü neoklasik yazlık saray; Poniatowski."
+    },
+    {
+     "name": "Belvedere Restaurant Łazienki",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 120,
+     "tips": "Portakal serasında şık öğle yemeği; alternatif park kafesi."
+    },
+    {
+     "name": "Wilanów Palace",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 50,
+     "tips": "Polonya'nın Versailles'ı (Kral Sobieski); barok bahçe, otobüs 116/180, kışın ışık bahçesi."
+    },
+    {
+     "name": "Wilanów Poster Museum",
+     "category": "culture",
+     "start": "16:30",
+     "end": "17:15",
+     "cost": 15,
+     "tips": "Polonya afiş okulu; saray yanı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Łazienki Amfiteatr Kafe",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 40,
+     "tips": "Park içi kafe; hafif."
+    },
+    {
+     "name": "Ujazdów Castle CSW",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 20,
+     "tips": "Çağdaş sanat merkezi; Łazienki yanı, Wilanów yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Praga & Zabytkowa",
+   "stops": [
+    {
+     "name": "Ząbkowska Street Praga",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Savaştan kurtulan sağ yaka; tuğla avlular, kutsal Meryem nişleri, sokak sanatı, tramvay 10 dakika."
+    },
+    {
+     "name": "Koneser Polish Vodka Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 60,
+     "tips": "Eski votka fabrikasında müze ve 3 tadım; Koneser avlusu."
+    },
+    {
+     "name": "Bazar Różyckiego",
+     "category": "shopping",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "1901 açık pazar; pyzy (patates topları) kavanozdan."
+    },
+    {
+     "name": "Bar Mleczny Rusałka Praga",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Değişmeyen retro süt barı; Praga Parkı yanı."
+    },
+    {
+     "name": "Soho Factory & Neon Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 20,
+     "tips": "Fabrika kompleksi; neon müzesi ve kafeler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "W Oparach Absurdu",
+     "category": "food",
+     "start": "19:00",
+     "end": "22:00",
+     "cost": 40,
+     "tips": "Ząbkowska'da absürt dekorlu bar; votka."
+    },
+    {
+     "name": "Warsaw Zoo",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 40,
+     "tips": "Zookeeper's Wife'ın hayvanat bahçesi; Praga, Soho yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Kültür Sarayı & Chopin",
+   "stops": [
+    {
+     "name": "Palace of Culture and Science",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 25,
+     "tips": "Stalin'in hediyesi 237 m; 30. kat terası, şehir panoraması."
+    },
+    {
+     "name": "Fryderyk Chopin Museum",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 30,
+     "tips": "Ostrogski Sarayı'nda multimedya; son piyanosu, pazar ücretsiz."
+    },
+    {
+     "name": "Kafka Powiśle",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 35,
+     "tips": "Chopin müzesi yanı bohem kafe; nehre bakan."
+    },
+    {
+     "name": "Holy Cross Church Chopin'in Kalbi",
+     "category": "culture",
+     "start": "15:15",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Chopin'in kalbi sütunda; Krakowskie Przedmieście."
+    },
+    {
+     "name": "Chopin Konseri Chopin Point",
+     "category": "culture",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 90,
+     "tips": "Eski şehirde akşam Chopin resitali (her gün); yazın Łazienki pazar ücretsiz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Restauracja Zoni Koneser",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 120,
+     "tips": "Praga'da modern Polonya; konser yerine."
+    },
+    {
+     "name": "National Museum Warsaw",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 25,
+     "tips": "Matejko'nun Grunwald'ı; Chopin müzesi yerine, salı ücretsiz."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Saska Kępa — hafif veda",
+   "stops": [
+    {
+     "name": "Saska Kępa Francuska Street",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Modernist villalar ve kafeler; sakin sağ yaka mahallesi."
+    },
+    {
+     "name": "Skwer Kahvaltı Saska Kępa",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 35,
+     "tips": "Mahalle kafesi; veda kahvaltısı."
+    },
+    {
+     "name": "Stadion Narodowy Dıştan",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Kırmızı-beyaz ulusal stadyum; Vistula karşısı."
+    },
+    {
+     "name": "Warszawa Centralna Havalimanı Treni",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 5,
+     "tips": "Chopin Havalimanı'na tren 20 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Kulturalna Kültür Sarayı",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 30,
+     "tips": "Saray içi kafe; Saska yerine."
+    },
+    {
+     "name": "Muzeum Historii Polski Cytadela",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:45",
+     "cost": 30,
+     "tips": "2023 yeni dev tarih müzesi; kale."
+    }
+   ]
+  }
+ ]
+}

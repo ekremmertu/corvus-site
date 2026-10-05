@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "berlin-summer",
+ "altSlug": "berlin-yaz",
+ "citySlug": "berlin",
+ "destKey": "berlin",
+ "city": "Berlin",
+ "region": null,
+ "country": "Germany",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 300,
+  "attractions": 150,
+  "transport": 55,
+  "misc": 70
+ },
+ "notes": [
+  "A BVG day ticket for zones A and B costs about 9 EUR; the Berlin WelcomeCard covers transport plus discounts. The FEX/S9 to BER takes 30-40 minutes. Cycling is ideal in this flat city.",
+  "The Reichstag dome is free, but register online 2-3 weeks ahead. Museum Island uses timed tickets, and entry is free on the first Sunday of the month (Museumssonntag).",
+  "Summer temperatures are 22-28°C and daylight lasts until 21:30. Make the most of parks, the canal, open-air cinemas and Tempelhof; in August you can swim in the lakes (Wannsee).",
+  "Doner costs 6-8 EUR (Mustafa's, Rüyam) and currywurst 4-5 EUR; a restaurant meal is 15-25 EUR. A tip of 5-10% or simply rounding up the bill is enough; cash is still common.",
+  "Shops are closed on Sundays. The Mauerpark flea market is on Sunday, and Markthalle Neun is busiest on Thursday evening.",
+  "Clubs (Berghain) run Friday to Sunday; the door policy is selective, so wear black. Photos are forbidden."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Mitte: Brandenburg Gate and Reichstag",
+   "stops": [
+    {
+     "name": "Brandenburger Tor",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Pariser Platz is empty in the morning; look through the gate towards the Tiergarten."
+    },
+    {
+     "name": "Holocaust Memorial",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "2,711 concrete blocks; the underground information centre is free."
+    },
+    {
+     "name": "Reichstag Dome",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Free, but register online 2-3 weeks ahead (ID required). Glass dome, audio guide and city views."
+    },
+    {
+     "name": "Mustafa's Gemüse Kebap",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 7,
+     "tips": "The legendary vegetable doner on Mehringdamm; expect a 30-60 minute queue, shorter at midday."
+    },
+    {
+     "name": "Gendarmenmarkt",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Berlin's most beautiful square, with its twin cathedrals and the Konzerthaus."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Curry 36 Mehringdamm",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 5,
+     "tips": "Currywurst across from Mustafa's, if there's no queue."
+    },
+    {
+     "name": "Berliner Dom",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 10,
+     "tips": "Climb the cathedral dome (270 steps); right by Museum Island."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Museum Island",
+   "stops": [
+    {
+     "name": "Pergamonmuseum Das Panorama",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 14,
+     "tips": "The main building is closed until 2027; the Ishtar Gate panorama and Pergamon pieces are in the side building."
+    },
+    {
+     "name": "Neues Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 14,
+     "tips": "Home of the Nefertiti bust; book a timed ticket online. The Museum Island day pass is 24 EUR."
+    },
+    {
+     "name": "Alte Nationalgalerie",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 12,
+     "tips": "Caspar David Friedrich and the German Romantics."
+    },
+    {
+     "name": "Hackescher Markt Yemek",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "Courtyards of the Hackesche Höfe; cafes and street food."
+    },
+    {
+     "name": "Hackesche Höfe & Haus Schwarzenberg",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Art nouveau courtyards and the graffiti-covered Schwarzenberg courtyard (Anne Frank Zentrum)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bode Museum",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 12,
+     "tips": "Byzantine art and sculpture, at the tip of the island by the river."
+    },
+    {
+     "name": "Zeit für Brot Alte Schönhauser",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 6,
+     "tips": "Bakery known for its cinnamon rolls."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "The Wall: Bernauer and East Side",
+   "stops": [
+    {
+     "name": "Berlin Wall Memorial Bernauer Strasse",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "An original section of the Wall, the death strip and a documentation centre; the most honest account of the Wall, and free."
+    },
+    {
+     "name": "Mauerpark",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Flea market and karaoke on Sundays; on other days, a park with Wall graffiti."
+    },
+    {
+     "name": "Prenzlauer Berg Kollwitzplatz",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Cafes and Kastanienallee; market Thursday to Saturday."
+    },
+    {
+     "name": "Konnopke's Imbiss",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 5,
+     "tips": "Currywurst under the U-Bahn tracks since 1930; an East Berlin classic."
+    },
+    {
+     "name": "East Side Gallery",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "1.3 km of paintings on the Wall, including the Brezhnev-Honecker kiss; walk on to the Oberbaumbrücke."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Burgermeister Schlesisches Tor",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "Burgers in a former public toilet building; near the East Side Gallery."
+    },
+    {
+     "name": "Checkpoint Charlie",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A touristy crossing point; the Mauermuseum charges admission. Skip the East Side Gallery for this."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Kreuzberg and Neukölln",
+   "stops": [
+    {
+     "name": "Markthalle Neun",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 12,
+     "tips": "Kreuzberg's market hall; Street Food Thursday, and a market on Saturday."
+    },
+    {
+     "name": "Landwehrkanal Walk",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Stroll along the canal; the Turkish market at Maybachufer runs Tuesday to Friday."
+    },
+    {
+     "name": "Tempelhofer Feld",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A park on the old airport runways; cycling, kite flying and picnics, best in summer."
+    },
+    {
+     "name": "Neukölln Weserstrasse",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Bars and cafes in Berlin's young neighbourhood."
+    },
+    {
+     "name": "Hamy Cafe Neukölln",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 8,
+     "tips": "Vietnamese food; a cheap Neukölln favourite."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rüyam Gemüse Kebab",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 6,
+     "tips": "A doner alternative in Neukölln."
+    },
+    {
+     "name": "Jewish Museum Berlin",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 10,
+     "tips": "A Libeskind building; the rainy-day alternative to Tempelhof."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Charlottenburg and the West",
+   "stops": [
+    {
+     "name": "Charlottenburg Palace",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 12,
+     "tips": "Prussian palace with a baroque garden; Altes Schloss and Neuer Flügel."
+    },
+    {
+     "name": "Charlottenburg Palace Gardens",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "The palace gardens; free, with a lake."
+    },
+    {
+     "name": "Kaiser Wilhelm Memorial Church",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "A bombed-out tower beside the new church with its blue glass."
+    },
+    {
+     "name": "KaDeWe 6th Floor Food Hall",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 25,
+     "tips": "Europe's largest food hall; oysters or wurst at the counter."
+    },
+    {
+     "name": "Bikini Berlin & Zoo",
+     "category": "shopping",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A concept mall; a terrace with views over the zoo (Monkey Bar)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Schwarzes Café",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "A 24-hour cafe in Charlottenburg."
+    },
+    {
+     "name": "Berlin Zoo",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 21,
+     "tips": "Germany's oldest zoo; an alternative to the mall."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Potsdam",
+   "stops": [
+    {
+     "name": "Sanssouci Palace",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 22,
+     "tips": "40 minutes on the S7; Frederick's palace with vineyard terraces, timed tickets."
+    },
+    {
+     "name": "Sanssouci Park",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Walk through the park to the Chinese House and the New Palace; 300 hectares."
+    },
+    {
+     "name": "Dutch Quarter Potsdam",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The Dutch Quarter, with red-brick houses and cafes."
+    },
+    {
+     "name": "Maison Charlotte Potsdam",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 22,
+     "tips": "A French bistro in the Dutch Quarter."
+    },
+    {
+     "name": "Cecilienhof",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 14,
+     "tips": "The manor house where the Potsdam Conference took place (1945); see the Truman-Stalin-Churchill table."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Potsdam Brauhaus",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 18,
+     "tips": "A brewery restaurant; try the schnitzel."
+    },
+    {
+     "name": "Glienicke Bridge",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "The Bridge of Spies; an alternative to Cecilienhof."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Alexanderplatz: a gentle farewell",
+   "stops": [
+    {
+     "name": "Berlin TV Tower",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 25,
+     "tips": "The 203 m TV tower; book the first morning slot online. There is a revolving restaurant."
+    },
+    {
+     "name": "Nikolaiviertel",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Berlin's oldest quarter (rebuilt), with the Nikolaikirche."
+    },
+    {
+     "name": "Zur Letzten Instanz",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 20,
+     "tips": "Berlin's oldest restaurant, open since 1621; try the eisbein (boiled pork knuckle)."
+    },
+    {
+     "name": "World Clock Alexanderplatz",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "The World Time Clock; the Airport Express to BER takes 30 minutes. Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Curry 61 Alexanderplatz",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 5,
+     "tips": "Quick currywurst."
+    },
+    {
+     "name": "DDR Museum",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 13,
+     "tips": "A museum of everyday life in East Germany; interactive."
+    }
+   ]
+  }
+ ]
+}

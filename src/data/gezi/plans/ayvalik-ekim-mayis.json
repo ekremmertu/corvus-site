@@ -1,0 +1,522 @@
+{
+ "lang": "tr",
+ "slug": "ayvalik-ekim-mayis",
+ "altSlug": "ayvalik-october-may",
+ "citySlug": "ayvalik",
+ "destKey": "ayvalik",
+ "city": "Ayvalık",
+ "region": "Balıkesir",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 12400,
+  "attractions": 4690,
+  "transport": 1100,
+  "misc": 500
+ },
+ "notes": [
+  "Esnaf lokantalarında, pazarlarda ve köy ziyaretlerinde nakit tercih edilir; kart her yerde geçmeyebilir, yanında TL bulundur.",
+  "Ayvalık-Cunda arası minibüslerde nakit ödeme kalktı; Balkart veya kredi kartı zorunlu.",
+  "Restoran ve meyhanelerde hesaba %5-10 bahşiş bırakmak yaygındır; esnaf lokantalarında yuvarlama yeterlidir.",
+  "Ocak ayında Ege rüzgârı sert eser ve akşamları soğur; su geçirmez mont, kat kat giysi ve kaymaz taban ayakkabı şart, taş sokaklar yağmurda kayganlaşır.",
+  "Kışın deniz suyu soğuktur, yüzme mevsimi değildir; tekne turları rüzgâr/deniz durumuna göre iptal olabilir, gitmeden bir gün önce mutlaka teyit al.",
+  "Ayvalık genel olarak sakin ve güvenli bir kasaba; taş sokaklarda gece aydınlatma zayıf olabileceğinden dikkatli yürü.",
+  "Rum evlerinin çoğu hâlâ özel mülktür; kapı-pencere fotoğrafı çekerken saygılı ol. Zeytin üreticileriyle sohbete 'kaç yıllık ağaç' sorusu iyi bir kapı açar."
+ ],
+ "niche": {
+  "name": "Şeytanın Kahvesi",
+  "level": "l2",
+  "why_hidden": "1950'den beri Midillili Şeytan Halil'in torunları tarafından işletilen, Ayvalık'ın Rum evlerinin arasına sıkışmış küçük bir mahalle kahvesi. Popüler rehberler Rum mahallesini sadece fotoğraf durağı olarak gösterir; içindeki 70 yıllık aile hikâyesini ve küçük kitaplığı çoğu ziyaretçi bilmez.",
+  "access_instructions": "Barbaros Caddesi'nden Rum evlerinin bulunduğu ara sokaklara sap, Zekibey Mahallesi 13 Nisan Caddesi üzerinde küçük bir tabelayla karşılaşırsın. Sabah 09:00'dan akşam 21:00'e kadar açık, rezervasyon gerekmez, doğrudan girip oturabilirsin.",
+  "local_contact": "(0266) 312 84 36 — Şeytanın Kahvesi",
+  "season": "Yıl boyu açık; kış aylarında içerideki soba başında oturmak ayrı bir keyif katıyor.",
+  "insider_tip": "Menüde yazmayan koruk şerbetini sor; kahvenin köşesindeki eski kitaplıktan bir kitap karıştırıp saatlerce oturabilirsin, kimse acele ettirmez.",
+  "show_reason": "70 yıllık aile mirası, otantik Rum mahallesi dokusu ve neredeyse ücretsiz oluşuyla hem fotoğraf hem hikaye açısından zengin bir durak, ama hiçbir ana rehberde öne çıkarılmıyor.",
+  "lat": 39.3168,
+  "lng": 26.6949,
+  "address": "Zekibey Mahallesi, 13 Nisan Caddesi No:4, 10400 Ayvalık/Balıkesir",
+  "cost_range_min": 50,
+  "cost_range_max": 150,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Balkart",
+  "why_chosen": "Ayvalık-Cunda arası minibüslerde ve Balıkesir genelindeki şehir içi otobüs/minibüslerde artık nakit ödeme tamamen kaldırıldı, sadece Balkart veya kredi kartıyla ödeme yapılabiliyor. Plandaki her Cunda geçişi ve şehir içi ulaşım bu tek kartla karşılanıyor; günlük taksi/dolmuş harcamasına göre çok daha ekonomik ve pratik.",
+  "coverage": "Ayvalık-Cunda minibüs hattı ve Balıkesir Büyükşehir Belediyesi'ne bağlı tüm şehir içi otobüs/minibüs/vapur hatları",
+  "where_to_buy": "Ayvalık otogarındaki ve merkezdeki Balkart kiosklarından, anlaşmalı bayilerden veya Migros şubelerinden",
+  "cost": 100,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Ayvalık'ın İmzası: Tarihi Çarşı, Cunda ve Şeytan Sofrası",
+   "stops": [
+    {
+     "name": "Ayvalık Tarihi Çarşı ve Rum Mahallesi",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Barbaros Caddesi'ndeki taş sokaklardan başlayıp Rum evlerinin cephe detaylarına bakarak yürü. Sabah ışığı fotoğraf için en iyisi; hafta içi sabahları çok sakin oluyor."
+    },
+    {
+     "name": "Kepçe Lokantası",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 750,
+     "tips": "Ev yemeği tadında esnaf lokantası; mercimek çorbası ve zeytinyağlı kabak çiçeği dolmasını dene. Öğlen erken git, akşam kapanıyor."
+    },
+    {
+     "name": "Cunda Taksiyarhis Kilisesi",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 240,
+     "tips": "Ahşap ikonostazı ve kubbe freskleri Rum döneminden kalma; pazartesi kapalı. Ayvalık'tan Cunda'ya dolmuşla 15 dakika."
+    },
+    {
+     "name": "Cunda Taş Kahve",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 150,
+     "tips": "İskele üzerindeki tarihi kahvehanede çay veya Türk kahvesi için mola ver; balıkçı teknelerini izleyerek oturmak Cunda'nın klasik anıdır."
+    },
+    {
+     "name": "Şeytan Sofrası",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Ayvalık'ın simge tepesi; gün batımında Midilli ve adalar siluet hâlinde görünür. Ocak'ta gün batımı erken, 16:45-17:15 arası tepede ol."
+    },
+    {
+     "name": "Deniz Restoran",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1600,
+     "tips": "Cunda sahilinde klasik balık lokantası; deniz börülcesi ve kabak çiçeği dolması meze olarak gelir, mevsim balığını sor. Rezervasyon önerilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Açelya Cafe",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 200,
+     "tips": "Ayvalık merkezinde marina ve Cunda manzaralı sakin bir kafe; Taş Kahve'ye ulaşılamazsa aynı saatte iyi bir alternatif."
+    },
+    {
+     "name": "Ortunç Koyu",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Çam ağaçlarıyla çevrili sakin bir Cunda koyu; kışın yüzme yok ama kıyı yürüyüşü ve fotoğraf için Şeytan Sofrası'na iyi bir alternatif."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Cunda'nın Sakin Yüzü: Tepeler, Koylar ve Pazar",
+   "stops": [
+    {
+     "name": "Aşıklar Tepesi",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Yel değirmenleri ve dekore edilmiş yürüyüş yollarıyla Cunda'nın en romantik noktası; sabah ışığında kalabalık olmuyor."
+    },
+    {
+     "name": "Cunda Cumartesi Pazarı",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Cumartesi günleri kurulur; el yapımı sabun, örgü ve antika eşya bulabileceğin renkli tezgâhlar var. Cumartesiye denk gelmezse Antikacılar Sokağı'ndaki dükkânlar hafta boyu açık."
+    },
+    {
+     "name": "Şef Mehmet'in Balık Evi",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 1000,
+     "tips": "Cunda'da deniz ürünlerinde uzman küçük bir lokanta; kalamar tava ve karides güveci öne çıkıyor. Öğlen 12:30 gibi git, akşam yerini balık meyhanesi havasına bırakıyor."
+    },
+    {
+     "name": "Pateriça Koyu",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Cunda'nın kuzey ucunda, toprak yolla ulaşılan sakin bir koy; yol dar ve bozuk, ikinci köyden sonrasına yüksek şasili araç olmadan girme. Kışın yüzme yok ama ıssız koy fotoğrafı için ideal."
+    },
+    {
+     "name": "Cennet Tepesi",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Cunda'nın en geniş panoramik manzara noktalarından biri; gün batımına yakın saatte git, Aşıklar Tepesi'ne göre daha az kalabalık."
+    },
+    {
+     "name": "Son Vapur",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "Yunan adası havası taşıyan bir Cunda mekanı; balık yumurtası ve büyük porsiyon balık kraker mezesiyle tanınıyor. Akşam erken saatte rezervasyon iyi fikir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Oli Mera",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 950,
+     "tips": "Cunda'nın taş duvarlı, ev yapımı makarna sunan İtalyan esintili mekanı; Şef Mehmet'in Balık Evi doluysa iyi bir alternatif."
+    },
+    {
+     "name": "Akvaryum Koyu",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Duru suyuyla bilinen bir Cunda koyu; Pateriça'ya yol koşulları uygun değilse buraya yönel, kışın sadece kıyı yürüyüşü için uygun."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Adalar ve Flamingo Kıyısı: Küçükköy",
+   "stops": [
+    {
+     "name": "Somun Breakfast Club",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 550,
+     "tips": "Küçükköy Caddesi üzerinde, sade ve kaliteli bir kahvaltı mekanı; tekne turuna gitmeden önce hafif başlamak için ideal, çok erken saatte sakin oluyor."
+    },
+    {
+     "name": "Ayvalık Adaları Tekne Turu",
+     "category": "nature",
+     "start": "10:30",
+     "end": "15:30",
+     "cost": 2000,
+     "tips": "Ayvalık merkez iskelesinden kalkar, 12 Ada bölgesindeki koyları tekneyle dolaşır, öğle yemeği fiyata dahildir. Kışın deniz durumuna göre sefer iptal olabilir, bir gün önce mutlaka telefonla teyit et. Bu mevsimde yüzme molası yoktur, sadece koy gezisi yapılır.",
+     "bookingUrl": "https://www.viator.com/searchResults/all?text=Ayvalik+Islands+Boat+Tour",
+     "bookingProvider": "Viator"
+    },
+    {
+     "name": "Ayvalık Tuz Gölü",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:15",
+     "cost": 0,
+     "tips": "Küçükköy yakınındaki bu sığ göl flamingo gözlemiyle biliniyor; en yoğun dönem ilkbahar olsa da kışın da bireysel sürüler görülebilir. Altın saatte ışık flamingoların pembesini fotoğrafta güzel çıkarıyor."
+    },
+    {
+     "name": "Müptela Balık",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "Ayvalık'ta güler yüzlü, uygun fiyatlı esnaf balık lokantası; sardalya tava ve midye dolma öne çıkan lezzetler. Akşam erken git, küçük bir mekân."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bi Küçük Meyhane",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 850,
+     "tips": "Küçükköy'ün tarihi dokusunda, taş sokakların arasında küçük ama samimi bir meyhane; zeytinyağlı mezeleriyle tanınıyor."
+    },
+    {
+     "name": "Sarımsaklı Paşa Koyu",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:15",
+     "cost": 0,
+     "tips": "Sarımsaklı'dan minibüsle 10-15 dakikada ulaşılan sakin bir koy; Tuz Gölü'ne alternatif olarak kışın rahat bir kıyı yürüyüşü sunar."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Ayvalık'ın Saklı Sokakları: Rum Mahallesi ve Zeytin Mirası",
+   "stops": [
+    {
+     "name": "Ayvalık Ayazması",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Panagia Phaneromeni Ayazması olarak da bilinir, mübadeleden önce şifa merkeziymiş; pazartesi kapalı, 10:00-17:00 arası gezilebiliyor."
+    },
+    {
+     "name": "Antikacılar Sokağı ve Barbaros Caddesi Bit Pazarı",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Eski Rum evlerinden çıkan plaklar, porselenler ve siyah-beyaz fotoğraflar burada satılıyor. Cumartesi günleri 09:00-19:00 arası tam kurulu haliyle gezilir."
+    },
+    {
+     "name": "Mehmet Usta'nın Yeri",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 800,
+     "tips": "Antep ve Ege mutfağını birleştiren esnaf lokantası; Eski PTT Aralığı Sokak'ta, yerel çalışanların da uğradığı bir mekân."
+    },
+    {
+     "name": "Ayvalık Rahmi M. Koç Müzesi",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 500,
+     "tips": "200 yıllık tarihi bir zeytinyağı fabrikasında kurulmuş sanayi ve ulaşım müzesi; pazartesi kapalı, son giriş kapanıştan 30 dakika önce."
+    },
+    {
+     "name": "Ayvalık Kordon Yürüyüşü",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Sahil boyunca yürüyerek gün batımını izle; balıkçı teknelerinin döndüğü saatlere denk gelirse fotoğraf için harika bir zaman olur."
+    },
+    {
+     "name": "Şeytanın Kahvesi",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 150,
+     "tips": "1950'den beri aynı ailenin işlettiği, Rum evlerinin arasına gizlenmiş bir mahalle kahvesi. Menüde yazmayan koruk şerbetini sor, köşedeki eski kitaplıktan bir kitap karıştırıp oturabilirsin."
+    }
+   ],
+   "backups": [
+    {
+     "name": "İmren Pastanesi",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 300,
+     "tips": "1954'ten beri açık tarihi pastane; lor tatlısı ve badem kurabiyesi Girit mutfağından kalma. Ana lokanta doluysa hafif bir öğle molası için uygun."
+    },
+    {
+     "name": "Ayvalık Belediyesi Tarihsel Zeytin Galerisi",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 100,
+     "tips": "Eski Vakıflar zeytinyağı fabrikasından dönüştürülmüş küçük bir galeri; zeytinyağı ve sabun üretim aletlerini sergiliyor, Rahmi Koç Müzesi'ne göre daha sakin ve ücretsize yakın."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Zeytinliklerin Köyleri: Mutluköy ve Dereköy",
+   "stops": [
+    {
+     "name": "Sural Çiftliği",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 800,
+     "tips": "Çiftlik ortamında serpme kahvaltı sunuyor; kendi üretimleri olan reçel ve peynirleri dene, hafta sonları erken saatte git."
+    },
+    {
+     "name": "Ayvada Zeytinyağı Bahçesi Tadım Turu",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 600,
+     "tips": "Nalbant/Çardaktepe bölgesindeki kendi bahçelerinde zeytin hasadından sıkıma kadar süreci anlatan bir tadım turu; hasat mevsimi kasım-aralık olsa da kış tadım oturumları yapılıyor. Önceden telefonla rezervasyon şart.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Ayvalik+Olive+Oil+Tasting+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Dereköy Zeytinlik Yürüyüşü",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Zeytinliklerle çevrili sakin bir köy; asfalt yol boyunca kısa bir yürüyüş yapıp yüzlerce yıllık zeytin ağaçlarını görebilirsin. Kışın hava serin, mont şart."
+    },
+    {
+     "name": "Mutluköy",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Geleneksel taş mimarisi korunmuş küçük bir zeytincilik köyü; köy meydanındaki yaşlı çınar ağacının altında mola ver."
+    },
+    {
+     "name": "Karina Zeytinlik",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1300,
+     "tips": "Cunda'da kendi zeytinliğinin içinde, kendi bahçesinden topladığı ürünlerle hazırlanan bir mekân. Sadece perşembe-pazar 17:00-23:00 arası açık; bu güne denk gelmezse Tamam Meyhane'yi tercih et."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tamam Meyhane",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "Deniz kenarı şubesiyle bilinen bir meyhane; tarçınlı barbunya ve zeytinyağlıları öne çıkıyor. Karina'nın kapalı olduğu günler için iyi bir alternatif."
+    },
+    {
+     "name": "Çamlık Köyü",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Sahil kenarında butik pansiyonları olan sakin bir köy; Mutluköy'e ulaşım zorsa buraya yönel, kıyı boyunca kısa bir yürüyüş yapılabilir."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Bergama'da Antik Bir Gün: Pergamon",
+   "stops": [
+    {
+     "name": "Pergamon Akropolü",
+     "category": "culture",
+     "start": "09:15",
+     "end": "11:00",
+     "cost": 950,
+     "tips": "Ayvalık'tan yaklaşık 50 dakikalık yolculukla ulaşılır; teleferikle çıkılan tepede Zeus Sunağı ve dik amfitiyatro var. Rehberli tur giriş ve teleferik ücretini de kapsar, sabah erken saatte az kalabalık olur.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Pergamon+Ancient+City+Guided+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Asklepion",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 200,
+     "tips": "Antik dünyanın ilk şifa merkezlerinden biri; kutsal yoldan yürüyerek gir, modern tıbbın simgesi olan yılan-asa sütununu ara."
+    },
+    {
+     "name": "Bergama Sofrası",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Hacı Hekim Hamamı yolundaki salaş esnaf lokantası; Bergama köftesi ve çığırtmasını (fırınlanmış patlıcan) mutlaka dene."
+    },
+    {
+     "name": "Kızıl Avlu",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 200,
+     "tips": "Serapis Tapınağı olarak da bilinen dev tuğla yapı; iç kısımdaki tünellere inebiliyorsan serin bir mola için iyi. Dönüş yolculuğu yaklaşık 50 dakika sürüyor."
+    },
+    {
+     "name": "L'Arancia",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 1200,
+     "tips": "Cunda'da Amalfi esintili İtalyan mutfağı sunan bir mekân; Bergama dönüşü yorgunluğunu hafif ve modern bir menüyle atmak için iyi bir seçim."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sarmaşık Lokantası",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 650,
+     "tips": "Köylümün Yeri olarak da bilinir; geleneksel Türk mutfağının sade ve doyurucu örneklerini sunar, Bergama Sofrası'na alternatif olarak kullanılabilir."
+    },
+    {
+     "name": "Bergama Arkeoloji Müzesi",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 200,
+     "tips": "Zafer Mahallesi, Cumhuriyet Caddesi No:10'da; Pergamon'dan çıkan heykel ve seramikleri sergiliyor, Kızıl Avlu'ya alternatif kapalı mekan gezisi sunar."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Veda Turu: Son Kahvaltı ve Hediyelik Alışveriş",
+   "stops": [
+    {
+     "name": "Kahve Altı Ayvalık",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 700,
+     "tips": "Kendi yapımı zeytinyağları, köy zeytinleri ve otlu yumurtasıyla bilinen bir kahvaltı mekanı; rahat bir veda kahvaltısı için ideal, hafta sonları kalabalık olabilir."
+    },
+    {
+     "name": "Barbaros Caddesi Hediyelik Alışverişi",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Zeytinyağı, sabun ve lokum satan yerel dükkânlardan hediyelik al; şişe zeytinyağını valizde sızdırmayacak şekilde paketletmeyi unutma."
+    },
+    {
+     "name": "Ayvalık Balıkçı Barınağı",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "Limanda son bir yürüyüş yapıp bir büfeden simit veya gözleme al; tekneleri izleyerek kasabaya sakin bir veda etmenin en iyi yolu."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mor Salkım",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 650,
+     "tips": "Zeytinyağlı yemekleri ve Boşnak böreğiyle bilinir; Kahve Altı doluysa kahvaltı yerine hafif bir brunch için tercih edilebilir."
+    },
+    {
+     "name": "Küçükköy (Yeniçarohori) Sanat Köyü",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Eski bir Rum yerleşimi olan köy artık sanat ve tasarım atölyeleriyle biliniyor; alışveriş yerine son gün için sakin bir gezi arıyorsan buraya yönel."
+    }
+   ]
+  }
+ ]
+}

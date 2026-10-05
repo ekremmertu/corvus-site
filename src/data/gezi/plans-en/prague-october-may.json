@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "prague-october-may",
+ "altSlug": "prag-ekim-mayis",
+ "citySlug": "prag",
+ "destKey": "prague",
+ "city": "Prague",
+ "region": null,
+ "country": "Czechia",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "CZK",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 8000,
+  "attractions": 5000,
+  "transport": 1500,
+  "misc": 1500
+ },
+ "notes": [
+  "A Lítačka 24-hour ticket costs 120 CZK (tram, metro, funicular). The centre is walkable. The AE bus to the airport costs 100 CZK. Use Bolt or Uber instead of taxis.",
+  "Christmas markets run in December (Old Town Square, 1 December to 6 January). Winter temperatures range from -3 to 3°C, with snow. The castle and bridge are quiet, and Kutná Hora is peaceful.",
+  "Beer costs 50-70 CZK (cheaper than water), goulash 200-250, svíčková 250, croissant and coffee 100. Tip 10%. A cover charge is sometimes added to the bill.",
+  "Beware of exchange offices advertising 0% commission (bad rate). At ATMs, choose your own bank's rate. If you are offered payment in EUR, the rate is poor. Cards are accepted everywhere.",
+  "Castle main circuit 450 CZK. Josefov is closed on Saturdays. Book Sedlec Ossuary tickets online, no photography. Buy your Krumlov bus ticket from RegioJet days in advance.",
+  "Trdelník is not Czech (Hungarian/Slovak) but it is tasty. Truly Czech dishes: svíčková, vepřo knedlo zelo, smažený sýr (fried cheese), koláče (sweet pastries)."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old Town and Charles Bridge",
+   "stops": [
+    {
+     "name": "Charles Bridge",
+     "category": "landmark",
+     "start": "07:30",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "14th-century bridge with 30 statues. It is empty before 8 am. Touch the statue of St John of Nepomuk."
+    },
+    {
+     "name": "Old Town Square",
+     "category": "landmark",
+     "start": "08:45",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Týn Church and the Jan Hus Monument. The Astronomical Clock performs every hour from 09:00 to 23:00 (the 12 apostles)."
+    },
+    {
+     "name": "Old Town Hall Tower",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 300,
+     "tips": "Tower with a lift. Panoramic views over the square, no queue in the morning."
+    },
+    {
+     "name": "Jewish Quarter Josefov",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:45",
+     "cost": 550,
+     "tips": "Old-New Synagogue, Old Jewish Cemetery (12,000 gravestones) and Pinkas Synagogue. Closed on Saturdays."
+    },
+    {
+     "name": "Lokál Dlouhá",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 250,
+     "tips": "Beer from the best Pilsner Urquell tank, plus svíčková (beef in cream sauce) and goulash in a classic Czech canteen."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sisters Bistro",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 150,
+     "tips": "Modern chlebíčky (open sandwiches) on Dlouhá."
+    },
+    {
+     "name": "Klementinum",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:45",
+     "cost": 380,
+     "tips": "Baroque library and astronomical tower. Swap for Josefov."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Prague Castle and Malá Strana",
+   "stops": [
+    {
+     "name": "Prague Castle",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 450,
+     "tips": "The world's largest castle complex. See St Vitus Cathedral (Mucha stained glass), the Old Royal Palace and Golden Lane (Kafka's house at No. 22). Arrive at the 09:00 opening. Tickets are timed in summer, and there is a security check at the gate."
+    },
+    {
+     "name": "Malá Strana Walk",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Look for the house signs on Nerudova Street, and the dome of the Baroque Church of St Nicholas."
+    },
+    {
+     "name": "U Modré Kachničky",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 600,
+     "tips": "The Blue Duck: goose and duck are Bohemian classics, in Malá Strana."
+    },
+    {
+     "name": "Kampa Island & Museum",
+     "category": "nature",
+     "start": "15:20",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "River island park with David Černý's babies and the Kampa Museum (Kupka), 350 CZK."
+    },
+    {
+     "name": "Petřín Hill Funicular & Tower",
+     "category": "nature",
+     "start": "16:45",
+     "end": "18:00",
+     "cost": 250,
+     "tips": "Winter sunset is at 16:30. See the lit-up city from the tower."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Café Savoy",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 450,
+     "tips": "1893 café with an ornate ceiling, in Malá Strana."
+    },
+    {
+     "name": "Strahov Monastery Library",
+     "category": "culture",
+     "start": "16:45",
+     "end": "18:00",
+     "cost": 150,
+     "tips": "Baroque library and beer. Swap for Petřín."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Vyšehrad, Vinohrady and Žižkov",
+   "stops": [
+    {
+     "name": "Vyšehrad",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Hilltop fort that predates Prague Castle. See Slavín Cemetery (Dvořák, Mucha), the Rotunda and river views. Free."
+    },
+    {
+     "name": "Vinohradský Parlament",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 300,
+     "tips": "Czech restaurant in Vinohrady. Try vepřo knedlo zelo (pork, dumplings and cabbage)."
+    },
+    {
+     "name": "Riegrovy Sady",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Winter park walk with views of the castle."
+    },
+    {
+     "name": "Žižkov Television Tower",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 300,
+     "tips": "Černý's climbing babies and a 93 m observation deck."
+    },
+    {
+     "name": "U Slovanské Lípy",
+     "category": "food",
+     "start": "17:15",
+     "end": "18:30",
+     "cost": 250,
+     "tips": "Old Žižkov pub with 10+ beer tanks and pork knuckle."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kavárna Slavia",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 300,
+     "tips": "Riverside café from 1884, opposite the National Theatre."
+    },
+    {
+     "name": "National Museum",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 300,
+     "tips": "At the top of Wenceslas Square, with a dome. Swap for Žižkov."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Kutná Hora",
+   "stops": [
+    {
+     "name": "Sedlec Ossuary",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 300,
+     "tips": "1 hour by train (Hlavní). Chandelier and coat of arms made from 40,000 skeletons (the Bone Church). Book tickets online. No photography."
+    },
+    {
+     "name": "St. Barbara's Cathedral",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 200,
+     "tips": "Gothic cathedral of the silver miners. UNESCO-listed, with a terrace at the Jesuit College."
+    },
+    {
+     "name": "Kutná Hora Historic Centre",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Medieval streets, the Stone Fountain and the Italian Court (the mint)."
+    },
+    {
+     "name": "Dačický Kutná Hora",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 350,
+     "tips": "Medieval beer hall with local beer and duck."
+    },
+    {
+     "name": "Czech Museum of Silver Hrádek",
+     "category": "culture",
+     "start": "14:45",
+     "end": "16:15",
+     "cost": 300,
+     "tips": "Descend into a medieval silver mine (helmet and apron provided). Guided tour, then the train back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Karlštejn Castle",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 400,
+     "tips": "Charles IV's Gothic castle, 40 minutes by train. Swap for Kutná Hora (closed on Mondays)."
+    },
+    {
+     "name": "Pivnice Dačický Bahçe",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 250,
+     "tips": "The garden of the same venue. Sausages."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Holešovice, Letná and DOX",
+   "stops": [
+    {
+     "name": "Letná Park Metronome",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Metronome on the site of the former Stalin statue. Views of the bridges, and a beer garden in summer."
+    },
+    {
+     "name": "National Technical Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 300,
+     "tips": "Aeroplanes, trains and vintage cars, in Letná."
+    },
+    {
+     "name": "Holešovice Market Hall",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 200,
+     "tips": "Pražská tržnice: Vietnamese pho and Czech food stalls."
+    },
+    {
+     "name": "DOX Centre for Contemporary Art",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 280,
+     "tips": "Contemporary art and a rooftop airship, in Holešovice."
+    },
+    {
+     "name": "Stromovka Park",
+     "category": "nature",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Former royal hunting park with ponds and a planetarium."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Prague Zoo",
+     "category": "culture",
+     "start": "14:00",
+     "end": "17:00",
+     "cost": 330,
+     "tips": "One of Europe's best zoos (Troja). Swap for DOX and Stromovka."
+    },
+    {
+     "name": "Bistro 8 Letná",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 250,
+     "tips": "Brunch in Letná."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Český Krumlov",
+   "stops": [
+    {
+     "name": "Český Krumlov Castle",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 320,
+     "tips": "RegioJet bus, 3 hours (Florenc, about 200 CZK, leave at 07:00). A UNESCO town in a bend of the Vltava with the country's 2nd-largest castle. Tower 180 CZK, Baroque theatre tour."
+    },
+    {
+     "name": "Castle Garden Český Krumlov",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Cascading garden and a revolving auditorium theatre."
+    },
+    {
+     "name": "Krčma v Šatlavské",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 350,
+     "tips": "Medieval dungeon tavern serving meat cooked over an open fire."
+    },
+    {
+     "name": "Český Krumlov Old Town",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Latrán and the main square, plus the Egon Schiele Art Centrum (200 CZK)."
+    },
+    {
+     "name": "Vltava Rafting Krumlov",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 300,
+     "tips": "In winter, walk along the river and enjoy the view of the Cloak Bridge."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Papa's Living Restaurant Krumlov",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 300,
+     "tips": "Terrace with river views."
+    },
+    {
+     "name": "Hluboká Castle",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 300,
+     "tips": "White castle resembling Windsor. An alternative on the way to Krumlov."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Wenceslas and a gentle farewell",
+   "stops": [
+    {
+     "name": "Wenceslas Square",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Square of the 1989 Velvet Revolution. The National Museum is at the top, and the upside-down horse is in the Lucerna arcade."
+    },
+    {
+     "name": "Havelské Tržiště",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Market in the Old Town for souvenirs and fruit. Go to Moser for Bohemian crystal."
+    },
+    {
+     "name": "Café Louvre",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 300,
+     "tips": "1902 café (Kafka, Einstein). Have a farewell breakfast and play billiards."
+    },
+    {
+     "name": "Hlavní Nádraží Airport Bus",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 100,
+     "tips": "AE bus takes 35 minutes, or take the metro plus bus 119. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trdelník Stand Old Town",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 100,
+     "tips": "Trdelník (sweet rolled pastry) with ice cream. Touristy but tasty. Farewell treat."
+    },
+    {
+     "name": "Mucha Museum",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 300,
+     "tips": "Art nouveau posters. Swap for the market."
+    }
+   ]
+  }
+ ]
+}

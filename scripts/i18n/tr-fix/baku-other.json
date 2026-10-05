@@ -1,0 +1,17 @@
+{
+ "source": "bfb60a3dc307",
+ "model": "sonnet",
+ "strings": {
+  "d1.s4.tips": "Hazar kıyısında 3,7 km'lik bulvar (1909); dönme dolap, Mini Venedik'te gondol; 20:00'den sonra füniküler ile Highland Park'a çık, Alev Kuleleri ışık gösterisini izle.",
+  "d3.s0.tips": "60 km güneyde (tur ~40 AZN veya taksi); 6.000'den fazla, 10.000 yıllık kaya resmi, UNESCO, müze.",
+  "d3.s2.tips": "Hazar kıyısında cami (Sovyetlerin yıktığı, sonra yeniden yapılan); petrol pompaları arasında.",
+  "d3.s4.tips": "60 yıldır sürekli yanan gaz yamacı, Zerdüşt geleneği; akşam karanlıkta etkileyici, 25 km kuzeyde.",
+  "d3.b0.tips": "Surakhani Zerdüşt-Hindu ateş tapınağı; Yanar Dag ile aynı yönde, yerine veya ek olarak.",
+  "d5.s0.tips": "Bakü'den 4 saat (erken tur veya araç; gece kalmak ideal); 1762 yapımı şebeke vitraylı saray, UNESCO, çivisiz.",
+  "d6.s2.tips": "Şık Azerbaycan mutfağı; sac ve kutab, Xaqani.",
+  "d6.s3.tips": "Bulvardan 1 saatlik Hazar tekne turu; silüet.",
+  "d7.s3.tips": "H1 otobüsü 28 Mayıs'tan kalkar, 40 dakika sürer (BakıKart); veda.",
+  "note3": "Alev Kuleleri gece 21:00'den sonra; Yanar Dag akşam; Heydar Aliyev Center pazartesi kapalı."
+ },
+ "warnings": []
+}

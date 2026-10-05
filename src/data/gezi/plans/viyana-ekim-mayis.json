@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "viyana-ekim-mayis",
+ "altSlug": "vienna-october-may",
+ "citySlug": "viyana",
+ "destKey": "vienna",
+ "city": "Viyana",
+ "region": null,
+ "country": "Avusturya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 400,
+  "attractions": 230,
+  "transport": 50,
+  "misc": 70
+ },
+ "notes": [
+  "Wiener Linien 24 saat 10 EUR, 7 gün ~25 EUR (48/72 saat kaldırıldı); CAT veya S7 havalimanı. Şehir yürünür, tramvay 1-2 Ring turu.",
+  "Schönbrunn ve Belvedere online saatli; opera ayakta bileti 80 dakika önce gişeden (yazın opera kapalı).",
+  "Kasım-Aralık Noel pazarları (Rathaus, Schönbrunn, Spittelberg) ve balo sezonu Ocak-Şubat; kış 0-5°C, kahvehaneler asıl sezon.",
+  "Schnitzel 20-25 EUR (Figlmüller), kahvehanede Melange 5 ve kek 6; heuriger'de Sturm sonbahar. Bahşiş %5-10.",
+  "Pazar günü mağazalar kapalı; müzeler açık.",
+  "Wachau için ÖBB kombine bilet; kayısı çiçeği Nisan, şarap hasadı Eylül-Ekim."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Innere Stadt & Hofburg",
+   "stops": [
+    {
+     "name": "Stephansdom",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 6,
+     "tips": "Renkli çatılı katedral; güney kulesi 343 basamak (6 EUR), sabah sakin."
+    },
+    {
+     "name": "Graben & Kohlmarkt",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Veba sütunu ve Demel vitrini; imparatorluk caddeleri."
+    },
+    {
+     "name": "Hofburg Sisi Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:45",
+     "cost": 20,
+     "tips": "İmparatorluk daireleri, Sisi müzesi ve gümüş koleksiyonu; sesli rehber dahil."
+    },
+    {
+     "name": "Café Central",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 18,
+     "tips": "Sütunlu Viyana kahvehanesi; Apfelstrudel ve Melange, kuyruk 15 dakika."
+    },
+    {
+     "name": "Wiener Staatsoper",
+     "category": "culture",
+     "start": "19:00",
+     "end": "22:00",
+     "cost": 15,
+     "tips": "Ayakta bilet (Stehplatz) 80 dakika önce 13-18 EUR; opera sezonu Eylül-Haziran, yazın kapalı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Café Sacher Wien",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Orijinal Sachertorte; online rezervasyon."
+    },
+    {
+     "name": "Albertina",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:45",
+     "cost": 19,
+     "tips": "Dürer'in Tavşan'ı ve Monet'den Picasso'ya; Hofburg yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Schönbrunn",
+   "stops": [
+    {
+     "name": "Schloss Schönbrunn",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 22,
+     "tips": "Habsburg yazlık sarayı; Imperial Tour 22 EUR online, 08:30 ilk seans, Aynalı Oda."
+    },
+    {
+     "name": "Schönbrunn Gloriette",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Bahçeden tepeye yürüyüş; Gloriette kafede kahve ve saray manzarası."
+    },
+    {
+     "name": "Schönbrunn Tiergarten",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:30",
+     "cost": 29,
+     "tips": "Dünyanın en eski hayvanat bahçesi (1752); pandalar."
+    },
+    {
+     "name": "Landtmann's Parkcafé Schönbrunn",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 16,
+     "tips": "Saray parkında kafe; schnitzel ve kek."
+    },
+    {
+     "name": "Naschmarkt",
+     "category": "food",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 12,
+     "tips": "1,5 km pazar; Türk-Balkan tezgahları, Umar'da balık, cumartesi bit pazarı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Neni am Naschmarkt",
+     "category": "food",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 20,
+     "tips": "Tel Aviv mutfağı; pazar içinde."
+    },
+    {
+     "name": "Wagenburg Schönbrunn",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:30",
+     "cost": 12,
+     "tips": "İmparatorluk arabaları müzesi; hayvanat bahçesi yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Belvedere & Karlsplatz",
+   "stops": [
+    {
+     "name": "Oberes Belvedere",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 20,
+     "tips": "Klimt'in Öpücük'ü ve Schiele; barok saray, online."
+    },
+    {
+     "name": "Belvedere Bahçeleri",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Saraylar arası bahçe; sfenksler."
+    },
+    {
+     "name": "Karlskirche",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 10,
+     "tips": "Barok kubbe; asansörle fresk seviyesine."
+    },
+    {
+     "name": "Figlmüller Wollzeile",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "1905'ten beri tabak taşan schnitzel (domuz); rezervasyon, Bäckerstrasse şubesi daha sakin."
+    },
+    {
+     "name": "Kunsthistorisches Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 21,
+     "tips": "Bruegel koleksiyonu, Vermeer, kubbe kafesi; Maria-Theresien-Platz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gasthaus Pöschl",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Yerel schnitzel ve tafelspitz; Figlmüller doluysa."
+    },
+    {
+     "name": "Secession",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 12,
+     "tips": "Klimt'in Beethoven Frizi; altın lahana kubbe."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Prater & Donau",
+   "stops": [
+    {
+     "name": "Wiener Riesenrad",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 15,
+     "tips": "1897 dönme dolabı; Üçüncü Adam sahnesi, sabah kuyruksuz."
+    },
+    {
+     "name": "Prater Hauptallee",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "4 km kestane yolu; bisiklet ve Lusthaus."
+    },
+    {
+     "name": "Schweizerhaus Prater",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Kışın kapalı; Prater Alm veya Lusthaus."
+    },
+    {
+     "name": "Donauinsel",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Kış yürüyüşü; nehir kuşları."
+    },
+    {
+     "name": "Hundertwasserhaus",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "Renkli dalgalı apartman; dıştan, Kunst Haus Wien müzesi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lusthaus Prater",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Park sonunda tarihi köşk restoran."
+    },
+    {
+     "name": "Alte Donau Kayık",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 20,
+     "tips": "Eski Tuna kolunda pedallı kayık; ada yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Wachau Vadisi",
+   "stops": [
+    {
+     "name": "Stift Melk",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 15,
+     "tips": "Tren 1 saat; barok manastır ve kütüphane, Tuna manzarası. ÖBB Wachau kombine bileti (tren+gemi+manastır)."
+    },
+    {
+     "name": "Melk-Krems Tuna Gemisi",
+     "category": "nature",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Vadi boyunca 2 saat; bağlar ve kaleler (Dürnstein)."
+    },
+    {
+     "name": "Dürnstein",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Mavi kuleli kasaba; Aslan Yürekli Richard'ın kalesi tırmanış."
+    },
+    {
+     "name": "Dürnstein Heuriger",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 22,
+     "tips": "Bağ evinde Grüner Veltliner ve kayısı ürünleri; Wachau kayısısı."
+    },
+    {
+     "name": "Krems Steiner Tor",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Krems eski şehir kapısı; dönüş treni 17:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Loibnerhof Unterloiben",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 30,
+     "tips": "Wachau'nun ünlü restoranı; Dürnstein yanı."
+    },
+    {
+     "name": "Weissenkirchen",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Şarap köyü; Krems yerine gemiyle."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Spittelberg, Museumsquartier & Grinzing",
+   "stops": [
+    {
+     "name": "MuseumsQuartier",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Leopold Museum (Schiele) ve avlu koltukları; mumok."
+    },
+    {
+     "name": "Spittelberg",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Biedermeier sokakları; Noel pazarı Aralık."
+    },
+    {
+     "name": "Glacis Beisl Spittelberg",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "MQ arkasında bahçeli beisl; Viyana ev yemekleri."
+    },
+    {
+     "name": "Grinzing Heuriger Mayer am Pfarrplatz",
+     "category": "food",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 25,
+     "tips": "Beethoven'ın evinde şarap tavernası; 38A otobüsü, Sturm (Eylül) ve Liptauer."
+    },
+    {
+     "name": "Kahlenberg",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Viyana Ormanı tepesinden şehir ve Tuna; 38A ile, gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Heuriger Sirbu",
+     "category": "food",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 22,
+     "tips": "Nussberg bağlarında manzaralı heuriger; Mayıs-Ekim."
+    },
+    {
+     "name": "Karl-Marx-Hof",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Kızıl Viyana'nın 1 km'lik konut bloğu; Heiligenstadt."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Kahvehane sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Café Sperl",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 12,
+     "tips": "1880 kahvehanesi; bilardo masaları ve gazeteler, veda kahvaltısı."
+    },
+    {
+     "name": "Mariahilfer Strasse",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Alışveriş caddesi; hediyelik (Manner gofret)."
+    },
+    {
+     "name": "Kaiserliche Schatzkammer",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 14,
+     "tips": "Habsburg tacı ve Kutsal Mızrak; Hofburg."
+    },
+    {
+     "name": "Wien Hauptbahnhof CAT",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "City Airport Train 16 dakika (veya S7 30 dakika); veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Demel",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 15,
+     "tips": "Hofburg'un pastanesi; Sacher rakibi."
+    },
+    {
+     "name": "Haus der Musik",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 16,
+     "tips": "Ses müzesi; Filarmoni'yi sanal yönet."
+    }
+   ]
+  }
+ ]
+}

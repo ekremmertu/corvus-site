@@ -1,0 +1,14 @@
+{
+ "source": "efdf3a07b281",
+ "model": "sonnet",
+ "strings": {
+  "d2.s0.tips": "Yolda (KTEL otobüsüyle 1,5 saat); Venedik feneri ve dar sokaklar.",
+  "d4.s2.tips": "3 m'ye daralan kanyon; en dar nokta.",
+  "d4.s3.tips": "Boğazın çıktığı sahil köyü; deniz, taverna, sonra 17:30 feribotuyla Sougia/Chora Sfakion'a, oradan otobüsle Hania'ya.",
+  "d4.s4.tips": "Libya Denizi feribotu; otobüsle Hania'ya 20:30'da varış.",
+  "d6.s0.tips": "Heraklion'a dönüşte doğuya sap (araç/KTEL); Plaka'dan 5 dakika tekne (Elounda'dan 20 dakika).",
+  "note0": "Araç kiralama en iyisi (25-40 EUR/gün); KTEL otobüsleri Heraklion-Rethymno-Hania arasında düzenli çalışır. Hania'da 3 gece + Heraklion'da 2 gece ideal (plan 2 üslü).",
+  "note2": "Knossos 20 EUR (müze ayrı), Samaria 5, Spinalonga 8; taverna 15-25, raki ikram; bahşiş için hesabı yuvarla."
+ },
+ "warnings": []
+}

@@ -1,0 +1,25 @@
+{
+ "source": "ab1e8c8f5526",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "Antik tiyatronun üstündeki dar sokaklarda zeytinyağlı sabun, keçe terlik ve el yapımı takı satan küçük dükkânlar var. AVM tadında değil; esnafla pazarlık yapılabilir.",
+  "d1.s4.tips": "Marina ve balıkçı teknelerine bakan meydan, gün batımında altın saatin en iyi yaşandığı nokta. 16:30 sonrası ışık en güzel halini alır; kahve alıp taş banklara oturabilirsin.",
+  "d1.b0.tips": "Ocakbaşı ağırlıklı bu mekânda Ali Nazik ve pideler öne çıkıyor; Dolphin doluysa iyi bir akşam alternatifi.",
+  "d2.s0.tips": "Kaş limanından kalkan tur, batık şehri tekneden gösterir. Fiyata Kaleköy/Simena'daki Likya kalesi ve kaya mezarları ile Üçağız köyünde öğle yemeği dahildir. Kışın deniz soğuk olduğundan yüzme molası yerine güvertede fotoğraf/yürüyüş molası verilir, mont götür.",
+  "d2.s2.tips": "Cumhuriyet Meydanı'na yakın meze evi Ege otları ve zeytinyağlılarıyla öne çıkıyor; şarap eşliğinde paylaşımlık meze tabağı söyle. Akşam masaları erken dolar.",
+  "d2.b0.tips": "El yapımı makarna ve falafel kasesi gibi vejetaryen dostu seçenekleriyle bilinir; Nereid Gurme doluysa iyi alternatif.",
+  "d3.b0.tips": "Deniz ürünleri ve Avrupa mutfağını harmanlayan, hızlı servisiyle bilinen bir mekân; Mezetaryen doluysa iyi alternatif.",
+  "d4.b0.tips": "Vejetaryen dostu sebze yemekleri, salatalar ve tatlılarıyla öne çıkan sakin bir mekân; Sardelaki doluysa iyi bir seçenek.",
+  "d5.s0.tips": "Gaziantep'ten 300 yıl önce göç eden ailelerin getirdiği Barak dokuma geleneği, eski bir köy okulunda 13 tezgahla canlandırıldı; kadınları tezgah başında görüp doğrudan kilim alabilirsin. Ziyaret ücretsiz; küçük hediyelikler 200-500 TL civarında.",
+  "d5.s2.tips": "Organik ve mevsimlik malzemelerle hazırlanan ev yemekleri sunan sakin bir mekân; Kaş'ın gürültüsünden uzak, yerel ailelerin tercih ettiği bir yer.",
+  "d5.s3.tips": "Denize sıfır, sade ama kaliteli akşam menüsüyle bilinen bir mekân; kışın iç mekân bölümü ısıtmalı. Gün batımından hemen sonra masa almak en iyisi.",
+  "d5.b0.tips": "Denize sıfır konumda omlet çeşitleriyle bilinen bir kahvaltı-öğle mekânı; Dudu Mutfak kapalıysa alternatif.",
+  "d6.s0.tips": "Bölgenin en ikonik manzarası: yol kenarından denize inen merdiven ve turkuaz koy. Kışın yüzme yok ama merdivenden inip fotoğraf çekmek serbest; 2026 giriş ücreti kişi başı 60 TL.",
+  "d6.s1.tips": "Begonvilli taş evler ve Arnavut kaldırımlı sokaklarıyla Kalkan'ın kalbi; el yapımı takı ve seramik dükkânları gezilir. Marina kenarında kahve molası verilebilir.",
+  "d6.s2.tips": "Kalkan'a 6 km uzaklıktaki, 600 metre yükseklikteki bu köy buz gibi kaynak sularında yetişen alabalığıyla ünlü; masalar suyun üstüne kurulu. Tereyağlı alabalık ve köy mezeleri sipariş et.",
+  "d7.s0.tips": "Likya Birliği'nin başkenti; sütunlu cadde, tiyatro ve liman hamamı kalıntıları arasında yürünür. MüzeKart'sız giriş kişi başı 90 TL, bilet plaj girişini de kapsıyor.",
+  "d7.s3.tips": "Gelemiş köyünün yerel favorisi; gözlemeler gözünün önünde açılıp pişiriliyor. Patatesli-peynirli ve tahinli-ballı-cevizli çeşitler en çok tercih edilenler.",
+  "note6": "Köy pazarlarında ve kadın kooperatiflerinde fiyatlar genelde sabittir ama küçük hediyelik dükkânlarında nazikçe pazarlık yapmak yerel gelenekte normaldir."
+ },
+ "warnings": []
+}

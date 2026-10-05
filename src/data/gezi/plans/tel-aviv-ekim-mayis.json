@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "tel-aviv-ekim-mayis",
+ "altSlug": "tel-aviv-october-may",
+ "citySlug": "tel-aviv",
+ "destKey": "tel-aviv",
+ "city": "Tel Aviv",
+ "region": null,
+ "country": "İsrail",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "ILS",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 1800,
+  "attractions": 450,
+  "transport": 300,
+  "misc": 300
+ },
+ "notes": [
+  "Rav-Kav; otobüs ve hafif raylı (2023'ten); bisiklet/scooter yaygın. Havalimanı treni 15 dakika (Şabat: cuma akşam-cumartesi akşam ÇALIŞMAZ, taksi). Hayfa'ya tren.",
+  "Kış 15-20°C, yağmurlu ama güneşli günler de var; Nisan-Mayıs ve Ekim ideal; Pesah/Yom Kippur (her şey kapanır) tarihlerini kontrol et.",
+  "GÜVENLİK: Bölge durumu değişken; resmi seyahat uyarılarını kontrol et, Home Front Command uygulaması, sığınak talimatına uy.",
+  "Humus 35-50 ILS, falafel 20-25, kahvaltı 50-70, restoran 120-180; pahalı şehir, bahşiş %12-15 (nakit tercih). Kart her yerde geçer.",
+  "Şabat: cuma gün batımı-cumartesi akşam çoğu kapalı ama plaj/Yafa/restoranlar açık; cuma sabah pazarlar en canlı.",
+  "Kudüs'e otobüs 405/480 1 saat (Şabat dışı); günübirlik mümkün."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Yafa (Jaffa)",
+   "stops": [
+    {
+     "name": "Jaffa Port",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "4.000 yıllık liman; balıkçı tekneleri ve Tel Aviv silüeti, sabah."
+    },
+    {
+     "name": "Old Jaffa Kedumim Square",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Taş sokaklar, St Peter Kilisesi, Zodyak sokakları, Asılı Portakal Ağacı."
+    },
+    {
+     "name": "Abu Hassan Ali Karavan",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 40,
+     "tips": "İsrail'in en ünlü humusu; 50 yıl, öğlenden önce gel (bitince kapanır), masalar paylaşımlı."
+    },
+    {
+     "name": "Jaffa Flea Market Shuk HaPishpeshim",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Antika, vintage ve tasarım; Pazar-Perşembe, cuma 14:00 kapanır, kafeler."
+    },
+    {
+     "name": "Jaffa Sahili & Charles Clore Park",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Yafa'dan Tel Aviv'e sahil yürüyüşü; gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dr. Shakshuka",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 55,
+     "tips": "Libya usulü shakshuka; 08:00 açılır, Jaffa."
+    },
+    {
+     "name": "Ilana Goor Museum",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 40,
+     "tips": "Sanatçının 18. yüzyıl evi-müzesi; çatı deniz manzarası."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Carmel Market & Beyaz Şehir",
+   "stops": [
+    {
+     "name": "Carmel Market Shuk HaCarmel",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 40,
+     "tips": "Şehrin en büyük pazarı; sabich, halva, taze meyve suyu, cuma en canlı."
+    },
+    {
+     "name": "Rothschild Boulevard",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "UNESCO Beyaz Şehir Bauhaus bulvarı; Bağımsızlık Salonu (1948), kiosk kafeler."
+    },
+    {
+     "name": "Bauhaus Center Tel Aviv",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Dizengoff'ta merkez; 4.000 Bauhaus binası haritası ve tur (cuma)."
+    },
+    {
+     "name": "Miznon Ibn Gabirol",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 50,
+     "tips": "Eyal Shani'nin pita dükkânı; karnabahar bütün, sokak."
+    },
+    {
+     "name": "Dizengoff Square",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Ateş ve Su çeşmesi (Agam); kafeler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Port Sa'id",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 70,
+     "tips": "Büyük Sinagog karşısı hip restoran; plak ve meze."
+    },
+    {
+     "name": "Independence Hall",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 25,
+     "tips": "Bağımsızlık Bildirgesi'nin okunduğu salon; rezervasyon."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Plajlar & Liman",
+   "stops": [
+    {
+     "name": "Gordon Beach",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Kış sahil yürüyüşü 18°C; sörfçüler."
+    },
+    {
+     "name": "Tel Aviv Port Namal",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Eski limanda ahşap güverte; cuma çiftçi pazarı."
+    },
+    {
+     "name": "Shuk HaNamal Liman Pazarı",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 60,
+     "tips": "Kapalı gurme pazar; balık ve peynir."
+    },
+    {
+     "name": "Yarkon Park",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Şehrin Central Park'ı; bisiklet, kayık, tropik bahçe."
+    },
+    {
+     "name": "Banana Beach Gün Batımı",
+     "category": "nature",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Beach bar ve sahil gün batımı; Akdeniz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Benedict Ben Yehuda",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 65,
+     "tips": "24 saat kahvaltı zinciri."
+    },
+    {
+     "name": "Hilton Beach",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Gay-friendly ve sörf plajı; Gordon yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Neve Tzedek & Florentin",
+   "stops": [
+    {
+     "name": "Neve Tzedek",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "1887 ilk mahalle; Shabazi Street butikleri, Suzanne Dellal dans merkezi."
+    },
+    {
+     "name": "Dallal Bakery",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 30,
+     "tips": "Neve Tzedek fırın-kafesi; kruvasan."
+    },
+    {
+     "name": "Florentin Sokak Sanatı",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Grafiti mahallesi; Levinsky pazarı baharat."
+    },
+    {
+     "name": "Levinsky Market Café Levinsky 41",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 30,
+     "tips": "Gazoz (ev yapımı meyveli soda) ve baharat pazarı; Balkan börek."
+    },
+    {
+     "name": "Sarona Market",
+     "category": "food",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 50,
+     "tips": "Alman Templar köyünde gurme pazar; Anita dondurma."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nahalat Binyamin Bar Akşamı Teder",
+     "category": "food",
+     "start": "20:00",
+     "end": "23:00",
+     "cost": 50,
+     "tips": "Avluda bar-radyo; Florentin gece."
+    },
+    {
+     "name": "Nahum Gutman Museum",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 24,
+     "tips": "Neve Tzedek ressamı; Florentin yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Caesarea, Hayfa & Akka",
+   "stops": [
+    {
+     "name": "Caesarea National Park",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:45",
+     "cost": 39,
+     "tips": "Tren 45 dakika + otobüs/tur; Herod'un Roma limanı, hipodrom ve tiyatro, su kemeri plajı."
+    },
+    {
+     "name": "Bahá'í Gardens Haifa",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Karmel Dağı'nda 19 teras UNESCO bahçe; üst giriş manzara ücretsiz (12:00 rehberli tur), Alman Kolonisi altta."
+    },
+    {
+     "name": "Haifa German Colony Fattoush",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 70,
+     "tips": "Ben Gurion bulvarı Arap-Hristiyan mahallesi; meze."
+    },
+    {
+     "name": "Akko Old City",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Haçlı yeraltı şehri (Hospitalier kalesi 50 ILS), Osmanlı çarşısı ve limanı, Türk hamamı müzesi."
+    },
+    {
+     "name": "Uri Buri Akko",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 120,
+     "tips": "Dünyaca ünlü balık restoranı; rezervasyon zorunlu, dönüş treni."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hummus Said Akko",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 35,
+     "tips": "Akka çarşısında efsane humus; öğlen bitiyor."
+    },
+    {
+     "name": "Rosh Hanikra",
+     "category": "nature",
+     "start": "14:45",
+     "end": "16:30",
+     "cost": 50,
+     "tips": "Lübnan sınırında deniz mağaraları teleferiği; Akka yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Müzeler & Şabat",
+   "stops": [
+    {
+     "name": "Tel Aviv Museum of Art",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 50,
+     "tips": "Kırık kristal bina; İsrail ve modern sanat, Lichtenstein, salı akşam ücretsiz."
+    },
+    {
+     "name": "ANU Museum of the Jewish People",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 52,
+     "tips": "Diaspora müzesi; Tel Aviv Üniversitesi, interaktif."
+    },
+    {
+     "name": "HaKosem Falafel",
+     "category": "food",
+     "start": "14:45",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "Şehrin en iyi falafel ve sabich'i; Shlomo HaMelech."
+    },
+    {
+     "name": "Ben Gurion House",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Başbakanın evi ve 20.000 kitabı; ücretsiz."
+    },
+    {
+     "name": "Şabat Akşam Yemeği Ha'achim",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 120,
+     "tips": "Cuma akşamı restoranlar dolu; kömürde ızgara, rezervasyon."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eretz Israel Museum",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 52,
+     "tips": "Arkeoloji ve cam; ANU yanı."
+    },
+    {
+     "name": "Dizengoff Center Food Market",
+     "category": "food",
+     "start": "14:45",
+     "end": "15:30",
+     "cost": 40,
+     "tips": "Perşembe-cuma AVM içi yemek pazarı."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sahil sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Frishman Beach Sabah",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Sabah yüzme/koşu; boş plaj."
+    },
+    {
+     "name": "Café Xoho",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:30",
+     "cost": 50,
+     "tips": "Kahvaltı ve fırın; Gordon."
+    },
+    {
+     "name": "Ben Yehuda Street Hediyelik",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Ölü Deniz kozmetik ve tahin hediyelik."
+    },
+    {
+     "name": "HaHagana Tren Ben Gurion",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "Tren havalimanı 15 dakika (Şabat'ta yok — cumartesi taksi 150 ILS); veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bucke Cafe Ben Yehuda",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:30",
+     "cost": 45,
+     "tips": "Mahalle kahvaltısı."
+    },
+    {
+     "name": "Sarona Gardens Sabah",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Templar bahçesi; hediyelik yerine."
+    }
+   ]
+  }
+ ]
+}

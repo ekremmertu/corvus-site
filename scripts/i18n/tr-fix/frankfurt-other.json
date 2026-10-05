@@ -1,0 +1,21 @@
+{
+ "source": "07089fed50d7",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Yeniden inşa edilmiş yarı ahşap meydan; Römer belediye. 09:30'dan önce boş, Noel pazarı Aralık'ta.",
+  "d1.s1.tips": "İmparatorların taç giyme katedrali; kule 3 EUR (328 basamak).",
+  "d1.s2.tips": "1954'te açılan kapalı pazar, 60+ tezgah; Grüne Soße (7 otlu yeşil sos), Frankfurter sosis, üst katta şarap standı. Pazar günleri kapalı.",
+  "d2.s2.tips": "Villada heykel müzesi; bahçe kafe.",
+  "d3.s0.tips": "Tren 1 saat (RE); Neckar üzerinde kızıl kumtaşı harabe şato, füniküler, dünyanın en büyük şarap fıçısı, Eczane Müzesi.",
+  "d3.s2.tips": "1703 öğrenci tavernası; Mark Twain burada yemek yemiş, Schnitzel.",
+  "d3.s4.tips": "Neckar'ın karşı yakasındaki filozof yolu; şato ve eski şehir kartpostal manzarası, dönüş treni.",
+  "d5.s4.tips": "Loreley karşısındaki kasaba ve harabe kale; dönüş treni 1,5 saat.",
+  "d6.s4.tips": "Cumartesi bit pazarı, Main kıyısında (2 haftada bir); diğer günler nehir yürüyüşü.",
+  "note0": "RMV günlük bilet 6 EUR (merkez); S-Bahn ile havalimanı 15 dakika (Avrupa'nın ana aktarma merkezi). Heidelberg/Rüdesheim için RE treni; Hessen-Ticket grup için ucuz.",
+  "note2": "Apfelwein 0,3 l 2,50 EUR (Bembel sürahide), Grüne Soße 12, Schnitzel 18, müze 8-18; bahşiş için hesabı yuvarla.",
+  "note4": "Bahnhofsviertel (gar mahallesi) uyuşturucu sahnesi — gündüz geç, geceleri kaçın; geceleri bar için Sachsenhausen."
+ },
+ "warnings": [
+  "d1.s4.tips: uzunluk çok değişti → düzeltme atıldı"
+ ]
+}

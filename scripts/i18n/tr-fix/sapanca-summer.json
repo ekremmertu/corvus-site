@@ -1,0 +1,24 @@
+{
+ "source": "991a684d37d7",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Göl kenarında 5 km yürüyüş ve bisiklet yolu; sabah sisi ve yeşil.",
+  "d1.s1.tips": "Gölde kahvaltı ve kahve; Kırkpınar sahili.",
+  "d1.s3.tips": "Gölde alabalık ve sazan; göl manzaralı.",
+  "d1.s4.tips": "Batı kıyısında gün batımı; fotoğraf için ideal.",
+  "d2.s3.tips": "Maşukiye'den Kartepe'ye teleferik (yaklaşık 400 TL); yazın yayla, kışın kar.",
+  "d2.b1.tips": "Kartepe yolunda orman ve piknik; teleferik yerine.",
+  "d3.s0.tips": "Yazın 1.650 m'de yayla yürüyüşü ve İzmit Körfezi manzarası.",
+  "d4.s0.tips": "Sapanca'ya 1 saat; Osmanlı evleri, Yunus Paşa Camii, Hıdırlık Tepesi.",
+  "d4.b1.tips": "Sakarya Nehri vadisi; kaplıca yerine manzara.",
+  "d5.s3.tips": "Subaşı ormanı; ahşap yürüyüş yolu, kuşlar.",
+  "d7.s1.tips": "Cuma pazarı (yoksa çarşı); bal, ceviz, kestane.",
+  "note0": "Sapanca İstanbul'a 1,5 saat (otoyol veya Arifiye'den YHT); göl çevresini araçla veya bisikletle gez. Maşukiye ve Kartepe 20 dakika.",
+  "note1": "Yaz hafta sonları çok kalabalık olur; kahvaltı yerleri için 10:00'dan önce git.",
+  "note2": "Alabalık, serpme kahvaltı, ıslama köfte (Adapazarı) ve kestane yöreseldir.",
+  "note3": "Bungalov konaklama Sapanca'nın kimliğidir; hafta içi yarı fiyat.",
+  "note4": "Kartepe zirvesi yazın 10°C ile serindir; hırka al.",
+  "note5": "Göl kenarı yürüyüş yolu 5 km; sabah sisi fotoğraf için güzel."
+ },
+ "warnings": []
+}

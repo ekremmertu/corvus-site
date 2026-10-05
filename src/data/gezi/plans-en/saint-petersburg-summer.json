@@ -1,0 +1,469 @@
+{
+ "lang": "en",
+ "slug": "saint-petersburg-summer",
+ "altSlug": "st-petersburg-yaz",
+ "citySlug": "st-petersburg",
+ "destKey": "saint-petersburg",
+ "city": "Saint Petersburg",
+ "region": null,
+ "country": "Russia",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "RUB",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 22000,
+  "attractions": 14000,
+  "transport": 6000,
+  "misc": 4000
+ },
+ "notes": [
+  "Metro token or Podorozhnik card (about 70 RUB); the metro is deep. Pulkovo Airport: metro to Moskovskaya, then bus 39. For taxis, use the Yandex Go app.",
+  "White Nights run from late May to mid-July (twilight at 01:00). The bridges open from 01:10 to 05:00, so choose your accommodation on the right side of the Neva. Summer is 20-25°C; bring a raincoat.",
+  "Visa: Turkish citizens get 60 days visa-free; others can use an e-visa. Visa/Mastercard do NOT work (since 2022): bring cash RUB or use Mir/UnionPay. A Turkish Ziraat card sometimes works, but bring cash.",
+  "Hermitage 1,000 RUB (timed, online), Catherine Palace 2,200, Peterhof park 1,500 + palace 2,000, Spilled Blood 550. Closed days: Monday for the Hermitage and Peterhof, Wednesday for Spilled Blood and Isaac's, Tuesday for the Russian Museum.",
+  "Borscht, pelmeni, blini, pyshki. Business lunch (biznes-lanch) 12:00-16:00 about 500 RUB; tip 10%.",
+  "Keep your passport on you; hotels handle registration (registratsiya). Yandex Maps is more accurate than Google Maps."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Nevsky and Spilled Blood",
+   "stops": [
+    {
+     "name": "Nevsky Prospekt",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A 4.5 km main boulevard. Look for the Kazan Cathedral colonnade and the Singer building (Dom Knigi bookshop)."
+    },
+    {
+     "name": "Kazan Cathedral",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Colonnade reminiscent of St Peter's. Free entry, with Kutuzov's tomb inside."
+    },
+    {
+     "name": "Church of the Savior on Spilled Blood",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 550,
+     "tips": "Russian-style church with 7,000 m² of mosaics, on the spot where Alexander II was assassinated. Closed Wednesday; buy tickets online."
+    },
+    {
+     "name": "Pyshechnaya Bolshaya Konyushennaya",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 250,
+     "tips": "A Soviet-era pyshki (ring doughnut) shop open since 1958. Expect a queue; cash only."
+    },
+    {
+     "name": "Russian Museum",
+     "category": "culture",
+     "start": "14:15",
+     "end": "16:30",
+     "cost": 600,
+     "tips": "The largest collection of Russian art, including Repin and Aivazovsky's The Ninth Wave. Closed Tuesday."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Stolle Pirogi Nevsky",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 400,
+     "tips": "Russian pies (pirogi). A chain, but a good one."
+    },
+    {
+     "name": "Griboyedov Canal behind Kazan Cathedral",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "A walk along the canal bank, in place of the garden."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "The Hermitage",
+   "stops": [
+    {
+     "name": "Palace Square",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "The Alexander Column and the General Staff arch, in front of the Winter Palace."
+    },
+    {
+     "name": "State Hermitage Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "14:30",
+     "cost": 1000,
+     "tips": "The Winter Palace and 3 million works: Rembrandt, Da Vinci, the Raphael Loggias, and the Peacock Clock at 12:00. Book a timed ticket online; closed Monday; allow 4 hours."
+    },
+    {
+     "name": "Hermitage Cafeteria",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 500,
+     "tips": "The cafeteria inside the museum: a quick lunch without leaving."
+    },
+    {
+     "name": "General Staff Building Hermitage",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 600,
+     "tips": "Impressionists (Monet, Matisse, Picasso), across the square. Combined ticket 1,400."
+    },
+    {
+     "name": "Admiralty Embankment",
+     "category": "nature",
+     "start": "17:15",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "A stroll along the Neva with views of the Bronze Horseman and the Isaac's dome."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Teremok Nevsky",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 350,
+     "tips": "A blini (crepe) chain: cheap and fast."
+    },
+    {
+     "name": "Winter Palace of Peter I",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 300,
+     "tips": "Remains of Peter's first palace, as an alternative to the General Staff Building."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Peterhof",
+   "stops": [
+    {
+     "name": "Peterhof Lower Park",
+     "category": "nature",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 1500,
+     "tips": "Take the Meteor hydrofoil (35 minutes, 2,000 RUB) or a minibus. The Grand Cascade opens at 11:00, with 150 fountains and trick fountains (May to October)."
+    },
+    {
+     "name": "Peterhof Grand Palace",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 2000,
+     "tips": "Rastrelli's gilded halls. Timed tickets; closed Monday."
+    },
+    {
+     "name": "Shtandart Restaurant Peterhof",
+     "category": "food",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 900,
+     "tips": "A Russian restaurant next to the park, serving borscht and pelmeni."
+    },
+    {
+     "name": "Alexandria Park Peterhof",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 300,
+     "tips": "The neighbouring park, with the Cottage Palace and the Gulf shoreline."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Peterhof Bolshoy Cafe",
+     "category": "food",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 600,
+     "tips": "A cheap cafe in the town."
+    },
+    {
+     "name": "Monplaisir Palace",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 500,
+     "tips": "Peter's seaside pavilion, as an alternative to Alexandria."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Peter and Paul, Vasilyevsky",
+   "stops": [
+    {
+     "name": "Peter and Paul Fortress",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 750,
+     "tips": "The island where the city was born. The cathedral holds the Romanov tombs, there is a cannon shot at 12:00, and the beach has city views."
+    },
+    {
+     "name": "Petrovsky Cafe Fortress",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 500,
+     "tips": "A cafe inside the fortress, for lunch."
+    },
+    {
+     "name": "Rostral Columns Strelka",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "The tip of Vasilyevsky Island: the columns and a panorama of the Neva."
+    },
+    {
+     "name": "Kunstkamera",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:45",
+     "cost": 400,
+     "tips": "Peter's 1714 cabinet of curiosities. Closed Monday."
+    },
+    {
+     "name": "Vasilyevsky Lines Walk",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Streets known as numbered 'liniya' lines, and the Andreyevsky market."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Erarta Museum",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:45",
+     "cost": 1000,
+     "tips": "Contemporary Russian art on Vasilyevsky, instead of the Kunstkamera."
+    },
+    {
+     "name": "Marketplace Vasilyevsky",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 400,
+     "tips": "Self-service Russian food."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Pushkin and Catherine Palace",
+   "stops": [
+    {
+     "name": "Catherine Palace",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 2200,
+     "tips": "45 minutes by train and bus or by taxi (Tsarskoye Selo). See the Amber Room and the Great Hall. Timed tickets sell out online."
+    },
+    {
+     "name": "Catherine Park",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "A lake, the Cameron Gallery and pavilions. Boats in summer."
+    },
+    {
+     "name": "Podvorye Restaurant Pushkin",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 1200,
+     "tips": "Decorated like a Russian village house, and a restaurant Putin has eaten at. Blini and meat dishes."
+    },
+    {
+     "name": "Alexander Palace",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 800,
+     "tips": "The last Tsar's home, with restored private rooms."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pavlovsk Palace",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 800,
+     "tips": "The neighbouring Pavlovsk palace and its vast park, instead of Alexander Palace."
+    },
+    {
+     "name": "Beliy Medved Cafe Pushkin",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 600,
+     "tips": "Good value in the town centre."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Isaac's, Mariinsky and canals",
+   "stops": [
+    {
+     "name": "Saint Isaac's Cathedral",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 600,
+     "tips": "A huge golden dome. The colonnade has 262 steps (extra charge) and a city panorama. Closed Wednesday."
+    },
+    {
+     "name": "Bronze Horseman",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The statue of Peter the Great on Senate Square."
+    },
+    {
+     "name": "Yusupov Palace",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 1200,
+     "tips": "The palace where Rasputin was killed, with a home theatre and the cellar scene. Audio guide available."
+    },
+    {
+     "name": "Sadko Restaurant Mariinsky",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 1200,
+     "tips": "Russian food next to the Mariinsky: a classic before the theatre."
+    },
+    {
+     "name": "Neva and Canal Boat Tour",
+     "category": "nature",
+     "start": "21:00",
+     "end": "22:30",
+     "cost": 1200,
+     "tips": "A White Nights canal tour. The bridges open at 01:10 (Palace Bridge); the route runs along the Fontanka and Moyka."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mariinsky Theatre",
+     "category": "culture",
+     "start": "19:00",
+     "end": "22:00",
+     "cost": 3000,
+     "tips": "A ballet or opera evening. Book online weeks ahead (prices are higher for tourists)."
+    },
+    {
+     "name": "Marketplace Isaac",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 450,
+     "tips": "Self-service Russian food."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Summer Garden and farewell",
+   "stops": [
+    {
+     "name": "Summer Garden",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Peter's garden from 1704, with statues and fountains (May to October). Closed Monday."
+    },
+    {
+     "name": "Fabergé Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 700,
+     "tips": "Nine imperial eggs in the Shuvalov Palace, on the Fontanka."
+    },
+    {
+     "name": "Yeliseyev Emporium",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 600,
+     "tips": "A luxury art nouveau grocery from 1903. Cakes and champagne at the cafe corner, plus gifts."
+    },
+    {
+     "name": "Moskovsky Vokzal / Pulkovo Bus",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 100,
+     "tips": "To the airport: metro to Moskovskaya, then bus 39, 60 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Singer Dom Knigi",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "A bookshop cafe with a view of Kazan Cathedral."
+    },
+    {
+     "name": "Anna Akhmatova Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 300,
+     "tips": "The poet's apartment in the Fountain House, instead of Fabergé."
+    }
+   ]
+  }
+ ]
+}

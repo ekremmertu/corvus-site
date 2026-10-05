@@ -1,0 +1,461 @@
+{
+ "lang": "en",
+ "slug": "safranbolu-october-may",
+ "altSlug": "safranbolu-ekim-mayis",
+ "citySlug": "safranbolu",
+ "destKey": "safranbolu",
+ "city": "Safranbolu",
+ "region": "Karabük",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 12150,
+  "attractions": 1350,
+  "transport": 800,
+  "misc": 100
+ },
+ "notes": [
+  "Small tradesmen's restaurants, village markets and garden cafes generally want cash; carry some small change too.",
+  "There is no smart public transport card in town; you pay cash as soon as you board a dolmuş or minibus.",
+  "Tipping is not obligatory, but rounding up the bill at tradesmen's restaurants and leaving 5-10% at mansion restaurants fits local etiquette.",
+  "January in Safranbolu is cold and at times snowy or rainy; the cobbled slopes become slippery when wet, so waterproof shoes with good grip are essential.",
+  "Observe the rules on removing shoes and covering up in mansions and mosque courtyards; most mosques keep headscarves for visitors at the entrance.",
+  "Weekend markets and village days (such as the Local Products Market) can vary by season; confirm whether they are open on the day you go at the Safranbolu Tourist Information office (at the bazaar entrance).",
+  "In winter the sea wind in Amasra is harsh; a windbreaker is advised at Boztepe and along the harbour, and as it is out of beach season there are no beach or sunbed plans."
+ ],
+ "niche": {
+  "name": "Turkish Delight and Saffron Museum",
+  "level": "l2",
+  "why_hidden": "Although it is Türkiye's first Turkish delight and saffron museum, bigger stops such as the Kaymakamlar Museum and the Cinci Hamam take priority, so most tour programmes and guides leave it out entirely. The three-storey mansion, which tells the story of a craft the family of museum owner Onur Şen has carried on for three generations, sits quietly in the everyday flow of the bazaar.",
+  "access_instructions": "On Mimar Sinan Caddesi in the Çavuş neighbourhood, a 10-minute walk from the Kaymakamlar Museum; you can walk straight in. In busy periods, if you let them know in advance as a group, the saffron talk upstairs is given in more detail.",
+  "local_contact": "0541 720 8329 (Safran Evi Lokumları / işletmeci Onur Şen)",
+  "season": "Open year-round; the live saffron harvest can only be seen in October and November, while in winter the museum talk and the Turkish delight-making demonstration carry on as normal.",
+  "insider_tip": "In the saffron section upstairs, ask how many flowers it takes to make one gram of saffron; Onur Bey's family loves to explain. A free Turkish delight tasting is usually offered on the way out, and if you like it, they can vacuum-pack an order and send it by courier.",
+  "show_reason": "Safranbolu'ya adını veren bitkiyi ve şehrin lokum zanaatını tek çatı altında anlatan, mainstream rehberlerde ve sosyal medyada neredeyse hiç görünmeyen otantik bir aile müzesi.",
+  "lat": 41.2413,
+  "lng": 32.6939,
+  "address": "Çavuş Mahallesi, Mimar Sinan Caddesi, 78600 Safranbolu/Karabük",
+  "cost_range_min": 250,
+  "cost_range_max": 350,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Safranbolu's heart: mansions, bazaar and sunset",
+   "stops": [
+    {
+     "name": "Kaymakamlar Museum House",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 250,
+     "tips": "A house museum that brings Ottoman mansion life to light with wax figures; don't miss the women's room upstairs and the kitchen. Cards usually work, but keep a little cash as backup."
+    },
+    {
+     "name": "Cinci Han",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A 17th-century caravanserai with a courtyard you can enter freely; the small shops inside sell saffron soap and spices. The stone-arched courtyard makes the best photo."
+    },
+    {
+     "name": "Kadıefendi Et Lokantası",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 800,
+     "tips": "Kuyu kebabı (pit-roasted lamb) and etli ekmek (flatbread with minced meat) are the must-orders here; hot bread comes with butter and honey. Go before 13:00, as weekends can get crowded."
+    },
+    {
+     "name": "Hıdırlık Hill",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:15",
+     "cost": 100,
+     "tips": "The town's iconic sunset spot, with the whole red-roofed valley spread out below. Walk up from the bazaar in 15 minutes or take a minibus; have salep (hot orchid-root drink) or tea at the kiosk next to it. In winter the sun sets around 17:00."
+    },
+    {
+     "name": "Hanım Sultan",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1100,
+     "tips": "Just below the Cinci Hamam; the stuffed vine leaves with meat and the mantı (small dumplings) stand out. Book for the evening: the mansion atmosphere is especially pleasant on a winter night."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kaya Mahallesi",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A quiet street just above the bazaar, lined with houses with bay-window overhangs. It sits off the tourist route, so it is easier to take photos."
+    },
+    {
+     "name": "Safran Lezzet Sofrası",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 650,
+     "tips": "A classic tradesmen's restaurant on Atatürk Caddesi; the lentil soup and grilled meatballs are good value. Local civil servants take their lunch break here."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Incekaya Valley: aqueduct, cave and canyon air",
+   "stops": [
+    {
+     "name": "Incekaya Aqueduct and Crystal Glass Terrace",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 200,
+     "tips": "The glass terrace built over the Ottoman aqueduct looks down into the valley from above; the sense of height is strong, so it is not suitable for families with young children. Go early in the morning for better light for photos."
+    },
+    {
+     "name": "Bulak Mencilis Cave",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 250,
+     "tips": "One of Türkiye's longest caves, with stalactites and stalagmites shown under lighting. It is cool inside, so bring a light jacket; the floor is damp, so non-slip shoes are a must."
+    },
+    {
+     "name": "Taş Bahçe Kafe Restoran",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "A home-cooking feel in the historic bazaar; try the homemade jams and kuymak (cornmeal and cheese dish). At lunch the serpme platter is made for sharing and is enough for two."
+    },
+    {
+     "name": "Zencefil Yöresel Lezzetler",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 750,
+     "tips": "A small, friendly place in the Musalla neighbourhood, known for its çıtır mantı (crispy dumplings). There are few tables, so call ahead for the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yemeniciler Arastası",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A narrow lane where the old leatherworking tradition lives on; you can buy handmade yemeni (traditional leather slippers) and felt goods directly from the craftsmen."
+    },
+    {
+     "name": "Boncuk Kahve ve Oteli",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 400,
+     "tips": "A nargile and Turkish coffee break in a mansion courtyard; it is quiet in the afternoon, and on winter days choose the indoor area with its stove."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Yörük Village and the saffron trail",
+   "stops": [
+    {
+     "name": "Yörük Village",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 100,
+     "tips": "A miniature Safranbolu with 93 protected mansions; don't miss the 450-year-old Onbaşıgil House and the 250-year-old communal laundry. It is 14 km from the centre, 20 minutes by dolmuş (shared minibus) or taxi."
+    },
+    {
+     "name": "Turkish Delight and Saffron Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 300,
+     "tips": "The lower floors of this three-storey mansion tell the history of Turkish delight, while the top floor covers saffron cultivation and harvest. A free Turkish delight tasting is usually offered on the way out, and you can buy a small box on the spot."
+    },
+    {
+     "name": "Safranbolu Sofrası",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 800,
+     "tips": "Peruhi (a local pastry), stuffed vine leaves and bükme pide (layered flatbread) are the classics here; you can also try the local iskender."
+    },
+    {
+     "name": "Köprülü Meze & Ocakbaşı",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 1200,
+     "tips": "An evening spot on one of the historic streets, focused on the ocakbaşı (grill counter). Start by sharing a meze plate, then move on to the grill. In winter the hearth inside gives a pleasant warmth."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Local Products Market",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A weekend market behind the Historic Çarşı Han, selling jam, noodles and handicrafts made by village women. Ask at the Tourist Information office at the bazaar entrance whether it is open."
+    },
+    {
+     "name": "Historic Havuzlu Köşk",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 750,
+     "tips": "A mansion from the 1600s that serves no alcohol at all; a good fit for a calm, family-friendly lunch break."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Master craftsmen: blacksmiths, mosque and town table",
+   "stops": [
+    {
+     "name": "Blacksmiths' Bazaar",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Next to the Izzet Mehmet Pasha Mosque, on the bank of the Akçasu stream; you can watch the ironsmiths at work and buy a handmade copper ewer. In the morning the craftsmen have more time to chat."
+    },
+    {
+     "name": "Old Mosque and Süleyman Pasha Madrasa",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The madrasa is on the lower level of the mosque; stop by to see religious architecture alongside Ottoman civil architecture. Keep your visit short during prayer times."
+    },
+    {
+     "name": "Safranbolu Municipality City Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 350,
+     "tips": "A very affordable public restaurant run by the municipality; the soup of the day and home-style dishes here cost far less than at tourist places. It is a lunch spot for local civil servants and tradesmen."
+    },
+    {
+     "name": "Gülin Safranbolu Lokantası",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1000,
+     "tips": "A modest restaurant turning out homemade local dishes; ask for the daily menu, and if saffron rice is on, don't miss it."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Arasta Cafe",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 150,
+     "tips": "An Ottoman coffeehouse that has served from the same spot for 300 years; over coffee or tea you share tables with local retirees playing backgammon."
+    },
+    {
+     "name": "Köfteci Hakkı Usta",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "A small tradesman's shop known for its köfte ekmek (meatball sandwich); ideal for a quick, filling lunch snack."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "From castle to canyon: closing at the Wine House",
+   "stops": [
+    {
+     "name": "Safranbolu Castle (Hisar)",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 50,
+     "tips": "The layered Byzantine-Ottoman castle ruin overlooking the town; go early to photograph the bazaar from its highest point."
+    },
+    {
+     "name": "Tokatlı Canyon",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "There is a short walking trail and viewpoints; the path can be wet in winter, so wear shoes with good grip."
+    },
+    {
+     "name": "Mihra Kır Bahçesi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "In the open-air garden, yoghurt with smoky aubergine and fried anchovies stand out; in winter the covered section is open too."
+    },
+    {
+     "name": "Taşev Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "The region's only art and wine house; stone walls and dim lighting set up a romantic evening meal. Choose meat dishes to go with wine, and reserve a table in advance."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Havuzlu Asmazlar Mansion",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 200,
+     "tips": "An 1830 mansion restored and converted into a boutique hotel; you can look around the pool in its courtyard and the period rooms."
+    },
+    {
+     "name": "Kürkçü Konak",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 650,
+     "tips": "The mansion's large garden has indoor and outdoor seating; the serpme kahvaltı (spread breakfast) plate can also be ordered at lunchtime."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Reaching the Black Sea: Amasra day",
+   "stops": [
+    {
+     "name": "Amasra Castle",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "About 1.5 to 2 hours from Safranbolu by bus (Metro Turizm, from Safranbolu Bus Station). On arrival, first see the peninsula separating the Great and Small Harbours; the Byzantine gates are still standing."
+    },
+    {
+     "name": "Boztepe",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "The spot where you see Amasra's peninsula silhouette and the Black Sea from above; the winter wind can be harsh, so a jacket is a must."
+    },
+    {
+     "name": "Great Harbour and Kemere Bridge",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The main harbour where the fishing boats moor; cross the bridge and explore the shops on the far side, which are quiet and empty for photos in winter."
+    },
+    {
+     "name": "Mustafa Amca'nın Yeri",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 1800,
+     "tips": "A long-established fish restaurant, running since 1945; ask about the seasonal fish, as bonito and anchovies lead in winter. Ask for a table with a harbour view."
+    },
+    {
+     "name": "Nurşen Hanımın Yeri",
+     "category": "food",
+     "start": "16:00",
+     "end": "16:45",
+     "cost": 350,
+     "tips": "A modest place at the entrance to the breakwater serving fish sandwiches and fried fish; ideal for a light snack before the return bus. Don't miss the 17:00-17:30 bus."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Amasra Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 75,
+     "tips": "The late Ottoman-style building has archaeology and ethnography halls; closed on Mondays, open 08:30-17:00."
+    },
+    {
+     "name": "Türkan Hanımın Yeri",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "A serpme breakfast spot in the Kum neighbourhood where the morning rush starts early; it also serves light plates at lunch."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "A slow goodbye: last breakfast and garden",
+   "stops": [
+    {
+     "name": "Leyla Hanım Konağı",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 750,
+     "tips": "A traditional Turkish breakfast in the lush garden of a restored mansion; in winter the closed veranda is used, and booking is recommended."
+    },
+    {
+     "name": "Kazdağlılar Konağı",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "One of Safranbolu's monumental mansions; a chance to look closely at the bay-window and ceiling craftsmanship, and a final stop very close to the bazaar."
+    },
+    {
+     "name": "Bağlar Gazoz Bahçesi",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 650,
+     "tips": "A large garden in a quiet, nature-filled part of town; have a light closing meal of natural cheeses, jams and hot gözleme (stuffed flatbread). The most relaxed, unhurried stop on the plan."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Köprülü Mehmet Pasha Mosque",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Built in 1661, a simple and impressive example of Ottoman mosque architecture; take a close look at the cut-stone work."
+    },
+    {
+     "name": "Atiş Butik Restaurant",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 700,
+     "tips": "A boutique breakfast and lunch spot known for Rum mantısı (Greek-style dumplings) and Safranbolu bükme (layered pastry); the breakfast plate comes big enough for two to share."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,477 @@
+{
+ "lang": "en",
+ "slug": "krabi-october-may",
+ "altSlug": "krabi-ekim-mayis",
+ "citySlug": "krabi",
+ "destKey": "krabi",
+ "city": "Krabi",
+ "region": null,
+ "country": "Thailand",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "THB",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 6000,
+  "attractions": 10000,
+  "transport": 2500,
+  "misc": 1500
+ },
+ "notes": [
+  "Stay in Ao Nang (Railay is pricey, Krabi Town is quiet). The Railay longtail costs 100 THB; use Grab or a scooter. The airport minibus is 150.",
+  "November to April is the dry season: 30°C and glassy seas (the best time). December to February is crowded and expensive, and April brings Songkran.",
+  "Fill in the TDAC digital arrival card; carry cash in THB. Island tours cost 1,000-2,500 plus a 400 park fee; a taverna meal is 200-400; round up your tips.",
+  "Do Tiger Cave at 07:00 (heat and monkeys), take the 08:00 slot at Maya Bay, and expect the Four Islands to be crowded at midday. Bring reef-safe sunscreen and water shoes.",
+  "You will get wet on the morning longtail (bring a dry bag); there are few ATMs in Railay.",
+  "Southern Thai food: massaman, gaeng som (sour curry), roti and coconut seafood. Muslim villages serve halal food."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Railay and Phra Nang",
+   "stops": [
+    {
+     "name": "Railay West Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "15 minutes by longtail boat from Ao Nang (100 THB). A beach between limestone cliffs, quiet in the morning and a hub for rock climbing."
+    },
+    {
+     "name": "Phra Nang Cave Beach",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "In the rainy season the morning can be sunny, but expect waves."
+    },
+    {
+     "name": "Railay Viewpoint & Lagoon",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "A red-earth rope climb (short but steep) leads to the view. Going down to the lagoon takes nerve."
+    },
+    {
+     "name": "Mangrove Restaurant Railay East",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 250,
+     "tips": "Thai food by the mangroves; try the green curry."
+    },
+    {
+     "name": "Ao Nang Sunset Wang Sai",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 300,
+     "tips": "Seafood at the far end of Ao Nang. Watch the sunset, then take the 17:30 longtail back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tonsai Beach",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "A hippie climbers' beach. Walk there at low tide; choose it for the scenery."
+    },
+    {
+     "name": "Krua Thara Seafood Klong Muang",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 350,
+     "tips": "A local seafood favourite in Klong Muang."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Four Islands tour",
+   "stops": [
+    {
+     "name": "Four Islands Tour Ao Nang",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 1000,
+     "tips": "Longtail (1,000) or speedboat (1,500); the national park fee of 400 is extra."
+    },
+    {
+     "name": "Koh Poda",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "White sand and a towering rock. Snorkel here; it is Ao Nang's postcard view."
+    },
+    {
+     "name": "Chicken Island Koh Gai",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A rock shaped like a chicken's head; snorkel among the fish."
+    },
+    {
+     "name": "Koh Tup Sandbar Lunch",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "At low tide a sandbar (Talay Waek) joins three islands. Lunch with rice is included."
+    },
+    {
+     "name": "Phra Nang Cave Beach & Return",
+     "category": "nature",
+     "start": "13:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The last stop is Phra Nang; you are back in Ao Nang at 16:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hong Island Tour",
+     "category": "nature",
+     "start": "08:30",
+     "end": "15:30",
+     "cost": 1500,
+     "tips": "Hong's lagoon and 360° views, as an alternative to the Four Islands (unless you are going the next day)."
+    },
+    {
+     "name": "Ao Nang Night Market",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 150,
+     "tips": "A night market from Friday to Sunday; try pad thai and mango sticky rice."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Hong Islands",
+   "stops": [
+    {
+     "name": "Hong Island Speedboat",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 1500,
+     "tips": "30 minutes from Ao Nang, in Than Bok Khorani National Park."
+    },
+    {
+     "name": "Hong Lagoon",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A hidden lagoon ringed by cliffs; go by kayak."
+    },
+    {
+     "name": "Koh Hong Main Beach",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "White sand and coral, plus a 360° viewing platform (419 steps, new in 2019)."
+    },
+    {
+     "name": "Koh Hong Picnic Lunch",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Included in the tour; eaten on the beach."
+    },
+    {
+     "name": "Koh Lao Lading & Pakbia",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A small cove on Paradise Island; snorkel, then head back at 16:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Krabi Town Chao Fah Night Market",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 150,
+     "tips": "Riverside evening food stalls in Krabi Town."
+    },
+    {
+     "name": "Tup Kaek Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "If you skip the tour: a quiet beach north of Ao Nang, good for sunset."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Tiger Cave and Emerald Pool",
+   "stops": [
+    {
+     "name": "Tiger Cave Temple Wat Tham Suea",
+     "category": "culture",
+     "start": "07:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "1,260 steps (steep!) to a summit Buddha and 360° panorama. Go at 07:00 when it is cool; watch for monkeys and bring water."
+    },
+    {
+     "name": "Krabi Town Breakfast Ruen Mai",
+     "category": "food",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 150,
+     "tips": "A garden restaurant serving Thai and southern dishes."
+    },
+    {
+     "name": "Emerald Pool Sa Morakot",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 200,
+     "tips": "An emerald-green natural pool in the forest (1 km wooden walkway) in Khao Phra Bang Khram, 1 hour by car."
+    },
+    {
+     "name": "Blue Pool",
+     "category": "nature",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "A blue spring where swimming is banned, 800 m beyond the Emerald Pool."
+    },
+    {
+     "name": "Klong Thom Hot Springs",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 200,
+     "tips": "Hot spring pools at 40°C in a forest stream, with a waterfall."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Khao Khanab Nam Caves",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "Longtail from Krabi Town; caves and mangroves between two rock hills, instead of the pools."
+    },
+    {
+     "name": "Ko Klang Village Lunch",
+     "category": "food",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 120,
+     "tips": "Home cooking in a Muslim fishing village; arrive by boat."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Phi Phi Islands",
+   "stops": [
+    {
+     "name": "Phi Phi Speedboat Ao Nang",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 2500,
+     "tips": "45 minutes by speedboat (tour about 2,500 THB); the national park fee is 400."
+    },
+    {
+     "name": "Maya Bay",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "The bay from the film The Beach. Access has been restricted since 2022 (no walking on the beach, no swimming). It is empty at 08:00-09:00 and CLOSED in August and September."
+    },
+    {
+     "name": "Pileh Lagoon & Viking Cave",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Swim in the emerald lagoon; see the swiftlet nest cave from outside."
+    },
+    {
+     "name": "Phi Phi Don Tonsai Lunch",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Buffet included in the tour, in the island village."
+    },
+    {
+     "name": "Bamboo Island",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "White sand and snorkelling; head back at 16:30."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Phi Phi Viewpoint",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "The classic view over two bays, a 20-minute climb. Do it instead of Bamboo."
+    },
+    {
+     "name": "Ao Nang Krua Thara Dinner",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 350,
+     "tips": "Seafood, after you get back."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Klong Muang and Thai massage",
+   "stops": [
+    {
+     "name": "Klong Muang Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Ao Nang's quiet neighbour; a resort beach for swimming."
+    },
+    {
+     "name": "Tub Kaek Beach",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "An empty beach with views of the Hong islands, and the start of the Dragon Crest (Khao Ngon Nak) trail."
+    },
+    {
+     "name": "Lae Lay Grill",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 400,
+     "tips": "A well-known hilltop Thai restaurant with sea views, in Ao Nang."
+    },
+    {
+     "name": "Thai Cooking Class Ya's Krabi",
+     "category": "food",
+     "start": "15:00",
+     "end": "18:00",
+     "cost": 1500,
+     "tips": "A half-day cooking course with a market visit and 5 dishes."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Khao Ngon Nak Dragon Crest",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A 3.7 km forest climb with cliff-top rock views, instead of the beach."
+    },
+    {
+     "name": "Jenna's Bistro Ao Nang",
+     "category": "food",
+     "start": "15:00",
+     "end": "18:00",
+     "cost": 300,
+     "tips": "Thai and Western food; an evening option instead of the course."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Ao Nang morning and a gentle farewell",
+   "stops": [
+    {
+     "name": "Ao Nang Beach Morning Walk",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Morning longtails on the sand; the Monkey Trail leads to Pai Plong beach."
+    },
+    {
+     "name": "Pai Plong Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "A cove by the Centara resort; snorkel and look out for monkeys."
+    },
+    {
+     "name": "Café 8.98 Ao Nang",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 200,
+     "tips": "Breakfast and coffee for your farewell."
+    },
+    {
+     "name": "Krabi Airport Minibus",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 150,
+     "tips": "40 minutes from Ao Nang; time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ao Nang Landmark Night Market Morning",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "For souvenirs, instead of the beach."
+    },
+    {
+     "name": "Ao Nang Roti Stand",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 60,
+     "tips": "Banana roti and Thai tea."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,493 @@
+{
+ "lang": "en",
+ "slug": "buenos-aires-summer",
+ "altSlug": "buenos-aires-yaz",
+ "citySlug": "buenos-aires",
+ "destKey": "buenos-aires",
+ "city": "Buenos Aires",
+ "region": null,
+ "country": "Argentina",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "ARS",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 450000,
+  "attractions": 250000,
+  "transport": 150000,
+  "misc": 80000
+ },
+ "notes": [
+  "Buy a SUBE card (from kiosks). The metro (Subte) and buses (colectivo) are cheap, and Uber and Cabify are safe. Ezeiza is 1 hour away; Aeroparque is in the city.",
+  "NOTE: June to September is winter in Argentina (8-15°C, grey), so plan indoor stops: museums, cafés, tango. The July winter holiday is crowded, and Colonia is windy.",
+  "ARS inflation means prices change fast (ASSUMPTION: mid-2026). The 'dólar MEP' rate applied automatically to card payments is good, while Western Union is for cash. The new USD 100 series is in circulation.",
+  "Parrilla 30,000-60,000 ARS, empanada 2,000 ARS, coffee and medialuna 5,000 ARS, tango show 90,000+ ARS. Tip 10% in cash; dinner starts after 21:00.",
+  "Watch out for pickpockets: outside Caminito's main street and at the Retiro bus terminal. Don't show your phone in the street. Bring your passport for Colonia.",
+  "Try shared mate, dulce de leche, alfajor (Havanna) and malbec; there is a Recoleta feria on Sundays."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Centre and San Telmo",
+   "stops": [
+    {
+     "name": "Plaza de Mayo",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Casa Rosada (the pink palace, free tours at weekends), the Cathedral (Pope Francis's former church), Mothers of the Plaza de Mayo on Thursdays at 15:30."
+    },
+    {
+     "name": "Café Tortoni",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 6000,
+     "tips": "A café since 1858; order churros and hot chocolate. Expect a queue. On Avenida de Mayo."
+    },
+    {
+     "name": "San Telmo Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 12000,
+     "tips": "A market since 1897 with choripán and empanada stalls and antique dealers. On Sundays the Defensa street feria stretches for 10 blocks."
+    },
+    {
+     "name": "Plaza Dorrego",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Street tango (Sundays) and antique shops."
+    },
+    {
+     "name": "El Zanjón de Granados",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:15",
+     "cost": 8000,
+     "tips": "1730 tunnels beneath a restored mansion; visit by guided tour."
+    }
+   ],
+   "backups": [
+    {
+     "name": "La Brigada San Telmo",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 30000,
+     "tips": "A parrilla with football decor; the meat is so tender it is cut with a spoon."
+    },
+    {
+     "name": "Museo Histórico Nacional",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "National history in Parque Lezama; free. Visit instead of Zanjón."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Recoleta and Palermo",
+   "stops": [
+    {
+     "name": "Recoleta Cemetery",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A city of marble mausoleums with Evita's grave (Duarte) and plenty of cats. Free, but since 2025 foreigners pay 14,000 ARS for a ticket."
+    },
+    {
+     "name": "Floralis Genérica",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "A giant steel flower that opens and closes with the sun, in Plaza Naciones Unidas."
+    },
+    {
+     "name": "MALBA",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 12000,
+     "tips": "Latin American art, including Frida Kahlo and Berni. Discounted on Wednesdays."
+    },
+    {
+     "name": "Bosques de Palermo & Rosedal",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A rose garden and lakes; hire a rowing boat or a bike."
+    },
+    {
+     "name": "Don Julio",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:30",
+     "cost": 60000,
+     "tips": "Billed as the world's best steakhouse. Without a reservation, join the queue at 18:45 (champagne is served while you wait). Order the bife de chorizo and a malbec."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Preferido de Palermo",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:30",
+     "cost": 35000,
+     "tips": "Don Julio's pink sibling, serving milanesa and tapas."
+    },
+    {
+     "name": "Museo Nacional de Bellas Artes",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Free; Rodin and Monet, near Recoleta."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "La Boca and Puerto Madero",
+   "stops": [
+    {
+     "name": "Caminito",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Colourful tin houses and street tango. Go in daylight and stay on the main streets."
+    },
+    {
+     "name": "La Bombonera Boca Juniors",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 25000,
+     "tips": "Stadium and museum tour; a shrine to Maradona."
+    },
+    {
+     "name": "El Obrero La Boca",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 25000,
+     "tips": "A workers' canteen from 1954 serving milanesa and tortilla. Bono has eaten here."
+    },
+    {
+     "name": "Puente de la Mujer",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Calatrava's bridge and the old docks, with the Fragata Sarmiento ship."
+    },
+    {
+     "name": "Reserva Ecológica Costanera Sur",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "A nature reserve on the Rio de la Plata shore. Come for sunset; choripán stands are outside."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cabaña Las Lilas Puerto Madero",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 70000,
+     "tips": "Upmarket waterfront parrilla."
+    },
+    {
+     "name": "Usina del Arte",
+     "category": "culture",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Concert hall and gallery in a former power station; in La Boca, free."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Tigre Delta",
+   "stops": [
+    {
+     "name": "Tren de la Costa Tigre",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 2000,
+     "tips": "The Mitre train from Retiro takes 1 hour (or take the scenic Tren de la Costa) to the Tigre station."
+    },
+    {
+     "name": "Puerto de Frutos",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A market at the old fruit port selling wicker, woodwork and mate gourds."
+    },
+    {
+     "name": "Tigre Delta Boat Tour",
+     "category": "nature",
+     "start": "11:45",
+     "end": "13:15",
+     "cost": 15000,
+     "tips": "Paraná delta channels, stilt houses and market boats. The Interisleña public boat is cheap."
+    },
+    {
+     "name": "Museo de Arte Tigre",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 3000,
+     "tips": "The 1912 Tigre Club palace, a Belle Époque building on the riverbank."
+    },
+    {
+     "name": "María Luján Tigre",
+     "category": "food",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 25000,
+     "tips": "A riverside parrilla with asado and views."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo del Mate",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 3000,
+     "tips": "A mate museum with tastings, in Tigre."
+    },
+    {
+     "name": "Almacén de Ramos Generales Tigre",
+     "category": "food",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 18000,
+     "tips": "A former general store turned restaurant; try the picada (sharing platter)."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Colonia del Sacramento (Uruguay)",
+   "stops": [
+    {
+     "name": "Buquebus Colonia Feribotu",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "09:15",
+     "cost": 70000,
+     "tips": "Ferry crossing of 1 hour 15 minutes (bring your passport; about 70,000 ARS return online) to Uruguay."
+    },
+    {
+     "name": "Barrio Histórico Colonia",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A UNESCO-listed Portuguese-Spanish town with the Calle de los Suspiros and the Portuguese gate."
+    },
+    {
+     "name": "Faro de Colonia",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 50,
+     "tips": "A lighthouse from 1857 with views over the Rio de la Plata (pay in UYU cash)."
+    },
+    {
+     "name": "Charco Bistró Colonia",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 1500,
+     "tips": "A riverside bistro; try the chivito (Uruguayan steak sandwich). Pay in UYU or USD."
+    },
+    {
+     "name": "Rambla & Plaza Mayor",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A coastal road with classic cars. Take the ferry back between 17:00 and 19:00, before sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo Portugués Colonia",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 100,
+     "tips": "A museum of the Portuguese period; visit instead of the lighthouse."
+    },
+    {
+     "name": "El Buen Suspiro Colonia",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 1200,
+     "tips": "Wine and picada (sharing platter) on Calle de los Suspiros."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Palermo Soho and tango",
+   "stops": [
+    {
+     "name": "Plaza Serrano Palermo Soho",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Boutiques and murals; a design market at weekends."
+    },
+    {
+     "name": "La Cabrera Palermo",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 45000,
+     "tips": "Parrilla with 15 small side dishes; 40% off during happy hour, 12:00-13:30."
+    },
+    {
+     "name": "Museo Evita",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:45",
+     "cost": 8000,
+     "tips": "Evita's clothes and life story, in a Palermo mansion."
+    },
+    {
+     "name": "El Ateneo Grand Splendid",
+     "category": "culture",
+     "start": "17:15",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "A bookshop in a former theatre, often called the most beautiful in the world. On Santa Fe."
+    },
+    {
+     "name": "Tango Show El Viejo Almacén",
+     "category": "culture",
+     "start": "20:00",
+     "end": "22:30",
+     "cost": 90000,
+     "tips": "San Telmo's most traditional tango show, with a dinner package. A milonga (La Viruta) is a cheaper alternative."
+    }
+   ],
+   "backups": [
+    {
+     "name": "La Viruta Milonga",
+     "category": "culture",
+     "start": "23:00",
+     "end": "02:00",
+     "cost": 8000,
+     "tips": "A milonga where locals dance; lesson plus night out."
+    },
+    {
+     "name": "Sarkis Palermo",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 20000,
+     "tips": "Armenian meze; a good alternative to a parrilla. Expect a queue."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Teatro Colón and a gentle farewell",
+   "stops": [
+    {
+     "name": "Teatro Colón",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 25000,
+     "tips": "An opera house with some of the world's best acoustics. English tours run every hour; see the golden hall."
+    },
+    {
+     "name": "Obelisco & Avenida 9 de Julio",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "The world's widest avenue and its obelisk, the symbol of Buenos Aires."
+    },
+    {
+     "name": "Confitería La Ideal",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 12000,
+     "tips": "A café restored from 1912; have medialunas (small croissants) and a café con leche as a farewell."
+    },
+    {
+     "name": "Galerías Pacífico",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "A shopping centre with a frescoed dome; buy leather souvenirs (Calle Florida)."
+    },
+    {
+     "name": "Ezeiza Airport Tienda León",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "14:45",
+     "cost": 20000,
+     "tips": "Bus or taxi takes 1 hour; farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo de Arte Decorativo",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 4000,
+     "tips": "The Errázuriz palace; visit instead of the Colón."
+    },
+    {
+     "name": "Las Violetas Almagro",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 12000,
+     "tips": "A stained-glass café from 1884; try the medialunas (small croissants)."
+    }
+   ]
+  }
+ ]
+}

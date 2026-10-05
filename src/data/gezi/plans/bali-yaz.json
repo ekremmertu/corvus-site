@@ -1,0 +1,493 @@
+{
+ "lang": "tr",
+ "slug": "bali-yaz",
+ "altSlug": "bali-summer",
+ "citySlug": "bali",
+ "destKey": "bali",
+ "city": "Bali",
+ "region": null,
+ "country": "Endonezya",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "IDR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 3500000,
+  "attractions": 3200000,
+  "transport": 2500000,
+  "misc": 1000000
+ },
+ "notes": [
+  "Bali'de toplu taşıma yok: scooter (uluslararası ehliyet + kask), Grab/Gojek veya günlük şoförlü araç (~700.000 IDR). Ubud-Canggu-Uluwatu arası 1-2 saat trafik var.",
+  "Nisan-Ekim kuru mevsim: sörf, Batur ve Penida için ideal; Temmuz-Ağustos kalabalık ve pahalı.",
+  "Tapınaklarda sarong ve kuşak zorunlu (girişte verilir). Adet döneminde girilmez; tören günlerinde saygılı ol.",
+  "Babi guling 40-60.000 IDR warung'da, nasi campur 30-50.000; beach club minimum harcama 300-500.000.",
+  "Maymunlar (Uluwatu, Monkey Forest) gözlüğü ve telefonu kapar; yemek gösterme.",
+  "Nusa Penida turuna Sanur'dan sabah teknesiyle git; Kelingking inişi zor, yukarıdan bakmak yeter."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Ubud: pirinç tarlaları & saray",
+   "stops": [
+    {
+     "name": "Tegallalang Rice Terrace",
+     "category": "nature",
+     "start": "07:30",
+     "end": "09:00",
+     "cost": 50000,
+     "tips": "Teraslı pirinç tarlaları; 07:30'da sessiz ve serin. Salıncak isteğe bağlı, 150.000 IDR."
+    },
+    {
+     "name": "Tirta Empul",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 75000,
+     "tips": "Kutsal kaynak arınma tapınağı; sarong verilir, havuzda 13 çeşme."
+    },
+    {
+     "name": "Ubud Palace",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Kraliyet sarayı avlusu; akşam legong dansı (100.000 IDR)."
+    },
+    {
+     "name": "Warung Babi Guling Ibu Oka",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 60000,
+     "tips": "Bourdain'in övdüğü kızarmış domuz; saray karşısında, öğlen biter."
+    },
+    {
+     "name": "Ubud Monkey Forest",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 100000,
+     "tips": "Kutsal maymun ormanı ve tapınaklar; gözlüğüne ve çantana dikkat et."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Warung Babi Guling Gung Cung",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 40000,
+     "tips": "Saray yakınında yerel babi guling."
+    },
+    {
+     "name": "Campuhan Ridge Walk",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "2 km'lik sırt yürüyüşü; gün batımı için de uygun."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Mount Batur & Ubud kültür",
+   "stops": [
+    {
+     "name": "Mount Batur Gün Doğumu Yürüyüşü",
+     "category": "nature",
+     "start": "03:30",
+     "end": "08:30",
+     "cost": 450000,
+     "tips": "02:00'de otelden alınırsın; 2 saat tırmanış, 1.717 m'de gün doğumu ve volkan buharında yumurta. Tur ~450.000 IDR."
+    },
+    {
+     "name": "Toya Devasya Hot Springs",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 250000,
+     "tips": "Batur Gölü kenarında kaplıca; yürüyüş sonrası iyi gelir."
+    },
+    {
+     "name": "Ubud Art Market",
+     "category": "shopping",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Hediyelik eşya pazarı; pazarlıkta yarı fiyattan başla."
+    },
+    {
+     "name": "Warung Biah Biah Ubud",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 80000,
+     "tips": "Bali tapas (küçük tabaklar); yerel ve uygun fiyatlı."
+    },
+    {
+     "name": "Saraswati Temple",
+     "category": "culture",
+     "start": "15:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Lotus havuzlu tapınak; Starbucks'ın yanında."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Warung Pulau Kelapa Ubud",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 90000,
+     "tips": "Endonezya mutfağı; bahçe."
+    },
+    {
+     "name": "Tegenungan Waterfall",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 25000,
+     "tips": "Ubud'a yakın şelale; kaplıca yerine alternatif."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Ubud'dan Canggu'ya: Tanah Lot",
+   "stops": [
+    {
+     "name": "Jatiluwih Rice Terraces",
+     "category": "nature",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 50000,
+     "tips": "UNESCO teraslar, Tegallalang'dan geniş ve sakin; yürüyüş rotaları."
+    },
+    {
+     "name": "Ulun Danu Beratan Temple",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 75000,
+     "tips": "Göl üstünde 'yüzen' tapınak; dağlar sisli."
+    },
+    {
+     "name": "Jatiluwih Warung Dhea",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 70000,
+     "tips": "Teras manzaralı nasi campur."
+    },
+    {
+     "name": "Tanah Lot",
+     "category": "culture",
+     "start": "16:30",
+     "end": "18:30",
+     "cost": 75000,
+     "tips": "Denizin içindeki kaya tapınağı; gün batımı en ünlü anı, kalabalık olur."
+    },
+    {
+     "name": "Canggu Batu Bolong Beach",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Canggu sahil barları; gün batımından sonra bira ve sörf ışıkları."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Old Man's Canggu",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 100000,
+     "tips": "Sahil barı; akşam."
+    },
+    {
+     "name": "Handara Gate",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 50000,
+     "tips": "Instagram kapısı; göl tapınağının yanında."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Canggu & Seminyak",
+   "stops": [
+    {
+     "name": "Echo Beach Canggu",
+     "category": "nature",
+     "start": "07:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Sörf dersi (~350.000 IDR) veya sabah yüzme; kuru mevsimde dalga temiz."
+    },
+    {
+     "name": "Crate Cafe Canggu",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 90000,
+     "tips": "Canggu brunch kültürü; smoothie bowl."
+    },
+    {
+     "name": "Seminyak Village",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Butikler ve AVM; Oberoi Caddesi."
+    },
+    {
+     "name": "Babi Guling Pak Malen Seminyak",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 50000,
+     "tips": "Seminyak'ın babi guling'i; çıtır deri."
+    },
+    {
+     "name": "Seminyak Beach Gün Batımı",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Ku De Ta veya Potato Head beach club (minimum harcama) ya da kumda puf; gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Potato Head Beach Club",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 300000,
+     "tips": "Beach club; havuz ve DJ."
+    },
+    {
+     "name": "Petitenget Temple",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Seminyak'ın tapınağı; tören günlerinde."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Nusa Penida",
+   "stops": [
+    {
+     "name": "Kelingking Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Sanur'dan sürat teknesiyle 45 dakika + araçlı tur (~900.000 IDR); T-Rex Kayası, tepeden manzara (iniş 1 saat, zor)."
+    },
+    {
+     "name": "Angel's Billabong",
+     "category": "nature",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Doğal havuz; gelgitte yüzmek yasak."
+    },
+    {
+     "name": "Broken Beach",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Doğal kaya kemerli koy."
+    },
+    {
+     "name": "Nusa Penida Warung Crystal Bay",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 70000,
+     "tips": "Crystal Bay'de warung; nasi goreng."
+    },
+    {
+     "name": "Crystal Bay Şnorkel",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 150000,
+     "tips": "Manta Point'te vatoz (tekne ~200.000 IDR) ya da Crystal Bay'de şnorkel; 16:00'da tekne."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Diamond Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Doğu Penida'da beyaz kum; şnorkel yerine."
+    },
+    {
+     "name": "Penida Colada Beach Bar",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 80000,
+     "tips": "Sahil barı."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Uluwatu",
+   "stops": [
+    {
+     "name": "Padang Padang Beach",
+     "category": "nature",
+     "start": "08:30",
+     "end": "11:00",
+     "cost": 15000,
+     "tips": "Kayaların arasından inilen küçük koy; sabah sakin, maymunlar var."
+    },
+    {
+     "name": "Bingin Beach Warung",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 80000,
+     "tips": "Uçurum warung'larında ızgara balık; merdivenle inilir."
+    },
+    {
+     "name": "Single Fin Uluwatu",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 120000,
+     "tips": "Uçurum barı; sörf izle, öğle yemeği ye."
+    },
+    {
+     "name": "Uluwatu Temple",
+     "category": "culture",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 50000,
+     "tips": "Uçurumdaki deniz tapınağı; maymunlar gözlüğü kapar, sarong giriş ücretine dahil."
+    },
+    {
+     "name": "Kecak Fire Dance Uluwatu",
+     "category": "culture",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 150000,
+     "tips": "Gün batımında 100 kişilik kecak; bileti 17:00'de al, öne otur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Suluban Beach",
+     "category": "nature",
+     "start": "08:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Mağaradan inilen sörf plajı; Padang Padang yerine."
+    },
+    {
+     "name": "Jimbaran Bay Balık Izgarası",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 250000,
+     "tips": "Kumda ızgara deniz ürünleri; Uluwatu dönüşü."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sanur — hafif veda",
+   "stops": [
+    {
+     "name": "Sanur Beach Yürüyüş Yolu",
+     "category": "nature",
+     "start": "07:00",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "5 km'lik sahil yolu; Bali'nin doğusunda gün doğumu, sakin deniz."
+    },
+    {
+     "name": "Sindhu Market Sanur",
+     "category": "food",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 30000,
+     "tips": "Sabah pazarı; bubur ve kahve."
+    },
+    {
+     "name": "Sanur Village Spa",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 200000,
+     "tips": "Bali masajı; veda."
+    },
+    {
+     "name": "Warung Mak Beng Sanur",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 50000,
+     "tips": "1941'den beri kızarmış balık ve çorba; tek menü."
+    },
+    {
+     "name": "Ngurah Rai Havalimanı Yolu",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Havalimanı 30 dakika uzakta."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Genius Cafe Sanur",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 80000,
+     "tips": "Sahil kafesi; hafif."
+    },
+    {
+     "name": "Le Mayeur Museum Sanur",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 50000,
+     "tips": "Belçikalı ressamın evi; spa yerine."
+    }
+   ]
+  }
+ ]
+}

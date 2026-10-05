@@ -1,0 +1,510 @@
+{
+ "lang": "en",
+ "slug": "trabzon-summer",
+ "altSlug": "trabzon-yaz",
+ "citySlug": "trabzon",
+ "destKey": "trabzon",
+ "city": "Trabzon",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9620,
+  "attractions": 5180,
+  "transport": 740,
+  "misc": 660
+ },
+ "notes": [
+  "Cash makes life easier at tradesmen's restaurants, market stalls and köfte places. Cards are generally accepted, but it is good to carry small change.",
+  "Trabzonkart is required on city buses and cash is not accepted. For trips outside the city centre, such as Uzungöl and Yomra/Araklı, use dolmuş/minibuses; taxis run on the meter.",
+  "Leaving a tip of 5-10% of the bill at restaurants is a common courtesy, but not compulsory.",
+  "When visiting the Hagia Sophia Mosque and Gülbahar Hatun Mosque, women need a headscarf and clothing that covers shoulders and knees. Loan scarves are usually available at the entrance.",
+  "In July the Black Sea climate is prone to sudden downpours, so keep a light raincoat in your bag. The sea is cool, so expect a short dip to cool off rather than a long swim.",
+  "The city is generally safe. In highland and village areas, stick to well-lit main routes rather than walking in the dark at night.",
+  "Chatting with local tradespeople opens doors. Not turning down the tea you are offered and addressing older people respectfully are important points of etiquette on the Black Sea."
+ ],
+ "niche": {
+  "name": "Alacahan Coppersmiths' Bazaar",
+  "level": "l2",
+  "why_hidden": "In the courtyard of Alacahan, one of the oldest caravanserais in Kemeraltı Bazaar, more than 33 coppersmith shops once operated. Today only a few masters carry on the craft as they learned it from their fathers. Guides walk past the bazaar and take photos. Most visitors do not know they can step inside the han and watch a master hammering copper.",
+  "access_instructions": "Inside Kemeraltı Bazaar, enter Alacahan Sokak behind Çarşı Mosque. When you pass through the han gate into the courtyard, you will see the copper workshops that are still working. On weekdays the masters are at work from 09:00 to 18:00, and the han is closed on Sundays.",
+  "local_contact": "Yok — dükkan sahipleriyle yüz yüze görüşülür, randevu gerekmez; avlunun sağ köşesindeki dükkan en aktif atölyedir.",
+  "season": "Year-round, weekdays 09:00-18:00 (closed Sundays)",
+  "insider_tip": "Ask the master how a copper jug is hammered; often he will put down what he is doing and explain. You can order a small copper cezve (Turkish coffee pot), but delivery may not be the same day.",
+  "show_reason": "600 yıllık bir ticaret hanının içinde, Türkiye'de nesli tükenmekte olan bir zanaati canlı haliyle görme şansı sunuyor — ücretsiz, fotojenik ve tamamen otantik.",
+  "lat": 41.0027,
+  "lng": 39.7171,
+  "address": "Çarşı Mah., Alacahan Sok. No:10, Ortahisar, Trabzon",
+  "cost_range_min": 0,
+  "cost_range_max": 0,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Trabzonkart",
+  "why_chosen": "One card covers all city bus lines run by Trabzon Metropolitan Municipality. It gets you to stops in the plan such as Boztepe, Beşirli, Yomra and Değirmendere. It is cheaper than paying cash and allows transfers. Since Trabzon has no metro or tram, this is the only practical option covering the bus network.",
+  "coverage": "Trabzon Büyükşehir Belediyesi şehir içi ve banliyö otobüs hatları (Boztepe, Beşirli, Yomra, Akçaabat dahil)",
+  "where_to_buy": "Otogar ve şehir merkezindeki otomatik kart yükleme kioskları, çeşitli bayiler; bakiye yükleme ve sorgulama için Trabzon Ulaşım mobil uygulaması",
+  "cost": 70,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Trabzon essentials: Boztepe views, Atatürk Pavilion and Uzun Sokak",
+   "stops": [
+    {
+     "name": "Atatürk Pavilion",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 60,
+     "tips": "The pavilion dates from 1890, and its garden has lovely views over the city. Go early in the morning, when it is quieter. Entry is about 60 TL per person; if your Museum Pass is not valid, you can pay by cash or card at the ticket desk."
+    },
+    {
+     "name": "Hagia Sophia of Trabzon",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "This Byzantine church was built in 1238 and is now an active mosque. Entry is free, and you can visit outside prayer times. The traces of frescoes on the exterior and the garden overlooking the sea make for great photos."
+    },
+    {
+     "name": "Bulutlar Köfte Salonu",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 320,
+     "tips": "In Kemeraltı Bazaar, pass the historic arch and turn right at the second side street. You will find a modest, under-the-stairs-looking tradesmen's köfte place dating from the 1950s. Ask for Akçaabat köfte with piyaz (bean salad) and roasted peppers; they also sell it by the kilo."
+    },
+    {
+     "name": "Uzun Sokak and Kemeraltı Bazaar",
+     "category": "shopping",
+     "start": "14:15",
+     "end": "15:45",
+     "cost": 120,
+     "tips": "This is the main shopping street, best explored on foot. Try the tahini halva and ice cream at Beton Helva, open since 1953 at Uzun Sokak No:21. In the shops on Kunduracılar Street there is room for haggling."
+    },
+    {
+     "name": "Boztepe",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:15",
+     "cost": 110,
+     "tips": "Sit late at one of the terrace tea gardens with a bird's-eye view of the city; sunset begins around 19:30. Tables facing the view fill up early, and it is a 10-15 minute taxi ride away."
+    },
+    {
+     "name": "Balıklama Balık Lokantası (Uzun Sokak)",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 500,
+     "tips": "At this fish restaurant at Uzun Sokak No:13/A, order fried anchovies (hamsi tava) if it is the season, or grilled whiting or bonito if not. You can go without a reservation, but there may be a queue on weekend evenings."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cephanelik Restaurant & Cafe",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 450,
+     "tips": "An old ammunition depot at Boztepe Cephanelik has been converted into a restaurant. The spread breakfast includes kuymak (Black Sea cheese and cornmeal dish) and kaygana (Black Sea-style crepe omelette). The morning view is as impressive as Boztepe itself."
+    },
+    {
+     "name": "Meydan Park (Atatürk Square)",
+     "category": "landmark",
+     "start": "21:30",
+     "end": "22:15",
+     "cost": 100,
+     "tips": "The city's meeting point. In the evenings the fountains are lit up, and it is ideal for sitting in the tea gardens and watching square life. The pavement tables at Mitra Cafe are the nicest spot."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Castle, Kemeraltı secrets and Değirmendere",
+   "stops": [
+    {
+     "name": "Trabzon Castle (Ortahisar)",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "You can wander freely among the Byzantine-era inner castle walls, and entry is free. Morning light from the tower overlooking Zağnos Valley is lovely for photos."
+    },
+    {
+     "name": "Alacahan Coppersmiths' Bazaar",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "In the courtyard of Alacahan, one of Kemeraltı's oldest caravanserais, a few masters still hammer copper. Watching quietly is fine, and you can take photos if you ask permission."
+    },
+    {
+     "name": "Gülbahar Hatun Mosque",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "This early Ottoman work was built in 1514 in the name of Sultan Selim I's mother. With its inverted-T plan and tomb, it is one of the quietest corners of Kemeraltı. Visiting is easy outside prayer times."
+    },
+    {
+     "name": "Kamiloğlu Köfte Salonu",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 320,
+     "tips": "In the section of Kemeraltı Bazaar known as the under-the-stairs area, Hamsiköy rice pudding is served alongside the köfte. If you arrive during the local tradesmen's lunch break (13:00-14:00), there may be a queue."
+    },
+    {
+     "name": "Değirmendere Bridge and Çömlekçi Quarter",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "This four-arched stone bridge was built in 1891 and is a legacy of the Nemlizade family. The streets of the old Çömlekçi Quarter around it are completely off the tourist routes. Afternoon light is good for photos."
+    },
+    {
+     "name": "Karpi Pide",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 350,
+     "tips": "At Kunduracılar Street, Halkevi Sokak No:15, within walking distance of Meydan, you can order pide with kuymak and with kaşar cheese together. Remember that there is no such thing as mıhlama in the Black Sea; what you are looking for is kuymak."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Merkez Pide Salonu",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 320,
+     "tips": "On a side street near Meydan, with pide in three sizes. The dough is crisp and the filling generous. Local families favour it in the evening."
+    },
+    {
+     "name": "Fatih Mosque (Panagia Chrysokephalos)",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "This building was a cathedral in the Byzantine period and was converted into a mosque after the Ottoman conquest. In the heart of Kemeraltı, it carries layer upon layer of history. Entry is free."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "East coast: Yomra's beach, Araklı's hidden cove",
+   "stops": [
+    {
+     "name": "Kaşüstü Municipal Family Beach",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Yomra's only beach fills with local families at weekends and is calm on weekday mornings. There are no sunloungers, so bring your own towel. Entry is free."
+    },
+    {
+     "name": "Sahil Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 480,
+     "tips": "In Kaşüstü, at Okullar Street, Hastane Yolu No:6. In season, be sure to order garfish (zargana) and hamsi çıtlama (crispy fried anchovies). It is next to the Kilpa market and easy to find."
+    },
+    {
+     "name": "Mersin Cove",
+     "category": "nature",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "In Araklı, where the road curves down to the sea, this small cove has stayed free of concrete construction. The water is greener than in the open sea. You can watch fish among the rocks, and entry is free."
+    },
+    {
+     "name": "Beşirli Coastal Walking Path",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "On the way back to the centre, this 5.6 km rubber-surfaced path runs between Beşirli and Ganita. You stop here for sunset and photos, not for swimming. There is also a cycle path, and entry is free."
+    },
+    {
+     "name": "Tirvana Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 440,
+     "tips": "One of Trabzon's restaurants that specialise in anchovies. You can try hamsili pilav (anchovy rice) and fried anchovies at the same table. If you go early in the evening, the catch is guaranteed fresh."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Serender Cafe Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 400,
+     "tips": "At Beşirli Mah. Devlet Sahil Yolu No:575/A, right on the shore. The evening menu has grilled fish and meze. You can dine while watching the sunset."
+    },
+    {
+     "name": "Kalecik Beach",
+     "category": "nature",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "4 km from central Araklı, a quiet beach favoured by locals and an alternative to Mersin Cove. Entry is free, and there are no facilities, so bring your own supplies."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Akçaabat: stone streets, köfte and seafront",
+   "stops": [
+    {
+     "name": "Akçaabat Orta Mahalle",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Stone streets bearing traces of Ottoman and Greek architecture, together with restored mansions, make this feel like an open-air museum. Morning light is the best time for photos. Entry is free, and you explore on foot."
+    },
+    {
+     "name": "Akçaabat Atatürk Park and Viewing Terrace",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "This raised park facing the sea offers wide seating areas and views over the town. It is also a comfortable break spot for families, and entry is free."
+    },
+    {
+     "name": "Komaroğlu Köfte Salonu",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 340,
+     "tips": "On Davut Kayhan Street (the main street), this is a third-generation business. People choose this modest place over the big restaurants on the seafront. Köfte with piyaz (bean salad) is the classic pairing."
+    },
+    {
+     "name": "Akçaabat Coastal Walking Path",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A calm route running along the shore with a cycle path and tea gardens, where locals take their evening walks. It is free, and you can stop at cafes along the way."
+    },
+    {
+     "name": "Cemil Usta Köfte Balık ve Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 420,
+     "tips": "At Dürbinar, Sahil Park Alanı, Adnan Menderes Cd. No:120. The menu has both köfte and fish, and in the evenings the smell of the grill drifts into the street. Book the seaside tables in advance."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Saray Köfte Balık Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 400,
+     "tips": "A local business listed in the Akçaabat Municipality tourism guide, serving both köfte and fresh fish. In the evening you can choose tables with sea views."
+    },
+    {
+     "name": "Akçakale Castle",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "The ruins of a defensive castle on a hill dominating the coastline. The wall remains and the location are still impressive. Entry is free, and a short climb is required."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Museums, square and Zağnos Valley",
+   "stops": [
+    {
+     "name": "Trabzon Museum (Kostaki Mansion)",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 150,
+     "tips": "This mansion museum reopened in 2025 after a long restoration. It was the home of the Greek banker Kostaki, and the exhibits are as interesting as the interior decoration. Foreign visitors are generally charged entry in foreign currency, and the Museum Pass is valid."
+    },
+    {
+     "name": "Mitra Cafe",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 220,
+     "tips": "A small cafe right in the middle of Meydan with the feel of a French coffeehouse. Toast and coffee make a good light lunch. The pavement tables are ideal for watching the square."
+    },
+    {
+     "name": "1461 Trabzonspor Museum",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 30,
+     "tips": "A museum that tells the city's history from the Ottoman era to the Republic together with the story of Trabzonspor. Even if you are not a football fan, the press history section is interesting."
+    },
+    {
+     "name": "Zağnos Valley Park",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Just below the castle, this is Trabzon's largest open-air park. With its waterside path, duck ponds and amphitheatre, it is where the city catches its breath. Entry is free."
+    },
+    {
+     "name": "Balıklama Balık Lokantası (Ortahisar)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 520,
+     "tips": "Unlike the Uzun Sokak branch, this Ortahisar branch has also been known for years for fried anchovies and shrimp casserole. If you go early in the evening, the choice of fish is wider."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Edward's Coffee",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 200,
+     "tips": "A small cafe at the entrance to an arcade on Meydan, reminiscent of the English countryside. It is a quiet stop for coffee and dessert."
+    },
+    {
+     "name": "Çarşı Mosque",
+     "category": "culture",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "A historic mosque in the middle of Kemeraltı, within walking distance of Alacahan. With its plain architecture and its place inside the bazaar, it is woven into daily life."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Sümela Monastery and Hamsiköy: Trabzon's signature day",
+   "stops": [
+    {
+     "name": "Sümela Monastery",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 2350,
+     "tips": "A group tour from Trabzon with return transport and guide included. There is a climb up to the 4th-century monastery carved into the rock face, so comfortable shoes are essential. The tour usually picks up from the city between 08:30 and 09:00 and lasts 10 hours in total.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Trabzon+Sumela+Monastery+Hamsikoy+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Altındere National Park",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "The valley that holds the monastery is covered in pine and spruce forest. On the tour programme there is a short walking break after leaving the monastery. The entry fee is included in the Sümela ticket."
+    },
+    {
+     "name": "Famous Hamsiköy Rice Pudding",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 150,
+     "tips": "In Hamsiköy, at 1,300 metres, oven-baked rice pudding is the region's signature. The tour stops in the village on the way back. Rice pudding served warm is better than cold; ask for Black Sea tea with it."
+    },
+    {
+     "name": "Beton Helva and Uzun Sokak evening stop",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:00",
+     "cost": 100,
+     "tips": "A light finish after the long day tour. The business at Uzun Sokak No:21, open since 1953, serves tahini halva and ice cream. End the day with a short stroll along Uzun Sokak in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Osman Usta Rice Pudding",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 130,
+     "tips": "At the entrance to Hamsiköy, next to the mosque. With rice pudding made by the traditional method, it is one of the oldest businesses in the region."
+    },
+    {
+     "name": "Hamsiköy Plateau viewpoint",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "A viewpoint opening onto the pine forests of the area made up of the villages of Ciharlı, Çıralı, Dikkaya and Güzelyayla. It suits a short photo stop along the tour route."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Uzungöl: a gentle farewell day",
+   "stops": [
+    {
+     "name": "Uzungöl",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "It takes about 1.5 hours from Trabzon by minibus from the Çaykara Tur office in Çömlekçi Quarter. Walking on the wooden path by the lake is free. If you go early in the morning, the tourist coaches have not yet arrived."
+    },
+    {
+     "name": "Ada Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 650,
+     "tips": "One of the best-known trout restaurants by the lake. Order trout in butter and kuymak together. For tables with a view, the early part of lunchtime is quieter."
+    },
+    {
+     "name": "Uzungöl tea garden stop",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 100,
+     "tips": "A final break at a tea garden overlooking the lake, ideal for relaxing before the return minibus. The return journey also takes about 1.5 hours."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sofra Restoran",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "A restaurant with lake views, known for regional dishes such as mıhlama/kuymak and karalahana sarması (stuffed black cabbage). Trout is also served with butter."
+    },
+    {
+     "name": "Uzungöl Dursun Ali Inan Museum",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 100,
+     "tips": "A private museum that presents the culture of the region through a wooden Uzungöl house and ethnographic items collected over thirty years. Entry is paid, and it is advisable to call ahead to check availability."
+    }
+   ]
+  }
+ ]
+}

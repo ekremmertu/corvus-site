@@ -1,0 +1,528 @@
+{
+ "lang": "tr",
+ "slug": "trabzon-ekim-mayis",
+ "altSlug": "trabzon-october-may",
+ "citySlug": "trabzon",
+ "destKey": "trabzon",
+ "city": "Trabzon",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9540,
+  "attractions": 5270,
+  "transport": 1140,
+  "misc": 250
+ },
+ "notes": [
+  "Esnaf lokantalarında ve küçük atölyelerde kart geçmeyebilir; yanında nakit bulundur, özellikle Sürmene ve Vakfıkebir gibi ilçelerde.",
+  "Trabzon Kart olmadan otobüse binersen sürücüye nakit ödeyebilirsin ama kartlı yolculuk her zaman daha ucuzdur.",
+  "Bahşiş zorunlu değil; lokantalarda hesabın yaklaşık %5-10'u kadar bırakmak yeterli ve makbul karşılanır.",
+  "Ocak ayında Karadeniz yağmurlu ve rüzgarlı geçer; su geçirmez mont ve kaymaz taban ayakkabı şart, özellikle Uzungöl ve Sümela günlerinde kat kat giyin.",
+  "Ayasofya Müzesi ve camilere girerken kadınlar için başörtüsü genelde kapıda verilir, yine de yanında bir eşarp taşımak işini kolaylaştırır.",
+  "Trabzonlular çok misafirperverdir ama doğrudan soru sormaktan çekinmez; samimi bir sohbetin parçası olarak görülür, alınma.",
+  "Sümela ve Uzungöl yolu dağlık ve virajlıdır; özel araçla gidersen kış lastiği/zincir kontrolü yap, rehberli turla gidersen bu derdin olmaz."
+ ],
+ "niche": {
+  "name": "Sürmene Bıçakçı Ali Usta Atölyesi",
+  "level": "l3",
+  "why_hidden": "Sürmene'nin 1950'lerden beri süren elde dövme bıçak geleneği hâlâ küçük, tabelasız atölyelerde yaşıyor; burası resmi bir müze ya da gösteri merkezi değil, gerçek bir işyeri olduğu için tur otobüsleri hiç uğramaz. Trabzon rehberlerinde neredeyse hiç geçmez, bilenler doğrudan ustayı arar.",
+  "access_instructions": "Trabzon merkezden Sürmene'ye D-010 sahil yolu ile özel araç veya dolmuşla yaklaşık 40 dakika. Çarşı Mahallesi, Vural Caddesi No:4A'daki atölyeye vardığında kapıyı çalıp 'atölyeyi gezebilir miyiz' demek yeterli; yoğun değilse genelde kabul ederler.",
+  "local_contact": "+90 544 746 17 61 (Ali Usta) — gitmeden birkaç saat önce arayıp haber vermek nezaket gereği ve boş bulma ihtimalini artırır.",
+  "season": "Yıl boyu açık; sadece dini bayram tatillerinde kapalı olabilir.",
+  "insider_tip": "Bitmiş bıçağı değil, henüz dövülmemiş çeliğin ısıl işlem (tavlama) aşamasını göstermesini iste — asıl ustalık orada saklı. Nakit ödersen küçük bir indirim alabilirsin.",
+  "show_reason": "Karadeniz'in ünlü çelik zanaatını doğrudan ustanın elinden, hiçbir turist kalabalığı olmadan izleme fırsatı — fotoğraflık değil, gerçek bir zanaat deneyimi.",
+  "lat": 40.9186,
+  "lng": 40.1156,
+  "address": "Çarşı Mah., Vural Cad. No:4A, Sürmene, Trabzon",
+  "cost_range_min": 0,
+  "cost_range_max": 500,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Trabzon Kart",
+  "why_chosen": "Trabzon Büyükşehir Belediyesi'ne bağlı tüm ilçelerde (Akçaabat, Yomra, Maçka, Sürmene, Vakfıkebir dahil) geçerli tek kart olduğu için plandaki ilçe gezilerinde de işine yarar. Nakit ödemeye göre otobüs başına belirgin indirim sağlar ve bozuk para aramaktan kurtarır; Boztepe teleferiği gibi bazı özel hatlarda geçmeyebileceğinden yanında az miktarda nakit de bulundur.",
+  "coverage": "Trabzon Büyükşehir Belediyesi otobüs hatları — şehir merkezi, Boztepe eteği, Akçaabat, Yomra, Değirmendere, Maçka ve Sürmene yönü dahil",
+  "where_to_buy": "Meydan çevresindeki KentKart bayilerinden veya otobüs duraklarındaki dolum otomatlarından; havalimanı çıkışında da otomat bulunur",
+  "cost": 75,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Trabzon'un İmzası: Boztepe, Ayasofya ve Tarihi Çarşı",
+   "stops": [
+    {
+     "name": "Boztepe Teleferik & Seyir Terası",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 180,
+     "tips": "Teleferik gidiş-dönüş bileti gişeden veya Trabzon Kart'la alınır. Hava açıksa şehrin ve Karadeniz'in en iyi panoramik görüntüsü buradan. Kışın rüzgâr sert eser, mont şart; seyir terasındaki çay bahçesinde bir bardak çay içip mola vermek iyi olur."
+    },
+    {
+     "name": "Ayasofya Müzesi",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 120,
+     "tips": "13. yüzyıldan kalma Bizans freskleri Anadolu'nun en dikkat çekici duvar resimleri arasında; Müzekart geçerli. Kış saatlerinde (08:30-16:30) ziyaret edilebilir, sabah erken saatlerde kalabalık olmaz."
+    },
+    {
+     "name": "Kalender Lokanta ve Kafe",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 550,
+     "tips": "Kuymak, karalahana sarması ve turşu kavurması sipariş et — üçü de Trabzon esnaf mutfağının klasikleri. Şehir merkezinde, çarşıya yakın olduğu için Ayasofya sonrası rotaya kolay uyar."
+    },
+    {
+     "name": "Atatürk Köşkü",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 80,
+     "tips": "Atatürk'ün Karadeniz gezilerinde konakladığı ahşap köşk, bahçesinden şehir manzarası da güzel. Giriş ücreti cüzi, Müzekart geçerli; içeride fotoğraf çekimi serbest ama flaş yasak."
+    },
+    {
+     "name": "Bedesten & Kunduracılar Çarşısı",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Tek kubbeli 16. yüzyıl bedesteni gez, restore edilmiş binalarda geleneksel el sanatları hem sergileniyor hem öğretiliyor. Sabah 10:30'dan sonra açık; akşamüstü ışık fotoğraf için idealdir."
+    },
+    {
+     "name": "Kordonboyu Balık",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 1400,
+     "tips": "2005'ten beri hizmet veren sahil restoranı; hamsi ve palamut mevsiminde en taze seçenekler. Deniz kenarındaki masayı erken rezervasyonla kapmaya çalış, akşam saatlerinde hızlı doluyor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Liman Balık Lokantası",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1300,
+     "tips": "Kordonboyu Balık doluysa alternatif; taze balık ve geniş meze çeşitleriyle biliniyor. Akşam saatlerinde rezervasyon önerilir."
+    },
+    {
+     "name": "İskenderpaşa Camii",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Meydan'a yakın tarihi cami, dışarıdan da görülebilir; Bedesten gezisi mümkün olmazsa kısa bir alternatif durak. Namaz vakitlerinde içeri girmek uygun olmayabilir."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Ortahisar'ın Ruhu: Kale, Zeytinlik ve Tarihi Pilav",
+   "stops": [
+    {
+     "name": "Trabzon Kalesi (Ortahisar)",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Giriş ücretsiz, her gün 08:00-18:00 açık. Arnavut kaldırımlı sokaklarda ahşap cumbalı konaklar arasında yürü, fotoğraf için sabah ışığı en iyisi."
+    },
+    {
+     "name": "Kostaki Konağı (Trabzon Müzesi)",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 90,
+     "tips": "1900'lerin başından kalma banker konağı; alt katta arkeoloji, üst katta etnografya bölümü var. Zeytinlik Caddesi üzerinde, Kale gezisinden yürüyerek 10 dakika."
+    },
+    {
+     "name": "Tarihi Kalkanoğlu Pilavcısı",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 150,
+     "tips": "1856'dan beri aynı tarifle pilav-kavurma ve kuru fasulye yapıyorlar; Pazarkapı'daki dükkan 10:00-17:00 arası açık, Pazar günleri kapalı. Ucuz ve doyurucu, esnaf sofrasının tam kendisi."
+    },
+    {
+     "name": "Zağnos Vadisi Parkı",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Şehrin en büyük açık hava parkı; göletler, 15. yüzyıldan kalma Zağnos Köprüsü ve amfitiyatro var. Yürüyüş yolları kışın da açık, kolay erişilebilir."
+    },
+    {
+     "name": "Sera Gölü Millet Bahçesi",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "Şehir merkezine yakın göl kenarı yürüyüşü, kış aylarında sisli, dingin bir atmosfer sunar. Gün batımına yakın saatte gölete yansıyan ışık fotoğraf için güzel."
+    },
+    {
+     "name": "Sümer Restoran",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 700,
+     "tips": "Burada önce kuymağı dene; doğayla iç içe bir atmosferde Karadeniz mutfağı sunuyorlar. Akşam için önceden telefonla masa sorman iyi olur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Müzeyyen Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "Turizm Bakanlığı'nca 1. sınıf lisanslı, sac kavurma ve ızgara levrek öne çıkıyor. Sümer Restoran doluysa şık bir alternatif, fiyatlar biraz daha yüksek."
+    },
+    {
+     "name": "Uzun Sokak Tarihi Cadde yürüyüşü",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Zafer Çarşısı çevresindeki tarihi cadde, esnaf dükkanları ve eski binalarla dolu. Zağnos Vadisi kapalıysa yürüyüş için iyi bir alternatif."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Sürmene'nin Çeliği ve Akçaabat'ın Ortamahallesi",
+   "stops": [
+    {
+     "name": "Sürmene Bıçakçı Ali Usta Atölyesi",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 150,
+     "tips": "D-010 sahil yolundan Trabzon merkezden yaklaşık 40 dakika; Çarşı Mahallesi Vural Caddesi'nde tabelasız küçük atölye, kapıyı çalıp sormak yeterli. Önceden telefonla haber vermek boşuna gitme ihtimalini azaltır."
+    },
+    {
+     "name": "Sürmene Sahili",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Atölye sonrası kısa bir deniz kenarı yürüyüşü; balıkçı tekneleri ve iskele manzarası fotoğraf için güzel. Kışın rüzgarlı olabilir, mont şart."
+    },
+    {
+     "name": "Akçaabat Ortamahalle",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 50,
+     "tips": "1988'de kentsel sit alanı ilan edilen 19. yüzyıl Osmanlı konakları ve taş sokaklar; Timurcular, Kanoğlu ve Mehmet Efendi konakları restore edilmiş halde görülebilir. Nihat Usta Köfte'nin önündeki kavşaktan tabelaları takip ederek ulaşılıyor."
+    },
+    {
+     "name": "Timurcular Konağı Kafe",
+     "category": "food",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 290,
+     "tips": "Restore edilmiş tarihi konakta yöresel tatlı ve kahve molası; ahşap cumbalardan sokağı izlemek keyifli. Ortamahalle gezisinin doğal devamı, ayrıca yürümeye gerek yok."
+    },
+    {
+     "name": "Nihat Usta",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "1974'ten beri Akçaabat köftesinin adresi, deniz kenarında; köfte yanına pilaki ve piyaz iste. Akşam için rezervasyon önerilir, hafta sonu daha kalabalık olur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Merkez Hasan Usta Köfte Balık",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:15",
+     "cost": 850,
+     "tips": "Akçaabat'ta İnönü Caddesi üzerinde, Nihat Usta'ya alternatif köfte-balık mekanı. Fiyat/lezzet dengesi iyi, daha sakin bir atmosferi var."
+    },
+    {
+     "name": "Kanoğlu Konağı",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 50,
+     "tips": "Ortamahalle'deki restore edilmiş bir diğer tarihi konak; Timurcular Konağı'na alternatif fotoğraf durağı. Aynı bölgede, yürüyerek birkaç dakika."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Kemerkaya'dan Sahile: Futbol Ruhu, Pazar ve Deniz",
+   "stops": [
+    {
+     "name": "Trabzonspor Müzesi (Mustafa Şamil Ekinci Müzesi)",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Giriş ücretsiz, Pazartesi günleri kapalı. Osmanlı ve Cumhuriyet dönemi kent yaşamı ile Trabzonspor tarihini bir arada anlatıyor, taraftar değilsen bile şehir kültürü için ilginç."
+    },
+    {
+     "name": "Çömlekçi Pazarı",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 150,
+     "tips": "Viyadük altında kurulan mahalle pazarı; taze fındık, yöresel peynir ve tereyağı bulunur. Hangi gün kurulduğunu önceden mahalle esnafından teyit et, genelde hafta ortasına denk gelir."
+    },
+    {
+     "name": "Lezzet Lokantası",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 500,
+     "tips": "Günlük değişen tabldot menüsüyle klasik bir esnaf lokantası; sulu yemek ve çorba seçenekleri geniş. Pazar dönüşü öğle arası için merkeze yakın, pratik bir seçim."
+    },
+    {
+     "name": "Atatürk Alanı (Meydan)",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Şehrin nabzının attığı meydan; tarihi çınarlar ve eski bina cepheleri fotoğraf için güzel. Bir çay molası vererek yerel hayatı izlemek için ideal bir durak."
+    },
+    {
+     "name": "Adabeyi Restoran",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 1500,
+     "tips": "Kordon'da özel günler için de tercih edilen, taze deniz ürünleri ve özenli mezeleriyle biliniyor. Akşam için önceden yer ayırtmak gerekebilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kordon Boyu Balık Evi",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1300,
+     "tips": "Adabeyi doluysa Kordon'da bir diğer güvenilir balık restoranı; geniş meze çeşitleri ve Karadeniz mutfağı sunuyor."
+    },
+    {
+     "name": "Ganita Sahil Parkı",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Trabzonluların hafızasında yer eden bir sahil parkı; uzun yürüyüş yolu ve deniz manzaralı çay bahçeleri var. Meydan'a alternatif olarak sakin bir mola noktası."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Batı Sahili: Vakfıkebir ve Beşikdüzü",
+   "stops": [
+    {
+     "name": "Vakfıkebir Sahil Parkı",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Trabzon merkezden yaklaşık 45 dakika; uzun yürüyüş yolları ve bisiklet parkuruyla deniz kenarında sakin bir sabah. Kışın rüzgarlı olabilir, sıcak tutan kıyafetle git."
+    },
+    {
+     "name": "Tarihi Vakfıkebir Camii",
+     "category": "culture",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Geleneksel taş ve ahşap işçiliğiyle inşa edilmiş tarihi cami; namaz vakti dışında dıştan da rahatça gezilebilir. Sahil parkından yürüyerek birkaç dakika."
+    },
+    {
+     "name": "İslamoğlu Vakfıkebir Ekmek Fırını Ve Şarküteri",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "Vakfıkebir'in meşhur taş fırın ekmeğini sıcak sıcak dene; yanına yöresel tereyağı ve peynir iyi gider. Beşikdüzü'ne yakın, öğle arası için ideal bir mola."
+    },
+    {
+     "name": "Beşikdüzü Şehit Üsteğmen Erdal Kurtoğlu Sahil Parkı",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Karadeniz'in en güzel sahil parklarından biri olarak anılıyor; uzun yürüyüş yolu, bisiklet parkuru ve kahve molası verecek küçük kafeleri var. Gün ışığında deniz manzarası fotoğraf için güzel."
+    },
+    {
+     "name": "100.Yıl Balık Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 1500,
+     "tips": "Ortahisar'da sahil kenarında, muhteşem konumuyla bilinen bir balık restoranı. Dönüş sonrası akşam yemeği için önceden telefonla yer ayırtman iyi olur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kalyera Balık Restoran",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1300,
+     "tips": "100. Yıl doluysa alternatif; geniş meze çeşitleri ve manzaralı konumuyla biliniyor. Şehir merkezinde kolay ulaşılabilir."
+    },
+    {
+     "name": "Sağrı Şelalesi",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Vakfıkebir'in saklı doğal güzelliklerinden biri; serin su sesi ve yeşillik eşliğinde kısa bir yürüyüş. Beşikdüzü sahiline alternatif olarak doğa ağırlıklı bir mola."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Uzungöl: Yayla Havası ve Göl Kenarı",
+   "stops": [
+    {
+     "name": "Rüştü'nün Fırını",
+     "category": "food",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 300,
+     "tips": "Yola çıkmadan önce hızlı bir kahvaltı molası; taze tereyağlı Trabzon ekmeği ve poğaçasıyla biliniyor. Uzungöl yolu uzun olduğundan aç çıkmamak önemli."
+    },
+    {
+     "name": "Uzungöl Grup Turu, Doğayı Keşfet & Çayın Tadına Bak",
+     "category": "nature",
+     "start": "09:30",
+     "end": "14:00",
+     "cost": 2100,
+     "tips": "Trabzon merkezden yaklaşık 94-100 km, özel araçla 1,5-2 saat; kışın servis sıklığı azaldığından rehberli tur en rahat seçenek. Göl kenarı yürüyüşü ve yayla çayı molasını kapsar, sıcak giyinmek şart.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Trabzon+Uzungol+Nature+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Ferah Restoran",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 900,
+     "tips": "Uzungöl'ün en bilinen mekanlarından; doğal malzemelerle hazırlanan tereyağlı alabalık ve mıhlama denenmeli. Göl manzaralı masaları erken saatte kapmak daha kolay."
+    },
+    {
+     "name": "Uzungöl Gölü İskele & Fotoğraf Molası",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Gölün ahşap iskelesinden çekilen kareler Uzungöl'ün en tanınan fotoğrafları arasında. Kış aylarında sisli atmosfer ayrı bir güzellik katıyor."
+    },
+    {
+     "name": "Muharrem Usta",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:15",
+     "cost": 400,
+     "tips": "1940'tan beri aynı adreste hizmet veren döner mekanı; Kemerkaya'da Maraş Caddesi'nde. Uzungöl dönüşü hafif ve hızlı bir akşam yemeği için ideal."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sofra Restoran",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 850,
+     "tips": "Uzungöl'ün tam kalbinde, mıhlama ve karalahana sarmasıyla tanınan bir mekan. Ferah Restoran doluysa iyi bir alternatif."
+    },
+    {
+     "name": "Uzungöl Tabiat Parkı",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Gölün çevresindeki resmi doğa parkı yürüyüş yolu; iskele kalabalıksa sakin bir alternatif rota sunar."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Sümela ve Hamsiköy: Vadinin Taşlaşmış Hafızası",
+   "stops": [
+    {
+     "name": "Sümela Manastırı",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 2350,
+     "tips": "Maçka'daki Altındere Vadisi'nde kayalıklara oyulmuş 4. yüzyıldan kalma manastır; kış saatleri 08:30-16:30, son giriş 15:30. Merdivenler dik ve bazı bölümler kaygan olabilir, sağlam ayakkabı şart.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Trabzon+Sumela+Monastery+Hamsikoy+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Sümela Manastırı Karşı Seyir Terası",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:20",
+     "cost": 0,
+     "tips": "Vadinin karşı yamacından manastırın kayaya yaslanmış halini görebileceğin en iyi nokta; fotoğraf için manastırın içinden daha etkileyici. Otopark çevresinden birkaç dakika yürüyüşle ulaşılıyor."
+    },
+    {
+     "name": "Osman Usta'nın Yeri",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 200,
+     "tips": "1972'den beri Hamsiköy'de caminin yanında hizmet veren, eski usul fırında pişmiş sütlacın adresi. Üzerine bol fındıkla gelir, sıcak servis edileni iste."
+    },
+    {
+     "name": "Altındere Vadisi Milli Parkı yürüyüşü",
+     "category": "nature",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Manastırın bulunduğu milli parkın vadi tabanındaki kısa yürüyüş yolu; çam ormanı ve dere sesi eşliğinde sakin bir kapanış. Kışın nemli olabilir, kaymaz taban önemli."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ahmet Usta Sütlaç",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 180,
+     "tips": "Hamsiköy girişinde sağda, Osman Usta'ya alternatif eski usul sütlaç dükkanı. Kuzine ocakta yavaş pişirilen sütlacı fırınlamadan servis ediyor."
+    },
+    {
+     "name": "Vazelon Manastırı",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Maçka'da, Sümela kadar bilinmeyen ama tarih severler için değerli bir manastır kalıntısı. Kışın yol koşulları değişkendir, gitmeden önce yol durumunu kontrol et."
+    }
+   ]
+  }
+ ]
+}

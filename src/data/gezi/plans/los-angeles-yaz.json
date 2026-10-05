@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "los-angeles-yaz",
+ "altSlug": "los-angeles-summer",
+ "citySlug": "los-angeles",
+ "destKey": "los-angeles",
+ "city": "Los Angeles",
+ "region": null,
+ "country": "ABD",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 450,
+  "attractions": 250,
+  "transport": 350,
+  "misc": 100
+ },
+ "notes": [
+  "LA araç şehridir: kiralık araç şart (otopark 20-40 USD). Metro B hattı Hollywood-Downtown arasında işe yarar. Sahil-şehir arası Uber 20-40 USD.",
+  "Yaz 28°C ve kuru; sabah sahilde sis (June gloom) olur. Plajlar Haziran-Eylül arası en sıcak (deniz 20°C), Universal kalabalık.",
+  "Getty ve Broad ücretsiz (rezervasyon); Griffith ücretsiz; Universal 109+ USD.",
+  "Taco 3-5 USD (Guisados, Leo's), In-N-Out 10 USD, restoran 30-50 USD; bahşiş %18-20, vergi %9,5 ve fiyata ekli değil.",
+  "Griffith'e DASH otobüsüyle çık (otopark dolar); gün batımından 1 saat önce git.",
+  "Sahil suyu soğuk (18-20°C), dalga ve akıntı var; cankurtaran bayrağına dikkat et."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Hollywood & Griffith",
+   "stops": [
+    {
+     "name": "Hollywood Walk of Fame",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "TCL Chinese Theatre'da el izleri ve yıldızlar; sabah kalabalık az."
+    },
+    {
+     "name": "Hollywood Sign Seyir Noktası Lake Hollywood Park",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Tabelayı en yakından ücretsiz görebileceğin nokta; fotoğraf çek."
+    },
+    {
+     "name": "Grand Central Market",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 18,
+     "tips": "1917'den beri açık pazar; Eggslut, Tacos Tumbras a Tomas, Sarita's pupusa."
+    },
+    {
+     "name": "The Broad",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Ücretsiz çağdaş sanat müzesi; Infinity Mirror odası için online rezervasyon."
+    },
+    {
+     "name": "Griffith Observatory",
+     "category": "nature",
+     "start": "17:30",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Ücretsiz gözlemevi; gün batımı ve şehir ışıkları. Otopark dolar, DASH otobüsüne bin."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Musso & Frank Grill",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 45,
+     "tips": "1919'dan beri Hollywood'un lokantası; martini iç."
+    },
+    {
+     "name": "Walt Disney Concert Hall",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Gehry'nin gümüş binası; bahçe turu ücretsiz."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Santa Monica & Venice",
+   "stops": [
+    {
+     "name": "Santa Monica Pier",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Route 66'nın sonu; Pacific Park dönme dolabı (~15 USD)."
+    },
+    {
+     "name": "Santa Monica Beach",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Yaz güneşi; şezlong yok, havlu ve krem götür. Deniz 20°C."
+    },
+    {
+     "name": "Venice Beach Boardwalk",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Muscle Beach, sokak sanatçıları ve kaykay parkı."
+    },
+    {
+     "name": "Gjusta Venice",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 22,
+     "tips": "Venice'in kült fırın-kafesi; smoked fish ve ekmek."
+    },
+    {
+     "name": "Venice Canals",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "1905'ten kalma kanallar ve köprüler; sakin yürüyüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Abbot Kinney Boulevard",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Butikler ve kahve; kanal yerine alternatif."
+    },
+    {
+     "name": "The Butcher's Daughter Venice",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 20,
+     "tips": "Vejetaryen kafe."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Getty & Beverly Hills",
+   "stops": [
+    {
+     "name": "Getty Center",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Ücretsiz müze (otopark 20 USD, rezervasyon gerekli); Van Gogh'un Süsenler'i, bahçeler ve şehir manzarası. Tramvayla çık."
+    },
+    {
+     "name": "Getty Center Garden Terrace Cafe",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 18,
+     "tips": "Müze kafesi; bahçe manzarası."
+    },
+    {
+     "name": "Rodeo Drive",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Beverly Hills lüks caddesi; vitrin turu."
+    },
+    {
+     "name": "Beverly Gardens Park",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "Beverly Hills tabelası ve kaktüs bahçesi."
+    },
+    {
+     "name": "In-N-Out Burger Sunset",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 10,
+     "tips": "Kaliforniya klasiği; Double-Double animal style, gizli menü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nate 'n Al's Beverly Hills",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "1945 deli; pastrami."
+    },
+    {
+     "name": "Los Angeles County Museum of Art",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 28,
+     "tips": "Urban Light lambaları; Getty yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Downtown & Koreatown",
+   "stops": [
+    {
+     "name": "Bradbury Building",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Blade Runner'ın demir atriumu; lobi ücretsiz."
+    },
+    {
+     "name": "Angels Flight Railway",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:20",
+     "cost": 1,
+     "tips": "Dünyanın en kısa demiryolu; Bunker Hill."
+    },
+    {
+     "name": "Little Tokyo",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Japon köyü plazası ve Japanese American National Museum."
+    },
+    {
+     "name": "Sushi Gen Little Tokyo",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 30,
+     "tips": "Sashimi öğle seti; 11:15'te kuyruk oluşur."
+    },
+    {
+     "name": "Koreatown BBQ Kang Ho-dong Baekjeong",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 40,
+     "tips": "K-town'da Kore BBQ; 24 saat açık şubeler var."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Arts District",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Duvar resimleri ve bira fabrikaları; Little Tokyo yanında."
+    },
+    {
+     "name": "Langer's Delicatessen",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 25,
+     "tips": "1947'den beri pastrami #19 sandviç; MacArthur Park."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Malibu",
+   "stops": [
+    {
+     "name": "Malibu Pier",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "PCH boyunca 45 dakika; iskele ve Malibu Farm'da kahvaltı."
+    },
+    {
+     "name": "El Matador State Beach",
+     "category": "nature",
+     "start": "10:45",
+     "end": "13:00",
+     "cost": 8,
+     "tips": "Yaz sabahı sis (June gloom), sonra güneş; öğlen kalabalık."
+    },
+    {
+     "name": "Malibu Seafood",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Yol kenarı balık tezgahı; fish and chips, PCH manzaralı masalar."
+    },
+    {
+     "name": "Point Dume",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Burun üstünde yürüyüş; balina mevsimi (Aralık-Nisan) ve foklar."
+    },
+    {
+     "name": "Getty Villa",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Ücretsiz antik sanat müzesi; sıcakta kapalı mekân."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Neptune's Net",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Motorcu klasiği deniz ürünleri; PCH üzerinde."
+    },
+    {
+     "name": "Zuma Beach",
+     "category": "nature",
+     "start": "10:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Geniş kumsal; El Matador yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Universal Studios Hollywood",
+   "stops": [
+    {
+     "name": "Universal Studios Hollywood",
+     "category": "culture",
+     "start": "09:00",
+     "end": "17:00",
+     "cost": 109,
+     "tips": "Studio Tour (Jaws, Psycho) ve Super Nintendo World; 1 günlük bilet ~109 USD, online al. Kalabalıkta Express al."
+    },
+    {
+     "name": "Universal CityWalk",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 25,
+     "tips": "Park çıkışında restoranlar; Voodoo Doughnut."
+    },
+    {
+     "name": "Warner Bros. Studio Tour Seyir",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Burbank stüdyo kapısı; ertesi gün tur ayrı (~70 USD)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Warner Bros. Studio Tour",
+     "category": "culture",
+     "start": "09:00",
+     "end": "13:00",
+     "cost": 70,
+     "tips": "Gerçek çalışan stüdyo turu; Universal yerine sakin seçenek."
+    },
+    {
+     "name": "Pink's Hot Dogs",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 8,
+     "tips": "1939'dan beri hot dog tezgahı; La Brea."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Silver Lake — hafif veda",
+   "stops": [
+    {
+     "name": "Silver Lake Reservoir Yürüyüşü",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Rezervuar çevresinde 3,5 km yürüyüş; mahalle köpekleri."
+    },
+    {
+     "name": "Micheltorena Stairs",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Kalpli merdivenler; Silver Lake fotoğrafı çek."
+    },
+    {
+     "name": "Intelligentsia Coffee Silver Lake",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 8,
+     "tips": "LA'nin üçüncü dalga kahvesi; avlu."
+    },
+    {
+     "name": "Guisados Echo Park",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 12,
+     "tips": "Yahnili taco; sampler tabağı, veda yemeği."
+    },
+    {
+     "name": "LAX FlyAway Union Station",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Union Station'dan LAX otobüsü 45 dakika sürer; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pine & Crane Silver Lake",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 18,
+     "tips": "Tayvan mutfağı; taco yerine."
+    },
+    {
+     "name": "Echo Park Lake",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Lotus havuzu ve pedallı kayık; rezervuar yerine."
+    }
+   ]
+  }
+ ]
+}

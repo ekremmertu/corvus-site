@@ -1,0 +1,493 @@
+{
+ "lang": "tr",
+ "slug": "venedik-yaz",
+ "altSlug": "venice-summer",
+ "citySlug": "venedik",
+ "destKey": "venice",
+ "city": "Venedik",
+ "region": null,
+ "country": "İtalya",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 380,
+  "attractions": 220,
+  "transport": 70,
+  "misc": 90
+ },
+ "notes": [
+  "Vaporetto tek 9,50 EUR, 72 saat 45 EUR; Venedik yürünür (kaybolmak normal). Marco Polo'dan Alilaguna tekne veya otobüs.",
+  "Günübirlik ziyaretçi ücreti: Nisan-Temmuz belirli günlerde 5-10 EUR (otelde kalan muaf); San Marco ve Doç Sarayı online saatli.",
+  "Yaz 30°C ve nem, kalabalık; sabah 07:30 San Marco, öğleden sonra adalar; Ağustos'ta sivrisinek.",
+  "Cicchetti 1,5-3 EUR + ombra 2 EUR bacaroda ayakta; oturmalı yemek 25-40, San Marco'da kafe 10+ EUR.",
+  "Coperto 3-5 EUR; gondol resmi tarife 90 EUR/30 dakika, paylaşılabilir (6 kişi).",
+  "Köprü ve kalabalıkta yankesici; valiz tekerleği taş sokaklarda çile, az bagaj."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "San Marco",
+   "stops": [
+    {
+     "name": "Piazza San Marco",
+     "category": "landmark",
+     "start": "07:30",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "Güvercinler ve boş meydan; 07:30'da fotoğraf, 10:00 sonrası izdiham."
+    },
+    {
+     "name": "Basilica di San Marco",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 12,
+     "tips": "Altın mozaikler; online saatli bilet (12 EUR), Pala d'Oro ekstra, omuz-diz kapalı."
+    },
+    {
+     "name": "Palazzo Ducale",
+     "category": "culture",
+     "start": "10:15",
+     "end": "12:15",
+     "cost": 35,
+     "tips": "Doç Sarayı ve İç Çekişler Köprüsü; online, Gizli Yollar turu opsiyon."
+    },
+    {
+     "name": "Campanile di San Marco",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 12,
+     "tips": "Asansörle çan kulesi; lagün manzarası."
+    },
+    {
+     "name": "Rosticceria Gislon",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "San Marco arkasında ayakta tezgah; mozzarella in carrozza ve arancini, ucuz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Caffè Florian",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "1720'den beri meydan kafesi; orkestra ekstra."
+    },
+    {
+     "name": "Museo Correr",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Doç Sarayı biletiyle; meydan üstü müze."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Rialto & Cannaregio",
+   "stops": [
+    {
+     "name": "Rialto Balık Pazarı",
+     "category": "food",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 5,
+     "tips": "Sabah pazarı; deniz ürünleri ve sebze, pazartesi kapalı."
+    },
+    {
+     "name": "Ponte di Rialto",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Kanal Grande'nin köprüsü; sabah boş."
+    },
+    {
+     "name": "Cantina Do Mori",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 8,
+     "tips": "1462'den beri bacaro; cicchetti ve ombra (küçük şarap), ayakta."
+    },
+    {
+     "name": "Cannaregio Getto",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Dünyanın ilk gettosu; yüksek evler ve sinagoglar."
+    },
+    {
+     "name": "Fondamenta della Misericordia",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 15,
+     "tips": "Cannaregio kanal kenarı bacaro sırası; Vino Vero ve Al Timon, akşam."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Al Timon Cannaregio",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 20,
+     "tips": "Tekne üstü masalar; cicchetti."
+    },
+    {
+     "name": "Ca' d'Oro",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 8,
+     "tips": "Kanal Grande gotik sarayı; Getto yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Dorsoduro",
+   "stops": [
+    {
+     "name": "Gallerie dell'Accademia",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 15,
+     "tips": "Venedik resmi: Bellini, Tiziano, Veronese; online."
+    },
+    {
+     "name": "Peggy Guggenheim Collection",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 16,
+     "tips": "Kanal üstü modern sanat; bahçe."
+    },
+    {
+     "name": "Punta della Dogana",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Kanalın ucu; Salute kilisesi ve San Marco karşıdan."
+    },
+    {
+     "name": "Cantine del Vino già Schiavi",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "Efsane cicchetti barı; kanal kenarında ayakta, 14:30 kapanır."
+    },
+    {
+     "name": "Zattere Sahili",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Giudecca kanalı boyunca yürüyüş; Gelateria Nico'da gianduiotto."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Osteria al Squero",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "Gondol tersanesi karşısında cicchetti."
+    },
+    {
+     "name": "Squero di San Trovaso",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Gondol yapım tersanesi; dıştan."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Murano & Burano",
+   "stops": [
+    {
+     "name": "Murano Cam Atölyesi",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Vaporetto 4.1/4.2 (günlük pas 25 EUR); cam üfleme gösterisi, Murano Cam Müzesi 10 EUR."
+    },
+    {
+     "name": "Museo del Vetro Murano",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 10,
+     "tips": "Cam müzesi."
+    },
+    {
+     "name": "Burano Renkli Evler",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Vaporetto 12 ile 40 dakika; rengârenk balıkçı evleri, eğik çan kulesi."
+    },
+    {
+     "name": "Trattoria al Gatto Nero Burano",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 40,
+     "tips": "Burano'nun ünlü risotto di gò'su; rezervasyon."
+    },
+    {
+     "name": "Mazzorbo Venissa Bağı",
+     "category": "nature",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Burano'ya köprüyle bağlı ada; duvarlı bağ ve sakin yürüyüş, vaporetto dönüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Burano Bussolà Kurabiyeci",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 5,
+     "tips": "Bussolà kurabiyesi; Gatto Nero yerine."
+    },
+    {
+     "name": "Torcello Santa Maria Assunta",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 6,
+     "tips": "Bizans mozaikli katedral; Mazzorbo yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Castello & Giardini",
+   "stops": [
+    {
+     "name": "Arsenale di Venezia",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Tersane kapısı ve aslanlar; Bienal yıllarında sergi (Mayıs-Kasım)."
+    },
+    {
+     "name": "Via Garibaldi",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 6,
+     "tips": "Yerel Castello caddesi; kahvaltı ve pazar."
+    },
+    {
+     "name": "Giardini della Biennale",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Bienal bahçeleri; sergi yoksa park."
+    },
+    {
+     "name": "San Pietro di Castello",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Venedik'in eski katedrali; sakin ada."
+    },
+    {
+     "name": "Trattoria alla Rampa del Piave",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Via Garibaldi'de esnaf trattoria; deniz ürünlü makarna."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Refolo Via Garibaldi",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 10,
+     "tips": "Cicchetti ve şarap."
+    },
+    {
+     "name": "Scuola di San Giorgio degli Schiavoni",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 6,
+     "tips": "Carpaccio'nun döngüsü; San Pietro yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "San Giorgio & Giudecca",
+   "stops": [
+    {
+     "name": "San Giorgio Maggiore",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 8,
+     "tips": "Vaporetto 2 ile ada; Palladio kilisesi, çan kulesinden San Marco'ya bakış (en iyi manzara)."
+    },
+    {
+     "name": "Giudecca Yürüyüşü",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Zattere karşısı sakin ada; Redentore kilisesi."
+    },
+    {
+     "name": "Trattoria Altanella Giudecca",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "1920'den beri kanal kenarı; balık."
+    },
+    {
+     "name": "Gondol Turu",
+     "category": "nature",
+     "start": "16:00",
+     "end": "16:30",
+     "cost": 90,
+     "tips": "30 dakika resmi tarife 90 EUR (gece 110); Bacino Orseolo'dan."
+    },
+    {
+     "name": "Vaporetto 1 Kanal Grande Gün Batımı",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Piazzale Roma'dan San Marco'ya 1 numara; ön koltuk, saray cepheleri."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Harry's Dolci Giudecca",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 40,
+     "tips": "Cipriani'nin Giudecca pastane-restoranı; Altanella yerine."
+    },
+    {
+     "name": "Fondazione Cini",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 14,
+     "tips": "San Giorgio'da manastır turu; Giudecca yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Santa Croce — hafif veda",
+   "stops": [
+    {
+     "name": "Scuola Grande di San Rocco",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 10,
+     "tips": "Tintoretto'nun 60 tablosu; aynayla tavan."
+    },
+    {
+     "name": "Frari Bazilikası",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 5,
+     "tips": "Tiziano'nun Assunta'sı; gotik."
+    },
+    {
+     "name": "Pasticceria Tonolo",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 4,
+     "tips": "Venedik'in en iyi pastanesi; krema ve frittelle (karnaval)."
+    },
+    {
+     "name": "Campo Santa Margherita",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Öğrenci meydanı; son spritz."
+    },
+    {
+     "name": "Piazzale Roma / Vaporetto Alilaguna",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Marco Polo'ya Alilaguna 1 saat veya otobüs 20 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Osteria Bancogiro",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 25,
+     "tips": "Rialto'da kanal kenarı öğle."
+    },
+    {
+     "name": "Ca' Pesaro",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 10,
+     "tips": "Modern sanat sarayı; San Rocco yerine."
+    }
+   ]
+  }
+ ]
+}

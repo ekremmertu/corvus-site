@@ -1,0 +1,506 @@
+{
+ "lang": "tr",
+ "slug": "fethiye-yaz",
+ "altSlug": "fethiye-summer",
+ "citySlug": "fethiye",
+ "destKey": "fethiye",
+ "city": "Fethiye",
+ "region": "Muğla",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 10700,
+  "attractions": 10820,
+  "transport": 600,
+  "misc": 300
+ },
+ "notes": [
+  "Fethiye dolmuşlarında nakit geçmiyor: MuğlaKart ya da temassız banka/kredi kartı şart. Kartını cebinde hazır tut, şoför bozukluk almaz.",
+  "Yaz aylarında 12:00-15:00 arası güneş çok sert; plan bu saatleri denizde ya da gölgede geçirecek şekilde kuruldu. Şapka, 50 faktör krem ve 1,5 litre su her gün çantada olsun.",
+  "Restoranlarda bahşiş %5-10; balık pazarında balığı kilo fiyatıyla alıp 'pişirme ücreti' ödediğini unutma, hesabı sorarken iki kalemi ayrı sor.",
+  "Ölüdeniz ve Kayaköy'de sahil dışı köy yolları ıssız; trekking'de kapalı ayakkabı giy, telefonun çekmediği yerler var, konumunu paylaş.",
+  "Tekne ve yamaç paraşütü fiyatları sezon ortasında gün içinde bile değişebiliyor; otel resepsiyonundan değil doğrudan tur sitesi/ofisinden rezervasyon yaptır, otel komisyonu %20-30 ekliyor.",
+  "Küçük esnaf lokantalarında ve pazarda nakit hâlâ kral; 500-1.000 TL bozuk para taşı. Kart geçen yerde 'komisyon' isteyene 'hayır' demek normal.",
+  "Kayaköy ören yerinde ve Kelebekler Vadisi tepesinde koruma bariyeri yok; uçurum kenarında fotoğraf için geri geri yürüme, her yıl kaza oluyor."
+ ],
+ "niche": {
+  "name": "Pastoral Vadi Ekolojik Yaşam Çiftliği",
+  "level": "l3",
+  "why_hidden": "Fethiye'nin 15 km kuzeyinde, Yanıklar köyünde Kargı Çayı kıyısında 42 hektarlık organik çiftlik: taş, ahşap ve kerpiç evler, kendi bostanı, ekmek fırını ve yoga/retreat salonları. Turist akışı Ölüdeniz-Kayaköy hattında kaldığından, 'çiftlikte köy sofrası' deneyimi çoğunlukla İstanbul'dan gelen ekolojik yaşam topluluğu ve yerliler tarafından biliniyor; tur otobüsü buraya girmiyor.",
+  "access_instructions": "Fethiye-Göcek karayolunda Yanıklar sapağından 3 km içeri, Katrancı Koyu'na 10 dk. Konaklama dışı günübirlik ziyaret ve yemek için en az 1 gün önce telefonla ara ve 'öğle yemeği + bahçe turu' istediğini söyle; yaz döneminde kamp/retreat grupları olduğunda kapasite sınırlanıyor. Kendi aracın yoksa Göcek dolmuşundan Yanıklar'da inip yürüyerek 30 dk ya da Fethiye'den taksi.",
+  "local_contact": "+90 252 633 66 27 (Pastoral Vadi rezervasyon) · pastoralvadi.com",
+  "season": "Yılın 12 ayı açık; yazın (Haziran-Eylül) bostan en dolu, sebze-meyve çeşidi ve çay kıyısı serinliği için ideal. Mayıs ve Ekim daha sakin.",
+  "insider_tip": "Yemeği çayın kıyısındaki kerpiç yemekhanenin gölgesinde iste; öğleden sonra taş fırından çıkan ekşi mayalı köy ekmeğini ve kendi zeytinyağlarını satın al, vakumsuz olduğundan yolda bozulmaz. Yoga/retreat programı olan günlerde sabah seansına dışarıdan katılıp katılamayacağını sor.",
+  "show_reason": "Deniz-plaj döngüsünden çıkıp Fethiye'nin ova tarafını ve tarım hafızasını gösteren tek erişilebilir nokta; ücretli ama restoran fiyatında, fotojenik (kerpiç evler, çay, bostan) ve hidden_gems + local_food hedeflerinin ikisini birden karşılıyor.",
+  "lat": 36.7567,
+  "lng": 29.0603,
+  "address": "Yanıklar Köyü, Kargı Çayı kenarı, Fethiye, Muğla",
+  "cost_range_min": 900,
+  "cost_range_max": 1500,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "MuğlaKart (Muttaş Kent Kart)",
+  "why_chosen": "Muğla genelinde dolmuş ve belediye otobüslerinde nakit kaldırıldı; Fethiye-Ölüdeniz, Fethiye-Kayaköy, Fethiye-Çalış, Fethiye-Göcek (Katrancı/Yanıklar) ve Ölüdeniz-Faralya/Kabak hatlarının hepsinde bu kart okutuluyor. Plandaki bütün gün içi ulaşımlar bu dolmuşlarla yapılıyor. Kart, tam ücretli temassız banka kartından biraz daha ucuz. Temassız kredi/banka kartı da geçiyor; yabancı kartın çalışmadığı durumlarda MuğlaKart tek güvenli yol.",
+  "coverage": "Fethiye, Ölüdeniz, Kayaköy, Çalış, Göcek, Faralya-Kabak dolmuşları ve Muğla Büyükşehir otobüsleri",
+  "where_to_buy": "Fethiye Otogarı (Taşyaka) Muttaş gişesi, merkezdeki Kent Kart bayisi büfeler, Ölüdeniz dolmuş durağı yanı büfeler; 'Muğla Kart' mobil uygulamasıyla dolum",
+  "cost": 400,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Ölüdeniz imzası: Babadağ'dan uçuş, lagün ve yerlilerin koyu Kıdrak",
+   "stops": [
+    {
+     "name": "Babadağ Tandem Yamaç Paraşütü (Ölüdeniz)",
+     "category": "nature",
+     "start": "08:30",
+     "end": "11:00",
+     "cost": 6000,
+     "tips": "Sabah ilk uçuşları al: hava daha durgun, ışık lagünü turkuaz gösteriyor, kuyruk yok. 1.700 m'den kalkış, 30-40 dk havada, Belcekız'a iniş; video/fotoğraf paketi ayrı ücret (1.000-1.500 TL), pilota önceden sor. Kahvaltıyı hafif tut, kapalı ayakkabı giy.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Babadag+Tandem+Paragliding+Oludeniz",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Ölüdeniz Kumburnu Plajı (Ölüdeniz Tabiat Parkı)",
+     "category": "nature",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 120,
+     "tips": "Lagünün kartpostal tarafı; tabiat parkı girişinde kişi başı ücret ödenir, şezlong ayrı. Kumburnu'nun en ucundaki dil kısmına yürü: sığ, camgöbeği su ve kalabalıktan uzak. Fotoğraf için lagün tarafına değil, açık deniz ile lagünün birleştiği kum diline çık."
+    },
+    {
+     "name": "Kumsal Pide (Ölüdeniz)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 700,
+     "tips": "Belcekız'da sahilin arka sokağında, 30 yıldır aynı ailenin işlettiği pideci; plaj restoranlarının yarı fiyatına doyuruyor. Kuşbaşılı kaşarlı ya da kıymalı yumurtalı pide + ayran iste, yanında acılı ezme bedava geliyor. Kalabalıksa paket yaptırıp Kıdrak'a götür."
+    },
+    {
+     "name": "Kıdrak Plajı",
+     "category": "nature",
+     "start": "15:00",
+     "end": "18:30",
+     "cost": 100,
+     "tips": "Ölüdeniz'in 3 km güneyinde, çam gölgeli tabiat parkı; Fethiyeliler kalabalık lagün yerine buraya gelir. Faralya dolmuşuyla 5 dk, kişi başı giriş + isteğe bağlı şezlong. Deniz derinleşiyor, çakıl-kum karışık; öğleden sonra dağ gölgesi plajın üstüne düşünce serinliyor, gün batımı için kalmaya değer."
+    },
+    {
+     "name": "Oba Restaurant (Oba Beach Hotel, Ölüdeniz)",
+     "category": "food",
+     "start": "19:15",
+     "end": "20:45",
+     "cost": 900,
+     "tips": "Belcekız kumsalının arka sırasında, aynı ailenin yıllardır çevirdiği bahçeli restoran; sahil şeridindeki 'menü fotoğraflı' yerlerden çok daha uygun. Güveçte kuzu tandır ya da köy usulü tavuk şiş sipariş et; ev yapımı sütlacı kaçırma. Sonrasında Belcekız kumsalında gece yürüyüşü yap, kalabalık 21:00'den sonra çekiliyor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Angora Restaurant Ölüdeniz",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 800,
+     "tips": "Belcekız'da geniş bahçeli, Türk mutfağı ağırlıklı aile restoranı. Öğlen mezeli ızgara köfte ya da kiremitte tavuk iste; serpme kahvaltıyı 12:00'ye kadar veriyorlar. Nakit ödemede daha iyi fiyat çıkıyor."
+    },
+    {
+     "name": "Belcekız Plajı (Ölüdeniz)",
+     "category": "nature",
+     "start": "15:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Ölüdeniz'in halka açık, ücretsiz ana kumsalı; paraşütçülerin indiği yer. Kumsalın sol ucundaki kayalık taraf daha sakin ve deniz daha berrak. Şezlong kiralamak istemezsen havlunu ser. Akşamüstü gökyüzü paraşütle doluyor, fotoğraf için ideal."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Fethiye merkez: Likya mezarları, Paspatur ve balık pazarı ritüeli",
+   "stops": [
+    {
+     "name": "Amintas Kaya Mezarları",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 200,
+     "tips": "Fethiye'nin simgesi, M.Ö. 4. yüzyıl Likya tapınak mezarı; sabah 09:00'da açılınca git, taş merdiven öğlen fırın oluyor. Giriş gişeden ya da Müzekart ile, ücret kişi başı. Mezarın önündeki sekiden tüm körfez ve Şövalye Adası görünüyor; en iyi fotoğraf açısı merdivenin ortasındaki sahanlıktan yukarı doğru."
+    },
+    {
+     "name": "Paspatur Çarşısı",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Fethiye'nin eski Rum çarşısı; sabah saatlerinde turist yok, dükkân sahipleri çay içiyor. Eski Cami çevresindeki ara sokaklarda el yapımı deri sandalet ve baharatçılar var, hediyelik 'Fethiye lokumu' yerine sığla yağı ya da çam balı al. Kahve molası için avlulu Osmanlı evlerinden birine gir, 150-200 TL."
+    },
+    {
+     "name": "Hilmi Restaurant (Fethiye Balık Pazarı)",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:15",
+     "cost": 1200,
+     "tips": "Fethiye ritüeli: ortadaki tezgâhtan balığını kiloyla seç (çupra/levrek ya da mevsim balığı), Hilmi'ye ver, pişirme ücreti + salata + ekmekle önüne gelsin. Tezgâhta pazarlık normal, 'ikimize 1 kilo' diye sor. Öğlen akşamdan daha sakin ve aynı balık daha ucuz; karidesi de aynı yöntemle pişirtebilirsin."
+    },
+    {
+     "name": "Telmessos Antik Tiyatrosu",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Limanın hemen karşısında, restore edilmiş Helenistik tiyatro; ücretsiz ve çoğu turist yanından geçip fark etmiyor. Üst sıralardan marinaya bakan açı iyi bir fotoğraf karesi. Kısa tut, gölge yok; yanındaki park ağaçlarının altında dinlen."
+    },
+    {
+     "name": "Boncuklu Koyu (Karagözler Halk Plajı)",
+     "category": "nature",
+     "start": "15:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Şehrin içinde yerlilerin girdiği ücretsiz koy; Karagözler yarımadasında, merkezden dolmuşla 10 dk. Duş ve kabin var, şezlong yok, havlu getir. Şövalye Adası tam karşında; akşamüstü gün ışığı tersanenin arkasından yumuşayınca fotoğraf için en iyi an."
+    },
+    {
+     "name": "Taşköprü Adana Kebap Fethiye",
+     "category": "food",
+     "start": "19:15",
+     "end": "20:45",
+     "cost": 900,
+     "tips": "Adnan Menderes Bulvarı'nda, Muğla makası mevkiinde; Fethiyelilerin turist fiyatından kaçmak için gittiği kebapçı, Ekşi Sözlük'te bile 'buraya git' deniyor. Taşköprü Adana + ince lahmacun + şalgam sipariş et; porsiyonlar Adana standardı, ikiye bir buçuk porsiyon yeter. Merkezden dolmuşla 10 dk, nakit tercih ediliyor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Meğri Lokantası (Paspatur)",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 800,
+     "tips": "Paspatur'un kenarındaki tarihi esnaf lokantası; tezgâhtan (benmari) seçmeli. Günün zeytinyağlısı + etli kuru fasulye + pilav klasik kombinasyon. 13:00 sonrası kalabalık, erken git."
+    },
+    {
+     "name": "Fethiye Salı Pazarı",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Her Salı stadyum yanında kurulan bölgenin en büyük pazarı; köy peyniri, sığla balı, taze incir ve kilim tezgâhları. Pazarlık şart, sabah 10:00-11:00 arası en taze mal. Salı dışında Cuma Köy Pazarı aynı işi görür."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Körfezde bir gün: 12 Adalar teknesi ve Çalış gün batımı",
+   "stops": [
+    {
+     "name": "Uğur Mumcu Parkı (Fethiye Kordon)",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 0,
+     "tips": "Tekneye binmeden önce liman boyu sabah yürüyüşü; simitçi ve çaycılar buradan çalışıyor, 150-200 TL'ye simit-çay-peynir kahvaltısı. Tekne iskeleleri parkın hemen bitişiğinde, 09:15'te iskelede ol. Sabah ışığında marina ve kaya mezarları aynı kareye giriyor."
+    },
+    {
+     "name": "12 Adalar Tekne Turu (Fethiye Limanı)",
+     "category": "nature",
+     "start": "09:30",
+     "end": "17:00",
+     "cost": 2050,
+     "tips": "Fethiye'nin klasik tekne günü: Kızılada, Yassıca Adaları, Tersane Adası, Akvaryum Koyu ve Göcek Adası duraklarında yüzme molası, öğle yemeği dahil. En fazla 40 kişilik küçük tekne seç, büyükler gürültülü. İçecekler ayrı ücretli, deniz ayakkabısı ve şnorkel getir; Yassıca'da sığ lagünlü ada arası fotoğraf noktası.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Fethiye+12+Islands+Boat+Trip",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Çalış Plajı",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Limandan Çalış dolmuşuyla 15 dk; 4 km'lik çakıllı halk plajı, ücretsiz. Türkiye'nin en iyi gün batımlarından biri: güneş Şövalye Adası'nın arkasına iniyor, kordonun kuzey ucu (kanal tarafı) daha sakin. Suya son bir kez gir, sonra kordonda yürü."
+    },
+    {
+     "name": "Çalış Balıkçısı",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1500,
+     "tips": "Çalış sahilinde teras balıkçı; balık pazarına göre daha az turist, meze tabakları ev yapımı. Günün balığını tezgâhtan seçtir, yanına deniz börülcesi ve fava; iki kişiye 1 balık + 4 meze yeter. Gün batımı masası için 18:30'da telefonla yer ayırt, teras küçük."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Oben Restaurant Çalış",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1300,
+     "tips": "Çalış kordonunda gün batımına bakan aile restoranı; karides güveç ve kalamar tava öne çıkıyor. Deniz kenarı masalar 19:00'da doluyor, rezervasyon yaptır. Hesabı nakit ödeyince küçük ikram geliyor."
+    },
+    {
+     "name": "Şövalye Adası",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:30",
+     "cost": 200,
+     "tips": "Çalış kanalından kalkan küçük teknelerle 10 dk; körfezin ortasındaki yerleşimli küçük ada. Ada çevresinde kaya-tahta iskelelerden denize girilir, gün batımı adadan Fethiye'ye bakarak izlenir. Son tekne saatini kaptana mutlaka sor."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Kayaköy: hayalet köy, Soğuksu patikası ve Gemiler'in Bizans adası",
+   "stops": [
+    {
+     "name": "Kayaköy Örenyeri (Levissi)",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 250,
+     "tips": "1923 mübadelesiyle boşalan Rum köyü; 400'e yakın taş ev ve iki kilise. Gişe 09:00'da açılıyor, Müzekart geçerli. Aşağı Kilise'nin (Panayia Pirgiotissa) mozaik zeminini gez. Köyün tamamının göründüğü kare için yamaçtan Yukarı Kilise'ye tırman; gölge yok, su al."
+    },
+    {
+     "name": "Soğuksu Koyu (Cold Water Bay)",
+     "category": "nature",
+     "start": "10:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Kayaköy'ün batı ucundan Likya Yolu işaretli patikayla 40 dk iniş; araç yolu yok, o yüzden yerliden başka kimse bilmiyor. Koyda dipten soğuk tatlı su kaynıyor, deniz berrak ve buz gibi. Tekneler öğlen 13:00'ten sonra uğruyor; ondan önce koy sana kalıyor. Dönüşte çıkış 50 dk, sıcakta yavaş git."
+    },
+    {
+     "name": "Cin Bal Kebap Salonu",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:30",
+     "cost": 1000,
+     "tips": "Kayaköy'ün efsane 'kendin pişir' mangalcısı: eti tezgâhtan kiloyla seç (kuzu pirzola/kaburga), masana mangal gelir. İki kişiye 800 gr et + közleme + ayran yeter. Bağ evinin çardağı öğlen serin; hafta sonu öğlen Fethiyeli ailelerle dolar, hafta içi rahat."
+    },
+    {
+     "name": "Gemiler Adası (Aya Nikola Adası)",
+     "category": "culture",
+     "start": "16:00",
+     "end": "18:30",
+     "cost": 350,
+     "tips": "Kayaköy'den 7 km çam ormanı yoluyla Gemiler Plajı'na in; plaj girişi ücretli, plajdan küçük teknelerle 10 dk'da adaya geç. Adada 4 Bizans kilisesi ve deniz seviyesinde mozaik kalıntıları; tepedeki kilise kalıntısından gün batımı öncesi ışıkta plaj-ada karesi. Ada girişi ayrıca ücretli, Müzekart geçerli."
+    },
+    {
+     "name": "Lebessos Wine House & Restaurant (Kayaköy)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "Hayalet köyün eteğinde, taş evde şarap evi; kendi bağlarından şarap ve taş fırın yemekleri. Kuzu tandır ya da fırında keçi peynirli sebze + yerel kırmızı şarap iste. Gece köyün silüeti aydınlatılıyor, bahçe masası iste; dönüş için dolmuş 22:00'de kesiliyor, taksiyi önceden ayarla."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Izela Restaurant Kayaköy",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1300,
+     "tips": "Ören yerinin tam karşısında bahçeli restoran; mezeler ve kiremitte köfte iyi. Akşamları canlı Türk müziği oluyor, bahçe masası için 18:00'de ara. Çay ücretli, önceden bil."
+    },
+    {
+     "name": "Af Kule Manastırı",
+     "category": "culture",
+     "start": "16:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Kayaköy'den işaretli patikayla 1 saat; uçurumun içine oyulmuş Bizans manastırı, denize 300 m dik bakıyor. Bariyer yok, rüzgârlı günde gitme. Yolda gölge az, 1,5 litre su ve şapka şart."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Kuzey Fethiye: Katrancı çamları, Yanıklar'ın ekolojik çiftliği ve sığla gölgesi",
+   "stops": [
+    {
+     "name": "Katrancı Koyu Tabiat Parkı",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "Fethiye-Göcek yolunda 17. km, Göcek dolmuşu kapıda bırakır. Fethiyelilerin piknik ve deniz koyu; çam ormanı denize kadar iniyor, sabah 10:00'a kadar neredeyse boş. Kişi başı giriş ücreti var, şezlonga gerek yok, ağaç altına havlu ser; sağ taraftaki küçük ikinci koy daha sakin."
+    },
+    {
+     "name": "Pastoral Vadi Ekolojik Yaşam Çiftliği",
+     "category": "culture",
+     "start": "12:30",
+     "end": "15:30",
+     "cost": 1000,
+     "tips": "Yanıklar köyünde, Kargı Çayı kıyısında 42 hektarlık organik çiftlik; kendi bostanından çıkan malzemeyle sofra kuruyorlar. Günübirlik yemek için mutlaka önceden ara: bahçe turu + öğle yemeği paketi. Öğle sıcağını çayın kıyısındaki kerpiç evin serinliğinde geçir, gitmeden ekmek fırınından köy ekmeği al."
+    },
+    {
+     "name": "Günlüklü Koyu",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:30",
+     "cost": 250,
+     "tips": "Dünyada nadir sığla (günlük) ağaçlarının denize kadar indiği koy; gölgesi öğleden sonra bile serin, deniz dalgasız. Küçük Kargı Tabiat Parkı içinde, araç ya da kişi başı giriş ücreti alınıyor. Ağaçların altındaki piknik masaları ücretsiz; ücretli şezlonglu kısma girmene gerek yok."
+    },
+    {
+     "name": "Nefis Pide Salonu (Eski Cami yanı, Fethiye)",
+     "category": "food",
+     "start": "19:15",
+     "end": "20:30",
+     "cost": 700,
+     "tips": "1982'den beri Fethiye'nin pide kurumu; ince, kenarsız pide. Kaşarlı sucuklu ya da kavurmalı iste, iki kişiye üç pide bol gelir. Paspatur'un dibinde, akşam 20:00'de sıra oluyor, 19:00'da git. Nakit hızlandırıyor."
+    },
+    {
+     "name": "Deep Blue Bar (Paspatur, Fethiye)",
+     "category": "landmark",
+     "start": "20:45",
+     "end": "22:00",
+     "cost": 300,
+     "tips": "Paspatur barlar sokağının en eski barı; yaz akşamları canlı akustik/rock, kalabalık yerli. Bira 250-350 TL, kokteyl 400+. İç mekân gürültülü, sokak masası iste; canlı müzik 21:30'da başlar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yengeç Restaurant (Karagözler)",
+     "category": "food",
+     "start": "19:15",
+     "end": "21:00",
+     "cost": 1600,
+     "tips": "Karagözler sahil yolunda, denizin üstünde deniz ürünleri restoranı. Karides güveç ve ahtapot ızgara; gün batımı masası için mutlaka rezervasyon. Mezeleri tabakla değil tepsiyle getirirler, seçici ol."
+    },
+    {
+     "name": "Yanıklar Plajı",
+     "category": "nature",
+     "start": "16:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Yanıklar köyünün ücretsiz, kilometrelerce uzanan çakıl-kum plajı; tesis yok, o yüzden kimse yok. Akgöl'ün denize açıldığı taraf caretta yuvalama alanı, gece ışık yakma. Gölge için şemsiye getir."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Saklıkent günü: kanyon, şelale ve Fethiye Kalesi'nde gün batımı",
+   "stops": [
+    {
+     "name": "Saklıkent Kanyonu & Gizlikent Şelalesi Jeep Safari (Fethiye)",
+     "category": "nature",
+     "start": "08:30",
+     "end": "17:00",
+     "cost": 1400,
+     "tips": "Otel önünden alım; 50 km'lik yol jeep'le Eşen Ovası üzerinden 1 saat. Kanyonda buz gibi suda yürüme (kiralık su ayakkabısı 100-150 TL, kendi ayakkabını getir), Gizlikent şelalesinde yüzme, Yakapark'ta alabalıklı öğle yemeği dahil. Islanacaksın: yedek kıyafet, telefon için su geçirmez kılıf, tur ücreti dışında 300-400 TL nakit.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Fethiye+Saklikent+Gorge+Jeep+Safari",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Fethiye Kalesi",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Şehrin üstündeki Bizans/Haçlı kalesi; Kaya Mezarları'nın yukarısındaki mahalle sokaklarından 15 dk yürüyerek çıkılıyor, ücretsiz. Tüm körfez, marina ve Şövalye Adası ayaklarının altında; gün batımı Temmuz'da 20:15 civarı, 19:00-19:30 arası ışık en iyi. Sur duvarları korumasız, kenarda durma."
+    },
+    {
+     "name": "Seçkin Lokantası (Taşyaka, Fethiye)",
+     "category": "food",
+     "start": "19:45",
+     "end": "21:00",
+     "cost": 700,
+     "tips": "Otogar karşısında 24 saat açık esnaf lokantası; dolmuş şoförleri ve Fethiyeliler burada yer, tek turist sensin. Tezgâhtan seç: kuzu haşlama, etli bamya ya da günün zeytinyağlısı + pilav + cacık, 2 kişi 1.200-1.400 TL. Sıcak yemek 21:00'den sonra azalıyor, geç kalma."
+    },
+    {
+     "name": "Ece Saray Marina (Fethiye)",
+     "category": "landmark",
+     "start": "21:15",
+     "end": "22:00",
+     "cost": 0,
+     "tips": "Fethiye'nin yat marinası; gece ışıklı gulet ve yelkenlilerin arasında kordon yürüyüşü, ücretsiz. Marina rıhtımı halka açık, iskele ucundan aydınlatılmış Kaya Mezarları'nın uzun pozlama fotoğrafı çekiliyor. Kahve/dondurma 150-250 TL, otele yürüyerek dönmek için merkez 10 dk."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nazilli Pide Fethiye",
+     "category": "food",
+     "start": "19:45",
+     "end": "21:00",
+     "cost": 700,
+     "tips": "Merkezde Fethiyelilerin gittiği ikinci pide adresi; uzun Nazilli pidesi ve ayran. Açık kıymalı yumurtalı pide + çoban salata yeterli. Paket de yapıyorlar, kale dönüşü yol üstü."
+    },
+    {
+     "name": "Tlos Antik Kenti",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 200,
+     "tips": "Saklıkent'in 15 km kuzeyinde, Akdağ eteğinde Likya kenti; akropol, kaya mezarları ve stadyum. Safari programında yoksa dönüşte şoföre 'Tlos'ta dur' de, Müzekart geçerli. Akropol tepesinden Eşen Ovası'nın panoraması için tırman."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Hafif kapanış: Faralya uçurumu, Kabak Koyu ve zeytinlikte öğle",
+   "stops": [
+    {
+     "name": "Kelebekler Vadisi Seyir Tepesi (Faralya)",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Ölüdeniz'den Faralya dolmuşuyla 25 dk; George House tabelasından sola inen patikayla 5 dk'da uçurum kenarındaki kayalık terasa varılıyor, ücretsiz. Vadi ve plaj 350 m aşağıda; sabah 09:00'da ışık vadinin içine giriyor, öğlen pus basıyor. Korkuluk yok, kenara yaklaşma."
+    },
+    {
+     "name": "Kabak Şelalesi Yürüyüşü",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Kabak köyünün üst otoparkından Likya Yolu işaretleriyle 30-40 dk çam ve zeytin arasından iniş; küçük şelale ve doğal havuzda serinle. Yaz sonunda su azalıyor, Temmuz'da hâlâ akıyor. Patika dar, kapalı ayakkabı."
+    },
+    {
+     "name": "Kabak Koyu",
+     "category": "nature",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Ölüdeniz'in 20 km güneyinde, kamp ve hippi kültürünün koyu; plaj ücretsiz, tesis şezlongu isteğe bağlı. Plajın sağ ucundaki kayalıklardan atlama noktası ve en berrak su. Yukarı çıkış için tesislerin jeep servisi 150-200 TL, ya da 30 dk yokuş; sıcakta servisi tercih et."
+    },
+    {
+     "name": "Olive Garden Kabak",
+     "category": "food",
+     "start": "13:15",
+     "end": "15:00",
+     "cost": 900,
+     "tips": "Faralya-Kabak yolunda, koya tepeden bakan zeytinlik içinde restoran; ana yoldan 'Kabak Sokak No:37' tabelası. Fırında kuzu ya da mezeli günün balığı; taze sıkma nar-portakal suyu iste. Belirli bir tutarın üstünde yemek yiyenlere havuz ve şezlong bedava, mayoyu üstünde tut."
+    }
+   ],
+   "backups": [
+    {
+     "name": "George House Faralya",
+     "category": "food",
+     "start": "13:15",
+     "end": "15:00",
+     "cost": 800,
+     "tips": "Faralya'da Kelebekler Vadisi'ne bakan terasıyla bilinen pansiyon-restoran; ev yemekleri ve gözleme. Manzara masası için erken git, 12:30'dan sonra doluyor. Vadi seyir noktasının hemen üstünde, iki durağı birleştirebilirsin."
+    },
+    {
+     "name": "Likya Yolu Faralya-Kabak Parkuru",
+     "category": "nature",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Faralya'dan Kabak'a Likya Yolu'nun en manzaralı 6 km'lik etabı; kırmızı-beyaz işaretler, 2-2,5 saat. Sabah 08:00'de çıkmazsan öğlen güneşi yakar. Kabak'ta bitir, yüz, dolmuşla dön."
+    }
+   ]
+  }
+ ]
+}

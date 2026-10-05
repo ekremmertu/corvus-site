@@ -1,0 +1,17 @@
+{
+ "source": "ec74a28b39a8",
+ "model": "sonnet",
+ "strings": {
+  "d2.s3.tips": "70 boş sandalye anıtı; Kartal Altında Eczane Müzesi (Pod Orłem).",
+  "d5.b0.tips": "1.987 m zirveye teleferik; Morskie Oko yerine (online).",
+  "d7.s4.tips": "Tren Balice'ye 20 dakika; veda.",
+  "note0": "Tramvay/otobüs: 20 dakikalık bilet 4 PLN, günlük 17. Eski şehir yürünür. Havalimanı treni 17 PLN. Auschwitz/Wieliczka/Zakopane için otobüs veya tur (Auschwitz turu 150-200 PLN).",
+  "note2": "Pierogi 25-35 PLN, zapiekanka 15, obwarzanek 3, süt barı 20, bira 12; bahşiş %10. Polonya ucuz, kart her yerde geçer.",
+  "note3": "Auschwitz: online rehberli tur 90 PLN, ZORUNLU (ücretsiz giriş sabah 07:30 öncesi/akşam); 14 yaş altı önerilmez. Schindler ve Wieliczka için online bilet al; müzeler pazartesi kısıtlı.",
+  "note5": "Votka: żubrówka elma suyuyla (szarlotka); Kazimierz'de gece Plac Nowy."
+ },
+ "warnings": [
+  "d3.s0.tips: sayı değişti → düzeltme atıldı",
+  "note4: sayı değişti → düzeltme atıldı"
+ ]
+}

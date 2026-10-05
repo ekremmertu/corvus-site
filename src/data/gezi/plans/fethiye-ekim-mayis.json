@@ -1,0 +1,512 @@
+{
+ "lang": "tr",
+ "slug": "fethiye-ekim-mayis",
+ "altSlug": "fethiye-october-may",
+ "citySlug": "fethiye",
+ "destKey": "fethiye",
+ "city": "Fethiye",
+ "region": "Muğla",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9750,
+  "attractions": 10850,
+  "transport": 700,
+  "misc": 850
+ },
+ "notes": [
+  "Ocak ayında deniz suyu 16-17°C civarı; denize girme mevsimi değil, plajlar sakin ama çoğu şezlong/kafe kapalı olur.",
+  "Küçük esnaf lokantalarında ve semt pazarlarında kart geçmeyebilir; cüzdanında mutlaka nakit bulundur.",
+  "Belediye otobüsü ve dolmuşlarda Kent Kartı kullanmak nakitten ucuzdur; kartı otogardan veya market kasalarından doldurabilirsin.",
+  "Hesaba bahşiş dahil değildir, esnaf lokantasında yuvarlama, orta-üst restoranda %5-10 bırakmak nezaket sayılır.",
+  "Kış havası serin ve rüzgarlı olur (gündüz 10-15°C), katman katman giyin; akşamları kazak/mont şart.",
+  "Tarihi hamam ve cami çevresinde ziyaret ederken omuz-diz kapalı, sade kıyafet tercih et.",
+  "Kışın bazı tekne turları ve kanyonlar (Saklıkent gibi) su seviyesi/hava koşulları nedeniyle kapalı olabilir; rezervasyon öncesi operatörle teyitleş."
+ ],
+ "niche": {
+  "name": "The Lebessos Wine House",
+  "level": "l3",
+  "why_hidden": "Kayaköy'ün hayalet köy harabelerinin hemen bitişiğinde saklı bir şarap evi. Türkiye'nin güneyindeki en büyük özel şarap mahzenlerinden birine sahip, ama tabelası küçük. Çoğu ziyaretçi hayalet köyü gezip yanından geçer; içeri girip tadım yapılabileceğini bilmez.",
+  "access_instructions": "Kayaköy antik kenti girişinin hemen yanındaki taş binaya yürüyerek ulaşılır. Mekân her gün 08:00-24:00 açık, ama şarap tadımı ve kahvaltı masası için önceden telefon veya Instagram'dan haber vermek yer garantisi sağlar.",
+  "local_contact": "+90 536 484 7290 / Instagram: @lebessos",
+  "season": "Yıl boyu açık (haftanın 7 günü); kışın iç mekan şömineli salon kullanılıyor.",
+  "insider_tip": "Kahvaltı tabağını şarap tadımıyla birleştiren 'tadım seti'ni iste — menüde yazmıyor ama söyleyince hazırlıyorlar. Yerel üzümden yapılan beyaz şarabı dene.",
+  "show_reason": "Antik bir hayalet köyün içine gizlenmiş, Türkiye'nin en büyük şarap mahzenlerinden birini barındıran bir mekan; hem tarih hem gastronomi katmanı taşıyor ve sosyal medyada nadiren öne çıkıyor.",
+  "lat": 36.5809,
+  "lng": 29.1103,
+  "address": "Kayaköy Mahallesi, Kayaköy Antik Kenti Girişi Yanı, Fethiye, Muğla",
+  "cost_range_min": 500,
+  "cost_range_max": 900,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Fethiye Kent Kartı",
+  "why_chosen": "Fethiye merkezindeki belediye otobüsleri ve dolmuşların büyük kısmı bu kartla çalışır; Kayaköy, Ölüdeniz, Ovacık, Hisarönü, Çalış ve Üzümlü hatlarını kapsayarak plandaki neredeyse tüm şehir içi duraklara ulaşımı tek kartla çözer. Nakit ödemeye göre daha ucuzdur ve turist-yerel ayrımı olmadan herkes aynı kartı kullanır.",
+  "coverage": "Fethiye merkez + Kayaköy, Ölüdeniz, Ovacık, Hisarönü, Çalış, Üzümlü belediye otobüsü ve dolmuş hatları (MUTTAŞ)",
+  "where_to_buy": "Fethiye Otogarı gişeleri, MUTTAŞ kart basım noktaları (şehir merkezindeki anlaşmalı büfe/marketler) ve dolummatik cihazlar",
+  "cost": 150,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Fethiye'nin Kalbi: Kordon'dan Karagözler'e",
+   "stops": [
+    {
+     "name": "Fethiye Kordon Boyu & Marina",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 50,
+     "tips": "Sabah 9 civarı marina sakin olur, tekneler henüz turdan dönmemiştir. Kordonun sonundaki küçük büfeden simit-çay al (~50 TL), yürüyüş ücretsiz."
+    },
+    {
+     "name": "Amyntas Kaya Mezarları (Telmessos Kaya Mezarları)",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 100,
+     "tips": "Şehrin üstündeki kayaya oyulmuş Likya mezarları; aşağıdan bakmak ücretsiz, üstüne çıkıp içeri girmek için gişe ~100 TL. Sabah ışığında cephe altın rengine döner, fotoğraf için ideal saat."
+    },
+    {
+     "name": "Fethiye Balık Pazarı (Balık Hali)",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 750,
+     "tips": "Akşam turist kalabalığı yerine öğlen git. Tezgahtan levrek/çipura seç, yandaki lokantaya taşıt, pişirme ücreti kişi başı ~700-800 TL; yanına mevsim mezesi iste."
+    },
+    {
+     "name": "Paspatur (Eski Çarşı)",
+     "category": "shopping",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 150,
+     "tips": "Osmanlı-Rum evlerinin arasındaki dar sokaklarda gümüşçü ve deri atölyelerine göz at. Turistik hediyelik yerine yerel el işi ürün (el yapımı sabun, zeytinyağı) tercih et."
+    },
+    {
+     "name": "Karagözler Sahili & Gün Batımı",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 50,
+     "tips": "Marina'nın batısındaki sakin yürüyüş yolu; yerel halkın akşamüstü yürüyüşe çıktığı yer. Gün batımında adalara bakan en güzel açı burada, sahildeki büfeden çay al."
+    },
+    {
+     "name": "Meğri Lokantası",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "1989'dan beri Paspatur'da açık, ev usulü sulu yemek ve kebap. Güveç ve mantı öneriyoruz; hafta içi akşamları daha sakin oluyor."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gar Lokantası",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 500,
+     "tips": "Otogar karşısında esnaf lokantası; işkembe çorbası ve karaciğer kavurma meşhur. Öğle saatinde erken git, popüler yemekler tükenebiliyor."
+    },
+    {
+     "name": "Fethiye Müzesi",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 100,
+     "tips": "Likya ve Karya dönemi eserlerini barındıran küçük ama düzenli müze. Kışın 08:00-17:00 arası açık, ziyaret 45 dk sürer."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Kayaköy: Taş, Şarap ve Sessizlik",
+   "stops": [
+    {
+     "name": "Kayaköy (Karmylassos) Hayalet Köyü",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "1923 mübadelesinden kalma yüzlerce taş ev; sabah erken git, ışık taşları güzel gösterir. Rehber şart değil, kendi kendine gezilebilir, giriş ~100 TL."
+    },
+    {
+     "name": "The Lebessos Wine House",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 750,
+     "tips": "Kayaköy antik kenti girişinin hemen yanında; kahvaltı tabağını şarap tadımıyla birleştiren 'tadım seti' iste, menüde yazmaz ama hazırlıyorlar. Yer garantisi için önceden ara."
+    },
+    {
+     "name": "Kayaköy–Ölüdeniz Likya Yolu (Taş Sokak Bölümü)",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Kayaköy'ün üst tarafından başlayan kısa Likya Yolu parçası, 45 dk yürüyüşle sırt manzarası verir. Kışın toprak zemin ıslak olabilir, yürüyüş ayakkabısı şart."
+    },
+    {
+     "name": "Kayaköy Panayia Pyrgiotissa Kilisesi",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "Köyün en yüksek noktasındaki restore kilise; içindeki freskler ve deniz manzarası bir arada. En güzel kare kapı boşluğundan çekiliyor, giriş Kayaköy bileti içinde."
+    },
+    {
+     "name": "Cin Bal Et Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 1300,
+     "tips": "1975'ten beri Kayaköy yolunda, kendin pişir kendin ye kuzu tandır konsepti, ağaç altında masa. Telefonla (444 5 048) yer ayırt, hafta sonu erken dolar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Saliha Sultan Pastanesi",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 200,
+     "tips": "Fethiye'nin en eski pastanelerinden; kadayıf ve baklava öneriyoruz. Kışın sıcak sütlü tatlıları dene, merkeze dönüşte uğranabilir."
+    },
+    {
+     "name": "Kayaköy Rüzgâr Değirmenleri Seyir Noktası",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "Köyün girişindeki eski değirmen kalıntıları, Ölüdeniz'e bakan sırtta. Gün batımına yakın gidilirse ışık çok güzel oluyor, giriş ücretsiz."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Gökyüzünden Ölüdeniz'e",
+   "stops": [
+    {
+     "name": "Babadağ Tandem Yamaç Paraşütü (Ölüdeniz)",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 6000,
+     "tips": "Fethiye'nin imza deneyimi. Kışın uçuşlar rüzgara bağlı olduğundan esnek iptal politikalı operatör seç, rezervasyonu sabah erkeden yaptır; video-foto paketi ayrı ücretlidir (~500-800 TL ekstra).",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Babadag+Tandem+Paragliding+Fethiye",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Merkez Saray Lokantası (Ovacık)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 550,
+     "tips": "Ovacık merkezde esnaf lokantası; güveç ve çorba çeşitleri öneriyoruz. Paraşüt inişinden sonra Ölüdeniz'e en yakın pratik öğle molası."
+    },
+    {
+     "name": "Kıdrak Koyu Seyir Noktası",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 50,
+     "tips": "Ölüdeniz'in hemen yanında ama kalabalığın uğramadığı sakin koy; kışın tamamen boş. Çam ağaçları arasından deniz manzarası, otopark simgesel ücretli."
+    },
+    {
+     "name": "Hisarönü Kış Gezintisi",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Yazın gece kulüpleriyle dolan Hisarönü, kışın tamamen boşalır. Terk edilmiş sokaklarda tuhaf ama fotojenik bir sessizlik var, yerel esnafla sohbet fırsatı."
+    },
+    {
+     "name": "Hisarönü Köftecisi",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 500,
+     "tips": "Sarmaşıklarla kaplı küçük mekân; köfte-pilav-piyaz klasik kombinasyon. Kışın müşteri profili tamamen yerel."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cuba Cafe (Ovacık)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "Yöresel ev yemekleri sunan küçük yer; Instagram'da 'geleneksel lezzet' vurgusu yapıyor. Günün yemeği tükenmeden öğlen erken git."
+    },
+    {
+     "name": "Ölüdeniz Milli Parkı Seyir Yolu",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 50,
+     "tips": "Milli park girişinden kısa bir yürüyüşle lagüne tepeden bakan noktaya çıkılır. Kışın sakin, giriş küçük bir ücrete tabi."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Pazardan Hamama: Fethiye'nin Günlük Yaşamı",
+   "stops": [
+    {
+     "name": "Fethiye Salı Pazarı",
+     "category": "shopping",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 300,
+     "tips": "Yalnızca salı ve cuma günleri kurulur, Tuzla Mahallesi'nde şehir stadyumu yanında. Taze sebze-meyve, zeytin, peynir tezgahlarından kuru incir/reçel al, pazarlık yapılabilir."
+    },
+    {
+     "name": "Telmessos Antik Tiyatrosu",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Marina'nın hemen arkasında, 6000 kişilik Roma dönemi tiyatro kalıntısı. Girişi ücretsiz, sabah ışığında taşlar altın rengine döner."
+    },
+    {
+     "name": "Seçkin Lokantası",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 550,
+     "tips": "Otogar civarında esnaf lokantası; mercimek çorbası ve günün yemeği fiyat-performans olarak en iyilerden. Öğle saatinde kalabalık olabilir."
+    },
+    {
+     "name": "Tarihi Fethiye Hamamı (Eski Hamam)",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 1200,
+     "tips": "16. yüzyılda Yavuz Sultan Selim döneminde Paspatur'da inşa edilmiş; kese-köpük seansı 1,5-2 saat sürer. Telefonla (+90 541 515 81 21) önceden saat ayırt."
+    },
+    {
+     "name": "Efendi Meyhanesi",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1400,
+     "tips": "Foça, Yerguzlar Caddesi'nde; deniz börülcesi ve safranlı deniz mahsulleri güveci meşhur. Kışın şömine başında sakin bir rakı-meze akşamı geçirilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yengeç Restoran",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1200,
+     "tips": "Marina'da denize sıfır balık restoranı; günlük balık çeşitleri değişir. Rezervasyon önerilir, hafta sonu doluyor."
+    },
+    {
+     "name": "Fethiye Kalesi",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Şehrin üstündeki tepede Bizans-Osmanlı dönemi kale kalıntısı; giriş ücretsiz. Limana bakan gün batımı manzarası için de tercih edilebilir."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Üzümlü Ormanı ve Kadyanda",
+   "stops": [
+    {
+     "name": "Kadyanda Antik Kenti (Üzümlü)",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 100,
+     "tips": "Fethiye'ye 25 dk, çam ormanı içinde stadyum ve tiyatro kalıntıları var. Çoğu turist bilmez, gündüz ışığında Fethiye Körfezi manzarası muhteşem."
+    },
+    {
+     "name": "Yeşilüzümlü Köy Şarap Evi",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 450,
+     "tips": "Restore edilmiş eski bir Üzümlü evinde ev yapımı şarap, üzüm suyu ve köy kadınlarının açtığı mantarlı gözleme sunuluyor. Mantar çorbası ikramını kaçırma."
+    },
+    {
+     "name": "Fethiye Quad Safari (Orman Parkuru)",
+     "category": "nature",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 1900,
+     "tips": "Çam ormanı ve dere yataklarından geçen 1,5-2 saatlik parkur; ehliyet gerekmiyor, kısa eğitim veriliyor. Su geçirmez kıyafet ve kapalı ayakkabı tercih et.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Fethiye+Quad+Safari",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Girida Port",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1500,
+     "tips": "Deniz kenarındaki bahçesiyle bilinen balık restoranı; taze deniz ürünleri ve meze çeşitleri geniş. Rakı-balık için klasik ama yerellerin favorisi bir adres."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Boğaziçi Restoran",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 400,
+     "tips": "Köy kahvaltısında mevsim meyveleri, köy peyniri, ev yapımı reçel ve gözleme sunuyor. Kalabalıksız bir köy kahvaltısı deneyimi arıyorsan iyi alternatif."
+    },
+    {
+     "name": "Girdev Yaylası",
+     "category": "nature",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Fethiye'nin az bilinen yaylalarından biri; sessiz bir doğa molası ve manzara için tercih edilebilir. Kışın yol bazen çamurlu olabilir, araçla dikkatli çıkılmalı."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Kaş & Kaputaş Koyu",
+   "stops": [
+    {
+     "name": "Kaputaş Koyu Seyir Noktası",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Fethiye'den yola çıkışın (~1,5 saat) ilk durağı; merdiven başındaki manzara noktasından turkuaz kanyon ağzını yukarıdan gör. Giriş ücretsiz, kışın kimse yok."
+    },
+    {
+     "name": "Antiphellos Antik Tiyatrosu & Kral Mezarı",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Denize bakan, 26 oturma sıralı küçük Likya tiyatrosu; hemen yanında kaya mezarları ve lahitler var. Girişi ücretsiz, yürüyerek gezilir."
+    },
+    {
+     "name": "Kaş Uzun Çarşı",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 200,
+     "tips": "Dar taş sokaklarda küçük butik dükkanlar ve el sanatları var. Turistik mıknatıs yerine yerel zeytinyağlı sabun veya kurutulmuş bitki çayı al."
+    },
+    {
+     "name": "Belediye Lokantası",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 700,
+     "tips": "Kaş Limanı çevresinde yerel halkın gittiği uygun fiyatlı lokanta; günlük taze balık ve zeytinyağlılar sunuyor. Turistik fiyatlardan çok daha ucuz."
+    },
+    {
+     "name": "Kaş Limanı Yürüyüşü",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 100,
+     "tips": "Limanda kahve içip tekneleri izlemek için ideal saat; dönüş yolculuğu öncesi son mola. Fethiye'ye dönüş ~1,5 saat sürer, akşam karanlık basmadan yola çık."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yıldız Balıkçısı",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 900,
+     "tips": "Kendi tuttukları balığı servis eden küçük bir yer; Kaş'ın en taze deniz ürünlerinden biri. Menü günlük değişir, garsona sor."
+    },
+    {
+     "name": "Kaş Kalesi (Sur Kalıntıları)",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Antik surların kalan parçaları, liman ve adaya bakan alternatif bir seyir noktası sunuyor. Giriş ücretsiz, kısa bir tırmanış gerektiriyor."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Patara & Xanthos: Likya'nın İzinde",
+   "stops": [
+    {
+     "name": "Xanthos Antik Kenti",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 560,
+     "tips": "UNESCO listesindeki Likya başkenti; kış saatleri 08:00-17:00, giriş yaklaşık 10 Euro karşılığı TL. Nereid Anıtı'nın kalıntılarını ve agora'yı gör, kışın tamamen tenha."
+    },
+    {
+     "name": "Patara Antik Kenti",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 840,
+     "tips": "Kış saatleri 08:30-17:30, giriş yaklaşık 15 Euro karşılığı TL. Likya Birliği Meclis Binası ve tiyatroyu kaçırma, kum tepelerinin arasından yürüyerek geçilir."
+    },
+    {
+     "name": "Patara Plajı (Kumul Yürüyüşü)",
+     "category": "nature",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Uzun kumsalın başına kadar yürü; deniz kaplumbağalarının yuvalama alanı olduğundan yapılaşma yok. Kışın tamamen tenha, sadece manzara için (denize girilmez)."
+    },
+    {
+     "name": "Ayşe Pancake House (Gelemiş)",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 400,
+     "tips": "Gelemiş köyünde sıcak ve samimi bir aile işletmesi; çeşitli gözleme seçenekleri var. Kalkan'ın yüksek fiyatlarına kıyasla oldukça uygun."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Inn Patara",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 350,
+     "tips": "Küçük ama lezzetli bir kahvaltı-atıştırmalık kafesi; Gelemiş köyünde sakin bir mola noktası."
+    },
+    {
+     "name": "Letoon Antik Kenti",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 200,
+     "tips": "Xanthos'a yakın, UNESCO listesindeki üçlü tapınak kalıntılarıyla bilinen sakin bir ören yeri; Patara'ya alternatif olarak kullanılabilir."
+    }
+   ]
+  }
+ ]
+}

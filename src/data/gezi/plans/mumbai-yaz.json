@@ -1,0 +1,493 @@
+{
+ "lang": "tr",
+ "slug": "mumbai-yaz",
+ "altSlug": "mumbai-summer",
+ "citySlug": "mumbai",
+ "destKey": "mumbai",
+ "city": "Mumbai",
+ "region": null,
+ "country": "Hindistan",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "INR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9000,
+  "attractions": 5000,
+  "transport": 4000,
+  "misc": 2500
+ },
+ "notes": [
+  "Uber/Ola (klimalı) ve siyah-sarı taksi (sayaç); banliyö treni yoğun (ilk vagon kadın). Metro 3 Colaba-Bandra-havalimanı 2025'ten beri. Havalimanı 45-90 dakika trafik.",
+  "HAZİRAN-EYLÜL MUSON: günde saatlerce sağanak, su baskını, Elephanta feribotu bazen iptal; şemsiye + sandalet; şehir yeşil ve serin (28°C), oteller ucuz.",
+  "e-Vize (30 gün) online; nakit INR (500'lük bozuk), UPI yabancıya sınırlı, kart büyük yerlerde.",
+  "Sokak yemeği: vada pav 20-30, pav bhaji 100, bhel puri 60; Irani kafe kahvaltı 300; restoran 600-1.000. Su şişede; buz ve çiğ salata dikkat.",
+  "Elephanta pazartesi, Britannia pazar kapalı; Haji Ali alçak gelgitte; müzeler 10:15 açılır.",
+  "Dharavi turu yalnız sorumlu şirketle (Reality Tours); Bollywood stüdyo turu (Film City) 2.000+ INR."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Colaba & Güney Mumbai",
+   "stops": [
+    {
+     "name": "Gateway of India",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 0,
+     "tips": "1924 bazalt zafer takı; Taj Mahal Palace oteli karşısı, sabah güvercinler ve tekneler."
+    },
+    {
+     "name": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 700,
+     "tips": "Eski Prince of Wales Müzesi; Indo-Sarazen kubbe, minyatürler, sesli rehber."
+    },
+    {
+     "name": "Kala Ghoda Sanat Bölgesi",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Galeriler, Jehangir Art Gallery (ücretsiz), Rhythm House; Şubat festivali."
+    },
+    {
+     "name": "Leopold Cafe",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "1871 Parsi kafesi (Shantaram); bira ve chicken tikka, kurşun izleri hâlâ duvarda."
+    },
+    {
+     "name": "Colaba Causeway",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Sokak pazarı; pazarlık, ucuz kıyafet ve hediyelik."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bademiya Colaba",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 400,
+     "tips": "Taj arkası gece kebap standı; seekh kebab ve roti."
+    },
+    {
+     "name": "Afghan Church Colaba",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "1858 kilise; Kala Ghoda yerine sakin."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Elephanta Adası & Marine Drive",
+   "stops": [
+    {
+     "name": "Elephanta Caves",
+     "category": "culture",
+     "start": "09:00",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "Musonda feribot bazen iptal olur (Haziran-Ağustos arası dalga); hava uygunsa 09:00'da ilk tekne, yağmurluk."
+    },
+    {
+     "name": "Gateway of India Feribot İskelesi",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Dönüş; Elephanta'da sadece atıştırma var."
+    },
+    {
+     "name": "Britannia & Co Ballard Estate",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 700,
+     "tips": "1923 Parsi kafesi; berry pulav, pazar kapalı, 16:00 kapanır."
+    },
+    {
+     "name": "Marine Drive",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "'Kraliçenin Gerdanlığı' 3,6 km sahil; Nariman Point'ten Chowpatty'ye gün batımı, sokak lambaları."
+    },
+    {
+     "name": "Girgaon Chowpatty Beach",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 200,
+     "tips": "Plajda bhel puri ve pav bhaji standları; denize girilmez."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kanheri Caves Sanjay Gandhi",
+     "category": "culture",
+     "start": "09:00",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "Feribot iptalse: ulusal parkta 109 Budist mağara; Borivali."
+    },
+    {
+     "name": "Cafe Mondegar Colaba",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 600,
+     "tips": "Mario Miranda duvar resimli kafe; bira ve sandviç."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "CST, Crawford & Haji Ali",
+   "stops": [
+    {
+     "name": "Chhatrapati Shivaji Maharaj Terminus",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "UNESCO Viktorya gotiği istasyon; 3 milyon yolcu/gün, dıştan ve holden."
+    },
+    {
+     "name": "Dhobi Ghat Mahalaxmi",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Dünyanın en büyük açık hava çamaşırhanesi; köprüden bakış, tur 200 INR."
+    },
+    {
+     "name": "Haji Ali Dargah",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Denizdeki 1431 türbesi; gelgit yolu (alçak gelgitte), sesli hoparlör, başörtüsü."
+    },
+    {
+     "name": "Haji Ali Juice Centre",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 200,
+     "tips": "Karşıdaki efsane meyve suyu; sitafal kreması."
+    },
+    {
+     "name": "Mani Bhavan Gandhi Museum",
+     "category": "culture",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Gandhi'nin 1917-34 Mumbai evi; Gamdevi, ücretsiz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Shree Thaker Bhojanalay Kalbadevi",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 600,
+     "tips": "Gujarati thali sınırsız; ünlü."
+    },
+    {
+     "name": "Mahalaxmi Temple",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Deniz kıyısı tapınak; Haji Ali yerine (yüksek gelgitte)."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Dharavi & Banganga",
+   "stops": [
+    {
+     "name": "Dharavi Slum Tour Reality Tours",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 1200,
+     "tips": "Asya'nın en büyük gecekondu mahallesi; geri dönüşüm, deri, çömlek atölyeleri; sorumlu tur, fotoğraf yok, gelirin %80'i topluluğa."
+    },
+    {
+     "name": "Mahim Dargah",
+     "category": "culture",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Dharavi yanı 15. yüzyıl türbesi."
+    },
+    {
+     "name": "Sarvi Byculla",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 500,
+     "tips": "1920'ler seekh kebab ve khichda; Byculla."
+    },
+    {
+     "name": "Banganga Tank",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Malabar Hill'de 1127 kutsal havuz; Mumbai'nin köy gibi köşesi."
+    },
+    {
+     "name": "Hanging Gardens Malabar Hill",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Şekilli çalılar ve Marine Drive manzarası; Kamala Nehru Parkı'ndaki ayakkabı ev."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bhau Daji Lad Museum Byculla",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 100,
+     "tips": "Şehrin en eski müzesi; Byculla, Banganga yerine."
+    },
+    {
+     "name": "Swati Snacks Tardeo",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 400,
+     "tips": "Gujarati sokak yemeği restoranı; panki ve dahi puri."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Bandra",
+   "stops": [
+    {
+     "name": "Mount Mary Basilica",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Bandra tepesi bazilika; Eylül Bandra Fuarı."
+    },
+    {
+     "name": "Bandstand Promenade",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Deniz kıyısı; Shah Rukh Khan'ın Mannat'ı, Bandra Fort'tan Sea Link manzarası."
+    },
+    {
+     "name": "Candies Bandra",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 400,
+     "tips": "Bahçeli kafe; Parsi ve Goan yemekleri, şehrin favorisi."
+    },
+    {
+     "name": "Linking Road & Hill Road",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Ucuz ayakkabı ve kıyafet sokak pazarı."
+    },
+    {
+     "name": "Carter Road Gün Batımı",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Kayalık sahil promenadı; Bandra gençliği ve kafeler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Elco Bandra",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "Hill Road'da pani puri ve chaat kurumu."
+    },
+    {
+     "name": "Pali Village Cafe",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 800,
+     "tips": "Pali Hill'de sarmaşıklı kafe; akşam."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Sanjay Gandhi & Juhu",
+   "stops": [
+    {
+     "name": "Sanjay Gandhi National Park",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 100,
+     "tips": "Muson yeşili ve şelaleler; yol çamur, ayakkabı."
+    },
+    {
+     "name": "Kanheri Caves",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 300,
+     "tips": "MÖ 1. yüzyıl-10. yüzyıl 109 Budist mağara; park otobüsü 20 dakika."
+    },
+    {
+     "name": "Global Vipassana Pagoda",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Gorai'de dünyanın en büyük taş kubbesi; feribotla (Borivali batı), meditasyon."
+    },
+    {
+     "name": "Juhu Beach",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Bollywood plajı; pav bhaji ve gola standları, gün batımı, denize girilmez."
+    },
+    {
+     "name": "Prithvi Cafe Juhu",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 300,
+     "tips": "Tiyatro kafesi; Irish coffee ve keema pav, oyun akşamı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Anand Stall Juhu",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 150,
+     "tips": "Mithibai Koleji karşısı vada pav ve dosa; sokak."
+    },
+    {
+     "name": "ISKCON Juhu",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Hare Krishna tapınağı; pagoda yerine yakın."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Fort sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Asiatic Society Library Town Hall",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Horniman Circle'da 1830 neoklasik; basamaklar Bollywood seti."
+    },
+    {
+     "name": "Horniman Circle Gardens",
+     "category": "nature",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Bahçe ve St Thomas Katedrali (1718)."
+    },
+    {
+     "name": "Kyani & Co Marine Lines",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 300,
+     "tips": "1904 Irani kafesi; bun maska ve chai, keema, veda."
+    },
+    {
+     "name": "Ashok Vada Pav Dadar",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 30,
+     "tips": "Şehrin en ünlü vada pav'ı (patates köfteli ekmek); Kirti Koleji."
+    },
+    {
+     "name": "Mumbai Airport Metro/Taksi",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "Uber/Ola 45-90 dakika trafik; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yazdani Bakery Fort",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 150,
+     "tips": "1953 Irani fırını; brun maska."
+    },
+    {
+     "name": "Flora Fountain",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Fort meydanı çeşmesi; bahçe yerine."
+    }
+   ]
+  }
+ ]
+}

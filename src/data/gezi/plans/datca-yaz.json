@@ -1,0 +1,495 @@
+{
+ "lang": "tr",
+ "slug": "datca-yaz",
+ "altSlug": "datca-summer",
+ "citySlug": "datca",
+ "destKey": "datca",
+ "city": "Datça",
+ "region": "Muğla",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 13150,
+  "attractions": 3550,
+  "transport": 1100,
+  "misc": 200
+ },
+ "notes": [
+  "Köy pazarlarında ve esnaf lokantalarında POS bulunmayabilir; yanında nakit TL bulundur.",
+  "Koylar ve köyler arası mesafe uzun, belediye dolmuşu seyrek çalışır; scooter veya araç kiralamak günleri çok kolaylaştırır.",
+  "Temmuz'da öğle 12:00-16:00 arası çok sıcak geçer; bu saatlerde gölgede ya da denizde kal, bol su iç.",
+  "Restoranlarda bahşiş hesabın %5-10'u kadar bırakılır, genelde otomatik eklenmez.",
+  "Can Yücel'in Evi gibi hâlâ içinde aile yaşayan mekânlarda kapı önünden fotoğraf yeterlidir, bahçeye izinsiz girilmez.",
+  "Datça kıyıları Akdeniz foku yaşam alanına yakın; koylarda çöp bırakmamaya özen göster.",
+  "Sındı gibi köy kooperatiflerini ziyaret ederken önceden haber vermek karşılıklı saygı göstergesi sayılır."
+ ],
+ "niche": {
+  "name": "S.S. Sındı Köyü Tarımsal Kalkınma Kooperatifi Zeytinyağı Fabrikası",
+  "level": "l3",
+  "why_hidden": "1948'de kurulan, geleneksel taş mengeneyle üretimi hâlâ sürdüren bir köy kooperatifi. Datça turlarının hiçbiri buraya uğramaz; tesisin varlığını yalnızca bölgedeki üretici aileler ve kooperatif müşterileri bilir.",
+  "access_instructions": "Datça merkezden Sındı Mahallesi'ne D400 üzerinden Marmaris yönüne yaklaşık 16-21 km, araçla 25 dakika. Köy meydanındaki kooperatif binasına sorunca yönlendirirler; ziyaret için önceden haber vermek gerekir.",
+  "local_contact": "Instagram @sindikoyukooperatifi üzerinden DM, ziyaretten en az 1 gün önce.",
+  "season": "Yıl boyu mağaza ve tadım açık; Ekim-Aralık zeytin hasadı/sıkım sezonu üretimi canlı halde görebileceğin en hareketli dönem.",
+  "insider_tip": "Yanına küçük bir cam kavanoz götür; taze sıkılmış yağdan doldurup satarlar, market fiyatının belirgin altında ve çok daha taze.",
+  "show_reason": "Tarihi üretim yöntemi, kooperatif dayanışması ve samimi tadım deneyimi bir arada; taş bina fotojenik ama sosyal medyada neredeyse hiç görünmüyor.",
+  "lat": 36.711,
+  "lng": 27.5123,
+  "address": "Sındı Mahallesi, Kooperatif Binası, Datça, Muğla",
+  "cost_range_min": 0,
+  "cost_range_max": 300,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Datça'nın Kalbi: Eski Datça'nın Taş Sokakları ve İskele'de Gün Batımı",
+   "stops": [
+    {
+     "name": "Eski Datça Taş Sokakları",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Begonvillerle örülü dar taş sokaklarda amaçsızca dolaş, en güzel ışık sabah 10 civarı düşüyor. Badem ağaçlarının gölgesindeki kapı önlerinde durup fotoğraf çekmek çoğu ev sahibi için sorun değil."
+    },
+    {
+     "name": "El Sanatları Sokağı",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 150,
+     "tips": "Köylü teyzelerin tezgâhlarından oya, kurutulmuş çiçek ve badem kurabiyesi al; nakit götür, POS genelde yok. Öğleye doğru bazı tezgâhlar sıcaktan kapandığı için sabah gitmek daha iyi."
+    },
+    {
+     "name": "Can Yücel'in Evi",
+     "category": "culture",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Ev sadece 12 Ağustos'ta ziyarete açılıyor; diğer zamanlarda kapıdaki şiir dizeleri ve bahçedeki mezar taşından fotoğraf çekilebiliyor. Reşadiye Mahallesi Dere Sokak'ta, aile hâlâ içeride yaşadığı için sessiz ol."
+    },
+    {
+     "name": "Zekeriya Sofrası",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 700,
+     "tips": "Pazı çorbası ve pazı boranisi burada yapılan klasik lezzetler; günlük ev yemeği tükenmeden 13:00 gibi git. Eski Datça Çarşı Sokak No:1'de, esnaf lokantası fiyatına doyurucu bir öğle yemeği sunuyor."
+    },
+    {
+     "name": "Kekik Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 2000,
+     "tips": "Kumluk Plajı'na sıfır, ahtapot ızgara ve bademli levrek iyi tercihler; deniz manzaralı masa için yaz akşamları rezervasyon şart. Balık dışında Ege usulü zeytinyağlıları da dene."
+    },
+    {
+     "name": "Sapphire Roof",
+     "category": "landmark",
+     "start": "21:15",
+     "end": "22:15",
+     "cost": 300,
+     "tips": "Sapphire Hotel'in terasında Datça limanının ışıklarına karşı kokteyl iç; gün batımından hemen sonraki yarım saat en sakin an. Rezervasyon gerekmez, yazın biraz erken gitmek masa için iyi olur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eski Meyhane",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1900,
+     "tips": "Kavunlu karidesli mezesiyle bilinen küçük ve samimi bir meyhane; ana durak müsait değilse buraya yönel. Datça merkezde, aramadan gidilebilir."
+    },
+    {
+     "name": "Kargı Koyu",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Merkeze 3 km, belediye dolmuşu ya da 30 dakikalık yürüyüşle ulaşılıyor, plaj tamamen ücretsiz. Bir şeyler yiyip içersen şezlong-şemsiye de ücretsiz oluyor."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Batı Uca Yolculuk: Knidos Antik Kenti ve Saklı Koylarda Tekne Turu",
+   "stops": [
+    {
+     "name": "Mehtap Cafe",
+     "category": "food",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 300,
+     "tips": "20 yıldır aynı ailenin işlettiği bahçeli evde organik serpme köy kahvaltısı yapılıyor; tekneye binmeden hafif bir versiyon iste. Eski Datça'da, limana araçla 10 dakika."
+    },
+    {
+     "name": "Datça Koyları & Knidos Günübirlik Tekne Turu",
+     "category": "nature",
+     "start": "09:30",
+     "end": "16:30",
+     "cost": 1800,
+     "tips": "Rota genelde Mersincik ve Kızılbük gibi araçla ulaşımı zor koylarda yüzme molası verip Knidos Antik Kenti'nde demirliyor; öğle yemeği fiyata dahil. Knidos'a ayak bastığında ayrıca yaklaşık 200 TL giriş ücreti ödeniyor (Müzekart geçerli), nakit bulundur.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Datca+boat+trip+Knidos",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Meyhane Datça",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1200,
+     "tips": "Ciğeri ve kaburgasıyla bilinen liman bölgesindeki samimi bir meyhane; deniz ürünleri mezeleri de iyi. Yaz akşamları erken dolduğu için 19:00 gibi gitmek yer kapmak için önemli."
+    },
+    {
+     "name": "A Jazz Bar",
+     "category": "landmark",
+     "start": "20:45",
+     "end": "22:00",
+     "cost": 0,
+     "tips": "Haftanın belirli akşamları canlı caz çalıyor, iskeleye yürüme mesafesinde; içki almasan da oturup dinleyebilirsin. Hafta sonu masa bulmak için biraz erken git."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Emek Restoran",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1300,
+     "tips": "Baba-oğul balıkçı ailesinin işlettiği, Datça Limanı kenarındaki mekânda deniz börülcesi ve ahtapot salatası öne çıkıyor. Taze balık günlük ava göre değişir."
+    },
+    {
+     "name": "Ovabükü Plajı",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Az bilinen, sakin bir koy; otopark küçük olduğu için sabah erken gitmek gerekiyor. Tur teknesi uğramazsa alternatif yüzme molası olarak düşünülebilir."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Güney Koyları: Palamutbükü'nün Turkuazı ve Hayıtbükü'nün Sakinliği",
+   "stops": [
+    {
+     "name": "Palamutbükü Plajı",
+     "category": "nature",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 200,
+     "tips": "Halk plajı ücretsiz, şezlong-şemsiye için civar işletmelerden bir şeyler yiyip ücretsiz faydalanabilirsin. Su rengi öğlen güneşinde en turkuaz haline geliyor."
+    },
+    {
+     "name": "Liman Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:45",
+     "cost": 1300,
+     "tips": "Taş fırında ahtapot ve bademli levrek burada mutlaka denenmeli; Palamutbükü'nün en iyi restoranı olarak biliniyor. Öğlen erken git, deniz kenarı masalar hızlı doluyor."
+    },
+    {
+     "name": "Hayıtbükü Plajı",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Hafta içi git, hafta sonları kalabalık ve şezlonglar pahalılaşıyor. Kumsalın etrafı restoran ve kafelerle çevrili, yürümek bile manzara için değer."
+    },
+    {
+     "name": "Bonito Restoran & Beach & Bar",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1200,
+     "tips": "Hayıtbükü'nde temiz ve sakin bir mekân, akşam menüsünde meze ve taze balık var. Gün batımına karşı masa için erken rezervasyon önerilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Palamutbükü Semt Pazarı",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 150,
+     "tips": "Haftanın bir günü kurulan pazarda taze zeytin, peynir ve meze malzemesi bulunur; ana restoran müsait değilse atıştırmalık toplayıp plajda yiyebilirsin."
+    },
+    {
+     "name": "Karaincir Plajı",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Palamutbükü'ne alternatif, daha az kalabalık bir koy; çam ağaçlarının gölgesi öğlen sıcağında iyi geliyor."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Zeytin ve Bal Rotası: Mesudiye, Sındı Kooperatifi ve Emecik",
+   "stops": [
+    {
+     "name": "Mesudiye Köyü",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Köy içinde yürüyerek dolaş, yol kenarındaki üretici tezgâhlarından taze badem ve turunç bulabilirsin. Mesudiye limon ve nar bahçeleriyle de bilinir."
+    },
+    {
+     "name": "Derin Bahçe",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 600,
+     "tips": "Teyzelerin elinden çıkan gözleme ve organik yumurtalı omlet burada öne çıkıyor; bahçedeki kendi ürettikleri zeytin, bal ve reçelleri de satın alabilirsin. Öğlen serin gölgede oturmak için ideal bir mola."
+    },
+    {
+     "name": "S.S. Sındı Köyü Tarımsal Kalkınma Kooperatifi Zeytinyağı Fabrikası",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 150,
+     "tips": "1948'den kalma taş mengenle üretim yapılan tarihi fabrikayı gez, kooperatif üyeleri tadım eşliğinde anlatıyor. Ziyaret için bir gün önce Instagram'dan haber ver; küçük bir cam kavanoz götürürsen taze sıkım yağdan doldururlar."
+    },
+    {
+     "name": "Aktur Koyu",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Emecik köyüne bağlı, çam kokulu ve sakin bir koy; hemen yakınındaki köy içinde Bizans dönemine ait dağınık kalıntılar da gezilebilir. Köylüler çoğunlukla arıcılık ve zeytincilikle uğraşır."
+    },
+    {
+     "name": "Elaki Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1200,
+     "tips": "200 yıllık Mehmet Ali Paşa Konağı'nın bahçesinde, malzemelerin çoğu kendi organik bahçelerinden geliyor. Taş fırın lezzetleri akşamları öne çıkıyor, Reşadiye Kavak Meydanı'nda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Garavilla Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1300,
+     "tips": "Otel Mavi Beyaz içinde, Ege ve Akdeniz mutfağından yerel otlarla hazırlanan seçenekler sunuyor. Ana durak doluysa iyi bir alternatif."
+    },
+    {
+     "name": "Kızılbük Koyu",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Araçla ulaşımı zor, genelde tekneyle gidilen sakin bir koy; günü uzatmak isteyenler için iyi bir ek durak."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Kızlan'ın Yel Değirmenleri ve Aktur'da Gün Batımı",
+   "stops": [
+    {
+     "name": "Kızlan Yel Değirmenleri",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Datça-Marmaris karayolu üzerinde, alttan üste doğru sıralanmış 6 taş değirmen; en iyi fotoğraf için sabah ışığını kaçırma. Köyün rüzgârlı yapısı değirmenlerin burada kurulmasının nedeni."
+    },
+    {
+     "name": "Kızlan Köyü",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 200,
+     "tips": "Yüksek rakımlı çam ormanlarından üretilen katkısız bal burada doğrudan üreticiden alınıyor; çam balını mutlaka tat. Market fiyatının belirgin altında, cam kavanozunu doldurabilirler."
+    },
+    {
+     "name": "Rumeli Köfte ve Ciğer",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 650,
+     "tips": "Köfte-piyaz ve ciğer üzerine uzmanlaşmış aile işletmesi bir esnaf lokantası; öğlen yoğun olduğu için biraz erken git. Uygun fiyatlı ve doyurucu."
+    },
+    {
+     "name": "Aktur İskele Beach Club",
+     "category": "landmark",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 250,
+     "tips": "Datça'da güneşin son battığı nokta olarak bilinir, çam ağaçlarının arasında müzik eşliğinde deniz keyfi yapılır. Şezlong için bir içecek alman yeterli."
+    },
+    {
+     "name": "Hestia",
+     "category": "food",
+     "start": "20:15",
+     "end": "21:45",
+     "cost": 1100,
+     "tips": "Yaklaşık on iki çeşit mantı seçeneğiyle geleneksel lezzetlere modern dokunuş yapıyor; Özbek mantısını dene. Reşadiye Çarşı Sokak'ta, akşamları rezervasyon önerilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "İskele Semt Pazarı",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 150,
+     "tips": "Balıkçı Sokak'ta kurulan pazarda taze balık ve mevsim sebzesi bulunur; sabah erken gidilirse en taze ürünler kapılır."
+    },
+    {
+     "name": "Ilıca Su Değirmeni",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Taşlık Plajı yanındaki tarihi su değirmeni ve şifalı olduğu söylenen 'soda gölü'; rota değişirse iyi bir mola noktası."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Çarşıda Bir Gün: Pazar, Zanaat ve Menüsüz Meyhane",
+   "stops": [
+    {
+     "name": "Datça Cumartesi Pazarı",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 250,
+     "tips": "Ambarcı Caddesi sonundaki pazar yerinde taze zeytin, yöresel peynir ve el işi tekstil bulunur; sabah erken git, öğleye doğru en iyi ürünler tükeniyor."
+    },
+    {
+     "name": "Datça Sofrası",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 750,
+     "tips": "Eski Datça'nın en eski restoranı, köfte ve Datça bademiyle yapılan yemekler öne çıkıyor. Ege otlarından mezeler ve güveçler de sevilen seçenekler."
+    },
+    {
+     "name": "Kumluk Plajı",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Merkeze yakın, kısa bir serinleme molası için ideal; sakin ve az kalabalık bir kumsal."
+    },
+    {
+     "name": "Zada Meyhane",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1400,
+     "tips": "Sabit menüsü yok, o gün ne çıkarsa onu sunuyorlar; Eski Datça girişinde küçük ve butik bir meyhane. Hafta sonları yer bulmak zor olduğu için erken git."
+    },
+    {
+     "name": "Coop Live",
+     "category": "landmark",
+     "start": "20:45",
+     "end": "22:00",
+     "cost": 0,
+     "tips": "Akustik konserler ve DJ performanslarıyla iskelenin canlı alternatiflerinden biri; giriş genelde ücretsiz, sadece içecek alırsın."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Culinarium",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1600,
+     "tips": "Alman-Türk-İtalyan füzyon mutfağı, badem semifredo tatlısı mutlaka denenmeli. İskele 64. Sokak'ta, deniz manzaralı ve rezervasyonlu."
+    },
+    {
+     "name": "Domuz Plajı",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Merkeze yakın küçük ve sakin bir koy, Kumluk Plajı'na alternatif olarak düşünülebilir."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Veda Öncesi: Son Kahve, Sakin Bir Koy ve Hediyelik Alışveriş",
+   "stops": [
+    {
+     "name": "Nokta Pastanesi",
+     "category": "food",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 200,
+     "tips": "Badem kurabiyesi ve poğaça ile hafif bir sabah kahvesi; iskeleye yürüme mesafesinde, son güne yorulmadan başlamak için ideal."
+    },
+    {
+     "name": "Kurubük Koyu",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Hiç tesisi olmayan, sakin ve el değmemiş bir koy; yanına su ve atıştırmalık al, arabanı yol kenarına bırakıp biraz yürümen gerekiyor."
+    },
+    {
+     "name": "Datça Köy Ürünleri Fabrika Mağazası",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 250,
+     "tips": "1948'den kalma geleneksel üretimin devamı olan mağazada zeytinyağı, bal ve badem ürünleri hediyelik olarak alınabilir. Vakumlu paketler valize sığacak boyutlarda satılıyor."
+    },
+    {
+     "name": "Eski Ev Cafe",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 550,
+     "tips": "Eski Datça'da gözleme ve el yapımı mantı ile hafif bir veda öğle yemeği; badem kahvesini kaçırma. Sakin bahçesinde son bir kez Datça'nın huzurunu yaşa."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Poseidon Balık Evi",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 1400,
+     "tips": "Taze deniz ürünleri ve şarap eşliğinde sakin bir öğle yemeği; ana durak müsait değilse iyi bir alternatif."
+    },
+    {
+     "name": "Bağlarözü Koyu",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Kurubük'e benzer şekilde tesisi olmayan, sakin bir koy; yerel halkın tercih ettiği az bilinen bir nokta."
+    }
+   ]
+  }
+ ]
+}

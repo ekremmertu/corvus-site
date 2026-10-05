@@ -1,0 +1,487 @@
+{
+ "lang": "en",
+ "slug": "alacati-october-may",
+ "altSlug": "alacati-ekim-mayis",
+ "citySlug": "alacati",
+ "destKey": "alacati",
+ "city": "Alaçatı",
+ "region": "İzmir",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 19000,
+  "attractions": 1740,
+  "transport": 1800,
+  "misc": 800
+ },
+ "notes": [
+  "January is low season in Alacati; some restaurants and beach clubs may be closed, so phone the day before to confirm that your chosen venue is open.",
+  "The sea is cold in winter; all the beach stops are for walking and photos, not swimming. Alacati's famous wind blows in winter too, so a thick coat and windproof jacket are essential.",
+  "The village market and tradesmen's restaurants mostly work with cash; carry small change, as cards may not be accepted everywhere.",
+  "Public transport does not reach Delikli Koy, Germiyan Village or Dalyanköy; hiring a car for the day or booking a taxi is the most practical solution.",
+  "In meyhanes and restaurants a tip is about 10% of the bill; if no service charge has been added, leave it in cash.",
+  "When entering places of worship such as the Pazaryeri Mosque, women are expected to cover their heads and everyone to remove their shoes.",
+  "The stone streets are paved with slippery cobblestones; choose non-slip shoes in winter rain."
+ ],
+ "niche": {
+  "name": "Delikli Koy",
+  "level": "l2",
+  "why_hidden": "Between Alacati Port and Ovacık neighbourhood, with the last 500 metres on a footpath, this cove is famous for two rocks that have joined through natural erosion to form a 'hole'. With no public transport and no signs, it rarely appears on popular beach lists; mostly local motorcyclists and off-road enthusiasts know it.",
+  "access_instructions": "Go to Alacati Port and continue about 4 km towards Alkoçlar Exclusive Alaçatı, then follow the 500-metre footpath after passing the facility. There is no public transport; reach it by private car, bicycle or a taxi booked in central Alacati.",
+  "local_contact": "Yok — resmi işletme, rehber veya bilet gişesi bulunmuyor, tamamen walk-in.",
+  "season": "Visit all year round; in winter (November to April) you cannot swim and it is only for views and walking, while in summer you can go down to the cove and swim.",
+  "insider_tip": "In winter the cove is completely deserted, with no road signs and often no mobile signal, so download the map beforehand. Near sunset the rocks turn golden, which is the most photogenic moment.",
+  "show_reason": "Ücretsiz, yerel bilgi gerektiren ve mainstream plaj rehberlerinde nadiren geçen saklı bir koy; jeolojik 'delik' formuyla fotoğraf açısından da benzersiz.",
+  "lat": 38.227791,
+  "lng": 26.338968,
+  "address": "Ovacık Mahallesi, Alaçatı-Çeşme arası, Çeşme/İzmir",
+  "cost_range_min": 0,
+  "cost_range_max": 0,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Alacati's signature: stone streets, church-mosque and windmills",
+   "stops": [
+    {
+     "name": "Kemalpaşa Caddesi Stone Streets",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "This street shows off the stone-house character that makes Alacati what it is. Walk it early, among bay-windowed houses draped in bougainvillea, and you can take photos without the crowds. The colourful doors look their best in morning light."
+    },
+    {
+     "name": "Apero Bakery Alaçatı",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 250,
+     "tips": "Known less for breakfast than for its filter coffee and sourdough pastries; the counter is freshest early in the morning. Seating is limited, so grabbing a coffee and drinking it as you stroll is common."
+    },
+    {
+     "name": "Pazaryeri Mosque (Ayios Konstantinos Church)",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Built in 1874 as a Greek Orthodox church and converted into a mosque after the population exchange, it still keeps its church form in the stonework of the facade. Most tourists walk past without realising it was once a church."
+    },
+    {
+     "name": "Yusuf Usta Ev Yemekleri",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 500,
+     "tips": "Alacati's most authentic tradesmen's restaurant; the soup of the day and sac kavurma (sizzling sautéed meat) are recommended. Go around 13:00, before the hot dishes run out."
+    },
+    {
+     "name": "Alaçatı Windmills",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Four 150-year-old stone windmills turn golden at sunset and make the town's best-known photo spot. Grab a place 30 minutes before sunset, as it gets crowded."
+    },
+    {
+     "name": "Asma Yaprağı",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 750,
+     "tips": "This Michelin Bib Gourmand restaurant serves in its enclosed dining room in winter; 2-3 shared meze plus one main course keeps the bill balanced. The olive oil stuffed vine leaves and sautéed wild greens are among the signature dishes."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bom Dia Alaçatı",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 350,
+     "tips": "Known for a classic Turkish breakfast alongside smoothie bowls and a range of egg dishes. A good calm breakfast alternative to Apero Bakery."
+    },
+    {
+     "name": "Alaçatı Open Air Theatre",
+     "category": "culture",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "This small amphitheatre right next to the windmills hosts concerts in summer; in the quiet of winter you can take in the view over Alacati from the hilltop. Free and always open."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "The coastline: Ilica, Boyalik and a hidden rock-arch cove",
+   "stops": [
+    {
+     "name": "Ilıca Beach",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Take a calm walk along the long beach, almost empty in winter; you can feel the steam of thermal springs along the shore. The wind can be strong, so a thick coat is essential."
+    },
+    {
+     "name": "Boyalık Beach",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "This 4 km stretch of sand, effectively a continuation of Ilica, is almost deserted in winter. In summer it is a surfers' hangout; in winter it is left to the seagulls. Ideal for walking, with no beach facilities."
+    },
+    {
+     "name": "Cevat'ın Yeri (Dalyanköy)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "A fish restaurant that has kept the same quality for decades, set in the calm atmosphere of the harbour; the octopus salad and butter shrimp are its signature dishes. Phone ahead to request a table with a harbour view."
+    },
+    {
+     "name": "Delikli Koy",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "About 4 km from Alacati Port, with the last 500 metres on a footpath; there is no public transport, so go by taxi or your own vehicle. You cannot swim in winter, but the natural hole opening between two rocks looks its most photogenic near sunset."
+    },
+    {
+     "name": "Karina Alaçatı",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 750,
+     "tips": "One of the rare venues open all year; tables spill onto the stone street, and the fish selection and meze plate are recommended. In winter you can usually find a seat without a booking, but it is worth calling for weekends."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Defne Yaprağı Balık Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 700,
+     "tips": "A peaceful seafront fish restaurant in Dalyanköy, a favourite with locals and holidaymakers alike, with a 4.5 rating. A direct alternative if Cevat'ın Yeri is full."
+    },
+    {
+     "name": "Yılancı Burnu",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Alacati's world-famous windsurfing spot; ideal for a windswept, deserted beach walk in winter. The sandbank view is impressive even in the cold months."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Çeşme centre: castle, fishing harbour and kumru culture",
+   "stops": [
+    {
+     "name": "Çeşme Fishermen's Shelter",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "In the morning the boats return and you can watch the bustle of the fish auction; there is nothing staged for tourists, just local fishing life. Be polite and keep your distance from the fishermen when taking photos."
+    },
+    {
+     "name": "Çeşme Castle and Museum",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 190,
+     "tips": "Inside the castle, built in 1508 by Sultan Bayezid II, Roman, Byzantine and Ottoman artefacts are displayed; winter hours are 08:30-18:00. The harbour views from the bastions are lovely."
+    },
+    {
+     "name": "Kumrucu Şevki",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 300,
+     "tips": "The best-known address in town for kumru, Çeşme's signature sandwich; the classic sucuk and kashar cheese kumru with ayran (salty yoghurt drink) is all you need. The seafront tables fill quickly at lunchtime."
+    },
+    {
+     "name": "Çeşme Marina",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A walk along the yacht harbour is free and pleasant; the afternoon light is ideal for photos. You can check out the catch of the day in the window of the restaurant Ferdi Baba."
+    },
+    {
+     "name": "Meyhane Şerefe",
+     "category": "food",
+     "start": "19:30",
+     "end": "22:00",
+     "cost": 850,
+     "tips": "One of Çeşme's long-established meyhanes (taverns), open all year, with a live music programme running until 02:00. It can get busy, so I recommend booking a table for the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kumrucu Hüseyin",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 300,
+     "tips": "A family place that has served in the same stone building for many years; an affordable alternative to Kumrucu Şevki. It has tables with sea views."
+    },
+    {
+     "name": "Ildırı Erythrai Ancient City",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 150,
+     "tips": "The ruins of Erythrai, one of the 12 Ionian cities, lie among natural camping areas; it is an ancient city most tourists do not know about. A quieter alternative to Çeşme Marina."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Alacati market, olive groves and Germiyan's slow food",
+   "stops": [
+    {
+     "name": "Alaçatı Village Market",
+     "category": "shopping",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 250,
+     "tips": "At the village market, held since 1994, you will find seasonal greens such as radika (wild chicory) and sea beans, plus textiles handmade by local women. Confirm the weekly market day with Çeşme Municipality; the freshest produce sells out early in the morning."
+    },
+    {
+     "name": "Alaçatı Zeytin Tarla",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 700,
+     "tips": "Set in the middle of its own olive grove and vegetable garden; the sourdough wood-fired pizza and seasonal salad are recommended. Capacity is limited, so call ahead."
+    },
+    {
+     "name": "Germiyan Village",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 300,
+     "tips": "Türkiye's first Slow Food village; as you walk among whitewashed Ottoman houses, you can taste kopanisti cheese and Germiyan bread made by the village women. There is no official sales point, but you can find it by asking at the café in the village square."
+    },
+    {
+     "name": "Momo Alaçatı",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 250,
+     "tips": "One of the rare cafés open through the winter months; the hot chocolate and seasonal desserts are famous. On cold days it is an ideal stop to watch the stone streets through the glass."
+    },
+    {
+     "name": "Fava Alaçatı",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 650,
+     "tips": "Known for its garden concept, the venue serves the fava meze it is named after, and olive oil dishes are a must on the table. In winter the garden is used with heaters, but still dress warmly."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tarla",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 750,
+     "tips": "A traditional Aegean breakfast-and-lunch spread in a stone house courtyard; fresh bread rolls and homemade jams stand out. A relaxed alternative to Zeytin Tarla."
+    },
+    {
+     "name": "Terra Cotta Ceramic Workshop",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "A small workshop in Hacımemiş making pastel-coloured handmade ceramics; you can watch the craftspeople at work. A town-based cultural alternative if you run out of time for the Germiyan trip."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Hacimemis's bohemian streets and Pirlanta's glitter",
+   "stops": [
+    {
+     "name": "Sakız Reçeli",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 600,
+     "tips": "This breakfast spot in Alacati's Çarşı takes its name from sakız (mastic) jam; the eggs with herbs are a must. On weekends it serves with live jazz."
+    },
+    {
+     "name": "Hacımemiş Neighbourhood Art Galleries",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 150,
+     "tips": "A bohemian, quiet neighbourhood away from the noise of Kemalpaşa Caddesi; you can browse glasswork and ceramic workshops. Handmade ceramics are a good choice for souvenirs."
+    },
+    {
+     "name": "Pırlanta Beach",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Named after its fine, glittering sand, this protected site is a calm stop for walking and photography in winter; a surfers' hangout in summer, it is almost empty in winter. It takes about 25-30 minutes by car from Alacati."
+    },
+    {
+     "name": "Sota Alaçatı (Viento Hotel)",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 750,
+     "tips": "A stylish restaurant at Viento Hotel that operates all year, serving modern takes on Aegean cuisine. It is quieter in winter, so you are likely to find a table, but still call ahead."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Roka",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 700,
+     "tips": "A calm restaurant serving seasonal Aegean cuisine, loved by Alacati locals too. A good alternative if you cannot book Sota."
+    },
+    {
+     "name": "Çiftlikköy Public Beach",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A quiet municipal beach close to Pirlanta; suitable for a deserted winter walk. A direct alternative if Pirlanta is crowded."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Urla: vineyards, olive oil and the old bazaar",
+   "stops": [
+    {
+     "name": "Urla Old Bazaar (Arasta Bazaar)",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "In the two-century-old Malgaca Market and the Arasta Bazaar you can still see working tailors, watchmakers and fabric merchants. It is about 40 minutes by car from Alacati; set off early in the morning and you will have a relaxed day."
+    },
+    {
+     "name": "Köstem Olive Oil Museum",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 180,
+     "tips": "One of the world's largest olive oil museums, displaying Anatolia's historic olive-pressing systems. Closed on Mondays; open on weekdays from 10:00 to 17:00."
+    },
+    {
+     "name": "Urla Wine Route: Tasting Tour of Two Wineries",
+     "category": "food",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 1300,
+     "tips": "Explore Urla's 6,000-year winemaking tradition with tastings at two boutique wineries; transfer is included in the tour. Book at least 2 days ahead, as tours run less often in winter.",
+     "bookingUrl": "https://www.viator.com/searchResults/all?text=Wine+Tasting+Tour+at+Two+Wineries+in+Urla+Turkey",
+     "bookingProvider": "Viator"
+    },
+    {
+     "name": "Barbun Alaçatı",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 700,
+     "tips": "A well-loved address for dinner in Alacati after Urla; it strikes a good balance between fish and meze. Suitable if you prefer a light menu after the wine tour."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Urla Winemaking Tasting",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 600,
+     "tips": "One of the region's long-established producers, offering short tastings without a reservation. An alternative you can visit independently if the organised tour is full."
+    },
+    {
+     "name": "Urla Art Street",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A street displaying antiques, handmade crafts and ceramics; you can watch the craftspeople at work. Within walking distance of the Old Bazaar."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Sığacık and Teos: ancient harbour town",
+   "stops": [
+    {
+     "name": "Sığacık Castle Quarter",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A small fishing town surrounded by walls built by Admiral Barbarossa; with its narrow lanes and colourful doors, it feels like Alacati without the crowds. About 50 minutes by car from Alacati."
+    },
+    {
+     "name": "Teos Ancient City",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 200,
+     "tips": "This Ionian city, dating from around 1000 BC, has Anatolia's largest Temple of Dionysus and an ancient theatre; the visit takes about 1.5-2 hours. Winter hours are 08:30-17:30."
+    },
+    {
+     "name": "La'dude Art Cafe",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 400,
+     "tips": "The art-themed café with the best gözleme (stuffed flatbread) in the Sığacık castle quarter; cheese or spinach gözleme with ayran is the classic pairing. Ideal for a light lunch stop before heading back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ermiş Balıkçılık",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "A long-established fish restaurant in Sığacık, known for its sea bass, calamari and shrimp. A direct alternative if La'dude is full."
+    },
+    {
+     "name": "Akkum Beach",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A quiet beach near Sığacık; suitable for a winter walk and a short nature break as an alternative to Teos. Known as a family beach in summer."
+    }
+   ]
+  }
+ ]
+}

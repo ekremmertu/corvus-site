@@ -1,0 +1,492 @@
+{
+ "lang": "tr",
+ "slug": "melbourne-yaz",
+ "altSlug": "melbourne-summer",
+ "citySlug": "melbourne",
+ "destKey": "melbourne",
+ "city": "Melbourne",
+ "region": null,
+ "country": "Avustralya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "AUD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 480,
+  "attractions": 480,
+  "transport": 90,
+  "misc": 100
+ },
+ "notes": [
+  "myki (7-Eleven); merkez Free Tram Zone; SkyBus havalimanı 22 AUD. Great Ocean Road/Phillip/Yarra için tur veya kiralık araç (sol trafik).",
+  "DİKKAT: Haziran-Eylül arası Melbourne'de KIŞ (8-14°C, yağmur); 'bir günde dört mevsim' yaşanır, kat kat giyin. Penguenler kışın erken gelir (17:45). Kafeler ve müzeler sıcak. Temmuz'da Rising festivali var.",
+  "Kahve kültürü dünyanın en iyisi: flat white, magic; brunch 25-30, tur 130-150; bahşiş beklenmez.",
+  "Penguin Parade online, fotoğraf yasak; Twelve Apostles öğleden sonra ışık; Queen Vic pazartesi-çarşamba kapalı.",
+  "Laneway'ler: Hosier, ACDC, Centre Place, Degraves; Fitzroy/Collingwood sokak sanatı, Brunswick Sidney Road.",
+  "UV yüksek (yazın); güneş kremi; su musluktan."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "myki",
+  "why_chosen": "Tramvay, tren, otobüs; merkezde tramvay ÜCRETSİZ (Free Tram Zone), günlük tavan ~11 AUD",
+  "coverage": "Tram, Metro, otobüs; SkyBus ayrı",
+  "where_to_buy": "7-Eleven veya istasyon; 6 AUD kart",
+  "cost": 6,
+  "currency_code": "AUD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Laneway'ler & Federation Square",
+   "stops": [
+    {
+     "name": "Hosier Lane",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Grafiti sokağı; her gün değişir, ACDC Lane yanı."
+    },
+    {
+     "name": "Degraves Street Kahvaltı",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 18,
+     "tips": "Laneway kafeleri; flat white ve avokado tost, Centre Place."
+    },
+    {
+     "name": "State Library Victoria La Trobe Salonu",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Sekizgen okuma salonu; ücretsiz, Ned Kelly zırhı."
+    },
+    {
+     "name": "Federation Square & ACMI",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Film müzesi ACMI ücretsiz; Ian Potter NGV Avustralya sanatı, Yarra kıyısı."
+    },
+    {
+     "name": "Lune Croissanterie Fitzroy",
+     "category": "food",
+     "start": "16:00",
+     "end": "16:45",
+     "cost": 10,
+     "tips": "'Dünyanın en iyi kruvasanı'; Fitzroy (tramvay 11), kuyruk."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Higher Ground Kahvaltı",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 25,
+     "tips": "Eski elektrik santralinde brunch; Little Bourke."
+    },
+    {
+     "name": "Melbourne Museum Carlton",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 15,
+     "tips": "Doğa tarihi ve Aborjin galerisi; Royal Exhibition Building yanı, ACMI yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Queen Vic Market & Carlton",
+   "stops": [
+    {
+     "name": "Queen Victoria Market",
+     "category": "food",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 15,
+     "tips": "1878 pazar; American Doughnut Kitchen kamyonu, peynir-şarküteri salonu, çarşamba gece pazarı (yaz), pazartesi-çarşamba kapalı."
+    },
+    {
+     "name": "Royal Exhibition Building & Carlton Gardens",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "1880 UNESCO sergi sarayı; çeşmeler ve bahçe."
+    },
+    {
+     "name": "Lygon Street",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 22,
+     "tips": "Little Italy; Brunetti pastanesi, Melbourne kahvesinin doğuşu (Pellegrini's)."
+    },
+    {
+     "name": "Fitzroy Brunswick Street",
+     "category": "shopping",
+     "start": "13:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Vintage, sokak sanatı, Rose Street sanatçı pazarı (hafta sonu)."
+    },
+    {
+     "name": "Naked for Satan Çatı Barı",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 20,
+     "tips": "Fitzroy çatısı; şehir gün batımı ve pintxos."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pellegrini's Espresso Bar",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 18,
+     "tips": "1954'ten beri değişmeyen espresso barı; Bourke Street."
+    },
+    {
+     "name": "Melbourne Zoo",
+     "category": "culture",
+     "start": "13:45",
+     "end": "15:30",
+     "cost": 50,
+     "tips": "Royal Park'ta hayvanat bahçesi; Fitzroy yerine (çocukla)."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Great Ocean Road",
+   "stops": [
+    {
+     "name": "Bells Beach",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Tur 06:30 kalkış (130 AUD) veya araç; efsane sörf plajı, Torquay."
+    },
+    {
+     "name": "Kennett River Koala Yürüyüşü",
+     "category": "nature",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Ağaçlarda vahşi koalalar ve papağanlar; Grey River Road."
+    },
+    {
+     "name": "Apollo Bay",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 20,
+     "tips": "Balıkçı kasabası; fish and chips ve kalamar."
+    },
+    {
+     "name": "Twelve Apostles",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Kireçtaşı kuleler (8 kaldı); Gibson Steps 86 basamakla plaja, öğleden sonra ışık."
+    },
+    {
+     "name": "Loch Ard Gorge",
+     "category": "nature",
+     "start": "15:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Batık gemi koyu ve mağaralar; Apostles'tan 3 dakika, dönüş 3 saat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cape Otway Lightstation",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 20,
+     "tips": "Kıta Avustralyası'nın en eski feneri; Apollo Bay yerine."
+    },
+    {
+     "name": "Apollo Bay Bakery",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 8,
+     "tips": "Tarak (scallop) pie."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "St Kilda & Brighton",
+   "stops": [
+    {
+     "name": "Brighton Bathing Boxes",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Dendy Street plajında 82 renkli kulübe; tren Middle Brighton, sabah boş."
+    },
+    {
+     "name": "St Kilda Esplanade & Pier",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Tramvay 96; iskele, Luna Park gülen ağzı, gün batımında minik penguenler (iskele altı)."
+    },
+    {
+     "name": "Acland Street Pastaneleri",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 12,
+     "tips": "Monarch Cakes (1934) ve Avrupa pastaneleri; Yahudi göçmen mirası."
+    },
+    {
+     "name": "Luna Park Melbourne",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "1912 lunapark; giriş ücretsiz, Scenic Railway ahşap hız treni 15 AUD."
+    },
+    {
+     "name": "St Kilda Pier Penguenleri",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Gün batımında mendirekte küçük penguenler; flaş yasak, gönüllüler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Stokehouse St Kilda",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 45,
+     "tips": "Plaj üstü şık restoran."
+    },
+    {
+     "name": "Jewish Museum of Australia",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "St Kilda Yahudi müzesi; bahçe yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Phillip Island",
+   "stops": [
+    {
+     "name": "Brighton'dan Phillip Island Yolu Churchill Island",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "Tur 12:00 kalkış (130 AUD, penguen dahil) veya araç 2 saat; tarihi çiftlik ve koyun kırkma."
+    },
+    {
+     "name": "Koala Conservation Reserve",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 15,
+     "tips": "Ağaç tepesi yürüyüş yollarında koalalar."
+    },
+    {
+     "name": "Cape Woolamai Sahil Yürüyüşü",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Pembe granit burun ve sörf plajı; Pinnacles."
+    },
+    {
+     "name": "The Nobbies & Seal Rocks",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Kayalıklar, martı kolonileri ve kürklü foklar (dürbün)."
+    },
+    {
+     "name": "Penguin Parade",
+     "category": "nature",
+     "start": "17:45",
+     "end": "19:15",
+     "cost": 35,
+     "tips": "Gün batımında binlerce küçük penguenin denizden yuvalara yürüyüşü; online bilet, fotoğraf YASAK, kaban."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Penguin Parade Kafesi",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 20,
+     "tips": "Ziyaretçi merkezi; balık ve çorba."
+    },
+    {
+     "name": "Panny's Chocolate Factory",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Çikolata fabrikası; koala yerine (çocukla)."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Yarra Valley",
+   "stops": [
+    {
+     "name": "Yarra Valley Dairy",
+     "category": "food",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 10,
+     "tips": "Peynir tadımı; Yering."
+    },
+    {
+     "name": "Domaine Chandon Yarra Valley",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 35,
+     "tips": "Köpüklü şarap tadımı ve bağ manzarası; tur (~150 AUD) veya araç 1 saat."
+    },
+    {
+     "name": "Healesville Sanctuary",
+     "category": "nature",
+     "start": "13:00",
+     "end": "15:30",
+     "cost": 50,
+     "tips": "Yerli hayvanlar: kanguru, platipus, vombat, kuş gösterisi."
+    },
+    {
+     "name": "Yering Station",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 25,
+     "tips": "Tarihi çiftlik şarap evi; pinot noir ve manzara."
+    }
+   ],
+   "backups": [
+    {
+     "name": "TarraWarra Estate",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 25,
+     "tips": "Şarap + sanat müzesi; Yering yerine."
+    },
+    {
+     "name": "Innocent Bystander Healesville",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Kasaba merkezinde pizza ve şarap."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Southbank — hafif veda",
+   "stops": [
+    {
+     "name": "Royal Botanic Gardens Victoria",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "38 hektar bahçe; Ornamental Lake, Shrine of Remembrance manzarası."
+    },
+    {
+     "name": "Shrine of Remembrance",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Anıt balkonundan şehir; ücretsiz."
+    },
+    {
+     "name": "Southbank Promenade",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Yarra kıyısı; Eureka Skydeck (30 AUD) isteğe bağlı."
+    },
+    {
+     "name": "Southgate Kahvaltı-Öğle",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 22,
+     "tips": "Nehir manzaralı; veda flat white."
+    },
+    {
+     "name": "Southern Cross SkyBus",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 22,
+     "tips": "SkyBus Tullamarine 30 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eureka Skydeck",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 30,
+     "tips": "88. kat ve Edge cam kutusu."
+    },
+    {
+     "name": "Ponyfish Island",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 18,
+     "tips": "Köprü altı yüzen bar-kafe."
+    }
+   ]
+  }
+ ]
+}

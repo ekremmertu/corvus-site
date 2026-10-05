@@ -1,0 +1,500 @@
+{
+ "lang": "tr",
+ "slug": "kyoto-yaz",
+ "altSlug": "kyoto-summer",
+ "citySlug": "kyoto",
+ "destKey": "kyoto",
+ "city": "Kyoto",
+ "region": null,
+ "country": "Japonya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "JPY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 45000,
+  "attractions": 15000,
+  "transport": 9000,
+  "misc": 8000
+ },
+ "notes": [
+  "Otobüs günlük 700 JPY (turistik hatlar dolu), metro+otobüs 1.100; ICOCA en pratik. Kansai'den Haruka 75 dakika; Osaka'dan JR 30 dakika. Bisiklet kiralama 1.000/gün.",
+  "Yaz 33-36°C ve nem (Gion Matsuri 17 temmuz, Daimonji 16 ağustos); haziranda yağmur ve ortanca; kawayuka nehir terasları; sabah 7'de çık.",
+  "Tapınaklar 500-800 JPY nakit; Nishiki'de yürürken yeme yasak; Gion'da özel sokaklar (2024'ten beri) yasak, maiko'yu durdurma.",
+  "Yudofu, kaiseki (10.000+), obanzai, matcha; ramen 1.000, teishoku 1.200; bahşiş yok, kart yaygınlaşıyor ama nakit taşı.",
+  "Kiyomizu/Fushimi/Bambu 08:00 öncesi; Kinkaku-ji ve Nara 09:00 açılış; Nijo'nun kapalı günlerini kontrol et.",
+  "Nara geyikleri kâğıt yer, eğilirler; senbei'yi bitirince ellerini göster."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "ICOCA + otobüs günlük",
+  "why_chosen": "Kyoto otobüs ağı geniş; metro 2 hat; ICOCA her yerde",
+  "coverage": "Kyoto City Bus, metro, JR, Keihan, Hankyu",
+  "where_to_buy": "İstasyon otomatı; 500 JPY depozito",
+  "cost": 500,
+  "currency_code": "JPY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Higashiyama & Gion",
+   "stops": [
+    {
+     "name": "Kiyomizu-dera",
+     "category": "culture",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 500,
+     "tips": "Ahşap teras 778 tapınağı; 08:00'de boş, Otowa şelalesi 3 su, sonbahar/ilkbahar gece açılışı."
+    },
+    {
+     "name": "Sannenzaka & Ninenzaka",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Taş basamaklı korunmuş sokaklar; Starbucks tatami, yatsuhashi tadımı."
+    },
+    {
+     "name": "Kodai-ji",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 600,
+     "tips": "Zen bahçesi ve bambu; Hideyoshi'nin dulunun tapınağı."
+    },
+    {
+     "name": "Nishiki Market",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 1500,
+     "tips": "'Kyoto'nun mutfağı' 400 yıllık pazar; tamagoyaki, yuba, turşu, yürürken yeme yasak, 2 sokak."
+    },
+    {
+     "name": "Gion Hanamikoji",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Geyşa mahallesi; Shirakawa kanalı, akşam 17:30-18:00 maiko'lar işe gider (fotoğraf kuralları, özel sokaklar yasak)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Omen Nishiki",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 1400,
+     "tips": "Udon; Nishiki yanı."
+    },
+    {
+     "name": "Yasaka Shrine",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Gion tapınağı ve Maruyama parkı; gece fenerler."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Fushimi Inari & Uji",
+   "stops": [
+    {
+     "name": "Fushimi Inari Taisha",
+     "category": "culture",
+     "start": "07:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "10.000 kırmızı torii; 07:00'de boş, Yotsutsuji seyir noktasına 45 dakika (tam döngü 2,5 saat), 24 saat açık."
+    },
+    {
+     "name": "Byodo-in Uji",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 700,
+     "tips": "10 yen madeni paradaki Phoenix Salonu; JR Nara hattı 15 dakika, müze dahil."
+    },
+    {
+     "name": "Nakamura Tokichi Uji",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 1500,
+     "tips": "1854 çay evi; matcha soba ve parfe, kuyruk, Uji matcha tadımı."
+    },
+    {
+     "name": "Uji Nehri & Ujigami Shrine",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Japonya'nın en eski tapınağı ve nehir kıyısı; çay dükkânları."
+    },
+    {
+     "name": "Fushimi Sake Bölgesi Gekkeikan",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 600,
+     "tips": "Kanal boyu sake fabrikaları; Gekkeikan Okura müzesi 3 tadım."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tofuku-ji",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 500,
+     "tips": "Zen bahçesi ve Tsutenkyo köprüsü (sonbahar); Uji yerine."
+    },
+    {
+     "name": "Tsuen Tea Uji",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 1200,
+     "tips": "1160'tan beri dünyanın en eski çay evi; köprü başı."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Arashiyama",
+   "stops": [
+    {
+     "name": "Arashiyama Bamboo Grove",
+     "category": "nature",
+     "start": "07:30",
+     "end": "08:15",
+     "cost": 0,
+     "tips": "Bambu koridoru; 08:00'den sonra kalabalık, Tenryu-ji kuzey kapısından."
+    },
+    {
+     "name": "Tenryu-ji",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 500,
+     "tips": "UNESCO Zen tapınağı; Sogenchi bahçesi ve dağ ödünç manzarası."
+    },
+    {
+     "name": "Togetsukyo Bridge & Katsura Nehri",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Ay Geçidi köprüsü; kayık, kiraz-akçaağaç tepeler."
+    },
+    {
+     "name": "Arashiyama Yoshimura Soba",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 1500,
+     "tips": "Köprü manzaralı soba; tempura."
+    },
+    {
+     "name": "Iwatayama Monkey Park",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 600,
+     "tips": "Makak maymunları dağ tepesinde; 20 dakika tırmanış, şehir manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sagano Romantic Train",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 880,
+     "tips": "Hozugawa vadisi tren; Torokko Saga, maymun yerine (sonbaharda müthiş)."
+    },
+    {
+     "name": "% Arabica Arashiyama",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 600,
+     "tips": "Nehir kıyısı kahve; kuyruk."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Kuzey: Kinkaku-ji, Ryoan-ji & Nijo",
+   "stops": [
+    {
+     "name": "Kinkaku-ji",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 500,
+     "tips": "Altın Köşk; 09:00 açılış, gölete yansıma, 30 dakika döngü."
+    },
+    {
+     "name": "Ryoan-ji",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 600,
+     "tips": "15 taşlı Zen bahçesi; sessiz otur, 14'ünü görürsün."
+    },
+    {
+     "name": "Ninna-ji",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 800,
+     "tips": "Beş katlı pagoda ve geç açan Omuro kirazı (nisan)."
+    },
+    {
+     "name": "Nijo Castle",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 1300,
+     "tips": "Şogun sarayı; 'bülbül döşemesi' gıcırdar, Ninomaru bahçesi, salı kapalı (bazı aylar)."
+    },
+    {
+     "name": "Honke Owariya",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 1800,
+     "tips": "1465'ten beri soba; Kyoto'nun en eski restoranı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ippudo Nishiki",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 1000,
+     "tips": "Ramen zinciri; hızlı."
+    },
+    {
+     "name": "Kyoto Imperial Palace",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "İmparatorluk sarayı; ücretsiz, Nijo yerine (pazartesi kapalı)."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Nara",
+   "stops": [
+    {
+     "name": "Nara Park Geyikleri",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 200,
+     "tips": "Kintetsu 35 dakika (Kyoto'dan direkt); 1.200 serbest geyik, shika senbei 200 yen, selam verirler."
+    },
+    {
+     "name": "Todai-ji Daibutsu",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 800,
+     "tips": "15 m bronz Buda; dünyanın en büyük ahşap binası, sütun deliği."
+    },
+    {
+     "name": "Kasuga Taisha",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 500,
+     "tips": "3.000 taş fener yolu; ormanda."
+    },
+    {
+     "name": "Nakatanidou Mochi",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 200,
+     "tips": "Kılıç hızında mochi dövme gösterisi; yomogi mochi."
+    },
+    {
+     "name": "Naramachi",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Eski tüccar mahallesi; Koshi-no-ie ev, kafeler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kamameshi Shizuka Nara",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 1500,
+     "tips": "Demlik pilav (kamameshi); park yanı."
+    },
+    {
+     "name": "Isuien Garden",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 1200,
+     "tips": "Todai-ji'yi ödünç alan bahçe; Naramachi yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Filozof Yolu & Ginkaku-ji",
+   "stops": [
+    {
+     "name": "Ginkaku-ji",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 500,
+     "tips": "Gümüş Köşk (gümüş değil); kum konisi ve yosun bahçesi."
+    },
+    {
+     "name": "Philosopher's Path",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "2 km kanal yolu; nisan kiraz, kasım akçaağaç, kediler."
+    },
+    {
+     "name": "Nanzen-ji",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 600,
+     "tips": "Su kemeri (Suirokaku) ve Sanmon kapısı; Tenjuan bahçesi."
+    },
+    {
+     "name": "Okutan Nanzenji Yudofu",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 3500,
+     "tips": "Kaynamış tofu (yudofu) tapınak yanı; 1635'ten, sessiz bahçe."
+    },
+    {
+     "name": "Heian Shrine",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 600,
+     "tips": "Dev kırmızı torii; bahçe (ağlayan kiraz nisan)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Blue Bottle Kyoto Nanzenji",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 700,
+     "tips": "Machiya'da kahve; tofu yerine."
+    },
+    {
+     "name": "Kyoto National Museum",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 700,
+     "tips": "Ulusal hazineler; Heian yerine yağmurda."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Pontocho sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Kamo Nehri Sabah Yürüyüşü",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 0,
+     "tips": "Nehir kıyısı; Sanjo-Shijo arası taşlar, balıkçıllar."
+    },
+    {
+     "name": "Pontocho Alley",
+     "category": "landmark",
+     "start": "09:15",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Dar geyşa sokağı gündüz sakin; akşam kawayuka terasları (mayıs-eylül)."
+    },
+    {
+     "name": "Kyoto Station Isetan",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Gar içinde depachika (bodrum yemek katı) ve yatsuhashi hediyelik; çatı Skyway ücretsiz."
+    },
+    {
+     "name": "Kyoto Ramen Koji",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 1100,
+     "tips": "Gar 10. katta 8 bölgesel ramen dükkânı; veda."
+    },
+    {
+     "name": "Kyoto Station Haruka Kansai",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 1800,
+     "tips": "Haruka ekspres Kansai'ye 75 dakika; Itami için otobüs 55 dakika."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kyoto Tower Sando",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 1000,
+     "tips": "Kule altı yemek sokağı."
+    },
+    {
+     "name": "To-ji",
+     "category": "culture",
+     "start": "09:15",
+     "end": "10:00",
+     "cost": 500,
+     "tips": "Japonya'nın en yüksek pagodası; gar yanı, ayın 21'i bit pazarı."
+    }
+   ]
+  }
+ ]
+}

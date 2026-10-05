@@ -1,0 +1,18 @@
+{
+ "source": "f3ab8f96634d",
+ "model": "sonnet",
+ "strings": {
+  "d2.s1.tips": "Köprü 2,7 km; bisikletle geç (hafta içi doğu kaldırımı). Yazın sis öğleye kadar sürer, rüzgârlıdır.",
+  "d3.s0.tips": "Pier 33'ten feribot (Alcatraz City Cruises, 45 USD); hücre sesli turu (eski mahkûmlar anlatır). Haftalar önce online bilet al; ilk feribot 08:45.",
+  "d3.s4.tips": "Telegraph Hill'de 1933 kulesi; Diego Rivera okulundan fresk, asansörle manzara, Filbert basamaklarında papağanlar.",
+  "d4.s3.tips": "1967 hippi köşesi; Amoeba Music, vintage dükkânları, Alamo Square'deki Painted Ladies'e 20 dakika.",
+  "d5.s3.tips": "Sekoya kasabası; meydanda Depot kitabevi.",
+  "d6.s4.tips": "LGBT mahallesi; gökkuşağı geçidi, Harvey Milk, 1922 sinema.",
+  "d6.b1.tips": "280 m şehir panoraması; Castro'dan 37 otobüsü, rüzgârlı.",
+  "d7.s3.tips": "BART ile havalimanı 30 dakika (Embarcadero'dan); veda.",
+  "note2": "Alcatraz ve Muir Woods rezervasyonunu haftalar önce yap; Academy 45 USD, Alcatraz 45 USD. %8,6 vergi ve %18-20 bahşiş fiyata dahil değil.",
+  "note4": "Geceleri Tenderloin'den (Union Square'in batısı) ve SoMa'daki 6. Cadde'den kaçın; arabada eşya bırakma (cam kırma); evsizlik görünür ama tehlike az.",
+  "transit.why_chosen": "Muni, cable car, BART ve feribotlarda geçerli; telefona yüklenir"
+ },
+ "warnings": []
+}

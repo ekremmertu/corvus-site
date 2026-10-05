@@ -1,0 +1,461 @@
+{
+ "lang": "tr",
+ "slug": "phuket-yaz",
+ "altSlug": "phuket-summer",
+ "citySlug": "phuket",
+ "destKey": "phuket",
+ "city": "Phuket",
+ "region": null,
+ "country": "Tayland",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "THB",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 8000,
+  "attractions": 7000,
+  "transport": 4000,
+  "misc": 2000
+ },
+ "notes": [
+  "Phuket'te toplu taşıma yok; scooter (ehliyet+kask), Grab ya da otel taksisi. Tuk-tuk pahalı, pazarlık.",
+  "Haziran-Ekim muson: kırmızı bayrakta denize girme (akıntı), tekne turları iptal olabilir, öğleden sonra sağanak yağar. Phang Nga Körfezi'ni ve kapalı aktiviteleri tercih et.",
+  "Tekne turlarını otelden alınış dahil online al; deniz tutması hapı ve mercan dostu güneş kremi götür.",
+  "Deniz ürünlerini Rawai pazarından kiloyla seç; pişirme ücreti kişi başı ayrı.",
+  "Tapınaklarda omuz-diz kapalı; Bangla Road'da içki fiyatını önce sor.",
+  "Fil binme yok; etik koruma alanlarını seç."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old Town & Big Buddha",
+   "stops": [
+    {
+     "name": "Phuket Old Town Thalang Road",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Sino-Portekiz renkli evler; sabah kafeler açılır, pazar günü yürüyüş sokağı."
+    },
+    {
+     "name": "Phuket Thai Hua Museum",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 200,
+     "tips": "Çin göçmen tarihi; klimalı, eski okul binası."
+    },
+    {
+     "name": "One Chun Cafe Phuket",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 300,
+     "tips": "Michelin Bib Gourmand yerel mutfak; moo hong (domuz karnı) ve yengeç."
+    },
+    {
+     "name": "Big Buddha Phuket",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "45 m mermer Buda tepede; adanın 360° manzarası, omuz-diz kapalı, taksi/scooter."
+    },
+    {
+     "name": "Wat Chalong",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "Phuket'in en önemli tapınağı; havai fişekli dilek geleneği."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kopitiam by Wilai",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 250,
+     "tips": "Hokkien erişte; Old Town."
+    },
+    {
+     "name": "Khao Rang Hill",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Şehir manzarası tepesi; Big Buddha yerine yakın."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Kata & Karon plajları",
+   "stops": [
+    {
+     "name": "Kata Noi Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "Muson dalgası: kırmızı bayrakta girme; sabah yürüyüş ve sörf dersi."
+    },
+    {
+     "name": "Kata Beach Sokak Tezgahları",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 200,
+     "tips": "Plaj arkasında pad thai ve mango sticky rice."
+    },
+    {
+     "name": "Karon Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "16:00",
+     "cost": 100,
+     "tips": "Yazın boş sahil; dalga izleme ve yürüyüş."
+    },
+    {
+     "name": "Karon Viewpoint",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Üç koyu birden gören seyir noktası; gün batımı öncesi."
+    },
+    {
+     "name": "Kata Night Market",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 300,
+     "tips": "Kata merkezinde gece pazarı; ızgara deniz ürünleri ve roti."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kampong Kata Hill Restaurant",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 600,
+     "tips": "Antika dolu Tay restoranı; Kata'da."
+    },
+    {
+     "name": "Dino Park Mini Golf",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "16:00",
+     "cost": 240,
+     "tips": "Yağmurda çocuklu aile için; Karon."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Phang Nga Körfezi (James Bond)",
+   "stops": [
+    {
+     "name": "James Bond Island Khao Phing Kan",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 1500,
+     "tips": "Kanolu tur (~1.500 THB); körfez içi yazın da sakin, kireçtaşı adalar ve mağaralar."
+    },
+    {
+     "name": "Koh Panyee",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kazıklı Müslüman balıkçı köyü; teknede öğle."
+    },
+    {
+     "name": "Hong Island Kano",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Deniz mağaralarına kano; tur dahil."
+    },
+    {
+     "name": "Suwan Kuha Temple",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Maymunlu mağara tapınağı; yatan Buda."
+    },
+    {
+     "name": "Rawai Seafood Market",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 600,
+     "tips": "Rawai'de balığı pazardan seç, karşıda pişirt; Phuket'in en ünlü deniz ürünü akşamı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kan Eang at Pier Chalong",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 700,
+     "tips": "Chalong iskelesinde deniz ürünleri; Rawai yerine."
+    },
+    {
+     "name": "Coral Island Koh Hae",
+     "category": "nature",
+     "start": "09:30",
+     "end": "16:00",
+     "cost": 1200,
+     "tips": "Yakın ada, yarım gün; Phi Phi iptalse."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Freedom Beach & Patong",
+   "stops": [
+    {
+     "name": "Freedom Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 200,
+     "tips": "Muson dalgasında tekne çalışmaz; Patong'dan Tri Trang plajı yürüyüşü."
+    },
+    {
+     "name": "Patong Beach",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Adanın en kalabalık plajı; yürüyüş ve jet ski (pazarlık)."
+    },
+    {
+     "name": "No.6 Restaurant Patong",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 200,
+     "tips": "Patong'un ucuz Tay lokantası; kuyruk hızlı, tom yum."
+    },
+    {
+     "name": "Jungceylon Shopping Mall",
+     "category": "shopping",
+     "start": "15:15",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "Klimalı AVM; yağmur ve sıcak molası."
+    },
+    {
+     "name": "Bangla Road",
+     "category": "landmark",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 0,
+     "tips": "Patong'un gece caddesi; bar ve gösteri, cüzdana dikkat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Baan Rim Pa Patong",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 1500,
+     "tips": "Kayalıkta kraliyet Tay mutfağı; gün batımı."
+    },
+    {
+     "name": "Simon Cabaret Phuket",
+     "category": "culture",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 900,
+     "tips": "Kabare gösterisi; Bangla yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Promthep & güney",
+   "stops": [
+    {
+     "name": "Nai Harn Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Muson dalgası; sabah yürüyüş ve gölün kenarı."
+    },
+    {
+     "name": "Nai Harn Beach Tezgahları",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 200,
+     "tips": "Plaj arkasında ızgara ve meyve shake."
+    },
+    {
+     "name": "Windmill Viewpoint",
+     "category": "nature",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Rüzgâr türbini seyir noktası; Nai Harn ve Ya Nui manzarası."
+    },
+    {
+     "name": "Promthep Cape",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Adanın en güney ucu; Phuket'in en ünlü gün batımı, 1 saat önce yer al."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rawai Beach Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 400,
+     "tips": "Rawai sahilinde Tay mutfağı."
+    },
+    {
+     "name": "Ya Nui Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Promthep altında minik şnorkel koyu."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Khao Sok / Elephant",
+   "stops": [
+    {
+     "name": "Phuket Elephant Sanctuary",
+     "category": "nature",
+     "start": "08:00",
+     "end": "12:00",
+     "cost": 3000,
+     "tips": "Etik fil koruma alanı; yarım gün besleme ve çamur banyosu (~3.000 THB), binme yok."
+    },
+    {
+     "name": "Elephant Sanctuary Vejetaryen Öğle",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Tur dahil vejetaryen öğle."
+    },
+    {
+     "name": "Bang Pae Waterfall",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Khao Phra Thaeo ormanında şelale; yazın su bol, 20 dakika yürüyüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Phuket Town Lock Tien",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 400,
+     "tips": "Alternatif öğle."
+    },
+    {
+     "name": "Gibbon Rehabilitation Project",
+     "category": "nature",
+     "start": "08:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Gibbon koruma; şelalenin yanı."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Old Town sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Old Town Soi Romanee",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "En fotojenik sokak; sabah ışığı."
+    },
+    {
+     "name": "Torry's Ice Cream Phuket",
+     "category": "food",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 150,
+     "tips": "Old Town'da yerel dondurma; hindistan cevizi."
+    },
+    {
+     "name": "Blue Elephant Phuket",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 900,
+     "tips": "Konakta kraliyet Tay mutfağı; veda öğle yemeği, yemek kursu da var."
+    },
+    {
+     "name": "Phuket Havalimanı Yolu Sirinat",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Havalimanı 45 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ka Jok See Phuket",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 800,
+     "tips": "Eski evde Tay mutfağı."
+    },
+    {
+     "name": "Sirinat National Park Nai Yang",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Havalimanı yanı plaj; uçak izleme."
+    }
+   ]
+  }
+ ]
+}

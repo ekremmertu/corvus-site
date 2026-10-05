@@ -1,0 +1,492 @@
+{
+ "lang": "en",
+ "slug": "san-francisco-october-may",
+ "altSlug": "san-francisco-ekim-mayis",
+ "citySlug": "san-francisco",
+ "destKey": "san-francisco",
+ "city": "San Francisco",
+ "region": null,
+ "country": "USA",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 520,
+  "attractions": 230,
+  "transport": 120,
+  "misc": 100
+ },
+ "notes": [
+  "With Clipper (on your phone): Muni 2.75, cable car 9, BART to SFO 10. The hills are steep, so Muni Metro plus buses works well. Uber, Lyft and Waymo (driverless) are also available.",
+  "September to October is best (sunny, 22°C). Winter is 10-14°C with rain from December to February. The redwoods are good in every season; Chinatown's New Year celebrations are in February.",
+  "Book Alcatraz and Muir Woods weeks ahead. The Academy costs 45 USD and Alcatraz 45 USD. The 8.6% tax and 18-20% tip are not included in prices.",
+  "Try sourdough (Tartine, Boudin), the Mission burrito, cioppino, dim sum and Ferry Building oysters. For coffee, go to Blue Bottle or Ritual.",
+  "At night, avoid the Tenderloin (west of Union Square) and 6th Street in SoMa. Do not leave belongings in the car (window smashing). Homelessness is visible but the danger is low.",
+  "Follow Karl the Fog on Instagram. Go to Twin Peaks or Battery Spencer at sunset to see the fog dance."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Clipper Card",
+  "why_chosen": "Valid on Muni, cable cars, BART and ferries; can be loaded onto your phone",
+  "coverage": "Muni otobüs/metro/cable car, BART, Golden Gate feribotu",
+  "where_to_buy": "Apple/Google Wallet veya istasyon",
+  "cost": 0,
+  "currency_code": "USD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Union Square, Chinatown and cable cars",
+   "stops": [
+    {
+     "name": "Powell Street Cable Car",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 9,
+     "tips": "The Powell-Hyde line, a cable car running since 1873. At 08:30 there is no queue: hang off the outside and get off at Lombard."
+    },
+    {
+     "name": "Lombard Street",
+     "category": "landmark",
+     "start": "09:15",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "The \"crookedest street in the world\" has 8 bends. Look down from Hyde."
+    },
+    {
+     "name": "Chinatown Dragon Gate & Grant Avenue",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "The oldest Chinatown in North America. Visit the Golden Gate Fortune Cookie Factory (Ross Alley)."
+    },
+    {
+     "name": "Good Mong Kok Bakery",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 8,
+     "tips": "Cash only, dim sum in a box to go. The queue moves fast."
+    },
+    {
+     "name": "Ferry Building Marketplace",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "A market in the 1898 ferry building: oysters (Hog Island), Blue Bottle, Acme sourdough. Farmers' market on Tuesday, Thursday and Saturday."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Boudin Bakery Fisherman's Wharf",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 15,
+     "tips": "Sourdough since 1849. Clam chowder is served in a bread bowl."
+    },
+    {
+     "name": "Exploratorium",
+     "category": "culture",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 40,
+     "tips": "Science museum at Pier 15. An alternative to the Embarcadero."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Golden Gate by bike and Sausalito",
+   "stops": [
+    {
+     "name": "Crissy Field & Fort Point",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Rent a bike at Fisherman's Wharf (40 USD/day). Ride the Presidio shoreline to the foot of the bridge, passing the Palace of Fine Arts on the way."
+    },
+    {
+     "name": "Golden Gate Bridge",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "The bridge is 2.7 km long. Cross by bike (east sidewalk on weekdays). In summer the fog lasts until noon and it is windy."
+    },
+    {
+     "name": "Sausalito",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A Mediterranean feel beyond the bridge, with houseboats (Waldo Point)."
+    },
+    {
+     "name": "Fish Sausalito",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 30,
+     "tips": "Sustainable seafood by the harbour. Cash only."
+    },
+    {
+     "name": "Sausalito Ferry",
+     "category": "nature",
+     "start": "15:00",
+     "end": "15:30",
+     "cost": 14,
+     "tips": "Take the Golden Gate Ferry back to the city (with your bike), with views of Alcatraz and the skyline."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Golden Gate Welcome Center Vista Point",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Without a bike: take the 28 bus to the bridge and walk."
+    },
+    {
+     "name": "Scoma's Sausalito",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "A classic over the water."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Alcatraz and North Beach",
+   "stops": [
+    {
+     "name": "Alcatraz Island",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:45",
+     "cost": 45,
+     "tips": "Ferry from Pier 33 (Alcatraz City Cruises, 45 USD). The cell house audio tour is narrated by former inmates. Book tickets online weeks ahead; the first ferry leaves at 08:45."
+    },
+    {
+     "name": "Pier 39 Sea Lions",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Hundreds of sea lions on K-Dock. Touristy but fun."
+    },
+    {
+     "name": "Tony's Pizza Napoletana",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "North Beach's world-champion pizza, near Washington Square."
+    },
+    {
+     "name": "City Lights Bookstore",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "The Beat Generation bookshop (1953), next to Vesuvio bar."
+    },
+    {
+     "name": "Coit Tower",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 10,
+     "tips": "A 1933 tower on Telegraph Hill. See frescoes by Diego Rivera's students, take the lift for the views, and look for parrots on the Filbert Steps."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mama's on Washington Square",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "North Beach brunch. Expect a queue."
+    },
+    {
+     "name": "Musée Mécanique",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Antique arcade machines at Pier 45. Free entry, an alternative to the sea lions."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Golden Gate Park and Haight",
+   "stops": [
+    {
+     "name": "California Academy of Sciences",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 45,
+     "tips": "Living roof, rainforest dome, aquarium and planetarium, all in Golden Gate Park."
+    },
+    {
+     "name": "Japanese Tea Garden",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 15,
+     "tips": "A tea garden from 1894 with a pagoda and bridge. Free early in the morning."
+    },
+    {
+     "name": "Nopalito Haight",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 22,
+     "tips": "Sustainable Mexican food: carnitas, next to the park."
+    },
+    {
+     "name": "Haight-Ashbury",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The hippie corner of 1967. Visit Amoeba Music and vintage shops; the Painted Ladies at Alamo Square are 20 minutes away."
+    },
+    {
+     "name": "Alamo Square Painted Ladies",
+     "category": "landmark",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Victorian houses against the skyline: the Full House shot."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zazie Cole Valley",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 22,
+     "tips": "French brunch with a garden."
+    },
+    {
+     "name": "Conservatory of Flowers",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 13,
+     "tips": "A Victorian greenhouse. An alternative to the tea garden."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Muir Woods and Marin",
+   "stops": [
+    {
+     "name": "Muir Woods National Monument",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Coast redwoods up to 80 m tall. A parking or shuttle reservation is REQUIRED (gomuirwoods.com). Allow 45 minutes by tour or car; the main loop takes 1 hour."
+    },
+    {
+     "name": "Muir Beach Overlook",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Pacific cliff views and a World War II lookout."
+    },
+    {
+     "name": "Pelican Inn Muir Beach",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 25,
+     "tips": "An English pub with fish and chips and a fireplace."
+    },
+    {
+     "name": "Mill Valley",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A redwood town. Visit the Depot bookstore on the square."
+    },
+    {
+     "name": "Marin Headlands Battery Spencer",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The best postcard view of the Golden Gate. Hawk Hill, and the dance of the fog."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Stinson Beach",
+     "category": "nature",
+     "start": "14:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A long Pacific beach. In summer, a alternative to Mill Valley and the Headlands."
+    },
+    {
+     "name": "Equator Coffees Mill Valley",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "Town coffee and sandwiches."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Mission and Castro",
+   "stops": [
+    {
+     "name": "Tartine Bakery",
+     "category": "food",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 12,
+     "tips": "Legendary sourdough and morning bun. Queue at 08:00 on Guerrero; across the street is Mission Dolores, a church from 1776."
+    },
+    {
+     "name": "Clarion Alley & Balmy Alley Murals",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Latin street art. See the Women's Building mural; a Precita Eyes tour is optional."
+    },
+    {
+     "name": "La Taqueria Mission",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 14,
+     "tips": "Award-winning Mission burrito (no rice). Cash only, with a queue."
+    },
+    {
+     "name": "Dolores Park",
+     "category": "nature",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A hilltop park with city views. Get Bi-Rite ice cream (queue) in the sunny neighbourhood."
+    },
+    {
+     "name": "Castro Street & Castro Theatre",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The LGBT neighbourhood: rainbow crosswalk, Harvey Milk, and a cinema from 1922."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bi-Rite Creamery",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 8,
+     "tips": "Salted caramel ice cream, next to the park."
+    },
+    {
+     "name": "Twin Peaks",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A 280 m city panorama. Take the 37 bus from Castro; it is windy."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Presidio: a gentle farewell",
+   "stops": [
+    {
+     "name": "Palace of Fine Arts",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "A 1915 imitation Roman ruin with a pond and swans."
+    },
+    {
+     "name": "Presidio Tunnel Tops",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A new park with Golden Gate views and a playground, next to the Walt Disney Family Museum."
+    },
+    {
+     "name": "Presidio Social Club",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 25,
+     "tips": "A restaurant in a former barracks. Brunch and a farewell."
+    },
+    {
+     "name": "BART SFO",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 10,
+     "tips": "The airport is 30 minutes by BART (from Embarcadero). Goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Walt Disney Family Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 25,
+     "tips": "The Disney museum in the Presidio. An alternative to Tunnel Tops."
+    },
+    {
+     "name": "Marina Green Breakfast Blue Barn",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 18,
+     "tips": "Marina salads and sandwiches."
+    }
+   ]
+  }
+ ]
+}

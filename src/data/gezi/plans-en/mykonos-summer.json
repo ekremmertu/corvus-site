@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "mykonos-summer",
+ "altSlug": "mikonos-yaz",
+ "citySlug": "mikonos",
+ "destKey": "mykonos",
+ "city": "Mykonos",
+ "region": null,
+ "country": "Greece",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 480,
+  "attractions": 180,
+  "transport": 200,
+  "misc": 120
+ },
+ "notes": [
+  "Buses (KTEL Fabrika and Old Port terminals) to the beaches cost 2 EUR; ATV or scooter 30-50 EUR; taxis are very scarce (expensive, no Uber). The airport is 4 km away.",
+  "Summer (July-August): the party island is packed; the meltemi wind makes the northern beaches rough while the south stays calm; beach club sunbeds cost 50-200 EUR. June and September are ideal.",
+  "Delos 12 + boat 22; taverna 20-30, beach club 60-100+, cocktail 15-20; one of Europe's most expensive islands; round up your tips.",
+  "Delos is closed on Mondays and has no shade, so bring water and a hat; Fokos has a dirt road (ATV); Paradise and Super Paradise parties start after 16:00.",
+  "Kopanisti (spicy cheese), louza (cured pork), kalathaki, Mykonos sandals; the Gioras bakery is 600 years old.",
+  "Sunset: Little Venice (crowded), Armenistis (quiet), 180° bar (book ahead)."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Chora and Little Venice",
+   "stops": [
+    {
+     "name": "Mykonos Chora Matoyianni",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "White maze-like lanes and bougainvillea; quiet in the morning, with boutiques."
+    },
+    {
+     "name": "Panagia Paraportiani",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "A whitewashed 'snowball' church formed from five chapels fused together; the island's symbol."
+    },
+    {
+     "name": "Kato Mili Windmills",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Five 16th-century windmills; views of Little Venice, best in the morning light."
+    },
+    {
+     "name": "Nikos Taverna Chora",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "A family taverna since the 1980s; lamb and moussaka, with Petros the pelican passing by."
+    },
+    {
+     "name": "Little Venice Sunset",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 15,
+     "tips": "Houses with balconies over the sea; cocktails at Caprice or Scarpa (15 EUR), and the waves splash."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kiki's Tavern Agios Sostis",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 22,
+     "tips": "A grill taverna without electricity; expect a queue, next to the beach (by vehicle)."
+    },
+    {
+     "name": "Aegean Maritime Museum",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 4,
+     "tips": "Combine with Lena's House; Tria Pigadia."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Delos",
+   "stops": [
+    {
+     "name": "Delos Ferry Old Port",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:40",
+     "cost": 22,
+     "tips": "The sacred island where Apollo was born; 30 minutes by boat (22 EUR return, 09:00/10:00). Closed on Mondays."
+    },
+    {
+     "name": "Delos Archaeological Site",
+     "category": "culture",
+     "start": "09:45",
+     "end": "12:30",
+     "cost": 12,
+     "tips": "A UNESCO-listed Hellenistic city; Terrace of the Lions, mosaics in the House of Dionysos (with a phallus monument), the theatre. No shade."
+    },
+    {
+     "name": "Mount Kynthos Delos",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "A 113 m hill with 360° views of the Cyclades; 20 minutes."
+    },
+    {
+     "name": "Delos Museum Cafe",
+     "category": "food",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 8,
+     "tips": "The only cafe; sandwiches. Return boats at 13:30/15:00."
+    },
+    {
+     "name": "Agios Stefanos Beach Afternoon",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A quiet beach near Chora; views of the ferries."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rinia Island Boat Tour",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 40,
+     "tips": "Delos's neighbour, with deserted coves; swimming and tours."
+    },
+    {
+     "name": "Mykonos Old Port Cafes",
+     "category": "food",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "Breakfast or lunch at the harbour; instead of the museum cafe."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Southern beaches: Paradise and Super Paradise",
+   "stops": [
+    {
+     "name": "Platis Gialos",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A family beach and starting point for water taxis; shallow sea."
+    },
+    {
+     "name": "Paraga Beach",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A small cove; Scorpios beach club (expensive, a sunset ritual)."
+    },
+    {
+     "name": "Paradise Beach",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A 1970s hippie beach, now a party spot; Tropicana day party after 16:00."
+    },
+    {
+     "name": "Super Paradise Beach",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 30,
+     "tips": "A steep cove; JackieO' beach club (LGBT-friendly), for lunch and sunbeds."
+    },
+    {
+     "name": "Elia Beach",
+     "category": "nature",
+     "start": "16:45",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "The island's longest quiet beach; sunbeds, and a water taxi back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Scorpios Paraga",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 60,
+     "tips": "A bohemian-luxe beach club; book ahead, a sunset ritual."
+    },
+    {
+     "name": "Agrari Beach",
+     "category": "nature",
+     "start": "16:45",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Elia's quiet neighbour; reachable on foot."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "North: Ano Mera and Fokos",
+   "stops": [
+    {
+     "name": "Panagia Tourliani Ano Mera",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "A monastery from 1542; marble bell tower, the island's inland village, weekend market."
+    },
+    {
+     "name": "Ano Mera Square Breakfast",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 8,
+     "tips": "A village square cafe; loukoumades (Greek doughnuts)."
+    },
+    {
+     "name": "Fokos Beach",
+     "category": "nature",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The island's deserted northern beach (dirt road); no facilities, natural."
+    },
+    {
+     "name": "Fokos Taverna",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 25,
+     "tips": "The beach's only taverna; homemade Greek food, Cycladic views."
+    },
+    {
+     "name": "Panormos Beach Principote",
+     "category": "nature",
+     "start": "15:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A stylish beach club (Principote) or the quiet end; the northern meltemi wind."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Agios Sostis Beach",
+     "category": "nature",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Fokos's neighbour; next to Kiki's taverna."
+    },
+    {
+     "name": "Mykonos Vioma Organic Farm",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 20,
+     "tips": "Organic vineyard and tasting; Ano Mera."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Boat tour: southern islands",
+   "stops": [
+    {
+     "name": "Ornos Harbour Boat Tour",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 90,
+     "tips": "Half- or full-day sailing boat or catamaran (about 90-150 EUR, lunch included); along the south coast."
+    },
+    {
+     "name": "Dragonisi Caves",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Sea caves and Mediterranean monk seals; snorkelling."
+    },
+    {
+     "name": "Lunch on Board",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Grilled food on deck; included."
+    },
+    {
+     "name": "Swimming in Rinia Coves",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A deserted island with turquoise coves; snorkelling."
+    },
+    {
+     "name": "Return to Ornos Beach",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Sunbeds and cocktails at Ornos; Kuzina restaurant."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kuzina Ornos",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 35,
+     "tips": "A beach restaurant; seafood."
+    },
+    {
+     "name": "Agios Ioannis Beach",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "The Shirley Valentine beach; views of the Delos sunset, instead of Ornos."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Chora culture and Armenistis",
+   "stops": [
+    {
+     "name": "Rarity Gallery Chora",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "A contemporary art gallery; Kalogera."
+    },
+    {
+     "name": "Folklore Museum Mykonos",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A folk museum in a captain's house; Kastro."
+    },
+    {
+     "name": "Sakis Grill House Chora",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 10,
+     "tips": "Souvlaki and gyros; cheap and good, Kalogera."
+    },
+    {
+     "name": "Armenistis Lighthouse",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "An 1891 lighthouse on the northwest cape; views of Tinos, a sunset alternative (without the crowds)."
+    },
+    {
+     "name": "180° Sunset Bar Chora",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 25,
+     "tips": "A hilltop bar; views of Chora and the sunset, book ahead."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kastro's Bar Little Venice",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 18,
+     "tips": "A sunset bar since 1976; classical music."
+    },
+    {
+     "name": "Mykonos Brewing Company",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 8,
+     "tips": "Tasting of the island's beer; instead of the grill."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Harbour morning and a gentle farewell",
+   "stops": [
+    {
+     "name": "Old Port Morning Fishermen",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 0,
+     "tips": "Petros the pelican and the fishing boats; a calm harbour."
+    },
+    {
+     "name": "Gioras Wood Bakery",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:00",
+     "cost": 5,
+     "tips": "A wood-fired bakery since 1420; the island's oldest, with tiropita (cheese pie) and kalathaki."
+    },
+    {
+     "name": "Chora Streets Last Walk",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Sandals (the Mykonos sandal) and kopanisti cheese make good souvenirs."
+    },
+    {
+     "name": "Mykonos Airport",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 10,
+     "tips": "4 km from Chora; taxi or bus. Farewell (Piraeus ferry: New Port)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trio Bougatsa Chora",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:00",
+     "cost": 5,
+     "tips": "Cretan bougatsa; instead of the bakery."
+    },
+    {
+     "name": "Ano Mera Saturday Market",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A village market (Saturday)."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "frankfurt-october-may",
+ "altSlug": "frankfurt-ekim-mayis",
+ "citySlug": "frankfurt",
+ "destKey": "frankfurt",
+ "city": "Frankfurt",
+ "region": null,
+ "country": "Germany",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 350,
+  "attractions": 140,
+  "transport": 110,
+  "misc": 70
+ },
+ "notes": [
+  "RMV day ticket 6 EUR (central zone). The airport is 15 minutes by S-Bahn (Europe's main transfer hub). Take the RE train to Heidelberg and Rüdesheim; the Hessen-Ticket is cheap for groups.",
+  "December brings the Römerberg Christmas market (one of Germany's oldest). Winter is 0-5°C, so plan for museums (2-day Museumsufer ticket) and concerts at the Alte Oper. Spring is the time for the Palmengarten.",
+  "Apfelwein 0.3 l 2.50 EUR (served in a Bembel jug), Grüne Soße 12, Schnitzel 18, museums 8-18. Round up the bill as a tip.",
+  "Museumsufer Ticket 21 EUR for 34 museums over 2 days. Städel closed Mondays; Kleinmarkthalle closed Sundays; flea market on Saturdays.",
+  "The Bahnhofsviertel (station district) has a drug scene: pass through by day and avoid it at night. For evening bars, head to Sachsenhausen.",
+  "Frankfurter Würstchen, Handkäs mit Musik (onion-marinated cheese), Bethmännchen (marzipan-almond cookies), Frankfurter Kranz."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old Town and Main Tower",
+   "stops": [
+    {
+     "name": "Römerberg",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Rebuilt half-timbered square with the Römer town hall. Empty before 09:30; Christmas market in December."
+    },
+    {
+     "name": "Frankfurter Dom",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "The emperors' coronation cathedral. Tower climb 3 EUR (328 steps)."
+    },
+    {
+     "name": "Kleinmarkthalle",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 10,
+     "tips": "Covered market opened in 1954 with 60+ stalls. Try Grüne Soße (green sauce with 7 herbs), Frankfurter sausage and the wine stand upstairs. Closed Sundays."
+    },
+    {
+     "name": "Main Tower",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 9,
+     "tips": "200 m observation deck with views of the 'Mainhattan' skyline and the Taunus."
+    },
+    {
+     "name": "Eiserner Steg & Main Kıyısı",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Iron footbridge covered in love locks. Cross to Sachsenhausen and walk the riverfront promenade."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zum Gemalten Haus Sachsenhausen",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 18,
+     "tips": "Apfelwein (apple wine) tavern. Order Handkäs mit Musik."
+    },
+    {
+     "name": "Historisches Museum Frankfurt",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 8,
+     "tips": "City history and models. Swap in for the tower."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Museumsufer",
+   "stops": [
+    {
+     "name": "Städel Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 18,
+     "tips": "700 years of European art: Vermeer, Botticelli, Beckmann, Richter. Museumsufer ticket 21 EUR (34 museums, 2 days). Closed Mondays."
+    },
+    {
+     "name": "Städel Café Holbein's",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Museum café for lunch."
+    },
+    {
+     "name": "Liebieghaus",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 10,
+     "tips": "Sculpture museum in a villa, with a garden café."
+    },
+    {
+     "name": "Deutsches Filmmuseum",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:45",
+     "cost": 8,
+     "tips": "Interactive history of cinema on the Museumsufer."
+    },
+    {
+     "name": "Museum Angewandte Kunst",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 12,
+     "tips": "Richard Meier's white design museum, with a park."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museum für Moderne Kunst MMK",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:45",
+     "cost": 12,
+     "tips": "'Slice of cake' building with contemporary art. Swap in for the Filmmuseum."
+    },
+    {
+     "name": "Maincafé Sachsenhausen",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "Riverside café with a lawn. Best in summer."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Heidelberg",
+   "stops": [
+    {
+     "name": "Heidelberg Castle",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 9,
+     "tips": "1 hour by train (RE). Ruined red sandstone castle above the Neckar, with a funicular, the world's largest wine barrel and the Pharmacy Museum."
+    },
+    {
+     "name": "Old Bridge Heidelberg",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "1788 stone bridge with the monkey statue, and a view toward the Philosophenweg."
+    },
+    {
+     "name": "Zum Roten Ochsen",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 22,
+     "tips": "Student tavern from 1703. Mark Twain ate here. Order the Schnitzel."
+    },
+    {
+     "name": "Hauptstraße & Universitätsplatz",
+     "category": "shopping",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Germany's longest pedestrian street at 1.6 km. Visit the Student Prison (Studentenkarzer, 4 EUR)."
+    },
+    {
+     "name": "Philosophenweg",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "The Philosophers' Walk on the far bank of the Neckar, with postcard views of the castle and old town. Then take the train back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Königstuhl Bergbahn",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 14,
+     "tips": "Funicular up the 568 m hill, with views over the Rhine plain. Swap in for the walk."
+    },
+    {
+     "name": "Café Knösel Heidelberg",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 12,
+     "tips": "Café from 1863. Try the Heidelberger Studentenkuss chocolate."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Palmengarten and Bornheim",
+   "stops": [
+    {
+     "name": "Palmengarten",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 7,
+     "tips": "Botanical garden from 1871 with a palm house and tropical greenhouse. Lovely in a German spring."
+    },
+    {
+     "name": "Grüneburgpark",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Former Rothschild park with a Korean garden and the IG Farben building (now the university)."
+    },
+    {
+     "name": "Senckenberg Naturmuseum",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "Germany's largest dinosaur collection, including a T. rex and Messel fossils."
+    },
+    {
+     "name": "Bornheim Berger Straße",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 15,
+     "tips": "Café street in the 'Bernem' district. Stop at Apfelwein Solzer."
+    },
+    {
+     "name": "Günthersburgpark",
+     "category": "nature",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Neighbourhood park with a rose garden."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Goethe House",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 10,
+     "tips": "The house where Goethe was born, in the centre. Swap in for Senckenberg."
+    },
+    {
+     "name": "Apfelwein Solzer Bornheim",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 18,
+     "tips": "Bornheim's classic apfelwein tavern."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Rhine Valley: Rüdesheim",
+   "stops": [
+    {
+     "name": "Rüdesheim Drosselgasse",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "1 hour by train (RB). A 144 m wine alley: touristy but charming."
+    },
+    {
+     "name": "Niederwalddenkmal Cable Car",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 10,
+     "tips": "Cable car above the vineyards to the Germania monument and views of the Rhine bend, in the UNESCO Middle Rhine valley."
+    },
+    {
+     "name": "Rüdesheimer Schloss",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Riesling tasting and Rüdesheimer Kaffee (coffee with Asbach brandy, flambéed)."
+    },
+    {
+     "name": "KD Rhine Boat Rüdesheim–St. Goar",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:45",
+     "cost": 30,
+     "tips": "Boats are limited in winter. Alternatively, take the cable car and walk to Assmannshausen, or visit Eberbach Abbey (The Name of the Rose set)."
+    },
+    {
+     "name": "St. Goar & Burg Rheinfels",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 6,
+     "tips": "Town opposite the Loreley with a ruined castle. The train back takes 1.5 hours."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kloster Eberbach",
+     "category": "culture",
+     "start": "14:00",
+     "end": "17:00",
+     "cost": 13,
+     "tips": "Cistercian monastery from 1136, with wine. Filming location for The Name of the Rose. Swap in for the boat."
+    },
+    {
+     "name": "Breuer's Rüdesheimer Schloss Restaurant",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 28,
+     "tips": "The hotel's own restaurant. Try the Rhine fish."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Sachsenhausen and Höchst",
+   "stops": [
+    {
+     "name": "Höchst Altstadt",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "15 minutes by S-Bahn. Half-timbered old town, Justinuskirche (830), Bolongaro Palace and the Main ferry."
+    },
+    {
+     "name": "Alt-Sachsenhausen Lunch Apfelwein Wagner",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Apfelwein tavern from 1931. Schnitzel mit Grüner Soße at long shared tables."
+    },
+    {
+     "name": "Sachsenhausen Cobbled Streets",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Klappergasse and the Kuhhirtenturm tower. Bar district in the evening."
+    },
+    {
+     "name": "Museum Giersch",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 6,
+     "tips": "Art of the Rhine-Main region in a villa on the Museumsufer."
+    },
+    {
+     "name": "Frankfurt Flohmarkt Sachsenhausen",
+     "category": "shopping",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Saturday flea market on the Main riverbank (every two weeks). On other days, walk along the river."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Adolf Wagner Apfelwein",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Sachsenhausen's best-loved apfelwein house."
+    },
+    {
+     "name": "Ebbelwoi-Express Tram",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 8,
+     "tips": "Nostalgic tram tour with apple wine (weekends). Swap in for the streets."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Zeil and Opera: easy farewell",
+   "stops": [
+    {
+     "name": "Alte Oper",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Opera house from 1880, with a fountain on the square."
+    },
+    {
+     "name": "Zeil & MyZeil",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Germany's busiest shopping street. MyZeil is the mall with the glass funnel."
+    },
+    {
+     "name": "Café Hauptwache",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 12,
+     "tips": "Café in the 1730 baroque guardhouse. Say your farewell here."
+    },
+    {
+     "name": "Hauptwache S-Bahn Airport",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 6,
+     "tips": "S8/S9 to the airport takes 15 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Konstablerwache Farmers Market",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 10,
+     "tips": "Market on Thursday to Saturday, with an apfelwein stand."
+    },
+    {
+     "name": "Eschenheimer Turm",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Medieval tower from 1428. Swap in for the opera."
+    }
+   ]
+  }
+ ]
+}

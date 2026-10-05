@@ -1,0 +1,500 @@
+{
+ "lang": "tr",
+ "slug": "paris-ekim-mayis",
+ "altSlug": "paris-october-may",
+ "citySlug": "paris",
+ "destKey": "paris",
+ "city": "Paris",
+ "region": null,
+ "country": "Fransa",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 520,
+  "attractions": 230,
+  "transport": 60,
+  "misc": 90
+ },
+ "notes": [
+  "Navigo Easy + t+ carnet metroda; Versailles için RER C, CDG için RER B (11 EUR). Şehir yürünür: 20 dakikalık mesafelere metroya binme.",
+  "Louvre, Orsay, Sainte-Chapelle için online saatli bilet şart; Louvre salı, Orsay pazartesi kapalı. Paris Museum Pass 2-6 gün.",
+  "Kış 3-8°C, 17:00'de hava karanlık; müzeler sakin, Noel vitrinleri (Galeries Lafayette), sıcak şarap pazarları Aralık'ta.",
+  "Bistro öğle menüsü (formule) 18-25 EUR, akşam fiyatının yarısı; su musluktan (carafe d'eau) bedava, bahşiş için hesabı yuvarla.",
+  "Bouillon'lar (Chartier, Racine) ucuz klasik; falafel Marais, kruvasan Pain Pain / Du Pain et des Idées.",
+  "Yankesiciye dikkat: metro 1 hattı ve Montmartre; sırt çantası önde."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Navigo Easy / t+ carnet",
+  "why_chosen": "Metro, RER, otobüs; 10'luk carnet en pratik, Versailles için RER C ek bilet",
+  "coverage": "Paris metro, otobüs, tramvay, RER zone 1",
+  "where_to_buy": "Metro istasyonları biletmatik; Navigo Easy kartı 2 EUR",
+  "cost": 2,
+  "currency_code": "EUR"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Louvre, Tuileries & Eyfel",
+   "stops": [
+    {
+     "name": "Louvre Müzesi",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 22,
+     "tips": "Mona Lisa'ya ilk koş, sonra Denon kanadı; online saatli bilet (AB dışı 32 EUR), Carrousel girişi kuyruksuz."
+    },
+    {
+     "name": "Jardin des Tuileries",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Louvre'dan Concorde'a bahçe yürüyüşü; yeşil sandalyeler."
+    },
+    {
+     "name": "Café Kitsuné Palais Royal",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "Palais Royal bahçesinde kahve ve sandviç; sütunlu avlu."
+    },
+    {
+     "name": "Musée de l'Orangerie",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "Monet'nin Nilüferler'i oval salonlarda; Louvre'un yanında, sakin."
+    },
+    {
+     "name": "Eyfel Kulesi",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 29,
+     "tips": "2. kat merdiven + zirve asansör kombinasyonu (~29 EUR); online bilet, gün batımı; Trocadéro'dan fotoğraf."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Le Petit Cler",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 25,
+     "tips": "Rue Cler'de bistro; Eyfel'e yakın."
+    },
+    {
+     "name": "Champ de Mars",
+     "category": "nature",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Kulenin altında çim; piknik ve ışık gösterisi (her saat başı)."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Île de la Cité, Latin Quarter & Saint-Germain",
+   "stops": [
+    {
+     "name": "Notre-Dame de Paris",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Restore edilmiş katedral; ücretsiz, online saat rezervasyonu, sabah sakin."
+    },
+    {
+     "name": "Sainte-Chapelle",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 13,
+     "tips": "1.113 vitray paneli; güneşli sabahta en güzel, online bilet."
+    },
+    {
+     "name": "Shakespeare and Company",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Efsane İngilizce kitapçı; Seine kıyısı."
+    },
+    {
+     "name": "Le Comptoir du Panthéon",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 20,
+     "tips": "Panthéon karşısında bistro; steak-frites ve teras."
+    },
+    {
+     "name": "Panthéon",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 13,
+     "tips": "Voltaire, Hugo, Curie'nin mezarları; Foucault sarkacı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bouillon Racine",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 18,
+     "tips": "Art nouveau bouillon; ucuz klasik Fransız menü."
+    },
+    {
+     "name": "Jardin du Luxembourg",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Senato bahçesi; havuz ve sandalyeler, Panthéon yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Montmartre",
+   "stops": [
+    {
+     "name": "Sacré-Cœur",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Bazilika ücretsiz; kubbe 8 EUR, sabah merdivenler boş, Paris manzarası."
+    },
+    {
+     "name": "Place du Tertre",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Ressamlar meydanı; portre 40-60 EUR pazarlıklı."
+    },
+    {
+     "name": "Montmartre Bağı & Lapin Agile",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Paris'in son bağı ve kabare; Rue des Saules."
+    },
+    {
+     "name": "Chantoiseau Montmartre",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 35,
+     "tips": "Place du Tertre'ye 7 dakika, neo-bistro; öğle menüsü."
+    },
+    {
+     "name": "Musée de Montmartre",
+     "category": "culture",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "Renoir'ın atölyesi ve bahçeler; bağ manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Boulangerie Pain Pain",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 6,
+     "tips": "Ödüllü baget ve pastane; hızlı öğle."
+    },
+    {
+     "name": "Moulin Rouge",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Pigalle'de dışarıdan; akşam gösteri ayrı (~120 EUR)."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Le Marais",
+   "stops": [
+    {
+     "name": "Place des Vosges",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Paris'in en eski meydanı; kemerler ve Victor Hugo'nun evi (ücretsiz)."
+    },
+    {
+     "name": "Musée Picasso Paris",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 16,
+     "tips": "Hôtel Salé'de Picasso koleksiyonu; online bilet."
+    },
+    {
+     "name": "L'As du Fallafel",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 10,
+     "tips": "Rue des Rosiers'de önünde kuyruk olan falafel; ayakta ye."
+    },
+    {
+     "name": "Marché des Enfants Rouges",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 12,
+     "tips": "Paris'in en eski pazarı; Fas, Japon, Lübnan tezgahları."
+    },
+    {
+     "name": "Centre Pompidou",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 15,
+     "tips": "Tersyüz mimari; modern sanat ve terastan Paris manzarası (2025-30 tadilat: kapalıysa Bourse de Commerce)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bourse de Commerce Pinault Collection",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 15,
+     "tips": "Tadao Ando'nun beton silindiri; çağdaş sanat, Pompidou kapalıysa."
+    },
+    {
+     "name": "Au Petit Versailles du Marais",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 8,
+     "tips": "Ödüllü kruvasan ve kiş; falafel yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Orsay & Seine",
+   "stops": [
+    {
+     "name": "Musée d'Orsay",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 16,
+     "tips": "Empresyonistler eski garda; Van Gogh 5. kat, saat kadranından fotoğraf, online bilet."
+    },
+    {
+     "name": "Rue du Bac & Bon Marché",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Grande Épicerie gıda mağazası; hediyelik."
+    },
+    {
+     "name": "Café de Flore",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Saint-Germain'in edebi kafesi; croque monsieur ve sıcak çikolata."
+    },
+    {
+     "name": "Pont des Arts & Seine Kıyısı",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Köprüden Île de la Cité; kıyı yolunda yürüyüş."
+    },
+    {
+     "name": "Bateaux Parisiens Seine Turu",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:15",
+     "cost": 18,
+     "tips": "1 saatlik nehir turu; gün batımı ışığında Notre-Dame ve Eyfel, Eyfel iskelesinden."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bateaux Mouches",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:45",
+     "cost": 16,
+     "tips": "Alma köprüsünden diğer tur şirketi."
+    },
+    {
+     "name": "La Grande Épicerie de Paris",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Bon Marché'nin gıda katı; tezgahtan öğle, Café de Flore yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Versailles",
+   "stops": [
+    {
+     "name": "Château de Versailles",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 21,
+     "tips": "RER C 45 dakika; saray + bahçe + Trianon pasaportu (~32 EUR); Aynalı Salon 09:00 açılışta boş."
+    },
+    {
+     "name": "Versailles Bahçeleri",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Kış bahçeleri ücretsiz; fıskiyeler kapalı, yürüyüş."
+    },
+    {
+     "name": "La Flottille Versailles",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 25,
+     "tips": "Grand Canal kenarında restoran; sandal kiralama yanında."
+    },
+    {
+     "name": "Petit Trianon & Hameau de la Reine",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Marie Antoinette'in köyü; pasaportla dahil, kraliçenin çiftliği."
+    },
+    {
+     "name": "Marché Notre-Dame Versailles",
+     "category": "shopping",
+     "start": "16:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Şehirde gıda pazarı; peynir ve dönüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Angelina Versailles",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 20,
+     "tips": "Sarayın içinde sıcak çikolata ve Mont-Blanc."
+    },
+    {
+     "name": "Grand Trianon",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Pembe mermer köşk; Petit Trianon yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Canal Saint-Martin — hafif veda",
+   "stops": [
+    {
+     "name": "Canal Saint-Martin",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Demir köprüler ve kanal kilitleri; sabah kahvesi, Amélie sahneleri."
+    },
+    {
+     "name": "Du Pain et des Idées",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 8,
+     "tips": "Paris'in en iyi fırınlarından; escargot chocolat-pistache."
+    },
+    {
+     "name": "Marché d'Aligre",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Bastille'de günlük pazar; peynir ve hediyelik gıda."
+    },
+    {
+     "name": "Le Baron Rouge",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "Aligre pazarı yanında şarap barı; istiridye ve fıçıdan şarap, veda."
+    },
+    {
+     "name": "Gare du Nord / RER B",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "CDG'ye RER B 35 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Holybelly Canal",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 18,
+     "tips": "Kanal kenarı brunch."
+    },
+    {
+     "name": "Coulée Verte René-Dumont",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Eski demiryolu üstünde yeşil yol; Aligre yerine."
+    }
+   ]
+  }
+ ]
+}

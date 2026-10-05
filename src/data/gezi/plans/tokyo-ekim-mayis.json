@@ -1,0 +1,500 @@
+{
+ "lang": "tr",
+ "slug": "tokyo-ekim-mayis",
+ "altSlug": "tokyo-october-may",
+ "citySlug": "tokyo",
+ "destKey": "tokyo",
+ "city": "Tokyo",
+ "region": null,
+ "country": "Japonya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "JPY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 50000,
+  "attractions": 16000,
+  "transport": 8000,
+  "misc": 10000
+ },
+ "notes": [
+  "Suica kartla her tren; Google Maps tren saatlerinde kusursuz. JR Pass Tokyo içi gereksiz, Nikko için Tobu pass.",
+  "Kasım momiji, Aralık ışıklar, Mart sonu sakura; kış 5-10°C, kuru ve net Fuji manzarası.",
+  "Nakit hâlâ önemli (küçük ramen dükkânları); 7-Eleven ATM'leri yabancı kart alır. Bahşiş yok.",
+  "Tapınaklarda sessiz ol; içeride fotoğraf yasak. Metroda telefonla konuşma, yürürken yemek yeme.",
+  "Shibuya Sky ve teamLab biletleri haftalar önce; Tsukiji 10:00'dan önce.",
+  "Ramen 1.000-1.500 JPY, konbini kahvaltı 500 JPY; suşi tezgahı 3.000+."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Suica / Welcome Suica",
+  "why_chosen": "JR, metro, otobüs ve konbini'de geçer; telefona da yüklenir",
+  "coverage": "Tokyo'daki tüm tren ve metro hatları, otobüsler, marketler",
+  "where_to_buy": "Havalimanı ve JR istasyonları; iPhone Wallet",
+  "cost": 2000,
+  "currency_code": "JPY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Asakusa & Skytree",
+   "stops": [
+    {
+     "name": "Senso-ji",
+     "category": "culture",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Tokyo'nun en eski tapınağı; Kaminarimon feneri, 08:00'de Nakamise boş, omikuji fal çek."
+    },
+    {
+     "name": "Nakamise Dori",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Tapınak yolu dükkânları; ningyo-yaki ve senbei."
+    },
+    {
+     "name": "Asakusa Kappabashi",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Mutfak gereçleri sokağı; Japon bıçağı ve plastik yemek modeli."
+    },
+    {
+     "name": "Asakusa Unatoto",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 1500,
+     "tips": "Ucuz unagi (yılan balığı) donburi; kuyruk kısa."
+    },
+    {
+     "name": "Tokyo Skytree",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 3100,
+     "tips": "634 m; Tembo Deck bileti online, öğleden sonra net hava, Sumida Nehri üstünden yürü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Asakusa Imahan",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 4000,
+     "tips": "1895'ten beri sukiyaki; özel öğle."
+    },
+    {
+     "name": "Sumida Nehri Tekne Turu",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 1200,
+     "tips": "Asakusa'dan Odaiba'ya su otobüsü; Skytree yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Shibuya & Harajuku",
+   "stops": [
+    {
+     "name": "Meiji Jingu",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Ormanın içinde Şinto tapınağı; sake fıçıları, sabah sakin, hafta sonu düğün alayı."
+    },
+    {
+     "name": "Takeshita Street",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Harajuku gençlik modası; krep tezgahları, 11:00 sonrası izdiham."
+    },
+    {
+     "name": "Omotesando",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Tokyo'nun Champs-Élysées'i; mimari ve Tokyu Plaza aynalı giriş."
+    },
+    {
+     "name": "Afuri Ramen Harajuku",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 1200,
+     "tips": "Yuzu shio ramen; biletmatikten sipariş."
+    },
+    {
+     "name": "Shibuya Sky",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 2500,
+     "tips": "Shibuya Scramble üstünde açık teras; gün batımı slotu haftalar önce online, kavşağı tepeden izle."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ichiran Shibuya",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 1100,
+     "tips": "Tek kişilik kabinlerde tonkotsu ramen; 24 saat."
+    },
+    {
+     "name": "Yoyogi Park",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Meiji'nin yanında park; hafta sonu rockabilly dansçıları."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Tsukiji, Ginza & teamLab",
+   "stops": [
+    {
+     "name": "Tsukiji Outer Market",
+     "category": "food",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 2500,
+     "tips": "Sabah tezgahlarından tamago, uni ve ton balığı; 10:00 öncesi git, ayakta ye."
+    },
+    {
+     "name": "Hamarikyu Gardens",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 300,
+     "tips": "Gökdelenler arasında Edo bahçesi; çay evinde matcha."
+    },
+    {
+     "name": "Ginza Chuo Dori",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Hafta sonu araç trafiğine kapalı; Itoya kırtasiye, Uniqlo 12 kat."
+    },
+    {
+     "name": "Ginza Kagari Ramen",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 1500,
+     "tips": "Tavuk paitan ramen; küçük tezgah, kuyruk."
+    },
+    {
+     "name": "teamLab Planets",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 3800,
+     "tips": "Suya girilen dijital sanat müzesi; bilet online haftalar önce, şort giy (su dize kadar)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sushi Dai Toyosu",
+     "category": "food",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 5000,
+     "tips": "Toyosu pazarında efsane suşi; 05:00 kuyruğu."
+    },
+    {
+     "name": "Ginza Six Çatı Bahçesi",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "AVM çatısı; teamLab bileti yoksa."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Shinjuku & Yanaka",
+   "stops": [
+    {
+     "name": "Tokyo Metropolitan Government Building",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "45. kat ücretsiz gözlem; açık havada Fuji görünür."
+    },
+    {
+     "name": "Shinjuku Gyoen",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:15",
+     "cost": 500,
+     "tips": "Japon, İngiliz ve Fransız bahçeleri; sakura ve momiji mevsiminde en güzel."
+    },
+    {
+     "name": "Fuunji Shinjuku",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 1100,
+     "tips": "Tsukemen (batırmalı ramen) efsanesi; 20 dakika kuyruk."
+    },
+    {
+     "name": "Yanaka Ginza",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Eski Tokyo (shitamachi) alışveriş sokağı; kediler, menchi katsu, Yanaka mezarlığı."
+    },
+    {
+     "name": "Omoide Yokocho",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 2500,
+     "tips": "Shinjuku'da izakaya ara sokağı; yakitori ve bira, 'Piss Alley'."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Golden Gai",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 2000,
+     "tips": "Küçük barlar mahallesi; kapak ücreti sor."
+    },
+    {
+     "name": "Nezu Shrine",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Yanaka yakınında kırmızı torii tüneli; Nisan azalea."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Akihabara, Ueno & Odaiba",
+   "stops": [
+    {
+     "name": "Ueno Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Müzeler parkı; sakura mevsiminde Tokyo'nun kalbi."
+    },
+    {
+     "name": "Tokyo National Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 1000,
+     "tips": "Japonya'nın en büyük müzesi; samuray zırhları ve ukiyo-e."
+    },
+    {
+     "name": "Ameyoko Market",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 1000,
+     "tips": "Ueno altındaki pazar; sokak yemeği ve kuru meyve."
+    },
+    {
+     "name": "Akihabara Electric Town",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Elektronik, anime, retro oyun; Yodobashi ve Super Potato."
+    },
+    {
+     "name": "Odaiba Seaside Park",
+     "category": "nature",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Yurikamome hattıyla yapay ada; Rainbow Bridge gün batımı, dev Gundam."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kanda Matsuya Soba",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 1000,
+     "tips": "1884'ten beri soba; Akihabara yanı."
+    },
+    {
+     "name": "Ueno Zoo",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 600,
+     "tips": "Pandalar; müze yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Nikko",
+   "stops": [
+    {
+     "name": "Toshogu Shrine Nikko",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 1600,
+     "tips": "Tokyo'dan 2 saat (Tobu); Tokugawa'nın altın kaplama türbesi, üç maymun, kar altında en güzel."
+    },
+    {
+     "name": "Rinnoji Temple",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 1000,
+     "tips": "Üç altın Buda; Toshogu'nun yanı."
+    },
+    {
+     "name": "Nikko Yuba Lokantası",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 1500,
+     "tips": "Nikko'nun soya kaymağı yuba yemeği."
+    },
+    {
+     "name": "Kegon Şelalesi",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 570,
+     "tips": "97 m şelale, asansörle dibine; kışın buz."
+    },
+    {
+     "name": "Chuzenji Gölü",
+     "category": "nature",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Dağ gölü ve onsen; Nikko dönüşü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nikko Kanaya Hotel Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 1500,
+     "tips": "Alternatif öğle."
+    },
+    {
+     "name": "Shinkyo Köprüsü",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Kırmızı kutsal köprü."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Tokyo Station & Imparatorluk — hafif veda",
+   "stops": [
+    {
+     "name": "Imperial Palace East Gardens",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Eski Edo kalesi bahçeleri; ücretsiz, pazartesi ve cuma kapalı."
+    },
+    {
+     "name": "Tokyo Station Marunouchi",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "1914 kırmızı tuğla gar; Character Street ve ekiben."
+    },
+    {
+     "name": "Rokurinsha Tokyo Station",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 1300,
+     "tips": "Ramen Street'te tsukemen; veda öğle yemeği."
+    },
+    {
+     "name": "Tokyo Character Street",
+     "category": "shopping",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Hediyelik; Kit Kat çeşitleri ve Tokyo Banana."
+    },
+    {
+     "name": "Narita Express / Keisei",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Narita 1 saat, Haneda 30 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kitchen Street Tokyo Station",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 1500,
+     "tips": "Gar altında lokantalar."
+    },
+    {
+     "name": "Nihonbashi Köprüsü",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Japonya'nın kilometre sıfırı; Coredo AVM."
+    }
+   ]
+  }
+ ]
+}

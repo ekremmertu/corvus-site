@@ -1,0 +1,477 @@
+{
+ "lang": "en",
+ "slug": "munich-summer",
+ "altSlug": "munih-yaz",
+ "citySlug": "munih",
+ "destKey": "munich",
+ "city": "Munich",
+ "region": null,
+ "country": "Germany",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 380,
+  "attractions": 150,
+  "transport": 90,
+  "misc": 70
+ },
+ "notes": [
+  "A day ticket on the MVV costs about 9 EUR; the S-Bahn to the airport takes 40 minutes. For Neuschwanstein, take the Bayern-Ticket (train and bus) or a tour.",
+  "Summer temperatures are 25-30°C. Enjoy the beer gardens and the Isar, and surf at the Eisbach. Oktoberfest runs for the last 2 weeks of September (hotel prices triple).",
+  "A Mass of beer costs 15 EUR (16+ at Oktoberfest), a Brezn 2 EUR, Schweinshaxe 20 EUR. You can bring your own food to a beer garden. When tipping, round up the bill.",
+  "Weisswurst is eaten before noon and the skin is peeled off. Serve it with sweet mustard.",
+  "Museums cost 1 EUR on Sundays (the Pinakothek galleries). Book Neuschwanstein tickets online weeks ahead.",
+  "The Dachau memorial is free and open on Mondays. Be quiet and respectful."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Marienplatz and the Altstadt",
+   "stops": [
+    {
+     "name": "Marienplatz",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Glockenspiel at 11:00 (and 12:00, plus 17:00 in summer). The New Town Hall tower lift costs 6 EUR."
+    },
+    {
+     "name": "Frauenkirche",
+     "category": "culture",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Cathedral with twin onion-domed towers. Look for the Devil's footprint."
+    },
+    {
+     "name": "Viktualienmarkt",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 15,
+     "tips": "A food market since 1807. Try Weisswurst (by tradition eaten before noon), Obazda (spiced cheese spread) and the beer garden."
+    },
+    {
+     "name": "Asamkirche",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Rococo church on Sendlinger Strasse."
+    },
+    {
+     "name": "Hofbräuhaus München",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 25,
+     "tips": "A beer hall dating from 1589: Mass (litre) beers, Schweinshaxe (roast pork knuckle) and a brass band. You share long tables with locals."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Augustiner Bräustuben",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 20,
+     "tips": "The brewery's own hall, a local alternative to the Hofbräuhaus."
+    },
+    {
+     "name": "St. Peter's Church Tower (Alter Peter)",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 5,
+     "tips": "306 steps up to views over Marienplatz. An alternative to the Frauenkirche."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Residenz and the Englischer Garten",
+   "stops": [
+    {
+     "name": "Munich Residence",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 10,
+     "tips": "The Wittelsbach palace, with the Antiquarium, the treasury and the Cuvilliés Theatre."
+    },
+    {
+     "name": "Hofgarten",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Palace garden with the Temple of Diana."
+    },
+    {
+     "name": "Eisbachwelle",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Surfers ride a river wave in the middle of the city, all year round."
+    },
+    {
+     "name": "Chinesischer Turm Biergarten",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 18,
+     "tips": "Beer garden by the Chinese pagoda in the Englischer Garten. You can bring your own food; try Brezn (pretzel) and Steckerlfisch (fish grilled on a stick)."
+    },
+    {
+     "name": "Englischer Garten Monopteros",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Larger than Central Park. The Greek-style temple on the hill gives city views, and you can take a rowing boat on Lake Kleinhesselohe."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seehaus im Englischen Garten",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 25,
+     "tips": "Lakeside restaurant."
+    },
+    {
+     "name": "Alte Pinakothek",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 9,
+     "tips": "Dürer, Rubens, Rembrandt. Entry is 1 EUR on Sundays. A good option instead of the park when it rains."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Nymphenburg and Olympiapark",
+   "stops": [
+    {
+     "name": "Nymphenburg Palace",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Baroque summer palace with the Gallery of Beauties and the Amalienburg. The park is free."
+    },
+    {
+     "name": "Nymphenburg Palace Park",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Canals and pavilions, with swans."
+    },
+    {
+     "name": "Schlosscafé im Palmenhaus",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "Greenhouse café for lunch in the palace park."
+    },
+    {
+     "name": "Olympiapark",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The tent roofs of the 1972 Olympics. The Olympic Tower viewing platform costs 13 EUR."
+    },
+    {
+     "name": "BMW Welt & Museum",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "BMW Welt is free and the museum costs 10 EUR. Next to Olympiapark."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Olympiaturm Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Revolving restaurant in the tower."
+    },
+    {
+     "name": "Pinakothek der Moderne",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "Modern art and design. An alternative to BMW."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Dachau and Schwabing",
+   "stops": [
+    {
+     "name": "Dachau Concentration Camp Memorial Site",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "45 minutes by S2 and bus. Memorial to the first concentration camp, free entry, audio guide 4 EUR. Heavy going, but important."
+    },
+    {
+     "name": "Dachau Altstadt",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Old town and palace garden for a quiet break."
+    },
+    {
+     "name": "Schwabing Leopoldstrasse",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Bohemian district with the Siegestor and cafés."
+    },
+    {
+     "name": "Café Luitpold",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 12,
+     "tips": "A coffeehouse since 1888. Try the Prinzregententorte."
+    },
+    {
+     "name": "Glockenbachviertel",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Gay-friendly neighbourhood with bars and Gärtnerplatz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bratwurstherzl Viktualienmarkt",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 15,
+     "tips": "Nuremberg sausages next to the market."
+    },
+    {
+     "name": "Lenbachhaus",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 10,
+     "tips": "Home of the Blaue Reiter (Kandinsky, Marc). An alternative to Schwabing."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Neuschwanstein",
+   "stops": [
+    {
+     "name": "Neuschwanstein Castle",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 21,
+     "tips": "2.5 hours by train and bus (Bayern-Ticket) or on a tour. Ludwig's fairy-tale castle. Book your timed ticket online weeks ahead; the climb takes 30 minutes."
+    },
+    {
+     "name": "Marienbrücke",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The bridge with the postcard view of the castle. It may be closed in winter because of ice."
+    },
+    {
+     "name": "Hohenschwangau Castle",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 21,
+     "tips": "Ludwig's childhood castle. Combined ticket available."
+    },
+    {
+     "name": "Alpsee Lake Walk",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Mountain lake below the castles, with swans."
+    },
+    {
+     "name": "Füssen Altstadt",
+     "category": "food",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 18,
+     "tips": "Medieval town. Try Käsespätzle (cheese noodles) before the train back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Schlossrestaurant Neuschwanstein",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Restaurant below the castle."
+    },
+    {
+     "name": "Tegelbergbahn",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 25,
+     "tips": "Cable car to an Alpine summit. An alternative to the lake."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Deutsches Museum and the Isar",
+   "stops": [
+    {
+     "name": "Deutsches Museum",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "The world's largest science and technology museum, with a mine, aircraft and a planetarium."
+    },
+    {
+     "name": "Isar River Walk",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "River island and banks. In summer people swim and barbecue here."
+    },
+    {
+     "name": "Wirtshaus in der Au",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Bavarian inn specialising in Knödel (dumplings), in the Au district."
+    },
+    {
+     "name": "Müllersches Volksbad",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 6,
+     "tips": "Art nouveau swimming pool from 1901, with a sauna."
+    },
+    {
+     "name": "Gärtnerplatz",
+     "category": "landmark",
+     "start": "17:15",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Round square with a theatre. Best in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Der Pschorr Viktualienmarkt",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 22,
+     "tips": "Bavarian food beside the market."
+    },
+    {
+     "name": "Deutsches Museum Verkehrszentrum",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 8,
+     "tips": "Transport museum. An alternative to the baths."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Theresienwiese and a light farewell",
+   "stops": [
+    {
+     "name": "Theresienwiese & Bavaria Statue",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "The Oktoberfest grounds (September to October). Take in the view from the head of the Bavaria statue."
+    },
+    {
+     "name": "Augustiner-Keller Biergarten",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 18,
+     "tips": "Beer garden for 5,000 under chestnut trees. Have a Mass and a Brezn for your farewell."
+    },
+    {
+     "name": "Munich Central Station",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "The S-Bahn to the airport takes 40 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dallmayr",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "Luxury delicatessen and café at Marienplatz. Good for souvenirs."
+    },
+    {
+     "name": "Alter Botanischer Garten",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Park beside the station. An alternative to Theresienwiese."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,495 @@
+{
+ "lang": "en",
+ "slug": "safranbolu-summer",
+ "altSlug": "safranbolu-yaz",
+ "citySlug": "safranbolu",
+ "destKey": "safranbolu",
+ "city": "Safranbolu",
+ "region": "Karabük",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 10100,
+  "attractions": 2350,
+  "transport": 1150,
+  "misc": 400
+ },
+ "notes": [
+  "Tradesmen's restaurants and small shops in the Old Bazaar mostly prefer cash; cards may not work at places outside the centre such as Yörük Village and Baklabostan, so carry small change.",
+  "The town centre is fully walkable; places outside the centre such as Yörük Village, Amasra and Baklabostan require a private car or taxi, and there is no official public transport card system.",
+  "Tips are not included in the bill at restaurants and cafés; leaving 5-10% of the bill is enough and expected.",
+  "When entering Cinci Hamam and visiting mosques, wear clothes that cover shoulders and knees; women should cover their heads inside mosques, but this is not needed in the hamam.",
+  "Midday heat rises in July; it is more comfortable to spend 12:00-15:00 in enclosed or shaded places such as the hamam and museums, and leave strenuous walks for early morning or late afternoon.",
+  "Most historic mansion hotels are built entirely of wood; following the mansion's rules on smoking and open flames matters for both safety and respect.",
+  "In neighbourhoods that are still lived in, such as Yörük Village and Kıranköy, do not enter mansion gardens without permission, and ask before photographing residents."
+ ],
+ "niche": {
+  "name": "Baklabostan Waterfall",
+  "level": "l2",
+  "why_hidden": "Because Safranbolu is promoted almost entirely through its wooden Ottoman houses and Old Bazaar, this natural waterfall and nature park within the same district appears in almost no standard travel guides. Local families go for weekend picnics, but it hardly features on tourist routes.",
+  "access_instructions": "About 35-40 minutes from central Safranbolu by private car or taxi, heading towards Karabük Başköy; there is no public transport, and the signs give enough direction. No ticket office or booking is needed, and it is open 24 hours.",
+  "local_contact": "Yok — resmi bir işletmeci veya gişe görevlisi bulunmuyor, giriş serbest ve ücretsiz.",
+  "season": "Summer (June to September) is the ideal time; the rock pools stay icy even in the summer heat. In winter and early spring the water flow increases, but the path can become slippery.",
+  "insider_tip": "On weekend afternoons it gets crowded with picnickers, while between 10:00 and 12:00 you will have it almost to yourself. If you want to get into the rock pools, bring a change of clothes and non-slip sandals.",
+  "show_reason": "Ücretsiz, fotojenik ve yaz sıcağında serinlemek için mükemmel bir doğa molası sunuyor; ama Safranbolu'ya dair hiçbir standart turda veya listede standart madde olarak geçmiyor, tamamen yerel bilgiyle bulunuyor.",
+  "lat": 41.2724452,
+  "lng": 32.5566936,
+  "address": "Başköy, Karabük Merkez/Karabük (Baklabostan Tabiat Parkı)",
+  "cost_range_min": 0,
+  "cost_range_max": 0,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Safranbolu essentials: Old Bazaar, Cinci Han and well kebab",
+   "stops": [
+    {
+     "name": "Safranbolu Old Bazaar",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "The cobbled streets are quiet early in the day, so you can photograph the wooden Ottoman houses in peace. Walk past Kazdaglioglu Mansion and head towards the Çarşı Mosque."
+    },
+    {
+     "name": "Kaymakamlar House Museum",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 250,
+     "tips": "An ethnography museum that recreates Ottoman family life with wax figures; allow 30-40 minutes for the visit. Museum Card is not accepted here, so pay at the ticket desk by cash or card."
+    },
+    {
+     "name": "Bestami Gözleme",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 650,
+     "tips": "A local tradesman's gözleme (stuffed flatbread) spot on Demirciler Street since 1971; order the gözleme with yoghurt sauce and the mantı (small dumplings), both made fresh to order. It is opposite the old Iş Bankası building and the sign is small, so look carefully."
+    },
+    {
+     "name": "Cinci Inn and Hamam",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 750,
+     "tips": "In the hamam section of this caravanserai dating from 1645, go for the scrub-and-foam package; midday is the quietest time. In the inn section you can have a coffee and buy handmade souvenirs.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cinci+Hamam+Safranbolu",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Hidirlik Hill",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "The best-known sunset spot, with a view over all of Safranbolu's wooden houses and minarets; set up your tripod early, as space runs out around 19:30. There is a small tea stall next to it."
+    },
+    {
+     "name": "Kadioglu Sehzade Sofrasi",
+     "category": "food",
+     "start": "20:15",
+     "end": "21:45",
+     "cost": 950,
+     "tips": "The first address that comes to mind for Safranbolu's well kebab; it takes 2.5 hours to cook, so phone ahead to reserve. Ask for cold village yoghurt instead of ayran on the side."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sade Kahve",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 700,
+     "tips": "Serves a simple, unpretentious breakfast, true to its name, in Konak Bazaar; a good alternative if you want to avoid the crowds. Try the homemade jams."
+    },
+    {
+     "name": "Köprülü Mehmet Pasha Mosque",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The 358-year-old mosque was recently restored and reopened for worship; look closely at the stonework. Outside prayer times you can look around quietly."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Canyons, caves and the aqueduct",
+   "stops": [
+    {
+     "name": "Incekaya Aqueduct",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 200,
+     "tips": "The 116-metre, six-arched aqueduct built by Izzet Mehmet Pasha stands inside Tokatli Canyon. Those who walk from the Old Bazaar pay no entrance fee, while those who drive pay for parking."
+    },
+    {
+     "name": "Bulak Mencilis Cave",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:15",
+     "cost": 300,
+     "tips": "One of Türkiye's largest caves; the inside temperature stays constant and cool, making it an ideal stop to escape the summer heat. The floor can be wet, so wear non-slip shoes."
+    },
+    {
+     "name": "Safranbolu Sofrasi",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 650,
+     "tips": "A warm, family-run place right behind Cinci Hamam; order peruhi (triangular dumplings), meat-stuffed vine leaves and saffron rice together. Sitting by the small fountain out front is a pleasure."
+    },
+    {
+     "name": "Akçasu Stream Walk",
+     "category": "nature",
+     "start": "19:00",
+     "end": "19:45",
+     "cost": 0,
+     "tips": "A short walk along the stream that passes under Izzet Mehmet Pasha Mosque in the cool of the late afternoon; you will notice that the Demirciler Bazaar also sits in this valley. The evening light is perfect for photos."
+    },
+    {
+     "name": "Çevrikköprü Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 850,
+     "tips": "A place favoured by local families, serving regional well kebab and mezes as well as a range of grills. Trying it with a Bağlar soda is a classic Safranbolu experience."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Izzet Efendi Mansion",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 750,
+     "tips": "In a historic mansion, it serves a spread-style breakfast or lunch with olive oil dishes, homemade jams and village cheese. The atmosphere is calmer and more spacious than at Safranbolu Sofrasi."
+    },
+    {
+     "name": "Crystal Terrace (Glass Terrace)",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 150,
+     "tips": "A glass-floored viewing terrace built 80 metres above Tokatli Canyon; a maximum of 30 people are allowed at once, and there is no queue early in the morning. Be careful if you are afraid of heights."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Yörük Village and Kıranköy's Greek heritage",
+   "stops": [
+    {
+     "name": "Yörük Village",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 100,
+     "tips": "The village itself is free to explore; carry cash for the small entrance fees at Sipahioglu Mansion and Sucu Hafiz Mansion. Be sure to see the historic laundry house too, which still stands in its original state."
+    },
+    {
+     "name": "Filiz Teyze'nin Yeri",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 700,
+     "tips": "In the 300-year-old Kasim Sipahioglu Mansion, Aunt Filiz greets you herself; order the gözleme, homemade baklava and saffron tea together. Don't forget to look at the carved woodwork on the door."
+    },
+    {
+     "name": "Kıranköy Grand Mosque (Hagios Stephanos Church)",
+     "category": "culture",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Built in 1872 by the Greek community as the Church of St Stephen and converted into a mosque after the population exchange; its stone architecture is completely different from the wooden fabric of the old bazaar. Take a short walk among the old Greek mansions around it."
+    },
+    {
+     "name": "Kadiefendi Et Lokantasi",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 900,
+     "tips": "A restaurant on the Karabük-Kastamonu road known for its well kebab and breakfast; the well kebab can run out in the evenings, so confirm by phone before going. Ask for a smoked aubergine salad on the side."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yörük Sofrasi",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 650,
+     "tips": "A simple place at the village entrance serving home-style gözleme and regional soups. A good alternative if Filiz Teyze'nin Yeri is full."
+    },
+    {
+     "name": "Skalion School (Greek Theological School)",
+     "category": "culture",
+     "start": "18:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "The former Greek theological school building right next to the Grand Mosque; it can be seen from the outside, and most tourists skip this detail. It adds a short history break to your Kıranköy walk."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Demirciler Bazaar to Bağlar: crafts and Ottoman cuisine",
+   "stops": [
+    {
+     "name": "Historic Demirciler Bazaar",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "The only guild-based bazaar unchanged since the 18th century; hot and cold blacksmithing and coppersmithing are still alive. Some masters also offer a short copper-plate hammering experience, so ask."
+    },
+    {
+     "name": "Yerel Sir Lokum",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 200,
+     "tips": "A Turkish delight maker trusted more by locals than by the tourist shop windows; with the small tasting box you can try several varieties without buying a kilo. If you come on a weekday between 9 and 11 in the morning, you catch the day's fresh batch."
+    },
+    {
+     "name": "Safir Konak Restaurant",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 950,
+     "tips": "A mansion restaurant on Köyiçi Square in the Bağlar district, offering an Ottoman dining experience; order the saffron rice, lamb tandır (slow-roasted lamb) and saffron pudding together. It is 10-15 minutes by taxi from the old bazaar."
+    },
+    {
+     "name": "Safranbolu Clock Tower",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Right next to the old Government Mansion, a small viewpoint with a panoramic view of the town. Ideal for a short break on your way back in the afternoon."
+    },
+    {
+     "name": "Havuzlu Kosk Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 850,
+     "tips": "Regional dishes are served in a historic pavilion beside a pool; ask for the garden tables in the cool of the evening. The bükme pide (folded flatbread) and meat-stuffed vine leaves stand out."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kazan Ocagi",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 700,
+     "tips": "Right in the middle of the old bazaar, a breakfast and lunch spot that stands out for its authentic character. A central alternative if you don't want to go to Safir Konak."
+    },
+    {
+     "name": "Bağlar Soda Factory Outlet",
+     "category": "shopping",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 50,
+     "tips": "The factory outlet for the famous Bağlar soda, made without additives since 1936; stop by for a cold bottle. It is the drink locals consume most in the summer months."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Town history: mosques, museums and hidden flavours",
+   "stops": [
+    {
+     "name": "Izzet Mehmet Pasha Mosque (Cephanelik Mosque)",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "A small complex built in 1796 and set on arches over the Akçasu stream; note the minaret, which leans by 0.5 degrees. It can be visited outside prayer times."
+    },
+    {
+     "name": "Safranbolu City History Museum",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 250,
+     "tips": "Housed in the old government mansion built in 1904-1906, it tells the story of Safranbolu's history and traditional crafts across three floors with mummified figures. Don't miss the panoramic view from its garden and the historic clock tower right next to it."
+    },
+    {
+     "name": "Imren Lokumlari",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 200,
+     "tips": "A long-established Turkish delight brand producing since 1942; try the rosewater and saffron varieties, which don't burn the throat because they are additive-free. A good address for gifts too."
+    },
+    {
+     "name": "Havuzlu Asmazlar Mansion",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "19:45",
+     "cost": 200,
+     "tips": "In this historic mansion, run since 1988, enjoy the cool of the evening over a nargile (water pipe) and tea. They also serve a regional breakfast, but the late-afternoon atmosphere is nicer."
+    },
+    {
+     "name": "Hanim Sultan Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 850,
+     "tips": "Below Cinci Hamam, a warm place serving meat-stuffed vine leaves and mantı in copper pots. Locals favour it too, and it is somewhat away from the tourist crowds."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nil Yörem Mutfak",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 750,
+     "tips": "A refined place serving a spread-style breakfast or lunch made with organic, seasonal produce. A more filling snack alternative than Imren Lokumlari."
+    },
+    {
+     "name": "Yukari Sogutlu Rock Tombs",
+     "category": "culture",
+     "start": "19:00",
+     "end": "19:45",
+     "cost": 0,
+     "tips": "A necropolis with Roman and early Byzantine rock tombs, mentioned in academic sources but without any signage. Ask villagers for directions, as it is hard to find without a guide."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Day trip: Amasra, pearl of the Black Sea",
+   "stops": [
+    {
+     "name": "Amasra Castle",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "About 1.5-2 hours from Safranbolu by bus or dolmus (minibus); the castle, which bears Roman, Byzantine, Genoese and Ottoman traces, is free to explore. You can walk across to Boztepe via the Boztepe Arch."
+    },
+    {
+     "name": "Amasra Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 200,
+     "tips": "A small archaeology and ethnography museum carrying traces of five civilisations, from the Hellenistic period to the Ottomans. Within walking distance of the Kemere Bridge."
+    },
+    {
+     "name": "Kemere Bridge and Small Harbour",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The Roman-era bridge links the Sormagir and Boztepe-Zindan neighbourhoods; walk across it and photograph the sea views on both sides. The colourful fishing boats in the Small Harbour make the most photogenic frame."
+    },
+    {
+     "name": "Mustafa Amca'nin Yeri Canli Balik Restaurant",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 1600,
+     "tips": "A family business serving on the Small Harbour waterfront for three generations since 1945; choose the whiting or calamari caught that morning. You may need to arrive early for the summer seaside terrace."
+    },
+    {
+     "name": "Boztepe and Amasra Lighthouse",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "With the lighthouse operating since 1863 and the view of Rabbit Island, Amasra's most panoramic spot. Ideal for a last stop before the return journey, and the late-afternoon light is great for photos."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sahil Balik Restaurant",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 1500,
+     "tips": "A long-established fish restaurant on Küçükliman Street, recommended for a stop when you come to Amasra. A good alternative if Mustafa Amca'nin Yeri is full."
+    },
+    {
+     "name": "Rabbit Island",
+     "category": "nature",
+     "start": "14:15",
+     "end": "14:45",
+     "cost": 0,
+     "tips": "The small island seen from Boztepe is one of Amasra's emblematic sights. Taking photos from the shore is enough; boat crossings vary by season."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Day trip: Baklabostan's hidden waterfall",
+   "stops": [
+    {
+     "name": "Baklabostan Waterfall",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "About 35-40 minutes from central Safranbolu by private car or taxi; entry is free and the rock pools stay icy even in summer. On weekday mornings there is almost nobody, so bring swimwear and a change of clothes."
+    },
+    {
+     "name": "Hizar Cave",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "A small cave near Baklabostan Nature Park; it is on the same route as Baklabostan Waterfall and can be seen with a short detour. A torch or phone light is enough, and no special equipment is needed."
+    },
+    {
+     "name": "Kurtoglu Kuyu Kebap",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 750,
+     "tips": "A well kebab restaurant in central Karabük favoured by locals; it is on the way back, so it doesn't disrupt your route at all. For a light lunch you can ask for a half portion."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kilcioglu Pide",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 400,
+     "tips": "A popular pide (Turkish flatbread pizza) place in central Karabük; a quick and filling alternative if Kurtoglu is full. Pide with cheese or minced meat is the classic choice."
+    },
+    {
+     "name": "Baklabostan Nature Park Picnic Area",
+     "category": "nature",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "The picnic area right next to the waterfall; it fills with local families at weekends, but is quiet and shaded on weekdays. You may come across people fishing with rods."
+    }
+   ]
+  }
+ ]
+}

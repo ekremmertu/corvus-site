@@ -1,0 +1,17 @@
+{
+ "source": "263dcea82726",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Joseon ana sarayı; 10:00'da nöbet değişimi, hanbok giyene giriş bedava (yakında kiralama 20.000 KRW), salı kapalı.",
+  "d1.s3.tips": "Hanok evleri ve dar sokaklar; sessiz ol (yerleşim alanı), 8 manzara noktası.",
+  "d2.s2.tips": "Myeongdong'dan teleferik; ya da 40 dakikalık Namsan yürüyüşü.",
+  "d2.s3.tips": "Gözlem katı ve aşk kilitleri; gün batımı için 17:00'ye kadar kal.",
+  "d2.b1.tips": "Deoksugung'un yanında ücretsiz müze; yağmurda.",
+  "d6.s0.tips": "Kore Budizm'inin merkezi; fener festivali Mayıs'ta.",
+  "d6.s2.tips": "Bindaetteok (mung fasulyesi gözleme) ve mayak gimbap; Netflix pazarı, taburede yenir.",
+  "d6.b1.tips": "Toptan moda; gece 23:00'ten sonra.",
+  "note0": "T-money kartı her yerde geçer; Climate Card 7 gün sınırsız (~20.000 KRW). Incheon'a AREX 45 dakika, Naver Map Google'dan iyi.",
+  "note3": "Saraylar salı (Gyeongbokgung) veya pazartesi (Changdeokgung) kapalı; hanbokla giriş bedava."
+ },
+ "warnings": []
+}

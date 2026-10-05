@@ -1,0 +1,34 @@
+{
+ "source": "76db55bd1896",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "Tabelaya en yakın ücretsiz manzara noktası; fotoğraf çek.",
+  "d1.s2.tips": "1917'den beri açık pazar; Eggslut, Tacos Tumbras a Tomas, Sarita's pupusa.",
+  "d1.s4.tips": "Ücretsiz gözlemevi; gün batımı ve şehir ışıkları. Otopark dolar, DASH otobüsüne bin.",
+  "d1.b0.tips": "1919'dan beri Hollywood'un lokantası; martini iç.",
+  "d2.s3.tips": "Venice'in kült fırın-kafesi; füme balık ve ekmek.",
+  "d2.b0.tips": "Butikler ve kahve; kanal yerine alternatif.",
+  "d3.s0.tips": "Ücretsiz müze (otopark 20 USD, rezervasyon gerekli); Van Gogh'un Süsenler'i, bahçeler ve şehir manzarası. Tramvayla çık.",
+  "d3.b1.tips": "Urban Light lambaları; Getty yerine alternatif.",
+  "d4.s3.tips": "Sashimi öğle seti; 11:15'te kuyruk oluşuyor.",
+  "d4.s4.tips": "Koreatown'da Kore BBQ; 24 saat açık şubeler.",
+  "d4.b1.tips": "1947'den beri pastrami; #19 sandviç. MacArthur Park yanı.",
+  "d5.s1.tips": "Kayalık koy ve mağaralar; LA'nın en fotojenik plajı. Merdivenle in.",
+  "d5.s4.tips": "Roma villası kopyasında antik sanat; ücretsiz, rezervasyon gerekli, çarşamba kapalı.",
+  "d5.b1.tips": "Geniş kumsal; El Matador yerine alternatif.",
+  "d6.s0.tips": "Studio Tour (Jaws, Psycho) ve Super Nintendo World; 1-Day ~109 USD online. Kalabalıkta Express al.",
+  "d6.b0.tips": "Gerçek çalışan stüdyo turu; Universal'a göre sakin.",
+  "d6.b1.tips": "1939'dan beri hot dog tezgahı; La Brea.",
+  "d7.b0.tips": "Tayvan mutfağı; taco yerine alternatif.",
+  "d7.b1.tips": "Lotus havuzu ve pedallı kayık; rezervuar yerine alternatif.",
+  "d7.s3.tips": "Yahnili taco; sampler tabağı, veda yemeği.",
+  "note0": "LA araç şehri: araç kirala (otopark 20-40 USD). Metro B hattı Hollywood-Downtown arasında işe yarar. Uber sahil-şehir arası 20-40 USD.",
+  "note1": "Kış 18-20°C ve güneşli; Ocak-Şubat yağmur haftaları var. Malibu'da balina mevsimi, sahil sakin, Oscar sezonu.",
+  "note3": "Taco 3-5 USD (Guisados, Leo's), In-N-Out 10 USD, restoran 30-50 USD. Bahşiş %18-20; vergi %9,5 ve fiyata ekli değil.",
+  "note4": "Griffith'e DASH otobüsüyle çık (otopark dolar); gün batımından 1 saat önce git.",
+  "note5": "Sahil suyu soğuk (18-20°C), dalga ve akıntı var; cankurtaran bayrağına dikkat et."
+ },
+ "warnings": [
+  "d3.b0.tips: uzunluk çok değişti → düzeltme atıldı"
+ ]
+}

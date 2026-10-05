@@ -1,0 +1,17 @@
+{
+ "source": "2d7760685fbc",
+ "model": "sonnet",
+ "strings": {
+  "d1.b0.tips": "Hristiyan mahallesinde humus; Abu Shukri'nin rakibi.",
+  "d2.s1.tips": "Getsemani Bahçesi'nde 2.000 yıllık zeytinler; Dominus Flevit gözyaşı kilisesi yolda.",
+  "d2.s2.tips": "Kral Davut'un asıl şehrinin kazıları; Hezekiya Tüneli (dizine kadar su, fener) veya kuru Kenan Tüneli.",
+  "d5.s0.tips": "Otobüs 231 veya taksi (Filistin Yönetimi; pasaport gerekir, İsrail plakalı araç geçmez); İsa'nın doğduğu mağara, 2 saat kuyruk olabilir.",
+  "d5.s1.tips": "Duvar grafitileri ve Banksy'nin oteli ve müzesi; taksi.",
+  "d7.s4.tips": "Hızlı tren Ben Gurion'a 25 dakika (Şabat'ta çalışmaz); veda.",
+  "note0": "Rav-Kav kartı; hafif raylı (Yafa Caddesi); Şabat (cuma gün batımı-cumartesi gece) toplu taşıma ve çoğu dükkân kapalı, Arap Doğu Kudüs açık. Ben Gurion'a hızlı tren 25 dakika.",
+  "note1": "Kışın 5-12°C, yağmur, nadiren kar; Ölü Deniz kışın ideal (25°C); Pesah/Sukot haftaları kalabalık; Aralık'ta Noel'de Beytüllahim kalabalık.",
+  "note2": "GÜVENLİK: Bölge durumu değişken — seyahat öncesi resmi uyarıları kontrol et; Tapınak Tepesi kapanabilir; Beytüllahim'e taksi/otobüsle (İsrail kiralık araç giremez).",
+  "note3": "Kutsal yerlerde kıyafet: omuz-diz kapalı, erkekler Duvar'da başını örter. Cuma-cumartesi Tapınak Tepesi kapalı; cumartesi Yad Vashem kapalı."
+ },
+ "warnings": []
+}

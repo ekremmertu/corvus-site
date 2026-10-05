@@ -1,0 +1,476 @@
+{
+ "lang": "tr",
+ "slug": "bangkok-ekim-mayis",
+ "altSlug": "bangkok-october-may",
+ "citySlug": "bangkok",
+ "destKey": "bangkok",
+ "city": "Bangkok",
+ "region": null,
+ "country": "Tayland",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "THB",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9000,
+  "attractions": 3300,
+  "transport": 2500,
+  "misc": 2000
+ },
+ "notes": [
+  "BTS Skytrain ve MRT şehri gezmenin en hızlı yolu; taksiye taksimetre açtır, tuk-tuk pazarlıklı ve turistik. Grab uygulaması güvenilir.",
+  "Tapınaklarda omuz ve diz kapalı olmalı; Grand Palace'ta kontrol sıkı, sarong satılır ama pahalı.",
+  "Kasım-Şubat en iyi mevsim (28°C, kuru); Mart-Mayıs'ta 38°C sıcak olur, sabah erken gez, klimalı mola ver.",
+  "Sokak yemeği güvenli: kalabalık tezgah seç, buz sorun değil. Pad thai 60-100 THB, mango sticky rice 100 THB.",
+  "Bahşiş zorunlu değil; restoranlarda %10 servis ekli olabilir. Pazarlık pazarlarda normal, AVM'de yok.",
+  "Ayutthaya'ya Hua Lamphong'dan tren 1,5 saat (20-60 THB); yüzen pazarlar için tur veya araç."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Rabbit Card",
+  "why_chosen": "BTS Skytrain'de geçer; MRT için ayrı jeton/kart, ikisi de istasyonda alınır",
+  "coverage": "BTS Skytrain (Sukhumvit, Silom hatları); MRT için MRT kartı",
+  "where_to_buy": "BTS istasyon gişeleri",
+  "cost": 200,
+  "currency_code": "THB"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Grand Palace, Wat Pho & Wat Arun",
+   "stops": [
+    {
+     "name": "Grand Palace Bangkok",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 500,
+     "tips": "Kraliyet sarayı ve Zümrüt Buda (Wat Phra Kaew); giriş 500 THB, omuz-diz kapalı zorunlu, 08:30'da girip kalabalıktan kaç."
+    },
+    {
+     "name": "Wat Pho",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 300,
+     "tips": "46 m yatan Buda ve masaj okulu; 30 dakikalık geleneksel masaj (~300 THB) burada."
+    },
+    {
+     "name": "Tha Tien Pier",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:20",
+     "cost": 5,
+     "tips": "Chao Phraya'yı 5 THB'lik feribotla geç; Wat Arun karşıda."
+    },
+    {
+     "name": "Wat Arun",
+     "category": "culture",
+     "start": "12:20",
+     "end": "13:30",
+     "cost": 200,
+     "tips": "Şafak Tapınağı; porselen kaplı prang'a dik merdivenle çık, nehir manzarası."
+    },
+    {
+     "name": "Supanniga Eating Room Tha Tien",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 600,
+     "tips": "Nehir kenarında Tayland ev mutfağı; Wat Arun manzaralı öğle yemeği, moo palo ve som tam."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Thipsamai Pad Thai",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 250,
+     "tips": "Bangkok'un en ünlü pad thai'ı; 17:00 sonrası kuyruk, öğle daha rahat."
+    },
+    {
+     "name": "Museum Siam",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "Wat Pho yanında interaktif Tayland müzesi; yağmurlu gün için."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Chinatown & nehir",
+   "stops": [
+    {
+     "name": "Wat Traimit",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 100,
+     "tips": "5,5 ton altın Buda; Chinatown'un girişi."
+    },
+    {
+     "name": "Yaowarat Road",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Chinatown ana caddesi; altın dükkânları, tapınaklar ve gündüz sakin sokaklar."
+    },
+    {
+     "name": "Talat Noi",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Nehir kenarı eski Çin mahallesi; sokak sanatı, tamirhaneler ve kafeler."
+    },
+    {
+     "name": "Hua Seng Hong Yaowarat",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 350,
+     "tips": "Chinatown'un klasik Çin lokantası; dim sum ve kaz eti."
+    },
+    {
+     "name": "Iconsiam",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Nehir karşısında dev AVM; Sook Siam yüzen pazar katında sokak yemeği, klimalı öğleden sonra."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nai Ek Roll Noodle",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 150,
+     "tips": "Yaowarat'ta domuzlu erişte çorbası; sokak klasiği."
+    },
+    {
+     "name": "Lhong 1919",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Nehir kenarında restore edilmiş Çin tapınağı-depo; Iconsiam yerine sakin."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Jim Thompson, Siam & Lumphini",
+   "stops": [
+    {
+     "name": "Jim Thompson House",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 200,
+     "tips": "Tik ağacından Tay evi ve ipek koleksiyonu; rehberli tur, bahçe serin."
+    },
+    {
+     "name": "Siam Paragon",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Siam'ın dev AVM'si; alt katta gıda pazarı, klimalı mola."
+    },
+    {
+     "name": "Som Tam Nua Siam Square",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 300,
+     "tips": "Isan mutfağı: som tam ve kızarmış tavuk; Siam Square'de kuyruk hızlı."
+    },
+    {
+     "name": "Erawan Shrine",
+     "category": "culture",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Şehrin ortasında Brahma tapınağı; dansçılar ve tütsü."
+    },
+    {
+     "name": "Lumphini Park",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Bangkok'un merkez parkı; monitör kertenkeleler, gün batımı ve akşam aerobiği."
+    }
+   ],
+   "backups": [
+    {
+     "name": "MBK Center Food Court",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 150,
+     "tips": "MBK'nın 6. kat yemek avlusu; ucuz ve klimalı, som tam yerine."
+    },
+    {
+     "name": "Benjakitti Park",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Yeni sulak alan parkı; Lumphini'ye alternatif."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Chatuchak & Ari",
+   "stops": [
+    {
+     "name": "Chatuchak Weekend Market",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Hafta sonu ise dünyanın en büyük pazarı (15.000 tezgah); hafta içi Or Tor Kor gıda pazarı. Erken git, öğlen sıcak."
+    },
+    {
+     "name": "Or Tor Kor Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "Chatuchak'ın yanında premium gıda pazarı; mango sticky rice ve deniz ürünleri."
+    },
+    {
+     "name": "Ari Mahallesi",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Bangkok'un hipster mahallesi; kafeler ve butikler, BTS Ari."
+    },
+    {
+     "name": "Jay Fai",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 1500,
+     "tips": "Michelin yıldızlı sokak lokantası; yengeç omleti (~1.000 THB), aylar önceden rezervasyon yap ya da 14:00'te sıraya gir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Baan Ying Ari",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 400,
+     "tips": "Ari'de Tay ev mutfağı; Jay Fai olmazsa."
+    },
+    {
+     "name": "Chatuchak Park",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Pazar yanında park; gölge ve göl."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Ayutthaya",
+   "stops": [
+    {
+     "name": "Wat Mahathat Ayutthaya",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 50,
+     "tips": "Bangkok'a 1,5 saat (tren veya minivan); ağaç köklerine sarılı Buda başı, UNESCO antik başkent."
+    },
+    {
+     "name": "Wat Phra Si Sanphet",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 50,
+     "tips": "Üç chedi'li kraliyet tapınağı; Ayutthaya'nın simgesi."
+    },
+    {
+     "name": "Wat Chaiwatthanaram",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 50,
+     "tips": "Nehir kenarında Khmer tarzı tapınak; gün batımı da ünlü, bisikletle."
+    },
+    {
+     "name": "Ayutthaya Boat Noodle",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 150,
+     "tips": "Ayutthaya'nın tekne eriştesi; küçük kâseler, 3-4 tane."
+    },
+    {
+     "name": "Ayutthaya Night Market Pier",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Nehir kenarı pazar ve tapınak manzarası; dönüş treni 17:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ayutthaya Roti Sai Mai",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 60,
+     "tips": "Pamuk şeker roti; Ayutthaya'nın tatlısı."
+    },
+    {
+     "name": "Bang Pa-In Sarayı",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 100,
+     "tips": "Dönüş yolunda yazlık saray; bahçe ve köşkler."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Damnoen Saduak & Maeklong",
+   "stops": [
+    {
+     "name": "Damnoen Saduak Floating Market",
+     "category": "shopping",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 300,
+     "tips": "Bangkok'a 1,5 saat; ünlü yüzen pazar, 08:00'de kalabalık az, kayık kiralama pazarlıklı."
+    },
+    {
+     "name": "Maeklong Railway Market",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Tren rayı üzerindeki pazar; tren geçişi saatlerini kontrol et (11:10 ve 14:30 civarı)."
+    },
+    {
+     "name": "Amphawa Floating Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 300,
+     "tips": "Kanal kenarı pazar; ızgara deniz ürünleri teknelerden, hafta sonu daha canlı."
+    },
+    {
+     "name": "Wat Bang Kung",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Banyan ağacına gömülü tapınak; Amphawa yakınında."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Amphawa Ateş Böceği Turu",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 100,
+     "tips": "Akşam tekne turu (kalırsan); ateş böcekleri."
+    },
+    {
+     "name": "Damnoen Saduak Kayık Yemek Tezgahı",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "Yüzen pazarda kayıktan erişte ve mango; Amphawa'ya gitmezsen."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sathorn — hafif veda",
+   "stops": [
+    {
+     "name": "Wat Saket (Golden Mount)",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 100,
+     "tips": "Altın Tepe; 344 basamak, şehrin 360° manzarası, sabah serin."
+    },
+    {
+     "name": "Bangkok Flower Market Pak Khlong Talat",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "24 saat çiçek pazarı; yasemin çelenkleri ve orkide."
+    },
+    {
+     "name": "Baan Khanitha Sathorn",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 700,
+     "tips": "Tay evinde klasik Tay mutfağı; veda öğle yemeği, klimalı."
+    },
+    {
+     "name": "Lumphini MRT / Airport Rail Link",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Havalimanı treni Phaya Thai'den 30 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Krua Apsorn Dinso",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 350,
+     "tips": "Kraliyet mutfağından ev yemekleri; yengeçli omlet."
+    },
+    {
+     "name": "Wat Suthat",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 100,
+     "tips": "Dev salıncak ve tapınak; Golden Mount yerine."
+    }
+   ]
+  }
+ ]
+}

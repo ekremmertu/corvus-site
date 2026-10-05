@@ -1,0 +1,14 @@
+{
+ "source": "7d752289cc8a",
+ "model": "sonnet",
+ "strings": {
+  "d2.s0.tips": "Marmaris'ten 09:30 tekne (~1.000 TL, öğle ve içecek dahil); Orhaniye Koyu'nda denizin ortasında 600 m yürünen kum dili.",
+  "d3.s3.tips": "Kumlubük'ün üstünde tepe; tiyatro ve gün batımı manzarası, 20 dakika tırmanış.",
+  "d4.s3.tips": "Ahşap gulet tezgâhlarının köyü; marina ve gün batımı yürüyüşü.",
+  "note1": "Tekne turlarını sahildeki tezgâhlardan bir gün önce al (~1.000 TL, öğle dahil); Kızkumu için sığ su ayakkabısı.",
+  "note5": "Dalaman Havalimanı 1,5 saat uzakta; Havaş havalimanı otobüsü otogardan kalkar."
+ },
+ "warnings": [
+  "note2: uzunluk çok değişti → düzeltme atıldı"
+ ]
+}

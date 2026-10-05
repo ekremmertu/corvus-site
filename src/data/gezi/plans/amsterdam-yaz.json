@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "amsterdam-yaz",
+ "altSlug": "amsterdam-summer",
+ "citySlug": "amsterdam",
+ "destKey": "amsterdam",
+ "city": "Amsterdam",
+ "region": null,
+ "country": "Hollanda",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 420,
+  "attractions": 230,
+  "transport": 50,
+  "misc": 80
+ },
+ "notes": [
+  "Şehir bisikletle veya yürüyerek; GVB günlük kart 9 EUR, Schiphol'e tren 15 dakika. Bisiklet yolunda yürüme (zil çalarlar).",
+  "Rijks, Van Gogh, Anne Frank: yalnız online saatli bilet; Anne Frank 6 hafta önce salı 10:00'da açılır.",
+  "Yaz 20-24°C, hava değişken; yağmurluk al. Vondelpark, kanal iskeleleri, açık tekneler; Ağustos'ta Grachtenfestival.",
+  "Stroopwafel'i pazarda sıcak ye, ringayı tezgâhtan, bitterballen'i brown café'de; kahve 3,5 EUR, bira 5 EUR.",
+  "Coffeeshop ≠ kafe; Kırmızı Fener'de fotoğraf yasak. Bahşiş için hesabı yuvarla.",
+  "Zaanse Schans'a Centraal'dan Sprinter 20 dakika; 10:00'dan önce git."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Museumplein",
+   "stops": [
+    {
+     "name": "Rijksmuseum",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 25,
+     "tips": "Rembrandt'ın Gece Devriyesi ve Vermeer; online saatli bilet, 09:00 açılış, kütüphane."
+    },
+    {
+     "name": "Van Gogh Museum",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 24,
+     "tips": "Ayçiçekleri ve Badem Çiçeği; yalnız online, 3-7 gün önce tükenir."
+    },
+    {
+     "name": "Museumplein Piknik",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "Albert Heijn'den sandviç, çimlerde; yazın havuz, kışın buz pisti."
+    },
+    {
+     "name": "Vondelpark",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Şehir parkı; bisiklet kiralama, açık hava tiyatrosu yazın."
+    },
+    {
+     "name": "De Pijp & Albert Cuyp Markt",
+     "category": "shopping",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Amsterdam'ın en büyük sokak pazarı; stroopwafel tezgâhı (Rudi's) ve peynir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Moco Museum",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 22,
+     "tips": "Banksy ve modern; Van Gogh bileti yoksa."
+    },
+    {
+     "name": "Bakers & Roasters De Pijp",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 18,
+     "tips": "Brunch; piknik yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Jordaan & Anne Frank",
+   "stops": [
+    {
+     "name": "Anne Frank House",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 17,
+     "tips": "Yalnız online; biletler 6 hafta önce salı 10:00'da açılır, tükenirse günlük iptal saatini kontrol et."
+    },
+    {
+     "name": "Westerkerk",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Rembrandt'ın gömüldüğü kilise; kule turu yazın."
+    },
+    {
+     "name": "Jordaan Sokakları",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Hofje avluları (Karthuizerhof), Prinsengracht kanalları, cumartesi Noordermarkt."
+    },
+    {
+     "name": "Winkel 43",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 8,
+     "tips": "Amsterdam'ın en ünlü elmalı turtası; Noordermarkt köşesi."
+    },
+    {
+     "name": "Café 't Smalle",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 10,
+     "tips": "Kanal kenarı brown café; 1786'dan beri, iskelede bira."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Café de Prins",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "Anne Frank'ın karşısında brown café öğle."
+    },
+    {
+     "name": "Houseboat Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 5,
+     "tips": "Kanal teknesinde yaşam; Jordaan."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Merkez & kanal turu",
+   "stops": [
+    {
+     "name": "Dam Meydanı & Royal Palace",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 12,
+     "tips": "Kraliyet Sarayı iç turu; sabah meydan sakin."
+    },
+    {
+     "name": "Begijnhof",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Gizli avlu ve ahşap ev; sessiz."
+    },
+    {
+     "name": "Bloemenmarkt",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Yüzen çiçek pazarı; lale soğanı hediyelik."
+    },
+    {
+     "name": "Foodhallen",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 20,
+     "tips": "Eski tramvay deposunda yemek pazarı; bitterballen ve Vietnam mutfağı."
+    },
+    {
+     "name": "Kanal Turu",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:15",
+     "cost": 18,
+     "tips": "1 saatlik açık tekne (Those Dam Boat Guys / Flagship); UNESCO kanal halkası, gün batımı ışığı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Brouw Ten Katestraat",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 20,
+     "tips": "Foodhallen yanında BBQ."
+    },
+    {
+     "name": "Amsterdam Museum",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 20,
+     "tips": "Şehir tarihi; Begijnhof yanı."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Doğu: Zoo, Brouwerij & Oosterpark",
+   "stops": [
+    {
+     "name": "Hortus Botanicus",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 14,
+     "tips": "1638 botanik bahçesi; kelebek serası."
+    },
+    {
+     "name": "Artis Zoo",
+     "category": "culture",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Şehir içi hayvanat bahçesi ve planetaryum."
+    },
+    {
+     "name": "Brouwerij 't IJ",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 15,
+     "tips": "Yel değirmeninin altında bira fabrikası; peynir tabağı ve IJwit."
+    },
+    {
+     "name": "Oosterpark",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Doğu parkı; Tropenmuseum yanı."
+    },
+    {
+     "name": "De Hallen Kino",
+     "category": "culture",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 12,
+     "tips": "Eski tramvay deposunda sinema ve butikler; yağmurda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tropenmuseum Kafe",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 15,
+     "tips": "Dünya kültürleri müzesi kafesi."
+    },
+    {
+     "name": "NEMO Science Museum Çatısı",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Gemi şeklindeki müzenin ücretsiz çatı terası; liman."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Noord & NDSM",
+   "stops": [
+    {
+     "name": "Centraal Feribot Buiksloterweg",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Garın arkasından ücretsiz feribot; 3 dakika."
+    },
+    {
+     "name": "A'DAM Lookout",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 16,
+     "tips": "Kuzey kıyısında gözlem terası ve Over the Edge salıncağı."
+    },
+    {
+     "name": "EYE Filmmuseum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 12,
+     "tips": "Beyaz kuş binası; sergi ve kafe, kanal manzarası."
+    },
+    {
+     "name": "NDSM Werf",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Eski tersanede sokak sanatı ve konteyner kafeler; feribot 906."
+    },
+    {
+     "name": "Pllek NDSM",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 18,
+     "tips": "Konteynerden restoran; plaj sandalyesi ve IJ manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Café de Ceuvel",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 15,
+     "tips": "Sürdürülebilir kanal kafesi; Noord."
+    },
+    {
+     "name": "Noorderpark",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Kuzey parkı; NDSM yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Zaanse Schans",
+   "stops": [
+    {
+     "name": "Zaanse Schans Yel Değirmenleri",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Tren 20 dakika (Zaandijk); çalışan değirmenler (giriş 5-6 EUR), yeşil ahşap evler. Sabah tur otobüsleri gelmeden önce git."
+    },
+    {
+     "name": "Catharina Hoeve Peynir Çiftliği",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Peynir yapımı ve tadım; ücretsiz."
+    },
+    {
+     "name": "Zaanse Schans Takunya Atölyesi",
+     "category": "shopping",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Tahta ayakkabı yapımı gösterisi."
+    },
+    {
+     "name": "De Hoop op d'Swarte Walvis",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 30,
+     "tips": "Zaanse'de tarihi restoran; balık ve Hollanda mutfağı."
+    },
+    {
+     "name": "Haarlem Grote Markt",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Dönüşte Haarlem; katedral meydanı ve Jopen bira kilisesi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Haarlem Jopenkerk",
+     "category": "food",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 15,
+     "tips": "Kilisede bira fabrikası."
+    },
+    {
+     "name": "Volendam & Marken",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Balıkçı kasabası ve ada; Haarlem yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Negen Straatjes — hafif veda",
+   "stops": [
+    {
+     "name": "De 9 Straatjes",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Dokuz sokak; vintage, tasarım ve kanal köşeleri."
+    },
+    {
+     "name": "Stubbe's Haring",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 5,
+     "tips": "Kanal köşesinde ringa tezgahı; soğan ve turşuyla, Hollanda ritüeli."
+    },
+    {
+     "name": "Van Stapele Koekmakerij",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 4,
+     "tips": "Tek çeşit kurabiye (beyaz çikolatalı); kuyruk 20 dakika."
+    },
+    {
+     "name": "Amsterdam Centraal",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Schiphol'e tren 15 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Café Luxembourg",
+     "category": "food",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Spui'de brasserie kahvaltı."
+    },
+    {
+     "name": "Spui Kitap Pazarı",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Cuma kitap pazarı; sokaklar yerine."
+    }
+   ]
+  }
+ ]
+}

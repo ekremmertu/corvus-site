@@ -1,0 +1,536 @@
+{
+ "lang": "tr",
+ "slug": "bursa-yaz",
+ "altSlug": "bursa-summer",
+ "citySlug": "bursa",
+ "destKey": "bursa",
+ "city": "Bursa",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 11307,
+  "attractions": 3133,
+  "transport": 1050,
+  "misc": 400
+ },
+ "notes": [
+  "Kayhan Çarşısı, Kapalıçarşı ve köy lokantaları gibi esnaf işletmelerinin çoğu nakit tercih eder; kart her yerde geçmeyebilir, cebinde küçük nakit bulundur.",
+  "Şehir içinde BursaKart kullan; Kapalıçarşı ve Ulu Cami çevresi araç trafiğine kapalı ya da yoğun olduğundan yürüyerek veya tramvayla ulaşım daha hızlıdır.",
+  "Lokantalarda bahşiş hesaba dahil değildir, hesabın %5-10'u kadar bırakmak yeterli ve makbul karşılanır.",
+  "Ulu Cami ve Yeşil Cami gibi ibadet yerlerini ziyaret ederken diz ve omuzların kapalı olmalı; kadınlar için baş örtüsü gerekir. Girişte genelde ücretsiz örtü ya da pelerin bulunur.",
+  "Temmuz'da Bursa sıcak ve nemlidir; öğleden sonraları otelde dinlenmeye veya kapalı mekânlara (çarşı, müze, hamam) ayrılmıştır. Açık hava durakları sabaha ve akşamüstüne yerleştirilmiştir.",
+  "Cumalıkızık ve Misi gibi köylerde hafta sonu İstanbul çıkışlı turlar yoğunlaşır; sakin bir gezi için hafta içi tercih etmek daha keyifli olur.",
+  "Arap Şükrü Sokağı alkollü bir meyhane sokağıdır; içki içmeyenlere de meze ve yemek servisi yapılır. Rahatsız olursan Setbaşı yönüne yürüyerek sakin bir alternatif bulabilirsin."
+ ],
+ "niche": {
+  "name": "Misi İpek Evi",
+  "level": "l2",
+  "why_hidden": "Bursa'ya gelen neredeyse tüm köy turları Cumalıkızık'ta durur. Sadece 6 km ötedeki Misi ve onu ayakta tutan kadın kooperatifinin ipek dokuma evi aynı “İpek Yolu'nun sonu” mirasını taşır, ama turist otobüslerinin radarına hiç girmez.",
+  "access_instructions": "Misi Köyü'nün (Nilüfer) taş sokaklarında, Misi Kadınlar Derneği tarafından işletilen küçük taş binada bulunur. Hafta içi 09:30-17:00 arası (pazartesi kapalı) serbest girişle gezilir; atölye gösterisini görmek için resepsiyonda sormak yeterli.",
+  "local_contact": "Nilüfer Belediyesi Çağrı Merkezi 444 16 03 (ziyaret/organizasyon için İpek Evi'ne yönlendirme yapıyorlar)",
+  "season": "Nisan-Ekim (yaz aylarında ipek böceği kozası dönemine denk gelirse canlı dokuma gösterisi görme şansı daha yüksek)",
+  "insider_tip": "Girişteki küçük dükkânda kadınların elde dokuduğu ipek eşarplar doğrudan üreticiden, Kapalıçarşı'daki Koza Han fiyatının neredeyse yarısına satılır; kart genelde geçmiyor, nakit götür.",
+  "show_reason": "Aynı ipek mirasını, Koza Han'ın turist kalabalığı olmadan, onu üreten kadınların kendi ağzından dinleme fırsatı sunuyor; maliyeti neredeyse sıfır ama deneyim olarak çok zengin ve sosyal medyada nadiren paylaşılan bir durak.",
+  "lat": 40.1798,
+  "lng": 28.9758,
+  "address": "Misi Mahallesi, Nilüfer, Bursa",
+  "cost_range_min": 0,
+  "cost_range_max": 100,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "BursaKart",
+  "why_chosen": "BursaKart; BursaRay metrosu, T1/T2 tramvay hatları, şehir içi otobüsler ve Uludağ Teleferiği dahil kentteki neredeyse tüm toplu taşımayı tek kartta topluyor. Planındaki Kapalıçarşı-Tophane-Muradiye gibi merkez duraklara kesintisiz bağlanmayı sağlıyor. Tekli bilete göre hem daha ucuz hem de aktarmalarda süre ve fiyat indirimi sunuyor. Bu yüzden şehirde 5 gün geçirecek bir çift için en mantıklı seçenek.",
+  "coverage": "BursaRay metro, T1/T2 tramvay, şehir içi otobüs ve dolmuş bağlantıları, Uludağ Teleferiği indirimli geçiş",
+  "where_to_buy": "BursaRay istasyonlarındaki otomatik kiosk makinelerinden, otogar/havalimanı kiosklarından veya BURULAŞ mobil uygulaması üzerinden dijital kart/karekod olarak alınabilir",
+  "cost": 150,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Bursa'nın İkonik Yüzü: Ulu Cami'den Tophane'ye",
+   "stops": [
+    {
+     "name": "Ulu Cami",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "1399'da tamamlanan 20 kubbeli caminin ortasındaki şadırvana ve minberin oyma sanatına dikkat et. Ziyaret ücretsizdir; sabah erken saatte kalabalık az olur."
+    },
+    {
+     "name": "Koza Han",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "1491 yapımı iki katlı ipek hanının avlu çeşmesi yanında çay iç; Emir Han ve Fidan Han'a da birkaç adımda geçilir. İpek eşarplarda pazarlık payı vardır."
+    },
+    {
+     "name": "Ömür Köfte",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 650,
+     "tips": "Ulu Cami'nin yan kapısının tam karşısında, yıllardır Bursalıların tercih ettiği küçük bir köfteci. Köfte-ekmek ve ayran klasik kombinasyon; öğlen 13:00'ten sonra sıra kısalır."
+    },
+    {
+     "name": "Irgandi Köprüsü Sanatçılar Çarşısı",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "15. yüzyıldan kalma köprünün iki yanı el sanatları atölyeleriyle dolu. Gökdere Vadisi boyunca yürüyerek ustaların çalışmasını izleyebilirsin."
+    },
+    {
+     "name": "Tophane Saat Kulesi ve Osman Gazi-Orhan Gazi Türbeleri",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Gün batımına 30-40 dakika kala git; kuleden Uludağ silueti ve Bursa Ovası'nın turuncu tonları fotoğraf için altın saat sunar. Türbeler ücretsiz gezilir."
+    },
+    {
+     "name": "Tarihi Mavi Dükkan (Kebapçı İskender)",
+     "category": "food",
+     "start": "21:00",
+     "end": "22:30",
+     "cost": 950,
+     "tips": "1867'den beri aynı aile tarafından işletilen orijinal İskender tarifi. Dükkân küçük olduğu için akşam 21:00'den sonra sıra biraz uzayabilir ama hızlı ilerler; yanına şıra sipariş et."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kebapçı Tamer",
+     "category": "food",
+     "start": "21:00",
+     "end": "22:30",
+     "cost": 850,
+     "tips": "Son yıllarda yerel halkın sıkça tercih ettiği, gösterişsiz ama dengeli porsiyonlu bir İskender durağı. Akşam saatlerinde sakin bir alternatif."
+    },
+    {
+     "name": "Bursa Kalesi (Hisar) ve Zindankapı",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Osmanlı öncesi surların kaldığı Hisar bölgesi, dar sokakları ve eski konaklarıyla sakin bir yürüyüş rotası sunar, ücretsizdir."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Yeşil Bursa: Külliyeler, Kültürpark ve Yerel Lezzetler",
+   "stops": [
+    {
+     "name": "Yeşil Cami ve Yeşil Türbe",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Turkuaz çinileriyle ünlü erken Osmanlı eseri; ayakkabılarını çıkarmayı unutma. Ziyaret ücretsizdir, sabah ışığı çiniler için en iyi kareyi verir."
+    },
+    {
+     "name": "Muradiye Külliyesi",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 150,
+     "tips": "13 türbeli erken Osmanlı külliyesi; Cumalıkızık turlarının çoğu buraya uğramadığı için oldukça sakin gezilir. Türbelerin işlemeli çinilerine yakından bak."
+    },
+    {
+     "name": "4 Köfte",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 650,
+     "tips": "Bakırcılar Çarşısı'nın girişinde, bakırcı ustalarının arasında sıkışmış küçük bir köfteci; yerel halkın öğle klasiği, turist rehberlerinde nadiren geçer."
+    },
+    {
+     "name": "Kültürpark",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 100,
+     "tips": "393 bin metrekarelik parkın göletinde sandal kiralanabilir, çay bahçelerinde gölgede mola verilebilir. Sıcak öğleden sonrasında serinlemek için ideal."
+    },
+    {
+     "name": "Kafkas Kestane Şekeri (Nilüfer)",
+     "category": "food",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 180,
+     "tips": "1930'dan beri geleneksel şerbetleme yöntemiyle üretilen kestane şekeri; mağazada ücretsiz tadım köşesi var, hediyelik almayı unutma."
+    },
+    {
+     "name": "Uludağ Kebapçısı",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "1964'ten beri eski garajlarda hizmet veren tarihi bir İskenderci; ilk seansa (19:30) gidip yoğunluktan kaç, yanına şıra iç."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kebapçı Hüseyin Usta",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 800,
+     "tips": "Kuzu, koyun ve dana karışık İskender'iyle bilinen, Bursa'nın en iyileri arasında sayılan bir durak."
+    },
+    {
+     "name": "Bursa Kent Müzesi",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 100,
+     "tips": "Eski hükümet konağı binasında şehrin belleğini anlatan küçük ama özenli bir müze; pazartesi kapalıdır."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Zamanda Yolculuk: Cumalıkızık ve Misi Köyleri",
+   "stops": [
+    {
+     "name": "Cumalıkızık Köyü",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "UNESCO listesindeki taş evlerin arasında sabah erken saatte kalabalık henüz oluşmamış olur. Sokak tezgâhlarından el yapımı erişte ve tarhana alabilirsin."
+    },
+    {
+     "name": "Azime Abla'nın Yeri",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 700,
+     "tips": "Kınalı Kar filminin çekildiği evin tam karşısında; dört teyze gözünün önünde gözleme açar. Hafta içi öğlen daha sakin bir deneyim sunar."
+    },
+    {
+     "name": "Misi İpek Evi",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 100,
+     "tips": "Nilüfer Belediyesi ve Misi Kadınlar Derneği iş birliğiyle canlanan ipek dokuma atölyesi; girişteki dükkânda kadınların elde dokuduğu ipek eşarplar Kapalıçarşı fiyatının yarısına satılır, nakit götür."
+    },
+    {
+     "name": "Misi Etnografya Evi (Mysia Fotoğraf Müzesi)",
+     "category": "culture",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 100,
+     "tips": "Restore edilmiş eski bir Rum evinde Türkiye'nin ilk köy fotoğraf müzesi; giriş ücretsiz ya da bağış esaslıdır, pazartesi kapalıdır. Nilüfer Çayı kenarındaki çay bahçesinde mola ver."
+    },
+    {
+     "name": "Arap Şükrü Sokağı",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 1300,
+     "tips": "Rakı-balık-roka üçlemesiyle ünlü tarihi meyhane sokağı; kemancı ve darbukacılar masalar arasında dolaşır. Alkol içmeyenler için de zengin meze ve ana yemek seçeneği vardır."
+    }
+   ],
+   "backups": [
+    {
+     "name": "İdris Pideli Köfte (Kayhan Çarşısı)",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 650,
+     "tips": "Tereyağını tarihi Pidecioğlu fırınının pideleri üzerine zarifçe eriten, Kayhan Çarşısı'nın sevilen pideli köftecisi."
+    },
+    {
+     "name": "Setbaşı Köprüsü ve Gökdere Kıyısı",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Nehir kenarında sakin bir yürüyüş; akşamüstü ışığında fotoğraf için uygun, ücretsiz."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Hamamlar, Atölyeler ve Gizli Lokantalar",
+   "stops": [
+    {
+     "name": "Ördekli Hamamı Kültür Merkezi",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 80,
+     "tips": "Osmanlı'nın Bursa'da inşa ettiği en büyük çifte hamam, 2008'de kültür merkezine dönüştürüldü. Geleneksel el sanatı atölyelerini ve sergi galerisini gez; çoğu yabancı turist bu yeri bilmez."
+    },
+    {
+     "name": "Abdal Simit Fırını",
+     "category": "food",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 100,
+     "tips": "1969'dan beri odun ateşli fırında pişen Bursa simidinin adresi; sıcağına yakalarsan şansın yaver gitmiş demektir."
+    },
+    {
+     "name": "Rumeli Kardeşler Sofrası",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 750,
+     "tips": "Gülbahçe'de, günlük değişen menüsüyle hem Osmanlı hem Bursa mutfağından örnekler sunan esnaf lokantası; öğle saatinde masa bulmak zor olabilir, erken git."
+    },
+    {
+     "name": "Eski Kaplıca",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 1200,
+     "tips": "14. yüzyıldan kalma, I. Murad döneminde inşa edilmiş çifte hamam hâlâ faal; kese-köpük paketini iste. Bizans dönemi kalıntısı aslan başlı çeşmeye dikkat et."
+    },
+    {
+     "name": "Cumhuriyet Caddesi Nostaljik Tramvay Yürüyüşü",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Bursa'nın İstiklal Caddesi'nde nostaljik tramvayı izleyip 270 ahşap-taş dükkânın arasında yürü; cadde trafiğe kapalıdır."
+    },
+    {
+     "name": "Hacı İlyas Lokantası",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 850,
+     "tips": "FSM Metro durağının karşısında, yerel halkın akşam sofrası; günlük ev yemekleri arasından seçim yapabilirsin."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pidecioğlu Cantık",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 400,
+     "tips": "Kayhan Çarşısı ile Özdilek arkasında, Bursa'nın et dolgulu geleneksel hamuru cantık'ın en bilinen adreslerinden."
+    },
+    {
+     "name": "Atatürk Evi Müzesi",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 50,
+     "tips": "Çekirge Caddesi üzerinde çam ağaçları arasındaki 19. yüzyıl köşkü; Atatürk'ün Bursa'da kaldığı yerdir ve sivil mimari örneği olarak da değerlidir."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Nilüfer'in Yeşili: Sanayi Mirası ve Semt Lezzetleri",
+   "stops": [
+    {
+     "name": "Merinos Atatürk Kültür Parkı ve Tekstil Sanayi Müzesi",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 100,
+     "tips": "Eski bir iplik fabrikasının dönüştürüldüğü sanayi mirası müzesi; geniş yeşil alanında yürüyüş de yapılabilir."
+    },
+    {
+     "name": "Hayat Lokantası (Merinos Park içi)",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 700,
+     "tips": "Parkın içinde küçük bir ev yemeği lokantası; çevredeki çalışanların uğrak yeri, günlük menüsü değişir."
+    },
+    {
+     "name": "Botanik Park (Nilüfer)",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Geniş yürüyüş rotaları ve göletleriyle sakin bir öğleden sonra molası; gölgeli alanları tercih edin, ücretsizdir."
+    },
+    {
+     "name": "İnci Pide (Anadolu Mah.)",
+     "category": "food",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 300,
+     "tips": "Bursa'nın et dolgulu klasiği cantık için Ekşi Sözlük'te sıkça önerilen ince hamurlu bir adres."
+    },
+    {
+     "name": "Kardeşler Pide (Tuzpazarı)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 750,
+     "tips": "Tuzpazarı içinde küçük bir dükkan; yöresel pide çeşitleri arasında kıymalı ve peynirli en çok tercih edilenler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Çiçek Izgara",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 650,
+     "tips": "Bursalıların köfte için önerdiği köklü bir ızgara mekanı, sade ve doyurucu bir öğle seçeneği."
+    },
+    {
+     "name": "Kükürtlü Kaplıcası",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Çekirge/Kükürtlü bölgesinde tarihi kaplıca mimarisini dışarıdan görebileceğin sakin bir yürüyüş güzergâhı."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Uludağ'a Kaçış: Teleferikle Zirveye",
+   "stops": [
+    {
+     "name": "Uludağ Teleferik ile Zirve Doğa Gezisi",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 1053,
+     "tips": "Türkiye'nin en uzun teleferik hattıyla (9 km) bulutların üstüne çıkıyorsun; rehberli zirve doğa yürüyüşü dahildir. Yazın bile serin olduğu için hırka götür.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Bursa+Uludag+cable+car+nature+trip",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Uludağ'da Öğle Yemeği (Teleferik Turu Seçeneği)",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 527,
+     "tips": "Zirvedeki restoranlarda manzaralı öğle yemeği paketi; rezervasyonu önceden yap. Yemek, bulutların altında kalan Bursa Ovası manzarası eşliğinde yenir.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Bursa+Uludag+tour+lunch+cable+car",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Bakacak Seyir Terası",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "1720 metrede cam zeminli seyir terasından açık havada Marmara Denizi'ne kadar manzara görülür; nadiren bakım için kapanabilir, kapalıysa Sarıalan'dan devam et."
+    },
+    {
+     "name": "Kirazlıyayla",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 200,
+     "tips": "1530 metredeki sakin yayla köyünde köylülerin sattığı taze kiraz reçeli ve künefeyi dene; dönüş yolunda kısa ama keyifli bir mola."
+    },
+    {
+     "name": "İskender (Ünlü Caddesi)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 950,
+     "tips": "İskender Efendi'nin 3. kuşak torunu tarafından işletilen orijinal reçeteli mekan; şehre dönüşte akşam yemeği için ideal."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Meşhur Kayhan Pideli Köfte (Hacı Hüsamettin Sünneli)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 650,
+     "tips": "1970'den beri aynı ailenin işlettiği Kayhan Çarşısı'nın köklü pideli köfte adresi."
+    },
+    {
+     "name": "Sarıalan Yaylası",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Teleferikle 20 dakikada ulaşılan gündüz kullanım alanı; çam ormanları arasında kısa bir yürüyüş için uygundur."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Kıyıya Kaçış: Mudanya ve Tirilye",
+   "stops": [
+    {
+     "name": "Mudanya Mütareke Evi Müzesi",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 100,
+     "tips": "1922 Mudanya Mütarekesi'nin imzalandığı tarihi bina, küçük ama etkileyici bir müze; giriş ücreti sembolik."
+    },
+    {
+     "name": "Tirilye Kapanca Limanı",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Bölgenin en eski limanlarından biri; balıkçı tekneleri ve tarihi Rum evleri arasında nostaljik bir yürüyüş, fotoğraf için ideal saat."
+    },
+    {
+     "name": "Çamlı Kahve",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "1900'lerin başından beri mesire yeri olarak kullanılan deniz manzaralı bir mekan; öğle yemeği veya kahvaltı için uygun."
+    },
+    {
+     "name": "Kumyaka Sahili",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 150,
+     "tips": "Mudanya ile Tirilye arasında sakin, eski Rum evleriyle çevrili küçük bir koy; yerel halkın çay içmeye geldiği, kalabalıktan uzak bir nokta."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tirilye Balık Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 900,
+     "tips": "İskele Caddesi Yalı Sokak'ta, sabah limana dönen teknelerden gelen taze balıkla hazırlanan bir sahil restoranı."
+    },
+    {
+     "name": "Gölyazı Köyü",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Uluabat Gölü kıyısındaki yarımada köy; 700 yıllık Ağlayan Çınar ve leyleklerle ünlü, gün batımı manzarasıyla bilinir."
+    }
+   ]
+  }
+ ]
+}

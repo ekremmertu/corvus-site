@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "berlin-yaz",
+ "altSlug": "berlin-summer",
+ "citySlug": "berlin",
+ "destKey": "berlin",
+ "city": "Berlin",
+ "region": null,
+ "country": "Almanya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 300,
+  "attractions": 150,
+  "transport": 55,
+  "misc": 70
+ },
+ "notes": [
+  "BVG günlük AB bilet ~9 EUR; Berlin WelcomeCard ulaşım+indirim. BER'e FEX/S9 30-40 dakika. Bisiklet düz şehirde ideal.",
+  "Reichstag kubbesi ücretsiz ama 2-3 hafta önce online kayıt; Museum Island saatli bilet, ilk pazar ücretsiz (Museumssonntag).",
+  "Yaz 22-28°C, gün 21.30'a kadar sürer; parklar, kanal, açık hava sinemaları, Tempelhof; Ağustos'ta göllerde yüzme (Wannsee).",
+  "Döner 6-8 EUR (Mustafa's, Rüyam), currywurst 4-5 EUR; lokanta 15-25 EUR. Bahşiş %5-10 ya da hesabı yuvarlamak yeterli; nakit hâlâ yaygın.",
+  "Pazar günü mağazalar kapalı; Mauerpark bit pazarı pazar, Markthalle Neun perşembe akşamı.",
+  "Kulüpler (Berghain) cuma-pazar; kapı seçici, siyah giy, fotoğraf yasak."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Mitte: Brandenburg & Reichstag",
+   "stops": [
+    {
+     "name": "Brandenburger Tor",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Pariser Platz'da sabah boş; kapıdan Tiergarten'a bak."
+    },
+    {
+     "name": "Holocaust Memorial",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "2.711 beton blok; yeraltı bilgi merkezi ücretsiz."
+    },
+    {
+     "name": "Reichstag Kubbesi",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Ücretsiz ama online kayıt 2-3 hafta önce (kimlik); cam kubbe ve sesli rehber, şehir manzarası."
+    },
+    {
+     "name": "Mustafa's Gemüse Kebap",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 7,
+     "tips": "Mehringdamm'daki efsane sebzeli döner; 30-60 dakika kuyruk, öğlen daha kısa."
+    },
+    {
+     "name": "Gendarmenmarkt",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Berlin'in en güzel meydanı; ikiz katedraller ve Konzerthaus."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Curry 36 Mehringdamm",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 5,
+     "tips": "Mustafa'nın karşısında currywurst; kuyruk yoksa."
+    },
+    {
+     "name": "Berliner Dom",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 10,
+     "tips": "Katedral kubbesi; 270 basamak, Museum Island yanı."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Museum Island",
+   "stops": [
+    {
+     "name": "Pergamonmuseum Das Panorama",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 14,
+     "tips": "Ana bina 2027'ye kadar kapalı; İştar Kapısı panoraması ve Pergamon parçaları yan binada."
+    },
+    {
+     "name": "Neues Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 14,
+     "tips": "Nefertiti büstü; online saatli bilet, Museum Island günlük kartı 24 EUR."
+    },
+    {
+     "name": "Alte Nationalgalerie",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 12,
+     "tips": "Caspar David Friedrich ve Alman romantikleri."
+    },
+    {
+     "name": "Hackescher Markt Yemek",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "Hackesche Höfe avluları; kafeler ve sokak yemeği."
+    },
+    {
+     "name": "Hackesche Höfe & Haus Schwarzenberg",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Art nouveau avlular ve grafitili Schwarzenberg avlusu (Anne Frank Zentrum)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bode Museum",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 12,
+     "tips": "Bizans ve heykel; nehir ucunda."
+    },
+    {
+     "name": "Zeit für Brot Alte Schönhauser",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 6,
+     "tips": "Tarçınlı çörek fırını."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Duvar: Bernauer & East Side",
+   "stops": [
+    {
+     "name": "Berlin Wall Memorial Bernauer Strasse",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Duvarın orijinal parçası, ölüm şeridi ve belgeleme merkezi; en dürüst duvar anlatısı, ücretsiz."
+    },
+    {
+     "name": "Mauerpark",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Pazar günü bit pazarı ve karaoke; diğer günler park ve duvar grafitileri."
+    },
+    {
+     "name": "Prenzlauer Berg Kollwitzplatz",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kafeler, Kastanienallee; perşembe-cumartesi pazar."
+    },
+    {
+     "name": "Konnopke's Imbiss",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 5,
+     "tips": "1930'dan beri U-Bahn altında currywurst; Doğu Berlin klasiği."
+    },
+    {
+     "name": "East Side Gallery",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "1,3 km duvar üstü resimler; Öpüşen Brejnev-Honecker, Oberbaumbrücke'ye yürü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Burgermeister Schlesisches Tor",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "Eski tuvalet binasında burger; East Side yanı."
+    },
+    {
+     "name": "Checkpoint Charlie",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Turistik geçiş noktası; Mauermuseum ücretli, East Side yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Kreuzberg & Neukölln",
+   "stops": [
+    {
+     "name": "Markthalle Neun",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 12,
+     "tips": "Kreuzberg pazar hali; perşembe Street Food Thursday, cumartesi pazar."
+    },
+    {
+     "name": "Landwehrkanal Yürüyüşü",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Kanal boyu; salı-cuma Maybachufer Türk pazarı."
+    },
+    {
+     "name": "Tempelhofer Feld",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Eski havalimanı pistlerinde park; bisiklet, uçurtma ve piknik, yazın en güzeli."
+    },
+    {
+     "name": "Neukölln Weserstrasse",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Barlar ve kafeler; Berlin'in genç mahallesi."
+    },
+    {
+     "name": "Hamy Cafe Neukölln",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 8,
+     "tips": "Vietnam mutfağı; Neukölln'ün ucuz favorisi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rüyam Gemüse Kebab",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 6,
+     "tips": "Neukölln'de döner alternatifi."
+    },
+    {
+     "name": "Jüdisches Museum Berlin",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 10,
+     "tips": "Libeskind binası; Tempelhof yerine yağmurda."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Charlottenburg & Batı",
+   "stops": [
+    {
+     "name": "Schloss Charlottenburg",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 12,
+     "tips": "Prusya sarayı ve barok bahçe; Altes Schloss + Neuer Flügel."
+    },
+    {
+     "name": "Charlottenburg Schlossgarten",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Saray bahçesi; ücretsiz, göl."
+    },
+    {
+     "name": "Kaiser-Wilhelm-Gedächtniskirche",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Bombalanmış kule; mavi cam yeni kilise."
+    },
+    {
+     "name": "KaDeWe 6. Kat Gıda",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 25,
+     "tips": "Avrupa'nın en büyük gıda katı; tezgahta istiridye veya wurst."
+    },
+    {
+     "name": "Bikini Berlin & Zoo",
+     "category": "shopping",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Konsept AVM; hayvanat bahçesi manzaralı teras (Monkey Bar)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Schwarzes Café",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "24 saat Charlottenburg kafesi."
+    },
+    {
+     "name": "Berlin Zoo",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 21,
+     "tips": "Almanya'nın en eski hayvanat bahçesi; AVM yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Potsdam",
+   "stops": [
+    {
+     "name": "Schloss Sanssouci",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 22,
+     "tips": "S7 ile 40 dakika; Friedrich'in üzüm teraslı sarayı, saatli bilet."
+    },
+    {
+     "name": "Park Sanssouci",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Chinesisches Haus ve Neues Palais'e park yürüyüşü; 300 hektar."
+    },
+    {
+     "name": "Holländisches Viertel Potsdam",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Hollanda mahallesi kırmızı tuğla evler; kafeler."
+    },
+    {
+     "name": "Maison Charlotte Potsdam",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 22,
+     "tips": "Hollanda mahallesinde Fransız bistro."
+    },
+    {
+     "name": "Cecilienhof",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 14,
+     "tips": "Potsdam Konferansı'nın (1945) yapıldığı köşk; Truman-Stalin-Churchill masası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Potsdam Brauhaus",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 18,
+     "tips": "Bira evi; schnitzel."
+    },
+    {
+     "name": "Glienicker Brücke",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Casus köprüsü; Cecilienhof yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Alexanderplatz — hafif veda",
+   "stops": [
+    {
+     "name": "Fernsehturm",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 25,
+     "tips": "TV kulesi 203 m; sabah ilk slot online, döner restoran."
+    },
+    {
+     "name": "Nikolaiviertel",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Berlin'in en eski mahallesi (yeniden inşa); Nikolaikirche."
+    },
+    {
+     "name": "Zur Letzten Instanz",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 20,
+     "tips": "1621'den beri Berlin'in en eski lokantası; eisbein."
+    },
+    {
+     "name": "Alexanderplatz Weltzeituhr",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Dünya saati; BER'e Airport Express 30 dakika, veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Curry 61 Alexanderplatz",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 5,
+     "tips": "Hızlı currywurst."
+    },
+    {
+     "name": "DDR Museum",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 13,
+     "tips": "Doğu Almanya gündelik hayat müzesi; interaktif."
+    }
+   ]
+  }
+ ]
+}

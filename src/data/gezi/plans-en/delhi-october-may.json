@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "delhi-october-may",
+ "altSlug": "delhi-ekim-mayis",
+ "citySlug": "delhi",
+ "destKey": "delhi",
+ "city": "Delhi",
+ "region": null,
+ "country": "India",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "INR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 8000,
+  "attractions": 7500,
+  "transport": 6000,
+  "misc": 3000
+ },
+ "notes": [
+  "The Delhi Metro is clean, cheap and air-conditioned (with a women's carriage). Uber and Ola are safe; bargain with auto-rickshaw drivers. Take the Gatimaan Express to Agra and the Shatabdi to Jaipur.",
+  "October to March is the best season (15-25°C). Mornings from November to January bring fog and air pollution. Wear a mask and allow for train delays.",
+  "Monument entry costs foreigners 500-600 INR (35 for Indians). An online ASI ticket skips the queue. The Taj is closed on Fridays, the Red Fort on Mondays.",
+  "Choose street food that is cooked and hot, and skip ice and raw salads. Drink bottled water. Take probiotics against Delhi belly.",
+  "Remove your shoes in temples and mosques, and cover shoulders and knees. Enter Sikh gurdwaras with your head covered; the food is free.",
+  "Tip 10%. Bargaining works everywhere: start at a third of the first price."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old Delhi",
+   "stops": [
+    {
+     "name": "Jama Masjid",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 300,
+     "tips": "India's largest mosque. Buy a minaret ticket for the view. Cover shoulders and knees, and leave your shoes outside."
+    },
+    {
+     "name": "Chandni Chowk",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Old Delhi's main market. Take a rickshaw through the narrow lanes and visit the Khari Baoli spice market."
+    },
+    {
+     "name": "Paranthe Wali Gali",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 150,
+     "tips": "A lane of stuffed parathas fried in ghee, open since the 1870s. Expect 3-4 varieties."
+    },
+    {
+     "name": "Red Fort",
+     "category": "culture",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Shah Jahan's red fortress. UNESCO site, 600 INR for foreigners, closed on Mondays."
+    },
+    {
+     "name": "Karim's Jama Masjid",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 400,
+     "tips": "Mughal cooking since 1913. Order the mutton burra and nihari, on the lane facing the mosque."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Al Jawahar Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 350,
+     "tips": "Karim's rival across the road. Kebabs and korma."
+    },
+    {
+     "name": "Gurudwara Sis Ganj Sahib",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A Sikh temple on Chandni Chowk. Free langar (community meal); enter with your head covered."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "New Delhi: Humayun and Lodhi",
+   "stops": [
+    {
+     "name": "Humayun's Tomb",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 600,
+     "tips": "The Mughal tomb that preceded the Taj Mahal. Go for the morning light and the gardens."
+    },
+    {
+     "name": "Nizamuddin Dargah",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A Sufi shrine. Qawwali music on Thursday evenings, set among narrow lanes."
+    },
+    {
+     "name": "Lodhi Garden",
+     "category": "nature",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "A park among 15th-century tombs. The calmest spot in Delhi."
+    },
+    {
+     "name": "Khan Market",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 600,
+     "tips": "A stylish market. Try the kathi roll at Khan Chacha and browse the bookshops."
+    },
+    {
+     "name": "India Gate",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "War memorial on Rajpath. In the evening it fills with families and ice cream."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sodabottleopenerwala Khan Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "A Parsi cafe. Try the berry pulao."
+    },
+    {
+     "name": "National Museum Delhi",
+     "category": "culture",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 650,
+     "tips": "Harappan finds and Mughal miniatures. An indoor option in the heat."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Qutub and South Delhi",
+   "stops": [
+    {
+     "name": "Qutub Minar",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 600,
+     "tips": "A 73 m minaret from the 12th century, with a rust-free iron pillar. Cooler in the morning."
+    },
+    {
+     "name": "Mehrauli Archaeological Park",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "A free ruins park next to Qutub Minar. Look for Jamali Kamali."
+    },
+    {
+     "name": "Hauz Khas Village",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Lakeside madrasa ruins, boutiques and cafes."
+    },
+    {
+     "name": "Hauz Khas Social",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 600,
+     "tips": "A cafe-bar with lake views. Good for lunch."
+    },
+    {
+     "name": "Lotus Temple",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "The Baha'i lotus-shaped temple. Quiet inside; closed on Mondays."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Naivedyam Hauz Khas",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "South Indian dosa. Vegetarian."
+    },
+    {
+     "name": "Dilli Haat INA",
+     "category": "shopping",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 30,
+     "tips": "A market of handicrafts and regional cuisines. An alternative to the temple."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Agra: Taj Mahal",
+   "stops": [
+    {
+     "name": "Taj Mahal",
+     "category": "culture",
+     "start": "06:30",
+     "end": "09:00",
+     "cost": 1300,
+     "tips": "Take the Gatimaan Express at 08:10 (1.5 hours) or leave by car at 05:00. Sunrise ticket 1,100 + 200 for the mausoleum; closed Fridays; shoe covers are provided."
+    },
+    {
+     "name": "Agra Fort",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 650,
+     "tips": "The fort where Shah Jahan was imprisoned. See the Taj across the river."
+    },
+    {
+     "name": "Pinch of Spice Agra",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 500,
+     "tips": "North Indian cuisine in Agra. Air-conditioned."
+    },
+    {
+     "name": "Itmad-ud-Daulah (Baby Taj)",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 310,
+     "tips": "A small tomb that pioneered marble inlay. No crowds."
+    },
+    {
+     "name": "Mehtab Bagh",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 300,
+     "tips": "A garden on the opposite bank of the river. Sunset view of the Taj; return train at 18:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Joney's Place Agra",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 200,
+     "tips": "A backpacker classic. Try the lassi."
+    },
+    {
+     "name": "Fatehpur Sikri",
+     "category": "culture",
+     "start": "13:15",
+     "end": "16:00",
+     "cost": 610,
+     "tips": "An abandoned Mughal capital (40 km). An alternative to Baby Taj."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Jaipur",
+   "stops": [
+    {
+     "name": "Amber Fort",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 550,
+     "tips": "4-5 hours from Delhi by train or car (ideal with an overnight stay). Mirror palace on the hilltop; take a jeep instead of an elephant."
+    },
+    {
+     "name": "Hawa Mahal",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 200,
+     "tips": "The facade of the Palace of Winds. Take photos from the cafe opposite."
+    },
+    {
+     "name": "City Palace Jaipur",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 700,
+     "tips": "The Maharaja's palace and museum. The heart of the Pink City."
+    },
+    {
+     "name": "Laxmi Misthan Bhandar",
+     "category": "food",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 300,
+     "tips": "A sweet shop and restaurant since 1727. Order dal baati and ghewar."
+    },
+    {
+     "name": "Johari Bazaar",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A market for jewellery and block-printed fabric. Bargain."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jantar Mantar Jaipur",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 200,
+     "tips": "Giant stone astronomical instruments. An alternative to the palace."
+    },
+    {
+     "name": "Rawat Misthan Bhandar",
+     "category": "food",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 150,
+     "tips": "Pyaz kachori (fried onion-stuffed pastry), Jaipur's street food favourite."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Connaught Place and Akshardham",
+   "stops": [
+    {
+     "name": "Akshardham Temple",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A vast modern Hindu temple complex. Phones and cameras are not allowed (leave them in the cloakroom); exhibitions around 250 INR."
+    },
+    {
+     "name": "Connaught Place",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A circular market with white colonnades. The centre of Delhi."
+    },
+    {
+     "name": "Saravana Bhavan Connaught Place",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 350,
+     "tips": "South Indian thali and dosa. Air-conditioned."
+    },
+    {
+     "name": "Janpath Market",
+     "category": "shopping",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "Tibetan market and textiles. Bargain."
+    },
+    {
+     "name": "Gurudwara Bangla Sahib",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "A Sikh temple with a golden dome and sacred pool. Visit the langar kitchen."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kake Da Hotel Connaught",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 300,
+     "tips": "Punjabi meat dishes, since 1931."
+    },
+    {
+     "name": "Agrasen ki Baoli",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "A stepwell. Good photos, near Janpath."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Morning market and a gentle farewell",
+   "stops": [
+    {
+     "name": "Sunder Nursery",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 100,
+     "tips": "A restored Mughal garden next to Humayun's Tomb. Morning walk; organic market on Sundays."
+    },
+    {
+     "name": "Cafe Lota Pragati Maidan",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 500,
+     "tips": "Modern Indian breakfast and lunch in the garden of the crafts museum. A farewell meal."
+    },
+    {
+     "name": "National Crafts Museum",
+     "category": "shopping",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 200,
+     "tips": "A crafts museum with master artisans' stalls. Good for souvenirs."
+    },
+    {
+     "name": "Delhi Metro Airport Express",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "20 minutes from New Delhi station to the airport. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Andhra Bhavan Canteen",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 200,
+     "tips": "Cheap unlimited thali. A Delhi legend."
+    },
+    {
+     "name": "Purana Qila",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 300,
+     "tips": "The Old Fort and its lake. An alternative to the museum."
+    }
+   ]
+  }
+ ]
+}

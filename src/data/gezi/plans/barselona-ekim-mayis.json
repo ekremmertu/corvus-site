@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "barselona-ekim-mayis",
+ "altSlug": "barcelona-october-may",
+ "citySlug": "barselona",
+ "destKey": "barcelona",
+ "city": "Barselona",
+ "region": null,
+ "country": "İspanya",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 380,
+  "attractions": 250,
+  "transport": 50,
+  "misc": 70
+ },
+ "notes": [
+  "T-casual 10 biniş metro; Aerobús Plaça Catalunya 35 dakika. Şehir yürünür, Montjuïc teleferik/füniküler.",
+  "Sagrada, Park Güell, Casa Batlló, Picasso: online saatli bilet ŞART. Sagrada'ya 2026 yüzüncü yılı nedeniyle aylar önce bilet al.",
+  "Kış 10-15°C güneşli, kalabalık yok; Aralık Noel pazarı (Fira de Santa Llúcia), Ocak indirim; Font Màgica kışın sınırlı.",
+  "Öğle menüsü (menú del día) 13-18 EUR, akşam yemeğinin yarısı kadar. Tapas barlarında ayakta yemek ucuz. Akşam yemeği 21:00 sonrası.",
+  "Rambla ve metroda yankesicilik Avrupa'nın en yoğunu; çanta önde, telefon masada değil.",
+  "Katalanca ve İspanyolca konuşulur; 'bon dia' yeter. Bahşiş için hesabı yuvarla."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Gaudí: Sagrada & Eixample",
+   "stops": [
+    {
+     "name": "Sagrada Família",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 34,
+     "tips": "Gaudí'nin bazilikası; online saatli bilet haftalar önce (2026 yüzüncü yıl, 26-40 EUR), kule ekstra, 09:00 ışığı vitraylara vurur."
+    },
+    {
+     "name": "Casa Batlló",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 35,
+     "tips": "Ejderha çatılı ev; online, sabah slotu."
+    },
+    {
+     "name": "Casa Milà La Pedrera",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Dıştan dalgalı cephe; içi 28 EUR opsiyon."
+    },
+    {
+     "name": "Cerveseria Catalana",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 25,
+     "tips": "Eixample'nin klasik tapas barı; montaditos ve gambas, 13:30 kuyruk kısa."
+    },
+    {
+     "name": "Passeig de Gràcia",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Modernist bulvar; mağazalar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tapas 24",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 30,
+     "tips": "Carles Abellan'ın tapası; bikini sandviç."
+    },
+    {
+     "name": "Recinte Modernista Sant Pau",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 16,
+     "tips": "Modernist hastane kompleksi; Sagrada yanı, Batlló yerine sakin."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Gotik Mahalle & Born",
+   "stops": [
+    {
+     "name": "Barcelona Katedrali",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 11,
+     "tips": "Gotik katedral ve kazlı avlu; sabah ücretsiz ayin saati."
+    },
+    {
+     "name": "Barri Gòtic Sokakları",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Plaça Sant Felip Neri, Roma sütunları (MUHBA Temple d'August ücretsiz), Bisbe köprüsü."
+    },
+    {
+     "name": "La Boqueria",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 10,
+     "tips": "Rambla'daki pazar; El Quim veya Bar Pinotxo tezgahında yumurtalı kalamar, 10:00 öncesi en iyi."
+    },
+    {
+     "name": "El Born Santa Maria del Mar",
+     "category": "culture",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 5,
+     "tips": "Denizin katedrali; sade gotik."
+    },
+    {
+     "name": "Picasso Museum",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 14,
+     "tips": "Erken dönem Picasso; perşembe akşamı ücretsiz, online."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Xampanyet",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 20,
+     "tips": "1929'dan beri cava ve anchoa; ayakta, Picasso yanı."
+    },
+    {
+     "name": "Palau de la Música Catalana",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "Modernist konser salonu turu; Picasso yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Park Güell & Gràcia",
+   "stops": [
+    {
+     "name": "Park Güell",
+     "category": "nature",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 10,
+     "tips": "Mozaik salamander ve dalgalı bank; online saatli (10 EUR), 08:30 ilk slot boş."
+    },
+    {
+     "name": "Bunkers del Carmel",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Eski uçaksavar tepesi; Barcelona'nın en iyi ücretsiz 360° manzarası."
+    },
+    {
+     "name": "Gràcia Plaça del Sol",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Köy havalı mahalle; meydanlar ve teraslar."
+    },
+    {
+     "name": "La Pubilla Gràcia",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "Gràcia'da Katalan öğle menüsü; pazar günü kapalı."
+    },
+    {
+     "name": "Casa Vicens",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 18,
+     "tips": "Gaudí'nin ilk evi; çini ve palmiye motifleri, Gràcia."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Bodega Quimet Gràcia",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 18,
+     "tips": "Vermut ve konserve tapas; yerel."
+    },
+    {
+     "name": "Hospital de Sant Pau",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 16,
+     "tips": "Modernist hastane; Vicens yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Montjuïc",
+   "stops": [
+    {
+     "name": "MNAC Museu Nacional",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 12,
+     "tips": "Roman freskleri ve saray binası; merdivenden şehir manzarası, teras ücretsiz."
+    },
+    {
+     "name": "Fundació Joan Miró",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 14,
+     "tips": "Miró'nun eserleri; Sert'in beyaz binası."
+    },
+    {
+     "name": "Montjuïc Teleferik",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 10,
+     "tips": "Kaleye teleferik; deniz manzarası."
+    },
+    {
+     "name": "Montjuïc Kalesi Kafe",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "Kale avlusunda öğle; liman manzarası."
+    },
+    {
+     "name": "Poble Espanyol",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 14,
+     "tips": "İspanya köyleri kopya kasabası; el işi atölyeleri, çeşme kapalıyken."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Quimet & Quimet Poble Sec",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Efsane konserve tapas barı; ayakta, Poble Sec."
+    },
+    {
+     "name": "Olimpiyat Stadı Montjuïc",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "1992 stadı; teleferik yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Barceloneta & deniz",
+   "stops": [
+    {
+     "name": "Platja de la Barceloneta",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Kışın sahil yürüyüşü ve bisiklet; sörfçüler."
+    },
+    {
+     "name": "La Cova Fumada",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "Bombanın (patatesli köfte) doğduğu yer; menüsüz, nakit, 13:00 dolu."
+    },
+    {
+     "name": "Barceloneta Sahil Yolu W Hotel'e",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Palmiyeli sahil yürüyüşü; Frank Gehry balığı."
+    },
+    {
+     "name": "Port Vell & Maremagnum",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Eski liman; Rambla de Mar köprüsü."
+    },
+    {
+     "name": "Teleférico del Puerto",
+     "category": "nature",
+     "start": "16:00",
+     "end": "16:45",
+     "cost": 13,
+     "tips": "Liman üstünden Montjuïc'e kırmızı teleferik; deniz ve şehir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Can Paixano La Xampanyeria",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 12,
+     "tips": "Cava ve sandviç; ayakta, ucuz."
+    },
+    {
+     "name": "Museu d'Història de Catalunya",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 6,
+     "tips": "Liman deposunda tarih müzesi; teras kafe."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Montserrat",
+   "stops": [
+    {
+     "name": "Montserrat Manastırı",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Tren+cremallera 1,5 saat (~50 EUR kombine); testere dişli dağda Kara Meryem, 13:00 çocuk korosu (Escolania)."
+    },
+    {
+     "name": "Sant Joan Füniküleri",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Zirveye füniküler; yürüyüş yolları."
+    },
+    {
+     "name": "Montserrat Sant Joan Yürüyüşü",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kayalar arasında 1 saat düz yürüyüş; Katalonya manzarası."
+    },
+    {
+     "name": "Montserrat Restaurant Abat Cisneros",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 25,
+     "tips": "Manastır oteli restoranı; Katalan öğle."
+    },
+    {
+     "name": "Montserrat Pazar Tezgahları",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Keçi peyniri (mató) ve bal; köylü tezgahları."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Montserrat Self-Service Kafeterya",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 15,
+     "tips": "Ucuz kafeterya."
+    },
+    {
+     "name": "Santa Cova",
+     "category": "culture",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Meryem'in bulunduğu mağaraya patika; Sant Joan yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Rambla sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "La Rambla Sabah Yürüyüşü",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Kalabalık gelmeden Rambla; Miró mozaiği ve çiçekçiler."
+    },
+    {
+     "name": "Palau Güell",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 12,
+     "tips": "Gaudí'nin şehir sarayı; çatı bacaları."
+    },
+    {
+     "name": "Granja Viader",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 8,
+     "tips": "1870'ten beri sıcak çikolata ve churros; Cacaolat'ın doğduğu süthane."
+    },
+    {
+     "name": "Plaça Reial",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Gaudí fenerli palmiyeli meydan; veda fotoğrafı, Aerobús Plaça Catalunya."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Lobo Raval",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Raval'da brunch."
+    },
+    {
+     "name": "MACBA Raval",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 11,
+     "tips": "Çağdaş sanat ve kaykaycılar; Palau Güell yerine."
+    }
+   ]
+  }
+ ]
+}

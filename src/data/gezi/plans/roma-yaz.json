@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "roma-yaz",
+ "altSlug": "rome-summer",
+ "citySlug": "roma",
+ "destKey": "rome",
+ "city": "Roma",
+ "region": null,
+ "country": "İtalya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 450,
+  "attractions": 180,
+  "transport": 50,
+  "misc": 80
+ },
+ "notes": [
+  "Roma yürünür; metro A/B sınırlı, otobüs 64 Vatikan'a. Fiumicino'ya Leonardo Express 14 EUR. Roma Pass 48/72 saat müzeler+ulaşım.",
+  "Kolezyum, Vatikan Müzeleri ve Borghese için online saatli bilet ŞART; Borghese haftalar, Vatikan 60 gün önce.",
+  "Yaz 33-38°C: antik alanları 08:30'da bitir, 13:00-16:00 arası kapalı mekân/siesta, akşam 20:00 sonrası yemek; Ağustos'ta bazı trattoria'lar tatil (Ferragosto).",
+  "Roma dört makarnası: carbonara, cacio e pepe, amatriciana, gricia; coperto 2-3 EUR, bahşiş yuvarlama.",
+  "Kiliselerde omuz-diz kapalı (Vatikan sıkı); çeşmelerden su içilir (nasoni), şişe doldur.",
+  "Yankesici: 64 otobüsü ve Termini; Trevi ve Spagna'da bilezik satıcılarına 'no grazie'."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Antik Roma: Kolezyum & Forum",
+   "stops": [
+    {
+     "name": "Colosseo",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 18,
+     "tips": "Kolezyum + Forum + Palatino tek bilet (~18 EUR), 08:30 ilk slot online; arena katı ekstra, gölge yok, su al."
+    },
+    {
+     "name": "Foro Romano",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Aynı biletle; Via Sacra boyunca, Vesta Tapınağı."
+    },
+    {
+     "name": "Palatino",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "İmparator sarayları ve Forum manzarası; portakal bahçesi."
+    },
+    {
+     "name": "Trattoria Luzzi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 18,
+     "tips": "Kolezyum yanında ucuz esnaf trattoria'sı; cacio e pepe, kuyruk hızlı."
+    },
+    {
+     "name": "Piazza del Campidoglio",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Michelangelo'nun meydanı; arkadaki terastan Forum'un gün batımı manzarası, ücretsiz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Li Rioni Pizzeria",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 15,
+     "tips": "Kolezyum yakınında Roma pizzası; akşam açık."
+    },
+    {
+     "name": "Basilica di San Clemente",
+     "category": "culture",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 10,
+     "tips": "Üç katlı kilise (Roma tapınağı altında); Kolezyum yanı."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Vatikan",
+   "stops": [
+    {
+     "name": "Musei Vaticani",
+     "category": "culture",
+     "start": "08:00",
+     "end": "11:00",
+     "cost": 25,
+     "tips": "Sistine Şapeli için 08:00 ilk slot (online 25 EUR, 60 gün önce); Raffaello odaları, uzun koridorlar."
+    },
+    {
+     "name": "Basilica di San Pietro",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Ücretsiz ama güvenlik kuyruğu; kubbe 10 EUR (551 basamak), Pietà girişte."
+    },
+    {
+     "name": "Bonci Pizzarium",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "Gabriele Bonci'nin dilim pizzası; Vatikan metrosu Cipro, ayakta."
+    },
+    {
+     "name": "Castel Sant'Angelo",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 15,
+     "tips": "Hadrianus'un mozolesi-kale; terastan Vatikan manzarası."
+    },
+    {
+     "name": "Ponte Sant'Angelo",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Bernini'nin melekli köprüsü; gün batımı öncesi fotoğraf."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pizzeria Da Remo Testaccio",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 12,
+     "tips": "İnce Roma pizzası; akşam, Testaccio."
+    },
+    {
+     "name": "Giardini Vaticani",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 37,
+     "tips": "Vatikan Bahçeleri rehberli turu; kale yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Barok Roma: Pantheon, Navona & Trevi",
+   "stops": [
+    {
+     "name": "Pantheon",
+     "category": "culture",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 5,
+     "tips": "Kubbe deliği; giriş 5 EUR, sabah ışığı, pazar günü ayin."
+    },
+    {
+     "name": "Piazza Navona",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Bernini'nin Dört Nehir Çeşmesi; kafeler pahalı, fotoğraf."
+    },
+    {
+     "name": "Campo de' Fiori",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Sabah pazarı; peynir, baharat, trüf ürünleri."
+    },
+    {
+     "name": "Roscioli Salumeria",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 35,
+     "tips": "Carbonara ve şarküteri vitrini; rezervasyon şart, Roma'nın en iyilerinden."
+    },
+    {
+     "name": "Fontana di Trevi",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Bozuk para at; sabah 07:00 veya gece 23:00 boş, gündüz izdiham (2025'ten beri giriş düzeni)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Armando al Pantheon",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "1961'den beri Roma mutfağı; Pantheon yanı, rezervasyon."
+    },
+    {
+     "name": "Galleria Doria Pamphilj",
+     "category": "culture",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 15,
+     "tips": "Özel saray koleksiyonu; Caravaggio, Velázquez, Trevi yerine sakin."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Trastevere & Gianicolo",
+   "stops": [
+    {
+     "name": "Santa Maria in Trastevere",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Roma'nın en eski Meryem kilisesi; altın mozaikler, sabah sakin."
+    },
+    {
+     "name": "Trastevere Sokakları",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Arnavut kaldırımı, sarmaşıklı duvarlar; Via della Lungaretta."
+    },
+    {
+     "name": "Da Enzo al 29",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Trastevere'nin küçük klasiği; amatriciana ve enginar, 12:00 açılışta sıraya gir."
+    },
+    {
+     "name": "Villa Farnesina",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "Raffaello freskli Rönesans villası; sakin."
+    },
+    {
+     "name": "Gianicolo Terası",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Roma'nın en iyi ücretsiz manzarası; Garibaldi anıtı, gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trapizzino Trastevere",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 6,
+     "tips": "Pizza cebinde yahni; sokak yemeği."
+    },
+    {
+     "name": "Orto Botanico di Roma",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 4,
+     "tips": "Trastevere'de botanik bahçe; villa yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Borghese & Spagna",
+   "stops": [
+    {
+     "name": "Galleria Borghese",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 18,
+     "tips": "Bernini heykelleri ve Caravaggio; 2 saatlik seans, haftalar önce rezervasyon zorunlu."
+    },
+    {
+     "name": "Villa Borghese Parkı",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Park yürüyüşü; Pincio terasından Piazza del Popolo."
+    },
+    {
+     "name": "Piazza di Spagna",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "İspanyol Merdivenleri (oturmak yasak); Via Condotti."
+    },
+    {
+     "name": "Pastificio Guerra",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 5,
+     "tips": "İspanyol Merdivenleri'nin arkasında 5 EUR'luk taze makarna; 13:00'te kuyruk."
+    },
+    {
+     "name": "Ara Pacis",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 13,
+     "tips": "Augustus'un barış sunağı, Richard Meier'in cam kutusunda; klimalı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ginger Sapori e Salute",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 18,
+     "tips": "Spagna'da hafif İtalyan öğle yemeği."
+    },
+    {
+     "name": "Piazza del Popolo",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "İkiz kiliseler ve Caravaggio (Santa Maria del Popolo, ücretsiz)."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Ostia Antica",
+   "stops": [
+    {
+     "name": "Ostia Antica",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 18,
+     "tips": "Roma'dan 30 dakika (metro+tren); Pompei kadar iyi korunmuş liman kenti, mozaikli hamamlar, gölge az."
+    },
+    {
+     "name": "Ostia Lido Plajı",
+     "category": "nature",
+     "start": "13:00",
+     "end": "16:00",
+     "cost": 10,
+     "tips": "Antik kentten 10 dakika; Romalıların plajı, stabilimento şezlong 10-20 EUR."
+    },
+    {
+     "name": "Ristorante Ostia Lido Balık",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 25,
+     "tips": "Plajda deniz ürünleri; öğle-akşam arası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sbarco di Enea Ostia",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 25,
+     "tips": "Ostia Antica çıkışında trattoria."
+    },
+    {
+     "name": "Castelli Romani Frascati",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Roma tepelerinde şarap kasabası; Ostia yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Testaccio — hafif veda",
+   "stops": [
+    {
+     "name": "Mercato Testaccio",
+     "category": "food",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 10,
+     "tips": "Yerel pazar; Mordi e Vai'de sığır yahnili sandviç, supplì."
+    },
+    {
+     "name": "Piramide Cestia & Cimitero Acattolico",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Roma'da piramit ve Keats-Shelley mezarlığı; kediler."
+    },
+    {
+     "name": "Aventino Portakal Bahçesi",
+     "category": "nature",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Giardino degli Aranci ve Malta Şövalyeleri anahtar deliği; veda manzarası."
+    },
+    {
+     "name": "Flavio al Velavevodetto",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "Monte Testaccio'ya oyulmuş trattoria; carbonara ve coda alla vaccinara."
+    },
+    {
+     "name": "Roma Termini",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Leonardo Express ile Fiumicino 32 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trapizzino Testaccio",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 6,
+     "tips": "Pizza cebinde yahni; hızlı veda."
+    },
+    {
+     "name": "Terme di Caracalla",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 8,
+     "tips": "Dev Roma hamamı kalıntısı; piramit yerine."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,513 @@
+{
+ "lang": "tr",
+ "slug": "datca-ekim-mayis",
+ "altSlug": "datca-october-may",
+ "citySlug": "datca",
+ "destKey": "datca",
+ "city": "Datça",
+ "region": "Muğla",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 10480,
+  "attractions": 4800,
+  "transport": 1600,
+  "misc": 900
+ },
+ "notes": [
+  "Küçük esnaf lokantaları, köy dükkânları ve çay bahçelerinde çoğunlukla nakit tercih edilir; kart geçmeyen yerler olabileceğinden yanınızda nakit TL bulundurun.",
+  "Datça yarımadası geniş ve koylar birbirinden uzaktır; kış aylarında dolmuş seferleri seyrekleşir, kiralık araç veya taksi en pratik ulaşım şeklidir.",
+  "Hesaba dahil olmayan %5-10 bahşiş bırakmak restoranlarda yaygın bir nezaket göstergesidir.",
+  "Ocak ayında Datça serin ve rüzgârlıdır, özellikle Deveboynu Feneri, koy kenarları ve tekne/kıyı noktalarında; katmanlı giyinin, rüzgârlık şarttır.",
+  "Kışın koy kenarındaki (Palamutbükü, Hayıtbükü, Ovabükü) restoran ve pansiyonların büyük kısmı kapalıdır; plandaki uzak koy mekânlarını ziyaretten önce telefonla teyit edin.",
+  "Datça çok güvenli küçük bir ilçedir; gece yalnız yürüyüş dahi sorun teşkil etmez, yine de değerli eşyalarınıza dikkat edin.",
+  "Emecik, Reşadiye gibi köy ziyaretlerinde yerel halka saygılı yaklaşın, özel bahçelere ve tarım alanlarına izinsiz girmeyin."
+ ],
+ "niche": {
+  "name": "Emecik Apollon Karneios Kutsal Alanı",
+  "level": "l2",
+  "why_hidden": "Burası Datça'nın MÖ 8. yüzyıla uzanan ilk kutsal alanıdır. Turist otobüslerinin tamamı doğrudan Knidos'a gittiği için neredeyse tamamen atlanıyor. Ne gişesi ne tabelası var; sadece arkeoloji meraklıları ve Emecik köylüleri biliyor.",
+  "access_instructions": "Datça-Marmaris karayolundan Emecik tabelasında köye dönün, köy meydanını geçtikten sonra toprak yola girip yaklaşık 1 km ilerleyin; kazı alanı çitle çevrili değildir, giriş serbesttir. Kendi aracınızla ya da taksiyle gitmeniz şart, dolmuş bu noktaya inmez.",
+  "local_contact": "Yok — ziyaretçi merkezi ya da gişe yok; Emecik Mahalle Muhtarlığı'na sorulabilir, köy kahvesindekiler de yönü tarif eder.",
+  "season": "Yıl boyu sabah 08:00-19:00 arası girilebilir; kışın (Ocak-Şubat) toprak yol çamurlu olabileceğinden su geçirmez ayakkabı önerilir.",
+  "insider_tip": "Alanın kuzeyindeki kült mağarasını mutlaka görün, girişi otların arasında gizlidir; cep feneri işinize yarar. Köylülere 'tapınak yolu' ya da 'Sarılıman' diye sorarsanız doğru patikayı gösterirler.",
+  "show_reason": "Knidos'un kimsenin bilmediği 'küçük kardeşi' — ücretsiz, sessiz, kalabalıksız bir antik alanda Datça'nın Dor kökenli dini tarihine adım atıyorsunuz; özgün ve paylaşılmamış bir arka plan sunuyor.",
+  "lat": 36.7783,
+  "lng": 27.8143,
+  "address": "Emecik Mahallesi, Datça-Marmaris Karayolu üzeri, Datça, Muğla",
+  "cost_range_min": 0,
+  "cost_range_max": 0,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Datça'nın Kalbi: Eski Datça ve Merkez",
+   "stops": [
+    {
+     "name": "Eski Datça Taş Sokakları",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Begonvillerin sardığı taş evler arasında amaçsızca yürüyün, Eski Datça Camii çevresindeki eski köy meydanına uğrayın. Kışın turist kalabalığı olmadığı için mahalle sakinleriyle sohbet etme şansınız yüksek."
+    },
+    {
+     "name": "Mehtap Cafe (Mehtap'ın Yeri)",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 180,
+     "tips": "Eski Datça'nın simgeleşmiş kahvesinde badem kahvesi deneyin. Kış sabahları sakin geçtiği için taş avludaki masalar boş olur, keyifli bir mola noktasıdır."
+    },
+    {
+     "name": "Baba Lokantası",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 650,
+     "tips": "İskele Mahallesi 93/1. Sokak'ta, esnafın gittiği gerçek bir ev yemeği lokantası. Günün sebze yemeğini ve çorbayı sorun, tabldot usulü hesap cebinizi yakmaz."
+    },
+    {
+     "name": "Datça İskele & Cumhuriyet Meydanı",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Marina boyunca yürüyüp balıkçı teknelerini izleyin, meydandaki kahvelerde çay molası verin. Kış güneşinde iki deniz arasındaki ışık oyunu fotoğraf için ideal."
+    },
+    {
+     "name": "Fevzi'nin Yeri",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1000,
+     "tips": "Atatürk Cad. 70. Sokak'ta, dörtte biri meyhane, dörtte biri lokanta olan salaş bir mekân. Kopanisti peyniri ve mevsim mezelerini mutlaka isteyin, kışın rezervasyonsuz da yer bulunur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Inn Datça",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 180,
+     "tips": "İskele Mahallesi, Kumluk Yolu üzerinde yerel halkın sabah buluşma noktası. Serpme kahvaltı için de uğranabilir."
+    },
+    {
+     "name": "Kumluk Plajı Sahili",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Kışın kumsal boş kalır, sahil boyunca yürüyüş yapıp gün batımını izleyebilirsiniz. Denize girme mevsimi değildir, sadece kıyı yürüyüşü için uygundur."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Üç Güzeller: Mesudiye, Hayıtbükü ve Ovabükü",
+   "stops": [
+    {
+     "name": "Hayıtbükü Koyu",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Tepelerle çevrili, rüzgârdan en korunaklı koylardan biri; kışın sakin sesiyle kısa bir kıyı yürüyüşü için mükemmel. Denize girme mevsimi değil, sadece manzara ve fotoğraf için durun."
+    },
+    {
+     "name": "Ovabükü Koyu",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Üç Güzeller'in en geniş koyu; kıyı boyunca kısa bir yürüyüş yapıp boş pansiyonların arasından deniz manzarasını çekin. Yaz kalabalığından eser yok, sessizliğin tadını çıkarın."
+    },
+    {
+     "name": "Mesudiye Merkez Kilisesi",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Taş işçiliğiyle dikkat çeken küçük tarihi kilise; çevresi fotoğraf için uygun. Ziyaret ücretsizdir, içeri girilemiyorsa dış cepheyi ve avluyu gezin."
+    },
+    {
+     "name": "Yakamengen",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 700,
+     "tips": "Yaka Köyü No:70'te eski bir zeytinyağı işliğinden çevrilmiş taş ev; kendi sıkım zeytinyağıyla hazırlanan kahvaltı/brunch tabağını deneyin. Kışın açık olup olmadığını (0252) 725 53 93'ten teyit edin."
+    },
+    {
+     "name": "Kızılbük Koyu",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Üç Güzeller'in en doğal ve sakin koyu; Hayıtbükü'nün karşısında yer alır. Kısa bir kıyı molası ve altın saat fotoğrafları için uğrayın."
+    },
+    {
+     "name": "Ege Meyhanesi",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1100,
+     "tips": "İskele Mah. Ambarcı Cad. No:11/B, haftanın her günü 13:00-23:59 açık. Balık pastırması ve soğuk mezeleriyle tanınır, begonvilli bahçesi kışın da keyifli."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kocca Ev Cafe & Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 700,
+     "tips": "Taş konak mimarisiyle dikkat çeken bir mekân; Bademli Latte spesiyalitesini deneyin."
+    },
+    {
+     "name": "Domuzçukuru Koyu",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Yerel adıyla Domuzbükü, incir ağaçlarıyla çevrili saklı bir koy. Kışın erişim için araçla Kargı yönünden gidin, patika biraz bakımsız olabilir."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Yarımadanın Ucu: Palamutbükü ve Knidos",
+   "stops": [
+    {
+     "name": "Palamutbükü Sahili",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Datça'nın en uzun kumsalı, zeytin ve badem ağaçlarıyla çevrili. Kışın sahildeki işletmeler kapalı olabilir, kısa bir kıyı yürüyüşü ve fotoğraf molası için uğrayın."
+    },
+    {
+     "name": "Knidos Antik Kenti Yarım Gün Rehberli Turu",
+     "category": "culture",
+     "start": "10:45",
+     "end": "13:15",
+     "cost": 1600,
+     "tips": "Rehber eşliğinde tiyatro, agora ve Afrodit'in izlerini gezersiniz; giriş ücreti Türk vatandaşları için 200 TL, tur fiyatına dahildir. Minimum 3 kişi şartı olabilir, önceden rezervasyon yapın.",
+     "bookingUrl": "https://www.viator.com/searchResults/all?text=Half+Day+Guided+Knidos+Ancient+City+Tour",
+     "bookingProvider": "Viator"
+    },
+    {
+     "name": "Palamut Restaurant",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "Palamutbükü'nde köklü bir aile işletmesi; günün balığını sorun. Kış aylarında çalışma saatlerini önceden telefonla teyit etmenizi öneririz."
+    },
+    {
+     "name": "Deveboynu Feneri",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Knidos'tan 20-30 dakikalık tırmanışla ulaşılan 1931 yapımı fener; Ege ve Akdeniz'i aynı anda gördüğünüz nokta. Rüzgârlık şart, yol dikenli çalılıklardan geçiyor."
+    },
+    {
+     "name": "Ali Baba Pide Kebap Çorba Salonu",
+     "category": "food",
+     "start": "19:30",
+     "end": "20:45",
+     "cost": 600,
+     "tips": "Uzun bir gezi gününün ardından hafif ve uygun fiyatlı bir akşam yemeği; pide ve mercimek çorbası öneriyoruz. Yerel esnafın uğrak noktası, hızlı servis yapar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sarıhoş Restaurant",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "Palamutbükü'nde denize sıfır, salaş bir mekân; mevsim mezeleri iyi bir alternatif."
+    },
+    {
+     "name": "Karaincir Plajı",
+     "category": "nature",
+     "start": "14:45",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Emecik yakınlarında, aynasal berraklığıyla bilinen sakin bir koy; kışın neredeyse tamamen tenha."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Zeytin ve Şiirin Kokusu: Reşadiye ve Yaka Köyü",
+   "stops": [
+    {
+     "name": "Can Yücel Evi",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Şairin yaşamının uzun bölümünü geçirdiği ve vefat ettiği ev; Reşadiye Mahallesi sınırlarında, merkeze 4 km. Dış cepheden fotoğraf çekip mahallenin çınar gölgeli sokaklarında yürüyün."
+    },
+    {
+     "name": "Karya Çay Bahçesi (Orhan'ın Yeri)",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 150,
+     "tips": "Can Yücel'in hayattayken en sık uğradığı çay bahçesi; meşhur Acı Bademli Datça Gazozu'nu deneyin. Yeşilliklerin arasında sakin bir mola noktası."
+    },
+    {
+     "name": "Datça Köy Ürünleri Reşadiye Mağazası",
+     "category": "shopping",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 350,
+     "tips": "Ahmet Taner Kışlalı Caddesi'ndeki mağazada badem kurabiyesi, badem helvası ve soğuk sıkım zeytinyağı tadımı yapabilirsiniz. Petek bal çeşitleri hediyelik için ideal."
+    },
+    {
+     "name": "Hestia Mantı Evi",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 700,
+     "tips": "Yaka bölgesinde modern bir mantı evi; yaklaşık 12 çeşit mantı arasında Hestia özel ve çıtır mantıyı deneyin."
+    },
+    {
+     "name": "Kekik Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 1200,
+     "tips": "Kumluk Caddesi 67. Sokak, 2012'den beri Datça merkezde deniz kenarında hizmet veriyor. Ege mezeleri ve mevsim balığı önerilir, kışın sakin ve rahat bir akşam sunar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eski Ev Cafe & Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 650,
+     "tips": "Tarihi bir taş evin bahçesinde hizmet veriyor; çıtır gözlemeleriyle tanınıyor."
+    },
+    {
+     "name": "Reşadiye Camii",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Reşadiye Mahallesi'nin tarihi camisi; çevresindeki taş evlerle birlikte kısa bir gezi için uygun."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Datça'nın Nabzı: Pazar, Emecik ve Derin Mavi",
+   "stops": [
+    {
+     "name": "Datça Cumartesi Pazarı",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 250,
+     "tips": "Ambarcı Caddesi sonundaki pazar yerinde kurulur; taze otlar, zeytin ve el sanatları bulabilirsiniz. Yerel üreticilerden doğrudan alışveriş yapmak için erken saatte gidin. Pazar günü kurulur, ama hazırlıklar önceki öğleden itibaren başlar."
+    },
+    {
+     "name": "Emecik Apollon Karneios Kutsal Alanı",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Tabelası yok; Emecik köylülerine 'tapınak yolu' ya da 'Sarılıman' diye sorun. MÖ 8. yüzyıldan kalma kült alanında kuzeydeki mağarayı da mutlaka görün, cep feneri işinize yarar."
+    },
+    {
+     "name": "Valentino",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 650,
+     "tips": "Çarşıdan marinaya giderken sağ tarafta, ev yapımı yemekleriyle bilinen bir lokanta. Günün yemeğini sorup tabldot usulü sipariş verin."
+    },
+    {
+     "name": "Ucanbalık Dalış (Deneme Dalışı)",
+     "category": "nature",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 3200,
+     "tips": "28 yıllık deneyimiyle Datça'nın köklü dalış merkezi; hiç dalmamış olsanız da bire bir eğitmenle deneme dalışı yapabilirsiniz. Kışın su sıcaklığı düşük olduğundan kalın dalış elbisesi isteyin, önceden rezervasyon şart.",
+     "bookingUrl": "https://www.viator.com/searchResults/all?text=Datca+Discover+Scuba+Diving+Trial",
+     "bookingProvider": "Viator"
+    },
+    {
+     "name": "Poseidon Balık Evi",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "Datça'nın en popüler balık evlerinden biri; zengin meze tabağı ve mevsim balığıyla tanınır. Dalış sonrası enerji toplamak için ideal bir akşam yemeği durağı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ada Balık Datça",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 900,
+     "tips": "Mezeleri ve balık çeşitleriyle bilinen orta ölçekli bir mekân; merkeze yakın konumu pratik bir alternatif sunar."
+    },
+    {
+     "name": "Kargı Koyu",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Merkeze yürüme mesafesinde, Karia Yolu'nun başlangıç noktalarından biri; kısa bir kıyı yürüyüşü için uygun."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Gulet Köyü: Bozburun'a Günübirlik",
+   "stops": [
+    {
+     "name": "Bozburun Gulet Tersaneleri",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Datça'dan yaklaşık 1 saat 50 dakikalık yol; erken çıkın. Yaklaşık 35 tersanede geleneksel gulet yapımını izleyebilir, ustalarla sohbet edebilirsiniz."
+    },
+    {
+     "name": "Bozburun Kalesi",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Osmanlı döneminden kalma stratejik bir kale; kısa bir tırmanışla köy ve koy manzarasını izleyebilirsiniz."
+    },
+    {
+     "name": "Lokum Mantı Evi ve Ev Yemekleri",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 650,
+     "tips": "Cumhuriyet Cad. No:29'da, mantı başrolde ama Arnavut ciğeri ve portakallı enginar da denenmeli. Yerel halkın gittiği samimi bir ev yemeği mekânı."
+    },
+    {
+     "name": "Bozburun Çarşı & Marina Sahili",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Kordon boyunca yürüyüp küçük dükkânları gezin, yatları ve karşıdaki Yeşil Ada manzarasını izleyin. Kışın sakin ve neredeyse tenha bir atmosfer bulacaksınız."
+    },
+    {
+     "name": "Filika Restoran",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 1000,
+     "tips": "Meşhur karides güveci için mutlaka uğrayın. Datça'ya dönüş yolu uzun olduğundan akşam yemeğini erken alıp güneş batmadan yola çıkmanız önerilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kandil Restoran",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 650,
+     "tips": "Ahtapot, kalamar ve karides istediğiniz şekilde pişirilir; taze sebze salataları da eşlik eder."
+    },
+    {
+     "name": "Selimiye Köyü Sahili",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Bozburun'a yaklaşık 20 dakika mesafede, sakin bir sahil şeridi; kalabalıktan uzaklaşmak isteyenler için iyi bir alternatif."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Veda: Değirmenler ve Zeytin Kokusu",
+   "stops": [
+    {
+     "name": "Kızlan Yel Değirmenleri",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Datça-Marmaris karayolu üzerinde, merkeze yaklaşık 7-10 km. Taş gövdeli tarihi değirmenler sabah ışığında oldukça fotojenik."
+    },
+    {
+     "name": "Olive Farm Zeytinyağı Çiftliği Tadım Turu",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Reşadiye Mahallesi No:30'daki butik çiftlikte üretim tesisini gezip organik sertifikalı zeytinyağlarını ücretsiz tadabilirsiniz. Beğendiğiniz ürünü yerinde satın alma imkânı da var."
+    },
+    {
+     "name": "Datça Köy Ürünleri Merkez Mağazası",
+     "category": "shopping",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "Reşadiye şubesinden farklı olarak Datça merkezdeki bu mağazada da aynı badem ve bal çeşitlerini bulabilirsiniz; son dakika hediyelik alışverişi için ideal."
+    },
+    {
+     "name": "Güneş Büfe",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 400,
+     "tips": "Datça'nın en samimi köşebaşı mekânlarından; ev yapımı reçelleriyle hafif bir kapanış öğle yemeği için uygun. Yolculuk öncesi son mola noktanız olabilir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Meşhur Datça Badem Kurabiyecisi",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 250,
+     "tips": "İskele, Atatürk Cd. No:37/C; TasteAtlas'ın dünya listesine giren acı badem kurabiyesini yolculuk öncesi paket yaptırabilirsiniz."
+    },
+    {
+     "name": "Mehmet Ali Ağa Konağı",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Reşadiye Mahallesi'ndeki tarihi konak; dış cepheden fotoğraf çekip mahallenin taş sokaklarında kısa bir yürüyüş yapabilirsiniz."
+    }
+   ]
+  }
+ ]
+}

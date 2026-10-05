@@ -1,0 +1,492 @@
+{
+ "lang": "en",
+ "slug": "toronto-summer",
+ "altSlug": "toronto-yaz",
+ "citySlug": "toronto",
+ "destKey": "toronto",
+ "city": "Toronto",
+ "region": null,
+ "country": "Canada",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "CAD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 420,
+  "attractions": 320,
+  "transport": 90,
+  "misc": 80
+ },
+ "notes": [
+  "Use a PRESTO or contactless card on the TTC. The UP Express to Pearson takes 25 minutes. For Niagara, take the GO train (direct in summer) or a tour.",
+  "Summers are humid at 25-30°C, with islands, beaches and festivals (Caribana in August, TIFF in September). Daylight lasts until 21:00.",
+  "CityPASS costs 130 CAD and covers 5 attractions. Museums cost 25-30 CAD, CN Tower 45 CAD. The 13% tax is not included in prices. Tip 18-20%.",
+  "St. Lawrence Market is closed on Mondays. Kensington is pedestrian-only on Sundays.",
+  "Poutine, peameal bacon sandwich, butter tart. The cuisine is multicultural (Chinatown, Little Italy, Greektown).",
+  "The island ferry gets very busy in summer. Book timed tickets online."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "PRESTO Card",
+  "why_chosen": "Works on the TTC subway, streetcars and buses, and on GO trains. A contactless bank card also works.",
+  "coverage": "TTC, GO Transit, UP Express",
+  "where_to_buy": "Metro istasyonları ve Shoppers Drug Mart; 6 CAD kart",
+  "cost": 6,
+  "currency_code": "CAD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Downtown and CN Tower",
+   "stops": [
+    {
+     "name": "CN Tower",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 45,
+     "tips": "553 m tower with a glass floor and the LookOut. Book online (~45 CAD) and arrive at opening to skip the queue. EdgeWalk costs extra."
+    },
+    {
+     "name": "Ripley's Aquarium of Canada",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:15",
+     "cost": 48,
+     "tips": "Shark tunnel at the foot of the tower. Included with CityPASS."
+    },
+    {
+     "name": "St. Lawrence Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "A market since 1803. Try the peameal bacon sandwich at Carousel Bakery. Closed Mondays."
+    },
+    {
+     "name": "Distillery District",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Victorian-era whisky distillery turned arts quarter, with galleries and Soma chocolate. Christmas market in December."
+    },
+    {
+     "name": "Harbourfront Centre",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Lakeside walk and canoeing. The islands look best at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cluny Bistro Distillery",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 30,
+     "tips": "French bistro in the Distillery District."
+    },
+    {
+     "name": "Hockey Hall of Fame",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:15",
+     "cost": 25,
+     "tips": "Home of the Stanley Cup. An alternative to the aquarium."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Toronto Islands",
+   "stops": [
+    {
+     "name": "Jack Layton Ferry Terminal",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "09:45",
+     "cost": 9,
+     "tips": "The Centre Island ferry takes 15 minutes (~9 CAD return). Buy tickets online."
+    },
+    {
+     "name": "Centre Island",
+     "category": "nature",
+     "start": "09:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Bike rental and the Centreville amusement park, with views of the city skyline."
+    },
+    {
+     "name": "Ward's Island Beach",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Quiet beach and cottages. Swimming in summer."
+    },
+    {
+     "name": "The Riviera Ward's Island",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Island cafe. Lunch with a view of the lake."
+    },
+    {
+     "name": "Hanlan's Point Sunset",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "The western tip of the island: sunset and planes from the airport. Take the 19:00 ferry."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Toronto Island BBQ & Beer Co",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "Garden on Centre Island."
+    },
+    {
+     "name": "Gibraltar Point Lighthouse",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Lighthouse from 1808, said to be haunted. An alternative to the sunset."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Kensington, Chinatown and AGO",
+   "stops": [
+    {
+     "name": "Kensington Market",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Vintage shops, Latin markets and graffiti. Car-free on Sundays (May to October)."
+    },
+    {
+     "name": "Spadina Chinatown",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "One of Canada's largest Chinatowns. Come for dim sum."
+    },
+    {
+     "name": "Rol San Chinatown",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 20,
+     "tips": "A dim sum classic. Open 24 hours."
+    },
+    {
+     "name": "Art Gallery of Ontario",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "Gehry's wooden spiral staircase, plus the Group of Seven and Rubens. Free on Wednesday evenings."
+    },
+    {
+     "name": "Graffiti Alley",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Street art along Rush Lane, in Queen West."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seven Lives Tacos Kensington",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "Baja fish tacos. Expect a queue."
+    },
+    {
+     "name": "Bata Shoe Museum",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 14,
+     "tips": "Shoe museum. An alternative to the AGO."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Yorkville, ROM and Casa Loma",
+   "stops": [
+    {
+     "name": "Royal Ontario Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 26,
+     "tips": "Dinosaurs and Libeskind's crystal extension. Discounted on Tuesday evenings."
+    },
+    {
+     "name": "Yorkville",
+     "category": "shopping",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Upscale neighbourhood with shops along Bloor Street."
+    },
+    {
+     "name": "Sassafraz Yorkville",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 35,
+     "tips": "A Yorkville brunch classic in a yellow house."
+    },
+    {
+     "name": "Casa Loma",
+     "category": "culture",
+     "start": "15:15",
+     "end": "17:00",
+     "cost": 40,
+     "tips": "Gothic Revival castle with a secret tunnel and towers. Gardens open May to October."
+    },
+    {
+     "name": "Spadina Museum",
+     "category": "culture",
+     "start": "17:00",
+     "end": "17:45",
+     "cost": 10,
+     "tips": "Edwardian-era house next to Casa Loma."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gardiner Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "Ceramics museum, opposite the ROM."
+    },
+    {
+     "name": "Bar Isabel Little Italy",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 45,
+     "tips": "Spanish tapas. Evening."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Niagara Falls",
+   "stops": [
+    {
+     "name": "Niagara Falls Table Rock",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "GO train plus bus takes 2 hours (or a tour for ~90 CAD). Stand right at the edge of Horseshoe Falls. Free."
+    },
+    {
+     "name": "Niagara City Cruises Hornblower",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 35,
+     "tips": "Boat ride to the base of the falls (April to November). Ponchos provided."
+    },
+    {
+     "name": "Niagara Parkway Walk",
+     "category": "nature",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Riverside park. The Clifton Hill amusement strip is touristy."
+    },
+    {
+     "name": "Table Rock Market Lunch",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Dining floor with a view of the falls."
+    },
+    {
+     "name": "Niagara-on-the-Lake",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Victorian town and vineyards. Icewine tasting at Inniskillin. Take the WEGO bus."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Inniskillin Winery",
+     "category": "food",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 20,
+     "tips": "Icewine tasting. An alternative to the town."
+    },
+    {
+     "name": "Skylon Tower",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 20,
+     "tips": "Tower overlooking the falls. Go here if the boats are closed."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "East: Beaches and Leslieville",
+   "stops": [
+    {
+     "name": "The Beaches Boardwalk",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "3 km wooden boardwalk along the shore. Woodbine Beach, with swimming in summer."
+    },
+    {
+     "name": "Queen Street East Beaches",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Neighbourhood shops and cafes."
+    },
+    {
+     "name": "Lady Marmalade Leslieville",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 22,
+     "tips": "Leslieville brunch. Expect a queue."
+    },
+    {
+     "name": "Evergreen Brick Works",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Park and Saturday market in an old brick factory. Walk the Don Valley."
+    },
+    {
+     "name": "Riverdale Park East Viewpoint",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "The best free sunset view of the city skyline."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bonjour Brioche Leslieville",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "French bakery."
+    },
+    {
+     "name": "Tommy Thompson Park",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Artificial peninsula in the lake, good for birdwatching. An alternative to Brick Works."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Queen West and a gentle farewell",
+   "stops": [
+    {
+     "name": "Trinity Bellwoods Park",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Hipster park with white squirrels."
+    },
+    {
+     "name": "Queen Street West",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Boutiques near MOCA, and Ossington."
+    },
+    {
+     "name": "Aunties and Uncles",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 18,
+     "tips": "Classic brunch diner for a farewell meal."
+    },
+    {
+     "name": "Union Station UP Express",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "The UP Express to Pearson takes 25 minutes. Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bang Bang Ice Cream",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 8,
+     "tips": "Ice cream sandwiches on Ossington."
+    },
+    {
+     "name": "Museum of Contemporary Art Toronto",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 14,
+     "tips": "Contemporary art in the Junction. An alternative to Queen West."
+    }
+   ]
+  }
+ ]
+}

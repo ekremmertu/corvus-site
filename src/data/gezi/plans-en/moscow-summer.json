@@ -1,0 +1,476 @@
+{
+ "lang": "en",
+ "slug": "moscow-summer",
+ "altSlug": "moskova-yaz",
+ "citySlug": "moskova",
+ "destKey": "moscow",
+ "city": "Moscow",
+ "region": null,
+ "country": "Russia",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "RUB",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 18000,
+  "attractions": 10000,
+  "transport": 3000,
+  "misc": 3000
+ },
+ "notes": [
+  "Use a Troika card for the metro (some of the world's most beautiful stations, worth a tour in themselves) and Yandex Go for taxis. Aeroexpress serves the airports.",
+  "Visa: Turkish citizens can stay 60 days visa-free; others need an e-visa. Foreign bank cards do not work (2026), so carry cash roubles or a MIR card. Google Pay is unavailable.",
+  "Summer brings 22-28°C and light until 22:00: perfect for parks, river boats and cycling in Gorky Park.",
+  "Pelmeni cost 400-600 RUB, a Georgian restaurant 1,500-2,500 and a stolovaya 300. Tip 10%.",
+  "Book the Kremlin and Armoury online 2 weeks ahead. Lenin's Mausoleum opens Tuesday, Thursday and Saturday mornings, with a 30-minute queue.",
+  "In churches, women should cover their heads and men remove their hats. Photography may be banned inside."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Troika Card",
+  "why_chosen": "Covers the metro, buses and trams. Moscow's metro stations are among the most beautiful in the world.",
+  "coverage": "Moskova Metrosu, otobüs, tramvay, Aeroexpress ayrı",
+  "where_to_buy": "Metro gişeleri; 80 RUB kart",
+  "cost": 80,
+  "currency_code": "RUB"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Red Square and the Kremlin",
+   "stops": [
+    {
+     "name": "Red Square",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Come in the morning when the square is empty. Take in St. Basil's and the GUM façades, and Lenin's Mausoleum (Tuesday, Thursday and Saturday, 10:00-13:00)."
+    },
+    {
+     "name": "St. Basil's Cathedral",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 700,
+     "tips": "Onion-domed cathedral with narrow interior staircases and icons."
+    },
+    {
+     "name": "Moscow Kremlin & Armoury",
+     "category": "culture",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 1500,
+     "tips": "Kremlin cathedrals plus the Armoury (Fabergé eggs). Book online 2 weeks ahead. Closed Thursday; Armoury entry is timed."
+    },
+    {
+     "name": "GUM Gastronom No.1",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 800,
+     "tips": "GUM's Soviet-themed food hall, with ice cream (plombir) and a cafeteria."
+    },
+    {
+     "name": "Zaryadye Park Floating Bridge",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Modern park beside the Kremlin, with a bridge over the river and an ice cave. Best at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Stolovaya 57 GUM",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 500,
+     "tips": "Soviet-style canteen in GUM. Cheap."
+    },
+    {
+     "name": "State Historical Museum",
+     "category": "culture",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "The red museum on Red Square. A good option if you have no Kremlin ticket."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Tretyakov and Zamoskvorechye",
+   "stops": [
+    {
+     "name": "Tretyakov Gallery",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 700,
+     "tips": "Russian painting: Repin, Vrubel and icons (Rublev's Trinity). Closed Monday."
+    },
+    {
+     "name": "Zamoskvorechye Streets",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Old merchant district, with Pyatnitskaya Street and its churches."
+    },
+    {
+     "name": "Lepim i Varim Pyatnitskaya",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 600,
+     "tips": "Handmade pelmeni (dumplings) with a range of fillings."
+    },
+    {
+     "name": "Muzeon Park & Krymskaya Naberezhnaya",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Soviet sculpture park (including the toppled Dzerzhinsky) and the riverside promenade."
+    },
+    {
+     "name": "Gorky Park",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Moscow's main park: cycling and dancing in summer, and Europe's largest ice rink in winter."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Pushkin",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 3000,
+     "tips": "Aristocratic Russian cuisine on Tverskoy. Book ahead."
+    },
+    {
+     "name": "Garage Museum of Contemporary Art",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 500,
+     "tips": "Contemporary art in Gorky Park, in a building by Rem Koolhaas."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Metro tour and Arbat",
+   "stops": [
+    {
+     "name": "Komsomolskaya Metro Station",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Baroque station with mosaics. Start your metro tour here (with a Troika card)."
+    },
+    {
+     "name": "Mayakovskaya Metro Station",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Art deco steel arches and ceiling mosaics."
+    },
+    {
+     "name": "Ploshchad Revolyutsii Metro",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Bronze statues. Rub the dog's nose."
+    },
+    {
+     "name": "Arbat Street",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Pedestrian street with matryoshka dolls, street musicians and Pushkin's house."
+    },
+    {
+     "name": "Mari Vanna Moscow",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 1500,
+     "tips": "Russian cuisine in a grandmother's-house setting: borscht and pelmeni."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Varenichnaya No.1 Arbat",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 700,
+     "tips": "Soviet-nostalgia chain serving vareniki (filled dumplings)."
+    },
+    {
+     "name": "Pushkin Museum of Fine Arts",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "Impressionists and Egyptian collections. An alternative to Arbat."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "VDNKh and Ostankino",
+   "stops": [
+    {
+     "name": "VDNKh",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Soviet exhibition of achievements. See the Friendship of Nations fountain and the Kosmos pavilion (paid museum); the grounds are free."
+    },
+    {
+     "name": "Museum of Cosmonautics",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 400,
+     "tips": "Beneath the Monument to the Conquerors of Space, with Gagarin and Sputnik."
+    },
+    {
+     "name": "VDNKh Pavilion Cafeteria",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 500,
+     "tips": "Soviet-style stolovaya (canteen) inside the exhibition grounds, serving shashlik."
+    },
+    {
+     "name": "Ostankino Tower",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 1500,
+     "tips": "540 m tower. Bring your passport; glass floor, timed entry."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Moskovskoye Nebo VDNKh",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 800,
+     "tips": "Russian cuisine in a pavilion."
+    },
+    {
+     "name": "Botanical Garden VDNKh",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 300,
+     "tips": "Botanical garden next to the exhibition grounds. An alternative to the tower."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Sergiyev Posad",
+   "stops": [
+    {
+     "name": "Trinity Lavra of St. Sergius",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "1 hour by train from Yaroslavsky Station. The centre of Russian Orthodoxy, with blue and gold domes and the shrine of St. Sergius. Bring a headscarf."
+    },
+    {
+     "name": "Lavra Trapeznaya Dining Hall",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "Monastery refectory serving fish and kvass."
+    },
+    {
+     "name": "Sergiev Posad Toy Museum",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 300,
+     "tips": "The birthplace of the matryoshka, with wooden toys."
+    },
+    {
+     "name": "Blinnaya Gora Viewpoint",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 0,
+     "tips": "Postcard view of the monastery from a hilltop."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gostevaya Izba Sergiev Posad",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Lunch in a traditional Russian izba (log house)."
+    },
+    {
+     "name": "Abramtsevo Estate",
+     "category": "culture",
+     "start": "14:15",
+     "end": "16:15",
+     "cost": 400,
+     "tips": "Artists' colony estate. An alternative to the museum, on the way."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Kolomenskoye and Moscow City",
+   "stops": [
+    {
+     "name": "Kolomenskoye",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Riverside tsarist estate with the Church of the Ascension (UNESCO), a replica wooden palace and apple orchards."
+    },
+    {
+     "name": "Kolomenskoye Tea House",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 300,
+     "tips": "Samovar tea and blini in the park."
+    },
+    {
+     "name": "Moscow City Federation Tower Panorama 360",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 1500,
+     "tips": "Observation deck on the 89th floor, with free ice cream and views over the skyscraper district."
+    },
+    {
+     "name": "Khachapuri Restaurant Bolshaya Gruzinskaya",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 1500,
+     "tips": "Georgian chain serving khachapuri (cheese bread) and khinkali (dumplings), a Moscow favourite."
+    },
+    {
+     "name": "Patriarch's Ponds",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Bulgakov's pond, with cafés and an evening stroll."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sakhli Georgian Restaurant",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 2000,
+     "tips": "Georgian food on Tsvetnoy."
+    },
+    {
+     "name": "Novodevichy Convent",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 300,
+     "tips": "Red-walled convent and cemetery of famous figures. An alternative to the skyscrapers."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Around the Bolshoi: gentle farewell",
+   "stops": [
+    {
+     "name": "Bolshoi Theatre",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Façade and square. Performance tickets sell out months ahead; photograph it in the morning."
+    },
+    {
+     "name": "Eliseevsky / Tverskaya",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Tverskaya Street for coffee and souvenirs (Christmas atmosphere in winter)."
+    },
+    {
+     "name": "Cafe Pushkin Konditerskaya",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 800,
+     "tips": "Pushkin's pastry shop: cake and coffee for a farewell treat."
+    },
+    {
+     "name": "Aeroexpress Belorussky",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Aeroexpress to Sheremetyevo takes 35 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dr. Zhivago Restaurant",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 1500,
+     "tips": "Stylish Soviet-style breakfast at the National Hotel."
+    },
+    {
+     "name": "Bunker-42",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 2500,
+     "tips": "Cold War bunker tour. An alternative to the Bolshoi."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,461 @@
+{
+ "lang": "en",
+ "slug": "beijing-october-may",
+ "altSlug": "pekin-ekim-mayis",
+ "citySlug": "pekin",
+ "destKey": "beijing",
+ "city": "Beijing",
+ "region": null,
+ "country": "China",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "CNY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 2000,
+  "attractions": 1200,
+  "transport": 700,
+  "misc": 400
+ },
+ "notes": [
+  "The metro costs 3-9 CNY, has an extensive network and English signs. Use Didi taxis (paid via Alipay). The airport express goes to Dongzhimen. For Mutianyu and the Ming Tombs, take a tour or use Didi.",
+  "Visas: in 2026 many countries get 30 days visa-free entry (check for Türkiye). Alipay and WeChat Pay work with foreign cards. Set up a VPN beforehand.",
+  "October (autumn) is the best season. Winter drops to -8°C and is dry and polluted (wear a mask). Expect sandstorms in March and April, and the New Year holiday in February (many places closed).",
+  "You need your passport to enter the Forbidden City and Mao's Mausoleum. Forbidden City tickets sell out, so book online 7 days ahead. Closed on Mondays.",
+  "Peking duck costs 200-300 CNY (for 2), jiaozi 30-60 and hot pot 150. Tipping is not expected. A jianbing (savoury crepe) breakfast on the street costs 10 CNY.",
+  "Google and WhatsApp do not work. Use Baidu Maps or Apple Maps."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Tiananmen and the Forbidden City",
+   "stops": [
+    {
+     "name": "Tiananmen Square",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 0,
+     "tips": "One of the world's largest squares, with a passport check and a security queue. Visit Mao's Mausoleum in the morning."
+    },
+    {
+     "name": "Forbidden City",
+     "category": "culture",
+     "start": "08:45",
+     "end": "12:30",
+     "cost": 60,
+     "tips": "The Ming-Qing palace. Book your ticket online with your passport 7 days ahead (WeChat or the official site; it sells out). Walking from south to north takes 3.5 hours. Closed on Mondays."
+    },
+    {
+     "name": "Jingshan Park",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 2,
+     "tips": "A hill north of the Forbidden City with a 360° view of the golden roofs."
+    },
+    {
+     "name": "Siji Minfu Peking Duck",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 200,
+     "tips": "Peking duck near Jingshan, better and more affordable than Quanjude. Expect a queue."
+    },
+    {
+     "name": "Beihai Park",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "The imperial lake and the White Dagoba; rowing boats available."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Quanjude Qianmen",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 300,
+     "tips": "A Peking duck institution since 1864; touristy but historic."
+    },
+    {
+     "name": "National Museum of China",
+     "category": "culture",
+     "start": "08:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A huge museum on Tiananmen Square, free to enter. Go if you have no Forbidden City ticket."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Great Wall at Mutianyu",
+   "stops": [
+    {
+     "name": "Mutianyu Great Wall",
+     "category": "nature",
+     "start": "08:30",
+     "end": "13:00",
+     "cost": 120,
+     "tips": "1.5 hours from the city (tour about 400 CNY, or bus 916 plus taxi). Take the cable car up, walk between towers 14 and 23, then ride the toboggan down. Go in the morning, when there is no fog."
+    },
+    {
+     "name": "Mutianyu Village Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 60,
+     "tips": "A village restaurant below the wall, serving trout and dumplings."
+    },
+    {
+     "name": "Hongluo Temple",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 50,
+     "tips": "A mountain temple in Huairou, on the way back."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jinshanling Great Wall",
+     "category": "nature",
+     "start": "08:30",
+     "end": "13:00",
+     "cost": 65,
+     "tips": "A wilder, emptier stretch of wall, 2.5 hours away. Best for hikers."
+    },
+    {
+     "name": "Subway Restaurant Mutianyu",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "Fast food at the tour entrance, as an alternative to the village restaurant."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Temple of Heaven and hutongs",
+   "stops": [
+    {
+     "name": "Temple of Heaven",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 35,
+     "tips": "The blue-roofed Hall of Prayer for Good Harvests. In the morning, retirees do tai chi, dance and play racket games in the park."
+    },
+    {
+     "name": "Qianmen Street",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "A restored Qing-era street, with the Dashilan alleys nearby."
+    },
+    {
+     "name": "Liqun Roast Duck",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 250,
+     "tips": "A legendary duck restaurant inside a hutong. Book ahead. It is run-down but good."
+    },
+    {
+     "name": "Shichahai and Houhai Lake",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Walk around the lake: boats in summer, ice skating in winter."
+    },
+    {
+     "name": "Nanluoguxiang Hutong",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A touristy hutong street. The side lanes hold real courtyard houses, and a rickshaw tour costs 100 CNY."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mr. Shi's Dumplings Nanluoguxiang",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 60,
+     "tips": "Dumplings, as an alternative to duck."
+    },
+    {
+     "name": "Drum and Bell Towers",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "A performance at the Drum Tower, as an alternative to the lake."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Summer Palace and 798",
+   "stops": [
+    {
+     "name": "Summer Palace",
+     "category": "culture",
+     "start": "08:00",
+     "end": "11:30",
+     "cost": 60,
+     "tips": "Kunming Lake and the Long Corridor. It is empty in the morning. Boat 20 CNY, plus the Marble Boat."
+    },
+    {
+     "name": "Summer Palace Suzhou Street",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 40,
+     "tips": "A canal street inside the palace grounds, good for snacks."
+    },
+    {
+     "name": "798 Art District",
+     "category": "culture",
+     "start": "13:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Galleries in old factories: UCCA (60 CNY), graffiti and cafés."
+    },
+    {
+     "name": "798 Café Timezone 8",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 50,
+     "tips": "A café in the art district."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Old Summer Palace Yuanmingyuan",
+     "category": "culture",
+     "start": "13:30",
+     "end": "16:00",
+     "cost": 25,
+     "tips": "The ruins of a burned palace, as an alternative to 798."
+    },
+    {
+     "name": "Nuage Vietnamese Houhai",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 120,
+     "tips": "Vietnamese food by the lake, for the evening."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Lama Temple, Confucius and Wangfujing",
+   "stops": [
+    {
+     "name": "Lama Temple Yonghegong",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 25,
+     "tips": "A Tibetan Buddhist temple with an 18 m Maitreya statue carved from a single tree. Incense is included in the ticket."
+    },
+    {
+     "name": "Confucius Temple Beijing",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 30,
+     "tips": "A quiet courtyard with stelae, and Guozijian Street alongside."
+    },
+    {
+     "name": "Wudaoying Hutong",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 80,
+     "tips": "A hipster hutong with cafés and vegan food, next to the Lama Temple."
+    },
+    {
+     "name": "Wangfujing",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A shopping street with Oriental Plaza and a bookshop."
+    },
+    {
+     "name": "Ghost Street Gui Jie",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 150,
+     "tips": "A 24-hour food street lined with red lanterns. Try malaxiaolongxia (spicy crayfish) and hot pot."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Haidilao Hot Pot Wangfujing",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 180,
+     "tips": "A hot pot chain famous for its service."
+    },
+    {
+     "name": "Ditan Park",
+     "category": "nature",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 2,
+     "tips": "The park around the Temple of Earth, as an alternative to the Confucius Temple."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Ming Tombs and Olympic Park",
+   "stops": [
+    {
+     "name": "Ming Tombs Changling",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 45,
+     "tips": "1 hour from the city. Tombs of 13 emperors and the statues along the Sacred Way."
+    },
+    {
+     "name": "Sacred Way Ming Tombs",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 30,
+     "tips": "A road lined with stone animals and official statues."
+    },
+    {
+     "name": "Changping Village Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 50,
+     "tips": "Village food on the way back, including jiaozi (dumplings)."
+    },
+    {
+     "name": "Olympic Park Bird's Nest",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The 2008 Bird's Nest and Water Cube. Free from the outside; 50 CNY to go in."
+    },
+    {
+     "name": "Olympic Forest Park",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A huge park for walking, with a lake."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Water Cube Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 80,
+     "tips": "Next to the Water Cube."
+    },
+    {
+     "name": "Juyongguan Great Wall",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:45",
+     "cost": 45,
+     "tips": "A wall pass near the Ming Tombs, for a second Great Wall day."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Easy farewell morning",
+   "stops": [
+    {
+     "name": "Ritan Park",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "A park in the old embassy district, with tai chi in the morning."
+    },
+    {
+     "name": "Sanlitun Taikoo Li",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Modern shopping, an Apple store and cafés."
+    },
+    {
+     "name": "Jing-A Brewing Sanlitun",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 120,
+     "tips": "Beijing craft beer and burgers for a farewell lunch."
+    },
+    {
+     "name": "Beijing Capital Airport Express Dongzhimen",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 25,
+     "tips": "The airport express takes 25 minutes. For Daxing, go from Caoqiao."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Xian Lao Man Dumplings",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 60,
+     "tips": "A dumpling chain for a cheap farewell meal."
+    },
+    {
+     "name": "Silk Street Market",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "A market for knock-offs and silk. Haggle. An alternative to Taikoo."
+    }
+   ]
+  }
+ ]
+}

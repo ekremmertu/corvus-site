@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "munih-ekim-mayis",
+ "altSlug": "munich-october-may",
+ "citySlug": "munih",
+ "destKey": "munich",
+ "city": "Münih",
+ "region": null,
+ "country": "Almanya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 380,
+  "attractions": 150,
+  "transport": 90,
+  "misc": 70
+ },
+ "notes": [
+  "MVV günlük bilet ~9 EUR; S-Bahn havalimanı 40 dakika. Neuschwanstein'a Bayern-Ticket (tren+otobüs) veya tur.",
+  "Aralık'ta Noel pazarları (Marienplatz, Tollwood); kışın hava 0°C, kar var. Alpler ve Neuschwanstein karla kaplı, bira salonları sıcak.",
+  "Mass bira 15 EUR (Oktoberfest'te 16+), Brezn 2, Schweinshaxe 20; bira bahçesine kendi yemeğini getirebilirsin. Bahşişte hesabı yuvarla.",
+  "Weisswurst öğlenden önce yenir, kabuğu soyulur; tatlı hardal.",
+  "Müzeler pazar 1 EUR (Pinakothek'ler); Neuschwanstein biletleri online haftalar önce.",
+  "Dachau anıtı ücretsiz ve pazartesi açık; sessiz davran."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Marienplatz & Altstadt",
+   "stops": [
+    {
+     "name": "Marienplatz",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Glockenspiel 11:00 (ve 12:00, yazın 17:00); Neues Rathaus kule asansörü 6 EUR."
+    },
+    {
+     "name": "Frauenkirche",
+     "category": "culture",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "İkiz soğan kuleli katedral; Şeytan'ın ayak izi."
+    },
+    {
+     "name": "Viktualienmarkt",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 15,
+     "tips": "1807'den beri gıda pazarı; Weisswurst (gelenek: öğlen 12'den önce yenir), Obazda ve bira bahçesi."
+    },
+    {
+     "name": "Asamkirche",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Rokoko kilise; Sendlinger Strasse."
+    },
+    {
+     "name": "Hofbräuhaus München",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 25,
+     "tips": "1589 bira salonu; Mass bira, Schweinshaxe ve bando, uzun masalarda yerlilerle."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Augustiner Bräustuben",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 20,
+     "tips": "Bira fabrikasının kendi salonu; Hofbräuhaus'a yerel alternatif."
+    },
+    {
+     "name": "Peterskirche Alter Peter Kulesi",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 5,
+     "tips": "306 basamak; Marienplatz manzarası, Frauenkirche yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Residenz & Englischer Garten",
+   "stops": [
+    {
+     "name": "Residenz München",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 10,
+     "tips": "Wittelsbach sarayı; Antiquarium ve hazine, Cuvilliés tiyatrosu."
+    },
+    {
+     "name": "Hofgarten",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Saray bahçesi; Diana tapınağı."
+    },
+    {
+     "name": "Eisbachwelle",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Şehir ortasında nehir dalgası sörfçüleri; yıl boyu."
+    },
+    {
+     "name": "Chinesischer Turm Biergarten",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 18,
+     "tips": "Englischer Garten'daki Çin pagodası bira bahçesi; kendi yemeğini getirebilirsin, Brezn ve Steckerlfisch."
+    },
+    {
+     "name": "Englischer Garten Monopteros",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Kış yürüyüşü; Seehaus göl kenarı, kar altında park."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seehaus im Englischen Garten",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 25,
+     "tips": "Göl kenarı restoran."
+    },
+    {
+     "name": "Alte Pinakothek",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 9,
+     "tips": "Dürer, Rubens, Rembrandt; pazar 1 EUR, yağmurda park yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Nymphenburg & Olympiapark",
+   "stops": [
+    {
+     "name": "Schloss Nymphenburg",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Barok yazlık saray; Güzeller Galerisi ve Amalienburg, park ücretsiz."
+    },
+    {
+     "name": "Nymphenburg Schlosspark",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Kanallar ve köşkler; kuğular."
+    },
+    {
+     "name": "Schlosscafé im Palmenhaus",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "Sera kafesi; saray parkında öğle."
+    },
+    {
+     "name": "Olympiapark",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "1972 olimpiyat çadır çatıları; Olympiaturm 13 EUR manzara."
+    },
+    {
+     "name": "BMW Welt & Museum",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "BMW Welt ücretsiz, müze 10 EUR; Olympiapark yanı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Olympiaturm Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Döner kule restoranı."
+    },
+    {
+     "name": "Pinakothek der Moderne",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "Modern sanat ve tasarım; BMW yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Dachau & Schwabing",
+   "stops": [
+    {
+     "name": "KZ-Gedenkstätte Dachau",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "S2 + otobüs 45 dakika; ilk toplama kampı anıtı, ücretsiz, sesli rehber 4 EUR, ağır ama gerekli."
+    },
+    {
+     "name": "Dachau Altstadt",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Kasabanın eski şehri ve şato bahçesi; sakin mola."
+    },
+    {
+     "name": "Schwabing Leopoldstrasse",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Bohem mahalle; Siegestor ve kafeler."
+    },
+    {
+     "name": "Café Luitpold",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 12,
+     "tips": "1888 kahvehanesi; Prinzregententorte."
+    },
+    {
+     "name": "Glockenbachviertel",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "LGBTİ+ dostu mahalle; barlar, Gärtnerplatz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bratwurstherzl Viktualienmarkt",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 15,
+     "tips": "Nürnberg sosisi; pazar yanı."
+    },
+    {
+     "name": "Lenbachhaus",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 10,
+     "tips": "Blaue Reiter (Kandinsky, Marc); Schwabing yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Neuschwanstein",
+   "stops": [
+    {
+     "name": "Schloss Neuschwanstein",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 21,
+     "tips": "Tren + otobüs 2,5 saat (Bayern-Ticket) veya tur. Ludwig'in masal şatosu; saatli bileti haftalar önce online al. Tırmanış 30 dakika."
+    },
+    {
+     "name": "Marienbrücke",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Şatonun kartpostal manzarası köprüsü; kışın buzda kapalı olabilir."
+    },
+    {
+     "name": "Schloss Hohenschwangau",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 21,
+     "tips": "Ludwig'in çocukluk şatosu; kombine bilet."
+    },
+    {
+     "name": "Alpsee Gölü Yürüyüşü",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Şatoların altındaki dağ gölü; kuğular."
+    },
+    {
+     "name": "Füssen Altstadt",
+     "category": "food",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 18,
+     "tips": "Ortaçağ kasabası; Käsespätzle ve dönüş treni."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Schlossrestaurant Neuschwanstein",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Şato altı restoran."
+    },
+    {
+     "name": "Tegelbergbahn",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 25,
+     "tips": "Teleferikle Alp zirvesi; göl yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Deutsches Museum & Isar",
+   "stops": [
+    {
+     "name": "Deutsches Museum",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "Dünyanın en büyük bilim müzesi; maden, uçak, planetaryum."
+    },
+    {
+     "name": "Isar Nehri Yürüyüşü",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Kış nehir yürüyüşü."
+    },
+    {
+     "name": "Wirtshaus in der Au",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Knödel uzmanı Bavyera lokantası; Au mahallesi."
+    },
+    {
+     "name": "Müllersches Volksbad",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 6,
+     "tips": "1901 art nouveau yüzme havuzu; sauna."
+    },
+    {
+     "name": "Gärtnerplatz",
+     "category": "landmark",
+     "start": "17:15",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Yuvarlak meydan ve tiyatro; akşam."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Der Pschorr Viktualienmarkt",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 22,
+     "tips": "Pazar kenarı Bavyera."
+    },
+    {
+     "name": "Deutsches Museum Verkehrszentrum",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 8,
+     "tips": "Ulaşım müzesi; hamam yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Theresienwiese — hafif veda",
+   "stops": [
+    {
+     "name": "Theresienwiese & Bavaria Heykeli",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Oktoberfest alanı (Eylül-Ekim); Bavaria heykelinin başından manzara."
+    },
+    {
+     "name": "Augustiner-Keller Biergarten",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 18,
+     "tips": "Kestane ağaçlı 5.000 kişilik bira bahçesi; Mass ve Brezn, veda."
+    },
+    {
+     "name": "Hauptbahnhof",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "S-Bahn havalimanı 40 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Marienplatz Dallmayr",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "Lüks şarküteri-kafe; hediyelik."
+    },
+    {
+     "name": "Alter Botanischer Garten",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Gar yanı park; Theresienwiese yerine."
+    }
+   ]
+  }
+ ]
+}

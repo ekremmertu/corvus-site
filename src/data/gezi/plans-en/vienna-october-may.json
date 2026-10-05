@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "vienna-october-may",
+ "altSlug": "viyana-ekim-mayis",
+ "citySlug": "viyana",
+ "destKey": "vienna",
+ "city": "Vienna",
+ "region": null,
+ "country": "Austria",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 400,
+  "attractions": 230,
+  "transport": 50,
+  "misc": 70
+ },
+ "notes": [
+  "Wiener Linien 24-hour pass 10 EUR, 7-day pass about 25 EUR (48/72-hour passes discontinued); CAT or S7 to the airport. The city is walkable; take a tram for a Ring tour or two.",
+  "Schönbrunn and Belvedere have timed online tickets; opera standing tickets are sold at the box office 80 minutes before (opera closed in summer).",
+  "Christmas markets in November and December (Rathaus, Schönbrunn, Spittelberg) and ball season in January and February; winter is 0-5°C and coffeehouses are at their best.",
+  "Schnitzel 20-25 EUR (Figlmüller); in a coffeehouse a Melange is 5 EUR and cake 6 EUR; Sturm at a heuriger in autumn. Tip 5-10%.",
+  "Shops are closed on Sundays; museums are open.",
+  "For the Wachau, use the ÖBB combination ticket; apricot blossom in April, wine harvest in September and October."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Inner City and Hofburg",
+   "stops": [
+    {
+     "name": "Stephansdom",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 6,
+     "tips": "Cathedral with a colourful tiled roof; the south tower is 343 steps (6 EUR). Quiet in the morning."
+    },
+    {
+     "name": "Graben & Kohlmarkt",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "The Plague Column and Demel's shop window; imperial-era streets."
+    },
+    {
+     "name": "Hofburg Sisi Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:45",
+     "cost": 20,
+     "tips": "Imperial apartments, the Sisi Museum and the silver collection; audio guide included."
+    },
+    {
+     "name": "Café Central",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 18,
+     "tips": "Vienna coffeehouse with columns; try the Apfelstrudel and a Melange. The queue is about 15 minutes."
+    },
+    {
+     "name": "Wiener Staatsoper",
+     "category": "culture",
+     "start": "19:00",
+     "end": "22:00",
+     "cost": 15,
+     "tips": "Standing tickets (Stehplatz) go on sale 80 minutes before the show for 13-18 EUR. The opera season runs September to June; closed in summer."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Café Sacher Wien",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "The original Sachertorte; book online."
+    },
+    {
+     "name": "Albertina",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:45",
+     "cost": 19,
+     "tips": "Dürer's Hare and works from Monet to Picasso; an alternative to the Hofburg."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Schönbrunn",
+   "stops": [
+    {
+     "name": "Schönbrunn Palace",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 22,
+     "tips": "The Habsburgs' summer palace; Imperial Tour 22 EUR online, first slot 08:30, includes the Hall of Mirrors."
+    },
+    {
+     "name": "Schönbrunn Gloriette",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Walk up the hill through the gardens; coffee at the Gloriette café with a view of the palace."
+    },
+    {
+     "name": "Schönbrunn Zoo",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:30",
+     "cost": 29,
+     "tips": "The world's oldest zoo (1752); pandas."
+    },
+    {
+     "name": "Landtmann's Parkcafé Schönbrunn",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 16,
+     "tips": "Café in the palace park; schnitzel and cake."
+    },
+    {
+     "name": "Naschmarkt",
+     "category": "food",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 12,
+     "tips": "A 1.5 km market with Turkish and Balkan stalls, fish at Umar, and a flea market on Saturdays."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Neni am Naschmarkt",
+     "category": "food",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 20,
+     "tips": "Tel Aviv cuisine, inside the market."
+    },
+    {
+     "name": "Wagenburg Schönbrunn",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:30",
+     "cost": 12,
+     "tips": "Museum of imperial carriages; an alternative to the zoo."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Belvedere and Karlsplatz",
+   "stops": [
+    {
+     "name": "Upper Belvedere",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 20,
+     "tips": "Klimt's The Kiss and Schiele; a Baroque palace. Book online."
+    },
+    {
+     "name": "Belvedere Gardens",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Gardens between the two palaces; sphinxes."
+    },
+    {
+     "name": "Karlskirche",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 10,
+     "tips": "Baroque dome; take the lift up to the fresco level."
+    },
+    {
+     "name": "Figlmüller Wollzeile",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "Schnitzel (pork) that spills off the plate, served since 1905. Book ahead; the Bäckerstrasse branch is quieter."
+    },
+    {
+     "name": "Kunsthistorisches Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 21,
+     "tips": "Bruegel collection, Vermeer and a café under the dome; on Maria-Theresien-Platz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gasthaus Pöschl",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 20,
+     "tips": "Local schnitzel and tafelspitz (boiled beef); a fallback if Figlmüller is full."
+    },
+    {
+     "name": "Secession",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 12,
+     "tips": "Klimt's Beethoven Frieze; the golden cabbage dome."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Prater and the Danube",
+   "stops": [
+    {
+     "name": "Wiener Riesenrad",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 15,
+     "tips": "Ferris wheel from 1897; the setting of The Third Man. No queue in the morning."
+    },
+    {
+     "name": "Prater Hauptallee",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A 4 km chestnut-lined avenue; cycling and the Lusthaus."
+    },
+    {
+     "name": "Schweizerhaus Prater",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Closed in winter; go to Prater Alm or the Lusthaus instead."
+    },
+    {
+     "name": "Donauinsel",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A winter walk; river birds."
+    },
+    {
+     "name": "Hundertwasserhaus",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "Colourful apartment block with wavy floors; seen from outside. The Kunst Haus Wien museum is nearby."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lusthaus Prater",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Historic pavilion restaurant at the end of the park."
+    },
+    {
+     "name": "Alte Donau Boat",
+     "category": "nature",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 20,
+     "tips": "Pedal boat on the Old Danube; an alternative to the island."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Wachau Valley",
+   "stops": [
+    {
+     "name": "Melk Abbey",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 15,
+     "tips": "1 hour by train; Baroque abbey and library with Danube views. Use the ÖBB Wachau combination ticket (train, boat and abbey)."
+    },
+    {
+     "name": "Melk-Krems Danube Boat",
+     "category": "nature",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "2 hours along the valley; vineyards and castles (Dürnstein)."
+    },
+    {
+     "name": "Dürnstein",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Town with a blue tower; climb to the castle where Richard the Lionheart was held."
+    },
+    {
+     "name": "Dürnstein Heuriger",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 22,
+     "tips": "Grüner Veltliner and apricot products at a wine tavern; Wachau apricots."
+    },
+    {
+     "name": "Krems Steiner Tor",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "The old town gate of Krems; return train at 17:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Loibnerhof Unterloiben",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 30,
+     "tips": "Famous Wachau restaurant, next to Dürnstein."
+    },
+    {
+     "name": "Weissenkirchen",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Wine village; stop here by boat instead of Krems."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Spittelberg, Museumsquartier and Grinzing",
+   "stops": [
+    {
+     "name": "MuseumsQuartier",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Leopold Museum (Schiele) and the courtyard seating; mumok."
+    },
+    {
+     "name": "Spittelberg",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Biedermeier streets; Christmas market in December."
+    },
+    {
+     "name": "Glacis Beisl Spittelberg",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Beisl (Viennese tavern) with a garden behind the MQ; Viennese home cooking."
+    },
+    {
+     "name": "Grinzing Heuriger Mayer am Pfarrplatz",
+     "category": "food",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 25,
+     "tips": "Wine tavern in Beethoven's former home; take bus 38A. Try the Sturm (September) and Liptauer."
+    },
+    {
+     "name": "Kahlenberg",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "City and Danube views from the top of the Vienna Woods; take the 38A, go at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Heuriger Sirbu",
+     "category": "food",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 22,
+     "tips": "Wine tavern with views among the Nussberg vineyards; May to October."
+    },
+    {
+     "name": "Karl-Marx-Hof",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Red Vienna's 1 km-long housing block; Heiligenstadt."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Coffeehouse morning, easy farewell",
+   "stops": [
+    {
+     "name": "Café Sperl",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 12,
+     "tips": "Coffeehouse from 1880; billiard tables and newspapers, ideal for a farewell breakfast."
+    },
+    {
+     "name": "Mariahilfer Strasse",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Shopping street; souvenirs (Manner wafers)."
+    },
+    {
+     "name": "Imperial Treasury Vienna",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 14,
+     "tips": "The Habsburg crown and the Holy Lance; Hofburg."
+    },
+    {
+     "name": "Wien Hauptbahnhof CAT",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "City Airport Train takes 16 minutes (or S7, 30 minutes); farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Demel",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 15,
+     "tips": "The Hofburg's pastry shop; Sacher's rival."
+    },
+    {
+     "name": "Haus der Musik",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 16,
+     "tips": "Sound museum; conduct the Philharmonic virtually."
+    }
+   ]
+  }
+ ]
+}

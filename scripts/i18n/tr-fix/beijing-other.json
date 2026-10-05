@@ -1,0 +1,28 @@
+{
+ "source": "f33a3e466a45",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Dünyanın en büyük meydanlarından biri; pasaport kontrolü ve güvenlik kuyruğu var. Mao Mozolesi'ne sabah git.",
+  "d1.s1.tips": "Ming-Qing sarayı; bileti pasaportla 7 gün önce online al (WeChat/resmi site, tükenir). Güneyden kuzeye 3,5 saat sürer, pazartesi kapalı.",
+  "d1.s3.tips": "Jingshan yanında Pekin ördeği; Quanjude'den iyi ve uygun, kuyruk olur.",
+  "d1.b1.tips": "Tiananmen'de dev müze; ücretsiz. Yasak Şehir bileti yoksa git.",
+  "d2.s0.tips": "Şehirden 1,5 saat (tur ~400 CNY veya 916 otobüs+taksi); teleferikle çık, 14-23. kuleler arasını yürü, kızakla in. Sabah sis olmaz.",
+  "d2.b0.tips": "Daha vahşi ve boş sur; 2,5 saat, yürüyüşçüler için.",
+  "d2.b1.tips": "Tur girişinde fast food; köy lokantası yerine.",
+  "d3.s0.tips": "Mavi çatılı Hasat Duası Salonu; sabah parkta emekliler tai chi yapar, dans eder, raket oynar.",
+  "d3.s1.tips": "Restore edilmiş Qing caddesi; Dashilan ara sokakları.",
+  "d3.s2.tips": "Hutong içinde efsane ördek; rezervasyon yap. Yıkık dökük ama iyi.",
+  "d5.s0.tips": "Tibet Budist tapınağı; 18 m'lik tek ağaçtan Maitreya heykeli; tütsü bilete dahil.",
+  "d5.s2.tips": "Hipster hutong; kafeler ve vegan, Lama Tapınağı yanında.",
+  "d5.s4.tips": "24 saat açık, kırmızı fenerli yemek caddesi; malaxiaolongxia (acılı kerevit) ve hot pot.",
+  "d6.s0.tips": "Şehirden 1 saat; 13 imparator mezarı, Kutsal Yol heykelleri.",
+  "d6.s3.tips": "2008 Kuş Yuvası ve Su Küpü; dışarıdan ücretsiz, içeri 50 CNY.",
+  "note0": "Metro 3-9 CNY, ağı geniş, İngilizce tabelalı; Didi taksi (Alipay ile). Havalimanı ekspresi Dongzhimen'e gider. Mutianyu ve Ming için tur ya da Didi kullan.",
+  "note1": "Vize: 2026'da birçok ülkeye 30 gün vizesiz giriş var (Türkiye'yi kontrol et). Alipay/WeChat Pay yabancı kartla çalışır; VPN'i önceden kur.",
+  "note2": "Ekim (sonbahar) en iyi mevsim; kış -8°C, kuru ve kirli (maske tak). Mart-Nisan'da kum fırtınası, Şubat'ta Yeni Yıl tatili (kapalı).",
+  "note3": "Yasak Şehir ve Mao Mozolesi'ne pasaportla girilir. Yasak Şehir biletleri tükenir, 7 gün önce online al; pazartesi kapalı.",
+  "note4": "Pekin ördeği 200-300 CNY (2 kişi), jiaozi 30-60, hot pot 150; bahşiş yok. Sokakta jianbing kahvaltısı 10 CNY.",
+  "note5": "Google ve WhatsApp çalışmaz; Baidu Maps veya Apple Maps kullan."
+ },
+ "warnings": []
+}

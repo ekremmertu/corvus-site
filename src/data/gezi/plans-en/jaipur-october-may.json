@@ -1,0 +1,477 @@
+{
+ "lang": "en",
+ "slug": "jaipur-october-may",
+ "altSlug": "jaipur-ekim-mayis",
+ "citySlug": "jaipur",
+ "destKey": "jaipur",
+ "city": "Jaipur",
+ "region": null,
+ "country": "India",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "INR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 7000,
+  "attractions": 10500,
+  "transport": 9000,
+  "misc": 3000
+ },
+ "notes": [
+  "Use auto-rickshaws and Uber in Jaipur; hire a car by the day for the forts (about 2,500 INR). The composite ticket (1,500 INR for foreigners) covers 8 monuments over 2 days.",
+  "October to March is the best season (15-28°C). January brings the Kite Festival, and March brings Holi (colourful and chaotic).",
+  "Try dal baati churma, pyaz kachori, ghewar and lassi. There is no meat or alcohol in Pushkar. Tip 10%.",
+  "Monument entry costs foreigners 200-1,000 INR. Amber is cool and empty at 08:00; take a jeep rather than an elephant.",
+  "Book the Ranthambore safari online 3 months ahead (tiger zones 1-5). Staying overnight isn't essential for the safari, but it's more comfortable.",
+  "Haggling: start at a third of the first price. Buy block-printed fabric from the makers in Sanganer."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "The Pink City",
+   "stops": [
+    {
+     "name": "Hawa Mahal",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 200,
+     "tips": "The Palace of Winds has 953 windows. Morning light hits the facade, so shoot it from the café opposite (Wind View)."
+    },
+    {
+     "name": "City Palace Jaipur",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 1000,
+     "tips": "The maharaja's palace, with the Four Seasons gates in the Pritam Niwas courtyard, and a museum."
+    },
+    {
+     "name": "Jantar Mantar Jaipur",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 200,
+     "tips": "A giant stone observatory with a 27 m sundial. UNESCO listed."
+    },
+    {
+     "name": "Laxmi Misthan Bhandar",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "On Johari Bazaar since 1727. Try dal baati churma, ghewar and pyaz kachori."
+    },
+    {
+     "name": "Johari Bazaar",
+     "category": "shopping",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Jewellery and block-printed fabric. Haggle, and note the shops are shaded in the midday heat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rawat Misthan Bhandar",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 150,
+     "tips": "Pyaz kachori, a street food favourite."
+    },
+    {
+     "name": "Albert Hall Museum",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 300,
+     "tips": "An Indo-Saracenic museum, air-conditioned and lit up at night."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Amber, Jaigarh and Nahargarh",
+   "stops": [
+    {
+     "name": "Amber Fort",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 500,
+     "tips": "A Rajput hilltop fort with the Sheesh Mahal mirror palace. Take a jeep rather than an elephant, and go at the 08:00 opening while it's cool."
+    },
+    {
+     "name": "Panna Meena ka Kund",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "A stepwell below Amber, great for symmetrical photos."
+    },
+    {
+     "name": "Jaigarh Fort",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 200,
+     "tips": "Home to Jaivana, the world's largest wheeled cannon, above Amber."
+    },
+    {
+     "name": "1135 AD Amber Fort Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 900,
+     "tips": "A royal thali served on silver plates inside the fort."
+    },
+    {
+     "name": "Nahargarh Fort",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 200,
+     "tips": "A fort overlooking the city. Watch the sunset and the Pink City lights from Padao café."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Samode Haveli Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 800,
+     "tips": "Lunch in a haveli, instead of the fort."
+    },
+    {
+     "name": "Jal Mahal",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "A palace in the middle of a lake, viewed from outside at sunset, instead of Nahargarh."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Temples and crafts",
+   "stops": [
+    {
+     "name": "Galtaji Monkey Temple",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Sacred pools and monkeys in a valley. Cool in the morning; cameras cost 200 INR."
+    },
+    {
+     "name": "Birla Mandir Jaipur",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A white marble Lakshmi Narayan temple."
+    },
+    {
+     "name": "Anokhi Museum of Hand Printing",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 80,
+     "tips": "A block-printing museum in Amber, with a workshop demonstration."
+    },
+    {
+     "name": "Anokhi Cafe Jaipur",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 400,
+     "tips": "An organic café with a block-print shop downstairs."
+    },
+    {
+     "name": "Sanganer Block Printing Workshops",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Jaipur's printing village, with fabric and paper factories. Buy direct from the makers."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tapri Central Jaipur",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 300,
+     "tips": "A rooftop tea house serving chai and bun maska."
+    },
+    {
+     "name": "Patrika Gate",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "A brightly painted gate at Jawahar Circle, instead of Sanganer."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Pushkar",
+   "stops": [
+    {
+     "name": "Pushkar Lake Ghats",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "2.5 hours from Jaipur. A sacred lake with 52 ghats; go barefoot and beware of flower sellers."
+    },
+    {
+     "name": "Brahma Temple Pushkar",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "One of the world's few Brahma temples, in blue and white."
+    },
+    {
+     "name": "Pushkar Bazaar",
+     "category": "shopping",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "A hippie market selling leather, silver and music."
+    },
+    {
+     "name": "Sunset Cafe Pushkar",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "A lakeside café. It's vegetarian (no meat or alcohol in Pushkar); try the falafel."
+    },
+    {
+     "name": "Savitri Temple Ropeway",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 150,
+     "tips": "Take the cable car to the hilltop temple for lake and desert views at sunset. A camel safari is optional."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Honey & Spice Pushkar",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "A healthy café."
+    },
+    {
+     "name": "Pushkar Camel Safari",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 800,
+     "tips": "A camel ride in the dunes at sunset, instead of the temple."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Ranthambore",
+   "stops": [
+    {
+     "name": "Ranthambore National Park Safari",
+     "category": "nature",
+     "start": "06:00",
+     "end": "09:30",
+     "cost": 2500,
+     "tips": "3.5 hours from Jaipur (ideally stay a night). Take a morning jeep safari in tiger zones 1-5; book online 3 months ahead."
+    },
+    {
+     "name": "Ranthambore Fort",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A 10th-century fort inside the park, with a Ganesh temple and lake views."
+    },
+    {
+     "name": "Ranthambore Dhaba Lunch",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 300,
+     "tips": "A dhaba in Sawai Madhopur serving dal and roti."
+    },
+    {
+     "name": "Dastkar Ranthambore",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Handicrafts from a women's cooperative, including tiger-print textiles."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ranthambore Afternoon Safari",
+     "category": "nature",
+     "start": "14:00",
+     "end": "17:30",
+     "cost": 2500,
+     "tips": "A second chance to spot tigers, instead of shopping."
+    },
+    {
+     "name": "Sawai Madhopur Station Canteen",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 150,
+     "tips": "A meal at the railway station."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Temple morning and market",
+   "stops": [
+    {
+     "name": "Govind Dev Ji Temple",
+     "category": "culture",
+     "start": "08:15",
+     "end": "09:15",
+     "cost": 0,
+     "tips": "A Krishna temple in the City Palace gardens. The morning aarti (prayer ritual) is crowded and lively."
+    },
+    {
+     "name": "Bapu Bazaar",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Jaipur's market for textiles and mojari (leather slippers). Haggle."
+    },
+    {
+     "name": "Masala Chowk",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "An open-air local food court in Ram Niwas Garden, serving pani puri and pav bhaji."
+    },
+    {
+     "name": "Hawa Mahal Rooftop Cafés",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 200,
+     "tips": "Sunset tea with a view of Hawa Mahal from the Tattoo Cafe rooftop."
+    },
+    {
+     "name": "Chokhi Dhani",
+     "category": "culture",
+     "start": "19:00",
+     "end": "22:00",
+     "cost": 1200,
+     "tips": "A Rajasthani village-themed evening with puppets, camels and unlimited dal baati (20 km from the city)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Peacock Rooftop Pearl Palace",
+     "category": "food",
+     "start": "19:00",
+     "end": "22:00",
+     "cost": 500,
+     "tips": "A rooftop restaurant, instead of the village park."
+    },
+    {
+     "name": "Jawahar Kala Kendra",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Correa's arts centre with exhibitions, instead of the market."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Block prints and a light farewell",
+   "stops": [
+    {
+     "name": "Rambagh Palace Gardens",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "The gardens of the palace hotel, with peacocks. Have breakfast or tea (expensive)."
+    },
+    {
+     "name": "Anokhi Café Jaipur",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 350,
+     "tips": "An organic café and block-print shop for a farewell breakfast."
+    },
+    {
+     "name": "Jaipur Modern",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Modern Rajasthani design souvenirs."
+    },
+    {
+     "name": "Jaipur Airport Road",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The airport is 30 minutes away. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sahu Chai Wala",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 100,
+     "tips": "Legendary street tea on Chaura Rasta. Have a farewell chai."
+    },
+    {
+     "name": "Ram Niwas Garden",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The garden around Albert Hall, instead of the shop."
+    }
+   ]
+  }
+ ]
+}

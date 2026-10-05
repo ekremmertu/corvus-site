@@ -1,0 +1,445 @@
+{
+ "lang": "tr",
+ "slug": "buyukada-yaz",
+ "altSlug": "buyukada-summer",
+ "citySlug": "buyukada",
+ "destKey": "buyukada",
+ "city": "Büyükada",
+ "region": "İstanbul",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 7200,
+  "attractions": 2600,
+  "transport": 1200,
+  "misc": 500
+ },
+ "notes": [
+  "Kabataş ve Bostancı'dan vapur (İstanbulkart), yazın 30 dakikada bir, kışın saatte bir; son vapur 20:00 civarı.",
+  "Adada araç yok: elektrikli minibüs, bisiklet veya yürüyüş. Aya Yorgi yokuşu 40 dakika, elektrikli araç 100 TL.",
+  "Yaz hafta sonu vapurlar çok dolu; hafta içi git. Plajlar 500 TL, şezlong dahil.",
+  "Sıcak lokma, ada dondurması ve balık-meze; Gülistan Caddesi restoranları rezervasyonsuz.",
+  "Adada ATM az; nakit götür.",
+  "Adalar arası vapur 15 dakika."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Aya Yorgi & Nakibey",
+   "stops": [
+    {
+     "name": "Aya Yorgi Kilisesi",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Kabataş'tan 09:00 vapuru; iskeleden elektrikli minibüs veya 40 dakika yokuşla Yücetepe; tepedeki kilise ve Marmara manzarası."
+    },
+    {
+     "name": "Yücetepe Kır Gazinosu",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "Aya Yorgi'nin altında manzaralı köfte ve gözleme."
+    },
+    {
+     "name": "Büyükada Nakibey Plajı",
+     "category": "nature",
+     "start": "13:30",
+     "end": "17:00",
+     "cost": 500,
+     "tips": "Adanın güneyinde aile plajı; servis teknesi, şezlong dahil."
+    },
+    {
+     "name": "Büyükada Lunapark Meydanı",
+     "category": "landmark",
+     "start": "17:15",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Adanın ortasındaki çam meydanı; bisiklet turu başlangıcı."
+    },
+    {
+     "name": "Ali Baba Restaurant Büyükada",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 900,
+     "tips": "İskele yanı köklü balıkçı; meze ve balık, kışın kapalı bölüm ısıtmalı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Milto Restaurant Büyükada",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 800,
+     "tips": "İskele karşısında balık."
+    },
+    {
+     "name": "Büyükada Eskibağ Plajı",
+     "category": "nature",
+     "start": "13:30",
+     "end": "17:00",
+     "cost": 300,
+     "tips": "Adanın batısında çam gölgeli plaj; Nakibey yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Bisiklet turu & Dil Burnu",
+   "stops": [
+    {
+     "name": "Büyükada Bisiklet Kiralama",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 300,
+     "tips": "İskele arkasında bisiklet kiralama (~300 TL/gün); büyük tur 12 km."
+    },
+    {
+     "name": "Büyükada Büyük Tur Yolu",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Adanın çevresinde asfalt yol; çam ormanı ve koylar."
+    },
+    {
+     "name": "Dil Burnu",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Adanın güney ucunda tabiat parkı; yazın yüzme, piknik."
+    },
+    {
+     "name": "Büyükada Kalpazankaya Restaurant",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 700,
+     "tips": "Kalpazankaya'da deniz kenarı balık ve meze; gün batımı ünlü."
+    },
+    {
+     "name": "Büyükada Çankaya Caddesi Köşkleri",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Rum köşkleri ve Con Paşa Köşkü; ahşap mimari."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Büyükada Kalpazankaya Plajı",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Kayalık plaj; Dil Burnu yerine."
+    },
+    {
+     "name": "Büyükada Lokmacı Meydan",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 150,
+     "tips": "Meydanda sıcak lokma."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Heybeliada",
+   "stops": [
+    {
+     "name": "Heybeliada Ruhban Okulu",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Tepede 1844 Rum Ortodoks okulu; bahçe ve manzara, ziyaret rehberli."
+    },
+    {
+     "name": "Heybeliada Çam Limanı",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Çam ormanı içinde koy; yazın yüzme, piknik."
+    },
+    {
+     "name": "Heybeliada Meydan Balıkçısı",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 700,
+     "tips": "Heybeli iskelesinde balık."
+    },
+    {
+     "name": "Heybeliada Deniz Lisesi Sahili",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Sahil yolu ve Aya Triada; vapura dönüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Heybeliada Lokantası",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 500,
+     "tips": "Ev yemekleri."
+    },
+    {
+     "name": "Heybeliada Değirmen Tepesi",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Adanın tepesi; manzara."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Burgazada & Kınalıada",
+   "stops": [
+    {
+     "name": "Burgazada Sait Faik Müzesi",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Yazarın evi; adanın edebi kalbi."
+    },
+    {
+     "name": "Burgazada Kalpazankaya",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Burgaz'ın batı koyu; yazın yüzme, gün batımı ünlü."
+    },
+    {
+     "name": "Burgazada Kalpazankaya Restaurant",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 700,
+     "tips": "Koyda balık ve meze."
+    },
+    {
+     "name": "Kınalıada Sahili",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "En küçük ada; kırmızı toprak ve sahil yürüyüşü, vapur aktarması."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Burgazada Meydan Kahvaltıcısı",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 400,
+     "tips": "Kahvaltı."
+    },
+    {
+     "name": "Burgazada Aya Yani Kilisesi",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Meydandaki kilise; koy yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Büyükada köşkleri & müze",
+   "stops": [
+    {
+     "name": "Adalar Müzesi",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 50,
+     "tips": "Aya Nikola'da adaların tarihi; Rum-Ermeni-Yahudi mirası."
+    },
+    {
+     "name": "Büyükada Hamidiye Camii",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "II. Abdülhamid camisi; iskele yakınında."
+    },
+    {
+     "name": "Büyükada Rum Yetimhanesi Seyir",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Avrupa'nın en büyük ahşap binası dışarıdan; ormanda yürüyüş."
+    },
+    {
+     "name": "Büyükada Prinkipo Kahvaltı",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 450,
+     "tips": "Ada kahvaltısı; meydanda."
+    },
+    {
+     "name": "Büyükada Yörükali Plajı",
+     "category": "nature",
+     "start": "15:30",
+     "end": "18:00",
+     "cost": 400,
+     "tips": "Kum plaj; öğleden sonra yüzme."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Büyükada Dondurmacı Meydan",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 120,
+     "tips": "Ada dondurması; hafif öğle."
+    },
+    {
+     "name": "Büyükada Aya Dimitri Kilisesi",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Rum kilisesi; cami yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Sedef Adası & tekne",
+   "stops": [
+    {
+     "name": "Sedef Adası",
+     "category": "nature",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "Büyükada'dan tekneyle 10 dakika; özel ada plajı, şezlong dahil, deniz berrak."
+    },
+    {
+     "name": "Sedef Adası Plaj Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Plajda öğle."
+    },
+    {
+     "name": "Büyükada Aya Nikola Sahili",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Adanın doğu sahili; kayalıklar ve gün batımı öncesi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Büyükada By Şükrü Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 800,
+     "tips": "Gülistan Caddesi balıkçısı."
+    },
+    {
+     "name": "Büyükada Halk Plajı",
+     "category": "nature",
+     "start": "11:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Bedava plaj; Sedef yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Meydan — hafif veda",
+   "stops": [
+    {
+     "name": "Büyükada İskele Meydanı",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Saat kulesi ve meydan; sabah sakin."
+    },
+    {
+     "name": "Büyükada Pastane Meydan",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 300,
+     "tips": "Ada pastanesi; kahvaltı ve dondurma."
+    },
+    {
+     "name": "Büyükada Çınar Meydanı",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Son yürüyüş; 12:30 Kabataş vapuru."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Büyükada İskele Çay Bahçesi",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 100,
+     "tips": "İskelede çay ve simit; veda."
+    },
+    {
+     "name": "Büyükada Gülistan Caddesi",
+     "category": "nature",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Balık restoranları caddesi; sahil."
+    }
+   ]
+  }
+ ]
+}

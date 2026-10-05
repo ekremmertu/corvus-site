@@ -1,0 +1,20 @@
+{
+ "source": "cfc12c601f49",
+ "model": "sonnet",
+ "strings": {
+  "d1.s3.tips": "1923'ten beri odun ateşinde socca; Port Lympia yanında, kuyruk var.",
+  "d3.s0.tips": "Otobüs 82/112 (1,50 EUR) veya tren Èze-sur-Mer'e; Nietzsche yolunda 1 saat tırmanış. Ortaçağdan kalma kartal yuvası köy, Fragonard parfüm fabrikası.",
+  "d4.s1.tips": "Koy boyunca kış yürüyüşü.",
+  "d4.b1.tips": "Deniz kıyısında Yunan villası kopyası; Ephrussi yerine.",
+  "d5.s4.tips": "Kışın ada sakin; orman yürüyüşü.",
+  "d6.s0.tips": "Tren Cagnes + otobüs 655; surlu sanatçı köyü, Chagall'ın mezarı, galeriler, Café de la Place'ta petank.",
+  "d6.s3.tips": "Matisse'in 'şaheserim' dediği şapel; öğleden sonra açık olduğu saatleri kontrol et.",
+  "d7.s4.tips": "Tramvay 2 ile havalimanına 25 dakika; veda.",
+  "note0": "Lignes d'Azur bileti 1,50 EUR (otobüs + tramvay), günlük 5; TER treni kıyı boyunca gider (Monaco 20 dk, Cannes 30 dk). Tramvay 2 havalimanına gider.",
+  "note1": "Kışın hava güneşli, 12-15°C (Avrupa'nın kışlığı). Şubat'ta Nice Karnavalı ve Menton Limon Festivali var. Nisan-Mayıs ve Ekim ideal, deniz Ekim'e kadar uygun.",
+  "note2": "Socca 4 EUR, pan bagnat 6, salade niçoise 15, restoran 25-40, müzeler 10 (Nice müze kartı 15 EUR/3 gün); bahşiş için hesabı yuvarla.",
+  "note3": "Monaco kumarhanesi 14:00 öncesi turistlere açık, akşam kıyafet kuralı var; Èze'ye sabah git; Colombe d'Or için rezervasyon yap, La Merenda'da telefon yok.",
+  "note4": "Tramvay 1 ve Cours Saleya'da yankesicilere dikkat; plajlarda eşyanı bırakma."
+ },
+ "warnings": []
+}

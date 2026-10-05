@@ -1,0 +1,500 @@
+{
+ "lang": "en",
+ "slug": "kyoto-summer",
+ "altSlug": "kyoto-yaz",
+ "citySlug": "kyoto",
+ "destKey": "kyoto",
+ "city": "Kyoto",
+ "region": null,
+ "country": "Japan",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "JPY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 45000,
+  "attractions": 15000,
+  "transport": 9000,
+  "misc": 8000
+ },
+ "notes": [
+  "The bus costs 700 JPY a day (tourist routes are packed); metro plus bus is 1,100. ICOCA is the most practical option. Haruka from Kansai takes 75 minutes; JR from Osaka takes 30 minutes. Bike rental is 1,000 a day.",
+  "Summer brings 33-36°C and humidity (Gion Matsuri on 17 July, Daimonji on 16 August); June means rain and hydrangeas; kawayuka river terraces; set out at 7 am.",
+  "Temples cost 500-800 JPY in cash; no eating while walking in Nishiki; private lanes in Gion have been off limits since 2024, and don't stop maiko.",
+  "Yudofu, kaiseki (10,000+), obanzai (Kyoto home cooking), matcha; ramen 1,000, teishoku (set meal) 1,200; no tipping, cards are becoming more common but carry cash.",
+  "Kiyomizu, Fushimi and the Bamboo Grove before 08:00; Kinkaku-ji and Nara open at 09:00; check Nijo's closing days.",
+  "Nara's deer eat paper and will bow; when the senbei is gone, show them your empty hands."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "ICOCA + daily bus",
+  "why_chosen": "Kyoto's bus network is extensive; the metro has only 2 lines; ICOCA works everywhere",
+  "coverage": "Kyoto City Bus, metro, JR, Keihan, Hankyu",
+  "where_to_buy": "İstasyon otomatı; 500 JPY depozito",
+  "cost": 500,
+  "currency_code": "JPY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Higashiyama & Gion",
+   "stops": [
+    {
+     "name": "Kiyomizu-dera",
+     "category": "culture",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 500,
+     "tips": "Wooden terrace built without a single nail; empty at 08:00. Try the three streams of Otowa waterfall, and look out for the spring and autumn night openings."
+    },
+    {
+     "name": "Sannenzaka & Ninenzaka",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Preserved stone-stepped lanes; stop at the tatami-floored Starbucks and sample yatsuhashi (cinnamon sweets)."
+    },
+    {
+     "name": "Kodai-ji",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 600,
+     "tips": "Zen garden and bamboo grove; the temple of Hideyoshi's widow."
+    },
+    {
+     "name": "Nishiki Market",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 1500,
+     "tips": "\"Kyoto's Kitchen\", a 400-year-old market: tamagoyaki (rolled omelette), yuba (tofu skin) and pickles. No eating while walking. Allow for 2 streets."
+    },
+    {
+     "name": "Gion Hanamikoji",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "The geisha district: Shirakawa canal, and between 17:30 and 18:00 the maiko head to work. Follow the photo rules; private lanes are off limits."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Omen Nishiki",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 1400,
+     "tips": "Udon, right by Nishiki."
+    },
+    {
+     "name": "Yasaka Shrine",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Gion's shrine and Maruyama Park; lanterns glow at night."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Fushimi Inari & Uji",
+   "stops": [
+    {
+     "name": "Fushimi Inari Taisha",
+     "category": "culture",
+     "start": "07:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "10,000 red torii gates; empty at 07:00. It's 45 minutes to the Yotsutsuji viewpoint (2.5 hours for the full loop). Open 24 hours."
+    },
+    {
+     "name": "Byodo-in Uji",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 700,
+     "tips": "The Phoenix Hall from the 10 yen coin; 15 minutes on the JR Nara line, museum included."
+    },
+    {
+     "name": "Nakamura Tokichi Uji",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 1500,
+     "tips": "A tea house since 1854: matcha soba and parfait, expect a queue, and try the Uji matcha tasting."
+    },
+    {
+     "name": "Uji River & Ujigami Shrine",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Japan's oldest shrine and the riverbank; tea shops along the way."
+    },
+    {
+     "name": "Fushimi Sake District Gekkeikan",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 600,
+     "tips": "Sake breweries along the canal; the Gekkeikan Okura Museum includes 3 tastings."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tofuku-ji",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 500,
+     "tips": "Zen garden and the Tsutenkyo bridge (autumn); an alternative to Uji."
+    },
+    {
+     "name": "Tsuen Tea Uji",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 1200,
+     "tips": "The world's oldest tea house, since 1160; at the foot of the bridge."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Arashiyama",
+   "stops": [
+    {
+     "name": "Arashiyama Bamboo Grove",
+     "category": "nature",
+     "start": "07:30",
+     "end": "08:15",
+     "cost": 0,
+     "tips": "A corridor of bamboo; crowded after 08:00, so enter through Tenryu-ji's north gate."
+    },
+    {
+     "name": "Tenryu-ji",
+     "category": "culture",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 500,
+     "tips": "UNESCO-listed Zen temple; Sogenchi garden with its borrowed mountain scenery."
+    },
+    {
+     "name": "Togetsukyo Bridge & Katsura River",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "The \"Moon Crossing Bridge\"; boat rides and hills of cherry and maple."
+    },
+    {
+     "name": "Arashiyama Yoshimura Soba",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 1500,
+     "tips": "Soba with a view of the bridge; tempura too."
+    },
+    {
+     "name": "Iwatayama Monkey Park",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 600,
+     "tips": "Macaque monkeys on the mountaintop; a 20-minute climb with city views."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sagano Romantic Train",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 880,
+     "tips": "Train through the Hozugawa valley; Torokko Saga, an alternative to the monkeys (stunning in autumn)."
+    },
+    {
+     "name": "% Arabica Arashiyama",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 600,
+     "tips": "Coffee on the riverbank; expect a queue."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "North: Kinkaku-ji, Ryoan-ji & Nijo",
+   "stops": [
+    {
+     "name": "Kinkaku-ji",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 500,
+     "tips": "The Golden Pavilion; opens at 09:00, reflected in the pond. The loop takes 30 minutes."
+    },
+    {
+     "name": "Ryoan-ji",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 600,
+     "tips": "Zen garden of 15 stones; sit quietly and you'll only see 14 of them."
+    },
+    {
+     "name": "Ninna-ji",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 800,
+     "tips": "Five-storey pagoda and the late-blooming Omuro cherry trees (April)."
+    },
+    {
+     "name": "Nijo Castle",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 1300,
+     "tips": "The shogun's palace; the \"nightingale floors\" squeak, plus the Ninomaru garden. Closed Tuesdays in some months."
+    },
+    {
+     "name": "Honke Owariya",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 1800,
+     "tips": "Soba since 1465; Kyoto's oldest restaurant."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ippudo Nishiki",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 1000,
+     "tips": "Ramen chain; quick."
+    },
+    {
+     "name": "Kyoto Imperial Palace",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "The imperial palace; free, an alternative to Nijo (closed Mondays)."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Nara",
+   "stops": [
+    {
+     "name": "Nara Park Deer",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 200,
+     "tips": "35 minutes on the Kintetsu line (direct from Kyoto); 1,200 free-roaming deer, shika senbei (deer crackers) cost 200 yen, and the deer will bow to you."
+    },
+    {
+     "name": "Todai-ji Daibutsu",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 800,
+     "tips": "A 15 m bronze Buddha in the world's largest wooden building; try squeezing through the pillar hole."
+    },
+    {
+     "name": "Kasuga Taisha",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 500,
+     "tips": "A path lined with 3,000 stone lanterns, set in the forest."
+    },
+    {
+     "name": "Nakatanidou Mochi",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 200,
+     "tips": "Lightning-fast mochi pounding show; try the yomogi (mugwort) mochi."
+    },
+    {
+     "name": "Naramachi",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Old merchant quarter; the Koshi-no-ie house and cafes."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kamameshi Shizuka Nara",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 1500,
+     "tips": "Rice cooked in an iron pot (kamameshi); next to the park."
+    },
+    {
+     "name": "Isuien Garden",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 1200,
+     "tips": "A garden that borrows Todai-ji as its backdrop; an alternative to Naramachi."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Philosopher's Path & Ginkaku-ji",
+   "stops": [
+    {
+     "name": "Ginkaku-ji",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 500,
+     "tips": "The Silver Pavilion (it isn't actually silver); sand cone and moss garden."
+    },
+    {
+     "name": "Philosopher's Path",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A 2 km canal path: cherry blossom in April, maples in November, and cats."
+    },
+    {
+     "name": "Nanzen-ji",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 600,
+     "tips": "The Suirokaku aqueduct and Sanmon gate; Tenjuan garden."
+    },
+    {
+     "name": "Okutan Nanzenji Yudofu",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 3500,
+     "tips": "Simmered tofu (yudofu) beside the temple; open since 1635, with a quiet garden."
+    },
+    {
+     "name": "Heian Shrine",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 600,
+     "tips": "Giant red torii; the garden has weeping cherries in April."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Blue Bottle Kyoto Nanzenji",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 700,
+     "tips": "Coffee in a machiya (traditional townhouse); an alternative to the tofu."
+    },
+    {
+     "name": "Kyoto National Museum",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 700,
+     "tips": "National treasures; a rainy-day alternative to Heian Shrine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Pontocho morning and a gentle farewell",
+   "stops": [
+    {
+     "name": "Kamo River Morning Walk",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 0,
+     "tips": "Along the riverbank; stepping stones between Sanjo and Shijo, and herons."
+    },
+    {
+     "name": "Pontocho Alley",
+     "category": "landmark",
+     "start": "09:15",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "A narrow geisha lane, quiet by day; kawayuka terraces in the evening (May to September)."
+    },
+    {
+     "name": "Kyoto Station Isetan",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Inside the station: a depachika (basement food hall) and yatsuhashi souvenirs; the rooftop Skyway is free."
+    },
+    {
+     "name": "Kyoto Ramen Koji",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 1100,
+     "tips": "8 regional ramen shops on the station's 10th floor; a fitting farewell."
+    },
+    {
+     "name": "Kyoto Station Haruka Kansai",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 1800,
+     "tips": "The Haruka express takes 75 minutes to Kansai; the bus to Itami takes 55 minutes."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kyoto Tower Sando",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 1000,
+     "tips": "Food street beneath the tower."
+    },
+    {
+     "name": "To-ji",
+     "category": "culture",
+     "start": "09:15",
+     "end": "10:00",
+     "cost": 500,
+     "tips": "Japan's tallest pagoda, next to the station; flea market on the 21st of each month."
+    }
+   ]
+  }
+ ]
+}

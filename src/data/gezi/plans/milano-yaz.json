@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "milano-yaz",
+ "altSlug": "milan-summer",
+ "citySlug": "milano",
+ "destKey": "milan",
+ "city": "Milano",
+ "region": null,
+ "country": "İtalya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 420,
+  "attractions": 170,
+  "transport": 60,
+  "misc": 80
+ },
+ "notes": [
+  "ATM metro 2,20 EUR, günlük 7,60; Malpensa Express Centrale/Cadorna 50 dakika. Şehir merkezi yürünür.",
+  "Son Akşam Yemeği bileti 3 ay önce online alınır (15 dakikalık slot); Duomo çatı kombine bileti de online alınır.",
+  "Yaz 30°C ve nem, Ağustos'ta Milanolular gider ve dükkânlar kapanır; Como Gölü serin, aperitivo 19:00.",
+  "Aperitivo 10-15 EUR içki + büfe (18:00-21:00) Navigli'de; risotto alla milanese ve cotoletta 20-30. Coperto 2-3.",
+  "Fashion Week (Şubat/Eylül) ve Salone del Mobile'de (Nisan) otel fiyatları 3 katına çıkar.",
+  "Bahşiş için hesabı yuvarla; kahve barda ayakta 1,30, masada 4."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Duomo & Galleria",
+   "stops": [
+    {
+     "name": "Duomo di Milano",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 10,
+     "tips": "Gotik katedral; online kombine bilet (katedral + çatı ~20 EUR), 09:00 açılışta boş."
+    },
+    {
+     "name": "Duomo Çatı Terasları",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Kombine biletle asansör; kuleler arasında yürüyüş, Alpler net havada."
+    },
+    {
+     "name": "Galleria Vittorio Emanuele II",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Cam çatılı pasaj; boğa mozaiğinde topuk çevir."
+    },
+    {
+     "name": "Luini Panzerotti",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 4,
+     "tips": "1949'dan beri kızarmış panzerotti; Duomo arkasında kuyruk hızlı."
+    },
+    {
+     "name": "Museo del Novecento",
+     "category": "culture",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 10,
+     "tips": "20. yüzyıl İtalyan sanatı; Duomo manzaralı pencere, Pellizza'nın Dördüncü Kuvvet'i."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Camparino in Galleria",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "1915'ten beri Campari barı; aperitivo."
+    },
+    {
+     "name": "Palazzo Reale",
+     "category": "culture",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 15,
+     "tips": "Kraliyet sarayında geçici sergiler; Novecento yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Son Akşam Yemeği & Castello",
+   "stops": [
+    {
+     "name": "Cenacolo Vinciano Son Akşam Yemeği",
+     "category": "culture",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 15,
+     "tips": "Leonardo'nun freski; 15 dakikalık slot, biletler 3 ay önce online tükenir (tur alternatifi ~99 EUR)."
+    },
+    {
+     "name": "Santa Maria delle Grazie",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Bramante'nin kubbesi; freskin kilisesi."
+    },
+    {
+     "name": "Castello Sforzesco",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 5,
+     "tips": "Sforza kalesi; Michelangelo'nun Rondanini Pietà'sı, avlular ücretsiz."
+    },
+    {
+     "name": "Parco Sempione",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Kale arkasında park; Arco della Pace."
+    },
+    {
+     "name": "Trattoria Milanese",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 30,
+     "tips": "1933'ten beri risotto alla milanese ve cotoletta; Duomo yakını."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ratanà",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 35,
+     "tips": "Modern Milano mutfağı; Porta Nuova."
+    },
+    {
+     "name": "Triennale Milano",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Tasarım müzesi; park kenarı, kale yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Brera & Quadrilatero",
+   "stops": [
+    {
+     "name": "Pinacoteca di Brera",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Caravaggio, Raffaello, Hayez'in Öpücük'ü; sabah sakin."
+    },
+    {
+     "name": "Brera Sokakları",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Arnavut kaldırımı sanatçı mahallesi; Via Fiori Chiari, botanik bahçe ücretsiz."
+    },
+    {
+     "name": "Pasticceria Marchesi 1824",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "Prada'nın pastanesi; Monte Napoleone köşesi, cappuccino ve pasta."
+    },
+    {
+     "name": "Quadrilatero della Moda",
+     "category": "shopping",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Via Monte Napoleone; moda vitrinleri."
+    },
+    {
+     "name": "Villa Necchi Campiglio",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:15",
+     "cost": 15,
+     "tips": "1930'lar art deco villa; bahçe ve havuz, rehberli."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Basso",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 15,
+     "tips": "Negroni Sbagliato'nun doğduğu bar; aperitivo."
+    },
+    {
+     "name": "Museo Poldi Pezzoli",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:15",
+     "cost": 14,
+     "tips": "Özel koleksiyon konağı; Villa Necchi yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Navigli & Porta Nuova",
+   "stops": [
+    {
+     "name": "Fondazione Prada",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Rem Koolhaas'ın altın kulesi; çağdaş sanat, Bar Luce (Wes Anderson)."
+    },
+    {
+     "name": "Bar Luce Fondazione Prada",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 10,
+     "tips": "Wes Anderson tasarımı bar; öğle sandviç."
+    },
+    {
+     "name": "Bosco Verticale Porta Nuova",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Ağaçlı kuleler ve Piazza Gae Aulenti; modern Milano."
+    },
+    {
+     "name": "Navigli Kanalları",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Naviglio Grande boyunca; ayın son pazar günü antika pazarı."
+    },
+    {
+     "name": "Navigli Aperitivo Mag Cafè",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 15,
+     "tips": "Kanal kenarı aperitivo; Spritz + büfe, Milano ritüeli."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Brellin Navigli",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 35,
+     "tips": "Kanal kenarı 18. yüzyıl lokantası; akşam yemeği."
+    },
+    {
+     "name": "Pirelli HangarBicocca",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Kiefer'in Yedi Cennet Sarayı; ücretsiz, Prada yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Como Gölü",
+   "stops": [
+    {
+     "name": "Varenna",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Milano'dan tren 1 saat; renkli evler ve Villa Monastero bahçeleri (10 EUR)."
+    },
+    {
+     "name": "Bellagio Feribotu",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 5,
+     "tips": "Varenna'dan feribot; gölün ortasında."
+    },
+    {
+     "name": "Bellagio",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Gölün incisi; taş merdivenli sokaklar, Villa Melzi bahçeleri."
+    },
+    {
+     "name": "Ristorante La Punta Bellagio",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 35,
+     "tips": "Burnun ucunda göl manzaralı; risotto persico."
+    },
+    {
+     "name": "Villa Carlotta Tremezzo",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 15,
+     "tips": "Feribotla karşı kıyı; botanik bahçe ve heykeller, Nisan-Mayıs açelya."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bellagio Gelateria del Borgo",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 5,
+     "tips": "Dondurma."
+    },
+    {
+     "name": "Como Şehri & Brunate Füniküleri",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 6,
+     "tips": "Como'da katedral ve füniküler; Carlotta yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Bergamo",
+   "stops": [
+    {
+     "name": "Bergamo Città Alta Füniküleri",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 2,
+     "tips": "Tren 50 dakika + füniküler; surlarla çevrili yukarı şehir (UNESCO)."
+    },
+    {
+     "name": "Piazza Vecchia",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Le Corbusier'in 'en güzel meydan'ı; Campanone kulesi."
+    },
+    {
+     "name": "Basilica di Santa Maria Maggiore",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Barok iç, Colleoni Şapeli."
+    },
+    {
+     "name": "Da Mimmo Bergamo",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Casoncelli (Bergamo mantısı) ve polenta; Città Alta."
+    },
+    {
+     "name": "Bergamo Surları Yürüyüşü",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Venedik surları üzerinde 5 km; ova manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pasticceria Cavour Bergamo",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 6,
+     "tips": "Polenta e osei tatlısı."
+    },
+    {
+     "name": "Accademia Carrara",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "Resim galerisi; surlar yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sempione — hafif veda",
+   "stops": [
+    {
+     "name": "Cimitero Monumentale",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Heykel dolu anıt mezarlık; ücretsiz, açık hava müzesi."
+    },
+    {
+     "name": "Chinatown Via Paolo Sarpi",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Milano Chinatown'u; ravioli tezgahları."
+    },
+    {
+     "name": "Ravioleria Sarpi",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 8,
+     "tips": "Çin-İtalyan mantısı; sokakta."
+    },
+    {
+     "name": "Milano Centrale",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Faşist dönem dev gar; Malpensa Express 50 dakika, veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pavé Pasticceria",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 6,
+     "tips": "Milano'nun en iyi kruvasanı."
+    },
+    {
+     "name": "Mercato Centrale Milano",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "Gar içinde yemek pazarı."
+    }
+   ]
+  }
+ ]
+}

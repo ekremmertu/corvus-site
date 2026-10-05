@@ -1,0 +1,12 @@
+{
+ "source": "0d0a75a4579d",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Krater tırmanışı 1,3 km (basamak + tünel); 06:00'da açılır. Yabancılara rezervasyon zorunlu (30 gün önce), 5 USD. Gün doğumu.",
+  "d1.s2.tips": "Duke Kahanamoku heykeli; sörf dersi (75 USD) veya outrigger kano, Kuhio Plajı sakin.",
+  "d1.s4.tips": "Duke's barı veya iskelede gün batımı; cuma 19:45'te Hilton'da havai fişek.",
+  "d1.b1.tips": "Waikiki ucunda park ve hayvanat bahçesi; plaj yerine.",
+  "d3.s0.tips": "Krater içinde şnorkel; online rezervasyon (2 gün önce 07:00 HST, saniyede tükenir), pazartesi-salı kapalı, 25 USD + park 3, kaplumbağa ve balık."
+ },
+ "warnings": []
+}

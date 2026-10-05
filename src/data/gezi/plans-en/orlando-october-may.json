@@ -1,0 +1,405 @@
+{
+ "lang": "en",
+ "slug": "orlando-october-may",
+ "altSlug": "orlando-ekim-mayis",
+ "citySlug": "orlando",
+ "destKey": "orlando",
+ "city": "Orlando",
+ "region": null,
+ "country": "USA",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 450,
+  "attractions": 1050,
+  "transport": 300,
+  "misc": 150
+ },
+ "notes": [
+  "Orlando is a car city: hire a car (parking at the parks costs 30 USD) or use the Disney/Universal buses. You need a car for Kennedy.",
+  "January and February are the quietest and coolest months (20°C). December brings Christmas events and crowds; spring break is in March.",
+  "Park tickets are dated and bought online. Lightning Lane/Express Pass is worth it on busy days, and mobile ordering skips the queue.",
+  "Meals in the parks cost 15-25 USD. Book restaurants 60 days ahead, and refill your water bottle (free).",
+  "Tip 18-20%. Outside the parks, Mills 50 and Winter Park are local and cheap.",
+  "For 7 days, plan 4 Disney parks plus 2-3 Universal parks. If there is a launch at Kennedy, plan around that day."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Magic Kingdom",
+   "stops": [
+    {
+     "name": "Magic Kingdom Park",
+     "category": "culture",
+     "start": "08:30",
+     "end": "12:30",
+     "cost": 160,
+     "tips": "Disney's flagship park. Rope drop is at 08:30 (TRON, Space Mountain). Lightning Lane Multi Pass costs extra, and tickets are dated and bought online (~160 USD)."
+    },
+    {
+     "name": "Columbia Harbour House Magic Kingdom",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Quick-service meal inside the park; order through the mobile app."
+    },
+    {
+     "name": "Happily Ever After Havai Fişek",
+     "category": "landmark",
+     "start": "20:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "Night show in front of Cinderella Castle. Claim your spot 1 hour early."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Disney Springs Chef Art Smith's Homecomin'",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Fried chicken at Disney Springs for an evening outside the park."
+    },
+    {
+     "name": "Disney Springs",
+     "category": "shopping",
+     "start": "17:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Free entertainment and shopping district; an alternative to the fireworks."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "EPCOT",
+   "stops": [
+    {
+     "name": "EPCOT",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 150,
+     "tips": "Guardians of the Galaxy and Frozen rides; World Showcase has 11 countries, plus seasonal festivals (Food & Wine in autumn)."
+    },
+    {
+     "name": "EPCOT World Showcase Food Tour",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Croissants in the France pavilion, tacos in Mexico: snack your way from country to country."
+    },
+    {
+     "name": "Luminous EPCOT Night Show",
+     "category": "landmark",
+     "start": "21:00",
+     "end": "21:30",
+     "cost": 0,
+     "tips": "Light and water show over the lagoon."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Space 220 EPCOT",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 60,
+     "tips": "Space station-themed restaurant; reserve ahead."
+    },
+    {
+     "name": "Disney's BoardWalk",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Waterfront promenade behind EPCOT; free."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Universal Epic Universe",
+   "stops": [
+    {
+     "name": "Universal Epic Universe",
+     "category": "culture",
+     "start": "08:00",
+     "end": "13:00",
+     "cost": 139,
+     "tips": "Park opened in 2025. Highlights are Super Nintendo World, Harry Potter Ministry of Magic and Dark Universe. Tickets cost 139-199 USD; go for early entry."
+    },
+    {
+     "name": "Celestial Park Epic Universe Lunch",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Restaurants in the centre of the park; try Atlantic (seafood)."
+    },
+    {
+     "name": "Universal CityWalk Orlando",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "Restaurant and bar district outside the park; free entry."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Toothsome Chocolate Emporium CityWalk",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 30,
+     "tips": "Steampunk chocolate restaurant."
+    },
+    {
+     "name": "Universal Islands of Adventure",
+     "category": "culture",
+     "start": "08:00",
+     "end": "18:00",
+     "cost": 130,
+     "tips": "VelociCoaster and Hogsmeade; an alternative to Epic."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Hollywood Studios and Animal Kingdom",
+   "stops": [
+    {
+     "name": "Disney's Hollywood Studios",
+     "category": "culture",
+     "start": "08:30",
+     "end": "12:00",
+     "cost": 150,
+     "tips": "Rise of the Resistance and Galaxy's Edge; spend the morning here, half a day."
+    },
+    {
+     "name": "Docking Bay 7 Galaxy's Edge",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 22,
+     "tips": "Star Wars-themed meal; try the blue milk."
+    },
+    {
+     "name": "Disney's Animal Kingdom",
+     "category": "nature",
+     "start": "15:00",
+     "end": "20:00",
+     "cost": 150,
+     "tips": "Visit in the afternoon with a Park Hopper ticket. Do Kilimanjaro Safari at sunset, Flight of Passage and Pandora at night."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tiffins Animal Kingdom",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 50,
+     "tips": "The best restaurant in Animal Kingdom."
+    },
+    {
+     "name": "Disney's Typhoon Lagoon",
+     "category": "nature",
+     "start": "15:00",
+     "end": "20:00",
+     "cost": 75,
+     "tips": "Water park; a summer alternative to Animal Kingdom."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Kennedy Space Center",
+   "stops": [
+    {
+     "name": "Kennedy Space Center Visitor Complex",
+     "category": "culture",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 80,
+     "tips": "1 hour from Orlando. See the Saturn V and Space Shuttle Atlantis, and take the bus tour to the launch pads. Check the launch schedule."
+    },
+    {
+     "name": "Orbit Cafe Kennedy Space Center",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 18,
+     "tips": "The main cafeteria."
+    },
+    {
+     "name": "Cocoa Beach",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Winter beach walk and pier."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cocoa Beach Pier Restaurant",
+     "category": "food",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 25,
+     "tips": "Seafood on the pier."
+    },
+    {
+     "name": "Merritt Island National Wildlife Refuge",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 10,
+     "tips": "Manatees and alligators; an alternative to the beach."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Winter Park and ICON Park",
+   "stops": [
+    {
+     "name": "Winter Park Scenic Boat Tour",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 18,
+     "tips": "1-hour boat ride through lakes and canals, running since 1938, past mansion gardens."
+    },
+    {
+     "name": "Park Avenue Winter Park",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Elegant street with boutiques and the Morse Museum (Tiffany glass, 6 USD)."
+    },
+    {
+     "name": "Prato Winter Park",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 28,
+     "tips": "Italian restaurant on Park Avenue with a wood-fired oven."
+    },
+    {
+     "name": "Charles Hosmer Morse Museum of American Art",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 6,
+     "tips": "Tiffany chapel and glass collection."
+    },
+    {
+     "name": "The Wheel at ICON Park",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 30,
+     "tips": "120 m Ferris wheel on International Drive; go at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Ravenous Pig Winter Park",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 35,
+     "tips": "Orlando's gastropub pioneer."
+    },
+    {
+     "name": "Orlando Museum of Art",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:45",
+     "cost": 20,
+     "tips": "Museum in Loch Haven; an alternative to the Morse."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Lake Eola: a gentle farewell",
+   "stops": [
+    {
+     "name": "Lake Eola Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Downtown lake with swan boats and a Sunday market."
+    },
+    {
+     "name": "Se7en Bites",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 18,
+     "tips": "Southern-style breakfast and pies; a farewell meal."
+    },
+    {
+     "name": "East End Market",
+     "category": "shopping",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Local food market; good for souvenirs."
+    },
+    {
+     "name": "Orlando International Airport",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The airport is 20 minutes away; time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mills 50 Vietnamese District",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Pho and banh mi; an alternative to Se7en Bites."
+    },
+    {
+     "name": "Harry P. Leu Gardens",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "Botanical garden; an alternative to the market."
+    }
+   ]
+  }
+ ]
+}

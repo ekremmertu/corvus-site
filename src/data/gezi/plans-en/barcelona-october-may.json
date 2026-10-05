@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "barcelona-october-may",
+ "altSlug": "barselona-ekim-mayis",
+ "citySlug": "barselona",
+ "destKey": "barcelona",
+ "city": "Barcelona",
+ "region": null,
+ "country": "Spain",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 380,
+  "attractions": 250,
+  "transport": 50,
+  "misc": 70
+ },
+ "notes": [
+  "Get a T-casual 10-ride metro ticket; the Aerobús from Plaça Catalunya takes 35 minutes. The city is walkable, and Montjuïc has a cable car and funicular.",
+  "Sagrada Família, Park Güell, Casa Batlló, Picasso: timed online tickets are ESSENTIAL. For the Sagrada Família, book months ahead because of the 2026 centenary.",
+  "Winter is sunny at 10-15°C with no crowds. December brings the Christmas market (Fira de Santa Llúcia), January the sales; the Font Màgica is limited in winter.",
+  "The set lunch (menú del día) costs 13-18 EUR, about half the price of dinner. Standing at tapas bars is cheap. Dinner starts after 21:00.",
+  "Pickpocketing on the Rambla and the metro is among the worst in Europe: keep your bag in front and never leave your phone on the table.",
+  "Catalan and Spanish are spoken; 'bon dia' is enough. For a tip, round up the bill."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Gaudí: Sagrada and Eixample",
+   "stops": [
+    {
+     "name": "Sagrada Família",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 34,
+     "tips": "Gaudí's basilica. Book timed tickets online weeks ahead (centenary year 2026, 26-40 EUR); the tower costs extra. At 09:00 the light hits the stained glass."
+    },
+    {
+     "name": "Casa Batlló",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 35,
+     "tips": "The house with the dragon-back roof. Book online, morning slot."
+    },
+    {
+     "name": "Casa Milà La Pedrera",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Admire the wavy façade from outside; the interior is an optional 28 EUR."
+    },
+    {
+     "name": "Cerveseria Catalana",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 25,
+     "tips": "Classic Eixample tapas bar. Try the montaditos (small open sandwiches) and gambas (prawns); the queue is short at 13:30."
+    },
+    {
+     "name": "Passeig de Gràcia",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Modernist boulevard lined with shops."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tapas 24",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 30,
+     "tips": "Carles Abellan's tapas bar; try the bikini sandwich."
+    },
+    {
+     "name": "Recinte Modernista Sant Pau",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 16,
+     "tips": "Modernist hospital complex near the Sagrada Família; a calmer alternative to Batlló."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Gothic Quarter and Born",
+   "stops": [
+    {
+     "name": "Barcelona Cathedral",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 11,
+     "tips": "Gothic cathedral with a cloister courtyard of geese. Free mass hours in the morning."
+    },
+    {
+     "name": "Barri Gòtic Streets",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Plaça Sant Felip Neri, the Roman columns (MUHBA Temple d'August, free) and the Bisbe bridge."
+    },
+    {
+     "name": "La Boqueria",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 10,
+     "tips": "Market on the Rambla. Eat squid with eggs at the El Quim or Bar Pinotxo counter; best before 10:00."
+    },
+    {
+     "name": "Santa Maria del Mar",
+     "category": "culture",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 5,
+     "tips": "The Cathedral of the Sea; plain, pure Gothic."
+    },
+    {
+     "name": "Picasso Museum",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 14,
+     "tips": "Early-period Picasso. Free on Thursday evenings, book online."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Xampanyet",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 20,
+     "tips": "Serving cava and anchovies since 1929; standing room, next to the Picasso Museum."
+    },
+    {
+     "name": "Palau de la Música Catalana",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "Tour of the Modernist concert hall; an alternative to the Picasso Museum."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Park Güell and Gràcia",
+   "stops": [
+    {
+     "name": "Park Güell",
+     "category": "nature",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 10,
+     "tips": "Mosaic salamander and the wavy bench. Timed online tickets (10 EUR); the 08:30 first slot is quiet."
+    },
+    {
+     "name": "Bunkers del Carmel",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Former anti-aircraft hill; Barcelona's best free 360° view."
+    },
+    {
+     "name": "Plaça del Sol, Gràcia",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Village-feel neighbourhood with squares and terraces."
+    },
+    {
+     "name": "La Pubilla",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "Catalan set lunch in Gràcia; closed on Sundays."
+    },
+    {
+     "name": "Casa Vicens",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 18,
+     "tips": "Gaudí's first house in Gràcia, with tile and palm-leaf motifs."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Bodega Quimet Gràcia",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 18,
+     "tips": "Vermouth and tinned-seafood tapas; a local spot."
+    },
+    {
+     "name": "Hospital de Sant Pau",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 16,
+     "tips": "Modernist hospital; an alternative to Casa Vicens."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Montjuïc",
+   "stops": [
+    {
+     "name": "MNAC Museu Nacional",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 12,
+     "tips": "Romanesque frescoes in a palace building. Enjoy the city view from the steps; the terrace is free."
+    },
+    {
+     "name": "Fundació Joan Miró",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 14,
+     "tips": "Works by Miró in Sert's white building."
+    },
+    {
+     "name": "Montjuïc Cable Car",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 10,
+     "tips": "Cable car up to the castle, with sea views."
+    },
+    {
+     "name": "Montjuïc Castle Café",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "Lunch in the castle courtyard with a view of the harbour."
+    },
+    {
+     "name": "Poble Espanyol",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 14,
+     "tips": "A replica town of Spanish villages with craft workshops; the fountain is switched off."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Quimet & Quimet",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Legendary tinned-seafood tapas bar in Poble Sec; standing only."
+    },
+    {
+     "name": "Montjuïc Olympic Stadium",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The 1992 stadium; an alternative to the cable car."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Barceloneta and the sea",
+   "stops": [
+    {
+     "name": "Barceloneta Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Winter beach walk and cycling, with surfers on the water."
+    },
+    {
+     "name": "La Cova Fumada",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "Birthplace of the bomba (potato croquette). No menu, cash only, full by 13:00."
+    },
+    {
+     "name": "Barceloneta Seafront to W Hotel",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Palm-lined seafront walk, ending at Frank Gehry's fish sculpture."
+    },
+    {
+     "name": "Port Vell and Maremagnum",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The old harbour and the Rambla de Mar bridge."
+    },
+    {
+     "name": "Transbordador Aeri del Port",
+     "category": "nature",
+     "start": "16:00",
+     "end": "16:45",
+     "cost": 13,
+     "tips": "Red cable car across the harbour to Montjuïc, with sea and city views."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Can Paixano",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 12,
+     "tips": "Cava and sandwiches; standing only, cheap."
+    },
+    {
+     "name": "Museu d'Història de Catalunya",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 6,
+     "tips": "History museum in a harbour warehouse, with a terrace café."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Montserrat",
+   "stops": [
+    {
+     "name": "Montserrat Monastery",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Train plus rack railway takes 1.5 hours (about 50 EUR combined ticket). The Black Madonna sits in the saw-toothed mountain; the boys' choir (Escolania) sings at 13:00."
+    },
+    {
+     "name": "Sant Joan Funicular",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Funicular to the summit, with walking trails."
+    },
+    {
+     "name": "Sant Joan Walk, Montserrat",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "A flat 1-hour walk among the rocks with views over Catalonia."
+    },
+    {
+     "name": "Restaurant Abat Cisneros",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 25,
+     "tips": "Restaurant of the monastery hotel; Catalan lunch."
+    },
+    {
+     "name": "Montserrat Market Stalls",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Mató (fresh goat's cheese) and honey from farmers' stalls."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Montserrat Self-Service Cafeteria",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 15,
+     "tips": "Cheap cafeteria."
+    },
+    {
+     "name": "Santa Cova",
+     "category": "culture",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Path to the cave where the Virgin was found; an alternative to Sant Joan."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Rambla morning and a gentle goodbye",
+   "stops": [
+    {
+     "name": "La Rambla",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Walk the Rambla before the crowds arrive, past the Miró mosaic and the flower stalls."
+    },
+    {
+     "name": "Palau Güell",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 12,
+     "tips": "Gaudí's city palace, with rooftop chimneys."
+    },
+    {
+     "name": "Granja Viader",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 8,
+     "tips": "Hot chocolate and churros since 1870; the dairy where Cacaolat was born."
+    },
+    {
+     "name": "Plaça Reial",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Palm-filled square with Gaudí lamp posts. Take a farewell photo, then catch the Aerobús at Plaça Catalunya."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Lobo",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Brunch in the Raval."
+    },
+    {
+     "name": "MACBA",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 11,
+     "tips": "Contemporary art and skateboarders; an alternative to Palau Güell."
+    }
+   ]
+  }
+ ]
+}

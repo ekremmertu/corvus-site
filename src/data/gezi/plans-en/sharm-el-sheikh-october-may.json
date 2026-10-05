@@ -1,0 +1,469 @@
+{
+ "lang": "en",
+ "slug": "sharm-el-sheikh-october-may",
+ "altSlug": "sarm-el-seyh-ekim-mayis",
+ "citySlug": "sarm-el-seyh",
+ "destKey": "sharm-el-sheikh",
+ "city": "Sharm El Sheikh",
+ "region": null,
+ "country": "Egypt",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EGP",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 8000,
+  "attractions": 12000,
+  "transport": 3000,
+  "misc": 2000
+ },
+ "notes": [
+  "Haggle for taxis (Naama to Old Market 100-150 EGP) or use the hotel shuttle; Uber/Careem are limited. The airport is 15 minutes away. Tours leave from your hotel (Ras Mohammed, Tiran, Sinai, safari).",
+  "November to March is sunny at 22-25°C (Europe's winter refuge), the sea is 21-23°C and nights are cool. The Sinai summit can hit -5°C with snow in winter. January is the busiest month.",
+  "Sinai visa: a free 15-day \"Sinai only\" stamp covers Sharm, Dahab and Sinai alone; you can't go on to Cairo. Turkish citizens can get an e-visa or a visa on arrival for 25 USD.",
+  "Tour prices in USD: Ras Mohammed 40-60, Tiran 50, Sinai 40, safari 35-60, trial dive 90. Restaurants 200-400 EGP; tip 20-50 EGP everywhere.",
+  "Don't step on the coral: it's banned and fined. Use reef-friendly sun cream and bring water shoes. Women can dress casually in the resort, but cover up in the Old Market.",
+  "Sinai calamari, Egyptian breakfast (ful, taameya), koshari and umm ali dessert. Alcohol is served in hotels."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Naama Bay and the reef",
+   "stops": [
+    {
+     "name": "Naama Bay Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "The heart of the resort, set in a bay: hotel beaches and house-reef snorkelling (northern end of the bay). Cooler in the morning."
+    },
+    {
+     "name": "Naama Bay Promenade",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A pedestrian promenade with cafés, shisha and shops where you can haggle."
+    },
+    {
+     "name": "Fares Seafood Naama",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 300,
+     "tips": "Sharm's best-known seafood: pick from the counter, priced by the kilo. Try the Sinai calamari."
+    },
+    {
+     "name": "Hotel Pool / Siesta",
+     "category": "nature",
+     "start": "14:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "It's 24°C in winter, so stay by the shore. The sea is 22°C."
+    },
+    {
+     "name": "SOHO Square",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 0,
+     "tips": "Dancing fountain, ice bar and Culturama: the place for an evening out."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Masrien Grill Naama",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "Egyptian grill with kofta and chicken, a local favourite."
+    },
+    {
+     "name": "Sharm Old Market",
+     "category": "shopping",
+     "start": "19:30",
+     "end": "21:30",
+     "cost": 0,
+     "tips": "The old market: spices, papyrus and haggling, plus the Al Sahaba Mosque (lit up at night)."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Ras Mohammed National Park",
+   "stops": [
+    {
+     "name": "Ras Mohammed National Park",
+     "category": "nature",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 15,
+     "tips": "At the tip of Sinai (30 minutes by boat or car). One of the world's best diving and snorkelling spots. Park fee about 15 USD."
+    },
+    {
+     "name": "Shark Reef & Yolanda Reef",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Wall reefs with Napoleon wrasse and barracuda, plus the toilets from the wrecked Yolanda."
+    },
+    {
+     "name": "Mangrove Channel & Enchanted Lagoon",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "A mangrove channel and a salty \"magic lake\" formed by an earthquake."
+    },
+    {
+     "name": "Lunch on the Boat",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Included in the tour: grilled fish and rice."
+    },
+    {
+     "name": "Marsa Bareika Bay",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A calm bay for snorkelling and the beach. Return at 16:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ras Um Sid Reef",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A headland reef within the city (Hadaba). If you have no boat, enjoy the view from Farsha Café."
+    },
+    {
+     "name": "Farsha Café Ras Um Sid",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 150,
+     "tips": "A clifftop café with Bedouin rugs: sunset and shisha."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Mount Sinai and St Catherine",
+   "stops": [
+    {
+     "name": "Mount Sinai Night Climb",
+     "category": "nature",
+     "start": "02:00",
+     "end": "06:00",
+     "cost": 10,
+     "tips": "3 hours from Sharm (tour leaves at 22:00). Moses' Ten Commandments mountain, 2,285 m: camel path plus 750 steps, sunrise, -5°C in winter, so wear a heavy coat."
+    },
+    {
+     "name": "Summit Chapel at Sunrise",
+     "category": "nature",
+     "start": "06:00",
+     "end": "06:45",
+     "cost": 0,
+     "tips": "The Holy Trinity chapel, as Sinai's red mountains light up."
+    },
+    {
+     "name": "Steps of Repentance Descent",
+     "category": "nature",
+     "start": "06:45",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "3,750 steps of the monks' path (Elijah's Basin). Watch your knees."
+    },
+    {
+     "name": "Saint Catherine's Monastery",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A 6th-century UNESCO monastery (the world's oldest working monastery): the Burning Bush, Moses' Well and icons. It may be closed on Fridays and Sundays."
+    },
+    {
+     "name": "Bedouin Breakfast in St Catherine Village",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 100,
+     "tips": "Tea, bread and honey in a Bedouin tent. Return at 15:00 (afternoon nap)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dahab Blue Hole",
+     "category": "nature",
+     "start": "09:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Instead of Sinai: snorkel at Dahab's legendary 100 m blue hole (Bells), a hippie town, 1.5 hours away."
+    },
+    {
+     "name": "Fox Camp St Catherine",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 80,
+     "tips": "Breakfast at a Bedouin camp."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Rest and Tiran Island",
+   "stops": [
+    {
+     "name": "Tiran Island Boat Trip",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 50,
+     "tips": "1 hour by boat from Sharm (tour about 50 USD). The island at the mouth of the Gulf of Aqaba has 4 reefs (Jackson, Woodhouse, Thomas, Gordon)."
+    },
+    {
+     "name": "Jackson Reef Snorkelling",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A colourful coral garden with turtles and the wrecked Lara."
+    },
+    {
+     "name": "Lunch on the Boat at Tiran",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Lunch on deck, included."
+    },
+    {
+     "name": "Gordon Reef Swim",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A shallow coral plateau where the Loullia wreck is visible. Return at 15:30."
+    },
+    {
+     "name": "Naama Bay Sunset Walk",
+     "category": "nature",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Promenade and sea in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "White Island",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A sandbar island that appears at low tide. An alternative to the Ras Mohammed tour."
+    },
+    {
+     "name": "Camel Bar Naama",
+     "category": "food",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 100,
+     "tips": "The rooftop bar of Camel Dive Club: chat with the divers."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Desert safari and Bedouins",
+   "stops": [
+    {
+     "name": "Wadi Mandar Quad Safari",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 35,
+     "tips": "1.5 hours by ATV/quad in the Sinai desert. Expect dust, so bring goggles."
+    },
+    {
+     "name": "Bedouin Village Visit",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Bedouin tea and bread baking, plus a short camel ride."
+    },
+    {
+     "name": "Hotel Lunch & Siesta",
+     "category": "food",
+     "start": "13:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Escape the midday heat with the pool and lunch."
+    },
+    {
+     "name": "Desert Sunset & Stargazing Tour",
+     "category": "nature",
+     "start": "16:30",
+     "end": "19:30",
+     "cost": 40,
+     "tips": "Camels, a Bedouin dinner and stars through a telescope (no light pollution). Tour."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Colored Canyon Nuweiba",
+     "category": "nature",
+     "start": "07:00",
+     "end": "13:00",
+     "cost": 60,
+     "tips": "A walk through a colourful rock canyon (2.5 hours' drive). A full day instead of the safari."
+    },
+    {
+     "name": "Bedouin Dinner Camp",
+     "category": "food",
+     "start": "17:30",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Lamb and rice, included in the tour."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Diving day (or Dahab)",
+   "stops": [
+    {
+     "name": "Discover Scuba Diving Naama",
+     "category": "nature",
+     "start": "08:00",
+     "end": "12:00",
+     "cost": 90,
+     "tips": "A trial dive (no certificate needed, 12 m with an instructor). Camel/Emperor Divers; Red Sea visibility 30 m."
+    },
+    {
+     "name": "Lunch at the Dive Centre Café",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 100,
+     "tips": "After the dive: sandwiches."
+    },
+    {
+     "name": "Sharm Aquarium / Old Market",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "In the afternoon, the market and Al Sahaba Mosque. Haggle."
+    },
+    {
+     "name": "Al Fanar Ras Um Sid",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 350,
+     "tips": "Italian cuisine and seafood on the cliff, with the lighthouse and sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dahab Lighthouse Reef & Town",
+     "category": "nature",
+     "start": "08:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A Dahab day: snorkel at Lighthouse and visit the seafront cafés, 1.5 hours away."
+    },
+    {
+     "name": "Hard Rock Cafe Naama",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 300,
+     "tips": "An evening alternative with live music."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Last swim and a gentle farewell",
+   "stops": [
+    {
+     "name": "Shark's Bay",
+     "category": "nature",
+     "start": "07:30",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "A bay near the airport with a house reef and jetty. Your last swim."
+    },
+    {
+     "name": "Hotel Breakfast",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "A long breakfast. Keep your cabin bag with you."
+    },
+    {
+     "name": "Sharm Old Market",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Spices, dates and alabaster. Haggle."
+    },
+    {
+     "name": "Sharm El Sheikh International Airport",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 150,
+     "tips": "15 minutes from Naama. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Il Mercato Hadaba",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "An open-air mall, instead of the market."
+    },
+    {
+     "name": "Tam Tam Naama",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:15",
+     "cost": 100,
+     "tips": "Egyptian breakfast: ful (fava bean stew) and taameya (falafel)."
+    }
+   ]
+  }
+ ]
+}

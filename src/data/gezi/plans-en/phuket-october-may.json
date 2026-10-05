@@ -1,0 +1,461 @@
+{
+ "lang": "en",
+ "slug": "phuket-october-may",
+ "altSlug": "phuket-ekim-mayis",
+ "citySlug": "phuket",
+ "destKey": "phuket",
+ "city": "Phuket",
+ "region": null,
+ "country": "Thailand",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "THB",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 8000,
+  "attractions": 9000,
+  "transport": 4000,
+  "misc": 2000
+ },
+ "notes": [
+  "There is no public transport in Phuket. Use a scooter (licence and helmet required), Grab or a hotel taxi. Tuk-tuks are expensive, so haggle.",
+  "November to April is dry with calm seas, so Phi Phi and Similan tours run reliably. December and January are the busiest months.",
+  "Book boat tours online with hotel pickup included. Bring seasickness tablets and reef-safe sunscreen.",
+  "Choose your seafood by the kilo at Rawai market; the cooking fee is charged separately per person.",
+  "Cover shoulders and knees at temples. On Bangla Road, ask the drink price first.",
+  "Skip elephant rides and choose ethical sanctuaries instead."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old Town and Big Buddha",
+   "stops": [
+    {
+     "name": "Phuket Old Town Thalang Road",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Colourful Sino-Portuguese shophouses. Cafes open in the morning, and on Sundays the street turns into a walking market."
+    },
+    {
+     "name": "Phuket Thai Hua Museum",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 200,
+     "tips": "The history of Chinese migrants, in an air-conditioned old school building."
+    },
+    {
+     "name": "One Chun Cafe Phuket",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 300,
+     "tips": "Michelin Bib Gourmand local cooking. Try the moo hong (braised pork belly) and the crab."
+    },
+    {
+     "name": "Big Buddha Phuket",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A 45 m marble Buddha on the hilltop with 360° views of the island. Cover shoulders and knees; get there by taxi or scooter."
+    },
+    {
+     "name": "Wat Chalong",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "Phuket's most important temple, known for its tradition of making wishes with fireworks."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kopitiam by Wilai",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 250,
+     "tips": "Hokkien noodles in Old Town."
+    },
+    {
+     "name": "Khao Rang Hill",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A hilltop with city views, close to Big Buddha. A good alternative."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Kata and Karon beaches",
+   "stops": [
+    {
+     "name": "Kata Noi Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "A small, calm cove. Sunbeds cost 100 THB, and in the dry season you can snorkel."
+    },
+    {
+     "name": "Kata Beach Street Stalls",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 200,
+     "tips": "Pad thai and mango sticky rice just behind the beach."
+    },
+    {
+     "name": "Karon Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "16:00",
+     "cost": 100,
+     "tips": "3 km of sand. The wind picks up in the afternoon; good for a long walk."
+    },
+    {
+     "name": "Karon Viewpoint",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A lookout that takes in three bays at once. Go before sunset."
+    },
+    {
+     "name": "Kata Night Market",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 300,
+     "tips": "A night market in central Kata with grilled seafood and roti."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kampong Kata Hill Restaurant",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 600,
+     "tips": "A Thai restaurant full of antiques, in Kata."
+    },
+    {
+     "name": "Dino Park Mini Golf",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "16:00",
+     "cost": 240,
+     "tips": "A rainy-day option for families with kids, in Karon."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Phi Phi Islands",
+   "stops": [
+    {
+     "name": "Maya Bay",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 1800,
+     "tips": "Speedboat tour (~1,800 THB, lunch included, hotel pickup at 08:00). Visits to Maya Bay are limited; you also stop at Pileh Lagoon and Viking Cave."
+    },
+    {
+     "name": "Pileh Lagoon",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "An emerald lagoon for snorkelling."
+    },
+    {
+     "name": "Phi Phi Don Tonsai Village",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Lunch in the island village (included in the tour) and a stroll through the shops."
+    },
+    {
+     "name": "Bamboo Island",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "White sand and a last swim. The return leaves at 17:00."
+    },
+    {
+     "name": "Rawai Seafood Market",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 600,
+     "tips": "Pick your fish at the market in Rawai and have it cooked across the way. Phuket's most famous seafood evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kan Eang at Pier Chalong",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 700,
+     "tips": "Seafood at Chalong Pier, as an alternative to Rawai."
+    },
+    {
+     "name": "Coral Island Koh Hae",
+     "category": "nature",
+     "start": "09:30",
+     "end": "16:00",
+     "cost": 1200,
+     "tips": "A nearby island for a half-day trip if Phi Phi is cancelled."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Freedom Beach and Patong",
+   "stops": [
+    {
+     "name": "Freedom Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 200,
+     "tips": "An unspoilt cove reached by long-tail boat from Patong (~200 THB per person). The water is clear in the dry season."
+    },
+    {
+     "name": "Patong Beach",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The island's busiest beach. Good for walking and jet skiing (haggle)."
+    },
+    {
+     "name": "No.6 Restaurant Patong",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 200,
+     "tips": "A cheap Thai eatery in Patong. The queue moves fast; order the tom yum."
+    },
+    {
+     "name": "Jungceylon Shopping Mall",
+     "category": "shopping",
+     "start": "15:15",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "An air-conditioned mall, handy for a break from rain or heat."
+    },
+    {
+     "name": "Bangla Road",
+     "category": "landmark",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 0,
+     "tips": "Patong's nightlife street, with bars and shows. Watch your wallet."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Baan Rim Pa Patong",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 1500,
+     "tips": "Royal Thai cuisine on the cliffs. Come for the sunset."
+    },
+    {
+     "name": "Simon Cabaret Phuket",
+     "category": "culture",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 900,
+     "tips": "A cabaret show, as an alternative to Bangla Road."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Promthep and the south",
+   "stops": [
+    {
+     "name": "Nai Harn Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The island's best-loved quiet beach, with a lagoon and pine shade."
+    },
+    {
+     "name": "Nai Harn Beach Stalls",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 200,
+     "tips": "Grilled food and fruit shakes just behind the beach."
+    },
+    {
+     "name": "Windmill Viewpoint",
+     "category": "nature",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "A viewpoint by the wind turbine, looking over Nai Harn and Ya Nui."
+    },
+    {
+     "name": "Promthep Cape",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "The island's southernmost tip and Phuket's most famous sunset. Arrive an hour early to get a spot."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rawai Beach Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 400,
+     "tips": "Thai food on the Rawai seafront."
+    },
+    {
+     "name": "Ya Nui Beach",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A tiny snorkelling cove below Promthep."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Similan Islands",
+   "stops": [
+    {
+     "name": "Similan Islands",
+     "category": "nature",
+     "start": "08:00",
+     "end": "12:00",
+     "cost": 3500,
+     "tips": "Open from November to May. Thailand's best islands for snorkelling and diving, reached by speedboat (~3,500 THB), with hotel pickup at 06:00."
+    },
+    {
+     "name": "Similan Boat Lunch",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Lunch is included in the tour."
+    },
+    {
+     "name": "Sailing Rock Koh Miang",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The Similans' signature rock, with views from the top."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Khao Lak Seafront Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 400,
+     "tips": "An alternative lunch spot."
+    },
+    {
+     "name": "Racha Island",
+     "category": "nature",
+     "start": "08:00",
+     "end": "16:00",
+     "cost": 1500,
+     "tips": "A nearby island for snorkelling."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Old Town morning, gentle goodbye",
+   "stops": [
+    {
+     "name": "Old Town Soi Romanee",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "The most photogenic street, best in the morning light."
+    },
+    {
+     "name": "Torry's Ice Cream Phuket",
+     "category": "food",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 150,
+     "tips": "Local ice cream in Old Town. Go for coconut."
+    },
+    {
+     "name": "Blue Elephant Phuket",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 900,
+     "tips": "Royal Thai cuisine in a mansion. A fitting farewell lunch, and cooking classes are available too."
+    },
+    {
+     "name": "Phuket Airport Road Sirinat",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The airport is 45 minutes away. Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ka Jok See Phuket",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 800,
+     "tips": "Thai food in an old house."
+    },
+    {
+     "name": "Sirinat National Park Nai Yang",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "A beach next to the airport, where you can watch planes land."
+    }
+   ]
+  }
+ ]
+}

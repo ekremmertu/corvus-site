@@ -1,0 +1,13 @@
+{
+ "source": "c4174c6a9b9c",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Hindistan'ın en büyük camisi; manzara için minare bileti al, omuz ve diz kapalı, ayakkabı dışarıda.",
+  "d1.b1.tips": "Chandni Chowk'ta Sih tapınağı; ücretsiz langar yemeği, baş örtülü gir.",
+  "note0": "Delhi Metro temiz, ucuz ve klimalı (kadın vagonu var); Uber/Ola güvenli, otorikşada pazarlık et. Agra'ya Gatimaan Express, Jaipur'a Shatabdi.",
+  "note1": "Ekim-Mart en iyi mevsim (15-25°C); Kasım-Ocak sabahlarında sis ve hava kirliliği olur. Maske tak, tren gecikmelerini hesaba kat.",
+  "note4": "Tapınak ve camilerde ayakkabı çıkar, omuz ve diz kapalı olsun; Sih gurdwara'larında baş örtülü gir, yemek ücretsiz.",
+  "note5": "Bahşiş %10; pazarlık her yerde geçerli, ilk fiyatın üçte biriyle başla."
+ },
+ "warnings": []
+}

@@ -1,0 +1,512 @@
+{
+ "lang": "en",
+ "slug": "fethiye-october-may",
+ "altSlug": "fethiye-ekim-mayis",
+ "citySlug": "fethiye",
+ "destKey": "fethiye",
+ "city": "Fethiye",
+ "region": "Muğla",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9750,
+  "attractions": 10850,
+  "transport": 700,
+  "misc": 850
+ },
+ "notes": [
+  "In January the sea is around 16-17°C. It isn't swimming season; beaches are quiet, but most sunbeds and cafés are closed.",
+  "Cards may not work at small tradesmen's restaurants and neighbourhood markets, so always carry cash.",
+  "Using the Kent Kart on city buses and dolmuşes is cheaper than cash; you can top up the card at the bus station or at supermarket checkouts.",
+  "Tips are not included in the bill. Rounding up is fine at tradesmen's restaurants, and leaving 5-10% is considered polite at mid-range and upscale restaurants.",
+  "Winter weather is cool and windy (10-15°C by day), so dress in layers; a jumper or coat is essential in the evenings.",
+  "When visiting around historic hamams and mosques, wear plain clothing that covers shoulders and knees.",
+  "In winter some boat tours and canyons (such as Saklıkent) may be closed because of water levels or weather; confirm with the operator before booking."
+ ],
+ "niche": {
+  "name": "The Lebessos Wine House",
+  "level": "l3",
+  "why_hidden": "A wine house hidden right beside the ruins of Kayaköy's ghost village. It has one of the largest private wine cellars in southern Türkiye, but its sign is small. Most visitors tour the ghost village and walk past, unaware that you can go inside for a tasting.",
+  "access_instructions": "Walk to the stone building right next to the entrance of the Kayaköy ancient site. The venue is open daily 08:00-24:00, but calling or messaging on Instagram ahead for a wine tasting and breakfast table guarantees you a place.",
+  "local_contact": "+90 536 484 7290 / Instagram: @lebessos",
+  "season": "Open year-round (7 days a week); in winter the indoor lounge with a fireplace is used.",
+  "insider_tip": "Ask for the \"tasting set\", which combines a breakfast plate with a wine tasting. It isn't on the menu, but they prepare it when you ask. Try the white wine made from local grapes.",
+  "show_reason": "Antik bir hayalet köyün içine gizlenmiş, Türkiye'nin en büyük şarap mahzenlerinden birini barındıran bir mekan; hem tarih hem gastronomi katmanı taşıyor ve sosyal medyada nadiren öne çıkıyor.",
+  "lat": 36.5809,
+  "lng": 29.1103,
+  "address": "Kayaköy Mahallesi, Kayaköy Antik Kenti Girişi Yanı, Fethiye, Muğla",
+  "cost_range_min": 500,
+  "cost_range_max": 900,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Fethiye Kent Kart",
+  "why_chosen": "Most municipal buses and dolmuşes in central Fethiye run on this card. It covers the Kayaköy, Ölüdeniz, Ovacık, Hisarönü, Çalış and Üzümlü lines, so one card gets you to almost every stop in the plan within the city area. It is cheaper than paying cash, and everyone uses the same card, with no tourist-local distinction.",
+  "coverage": "Fethiye merkez + Kayaköy, Ölüdeniz, Ovacık, Hisarönü, Çalış, Üzümlü belediye otobüsü ve dolmuş hatları (MUTTAŞ)",
+  "where_to_buy": "Fethiye Otogarı gişeleri, MUTTAŞ kart basım noktaları (şehir merkezindeki anlaşmalı büfe/marketler) ve dolummatik cihazlar",
+  "cost": 150,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Fethiye's heart: Kordon to Karagözler",
+   "stops": [
+    {
+     "name": "Fethiye Kordon & Marina",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 50,
+     "tips": "Around 9 am the marina is calm, before the boats return from their tours. Grab a simit (sesame bread ring) and tea (~50 TL) from the small kiosk at the end of the Kordon; the walk itself is free."
+    },
+    {
+     "name": "Amyntas Rock Tombs",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 100,
+     "tips": "These Lycian tombs are carved into the rock face above the town. Viewing from below is free; climbing up and going inside costs ~100 TL at the ticket booth. In morning light the facade turns golden, the best time for photos."
+    },
+    {
+     "name": "Fethiye Fish Market",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 750,
+     "tips": "Go at midday rather than in the evening tourist crush. Pick a sea bass or sea bream at the stall, have the restaurant next door cook it, and expect a cooking fee of ~700-800 TL per person. Ask for seasonal meze on the side."
+    },
+    {
+     "name": "Paspatur",
+     "category": "shopping",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 150,
+     "tips": "Browse the silversmith and leather workshops in the narrow lanes between Ottoman-Greek houses. Choose local handmade goods (handmade soap, olive oil) over touristy souvenirs."
+    },
+    {
+     "name": "Karagözler Seafront",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 50,
+     "tips": "A quiet walking path west of the marina, where locals stroll in the late afternoon. At sunset this is the best angle on the islands; pick up a tea from the kiosk on the shore."
+    },
+    {
+     "name": "Meğri Lokantası",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "Open in Paspatur since 1989, serving home-style stews and kebabs. We recommend the güveç (clay-pot stew) and manti (Turkish dumplings); weekday evenings are quieter."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gar Lokantası",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 500,
+     "tips": "A tradesmen's restaurant opposite the bus station, famous for its tripe soup and liver sauté. Go early at lunchtime, as the popular dishes can run out."
+    },
+    {
+     "name": "Fethiye Museum",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 100,
+     "tips": "A small but well-kept museum of Lycian and Carian-era finds. In winter it is open 08:00-17:00, and a visit takes 45 minutes."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Kayaköy: stone, wine and silence",
+   "stops": [
+    {
+     "name": "Kayaköy Ghost Village",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "Hundreds of stone houses left from the 1923 population exchange. Go early, when the light flatters the stone. You don't need a guide and can explore on your own; entry is ~100 TL."
+    },
+    {
+     "name": "The Lebessos Wine House",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 750,
+     "tips": "Right next to the entrance of the Kayaköy ancient site. Ask for the \"tasting set\", which combines a breakfast plate with a wine tasting; it isn't on the menu, but they will prepare it. Call ahead to secure a table."
+    },
+    {
+     "name": "Kayaköy-Ölüdeniz Lycian Way (Stone Street Section)",
+     "category": "nature",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "A short stretch of the Lycian Way starting above Kayaköy, with ridge views after a 45-minute walk. In winter the dirt ground can be wet, so hiking shoes are a must."
+    },
+    {
+     "name": "Panayia Pyrgiotissa Church",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "A restored church at the village's highest point, combining frescoes inside with sea views. The best shot is taken through the doorway; entry is included in the Kayaköy ticket."
+    },
+    {
+     "name": "Cin Bal Et Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:45",
+     "cost": 1300,
+     "tips": "On the road to Kayaköy since 1975, with a cook-it-yourself lamb tandır concept and tables under the trees. Book by phone (444 5 048); it fills up early at weekends."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Saliha Sultan Pastanesi",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 200,
+     "tips": "One of Fethiye's oldest pastry shops; we recommend the kadayıf (shredded-pastry dessert) and baklava. In winter try the warm milk desserts; you can stop by on the way back to the centre."
+    },
+    {
+     "name": "Kayaköy Windmills Viewpoint",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:45",
+     "cost": 0,
+     "tips": "The old windmill ruins at the village entrance sit on the ridge overlooking Ölüdeniz. The light is lovely near sunset; entry is free."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "From the sky to Ölüdeniz",
+   "stops": [
+    {
+     "name": "Babadağ Tandem Paragliding (Ölüdeniz)",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 6000,
+     "tips": "Fethiye's signature experience. Winter flights depend on the wind, so choose an operator with a flexible cancellation policy and book early in the morning. The video and photo package costs extra (~500-800 TL).",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Babadag+Tandem+Paragliding+Fethiye",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Merkez Saray Lokantası (Ovacık)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 550,
+     "tips": "A tradesmen's restaurant in central Ovacık; we recommend the güveç and the soups. After your paragliding landing, it is the most practical lunch stop nearest to Ölüdeniz."
+    },
+    {
+     "name": "Kıdrak Bay Viewpoint",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 50,
+     "tips": "A quiet bay right next to Ölüdeniz that the crowds skip; in winter it is completely empty. Enjoy sea views through the pine trees; parking carries a token fee."
+    },
+    {
+     "name": "Hisarönü Winter Stroll",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Hisarönü, packed with nightclubs in summer, empties out completely in winter. The deserted streets have an odd but photogenic silence, and a chance to chat with local shopkeepers."
+    },
+    {
+     "name": "Hisarönü Köftecisi",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 500,
+     "tips": "A small ivy-covered place serving the classic combination of köfte (grilled meatballs), rice and piyaz (white bean salad). In winter the customers are entirely local."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cuba Cafe (Ovacık)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "A small spot serving regional home cooking, which stresses \"traditional flavour\" on Instagram. Go early at lunchtime before the dish of the day runs out."
+    },
+    {
+     "name": "Ölüdeniz Nature Park Viewing Trail",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 50,
+     "tips": "A short walk from the national park entrance leads to a point overlooking the lagoon. It is quiet in winter, and entry carries a small fee."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "From market to hamam: daily life in Fethiye",
+   "stops": [
+    {
+     "name": "Fethiye Tuesday Market",
+     "category": "shopping",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 300,
+     "tips": "Held on Tuesdays and Fridays only, in the Tuzla district next to the city stadium. Buy dried figs and jam from the stalls of fresh produce, olives and cheese; bargaining is possible."
+    },
+    {
+     "name": "Telmessos Ancient Theatre",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Right behind the marina, the ruins of a Roman-era theatre that held 6,000 people. Entry is free, and the stones turn golden in morning light."
+    },
+    {
+     "name": "Seçkin Lokantası",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 550,
+     "tips": "A tradesmen's restaurant near the bus station; the lentil soup and dish of the day are among the best value around. It can be busy at lunchtime."
+    },
+    {
+     "name": "Old Fethiye Hamam",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 1200,
+     "tips": "Built in Paspatur in the 16th century under Sultan Selim I (Yavuz); a scrub-and-foam session takes 1.5-2 hours. Book a time in advance by phone (+90 541 515 81 21)."
+    },
+    {
+     "name": "Efendi Meyhanesi",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1400,
+     "tips": "On Yerguzlar Caddesi in Foça; famous for sea beans and a saffron seafood casserole. In winter you can spend a quiet evening of rakı and meze by the fireplace."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yengeç Restoran",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1200,
+     "tips": "A waterfront fish restaurant at the marina; the catch of the day varies. Booking is recommended, as it fills up at weekends."
+    },
+    {
+     "name": "Fethiye Castle",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Byzantine-Ottoman castle ruins on the hill above the city; entry is free. It is also a good choice for sunset views over the harbour."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Üzümlü Forest and Kadyanda",
+   "stops": [
+    {
+     "name": "Kadyanda Ancient City (Üzümlü)",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 100,
+     "tips": "25 minutes from Fethiye, with stadium and theatre ruins in a pine forest. Most tourists don't know it, and the daylight views over Fethiye Bay are superb."
+    },
+    {
+     "name": "Yeşilüzümlü Village Wine House",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 450,
+     "tips": "In a restored old Üzümlü house, it serves homemade wine, grape juice and mushroom gözleme (stuffed flatbread) made by village women. Don't miss the complimentary mushroom soup."
+    },
+    {
+     "name": "Fethiye Quad Safari (Forest Trail)",
+     "category": "nature",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 1900,
+     "tips": "A 1.5-2 hour trail through pine forest and stream beds; no licence is needed and a short briefing is given. Wear waterproof clothing and closed shoes.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Fethiye+Quad+Safari",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Girida Port",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 1500,
+     "tips": "A fish restaurant known for its seaside garden, with fresh seafood and a wide range of meze. A classic spot for rakı and fish, and a local favourite."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Boğaziçi Restoran",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 400,
+     "tips": "Its village breakfast offers seasonal fruit, village cheese, homemade jam and gözleme. A good alternative if you want an uncrowded village breakfast."
+    },
+    {
+     "name": "Girdev Plateau",
+     "category": "nature",
+     "start": "13:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "One of Fethiye's lesser-known plateaus, good for a quiet nature break and views. In winter the road can be muddy, so drive up carefully."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Kaş and Kaputaş Beach",
+   "stops": [
+    {
+     "name": "Kaputaş Beach Viewpoint",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "The first stop on the drive from Fethiye (~1.5 hours). From the viewpoint at the top of the stairs, look down on the turquoise mouth of the canyon. Entry is free, and in winter nobody is there."
+    },
+    {
+     "name": "Antiphellos Ancient Theatre & King's Tomb",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "A small Lycian theatre with 26 rows of seats, facing the sea; rock tombs and sarcophagi lie right beside it. Entry is free and you can explore on foot."
+    },
+    {
+     "name": "Kaş Uzun Çarşı",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 200,
+     "tips": "Narrow stone streets hold small boutiques and handicrafts. Instead of a tourist fridge magnet, buy local olive oil soap or dried herbal tea."
+    },
+    {
+     "name": "Belediye Lokantası",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 700,
+     "tips": "An affordable restaurant near Kaş Harbour where locals eat, serving fresh daily fish and olive oil dishes. Much cheaper than touristy prices."
+    },
+    {
+     "name": "Kaş Harbour Walk",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 100,
+     "tips": "The ideal time for a coffee and some boat-watching in the harbour, and the last break before the drive back. The return to Fethiye takes ~1.5 hours, so set off before dark."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yıldız Balıkçısı",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 900,
+     "tips": "A small place serving fish they catch themselves, some of the freshest seafood in Kaş. The menu changes daily, so ask the waiter."
+    },
+    {
+     "name": "Kaş Castle (City Wall Remains)",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "The surviving fragments of the ancient walls offer an alternative viewpoint over the harbour and the island. Entry is free, and it requires a short climb."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Patara and Xanthos: in Lycia's footsteps",
+   "stops": [
+    {
+     "name": "Xanthos Ancient City",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 560,
+     "tips": "The UNESCO-listed Lycian capital; winter hours are 08:00-17:00, and entry is about 10 euros, paid in TL. See the remains of the Nereid Monument and the agora; in winter it is completely deserted."
+    },
+    {
+     "name": "Patara Ancient City",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 840,
+     "tips": "Winter hours are 08:30-17:30, and entry is about 15 euros, paid in TL. Don't miss the Lycian League Assembly Hall and the theatre; you walk through among the sand dunes."
+    },
+    {
+     "name": "Patara Beach (Dune Walk)",
+     "category": "nature",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Walk to the far end of the long beach; it is a sea turtle nesting area, so there is no development. In winter it is completely deserted, for the view only (no swimming)."
+    },
+    {
+     "name": "Ayşe Pancake House (Gelemiş)",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 400,
+     "tips": "A warm, friendly family-run place in Gelemiş village, with a variety of gözleme to choose from. Quite affordable compared with Kalkan's high prices."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Inn Patara",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 350,
+     "tips": "A small but tasty breakfast and snack café; a quiet stop in Gelemiş village."
+    },
+    {
+     "name": "Letoon Ancient City",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 200,
+     "tips": "Close to Xanthos, a quiet ruin site known for its UNESCO-listed triple temple remains; it can be used as an alternative to Patara."
+    }
+   ]
+  }
+ ]
+}

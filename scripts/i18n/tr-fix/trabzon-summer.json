@@ -1,0 +1,21 @@
+{
+ "source": "5b4ce938896c",
+ "model": "sonnet",
+ "strings": {
+  "d1.s2.tips": "Kemeraltı Çarşısı'nda tarihi kemeri geçtikten sonra ikinci aradan sağa gir. Merdiven altı görünümlü, 1950'lerden kalma esnaf köftecisini bulursun. Akçaabat köftesini piyaz ve közlenmiş biberle iste, kilo ile de satıyorlar.",
+  "d1.s3.tips": "Yürüyerek gezilen ana alışveriş caddesi; Uzun Sokak No:21'deki 1953'ten beri açık Beton Helva'da tahin helvası ve dondurma denenmeli. Kunduracılar Caddesi'ndeki dükkânlarda pazarlık payı var.",
+  "d2.s4.tips": "1891 yapımı dört gözlü taş köprü, Nemlizadeler ailesinden kalma; çevresindeki eski Çömlekçi Mahallesi sokakları turist rotalarının tamamen dışında. Fotoğraf için öğleden sonra ışığı iyi.",
+  "d2.s5.tips": "Kunduracılar Caddesi Halkevi Sokak No:15'te, Meydan'a yürüme mesafesinde; kuymaklı ve kaşarlı pide birlikte sipariş edilebiliyor. Karadeniz'de mıhlama diye bir şey olmadığını, aradığının kuymak olduğunu unutma.",
+  "d3.b0.tips": "Beşirli Mah. Devlet Sahil Yolu No:575/A'da, sahile sıfır; akşam menüsünde ızgara balık ve mezeler var. Gün batımı manzarası eşliğinde yemek imkânı sunuyor.",
+  "d4.s4.tips": "Dürbinar, Sahil Park Alanı, Adnan Menderes Cd. No:120'de; hem köfte hem balık menüsü var, akşamları mangal kokusu sokağa yayılıyor. Deniz kenarı masaları önceden ayırtılmalı.",
+  "d5.s2.tips": "Osmanlı'dan Cumhuriyet'e şehir tarihini ve Trabzonspor'un hikâyesini bir arada anlatan müze. Futbol tutkunu değilsen bile basın tarihi bölümü ilginç.",
+  "d6.s2.tips": "1300 metre rakımlı Hamsiköy'de fırında pişen sütlaç bölgenin imzası; tur dönüşünde köyde mola veriliyor. Sıcak servis edilen sütlaç soğuktan daha iyi; yanına Karadeniz çayı iste.",
+  "d6.s3.tips": "Uzun gün turu dönüşünde hafif bir kapanış; Uzun Sokak No:21'deki 1953'ten beri açık işletmede tahin helvası ve dondurma var. Akşam Uzun Sokak'ta kısa bir yürüyüşle günü kapat.",
+  "d6.b1.tips": "Ciharlı, Çıralı, Dikkaya ve Güzelyayla köylerinden oluşan bölgenin çam ormanlarına açılan manzara noktası; tur güzergâhında kısa fotoğraf molası için uygun.",
+  "note0": "Esnaf lokantalarında, pazar tezgâhlarında ve köfte salonlarında nakit işini kolaylaştırır; kart genelde geçer ama bozuk para bulundurmak iyi olur.",
+  "niche.why_hidden": "Kemeraltı Çarşısı'nın en eski hanlarından Alacahan'ın avlusunda bir zamanlar 33'ten fazla bakırcı dükkânı çalışırdı. Bugün sadece birkaç usta bu zanaati babadan öğrendiği şekliyle sürdürüyor. Rehberler çarşının önünden geçip fotoğraf çeker. Çoğu ziyaretçi ise hanın içine girip ustayı bakır döverken izleyebileceğini bilmez.",
+  "niche.insider_tip": "Ustaya bir güğümün nasıl dövüldüğünü sor, çoğu zaman elindeki işi bırakıp anlatır. Küçük bir bakır cezve sipariş verebilirsin ama teslimat aynı gün olmayabilir.",
+  "transit.why_chosen": "Trabzon Büyükşehir Belediyesi'ne bağlı tüm şehir içi otobüs hatlarını tek kartla kapsıyor. Boztepe, Beşirli, Yomra ve Değirmendere gibi plandaki duraklara ulaşım bu kartla sağlanıyor. Nakit ödemeye göre hem daha ucuz hem aktarma imkânı sunuyor. Trabzon'da metro veya tramvay olmadığından otobüs ağını kapsayan tek pratik seçenek bu kart."
+ },
+ "warnings": []
+}

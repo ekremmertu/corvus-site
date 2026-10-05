@@ -1,0 +1,469 @@
+{
+ "lang": "en",
+ "slug": "abu-dhabi-summer",
+ "altSlug": "abu-dabi-yaz",
+ "citySlug": "abu-dabi",
+ "destKey": "abu-dhabi",
+ "city": "Abu Dhabi",
+ "region": null,
+ "country": "UAE",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "AED",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 1500,
+  "attractions": 1400,
+  "transport": 600,
+  "misc": 300
+ },
+ "notes": [
+  "Taxis (Careem/Uber) are the main way to get around. Buses are cheap with a Hafilat card. The E100 bus to Dubai takes 1.5 hours (25 AED). The airport is 30 minutes away.",
+  "SUMMER is 42-45°C and humid: do NOT go out between 11:00 and 16:00. Do the mosque and mangroves from 8:00 to 10:00, the Louvre or Ferrari World (indoors) at midday and the Corniche in the evening. Check Ramadan dates.",
+  "The mosque is free (registration, abaya). Louvre 63, Qasr 65, Ferrari 345, safari 250-350. Tip 10%. Alcohol only in hotels and licensed venues.",
+  "Dress: shoulders and knees covered in malls and at the mosque. The mosque is closed on Friday midday and the Louvre on Monday. Ferrari World is cheaper with an online combined ticket.",
+  "Turkish citizens get 90 days visa-free. Cards are accepted everywhere. The weekend is Friday and Saturday.",
+  "Emirati dishes: machboos, harees, luqaimat and camel milk. Try Al Fanar, Meylas, Al Mrzab and Erth."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Grand Mosque & Qasr Al Watan",
+   "stops": [
+    {
+     "name": "Sheikh Zayed Grand Mosque",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "White marble mosque with 82 domes and the world's largest carpet. Free entry, register online, abayas provided. Closed Friday midday. Magical at sunset."
+    },
+    {
+     "name": "Wahat Al Karama",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Martyrs' memorial made of aluminium panels, with a reflection of the mosque."
+    },
+    {
+     "name": "Qasr Al Watan",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 65,
+     "tips": "The presidential palace: Great Hall dome, library and an evening light show (Palace in Motion)."
+    },
+    {
+     "name": "Emirates Palace Le Café",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 120,
+     "tips": "Gold-leaf cappuccino and camel milk with dates in the famous \"palace\" hotel."
+    },
+    {
+     "name": "Corniche",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "8 km of waterfront: sunset walk, beach (flagged area 10 AED) and cycling."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Al Mrzab Emirati",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 90,
+     "tips": "Bib Gourmand Emirati restaurant; try machboos (spiced rice with meat) and luqaimat (sweet dumplings)."
+    },
+    {
+     "name": "Founder's Memorial",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "3D portrait of Sheikh Zayed (Constellation), lit up at night. An alternative to the Corniche."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Saadiyat: the Louvre",
+   "stops": [
+    {
+     "name": "Louvre Abu Dhabi",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 63,
+     "tips": "Jean Nouvel's \"rain of light\" dome. A universal museum with Da Vinci's La Belle Ferronnière. Closed Monday, book tickets online, boat tour extra."
+    },
+    {
+     "name": "Louvre Abu Dhabi Café",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 80,
+     "tips": "Waterside café under the dome."
+    },
+    {
+     "name": "Abrahamic Family House",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "A mosque, church and synagogue side by side. Free registration."
+    },
+    {
+     "name": "Saadiyat Beach Club",
+     "category": "nature",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 150,
+     "tips": "Best after sunset in summer, when the sea is 35°C."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Fouquet's Abu Dhabi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 150,
+     "tips": "French brasserie inside the Louvre, with a view of the dome."
+    },
+    {
+     "name": "Soul Beach Saadiyat",
+     "category": "nature",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 50,
+     "tips": "Public beach; a cheaper option than the club."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Yas Island",
+   "stops": [
+    {
+     "name": "Ferrari World Abu Dhabi",
+     "category": "culture",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 345,
+     "tips": "Home of Formula Rossa, the world's fastest roller coaster (240 km/h). Indoors and air-conditioned. Book online (combined ticket with Yas parks)."
+    },
+    {
+     "name": "Yas Mall Food Court",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 60,
+     "tips": "Lunch break; return with your park ticket (until 16:00)."
+    },
+    {
+     "name": "Yas Marina Circuit",
+     "category": "landmark",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "F1 track. Cycling and walking are free in the evening, Tuesday to Sunday. Yas Viceroy hotel."
+    },
+    {
+     "name": "Yas Bay Waterfront",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 120,
+     "tips": "Waterside restaurants and Etihad Arena; go in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Warner Bros. World Abu Dhabi",
+     "category": "culture",
+     "start": "11:00",
+     "end": "16:00",
+     "cost": 345,
+     "tips": "Indoor cartoon theme park; an alternative to Ferrari World (with children)."
+    },
+    {
+     "name": "Cipriani Yas Island",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 250,
+     "tips": "Italian restaurant over the marina; a smarter alternative to Yas Bay."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Al Ain",
+   "stops": [
+    {
+     "name": "Al Ain Oasis",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "UNESCO site with 147,000 date palms and falaj irrigation channels. 1.5 hours by car or bus; shaded paths."
+    },
+    {
+     "name": "Al Jahili Fort",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Fort from 1891 with a Wilfred Thesiger photography exhibition. Free."
+    },
+    {
+     "name": "Al Ain Palace Museum",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Sheikh Zayed's former palace; explore the rooms."
+    },
+    {
+     "name": "Al Fanar Al Ain",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 90,
+     "tips": "1960s Emirati decor; try machboos and harees (wheat and meat porridge)."
+    },
+    {
+     "name": "Jebel Hafeet",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "A 1,240 m mountain road, among the world's best drives. Sunset at the summit with views of the desert and Oman."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Al Ain Camel Market",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Camel market, lively in the morning. An alternative to the palace."
+    },
+    {
+     "name": "Mercure Jebel Hafeet Café",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 60,
+     "tips": "Hilltop hotel terrace for tea and views."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Desert safari & mangroves",
+   "stops": [
+    {
+     "name": "Eastern Mangroves Kayak",
+     "category": "nature",
+     "start": "07:30",
+     "end": "09:30",
+     "cost": 160,
+     "tips": "Kayak through the mangrove forest in the city. Flamingos and herons; cool in the morning."
+    },
+    {
+     "name": "Qasr Al Hosn",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Abu Dhabi's oldest building (1795 tower) and a good introduction to the city's history. Next to the Cultural Foundation."
+    },
+    {
+     "name": "Al Mina Fish Market Lunch",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 60,
+     "tips": "Harbour market: pick your fish and have it cooked at the restaurant next door."
+    },
+    {
+     "name": "Desert Safari Al Khatim",
+     "category": "nature",
+     "start": "15:30",
+     "end": "18:00",
+     "cost": 250,
+     "tips": "Dune bashing (4x4), camel rides and sandboarding. Sunset and camp."
+    },
+    {
+     "name": "Desert Camp Dinner",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "BBQ buffet, shisha, henna and tanoura dance; included in the tour."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cultural Foundation Abu Dhabi",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Exhibitions and a library, next to Qasr Al Hosn."
+    },
+    {
+     "name": "Meylas Al Muneera",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 70,
+     "tips": "Emirati breakfast and lunch; try balaleet (sweet vermicelli with eggs)."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Heritage Village & Al Bateen",
+   "stops": [
+    {
+     "name": "Heritage Village",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Reconstructed Bedouin village with craftspeople, next to Marina Mall. Free."
+    },
+    {
+     "name": "Etihad Towers Observation Deck at 300",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 95,
+     "tips": "300 m up on the 74th floor; tea included, with views of Emirates Palace and the Corniche."
+    },
+    {
+     "name": "Al Bateen Dhow Yard",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Traditional wooden dhows being built at Al Bateen harbour."
+    },
+    {
+     "name": "Erth Restaurant",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:15",
+     "cost": 180,
+     "tips": "Michelin-starred modern Emirati cuisine, next to Qasr Al Hosn. Reservation needed."
+    },
+    {
+     "name": "Umm Al Emarat Park",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 10,
+     "tips": "City park with a shaded greenhouse and a petting zoo."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Al Bateen Beach",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Quiet city beach; an alternative to the park."
+    },
+    {
+     "name": "Li Beirut Jumeirah Etihad Towers",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:15",
+     "cost": 150,
+     "tips": "Lebanese restaurant with tower views."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Souk morning and a gentle farewell",
+   "stops": [
+    {
+     "name": "World Trade Center Souk",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Foster's modern take on the souk: spices, dates and oud for souvenirs."
+    },
+    {
+     "name": "Al Hosn Coffee Break",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 40,
+     "tips": "Arabic coffee and dates; a farewell treat."
+    },
+    {
+     "name": "Jubail Mangrove Park Boardwalk",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "2 km mangrove boardwalk on the road to Saadiyat, 20 minutes from the airport."
+    },
+    {
+     "name": "Abu Dhabi Zayed International Airport",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 90,
+     "tips": "30 minutes by taxi; farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Arabia Al Bateen",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 50,
+     "tips": "Villa café serving Arabic breakfast."
+    },
+    {
+     "name": "Mushrif Central Park",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "City park; an alternative to the mangroves."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,469 @@
+{
+ "lang": "en",
+ "slug": "dublin-october-may",
+ "altSlug": "dublin-ekim-mayis",
+ "citySlug": "dublin",
+ "destKey": "dublin",
+ "city": "Dublin",
+ "region": null,
+ "country": "Ireland",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 400,
+  "attractions": 230,
+  "transport": 120,
+  "misc": 80
+ },
+ "notes": [
+  "The Leap Visitor Card costs 16 EUR for 72 hours (bus, DART, Luas); for the airport take the 747 Aircoach. The city is walkable: use the DART for Howth, St Kevin's Bus for Glendalough and a tour for Moher.",
+  "Winter brings 5-8°C, darkness by 16:30 and rain. Pubs and museums (most free) fill the time, and there are Christmas markets and a December Guinness queue.",
+  "A pint costs 6-9 EUR (Temple Bar 9+), fish and chips 12-15 EUR and a pub lunch 15-20 EUR. Tip 10% in restaurants, but not in pubs.",
+  "Book of Kells and Guinness tickets are timed and sold online; Kilmainham Gaol sells out months ahead.",
+  "For traditional music try The Cobblestone or O'Donoghue's; Temple Bar is touristy and expensive.",
+  "The Cliffs of Moher day lasts 12 hours. The journey is tiring, but the views are Ireland's best."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Trinity and Temple Bar",
+   "stops": [
+    {
+     "name": "Trinity College Book of Kells",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 25,
+     "tips": "9th-century manuscript and the Long Room library; book the 10:00 slot online."
+    },
+    {
+     "name": "Grafton Street",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Pedestrian shopping street with buskers and Bewley's café."
+    },
+    {
+     "name": "St Stephen's Green",
+     "category": "nature",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Victorian park with ducks and a bust of Joyce."
+    },
+    {
+     "name": "The Pig's Ear Dublin",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Modern Irish cooking opposite Trinity; lunch menu available."
+    },
+    {
+     "name": "Temple Bar",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:30",
+     "cost": 8,
+     "tips": "Cobbled pub quarter. The Temple Bar pub is touristy (pint 9 EUR), while Palace Bar is where locals go."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Stag's Head",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:30",
+     "cost": 7,
+     "tips": "Victorian pub from 1895 with Guinness and live music."
+    },
+    {
+     "name": "Dublin Castle",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 8,
+     "tips": "Castle and the Chester Beatty library (free); an alternative to Grafton Street."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Guinness and the Liberties",
+   "stops": [
+    {
+     "name": "St Patrick's Cathedral",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 10,
+     "tips": "Ireland's largest cathedral, with Swift's grave."
+    },
+    {
+     "name": "Guinness Storehouse",
+     "category": "culture",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "Seven-floor beer museum; a free pint and city views at the Gravity Bar. Book online (26-33 EUR)."
+    },
+    {
+     "name": "The Liberties Teeling Whiskey Distillery",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Tour and tasting at a working city-centre whiskey distillery."
+    },
+    {
+     "name": "Leo Burdock Fish and Chips",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 12,
+     "tips": "Dublin's fish and chips since 1913, near Christchurch."
+    },
+    {
+     "name": "Christ Church Cathedral",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:15",
+     "cost": 10,
+     "tips": "Viking-era cathedral and crypt (with a mummified cat and mouse)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Brazen Head",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 18,
+     "tips": "Ireland's oldest pub (1198); try the Irish stew."
+    },
+    {
+     "name": "Kilmainham Gaol",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 8,
+     "tips": "Prison of the 1916 Rising; guided visits only, so book online months ahead."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Howth",
+   "stops": [
+    {
+     "name": "Howth Cliff Walk",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "30 minutes by DART; the 6 km Bog of Frogs loop passes a lighthouse and seals."
+    },
+    {
+     "name": "Howth Market",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Weekend market with crafts and food stalls."
+    },
+    {
+     "name": "Beshoff Bros Howth",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "Fish and chips by the harbour; a family business since 1913."
+    },
+    {
+     "name": "Howth Harbour Seal Watching",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Seals by the harbour pier, plus fishing boats."
+    },
+    {
+     "name": "Howth Castle Rhododendron Gardens",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "In flower from May to June; a park walk in other months."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Aqua Restaurant Howth",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 30,
+     "tips": "Seafood at the end of the pier."
+    },
+    {
+     "name": "Ireland's Eye Boat Trip",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Boat to the bird island; summer only."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Wicklow and Glendalough",
+   "stops": [
+    {
+     "name": "Glendalough Monastic Site",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "1.5 hours from Dublin (St Kevin's Bus); 6th-century monastery and round tower, free entry."
+    },
+    {
+     "name": "Glendalough Upper Lake Walk",
+     "category": "nature",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Forest and mining village trail between the two lakes; the Spinc route takes 3 hours."
+    },
+    {
+     "name": "Wicklow Heather Restaurant Laragh",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "Pub-restaurant in Laragh with Irish stew and a whiskey library."
+    },
+    {
+     "name": "Sally Gap and Lough Tay",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Views of the Guinness Lake; go by car or tour, and see the PS I Love You bridge."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Powerscourt Estate",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 13,
+     "tips": "Some of Ireland's finest gardens, plus a waterfall; an alternative to Sally Gap."
+    },
+    {
+     "name": "Glendalough Hotel Bar",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 18,
+     "tips": "Lunch at the pub beside the monastery."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "North Dublin: museum and Phoenix Park",
+   "stops": [
+    {
+     "name": "National Museum of Ireland Archaeology",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Celtic gold and bog bodies; free entry, on Kildare Street."
+    },
+    {
+     "name": "EPIC The Irish Emigration Museum",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 21,
+     "tips": "Interactive emigration museum in the CHQ building."
+    },
+    {
+     "name": "Urbanity Coffee",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 15,
+     "tips": "Roastery café in Smithfield; good for brunch."
+    },
+    {
+     "name": "Phoenix Park",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Europe's largest city park, with deer, the Papal Cross and bike rental."
+    },
+    {
+     "name": "Jameson Distillery Bow St.",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:15",
+     "cost": 26,
+     "tips": "Whiskey tasting tour in Smithfield."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Cobblestone Smithfield",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:15",
+     "cost": 7,
+     "tips": "Traditional music pub with a session every evening."
+    },
+    {
+     "name": "Dublin Zoo",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 22,
+     "tips": "Inside Phoenix Park; an alternative to the park itself."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Cliffs of Moher",
+   "stops": [
+    {
+     "name": "Cliffs of Moher",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:30",
+     "cost": 12,
+     "tips": "Day tour from Dublin (about 60 EUR, 3 hours each way); 214 m cliffs and O'Brien's Tower. Windy, so book tickets online."
+    },
+    {
+     "name": "Cliffs of Moher Visitor Centre Café",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 12,
+     "tips": "Visitor centre café serving soup and soda bread."
+    },
+    {
+     "name": "The Burren",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Moon-like limestone landscape with the Poulnabrone dolmen, on the tour route."
+    },
+    {
+     "name": "Galway Latin Quarter",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "One hour in Galway on the way back; buskers and the pubs of Quay Street."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Doolin Gus O'Connor's Pub",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "Music pub in the village below the cliffs; included on the Doolin tour."
+    },
+    {
+     "name": "Kilkenny & Rock of Cashel",
+     "category": "culture",
+     "start": "12:00",
+     "end": "16:30",
+     "cost": 10,
+     "tips": "Alternative southern tour: a medieval city and a fortress on a rock."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Georgian Dublin: a gentle farewell",
+   "stops": [
+    {
+     "name": "Merrion Square",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Georgian doors and the Oscar Wilde statue."
+    },
+    {
+     "name": "National Gallery of Ireland",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Caravaggio and Vermeer; free entry."
+    },
+    {
+     "name": "Bewley's Grafton Street",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 14,
+     "tips": "Café from 1927 with Harry Clarke stained glass; a good place for a farewell breakfast."
+    },
+    {
+     "name": "Ha'penny Bridge",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The Liffey's iron bridge; the 747 airport bus from O'Connell Street takes 30 minutes."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Winding Stair",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 25,
+     "tips": "Restaurant above a bookshop, overlooking the Liffey."
+    },
+    {
+     "name": "Little Museum of Dublin",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "City museum on Stephen's Green; an alternative to the gallery."
+    }
+   ]
+  }
+ ]
+}

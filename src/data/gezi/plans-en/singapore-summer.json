@@ -1,0 +1,492 @@
+{
+ "lang": "en",
+ "slug": "singapore-summer",
+ "altSlug": "singapur-yaz",
+ "citySlug": "singapur",
+ "destKey": "singapore",
+ "city": "Singapore",
+ "region": null,
+ "country": "Singapore",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "SGD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 350,
+  "attractions": 320,
+  "transport": 60,
+  "misc": 80
+ },
+ "notes": [
+  "Use a contactless card on the MRT. The city is small, and a taxi (Grab) costs 10-20 SGD. The MRT to Changi takes 45 minutes.",
+  "Return your tray at hawker centres (there are fines). Reserving a table with a tissue packet ('chope') is a local custom; a meal costs 5-8 SGD.",
+  "Summer (June-September) is relatively dry at 32°C; afternoon downpours are possible.",
+  "Chewing gum is banned, and littering and smoking are fined; supermarkets do not sell alcohol after 22:30.",
+  "Universal Studios and Cloud Forest tickets are cheaper online; some museums close on Mondays.",
+  "No tipping; a 10% service charge and 9% GST are added."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "EZ-Link / contactless card",
+  "why_chosen": "Works on the MRT and buses; a contactless bank card does the same job",
+  "coverage": "MRT, LRT, SBS/SMRT otobüsleri",
+  "where_to_buy": "MRT istasyonları; 10 SGD (5 SGD bakiye)",
+  "cost": 10,
+  "currency_code": "SGD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Marina Bay and Gardens by the Bay",
+   "stops": [
+    {
+     "name": "Gardens by the Bay Cloud Forest",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 46,
+     "tips": "Combined Cloud Forest + Flower Dome ticket (~46 SGD). Go in at the 09:00 opening for the indoor waterfall and cooler air."
+    },
+    {
+     "name": "Supertree Grove",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Giant metal trees; the OCBC Skyway (14 SGD) is optional."
+    },
+    {
+     "name": "Satay by the Bay",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "The gardens' hawker centre: satay and chilli crab with bay views."
+    },
+    {
+     "name": "Marina Bay Sands SkyPark",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 32,
+     "tips": "Observation deck on the 57th floor. Book a sunset slot; the pool is for hotel guests only."
+    },
+    {
+     "name": "Spectra Light Show",
+     "category": "landmark",
+     "start": "20:00",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Water and light show in front of Marina Bay Sands at 20:00 and 21:00, free. The Supertree Garden Rhapsody also runs at 19:45 and 20:45."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lau Pa Sat",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 12,
+     "tips": "Victorian-era hawker centre; Satay Street sets up in the evening."
+    },
+    {
+     "name": "ArtScience Museum",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 25,
+     "tips": "Lotus-shaped museum with the Future World exhibition, a good rainy-day option."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Chinatown and Tiong Bahru",
+   "stops": [
+    {
+     "name": "Buddha Tooth Relic Temple",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Tang-style temple with a roof garden and prayer wheel, free entry."
+    },
+    {
+     "name": "Chinatown Heritage Centre",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 18,
+     "tips": "Immigrant life inside a shophouse; small but moving."
+    },
+    {
+     "name": "Maxwell Food Centre",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 8,
+     "tips": "Tian Tian Hainanese Chicken Rice: join the queue at 11:30, 5 SGD."
+    },
+    {
+     "name": "Ann Siang Hill",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Restored shophouses and cafes; Club Street is close by."
+    },
+    {
+     "name": "Tiong Bahru",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Art deco housing blocks. Try the croissants at Tiong Bahru Bakery and browse the bookshop BooksActually."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tiong Bahru Market",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 8,
+     "tips": "Local hawker centre; try chwee kueh (steamed rice cakes) and lor mee (noodles in thick gravy)."
+    },
+    {
+     "name": "Sri Mariamman Temple",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "The oldest Hindu temple in Singapore, in Chinatown."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Sentosa",
+   "stops": [
+    {
+     "name": "Universal Studios Singapore",
+     "category": "culture",
+     "start": "10:00",
+     "end": "13:00",
+     "cost": 83,
+     "tips": "Full-day theme park (~83 SGD). Arrive at opening for Transformers and Battlestar; an express pass is worth it in the crowds."
+    },
+    {
+     "name": "Malaysian Food Street RWS",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 15,
+     "tips": "Hawker food on Sentosa; you can eat here after leaving the park."
+    },
+    {
+     "name": "Siloso Beach",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Sentosa's lively beach with warm water and a sunset bar."
+    },
+    {
+     "name": "Wings of Time",
+     "category": "landmark",
+     "start": "19:40",
+     "end": "20:10",
+     "cost": 19,
+     "tips": "Water and light show on Siloso Beach; catch the 19:40 showing."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Coastes Siloso",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Beachfront restaurant."
+    },
+    {
+     "name": "S.E.A. Aquarium",
+     "category": "culture",
+     "start": "10:00",
+     "end": "16:00",
+     "cost": 44,
+     "tips": "Huge aquarium, a calmer alternative to Universal Studios."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Little India and Kampong Glam",
+   "stops": [
+    {
+     "name": "Sri Veeramakaliamman Temple",
+     "category": "culture",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Colourful Hindu temple on Serangoon Road; morning prayers."
+    },
+    {
+     "name": "Tekka Centre",
+     "category": "food",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 8,
+     "tips": "Little India's market and hawker centre; have roti prata (flatbread) and teh tarik (pulled milk tea) for breakfast."
+    },
+    {
+     "name": "Mustafa Centre",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Giant department store open 24 hours; it has everything."
+    },
+    {
+     "name": "Sultan Mosque",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Kampong Glam's golden-domed mosque; outside visiting hours, admire it from outside."
+    },
+    {
+     "name": "Haji Lane",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Narrow graffiti-covered lane with boutiques and cafes; the fabric shops of Arab Street are nearby."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zam Zam Restaurant",
+     "category": "food",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 10,
+     "tips": "Serving murtabak (stuffed pan-fried bread) since 1908, opposite the Sultan Mosque."
+    },
+    {
+     "name": "Malay Heritage Centre",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Former palace with Malay history exhibits."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Nature: Southern Ridges and botanics",
+   "stops": [
+    {
+     "name": "Singapore Botanic Gardens",
+     "category": "nature",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "UNESCO-listed gardens; the Orchid Garden costs 15 SGD, and mornings are cooler."
+    },
+    {
+     "name": "Henderson Waves",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The undulating wooden bridge of the Southern Ridges; a forest-canopy walk leads on to Mount Faber."
+    },
+    {
+     "name": "Mount Faber Peak",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Views of the harbour and Sentosa from the hilltop; the cable car station is here."
+    },
+    {
+     "name": "VivoCity Food Republic",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "Food court in the HarbourFront mall; air-conditioned."
+    },
+    {
+     "name": "Labrador Nature Reserve",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Coastal nature park with war relics and mangroves."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Casa Verde Botanic Gardens",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Cafe inside the gardens."
+    },
+    {
+     "name": "MacRitchie TreeTop Walk",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Forest walk with a suspension bridge (3 hours); an alternative to the Southern Ridges."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Pulau Ubin",
+   "stops": [
+    {
+     "name": "Changi Point Ferry Terminal",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 4,
+     "tips": "Bumboats leave once 12 people are aboard, 4 SGD; the crossing takes 10 minutes."
+    },
+    {
+     "name": "Pulau Ubin Village Bicycle Rental",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 10,
+     "tips": "Bikes at the island entrance cost 10 SGD a day; this is Singapore's 1960s village."
+    },
+    {
+     "name": "Chek Jawa Wetlands",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Mangrove boardwalk and tidal flat; look out for wild boar and monkeys."
+    },
+    {
+     "name": "Pulau Ubin Seafood Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Seafood at the village jetty; simple."
+    },
+    {
+     "name": "Changi Village Hawker Centre",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 8,
+     "tips": "Nasi lemak (coconut rice) on the way back at Changi Village."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Puaka Hill Pulau Ubin",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The island's hilltop, with views over the quarry lake."
+    },
+    {
+     "name": "Cheong Lian Yuen Restaurant Pulau Ubin",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Seafood in the island village; a fallback if the other restaurant is full."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Clarke Quay: a gentle farewell",
+   "stops": [
+    {
+     "name": "National Gallery Singapore",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 20,
+     "tips": "Southeast Asian art in the former City Hall and Supreme Court buildings; rooftop terrace."
+    },
+    {
+     "name": "Boat Quay",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Riverside shophouses; walk on to the Merlion."
+    },
+    {
+     "name": "Merlion Park",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The lion-fish statue, with a farewell photo against the Marina Bay view."
+    },
+    {
+     "name": "Song Fa Bak Kut Teh Clarke Quay",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 12,
+     "tips": "Peppery pork rib soup for a farewell lunch."
+    },
+    {
+     "name": "Changi Airport Jewel",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "The world's tallest indoor waterfall; a mall to explore before your flight."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Amoy Street Food Centre",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "Hawker centre in the CBD; an alternative to bak kut teh."
+    },
+    {
+     "name": "Asian Civilisations Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 20,
+     "tips": "Riverside museum; an alternative to the gallery."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "source": "b58eddf73a04",
+ "model": "sonnet",
+ "strings": {
+  "d4.s0.tips": "Nobel ziyafeti Mavi Salon'da, mozaikler Altın Salon'da; tur zorunlu, kule (yaz) 106 m.",
+  "d4.s1.tips": "Kraliyet ailesinin evi (UNESCO); barok bahçe ve Çin Köşkü. Stadshuskajen'den tekneyle 1 saat (yaz) veya metro+otobüs.",
+  "d5.b0.tips": "Şehre en yakın ada, 20 dakika; zanaatkârlar ve restoran.",
+  "d6.s2.tips": "1620 anatomi tiyatrosu; Uppsala Üniversitesi.",
+  "note0": "SL kartı 72 saat; Djurgården 7 numaralı tramvay ve feribot dahil. Arlanda Express 340 SEK (Flygbussarna 130). Nakit geçmez; her yerde kart (Swish) kullanılır.",
+  "note1": "Yaz 20-25°C, gün ışığı 04:00-22:00. Midsommar'da (Haziran'ın 3. cuması) her şey kapanır ama Skansen kutlar. Takımadada yüzülür, Drottningholm'e tekne var.",
+  "note2": "Köfte 200 SEK, fika 80-110, restoran 300-500, müze 150-280; bahşiş için hesabı yuvarla; şehir pahalı. Müzeler için Stockholm Pass'i (Go City) hesapla.",
+  "note3": "Vasa'ya 09:00 açılışta git; ABBA online saatli; Belediye'de tur zorunlu; yazın Drottningholm'e tekneyle (1 saat) git, keyiflidir.",
+  "note4": "Fika kültürü: kanelbulle (4 Ekim günü!), kardemummabulle, prinsesstårta; smörgåsbord, gravlax, surströmming (cesaret ister).",
+  "note5": "Systembolaget (devlet içki dükkânı) 20:00'de kapanır, pazar günü kapalı; barda bira 80 SEK."
+ },
+ "warnings": []
+}

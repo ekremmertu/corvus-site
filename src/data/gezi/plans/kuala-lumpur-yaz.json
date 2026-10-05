@@ -1,0 +1,484 @@
+{
+ "lang": "tr",
+ "slug": "kuala-lumpur-yaz",
+ "altSlug": "kuala-lumpur-summer",
+ "citySlug": "kuala-lumpur",
+ "destKey": "kuala-lumpur",
+ "city": "Kuala Lumpur",
+ "region": null,
+ "country": "Malezya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "MYR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 700,
+  "attractions": 450,
+  "transport": 200,
+  "misc": 200
+ },
+ "notes": [
+  "Touch 'n Go kartla LRT/MRT; Grab taksisi ucuz (şehir içi 5-15 MYR). KLIA Ekspres 28 dakika, 55 MYR.",
+  "Yaz (Haziran-Eylül) görece kuru ama 33°C ve nem; öğleden sonra sağanak, sabah gez.",
+  "Malezya mutfağı üç kültür: nasi lemak (Malay), char kway teow (Çin), roti canai (Hint); mamak lokantaları 24 saat.",
+  "Cami ve Hindu tapınaklarında omuzlar ve dizler kapalı olmalı; Batu Caves'te maymunlar çanta kapar.",
+  "Petronas Skybridge bileti günler önce tükenir; KL Tower alternatif ve daha iyi manzara.",
+  "Alkol pahalı (vergi); bahşiş beklenmez, %10 servis ekli."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Touch 'n Go Card",
+  "why_chosen": "LRT, MRT, monoray ve otobüste geçer; KLIA Ekspres ayrı",
+  "coverage": "Rapid KL tüm hatlar, RapidKL otobüs",
+  "where_to_buy": "Metro istasyonları ve 7-Eleven; 10 MYR kart",
+  "cost": 10,
+  "currency_code": "MYR"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "KLCC & Petronas",
+   "stops": [
+    {
+     "name": "Petronas Twin Towers Skybridge",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 98,
+     "tips": "41. kat köprü + 86. kat gözlem (~98 MYR); biletler günler önce online tükenir, ilk slot sabah."
+    },
+    {
+     "name": "KLCC Park",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Kulelerin altında park ve fıskiye; kulelerin fotoğrafı buradan."
+    },
+    {
+     "name": "Nasi Lemak Wanjo Kampung Baru",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 15,
+     "tips": "Kampung Baru'da nasi lemak klasiği; sambal ve tavuk, KLCC'ye yürüme mesafesi."
+    },
+    {
+     "name": "Kampung Baru",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Gökdelenlerin ortasında Malay köyü; ahşap evler ve sokak tezgahları."
+    },
+    {
+     "name": "KL Tower Sky Deck",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 110,
+     "tips": "Menara KL cam kutu ve gün batımı; Petronas'ı karşıdan görmek için en iyi yer."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Suria KLCC Signatures Food Court",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 20,
+     "tips": "AVM yemek katı; laksa ve satay."
+    },
+    {
+     "name": "Aquaria KLCC",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 75,
+     "tips": "Kongre merkezi altında akvaryum; yağmurda."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Batu Caves & Chinatown",
+   "stops": [
+    {
+     "name": "Batu Caves",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "KTM treniyle 30 dakika; 272 renkli basamak, dev Murugan heykeli, maymunlara dikkat. Sabah serin ve boş."
+    },
+    {
+     "name": "Petaling Street",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Chinatown pazarı; taklit çanta ve sokak yemeği, pazarlık."
+    },
+    {
+     "name": "Hong Kee Claypot Chicken Rice",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 15,
+     "tips": "Petaling Street'te kömürde claypot pilavı; öğle kuyruğu."
+    },
+    {
+     "name": "Sri Mahamariamman Temple",
+     "category": "culture",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "KL'nin en eski Hindu tapınağı; renkli gopuram."
+    },
+    {
+     "name": "Central Market Kuala Lumpur",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Art deco pazar; batik, el işi ve klimalı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kim Lian Kee Hokkien Mee",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 15,
+     "tips": "1927'den beri Hokkien mee; Petaling Street."
+    },
+    {
+     "name": "Guan Di Temple",
+     "category": "culture",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Tao tapınağı; Chinatown."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Merdeka & Bukit Bintang",
+   "stops": [
+    {
+     "name": "Merdeka Square",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Bağımsızlık meydanı ve Sultan Abdul Samad binası; sabah ışığı."
+    },
+    {
+     "name": "Masjid Jamek",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "İki nehrin kavşağında Mağribi cami; ziyaret saatleri dışında dışarıdan."
+    },
+    {
+     "name": "River of Life Yürüyüşü",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Klang nehri kenarı restore yürüyüş yolu; mavi ışıklı çeşmeler."
+    },
+    {
+     "name": "Islamic Arts Museum Malaysia",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 20,
+     "tips": "Asya'nın en iyi İslam sanatı müzesi; klimalı, kubbe ve hat."
+    },
+    {
+     "name": "Jalan Alor",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 40,
+     "tips": "Bukit Bintang'ın sokak yemeği caddesi; ızgara deniz ürünleri, satay, char kway teow; akşam canlanır."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pavilion KL Food Court",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 25,
+     "tips": "Bukit Bintang AVM'sinde yemek katı; yağmurda."
+    },
+    {
+     "name": "Perdana Botanical Garden",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Şehrin botanik parkı; orkide bahçesi, müze yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Brickfields & Bangsar",
+   "stops": [
+    {
+     "name": "Brickfields Little India",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Renkli Hint mahallesi; tapınaklar ve çiçek çelenkleri."
+    },
+    {
+     "name": "Thean Hou Temple",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Tepede altı katlı Çin tapınağı; kırmızı fenerler ve şehir manzarası."
+    },
+    {
+     "name": "Vishal Food & Catering Brickfields",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 12,
+     "tips": "Muz yaprağında Güney Hint yemeği; elle ye."
+    },
+    {
+     "name": "Bangsar Village",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Şık mahalle; kafeler ve butikler."
+    },
+    {
+     "name": "Bangsar Devi's Corner",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 15,
+     "tips": "Roti canai ve teh tarik; 24 saat mamak."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Thean Hou Vejetaryen Kantini",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 10,
+     "tips": "Tapınak kantini."
+    },
+    {
+     "name": "Muzium Negara",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 5,
+     "tips": "Ulusal müze; Malezya tarihi, yağmurda."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Melaka",
+   "stops": [
+    {
+     "name": "Dutch Square Melaka",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "KL'den otobüs 2 saat (~15 MYR); kırmızı Stadthuys ve Christ Church, UNESCO."
+    },
+    {
+     "name": "A Famosa",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Portekiz kalesi kapısı ve St. Paul tepesi; Melaka Boğazı manzarası."
+    },
+    {
+     "name": "Jonker Street",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Peranakan antikacılar ve kafeler; hafta sonu gece pazarı."
+    },
+    {
+     "name": "Hoe Kee Chicken Rice Ball",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "Melaka'nın pilav topu tavuklu pilavı; kuyruk hızlı."
+    },
+    {
+     "name": "Baba & Nyonya Heritage Museum",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Peranakan konağı; rehberli tur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nancy's Kitchen Melaka",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 30,
+     "tips": "Nyonya mutfağı; ayam pongteh."
+    },
+    {
+     "name": "Melaka River Cruise",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "Nehir teknesi; müze yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Genting veya Kuala Selangor",
+   "stops": [
+    {
+     "name": "Genting Skyway",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 120,
+     "tips": "Awana'dan dünyanın en uzun teleferiklerinden biriyle 1.800 m'ye; serin dağ havası, Chin Swee tapınağı molası."
+    },
+    {
+     "name": "Genting SkyAvenue Food Court",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 40,
+     "tips": "Dağdaki AVM yemek katı."
+    },
+    {
+     "name": "Chin Swee Caves Temple",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Uçurumdaki Tao tapınağı; teleferik ara istasyonu."
+    },
+    {
+     "name": "Skytropolis Genting",
+     "category": "landmark",
+     "start": "15:15",
+     "end": "17:00",
+     "cost": 60,
+     "tips": "Kapalı eğlence parkı; yağmurdan etkilenmez."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kuala Selangor Seafood Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Alternatif öğle."
+    },
+    {
+     "name": "Sekinchan Pirinç Tarlaları",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Kuala Selangor yakınında pirinç tarlaları; hasat mevsimi."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Hindu tapınağı sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Masjid Negara",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Ulusal cami; mavi yıldız kubbe, ziyaret saatlerinde cübbe verilir."
+    },
+    {
+     "name": "Kuala Lumpur Railway Station",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Mağribi tarzı tarihi gar; fotoğraf."
+    },
+    {
+     "name": "Restoran Yut Kee",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 20,
+     "tips": "1928'den beri Hainan kahvesi ve roti babi; veda öğle yemeği."
+    },
+    {
+     "name": "KL Sentral",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "KLIA Ekspres 28 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Restoran Nasi Kandar Pelita",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 15,
+     "tips": "24 saat nasi kandar."
+    },
+    {
+     "name": "KL Bird Park",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 85,
+     "tips": "Dünyanın en büyük açık kuş parkı; cami yerine."
+    }
+   ]
+  }
+ ]
+}

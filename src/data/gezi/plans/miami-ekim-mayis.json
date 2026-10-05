@@ -1,0 +1,477 @@
+{
+ "lang": "tr",
+ "slug": "miami-ekim-mayis",
+ "altSlug": "miami-october-may",
+ "citySlug": "miami",
+ "destKey": "miami",
+ "city": "Miami",
+ "region": null,
+ "country": "ABD",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 480,
+  "attractions": 220,
+  "transport": 180,
+  "misc": 100
+ },
+ "notes": [
+  "Miami araçsız zor: Everglades ve Key Biscayne için kiralık araç, South Beach-Wynwood-Little Havana için Uber/Lyft; Metromover ücretsiz.",
+  "Aralık-Nisan ideal (24°C, kuru); Mart'ta bahar tatili kalabalığı var, Art Basel Aralık'ta, taş yengeç Ekim-Mayıs.",
+  "Küba kahvesi (cafecito) ventanita'dan 2 USD; Küba sandviçi, croqueta, ropa vieja Little Havana'da 15-25 USD.",
+  "Bahşiş %18-20 (bazı yerlerde hesaba otomatik eklenir, ikinci kez ödeme yapma); plajlarda şezlong 30-50 USD.",
+  "Güneş kremi ve su şart; öğlen UV çok yüksek.",
+  "Everglades airboat turu için 2-3 gün önceden rezervasyon yap; timsahlar sabah aktif."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "South Beach & Art Deco",
+   "stops": [
+    {
+     "name": "Ocean Drive Art Deco",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Pastel art deco oteller; sabah ışığı, Versace konağı (Casa Casuarina)."
+    },
+    {
+     "name": "South Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Beyaz kum, cankurtaran kulübeleri; 10th Street ünlü, sabah rüzgârsız."
+    },
+    {
+     "name": "Puerto Sagua Restaurant",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "1962'den beri Küba lokantası; ropa vieja ve café con leche, South Beach."
+    },
+    {
+     "name": "Española Way",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Akdeniz tarzı yaya sokağı; kafeler."
+    },
+    {
+     "name": "South Pointe Park",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Adanın ucunda park ve iskele; gemi geçişi ve gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Joe's Stone Crab",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 60,
+     "tips": "1913'ten beri taş yengeç (Ekim-Mayıs); South Pointe."
+    },
+    {
+     "name": "Wolfsonian FIU",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "Art deco tasarım müzesi; yağmurda."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Wynwood & Design District",
+   "stops": [
+    {
+     "name": "Wynwood Walls",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 12,
+     "tips": "Dünyanın en ünlü sokak sanatı bahçesi; online bilet, çevre sokaklar ücretsiz."
+    },
+    {
+     "name": "Wynwood Sokak Sanatı Turu",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "NW 2nd Ave boyunca duvar resimleri; galeriler."
+    },
+    {
+     "name": "Coyo Taco Wynwood",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "Meksika sokak tacosu; arka odada gizli bar."
+    },
+    {
+     "name": "Design District",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Lüks mağazalar ve kamusal sanat (Buckminster Fuller kubbesi); ICA Miami ücretsiz."
+    },
+    {
+     "name": "Institute of Contemporary Art Miami",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Ücretsiz çağdaş sanat; Design District."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zak the Baker Wynwood",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "Ödüllü ekşi mayalı fırın; taco yerine."
+    },
+    {
+     "name": "Pérez Art Museum Miami",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 18,
+     "tips": "Körfez kenarı müze; asma bahçeler."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Little Havana",
+   "stops": [
+    {
+     "name": "Calle Ocho",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "SW 8th Street; horoz heykelleri, puro dükkânları ve salsa."
+    },
+    {
+     "name": "Domino Park Máximo Gómez",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Yaşlıların domino oynadığı park; fotoğraf izinle."
+    },
+    {
+     "name": "Ball & Chain",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 15,
+     "tips": "1935 salsa kulübü; öğle mojito ve empanada, canlı müzik."
+    },
+    {
+     "name": "Versailles Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Dünyanın en ünlü Küba restoranı (1971); ventanita'dan cafecito, croqueta ve vaca frita."
+    },
+    {
+     "name": "Azucar Ice Cream",
+     "category": "food",
+     "start": "14:15",
+     "end": "14:45",
+     "cost": 8,
+     "tips": "Küba dondurması; Abuela María."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Pub Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 18,
+     "tips": "Küba sandviçi; Versailles kuyruğu uzunsa."
+    },
+    {
+     "name": "Cubaocho Museum",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Küba sanatı ve rom barı; Ball & Chain yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Coconut Grove & Vizcaya",
+   "stops": [
+    {
+     "name": "Vizcaya Museum and Gardens",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 25,
+     "tips": "1916 İtalyan villası ve körfez bahçeleri; sabah serin, salı kapalı."
+    },
+    {
+     "name": "Coconut Grove",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Banyan ağaçlı mahalle; CocoWalk."
+    },
+    {
+     "name": "GreenStreet Cafe",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 22,
+     "tips": "Coconut Grove'da brunch klasiği; teras."
+    },
+    {
+     "name": "Key Biscayne Crandon Park",
+     "category": "nature",
+     "start": "15:00",
+     "end": "18:00",
+     "cost": 7,
+     "tips": "Rickenbacker Causeway üstünden ada; sığ deniz ve palmiye, giriş araç başı 7 USD."
+    },
+    {
+     "name": "Bill Baggs Cape Florida Lighthouse",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 8,
+     "tips": "Deniz feneri ve plaj; gün batımı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rusty Pelican Key Biscayne",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "Körfez manzaralı deniz ürünleri."
+    },
+    {
+     "name": "Fairchild Tropical Botanic Garden",
+     "category": "nature",
+     "start": "15:00",
+     "end": "18:00",
+     "cost": 25,
+     "tips": "Tropik bahçe; plaj yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Everglades",
+   "stops": [
+    {
+     "name": "Everglades Safari Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 42,
+     "tips": "Miami'ye 45 dakika (araç/tur); airboat turu (~42 USD) timsah ve sazlık, sabah serin."
+    },
+    {
+     "name": "Shark Valley Tram",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Milli parkta 24 km tramvay veya bisiklet; gözlem kulesi, timsahlar yolda."
+    },
+    {
+     "name": "Robert Is Here Fruit Stand",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "Homestead'de tropik meyve tezgahı; key lime milkshake."
+    },
+    {
+     "name": "Coral Castle",
+     "category": "landmark",
+     "start": "15:15",
+     "end": "16:15",
+     "cost": 18,
+     "tips": "Tek adamın oyduğu mercan taş kalesi; Homestead."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Everglades Holiday Park",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 35,
+     "tips": "Alternatif airboat."
+    },
+    {
+     "name": "Homestead Küba Lokantası",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 15,
+     "tips": "Homestead'de ucuz Küba."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Bayside & Brickell",
+   "stops": [
+    {
+     "name": "Bayside Marketplace",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Körfez kenarı çarşı; tekne turları buradan."
+    },
+    {
+     "name": "Biscayne Bay Tekne Turu",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 30,
+     "tips": "Milyoner adaları ve şehir silüeti; 90 dakika."
+    },
+    {
+     "name": "Brickell City Centre",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Finans bölgesi AVM; klimalı."
+    },
+    {
+     "name": "La Mar by Gastón Acurio",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 45,
+     "tips": "Mandarin Oriental'da Peru mutfağı; ceviche ve körfez manzarası."
+    },
+    {
+     "name": "Brickell Key Yürüyüş Yolu",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Ada çevresinde sahil yolu; gün batımı ve gökdelenler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "CVI.CHE 105 Downtown",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "Peru ceviche; daha uygun."
+    },
+    {
+     "name": "Frost Science Museum",
+     "category": "culture",
+     "start": "13:00",
+     "end": "15:30",
+     "cost": 32,
+     "tips": "Akvaryum ve planetaryum; yağmurda."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Miami Beach sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Lincoln Road Mall",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Yaya alışveriş caddesi; kahve ve son hediyelik."
+    },
+    {
+     "name": "Miami Beach Boardwalk",
+     "category": "nature",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "21st'ten 46th'e ahşap sahil yolu; son deniz manzarası."
+    },
+    {
+     "name": "Yardbird Southern Table",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Güney mutfağı; kızarmış tavuk ve waffle, veda."
+    },
+    {
+     "name": "Miami International Airport Metrorail",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Havalimanına 20 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "La Sandwicherie Miami Beach",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 12,
+     "tips": "Fransız sandviç; hızlı veda."
+    },
+    {
+     "name": "Bass Museum of Art",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "Miami Beach sanat müzesi; boardwalk yerine."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "source": "c38282cf28f4",
+ "model": "sonnet",
+ "strings": {
+  "d1.s2.tips": "Sharm'ın ünlü deniz ürünleri; tezgâhtan seç, kiloyla, Sinai kalamar.",
+  "d2.b0.tips": "Şehir içi burun resifi (Hadaba); tekne yoksa Farsha kafesinde manzara.",
+  "d3.s0.tips": "Sharm'dan 3 saat (tur 22:00 kalkış); Musa'nın 10 Emir dağı 2.285 m, deve yolu + 750 basamak, gün doğumu, kışın -5°C, kalın kaban.",
+  "d3.s2.tips": "3.750 basamak keşiş yolu (Elijah Havzası); dizlerine dikkat.",
+  "d3.s3.tips": "6. yüzyıl UNESCO manastırı (dünyanın en eski faal manastırı); Yanan Çalı, Musa Kuyusu, ikonlar, cuma ve pazar kapalı olabilir.",
+  "d3.b0.tips": "Sina yerine: Dahab'ın efsanevi 100 m'lik mavi çukurunda şnorkel (Bells), hippi kasabası, 1,5 saat.",
+  "d4.b0.tips": "Gelgitte ortaya çıkan kum adası; Ras Mohammed turu alternatifi.",
+  "d5.s2.tips": "Öğle sıcağı; havuz, öğle yemeği.",
+  "d6.s3.tips": "Uçurumda İtalyan mutfağı ve deniz ürünleri; fener ve gün batımı.",
+  "note0": "Taksi için pazarlık et (Naama-Old Market 100-150 EGP) ya da otel servisini kullan; Uber/Careem sınırlı. Havalimanı 15 dakika. Turlar otelden kalkar (Ras Mohammed, Tiran, Sina, safari).",
+  "note1": "Kasım-Mart 22-25°C güneşli (Avrupa'nın kış sığınağı), deniz 21-23°C, gece serin; Sina zirvesinde kışın -5°C ve kar olabilir; Ocak en kalabalık ay.",
+  "note3": "Tur fiyatları USD: Ras Mohammed 40-60, Tiran 50, Sina 40, safari 35-60, deneme dalışı 90; restoran 200-400 EGP; bahşiş her yerde 20-50 EGP.",
+  "note4": "Mercana basma, yasak (ceza); resif dostu güneş kremi kullan; su ayakkabısı al. Kadınlar için resortta giyim rahat, Old Market'te kapalı giyin."
+ },
+ "warnings": [
+  "d4.s2.tips: uzunluk çok değişti → düzeltme atıldı"
+ ]
+}

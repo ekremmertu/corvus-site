@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "budapeste-ekim-mayis",
+ "altSlug": "budapest-october-may",
+ "citySlug": "budapeste",
+ "destKey": "budapest",
+ "city": "Budapeşte",
+ "region": null,
+ "country": "Macaristan",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "HUF",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 120000,
+  "attractions": 90000,
+  "transport": 15000,
+  "misc": 20000
+ },
+ "notes": [
+  "Budapest kart veya 24 saat bilet ~2.500 HUF; 2 numaralı tramvay nehir kıyısı manzaralı. 100E havalimanı otobüsü 2.200 HUF. 1 numaralı metro tarihi.",
+  "Kış -2 ila 5°C; Vörösmarty Noel pazarı Kasım-Aralık. Buharlı dış havuzlu hamamlar kar altında en iyisi! Széchenyi'de cumartesi 'sparty'.",
+  "Hamam 12-15.000 HUF (hafta içi ucuz), Parlamento 10.000, sinagog 12.000; havlu ve terlik kiralamak pahalı, kendin getir.",
+  "Gulaş (çorba!), pörkölt, lángos, kürtőskalács, Dobos torta; bahşiş %10-12 (hesaba 'szervizdíj' eklenmiş mi bak).",
+  "Forint nakit al. EUR kabul eden yerler kötü kur verir. Döviz bürosunda 'no commission' tuzağına dikkat. ATM'de kendi bankanın kurunu seç.",
+  "Harabe barlar Kazinczy çevresinde; cumartesi sinagog kapalı, pazar Büyük Pazar kapalı."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Buda Kalesi",
+   "stops": [
+    {
+     "name": "Fisherman's Bastion",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Masal kuleleri ve Parlamento manzarası; alt teraslar ücretsiz, üst kule 1.500 HUF (08:00 öncesi ücretsiz)."
+    },
+    {
+     "name": "Matthias Church",
+     "category": "culture",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 3500,
+     "tips": "Renkli Zsolnay çatı; taç giyme kilisesi, mozaik iç."
+    },
+    {
+     "name": "Buda Castle & Castle Hill Yürüyüşü",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Saray avluları ve Turul kuşu; Macar Ulusal Galerisi (4.400 HUF) isteğe bağlı."
+    },
+    {
+     "name": "Ruszwurm Cukrászda",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 2500,
+     "tips": "1827'den beri en eski pastane; krémes (kremalı milföy), 5 masa; sonra füniküler ve Zincir Köprü'den Peşte'ye yürü."
+    },
+    {
+     "name": "Gerlóczy Kávéház",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 6000,
+     "tips": "Belváros'ta Paris tarzı kafe; gulaş ve paprikás."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Halászbástya Restaurant",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 12000,
+     "tips": "Balıkçı Tabyası içinde manzaralı; pahalı."
+    },
+    {
+     "name": "Hospital in the Rock",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 6000,
+     "tips": "Kale altında 2. Dünya Savaşı hastanesi ve nükleer sığınak; tur zorunlu."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Parlamento & Széchenyi",
+   "stops": [
+    {
+     "name": "Hungarian Parliament Building",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 10000,
+     "tips": "45 dakikalık tur (Kutsal Taç); günler önce online rezervasyon yap, pasaport götür."
+    },
+    {
+     "name": "St. Stephen's Basilica",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 2000,
+     "tips": "Aziz István'ın mumyalanmış sağ eli; kubbe panoraması 3.000 HUF."
+    },
+    {
+     "name": "Belvárosi Disznótoros",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 4000,
+     "tips": "Kilo ile Macar kasap yemeği; hurka, kolbász, ayakta."
+    },
+    {
+     "name": "Heroes' Square",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Metro 1 (kıtanın en eski metrosu); Millennium anıtı ve yedi kabile."
+    },
+    {
+     "name": "Széchenyi Thermal Bath",
+     "category": "nature",
+     "start": "14:00",
+     "end": "17:30",
+     "cost": 13200,
+     "tips": "Avrupa'nın en büyük termal hamamı; sarı saray, dışarıda 38°C havuz ve satranç oynayanlar. Terlik ve havlu getir; hafta içi ucuz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gellért Thermal Bath",
+     "category": "nature",
+     "start": "14:00",
+     "end": "17:30",
+     "cost": 12000,
+     "tips": "Art nouveau hamam; Széchenyi yerine."
+    },
+    {
+     "name": "Vajdahunyad Vár Restoranı Városliget",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 6000,
+     "tips": "Şato parkı restoranı."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Yahudi Mahallesi & romkocsma",
+   "stops": [
+    {
+     "name": "Dohány Street Synagogue",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 12000,
+     "tips": "Avrupa'nın en büyük sinagogu; Ağlayan Söğüt anıtı, cumartesi kapalı."
+    },
+    {
+     "name": "Karaván Street Food",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 3500,
+     "tips": "Szimpla'nın yanında food truck avlusu; lángos (kızarmış hamur, sarımsak-peynir) ve kürtőskalács."
+    },
+    {
+     "name": "Great Market Hall",
+     "category": "shopping",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "1897'den kalma demir pazar; paprika, salam, üst katta lángos; pazar kapalı."
+    },
+    {
+     "name": "Liberty Bridge & Gellért Hill",
+     "category": "nature",
+     "start": "15:15",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Yeşil köprü; Gellért Tepesi'ne 30 dakika tırman. Gün batımında Citadella'dan panorama."
+    },
+    {
+     "name": "Szimpla Kert",
+     "category": "food",
+     "start": "20:00",
+     "end": "23:00",
+     "cost": 3000,
+     "tips": "Kışın da açık; pazar sabahı çiftçi pazarı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mazel Tov",
+     "category": "food",
+     "start": "20:00",
+     "end": "23:00",
+     "cost": 7000,
+     "tips": "Yahudi mahallesinde Orta Doğu bahçesi; rezervasyon."
+    },
+    {
+     "name": "Hungarian National Museum",
+     "category": "culture",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 4500,
+     "tips": "1848 devrim basamakları; pazar yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Szentendre",
+   "stops": [
+    {
+     "name": "Szentendre Fő tér",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "HÉV treniyle 40 dakika (Batthyány tér); barok sanatçı kasabası, Sırp kiliseleri."
+    },
+    {
+     "name": "Blagoveštenska Church Szentendre",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 1000,
+     "tips": "Sırp Ortodoks kilisesi; meydan."
+    },
+    {
+     "name": "Aranysárkány Vendéglő",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 7000,
+     "tips": "Kasabanın klasik lokantası; gulaş ve paprikás csirke."
+    },
+    {
+     "name": "Szentendre Tuna Kıyısı",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Kışın nehir yürüyüşü; dönüşte HÉV."
+    },
+    {
+     "name": "Skanzen Open Air Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 4000,
+     "tips": "Kışın Skanzen sınırlı; kasaba galerileri ve Kovács Margit müzesi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Álom Lángos Szentendre",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 2000,
+     "tips": "Şehrin ünlü lángosu; küçük büfe."
+    },
+    {
+     "name": "Visegrád Castle",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 3000,
+     "tips": "Tuna kıvrımı kalesi; otobüsle, Skanzen yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Margaret Adası & Andrássy",
+   "stops": [
+    {
+     "name": "Margaret Island",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Tuna'daki park adası; bisiklet/kart kiralama, müzikli çeşme, Japon bahçesi, kalıntılar."
+    },
+    {
+     "name": "Andrássy Avenue",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "UNESCO bulvar; Opera, Liszt meydanı, lüks mağazalar."
+    },
+    {
+     "name": "Menza Liszt Ferenc tér",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 6000,
+     "tips": "Retro Macar lokantası; Liszt meydanı, gulaş."
+    },
+    {
+     "name": "House of Terror",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 4000,
+     "tips": "Nazi ve komünist gizli polis binası; ağır ama önemli, pazartesi kapalı."
+    },
+    {
+     "name": "Hungarian State Opera",
+     "category": "culture",
+     "start": "16:45",
+     "end": "17:45",
+     "cost": 5000,
+     "tips": "Neo-rönesans opera turu (İngilizce 13:30/15:00); ya da akşam bileti 5.000'den."
+    }
+   ],
+   "backups": [
+    {
+     "name": "New York Café",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 8000,
+     "tips": "'Dünyanın en güzel kafesi'; kuyruk var, pahalı, Menza yerine."
+    },
+    {
+     "name": "Miniversum",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 4000,
+     "tips": "Minyatür Macaristan trenleri; Terör Evi yerine (çocukla)."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Óbuda, Lukács & tekne",
+   "stops": [
+    {
+     "name": "Aquincum Museum",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 2500,
+     "tips": "Roma şehri kalıntıları; HÉV ile, Óbuda."
+    },
+    {
+     "name": "Lukács Thermal Bath",
+     "category": "nature",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 5000,
+     "tips": "Yerlilerin hamamı; Széchenyi'den sakin ve ucuz."
+    },
+    {
+     "name": "Bambi Eszpresszó",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 3000,
+     "tips": "1961'den beri değişmeyen komünist dönem kafesi; Buda."
+    },
+    {
+     "name": "Batthyány tér Parlamento Manzarası",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Nehir karşısından Parlamento'nun en iyi kadrajı."
+    },
+    {
+     "name": "Danube Sightseeing Cruise",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 4500,
+     "tips": "Gündüz tekne 1 saat; kışın camlı, gece 17:00 sonrası ışıklı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pesti Disznó",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 6000,
+     "tips": "Domuz odaklı modern Macar; Peşte."
+    },
+    {
+     "name": "Óbuda Fő tér",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Eski Óbuda meydanı ve şemsiyeli heykeller; Aquincum yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Váci — hafif veda",
+   "stops": [
+    {
+     "name": "Váci Street",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Yaya alışveriş caddesi; paprika ve Tokaji hediyelik."
+    },
+    {
+     "name": "Vörösmarty Square Gerbeaud",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 4000,
+     "tips": "1858 pastanesi; Dobos torta ve kahve, veda."
+    },
+    {
+     "name": "Danube Promenade Little Princess",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Küçük Prenses heykeli ve nehir kenarında 2 numaralı tramvay hattı."
+    },
+    {
+     "name": "Deák Ferenc tér 100E Havalimanı Otobüsü",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 2200,
+     "tips": "100E direkt otobüs 40 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Café Central Budapest",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 5000,
+     "tips": "1887 edebiyat kafesi; Gerbeaud yerine."
+    },
+    {
+     "name": "Erzsébet tér Ferris Wheel",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 3500,
+     "tips": "Budapest Eye dönme dolap; nehir yerine."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,484 @@
+{
+ "lang": "en",
+ "slug": "kuala-lumpur-summer",
+ "altSlug": "kuala-lumpur-yaz",
+ "citySlug": "kuala-lumpur",
+ "destKey": "kuala-lumpur",
+ "city": "Kuala Lumpur",
+ "region": null,
+ "country": "Malaysia",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "MYR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 700,
+  "attractions": 450,
+  "transport": 200,
+  "misc": 200
+ },
+ "notes": [
+  "Use a Touch 'n Go card for the LRT and MRT; Grab taxis are cheap (5-15 MYR within the city). The KLIA Ekspres takes 28 minutes and costs 55 MYR.",
+  "Summer (June-September) is relatively dry, but expect 33°C and humidity. Afternoon downpours are common, so sightsee in the morning.",
+  "Malaysian food blends three cultures: nasi lemak (Malay), char kway teow (Chinese) and roti canai (Indian). Mamak restaurants are open 24 hours.",
+  "Shoulders and knees must be covered in mosques and Hindu temples. At Batu Caves, monkeys snatch bags.",
+  "Petronas Skybridge tickets sell out days ahead; KL Tower is an alternative with better views.",
+  "Alcohol is expensive because of tax. Tipping is not expected, and a 10% service charge is added."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Touch 'n Go Card",
+  "why_chosen": "Works on the LRT, MRT, monorail and buses; the KLIA Ekspres is separate",
+  "coverage": "Rapid KL tüm hatlar, RapidKL otobüs",
+  "where_to_buy": "Metro istasyonları ve 7-Eleven; 10 MYR kart",
+  "cost": 10,
+  "currency_code": "MYR"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "KLCC and Petronas",
+   "stops": [
+    {
+     "name": "Petronas Twin Towers Skybridge",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 98,
+     "tips": "Skybridge on the 41st floor plus the 86th-floor observation deck (~98 MYR). Tickets sell out online days ahead, so book the first morning slot."
+    },
+    {
+     "name": "KLCC Park",
+     "category": "nature",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Park and fountain at the foot of the towers; the best spot for photos of them."
+    },
+    {
+     "name": "Nasi Lemak Wanjo Kampung Baru",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 15,
+     "tips": "A nasi lemak classic in Kampung Baru, with sambal and chicken, within walking distance of KLCC."
+    },
+    {
+     "name": "Kampung Baru",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A Malay village in the middle of the skyscrapers, with wooden houses and street stalls."
+    },
+    {
+     "name": "KL Tower Sky Deck",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 110,
+     "tips": "Menara KL's glass box and sunset views; the best place to see the Petronas Towers from across the city."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Suria KLCC Signatures Food Court",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 20,
+     "tips": "Mall food court; try the laksa and satay."
+    },
+    {
+     "name": "Aquaria KLCC",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 75,
+     "tips": "Aquarium beneath the convention centre; a good rainy-day option."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Batu Caves and Chinatown",
+   "stops": [
+    {
+     "name": "Batu Caves",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "30 minutes by KTM train. 272 colourful steps, a giant Murugan statue, and monkeys to watch out for. Cool and quiet in the morning."
+    },
+    {
+     "name": "Petaling Street",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Chinatown market with fake designer bags and street food; haggle."
+    },
+    {
+     "name": "Hong Kee Claypot Chicken Rice",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 15,
+     "tips": "Charcoal-cooked claypot rice on Petaling Street; expect a queue at lunch."
+    },
+    {
+     "name": "Sri Mahamariamman Temple",
+     "category": "culture",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "KL's oldest Hindu temple, with a colourful gopuram."
+    },
+    {
+     "name": "Central Market Kuala Lumpur",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Art deco market selling batik and handicrafts, and air-conditioned."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kim Lian Kee Hokkien Mee",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 15,
+     "tips": "Hokkien mee since 1927, on Petaling Street."
+    },
+    {
+     "name": "Guan Di Temple",
+     "category": "culture",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Taoist temple in Chinatown."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Merdeka and Bukit Bintang",
+   "stops": [
+    {
+     "name": "Merdeka Square",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Independence square and the Sultan Abdul Samad Building; lovely in morning light."
+    },
+    {
+     "name": "Masjid Jamek",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Moorish-style mosque where two rivers meet; admire it from outside during non-visiting hours."
+    },
+    {
+     "name": "River of Life Walk",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Restored riverside walkway along the Klang, with blue-lit fountains."
+    },
+    {
+     "name": "Islamic Arts Museum Malaysia",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 20,
+     "tips": "Asia's best Islamic art museum: air-conditioned, with domes and calligraphy."
+    },
+    {
+     "name": "Jalan Alor",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 40,
+     "tips": "Bukit Bintang's street food strip: grilled seafood, satay and char kway teow. It comes alive in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pavilion KL Food Court",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:30",
+     "cost": 25,
+     "tips": "Food court in the Bukit Bintang mall; good in the rain."
+    },
+    {
+     "name": "Perdana Botanical Garden",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The city's botanical park, with an orchid garden; an alternative to the museum."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Brickfields and Bangsar",
+   "stops": [
+    {
+     "name": "Brickfields Little India",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Colourful Indian neighbourhood with temples and flower garlands."
+    },
+    {
+     "name": "Thean Hou Temple",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Six-tier Chinese temple on a hilltop, with red lanterns and city views."
+    },
+    {
+     "name": "Vishal Food & Catering Brickfields",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 12,
+     "tips": "South Indian food served on a banana leaf; eat with your hands."
+    },
+    {
+     "name": "Bangsar Village",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Stylish neighbourhood with cafés and boutiques."
+    },
+    {
+     "name": "Bangsar Devi's Corner",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 15,
+     "tips": "Roti canai and teh tarik at a 24-hour mamak."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Thean Hou Vegetarian Canteen",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 10,
+     "tips": "The temple canteen."
+    },
+    {
+     "name": "National Museum of Malaysia",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 5,
+     "tips": "National museum on Malaysian history; good in the rain."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Melaka",
+   "stops": [
+    {
+     "name": "Dutch Square Melaka",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "2 hours by bus from KL (~15 MYR). Red Stadthuys and Christ Church, UNESCO-listed."
+    },
+    {
+     "name": "A Famosa",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "The gate of the Portuguese fort and St. Paul's Hill, with views over the Strait of Malacca."
+    },
+    {
+     "name": "Jonker Street",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Peranakan antique shops and cafés; night market at weekends."
+    },
+    {
+     "name": "Hoe Kee Chicken Rice Ball",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "Melaka's signature chicken rice, with rice shaped into balls; the queue moves fast."
+    },
+    {
+     "name": "Baba & Nyonya Heritage Museum",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 25,
+     "tips": "Peranakan mansion, visited on a guided tour."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nancy's Kitchen Melaka",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 30,
+     "tips": "Nyonya cuisine; try the ayam pongteh."
+    },
+    {
+     "name": "Melaka River Cruise",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "River boat ride; an alternative to the museum."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Genting or Kuala Selangor",
+   "stops": [
+    {
+     "name": "Genting Skyway",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:00",
+     "cost": 120,
+     "tips": "From Awana, one of the world's longest cable cars climbs to 1,800 m. Enjoy the cool mountain air and a stop at Chin Swee Temple."
+    },
+    {
+     "name": "Genting SkyAvenue Food Court",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 40,
+     "tips": "Food court in the mall on the mountain."
+    },
+    {
+     "name": "Chin Swee Caves Temple",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Taoist temple on a cliff, at the cable car's mid-station."
+    },
+    {
+     "name": "Skytropolis Genting",
+     "category": "landmark",
+     "start": "15:15",
+     "end": "17:00",
+     "cost": 60,
+     "tips": "Indoor theme park, unaffected by rain."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kuala Selangor Seafood Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "An alternative lunch option."
+    },
+    {
+     "name": "Sekinchan Rice Fields",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Rice fields near Kuala Selangor; best in harvest season."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Hindu temple morning, easy farewell",
+   "stops": [
+    {
+     "name": "Masjid Negara",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "National mosque with a blue star-shaped dome; robes are lent to visitors during visiting hours."
+    },
+    {
+     "name": "Kuala Lumpur Railway Station",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Historic Moorish-style station; good for photos."
+    },
+    {
+     "name": "Restoran Yut Kee",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 20,
+     "tips": "Hainan coffee and roti babi since 1928; a fitting farewell lunch."
+    },
+    {
+     "name": "KL Sentral",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "KLIA Ekspres takes 28 minutes; time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Restoran Nasi Kandar Pelita",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 15,
+     "tips": "24-hour nasi kandar."
+    },
+    {
+     "name": "KL Bird Park",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 85,
+     "tips": "The world's largest free-flight walk-in aviary; an alternative to the mosque."
+    }
+   ]
+  }
+ ]
+}

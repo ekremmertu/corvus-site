@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "santorini-yaz",
+ "altSlug": "santorini-summer",
+ "citySlug": "santorini",
+ "destKey": "santorini",
+ "city": "Santorini",
+ "region": null,
+ "country": "Yunanistan",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 420,
+  "attractions": 220,
+  "transport": 150,
+  "misc": 80
+ },
+ "notes": [
+  "KTEL otobüsleri Fira merkezli (Oia 20 dk, Perissa 30 dk, 2 EUR); ATV/scooter 25-40 EUR/gün; taksi az (25-40 EUR). Havalimanı/Athinios limanı otobüs.",
+  "Yaz 28-33°C meltemi (Temmuz-Ağustos sert rüzgâr); Oia gün batımı 20:30 çok kalabalık (1 saat önce), kruvaziyer günleri Fira dolu (14:00 öncesi kaç), Ağustos en pahalı.",
+  "Akrotiri 12 EUR, Thera 6, volkan turu 30-50, katamaran 120+, şarap tadımı 20-30; kaldera restoranları 30-50, Perissa 15-20; bahşiş yuvarlama.",
+  "Fava (sarı bezelye ezmesi), tomatokeftedes, chlorotyri peyniri, beyaz patlıcan, Assyrtiko/Vinsanto; Santorini domatesi minik.",
+  "Kaldera yürüyüşü sabah 7-8 (yazın); eşeklere binme; Oia'da bavul taşınmaz (basamak) — Fira/Imerovigli'de kal.",
+  "Kaplıcada mayo boyanır; Red Beach kaya düşmesi uyarısı."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Fira & kaldera",
+   "stops": [
+    {
+     "name": "Fira Kaldera Yürüyüş Yolu",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Fira'nın kaldera kenarı; beyaz küpler ve mavi kubbeler, volkan karşıda."
+    },
+    {
+     "name": "Museum of Prehistoric Thera",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 6,
+     "tips": "Akrotiri freskleri (Mavi Maymunlar); küçük ama şart."
+    },
+    {
+     "name": "Fira Katolik Katedrali & Sokaklar",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Beyaz-sarı katedral; Gold Street mağazaları, eşekler (binme)."
+    },
+    {
+     "name": "Argo Restaurant Fira",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Kaldera manzaralı; balık ve fava."
+    },
+    {
+     "name": "Fira Gün Batımı Teleferik & Eski Liman",
+     "category": "nature",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 6,
+     "tips": "Teleferikle (6 EUR) eski limana; gemi ışıkları, dönüş teleferik veya 588 basamak."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lucky's Souvlakis Fira",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 6,
+     "tips": "Ucuz gyros; kaldera fiyatı yerine."
+    },
+    {
+     "name": "Santozeum / Megaro Gyzi",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 4,
+     "tips": "Gyzi Konağı 1956 deprem fotoğrafları; müze yerine."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Kaldera yürüyüşü Fira–Oia",
+   "stops": [
+    {
+     "name": "Skaros Rock",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Fira'dan kaldera patikasıyla 1 saat (yazın 07:00 çık); Imerovigli'nin altında Venedik kale kayası, en iyi manzara, ücretsiz."
+    },
+    {
+     "name": "Imerovigli–Oia Patikası",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Profitis Ilias şapeli ve volkan taşı sırtı; Oia'ya iniş, su 1,5 litre."
+    },
+    {
+     "name": "Oia Öğle Melitini",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 20,
+     "tips": "Oia'nın meze restoranı; deniz manzaralı teras."
+    },
+    {
+     "name": "Ammoudi Bay",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Oia altı 300 basamak balıkçı koyu; kaya üstünden yüzme, Ammoudi tavernaları."
+    },
+    {
+     "name": "Oia Gün Batımı Kalesi",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 0,
+     "tips": "Aziz Nikolaos kale kalıntısı; dünyaca ünlü gün batımı, 1 saat önce yer kap (veya restoranda), kalabalık, dönüş otobüsü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sunset Ammoudi Taverna",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 35,
+     "tips": "Koyda ızgara ahtapot; Ammoudi."
+    },
+    {
+     "name": "Atlantis Books Oia",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Mağara kitabevi; koy yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Volkan & kaplıcalar",
+   "stops": [
+    {
+     "name": "Nea Kameni Volkan Teknesi",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 30,
+     "tips": "Eski limandan tekne (tur 30-50 EUR); volkanik ada."
+    },
+    {
+     "name": "Nea Kameni Krater Yürüyüşü",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 5,
+     "tips": "Siyah lav yolu 130 m kratere; kükürt buharları, park 5 EUR."
+    },
+    {
+     "name": "Palea Kameni Kaplıcaları",
+     "category": "nature",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Tekneden atlayıp 35°C çamurlu sıcak suya yüz (koyu mayo)."
+    },
+    {
+     "name": "Thirassia Adası Öğle",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "Kaldera karşısı sakin ada; Korfos köyü tavernası (tur dahilse), Manolas'a basamak."
+    },
+    {
+     "name": "Oia'ya Dönüş Ammoudi",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Tekne Ammoudi/Fira'ya döner."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Catamaran Kaldera Turu",
+     "category": "nature",
+     "start": "10:30",
+     "end": "16:30",
+     "cost": 120,
+     "tips": "Katamaran ile Red Beach, White Beach, kaplıcalar, yemek+içki dahil; volkan turu yerine (öğleden sonra gün batımı versiyonu)."
+    },
+    {
+     "name": "To Psaraki Vlychada",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 30,
+     "tips": "Vlychada limanında balık; tur yoksa."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Akrotiri & Red Beach",
+   "stops": [
+    {
+     "name": "Akrotiri Archaeological Site",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 12,
+     "tips": "MÖ 1600 Minos Pompei'si (kül altında 3 katlı evler); kapalı çatı, sabah."
+    },
+    {
+     "name": "Red Beach",
+     "category": "nature",
+     "start": "10:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Kırmızı uçurum plajı; kaya düşme uyarısı, tepeden bak + kısa yüzme."
+    },
+    {
+     "name": "Faros Feneri Akrotiri",
+     "category": "nature",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "1892 fener; adanın güneybatı ucu, manzara."
+    },
+    {
+     "name": "The Cave of Nikolas Akrotiri",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Akrotiri plaj tavernası; tomatokeftedes (domates köftesi) ve fava."
+    },
+    {
+     "name": "Vlychada Beach",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Ay manzaralı kayalık plaj; sakin, Tomato Industrial Museum yanı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tomato Industrial Museum Vlychada",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 6,
+     "tips": "1945 domates salçası fabrikası; Santorini minik domatesi."
+    },
+    {
+     "name": "Dolphins Akrotiri Beach Taverna",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 22,
+     "tips": "Su üstü ahşap taverna."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Şarap yolu: Pyrgos & Megalochori",
+   "stops": [
+    {
+     "name": "Pyrgos Köyü & Kastelli",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Adanın en yüksek köyü; Venedik kale mahallesi ve 360° manzara, turist az."
+    },
+    {
+     "name": "Santo Wines Pyrgos",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Kaldera manzaralı kooperatif; Assyrtiko ve Vinsanto tadımı (6 şarap), meze."
+    },
+    {
+     "name": "Megalochori",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Çan kuleli sakin köy; şarap mahzenleri, meydan."
+    },
+    {
+     "name": "Venetsanos Winery",
+     "category": "food",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 20,
+     "tips": "Uçurum içine oyulmuş 1947 şaraphane; gün batımı için erken."
+    },
+    {
+     "name": "Domaine Sigalas Oia",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 30,
+     "tips": "Adanın en iyi Assyrtiko'su; bağda tadım ve peynir."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Art Space Winery Exo Gonia",
+     "category": "culture",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 10,
+     "tips": "Mağara şaraphanede sanat galerisi; Venetsanos yerine."
+    },
+    {
+     "name": "Metaxy Mas Exo Gonia",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Yerlilerin favori tavernası; rezervasyon, Santo yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Doğu plajları: Perissa & Kamari",
+   "stops": [
+    {
+     "name": "Ancient Thera",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 6,
+     "tips": "Mesa Vouno dağında Dor-Roma kenti; Kamari'den zikzak yol (taksi/scooter), agora ve deniz."
+    },
+    {
+     "name": "Perissa Black Beach",
+     "category": "nature",
+     "start": "10:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "7 km siyah kumsal; şezlong, sığ, su sporları."
+    },
+    {
+     "name": "Perivolos Tranquilo Beach Bar",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 18,
+     "tips": "Sürdürülebilir plaj barı; kuskus ve burger."
+    },
+    {
+     "name": "Kamari Beach",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Perissa'nın karşısı (dağ ayırır); gezinti yolu ve siyah çakıl, açık hava sineması (yaz)."
+    },
+    {
+     "name": "Kamari Open Air Cinema",
+     "category": "culture",
+     "start": "21:00",
+     "end": "23:00",
+     "cost": 8,
+     "tips": "Bahçede film ve kokteyl (Mayıs-Ekim)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Monastery Kamari",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "Kamari'de manastır avlusu restoranı."
+    },
+    {
+     "name": "Eleftherios Venizelos Museum Kamari",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Küçük müze; plaj yerine yağmurda."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Imerovigli sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Imerovigli Sabah Kahvaltısı Mezzo",
+     "category": "food",
+     "start": "08:30",
+     "end": "09:45",
+     "cost": 20,
+     "tips": "Kaldera manzaralı kahvaltı; sabah boş, Yunan yoğurdu ve bal."
+    },
+    {
+     "name": "Anastasi Kilisesi Imerovigli",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Mavi kubbe ve çan; kahvaltı sonrası."
+    },
+    {
+     "name": "Fira Fabrika Hediyelik",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Vinsanto, kapari, fava, volkan taşı hediyelik; Fira."
+    },
+    {
+     "name": "Santorini Havalimanı",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 2,
+     "tips": "Fira'dan otobüs 20 dakika / taksi 25 EUR; veda (gemiyle Athinios limanı 30 dakika)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mama's House Fira Kahvaltı",
+     "category": "food",
+     "start": "08:30",
+     "end": "09:45",
+     "cost": 10,
+     "tips": "Ucuz dev kahvaltı efsanesi; Fira otogar."
+    },
+    {
+     "name": "Skaros Sabah Yürüyüşü",
+     "category": "nature",
+     "start": "09:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Kaya tekrar; hediyelik yerine."
+    }
+   ]
+  }
+ ]
+}

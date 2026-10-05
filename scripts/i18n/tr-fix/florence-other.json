@@ -1,0 +1,16 @@
+{
+ "source": "4bcb9261e655",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "463 basamak; saatli rezervasyonu haftalar önce yap. Fresklerin arasından şehir manzarası.",
+  "d1.s3.tips": "Alt kat pazar, üst kat yemek katı; lampredotto (Nerbone) ve trüflü sandviç.",
+  "d1.b0.tips": "Önünde kuyruk olan schiacciata sandviç; Via dei Neri.",
+  "d2.s0.tips": "Botticelli'nin Venüs'ü, Leonardo, Caravaggio; 08:15 ilk seans, online (29 EUR), 2,5 saat.",
+  "d2.b1.tips": "Belediye sarayı ve Beşyüzler Salonu; kuleden manzara.",
+  "d3.s0.tips": "Michelangelo'nun David'i ve Esirler; 08:15 online seans.",
+  "d7.s3.tips": "Pisa 1 saat, Roma 1,5 saat; havalimanına tramvay T2 20 dakika, veda.",
+  "note1": "Uffizi, Accademia, kubbe: saatli bileti haftalar önce online al; ilk pazar ücretsiz (kalabalık). Firenze Card 85 EUR, 72 saat.",
+  "note2": "Kasım-Şubat sakin ve 8-12°C; müzelerde kuyruk yok, Aralık'ta Noel pazarı, Kasım'da Chianti'de zeytinyağı hasadı."
+ },
+ "warnings": []
+}

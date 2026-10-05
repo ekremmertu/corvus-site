@@ -1,0 +1,522 @@
+{
+ "lang": "tr",
+ "slug": "antalya-yaz",
+ "altSlug": "antalya-summer",
+ "citySlug": "antalya",
+ "destKey": "antalya",
+ "city": "Antalya",
+ "region": null,
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 14450,
+  "attractions": 6560,
+  "transport": 900,
+  "misc": 100
+ },
+ "notes": [
+  "Ödeme: Kaleiçi ve sahil restoranlarında kart geçer ama esnaf lokantaları, Çakırlar kahvaltıcıları ve Balıkçı Barınağı tezgâhları çoğunlukla nakit ister; yanında 2.000-3.000 TL nakit taşı.",
+  "Ulaşım: Şehir içinde Antalyakart ile otobüs + tramvay (AntRay/Nostalji) yeterli; Lara, Aksu ve Konyaaltı hatları sık. Termessos, Köprülü ve Olympos günleri için araç kiralamak ya da otogar dolmuşu kullanmak gerekir.",
+  "Bahşiş: Restoranlarda %5-10 yeterli, esnaf lokantasında beklenmez. Hamamda tellak/keseciye 100-200 TL ayrı bahşiş âdettir.",
+  "Kıyafet: Antik kentlerde (Termessos, Perge, Olympos) kapalı ayakkabı, şapka ve en az 1,5 L su şart; gölge yok. Camilere girişte (Yivli Minare, Tekeli Mehmet Paşa) omuz ve diz kapalı olmalı.",
+  "Mevsim uyarısı: Temmuz'da öğlen 12:00-15:00 arası 38-40°C'yi bulur; antik kentleri 08:30'da bitir, öğleyi denizde/gölgede geçir. Deniz suyu 28°C civarı, akşam serinliği 20:30'dan sonra gelir.",
+  "Güvenlik: Falez plajlarında (Erdal İnönü gibi) kayalık ve derinlik ani başlar, tahta platformdan gir; Düden Şelalesi'nin denize döküldüğü uçurum kenarında korkuluğu aşma. Rafting'de can yeleği ve kask zorunludur.",
+  "Yerel görgü: Piyaz Antalya'da tahinlidir ve köftenin yanına 'salata' değil ana meze olarak gelir; çayı Tophane'de bardakla, kahveyi Kaleiçi'nde küçük fincanla yavaş içmek makbuldür. Çakırlar'da masa 2 saatlik kahvaltı sohbeti için tutulur, acele edilmez."
+ ],
+ "niche": {
+  "name": "Antalya Balıkçı Barınağı",
+  "level": "l2",
+  "why_hidden": "Konyaaltı'nın batı ucunda, ticari limanın yanında iki su ürünleri kooperatifinin (S.S. Yeni Liman ve S.S. Yeşil Antalya) işlettiği çalışan balıkçı limanı; kıyı tekneleri sabah yanaşır, balık kooperatif tezgâhında doğrudan satılır. Turist rehberleri Konyaaltı'nı plaj ve beach club olarak anlatır, 500 metre ötede ağ onaran ustaların ve sabah mezatının olduğunu bilmez; Antalya'nın gerçek balıkçı mahallesi burası.",
+  "access_instructions": "Antalya Kemer Yolu üzerinde Liman Mahallesi girişi; merkezden Kemer yönü otobüsleri (Antalyakart) 'Liman' durağında iner, 5 dakika yürüyüş. Kooperatif ofisi ve balık satışı hafta içi 08:30-17:30, cumartesi 08:30-12:30, pazar kapalı; en canlı saat tekneler yanaşırken 08:30-09:30. Rıhtımda serbest dolaşılır, teknelere izinsiz çıkılmaz.",
+  "local_contact": "S.S. Yeni Liman Su Ürünleri Kooperatifi — 0534 812 97 86, yenilimankoop@gmail.com, antalyabalikcibarinagi.net",
+  "season": "Yıl boyu; ancak 15 Nisan-1 Eylül trol ve gırgır av yasağı döneminde sadece küçük kıyı tekneleri çıkar, tezgâh çeşidi az ama barbun, mercan, kalamar ve karides olur. Eylül-Nisan tezgâh en dolu.",
+  "insider_tip": "Balığı alırken kooperatif tezgâhında 'temizleyip buzlayın' de, ücretsiz yaparlar; akşam Sarısu piknik alanındaki mangallarda pişirmek yerli alışkanlığı. Tezgâhın yanındaki çay ocağında balıkçılarla 'bu sabah ne çıktı' sohbeti açarsan sana Konyaaltı'nın hangi koyunda o hafta su berrak, hangi gün rüzgâr var söylerler.",
+  "show_reason": "Ücretsiz, otantik ve fotojenik: renkli tekneler, ağlar, Beydağları fonu; 'sahil beldesinde beach club' beklentisinin tam karşısında duran bir sabah rutini. Sosyal medyada neredeyse hiç görünmez, çift için lokal_food + hidden_gem + photo_spots üçünü tek durakta kapatır.",
+  "lat": 36.8355,
+  "lng": 30.6015,
+  "address": "Liman Mah., Antalya Kemer Yolu, 07130 Konyaaltı/Antalya",
+  "cost_range_min": 0,
+  "cost_range_max": 600,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "Antalyakart",
+  "why_chosen": "Antalya'nın tüm belediye otobüsleri, AntRay tramvayı ve Nostalji tramvayında geçen tek kart; kullan-at bilet 46 TL ve kredi kartı okutması 50 TL iken Antalyakart ile biniş 42 TL, aktarma indirimi de sadece bu kartta var. Plandaki Kaleiçi-Konyaaltı-Lara-Aksu-Varsak duraklarının hepsi Antalyakart hatlarında; Termessos, Köprülü ve Olympos günleri için araç ya da otogar dolmuşu gerekir, kart oraya yetmez. İki kişilik 7 gün için tek kart yeterli, aynı karttan iki kez okutulur.",
+  "coverage": "Antalya Büyükşehir otobüsleri, AntRay tramvayı (Otogar-Meydan-Expo/Havalimanı), Nostalji tramvayı; şehir içi tüm ilçeler",
+  "where_to_buy": "Havalimanı AntRay istasyonu ve otogar Antalyakart gişesi, İsmetpaşa/Meydan tramvay durakları yanındaki kiosklar, Antalyakart bayisi bakkallar; ayrıca Antalyakart Mobil uygulaması ile 19 TL'ye sanal kart (NFC ile okutulur)",
+  "cost": 600,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Kaleiçi'nin imzası: Roma kapısından Bizans kayalığına, akşam meyhane",
+   "stops": [
+    {
+     "name": "Hadrianus Kapısı (Üçkapılar)",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 1150,
+     "tips": "MS 130 tarihli üç kemerli kapı, rehberli Kaleiçi yürüyüşünün klasik başlangıç noktası; tur Yivli Minare, Kesik Minare, Saat Kulesi ve Yat Limanı'na iner. Sabah 09:30 başlangıcı hem ışık hem serinlik için ideal. Kemerin altındaki cam zeminden Roma yol taşlarına bak. Rezervasyonu bir gün önce yap; grup küçükse rehber Kaleiçi'nin bostan avlularına da sokar.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Antalya+Old+Town+Kaleici+Walking+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Can Can Pide Yemek Salonu",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 650,
+     "tips": "Haşim İşcan Mahallesi'nde, Kaleiçi'nden 10 dakika yürüme mesafesinde gerçek bir esnaf lokantası; Antalyalıların 'en iyi f/l' dediği yer. Taş fırından kaşarlı kıymalı pide ve günün tencere yemeği (kuru fasulye, güveç) sipariş et, tavuk çorbasını da atlama. 13:00'ten sonra tencereler biter, erken gel; sadece nakit."
+    },
+    {
+     "name": "Mermerli Plajı",
+     "category": "nature",
+     "start": "14:00",
+     "end": "17:30",
+     "cost": 800,
+     "tips": "Kaleiçi surlarının dibinde, Yat Limanı'nın hemen yanındaki 30 metrelik tarihî plaj; şehrin ortasında dağ manzaralı deniz. 2026 sezonunda giriş şezlong + havlu dahil 800 TL, Mermerli Restaurant'ın merdiveninden inilir. Öğle sıcağını burada suda geçir; su temiz ve derinleşir, çocuk kalabalığı yok."
+    },
+    {
+     "name": "Hıdırlık Kulesi",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:15",
+     "cost": 0,
+     "tips": "2. yüzyıldan kalma Roma kulesi, Karaalioğlu Parkı'nın falez ucunda; kule içi kapalı ama çevresi 24 saat ücretsiz. Gün batımı için kuzeybatıya bakan korkuluğa 19:45'te yerleş, Beydağları'nın arkasına inen güneş Konyaaltı körfezini turuncuya boyar. Yanına bir simit ve parkın çay ocağından çay al; yerliler burada koşar, turistler fotoğraf çeker."
+    },
+    {
+     "name": "Ayar Meyhanesi",
+     "category": "food",
+     "start": "20:30",
+     "end": "22:30",
+     "cost": 1600,
+     "tips": "Kaleiçi'nin Kılınçarslan sokaklarında, İncili Gastronomi Rehberi'nden inci almış, yerlinin de gittiği meyhane. Soğuk mezelerden fava, deniz börülcesi ve ahtapot salatası; ara sıcak olarak kalamar tava iste, ana yemekte günün balığını sor. Cuma-cumartesi canlı fasıl var ve masa bulmak zor, mutlaka arayıp rezervasyon yap."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kaleiçi Meyhanesi",
+     "category": "food",
+     "start": "20:30",
+     "end": "22:30",
+     "cost": 1500,
+     "tips": "Kaleiçi'nin restore Osmanlı evinde avlulu meyhane; meze tepsisinden seç, Antalya piyazı ve levrek buğulama iyi. Rezervasyon önerilir, hafta sonu canlı müzik olur."
+    },
+    {
+     "name": "Suna-İnan Kıraç Kaleiçi Müzesi",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 100,
+     "tips": "Restore edilmiş iki Kaleiçi konağı ve eski Aya Yorgi Kilisesi'nde Çanakkale seramikleri ve Antalya gelin odası canlandırmaları. Çarşamba kapalı; yazın öğle arası 12:00-14:00 kapanır, sonrasında 19:30'a kadar açık."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Konyaaltı: balıkçı kooperatifinden 7 km'lik plaja, Varyant'ta gün batımı",
+   "stops": [
+    {
+     "name": "Antalya Balıkçı Barınağı",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Konyaaltı Liman Mahallesi'nde iki su ürünleri kooperatifinin işlettiği çalışan balıkçı limanı; sabah 08:30'da kıyı tekneleri yanaşır, kooperatif tezgâhında o sabahın barbunu, mercan ve kalamarı satılır. Pazar günü satış yok; turist değil balıkçı ortamı, ağ onaran ustalarla sohbet et ve çay ocağından çay al. Balık alacaksan buz iste; akşam Şişçi Ramazan'a gitmeyip sahilde piknikte pişirebilirsin."
+    },
+    {
+     "name": "Konyaaltı Plajı",
+     "category": "nature",
+     "start": "10:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Antalya'yı Antalya yapan 7 km'lik çakıl plaj, arkada Beydağları duvarı; halk plajı bölümleri ücretsiz, şezlong 200-300 TL. Liman tarafındaki batı ucu (Boğaçayı yakını) merkezden çok daha sakin ve su daha berrak. Deniz ayakkabısı işe yarar, çakıl sıcakta yakar."
+    },
+    {
+     "name": "7 Mehmet",
+     "category": "food",
+     "start": "13:15",
+     "end": "15:00",
+     "cost": 1500,
+     "tips": "1937'den beri Akdağ ailesinin işlettiği Antalya'nın köklü restoranı, Atatürk Kültür Parkı içinde falez manzaralı. Bademli iç pilavlı kuzu tandır ve tahinli piyaz ikilisi imzasıdır; tatlıda kaymaklı-tahinli kabak tatlısı (450 TL) atlanmaz. Öğle 12:00'de açılır, gölgeli teras için pencere kenarı masa iste."
+    },
+    {
+     "name": "Beach Park Antalya",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "18:30",
+     "cost": 150,
+     "tips": "Konyaaltı sahil promenadının kafeli-ağaçlı bölümü; en sıcak saati gölgede bir kahveyle geçirip 17:30'da ikinci kez denize gir. Bisiklet kiralayıp sahil yolunda Boğaçayı'na kadar pedal çevirmek yerli alışkanlığı. Beach club girişlerine para verme, ara sokaklardan ücretsiz plaja in."
+    },
+    {
+     "name": "Konyaaltı Varyant Seyir Terası",
+     "category": "landmark",
+     "start": "18:45",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Merkezden Konyaaltı'na inen virajlı yolun üstündeki teras; tüm körfez, Beydağları ve plaj tek karede. Belediyenin çiçekli 'canlı çerçeve' fotoğraf noktası burada, gün batımından 20 dakika önce gel çünkü tripodlu yerliler yerleri kapar. Otobüsle KC hatları ya da Kaleiçi'nden 20 dakika yürüyüşle ulaşılır."
+    },
+    {
+     "name": "Şişçi Ramazan (Altınkum)",
+     "category": "food",
+     "start": "20:15",
+     "end": "21:45",
+     "cost": 900,
+     "tips": "Konyaaltı Altınkum'da, Antalya şiş köftesinin kalesi; közde pişen ince şişler tahinli piyaz, közlenmiş biber ve ayranla gelir. Bir porsiyon şiş köfte + bir porsiyon kuzu şiş + piyaz iki kişiye yeter, kapanışta kabak tatlısı. 20:00 sonrası yerli kalabalığı olur, 15 dakika bekleme normal; kartı geçer."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Konyaaltı Balıkçısı",
+     "category": "food",
+     "start": "20:15",
+     "end": "22:00",
+     "cost": 1900,
+     "tips": "Konyaaltı'nın en çok konuşulan balıkçısı, meze kalitesi üst sınıf. Günün balığını tezgâhtan seç, kalamar dolma ve ahtapot ızgara özellikle iyi; hafta sonu rezervasyon şart."
+    },
+    {
+     "name": "Antalya Akvaryum",
+     "category": "culture",
+     "start": "16:00",
+     "end": "18:00",
+     "cost": 1200,
+     "tips": "Konyaaltı'nda 131 metrelik tünel akvaryum, öğle sıcağı için klimalı alternatif. Bilet gişede pahalı, online alınca indirim var; Snow World bölümü ekstra ücret."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Doğu aksı: Perge'nin sütunlu caddesi, Aksu köftesi, Lara kumu ve denize dökülen şelale",
+   "stops": [
+    {
+     "name": "Perge Antik Kenti",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 620,
+     "tips": "Aksu'da, merkezden 17 km; Roma dönemi sütunlu caddesi, ortadaki su kanalı ve 12.000 kişilik stadyumuyla Antalya Müzesi kapalıyken bölgenin en etkileyici açık hava müzesi. Yazın 08:00'de açılır, gişe kapanışa 30 dakika kala kapanır; 10:30'dan sonra gölge yok. Yabancı bilet 11 €, T.C. vatandaşıysan 200 TL'lik Müzekart ile Termessos ve Olympos'a da ücretsiz girersin."
+    },
+    {
+     "name": "Meşhur Aksu Köfte Piyaz",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 750,
+     "tips": "Aksu ilçesi Sakarya Bulvarı'nda, Antalya-Mersin yolu kenarında; Antalyalıların 'gerçek köfte piyaz' için şehir dışına çıktığı adres. Köfte sadece et ve tuz, yanında tahinli piyaz, közlenmiş biber, soğan, pide ve ayran set olarak gelir. Erken öğle saatinde gel, 13:00'ten sonra kamyoncu ve esnaf kalabalığı başlar."
+    },
+    {
+     "name": "Lara Halk Plajı",
+     "category": "nature",
+     "start": "13:15",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Güzeloba'da 2 km uzunluğunda altın kumlu ücretsiz halk plajı; Konyaaltı'nın çakılına karşı Antalya'nın tek uzun kum plajı. Bakanlık halk plajı bölümünde duş ve soyunma kabini var, şezlong kiralamak istersen 250-300 TL. Sıcakta gölge az, şemsiye getir; öğleden sonra hafif meltem başlar."
+    },
+    {
+     "name": "Aşağı Düden Şelalesi (Düden Park)",
+     "category": "nature",
+     "start": "18:30",
+     "end": "19:45",
+     "cost": 0,
+     "tips": "Düden Çayı'nın 40 metrelik falezden doğrudan denize döküldüğü nokta; dünyada denize dökülen nadir şelalelerden. Lara'daki Düden Park ücretsiz ve 24 saat açık, en iyi ışık batıya bakan platformdan gün batımından hemen önce. Serpintiden gökkuşağı için parkın sağ ucundaki alt korkuluğa in."
+    },
+    {
+     "name": "Hacı Meyhane Lara",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 1400,
+     "tips": "Çağlayan Mahallesi'nde, otel bölgesi Lara'nın arkasında yerlilerin gittiği ocakbaşı-meyhane; Tripadvisor'da 4,5 ama turist listelerinde yok. Ocakbaşından ciğer şiş ve kuzu kaburga, mezeden acılı ezme ve haydari; rakı eşliğinde uzun sofra kültürü. Hafta sonu akustik müzik var, rezervasyon için Instagram'dan yaz."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Barınak Balık Evi",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 1600,
+     "tips": "Çağlayan Mahallesi'nde klimalı, mahalle tipi balık evi; günlük balık tezgâhtan seçilir, meze fiyatları sahil restoranlarının yarısı. Levrek ızgara ve karides güveç öne çıkar."
+    },
+    {
+     "name": "Kurşunlu Şelalesi Tabiat Parkı",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 100,
+     "tips": "Aksu'da, Perge'ye 10 dakika; çam ormanı içinde 18 metrelik şelale ve turkuaz gölcükler, öğle sıcağında 5-6 derece serin. Giriş yaklaşık 75-100 TL, yüzmek yasak ama ayak sokulur."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Yerlinin Muratpaşa'sı: Balbey sokakları, falez plajı, kuyu tandır, 600 yıllık hamam",
+   "stops": [
+    {
+     "name": "Balbey Mahallesi",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Kaleiçi'nden sonra Türklerin yerleştiği ilk mahalle; Selçuklu Balbey Camii etrafında restore edilen cumbalı evler ve yenileme şantiyesinin yan yana durduğu, kimsenin gezmediği bir doku. Sabah erken saat en iyi ışık, mahalle kahvesinde çay iç ve ustalarla konuş. Kaleiçi'nin kuzeyinde Şarampol'e doğru 5 dakika yürüyüş."
+    },
+    {
+     "name": "Erdal İnönü Kent Parkı Falez Halk Plajı",
+     "category": "nature",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 50,
+     "tips": "Şirinyalı falezlerinin dibinde Muratpaşa Belediyesi'nin işlettiği 18 metrelik minicik plaj; kayaların arasına tahta platformdan girilir, yaz boyu 08:00-20:00 açık. Turist bilmez, mahalleli sabah yüzer; duş ve kabin var, giriş sembolik. Deniz burada 3 metrede derinleşir, çakıl yok, su cam gibi."
+    },
+    {
+     "name": "Uysal Antalya Kuyu Tandır",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 700,
+     "tips": "Kışla Mahallesi'nde, Saat Kulesi'ne 5 dakika; 24 saat açık kuyu tandır ve çorbacı. Kuyuda 4-5 saat pişen kuzu tandır pide üstünde gelir, yanında mercimek çorbası ve soğan-maydanoz; porsiyon büyük, iki kişiye bir buçuk porsiyon yeter. Tezgâhtan et parçasını sen seç, yağsız bölüm iste."
+    },
+    {
+     "name": "Sefa Hamam",
+     "category": "culture",
+     "start": "15:30",
+     "end": "17:00",
+     "cost": 1800,
+     "tips": "Kaleiçi'nde 15. yüzyıl Selçuklu-Osmanlı hamamı, hâlâ çalışan en eski hamam; kadın-erkek ayrı bölümler. Temel paket (hamam + kese + köpük masajı) günün en sıcak saatini mermerde geçirmenin en akıllı yolu; yağlı masaj ekstra. Pazartesi-cumartesi 12:30-20:00, pazar kapalı; WhatsApp +90 532 526 94 07 ile saat ayarla.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Antalya+Kaleici+Hamam+Turkish+Bath",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Tophane Çay Bahçesi",
+     "category": "landmark",
+     "start": "18:30",
+     "end": "19:45",
+     "cost": 200,
+     "tips": "Cumhuriyet Meydanı'nın hemen altında, Büyükşehir Belediyesi'nin işlettiği ucuz çay bahçesi; Yat Limanı, Kaleiçi çatıları ve Beydağları tek manzarada. Hürriyet'in 'Türkiye'nin en iyi 10 çay bahçesi' listesinde ama turist akışı Kaleiçi'nin içinde kalır. Gün batımı saatinde masa bulmak zor, 18:30'da gel; çay 40-50 TL, servis yavaş, acele etme."
+    },
+    {
+     "name": "Hasan Antalya Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 1300,
+     "tips": "1946'dan beri aynı ailede, Cumhuriyet Caddesi'nde Zincirli Han bölgesinde gizli bir bahçe avlusunda; dededen toruna geçen menü. Tandır ve tahinli piyaz klasik, ama asıl işkembe çorbası ve mercimek fava için gel; kabak tatlısı ev yapımı. Avlu masası için 19:00'da arayıp yer tut."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lara Balık Evi (Işıklar)",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:45",
+     "cost": 1500,
+     "tips": "Gençlik Mahallesi Tevfik Işık Caddesi'nde, Işıklar'ın sonunda körfez manzaralı balıkçı; Ekşi Sözlük'te 'makul fiyatlı manzara' diye geçer. Ahtapot ızgara ve karidesli kalamar dolma sipariş et; rezervasyon 0242 313 13 99."
+    },
+    {
+     "name": "Antalya Oyuncak Müzesi",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 50,
+     "tips": "Kaleiçi Yat Limanı'nda eski liman deposunda Büyükşehir'in oyuncak müzesi; 1920'lerden kalma teneke oyuncaklar. Pazartesi kapalı, 09:30-18:30; giriş sembolik ya da ücretsiz."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Kuzeybatı: kartal yuvası Termessos, Çakırlar gözlemesi, mağaralı şelale, Kırkgöz kaynakları",
+   "stops": [
+    {
+     "name": "Termessos Antik Kenti",
+     "category": "culture",
+     "start": "08:30",
+     "end": "11:30",
+     "cost": 260,
+     "tips": "Döşemealtı'nda Güllük Dağı Milli Parkı içinde, 1.050 metrede Büyük İskender'in alamadığı şehir; Türkiye'nin en dramatik antik tiyatrosu uçurumun kenarında. Yazın 08:00-19:00 açık, park girişinden ören yerine 9 km dağ yolu ve otoparktan 20 dakika dik tırmanış; sabah 09:00 öncesi başla, çam gölgesi var ama nem yüksek. Giriş 3 € + araç ücreti, Müzekart geçer; nekropoldeki devrilmiş lahitler fotoğraf için en güçlü kare."
+    },
+    {
+     "name": "Muhtarın Yeri Çakırlar",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 950,
+     "tips": "Kepez'in Çakırlar vadisi Antalyalıların hafta sonu köy kahvaltısı mahallesi; 1998'de eski muhtarın açtığı bu tesis vadinin ilki. Sacda köy kadınlarının açtığı gözleme (ıspanaklı-peynirli, patatesli), bal-kaymak ve odun ateşinde çay; Termessos sonrası geç kahvaltı olarak tam yerine oturur. Hafta içi sakin, hafta sonu 10:00 sonrası sıra olur; nakit tercih edilir."
+    },
+    {
+     "name": "Yukarı Düden Şelalesi (Düdenbaşı)",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 120,
+     "tips": "Kepez Varsak'ta, Düden Çayı'nın 15 metreden döküldüğü yer; şelalenin arkasındaki mağaraya girip suyun içinden dışarı bakarsın, Aşağı Düden'de bu yok. Tabiat parkı girişi yaklaşık 100-150 TL, çınar gölgesinde piknik alanı ve kafeler var. Mağara içi kaygan, deniz ayakkabısı işe yarar; öğle sıcağında burası şehrin en serin köşesi."
+    },
+    {
+     "name": "Kırkgöz Gölü",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "Döşemealtı'nda Burdur yolu kenarında, Düden'i besleyen karstik kaynakların oluşturduğu buz gibi göl; yanı başında 13. yüzyıl Selçuklu Kırkgöz Hanı. Yerliler akşamüstü kıyıda çay demler ve ayak sokar, turist gelmez. Han çoğu zaman kilitli olabilir, dışarıdan taç kapısı bile görülmeye değer."
+    },
+    {
+     "name": "Yeşilbayır Ağar Restaurant",
+     "category": "food",
+     "start": "18:45",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "Döşemealtı Yeşilbayır'da Akdeniz Bulvarı üzerinde, Google'da 4,3; ilçe halkının aile yemeği için gittiği açık havalı pide-kebap salonu. Odun fırınından kıymalı pide, kuzu tandır ve lahmacun; fiyatlar merkezin yarısı. Şehre dönüş 25 dakika, akşam serinliğinde bahçede otur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sedir Gözleme & Köy Kahvaltısı",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 900,
+     "tips": "Çakırlar'ın en bilinen gözlemecisi; yöre kadınlarının el açması gözleme, sucuklu-kaşarlı seçenek ve köy tereyağı. Hafta sonu kalabalık, hafta içi sakin; dere kenarı masa iste."
+    },
+    {
+     "name": "Karain Mağarası",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 280,
+     "tips": "Döşemealtı Yağca köyünde, Türkiye'nin en önemli paleolitik yerleşimi; 500 bin yıllık insan izleri. Otoparktan mağaraya 15 dakika merdiven, içi serin; giriş 5 €, Müzekart geçer."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Köprülü Kanyon rafting günü, akşam Işıklar ve falezde balık",
+   "stops": [
+    {
+     "name": "Köprülü Kanyon Milli Parkı",
+     "category": "nature",
+     "start": "08:00",
+     "end": "17:30",
+     "cost": 1200,
+     "tips": "Antalya'nın en çok yapılan aktivitesi: Manavgat'ın kuzeyinde Köprüçay'da 14 km, 10 rapid, buz gibi kaynak suyu; Roma dönemi Oluk Köprü'nün altından geçilir. Servis otelden 08:00 civarı alır, kanyon 1,5-2 saat; öğle yemeği nehir kenarında dahil, dönüş 17:00-18:00. Telefonu su geçirmez kılıfla al, ıslanmaya hazır kıyafet ve yedek giysi getir; 4,9 puanlı Türkçe tur 1.100 TL civarından başlar.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Antalya+Koprulu+Canyon+Rafting",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Işıklar Caddesi",
+     "category": "landmark",
+     "start": "18:15",
+     "end": "19:15",
+     "cost": 0,
+     "tips": "Antalyalının akşam gezinti caddesi; palmiyeli yürüyüş yolu, eski Antalya kahveleri ve dondurmacılar. Rafting yorgunluğunu bir kahve ve dondurmayla at, cadde falezde Atatürk Parkı'na çıkar. Turist Kaleiçi'nde kalır, burası yerel akşam ritmi."
+    },
+    {
+     "name": "Atatürk Parkı Antalya",
+     "category": "landmark",
+     "start": "19:15",
+     "end": "20:15",
+     "cost": 0,
+     "tips": "Konyaaltı Caddesi boyunca falez üstünde uzanan şehrin en eski parkı; Konyaaltı körfezi ve Beydağları'na karşı gün batımı ücretsiz. Banklar batıya bakar, yerliler termosla çay getirir. Fotoğraf için palmiyeler arasından körfeze bakan orta platformu seç."
+    },
+    {
+     "name": "Göz Balık",
+     "category": "food",
+     "start": "20:30",
+     "end": "22:00",
+     "cost": 1800,
+     "tips": "Şirinyalı Lara Caddesi'nde, Gault & Millau Türkiye rehberine girmiş modern balıkçı; Tripadvisor 4,8. Mezeler tezgâhtan, günün balığı gramla; levrek marin ve karides tava öne çıkar, iki kişiye bir orta boy balık + 4 meze yeter. Rezervasyon 0543 529 99 86, kart geçer."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nejat Balık (Şirinyalı)",
+     "category": "food",
+     "start": "20:30",
+     "end": "22:00",
+     "cost": 1700,
+     "tips": "Eski Lara Yolu'nda Manavoğlu Parkı yanında, Antalyalıların yıllardır gittiği balıkçı; 09:00-00:00 açık. Kalamar tava ve günün ızgara balığı klasik, meze tepsisinden seç."
+    },
+    {
+     "name": "Falez Parkı Antalya",
+     "category": "landmark",
+     "start": "19:15",
+     "end": "20:15",
+     "cost": 0,
+     "tips": "Konyaaltı falezleri üzerinde yürüyüş yollu, seyir teraslı park; Atatürk Parkı'nın batı devamı gibi düşün. Gün batımında körfez manzarası aynı derecede güçlü, kalabalık daha az."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Olympos-Çıralı: dere kahvaltısı, Likya harabeleri ve caretta plajında hafif veda",
+   "stops": [
+    {
+     "name": "Botanik Restaurant Ulupınar",
+     "category": "food",
+     "start": "08:45",
+     "end": "09:45",
+     "cost": 750,
+     "tips": "Kemer-Finike yolunda Olympos sapağından hemen önce Ulupınar köyünde; masalar buz gibi derenin üstündeki ahşap köşklerde, 1990'dan beri alabalık çiftliği olan ailenin yeri. Köy kahvaltısı (sac böreği, yumurta, bal-kaymak) ve dereye ayak sokma; öğle yemeği için dönüşte alabalık da bir seçenek. Merkezden 1 saat 15 dakika, sabah 07:30'da çık."
+    },
+    {
+     "name": "Olympos Antik Kenti",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 560,
+     "tips": "Çıralı tarafından girilirse kalabalık pansiyon vadisi yerine sakin kapıdan girersin; Likya-Roma şehri derenin iki yakasına yayılmış, sarmaşıklı lahitler ve nekropol. Yazın 08:00-21:00 açık, giriş 10 € (Müzekart geçer); derenin içinden geçen patikada kaplumbağa ve yengeç görürsün. Ören yerinden yürüyerek doğrudan plaja çıkılır, aracı Çıralı otoparkına bırak."
+    },
+    {
+     "name": "Çıralı Plajı",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "3 km'lik çakıl-kum plaj, arkada portakal bahçeleri ve pansiyonlar; caretta caretta yuvalama alanı olduğu için beach club, yüksek yapı ve gürültü yok. Olympos harabelerinin bittiği kuzey uç en az kalabalık, su berrak ve derin. Kaplumbağa yuvası işaret kazıklarına dokunma, şemsiyeni yuva hattının deniz tarafına kur."
+    },
+    {
+     "name": "Yavuz Restaurant Çıralı",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 900,
+     "tips": "İmar yasağı nedeniyle Çıralı sahilinde bulunan sadece iki restorandan biri; ayak kumda, çardak altında basit menü. Gözleme, mevsim salatası ve günün ızgara balığı; ayran ve karpuz ile hafif bir veda öğleni. Fiyatlar pansiyon köyü seviyesinde, nakit al; 15:00'te yola çıkarsan Antalya'ya 17:00'de varırsın."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Azur Restaurant Çıralı",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 1200,
+     "tips": "Çıralı'nın en bilinen restoranı, plaja yakın bahçede Akdeniz mutfağı ve taze deniz ürünleri. Levrek ızgara ve mezeler iyi, hafta sonu öğle için masa ayırt."
+    },
+    {
+     "name": "Phaselis Antik Kenti",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 560,
+     "tips": "Tekirova yakınında üç koylu Likya liman kenti; antik ana caddenin iki ucu iki ayrı koya açılır, çam gölgesinde harabelerin arasından denize girilir. Giriş 10 €, Müzekart geçer; kuzey koyu en sakin."
+    }
+   ]
+  }
+ ]
+}

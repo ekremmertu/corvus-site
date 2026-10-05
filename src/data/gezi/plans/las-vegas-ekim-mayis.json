@@ -1,0 +1,461 @@
+{
+ "lang": "tr",
+ "slug": "las-vegas-ekim-mayis",
+ "altSlug": "las-vegas-october-may",
+ "citySlug": "las-vegas",
+ "destKey": "las-vegas",
+ "city": "Las Vegas",
+ "region": null,
+ "country": "ABD",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 500,
+  "attractions": 600,
+  "transport": 250,
+  "misc": 150
+ },
+ "notes": [
+  "Strip 7 km: Deuce otobüsü 24 saatlik bilet 8 USD, monoray, Uber 10-20 USD; Red Rock, Hoover, Valley of Fire için araç şart.",
+  "Ekim-Nisan 15-25°C ideal; çöl yürüyüşleri ve Grand Canyon günü, Aralık-Ocak geceleri 5°C, Yeni Yıl ve CES çok kalabalık.",
+  "Resort fee (30-50 USD/gece) otel fiyatına ekli değil; büfe 60-80 USD, gösteri 100-150, Tix4Tonight yarı fiyat.",
+  "Casino içinde içki bedava (oynarken), bahşiş 1-2 USD; restoranda %18-20.",
+  "Sphere ve O bileti haftalar önce; Red Rock scenic drive saatli rezervasyon (Ekim-Mayıs).",
+  "Grand Canyon West 2,5 saat (Skywalk), Güney Rim 4,5 saat; helikopter turu 400+."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Strip: Bellagio'dan Venetian'a",
+   "stops": [
+    {
+     "name": "Bellagio Conservatory",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Ücretsiz mevsimlik çiçek bahçesi; lobide Chihuly cam tavan."
+    },
+    {
+     "name": "Bellagio Fountains",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Her 30 dakikada, akşamları 15 dakikada bir müzikli fıskiye; ücretsiz, Strip'in simgesi."
+    },
+    {
+     "name": "Bacchanal Buffet Caesars",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:30",
+     "cost": 80,
+     "tips": "Vegas'ın en ünlü büfesi; 250 yemek, kuyruğa girmemek için rezervasyon yap."
+    },
+    {
+     "name": "Forum Shops Caesars",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Roma temalı AVM; gökyüzü tavanı ve Atlantis gösterisi, klimalı."
+    },
+    {
+     "name": "Venetian Grand Canal Gondol",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 40,
+     "tips": "Kapalı Venedik kanalı ve gondolcu; St. Mark Meydanı kopyası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Eataly Park MGM",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "İtalyan gıda pazarı; büfe yerine."
+    },
+    {
+     "name": "Wynn Lake of Dreams",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Wynn'in göl gösterisi; ücretsiz, akşam."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Sphere & Fremont",
+   "stops": [
+    {
+     "name": "Sphere Las Vegas Experience",
+     "category": "culture",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 100,
+     "tips": "Dünyanın en büyük LED küresi; Postcard from Earth filmi (~100 USD), dış yüzey gece ücretsiz."
+    },
+    {
+     "name": "The LINQ High Roller",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 35,
+     "tips": "170 m dönme dolap; gün batımı seansı pahalı, klimalı kabin."
+    },
+    {
+     "name": "Fremont Street Experience",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "Downtown'un kapalı LED tavanı; canlı müzik, Golden Nugget, SlotZilla zipline (~50 USD)."
+    },
+    {
+     "name": "Container Park Downtown",
+     "category": "shopping",
+     "start": "21:00",
+     "end": "21:45",
+     "cost": 0,
+     "tips": "Konteynerlerden çarşı; peygamber devesi heykeli ateş püskürtür."
+    },
+    {
+     "name": "Evel Pie Fremont",
+     "category": "food",
+     "start": "21:45",
+     "end": "22:30",
+     "cost": 15,
+     "tips": "Punk rock pizzacı; dilim ve bira."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Carson Kitchen Downtown",
+     "category": "food",
+     "start": "21:45",
+     "end": "22:30",
+     "cost": 30,
+     "tips": "Downtown'un iyi restoranı."
+    },
+    {
+     "name": "Mob Museum",
+     "category": "culture",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Mafya müzesi; Sphere yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Red Rock Canyon",
+   "stops": [
+    {
+     "name": "Red Rock Canyon Scenic Drive",
+     "category": "nature",
+     "start": "07:00",
+     "end": "09:30",
+     "cost": 20,
+     "tips": "Şehre 30 dakika; 21 km manzara yolu, saatli rezervasyon. Sabah serin, kayalar kızıl."
+    },
+    {
+     "name": "Calico Tanks Trail",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Kaya havzasına 4 km yürüyüş; Strip manzarası tepeden."
+    },
+    {
+     "name": "Red Rock Casino Feast Buffet",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 35,
+     "tips": "Summerlin'de yerel büfe; Strip'ten ucuz."
+    },
+    {
+     "name": "Downtown Summerlin",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Açık hava AVM; klimalı mağazalar."
+    },
+    {
+     "name": "Cosmopolitan Chandelier Bar",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 25,
+     "tips": "Üç katlı avize içinde bar; Verbena kokteyli."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Spring Mountain Ranch",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 10,
+     "tips": "Kanyon eteğinde çiftlik ve göl; yürüyüş yerine."
+    },
+    {
+     "name": "Lotus of Siam",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Vegas'ın ünlü Kuzey Tay restoranı; büfe yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Hoover Barajı & Valley of Fire",
+   "stops": [
+    {
+     "name": "Hoover Dam",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 15,
+     "tips": "Şehre 45 dakika; 1936 barajı, Powerplant turu (15 USD), Mike O'Callaghan Köprüsü'nden yürüyüş."
+    },
+    {
+     "name": "Lake Mead Overlook",
+     "category": "nature",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Baraj gölü seyir; su seviyesi 'küvet halkası'."
+    },
+    {
+     "name": "Boulder City Coffee Cup Cafe",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Barajı yapan kasabada 50'ler kafesi; kahvaltı-öğle."
+    },
+    {
+     "name": "Valley of Fire State Park",
+     "category": "nature",
+     "start": "13:00",
+     "end": "16:00",
+     "cost": 15,
+     "tips": "Kızıl kumtaşı ve petroglifler; Fire Wave yürüyüşü, yazın sabah git (42°C)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seven Magic Mountains",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Çölde renkli taş kuleler (Ugo Rondinone); I-15 üstünde, Valley of Fire yerine."
+    },
+    {
+     "name": "Boulder Dam Brewing",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 18,
+     "tips": "Boulder City bira fabrikası."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Grand Canyon West",
+   "stops": [
+    {
+     "name": "Grand Canyon West Skywalk",
+     "category": "nature",
+     "start": "06:30",
+     "end": "12:30",
+     "cost": 80,
+     "tips": "Şehre 2,5 saat (tur ~150 USD veya araç); Hualapai kabilesinin cam köprüsü, Eagle Point. Güney Rim 5 saat, çok uzak."
+    },
+    {
+     "name": "Hualapai Ranch Öğle",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Skywalk'ta kovboy köyünde öğle yemeği."
+    },
+    {
+     "name": "Hoover Dam Bypass Seyir",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Dönüşte köprüyü seyret."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nacho Daddy Downtown",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Downtown'da nacho ve akrep shot; alternatif öğle."
+    },
+    {
+     "name": "Grand Canyon Helikopter Turu",
+     "category": "nature",
+     "start": "06:30",
+     "end": "12:30",
+     "cost": 400,
+     "tips": "Vegas'tan helikopterle kanyon (~400 USD); araç yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Gösteri gecesi",
+   "stops": [
+    {
+     "name": "The Neon Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 30,
+     "tips": "Eski neon tabelalar; rehberli tur, kışın gündüz."
+    },
+    {
+     "name": "Pinball Hall of Fame",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 10,
+     "tips": "1.000 tilt makinesi; 25 cent."
+    },
+    {
+     "name": "In-N-Out Burger Las Vegas",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "LINQ'in arkasında; animal style."
+    },
+    {
+     "name": "Cirque du Soleil O Bellagio",
+     "category": "culture",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 130,
+     "tips": "Bellagio'da su sahnesi 'O'; biletler online, gün içi yarı fiyat için TKTS (Tix4Tonight)."
+    },
+    {
+     "name": "Bellagio Fountains Gece",
+     "category": "landmark",
+     "start": "21:00",
+     "end": "21:30",
+     "cost": 0,
+     "tips": "Gece 15 dakikada bir; gösteri sonrası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Absinthe Caesars",
+     "category": "culture",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 100,
+     "tips": "Çadırda yetişkin kabare; O yerine."
+    },
+    {
+     "name": "Hash House A Go Go",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 25,
+     "tips": "Dev kahvaltı tabakları."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Welcome tabelası — hafif veda",
+   "stops": [
+    {
+     "name": "Welcome to Fabulous Las Vegas Sign",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "08:30",
+     "cost": 0,
+     "tips": "Strip'in güney ucu; sabah kuyruk yok."
+    },
+    {
+     "name": "The Park MGM & T-Mobile Arena",
+     "category": "landmark",
+     "start": "08:45",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Yaya parkı ve Bliss Dance heykeli."
+    },
+    {
+     "name": "Peppermill Restaurant",
+     "category": "food",
+     "start": "09:45",
+     "end": "11:00",
+     "cost": 20,
+     "tips": "1972 pembe neon 24 saat kafe; dev pancake, veda kahvaltısı."
+    },
+    {
+     "name": "Fashion Show Mall",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Son hediyelik; havalimanı 15 dakika."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bouchon Bakery Venetian",
+     "category": "food",
+     "start": "09:45",
+     "end": "11:00",
+     "cost": 12,
+     "tips": "Thomas Keller fırını."
+    },
+    {
+     "name": "Aria Fine Art Collection",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Otelde ücretsiz sanat koleksiyonu; AVM yerine."
+    }
+   ]
+  }
+ ]
+}

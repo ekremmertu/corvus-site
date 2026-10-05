@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "madrid-yaz",
+ "altSlug": "madrid-summer",
+ "citySlug": "madrid",
+ "destKey": "madrid",
+ "city": "Madrid",
+ "region": null,
+ "country": "İspanya",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 350,
+  "attractions": 160,
+  "transport": 80,
+  "misc": 60
+ },
+ "notes": [
+  "Metro 10 biniş 12,20 EUR; havalimanı metro/Cercanías 30 dakika. Toledo ve Segovia'ya AVE 30 dakika (Atocha/Chamartín), bilet önceden.",
+  "Prado, Saray, Reina Sofía online saatli; Prado 18:00-20:00 ve Reina cumartesi öğleden sonra ücretsiz (kuyruk).",
+  "Yaz 35-40°C: müzeler öğlen, teraslar (azotea) gece, akşam yemeği 22:00; Ağustos'ta yerliler tatilde, bazı barlar kapalı.",
+  "Tapas 2-4 EUR, menú del día 13-16, cochinillo 30-40; San Ginés churros 5. Bahşiş yuvarlama.",
+  "Rastro pazar sabahı; Lavapiés ve Malasaña akşam. Sol'da ve metroda yankesicilere dikkat.",
+  "Real Madrid maçı varsa bilet aylar önce; stad turu her gün."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Prado & Retiro",
+   "stops": [
+    {
+     "name": "Museo del Prado",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "Velázquez'in Las Meninas'ı, Goya, Bosch; online saatli (15 EUR), 18:00-20:00 ücretsiz ama kalabalık."
+    },
+    {
+     "name": "Parque del Retiro",
+     "category": "nature",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Göl (kayık 6 EUR), Cristal Sarayı ve Düşmüş Melek heykeli."
+    },
+    {
+     "name": "Casa Alberto",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 25,
+     "tips": "1827 taverna; rabo de toro ve vermut, Huertas."
+    },
+    {
+     "name": "Museo Reina Sofía",
+     "category": "culture",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 12,
+     "tips": "Picasso'nun Guernica'sı; cumartesi 14:30 sonrası ücretsiz."
+    },
+    {
+     "name": "Barrio de las Letras",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Cervantes'in mahallesi; sokakta yazılı dizeler, Plaza Santa Ana."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo Thyssen-Bornemisza",
+     "category": "culture",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 13,
+     "tips": "Sanat Üçgeni'nin üçüncüsü; Reina yerine."
+    },
+    {
+     "name": "Mercado de San Miguel",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "Demir çarşıda tapas tezgahları; turistik ama görülmeli."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Habsburg Madrid & Kraliyet Sarayı",
+   "stops": [
+    {
+     "name": "Plaza Mayor",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Sabah boş meydan; bocadillo de calamares (Casa Rúa)."
+    },
+    {
+     "name": "Palacio Real de Madrid",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 14,
+     "tips": "Avrupa'nın en büyük sarayı; online saatli, Taht Salonu, Sabatini bahçeleri."
+    },
+    {
+     "name": "Catedral de la Almudena",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Sarayın karşısı; renkli tavan."
+    },
+    {
+     "name": "Chocolatería San Ginés",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 5,
+     "tips": "1894'ten beri 24 saat churros con chocolate."
+    },
+    {
+     "name": "La Latina Cava Baja Tapas",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 25,
+     "tips": "Cava Baja'da tapas turu: Casa Lucio (huevos rotos), Juana la Loca (tortilla), Txirimiri."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Casa Botín",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 45,
+     "tips": "Dünyanın en eski restoranı (1725); cochinillo, rezervasyon."
+    },
+    {
+     "name": "Templo de Debod",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Mısır tapınağı; gün batımıyla ünlü, katedral yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Malasaña, Chueca & Gran Vía",
+   "stops": [
+    {
+     "name": "Gran Vía",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Madrid'in Broadway'i; Metropolis binası ve Schweppes tabelası."
+    },
+    {
+     "name": "Malasaña Sokakları",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Vintage ve plak dükkânları; Plaza del Dos de Mayo."
+    },
+    {
+     "name": "Mercado de San Ildefonso",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 12,
+     "tips": "Sokak yemeği pazarı; Fuencarral."
+    },
+    {
+     "name": "Chueca",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "Renkli mahalle; Mercado de San Antón çatı barı."
+    },
+    {
+     "name": "Círculo de Bellas Artes Terası",
+     "category": "nature",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 5,
+     "tips": "Gran Vía üstü çatı terası; gün batımı ve Alcalá caddesi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lamiak Malasaña",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "Bask pintxos."
+    },
+    {
+     "name": "Museo de Historia de Madrid",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "Şehir tarihi müzesi; Malasaña, ücretsiz."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Toledo",
+   "stops": [
+    {
+     "name": "Toledo Katedrali",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 12,
+     "tips": "AVE tren 33 dakika (Atocha); İspanya'nın en büyük gotik katedrali, El Greco."
+    },
+    {
+     "name": "Iglesia de Santo Tomé",
+     "category": "culture",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 4,
+     "tips": "El Greco'nun Orgaz Kontu'nun Gömülüşü."
+    },
+    {
+     "name": "Sinagoga de Santa María la Blanca",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 3,
+     "tips": "Mudéjar sinagog; Yahudi mahallesi."
+    },
+    {
+     "name": "Cervecería El Trébol",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 18,
+     "tips": "Toledo'da bombas ve carcamusas; yerel."
+    },
+    {
+     "name": "Mirador del Valle",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Nehrin karşısından Toledo silüeti; turist otobüsü veya taksi, dönüş 17:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Alcázar de Toledo",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 5,
+     "tips": "Ordu müzesi ve şehir manzarası; mirador yerine."
+    },
+    {
+     "name": "Mazapán Santo Tomé",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 5,
+     "tips": "Toledo'nun badem ezmesi."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Segovia",
+   "stops": [
+    {
+     "name": "Acueducto de Segovia",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "AVE 27 dakika; 2.000 yıllık harçsız Roma su kemeri, 28 m."
+    },
+    {
+     "name": "Catedral de Segovia",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 4,
+     "tips": "Son gotik katedral; Plaza Mayor."
+    },
+    {
+     "name": "Alcázar de Segovia",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 9,
+     "tips": "Disney şatosuna ilham; kule 152 basamak."
+    },
+    {
+     "name": "Mesón de Cándido",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:45",
+     "cost": 40,
+     "tips": "Su kemeri altında 1898'den beri cochinillo (süt domuzu); tabakla kesme ritüeli."
+    },
+    {
+     "name": "Mirador de la Pradera de San Marcos",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Alcázar'ın gemi pruvası manzarası; nehir kenarı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "José María Segovia",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:45",
+     "cost": 40,
+     "tips": "Diğer cochinillo klasiği."
+    },
+    {
+     "name": "Real Sitio de La Granja",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 9,
+     "tips": "Segovia'ya 11 km Versailles kopyası; mirador yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Salamanca & Bernabéu",
+   "stops": [
+    {
+     "name": "Museo Sorolla",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 3,
+     "tips": "Ressamın Andalusia bahçeli evi; sabah sakin."
+    },
+    {
+     "name": "Barrio de Salamanca Calle Serrano",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Lüks cadde; Platea gastro-tiyatro."
+    },
+    {
+     "name": "Platea Madrid",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "Eski sinemada gıda pazarı; Colón."
+    },
+    {
+     "name": "Estadio Santiago Bernabéu Turu",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 30,
+     "tips": "Real Madrid müze ve stad turu; maç yoksa."
+    },
+    {
+     "name": "Museo Arqueológico Nacional",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 3,
+     "tips": "Elche Hanımı; Salamanca, sıcakta kapalı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lhardy",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "1839 restoran; cocido madrileño (pazartesi-çarşamba)."
+    },
+    {
+     "name": "Parque de El Capricho",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Romantik park (hafta sonu açık); stad yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Rastro & Lavapiés — hafif veda",
+   "stops": [
+    {
+     "name": "El Rastro",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Pazar günü dev bit pazarı (Ribera de Curtidores); diğer günler antikacılar."
+    },
+    {
+     "name": "Lavapiés",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Çok kültürlü mahalle; duvar resimleri ve Tabacalera."
+    },
+    {
+     "name": "Casa Revuelta",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "Bacalao rebozado tapası; Rastro yanında ayakta, 1966."
+    },
+    {
+     "name": "Puerta del Sol Kilómetro Cero",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "İspanya'nın sıfır noktası ve Ayı heykeli; Atocha'ya metro, havalimanı Cercanías 30 dakika."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Taberna La Concha La Latina",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 15,
+     "tips": "Vermut ve tapas."
+    },
+    {
+     "name": "Museo Cerralbo",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 3,
+     "tips": "Aristokrat konağı; Lavapiés yerine."
+    }
+   ]
+  }
+ ]
+}

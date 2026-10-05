@@ -1,0 +1,515 @@
+{
+ "lang": "tr",
+ "slug": "kapadokya-yaz",
+ "altSlug": "cappadocia-summer",
+ "citySlug": "kapadokya",
+ "destKey": "kapadokya",
+ "city": "Kapadokya",
+ "region": "Nevşehir",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 10500,
+  "attractions": 12000,
+  "transport": 1500,
+  "misc": 800
+ },
+ "notes": [
+  "Köy lokantaları, pazarlar ve küçük atölyeler çoğunlukla nakit tercih eder; kart her yerde geçmeyebilir, üstünde nakit bulundur.",
+  "Köyler arası dolmuşlar seyrek çalışır; kiralık araç veya günlük özel şoförlü tur en pratik ulaşım yoludur.",
+  "Restoranlarda hesaba otomatik servis ücreti eklenmez. %5-10 bahşiş bırakmak yerel görgü kuralıdır.",
+  "Kaya kiliseleri ve manastırlarda omuzların ve dizlerin kapalı olsun. Bazı kiliselerde flaşsız fotoğraf serbesttir, flaşlı yasaktır.",
+  "Temmuz'da öğle sıcaklığı 30°C'yi geçer; vadi yürüyüşlerini sabah erken veya akşamüstüne planla, bol su ve şapka taşı.",
+  "Balon turu rüzgâr nedeniyle son dakika iptal edilebilir. Bu yüzden ilk güne koy; iptal olursa başka bir güne kaydırma şansın kalır.",
+  "Çömlek, halı gibi el işi ürünlerde pazarlık normaldir; yemek ve giriş ücretlerinde pazarlık yapılmaz."
+ ],
+ "niche": {
+  "name": "Pancarlık Vadisi ve Kilisesi",
+  "level": "l2",
+  "why_hidden": "Ortahisar-Mustafapaşa yolunun kıyısında, hiçbir büyük tur otobüsünün uğramadığı küçük bir vadi ve 11. yüzyıldan kalma tek nefli bir kilise var. Yerel otellerin bile çoğu bu yerin varlığını bilmiyor. Kırmızı/Yeşil Tur paketlerinde yer almaz.",
+  "access_instructions": "Ürgüp-Mustafapaşa karayolunda Ortahisar tabelasından sonra 'Pancarlık' yönlendirmesini takip et. Sarıca Kilise'yi geçtikten yaklaşık 1 km sonra küçük bir otopark var; oradan vadiye 5 dakikalık yürüyüşle inilir.",
+  "local_contact": "Yok — gişe görevlisi bazı saatlerde yerinde, resmi bir telefon hattı veya rezervasyon sistemi yok, walk-in serbest giriş.",
+  "season": "Nisan-Ekim arası en rahat dönemdir. Kışın yol çamurlanır ve kilise nemli kalır, ziyaretçi neredeyse hiç olmaz.",
+  "insider_tip": "Aynı yol üzerindeki Sarıca Kilise'yi de görürsen iki kilise birlikte 45 dakikada gezilir. Öğle sıcağından önce, sabah 9 gibi git; vadide neredeyse hiç gölge yok.",
+  "show_reason": "Freskleri hâlâ okunaklı, otobüs turlarının uğramadığı sessiz bir vadi, tamamen ücretsiz — fotojenik ve 'bilen bilir' hissi veren, sosyal medyada nadiren paylaşılan bir durak.",
+  "lat": 38.6142213,
+  "lng": 34.8926923,
+  "address": "Pancarlık Vadisi, Ortahisar-Mustafapaşa yolu üzeri, Ürgüp, Nevşehir",
+  "cost_range_min": 0,
+  "cost_range_max": 0,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Göreme'nin İmzası: Gökyüzünden Peri Bacalarına",
+   "stops": [
+    {
+     "name": "Kapadokya Sıcak Hava Balon Turu",
+     "category": "nature",
+     "start": "05:00",
+     "end": "08:00",
+     "cost": 6800,
+     "tips": "Göreme'nin imza deneyimi; otelden transfer dahildir. Uçuş rüzgâr nedeniyle iptal edilebilir. İnişte kutlama olarak şampanya veya meyve suyu ikram edilir, sertifika verilir. En az 1 gün önceden rezervasyon şart.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cappadocia+Hot+Air+Balloon+Ride",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Göreme Açık Hava Müzesi",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 300,
+     "tips": "Karanlık Kilise'ye giriş ayrı ücretlidir. Freskleri en iyi korunmuş kilise olduğu için mutlaka gör. Sabah erken git, otobüs turlarından önce bitir."
+    },
+    {
+     "name": "Aşk Vadisi (Love Valley)",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Göreme-Uçhisar arasındaki doğal peri bacası koridorunda ücretsiz yürüyüş. Su ve şapka al, öğleye yaklaşırken gölge azalır."
+    },
+    {
+     "name": "Dibek Restaurant (Göreme)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 550,
+     "tips": "Testi kebabını kırma servisiyle sipariş et, masada kırılır. Yazın kalabalık olur, 13:00'ten önce gitmek yer bulmayı kolaylaştırır."
+    },
+    {
+     "name": "Kızılçukur (Kırmızı Vadi) Gün Batımı Noktası",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Gün batımından 45 dk önce yer kap, kayalar kızıl-altın tona döner. Yanındaki tezgâhlardan kuru kayısı ve ceviz alabilirsin, otopark ücretsiz."
+    },
+    {
+     "name": "Topdeck Cave Restaurant (Göreme)",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 750,
+     "tips": "Mağara oyma mekânda yerel mezeler ve ızgara ağırlıklı menü var. Akşam 20:00'den sonra dolar, masa ayırtmak iyi olur."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nostalji Restaurant (Göreme)",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 650,
+     "tips": "Göreme merkezde yerel ve dünya mutfağını birleştiren sakin bir mekân; ana yemekten önce mezelerden seç."
+    },
+    {
+     "name": "Göreme Panorama (Gün Batımı Noktası)",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Göreme kasabasının tamamını gören ücretsiz seyir terası; Kızılçukur'a alternatif, daha sakin ve kalabalıksız."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Uçhisar-Ortahisar: Kalelerin ve Sessiz Vadinin Kasabası",
+   "stops": [
+    {
+     "name": "Wish Terrace (Uçhisar)",
+     "category": "food",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 650,
+     "tips": "Tekelli Mahallesi'nin dar sokaklarından geçip Güvercinlik Vadisi'ne bakan terasa çıkılır. Ev yapımı reçel ve köy kaymağı öne çıkar; masa sayısı az, erken git."
+    },
+    {
+     "name": "Uçhisar Kalesi",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 200,
+     "tips": "Kapadokya'nın en yüksek noktası, zirveye dar oyma merdivenlerle çıkılır. 360 derece manzara için tepede biraz vakit ayır."
+    },
+    {
+     "name": "Ortahisar Kalesi",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 50,
+     "tips": "Bölgenin en otantik kasabası olarak bilinir. 86 metrelik kale çevresindeki küçük meydanda çay molası verebilirsin."
+    },
+    {
+     "name": "Köy Sofrası Kapadokya (Ortahisar)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 550,
+     "tips": "Samimi bir yerel sofra; yöresel peynirler, zeytin ve taze ekmek öne çıkıyor. Kahvaltı tabağı iki kişilik paylaşılabilir."
+    },
+    {
+     "name": "Pancarlık Vadisi ve Kilisesi",
+     "category": "culture",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Ürgüp-Mustafapaşa yolu üzerinde, otellerin bile bilmediği sessiz bir vadi. Yol üzerindeki Sarıca Kilise'yi de aynı ziyarette gör, fresk detaylarına yakından bak."
+    },
+    {
+     "name": "Elai Restaurant (Uçhisar)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 3200,
+     "tips": "Kapadokya'nın ilk gurme restoranı; Fransız-Türk füzyon mutfağı ve Güvercinlik/Kızıl Vadi manzarası sunar. Gün batımına denk gelecek masa için önceden rezervasyon şart."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ürgüp Garden Cafe",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 500,
+     "tips": "Ferah bahçe atmosferi, kahvaltı sonrası çay içmek için iyi bir mola noktası."
+    },
+    {
+     "name": "Güvercinlik Vadisi (Pigeon Valley) Seyir Terası",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Uçhisar'dan Göreme'ye uzanan vadiyi gösteren ücretsiz seyir noktası; güvercin kovukları hâlâ görülebilir."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Avanos ve Kuzey Vadiler: Çömlek, Kızılırmak ve Hayal Vadisi",
+   "stops": [
+    {
+     "name": "Chez Galip Çömlekçilik Atölyesi (Avanos)",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Guinness rekorlu atölyede ustaların Kızılırmak kilinden çömlek şekillendirmesini izleyebilirsin. Saç Müzesi de aynı yapı içinde, atölye sonrası Kızılırmak kıyısında kısa yürüyüş yap."
+    },
+    {
+     "name": "Cevizli Bahçe (Avanos)",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "Testi kebabı için bölgenin en iddialı adreslerinden; kırma servisi masada yapılır, Kızılırmak manzaralı bahçede oturmayı iste."
+    },
+    {
+     "name": "Paşabağ (Rahipler Vadisi)",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Üç başlı peri bacalarıyla ünlü; giriş ve otopark ücretsiz. Sabah ışığı fotoğraf için daha iyi, akşamüstü de az kalabalık olur."
+    },
+    {
+     "name": "Zelve Açık Hava Müzesi",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 150,
+     "tips": "Üç vadiye yayılan terk edilmiş kaya yerleşimi; bazı tünellerde eğilerek yürünür, dar alan sevmeyenler dikkat etsin."
+    },
+    {
+     "name": "Devrent Vadisi (Hayal Vadisi)",
+     "category": "nature",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Deve şeklindeki kaya en ünlü figürü; giriş ücretsiz. Gün batımında kayalar altın rengine döner, fotoğraf için en iyi saat bu."
+    },
+    {
+     "name": "Kirkit Pension Restaurant (Avanos)",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 500,
+     "tips": "Sırt çantalı gezginlerin klasik durağı; günlük değişen ev usulü menüsü var, rezervasyon gerekmez ama akşam erken git."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Seyyahhan (Avanos)",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "Taş mimarisi ve geniş terasıyla Kızılırmak manzaralı bir alternatif; yöresel et yemekleri ve mezeler güçlü."
+    },
+    {
+     "name": "Kızılırmak Kıyı Parkı (Avanos)",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Nehir kenarında ücretsiz yürüyüş parkuru; çömlek atölyesi ziyaretine kısa bir mola olarak eklenebilir."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Ürgüp Çarşısı ve Mustafapaşa: Şarap, Pazar ve Rum Mimarisi",
+   "stops": [
+    {
+     "name": "Ürgüp Pazarı/Çarşısı",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Civar köylerden gelen üreticiler taze peynir, tereyağı, pekmez ve pestil satar. Sabah erken git, en taze ürünler ilk saatlerde tükenir."
+    },
+    {
+     "name": "Turasan Şarap Mahzeni",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 400,
+     "tips": "1943'ten beri üretim yapan bölgenin en köklü şarap evi; Kalecik Karası ve Emir üzümünden tadım seti dene, mahzen turu ücretsiz."
+    },
+    {
+     "name": "Ziggy's Cafe & Restaurant (Ürgüp)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Bahçe konseptli, yerel ve dünya mutfağını harmanlayan menüsüyle bilinir; öğle saatinde gölgeli masaları tercih et."
+    },
+    {
+     "name": "Mustafapaşa (Sinasos) Yürüyüşü",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "1924 mübadelesiyle boşalan Rum köyünün taş konak cepheleri ve kiliseleri ücretsiz gezilir. Rehbersiz de kolay yürünür, sokak aralarına sapmaktan çekinme."
+    },
+    {
+     "name": "Hanımeli Restoran (Mustafapaşa)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 600,
+     "tips": "Aile işletmesi; testi kebabı ve ev yemekleri öne çıkar, ekmek ve mezeler evde yapılır."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Areni Cappadocia Restaurant (Ürgüp)",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 650,
+     "tips": "Klasik Kapadokya konak mimarisinde otantik bir ortam; testi kebabı için güçlü bir alternatif."
+    },
+    {
+     "name": "Temenni Tepesi (Ürgüp)",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "Ürgüp'ün 'dilek tepesi'; kasabaya ttamamen hâkim, ücretsiz bir seyir noktası. Gün batımına yakın git."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Çavuşin ve Terk Edilmiş Vadiler: Sessiz Patikalar ve Gün Batımı ATV'si",
+   "stops": [
+    {
+     "name": "Kılıçlar Vadisi - Meskendir Vadisi Yürüyüşü",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Göreme Açık Hava Müzesi girişinin 600 m ilerisinden başlar, Çavuşin'e kadar uzanan sessiz bir patikadır. İşaretler bazı yerlerde belirsiz, su ve rahat ayakkabı götür."
+    },
+    {
+     "name": "Çavuşin Köyü (Eski Çavuşin Kaya Yerleşimi)",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Devasa kaya kütlesine oyulmuş terk edilmiş evler var; yukarı çıkış yorucu ama tepeden manzara buna değer. Giriş ücretsiz."
+    },
+    {
+     "name": "Cavusin Han Restaurant (Çavuşin)",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 550,
+     "tips": "Tereyağlı mantı ve yağlama öne çıkan lezzetler; aile işletmesi, köy dokusunda sade bir sofra."
+    },
+    {
+     "name": "ATV ile Güllüdere (Gül Vadisi) Gün Batımı Turu",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 1600,
+     "tips": "Kask ve gözlük sağlanır, bir ATV'ye iki kişi binebilir. Rezervasyon önerilir. Güneşin vadiyi kızıla boyadığı son 30 dakika en iyi fotoğraf anıdır.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cappadocia+Sunset+ATV+Tour",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Local Restaurant (Göreme)",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 650,
+     "tips": "Göreme merkezde sade ama lezzetli bir menü; ATV turundan sonra rahat oturmak için iyi bir seçenek."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sedef Restaurant (Göreme)",
+     "category": "food",
+     "start": "20:00",
+     "end": "21:30",
+     "cost": 600,
+     "tips": "Göreme merkeze yakın, ızgara ağırlıklı sakin bir mekan."
+    },
+    {
+     "name": "Haçlı Kilise (Çavuşin)",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Çavuşin-Güllüdere-Kızılçukur patikası üzerinde ücretsiz küçük bir kaya kilise; ana yürüyüş rotasına kolayca eklenir."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Yeşil Tur: Ihlara Vadisi'nin Kanyonu ve Yeraltı Şehri",
+   "stops": [
+    {
+     "name": "Ihlara Vadisi Yürüyüşü",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:30",
+     "cost": 1800,
+     "tips": "Ihlara köyü girişinden Belisırma'ya kadar 3,5-6 km'lik rotayı seç; kanyon derin olduğu için doğal gölge bol. Rehberli Yeşil Tur genelde ulaşım ve giriş dahil satılır. Su ve yürüyüş ayakkabısı şart.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cappadocia+Green+Tour+Ihlara+Valley+Derinkuyu",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Belisırma Seyir Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Melendiz Çayı kenarında sofra kurulur; kiremitte balık en çok tercih edilen lezzettir. Ayaklarını suya sallandırarak oturabileceğin masalar var."
+    },
+    {
+     "name": "Selime Manastırı",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "Kayaya oyulmuş dev bir manastır kompleksi; üst katlara dar merdivenlerle çıkılır, giriş ücretsiz."
+    },
+    {
+     "name": "Derinkuyu Yeraltı Şehri",
+     "category": "culture",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 600,
+     "tips": "Yeraltı doğal olarak serin olduğu için sıcak günün en rahat durağı. Dar tünellerde eğilerek yürünür, klostrofobik hissedenler alt katlara inmesin."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Belisırma Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Seyir Restaurant'a alternatif, aynı köyde nehir kenarında farklı bir işletme."
+    },
+    {
+     "name": "Yaprakhisar Manzara Noktası",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "'Star Wars Vadisi' olarak da bilinir; Selime'ye alternatif ücretsiz bir seyir noktası, kayaların dokusu ilgi çekici."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Soğanlı Vadisi: Kapadokya'nın Bilinmeyen Doğu Ucu (Hafif Gün)",
+   "stops": [
+    {
+     "name": "Soğanlı Vadisi Kaya Kiliseleri Yürüyüşü",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Günlük ziyaretçi sayısı çok az, 5-10 kişiyle sınırlı denebilir. Kubbeli, Karabaş ve Yılanlı kiliselerini gez. Giriş ücretsiz, rota 2-3 saat sürer, gölge bol."
+    },
+    {
+     "name": "Kadın Emeği Zeytin Cafe ve Ev Yemekleri (Soğanlı)",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 500,
+     "tips": "Köylü kadınların işlettiği küçük bir kooperatif; gözleme ve ev yemekleri günlük hazırlanır, nakit ödeme tercih edilir."
+    },
+    {
+     "name": "Yeşilhisar Kayısı Bahçeleri",
+     "category": "nature",
+     "start": "13:45",
+     "end": "14:15",
+     "cost": 100,
+     "tips": "Dönüş yolunda kısa bir mola. Bölge Türkiye'nin kayısı diyarıdır, yol kenarındaki tezgâhlardan kurutulmuş kayısı alabilirsin."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Soğanlı Vadisi Restaurant",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 450,
+     "tips": "Vadi girişinde köy usulü basit bir lokanta; gözleme ve ayran klasik tercih."
+    },
+    {
+     "name": "Karabaş Kilisesi (Soğanlı)",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Freskleri en iyi korunmuş kiliselerden biri; ana yürüyüş rotasına dahil edilebilir, giriş ücretsiz."
+    }
+   ]
+  }
+ ]
+}

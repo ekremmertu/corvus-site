@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "honolulu-summer",
+ "altSlug": "honolulu-yaz",
+ "citySlug": "honolulu",
+ "destKey": "honolulu",
+ "city": "Honolulu",
+ "region": null,
+ "country": "USA",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "USD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 520,
+  "attractions": 400,
+  "transport": 350,
+  "misc": 120
+ },
+ "notes": [
+  "A rental car is essential (North Shore, Kualoa); parking in Waikiki costs 40 USD a night. TheBus costs 3 USD (Pearl Harbor: 20 or 42). An Uber from the airport costs 35-45.",
+  "Summer is 28-31°C and the North Shore is calm (swimming at Waimea). June to August is crowded and humid; hurricane season runs August to October (rare).",
+  "Reservations: Diamond Head (30 days ahead), Hanauma (2 days ahead at 07:00 HST), Pearl Harbor (8 weeks ahead, 1 USD); ESTA visa waiver.",
+  "Poke 12-16, plate lunch 15, shave ice 6, malasada 2, luau 150-200 (USD); tip 18-20%, tax 4.7%. An expensive island.",
+  "Reef-safe sunscreen is required (oxybenzone banned); keep 3 m from turtles and seals, or face a fine. Aloha and mahalo.",
+  "Try Kona coffee, macadamia nuts, spam musubi (at 7-Eleven) and loco moco; look out for the Zippy's chain."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Waikiki and Diamond Head",
+   "stops": [
+    {
+     "name": "Diamond Head State Monument",
+     "category": "nature",
+     "start": "06:30",
+     "end": "08:30",
+     "cost": 5,
+     "tips": "The crater hike is 1.3 km (steps and a tunnel); it opens at 06:00. Foreign visitors must reserve 30 days ahead, 5 USD. Go for sunrise."
+    },
+    {
+     "name": "Leonard's Bakery",
+     "category": "food",
+     "start": "08:45",
+     "end": "09:30",
+     "cost": 8,
+     "tips": "Since 1952, famous for malasada (Portuguese doughnut); eat it hot, expect a queue."
+    },
+    {
+     "name": "Waikiki Beach",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "See the Duke Kahanamoku statue; take a surf lesson (75 USD) or an outrigger canoe. Kuhio Beach is calm."
+    },
+    {
+     "name": "Marukame Udon Waikiki",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 12,
+     "tips": "Cheap, fresh udon; the queue moves fast."
+    },
+    {
+     "name": "Waikiki Sunset Kapahulu Groin",
+     "category": "nature",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Watch the sunset from Duke's bar or the pier; Friday fireworks at the Hilton at 19:45."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Duke's Waikiki",
+     "category": "food",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 35,
+     "tips": "Beach bar and hula pie; sunset views."
+    },
+    {
+     "name": "Honolulu Zoo & Kapiolani Park",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 21,
+     "tips": "A park and zoo at the end of Waikiki; an alternative to the beach."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Pearl Harbor and Downtown",
+   "stops": [
+    {
+     "name": "Pearl Harbor National Memorial",
+     "category": "culture",
+     "start": "07:30",
+     "end": "10:30",
+     "cost": 1,
+     "tips": "The USS Arizona Memorial boat programme (recreation.gov, 1 USD) opens 8 weeks ahead at 08:00 HST and sells out. No bags allowed; take bus 20 or 42."
+    },
+    {
+     "name": "USS Missouri Battleship",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:15",
+     "cost": 35,
+     "tips": "The deck where Japan surrendered; shuttle to Ford Island."
+    },
+    {
+     "name": "Iolani Palace",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 27,
+     "tips": "The only royal palace in the US; see Queen Liliuokalani's prison room. Audio guide available."
+    },
+    {
+     "name": "Chinatown Honolulu",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Lei (flower garland) shops and the Maunakea market; The Pig and the Lady in the evening."
+    },
+    {
+     "name": "Tamashiro Market",
+     "category": "food",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 15,
+     "tips": "A pink fish market in Kalihi; try a poke (raw tuna) bowl. Cash only."
+    }
+   ],
+   "backups": [
+    {
+     "name": "The Pig and the Lady Chinatown",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 30,
+     "tips": "Vietnamese-Hawaiian fusion; pho at lunch."
+    },
+    {
+     "name": "Bishop Museum",
+     "category": "culture",
+     "start": "13:00",
+     "end": "15:30",
+     "cost": 29,
+     "tips": "Hawaiian and Pacific culture: feather cloaks and a planetarium. An alternative to the palace."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "East coast: Hanauma and Lanikai",
+   "stops": [
+    {
+     "name": "Hanauma Bay",
+     "category": "nature",
+     "start": "07:00",
+     "end": "09:30",
+     "cost": 25,
+     "tips": "Snorkel inside a crater. Book online 2 days ahead at 07:00 HST (slots vanish in seconds). Closed Monday and Tuesday, 25 USD plus 3 USD parking. Turtles and fish."
+    },
+    {
+     "name": "Makapuu Lighthouse Trail",
+     "category": "nature",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A paved 3 km lighthouse trail; whales (December to April) and views of Rabbit Island."
+    },
+    {
+     "name": "Kalapawai Market Kailua",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "Sandwiches from Kailua's beach market, open since 1932."
+    },
+    {
+     "name": "Lanikai Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "One of the world's most beautiful beaches: turquoise water, the Mokulua Islands, kayak rental. Parking is hard, so walk."
+    },
+    {
+     "name": "Lanikai Pillbox Hike",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A steep 30-minute climb up Kaiwa Ridge; bunker views and sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kailua Beach",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Lanikai's wider neighbour; easy parking."
+    },
+    {
+     "name": "Buzz's Lanikai",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "A steakhouse opposite the beach since 1962; Obama's favourite."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "North Shore",
+   "stops": [
+    {
+     "name": "Haleiwa Town",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A surf town; try shave ice at Matsumoto Shave Ice (1951) and expect a queue."
+    },
+    {
+     "name": "Laniakea Turtle Beach",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Green sea turtles come ashore here; keep 3 m away. Volunteers on site."
+    },
+    {
+     "name": "Giovanni's Shrimp Truck Kahuku",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 16,
+     "tips": "The legendary truck for garlic shrimp plates; cash only, in Kahuku."
+    },
+    {
+     "name": "Waimea Bay",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A calm turquoise bay with a jumping rock in summer; in winter, 10 m waves (Eddie Aikau), so watch only."
+    },
+    {
+     "name": "Sunset Beach",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Sunset views next to Pipeline, with surfers."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ted's Bakery Sunset Beach",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 14,
+     "tips": "Chocolate haupia (coconut) pie and plate lunch."
+    },
+    {
+     "name": "Waimea Valley",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 25,
+     "tips": "A botanical valley with swimming at the waterfall (life jacket required); an alternative to the bay."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Kualoa and Windward Coast",
+   "stops": [
+    {
+     "name": "Kualoa Ranch",
+     "category": "nature",
+     "start": "08:30",
+     "end": "12:00",
+     "cost": 55,
+     "tips": "The Jurassic Park valley; UTV, horse or bus film tours (book online), Kaaawa Valley, views of Chinaman's Hat."
+    },
+    {
+     "name": "Kualoa Regional Park",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "A public park facing Chinaman's Hat (Mokolii); good for a picnic."
+    },
+    {
+     "name": "Byodo-In Temple",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 5,
+     "tips": "A replica of Kyoto's Byodo-In at the foot of the Koolau mountains; bell and koi."
+    },
+    {
+     "name": "Ho'omaluhia Botanical Garden",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "A free garden with views of the mountain wall; the famous road photo is not allowed (go on foot)."
+    },
+    {
+     "name": "Ono Seafood Kapahulu",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:15",
+     "cost": 16,
+     "tips": "The best poke in the city; shoyu ahi, cash only."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Waiahole Poi Factory",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 18,
+     "tips": "Traditional Hawaiian plate (kalua pork, poi, laulau); next to Kualoa."
+    },
+    {
+     "name": "Nuuanu Pali Lookout",
+     "category": "nature",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 7,
+     "tips": "Windswept cliff views and the site of the 1795 battle; a stop on the way back instead of the garden."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Manoa and luau",
+   "stops": [
+    {
+     "name": "Manoa Falls Trail",
+     "category": "nature",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 7,
+     "tips": "A 2.5 km rainforest walk to a 45 m waterfall; muddy, and a Lost filming location."
+    },
+    {
+     "name": "Waiola Shave Ice",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 6,
+     "tips": "Shave ice since 1940; try the Obama Rainbow in Kapahulu."
+    },
+    {
+     "name": "KCC Farmers Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "Saturday farmers market below Diamond Head; on other days, see the Kakaako murals (SALT)."
+    },
+    {
+     "name": "Ala Moana Beach Park",
+     "category": "nature",
+     "start": "14:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The locals' beach; calm water protected by a reef, and sunset at Magic Island."
+    },
+    {
+     "name": "Luau Evening Waikiki Starlight",
+     "category": "culture",
+     "start": "17:30",
+     "end": "20:30",
+     "cost": 150,
+     "tips": "Hawaiian dance, fire knife and kalua pork; at the Hilton or Paradise Cove (Ko Olina)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Highway Inn Kakaako",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 22,
+     "tips": "Hawaiian food since 1947; try laulau and pipikaula."
+    },
+    {
+     "name": "Kakaako SALT Murals",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The POW! WOW! graffiti district; an alternative to the market."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Morning swim and a gentle goodbye",
+   "stops": [
+    {
+     "name": "Kaimana Beach Sans Souci",
+     "category": "nature",
+     "start": "07:30",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "The quiet end of Waikiki; locals swim here, with views of Diamond Head."
+    },
+    {
+     "name": "Koko Head Cafe",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:30",
+     "cost": 25,
+     "tips": "Lee Anne Wong's brunch spot in Kaimuki; try the cornflake French toast."
+    },
+    {
+     "name": "Ala Moana Center",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "An open-air mall for souvenirs (Kona coffee, macadamia nuts) and Foodland poke."
+    },
+    {
+     "name": "HNL Airport Taxi",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 40,
+     "tips": "Uber takes 25 minutes; agricultural check (no fruit), then farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Foodland Ala Moana Poke",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 14,
+     "tips": "Supermarket poke counter; a farewell bowl."
+    },
+    {
+     "name": "Ala Moana Beach Morning",
+     "category": "nature",
+     "start": "07:30",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "A long beach run; an alternative to Kaimana."
+    }
+   ]
+  }
+ ]
+}

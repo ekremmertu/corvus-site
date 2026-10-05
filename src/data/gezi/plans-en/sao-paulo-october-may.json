@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "sao-paulo-october-may",
+ "altSlug": "sao-paulo-ekim-mayis",
+ "citySlug": "sao-paulo",
+ "destKey": "sao-paulo",
+ "city": "São Paulo",
+ "region": null,
+ "country": "Brazil",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "BRL",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 1700,
+  "attractions": 450,
+  "transport": 600,
+  "misc": 300
+ },
+ "notes": [
+  "The metro is safe and clean (Bilhete Único). Uber and 99 are cheap. Traffic is terrible between 17:00 and 20:00. Guarulhos is 45-90 minutes away; Congonhas is in the city.",
+  "December to March is summer: 30°C with afternoon downpours (flooding). Carnival is at Anhembi in February. May to October is ideal.",
+  "SAFETY: In the centre (Sé, Luz, 25 de Março), keep your wallet in front by day; it is empty at night. Don't take your phone out on the street. Paulista, Jardins and Vila Madalena are relaxed.",
+  "Pizza 80-100 BRL, pay-by-weight restaurant 50, mortadella sandwich 40, padaria breakfast 30. A 10% tip is included. Pix and cards are accepted everywhere.",
+  "MASP is free on Tuesdays and Pinacoteca on Saturdays. Paulista is pedestrianised on Sundays. Book A Casa do Porco months ahead. Visit Embu at the weekend.",
+  "Coxinha, pão de queijo (cheese bread), pastel, mortadella, feijoada (Wednesday and Saturday), caipirinha. Japanese food in Liberdade."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Paulista and MASP",
+   "stops": [
+    {
+     "name": "MASP",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 75,
+     "tips": "Lina Bo Bardi's museum suspended in mid-air, with Van Gogh and Portinari on glass easels. Free on Tuesdays, and Paulista is car-free on Sundays."
+    },
+    {
+     "name": "Avenida Paulista",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "The city's financial boulevard. On Sundays it is pedestrianised, with street musicians and Japan House."
+    },
+    {
+     "name": "Bráz Pizzaria Paulista",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 80,
+     "tips": "São Paulo pizza (the world's second pizza city): thin crust, muçarela de búfala."
+    },
+    {
+     "name": "Parque Trianon",
+     "category": "nature",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "A remnant of Atlantic forest on Paulista, with plenty of shade."
+    },
+    {
+     "name": "Sesc Avenida Paulista Terrace",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A free rooftop terrace with a city panorama, inside a cultural centre."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mocotó Vila Medeiros",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 70,
+     "tips": "A legend of northeastern Brazilian cooking. It's far out but worth it (Uber)."
+    },
+    {
+     "name": "Instituto Moreira Salles",
+     "category": "culture",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A photography museum with a terrace on Paulista. Free entry."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Centre and Mercado Municipal",
+   "stops": [
+    {
+     "name": "Mercado Municipal de São Paulo",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 40,
+     "tips": "A 1933 market with stained-glass windows. Try the mortadella sandwich (Hocca Bar, 300 g) and pastel de bacalhau (salt cod pastry), and sample exotic fruit (vendors are insistent)."
+    },
+    {
+     "name": "Catedral da Sé & Marco Zero",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "A neo-Gothic cathedral and the city's point zero. Nearby is Pátio do Colégio (founded 1554)."
+    },
+    {
+     "name": "Edifício Martinelli / Farol Santander",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 40,
+     "tips": "A 1929 skyscraper. Farol Santander has a viewing deck on the 26th floor and a skate ramp."
+    },
+    {
+     "name": "Theatro Municipal",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "An imitation of the Paris Opera. Tours run Wednesday to Friday, on Ramos de Azevedo square."
+    },
+    {
+     "name": "Edifício Copan",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Niemeyer's wavy building with 1,160 apartments. See it from outside (the terrace may be closed), and visit Bar da Dona Onça."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar da Dona Onça",
+     "category": "food",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 60,
+     "tips": "Brazilian classics at the foot of Copan. Feijoada (black bean and pork stew) on Saturdays."
+    },
+    {
+     "name": "Pinacoteca do Estado",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "A brick museum by Ramos de Azevedo with Brazilian art. Free on Saturdays, next to Luz station."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Ibirapuera and Jardins",
+   "stops": [
+    {
+     "name": "Ibirapuera Park",
+     "category": "nature",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "The city's Central Park, with Niemeyer pavilions. Cycle, visit the lake and the Oca."
+    },
+    {
+     "name": "Museu Afro Brasil",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "Afro-Brazilian culture inside the park: slavery and art."
+    },
+    {
+     "name": "Figueira Rubaiyat",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "Steak under a giant fig tree, in the upmarket Jardins district."
+    },
+    {
+     "name": "Rua Oscar Freire",
+     "category": "shopping",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Brazil's most luxurious street, with the Havaianas flagship store and Melissa."
+    },
+    {
+     "name": "Museu da Imagem e do Som",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 20,
+     "tips": "A sound and image museum with pop exhibitions."
+    }
+   ],
+   "backups": [
+    {
+     "name": "A Casa do Porco",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 120,
+     "tips": "Among the world's 50 best. A pork tasting menu in the centre; book months ahead."
+    },
+    {
+     "name": "Casa de Vidro",
+     "category": "culture",
+     "start": "15:45",
+     "end": "17:00",
+     "cost": 30,
+     "tips": "The architect's glass house in Morumbi. Reservation required."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Vila Madalena and Pinheiros",
+   "stops": [
+    {
+     "name": "Beco do Batman",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Batman Alley graffiti in Vila Madalena. It changes every week."
+    },
+    {
+     "name": "Coffee Lab",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 25,
+     "tips": "A Brazilian coffee laboratory run by Isabela Raposeiras."
+    },
+    {
+     "name": "Mercado de Pinheiros",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 50,
+     "tips": "A neighbourhood market. Try Comedoria Gonzales, Peruvian cuisine by Rodrigo Oliveira."
+    },
+    {
+     "name": "Instituto Tomie Ohtake",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Ruy Ohtake's purple and red building in Pinheiros, with free exhibitions."
+    },
+    {
+     "name": "Bar São Cristóvão",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:30",
+     "cost": 60,
+     "tips": "A football-obsessed bar on Aspicuelta street, with a street party on Fridays and Saturdays."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Feira da Praça Benedito Calixto",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A Saturday antiques and crafts market with chorinho music."
+    },
+    {
+     "name": "Bar Veloso",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:30",
+     "cost": 50,
+     "tips": "The city's best coxinha (chicken croquette) and caipirinha. Expect a queue."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Liberdade and Bixiga",
+   "stops": [
+    {
+     "name": "Liberdade",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "The largest Japanese community outside Japan, with red torii gates and lanterns. On Sundays there is a market at Praça da Liberdade."
+    },
+    {
+     "name": "Aska Lamen",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 45,
+     "tips": "A small Japanese ramen shop. Expect a queue, and bring cash."
+    },
+    {
+     "name": "Museu da Imigração",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "A former immigrant hostel (like Ellis Island), covering Italian, Japanese and Turkish-Syrian migration."
+    },
+    {
+     "name": "Bixiga",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Cantinas on Rua 13 de Maio, the Vai-Vai samba school, and the Nossa Senhora Achiropita festival in August."
+    },
+    {
+     "name": "Cantina Famiglia Mancini",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 90,
+     "tips": "A cantina on Rua Avanhandava since 1980. Giant portions of pasta and a queue."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Templo Busshinji",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A Zen temple, as an alternative to a museum."
+    },
+    {
+     "name": "Sujinho",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 70,
+     "tips": "A late-night steakhouse serving churrasco, open 24 hours."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Embu das Artes",
+   "stops": [
+    {
+     "name": "Embu das Artes",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A colonial artists' town 27 km away. The weekend crafts market is the draw (shops only on weekdays). It's 1 hour by bus."
+    },
+    {
+     "name": "Igreja Nossa Senhora do Rosário",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 5,
+     "tips": "A 1690 Jesuit church with a sacred art museum."
+    },
+    {
+     "name": "Restaurante Os Girassóis",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 70,
+     "tips": "A restaurant in a colonial house serving feijoada and Minas Gerais cooking."
+    },
+    {
+     "name": "Embu Antique and Rustic Furniture Shops",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Wooden furniture and ceramics. Shipping is available."
+    },
+    {
+     "name": "Parque Villa-Lobos",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "A park in western São Paulo on the way back, for sunset and cycling."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Parque Estadual da Cantareira",
+     "category": "nature",
+     "start": "10:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Atlantic forest north of the city, with views from Pedra Grande. Nature instead of Embu."
+    },
+    {
+     "name": "Casa do Sino",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 50,
+     "tips": "A cantina serving pizza and pasta."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Higienópolis: a gentle farewell",
+   "stops": [
+    {
+     "name": "Parque Buenos Aires",
+     "category": "nature",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "A French-style garden for a neighbourhood morning."
+    },
+    {
+     "name": "Padaria Santa Teresa",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 35,
+     "tips": "A padaria (Brazilian bakery) breakfast: pão na chapa (grilled buttered bread) and pingado (milky coffee). A farewell treat."
+    },
+    {
+     "name": "Museu do Futebol",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 20,
+     "tips": "A football museum inside Pacaembu stadium, with Pelé and Garrincha. Interactive."
+    },
+    {
+     "name": "Guarulhos International Airport",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 90,
+     "tips": "Uber takes 45-90 minutes in traffic. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rua Augusta",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 25,
+     "tips": "Consolação's alternative street, for coffee."
+    },
+    {
+     "name": "Museu do Ipiranga",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "The Independence Museum, restored in 2022. Gardens, as an alternative to football."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,504 @@
+{
+ "lang": "tr",
+ "slug": "cesme-ekim-mayis",
+ "altSlug": "cesme-october-may",
+ "citySlug": "cesme",
+ "destKey": "cesme",
+ "city": "Çeşme",
+ "region": "İzmir",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 7150,
+  "attractions": 15776,
+  "transport": 120,
+  "misc": 50
+ },
+ "notes": [
+  "Ocak ayında Çeşme bir kıyı beldesi olsa da deniz mevsimi kapalıdır; birçok yazlık plaj işletmesi ve bazı restoranlar kapalı olabilir. Gideceğin mekânı önceden telefonla teyit et.",
+  "Esnaf lokantalarının çoğu (Sakarya, Tokmak Hasan gibi) nakit tercih eder; kartlı ödeme restoran ve kafelerde standarttır. Yanında biraz nakit bulundur.",
+  "Kışın minibüs seferleri seyrekleşir (yarım saatte bir yerine saatte bir olabilir), bu yüzden BiTaksi uygulamasını telefonuna indir.",
+  "Bahşiş genelde hesabı yuvarlayarak ya da %5-10 oranında bırakılır; esnaf lokantalarında bahşiş beklenmez.",
+  "Ocak'ta Ege rüzgârı (poyraz) serttir; kat kat giyin, sahil yürüyüşlerinde rüzgâr geçirmez mont şart.",
+  "Çeşme kışın çok sakin ve güvenli bir beldedir; tenha köy yollarında (Ildırı, Karaburun) akşamları araç trafiği azalır, gündüz gezmeyi tercih et.",
+  "Ayios Haralambos gibi eski Rum kiliseleri kültürel mirastır; içeride sessiz olun, etkinlik yoksa dışarıdan da fotoğraflanabilir."
+ ],
+ "niche": {
+  "name": "Sakarya Lokantası",
+  "level": "l2",
+  "why_hidden": "Çeşme çarşısındaki turistik meyhane ve restoranların tam ortasında, sade tabelası yüzünden rehberlerde nadiren geçen 40 yıllık bir esnaf lokantası. Yerel esnaf ve balıkçılar öğle arasında burada yemek yer; turistlerin çoğu farkına bile varmadan yanından geçer.",
+  "access_instructions": "Çeşme çarşısı, İnkılap Caddesi üzerinde, Çeşme Kalesi'ne yürüme mesafesinde. Yalnızca öğle saatlerinde (yaklaşık 12:00-15:00) günlük ev yemeği ve sac kavurma servisi yapılır, akşam kapanır.",
+  "local_contact": "Yok - walk-in esnaf lokantası, telefon rezervasyonu gerekmiyor.",
+  "season": "Yıl boyu açık; kışın öğle saatlerinde masaları yerel esnafla paylaşırsın. Yazın turist sayısı artsa da esnaf müşterisi hiç eksik olmaz.",
+  "insider_tip": "Sabit menü yok; vitrindeki günün sac yemeğini sorup ona göre sipariş ver, mutfaktan ne çıkarsa o pişer. Ekmek kapıda taze fırından gelir, ekstra ısmarla.",
+  "show_reason": "Turistik çarşının tam ortasında ama turistin fark etmediği, 40 yıllık aile işletmesi bir esnaf sofrası - Çeşme'nin gerçek gündelik tadını yansıtır, sosyal medyada neredeyse hiç görünmez.",
+  "address": "İnkılap Cad. No: 46, Çeşme/İzmir",
+  "lat": 38.3263,
+  "lng": 26.3041,
+  "cost_range_min": 500,
+  "cost_range_max": 700,
+  "cost_currency_code": "TRY"
+ },
+ "transit": {
+  "name": "İzmirim Kart",
+  "why_chosen": "İzmirim Kart; Çeşme-Alaçatı-Ilıca-Dalyan arasındaki minibüs hatlarında ve İzmir'in tüm toplu ulaşımında (ESHOT otobüs, metro, vapur) geçerli tek karttır. Bu yüzden plandaki şehir içi günlerin hemen hepsini tek kartla halledebilirsin. Karaburun ve Efes gibi ilçe dışı günlerde kart geçerli değildir; o günler için özel transfer/taksi bütçelenmiştir. Tekli kâğıt bilete göre İzmirim Kart hem daha ucuz hem aktarmalı seyahatte avantajlıdır.",
+  "coverage": "Çeşme-Alaçatı-Ilıca-Dalyan minibüs hatları + İzmir genelinde ESHOT otobüs, metro ve vapur.",
+  "where_to_buy": "Çeşme otogarındaki minibüs durağı gişesi, çarşıdaki çoğu market/büfe, ESHOT Mobil uygulaması üzerinden yükleme.",
+  "cost": 150,
+  "currency_code": "TRY"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Çeşme Merkez: Kale, Çarşı ve Rum Mirası",
+   "stops": [
+    {
+     "name": "Çeşme Kalesi",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 100,
+     "tips": "Kışın 08:00-17:00 arası açık. Sabah erken gidip surlardan Sakız Adası'nı görebilirsin. İç avludaki gemi mancınığı replikaları fotoğraf için iyi bir nokta."
+    },
+    {
+     "name": "Çeşme Çarşısı ve Rum Evleri",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "İnkılap Caddesi boyunca restore edilmiş taş Rum evlerinde küçük zeytinyağı ve baharat dükkânları var. Alışveriş şart değil, sokak dokusunu görmek için yürü."
+    },
+    {
+     "name": "Sakarya Lokantası",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 600,
+     "tips": "40 yıllık esnaf lokantası, sabit menü yok; günün sac yemeğini sorup ona göre sipariş ver. Yalnızca öğle saatlerinde açık, akşam kapanıyor."
+    },
+    {
+     "name": "Ayios Haralambos Kilisesi",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "1832'den kalma taş kilise, restore edilip kültür merkezine dönüştürülmüş, ücretsiz gezilebilir. İçeride sergi varsa gir, yoksa taş işçiliğine dışarıdan bakmak yeterli."
+    },
+    {
+     "name": "Çeşme Kordon ve Marina Günbatımı Yürüyüşü",
+     "category": "landmark",
+     "start": "16:45",
+     "end": "17:45",
+     "cost": 0,
+     "tips": "Ocak'ta gün batımı 17:15 civarı; marina boyunca tekneler ve arka planda kale ile fotoğraf için ideal saat. Rüzgârlı olabilir, mont al."
+    },
+    {
+     "name": "İmren Lokantası",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 550,
+     "tips": "Çarşı başında ev yemekleri sunan sakin bir mekan; zeytinyağlı yaprak sarma ve o günün güveci iyi seçenekler. Rezervasyon gerekmez, kışın sakin çalışır."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Hanımeli Restoranı",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 550,
+     "tips": "Çarşının başında ev yemekleri sunan aile işletmesi; günlük yemeklerden seç, fiyat/performans iyi."
+    },
+    {
+     "name": "Çeşme Kervansarayı",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "1528'den kalma Osmanlı hanı, bugün butik otel; dış avlusu ve taş kapısı ücretsiz gezilebilir, kalenin hemen yanında."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Alaçatı: Taş Sokaklar, Kumru ve Şarap",
+   "stops": [
+    {
+     "name": "Kemalpaşa Caddesi Taş Sokakları",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Sabah 10'dan önce sokaklar boş oluyor, cumbalı taş evleri kalabalıksız çekmek için en iyi saat. Begonvil kışın yapraksız ama kapı renkleri yine fotojenik."
+    },
+    {
+     "name": "Alaçatı Yel Değirmenleri",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Alaçatı girişindeki 150 yıllık dört değirmen tepesi; kısa bir tırmanış, tepeden hem kasabayı hem denizi görürsün. Ücretsiz, her saat açık."
+    },
+    {
+     "name": "Kumrucu Şevki",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 350,
+     "tips": "1980'lerden beri açık, Çeşme'nin imza sandviçi kumruyu burada dene; kaşarlı-sucuklu klasik tercih edilir. Öğle saatlerinde kısa sıra olabilir."
+    },
+    {
+     "name": "Çakabey Mahallesi Yürüyüşü",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Kemalpaşa Caddesi'nin arkasındaki bu mahalle turistik akışın dışında kalır; gerçek Alaçatılıların yaşadığı sokaklarda sessizce dolaş."
+    },
+    {
+     "name": "Vino Alaçatı Şarap Evi",
+     "category": "food",
+     "start": "17:00",
+     "end": "18:15",
+     "cost": 550,
+     "tips": "100 yıllık taş 'papaz evi'nde 37 çeşit Ege şarabı sunan butik şarap evi; küçük bir tadım menüsü iste, peynir tabağıyla eşleştirirler."
+    },
+    {
+     "name": "Aysel Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 650,
+     "tips": "Kemalpaşa Caddesi üzerinde sade ama lezzetli bir meyhane tarzı mekan; mevsim mezeleri ve ot kavurma iyi gider."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kumrucu Erol",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 350,
+     "tips": "1980'den beri açık, Şevki'ye alternatif bir diğer klasik kumrucu; aynı sokakta, ekmek biraz daha kalın."
+    },
+    {
+     "name": "Çark Plajı",
+     "category": "nature",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Alaçatı'nın sörf koyu, kışın ıssız ve dalgalı. Uzaktan sörfçü antrenmanlarını izlemek bile keyifli; rüzgârlı geniş kumsal fotoğraf için iyi bir arka plan."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Adalar ve Koylar: Çeşme'nin Denizi",
+   "stops": [
+    {
+     "name": "Çeşme İskelesi Sabah Yürüyüşü",
+     "category": "landmark",
+     "start": "08:00",
+     "end": "08:45",
+     "cost": 0,
+     "tips": "Tekneye binmeden önce iskelede kısa bir yürüyüş; sabah ışığında balıkçı tekneleri güzel kareler verir."
+    },
+    {
+     "name": "İzmir'den: Barbekü Öğle Yemeği ile Çeşme Çevresinde Tam Gün Tekne Turu",
+     "category": "nature",
+     "start": "09:00",
+     "end": "17:00",
+     "cost": 4095,
+     "tips": "Sek Adası, Mavi Koy ve Kış Limanı gibi noktaları kapsayan tam gün tur; öğle yemeği (barbekü) dahildir. Kış aylarında hava/talebe bağlı çalışır, rezervasyondan önce operatörle teyit et.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cesme+Full+Day+Boat+Tour+BBQ+Lunch",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Dalyan İskelesi Günbatımı Yürüyüşü",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "Tekne dönüşü Dalyan'a uğrayıp iskelede kısa bir yürüyüş yap; balıkçı tekneleri ve akşam ışığı fotoğraf için iyi."
+    },
+    {
+     "name": "Defne Yaprağı Balık Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "Dalyan Köyü'nde 4.7 puanlı, taze deniz mahsulleriyle bilinen bir mekan; mevsim balığını ve karides güveci dene, önceden telefonla yer ayırt."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ba-Ni Balık Restoranı",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 900,
+     "tips": "Dalyan'da Defne Yaprağı'na alternatif, aynı bölgede taze balık ve meze sunan bir diğer köklü işletme."
+    },
+    {
+     "name": "Çeşme Yat Limanı",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:15",
+     "cost": 0,
+     "tips": "Tekne turu Çeşme'ye dönerse Dalyan yerine marinada akşam yürüyüşü yap; kale siluetiyle gün batımı manzarası."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Ilıca-Boyalık Kıyısı ve Şifne Kaplıcaları",
+   "stops": [
+    {
+     "name": "Ilıca Sahili Kıyı Yürüyüşü",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Yazın kalabalık olan bu uzun kumsal kışın neredeyse boş; sahil şeridinde yürüyüş yapıp Sakız Adası manzarasını çek, denize girme."
+    },
+    {
+     "name": "Boyalık Plajı",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "4 km'lik kumsal kışın ıssız ve fotojenik; sabah ışığında uzun kumsal boyunca yürüyüş için ideal, plaj ekipmanı yok."
+    },
+    {
+     "name": "Tokmak Hasan'ın Yeri",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 550,
+     "tips": "30 yıldır aynı yerde, Musalla Mahallesi'nde döner ve ev yemekleri sunan esnaf lokantası; günün yemeğini seç, uygun fiyatlı."
+    },
+    {
+     "name": "Şifne Kaplıcaları",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 500,
+     "tips": "42-55 derece kükürtlü şifalı su; kış turizmi için ideal, havlu ve terlik genelde tesiste kiralık. Halk günlerinde giriş biraz daha uygun olabilir."
+    },
+    {
+     "name": "Ilıca Veysi's",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 550,
+     "tips": "Hızlı servisi ve başarılı yemekleriyle bilinen Ilıca'da bir mekan; tatlı ikramları da iyi, akşam için rahat bir seçenek."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Yıldızburnu Nevi",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 700,
+     "tips": "Deniz kenarında şık ambiyanslı bir restoran, mezeleri özellikle iyi; Veysi's dolu olursa iyi bir alternatif."
+    },
+    {
+     "name": "Paşalimanı Koyu",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Boyalık'a alternatif sakin bir koy; kışın tamamen tenha, sahil yürüyüşü ve fotoğraf için uygun."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Ovacık Kırsalı ve Çiftlikköy Sahili",
+   "stops": [
+    {
+     "name": "Ovacık Köyü Kırsal Yürüyüşü",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Çeşme Yarımadası'nın tarım merkezi; enginar tarlaları ve bağlar arasında sakin bir yürüyüş, turist otobüsü uğramaz."
+    },
+    {
+     "name": "Noni's House",
+     "category": "food",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 600,
+     "tips": "Bahçe içinde köy kahvaltısı ve brunch sunan sakin bir mekan; ev yapımı reçel ve zeytinyağlı otlu böreği kaçırmayın, rezervasyon önerilir."
+    },
+    {
+     "name": "Alaçatı Antikacılar Çarşısı",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Eski zeytinyağı ve tahıl presleri ile dekoratif eşyaların satıldığı yerel bir antikacılar kümesi; ana Kemalpaşa Caddesi'nden daha az turistik."
+    },
+    {
+     "name": "Salonis Restaurant",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 750,
+     "tips": "Çiftlikköy'de Sakız Adası manzaralı, 2009'dan beri açık balık restoranı; mevsim mezeleri ve ızgara balık iyi bir seçim, telefonla yer ayırt."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kumrucu Hikmet",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 350,
+     "tips": "Alaçatı'nın hemen girişinde bol malzemeli kumrusuyla bilinir; Noni's House'a alternatif hafif bir öğle seçeneği."
+    },
+    {
+     "name": "Ovacık Zeytin Bahçeleri Manzara Noktası",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Köyün etrafındaki zeytinliklerde kısa bir tepe yürüyüşü; kışın zeytin hasadı sonrası sakin manzara."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Efes'e Günübirlik: Antik Kentin İzinde",
+   "stops": [
+    {
+     "name": "Efes Antik Kenti",
+     "category": "culture",
+     "start": "07:30",
+     "end": "13:00",
+     "cost": 11081,
+     "tips": "Çeşme'den kalkan rehberli tur; Celsus Kütüphanesi ve tiyatro dahil ören yeri gezisi. Ören yeri giriş ücreti genelde tur fiyatına dahildir, rezervasyon onayından teyit et. Gidiş-dönüş yaklaşık 1,5-2 saat sürer.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Ephesus+Highlights+Tour+from+Cesme",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Meryem Ana Evi",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Aynı turun kapsamında ziyaret edilen küçük bir şapel; içeride sessiz olun, dışarıdaki çeşmeden su içmek isteyenler için sıra olabilir."
+    },
+    {
+     "name": "Selçuk Çarşısı Kısa Mola",
+     "category": "landmark",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Dönüş öncesi Selçuk merkezde kısa bir mola; İsa Bey Camii ve Bülbül Dağı manzarası uzaktan görülür."
+    },
+    {
+     "name": "Port Restaurant",
+     "category": "food",
+     "start": "19:30",
+     "end": "20:45",
+     "cost": 500,
+     "tips": "Çeşme'ye döndükten sonra hafif bir akşam yemeği için marina yakınında sakin bir mekan; uzun bir gün sonrası ağır olmayan seçenekler tercih et."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mercan Restoran",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Selçuk'ta Şirince kebabı ve zeytinyağlı otlarıyla bilinir; tur programında öğle molası varsa iyi bir seçenek."
+    },
+    {
+     "name": "Şirince Köyü Kısa Mola",
+     "category": "culture",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Bazı Efes turları rotaya kısa bir Şirince molası ekler; taş sokaklarda kısa bir yürüyüş ve yerel şarap dükkânlarına göz atma imkânı."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Karaburun'a Kısa Kaçamak",
+   "stops": [
+    {
+     "name": "Sarpıncık Feneri",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Karaburun'un ucundaki tenha deniz feneri; son kısım toprak yol, dikkatli sür. Ege'nin en geniş açık deniz manzaralarından biri."
+    },
+    {
+     "name": "Mordoğan Sahili Yürüyüşü",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Balıkçı tekneleriyle sakin bir iskele; kışın neredeyse tenha, kısa bir kahve molası için de uygun."
+    },
+    {
+     "name": "Sazak Eski Rum Köyü",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "1923 mübadelesinde terk edilmiş, rüzgâr türbinleri arasında kalmış hayalet köy; net tabela yok, harita üzerinden konumu önceden işaretle."
+    },
+    {
+     "name": "Poyraz Balık Evi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Mordoğan'da 5 puanlı, taze deniz ürünleriyle bilinen küçük bir balık evi; dönüş öncesi hafif bir öğle yemeği için ideal, tur burada biter."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rakım Sıfır Restoran & Pub",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 600,
+     "tips": "Mordoğan'da Poyraz'a alternatif, Akdeniz ve deniz mahsulleri ağırlıklı bir diğer mekan."
+    },
+    {
+     "name": "Mimoza Koyu",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Karaburun rotasında az bilinen sakin bir koy; kışın kimse yok, kısa bir manzara molası için iyi."
+    }
+   ]
+  }
+ ]
+}

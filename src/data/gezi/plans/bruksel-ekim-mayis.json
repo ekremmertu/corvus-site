@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "bruksel-ekim-mayis",
+ "altSlug": "brussels-october-may",
+ "citySlug": "bruksel",
+ "destKey": "brussels",
+ "city": "Brüksel",
+ "region": null,
+ "country": "Belçika",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 380,
+  "attractions": 180,
+  "transport": 90,
+  "misc": 80
+ },
+ "notes": [
+  "STIB günlük 8 EUR; şehir merkezi yürünür. Brugge/Gent'e tren (hafta sonu %50 indirimli bilet). Zaventem'e tren 20 dakika.",
+  "Aralıkta Grand-Place ışık gösterisi ve Noel pazarı (Plaisirs d'Hiver); kışın hava 3-7°C ve yağmurlu, müzeler ve bira barları sıcak; nisan-mayısta Laeken serleri açık.",
+  "Waffle 3-7 EUR (Brüksel = dikdörtgen hafif, Liège = yoğun şekerli), frites 4-6, moules-frites 25, bira 4-6; bahşiş için hesabı yuvarla.",
+  "Belçika'da Fransızca (Brüksel) ve Flamanca (Brugge/Gent) konuşulur; İngilizce de işe yarar. Rue des Bouchers restoranlarından kaçın (turist tuzağı); Chez Léon istisna.",
+  "Müzeler pazartesi kapalı; Atomium ve Belfry biletini online al; ayın ilk çarşambası birçok müze öğleden sonra ücretsiz.",
+  "Çikolata: Neuhaus, Marcolini, Wittamer, Mary; Leonidas ucuz ve iyi."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Grand-Place & merkez",
+   "stops": [
+    {
+     "name": "Grand-Place",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "UNESCO meydanı; lonca evleri ve Belediye Sarayı, 10:00'dan önce boş; 2 sokak ötede Manneken Pis; çift yıllarda ağustosta çiçek halısı."
+    },
+    {
+     "name": "Galeries Royales Saint-Hubert",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "1847 cam çatılı pasaj; Neuhaus'un ilk dükkânı, Pierre Marcolini."
+    },
+    {
+     "name": "Maison Dandoy Grand-Place",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 7,
+     "tips": "1829'dan beri speculoos ve Brüksel waffle'ı (dikdörtgen, hafif); Liège waffle'ı (yoğun, şekerli) ile karşılaştır."
+    },
+    {
+     "name": "Fritland",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 8,
+     "tips": "Meydan yanı friterie; çift kızartma patates ve mitraillette sandviçi, UNESCO kültürü."
+    },
+    {
+     "name": "Delirium Café",
+     "category": "food",
+     "start": "18:00",
+     "end": "20:00",
+     "cost": 12,
+     "tips": "2.000+ bira ile Guinness rekortmeni; Impasse de la Fidélité, Jeanneke Pis karşısı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Chez Léon",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 25,
+     "tips": "1893'ten beri moules-frites (midye+patates); Rue des Bouchers."
+    },
+    {
+     "name": "Museum of the City of Brussels Maison du Roi",
+     "category": "culture",
+     "start": "13:30",
+     "end": "14:15",
+     "cost": 10,
+     "tips": "Meydanın kral evinde şehir müzesi; Manneken Pis kostümleri."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Sablon, Magritte & Marolles",
+   "stops": [
+    {
+     "name": "Magritte Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 10,
+     "tips": "200+ sürrealist eser (melon şapka, elma); Royal Museums'la kombine 15, pazartesi kapalı."
+    },
+    {
+     "name": "Place du Grand Sablon",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Antikacılar ve çikolatacılar (Wittamer, Marcolini); hafta sonu antika pazarı."
+    },
+    {
+     "name": "Le Pain Quotidien Sablon",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 15,
+     "tips": "Zincirin ilk şubesi; tartine ve çorba."
+    },
+    {
+     "name": "Place du Jeu de Balle Bit Pazarı",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Marolles'da her gün bit pazarı (sabah iyi); Brueghel mahallesi."
+    },
+    {
+     "name": "Musical Instruments Museum MIM",
+     "category": "culture",
+     "start": "16:15",
+     "end": "17:30",
+     "cost": 15,
+     "tips": "Art nouveau Old England binası; kulaklıkla enstrümanlar, çatı kafede manzara."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Wittamer Sablon",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 12,
+     "tips": "1910 pastanesi; kraliyet tedarikçisi."
+    },
+    {
+     "name": "Royal Museums of Fine Arts",
+     "category": "culture",
+     "start": "16:15",
+     "end": "17:30",
+     "cost": 10,
+     "tips": "Bruegel ve Rubens; MIM yerine (Magritte ile kombine)."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Brugge",
+   "stops": [
+    {
+     "name": "Markt Bruges",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Tren 1 saat (Brussels-Midi, ~15 EUR); Belfry meydanı ve lonca evleri."
+    },
+    {
+     "name": "Belfry of Bruges",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "366 basamak; çan odası ve kanal şehri panoraması, saatli bilet."
+    },
+    {
+     "name": "Bruges Kanal Tekne Turu",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 12,
+     "tips": "30 dakikalık tekne; Rozenhoedkaai (en çok fotoğraflanan köşe), 5 iskele."
+    },
+    {
+     "name": "De Halve Maan Brewery",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 18,
+     "tips": "Brugse Zot birası; tur 45 dakika + bira, çatı manzarası, öğle."
+    },
+    {
+     "name": "Begijnhof Bruges",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "1245 beguine avlusu; huzur, Minnewater aşk gölü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Frituur Bruges Markt",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:15",
+     "cost": 6,
+     "tips": "Belfry altındaki iki patates kulübesi."
+    },
+    {
+     "name": "Groeningemuseum",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "Flaman primitifleri (van Eyck); Begijnhof yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Atomium & Laeken",
+   "stops": [
+    {
+     "name": "Atomium",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:45",
+     "cost": 16,
+     "tips": "1958 Expo'nun 102 m demir kristali; küreler ve manzara, online (Design Museum kombine)."
+    },
+    {
+     "name": "Mini-Europe",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 19,
+     "tips": "Avrupa'nın 350 minyatürü; Atomium dibi, çocuklarla."
+    },
+    {
+     "name": "Atomium Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 30,
+     "tips": "Üst kürede manzaralı restoran; yerine dıştaki kafe."
+    },
+    {
+     "name": "Royal Greenhouses of Laeken",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 4,
+     "tips": "Yalnız nisan-mayıs aylarında 3 hafta açık; diğer zamanlarda Laeken Parkı ve Japon kulesi dıştan."
+    },
+    {
+     "name": "Parc du Cinquantenaire",
+     "category": "nature",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Zafer takı ve müzeler; AB mahallesi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Frit Flagey",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 6,
+     "tips": "Şehrin en iyi friterie'si (Flagey meydanı); tramvayla."
+    },
+    {
+     "name": "Autoworld Cinquantenaire",
+     "category": "culture",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 15,
+     "tips": "300 klasik araba; park yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Gent",
+   "stops": [
+    {
+     "name": "Gravensteen",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 13,
+     "tips": "Tren 35 dakika; kontların şatosu, komik sesli rehber, surlardan şehir."
+    },
+    {
+     "name": "Graslei & Korenlei",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Kanal kıyısı lonca evleri; en güzel Gent kadrajı, St Michael köprüsü."
+    },
+    {
+     "name": "Saint Bavo's Cathedral Ghent Altarpiece",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 16,
+     "tips": "Van Eyck'in Kuzu'ya Tapınma paneli (AR turu); Belfry karşısı."
+    },
+    {
+     "name": "Patershol",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "Ortaçağ mahallesi restoranları; Gentse waterzooi (tavuk çorbası)."
+    },
+    {
+     "name": "Ghent Kanal Tekne Turu",
+     "category": "nature",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 9,
+     "tips": "40 dakika; Graslei'den kalkış, dönüş treni."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Belfry of Ghent",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 11,
+     "tips": "UNESCO çan kulesi; katedral yerine."
+    },
+    {
+     "name": "Frituur Filip Gent",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 6,
+     "tips": "Gent patates kulübesi."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Ixelles, Art Nouveau & AB",
+   "stops": [
+    {
+     "name": "Horta Museum",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 12,
+     "tips": "Art nouveau'nun mucidi Victor Horta'nın evi; Saint-Gilles, saatli bilet, pazartesi kapalı."
+    },
+    {
+     "name": "Avenue Louise Art Nouveau Yürüyüşü",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Hôtel Tassel ve Solvay cepheleri; Ixelles."
+    },
+    {
+     "name": "Place Flagey & Ixelles Gölleri",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Meydan ve göl kenarı; hafta sonu pazar."
+    },
+    {
+     "name": "Belga Café Flagey",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 15,
+     "tips": "Flagey meydanı kafesi; croque ve bira, Frit Flagey karşısı."
+    },
+    {
+     "name": "European Parliament Parlamentarium",
+     "category": "culture",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Ücretsiz interaktif AB müzesi; Hemicycle turu pasaportla."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Moeder Lambic Fontainas",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 15,
+     "tips": "Lambic ve gueuze bira barı; Delirium'dan yerel."
+    },
+    {
+     "name": "Museum of Natural Sciences",
+     "category": "culture",
+     "start": "14:45",
+     "end": "16:00",
+     "cost": 13,
+     "tips": "Avrupa'nın en büyük dinozor salonu; Parlamentarium yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Çikolata sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Choco-Story Brussels",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 12,
+     "tips": "Çikolata müzesi ve gösterim; Grand-Place yanı."
+    },
+    {
+     "name": "Pierre Marcolini Grand Sablon",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Belçika'nın en iyi çikolatacılarından; hediyelik kutu."
+    },
+    {
+     "name": "Noordzee Mer du Nord",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 15,
+     "tips": "Sainte-Catherine'de ayakta balık barı; karides kroketi ve beyaz şarap, veda."
+    },
+    {
+     "name": "Gare Centrale",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Zaventem treni 20 dakika (Midi/Central); Charleroi için otobüs 1 saat, veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Le Pain Quotidien Sainte-Catherine",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 12,
+     "tips": "Meydan kafesi."
+    },
+    {
+     "name": "Comics Art Museum",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 13,
+     "tips": "Tenten ve Şirinler; Horta binası, çikolata yerine."
+    }
+   ]
+  }
+ ]
+}

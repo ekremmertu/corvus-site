@@ -1,0 +1,21 @@
+{
+ "source": "05c395449541",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "M.Ö. 4. yüzyıldan kalma, hâlâ yaz konserlerinde kullanılan 13.000 kişilik antik tiyatro. Giriş ücretsiz ama gölgelik yok, öğlen çok sıcak olur. En üst sıradan kale ve liman manzarası çok güzel bir fotoğraf açısı sunar.",
+  "d1.s2.tips": "Bodrum'un onlarca yıldır ayakta kalan az sayıdaki esnaf lokantalarından biri; tezgâhtan seç-al usulü günün ev yemekleri sunuluyor. Nohutlu incik veya patlıcan musakka öğlen 13:00 gibi taze çıkar, geç kalırsan tükeniyor.",
+  "d1.s3.tips": "Şehir merkezinde, bir yanda kale, bir yanda açık deniz manzaralı tamamen ücretsiz halk plajı. Kendi havlunu getir; kenardaki kafeden şezlong kiralamak istersen yaklaşık 300 TL.",
+  "d2.s3.tips": "Marina boyunca uzanan, kale ışıklarının denize yansıdığı akşam yürüyüş güzergâhı. Yat ve gulet manzarasıyla gece fotoğrafı için ücretsiz ve her zaman açık.",
+  "d2.b1.tips": "1970'lerden beri süren 'Bodrum sandaleti' zanaatını hâlâ birkaç küçük atölyede elle üretiyorlar. Turistik mağazalarla karıştırma, en az iki usta dükkânı gez ve fiyat pazarlığı yap.",
+  "d4.s0.tips": "Ege'nin en büyük lüks marinalarından biri; süper yatları izlemek ve butik dükkânları gezmek için sabah erken saatler daha sakin. Marina boyunca yürüyüş ücretsiz.",
+  "d4.b0.tips": "Türkbükü'nün diğer mekânlarına göre daha uygun fiyatlı bir seçenek; Akdeniz mutfağı ve deniz ürünleri sunuyor. Dalgıç doluysa iyi bir alternatif.",
+  "d5.s0.tips": "80 yıllık aile işletmesinin bahçesinde serpme köy kahvaltısı; zeytinyağlı sarma ve taze sıkım zeytinyağları tezgâhtan gelir. Yalnızca önceden telefonla haber verilirse hazırlanıyor, habersiz gelen müşteri kabul edilmiyor.",
+  "d5.s5.tips": "Bitez sahilinde yerel balıkçıların tuttuğu günlük balıkla çalışan bir restoran. Tescilli yemeği Levrek Lokum'u mutlaka dene, kılçıksız hazırlanıyor.",
+  "d6.s3.tips": "Uzun dönüş yolculuğu sonrası Bodrum merkezde hafif ama doyurucu bir akşam yemeği için yerel bir öneri. Meze tabağı paylaşarak başlamak iyi bir seçenek.",
+  "d7.s0.tips": "Milas Ovası'na hâkim bir kayalık üzerinde, Menteşe Beyliği döneminden kalma kale ve külliye. Bodrum'dan yaklaşık 1 saatlik yol, dolmuşla veya araçla gidilebiliyor.",
+  "note0": "Esnaf lokantaları ve semt pazarlarında çoğunlukla nakit geçer; kart bazı küçük yerlerde çalışmayabilir, yanında bozuk para bulundur.",
+  "note3": "Temmuz'da öğle güneşi (12:00-16:00) çok sert; plan bu saatlere yüzme veya gölge molası koyuyor. Şapka ve bol su şart.",
+  "niche.why_hidden": "80 yıldır aynı ailenin işlettiği soğuk sıkım zeytinyağı fabrikası; bahçesinde verdiği serpme köy kahvaltısı hiçbir popüler Bodrum rehberinde geçmiyor, sadece yerel bilenlerin gittiği bir adres."
+ },
+ "warnings": []
+}

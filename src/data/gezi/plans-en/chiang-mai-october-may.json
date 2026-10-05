@@ -1,0 +1,469 @@
+{
+ "lang": "en",
+ "slug": "chiang-mai-october-may",
+ "altSlug": "chiang-mai-ekim-mayis",
+ "citySlug": "chiang-mai",
+ "destKey": "chiang-mai",
+ "city": "Chiang Mai",
+ "region": null,
+ "country": "Thailand",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "THB",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 5000,
+  "attractions": 9000,
+  "transport": 3000,
+  "misc": 2000
+ },
+ "notes": [
+  "Grab (taxi/moto) is cheap; red songthaew 30-60 THB; scooter 250/day (licence needed). The airport is 15 minutes from the city.",
+  "November to February is cool and dry (best; Yi Peng lantern festival and Loy Krathong in November); March to April brings burning smoke (air pollution is bad, bring a mask), and the Songkran water fight is in April.",
+  "TDAC digital arrival card; Turkish citizens get 60 days visa-free. Bring cash in THB; cards work in malls.",
+  "Khao soi 50-70, street food 40-60, restaurant 150-250; elephant park 2,500, cooking class 1,200-1,500; round up tips.",
+  "Cover shoulders and knees in temples; NO elephant riding, sanctuaries only. Visit Doi Suthep in the morning and the Sunday Walking Street in the evening.",
+  "Coffee culture is in Nimman; Akha Ama, Ristr8to, Graph."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old City temples",
+   "stops": [
+    {
+     "name": "Wat Phra Singh",
+     "category": "culture",
+     "start": "08:00",
+     "end": "09:00",
+     "cost": 40,
+     "tips": "Golden Lanna-style temple with the Lion Buddha; come in the morning to see the monks."
+    },
+    {
+     "name": "Wat Chedi Luang",
+     "category": "culture",
+     "start": "09:15",
+     "end": "10:15",
+     "cost": 50,
+     "tips": "Giant brick stupa from 1391 (partly ruined by an earthquake); join a monk chat in the afternoon."
+    },
+    {
+     "name": "Khao Soi Khun Yai",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 60,
+     "tips": "Northern Thailand's coconut curry noodle soup (khao soi); closes at 14:00, Sri Phum."
+    },
+    {
+     "name": "Three Kings Monument & Lanna Folklife Museum",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 90,
+     "tips": "The three founding kings and a museum of Lanna culture (air-conditioned)."
+    },
+    {
+     "name": "Tha Phae Gate",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Old city gate with pigeons; on Sundays the Walking Street starts here."
+    }
+   ],
+   "backups": [
+    {
+     "name": "SP Chicken",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 120,
+     "tips": "Skewered grilled chicken (gai yang); next to Wat Phra Singh."
+    },
+    {
+     "name": "Wat Chiang Man",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The city's oldest temple (1296); elephant stupa, a stand-in for the museum."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Doi Suthep & Nimman",
+   "stops": [
+    {
+     "name": "Wat Phra That Doi Suthep",
+     "category": "culture",
+     "start": "07:30",
+     "end": "09:30",
+     "cost": 50,
+     "tips": "Mountain temple at 1,000 m; red songthaew 60 THB, 306-step naga staircase, golden stupa and city views, quiet in the morning."
+    },
+    {
+     "name": "Wat Pha Lat",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Hidden temple in the forest; 45-minute descent along the Monk's Trail, waterfall."
+    },
+    {
+     "name": "Nimmanhaemin Road",
+     "category": "shopping",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Nimman: cafes, One Nimman, Think Park, boutiques."
+    },
+    {
+     "name": "Tong Tem Toh Nimman",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 150,
+     "tips": "Northern Thai cooking; nam prik ong (pork and tomato chilli dip) and sai oua sausage, expect a queue."
+    },
+    {
+     "name": "Maya Mall Rooftop Bar",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 150,
+     "tips": "Sunset and mountain views in Nimman; quick stop."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ristr8to Nimman",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:45",
+     "cost": 120,
+     "tips": "Award-winning latte art coffee."
+    },
+    {
+     "name": "Chiang Mai University Ang Kaew Lake",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Campus lake with mountain views; a stand-in for Nimman."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Elephant Nature Park",
+   "stops": [
+    {
+     "name": "Elephant Nature Park",
+     "category": "nature",
+     "start": "08:00",
+     "end": "15:30",
+     "cost": 2500,
+     "tips": "Sanctuary for rescued elephants; NO riding, feeding and a walk in the river, book online months ahead, vegetarian lunch included, hotel pickup 60 km."
+    },
+    {
+     "name": "Mae Taeng River Viewpoint",
+     "category": "nature",
+     "start": "15:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Valley views on the way back; photo stop."
+    },
+    {
+     "name": "Huen Phen",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 200,
+     "tips": "Restaurant in a 1970s Lanna house; khantoke platter, rooms full of antiques."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Elephant Jungle Sanctuary",
+     "category": "nature",
+     "start": "08:00",
+     "end": "15:30",
+     "cost": 2400,
+     "tips": "Alternative ethical sanctuary; half day."
+    },
+    {
+     "name": "Dash! Restaurant Old City",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 150,
+     "tips": "Thai food in a teak house; a stand-in for Huen Phen."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Doi Inthanon",
+   "stops": [
+    {
+     "name": "Doi Inthanon Summit",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 300,
+     "tips": "Thailand's highest point at 2,565 m; 2 hours by tour or rental car, 10°C in the morning, Ang Ka moss forest trail."
+    },
+    {
+     "name": "King & Queen Pagodas",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 40,
+     "tips": "Twin pagodas and gardens; sea of clouds."
+    },
+    {
+     "name": "Wachirathan Waterfall",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Thundering 80 m waterfall; rainbows."
+    },
+    {
+     "name": "Pha Dok Siew Nature Trail",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 200,
+     "tips": "2.5 km through forest and rice terraces with a Karen village guide; coffee in Mae Klang Luang village."
+    },
+    {
+     "name": "Mae Klang Luang Karen Village",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 100,
+     "tips": "Lunch on a terrace; village coffee and fish."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sirithan Waterfall",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Alternative waterfall; no crowds."
+    },
+    {
+     "name": "Royal Project Inthanon Restaurant",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 150,
+     "tips": "Royal Project agricultural station; trout and strawberries."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Cooking class & Warorot",
+   "stops": [
+    {
+     "name": "Thai Farm Cooking School",
+     "category": "food",
+     "start": "08:30",
+     "end": "13:30",
+     "cost": 1500,
+     "tips": "Cooking class on an organic farm; market shopping, 5 dishes (khao soi, curry paste), hotel pickup."
+    },
+    {
+     "name": "Warorot Market Kad Luang",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Locals' market; dried fruit, sai oua, Lanna fabrics, Chinatown."
+    },
+    {
+     "name": "Wat Ket Karam & Ping River",
+     "category": "landmark",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Temple and cafes across the river; Wat Ket neighbourhood."
+    },
+    {
+     "name": "Woo Cafe Ping River",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 150,
+     "tips": "Gallery cafe; riverside."
+    },
+    {
+     "name": "Night Bazaar Chiang Mai",
+     "category": "shopping",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "Chang Khlan night market; open every night, bargain, Kalare food court."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Basil Cookery School",
+     "category": "food",
+     "start": "08:30",
+     "end": "13:30",
+     "cost": 1200,
+     "tips": "Class in the Old City; a stand-in for the farm."
+    },
+    {
+     "name": "Ploen Ruedee Night Market",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 200,
+     "tips": "Food courtyard with live music next to the night market."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Mae Kampong & Sticky Waterfall",
+   "stops": [
+    {
+     "name": "Bua Tong Sticky Waterfall",
+     "category": "nature",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Climb the limestone 'sticky' waterfall (non-slip); 1 hour north of the city, free."
+    },
+    {
+     "name": "Mae Kampong Village",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Mountain village in the clouds; tea and coffee, wooden houses, Thai villagers."
+    },
+    {
+     "name": "Mae Kampong Village Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 100,
+     "tips": "Local miang (fermented tea leaves) and northern dishes."
+    },
+    {
+     "name": "Mae Kampong Waterfall",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Seven-tier waterfall in the village; walk."
+    },
+    {
+     "name": "Flight of the Gibbon Zipline",
+     "category": "nature",
+     "start": "15:15",
+     "end": "17:00",
+     "cost": 3000,
+     "tips": "Forest zipline (optional, expensive); or the San Kamphaeng hot springs."
+    }
+   ],
+   "backups": [
+    {
+     "name": "San Kamphaeng Hot Springs",
+     "category": "nature",
+     "start": "15:15",
+     "end": "17:00",
+     "cost": 100,
+     "tips": "Foot soak and boiled eggs at the hot springs; a stand-in for the zipline."
+    },
+    {
+     "name": "Mae Kampong Coffee House",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 80,
+     "tips": "Village coffee and miang; a lighter stand-in for the restaurant."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sunday Walking Street and a gentle goodbye",
+   "stops": [
+    {
+     "name": "Wat Umong",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Tunnel temple in the forest; monks' sayings hang in the trees."
+    },
+    {
+     "name": "Baan Kang Wat Artists' Village",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Wooden workshop village; ceramics, cafe, next to Wat Umong."
+    },
+    {
+     "name": "Khao Soi Mae Sai",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 60,
+     "tips": "The locals' khao soi; Ratchaphuek."
+    },
+    {
+     "name": "Chiang Mai Airport",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 150,
+     "tips": "15 minutes from the city by Grab; goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sunday Walking Street Ratchadamnoen",
+     "category": "shopping",
+     "start": "17:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "If it's Sunday: a 1 km handicraft market with temple courtyard food; book a late flight."
+    },
+    {
+     "name": "Blue Diamond Breakfast Club",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 120,
+     "tips": "Old City breakfast and bakery."
+    }
+   ]
+  }
+ ]
+}

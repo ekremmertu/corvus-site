@@ -1,0 +1,484 @@
+{
+ "lang": "tr",
+ "slug": "auckland-ekim-mayis",
+ "altSlug": "auckland-october-may",
+ "citySlug": "auckland",
+ "destKey": "auckland",
+ "city": "Auckland",
+ "region": null,
+ "country": "Yeni Zelanda",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "NZD",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 520,
+  "attractions": 700,
+  "transport": 180,
+  "misc": 100
+ },
+ "notes": [
+  "AT HOP/temassız; feribotlar Fullers (Waiheke/Rangitoto ayrı bilet). Havalimanı SkyDrive otobüs 45 dakika. Piha/Hobbiton için araç veya tur (sol trafik).",
+  "Aralık-Şubat yaz mevsimidir, 22-26°C; Waiheke ve plajlar canlı. Pohutukawa Aralık'ta kırmızı çiçek açar. Noel yaz ortasına denk gelir, oteller dolu.",
+  "NZeTA + IVL turizm vergisi online ödenir; Türk vatandaşları için vize gerekir (kontrol et). Kahve 5-6 NZD, kafe yemeği 25, tur 250; bahşiş yok.",
+  "Hobbiton için haftalar önce online rezervasyon yap; Waitomo'da fotoğraf yasak; Rangitoto'da su ve dükkân yok; Piha'da akıntı ölümcül, bayraklara uy.",
+  "Maori kültürü müzede, haka ile; 'kia ora' selamlaşma sözüdür. Fish and chips, flat white ve hokey pokey dondurma dene.",
+  "Güneş UV çok yüksek (ozon); yazın 15 dakikada yanarsın."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "AT HOP / temassız",
+  "why_chosen": "Otobüs, tren, feribot (Devonport/Waiheke hariç bazıları); temassız banka kartı da geçer",
+  "coverage": "AT otobüs, tren, feribot",
+  "where_to_buy": "Kendi temassız kartın veya AT HOP 5 NZD",
+  "cost": 0,
+  "currency_code": "NZD"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Şehir & Sky Tower",
+   "stops": [
+    {
+     "name": "Sky Tower",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 40,
+     "tips": "328 m, Güney Yarımküre'nin en yüksek kulesi; cam zemin, SkyWalk/SkyJump ekstra, online."
+    },
+    {
+     "name": "Auckland Art Gallery",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Yerli ve Pasifik sanatı; ücretsiz (yabancıya 20 NZD), kauri ahşap çatı."
+    },
+    {
+     "name": "Albert Park & Üniversite",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Viktorya parkı; çiçek saati."
+    },
+    {
+     "name": "Depot Eatery Federal Street",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 35,
+     "tips": "Al Brown'ın istiridye ve deniz barı; Sky Tower altı."
+    },
+    {
+     "name": "Viaduct Harbour & Wynyard Quarter",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Yat limanı ve Amerika Kupası tekneleri; Silo Park, Maritime Museum (25 NZD)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Auckland Fish Market Wynyard",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Balık pazarı yemek salonu; fish and chips."
+    },
+    {
+     "name": "New Zealand Maritime Museum",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 25,
+     "tips": "Polinezya kanolarından yatlara; tekneyle liman turu."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Waiheke Adası",
+   "stops": [
+    {
+     "name": "Waiheke Feribotu Fullers",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:40",
+     "cost": 60,
+     "tips": "Downtown'dan 40 dakika (gidiş-dönüş ~60 NZD); Hauraki Körfezi."
+    },
+    {
+     "name": "Oneroa Beach & Köyü",
+     "category": "nature",
+     "start": "09:45",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Kış sahil yürüyüşü ve galeriler."
+    },
+    {
+     "name": "Mudbrick Vineyard",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 45,
+     "tips": "Şehir manzaralı bağ ve restoran; syrah tadımı, rezervasyon."
+    },
+    {
+     "name": "Cable Bay Vineyards",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Komşu bağ; şarap ve peynir tabağı, teras."
+    },
+    {
+     "name": "Onetangi Beach",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Kış plaj yürüyüşü; Stonyridge bağı (Larose) alternatif."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Man O' War Vineyard",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 30,
+     "tips": "Adanın uzak ucunda plaj kenarı bağ; taksi/araç."
+    },
+    {
+     "name": "Waiheke EcoZip",
+     "category": "nature",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 120,
+     "tips": "Zipline orman ve deniz manzarası; şarap yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Volkanlar: Mount Eden & Devonport",
+   "stops": [
+    {
+     "name": "Mount Eden Maungawhau",
+     "category": "nature",
+     "start": "08:30",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "196 m volkan krateri; 360° şehir ve Sky Tower, sabah ışığı."
+    },
+    {
+     "name": "Auckland War Memorial Museum",
+     "category": "culture",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 32,
+     "tips": "Maori salonu (savaş kanosu, marae), haka gösterisi (ek), volkan galerisi; Domain parkı."
+    },
+    {
+     "name": "Devonport Feribotu",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "13:45",
+     "cost": 8,
+     "tips": "12 dakikalık feribot; Viktorya kasabası."
+    },
+    {
+     "name": "Mount Victoria Devonport",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Kısa tırmanış; şehir silüeti ve Rangitoto karşıda, kışla toplar."
+    },
+    {
+     "name": "Devonport Chocolates & Sahil",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 10,
+     "tips": "Kasaba ana cadde; çikolata ve Cheltenham plajı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Wintergarden Domain",
+     "category": "nature",
+     "start": "11:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Müze yanı seralar; ücretsiz."
+    },
+    {
+     "name": "Devonport Stone Oven Bakery",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 12,
+     "tips": "Fırın kafe."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Piha & Waitākere",
+   "stops": [
+    {
+     "name": "Arataki Visitor Centre",
+     "category": "nature",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Waitākere ormanı kapısı (araç 45 dakika); Maori oymaları ve manzara."
+    },
+    {
+     "name": "Kitekite Falls",
+     "category": "nature",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "40 m şelale; kolay 1 saat gidiş-dönüş, havuz."
+    },
+    {
+     "name": "Piha Beach & Lion Rock",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Kış dalgaları; sahil yürüyüşü ve kaya."
+    },
+    {
+     "name": "Piha Cafe",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Plaj kafesi; balık ve kahve."
+    },
+    {
+     "name": "Karekare Beach",
+     "category": "nature",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Piyano filmi plajı; şelale, boş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Muriwai Gannet Colony",
+     "category": "nature",
+     "start": "15:15",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Sümsük kuşu kolonisi (Ağustos-Mart); Karekare yerine."
+    },
+    {
+     "name": "Elevation Café Waitakere",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 18,
+     "tips": "Scenic Drive manzaralı kafe."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Hobbiton & Waitomo",
+   "stops": [
+    {
+     "name": "Hobbiton Movie Set",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 120,
+     "tips": "Matamata 2,5 saat (tur ~250 NZD Auckland'dan); 44 hobbit deliği, Green Dragon'da bira dahil; online, haftalar önce."
+    },
+    {
+     "name": "Matamata Öğle",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 20,
+     "tips": "Kasaba kafesi; pie."
+    },
+    {
+     "name": "Waitomo Glowworm Caves",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 65,
+     "tips": "Ateşböceği mağarası; sessiz tekne, fotoğraf yasak, Ruakuri ekstra."
+    },
+    {
+     "name": "Waitomo Caves Village",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Kısa mola; dönüş 3 saat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ruakuri Cave",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 90,
+     "tips": "Spiral girişli mağara; fotoğraf serbest, Glowworm yerine."
+    },
+    {
+     "name": "Huhu Cafe Waitomo",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 25,
+     "tips": "Mağara kasabasında en iyi kafe."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Rangitoto & Ponsonby",
+   "stops": [
+    {
+     "name": "Rangitoto Island Feribotu",
+     "category": "landmark",
+     "start": "09:15",
+     "end": "09:45",
+     "cost": 45,
+     "tips": "25 dakika feribot (Fullers); 600 yıllık volkan adası."
+    },
+    {
+     "name": "Rangitoto Summit Track",
+     "category": "nature",
+     "start": "09:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "1 saat tırmanış 260 m; lav mağaraları ve krater, dünyanın en büyük pohutukawa ormanı, su getir (dükkân yok)."
+    },
+    {
+     "name": "Rangitoto Wharf Dönüş",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Feribot 12:45/15:30; şehre dönüş."
+    },
+    {
+     "name": "Ponsonby Road",
+     "category": "shopping",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Butikler ve kafeler; Ponsonby Central yemek avlusu."
+    },
+    {
+     "name": "Ponsonby Central",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 25,
+     "tips": "Yemek pazarı; Bird on a Wire tavuk, El Sizzling Chorizo."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tiritiri Matangi Island",
+     "category": "nature",
+     "start": "09:15",
+     "end": "15:00",
+     "cost": 95,
+     "tips": "Kuş cenneti adası (takahe, kokako); çarşamba-pazar feribot, Rangitoto yerine."
+    },
+    {
+     "name": "Ponsonby Dizengoff",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 22,
+     "tips": "Kahvaltı klasiği."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Mission Bay — hafif veda",
+   "stops": [
+    {
+     "name": "Tamaki Drive Yürüyüşü",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Sahil yolu; Okahu Bay ve Rangitoto manzarası."
+    },
+    {
+     "name": "Mission Bay Beach",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Şehir plajı ve çeşme; Kelly Tarlton's akvaryumu yakın."
+    },
+    {
+     "name": "Mission Bay Kahvaltı",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 22,
+     "tips": "Plaj karşısı kafeler; eggs benedict veda."
+    },
+    {
+     "name": "Britomart SkyDrive",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 20,
+     "tips": "Havalimanı otobüsü SkyDrive 45 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kelly Tarlton's Sea Life",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 45,
+     "tips": "Penguen ve köpekbalığı tüneli; plaj yerine."
+    },
+    {
+     "name": "Giapo Ice Cream",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 15,
+     "tips": "Sanat gibi dondurma; Gore Street."
+    }
+   ]
+  }
+ ]
+}

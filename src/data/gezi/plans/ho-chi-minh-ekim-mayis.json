@@ -1,0 +1,493 @@
+{
+ "lang": "tr",
+ "slug": "ho-chi-minh-ekim-mayis",
+ "altSlug": "ho-chi-minh-city-october-may",
+ "citySlug": "ho-chi-minh",
+ "destKey": "ho-chi-minh-city",
+ "city": "Ho Chi Minh",
+ "region": null,
+ "country": "Vietnam",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "VND",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 2500000,
+  "attractions": 1600000,
+  "transport": 900000,
+  "misc": 600000
+ },
+ "notes": [
+  "Grab (motor veya araç) ucuz ve güvenli; motor taksi 30.000-60.000 VND. Metro 1. hattı (Ben Thanh-Suoi Tien) açık.",
+  "Mayıs-Ekim yağmur mevsimi: her öğleden sonra 1 saat sağanak var, sabah gez. Hava 32°C ve nemli.",
+  "Pho 60-90.000 VND, banh mi 30-60.000, kahve 30-60.000; sokak tabureleri güvenli, buz fabrika buzu.",
+  "Cu Chi ve Mekong için tur (otelden alma dahil) en pratik; Ben Duoc tünelleri Ben Dinh'den sakin.",
+  "Karşıdan karşıya sabit hızla yürü (motorlar seni geçer); kapkaç riski nedeniyle telefonu yolda elinde tutma.",
+  "Bahşiş beklenmez; pazarlık pazarda %30-50."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "District 1 klasikleri",
+   "stops": [
+    {
+     "name": "War Remnants Museum",
+     "category": "culture",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 40000,
+     "tips": "Vietnam Savaşı müzesi; ağır ama önemli, sabah serin."
+    },
+    {
+     "name": "Independence Palace",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 65000,
+     "tips": "1975'te tankların girdiği saray; 60'lar mimarisi ve sığınak."
+    },
+    {
+     "name": "Notre-Dame Cathedral Saigon",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Fransız katedrali (restorasyon) ve karşısında Merkez Postane."
+    },
+    {
+     "name": "Pho Hoa Pasteur",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 90000,
+     "tips": "1968'den beri pho; Pasteur Caddesi, klasik."
+    },
+    {
+     "name": "Ben Thanh Market",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Şehrin simge pazarı; kahve, kurutulmuş mango, pazarlık şart."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Banh Mi Huynh Hoa",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 60000,
+     "tips": "Saigon'un en ünlü banh mi'si; 10 çeşit et, kuyruk."
+    },
+    {
+     "name": "Saigon Central Post Office",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Eiffel'in tasarladığı postane; içeriden gör."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Cu Chi Tünelleri",
+   "stops": [
+    {
+     "name": "Cu Chi Tunnels Ben Duoc",
+     "category": "culture",
+     "start": "08:00",
+     "end": "12:00",
+     "cost": 125000,
+     "tips": "Şehre 1,5 saat (tur ~500.000 VND veya 13 numaralı otobüs). 200 km tünel ağı; Ben Duoc daha az turistik. 20-100 m sürünme var."
+    },
+    {
+     "name": "Cu Chi Tapyoka Tadımı",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Tünel çıkışında savaş dönemi tapyokası ve çay; tur dahil."
+    },
+    {
+     "name": "Cu Chi Yerel Lokanta",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 80000,
+     "tips": "Dönüş yolunda com tam (kırık pilav)."
+    },
+    {
+     "name": "Jade Emperor Pagoda",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Saigon'un en atmosferik tapınağı; kaplumbağa havuzu ve tütsü."
+    },
+    {
+     "name": "Nguyen Hue Walking Street",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Belediye binası önünde yaya bulvarı; Cafe Apartment (42 Nguyen Hue) kafeleri."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cafe Apartment Saigon",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 60000,
+     "tips": "9 katlı kafe apartmanı; balkon manzarası."
+    },
+    {
+     "name": "Ho Chi Minh City Museum",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 30000,
+     "tips": "Şehir tarihi; pagoda yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Cho Lon (Chinatown)",
+   "stops": [
+    {
+     "name": "Binh Tay Market",
+     "category": "shopping",
+     "start": "08:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Cho Lon'un toptan pazarı; sabah canlı, sokak kahvaltısı."
+    },
+    {
+     "name": "Thien Hau Temple",
+     "category": "culture",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Deniz tanrıçası tapınağı; spiral tütsüler."
+    },
+    {
+     "name": "Cho Lon Sokak Yemeği Turu",
+     "category": "food",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 100000,
+     "tips": "Hu tieu (Cho Lon eriştesi) ve dim sum; Ha Ton Quyen sokağı."
+    },
+    {
+     "name": "Cha Tam Church",
+     "category": "culture",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Diem'in yakalandığı kilise; Cho Lon."
+    },
+    {
+     "name": "Bui Vien Walking Street",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "Sırt çantacı sokağı; plastik taburede bira ve gürültü."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Com Tam Ba Ghien",
+     "category": "food",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 70000,
+     "tips": "Şehrin en ünlü com tam'ı; Phu Nhuan."
+    },
+    {
+     "name": "Saigon Opera House",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 700000,
+     "tips": "A O Show bambu sirki; Bui Vien yerine."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Kahve & District 3",
+   "stops": [
+    {
+     "name": "Tan Dinh Pembe Kilise",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "Pembe boyalı katedral; fotoğraf."
+    },
+    {
+     "name": "Tan Dinh Market",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 50000,
+     "tips": "Yerel pazar; banh cuon kahvaltısı."
+    },
+    {
+     "name": "Vietnam Kahve Turu Cong Caphe",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 60000,
+     "tips": "Hindistan cevizi kahvesi; Cong Caphe ve egg coffee."
+    },
+    {
+     "name": "Turtle Lake",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Kaplumbağa gölü meydanı; gençler ve sokak atıştırmaları."
+    },
+    {
+     "name": "Secret Garden Restaurant Saigon",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 150000,
+     "tips": "Çatı bahçesinde Vietnam ev yemekleri; District 1."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Banh Xeo 46A",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 100000,
+     "tips": "Vietnam gözlemesi; Dinh Cong Trang."
+    },
+    {
+     "name": "Fine Arts Museum Saigon",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 30000,
+     "tips": "Kolonyal konakta sanat; kahve yerine."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Mekong Deltası",
+   "stops": [
+    {
+     "name": "My Tho Vinh Trang Pagoda",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "Şehre 1,5 saat (tur ~600.000 VND, öğle dahil); dev Budalar."
+    },
+    {
+     "name": "Mekong Nehri Tekne Turu",
+     "category": "nature",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Ana nehirde tekne; Unicorn Adası, bal ve hindistan cevizi şekeri atölyeleri."
+    },
+    {
+     "name": "Ben Tre Kano Turu",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Palmiye kanallarında sampan; tur dahil."
+    },
+    {
+     "name": "Mekong Ada Lokantası",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Fil kulağı balığı ve pirinç kâğıdı; tur dahil."
+    },
+    {
+     "name": "Ben Tre Hindistan Cevizi Atölyesi",
+     "category": "shopping",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Hindistan cevizi şekeri ve hediyelik."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Cai Be Yüzen Pazar",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Sabah yüzen pazar; My Tho yerine (erken çıkış)."
+    },
+    {
+     "name": "My Tho Hu Tieu Lokantası",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 60000,
+     "tips": "My Tho eriştesi; ada yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Thu Thiem & Bitexco",
+   "stops": [
+    {
+     "name": "Bitexco Saigon Skydeck",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 200000,
+     "tips": "49. kat gözlem; sabah net."
+    },
+    {
+     "name": "Ho Thi Ky Flower Market",
+     "category": "shopping",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Çiçek pazarı ve Kamboçya sokak yemeği; District 10."
+    },
+    {
+     "name": "Ho Thi Ky Kamboçya Erişte",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 70000,
+     "tips": "Num banh chok; pazar içinde."
+    },
+    {
+     "name": "Landmark 81 SkyView",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 300000,
+     "tips": "Vietnam'ın en yüksek binası; Binh Thanh."
+    },
+    {
+     "name": "Thu Thiem Nehir Kıyısı",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Yeni köprüden şehir silüeti gün batımı; kafeler."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Quan Ut Ut Thu Thiem",
+     "category": "food",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 200000,
+     "tips": "Amerikan BBQ nehir kenarı."
+    },
+    {
+     "name": "Saigon Nehir Otobüsü",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 15000,
+     "tips": "Bach Dang'dan nehir otobüsü; Landmark yerine ucuz."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sabah pazarı — hafif veda",
+   "stops": [
+    {
+     "name": "Tao Dan Park",
+     "category": "nature",
+     "start": "07:00",
+     "end": "08:00",
+     "cost": 0,
+     "tips": "Sabah tai chi ve kuş kafesi kahvesi; şehrin ritüeli."
+    },
+    {
+     "name": "Pho Le",
+     "category": "food",
+     "start": "08:15",
+     "end": "09:15",
+     "cost": 80000,
+     "tips": "District 5'te tatlı pho; veda kahvaltısı."
+    },
+    {
+     "name": "Saigon Square",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Uygun tekstil ve hediyelik; klimalı."
+    },
+    {
+     "name": "L'Usine Le Loi",
+     "category": "food",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 120000,
+     "tips": "Kafe-butik; kahve ve pastane, veda."
+    },
+    {
+     "name": "Tan Son Nhat Airport Bus 109",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Havalimanına otobüs 30 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Banh Mi 37 Nguyen Trai",
+     "category": "food",
+     "start": "08:15",
+     "end": "09:15",
+     "cost": 30000,
+     "tips": "Izgara köfteli banh mi; sokak arabası."
+    },
+    {
+     "name": "Saigon Botanical Garden",
+     "category": "nature",
+     "start": "07:00",
+     "end": "08:00",
+     "cost": 50000,
+     "tips": "Botanik ve hayvanat bahçesi; park yerine."
+    }
+   ]
+  }
+ ]
+}

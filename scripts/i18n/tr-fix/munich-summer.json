@@ -1,0 +1,19 @@
+{
+ "source": "8e6ce7d2c743",
+ "model": "sonnet",
+ "strings": {
+  "d1.s2.tips": "1807'den beri gıda pazarı; Weisswurst (gelenek gereği öğlen 12'den önce yenir), Obazda ve bira bahçesi.",
+  "d1.s4.tips": "1589 bira salonu; Mass bira, Schweinshaxe ve bando. Uzun masalarda yerlilerle oturursun.",
+  "d1.b0.tips": "Bira fabrikasının kendi salonu; Hofbräuhaus'a yerel alternatif.",
+  "d2.s4.tips": "Central Park'tan büyük; tepedeki Yunan tapınağından şehir manzarası, Kleinhesseloher Gölü'nde kayık.",
+  "d2.b1.tips": "Dürer, Rubens, Rembrandt; pazar 1 EUR, yağmurda park yerine.",
+  "d4.s1.tips": "Eski şehir ve şato bahçesi; sakin mola.",
+  "d5.s0.tips": "Tren+otobüs 2,5 saat (Bayern-Ticket) veya tur; Ludwig'in masal şatosu. Saatli bileti haftalar önce online al; 30 dakika tırmanış.",
+  "d5.s1.tips": "Şatonun kartpostal manzarasını veren köprü; kışın buzlanma nedeniyle kapalı olabilir.",
+  "d7.s0.tips": "Oktoberfest alanı (Eylül-Ekim); Bavaria heykelinin başından manzara.",
+  "note1": "Yaz 25-30°C; bira bahçeleri ve Isar, Eisbach'ta sörf; Eylülün son 2 haftası Oktoberfest (oteller 3 kat).",
+  "note2": "Mass bira 15 EUR (Oktoberfest'te 16+), Brezn 2, Schweinshaxe 20; bira bahçesine kendi yemeğini getirebilirsin. Bahşişte hesabı yuvarla.",
+  "note5": "Dachau anıtı ücretsiz ve pazartesi açık; sessiz davran."
+ },
+ "warnings": []
+}

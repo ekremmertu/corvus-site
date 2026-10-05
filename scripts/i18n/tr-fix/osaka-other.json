@@ -1,0 +1,12 @@
+{
+ "source": "2c2526865639",
+ "model": "sonnet",
+ "strings": {
+  "d2.s3.tips": "Kızarmış şişler; sosa iki kez batırmak yasak.",
+  "d2.s4.tips": "Japonya'nın en yüksek binasının gözlem katı; Osaka ve deniz.",
+  "d4.s1.tips": "Nehir arasındaki ada park; gül bahçesi ve belediye binası.",
+  "d4.b1.tips": "Edo dönemi sokağının canlandırması; kimono kiralama.",
+  "transit.why_chosen": "Osaka Metro'da, JR'de ve Hankyu'da geçer; Suica ile aynı sistem."
+ },
+ "warnings": []
+}

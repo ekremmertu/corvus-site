@@ -1,0 +1,477 @@
+{
+ "lang": "en",
+ "slug": "rome-october-may",
+ "altSlug": "roma-ekim-mayis",
+ "citySlug": "roma",
+ "destKey": "rome",
+ "city": "Rome",
+ "region": null,
+ "country": "Italy",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 450,
+  "attractions": 180,
+  "transport": 50,
+  "misc": 80
+ },
+ "notes": [
+  "Rome is walkable; metro lines A and B are limited, and bus 64 goes to the Vatican. The Leonardo Express to Fiumicino costs 14 EUR. The Roma Pass (48/72 hours) covers museums and transport.",
+  "Timed online tickets are ESSENTIAL for the Colosseum, Vatican Museums and Borghese; book Borghese weeks ahead and the Vatican 60 days ahead.",
+  "Winter is 8-14°C and rainy, but without the crowds; the Colosseum and Vatican are calm, Piazza Navona has its Christmas market, and January brings sales.",
+  "Rome's four pastas: carbonara, cacio e pepe, amatriciana, gricia; the coperto (cover charge) is 2-3 EUR, and tipping means rounding up.",
+  "Cover shoulders and knees in churches (the Vatican is strict); the fountains (nasoni) give drinkable water, so refill your bottle.",
+  "Watch for pickpockets on bus 64 and at Termini; say 'no grazie' to bracelet sellers at Trevi and the Spanish Steps."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Ancient Rome: Colosseum and Forum",
+   "stops": [
+    {
+     "name": "Colosseo",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 18,
+     "tips": "One ticket covers the Colosseum, Forum and Palatine Hill (about 18 EUR); book the 08:30 first slot online. The arena floor costs extra, there is no shade, so bring water."
+    },
+    {
+     "name": "Foro Romano",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Included in the same ticket; walk along the Via Sacra and see the Temple of Vesta."
+    },
+    {
+     "name": "Palatino",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Imperial palace ruins and views over the Forum; there is an orange grove."
+    },
+    {
+     "name": "Trattoria Luzzi",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 18,
+     "tips": "A cheap, no-frills local trattoria next to the Colosseum; try the cacio e pepe. The queue moves fast."
+    },
+    {
+     "name": "Piazza del Campidoglio",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Michelangelo's square; the terrace behind it gives a free sunset view over the Forum."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Li Rioni Pizzeria",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 15,
+     "tips": "Roman-style pizza near the Colosseum; open in the evening."
+    },
+    {
+     "name": "Basilica di San Clemente",
+     "category": "culture",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 10,
+     "tips": "A three-level church built over a Roman temple; right next to the Colosseum."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "The Vatican",
+   "stops": [
+    {
+     "name": "Musei Vaticani",
+     "category": "culture",
+     "start": "08:00",
+     "end": "11:00",
+     "cost": 25,
+     "tips": "Book the 08:00 first slot for the Sistine Chapel (25 EUR online, bookable 60 days ahead); expect the Raphael Rooms and long corridors."
+    },
+    {
+     "name": "Basilica di San Pietro",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Free to enter, but there is a security queue; the dome costs 10 EUR (551 steps), and the Pietà is by the entrance."
+    },
+    {
+     "name": "Bonci Pizzarium",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "Gabriele Bonci's pizza by the slice; near Cipro metro station for the Vatican, eat standing up."
+    },
+    {
+     "name": "Castel Sant'Angelo",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 15,
+     "tips": "Hadrian's mausoleum turned fortress; the terrace has views toward the Vatican."
+    },
+    {
+     "name": "Ponte Sant'Angelo",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "Bernini's bridge lined with angels; photograph it before sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pizzeria Da Remo Testaccio",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 12,
+     "tips": "Thin Roman pizza; evenings, in Testaccio."
+    },
+    {
+     "name": "Giardini Vaticani",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 37,
+     "tips": "Guided tour of the Vatican Gardens; an alternative to the castle."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Baroque Rome: Pantheon, Navona and Trevi",
+   "stops": [
+    {
+     "name": "Pantheon",
+     "category": "culture",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 5,
+     "tips": "See the oculus in the dome; entry is 5 EUR, the morning light is best, and Mass is held on Sundays."
+    },
+    {
+     "name": "Piazza Navona",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Bernini's Fountain of the Four Rivers; the cafes are pricey, so come for the photos."
+    },
+    {
+     "name": "Campo de' Fiori",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "Morning market with cheese, spices and truffle products."
+    },
+    {
+     "name": "Roscioli Salumeria",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 35,
+     "tips": "Carbonara and a deli counter display; booking is essential, and it is among the best in Rome."
+    },
+    {
+     "name": "Trevi Fountain",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 0,
+     "tips": "Toss in a coin; it is empty at 07:00 or 23:00 and swamped by day (entry system in place since 2025)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Armando al Pantheon",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 30,
+     "tips": "Roman cooking since 1961; next to the Pantheon, book ahead."
+    },
+    {
+     "name": "Galleria Doria Pamphilj",
+     "category": "culture",
+     "start": "15:00",
+     "end": "15:45",
+     "cost": 15,
+     "tips": "A private palace collection with Caravaggio and Velázquez; a calm alternative to Trevi."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Trastevere and the Janiculum",
+   "stops": [
+    {
+     "name": "Santa Maria in Trastevere",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "One of Rome's oldest churches dedicated to Mary; golden mosaics, and quiet in the morning."
+    },
+    {
+     "name": "Trastevere Streets",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Cobblestones and ivy-covered walls; stroll Via della Lungaretta."
+    },
+    {
+     "name": "Da Enzo al 29",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "A small Trastevere classic; amatriciana and artichokes. Join the queue when it opens at 12:00."
+    },
+    {
+     "name": "Villa Farnesina",
+     "category": "culture",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "A Renaissance villa with Raphael frescoes; peaceful."
+    },
+    {
+     "name": "Janiculum Terrace",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Rome's best free view; the Garibaldi monument, and sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trapizzino Trastevere",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 6,
+     "tips": "Stew stuffed in a pizza pocket; street food."
+    },
+    {
+     "name": "Orto Botanico di Roma",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 4,
+     "tips": "A botanical garden in Trastevere; an alternative to the villa."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Borghese and Spanish Steps",
+   "stops": [
+    {
+     "name": "Galleria Borghese",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 18,
+     "tips": "Bernini sculptures and Caravaggio; 2-hour slots, and booking weeks ahead is mandatory."
+    },
+    {
+     "name": "Villa Borghese Gardens",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Walk through the park; the Pincio terrace overlooks Piazza del Popolo."
+    },
+    {
+     "name": "Spanish Steps",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Sitting on the steps is banned; Via Condotti is nearby."
+    },
+    {
+     "name": "Pastificio Guerra",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 5,
+     "tips": "Fresh pasta for 5 EUR just behind the Spanish Steps; there is a queue at 13:00."
+    },
+    {
+     "name": "Ara Pacis",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 13,
+     "tips": "Augustus's altar of peace, housed in Richard Meier's glass pavilion; air-conditioned."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ginger Sapori e Salute",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 18,
+     "tips": "A light Italian lunch near the Spanish Steps."
+    },
+    {
+     "name": "Piazza del Popolo",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Twin churches and a Caravaggio (Santa Maria del Popolo, free)."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Tivoli day trip",
+   "stops": [
+    {
+     "name": "Villa d'Este",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Renaissance fountain gardens in Tivoli; 500 jets, and open in winter too."
+    },
+    {
+     "name": "Sibilla Ristorante Tivoli",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "A historic restaurant beside the Temple of Vesta; views over Tivoli."
+    },
+    {
+     "name": "Villa Adriana",
+     "category": "culture",
+     "start": "14:00",
+     "end": "16:30",
+     "cost": 12,
+     "tips": "Hadrian's vast villa; the Canopus pool, and a 2-hour walk."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Antica Trattoria del Falcone Tivoli",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "A trattoria in central Tivoli."
+    },
+    {
+     "name": "Castelli Romani Frascati",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A wine town in the hills outside Rome; an alternative to Ostia."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Testaccio: a gentle farewell",
+   "stops": [
+    {
+     "name": "Mercato Testaccio",
+     "category": "food",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 10,
+     "tips": "Local market; try the beef stew sandwich at Mordi e Vai, and supplì (fried rice balls)."
+    },
+    {
+     "name": "Pyramid of Cestius and Non-Catholic Cemetery",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A pyramid in Rome and the Keats-Shelley cemetery; look out for the cats."
+    },
+    {
+     "name": "Aventine Orange Garden",
+     "category": "nature",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Giardino degli Aranci and the Knights of Malta keyhole; a farewell view."
+    },
+    {
+     "name": "Flavio al Velavevodetto",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 22,
+     "tips": "A trattoria carved into Monte Testaccio; carbonara and coda alla vaccinara (oxtail stew)."
+    },
+    {
+     "name": "Roma Termini",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The Leonardo Express reaches Fiumicino in 32 minutes; time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trapizzino Testaccio",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 6,
+     "tips": "Stew stuffed in a pizza pocket; a quick farewell bite."
+    },
+    {
+     "name": "Baths of Caracalla",
+     "category": "culture",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 8,
+     "tips": "Ruins of a huge Roman bathhouse; an alternative to the pyramid."
+    }
+   ]
+  }
+ ]
+}

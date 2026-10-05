@@ -1,0 +1,42 @@
+{
+ "source": "5bfe3eb6a19b",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Eski şehir kalbi; Aziz Nino'nun asma haçı, Şardeni Sokağı.",
+  "d1.s1.tips": "Rike Parkı'ndan teleferik (Metromoney kartı); 4. yüzyıl kalesi ve Gürcistan Ana heykeli, Kura manzarası.",
+  "d1.s2.tips": "Tuğla kubbeli 17. yüzyıl hamamları (Puşkin de yıkanmış); özel oda 50-100 GEL, kese. Orbeliani'nin cephesi mavi, cami gibi.",
+  "d1.s3.tips": "Vejetaryen Gürcü yemekleri; pkhali ve lobio, Kral Erekle Sokağı.",
+  "d1.s4.tips": "Cam köprü geceleri ışıklı; Kura Nehri.",
+  "d2.s0.tips": "Parlamento, Opera, Rustaveli Tiyatrosu; Sovyet ve art nouveau.",
+  "d2.s2.tips": "Sovyet madalyası, cam, kilim ve resim satan bit pazarı; her gün kurulur, hafta sonu büyür.",
+  "d2.s3.tips": "19. yüzyıl yemek kitabından tarifler; rezervasyon yaptır, Aghmashenebeli.",
+  "d3.s0.tips": "6. yüzyıl Haç Manastırı; iki nehrin (Aragvi-Kura) birleştiği yerin Lermontov manzarası; taksi/marşrutka ile 30 dakika.",
+  "d3.s1.tips": "11. yüzyıl UNESCO katedrali; İsa'nın cübbesi efsanesi, kral mezarları; başörtüsü gerekli.",
+  "d3.s2.tips": "Toprak kapta lobio (fasulye güveci) ve mchadi (mısır ekmeği); Mtskheta klasiği.",
+  "d3.b0.tips": "6. yüzyıl kanyon manastırı; Samtavro yerine.",
+  "d3.b1.tips": "Prens şatosunda şarap tadımı ve öğle yemeği; Mtskheta'ya 30 dakika.",
+  "d4.s0.tips": "Gürcü Askeri Yolu (3 saat, tur ~80 GEL); Zhinvali Barajı'nın üstünde 17. yüzyıl kalesi.",
+  "d4.s1.tips": "Sovyet mozaikli yarım daire; 2.400 m'de vadi manzarası, yamaç paraşütü.",
+  "d4.s2.tips": "2.170 m'de 14. yüzyıl kilisesi; Kazbek Dağı (5.047 m) karşısında; 4x4 (60 GEL) veya 1,5 saat tırmanış.",
+  "d5.s1.tips": "'Aşk şehri' surlu kasaba; Kafkas manzarası, 24 saat açık nikâh dairesi, Pirosmani müzesi.",
+  "d5.s2.tips": "Doğal kvevri şarapları ve öğle yemeği; John Wurdeman'ın bağı, tadım.",
+  "d5.s4.tips": "Ana kasaba Telavi ve 11. yüzyıl Alaverdi Katedrali (50 m); dönüş.",
+  "d5.b0.tips": "Dağın içinde 7 km'lik şarap tüneli; Kvareli.",
+  "d5.b1.tips": "Prens malikânesi ve bahçesi; Telavi yerine.",
+  "d6.s2.tips": "Füniküler ile 770 m'ye çık; Griboyedov ve yazarların panteonu, Aziz Davit Kilisesi.",
+  "d6.s4.tips": "Zafer anıtı parkı; Kaplumbağa Gölü'ne teleferikle, gölde kayık.",
+  "d6.b0.tips": "Kaplumbağa Gölü yanında açık hava Gürcü ev müzesi.",
+  "d7.s0.tips": "Gar yanındaki dev yerel pazar; churchkhela, suluguni, tkemali, baharat.",
+  "d7.s1.tips": "Kutsal Üçlü Katedrali (2004); 87 m, altın kubbe, Avlabari tepesi.",
+  "d7.s3.tips": "337 numaralı otobüs 40 dakika (Metromoney) veya Bolt 30 GEL; veda.",
+  "d7.b0.tips": "Kaya üstünde kilise ve kral heykeli; katedral yerine.",
+  "note0": "Metromoney kartı 2 GEL (metro/otobüs/teleferik 1 GEL); Bolt taksi ucuz. Havalimanı otobüsü 337. Kazbegi/Kakheti turu (Gamarjoba, Budget Georgia ~80-100 GEL) veya marşrutka.",
+  "note1": "Yaz aylarında şehir 30-35°C; Kazbegi 15-20°C serin, Gergeti sisli olabilir. Tbilisoba Ekim'de, Rtveli (bağbozumu) Eylül-Ekim'de Kakheti'de.",
+  "note2": "Türk vatandaşları kimlikle girer (1 yıl vizesiz); nakit GEL (ATM), kart yaygın; khinkali 1 GEL/adet, khachapuri 12-18, şarap kadehi 8, hamam 50-100; bahşiş %10.",
+  "note3": "Hamamda özel odayı önceden ara (Chreli Abano); Gergeti için 4x4'ü kasabada pazarlıkla tut; Sighnaghi hafta sonu dolu.",
+  "note4": "Supra (ziyafet) ve tamada (kadeh ustası); 'gaumarjos' şerefe demektir; khinkali tepesinden tutulur, çorbası yudumlanır, tepesi bırakılır."
+ },
+ "warnings": [
+  "d6.s1.tips: uzunluk çok değişti → düzeltme atıldı"
+ ]
+}

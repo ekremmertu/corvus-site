@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "baku-summer",
+ "altSlug": "baku-yaz",
+ "citySlug": "baku",
+ "destKey": "baku",
+ "city": "Baku",
+ "region": null,
+ "country": "Azerbaijan",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "AZN",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 300,
+  "attractions": 120,
+  "transport": 150,
+  "misc": 60
+ },
+ "notes": [
+  "BakiKart (metro/bus 0.50 AZN); Bolt taxis are cheap. The H1 bus runs to the airport. For Gobustan and Sheki, take a tour or hire a car.",
+  "Summer brings 30-35°C and the Baku wind (Khazri); Caspian beach at Bilgah, the Boulevard in the evening; the F1 Grand Prix is held in June (the city centre closes).",
+  "Turkish citizens get 30 days visa-free (with ID card since 2025); 1 manat ≈ 0.6 USD; kutab 2 AZN, piti 8, restaurant meals 20-30, museums 5-15; tip 10%.",
+  "The Flame Towers light up after 21:00; Yanar Dag is best in the evening; Heydar Aliyev Center is closed on Mondays.",
+  "Piti, kutab, plov (shah plov), dolma, levengi, Sheki halva, pomegranate juice, pear-shaped glass tea with jam.",
+  "Turkish is understood (Azerbaijani Turkish); Russian is widespread. An oil city: pumps at Bibi-Heybat."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Old City and the Boulevard",
+   "stops": [
+    {
+     "name": "Icherisheher Eski Şehir",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A walled 12th-century city and UNESCO site: narrow lanes, the setting of the film Brilliant Hand, carpet shops."
+    },
+    {
+     "name": "Maiden Tower",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "A mysterious 8-storey tower (Zoroastrian?); from the top you see the Caspian and the Flame Towers."
+    },
+    {
+     "name": "Palace of the Shirvanshahs",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "The 15th-century Shirvanshahs' palace: mausoleum, divan hall, bathhouse."
+    },
+    {
+     "name": "Firuze Restaurant Old City",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 25,
+     "tips": "Azerbaijani cuisine: kutab (thin stuffed flatbread), piti, saj."
+    },
+    {
+     "name": "Baku Boulevard",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A 3.7 km promenade (1909) on the Caspian shore: Ferris wheel, gondola rides in Little Venice. After 20:00 take the funicular up to Highland Park and watch the Flame Towers light show."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sehirli Tendir",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 15,
+     "tips": "Tandir bread and kutab; an Old City street."
+    },
+    {
+     "name": "Museum of Miniature Books",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Guinness record-holding miniature books; free, an alternative to the palace."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Heydar Aliyev and the Carpet Museum",
+   "stops": [
+    {
+     "name": "Heydar Aliyev Center",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Zaha Hadid's undulating white masterpiece; classic car exhibition, photographing the exterior is free."
+    },
+    {
+     "name": "Azerbaijan Carpet Museum",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "A building shaped like a rolled carpet; on the Boulevard, with a weaving demonstration."
+    },
+    {
+     "name": "Nargiz Restaurant Bulvar",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 20,
+     "tips": "Azerbaijani cuisine with Caspian views; dolma and kebab."
+    },
+    {
+     "name": "Nizami Street Torgovaya",
+     "category": "shopping",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A pedestrian shopping street lined with 19th-century oil baron mansions."
+    },
+    {
+     "name": "Baku Crystal Hall and Flag Square Walk",
+     "category": "landmark",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "The Eurovision 2012 arena; sunset at the end of the Boulevard."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museum of Modern Art Baku",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 5,
+     "tips": "Azerbaijani modern art; an alternative to the carpet museum."
+    },
+    {
+     "name": "Paul's Bakery Fountains Square",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 8,
+     "tips": "Coffee and pastries on the square."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Gobustan and mud volcanoes",
+   "stops": [
+    {
+     "name": "Gobustan Rock Art",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 10,
+     "tips": "60 km south (tour about 40 AZN, or a taxi); more than 6,000 rock carvings up to 10,000 years old, UNESCO site, museum."
+    },
+    {
+     "name": "Gobustan Mud Volcanoes",
+     "category": "nature",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 10,
+     "tips": "Azerbaijan has half of the world's mud volcanoes: bubbling cold mud cones, reached by old Lada."
+    },
+    {
+     "name": "Bibi-Heybat Mosque",
+     "category": "culture",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "On the Caspian shore, a mosque destroyed by the Soviets and later rebuilt; set among oil pumps."
+    },
+    {
+     "name": "Qobustan Yolu Balık Lokantası",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 20,
+     "tips": "Caspian fish (kutum) and levengi (stuffed fish or chicken); on the way."
+    },
+    {
+     "name": "Yanar Dag",
+     "category": "nature",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 5,
+     "tips": "A gas-fuelled hillside that has burned continuously for 60 years, rooted in Zoroastrian tradition; striking in the dark, 25 km north."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ateshgah Fire Temple",
+     "category": "culture",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 5,
+     "tips": "The Surakhani Zoroastrian-Hindu fire temple; in the same direction as Yanar Dag, as a substitute or an addition."
+    },
+    {
+     "name": "Qala Köy Restoranı",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "Tandir and saj dishes next to the ethnographic village; instead of a roadside restaurant."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Absheron: Ateshgah and Qala",
+   "stops": [
+    {
+     "name": "Ateshgah of Baku",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 5,
+     "tips": "The Surakhani fire temple (17th-century Hindu-Zoroastrian): natural gas flame, pilgrims' cells."
+    },
+    {
+     "name": "Qala Archaeological Ethnographic Complex",
+     "category": "culture",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 5,
+     "tips": "An open-air museum village on the Absheron peninsula: fortress, tandir, camels."
+    },
+    {
+     "name": "Mardakan Castle and Town",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "A 14th-century castle and arboretum; Yesenin's house."
+    },
+    {
+     "name": "Mardakan Balık Tavernası",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 20,
+     "tips": "Grilled fish in a seaside town."
+    },
+    {
+     "name": "Bilgah Beach Hazar",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Swimming in the Caspian (low salinity); Bilgah beach, in summer."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Amburan Beach Club",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 20,
+     "tips": "A beach club with sunloungers; Bilgah."
+    },
+    {
+     "name": "Gala Köyü Çayhanesi",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 10,
+     "tips": "Tea in pear-shaped glasses with jam; in the village."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Sheki (long day) or Gabala",
+   "stops": [
+    {
+     "name": "Sheki Khan's Palace",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 5,
+     "tips": "4 hours from Baku (early tour or car; ideally stay overnight); a 1762 palace with shebeke stained glass, UNESCO site, built without nails."
+    },
+    {
+     "name": "Sheki Caravanserai",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "An 18th-century caravanserai hotel; courtyard and vaulted halls."
+    },
+    {
+     "name": "Şeki Piti Öğle Gagarin",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "Sheki's piti soup served in a clay pot (ritual: eat the broth with bread first, then mash the meat); Sheki halva."
+    },
+    {
+     "name": "Kish Albanian Church",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 2,
+     "tips": "A Caucasian Albanian church (legend dates it to the 1st century); Thor Heyerdahl's theory; village setting."
+    },
+    {
+     "name": "Sheki Halva Workshop",
+     "category": "shopping",
+     "start": "15:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Sheki halva as a souvenir; on the way back (Baku 20:00)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gabala Tufandag Cable Car",
+     "category": "nature",
+     "start": "10:30",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "A Caucasus mountain cable car and Lake Nohur; closer than Sheki (3 hours), as an alternative."
+    },
+    {
+     "name": "Lahic Village Tea House",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 10,
+     "tips": "Tea and kebab in a cobbled coppersmith village; an alternative on the road to Sheki."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Yasamal and modern Baku",
+   "stops": [
+    {
+     "name": "Taza Bazaar",
+     "category": "food",
+     "start": "09:00",
+     "end": "10:15",
+     "cost": 10,
+     "tips": "A local market: pomegranates, saffron, sumac, cheese tasting, dried fruit."
+    },
+    {
+     "name": "Baku Funicular and Martyrs' Lane by Day",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Martyrs' Lane and the Eternal Flame by day; the Turkish Martyrs' Mosque."
+    },
+    {
+     "name": "Sumakh Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 30,
+     "tips": "A stylish Azerbaijani restaurant: saj and kutab, in Khagani Street."
+    },
+    {
+     "name": "Baku Sea Boat Tour",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 10,
+     "tips": "A 1-hour Caspian boat tour from the Boulevard; the skyline."
+    },
+    {
+     "name": "Nizami Cinema and Passage Cafes in the Evening",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 15,
+     "tips": "Seaside Park and Torgovaya tea houses; shisha."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Stone Chronicle Museum",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "A museum of stone inscriptions; on the Boulevard."
+    },
+    {
+     "name": "Çay Bağı 145 Eski Şehir",
+     "category": "food",
+     "start": "19:00",
+     "end": "21:00",
+     "cost": 12,
+     "tips": "Tea and jam in the Old City; the Azerbaijani tea tradition."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Boulevard morning and a gentle farewell",
+   "stops": [
+    {
+     "name": "Boulevard Morning Walk Little Venice",
+     "category": "nature",
+     "start": "09:00",
+     "end": "09:45",
+     "cost": 0,
+     "tips": "Gondola canals and morning calm."
+    },
+    {
+     "name": "Mugham Center",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "A building shaped like a tar (a long-necked lute); on the Boulevard, seen from outside."
+    },
+    {
+     "name": "Qaynana Restaurant Breakfast",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 15,
+     "tips": "Azerbaijani breakfast: clotted cream, honey, tandir bread, kuymak (cornmeal and cheese); next to Fountains Square."
+    },
+    {
+     "name": "Baku Airport Bus H1",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:00",
+     "cost": 2,
+     "tips": "From 28 May the H1 bus, 40 minutes (BakiKart); farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ali and Nino Bookshop Cafe",
+     "category": "food",
+     "start": "10:30",
+     "end": "11:45",
+     "cost": 8,
+     "tips": "Breakfast in a bookshop cafe; the city of the novel."
+    },
+    {
+     "name": "Government House",
+     "category": "landmark",
+     "start": "09:45",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "A huge Stalin-era building on Azadliq Square; seen from outside."
+    }
+   ]
+  }
+ ]
+}

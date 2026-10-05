@@ -1,0 +1,513 @@
+{
+ "lang": "en",
+ "slug": "alacati-summer",
+ "altSlug": "alacati-yaz",
+ "citySlug": "alacati",
+ "destKey": "alacati",
+ "city": "Alaçatı",
+ "region": "İzmir",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v2",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 16305,
+  "attractions": 6400,
+  "transport": 600,
+  "misc": 200
+ },
+ "notes": [
+  "Alaçatı is very hot and humid in July; take a beach or shade break between 12:00 and 15:00, and sunscreen and a hat are essential.",
+  "Most tradesmen's restaurants and the market want cash; keep some TL in cash on you for small stalls that don't take cards.",
+  "In summer there are frequent minibus (dolmuş) services between Alaçatı and central Çeşme; prefer the dolmuş, as taxis can be expensive even over short distances.",
+  "A service charge (5-10%) is often added automatically to restaurant bills. Rounding up the bill as a tip is customary locally but not compulsory.",
+  "A passport is required for the Chios day trip. Turkish citizens without an EU visa may be able to use a 'day visitor' arrangement on arrival; confirm the current rule with the ferry company.",
+  "In the stone streets and in churches and mosques, wear clothes that cover shoulders and knees; entering old town shops in beachwear is not well received locally.",
+  "It is a windy region (especially the afternoon 'meltem'); even if you aren't surfing, watch your umbrella and belongings on the beach."
+ ],
+ "niche": {
+  "name": "Karaburun Municipality Goat Cheese Dairy",
+  "level": "l3",
+  "why_hidden": "Tourist traffic in Çeşme and Alaçatı focuses on beaches and surfing. At the other end of the peninsula in Karaburun, a municipal dairy run entirely by women makes Kopanisti and basket cheese from goats fed on thyme and sage in the mountains. It barely features in guidebooks; most visitors only buy packaged cheese at shops and never see how it is made.",
+  "access_instructions": "Reach central Karaburun from Alaçatı by private car, or from Çeşme by dolmuş (about 1 to 1.5 hours); the dairy is in Cumhuriyet Mahallesi in central Karaburun. To visit as a group or to see production, you need to call the municipality a day ahead. Walking into the sales point to buy cheese without an appointment is always possible.",
+  "local_contact": "Karaburun Belediyesi İletişim Hattı: 444 35 56",
+  "season": "Production runs year-round, but milk yield and tasting quality are highest in spring and summer (April to September).",
+  "insider_tip": "Ask for the vacuum pack, which keeps all the way back to Alaçatı; try mixing Kopanisti with olive oil and thyme as a meze on bread, which is how locals really eat it.",
+  "show_reason": "Kadın istihdamına dayalı sosyal girişim + Ege'ye özgü nadir bir peynir kültürü + tamamen ücretsiz/erişilebilir bir deneyim; Karaburun'un 'saklı koylar' imajının ötesinde gastronomik bir katman ekliyor.",
+  "lat": 38.6395,
+  "lng": 26.5106,
+  "address": "Cumhuriyet Mahallesi, Karaburun Belediyesi Süt İşleme Tesisi, Karaburun/İzmir",
+  "cost_range_min": 50,
+  "cost_range_max": 150,
+  "cost_currency_code": "TRY"
+ },
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "The heart of Alaçatı: stone streets, old town and windmill sunset",
+   "stops": [
+    {
+     "name": "Zahide Alaçatı",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 900,
+     "tips": "Set in an old stone house at 2057 Sokak No:9; ask for the herb omelette and the serpme breakfast spread. Go early (around 09:30), as queues build after 11:00."
+    },
+    {
+     "name": "Kemalpaşa Street",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The street that makes Alaçatı what it is: walk between stone houses with coloured shutters and boutique shops. The crowds grow in the afternoon, while mornings are almost empty."
+    },
+    {
+     "name": "Hacımemiş Mahallesi",
+     "category": "landmark",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Quiet streets draped in bougainvillea, away from the noise of Kemalpaşa. Watch the doorstep chats to get a feel for local life. The best light for photos comes before noon."
+    },
+    {
+     "name": "Kapari Bahçe",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 1000,
+     "tips": "Lunch in an olive-shaded garden that preserves the stones of a 1800s mansion; try the sea beans and the herb fritters. The garden is shaded, so it stays comfortable in the hot hours."
+    },
+    {
+     "name": "Alaçatı Windmills",
+     "category": "landmark",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Four stone mills from the 1850s, at their most photogenic against a red sunset sky. Climb the hill 30 minutes before sunset and pick the west-facing slope for the best shots."
+    },
+    {
+     "name": "Roka Bahçe",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 1500,
+     "tips": "A large bougainvillea garden on Kemalpaşa Street serving Aegean meze; we suggest atom ezme (spicy yoghurt and chilli dip) and the seafood skewer. Booking is essential on summer evenings."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sakız Reçeli",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 850,
+     "tips": "A generous breakfast table with jazz in the background; options range from boyoz (flaky Izmir pastry) to a crisp serpme spread. Head here if Zahide is full."
+    },
+    {
+     "name": "Alaçatı Pazaryeri Mosque",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "Built as a church in 1874 and converted into a mosque after the founding of the Republic; a small but meaningful stop that shows Alaçatı's layered history. Be quiet at the entrance and postpone your visit during prayer times."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Windsurfing capital: Pırlanta and the fishing harbour",
+   "stops": [
+    {
+     "name": "Pırlanta Beach",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The wide sandy beach and shallow, constantly windy bay that made Alaçatı world famous. The morning wind is lighter, so it is ideal for swimming, then it strengthens for surfers in the afternoon."
+    },
+    {
+     "name": "Sunsurf Alaçatı",
+     "category": "nature",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 2200,
+     "tips": "A 1.5-hour beginner windsurfing lesson at the local surf centre; equipment is included in the price. Book at least 1 day ahead by phone or Instagram, as lesson times may change with the wind."
+    },
+    {
+     "name": "Fahri'nin Yeri",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 1400,
+     "tips": "A long-established spot serving at the fishing harbour since 1993; ask for the catch of the day steamed. Booking is recommended: call +90 232 716 76 91."
+    },
+    {
+     "name": "Alaçatı Marina (Dalyan)",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "A calm harbour full of colourful fishing boats, a 20-minute walk from central Alaçatı. The light is best near sunset, and it is far less crowded than Kemalpaşa."
+    },
+    {
+     "name": "Mazı Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 1500,
+     "tips": "Specialises in seafood; the crab and prawn casserole stand out. On summer weekends it is hard to get a table without a booking."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Dutlu Kahve",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 400,
+     "tips": "From outside it looks like a plain tea garden, but inside it has become a friendly café-restaurant. A good choice for a light lunch break if Fahri'nin Yeri is full."
+    },
+    {
+     "name": "Ilıca Beach",
+     "category": "nature",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A wide beach with warm, shallow, turquoise water, popular with families. If Pırlanta is unsuitable because of the wind, head here: the sea is much calmer."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Çeşme day: islands and bays boat trip, castle",
+   "stops": [
+    {
+     "name": "Çeşme: Islands and Bays Boat Trip with Barbecue Lunch",
+     "category": "nature",
+     "start": "09:00",
+     "end": "14:00",
+     "cost": 2200,
+     "tips": "A classic day trip leaving from Çeşme, anchoring in nearby bays for swimming stops, with a barbecue lunch included. Book online at least 1 day ahead, and don't forget your swimsuit and towel.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=Cesme+Islands+and+Bays+Boat+Tour+with+BBQ+Lunch",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Boyalık Beach",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Good for a short rest after the boat trip, with warm, shallow water; the public beach section is free. If you want a sunbed, you can rent one by the hour from the facilities on the shore."
+    },
+    {
+     "name": "Çeşme Castle",
+     "category": "culture",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 100,
+     "tips": "A 14th-century Genoese castle, visited together with the small museum inside. Museum Card is valid; if not, the entrance fee is low. The view of the harbour from the tower terrace is superb."
+    },
+    {
+     "name": "Çeşme Marina",
+     "category": "landmark",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "A modern marina with moored yachts, pleasant for a walk at sunset. It is right next to the castle, so it combines easily with the previous stop."
+    },
+    {
+     "name": "Balıkçı Niyazi",
+     "category": "food",
+     "start": "20:30",
+     "end": "22:30",
+     "cost": 1800,
+     "tips": "A long-established fish restaurant in central Çeşme, often chosen by locals; ask for the day's catch grilled. Prices are more reasonable than at neighbouring tourist venues."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zeytinaltı Kahvaltı",
+     "category": "food",
+     "start": "20:30",
+     "end": "22:00",
+     "cost": 900,
+     "tips": "Open all day, it also offers an evening menu as a light and affordable option. Use it as an alternative if there is no room at Balıkçı Niyazi."
+    },
+    {
+     "name": "Aynaroz Monastery",
+     "category": "culture",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "The remains of an old Greek monastery in central Çeşme; a good alternative for a short history stop if the Castle is crowded or closed. Visiting hours vary, so check beforehand."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Local life: market, home cooking and Alaçatı's layered history",
+   "stops": [
+    {
+     "name": "Alaçatı Market",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 200,
+     "tips": "Held every Saturday from the old town entrance to the edge of the motorway; buy local greens such as radika (wild chicory) and sea beans, plus homemade jam and olive oil. Go early, as towards noon it gets both crowded and hot."
+    },
+    {
+     "name": "Yusuf Usta Ev Yemekleri",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 700,
+     "tips": "Alaçatı's real tradesmen's restaurant; choose from the daily stews and olive oil dishes, paid by weight. Prices are far more realistic than at tourist venues, and it can be busy at lunchtime."
+    },
+    {
+     "name": "Alaçatı Greek Church (Ayios Konstantinos)",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A former Greek church restored and turned into a cultural venue; look at the stonework and the exhibitions inside. Usually quiet with few tourists, a good stop in between for photos."
+    },
+    {
+     "name": "Taş Okul",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Get lost in the narrow streets around this historic school building, one of the old stone structures of the old town. The light is soft at this hour, and it is much calmer for photos than Kemalpaşa."
+    },
+    {
+     "name": "Sota Alaçatı",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 1600,
+     "tips": "A trendy address for lovers of crab, lobster and prawns; try the chef's menu. On summer evenings it is hard to find a table without a booking."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Zeytin Tarla",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:00",
+     "cost": 750,
+     "tips": "Another tradesmen's option with a simple, home-cooked taste; switch here if Yusuf Usta is full. Its olive oil dishes are especially good."
+    },
+    {
+     "name": "Hacı Memiş Ağa Mosque",
+     "category": "culture",
+     "start": "14:30",
+     "end": "15:15",
+     "cost": 0,
+     "tips": "A historic 19th-century mosque, one of the buildings that gave Hacımemiş Mahallesi its name. If the church is closed, this short cultural stop is a good alternative."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Hidden coves and the quiet side of Dalyanköy",
+   "stops": [
+    {
+     "name": "Paşalimanı Bay",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A bay reached by minibus from central Çeşme, free to enter and away from the crowds. If you want a sunbed, you can rent one from the small businesses on the shore; morning is the quietest time."
+    },
+    {
+     "name": "Çark Beach",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Another quiet public beach; unlike the big beach clubs it is simple and free. Close to Paşalimanı, it makes a good second stop for a short swim."
+    },
+    {
+     "name": "Defne Yaprağı Balık Restaurant",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 1400,
+     "tips": "A seafood place in Dalyanköy favoured by locals; ask for the seasonal fish steamed. It sits slightly off the tourist route, so prices are more reasonable."
+    },
+    {
+     "name": "Dalyanköy Waterfront",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Colourful fishing boats and a calm shoreline make it ideal for photos, with an atmosphere completely different from Alaçatı's crowded centre. The light is much softer near sunset."
+    },
+    {
+     "name": "Ferdi Baba Restaurant",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 1600,
+     "tips": "A option with a view at Çeşme Marina; from the meze selection, try the atom and the fava. Booking is recommended on weekend evenings."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lazy Sundays Alaçatı",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 1200,
+     "tips": "Opened in its new location in 2026, with a morning-to-night concept that makes it a flexible lunch option. Consider it an alternative if Defne Yaprağı is full."
+    },
+    {
+     "name": "Ildırı Beach",
+     "category": "nature",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A quiet, free and little-known beach; head here if Paşalimanı is crowded. Getting there is easier by private car."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Karaburun day trip: goat cheese, hidden coves and fishing villages",
+   "stops": [
+    {
+     "name": "Karaburun Municipality Goat Cheese Dairy",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "After a drive of about 1 to 1.5 hours from Alaçatı, you can see Kopanisti and basket cheese being made on site at this municipal dairy, staffed entirely by women. Call the municipality ahead to let them know you are coming. Bring cash to buy vacuum-packed cheese."
+    },
+    {
+     "name": "Mordoğan Waterfront",
+     "category": "nature",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "A shoreline with the feel of a quiet, local holiday town; the fishing boats and the pier make good photos. Tourist crowds are almost non-existent compared with Alaçatı."
+    },
+    {
+     "name": "Problem'in Yeri",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 500,
+     "tips": "An affordable, local tradesmen's restaurant in Mordoğan known for its Ödemiş köfte (grilled meatballs) and soups. Quite cheap compared with Alaçatı prices, and the food is fresh at lunchtime."
+    },
+    {
+     "name": "Ayıbalığı Bay",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "One of Karaburun's lesser-known quiet coves; with no facilities it is free to enter, but shade is scarce, so bring a hat and water. Being close to the road back, it is ideal as the last stop."
+    },
+    {
+     "name": "Sailors Alaçatı",
+     "category": "food",
+     "start": "20:00",
+     "end": "22:00",
+     "cost": 1700,
+     "tips": "Suitable for a relaxed dinner after Karaburun, with its large garden in Hacımemiş. Alongside the grills and meze, sitting in the garden in the cool of the evening is a pleasure."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Mordoğan Balık Market",
+     "category": "food",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 400,
+     "tips": "A practical, cheap lunch option such as a sardine or anchovy sandwich. A quick and authentic alternative if Problem'in Yeri is full."
+    },
+    {
+     "name": "Dolungaz Bay",
+     "category": "nature",
+     "start": "15:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A free cove with no facilities, pebbly but known for its very clean water. If Ayıbalığı Bay is crowded, switch to this quiet alternative."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "dayTrip",
+   "theme": "Cross-border day trip: an easy day on Chios",
+   "stops": [
+    {
+     "name": "Çeşme to Chios Ferry Transfer",
+     "category": "nature",
+     "start": "08:45",
+     "end": "09:30",
+     "cost": 1800,
+     "tips": "The first ferry from Çeşme harbour reaches Chios in about 45 minutes; don't forget your passport. If you buy the return ticket online in advance, you won't lose time in the queue at the port.",
+     "bookingUrl": "https://www.getyourguide.com/s/?q=From+Cesme+Ferry+Transfer+to+Chios",
+     "bookingProvider": "GetYourGuide"
+    },
+    {
+     "name": "Chios Castle (Kastro)",
+     "category": "culture",
+     "start": "09:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Walk the Genoese castle walls and the narrow streets of the old Jewish Quarter inside. Entry is free, and the morning light is ideal for photos."
+    },
+    {
+     "name": "Chios Port",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:15",
+     "cost": 705,
+     "tips": "At a taverna overlooking the harbour, try a meze plate and grilled octopus with a glass of mastika liqueur; euros or cards are accepted. Check the time so you catch the return ferry."
+    },
+    {
+     "name": "Return Ferry to Çeşme",
+     "category": "nature",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "If you bought a return ticket there is no extra charge; be at the pier at least 20 minutes before the last departure for passport control. Returning in daylight is a good chance to see the view of Çeşme bay."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Taverna Ouzeri Stavros",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:15",
+     "cost": 650,
+     "tips": "A long-established taverna in central Chios Town serving authentic Greek cuisine; the moussaka and the basil grilled octopus stand out. If the port is full, this address a few streets inland is a good alternative."
+    },
+    {
+     "name": "Chios Mastic Museum",
+     "category": "culture",
+     "start": "09:45",
+     "end": "11:30",
+     "cost": 300,
+     "tips": "An interactive museum on the island's famous mastic production; it is slightly outside town compared with the Kastro, but 15 minutes by taxi. If time is short, choose it as a brief cultural stop instead of the Kastro."
+    }
+   ]
+  }
+ ]
+}

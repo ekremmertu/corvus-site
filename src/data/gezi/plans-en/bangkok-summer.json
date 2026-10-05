@@ -1,0 +1,476 @@
+{
+ "lang": "en",
+ "slug": "bangkok-summer",
+ "altSlug": "bangkok-yaz",
+ "citySlug": "bangkok",
+ "destKey": "bangkok",
+ "city": "Bangkok",
+ "region": null,
+ "country": "Thailand",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "THB",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 9000,
+  "attractions": 3300,
+  "transport": 2500,
+  "misc": 2000
+ },
+ "notes": [
+  "The BTS Skytrain and MRT are the fastest ways to get around the city. Ask taxis to use the meter, and expect to haggle with touristy tuk-tuks. The Grab app is reliable.",
+  "Cover shoulders and knees at temples. Checks are strict at the Grand Palace, where sarongs are sold but pricey.",
+  "June to October is the rainy season, with an hour or two of downpour in the afternoon. Sightsee in the morning and save the malls for rain time. Expect 33°C and humidity.",
+  "Street food is safe: pick a busy stall, and ice is fine. Pad thai costs 60-100 THB, mango sticky rice 100 THB.",
+  "Tipping is not required, and restaurants may add a 10% service charge. Haggling is normal in markets but not in malls.",
+  "The train to Ayutthaya from Hua Lamphong takes 1.5 hours (20-60 THB). For the floating markets, take a tour or hire a car."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Rabbit Card",
+  "why_chosen": "Works on the BTS Skytrain. The MRT needs a separate token or card, and both are sold at stations.",
+  "coverage": "BTS Skytrain (Sukhumvit, Silom hatları); MRT için MRT kartı",
+  "where_to_buy": "BTS istasyon gişeleri",
+  "cost": 200,
+  "currency_code": "THB"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Grand Palace, Wat Pho and Wat Arun",
+   "stops": [
+    {
+     "name": "Grand Palace Bangkok",
+     "category": "culture",
+     "start": "08:30",
+     "end": "10:30",
+     "cost": 500,
+     "tips": "The royal palace and the Emerald Buddha (Wat Phra Kaew). Entry is 500 THB, shoulders and knees must be covered. Arrive at 08:30 to beat the crowds."
+    },
+    {
+     "name": "Wat Pho",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 300,
+     "tips": "Home to the 46 m reclining Buddha and the massage school. A 30-minute traditional massage (~300 THB) is available here."
+    },
+    {
+     "name": "Tha Tien Pier",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:20",
+     "cost": 5,
+     "tips": "Cross the Chao Phraya on a 5 THB ferry. Wat Arun is right on the other side."
+    },
+    {
+     "name": "Wat Arun",
+     "category": "culture",
+     "start": "12:20",
+     "end": "13:30",
+     "cost": 200,
+     "tips": "The Temple of Dawn. Climb the steep stairs of the porcelain-covered prang for river views."
+    },
+    {
+     "name": "Supanniga Eating Room Tha Tien",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 600,
+     "tips": "Thai home cooking on the riverside. Have lunch with a view of Wat Arun: moo palo and som tam."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Thipsamai Pad Thai",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 250,
+     "tips": "Bangkok's most famous pad thai. Queues build after 17:00, so lunchtime is easier."
+    },
+    {
+     "name": "Museum Siam",
+     "category": "culture",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 100,
+     "tips": "An interactive Thai history museum next to Wat Pho. A good option for rainy days."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Chinatown and the river",
+   "stops": [
+    {
+     "name": "Wat Traimit",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 100,
+     "tips": "Home to the 5.5-tonne golden Buddha. It marks the entrance to Chinatown."
+    },
+    {
+     "name": "Yaowarat Road",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Chinatown's main street, with gold shops, temples and quiet side streets by day."
+    },
+    {
+     "name": "Talat Noi",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "An old Chinese quarter on the riverbank, full of street art, garages and cafés."
+    },
+    {
+     "name": "Hua Seng Hong Yaowarat",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 350,
+     "tips": "A classic Chinatown Chinese restaurant. Order dim sum and goose."
+    },
+    {
+     "name": "Iconsiam",
+     "category": "shopping",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A giant mall across the river. Street food at the Sook Siam floating market floor makes for an air-conditioned afternoon."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Nai Ek Roll Noodle",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 150,
+     "tips": "Pork noodle soup on Yaowarat, a street-food classic."
+    },
+    {
+     "name": "Lhong 1919",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "A restored Chinese temple and warehouse on the riverbank. Calmer than ICONSIAM."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Jim Thompson, Siam and Lumphini",
+   "stops": [
+    {
+     "name": "Jim Thompson House",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 200,
+     "tips": "A teak Thai house and silk collection. Visits are by guided tour, and the garden is cool."
+    },
+    {
+     "name": "Siam Paragon",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Siam's giant mall, with a food market on the lower floor. An air-conditioned break."
+    },
+    {
+     "name": "Som Tam Nua Siam Square",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 300,
+     "tips": "Isan cooking: som tam and fried chicken. The queue moves fast at Siam Square."
+    },
+    {
+     "name": "Erawan Shrine",
+     "category": "culture",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "A Brahma shrine in the middle of the city, with dancers and incense."
+    },
+    {
+     "name": "Lumphini Park",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "Bangkok's central park, with monitor lizards, sunset and evening aerobics."
+    }
+   ],
+   "backups": [
+    {
+     "name": "MBK Center Food Court",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 150,
+     "tips": "The food court on MBK's 6th floor. Cheap and air-conditioned, an alternative to som tam."
+    },
+    {
+     "name": "Benjakitti Park",
+     "category": "nature",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "A new wetland park, and an alternative to Lumphini."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Chatuchak and Ari",
+   "stops": [
+    {
+     "name": "Chatuchak Weekend Market",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "On weekends it is the world's largest market (15,000 stalls). On weekdays, head to the Or Tor Kor food market. Go early, as midday is hot."
+    },
+    {
+     "name": "Or Tor Kor Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 300,
+     "tips": "A premium food market next to Chatuchak. Try the mango sticky rice and seafood."
+    },
+    {
+     "name": "Ari Neighbourhood",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Bangkok's hipster district, with cafés and boutiques. Take the BTS to Ari."
+    },
+    {
+     "name": "Raan Jay Fai",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 1500,
+     "tips": "A Michelin-starred street restaurant. Order the crab omelette (~1,000 THB). Book months ahead, or join the queue at 14:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Baan Ying Ari",
+     "category": "food",
+     "start": "18:30",
+     "end": "20:00",
+     "cost": 400,
+     "tips": "Thai home cooking in Ari. A fallback if Jay Fai doesn't work out."
+    },
+    {
+     "name": "Chatuchak Park",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A park next to the market, with shade and a lake."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Ayutthaya",
+   "stops": [
+    {
+     "name": "Wat Mahathat Ayutthaya",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 50,
+     "tips": "1.5 hours from Bangkok by train or minivan. See the Buddha head wrapped in tree roots in this UNESCO-listed ancient capital."
+    },
+    {
+     "name": "Wat Phra Si Sanphet",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:45",
+     "cost": 50,
+     "tips": "A royal temple with three chedis, and the symbol of Ayutthaya."
+    },
+    {
+     "name": "Wat Chaiwatthanaram",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 50,
+     "tips": "A Khmer-style temple on the riverbank, also famous for its sunset. Go by bicycle."
+    },
+    {
+     "name": "Ayutthaya Boat Noodle",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 150,
+     "tips": "Ayutthaya's boat noodles are served in small bowls. Eat 3 or 4."
+    },
+    {
+     "name": "Ayutthaya Night Market Pier",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A riverside market with temple views. The return train leaves at 17:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ayutthaya Roti Sai Mai",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 60,
+     "tips": "Cotton candy roti, Ayutthaya's signature sweet."
+    },
+    {
+     "name": "Bang Pa-In Palace",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 100,
+     "tips": "A summer palace on the way back, with gardens and pavilions."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Damnoen Saduak and Maeklong",
+   "stops": [
+    {
+     "name": "Damnoen Saduak Floating Market",
+     "category": "shopping",
+     "start": "08:00",
+     "end": "10:00",
+     "cost": 300,
+     "tips": "1.5 hours from Bangkok. The famous floating market is quieter at 08:00, and boat hire is negotiable."
+    },
+    {
+     "name": "Maeklong Railway Market",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A market set on the railway track. Check the train times (around 11:10 and 14:30)."
+    },
+    {
+     "name": "Amphawa Floating Market",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 300,
+     "tips": "A canalside market with grilled seafood served from boats. Livelier at weekends."
+    },
+    {
+     "name": "Wat Bang Kung",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A temple swallowed by a banyan tree, near Amphawa."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Amphawa Firefly Tour",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 100,
+     "tips": "An evening boat tour (if you stay on) to see fireflies."
+    },
+    {
+     "name": "Damnoen Saduak Boat Food Stall",
+     "category": "food",
+     "start": "12:30",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "Noodles and mango served from a boat at the floating market. Choose this if you skip Amphawa."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sathorn: a gentle farewell",
+   "stops": [
+    {
+     "name": "Wat Saket (Golden Mount)",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 100,
+     "tips": "The Golden Mount: 344 steps up to 360° views of the city. Cooler in the morning."
+    },
+    {
+     "name": "Bangkok Flower Market Pak Khlong Talat",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A 24-hour flower market, with jasmine garlands and orchids."
+    },
+    {
+     "name": "Baan Khanitha Sathorn",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 700,
+     "tips": "Classic Thai cooking in a Thai house. An air-conditioned farewell lunch."
+    },
+    {
+     "name": "Lumphini MRT / Airport Rail Link",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "The airport train takes 30 minutes from Phaya Thai. Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Krua Apsorn Dinso",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 350,
+     "tips": "Home cooking from the royal kitchen tradition. Try the crab omelette."
+    },
+    {
+     "name": "Wat Suthat",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 100,
+     "tips": "A temple with a giant swing. Visit it instead of the Golden Mount."
+    }
+   ]
+  }
+ ]
+}

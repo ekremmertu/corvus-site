@@ -1,0 +1,15 @@
+{
+ "source": "66f6edeeca2a",
+ "model": "sonnet",
+ "strings": {
+  "d1.s3.tips": "1968'den beri pho; Pasteur Caddesi, klasik.",
+  "d1.b1.tips": "Eiffel'in tasarladığı postane; içeriden gör.",
+  "d2.s0.tips": "Şehre 1,5 saat (tur ~500.000 VND veya 13 numaralı otobüs). 200 km tünel ağı; Ben Duoc daha az turistik. 20-100 m sürünme var.",
+  "d3.s4.tips": "Sırt çantacı sokağı; plastik taburede bira ve gürültü.",
+  "d4.s1.tips": "Yerel pazar; banh cuon kahvaltısı.",
+  "note1": "Mayıs-Ekim yağmur mevsimi: her öğleden sonra 1 saat sağanak var, sabah gez. Hava 32°C ve nemli.",
+  "note3": "Cu Chi ve Mekong için tur (otelden alma dahil) en pratik; Ben Duoc tünelleri Ben Dinh'den sakin.",
+  "note4": "Karşıdan karşıya sabit hızla yürü (motorlar seni geçer); kapkaç riski nedeniyle telefonu yolda elinde tutma."
+ },
+ "warnings": []
+}

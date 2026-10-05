@@ -1,0 +1,19 @@
+{
+ "source": "d960ebcf6801",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Glockenspiel 11:00 (ve 12:00, yazın 17:00); Neues Rathaus kule asansörü 6 EUR.",
+  "d1.s2.tips": "1807'den beri gıda pazarı; Weisswurst (gelenek: öğlen 12'den önce yenir), Obazda ve bira bahçesi.",
+  "d1.b0.tips": "Bira fabrikasının kendi salonu; Hofbräuhaus'a yerel alternatif.",
+  "d2.b1.tips": "Dürer, Rubens, Rembrandt; pazar 1 EUR, yağmurda park yerine.",
+  "d4.s4.tips": "LGBTİ+ dostu mahalle; barlar, Gärtnerplatz.",
+  "d5.s0.tips": "Tren + otobüs 2,5 saat (Bayern-Ticket) veya tur. Ludwig'in masal şatosu; saatli bileti haftalar önce online al. Tırmanış 30 dakika.",
+  "d7.s0.tips": "Oktoberfest alanı (Eylül-Ekim); Bavaria heykelinin başından manzara.",
+  "note1": "Aralık'ta Noel pazarları (Marienplatz, Tollwood); kışın hava 0°C, kar var. Alpler ve Neuschwanstein karla kaplı, bira salonları sıcak.",
+  "note2": "Mass bira 15 EUR (Oktoberfest'te 16+), Brezn 2, Schweinshaxe 20; bira bahçesine kendi yemeğini getirebilirsin. Bahşişte hesabı yuvarla.",
+  "note5": "Dachau anıtı ücretsiz ve pazartesi açık; sessiz davran."
+ },
+ "warnings": [
+  "d6.b0.tips: uzunluk çok değişti → düzeltme atıldı"
+ ]
+}

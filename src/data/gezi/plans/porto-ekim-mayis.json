@@ -1,0 +1,500 @@
+{
+ "lang": "tr",
+ "slug": "porto-ekim-mayis",
+ "altSlug": "porto-october-may",
+ "citySlug": "porto",
+ "destKey": "porto",
+ "city": "Porto",
+ "region": null,
+ "country": "Portekiz",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "ekim-mayis",
+ "seasonLabel": "Ekim–Mayıs",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 320,
+  "attractions": 140,
+  "transport": 90,
+  "misc": 60
+ },
+ "notes": [
+  "Andante 24 saat 7 EUR (metro+otobüs); metro E havalimanı 30 dakika. Douro/Guimarães/Aveiro CP treni (online, Douro sağ pencere). Tepeler dik.",
+  "Kış 10-15°C yağmurlu (Porto ıslak); Eylül-Ekim Douro bağbozumu altın vadi, Noel ışıkları Aliados; Nisan-Mayıs ideal.",
+  "Francesinha 12-15, pastel 1,30, porto tadımı 20-25, Lello 10 (kitaba sayılır), kahve 1; bahşiş yuvarlama.",
+  "Lello 09:00 online saatli; Clérigos sabah; Douro treni yaz hafta sonu dolu, önceden al; Bolhão pazar kapalı.",
+  "Tripas à moda do Porto (işkembe, şehrin lakabı 'tripeiros'), bacalhau, francesinha, vinho verde, porto tawny/ruby.",
+  "Ribeira gece güvenli; Gaia mahzenleri 17:00 kapanır."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Andante 24 saat",
+  "why_chosen": "Metro, otobüs, tramvay; havalimanı metro E dahil",
+  "coverage": "Metro do Porto, STCP otobüs, tramvay",
+  "where_to_buy": "Metro otomatı; kart 0,60 EUR",
+  "cost": 7,
+  "currency_code": "EUR"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Ribeira & Gaia",
+   "stops": [
+    {
+     "name": "São Bento Station",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "20.000 azulejo çinili gar holü; Portekiz tarihi."
+    },
+    {
+     "name": "Ribeira",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "UNESCO nehir kıyısı renkli evler; Praça da Ribeira, dar sokaklar."
+    },
+    {
+     "name": "Dom Luís I Bridge",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Eiffel'in öğrencisinin çift katlı demir köprüsü; üst kattan yürü (metro yanı)."
+    },
+    {
+     "name": "Taylor's Port Cellars",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "Gaia'da 1692 porto şarabı mahzeni; sesli tur + 3 tadım, bahçe terası."
+    },
+    {
+     "name": "Jardim do Morro Gün Batımı",
+     "category": "nature",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "Köprü başı bahçe; Porto silüeti gün batımı, teleferik (6 EUR) aşağı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Graham's Port Lodge",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Vintage porto ve nehir manzarası; Taylor's yerine."
+    },
+    {
+     "name": "Mosteiro da Serra do Pilar",
+     "category": "landmark",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 2,
+     "tips": "Yuvarlak manastır terası; Gaia tepesi, en iyi manzara."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Baixa & Clérigos",
+   "stops": [
+    {
+     "name": "Livraria Lello",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 10,
+     "tips": "Dünyanın en güzel kitabevi (kırmızı merdiven); 09:00 açılış saatli online bilet (kitaba sayılır)."
+    },
+    {
+     "name": "Torre dos Clérigos",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 8,
+     "tips": "76 m barok kule 240 basamak; şehir panoraması."
+    },
+    {
+     "name": "Igreja do Carmo Azulejo",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 5,
+     "tips": "Yan cephesi mavi çinili ikiz kilise; 1 m'lik ev aralarında."
+    },
+    {
+     "name": "Mercado do Bolhão",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "Restore 1914 pazar; peynir, sardalya konservesi, üst kat tezgahlar."
+    },
+    {
+     "name": "Café Majestic",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 8,
+     "tips": "1921 Belle Époque kafe; pahalı ama görülür, Santa Catarina."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Casa Guedes Praça Poveiros",
+     "category": "food",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 8,
+     "tips": "Pernil (domuz but) sandviçi Serra peynirli; kuyruk."
+    },
+    {
+     "name": "Igreja de São Francisco",
+     "category": "culture",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 10,
+     "tips": "Altın kaplı barok iç (300 kg altın); katakomp."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Douro Vadisi",
+   "stops": [
+    {
+     "name": "Pinhão Tren İstasyonu",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "São Bento'dan Linha do Douro treni 2,5 saat (nehir kıyısı, sağ pencere); çinili istasyon."
+    },
+    {
+     "name": "Quinta do Bomfim",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 25,
+     "tips": "Dow's bağı; teras tadımı ve bağ yürüyüşü."
+    },
+    {
+     "name": "Pinhão Rabelo Tekne Turu",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 15,
+     "tips": "Geleneksel rabelo teknesiyle 1 saat; teraslı bağlar UNESCO."
+    },
+    {
+     "name": "Pinhão Öğle Veladouro",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "Nehir kıyısı taverna; posta (dana) ve Douro şarabı."
+    },
+    {
+     "name": "Casal de Loivos Miradouro",
+     "category": "nature",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Vadinin en iyi manzarası (taksi 10 dakika); dönüş treni 17:20."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Quinta das Carvalhas",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:45",
+     "cost": 20,
+     "tips": "Karşı kıyı bağı; jeep turu."
+    },
+    {
+     "name": "Peso da Régua Museu do Douro",
+     "category": "culture",
+     "start": "15:45",
+     "end": "16:30",
+     "cost": 7,
+     "tips": "Dönüşte Régua'da inip müzeye uğra; sonraki trene bin."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Foz & Tramvay 1",
+   "stops": [
+    {
+     "name": "Tram 1 Ribeira–Foz",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 6,
+     "tips": "1930'lar ahşap tramvay nehir boyunca Atlantik'e; Infante durağından."
+    },
+    {
+     "name": "Foz do Douro Farol",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Fener ve dalgalar; Pérgola sahil sütunları."
+    },
+    {
+     "name": "Praia dos Ingleses & Sahil",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Kış Atlantik dalgaları; kahve."
+    },
+    {
+     "name": "Casa de Pasto da Palmeira Foz",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Deniz karşısı küçük tabaklar; modern Portekiz."
+    },
+    {
+     "name": "Jardins do Palácio de Cristal",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Tavus kuşlu teras bahçeler; nehir ve köprü manzarası, otobüs 500."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Serralves Museum",
+     "category": "culture",
+     "start": "14:30",
+     "end": "17:00",
+     "cost": 20,
+     "tips": "Siza'nın çağdaş sanat müzesi ve art deco villa parkı; Kristal yerine."
+    },
+    {
+     "name": "Brasão Cervejaria Foz",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 15,
+     "tips": "Francesinha (Porto'nun kalp krizi sandviçi) sosuyla."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Guimarães & Braga",
+   "stops": [
+    {
+     "name": "Castelo de Guimarães",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 2,
+     "tips": "Tren 1 saat; 'Portekiz'in doğduğu yer' 10. yüzyıl kalesi."
+    },
+    {
+     "name": "Paço dos Duques de Bragança",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 5,
+     "tips": "Burgonya tarzı dük sarayı; halılar."
+    },
+    {
+     "name": "Guimarães Largo da Oliveira",
+     "category": "food",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "UNESCO ortaçağ meydanı; Cor de Tangerina öğle."
+    },
+    {
+     "name": "Bom Jesus do Monte Braga",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Braga'ya otobüs/tren; 577 basamaklı barok zikzak merdiven ve su füniküleri (1882), manzara."
+    },
+    {
+     "name": "Braga Sé Katedrali",
+     "category": "culture",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 5,
+     "tips": "Portekiz'in en eski katedrali; dönüş treni."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Santuário do Sameiro",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Bom Jesus üstü tapınak; manzara."
+    },
+    {
+     "name": "Frigideiras do Cantinho Braga",
+     "category": "food",
+     "start": "16:15",
+     "end": "17:00",
+     "cost": 6,
+     "tips": "1796 kafesi; frigideira böreği."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Aveiro & Costa Nova",
+   "stops": [
+    {
+     "name": "Aveiro Moliceiro Teknesi",
+     "category": "nature",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 13,
+     "tips": "Tren 1 saat; 'Portekiz'in Venedik'i' kanal tekneleri (45 dakika), art nouveau evler."
+    },
+    {
+     "name": "Ovos Moles Confeitaria Peixinho",
+     "category": "food",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 5,
+     "tips": "1856 pastanesi; yumurta sarısı tatlısı ovos moles (kabuk şeklinde)."
+    },
+    {
+     "name": "Costa Nova Çizgili Evler",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "Otobüs 30 dakika; şeker gibi çizgili balıkçı evleri (palheiros), plaj."
+    },
+    {
+     "name": "Costa Nova Öğle Dóri",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 20,
+     "tips": "Lagün kenarı balık restoranı; caldeirada."
+    },
+    {
+     "name": "Praia da Costa Nova",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "Kış dalga izleme."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Fábrica Vista Alegre",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 8,
+     "tips": "Porselen fabrikası müzesi; Ílhavo."
+    },
+    {
+     "name": "Salpoente Aveiro",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 30,
+     "tips": "Tuz deposunda bacalhau tadım menüsü."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Cedofeita — hafif veda",
+   "stops": [
+    {
+     "name": "Rua de Miguel Bombarda Galerileri",
+     "category": "shopping",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Sanat galerileri sokağı; Centro Comercial Bombarda tasarım."
+    },
+    {
+     "name": "Igreja de Cedofeita Mahallesi",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Sokak sanatı (Hazul) ve kafeler."
+    },
+    {
+     "name": "Manteigaria Porto",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 4,
+     "tips": "Pastel de nata sıcak; Clérigos."
+    },
+    {
+     "name": "Rua das Flores",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 10,
+     "tips": "Yaya cadde; Casa Portuguesa do Pastel de Bacalhau ile veda."
+    },
+    {
+     "name": "Trindade Metro Havalimanı",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 2,
+     "tips": "Metro E 30 dakika; veda."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bonjardim Grill",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 12,
+     "tips": "Piri piri tavuk sokak lokantası."
+    },
+    {
+     "name": "Casa da Música",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 12,
+     "tips": "Koolhaas'ın beyaz beton konser binası; tur 11:00, galeri yerine."
+    }
+   ]
+  }
+ ]
+}

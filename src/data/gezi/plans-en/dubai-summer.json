@@ -1,0 +1,484 @@
+{
+ "lang": "en",
+ "slug": "dubai-summer",
+ "altSlug": "dubai-yaz",
+ "citySlug": "dubai",
+ "destKey": "dubai",
+ "city": "Dubai",
+ "region": null,
+ "country": "UAE",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "AED",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 2200,
+  "attractions": 2000,
+  "transport": 400,
+  "misc": 500
+ },
+ "notes": [
+  "Use a Nol card for the metro (Red Line from the airport to the Marina). Taxis are cheap and reliable (Careem/Uber). The E100 bus to Abu Dhabi costs 25 AED.",
+  "Summer brings 42-45°C and humidity: stay indoors between 10:00 and 17:00 (malls, museums, water parks). Go to the beach at 07:00 or in the evening. During Ramadan, eating and drinking in the daytime is only allowed in enclosed areas.",
+  "Mosque visits require long sleeves and a headscarf; abayas are provided at Sheikh Zayed. Alcohol is served only in licensed hotels and restaurants.",
+  "Burj Khalifa sunset tickets sell out weeks ahead, and so do Museum of the Future tickets.",
+  "Old Dubai is cheap and authentic: abra 1 AED, Al Ustad kebab 60 AED. Downtown and the Marina are expensive.",
+  "A 10% tip is common. Haggling is essential in the souks: start at half the asking price."
+ ],
+ "niche": null,
+ "transit": {
+  "name": "Nol Card",
+  "why_chosen": "Valid on the metro, tram, buses and abra. The Silver card is the most practical.",
+  "coverage": "Dubai Metro, tram, RTA otobüs, su otobüsü, abra",
+  "where_to_buy": "Metro istasyonları; 25 AED (6 AED bakiye dahil)",
+  "cost": 25,
+  "currency_code": "AED"
+ },
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Downtown and Burj Khalifa",
+   "stops": [
+    {
+     "name": "Dubai Mall",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The world's largest shopping mall, with an aquarium and ice rink. An air-conditioned start to the day."
+    },
+    {
+     "name": "Dubai Aquarium & Underwater Zoo",
+     "category": "culture",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 199,
+     "tips": "A tunnel aquarium inside the mall, with sharks."
+    },
+    {
+     "name": "Social House Dubai Mall",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 120,
+     "tips": "International menu with fountain views. Lunch stop."
+    },
+    {
+     "name": "Burj Khalifa At the Top",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 219,
+     "tips": "Floors 124-125, sunset slot (~219 AED). Book online weeks ahead. You get sunset and the city lights in one visit."
+    },
+    {
+     "name": "Dubai Fountain",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "A fountain show every 30 minutes on Burj Lake. Watch for free from the Souk Al Bahar terrace."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Time Out Market Dubai",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 100,
+     "tips": "Food hall at Souk Al Bahar. Lunch with plenty of choice."
+    },
+    {
+     "name": "Sky Views Observatory",
+     "category": "landmark",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 80,
+     "tips": "Glass walkway facing the Burj. A backup if Burj tickets are unavailable."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Old Dubai: Al Fahidi, abra and souks",
+   "stops": [
+    {
+     "name": "Al Fahidi Historical Neighbourhood",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Stone houses with wind towers. Have breakfast at Arabian Tea House and visit the coffee museum. Mornings are cool."
+    },
+    {
+     "name": "Dubai Museum Al Shindagha",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 50,
+     "tips": "Pearl-diving history and a Creek museum in Shindagha. Air-conditioned."
+    },
+    {
+     "name": "Dubai Creek Abra",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "11:20",
+     "cost": 1,
+     "tips": "Cross to Deira by wooden boat for 1 AED. One of the cheapest and best moments in Dubai."
+    },
+    {
+     "name": "Deira Spice Souk",
+     "category": "shopping",
+     "start": "11:20",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Spices, saffron and incense. Haggling is a must; paying half the asking price is normal."
+    },
+    {
+     "name": "Al Ustad Special Kabab",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 60,
+     "tips": "Iranian kebabs since 1978, in Bur Dubai, with walls full of photos. Dubai's most famous cheap eatery."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Arabian Tea House Al Fahidi",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 90,
+     "tips": "Emirati breakfast or lunch in a courtyard."
+    },
+    {
+     "name": "Deira Gold Souk",
+     "category": "shopping",
+     "start": "11:20",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The gold market. Browse the windows; it is next to the Spice Souk."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Aquaventure and the Palm",
+   "stops": [
+    {
+     "name": "Aquaventure Waterpark Atlantis",
+     "category": "nature",
+     "start": "09:00",
+     "end": "12:30",
+     "cost": 345,
+     "tips": "A huge water park on the Palm, the only cure for summer heat. Buy tickets online; mornings are less crowded."
+    },
+    {
+     "name": "Jumeirah Mosque",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 40,
+     "tips": "Mosque tour at 14:00, guided by SMCCU."
+    },
+    {
+     "name": "Al Fanar Restaurant Jumeirah",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 120,
+     "tips": "A 1960s-themed Emirati restaurant. Try the machboos and luqaimat."
+    },
+    {
+     "name": "Madinat Jumeirah Souk",
+     "category": "shopping",
+     "start": "16:30",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "An artificial souk with canals. The abra tour costs 100 AED, with sunset views of the Burj Al Arab."
+    },
+    {
+     "name": "Burj Al Arab Viewpoint",
+     "category": "landmark",
+     "start": "18:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Sunset view of the sail-shaped hotel from Jumeirah Beach. Free."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pierchic Madinat",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 400,
+     "tips": "A pier restaurant over the sea. A special dinner."
+    },
+    {
+     "name": "Etihad Museum",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 25,
+     "tips": "Museum on the founding of the UAE. Air-conditioned."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Marina and the Palm",
+   "stops": [
+    {
+     "name": "Dubai Marina Walk",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "A marina promenade among skyscrapers. Stop for coffee."
+    },
+    {
+     "name": "The View at The Palm",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:45",
+     "cost": 100,
+     "tips": "Observation terrace on floor 52 of Palm Jumeirah. You can see the palm shape from here."
+    },
+    {
+     "name": "Nakheel Mall",
+     "category": "shopping",
+     "start": "12:45",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "The Palm's mall. An air-conditioned break."
+    },
+    {
+     "name": "Bu Qtair Jumeirah",
+     "category": "food",
+     "start": "13:45",
+     "end": "15:00",
+     "cost": 70,
+     "tips": "A former fishermen's shack turned legend. Fried fish of the day, eaten standing or on stools."
+    },
+    {
+     "name": "JBR The Walk & Beach",
+     "category": "nature",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "The JBR seafront strip. Swim in winter, take an evening walk in summer, with views of Ain Dubai."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Marina Social Dubai",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 300,
+     "tips": "Modern menu in the Marina."
+    },
+    {
+     "name": "Ain Dubai",
+     "category": "landmark",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 130,
+     "tips": "The world's largest observation wheel. If the weather is clear."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "cityCenter",
+   "theme": "Desert safari",
+   "stops": [
+    {
+     "name": "Museum of the Future",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 149,
+     "tips": "The museum of the future, a giant ring with Arabic calligraphy. Buy online tickets weeks ahead."
+    },
+    {
+     "name": "Dubai Frame",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 50,
+     "tips": "A golden frame separating old and new Dubai. Glass bridge, air-conditioned."
+    },
+    {
+     "name": "Ravi Restaurant Satwa",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 40,
+     "tips": "Pakistani cuisine and Dubai's most famous cheap eatery. Order the dal and chicken karahi."
+    },
+    {
+     "name": "Lahbab Desert Safari",
+     "category": "nature",
+     "start": "16:00",
+     "end": "21:00",
+     "cost": 250,
+     "tips": "In summer, go on an evening safari after 17:00 when the sand is hot. Show and BBQ, 250-400 AED."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Al Mallah Satwa",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:15",
+     "cost": 40,
+     "tips": "Lebanese shawarma and fruit cocktails. An alternative to Ravi."
+    },
+    {
+     "name": "Al Qudra Lakes",
+     "category": "nature",
+     "start": "16:00",
+     "end": "21:00",
+     "cost": 0,
+     "tips": "Artificial lakes and flamingos in the desert. Go by car instead of the safari."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Abu Dhabi",
+   "stops": [
+    {
+     "name": "Sheikh Zayed Grand Mosque",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "1.5 hours from Dubai (E100 bus, 25 AED). See the world's largest carpet and chandeliers, free entry. Online registration is required; an abaya is provided at the entrance."
+    },
+    {
+     "name": "Louvre Abu Dhabi",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:30",
+     "cost": 63,
+     "tips": "Jean Nouvel's rain-of-light dome on Saadiyat Island. Air-conditioned."
+    },
+    {
+     "name": "Louvre Abu Dhabi Cafe",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 90,
+     "tips": "Lunch in the museum cafe, beneath the dome."
+    },
+    {
+     "name": "Qasr Al Watan",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 65,
+     "tips": "The presidential palace, with white marble and a library."
+    },
+    {
+     "name": "Abu Dhabi Corniche",
+     "category": "nature",
+     "start": "17:00",
+     "end": "18:00",
+     "cost": 0,
+     "tips": "The seafront promenade. Your return bus leaves at 18:30."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Emirates Palace Le Café",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 150,
+     "tips": "Gold-flecked cappuccino in the palace hotel."
+    },
+    {
+     "name": "Yas Island Ferrari World",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 345,
+     "tips": "The world's fastest roller coaster. An alternative to the palace."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Souk Madinat morning, light farewell",
+   "stops": [
+    {
+     "name": "Alserkal Avenue",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "An art gallery district in Al Quoz. Coffee and exhibitions, free."
+    },
+    {
+     "name": "Karama Market",
+     "category": "shopping",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 0,
+     "tips": "Souvenirs and textiles. Haggle."
+    },
+    {
+     "name": "Logma Boxpark",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 80,
+     "tips": "A modern Emirati cafe. Try regag bread (thin Emirati flatbread) and karak tea for a farewell meal."
+    },
+    {
+     "name": "Dubai Metro Red Line Airport",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Take the metro to DXB Terminals 1-3. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Karak House Jumeirah",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 50,
+     "tips": "Karak tea and Emirati breakfast. A light farewell."
+    },
+    {
+     "name": "Jameel Arts Centre",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Contemporary art by the Creek. An alternative to Alserkal."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "source": "5f0b7420018c",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "Kaleden Holyrood'a 1,6 km; St Giles Katedrali (Thistle Şapeli), close'lar (dar geçitler), Mary King's Close turu.",
+  "d1.s2.tips": "Dr. Jekyll'ın ilham kaynağı hırsız meclis üyesi; haggis, neeps & tatties.",
+  "d2.s3.tips": "Ulusal Anıt (bitmemiş Parthenon), Nelson Kulesi; en iyi şehir kartpostalı, gün batımı.",
+  "d3.s4.tips": "1670 botanik bahçesi; seralar (ücretli), Inverleith tepesinden kale manzarası.",
+  "d4.s0.tips": "Da Vinci Şifresi'nin 1446 şapeli; Çırak Sütunu ve yüzlerce oyma, 37 numaralı otobüs 40 dakika.",
+  "d4.s3.tips": "Şehrin güneyindeki tepeler; Glencorse rezervuarı yürüyüşü, koyunlar, 101 numaralı otobüs.",
+  "d4.b1.tips": "Pentlands girişinde pub.",
+  "d5.s1.tips": "Braveheart'ın 67 m kulesi; Stirling Köprüsü Savaşı (1297), 246 basamak.",
+  "d5.s3.tips": "Tur veya tren 1 saat; İskoçya'nın en büyük gölü, Balloch Kalesi parkı, tekne (yaz).",
+  "d5.b1.tips": "Kale kapısında pub.",
+  "d6.b0.tips": "Michelin yıldızlı; öğle menüsü, rezervasyon.",
+  "d7.s3.tips": "Tramvayla havalimanı 35 dakika; veda.",
+  "note0": "Lothian otobüsü günlük 5,50 GBP (uygulama); havalimanı tramvayı 7 GBP. Stirling ve Loch Lomond'a tren, Rosslyn'e 37 numaralı otobüs. Şehir tepelik ve yürünebilir.",
+  "note1": "Ağustos'ta Fringe ve Tattoo festivalleri var (3.000 gösteri); oteller 3 kat pahalı, aylar önce rezervasyon yap. Yaz 15-20°C, hava değişken; gün ışığı 22:00'ye kadar sürer. Haziran-Temmuz ideal.",
+  "note2": "Kale 20 GBP, online bilet zorunlu; müzeler (National, Galleries) ücretsiz; pub öğle yemeği 15-20 GBP, viski tadımı 25 GBP; bahşiş %10.",
+  "note3": "Haggis, Cullen skink, Scotch pie, cranachan, Irn-Bru; viski: Islay dumanlı, Speyside tatlı.",
+  "note5": "Harry Potter: Victoria Street, Greyfriars, Elephant House, Balmoral Otel'de 552 numaralı oda."
+ },
+ "warnings": [
+  "d4.s2.tips: uzunluk çok değişti → düzeltme atıldı",
+  "note4: sayı değişti → düzeltme atıldı"
+ ]
+}

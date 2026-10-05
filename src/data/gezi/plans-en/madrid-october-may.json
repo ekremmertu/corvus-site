@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "madrid-october-may",
+ "altSlug": "madrid-ekim-mayis",
+ "citySlug": "madrid",
+ "destKey": "madrid",
+ "city": "Madrid",
+ "region": null,
+ "country": "Spain",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 350,
+  "attractions": 160,
+  "transport": 80,
+  "misc": 60
+ },
+ "notes": [
+  "A 10-trip metro ticket costs 12.20 EUR; the airport is 30 minutes by metro or Cercanías. Toledo and Segovia are 30 minutes by AVE (Atocha/Chamartín); buy tickets in advance.",
+  "The Prado, the Palace and the Reina Sofía require timed online tickets. The Prado is free 18:00-20:00 and the Reina Sofía on Saturday afternoons (expect queues).",
+  "Winter is sunny at 5-12°C. In December there is a Christmas market on Plaza Mayor; January brings the sales and it is cocido season.",
+  "Tapas cost 2-4 EUR, a menú del día 13-16 EUR and cochinillo 30-40 EUR; churros at San Ginés cost 5 EUR. Round up the bill as a tip.",
+  "Visit El Rastro on a Sunday morning; Lavapiés and Malasaña are best in the evening. Watch for pickpockets around Sol and on the metro.",
+  "If Real Madrid are playing, buy tickets months ahead; stadium tours run daily."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Prado and Retiro",
+   "stops": [
+    {
+     "name": "Museo del Prado",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "Velázquez's Las Meninas, Goya, Bosch. Book a timed slot online (15 EUR); entry is free 18:00-20:00 but crowded."
+    },
+    {
+     "name": "Parque del Retiro",
+     "category": "nature",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "The lake (rowing boats 6 EUR), the Crystal Palace and the Fallen Angel statue."
+    },
+    {
+     "name": "Casa Alberto",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 25,
+     "tips": "A tavern dating from 1827 in Huertas; try the rabo de toro (oxtail stew) and vermouth."
+    },
+    {
+     "name": "Museo Reina Sofía",
+     "category": "culture",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 12,
+     "tips": "Picasso's Guernica; free on Saturdays after 14:30."
+    },
+    {
+     "name": "Barrio de las Letras",
+     "category": "landmark",
+     "start": "19:00",
+     "end": "20:00",
+     "cost": 0,
+     "tips": "Cervantes' neighbourhood, with verses written in the streets and Plaza Santa Ana."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo Thyssen-Bornemisza",
+     "category": "culture",
+     "start": "17:00",
+     "end": "19:00",
+     "cost": 13,
+     "tips": "The third museum of the Golden Triangle of Art; an alternative to the Reina Sofía."
+    },
+    {
+     "name": "Mercado de San Miguel",
+     "category": "food",
+     "start": "14:15",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "Tapas stalls in an iron-framed market hall; touristy but worth seeing."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Habsburg Madrid and the Royal Palace",
+   "stops": [
+    {
+     "name": "Plaza Mayor",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 0,
+     "tips": "The square is empty in the morning; try a bocadillo de calamares (fried squid sandwich) at Casa Rúa."
+    },
+    {
+     "name": "Royal Palace of Madrid",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 14,
+     "tips": "Western Europe's largest palace; book a timed slot online. See the Throne Room and the Sabatini Gardens."
+    },
+    {
+     "name": "Almudena Cathedral",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Opposite the palace; look up at the colourful ceiling."
+    },
+    {
+     "name": "Chocolatería San Ginés",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 5,
+     "tips": "Churros con chocolate served around the clock since 1894."
+    },
+    {
+     "name": "La Latina Cava Baja Tapas",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 25,
+     "tips": "A tapas crawl along Cava Baja: Casa Lucio (huevos rotos), Juana la Loca (tortilla), Txirimiri."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Casa Botín",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 45,
+     "tips": "The world's oldest restaurant (1725); order the cochinillo (roast suckling pig) and reserve ahead."
+    },
+    {
+     "name": "Temple of Debod",
+     "category": "landmark",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "An Egyptian temple, famous for its sunset; an alternative to the cathedral."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Malasaña, Chueca and Gran Vía",
+   "stops": [
+    {
+     "name": "Gran Vía",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Madrid's Broadway, with the Metropolis Building and the Schweppes sign."
+    },
+    {
+     "name": "Malasaña Streets",
+     "category": "shopping",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Vintage and record shops, plus Plaza del Dos de Mayo."
+    },
+    {
+     "name": "Mercado de San Ildefonso",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 12,
+     "tips": "A street-food market on Calle Fuencarral."
+    },
+    {
+     "name": "Chueca",
+     "category": "landmark",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "A colourful neighbourhood; head up to the rooftop bar at Mercado de San Antón."
+    },
+    {
+     "name": "Círculo de Bellas Artes Terrace",
+     "category": "nature",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 5,
+     "tips": "A rooftop terrace above Gran Vía, with sunset views and Calle de Alcalá below."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lamiak Malasaña",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 15,
+     "tips": "Basque pintxos."
+    },
+    {
+     "name": "Museo de Historia de Madrid",
+     "category": "culture",
+     "start": "13:15",
+     "end": "14:15",
+     "cost": 0,
+     "tips": "The city history museum in Malasaña; free entry."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Toledo",
+   "stops": [
+    {
+     "name": "Toledo Cathedral",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 12,
+     "tips": "AVE train from Atocha, 33 minutes. Spain's largest Gothic cathedral, with works by El Greco."
+    },
+    {
+     "name": "Iglesia de Santo Tomé",
+     "category": "culture",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 4,
+     "tips": "El Greco's The Burial of the Count of Orgaz."
+    },
+    {
+     "name": "Synagogue of Santa María la Blanca",
+     "category": "culture",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 3,
+     "tips": "A Mudéjar synagogue in the Jewish quarter."
+    },
+    {
+     "name": "Cervecería El Trébol",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 18,
+     "tips": "Bombas (stuffed potato croquettes) and carcamusas (pork and tomato stew) in Toledo; a local favourite."
+    },
+    {
+     "name": "Mirador del Valle",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The Toledo skyline seen across the river. Take the tourist bus or a taxi, and head back by 17:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Alcázar of Toledo",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 5,
+     "tips": "An army museum with city views; an alternative to the mirador."
+    },
+    {
+     "name": "Mazapán Santo Tomé",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 5,
+     "tips": "Toledo's marzipan."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Segovia",
+   "stops": [
+    {
+     "name": "Aqueduct of Segovia",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "AVE train, 27 minutes. A 2,000-year-old Roman aqueduct built without mortar, 28 m high."
+    },
+    {
+     "name": "Segovia Cathedral",
+     "category": "culture",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 4,
+     "tips": "The last Gothic cathedral built in Spain, on Plaza Mayor."
+    },
+    {
+     "name": "Alcázar of Segovia",
+     "category": "culture",
+     "start": "11:45",
+     "end": "13:00",
+     "cost": 9,
+     "tips": "Said to have inspired Disney's castle; the tower has 152 steps."
+    },
+    {
+     "name": "Mesón de Cándido",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:45",
+     "cost": 40,
+     "tips": "Cochinillo (suckling pig) beneath the aqueduct since 1898, carved at the table with a plate."
+    },
+    {
+     "name": "Mirador de la Pradera de San Marcos",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The view of the Alcázar like a ship's prow, from the riverside."
+    }
+   ],
+   "backups": [
+    {
+     "name": "José María Segovia",
+     "category": "food",
+     "start": "13:15",
+     "end": "14:45",
+     "cost": 40,
+     "tips": "The other classic for cochinillo."
+    },
+    {
+     "name": "Royal Palace of La Granja de San Ildefonso",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 9,
+     "tips": "A Versailles-style palace 11 km from Segovia; an alternative to the mirador."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Salamanca and Bernabéu",
+   "stops": [
+    {
+     "name": "Museo Sorolla",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:15",
+     "cost": 3,
+     "tips": "The painter's home, with an Andalusian-style garden; quiet in the morning."
+    },
+    {
+     "name": "Barrio de Salamanca Calle Serrano",
+     "category": "shopping",
+     "start": "11:30",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "A luxury shopping street, near the Platea gastro-theatre."
+    },
+    {
+     "name": "Platea Madrid",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 20,
+     "tips": "A food market in a former cinema, near Colón."
+    },
+    {
+     "name": "Santiago Bernabéu Stadium Tour",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 30,
+     "tips": "Real Madrid museum and stadium tour; go when there is no match."
+    },
+    {
+     "name": "National Archaeological Museum",
+     "category": "culture",
+     "start": "17:00",
+     "end": "18:30",
+     "cost": 3,
+     "tips": "Home of the Lady of Elche, in Salamanca district; a good escape from the heat."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Lhardy",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 40,
+     "tips": "A restaurant dating from 1839; try the cocido madrileño (Madrid chickpea stew), served Monday to Wednesday."
+    },
+    {
+     "name": "Parque de El Capricho",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A romantic park, open at weekends; an alternative to the stadium."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Rastro and Lavapiés: a gentle farewell",
+   "stops": [
+    {
+     "name": "El Rastro",
+     "category": "shopping",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A huge flea market on Sundays (Ribera de Curtidores); on other days, antique shops."
+    },
+    {
+     "name": "Lavapiés",
+     "category": "landmark",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "A multicultural neighbourhood with murals and the Tabacalera arts centre."
+    },
+    {
+     "name": "Casa Revuelta",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "A tapa of bacalao rebozado (battered cod), eaten standing up near El Rastro; open since 1966."
+    },
+    {
+     "name": "Puerta del Sol Kilometre Zero",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Spain's zero point and the Bear statue. Take the metro to Atocha; the airport is 30 minutes by Cercanías."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Taberna La Concha La Latina",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 15,
+     "tips": "Vermouth and tapas."
+    },
+    {
+     "name": "Museo Cerralbo",
+     "category": "culture",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 3,
+     "tips": "An aristocratic mansion; an alternative to Lavapiés."
+    }
+   ]
+  }
+ ]
+}

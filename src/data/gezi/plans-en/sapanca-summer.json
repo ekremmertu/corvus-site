@@ -1,0 +1,437 @@
+{
+ "lang": "en",
+ "slug": "sapanca-summer",
+ "altSlug": "sapanca-yaz",
+ "citySlug": "sapanca",
+ "destKey": "sapanca",
+ "city": "Sapanca",
+ "region": "Sakarya",
+ "country": "Türkiye",
+ "isTurkey": true,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "TRY",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 5500,
+  "attractions": 1000,
+  "transport": 1800,
+  "misc": 500
+ },
+ "notes": [
+  "Sapanca is 1.5 hours from Istanbul (by motorway, or by high-speed train from Arifiye). Explore the lake by car or bike. Maşukiye and Kartepe are 20 minutes away.",
+  "It gets very busy on summer weekends, so head to breakfast places before 10:00.",
+  "Trout, spread-style breakfast, ıslama köfte (Adapazarı) and chestnuts are local specialities.",
+  "Bungalow stays are Sapanca's signature; they cost half as much on weekdays.",
+  "The Kartepe summit is cool in summer at around 10°C, so bring a cardigan.",
+  "The lakeside path is 5 km long, and the morning mist is lovely for photos."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Lake Sapanca",
+   "stops": [
+    {
+     "name": "Sapanca Lake Walking Path",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A 5 km walking and cycling path along the lake, with morning mist and greenery."
+    },
+    {
+     "name": "Sapanca Lake Pier Cafe",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 200,
+     "tips": "Breakfast and coffee on the lake, on the Kırkpınar shore."
+    },
+    {
+     "name": "Kırkpınar Shore",
+     "category": "nature",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The liveliest stretch of the lakeshore, with cafes and piers."
+    },
+    {
+     "name": "Sapanca Lake Fish Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 500,
+     "tips": "Trout and carp with a view over the lake."
+    },
+    {
+     "name": "Sapanca Lake Sunset Pier",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Sunset on the western shore, ideal for photos."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sapanca Breakfast Village",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:00",
+     "cost": 400,
+     "tips": "Spread-style Turkish breakfast."
+    },
+    {
+     "name": "Sapanca Bazaar",
+     "category": "shopping",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The town market, good for honey and walnuts."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Maşukiye",
+   "stops": [
+    {
+     "name": "Maşukiye Waterfall",
+     "category": "nature",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A stream and waterfall at the foot of Kartepe, with walks."
+    },
+    {
+     "name": "Maşukiye Trout Restaurant",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 500,
+     "tips": "Trout and breakfast over the stream, a Maşukiye classic."
+    },
+    {
+     "name": "Maşukiye Village",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Village square and market selling walnuts, chestnuts and honey."
+    },
+    {
+     "name": "Kartepe Cable Car",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 400,
+     "tips": "Cable car from Maşukiye up to Kartepe (about 400 TL): highland pasture in summer, snow in winter."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Maşukiye Gözleme Place",
+     "category": "food",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 250,
+     "tips": "Gözleme (stuffed flatbread) and ayran."
+    },
+    {
+     "name": "Kuzuyayla Nature Park",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 50,
+     "tips": "Forest and picnic spots on the road to Kartepe, an alternative to the cable car."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Kartepe summit",
+   "stops": [
+    {
+     "name": "Kartepe Ski Centre",
+     "category": "nature",
+     "start": "09:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "In summer, highland walks at 1,650 m with views of the Gulf of Izmit."
+    },
+    {
+     "name": "Kartepe Summit Restaurant",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 500,
+     "tips": "Sucuk ekmek (spicy sausage in bread) and mantı (Turkish dumplings) at the summit, with a view."
+    },
+    {
+     "name": "Kartepe Hiking Trail",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A forest path around the summit; snow walks in winter."
+    },
+    {
+     "name": "Sapanca Evening Bazaar",
+     "category": "shopping",
+     "start": "17:30",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Stop at the bazaar on the way back for local products."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kartepe Breakfast House",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 400,
+     "tips": "Breakfast at the summit."
+    },
+    {
+     "name": "Derbent Gardens",
+     "category": "nature",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "Garden cafes at the foot of Kartepe."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Sakarya and Taraklı",
+   "stops": [
+    {
+     "name": "Taraklı",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "One hour from Sapanca: Ottoman houses, Yunus Pasha Mosque and Hıdırlık Hill."
+    },
+    {
+     "name": "Taraklı Mansion Restaurant",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 350,
+     "tips": "Home cooking in a mansion, with uhut (a local stew) and mantı."
+    },
+    {
+     "name": "Taraklı Thermal Baths",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 300,
+     "tips": "A thermal pool, ideal in winter."
+    },
+    {
+     "name": "Adapazarı Bazaar, Sakarya",
+     "category": "shopping",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Stop in Adapazarı on the way back for ıslama köfte (sauce-soaked meatballs)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Adapazarı Islama Köfte Restaurant",
+     "category": "food",
+     "start": "16:30",
+     "end": "17:30",
+     "cost": 300,
+     "tips": "Sakarya's famous ıslama köfte."
+    },
+    {
+     "name": "Geyve Gorge",
+     "category": "nature",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "The Sakarya River valley, a scenic alternative to the thermal baths."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Poyrazlar and Karasu",
+   "stops": [
+    {
+     "name": "Poyrazlar Lake",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "40 minutes from Sapanca: a lake among sand dunes, with walks."
+    },
+    {
+     "name": "Karasu Beach",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "A Black Sea beach: swimming in summer, waves in winter."
+    },
+    {
+     "name": "Karasu Fish Restaurant",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 500,
+     "tips": "Black Sea fish and cornbread."
+    },
+    {
+     "name": "Acarlar Floodplain Forest",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 50,
+     "tips": "Subaşı forest with a wooden boardwalk and birdlife."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Karasu Pide Restaurant",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:30",
+     "cost": 250,
+     "tips": "Black Sea pide (boat-shaped flatbread)."
+    },
+    {
+     "name": "Kocaali Beach",
+     "category": "nature",
+     "start": "12:00",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "A quieter beach."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Bungalows and nature",
+   "stops": [
+    {
+     "name": "Sapanca Kırkpınar Garden Cafes",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 400,
+     "tips": "Spread-style breakfast in a garden, a Sapanca classic."
+    },
+    {
+     "name": "Sapanca Cycling Tour",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:30",
+     "cost": 200,
+     "tips": "Rent a bike and ride around the lake: 20 km of flat road."
+    },
+    {
+     "name": "Mahmudiye Village, Sapanca",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "The bungalow village, with forest and stream."
+    },
+    {
+     "name": "Mahmudiye Forest Walk",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A forest trail above the village, with autumn colours."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sapanca Toast House",
+     "category": "food",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 200,
+     "tips": "Toasted sandwiches and tea."
+    },
+    {
+     "name": "Sapanca Lakeside Picnic Area",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Picnic."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Lake morning and a gentle farewell",
+   "stops": [
+    {
+     "name": "Sapanca Lake Morning Walk",
+     "category": "nature",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "One last walk along the lake."
+    },
+    {
+     "name": "Sapanca Market Square",
+     "category": "shopping",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Friday market (or the bazaar if there isn't one): honey, walnuts and chestnuts."
+    },
+    {
+     "name": "Sapanca Seaside Breakfast Place",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 350,
+     "tips": "A farewell breakfast."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Sapanca Lakeside Tea Garden",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:30",
+     "cost": 200,
+     "tips": "Tea and toasted sandwiches by the lake, a fitting goodbye."
+    },
+    {
+     "name": "Sapanca Train Station",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Adapazarı to Istanbul train; farewell."
+    }
+   ]
+  }
+ ]
+}

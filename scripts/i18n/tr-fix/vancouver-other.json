@@ -1,0 +1,17 @@
+{
+ "source": "9aadabf7cd64",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Denny's/Spokes'tan bisiklet (15 CAD/2 saat); 9 km deniz duvarı, Lions Gate Köprüsü altı, Third Beach.",
+  "d1.s4.tips": "Yelken çatılı terminal; FlyOver Canada (35 CAD), deniz uçaklarının iniş-kalkışı.",
+  "d4.s4.tips": "Efsane fırın; scone ve kek, dönüş otobüsü.",
+  "d5.s0.tips": "Buharlı saat her 15 dakikada ıslık çalar; Gassy Jack meydanı, kaldırım taşları.",
+  "d5.s3.tips": "Depo mahallesi; Roundhouse lokomotifi, David Lam Parkı, False Creek seawall.",
+  "d6.s0.tips": "Şehrin en yüksek noktası; taş ocağı bahçeleri ve silüet, Bloedel Serası (8 CAD).",
+  "d7.s3.tips": "Canada Line ile havalimanı 25 dakika; veda.",
+  "note0": "Compass kartı; SkyTrain, otobüs, SeaBus (Kuzey Vancouver); Canada Line ile YVR 25 dakika (ek 5 CAD). Capilano ve Grouse'a ücretsiz servisler Canada Place'ten kalkar.",
+  "note1": "Kış 3-8°C, yağmurlu (Raincouver); Whistler ve Grouse'ta kayak, Capilano/VanDusen ışıkları Aralıkta; Nisan'da kiraz çiçeği festivali.",
+  "note4": "Whistler otobüsünü (Skylynx) günler önce ayırt; Peak 2 Peak yazın hafta içi ucuz; Sea to Sky Gondola ile birleştir."
+ },
+ "warnings": []
+}

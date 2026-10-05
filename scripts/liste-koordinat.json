@@ -1,0 +1,608 @@
+{
+ "fifty_best_bars_2025#1": {
+  "km": 0.15,
+  "osm": "必列者士街 Bridges Street, 太平山 Tai Ping Shan, 上環 Sheung Wan, 中西區 Central and Western "
+ },
+ "fifty_best_bars_2025#2": {
+  "km": 0.03,
+  "osm": "Calle Amberes, Juárez, Roma, Ciudad de México, Cuauhtémoc, Ciudad de México, 066"
+ },
+ "fifty_best_bars_2025#3": {
+  "km": 0.32,
+  "osm": "108, Carrer de Muntaner, l'Antiga Esquerra de l'Eixample, l'Eixample, Barcelona,"
+ },
+ "fifty_best_bars_2025#4": {
+  "km": 0.04,
+  "osm": "Paradiso, 4, Carrer de Rere Palau, la Ribera, Sant Pere, Santa Caterina i la Rib"
+ },
+ "fifty_best_bars_2025#5": {
+  "km": 0.25,
+  "osm": "Tayēr + Elementary, 152, Old Street, St Luke's, Angel, Finsbury, London Borough "
+ },
+ "fifty_best_bars_2025#6": {
+  "km": 0.02,
+  "osm": "Carlos Place, East Marylebone, Mayfair, City of Westminster, Greater London, Eng"
+ },
+ "fifty_best_bars_2025#7": {
+  "km": 0.37,
+  "osm": "3, Via Cappellari, Duomo, Cerchia dei Navigli, Municipio 1, Milano, Rodano, Mila"
+ },
+ "fifty_best_bars_2025#8": {
+  "km": 0.33,
+  "osm": "Zuccherino, 16, Κολοκοτρώνη, Ακαδημία, Πλάκα, 1η Κοινότητα Αθηνών, Αθήνα, Δήμος "
+ },
+ "fifty_best_bars_2025#9": {
+  "km": null
+ },
+ "fifty_best_bars_2025#10": {
+  "km": 0.52,
+  "osm": "Tres Monos, 4899, Guatemala, Palermo Soho, Palermo, Buenos Aires, Comuna 14, Ciu"
+ },
+ "fifty_best_bars_2025#11": {
+  "km": 0.12,
+  "osm": "Calle del Colegio, Centro, Cartagena de Indias, Dique, Bolívar, RAP Caribe, 1300"
+ },
+ "fifty_best_bars_2025#12": {
+  "km": 0.05,
+  "osm": "108, 1st Avenue, East Village, Manhattan Community Board 3, Manhattan, New York "
+ },
+ "fifty_best_bars_2025#13": {
+  "km": 0.65,
+  "osm": "Avenida Paseo de la República, Miraflores, Lima, Lima Metropolitana, Lima, 10574"
+ },
+ "fifty_best_bars_2025#14": {
+  "km": 0.32,
+  "osm": "27, Storgata, Sjøtomta, Vaterland, Sentrum, Oslo, 0184, Norge"
+ },
+ "fifty_best_bars_2025#15": {
+  "km": 0.13,
+  "osm": "ซอยสุขุมวิท 11, ชุมชนรื่นฤดี, แขวงคลองเตยเหนือ, เขตวัฒนา, กรุงเทพมหานคร, 10110, "
+ },
+ "fifty_best_bars_2025#16": {
+  "km": 0.48,
+  "osm": "이태원로55가길, 한남동, 용산구, 서울특별시, 04348, 대한민국"
+ },
+ "fifty_best_bars_2025#17": {
+  "km": 0.03,
+  "osm": "ArchiBon, 13, Rue Rougemont, Quartier du Faubourg-Montmartre, Paris 9e Arrondiss"
+ },
+ "fifty_best_bars_2025#18": {
+  "km": 0.44,
+  "osm": "Bar Benfiddich, 中央通り, 西新宿一丁目, 西新宿, 新宿区, 東京都, 160-0023, 日本"
+ },
+ "fifty_best_bars_2025#19": {
+  "km": 0.12,
+  "osm": "Bennetts Lane, Greek Precinct, Melbourne, Victoria, 3000, Australia"
+ },
+ "fifty_best_bars_2025#20": {
+  "km": 0.07,
+  "osm": "The Cambridge public house, 8, Rue de Poitou, Quartier des Enfants-Rouges, Paris"
+ },
+ "fifty_best_bars_2025#21": {
+  "km": 0.54,
+  "osm": "Satan's Whiskers, 343, Cambridge Heath Road, Bethnal Green, London Borough of To"
+ },
+ "fifty_best_bars_2025#22": {
+  "km": 0.19,
+  "osm": "Locale, 12, Via delle Seggiole, Quartiere 1, Firenze, Toscana, 50122, Italia"
+ },
+ "fifty_best_bars_2025#23": {
+  "km": 0.42,
+  "osm": "Calle Tonalá, Roma Norte, Roma, Ciudad de México, Cuauhtémoc, Ciudad de México, "
+ },
+ "fifty_best_bars_2025#24": {
+  "km": 0.31,
+  "osm": "Rua Fradique Coutinho, Pinheiros, São Paulo, Região Sudeste, 05416-010, Brasil"
+ },
+ "fifty_best_bars_2025#25": {
+  "km": 0.17,
+  "osm": "Mirror Cocktail Bar, 3, Hviezdoslavovo námestie, Príboj, Historické jadro, Brati"
+ },
+ "fifty_best_bars_2025#26": {
+  "km": 0.93,
+  "osm": "451, Agüero, Abasto, Once, Balvanera, Buenos Aires, Comuna 3, Ciudad Autónoma de"
+ },
+ "fifty_best_bars_2025#27": {
+  "km": 0.3,
+  "osm": "Baba Au Rum, 6, Κλειτίου, Ακαδημία, Πλάκα, 1η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθη"
+ },
+ "fifty_best_bars_2025#28": {
+  "km": 0.75,
+  "osm": "Rruga Vaso Pasha, Ish Merkata, Blloku, Njësia Bashkiake Nr. 5, Tiranë, Bashkia T"
+ },
+ "fifty_best_bars_2025#29": {
+  "km": null
+ },
+ "fifty_best_bars_2025#30": {
+  "km": 0.12,
+  "osm": "Danico, 6, Rue Vivienne, Vivienne, Paris 2e Arrondissement, Paris, Île-de-France"
+ },
+ "fifty_best_bars_2025#31": {
+  "km": 0.1,
+  "osm": "Scarfes Bar, 252, High Holborn, Holborn, London Borough of Camden, Greater Londo"
+ },
+ "fifty_best_bars_2025#32": {
+  "km": 0.07,
+  "osm": "8, Tordenskiolds gate, Vika, Sentrum, Oslo, 0160, Norge"
+ },
+ "fifty_best_bars_2025#33": {
+  "km": 0.2,
+  "osm": "Calle Berlín, Miraflores, Lima, Lima Metropolitana, Lima, 15074, Perú"
+ },
+ "fifty_best_bars_2025#34": {
+  "km": 0.34,
+  "osm": "Panda & Sons, 79, Queen Street, New Town, New Town/Broughton, City of Edinburgh,"
+ },
+ "fifty_best_bars_2025#35": {
+  "km": 0.69,
+  "osm": "76, Karlavägen, Östermalm, Norra innerstadens stadsdelsområde, Stockholm, Stockh"
+ },
+ "fifty_best_bars_2025#36": {
+  "km": 2.04,
+  "osm": "منتجع فور سيزونز دبي جميرا بيتش, شارع جميرا, جميرا 2, جميرا, دبي, الإمارات العرب",
+  "use": true,
+  "lat": 25.20217,
+  "lng": 55.23969
+ },
+ "fifty_best_bars_2025#37": {
+  "km": 0.04,
+  "osm": "Salmon Guru, 21, Calle de Echegaray, Barrio de las Letras, Cortes, Centro, Madri"
+ },
+ "fifty_best_bars_2025#38": {
+  "km": 0.17,
+  "osm": "COA, 6-10, 善慶街 Shin Hing Street, 蘇豪 SoHo, 上環 Sheung Wan, 中西區 Central and Western"
+ },
+ "fifty_best_bars_2025#39": {
+  "km": 0.24,
+  "osm": "10, Downing Street, Hudson Square, Manhattan, New York County, New York, 10014, "
+ },
+ "fifty_best_bars_2025#40": {
+  "km": 0.28,
+  "osm": "Drink Kong, 8, Piazza di San Martino ai Monti, Monti, Municipio Roma I, Roma, Ro"
+ },
+ "fifty_best_bars_2025#41": {
+  "km": 0.05,
+  "osm": "Double Chicken Please, 115, Allen Street, Lower East Side, Manhattan Community B"
+ },
+ "fifty_best_bars_2025#42": {
+  "km": 0.23,
+  "osm": "Quay West Apartments, 111-115, Harrington Street, The Rocks, Sydney, New South W"
+ },
+ "fifty_best_bars_2025#43": {
+  "km": 0.22,
+  "osm": "Via Lentasio, Duomo, Cerchia dei Navigli, Municipio 1, Milano, Rodano, Milano, L"
+ },
+ "fifty_best_bars_2025#44": {
+  "km": 0.05,
+  "osm": "1026, Saint Louis Street, French Quarter, New Orleans, Orleans Parish, Louisiana"
+ },
+ "fifty_best_bars_2025#45": {
+  "km": 0.45,
+  "osm": "VIRTÙ, 1, 大手町一丁目, 大手町, 千代田区, 東京都, 100-0004, 日本"
+ },
+ "fifty_best_bars_2025#46": {
+  "km": 0.01,
+  "osm": "Overstory, Pine Street, Financial District, Lower Manhattan, Manhattan, New York"
+ },
+ "fifty_best_bars_2025#47": {
+  "km": 4.94,
+  "osm": "25, Καραϊσκάκη, Περιβόλια, Γαλάτσι, Δήμος Γαλατσίου, Περιφερειακή Ενότητα Κεντρι"
+ },
+ "fifty_best_bars_2025#48": {
+  "km": 0.05,
+  "osm": "神宮前五丁目, 神宮前, 渋谷区, 東京都, 150-0001, 日本"
+ },
+ "fifty_best_bars_2025#49": {
+  "km": 0.94,
+  "osm": "BKK Social Club, ซอยเจริญกรุง 70, ชุมชนบาหยัน, แขวงวัดพระยาไกร, เขตบางคอแหลม, กร"
+ },
+ "fifty_best_bars_2025#50": {
+  "km": 0.05,
+  "osm": "Nutmeg & Clove, 9, Purvis Street, Bugis, Civic District, Downtown Core, Central "
+ },
+ "fifty_best_restaurants_2025#1": {
+  "km": 0.18,
+  "osm": "Maido, 399, Calle San Martín, Cocharcas, Miraflores, Lima, Lima Metropolitana, L"
+ },
+ "fifty_best_restaurants_2025#2": {
+  "km": 6.07,
+  "osm": "Etxebarri erretegia, 1, San Juan auzoa, Axpe, Atxondo, Bizkaia, Euskadi, 48291, ",
+  "use": true,
+  "lat": 43.11591,
+  "lng": -2.59844
+ },
+ "fifty_best_restaurants_2025#3": {
+  "km": 0.51,
+  "osm": "Quintonil, 55, Calle Isaac Newton, Polanco 4ª Sección, Polanco, Ciudad de México"
+ },
+ "fifty_best_restaurants_2025#4": {
+  "km": null
+ },
+ "fifty_best_restaurants_2025#5": {
+  "km": 0.38,
+  "osm": "173C, Refshalevej, Refshaleøen, Indre By, København, Københavns Kommune, Region "
+ },
+ "fifty_best_restaurants_2025#6": {
+  "km": 0.77,
+  "osm": "Gaggan Anand, 68, ซอยสุขุมวิท 31 แยก 4, แขวงคลองตันเหนือ, เขตวัฒนา, กรุงเทพมหานค"
+ },
+ "fifty_best_restaurants_2025#7": {
+  "km": null
+ },
+ "fifty_best_restaurants_2025#8": {
+  "km": 0.12,
+  "osm": "3, Rue de Prague, Quartier des Quinze-Vingts, Paris 12e Arrondissement, Paris, Î"
+ },
+ "fifty_best_restaurants_2025#9": {
+  "km": 0.35,
+  "osm": "Central, 301, Avenida Pedro de Osma, Barranco, Lima, Lima Metropolitana, Lima, 1"
+ },
+ "fifty_best_restaurants_2025#10": {
+  "km": 0.49,
+  "osm": "4699, Guatemala, Palermo Soho, Palermo, Buenos Aires, Comuna 14, Ciudad Autónoma"
+ },
+ "fifty_best_restaurants_2025#11": {
+  "km": 1.93,
+  "osm": "新翼 New Wing, 中環及灣仔繞道 Central-Wan Chai Bypass, 灣仔北 Wan Chai North, 灣仔區 Wan Chai D"
+ },
+ "fifty_best_restaurants_2025#12": {
+  "km": 0.01,
+  "osm": "104, East 30th Street, Kips Bay, Manhattan Community Board 5, Manhattan, New Yor"
+ },
+ "fifty_best_restaurants_2025#13": {
+  "km": 0.16,
+  "osm": "Potong, ซอยวานิช 1, เยาวราช, แขวงสัมพันธวงศ์, เขตสัมพันธวงศ์, กรุงเทพมหานคร, 101"
+ },
+ "fifty_best_restaurants_2025#14": {
+  "km": 1.9,
+  "osm": "Plénitude 1, Rue Malus, Quartier du Jardin des Plantes, Paris 5e Arrondissement,"
+ },
+ "fifty_best_restaurants_2025#15": {
+  "km": 0.12,
+  "osm": "Ikoyi, 180, Strand, St Clement Danes, Covent Garden, City of Westminster, Greate"
+ },
+ "fifty_best_restaurants_2025#16": {
+  "km": 1.4,
+  "osm": "Lido 84, 196, Corso Giuseppe Zanardelli, Fasano di sotto, Gardone Riviera, Comun"
+ },
+ "fifty_best_restaurants_2025#17": {
+  "km": 0.44,
+  "osm": "ซอยสุขุมวิท 26, แขวงคลองตัน, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย"
+ },
+ "fifty_best_restaurants_2025#18": {
+  "km": 1.19,
+  "osm": "Ristorante Reale, Pista Ciclabile Castel di Sangro-Scontrone-Alfedena, Castel di"
+ },
+ "fifty_best_restaurants_2025#19": {
+  "km": 0.2,
+  "osm": "THE chairman, 18, 九如坊 Kau U Fong, 蘇豪 SoHo, 上環 Sheung Wan, 中西區 Central and Wester"
+ },
+ "fifty_best_restaurants_2025#20": {
+  "km": 0.83,
+  "osm": "Atelier Moessmer, 17, Walther-von-der-Vogelweide-Straße - Via Walther von der Vo"
+ },
+ "fifty_best_restaurants_2025#21": {
+  "km": 0.18,
+  "osm": "南青山二丁目, 南青山, 港区, 東京都, 107-0062, 日本"
+ },
+ "fifty_best_restaurants_2025#22": {
+  "km": 0.71,
+  "osm": "Sühring, ซอยเย็นอากาศ 3, ชุมชนวัดช่องลม, แขวงช่องนนทรี, เขตยานนาวา, กรุงเทพมหานค"
+ },
+ "fifty_best_restaurants_2025#23": {
+  "km": 3.23,
+  "osm": "Costanera Sur San Josemaría Escrivá de Balaguer, Tabancura, Vitacura, Santiago, "
+ },
+ "fifty_best_restaurants_2025#24": {
+  "km": 0.23,
+  "osm": "Elkano, 2, Herrerieta kalea, Akerregi, Eitzaga, Getaria, Gipuzkoa, Euskadi, 2080"
+ },
+ "fifty_best_restaurants_2025#25": {
+  "km": 0.02,
+  "osm": "Odette, 1, Saint Andrew's Road, City Hall, Civic District, Downtown Core, Centra"
+ },
+ "fifty_best_restaurants_2025#26": {
+  "km": null
+ },
+ "fifty_best_restaurants_2025#27": {
+  "km": null
+ },
+ "fifty_best_restaurants_2025#28": {
+  "km": 0.31,
+  "osm": "Lasai, 35, Largo dos Leões, Humaitá, Rio de Janeiro, Região Sudeste, 22260-210, "
+ },
+ "fifty_best_restaurants_2025#29": {
+  "km": 0.55,
+  "osm": "mingles, 선릉로, 논현2동, 강남구, 서울특별시, 06056, 대한민국"
+ },
+ "fifty_best_restaurants_2025#30": {
+  "km": 0.26,
+  "osm": "Le Du, 399/3, ซอยสีลม 7, ละลายทรัพย์, แขวงสีลม, เขตบางรัก, กรุงเทพมหานคร, 10500,"
+ },
+ "fifty_best_restaurants_2025#31": {
+  "km": 2.31,
+  "osm": "Via Liguria, Sarmeola, Rubano, Padova, Veneto, 35030, Italia"
+ },
+ "fifty_best_restaurants_2025#32": {
+  "km": 0.11,
+  "osm": "La Piola, 4, Piazza Risorgimento, Alba, Cuneo, Piemonte, 12051, Italia"
+ },
+ "fifty_best_restaurants_2025#33": {
+  "km": 0.34,
+  "osm": "2a, Am Heumarkt, Botschaftsviertel, Landstraße, Katastralgemeinde Landstraße, La"
+ },
+ "fifty_best_restaurants_2025#34": {
+  "km": 0.29,
+  "osm": "Enigma, 38-40, Carrer de Sepúlveda, Sant Antoni, l'Eixample, Barcelona, Barcelon"
+ },
+ "fifty_best_restaurants_2025#35": {
+  "km": 0.66,
+  "osm": "ถนนมหาราช, ท่าช้าง, แขวงพระบรมมหาราชวัง, เขตพระนคร, กรุงเทพมหานคร, 10200, ประเทศ"
+ },
+ "fifty_best_restaurants_2025#36": {
+  "km": 3.05,
+  "osm": "Florilege, 熊野通り, 神宮前二丁目, 神宮前, 渋谷区, 東京都, 150-0001, 日本"
+ },
+ "fifty_best_restaurants_2025#37": {
+  "km": null
+ },
+ "fifty_best_restaurants_2025#38": {
+  "km": 0.17,
+  "osm": "26, Klara Norra Kyrkogata, Klara, Norrmalm, Norra innerstadens stadsdelsområde, "
+ },
+ "fifty_best_restaurants_2025#39": {
+  "km": 2.17,
+  "osm": "1285, Avenida Mariscal La Mar, Miraflores, Lima, Lima Metropolitana, Lima, 15027",
+  "use": true,
+  "lat": -12.10987,
+  "lng": -77.04926
+ },
+ "fifty_best_restaurants_2025#40": {
+  "km": 0.14,
+  "osm": "Septime, 80, Rue de Charonne, Quartier Sainte-Marguerite, Paris 11e Arrondisseme"
+ },
+ "fifty_best_restaurants_2025#41": {
+  "km": 0.35,
+  "osm": "10B, Wildersgade, Gammelholm, Christianshavn, København, Københavns Kommune, Reg"
+ },
+ "fifty_best_restaurants_2025#42": {
+  "km": 0.02,
+  "osm": "Belcanto, 10A, Rua Serpa Pinto, Chiado, Santa Maria Maior, Madalena, Lisboa, 120"
+ },
+ "fifty_best_restaurants_2025#43": {
+  "km": 0.22,
+  "osm": "Uliassi, 6, Banchina di Levante, Rione Porto, Senigallia, Ancona, Marche, 60019,"
+ },
+ "fifty_best_restaurants_2025#44": {
+  "km": null
+ },
+ "fifty_best_restaurants_2025#45": {
+  "km": 0.07,
+  "osm": "L'Arpège, 84, Rue de Varenne, Quartier des Invalides, Paris 7e Arrondissement, P"
+ },
+ "fifty_best_restaurants_2025#46": {
+  "km": 0.23,
+  "osm": "Rosetta, 166, Calle Colima, Roma Norte, Roma, Ciudad de México, Cuauhtémoc, Ciud"
+ },
+ "fifty_best_restaurants_2025#47": {
+  "km": 2.68,
+  "osm": "Vyn, 72, Höga vägen, Hildesborg, Skillinge, Simrishamns kommun, Skåne län, 272 9",
+  "use": true,
+  "lat": 55.49595,
+  "lng": 14.31355
+ },
+ "fifty_best_restaurants_2025#48": {
+  "km": 0.06,
+  "osm": "Celele, Calle del Espíritu Santo, Getsemaní, Cartagena de Indias, Dique, Bolívar"
+ },
+ "fifty_best_restaurants_2025#49": {
+  "km": 0.06,
+  "osm": "KOL, 9, Seymour Street, Marylebone, City of Westminster, Greater London, England"
+ },
+ "fifty_best_restaurants_2025#50": {
+  "km": 0.47,
+  "osm": "Jan Hartwig, 27, Luisenstraße, Kunstareal, St. Benno-Viertel, Maxvorstadt, Münch"
+ },
+ "unesco_iconic#1": {
+  "km": 0.14,
+  "osm": "Ciudadela de Machu Picchu, Circuit 1, San Miguel, Intihuatana, Machupicchu, Urub"
+ },
+ "unesco_iconic#2": {
+  "km": 3.37,
+  "osm": "Petra, وادي موسى, Petra Sub-District, لواء البتراء, معان, 71810, الأردن"
+ },
+ "unesco_iconic#3": {
+  "km": 0.04,
+  "osm": "អង្គរវត្ត, Temporary access, ក្រុងសៀមរាប, សៀមរាប, ខេត្តសៀមរាប, 171253, ព្រះរាជាណ"
+ },
+ "unesco_iconic#4": {
+  "km": 34.38,
+  "osm": "长城, 南山环线, 永宁镇, 延庆区, 北京市, 中国"
+ },
+ "unesco_iconic#5": {
+  "km": 1.13,
+  "osm": "مشعل الهرم, كوم الأخضر, كفرة نصار, الجيزة, 12512, مصر"
+ },
+ "unesco_iconic#6": {
+  "km": 0.01,
+  "osm": "Taj Mahal, Taj East Gate Road, Taj Ganj, Agra, Uttar Pradesh, 282004, India"
+ },
+ "unesco_iconic#7": {
+  "km": 0.04,
+  "osm": "Ακρόπολη, Παναθηναίων, Αναφιώτικα, Πετράλωνα, 3η Κοινότητα Αθηνών, Αθήνα, Δήμος "
+ },
+ "unesco_iconic#8": {
+  "km": 0.09,
+  "osm": "Piazza del Colosseo, Celio, Municipio Roma I, Roma, Roma Capitale, Lazio, 00184,"
+ },
+ "unesco_iconic#9": {
+  "km": null
+ },
+ "unesco_iconic#10": {
+  "km": 0.11,
+  "osm": "Le Mont-Saint-Michel, Avranches, Manche, Normandie, France métropolitaine, 50170"
+ },
+ "unesco_iconic#11": {
+  "km": 0.45,
+  "osm": "Via Villa dei Misteri, Masseria Curato, Pompei, Napoli, Campania, 80045, Italia"
+ },
+ "unesco_iconic#12": {
+  "km": 13.89,
+  "osm": "Archipélago de Galápagos, Galápagos, Ecuador"
+ },
+ "unesco_iconic#13": {
+  "km": 44.29,
+  "osm": "Fox Park-Yellowstone Trail / Continental Divide, Teton County, Wyoming, United S"
+ },
+ "unesco_iconic#14": {
+  "km": 6.34,
+  "osm": "Grand Canyon Village, Coconino County, Arizona, United States"
+ },
+ "unesco_iconic#15": {
+  "km": 16.03,
+  "osm": "Parque Nacional Iguazú, Departamento Iguazú, Misiones, Argentina"
+ },
+ "unesco_iconic#16": {
+  "km": 265.17,
+  "osm": "Hamilton Island Airport, Resort Lookout Trail, Whitsundays, Hamilton Island, Que"
+ },
+ "unesco_iconic#17": {
+  "km": 10.66,
+  "osm": "Parque Nacional Rapa Nui, Isla de Pascua, Provincia de Isla de Pascua, Región de"
+ },
+ "unesco_iconic#18": {
+  "km": 0.01,
+  "osm": "Borobudur, jalur, Desa Borobudur, Magelang, Jawa Tengah, 56553, Indonesia"
+ },
+ "unesco_iconic#19": {
+  "km": 33.67,
+  "osm": "京都府, 日本"
+ },
+ "unesco_iconic#20": {
+  "km": 0.33,
+  "osm": "Place d'Armes, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropoli"
+ },
+ "unesco_iconic#21": {
+  "km": 0.06,
+  "osm": "Calle Real de la Alhambra, La Antequeruela, San Matías - Realejo, Centro, Granad"
+ },
+ "unesco_iconic#22": {
+  "km": null
+ },
+ "unesco_iconic#23": {
+  "km": 0.42,
+  "osm": "Sultanahmet Meydanı, Binbirdirek Mahallesi, İstanbul, Fatih, İstanbul, Marmara B"
+ },
+ "unesco_iconic#24": {
+  "km": null
+ },
+ "unesco_iconic#25": {
+  "km": 0.49,
+  "osm": "Hierapolis-Pamukkale, Pamukkale, Denizli, Ege Bölgesi, Türkiye"
+ },
+ "unesco_iconic#26": {
+  "km": 0.23,
+  "osm": "Efes, Meryem Ana Yolu, Atatürk Mahallesi, Selçuk, İzmir, Ege Bölgesi, 35920, Tür"
+ },
+ "unesco_iconic#27": {
+  "km": 2205.44,
+  "osm": "Bagan, Bagansiapiapi, Bangko, Rokan Hilir, Riau, 28911, Indonesia"
+ },
+ "unesco_iconic#28": {
+  "km": 0.48,
+  "osm": "Ha Long Bay Pearl Farm, Đường Khe Cá, Phường Hà Tu, Thành phố Quảng Ninh, Việt N"
+ },
+ "unesco_iconic#29": {
+  "km": 1.35,
+  "osm": "Staze i mostići Nacionalnog parka Plitvička jezera, Čorkova uvala / Plitvica, Pl"
+ },
+ "unesco_iconic#30": {
+  "km": 0.07,
+  "osm": "Stradun, Grad, Gradski kotar Grad, Dubrovnik, Grad Dubrovnik, Dubrovačko-neretva"
+ },
+ "unesco_iconic#31": {
+  "km": 0.19,
+  "osm": "Altstadt, Salzburg, Österreich"
+ },
+ "unesco_iconic#32": {
+  "km": 0.03,
+  "osm": "Staroměstské náměstí, Josefov, obvod Praha 1, Praha, Česko"
+ },
+ "unesco_iconic#33": {
+  "km": 0.02,
+  "osm": "Piazza San Marco, San Marco, Venezia-Murano-Burano, Lido, Venezia, Veneto, 30124"
+ },
+ "unesco_iconic#34": {
+  "km": 0.04,
+  "osm": "Piazza del Duomo, Quartiere 1, Firenze, Toscana, 50123, Italia"
+ },
+ "unesco_iconic#35": {
+  "km": 2.33,
+  "osm": "Paisagem Cultural de Sintra, Sintra, Sintra (Santa Maria e São Miguel, São Marti"
+ },
+ "unesco_iconic#36": {
+  "km": 0.72,
+  "osm": "ላሊበላ, ሰሜን ወሎ, አማራ ክልል, 6500, ኢትዮጵያ"
+ },
+ "unesco_iconic#37": {
+  "km": 15.57,
+  "osm": "Serengeti National Park, Lake Zone, 31611, Tanzania"
+ },
+ "unesco_iconic#38": {
+  "km": 0.44,
+  "osm": "Eastern Cataract, Livingstone, Livingstone District, Southern Province, Zambia"
+ },
+ "unesco_iconic#39": {
+  "km": 0.05,
+  "osm": "Djenné, Cercle de Djenné, Mopti, Mali"
+ },
+ "unesco_iconic#40": {
+  "km": 0.02,
+  "osm": "piazza Jemaa El Fnaa , Café de France, Jamaâ el-Fna ساحة جامع الفنا, Mechouar Ka"
+ },
+ "unesco_iconic#41": {
+  "km": 2.52,
+  "osm": "خان الخليلى, القاهرة الإسلامية, القاهرة, 11261, مصر",
+  "use": true,
+  "lat": 30.04894,
+  "lng": 31.26134
+ },
+ "unesco_iconic#42": {
+  "km": 3.57,
+  "osm": "Parque Nacional Tikal, Petén, Guatemala"
+ },
+ "unesco_iconic#43": {
+  "km": 0.18,
+  "osm": "Chichen Itzá, San Felipe Nuevo, Tinum, Yucatán, México"
+ },
+ "unesco_iconic#44": {
+  "km": 2.09,
+  "osm": "Plaza de Armas, Hauqaypata, San Cristóbal, Mollococha, Cuzco, Distrito de Cusco,",
+  "use": true,
+  "lat": -13.51677,
+  "lng": -71.97878
+ },
+ "unesco_iconic#45": {
+  "km": 31.06,
+  "osm": "Sagarmatha National Park Check Point, old Hillary Bridge, Khumbupasanglahmu-04, "
+ },
+ "unesco_iconic#46": {
+  "km": 2.28,
+  "osm": "Khajuraho, Rajnagar Tahsil, Chhatarpur, Madhya Pradesh, 471505, India"
+ },
+ "unesco_iconic#47": {
+  "km": 0.14,
+  "osm": "Hampi, Hosapete taluk, Vijayanagara, Karnataka, 583239, India"
+ },
+ "unesco_iconic#48": {
+  "km": null
+ },
+ "unesco_iconic#49": {
+  "km": 12.75,
+  "osm": "Bennelong Bridge, Rhodes, Inner West, Sydney, New South Wales, 2138, Australia"
+ },
+ "unesco_iconic#50": {
+  "km": 1.78,
+  "osm": "Meteora, 2, Τρικάλων, Αρόη, Καλαμπάκα, Δήμος Μετεώρων, Περιφερειακή Ενότητα Τρικ"
+ }
+}

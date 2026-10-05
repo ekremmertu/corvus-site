@@ -1,0 +1,24 @@
+{
+ "source": "d7422afd7697",
+ "model": "sonnet",
+ "strings": {
+  "d1.s3.tips": "En eski pastane (1827'den beri); krémes (kremalı milföy), 5 masa; sonra füniküler ve Zincir Köprü'den Peşte'ye yürü.",
+  "d2.s0.tips": "45 dakikalık tur (Kutsal Taç); bileti günler önce online al, pasaportu unutma.",
+  "d2.s1.tips": "Aziz István'ın mumyalanmış sağ eli; kubbe panoraması 3.000 HUF.",
+  "d2.s4.tips": "Avrupa'nın en büyük termal hamamı; sarı saray, dışarıda 38°C havuz ve satranç masaları. Terlik ve havlu getir, hafta içi ucuz.",
+  "d3.s1.tips": "Szimpla yanındaki food truck avlusu; lángos (kızarmış hamur, sarımsak-peynir) ve kürtőskalács.",
+  "d3.s2.tips": "1897'den kalma demir pazar; paprika, salam, üst kat lángos; pazar kapalı.",
+  "d3.s3.tips": "Yeşil köprü; Gellért Tepesi'ne 30 dakika tırmanış, gün batımında Citadella panoraması.",
+  "d3.s4.tips": "İlk harabe bar (2002); bisikletli kafe, bitki bahçesi, giriş ücretsiz, bira 1.000 HUF.",
+  "d4.s1.tips": "Sırp Ortodoks kilisesi; meydan.",
+  "d4.s3.tips": "Nehir yürüyüşü; dönüşte yazın tekne (Mahart), 1,5 saat.",
+  "d5.s4.tips": "Neo-rönesans opera turu (İngilizce 13:30/15:00) veya akşam bileti 5.000'den.",
+  "d6.s4.tips": "Gece ışıklı 1 saatlik tekne; Parlamento ve Kale altın gibi parlar.",
+  "d6.b0.tips": "Domuz ağırlıklı modern Macar mutfağı; Peşte.",
+  "d7.s2.tips": "Küçük Prenses heykeli ve nehir kenarında 2 numaralı tramvay hattı.",
+  "note1": "Yaz 28-32°C; Sziget Festivali Ağustos'ta (Óbuda adası), hamam dış havuzları, tekne akşamı serin, 20 Ağustos'ta havai fişek.",
+  "note2": "Hamam 12-15.000 HUF (hafta içi ucuz), Parlamento 10.000, sinagog 12.000; havlu/terlik kiralamak pahalı, kendin getir.",
+  "note4": "Forint nakit; EUR kabul eden yerler kötü kur verir, döviz bürosunda 'no commission' tuzağına dikkat, ATM'de kendi bankanın kurunu seç."
+ },
+ "warnings": []
+}

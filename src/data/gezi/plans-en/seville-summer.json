@@ -1,0 +1,493 @@
+{
+ "lang": "en",
+ "slug": "seville-summer",
+ "altSlug": "sevilla-yaz",
+ "citySlug": "sevilla",
+ "destKey": "seville",
+ "city": "Seville",
+ "region": null,
+ "country": "Spain",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 330,
+  "attractions": 130,
+  "transport": 110,
+  "misc": 60
+ },
+ "notes": [
+  "The centre is walkable. Tram/bus costs 1.40 EUR, and Sevici bikes are available. The EA airport bus is 4 EUR. Córdoba is 45 min by AVE, Cádiz 1.5 hours, Ronda 2 hours by bus.",
+  "SUMMER hits 40–45°C (Europe's oven): sightsee between 09:00 and 12:00 and after 19:00, and take a siesta at midday. Go to the Alcázar in the first slot and Plaza de España at sunset. In August the city is empty.",
+  "Alcázar 15 EUR, online booking REQUIRED (buy weeks ahead). Cathedral 13 EUR, online. Tapas 3–4 EUR, set menu 15, flamenco 22–35. Round up your tip.",
+  "Tapas culture: eat standing up, visit 2–3 bars, and order \"tapa/media/ración\". Lunch is at 14:00, dinner after 21:00. Try salmorejo, espinacas, pringá and carrillada.",
+  "Flamenco: Casa de la Memoria (intimate), La Carbonería (free, late at night), Triana peñas (flamenco clubs).",
+  "The fruit of the orange trees is bitter (used for marmalade). Don't eat it."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Alcázar and Cathedral",
+   "stops": [
+    {
+     "name": "Real Alcázar de Sevilla",
+     "category": "culture",
+     "start": "09:30",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "A Mudéjar palace (Dorne in Game of Thrones). Don't miss the Hall of Ambassadors and the gardens. Timed tickets must be booked online (buy weeks ahead). First slot is 09:30."
+    },
+    {
+     "name": "Catedral de Sevilla & Giralda",
+     "category": "culture",
+     "start": "12:15",
+     "end": "13:45",
+     "cost": 13,
+     "tips": "The world's largest Gothic cathedral. Columbus's tomb is here. The Giralda tower has 35 ramps (once ridden up on horseback). Book your ticket online."
+    },
+    {
+     "name": "Barrio Santa Cruz",
+     "category": "landmark",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "The former Jewish quarter. Wander the orange-tree squares and Callejón del Agua."
+    },
+    {
+     "name": "Bodega Santa Cruz Las Columnas",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 12,
+     "tips": "A tapas bar where the bill is chalked on the counter. Try the montadito pringá and eat standing up."
+    },
+    {
+     "name": "Plaza de España",
+     "category": "landmark",
+     "start": "18:30",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "The semicircular square built for the 1929 exposition. It has tiled benches for 48 provinces, rowing boats on the canal (6 EUR) and a Star Wars set. Go at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Rinconcillo",
+     "category": "food",
+     "start": "14:30",
+     "end": "15:30",
+     "cost": 15,
+     "tips": "Seville's oldest bar since 1670; try the espinacas con garbanzos (spinach with chickpeas)."
+    },
+    {
+     "name": "Casa de Pilatos",
+     "category": "culture",
+     "start": "13:45",
+     "end": "15:30",
+     "cost": 12,
+     "tips": "A Mudéjar-Renaissance palace with an azulejo tile collection. Go instead of Santa Cruz."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Triana and Metropol",
+   "stops": [
+    {
+     "name": "Mercado de Triana",
+     "category": "food",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 10,
+     "tips": "The market above San Jorge Castle. It has jamón and tapas stalls, and the Inquisition museum is beneath it."
+    },
+    {
+     "name": "Calle Betis & Triana Ceramics",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "The riverfront and Centro Cerámica Triana (azulejo museum, 2 EUR). This is the home district of flamenco."
+    },
+    {
+     "name": "Casa Cuesta Triana",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 15,
+     "tips": "An azulejo-tiled bar from 1880. Try the carrillada (braised cheek) and a manzanilla."
+    },
+    {
+     "name": "Metropol Parasol Las Setas",
+     "category": "landmark",
+     "start": "19:30",
+     "end": "20:30",
+     "cost": 15,
+     "tips": "The world's largest wooden structure, known as the \"Mushrooms\". Watch the sunset from the rooftop walkway. Roman ruins lie below."
+    },
+    {
+     "name": "Flamenco Casa de la Memoria",
+     "category": "culture",
+     "start": "21:00",
+     "end": "22:15",
+     "cost": 22,
+     "tips": "Intimate courtyard flamenco for 100 people, with guitar, song and dance. Reserve ahead."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Tablao Flamenco Los Gallos",
+     "category": "culture",
+     "start": "21:00",
+     "end": "22:30",
+     "cost": 35,
+     "tips": "A tablao in Santa Cruz since 1966."
+    },
+    {
+     "name": "Bar Las Golondrinas Triana",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "A tiled bar in Triana; try the solomillo al whisky (pork loin in whisky sauce)."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Córdoba",
+   "stops": [
+    {
+     "name": "Mezquita-Catedral de Córdoba",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 13,
+     "tips": "45 minutes by AVE. A cathedral sits inside the Umayyad mosque with its 856 columns. Quiet entry is free Monday to Saturday, 08:30–09:30. Look out for the red-and-white arches."
+    },
+    {
+     "name": "Judería & Calleja de las Flores",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "The Jewish quarter. See the flower-lined alley, the 1315 synagogue and the Maimonides statue."
+    },
+    {
+     "name": "Alcázar de los Reyes Cristianos",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 5,
+     "tips": "The fortress where Columbus met the Catholic Monarchs. It has Roman mosaics and gardens."
+    },
+    {
+     "name": "Bodegas Mezquita Córdoba",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 18,
+     "tips": "Eat salmorejo (thick cold tomato soup) and rabo de toro (oxtail stew)."
+    },
+    {
+     "name": "Roman Bridge & Calahorra Tower",
+     "category": "landmark",
+     "start": "15:30",
+     "end": "16:30",
+     "cost": 0,
+     "tips": "A Roman bridge. You get a postcard view of the Guadalquivir and the Mezquita. The Patios festival takes place in May."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Palacio de Viana Córdoba",
+     "category": "culture",
+     "start": "12:45",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "A patio palace with 12 courtyards. Go instead of the Alcázar."
+    },
+    {
+     "name": "Taberna Salinas Córdoba",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 15,
+     "tips": "A tavern from 1879; patio, flamenquín (fried pork roll)."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Cartuja, Bullring and Torre del Oro",
+   "stops": [
+    {
+     "name": "Plaza de Toros de la Maestranza",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 10,
+     "tips": "A Baroque bullring from 1761 with a museum; tour it, and corridas run April to September (controversial)."
+    },
+    {
+     "name": "Torre del Oro",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 3,
+     "tips": "An Almohad river tower from 1220. It has a maritime museum and a terrace."
+    },
+    {
+     "name": "Bar Casa Morales",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 12,
+     "tips": "A bar with wine barrels, open since 1850. Next to the cathedral. Try the jamón and a Cruzcampo."
+    },
+    {
+     "name": "Monasterio de la Cartuja CAAC",
+     "category": "culture",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 3,
+     "tips": "The monastery where Columbus was buried, later a ceramics factory. It has contemporary art and the Expo 92 island."
+    },
+    {
+     "name": "Guadalquivir Kayak / Paddle",
+     "category": "nature",
+     "start": "19:30",
+     "end": "20:30",
+     "cost": 20,
+     "tips": "Canoe on the river (under Triana Bridge). Go at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Museo de Bellas Artes de Sevilla",
+     "category": "culture",
+     "start": "11:45",
+     "end": "12:30",
+     "cost": 2,
+     "tips": "Works by Murillo and Zurbarán in a former convent; on Sundays a painters' market sets up in the square."
+    },
+    {
+     "name": "Eslava",
+     "category": "food",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 18,
+     "tips": "Modern, award-winning tapas. Try the cigarro para Bécquer. In San Lorenzo; expect a queue."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Ronda",
+   "stops": [
+    {
+     "name": "Puente Nuevo Ronda",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "2 hours by bus (or train plus bus). The 1793 bridge spans the 120 m deep El Tajo gorge. Hemingway's town."
+    },
+    {
+     "name": "Plaza de Toros de Ronda",
+     "category": "culture",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 9,
+     "tips": "Spain's oldest bullring (1785). Modern bullfighting was born here. Goya."
+    },
+    {
+     "name": "Casa del Rey Moro Water Mine",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 8,
+     "tips": "A Moorish water mine with 231 steps down into the gorge. The gardens are also worth a look."
+    },
+    {
+     "name": "Bardal Ronda / Tragatá",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:45",
+     "cost": 25,
+     "tips": "Benito Gómez's tapas bar (a Michelin-starred chef). Try the rabo de toro (oxtail)."
+    },
+    {
+     "name": "Mirador de Ronda & Alameda",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "A cliffside garden with views of the Serranía mountains. Head back at 17:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Baños Árabes Ronda",
+     "category": "culture",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 4,
+     "tips": "Spain's best-preserved 13th-century Arab baths."
+    },
+    {
+     "name": "Bar Cuevas del Sol Setenil",
+     "category": "food",
+     "start": "15:00",
+     "end": "16:00",
+     "cost": 12,
+     "tips": "Tapas in a white village carved beneath the rock. 20 minutes from Ronda (by car or tour)."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Cádiz",
+   "stops": [
+    {
+     "name": "Cádiz Cathedral & Torre Tavira",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 8,
+     "tips": "1.5 hours by train. Europe's oldest city (Phoenician, 1100 BC). It has a golden-domed cathedral and a camera obscura in the Tavira tower."
+    },
+    {
+     "name": "Mercado Central de Cádiz",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:00",
+     "cost": 12,
+     "tips": "A fish market and \"rincón gastronómico\" (food corner). Try tortillitas de camarones (shrimp fritters)."
+    },
+    {
+     "name": "Barrio de la Viña",
+     "category": "landmark",
+     "start": "13:00",
+     "end": "13:45",
+     "cost": 0,
+     "tips": "The carnival and fishermen's quarter. The February Carnival is Spain's most famous."
+    },
+    {
+     "name": "Playa de la Caleta",
+     "category": "nature",
+     "start": "13:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "A city beach between two castles (the Bond film with Halle Berry). Swim and watch the fishing boats."
+    },
+    {
+     "name": "El Faro de Cádiz",
+     "category": "food",
+     "start": "15:30",
+     "end": "16:45",
+     "cost": 30,
+     "tips": "A seafood restaurant open since 1964. Try the frito gaditano (Cádiz fried fish). Return train at 18:00."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Jerez de la Frontera Tío Pepe",
+     "category": "food",
+     "start": "12:00",
+     "end": "15:30",
+     "cost": 20,
+     "tips": "A sherry bodega tour with tasting and Andalusian horses. Go instead of Cádiz (1 hour by train)."
+    },
+    {
+     "name": "Freiduría Las Flores Cádiz",
+     "category": "food",
+     "start": "15:30",
+     "end": "16:45",
+     "cost": 12,
+     "tips": "Fried fish in a paper cone. Eat standing up."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Macarena: a gentle farewell",
+   "stops": [
+    {
+     "name": "Basílica de la Macarena",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "The Weeping Virgin (star of Semana Santa). The treasury museum costs 5 EUR. Roman walls are nearby too."
+    },
+    {
+     "name": "Alameda de Hércules",
+     "category": "landmark",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "A bohemian square with Hercules columns. It has plenty of cafés."
+    },
+    {
+     "name": "Mercado de Feria Breakfast",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 8,
+     "tips": "Seville's oldest market. Have a tostada con tomate y jamón (toast with tomato and ham) and say your goodbyes."
+    },
+    {
+     "name": "Casa de Pilatos Gate & Calle Sierpes Souvenirs",
+     "category": "shopping",
+     "start": "12:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Fans and azulejo souvenirs. On Sierpes."
+    },
+    {
+     "name": "Santa Justa Airport Bus EA",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 4,
+     "tips": "The airport bus takes 35 minutes. Farewell."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Confitería La Campana",
+     "category": "food",
+     "start": "11:15",
+     "end": "12:15",
+     "cost": 6,
+     "tips": "A pastry shop from 1885. Try the torrijas (Spanish French toast) and yemas (sweet egg-yolk confections)."
+    },
+    {
+     "name": "Iglesia de San Luis de los Franceses",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 4,
+     "tips": "The most ornate Baroque church. Go instead of Macarena."
+    }
+   ]
+  }
+ ]
+}

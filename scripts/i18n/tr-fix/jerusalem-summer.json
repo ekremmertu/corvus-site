@@ -1,0 +1,24 @@
+{
+ "source": "ad83e86cfa6e",
+ "model": "sonnet",
+ "strings": {
+  "d1.s0.tips": "Yafa Kapısı'ndan gir; Ağlama Duvarı 24 saat açık, kadın/erkek bölümleri ayrı, erkekler başını örtmeli (kipa verilir), cuma akşamı Şabat karşılaması.",
+  "d1.s1.tips": "Müslüman olmayanlara Pazar-Perşembe 07:30-11:00 ve 13:30-14:30 (Mughrabi Köprüsü); Kubbetü's-Sahra'ya dıştan bak, örtülü kıyafet şart, cuma-cumartesi kapalı.",
+  "d1.b0.tips": "Hristiyan mahallesinde humus; Abu Shukri'nin rakibi.",
+  "d2.s1.tips": "Getsemani Bahçesi'nde 2.000 yıllık zeytinler; yolda Dominus Flevit (gözyaşı kilisesi).",
+  "d2.s2.tips": "Kral Davut'un asıl şehrinin kazıları; Hezekiya Tüneli (dizine kadar su, fener) veya kuru Kenan Tüneli.",
+  "d4.s0.tips": "Otobüs 486 veya tur, 1,5 saat; Herod'un kaya kalesi ve Roma kuşatması, Yılan Yolu'ndan gün doğumu (yazın 08:00 sonrası tırmanış yasak, teleferik 28 ILS).",
+  "d4.s1.tips": "Yazın 40°C; kısa Davut Şelalesi yolunu seç, gölgede kal, su al.",
+  "d4.s3.tips": "Dünyanın en alçak noktası (-430 m); yüzme, suda uzan; çamur sür, gözlerini koru; ücretsiz halk plajı ve duşlar.",
+  "d5.s0.tips": "Otobüs 231 veya taksi (Filistin Yönetimi bölgesi; pasaport gerekir, İsrail plakalı araçlar geçemez); İsa'nın doğduğu mağara, kuyruk 2 saat sürebilir.",
+  "d5.s1.tips": "Duvar grafitileri ve Banksy'nin oteli ile müzesi; taksiyle git.",
+  "d6.s1.tips": "Eski Osmanlı garı; kafeler ve pazar, çocuk alanı.",
+  "d7.s1.tips": "Bizans dönemi ana cadde kalıntısı; Hurva Sinagogu (kubbe manzarası 20 ILS).",
+  "d7.s4.tips": "Hızlı trenle Ben Gurion'a 25 dakika (Şabat'ta çalışmaz); veda.",
+  "note0": "Rav-Kav kartı; hafif raylı sistem (Yafa Caddesi); Şabat'ta (cuma gün batımı-cumartesi gece) toplu taşıma ve çoğu dükkân kapalı, Arap Doğu Kudüs açık. Ben Gurion hızlı treni 25 dakika.",
+  "note1": "Yaz 30°C, kuru; gece serin. Ölü Deniz/Masada 40°C — gün doğumunda git. Tapınak Tepesi için uygun kıyafet, su.",
+  "note2": "GÜVENLİK: Bölgedeki durum değişken — seyahat öncesi resmi uyarıları kontrol et. Tapınak Tepesi saatleri değişebilir ya da tepe kapanabilir. Beytüllahim'e taksi/otobüsle git (İsrail plakalı kiralık araç giremez).",
+  "note3": "Kutsal yerlerde kıyafet: omuz ve diz kapalı, erkekler Duvar'da başını örtmeli. Cuma-cumartesi Tapınak Tepesi kapalı; cumartesi Yad Vashem kapalı."
+ },
+ "warnings": []
+}

@@ -1,0 +1,11 @@
+{
+ "source": "d6ed346aecd3",
+ "model": "sonnet",
+ "strings": {
+  "d1.s1.tips": "Limana bakan bahçe; Mrs Macquarie's Chair'de opera ve köprü kadrajı.",
+  "d5.s3.tips": "Güney yarımkürenin en büyük balık pazarı; tezgâhtan sashimi ve istiridye, yeni bina.",
+  "note1": "DİKKAT: Sydney'de Haziran-Eylül KIŞ (12-18°C, yağmur olası); plajlar yürüyüş için uygun, balina mevsimi, kalabalık az.",
+  "transit.why_chosen": "Tren, feribot, otobüs ve hafif raylı sistem; pazar günü tavan ~9 AUD"
+ },
+ "warnings": []
+}

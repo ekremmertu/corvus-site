@@ -1,0 +1,17 @@
+{
+ "source": "f5b1e426f52c",
+ "model": "sonnet",
+ "strings": {
+  "d1.s2.tips": "Bronz ve porselen koleksiyonu; ücretsiz, pasaportla rezervasyon.",
+  "d1.s4.tips": "Pudong ışıkları 19:00-22:00; Huangpu nehir turu (~120 CNY) isteğe bağlı.",
+  "d5.s0.tips": "Metro 17. hat ile 1 saat; 1571 yapımı beş kemerli köprü; sabah, tur otobüsleri gelmeden git.",
+  "d5.s2.tips": "Kasabanın klasik bahçesi; giriş kombine biletle.",
+  "note1": "Vize: 2026'da birçok ülke için 30 gün vizesiz (Türkiye için kontrol et); Google/WhatsApp için VPN'i önceden kur.",
+  "note2": "Yaz 35°C ve nemli; Temmuz-Ağustos'ta tayfun var. Sabah Bund, öğleden sonra müze/AVM, gece Pudong ışıkları.",
+  "note3": "Xiaolongbao 30-50 CNY; shengjianbao için Yang's; Fransız Bölgesi'nde brunch 100+.",
+  "note4": "Müzeler ücretsiz ama pasaportla online rezervasyon gerekir; Şanghay Kulesi biletini online al."
+ },
+ "warnings": [
+  "d3.s2.tips: uzunluk çok değişti → düzeltme atıldı"
+ ]
+}

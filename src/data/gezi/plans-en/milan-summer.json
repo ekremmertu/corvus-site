@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "milan-summer",
+ "altSlug": "milano-yaz",
+ "citySlug": "milano",
+ "destKey": "milan",
+ "city": "Milan",
+ "region": null,
+ "country": "Italy",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "summer",
+ "seasonSlug": "summer",
+ "seasonLabel": "June–September",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 420,
+  "attractions": 170,
+  "transport": 60,
+  "misc": 80
+ },
+ "notes": [
+  "An ATM metro ticket costs 2.20 EUR, a day pass 7.60. The Malpensa Express from Centrale or Cadorna takes 50 minutes. The city centre is walkable.",
+  "Book your Last Supper ticket online 3 months ahead (15-minute slot). The combined Duomo rooftop ticket should also be booked online.",
+  "Summer brings 30°C and humidity. In August Milanese leave town and shops close. Lake Como is cooler, and aperitivo starts at 19:00.",
+  "Aperitivo in Navigli costs 10-15 EUR for a drink plus buffet (18:00-21:00). Risotto alla milanese and cotoletta cost 20-30 EUR. Coperto (cover charge) is 2-3 EUR.",
+  "Hotel prices triple during Fashion Week (February/September) and the Salone del Mobile (April).",
+  "To tip, round up the bill. Coffee standing at the bar costs 1.30 EUR, at a table 4 EUR."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Duomo and Galleria",
+   "stops": [
+    {
+     "name": "Duomo di Milano",
+     "category": "culture",
+     "start": "09:00",
+     "end": "10:30",
+     "cost": 10,
+     "tips": "Gothic cathedral. Book the combined ticket online (cathedral + rooftop, about 20 EUR) and arrive at the 09:00 opening, when it's quiet."
+    },
+    {
+     "name": "Duomo Rooftop Terraces",
+     "category": "landmark",
+     "start": "10:30",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Take the lift with the combined ticket, then stroll between the spires. On a clear day you can see the Alps."
+    },
+    {
+     "name": "Galleria Vittorio Emanuele II",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Glass-roofed arcade. Spin your heel on the bull mosaic for luck."
+    },
+    {
+     "name": "Luini Panzerotti",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 4,
+     "tips": "Fried panzerotti since 1949. The queue behind the Duomo moves quickly."
+    },
+    {
+     "name": "Museo del Novecento",
+     "category": "culture",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 10,
+     "tips": "20th-century Italian art. Look for the window framing the Duomo and Pellizza's The Fourth Estate."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Camparino in Galleria",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:30",
+     "cost": 15,
+     "tips": "Campari bar since 1915. Come for an aperitivo."
+    },
+    {
+     "name": "Palazzo Reale",
+     "category": "culture",
+     "start": "12:45",
+     "end": "14:00",
+     "cost": 15,
+     "tips": "Temporary exhibitions in the royal palace. A swap for the Novecento."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "The Last Supper and Castello",
+   "stops": [
+    {
+     "name": "Cenacolo Vinciano Son Akşam Yemeği",
+     "category": "culture",
+     "start": "09:00",
+     "end": "09:30",
+     "cost": 15,
+     "tips": "Leonardo's fresco. Slots last 15 minutes and tickets sell out online 3 months ahead (a guided tour is the alternative, about 99 EUR)."
+    },
+    {
+     "name": "Santa Maria delle Grazie",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "Bramante's dome. This is the church that houses the fresco."
+    },
+    {
+     "name": "Castello Sforzesco",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 5,
+     "tips": "The Sforza fortress, with Michelangelo's Rondanini Pietà. The courtyards are free."
+    },
+    {
+     "name": "Parco Sempione",
+     "category": "nature",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 0,
+     "tips": "Park behind the castle, with the Arco della Pace."
+    },
+    {
+     "name": "Trattoria Milanese",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 30,
+     "tips": "Risotto alla milanese and cotoletta since 1933, near the Duomo."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Ratanà",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 35,
+     "tips": "Modern Milanese cooking in Porta Nuova."
+    },
+    {
+     "name": "Triennale Milano",
+     "category": "culture",
+     "start": "10:30",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Design museum beside the park. A swap for the castle."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Brera and Quadrilatero",
+   "stops": [
+    {
+     "name": "Pinacoteca di Brera",
+     "category": "culture",
+     "start": "09:30",
+     "end": "11:30",
+     "cost": 15,
+     "tips": "Caravaggio, Raphael and Hayez's The Kiss. Quiet in the morning."
+    },
+    {
+     "name": "Brera Streets",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Cobbled artists' quarter. Walk Via Fiori Chiari; the botanical garden is free."
+    },
+    {
+     "name": "Pasticceria Marchesi 1824",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "Prada's pastry shop on the corner of Monte Napoleone. Order a cappuccino and a pastry."
+    },
+    {
+     "name": "Quadrilatero della Moda",
+     "category": "shopping",
+     "start": "13:15",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "Via Monte Napoleone and its fashion windows."
+    },
+    {
+     "name": "Villa Necchi Campiglio",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:15",
+     "cost": 15,
+     "tips": "1930s Art Deco villa with a garden and pool. Visits are guided."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bar Basso",
+     "category": "food",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 15,
+     "tips": "The bar where the Negroni Sbagliato was born. Come for an aperitivo."
+    },
+    {
+     "name": "Museo Poldi Pezzoli",
+     "category": "culture",
+     "start": "15:00",
+     "end": "16:15",
+     "cost": 14,
+     "tips": "Private collection in a historic townhouse. A swap for Villa Necchi."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Navigli and Porta Nuova",
+   "stops": [
+    {
+     "name": "Fondazione Prada",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 15,
+     "tips": "Rem Koolhaas's gold-leaf tower and contemporary art, plus Bar Luce (Wes Anderson)."
+    },
+    {
+     "name": "Bar Luce Fondazione Prada",
+     "category": "food",
+     "start": "12:00",
+     "end": "12:45",
+     "cost": 10,
+     "tips": "Bar designed by Wes Anderson. Have a sandwich for lunch."
+    },
+    {
+     "name": "Bosco Verticale Porta Nuova",
+     "category": "landmark",
+     "start": "14:00",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "Towers covered in trees and Piazza Gae Aulenti. Modern Milan."
+    },
+    {
+     "name": "Navigli Canals",
+     "category": "landmark",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Walk along the Naviglio Grande. The antiques market runs on the last Sunday of the month."
+    },
+    {
+     "name": "Navigli Aperitivo Mag Cafè",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 15,
+     "tips": "Canalside aperitivo: a Spritz and a buffet, a Milanese ritual."
+    }
+   ],
+   "backups": [
+    {
+     "name": "El Brellin Navigli",
+     "category": "food",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 35,
+     "tips": "Canalside restaurant in an 18th-century building. Come for dinner."
+    },
+    {
+     "name": "Pirelli HangarBicocca",
+     "category": "culture",
+     "start": "10:00",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "Kiefer's The Seven Heavenly Palaces. Free entry. A swap for Prada."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Lake Como",
+   "stops": [
+    {
+     "name": "Varenna",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "1 hour from Milan by train. Colourful houses and the Villa Monastero gardens (10 EUR)."
+    },
+    {
+     "name": "Bellagio Ferry",
+     "category": "nature",
+     "start": "11:00",
+     "end": "11:30",
+     "cost": 5,
+     "tips": "Ferry from Varenna, out across the middle of the lake."
+    },
+    {
+     "name": "Bellagio",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "The pearl of the lake. Stone-stepped lanes and the Villa Melzi gardens."
+    },
+    {
+     "name": "Ristorante La Punta Bellagio",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 35,
+     "tips": "At the tip of the promontory with lake views. Try the risotto with perch (risotto persico)."
+    },
+    {
+     "name": "Villa Carlotta Tremezzo",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 15,
+     "tips": "Take the ferry to the opposite shore for the botanical garden and sculptures. Azaleas bloom in April and May."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Bellagio Gelateria del Borgo",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 5,
+     "tips": "Ice cream."
+    },
+    {
+     "name": "Como and Brunate Funicular",
+     "category": "nature",
+     "start": "15:00",
+     "end": "16:30",
+     "cost": 6,
+     "tips": "Como's cathedral and the funicular. A swap for Villa Carlotta."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Bergamo",
+   "stops": [
+    {
+     "name": "Bergamo Città Alta Funicular",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:00",
+     "cost": 2,
+     "tips": "50 minutes by train plus the funicular up to the walled upper town (UNESCO)."
+    },
+    {
+     "name": "Piazza Vecchia",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Le Corbusier called it the most beautiful square. Climb the Campanone tower."
+    },
+    {
+     "name": "Basilica di Santa Maria Maggiore",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Baroque interior and the Colleoni Chapel."
+    },
+    {
+     "name": "Da Mimmo Bergamo",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 25,
+     "tips": "Casoncelli (Bergamo-style stuffed pasta) and polenta in the Città Alta."
+    },
+    {
+     "name": "Bergamo Walls Walk",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "5 km along the Venetian walls with views over the plain."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pasticceria Cavour Bergamo",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:30",
+     "cost": 6,
+     "tips": "Try the polenta e osei dessert."
+    },
+    {
+     "name": "Accademia Carrara",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "Painting gallery. A swap for the walls."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Sempione and a light farewell",
+   "stops": [
+    {
+     "name": "Cimitero Monumentale",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 0,
+     "tips": "Monumental cemetery full of sculpture. Free, and effectively an open-air museum."
+    },
+    {
+     "name": "Chinatown Via Paolo Sarpi",
+     "category": "landmark",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Milan's Chinatown, with ravioli stalls."
+    },
+    {
+     "name": "Ravioleria Sarpi",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 8,
+     "tips": "Chinese-Italian dumplings, eaten on the street."
+    },
+    {
+     "name": "Milano Centrale",
+     "category": "landmark",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Vast Fascist-era station. The Malpensa Express takes 50 minutes: time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Pavé Pasticceria",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 6,
+     "tips": "Milan's best croissant."
+    },
+    {
+     "name": "Mercato Centrale Milano",
+     "category": "food",
+     "start": "12:45",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "Food market inside the station."
+    }
+   ]
+  }
+ ]
+}

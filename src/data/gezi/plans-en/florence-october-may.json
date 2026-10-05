@@ -1,0 +1,485 @@
+{
+ "lang": "en",
+ "slug": "florence-october-may",
+ "altSlug": "floransa-ekim-mayis",
+ "citySlug": "floransa",
+ "destKey": "florence",
+ "city": "Florence",
+ "region": null,
+ "country": "Italy",
+ "isTurkey": false,
+ "coastal": false,
+ "season": "other",
+ "seasonSlug": "october-may",
+ "seasonLabel": "October–May",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 400,
+  "attractions": 230,
+  "transport": 80,
+  "misc": 80
+ },
+ "notes": [
+  "Florence is walkable (the centre is a ZTL, closed to cars). Take the bus (SITA) to Siena and San Gimignano; for Chianti, use a car or a tour. Tram T2 runs to the airport.",
+  "Uffizi, Accademia, dome: buy timed tickets online weeks ahead. The first Sunday is free (and crowded). Firenze Card costs 85 EUR for 72 hours.",
+  "November to February is quiet and 8–12°C. There are no museum queues, December brings the Christmas market, and November is olive oil harvest in Chianti.",
+  "Lampredotto 5 EUR, schiacciata 8 EUR, trattoria 20–30 EUR, bistecca 50–60 EUR/kg. Coperto (cover charge) 2–3 EUR, coffee at the bar 1.30 EUR.",
+  "Tap water is safe to drink. Cover shoulders and knees in the Duomo and churches.",
+  "The Vasari Corridor has reopened (reserve through the Uffizi)."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Duomo and city centre",
+   "stops": [
+    {
+     "name": "Cattedrale di Santa Maria del Fiore",
+     "category": "culture",
+     "start": "08:15",
+     "end": "09:00",
+     "cost": 0,
+     "tips": "Entry to the cathedral is free (expect a queue). The Brunelleschi Pass (30 EUR) covers the dome, bell tower, baptistery and museum."
+    },
+    {
+     "name": "Brunelleschi's Dome Climb",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "10:00",
+     "cost": 0,
+     "tips": "463 steps. Book a timed slot weeks ahead. You climb past the frescoes to a view over the city."
+    },
+    {
+     "name": "Battistero di San Giovanni",
+     "category": "culture",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Ghiberti's Gates of Paradise (copy) and the mosaic ceiling. Included in the pass."
+    },
+    {
+     "name": "Mercato Centrale Firenze",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 12,
+     "tips": "Market on the ground floor, food hall upstairs. Try lampredotto (tripe sandwich) at Nerbone and a truffle sandwich."
+    },
+    {
+     "name": "Piazza della Signoria",
+     "category": "landmark",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "An open-air sculpture museum: Loggia dei Lanzi, the Neptune Fountain and a copy of David."
+    }
+   ],
+   "backups": [
+    {
+     "name": "All'Antico Vinaio",
+     "category": "food",
+     "start": "11:00",
+     "end": "12:15",
+     "cost": 8,
+     "tips": "Schiacciata sandwiches with a queue out the door. On Via dei Neri."
+    },
+    {
+     "name": "Museo dell'Opera del Duomo",
+     "category": "culture",
+     "start": "10:15",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "The original Gates of Paradise and Michelangelo's Pietà. Included in the pass."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "cityCenter",
+   "theme": "Uffizi and Ponte Vecchio",
+   "stops": [
+    {
+     "name": "Galleria degli Uffizi",
+     "category": "culture",
+     "start": "08:15",
+     "end": "11:00",
+     "cost": 29,
+     "tips": "Botticelli's Venus, Leonardo, Caravaggio. Take the 08:15 first slot, book online (29 EUR) and allow 2.5 hours."
+    },
+    {
+     "name": "Ponte Vecchio",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "11:45",
+     "cost": 0,
+     "tips": "The bridge of the goldsmiths, with the Vasari Corridor running above."
+    },
+    {
+     "name": "Trattoria Sergio Gozzi",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 18,
+     "tips": "A local trattoria in San Lorenzo since 1915. Ribollita (Tuscan bread soup) and bistecca at lunch."
+    },
+    {
+     "name": "Basilica di San Lorenzo & Medici Chapels",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 9,
+     "tips": "Michelangelo's sculptures in the New Sacristy, and the Medici tombs."
+    },
+    {
+     "name": "Piazzale Michelangelo",
+     "category": "nature",
+     "start": "18:00",
+     "end": "19:30",
+     "cost": 0,
+     "tips": "The postcard view of the city at sunset. The church of San Miniato is 10 minutes further up (Gregorian chant at 17:30)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trattoria Mario",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 18,
+     "tips": "Lunch at shared tables opposite the market. Cash only."
+    },
+    {
+     "name": "Palazzo Vecchio",
+     "category": "culture",
+     "start": "13:30",
+     "end": "15:00",
+     "cost": 12,
+     "tips": "The town hall and the Salone dei Cinquecento, with views from the tower."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "cityCenter",
+   "theme": "Accademia and San Marco",
+   "stops": [
+    {
+     "name": "Galleria dell'Accademia",
+     "category": "culture",
+     "start": "08:15",
+     "end": "09:45",
+     "cost": 20,
+     "tips": "Michelangelo's David and the Prisoners. Book the 08:15 slot online."
+    },
+    {
+     "name": "Museo di San Marco",
+     "category": "culture",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 8,
+     "tips": "Monastic cells frescoed by Fra Angelico. Quiet."
+    },
+    {
+     "name": "Mercato di Sant'Ambrogio",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 10,
+     "tips": "A local market, with Cibrèo café and Trattoria da Rocco (inside the market)."
+    },
+    {
+     "name": "Basilica of Santa Croce",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 8,
+     "tips": "Tombs of Michelangelo, Galileo and Machiavelli, plus Giotto's frescoes."
+    },
+    {
+     "name": "Scuola del Cuoio",
+     "category": "shopping",
+     "start": "14:15",
+     "end": "15:00",
+     "cost": 0,
+     "tips": "A leather school behind Santa Croce. Watch the craftsmen at work."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trattoria da Rocco Sant'Ambrogio",
+     "category": "food",
+     "start": "11:30",
+     "end": "12:30",
+     "cost": 12,
+     "tips": "Cheap lunch inside the market."
+    },
+    {
+     "name": "Museo Galileo",
+     "category": "culture",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 13,
+     "tips": "Scientific instruments. An alternative to Santa Croce."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "cityCenter",
+   "theme": "Oltrarno",
+   "stops": [
+    {
+     "name": "Palazzo Pitti Galleria Palatina",
+     "category": "culture",
+     "start": "09:00",
+     "end": "11:00",
+     "cost": 16,
+     "tips": "The Medici palace, with Raphael and Titian. A combined ticket with the Uffizi costs 40 EUR."
+    },
+    {
+     "name": "Boboli Gardens",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 10,
+     "tips": "A Renaissance garden. See the Neptune pool and cross over to Bardini."
+    },
+    {
+     "name": "Giardino Bardini",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "Included with the Boboli ticket. Look for the wisteria tunnel (April to May) and the view of the Duomo."
+    },
+    {
+     "name": "Gustapizza Oltrarno",
+     "category": "food",
+     "start": "13:30",
+     "end": "14:30",
+     "cost": 10,
+     "tips": "Neapolitan-style pizza near Santo Spirito. Expect a queue."
+    },
+    {
+     "name": "Piazza Santo Spirito",
+     "category": "landmark",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 0,
+     "tips": "The square of the artisans' quarter, with Brunelleschi's church and workshops (Via Maggio). Come for aperitivo in the evening."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Il Santo Bevitore",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 35,
+     "tips": "Oltrarno's well-known dinner restaurant. Reserve."
+    },
+    {
+     "name": "Brancacci Chapel",
+     "category": "culture",
+     "start": "14:30",
+     "end": "16:00",
+     "cost": 10,
+     "tips": "Masaccio's frescoes in Santa Maria del Carmine. Reserve."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Siena and San Gimignano",
+   "stops": [
+    {
+     "name": "Piazza del Campo Siena",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "1.5 hours by bus. A shell-shaped square, home to the Palio (2 July to 16 August)."
+    },
+    {
+     "name": "Siena Cathedral",
+     "category": "culture",
+     "start": "10:15",
+     "end": "11:30",
+     "cost": 8,
+     "tips": "A black-and-white striped cathedral with the Piccolomini Library and a marble floor (uncovered August to October)."
+    },
+    {
+     "name": "Torre del Mangia",
+     "category": "landmark",
+     "start": "11:30",
+     "end": "12:15",
+     "cost": 10,
+     "tips": "A 400-step tower with views over the Campo."
+    },
+    {
+     "name": "Osteria Le Logge Siena",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:45",
+     "cost": 30,
+     "tips": "Tuscan cooking next to the Campo. Try the pici pasta."
+    },
+    {
+     "name": "San Gimignano Towers",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "The medieval Manhattan, with 14 towers. Stop at Gelateria Dondoli (world champion ice cream) and walk the walls at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Gelateria Dondoli San Gimignano",
+     "category": "food",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 4,
+     "tips": "Ice cream from a champion."
+    },
+    {
+     "name": "Monteriggioni",
+     "category": "landmark",
+     "start": "15:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "A village with circular walls. A closer alternative to San Gimignano."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "dayTrip",
+   "theme": "Chianti",
+   "stops": [
+    {
+     "name": "Greve in Chianti",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "The capital of Chianti, with a triangular square and Antica Macelleria Falorni."
+    },
+    {
+     "name": "Castello di Verrazzano Wine Tour",
+     "category": "culture",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 30,
+     "tips": "A tour of the castle's vineyard with tasting. Reserve; go by tour or car."
+    },
+    {
+     "name": "Castello di Verrazzano Lunch",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 35,
+     "tips": "Tuscan lunch at the vineyard, served with wine."
+    },
+    {
+     "name": "Panzano in Chianti",
+     "category": "landmark",
+     "start": "14:45",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Dario Cecchini's butcher village, home to the poet-butcher."
+    },
+    {
+     "name": "Castellina in Chianti",
+     "category": "landmark",
+     "start": "16:00",
+     "end": "17:00",
+     "cost": 0,
+     "tips": "An Etruscan tunnel and the town walls, with vineyards at sunset."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Officina della Bistecca Dario Cecchini",
+     "category": "food",
+     "start": "13:00",
+     "end": "14:15",
+     "cost": 50,
+     "tips": "Cecchini's bistecca menu. Reserve."
+    },
+    {
+     "name": "Badia a Passignano",
+     "category": "culture",
+     "start": "11:15",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "An abbey and the Antinori vineyards. An alternative to Verrazzano."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Santa Maria Novella: a light farewell",
+   "stops": [
+    {
+     "name": "Basilica di Santa Maria Novella",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 7,
+     "tips": "Masaccio's Trinity, next to the station."
+    },
+    {
+     "name": "Officina Profumo-Farmaceutica di Santa Maria Novella",
+     "category": "shopping",
+     "start": "10:30",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "A pharmacy and perfumery since 1221. Good for gifts."
+    },
+    {
+     "name": "Trattoria Sostanza",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 25,
+     "tips": "Famous for its butter chicken breast since 1869. Cash only, lunch."
+    },
+    {
+     "name": "Firenze Santa Maria Novella Station",
+     "category": "landmark",
+     "start": "13:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Pisa is 1 hour away and Rome 1.5 hours. Tram T2 to the airport takes 20 minutes. Time to say goodbye."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trattoria Sabatino Oltrarno",
+     "category": "food",
+     "start": "12:00",
+     "end": "13:15",
+     "cost": 12,
+     "tips": "Cheap, no-frills local eatery."
+    },
+    {
+     "name": "Museo Novecento",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:30",
+     "cost": 10,
+     "tips": "20th-century art. An alternative to the basilica."
+    }
+   ]
+  }
+ ]
+}

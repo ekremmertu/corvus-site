@@ -1,0 +1,485 @@
+{
+ "lang": "tr",
+ "slug": "mikonos-yaz",
+ "altSlug": "mykonos-summer",
+ "citySlug": "mikonos",
+ "destKey": "mykonos",
+ "city": "Mikonos",
+ "region": null,
+ "country": "Yunanistan",
+ "isTurkey": false,
+ "coastal": true,
+ "season": "summer",
+ "seasonSlug": "yaz",
+ "seasonLabel": "Haziran–Eylül",
+ "currency": "EUR",
+ "totalDays": 7,
+ "quality": "v1",
+ "budget": {
+  "flights": 0,
+  "hotel": 0,
+  "food": 480,
+  "attractions": 180,
+  "transport": 200,
+  "misc": 120
+ },
+ "notes": [
+  "Otobüs (KTEL Fabrika ve Eski Liman terminalleri) plajlara 2 EUR; ATV/scooter 30-50 EUR; taksi çok az (pahalı, Uber yok). Havalimanı 4 km.",
+  "Yaz (Temmuz-Ağustos): parti adası dolu; meltemi rüzgârı kuzey plajlarını kapatır, güney sakin kalır; beach club şezlong 50-200 EUR. Haziran ve Eylül ideal.",
+  "Delos 12 + tekne 22; taverna 20-30, beach club 60-100+, kokteyl 15-20; Avrupa'nın en pahalı adalarından; bahşiş yuvarlama.",
+  "Delos pazartesi kapalı, gölge yok, su/şapka; Fokos toprak yol (ATV); Paradise/Super Paradise parti 16:00 sonrası.",
+  "Kopanisti (acı peynir), louza (kuru domuz), kalathaki, Mykonos sandaleti; Gioras fırını 600 yıl.",
+  "Gün batımı: Little Venice (kalabalık), Armenistis (sakin), 180° bar (rezervasyon)."
+ ],
+ "niche": null,
+ "transit": null,
+ "days": [
+  {
+   "index": 1,
+   "type": "cityCenter",
+   "theme": "Chora & Küçük Venedik",
+   "stops": [
+    {
+     "name": "Mykonos Chora Matoyianni",
+     "category": "landmark",
+     "start": "09:30",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Beyaz labirent sokaklar ve begonvil; sabah boş, butikler."
+    },
+    {
+     "name": "Panagia Paraportiani",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:15",
+     "cost": 0,
+     "tips": "5 kilisenin kaynaştığı beyaz 'kartopu' kilise; adanın simgesi."
+    },
+    {
+     "name": "Kato Mili Yel Değirmenleri",
+     "category": "landmark",
+     "start": "11:15",
+     "end": "12:00",
+     "cost": 0,
+     "tips": "16. yüzyıl 5 değirmen; Küçük Venedik manzarası, sabah ışığı."
+    },
+    {
+     "name": "Nikos Taverna Chora",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 20,
+     "tips": "1980'lerden beri aile tavernası; kuzu ve moussaka, Petros pelikanı geçer."
+    },
+    {
+     "name": "Little Venice Gün Batımı",
+     "category": "nature",
+     "start": "19:00",
+     "end": "20:30",
+     "cost": 15,
+     "tips": "Deniz üstü balkonlu evler; Caprice/Scarpa barında kokteyl (15 EUR), dalga sıçrar."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kiki's Tavern Agios Sostis",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:30",
+     "cost": 22,
+     "tips": "Elektriksiz ızgara tavernası; kuyruk, plaj yanı (araçla)."
+    },
+    {
+     "name": "Aegean Maritime Museum",
+     "category": "culture",
+     "start": "13:45",
+     "end": "14:30",
+     "cost": 4,
+     "tips": "Lena'nın Evi ile; Tria Pigadia."
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "type": "dayTrip",
+   "theme": "Delos",
+   "stops": [
+    {
+     "name": "Delos Feribotu Eski Liman",
+     "category": "landmark",
+     "start": "09:00",
+     "end": "09:40",
+     "cost": 22,
+     "tips": "Apollon'un doğduğu kutsal ada; tekneyle 30 dakika (gidiş-dönüş 22 EUR, 09:00/10:00). Pazartesi kapalı."
+    },
+    {
+     "name": "Delos Archaeological Site",
+     "category": "culture",
+     "start": "09:45",
+     "end": "12:30",
+     "cost": 12,
+     "tips": "UNESCO Helenistik şehir; Aslanlar Terası, Dionysos Evi mozaikleri (fallus anıtı), tiyatro. Gölge yok."
+    },
+    {
+     "name": "Mount Kynthos Delos",
+     "category": "nature",
+     "start": "12:30",
+     "end": "13:15",
+     "cost": 0,
+     "tips": "113 m tepe; Kiklad adaları 360°, 20 dakika."
+    },
+    {
+     "name": "Delos Müze Kafe",
+     "category": "food",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 8,
+     "tips": "Tek kafe; sandviç, dönüş teknesi 13:30/15:00."
+    },
+    {
+     "name": "Agios Stefanos Beach Öğle Sonrası",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Chora'ya yakın sakin plaj; feribot manzarası."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Rinia Adası Tekne Turu",
+     "category": "nature",
+     "start": "15:00",
+     "end": "17:30",
+     "cost": 40,
+     "tips": "Delos'un komşusu ıssız koylar; yüzme, tur."
+    },
+    {
+     "name": "Mykonos Old Port Kafeler",
+     "category": "food",
+     "start": "13:15",
+     "end": "13:45",
+     "cost": 10,
+     "tips": "Limanda kahvaltı-öğle; müze kafesi yerine."
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "type": "dayTrip",
+   "theme": "Güney plajları: Paradise & Super Paradise",
+   "stops": [
+    {
+     "name": "Platis Gialos",
+     "category": "nature",
+     "start": "10:00",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Aile plajı ve tekne taksisi başlangıcı; sığ deniz."
+    },
+    {
+     "name": "Paraga Beach",
+     "category": "nature",
+     "start": "11:30",
+     "end": "13:00",
+     "cost": 0,
+     "tips": "Küçük koy; Scorpios beach club (pahalı, gün batımı ritüeli)."
+    },
+    {
+     "name": "Paradise Beach",
+     "category": "nature",
+     "start": "13:00",
+     "end": "14:30",
+     "cost": 0,
+     "tips": "1970 hippi plajı, şimdi parti; Tropicana gündüz partisi 16:00 sonrası."
+    },
+    {
+     "name": "Super Paradise Beach",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 30,
+     "tips": "Dik koy; JackieO' beach club (LGBT dostu), öğle ve şezlong."
+    },
+    {
+     "name": "Elia Beach",
+     "category": "nature",
+     "start": "16:45",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Adanın en uzun sakin plajı; şezlong, tekne taksisiyle geri dönüş."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Scorpios Paraga",
+     "category": "food",
+     "start": "14:30",
+     "end": "16:30",
+     "cost": 60,
+     "tips": "Bohem-lüks beach club; rezervasyon, gün batımı ritüeli."
+    },
+    {
+     "name": "Agrari Beach",
+     "category": "nature",
+     "start": "16:45",
+     "end": "18:30",
+     "cost": 0,
+     "tips": "Elia'nın sakin komşusu; yürüyerek."
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "type": "dayTrip",
+   "theme": "Kuzey: Ano Mera & Fokos",
+   "stops": [
+    {
+     "name": "Panagia Tourliani Ano Mera",
+     "category": "culture",
+     "start": "09:30",
+     "end": "10:15",
+     "cost": 0,
+     "tips": "1542 manastır; mermer çan kulesi, adanın iç köyü, hafta sonu pazar."
+    },
+    {
+     "name": "Ano Mera Meydanı Kahvaltı",
+     "category": "food",
+     "start": "10:15",
+     "end": "11:00",
+     "cost": 8,
+     "tips": "Köy meydanı kafe; loukoumades."
+    },
+    {
+     "name": "Fokos Beach",
+     "category": "nature",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Adanın ıssız kuzey plajı (toprak yol); tesissiz, doğal."
+    },
+    {
+     "name": "Fokos Taverna",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 25,
+     "tips": "Plajın tek tavernası; ev yapımı Yunan, Kiklad manzarası."
+    },
+    {
+     "name": "Panormos Beach Principote",
+     "category": "nature",
+     "start": "15:45",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Şık beach club (Principote) veya sakin ucu; kuzey rüzgârı meltemi."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Agios Sostis Beach",
+     "category": "nature",
+     "start": "11:30",
+     "end": "14:00",
+     "cost": 0,
+     "tips": "Fokos'un komşusu; Kiki's tavernası yanı."
+    },
+    {
+     "name": "Mykonos Vioma Organic Farm",
+     "category": "food",
+     "start": "14:00",
+     "end": "15:15",
+     "cost": 20,
+     "tips": "Organik bağ ve tadım; Ano Mera."
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "type": "dayTrip",
+   "theme": "Tekne turu: Güney adalar",
+   "stops": [
+    {
+     "name": "Ornos Limanı Tekne Turu",
+     "category": "landmark",
+     "start": "10:00",
+     "end": "10:30",
+     "cost": 90,
+     "tips": "Yarım/tam gün yelkenli veya katamaran (~90-150 EUR, öğle dahil); güney kıyısı."
+    },
+    {
+     "name": "Dragonisi Mağaraları",
+     "category": "nature",
+     "start": "11:00",
+     "end": "12:30",
+     "cost": 0,
+     "tips": "Deniz mağaraları ve Akdeniz foku; şnorkel."
+    },
+    {
+     "name": "Tekne Öğle Yemeği",
+     "category": "food",
+     "start": "12:30",
+     "end": "13:30",
+     "cost": 0,
+     "tips": "Güvertede ızgara; dahil."
+    },
+    {
+     "name": "Rinia Koyları Yüzme",
+     "category": "nature",
+     "start": "13:30",
+     "end": "15:30",
+     "cost": 0,
+     "tips": "Issız ada, turkuaz koylar; şnorkel."
+    },
+    {
+     "name": "Ornos Beach Dönüş",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Ornos'ta şezlong ve kokteyl; Kuzina restoranı."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kuzina Ornos",
+     "category": "food",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 35,
+     "tips": "Plaj restoranı; deniz ürünleri."
+    },
+    {
+     "name": "Agios Ioannis Beach",
+     "category": "nature",
+     "start": "16:00",
+     "end": "17:30",
+     "cost": 0,
+     "tips": "Shirley Valentine plajı; Delos gün batımı manzarası, Ornos yerine."
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "type": "cityCenter",
+   "theme": "Chora kültür & Armenistis",
+   "stops": [
+    {
+     "name": "Rarity Gallery Chora",
+     "category": "culture",
+     "start": "10:00",
+     "end": "10:45",
+     "cost": 0,
+     "tips": "Çağdaş sanat galerisi; Kalogera."
+    },
+    {
+     "name": "Folklore Museum Mykonos",
+     "category": "culture",
+     "start": "10:45",
+     "end": "11:30",
+     "cost": 0,
+     "tips": "Kaptan evinde halk müzesi; Kastro."
+    },
+    {
+     "name": "Sakis Grill House Chora",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 10,
+     "tips": "Souvlaki ve gyros; ucuz ve iyi, Kalogera."
+    },
+    {
+     "name": "Armenistis Feneri",
+     "category": "nature",
+     "start": "17:30",
+     "end": "19:00",
+     "cost": 0,
+     "tips": "Kuzeybatı burnu 1891 feneri; Tinos manzarası, gün batımı alternatifi (kalabalıksız)."
+    },
+    {
+     "name": "180° Sunset Bar Chora",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 25,
+     "tips": "Tepe barı; Chora ve gün batımı, rezervasyon."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Kastro's Bar Little Venice",
+     "category": "food",
+     "start": "19:30",
+     "end": "21:00",
+     "cost": 18,
+     "tips": "1976 gün batımı barı; klasik müzik."
+    },
+    {
+     "name": "Mykonos Brewing Company",
+     "category": "food",
+     "start": "12:15",
+     "end": "13:15",
+     "cost": 8,
+     "tips": "Ada birası tadımı; grill yerine."
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "type": "cityCenter",
+   "theme": "Liman sabahı — hafif veda",
+   "stops": [
+    {
+     "name": "Old Port Sabah Balıkçıları",
+     "category": "landmark",
+     "start": "08:30",
+     "end": "09:15",
+     "cost": 0,
+     "tips": "Pelikan Petros ve balıkçı tekneleri; sakin liman."
+    },
+    {
+     "name": "Gioras Wood Bakery",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:00",
+     "cost": 5,
+     "tips": "1420'den beri odun fırını; adanın en eskisi, tiropita ve kalathaki."
+    },
+    {
+     "name": "Chora Sokakları Son Tur",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Sandalet (Mykonos sandaleti), kopanisti peyniri hediyelik."
+    },
+    {
+     "name": "Mykonos Havalimanı",
+     "category": "landmark",
+     "start": "11:45",
+     "end": "12:15",
+     "cost": 10,
+     "tips": "Chora'ya 4 km; taksi/otobüs. Veda (Piraeus feribotu: Yeni Liman)."
+    }
+   ],
+   "backups": [
+    {
+     "name": "Trio Bougatsa Chora",
+     "category": "food",
+     "start": "09:15",
+     "end": "10:00",
+     "cost": 5,
+     "tips": "Girit bougatsa; fırın yerine."
+    },
+    {
+     "name": "Ano Mera Cumartesi Pazarı",
+     "category": "shopping",
+     "start": "10:00",
+     "end": "11:00",
+     "cost": 0,
+     "tips": "Köy pazarı (cumartesi)."
+    }
+   ]
+  }
+ ]
+}

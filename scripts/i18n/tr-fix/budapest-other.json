@@ -1,0 +1,25 @@
+{
+ "source": "bedd2ab07662",
+ "model": "sonnet",
+ "strings": {
+  "d2.s0.tips": "45 dakikalık tur (Kutsal Taç); günler önce online rezervasyon yap, pasaport götür.",
+  "d2.s1.tips": "Aziz István'ın mumyalanmış sağ eli; kubbe panoraması 3.000 HUF.",
+  "d2.s4.tips": "Avrupa'nın en büyük termal hamamı; sarı saray, dışarıda 38°C havuz ve satranç oynayanlar. Terlik ve havlu getir; hafta içi ucuz.",
+  "d3.s1.tips": "Szimpla'nın yanında food truck avlusu; lángos (kızarmış hamur, sarımsak-peynir) ve kürtőskalács.",
+  "d3.s2.tips": "1897'den kalma demir pazar; paprika, salam, üst katta lángos; pazar kapalı.",
+  "d3.s3.tips": "Yeşil köprü; Gellért Tepesi'ne 30 dakika tırman. Gün batımında Citadella'dan panorama.",
+  "d4.s0.tips": "HÉV treniyle 40 dakika (Batthyány tér); barok sanatçı kasabası, Sırp kiliseleri.",
+  "d4.s1.tips": "Sırp Ortodoks kilisesi; meydan.",
+  "d4.s3.tips": "Kışın nehir yürüyüşü; dönüşte HÉV.",
+  "d4.b0.tips": "Şehrin ünlü lángosu; küçük büfe.",
+  "d5.s4.tips": "Neo-rönesans opera turu (İngilizce 13:30/15:00); ya da akşam bileti 5.000'den.",
+  "d5.b0.tips": "'Dünyanın en güzel kafesi'; kuyruk var, pahalı, Menza yerine.",
+  "d7.s2.tips": "Küçük Prenses heykeli ve nehir kenarında 2 numaralı tramvay hattı.",
+  "note0": "Budapest kart veya 24 saat bilet ~2.500 HUF; 2 numaralı tramvay nehir kıyısı manzaralı. 100E havalimanı otobüsü 2.200 HUF. 1 numaralı metro tarihi.",
+  "note1": "Kış -2 ila 5°C; Vörösmarty Noel pazarı Kasım-Aralık. Buharlı dış havuzlu hamamlar kar altında en iyisi! Széchenyi'de cumartesi 'sparty'.",
+  "note2": "Hamam 12-15.000 HUF (hafta içi ucuz), Parlamento 10.000, sinagog 12.000; havlu ve terlik kiralamak pahalı, kendin getir.",
+  "note4": "Forint nakit al. EUR kabul eden yerler kötü kur verir. Döviz bürosunda 'no commission' tuzağına dikkat. ATM'de kendi bankanın kurunu seç.",
+  "note5": "Harabe barlar Kazinczy çevresinde; cumartesi sinagog kapalı, pazar Büyük Pazar kapalı."
+ },
+ "warnings": []
+}
