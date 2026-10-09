@@ -7,7 +7,7 @@ export default function Manifesto({
   stats,
 }: {
   d: Dict;
-  stats: { value: string; label: string }[];
+  stats: { value: string; label: string; static?: boolean }[];
 }) {
   return (
     <section className="mani grain" aria-label={d.home.mani1}>
@@ -21,7 +21,7 @@ export default function Manifesto({
               <dt className="sr-only">{s.label}</dt>
               <dd style={{ margin: 0 }}>
                 <strong>
-                  <CountUp value={s.value} />
+                  {s.static ? s.value : <CountUp value={s.value} />}
                 </strong>
                 <small>{s.label}</small>
               </dd>

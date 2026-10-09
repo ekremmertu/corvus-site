@@ -17,7 +17,7 @@ export default function FeaturedCase({
   d: Dict;
   hero: Project;
   heroShots: [Shot, Shot];
-  duo: { project: Project; shot: Shot; tone: "gold" | "red" }[];
+  duo: { project: Project; shot: Shot; tone: "gold" | "red"; logo?: boolean }[];
 }) {
   const cat = getCategory(hero.category);
   return (
@@ -51,7 +51,7 @@ export default function FeaturedCase({
         </Link>
 
         <div className="duo">
-          {duo.map(({ project, shot, tone }, i) => {
+          {duo.map(({ project, shot, tone, logo }, i) => {
             const c = getCategory(project.category);
             return (
               <Link
@@ -66,7 +66,11 @@ export default function FeaturedCase({
                 </p>
                 <h3>{project.name}</h3>
                 <p>{project.summary[locale]}</p>
-                <Phone src={shot.src} alt={shot.alt} />
+                {logo ? (
+                  <img className="duo-logo" src={shot.src} alt={shot.alt} width={512} height={512} loading="lazy" />
+                ) : (
+                  <Phone src={shot.src} alt={shot.alt} />
+                )}
               </Link>
             );
           })}

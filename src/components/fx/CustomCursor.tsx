@@ -35,6 +35,11 @@ export default function CustomCursor({ label }: { label: string }) {
       x = e.clientX;
       y = e.clientY;
       dot.style.transform = `translate(${x}px, ${y}px)`;
+      if (!root.classList.contains("is-on")) {
+        rx = x;
+        ry = y;
+        root.classList.add("is-on");
+      }
       const t = e.target as HTMLElement | null;
       root.classList.toggle("is-view", Boolean(t?.closest?.("[data-view]")));
       root.classList.toggle("is-hover", Boolean(t?.closest?.(INTERACTIVE)));
@@ -46,8 +51,8 @@ export default function CustomCursor({ label }: { label: string }) {
       text.style.transform = `translate(${rx}px, ${ry}px) translate(-50%, -50%)`;
       raf = requestAnimationFrame(loop);
     };
-    const hide = () => (root.style.opacity = "0");
-    const show = () => (root.style.opacity = "1");
+    const hide = () => root.classList.remove("is-on");
+    const show = () => {};
 
     document.addEventListener("mousemove", onMove, { passive: true });
     document.documentElement.addEventListener("mouseleave", hide);

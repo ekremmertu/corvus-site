@@ -14,10 +14,7 @@ export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
   const tr = locale === "tr";
   return (
     <header className="hero grain">
-      <p className="eyebrow" data-in style={{ position: "relative", zIndex: 3 }}>
-        {d.hero.eyebrow}
-      </p>
-      <h1 className="h-display wrap" data-in style={{ position: "relative", zIndex: 3, marginTop: 22, transitionDelay: ".08s" }}>
+      <h1 className="h-display wrap" data-in style={{ position: "relative", zIndex: 3, margin: "0 auto", transitionDelay: ".08s" }}>
         {d.hero.title1}
         <br />
         <span className="serif sheen">{d.hero.title2}</span>
@@ -53,8 +50,8 @@ export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
         />
         <Phone
           className="iph-lg reflect"
-          src="/shots/q1.jpg"
-          alt={tr ? "Quill kişisel finans uygulamasında aylık özet" : "Quill personal finance monthly overview"}
+          src="/shots/q-income.jpg"
+          alt={tr ? "Quill uygulamasında aylık gelir ekranı" : "Quill monthly income screen"}
           style={{ zIndex: 5, transitionDelay: ".15s" }}
           eager
           view

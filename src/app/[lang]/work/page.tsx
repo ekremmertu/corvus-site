@@ -36,10 +36,7 @@ export default async function WorkPage({ params }: PageProps<"/[lang]/work">) {
     <>
       <header className="page-head grain" style={{ background: "radial-gradient(ellipse 60% 50% at 50% 0%, rgba(120,110,255,.14), transparent 70%), #000" }}>
         <div className="wrap" style={{ position: "relative", zIndex: 1 }}>
-          <p className="eyebrow" style={{ margin: 0 }}>
-            {d.nav.work}
-          </p>
-          <h1 className="h-display" style={{ margin: "18px 0 0" }}>
+          <h1 className="h-display" style={{ margin: 0 }}>
             {d.work.title}
           </h1>
           <p className="lede" style={{ maxWidth: 560, margin: "20px 0 0" }}>

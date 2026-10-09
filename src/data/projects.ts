@@ -36,19 +36,19 @@ export const projects: Project[] = [
     },
     highlights: {
       en: [
-        "Shipped to the App Store and maintained through v1.2.5",
+        "Shipped to the App Store and maintained through v1.2.9",
         "Group travel: shared plans with live edits and roles",
         "Free + $4.99 / $9.99 in-app purchase tiers via StoreKit 2",
       ],
       tr: [
-        "App Store'a çıkarıldı ve v1.2.5'e kadar sürdürüldü",
+        "App Store'a çıkarıldı ve v1.2.9'a kadar sürdürüldü",
         "Grup gezisi: canlı düzenleme ve rollerle paylaşılan planlar",
         "StoreKit 2 ile ücretsiz + $4.99 / $9.99 satın alma katmanları",
       ],
     },
     metrics: [
       { label: { en: "Status", tr: "Durum" }, value: "App Store" },
-      { label: { en: "Version", tr: "Sürüm" }, value: "v1.2.5" },
+      { label: { en: "Version", tr: "Sürüm" }, value: "v1.2.9" },
       { label: { en: "Model", tr: "Model" }, value: "Free + IAP" },
     ],
     // TripWalkers'ın KENDİ domaini yok (CEO kararı 2026-08-31) → bu sayfa onun
@@ -138,8 +138,8 @@ export const projects: Project[] = [
     appStoreSoon: true,
     alsoIn: ["web"],
     summary: {
-      en: "Restaurant table app: split the bill, then show the owner what the data means.",
-      tr: "Restoran masa uygulaması: hesabı böl, sonra işletmeciye verinin ne anlattığını göster.",
+      en: "Scan the table code and split the bill without the awkward math. The owner sees what every table earns, live.",
+      tr: "Masadaki kodu okut, hesabı tartışmadan böl. İşletme de hangi masanın ne kazandırdığını canlı görür.",
     },
     description: {
       en: "Two products in one codebase — a guest side that splits a table bill without arguments, and a manager side with operational analytics: table turnover, menu performance and the numbers that make the pitch to a restaurant.",
@@ -651,7 +651,7 @@ export const projects: Project[] = [
     slug: "cvtoapply",
     name: "CVtoapply",
     category: "web",
-    status: "development",
+    status: "live",
     year: "2026",
     stack: ["Next.js", "FastAPI", "Anthropic API"],
     liveUrl: "https://cvtoapply.co",

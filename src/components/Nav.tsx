@@ -32,7 +32,7 @@ export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
     { href: `/${locale}/work`, label: d.nav.work },
     { section: "disciplines", label: d.nav.studio },
     { section: "process", label: d.nav.process },
-    { section: "faq", label: "FAQ" },
+    { section: "faq", label: d.nav.faq },
   ];
 
   return (
