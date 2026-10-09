@@ -27,29 +27,29 @@ export const projects: Project[] = [
     screenshotsSeamless: true,
     screenshotsPerLang: true,
     summary: {
-      en: "AI travel planner that turns a city and three free days into an hour-by-hour itinerary.",
-      tr: "Bir şehri ve üç boş günü saat saat gezi planına çeviren AI seyahat planlayıcı.",
+      en: "Pick a city and your dates — get a day-by-day plan you can actually walk.",
+      tr: "Şehri ve tarihleri seç; yürüyerek gezebileceğin gün gün planın hazır olsun.",
     },
     description: {
-      en: "Live on the App Store. You pick a destination, a pace and the things you actually care about; the app writes a day-by-day plan, keeps it editable offline and lets a group travel off the same plan. Free tier plus two in-app purchase tiers.",
-      tr: "App Store'da yayında. Bir rota, bir tempo ve gerçekten önemsediğin şeyleri seçiyorsun; uygulama günlük planı yazıyor, çevrimdışı düzenlenebilir tutuyor ve bir grubun aynı plan üzerinden gezmesini sağlıyor. Ücretsiz katman ve iki uygulama içi satın alma seviyesi.",
+      en: "Live on the App Store. Choose your city, your pace and the things you love — TripWalkers writes your day-by-day plan. It opens offline and stays editable. Invite your friends and travel together from the same plan.",
+      tr: "App Store'da yayında. Gideceğin şehri, temponu ve sevdiğin şeyleri seç; TripWalkers gün gün planını yazsın. Plan internetsiz de açılır, istediğin gibi düzenlenir. Arkadaşlarını davet et, aynı plan üzerinden birlikte gezin.",
     },
     highlights: {
       en: [
         "Shipped to the App Store and maintained through v1.2.9",
         "Group travel: shared plans with live edits and roles",
-        "Free + $4.99 / $9.99 in-app purchase tiers via StoreKit 2",
+        "Adds places from Instagram and TikTok videos to your plan",
       ],
       tr: [
         "App Store'a çıkarıldı ve v1.2.9'a kadar sürdürüldü",
         "Grup gezisi: canlı düzenleme ve rollerle paylaşılan planlar",
-        "StoreKit 2 ile ücretsiz + $4.99 / $9.99 satın alma katmanları",
+        "Instagram ve TikTok videolarındaki mekânları plana ekler",
       ],
     },
     metrics: [
       { label: { en: "Status", tr: "Durum" }, value: "App Store" },
       { label: { en: "Version", tr: "Sürüm" }, value: "v1.2.9" },
-      { label: { en: "Model", tr: "Model" }, value: "Free + IAP" },
+      { label: { en: "Languages", tr: "Dil" }, value: "TR + EN" },
     ],
     // TripWalkers'ın KENDİ domaini yok (CEO kararı 2026-08-31) → bu sayfa onun
     // tek makine-okunur GEO yüzeyi. "TripWalkers nedir" sorusunun cevabı burada.
@@ -102,28 +102,27 @@ export const projects: Project[] = [
     appStoreUrl: "https://apps.apple.com/tr/app/id6768395513",
     screenshots: 5,
     summary: {
-      en: "Personal finance app built around debt payoff strategy, not budget guilt.",
-      tr: "Bütçe suçluluğu değil, borç kapatma stratejisi üzerine kurulmuş kişisel finans uygulaması.",
+      en: "No budget guilt. A personal finance app that shows you which debt to clear first.",
+      tr: "Bütçe suçluluğu yok. Borçlarını hangi sırayla kapatacağını gösteren kişisel finans uygulaması.",
     },
     description: {
-      en: "Quill models your debts and goals, then orders them with avalanche or snowball logic and shows what one extra payment actually changes. Now live on the App Store, signed and delivered through an automated archive → export → upload pipeline.",
-      tr: "Quill borçlarını ve hedeflerini modelliyor, çığ veya kartopu mantığıyla sıralıyor ve tek bir ek ödemenin neyi değiştirdiğini gösteriyor. App Store'da yayında; otomatik archive → export → yükleme hattıyla imzalanıp teslim ediliyor.",
+      en: "Quill models your debts and goals, orders them with the avalanche or snowball method and shows what even a small extra amount actually changes. Now live on the App Store, signed and delivered through an automated archive → export → upload pipeline.",
+      tr: "Quill borçlarını ve hedeflerini modelliyor, çığ veya kartopu yöntemiyle sıralıyor ve borca ayıracağın küçük bir ekstranın bile neyi değiştirdiğini gösteriyor. App Store'da yayında; otomatik archive → export → yükleme hattıyla imzalanıp teslim ediliyor.",
     },
     highlights: {
       en: [
-        "Debt strategy engine with payoff ordering and extra-payment simulation",
+        "Strategy engine that orders your debts and simulates putting a little extra toward them",
         "Goals and expense tracking on one SwiftData model layer",
         "Automated signing and App Store delivery pipeline",
       ],
       tr: [
-        "Ödeme sıralaması ve ek-ödeme simülasyonu olan borç stratejisi motoru",
+        "Borçları kapatma sırasını belirleyen ve ekstra katkıyı simüle eden strateji motoru",
         "Tek SwiftData model katmanında hedef ve gider takibi",
         "Otomatik imzalama ve App Store teslim hattı",
       ],
     },
     metrics: [
       { label: { en: "Status", tr: "Durum" }, value: "App Store" },
-      { label: { en: "Build", tr: "Build" }, value: "16" },
     ],
   },
   {
@@ -138,8 +137,8 @@ export const projects: Project[] = [
     appStoreSoon: true,
     alsoIn: ["web"],
     summary: {
-      en: "Scan the table code and split the bill without the awkward math. The owner sees what every table earns, live.",
-      tr: "Masadaki kodu okut, hesabı tartışmadan böl. İşletme de hangi masanın ne kazandırdığını canlı görür.",
+      en: "Scan the table code and bring your friends in. Everyone sees what they ordered, and the bill splits in seconds.",
+      tr: "Masadaki kodu okut, arkadaşlarını masaya kat. Herkes kendi yediğini görür, hesap saniyeler içinde bölünür.",
     },
     description: {
       en: "Two products in one codebase — a guest side that splits a table bill without arguments, and a manager side with operational analytics: table turnover, menu performance and the numbers that make the pitch to a restaurant.",
@@ -158,8 +157,7 @@ export const projects: Project[] = [
       ],
     },
     metrics: [
-      { label: { en: "Tests", tr: "Test" }, value: "97/97" },
-      { label: { en: "Targets", tr: "Target" }, value: "2" },
+      { label: { en: "Apps", tr: "Uygulama" }, value: "2" },
     ],
   },
   {
@@ -172,8 +170,8 @@ export const projects: Project[] = [
     appStoreSoon: true,
     liveUrl: "https://splittable.me",
     summary: {
-      en: "The restaurant side of SplitTable: what every split table is actually telling the owner.",
-      tr: "SplitTable'ın restoran tarafı: bölünen her hesabın işletmeciye aslında ne anlattığı.",
+      en: "SplitTable for the restaurant: see what every table earned and get the end-of-day report on one screen.",
+      tr: "Restoranın SplitTable'ı: hangi masanın ne kazandırdığını gör, gün sonu raporunu tek ekranda al.",
     },
     description: {
       en: "A separate app for the staff and the owner, sharing one Supabase backbone with the guest app. Live table state, how long a table really takes to turn, which menu items carry the check — the operational layer that turns a guest feature into a reason to sign.",
@@ -202,8 +200,8 @@ export const projects: Project[] = [
     appStoreUrl: "https://apps.apple.com/tr/app/id6769572261",
     screenshots: 5,
     summary: {
-      en: "English for Turkish speakers, levelled to CEFR — and it talks back.",
-      tr: "Türkçe konuşanlar için İngilizce — CEFR seviyeli ve karşılık veriyor.",
+      en: "English for Turkish speakers: pick your level (A1–C2) and learn by talking.",
+      tr: "Türkçe konuşanlar için İngilizce: seviyeni seç (A1–C2), konuşarak öğren.",
     },
     description: {
       en: "A five-minute adaptive placement test puts the learner on the right rung, then a ten-unit road map runs from A1 to C2. Each level closes with an exit exam across vocabulary, grammar, listening, speaking and writing, and an AI voice partner covers the part a textbook never could.",
@@ -438,8 +436,8 @@ export const projects: Project[] = [
     stack: ["iOS", "8×8 puzzle", "Offline", "6 languages"],
     appStoreUrl: "https://apps.apple.com/tr/app/id6787959211",
     summary: {
-      en: "An 8×8 block puzzle with four modes — place the piece, clear the line, chase the record.",
-      tr: "Dört modlu 8×8 blok bulmaca — parçayı yerleştir, satırı patlat, rekoru kovala.",
+      en: "Place the piece, clear the line, beat your record. An 8×8 block puzzle with four modes.",
+      tr: "Parçayı yerleştir, satırı patlat, rekorunu kır. Dört modlu 8×8 blok bulmaca.",
     },
     description: {
       en: "Drag pieces onto an 8×8 board and fill a row or a column to blow it up. Four modes, among them an endless classic where a short rewarded ad buys back a dead board twice per run, and a two-minute timed sprint where every cleared line adds seconds. Plays offline, shipped in six languages.",
@@ -471,8 +469,8 @@ export const projects: Project[] = [
     stack: ["iOS", "Career sim", "Offline"],
     appStoreSoon: true,
     summary: {
-      en: "A football career that starts at 17 — you take the shot, and you spend the money.",
-      tr: "17 yaşında başlayan bir futbol kariyeri — şutu sen atıyorsun, parayı da sen harcıyorsun.",
+      en: "Step onto the pitch at 17 — take the shot and run your own career.",
+      tr: "17 yaşında sahaya çık: şutu sen at, kariyerini sen yönet.",
     },
     description: {
       en: "You aim the shot and set its power yourself, so the goal is actually yours. But the real game starts off the pitch: an amateur club nobody watches, a career to build, and the life decisions around it. Not a match engine with a name attached — a life you play season by season.",
@@ -500,8 +498,8 @@ export const projects: Project[] = [
     stack: ["iOS", "One-tap arcade", "Offline"],
     appStoreSoon: true,
     summary: {
-      en: "One tap changes your orbit. Miss the timing and the spikes end the run.",
-      tr: "Tek dokunuş yörüngeni değiştirir. Zamanlamayı kaçırırsan dikenler koşuyu bitirir.",
+      en: "Tap once to switch orbits and see how far you get before the spikes catch you.",
+      tr: "Tek dokunuşla yörünge değiştir; dikenlere yakalanmadan ne kadar ilerleyebildiğini gör.",
     },
     description: {
       en: "Tap to jump between orbit rings, time it past the spikes, collect diamonds and trigger fever streaks. One control, learned in a second; the mastery is entirely in the timing.",
@@ -529,8 +527,8 @@ export const projects: Project[] = [
     stack: ["iOS", "One-tap arcade", "Offline"],
     appStoreSoon: true,
     summary: {
-      en: "Tap to drop the block. Perfect timing slices nothing off — and the tower reaches space.",
-      tr: "Bloğu bırakmak için dokun. Zamanlama kusursuzsa hiçbir şey kesilmez — kule uzaya çıkar.",
+      en: "Tap to drop the block. Nail the timing and your tower climbs all the way to space.",
+      tr: "Dokun, bloğu bırak. Zamanlaman kusursuzsa kulen uzaya kadar yükselir.",
     },
     description: {
       en: "A sliding block passes above the tower; tap at the right moment to drop it. Whatever hangs over the edge gets sliced away, so sloppy timing narrows the tower until there is nothing left to land on. Climb from sunset skies into space, with themes and daily runs along the way.",
@@ -558,8 +556,8 @@ export const projects: Project[] = [
     stack: ["iOS", "40 levels", "Offline"],
     appStoreSoon: true,
     summary: {
-      en: "Forty hand-designed levels that deal the same every run — you get past them by learning, not by luck.",
-      tr: "Her oynayışta aynı dizilen 40 elle tasarlanmış bölüm — şansla değil, öğrenerek geçiliyor.",
+      en: "Forty hand-designed levels with the same layout every time — beat them by learning, not luck.",
+      tr: "Elle tasarlanmış 40 bölüm, her seferinde aynı dizilim: şansla değil, öğrenerek geç.",
     },
     description: {
       en: "Tap to throw, land every knife in the spinning log, and never touch a blade you already stuck. The forty levels are hand-built and deterministic: the same run every time, so a failure is information rather than bad luck. An endless mode carries the leaderboard.",
@@ -584,34 +582,33 @@ export const projects: Project[] = [
     category: "web",
     status: "live",
     year: "2026",
-    stack: ["Next.js", "Supabase", "iyzico", "Theme engine"],
+    stack: ["Next.js", "Supabase", "Theme engine"],
     featured: true,
     liveUrl: "https://ameliea.co",
     appStoreSoon: true,
     alsoIn: ["ios"],
     summary: {
-      en: "Digital wedding invitations that feel like a film, sold and paid for online.",
-      tr: "Film gibi hissettiren, online satılan ve ödemesi alınan dijital düğün davetiyeleri.",
+      en: "Let your story open like a film — invite your guests with one elegant digital invitation.",
+      tr: "Hikâyeniz film gibi açılsın: misafirlerinizi tek bir zarif dijital davetiyeyle düğününüze davet edin.",
     },
     description: {
-      en: "A live platform with a theme library, a couple-facing editor, RSVP collection and real card payments through iyzico. Each theme is art-directed for a specific bride persona rather than being a colour swap of the last one.",
-      tr: "Tema kütüphanesi, çiftler için editör, RSVP toplama ve iyzico üzerinden gerçek kart ödemesi olan canlı bir platform. Her tema, bir öncekinin renk varyantı olmak yerine belirli bir gelin personası için sanat yönetimiyle kurgulanıyor.",
+      en: "Pick a theme from the library, tell your story in the editor, invite your guests and collect their RSVPs in one place. Each theme is art-directed for a specific bride persona rather than being a colour swap of the last one.",
+      tr: "Tema kütüphanesinden birini seçin, editörde hikâyenizi yazın, misafirlerinizi davet edip katılım yanıtlarını (RSVP) tek yerde toplayın. Her tema, bir öncekinin renk varyantı değil; belirli bir gelin personası için ayrı ayrı sanat yönetimiyle kurgulanıyor.",
     },
     highlights: {
       en: [
-        "Live payments via iyzico, including coupon and refund paths",
+        "Guest list and RSVP replies in one panel",
         "Theme library with per-theme art direction and cinematic promos",
         "Companion iOS app in TestFlight on the same Supabase backend",
       ],
       tr: [
-        "iyzico ile canlı ödeme; kupon ve iade yolları dâhil",
+        "Misafir listesi ve katılım yanıtları tek panelde",
         "Tema başına sanat yönetimi ve sinematik tanıtımlar",
         "Aynı Supabase arkasında TestFlight'ta eşlik eden iOS uygulaması",
       ],
     },
     metrics: [
       { label: { en: "Status", tr: "Durum" }, value: "Live" },
-      { label: { en: "Payments", tr: "Ödeme" }, value: "iyzico" },
     ],
   },
   {
@@ -623,8 +620,8 @@ export const projects: Project[] = [
     stack: ["Next.js", "FastAPI", "Multi-agent", "Claude"],
     featured: true,
     summary: {
-      en: "Eight AI experts argue your supply chain decision until a memo exists.",
-      tr: "Sekiz AI uzmanı, bir karar notu çıkana kadar tedarik zinciri kararını tartışıyor.",
+      en: "Bring your supply chain decision to eight AI experts — they debate it and hand you a decision memo.",
+      tr: "Tedarik zinciri kararını sekiz AI uzmanına danış; tartışsınlar, sana bir karar notu çıkarsınlar.",
     },
     description: {
       en: "Upload a case — a disruption, an improvement idea, a post-mortem — and a council of eight domain personas debates it in rounds, challenges each other's evidence and produces a decision document with dissenting opinions attached.",
@@ -658,8 +655,8 @@ export const projects: Project[] = [
     appStoreUrl: "https://apps.apple.com/tr/app/id6790497658",
     screenshots: 5,
     summary: {
-      en: "Rewrites your CV for the specific job posting, ATS-readable on the first pass.",
-      tr: "CV'ni ilana göre yeniden yazar, ilk okumada ATS-uyumlu.",
+      en: "Paste the job posting — your CV is rewritten for it, readable by ATS on the first pass.",
+      tr: "İlanı yapıştır; CV'n o ilana göre, ATS'nin ilk okumada anlayacağı şekilde yeniden yazılsın.",
     },
     description: {
       en: "Paste a job ad, upload any CV layout — sidebar, two-column, designed — and the parser reads it structurally instead of guessing. Then a two-panel editor shows what is missing before it produces the ATS-optimised version.",
@@ -715,8 +712,8 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Data analysis", "Interactive maps", "Investor reporting"],
     summary: {
-      en: "Where to open a preschool: a 15 km catchment study answered with a map, not an opinion.",
-      tr: "Anaokulu nereye açılır: 15 km'lik etki alanı çalışması, görüşle değil haritayla cevaplandı.",
+      en: "Where should the preschool open? We mapped a 15 km catchment so the decision rests on data, not guesswork.",
+      tr: "Anaokulu nereye açılmalı? 15 km'lik bölgeyi haritada inceledik; karar tahmine değil veriye dayandı.",
     },
     description: {
       en: "A location decision turned into evidence — demographic layers, competitor density and access corridors across a 15 km radius, delivered as an interactive map plus an investor-ready report that ranks the corridors.",
@@ -743,8 +740,8 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Pipeline orchestration", "Design tooling", "Multi-agent"],
     summary: {
-      en: "The internal machine that takes a product idea from brief to shipped build.",
-      tr: "Bir ürün fikrini brief'ten yayınlanmış build'e taşıyan iç makine.",
+      en: "Our internal system that carries a product idea from brief to a shipped app.",
+      tr: "Bir ürün fikrini brief'ten yayındaki uygulamaya taşıyan iç sistemimiz.",
     },
     description: {
       en: "Not a customer product — the studio's own operating system. Discovery, design, build and validation stages with tracked artefacts, so a small team can run more products than its headcount suggests.",
@@ -774,8 +771,8 @@ export const projects: Project[] = [
     stack: ["Pine Script", "Screener", "Signal engine"],
     featured: true,
     summary: {
-      en: "A signal radar watching 600 Istanbul-listed equities for one setup at a time.",
-      tr: "600 BIST hissesini tek bir kurulum için tarayan sinyal radarı.",
+      en: "Scans 600 Borsa Istanbul stocks and flags your setup the moment it forms.",
+      tr: "600 BIST hissesini tarar, aradığın kurulumu oluştuğu an işaretler.",
     },
     description: {
       en: "Indicator, screener and strategy written as one family so the chart, the scan and the backtest agree with each other. Built to answer a single question every morning: which symbols changed state overnight?",
@@ -803,8 +800,8 @@ export const projects: Project[] = [
     stack: ["Python", "Walk-forward", "Exchange API"],
     featured: true,
     summary: {
-      en: "A three-symbol crypto bot that trades the leader and reports its drawdowns honestly.",
-      tr: "Lideri işleyen ve düşüşlerini dürüstçe raporlayan üç sembollü kripto botu.",
+      en: "Follows whichever of three coins is leading — and reports its drawdowns openly.",
+      tr: "Üç kripto arasında öne geçeni takip eder; düşüşlerini de saklamadan raporlar.",
     },
     description: {
       en: "Leader–follower logic across three correlated symbols, validated with walk-forward windows rather than a single flattering backtest. Fifteen of twenty windows came out positive; the average drawdown is published next to the wins.",
@@ -835,8 +832,8 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Python", "Pattern mining", "Backtest"],
     summary: {
-      en: "Pattern research on BTC and ETH, including the patterns that did not hold up.",
-      tr: "BTC ve ETH üzerinde pattern araştırması — tutmayan pattern'ler dâhil.",
+      en: "Which BTC and ETH patterns actually work? We tested them all — including the ones that failed.",
+      tr: "BTC ve ETH'de hangi formasyonlar gerçekten işe yarıyor? Tutmayanlar dâhil hepsini test ettik.",
     },
     description: {
       en: "Pre-pump sequence detection and oversold z-score studies, run through a discipline that separates a screener lift from a tradable edge. Findings that failed walk-forward are documented as failures.",
@@ -863,8 +860,8 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Portfolio rules", "Rebalancing", "Risk limits"],
     summary: {
-      en: "A rules-based portfolio where rebalancing is mandatory, not optional.",
-      tr: "Rebalance'ın opsiyonel değil zorunlu olduğu, kurallı bir portföy.",
+      en: "A rules-based portfolio: rebalancing isn't optional, it's built in.",
+      tr: "Kurallarla yönetilen portföy: dengeleme isteğe bağlı değil, zorunlu.",
     },
     description: {
       en: "Capital allocation across Turkish equities and crypto with a passive international sleeve, written as rules a person can follow on a bad week. Nothing goes live before the backtest evidence does.",
@@ -891,8 +888,8 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Chart automation", "Daily brief", "Scheduling"],
     summary: {
-      en: "Automated market reading: reads the live chart, writes the morning brief.",
-      tr: "Otomatik piyasa okuması: canlı grafiği okur, sabah bültenini yazar.",
+      en: "Reads the live chart and writes your morning brief for you.",
+      tr: "Canlı grafiği okur, sabah bültenini senin yerine yazar.",
     },
     description: {
       en: "A desktop chart automation layer that pulls live indicator values, custom study levels and tables, then composes a daily bulletin with a call per theme. Analysis only — it never places an order.",
@@ -922,8 +919,8 @@ export const projects: Project[] = [
     stack: ["Multi-agent", "Playwright render", "Scheduling", "Analytics"],
     featured: true,
     summary: {
-      en: "Six agents that write, render and schedule a brand's content calendar.",
-      tr: "Bir markanın içerik takvimini yazan, render eden ve planlayan altı ajan.",
+      en: "Six agents write, design and schedule your brand's content.",
+      tr: "Altı ajan markanın içeriğini yazar, görselleştirir ve takvime yerleştirir.",
     },
     description: {
       en: "A content machine with a dashboard: idea agents, a copy agent, an HTML/CSS render pipeline that produces finished visuals, a quality score and a publishing calendar with a defined content taxonomy per platform.",
@@ -954,8 +951,8 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Transcription", "Persona modelling", "Pipeline"],
     summary: {
-      en: "Turns hours of video into a persona that can answer in someone's voice.",
-      tr: "Saatlerce videoyu, birinin sesiyle cevap verebilen bir personaya çevirir.",
+      en: "Turns hours of video into a persona that answers in that person's voice.",
+      tr: "Saatlerce videodan, o kişinin sesiyle cevap veren bir persona çıkarır.",
     },
     description: {
       en: "Video in, structured knowledge out: transcription, thematic clustering and a persona profile that keeps the source's vocabulary and positions instead of flattening them into generic assistant tone.",
@@ -982,8 +979,8 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Reddit/HN mining", "App Store reviews", "Clustering"],
     summary: {
-      en: "Finds app ideas in one-star reviews and forum complaints, not in trend lists.",
-      tr: "Uygulama fikirlerini trend listelerinde değil, tek yıldızlı yorumlarda ve forum şikâyetlerinde bulur.",
+      en: "Find your next app idea in one-star reviews and forum complaints, not trend lists.",
+      tr: "Uygulama fikrini trend listelerinde değil, tek yıldızlı yorumlarda ve forum şikâyetlerinde bul.",
     },
     description: {
       en: "Demand mining across community threads and low-rating App Store reviews, clustered into pain statements. A deliberate change from feature-first to pain-first prompting made the reports usable.",
@@ -1010,8 +1007,8 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Python", "Local server", "JSON store"],
     summary: {
-      en: "A local control panel for the studio's generated media and campaigns.",
-      tr: "Stüdyonun ürettiği medya ve kampanyalar için yerel kontrol paneli.",
+      en: "All of the studio's generated media and campaigns in one local panel.",
+      tr: "Stüdyonun ürettiği tüm medya ve kampanyalar tek bir yerel panelde.",
     },
     description: {
       en: "A dependency-light local server that collects generated assets, briefs and campaign state into one browsable surface — deliberately boring plumbing so the creative tools stay replaceable.",

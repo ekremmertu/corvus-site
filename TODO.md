@@ -1,5 +1,9 @@
 # corvus-site — Yol Haritası + PASS LOG
 
+## 09.10.2026 12:47 — PASS LOG: kart metinleri davet diliyle, ödeme kelimeleri çıktı
+- src/data/projects.ts (26 summary TR/EN + TW/Ameliea/Quill açıklama-madde-rakam).
+- Kanıt: build ✓ · İşler sayfası ödeme kelimesi 0 · WebKit çekim.
+
 ## 09.10.2026 12:41 — PASS LOG: şerit = App Store vitrin posterleri
 - page.tsx strip (vt-*, TR/EN), ScreenStrip.tsx (Phone → .poster img, name override), globals.css (.poster, eski .film-item .iph kuralları silindi).
 - Kanıt: build + tsc ✓ · WebKit/Chromium TR/EN ölçüm + çekim.
