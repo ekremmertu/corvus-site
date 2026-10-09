@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0B0C0E;--bg2:#111215;--line:#1E2024;--fg:#EDEEF0;--dim:#8A8F98;--faint:#5A5F68;--live:#4ADE80;--rev:#F5B544}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font-family:Geist,sans-serif;-webkit-font-smoothing:antialiased}
+.w{width:1200px;margin:0 auto}
+nav{height:64px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+.logo{display:flex;gap:10px;align-items:center;font-weight:600;font-size:15px;letter-spacing:-.01em}
+.logo i{width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#fff,#7a7f88)}
+.links{display:flex;gap:28px;font-size:14px;color:var(--dim)}
+.btn{font-size:14px;font-weight:500;padding:9px 16px;border-radius:8px;background:var(--fg);color:#0B0C0E;display:inline-block}
+.btn.g{background:transparent;color:var(--fg);border:1px solid #2A2D33}
+.hero{padding:112px 0 56px}
+.eyebrow{font-family:'Geist Mono';font-size:12px;color:var(--dim);letter-spacing:.04em;display:flex;align-items:center;gap:8px}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--live);box-shadow:0 0 0 4px rgba(74,222,128,.12)}
+h1{font-size:76px;font-weight:500;letter-spacing:-.045em;line-height:1.0;margin:24px 0 24px;max-width:900px}
+h1 span{color:var(--faint)}
+.sub{font-size:19px;color:var(--dim);line-height:1.55;max-width:560px;font-weight:400}
+.ctas{display:flex;gap:12px;margin-top:36px}
+.stage{position:relative;margin-top:72px;height:560px;border:1px solid var(--line);border-radius:16px;background:radial-gradient(ellipse 70% 60% at 50% 0%,#1B1D22 0%,var(--bg2) 60%);overflow:hidden}
+.stage:before{content:"";position:absolute;inset:0;background:linear-gradient(transparent 70%,var(--bg) 100%);z-index:3;pointer-events:none}
+.desk{position:absolute;left:56px;top:56px;width:720px;border-radius:10px;overflow:hidden;border:1px solid #2A2D33;box-shadow:0 40px 80px rgba(0,0,0,.6)}
+.desk .bar{height:28px;background:#16171A;display:flex;gap:6px;align-items:center;padding:0 12px}
+.desk .bar b{width:9px;height:9px;border-radius:50%;background:#2E3036}
+.desk img{display:block;width:100%}
+.ph{position:absolute;width:228px;border-radius:34px;padding:7px;background:#1A1B1E;border:1px solid #2E3036;box-shadow:0 40px 90px rgba(0,0,0,.7)}
+.ph img{width:100%;display:block;border-radius:28px}
+.ph1{left:700px;top:84px;z-index:2}.ph2{left:950px;top:40px;z-index:1}
+.cap{position:absolute;right:28px;top:20px;z-index:4;font-family:'Geist Mono';font-size:12px;color:var(--dim);display:flex;gap:24px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:24px}
+.stats div{padding:28px 0 28px 0;border-right:1px solid var(--line);padding-left:24px}.stats div:first-child{padding-left:0}.stats div:last-child{border:0}
+.stats b{font-size:36px;font-weight:500;letter-spacing:-.03em;display:block}
+.stats small{font-size:13px;color:var(--dim)}
+section{padding:120px 0 0}
+.sh{display:flex;justify-content:space-between;align-items:end;margin-bottom:40px}
+h2{font-size:44px;font-weight:500;letter-spacing:-.035em;line-height:1.05}
+h2 span{color:var(--faint)}
+.log{border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:110px 56px 1fr 180px 160px 24px;align-items:center;gap:20px;padding:20px 0;border-bottom:1px solid var(--line);font-size:15px}
+.row .d{font-family:'Geist Mono';font-size:13px;color:var(--faint)}
+.row img{width:40px;height:40px;border-radius:10px}
+.row .n b{font-weight:500}.row .n small{color:var(--dim);margin-left:10px}
+.row .v{font-family:'Geist Mono';font-size:13px;color:var(--dim)}
+.st{font-size:13px;display:flex;align-items:center;gap:8px;color:var(--dim)}
+.st i{width:7px;height:7px;border-radius:50%;background:var(--live)}.st i.r{background:var(--rev)}
+.row .ar{color:var(--faint)}
+.grid{display:grid;grid-template-columns:1.25fr 1fr;gap:16px}
+.card{border:1px solid var(--line);border-radius:16px;background:var(--bg2);overflow:hidden;height:440px;position:relative;padding:28px}
+.card h3{font-size:22px;font-weight:500;letter-spacing:-.02em}.card p{color:var(--dim);font-size:15px;margin-top:6px;max-width:340px;line-height:1.5}
+.card .tag{font-family:'Geist Mono';font-size:11px;color:var(--faint);letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
+.card .shot{position:absolute;right:28px;bottom:-60px;width:250px;border-radius:30px;border:6px solid #1F2024}
+.card .wide{position:absolute;left:28px;right:-80px;bottom:-30px;border-radius:10px;border:1px solid #2A2D33}
+footer{height:80px}
+</style></head><body>
+<div class="w">
+<nav><div class="logo"><i></i>Corvus</div><div class="links"><span>İşler</span><span>Hizmetler</span><span>Süreç</span><span>Stüdyo</span></div><a class="btn">Proje başlat</a></nav>
+<div class="hero">
+  <div class="eyebrow"><span class="dot"></span>ÜRÜN STÜDYOSU · İSTANBUL · 2 ÜRÜN İNCELEMEDE</div>
+  <h1>Fikirden App Store'a.<br><span>Tek stüdyo, uçtan uca.</span></h1>
+  <p class="sub">iOS uygulamaları, SaaS panelleri ve AI sistemleri tasarlıyor, kodluyor ve yayına alıyoruz.</p>
+  <div class="ctas"><a class="btn">Projeni anlat</a><a class="btn g">İşleri gör →</a></div>
+  <div class="stage">
+    <div class="desk"><div class="bar"><b></b><b></b><b></b></div><img src="img/cv.jpg"></div>
+    <div class="ph ph1"><img src="img/tw1.jpg"></div>
+    <div class="ph ph2"><img src="img/q1.jpg"></div>
+    <div class="cap"><span>CVtoapply — web</span><span>TripWalkers — iOS</span><span>Quill — iOS</span></div>
+  </div>
+  <div class="stats"><div><b>34</b><small>kurulan ürün</small></div><div><b>8</b><small>şu an canlı</small></div><div><b>5</b><small>disiplin</small></div><div><b>2025</b><small>yılından beri</small></div></div>
+</div>
+<section>
+  <div class="sh"><h2>Sürüm defteri<br><span>Ne yaptığımızı tarihler anlatır.</span></h2><a class="btn g">Tüm işler →</a></div>
+  <div class="log">
+    <div class="row"><span class="d">26.09.2026</span><img src="img/tripwalkers.jpg"><span class="n"><b>TripWalkers</b><small>AI gezi planlayıcı</small></span><span class="v">v1.2.9 · build 39</span><span class="st"><i class="r"></i>Apple incelemesinde</span><span class="ar">→</span></div>
+    <div class="row"><span class="d">26.09.2026</span><span style="width:40px;height:40px;border-radius:10px;background:#1C1E22;border:1px solid #2A2D33;display:grid;place-items:center;font-size:14px;font-weight:600">S</span><span class="n"><b>SplitTable</b><small>Restoranda hesap bölme</small></span><span class="v">v1.3.1 · build 31</span><span class="st"><i class="r"></i>Apple incelemesinde</span><span class="ar">→</span></div>
+    <div class="row"><span class="d">—</span><img src="img/lingoria.jpg"><span class="n"><b>Lingoria</b><small>Sesli İngilizce koçu</small></span><span class="v">A1 → C2</span><span class="st"><i></i>App Store'da</span><span class="ar">→</span></div>
+    <div class="row"><span class="d">—</span><img src="img/blokbom.jpg"><span class="n"><b>BlokBom!</b><small>8×8 blok bulmaca</small></span><span class="v">4 mod</span><span class="st"><i></i>App Store'da</span><span class="ar">→</span></div>
+  </div>
+</section>
+<section>
+  <div class="sh"><h2>Seçilmiş işler</h2></div>
+  <div class="grid">
+    <div class="card"><div class="tag">Web · SaaS</div><h3>CVtoapply</h3><p>İlana göre ATS uyumlu CV hazırlayan SaaS. Panel, ödeme ve AI hattı.</p><img class="wide" src="img/cv.jpg" style="top:170px"></div>
+    <div class="card"><div class="tag">iOS · Seyahat</div><h3>TripWalkers</h3><p>Boş günü saat saat gezi planına çeviren AI planlayıcı.</p><img class="shot" src="img/tw2.jpg"></div>
+  </div>
+</section>
+<footer></footer>
+</div></body></html>
