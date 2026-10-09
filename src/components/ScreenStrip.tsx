@@ -1,4 +1,5 @@
 import Link from "next/link";
+import FixStar from "@/components/fx/FixStar";
 import type { Locale } from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
 import BrowserFrame from "@/components/BrowserFrame";
@@ -34,6 +35,8 @@ export default function ScreenStrip({
           <span className="serif sheen" style={{ fontSize: "1.12em" }}>
             {d.home.stripTitle2}
           </span>
+          <FixStar n={7} />
+          <FixStar n={3} />
         </h2>
         <Link href={`/${locale}/work`} className="link-arrow">
           {d.home.allWork}

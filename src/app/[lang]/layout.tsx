@@ -8,6 +8,7 @@ import RevealBoot from "@/components/RevealBoot";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import CustomCursor from "@/components/fx/CustomCursor";
+import { FixLegend } from "@/components/fx/FixStar";
 import TerminalEgg from "@/components/fx/TerminalEgg";
 import { openProjects, toCards } from "@/data/projects";
 import Analytics from "@/components/Analytics";
@@ -140,6 +141,7 @@ export default async function LocaleLayout({
         <main id="main">{children}</main>
         <Footer locale={lang} d={d} />
         <CustomCursor label={d.home.view} />
+        <FixLegend />
         <TerminalEgg entries={toCards(openProjects())} />
         <Analytics />
       </body>

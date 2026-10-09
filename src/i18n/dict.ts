@@ -24,7 +24,7 @@ export const dict = {
       title1: "The studio behind",
       title2: "digital products.",
       sub: "iOS apps, websites, SaaS products and enterprise systems. From idea to launch, one team.",
-      ctaPrimary: "Tell us your project",
+      ctaPrimary: "Let's talk",
       ctaSecondary: "Explore the work",
     },
     home: {
@@ -67,7 +67,7 @@ export const dict = {
       endTitle1: "Got an",
       endTitle2: "idea?",
       endSub: "Describe it in a paragraph. You will get a straight answer about scope, timeline and whether it is worth doing.",
-      endCta: "Tell us your project",
+      endCta: "Let's talk",
       copy: "Copy address",
       copied: "Copied",
       mailSubject: "New project",

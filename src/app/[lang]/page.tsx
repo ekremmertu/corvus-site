@@ -19,7 +19,8 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const tr = lang === "tr";
 
   // Rakamlar elle yazılmaz — veriden hesaplanır.
-  const live = projects.filter((p) => p.status === "live" || p.status === "delivered").length;
+  // "Canlıda" = yalnız yayındaki ürünler; teslim edilmiş iç araçlar sayılmaz (★4)
+  const live = projects.filter((p) => p.status === "live").length;
   const open = openProjects();
   const bySlug = (slug: string) => {
     const p = open.find((x) => x.slug === slug);
@@ -52,7 +53,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   });
 
   const webStrip: WebItem[] = [
-    { slug: "cvtoapply", url: "cvtoapply.co", src: "/shots/web-cv.jpg", alt: tr ? "CVtoapply web sitesi" : "CVtoapply website" },
+    { slug: "cvtoapply", url: "cvtoapply.co", src: tr ? "/shots/web-cv.jpg" : "/shots/web-cv-en.jpg", alt: tr ? "CVtoapply web sitesi" : "CVtoapply website" },
     { slug: "amelie-co", url: "ameliea.co", src: "/shots/web-am.jpg", alt: tr ? "Ameliea web sitesi" : "Ameliea website" },
     { slug: "splittable", url: "splittable.me", src: "/shots/web-st.jpg", alt: tr ? "SplitTable web sitesi" : "SplitTable website" },
   ].map((s) => {
@@ -69,7 +70,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
         d={d}
         stats={[
           { value: String(projects.length), label: d.stats.projects },
-          { value: String(live), label: d.stats.live },
+          { value: String(live), label: d.stats.live, star: 4 },
           { value: String(categories.length), label: d.stats.disciplines },
           { value: "2025", label: d.stats.years, static: true },
         ]}
@@ -97,7 +98,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
         saas={{
           project: bySlug("cvtoapply"),
           url: "cvtoapply.co",
-          shot: { src: "/shots/web-cv.jpg", alt: tr ? "CVtoapply web sitesi ana sayfası" : "CVtoapply website home page" },
+          shot: { src: tr ? "/shots/web-cv.jpg" : "/shots/web-cv-en.jpg", alt: tr ? "CVtoapply web sitesi ana sayfası" : "CVtoapply website home page" },
         }}
         entCount={projects.filter((p) => p.category === "enterprise").length}
       />

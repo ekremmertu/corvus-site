@@ -27,6 +27,8 @@ export interface Category {
 }
 
 export interface Project {
+  /** /work kart kapağı (CEO 09.10.2026, hakem bulgusu ★10). */
+  cover?: Cover;
   slug: string;
   name: string;
   category: CategorySlug;
@@ -367,4 +369,8 @@ export type CardProject = {
   summary?: L10n;
   appStoreSoon?: boolean;
   metrics?: { label: L10n; value: string }[];
+  cover?: Cover;
 };
+
+/** Kart kapağı — App Store posteri (dikey) ya da web/panel ekranı (16:10). Kaynak public/shots/. */
+export type Cover = { src: string; srcEn?: string; kind: "poster" | "web" };

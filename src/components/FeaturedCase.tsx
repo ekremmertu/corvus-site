@@ -1,6 +1,8 @@
 import Link from "next/link";
+import CatName from "@/components/CatName";
 import { getCategory, type Locale, type Project } from "@/data/projects";
 import type { Dict } from "@/i18n/dict";
+import FixStar from "@/components/fx/FixStar";
 import Phone from "@/components/Phone";
 import BrowserFrame from "@/components/BrowserFrame";
 import BiDashboard from "@/components/bi/BiDashboard";
@@ -35,7 +37,8 @@ export default function FeaturedCase({
         <Link href={`/${locale}/work/${hero.slug}`} className="case-big grain reveal" data-view style={{ display: "block" }}>
           <div className="txt">
             <p className="eyebrow" style={{ margin: 0 }}>
-              {d.home.featured} · {cat.name[locale]}
+              {d.home.featured} · <CatName name={cat.name[locale]} />
+              <FixStar n={1} />
             </p>
             <h3 id="case-title">{hero.name}</h3>
             <p>{hero.description[locale]}</p>
@@ -62,7 +65,7 @@ export default function FeaturedCase({
         <Link href={`/${locale}/work/${saas.project.slug}`} className="case-big case-saas grain reveal" data-view style={{ display: "block" }}>
           <div className="txt">
             <p className="eyebrow" style={{ margin: 0 }}>
-              {d.home.featuredSaas} · {getCategory(saas.project.category).name[locale]}
+              {d.home.featuredSaas} · <CatName name={getCategory(saas.project.category).name[locale]} />
             </p>
             <h3>{saas.project.name}</h3>
             <p>{saas.project.summary[locale]}</p>
@@ -133,7 +136,8 @@ export default function FeaturedCase({
                 data-view
               >
                 <p className="eyebrow" style={{ margin: 0 }}>
-                  {c.name[locale]}
+                  <CatName name={c.name[locale]} />
+                  {project.slug === "amelie-co" && <FixStar n={6} />}
                 </p>
                 <h3>{project.name}</h3>
                 <p>{project.summary[locale]}</p>
