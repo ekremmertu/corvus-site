@@ -19,9 +19,9 @@ function Visual({ slug }: { slug: CategorySlug }) {
     case "ios":
       return (
         <div className="dv">
-          <Phone src="/shots/bento-stm.jpg" alt="" />
-          <Phone src="/shots/bento-quill.jpg" alt="" />
-          <Phone src="/shots/bento-lin.jpg" alt="" />
+          <Phone src="/shots/bento-blk.jpg" alt="" />
+          <Phone src="/shots/bento-lin4.jpg" alt="" />
+          <Phone src="/shots/bento-qexp.jpg" alt="" />
         </div>
       );
     case "web":
