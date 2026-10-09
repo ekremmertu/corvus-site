@@ -1,4 +1,4 @@
-> Son çalışma: 09.10.2026 19:48
+> Son çalışma: 09.10.2026 20:01
 # corvus-site — Yol Haritası + PASS LOG
 
 ## 09.10.2026 13:50 — PASS LOG: ana sayfa genişledi (web/SaaS/kurumsal) — Yön A+B+C
@@ -73,6 +73,11 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 09.10.2026 20:01 · Klasör birleştirme + canlı (541fba5, corvus-site-9pa8h451u)
+- main ← v2 ileri sarma; tek klasör `corvus-site`. Eski iş arşivde (_arsiv/corvus-site-eski-calisma-09.10.2026).
+- Canlı: mobil hero yelpaze, 320 px nav tek satır, /kart + vcf. Taşma 0 (320/390/820/1440).
+- AÇIK: yan klasörleri silme onayı · Vercel CARD_PHONE kararı.
 
 ### 09.10.2026 19:48 · Mobil hero pencereleri (7d3cb2c)
 - globals.css: <900 px'te `.hero-win` gizliydi → telefonun arkasında yelpaze. iPhone14/SE/tablet/masaüstü taşma 0, build ✓. Canlıya alınmadı.
