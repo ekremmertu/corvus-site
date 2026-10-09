@@ -1,5 +1,9 @@
 # corvus-site — Yol Haritası + PASS LOG
 
+## 09.10.2026 12:41 — PASS LOG: şerit = App Store vitrin posterleri
+- page.tsx strip (vt-*, TR/EN), ScreenStrip.tsx (Phone → .poster img, name override), globals.css (.poster, eski .film-item .iph kuralları silindi).
+- Kanıt: build + tsc ✓ · WebKit/Chromium TR/EN ölçüm + çekim.
+
 ## 09.10.2026 12:28 — PASS LOG: Safari telefon çerçevesi düzeltmesi
 - globals.css `.iph` aspect-ratio kaldırıldı, `.iph-screen` aspect-ratio 1206/2622, img absolute cover.
 - Kanıt: build 1.170 ✓ · WebKit+Chromium ölçüm 12/12 telefonda gap 0 · Safari motorunda hero/şerit/vaka/duo çekimi.

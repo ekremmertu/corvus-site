@@ -202,22 +202,22 @@ html.pre-hero .hero-word { opacity: 0; letter-spacing: 0.02em; }
 .film { display: flex; gap: 22px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 var(--gutter) 24px; scroll-padding-inline: var(--gutter); scrollbar-width: none; -webkit-overflow-scrolling: touch; }
 .film::-webkit-scrollbar { display: none; }
 .film-item { flex: none; width: 220px; scroll-snap-align: start; }
-.film-item .iph { width: 220px; border-radius: 40px; padding: 8px; transition: transform 0.6s var(--ease); }
-.film-item .iph-screen { border-radius: 33px; }
-.film-item:hover .iph { transform: translateY(-10px); }
+.poster { display: block; position: relative; width: 100%; aspect-ratio: 1206 / 2622; border-radius: 26px; overflow: hidden; background: #111;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 40px 80px rgba(0, 0, 0, 0.6); transition: transform 0.6s var(--ease); }
+.poster img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+.poster::after { content: ""; position: absolute; inset: 0; border-radius: inherit; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1); pointer-events: none; }
+.film-item:hover .poster { transform: translateY(-10px); }
 .film-cap { margin-top: 20px; font-size: 16px; font-weight: 600; }
 .film-cap small { display: block; font-weight: 400; color: var(--dim); font-size: 13px; margin-top: 4px; }
 @media (min-width: 900px) {
   .strip { padding-bottom: 200px; }
   .film { gap: 34px; padding-left: max(var(--gutter), calc((100% - var(--wrap)) / 2)); padding-right: var(--gutter); scroll-padding-left: max(var(--gutter), calc((100% - var(--wrap)) / 2)); }
-  .film-item, .film-item .iph { width: 250px; }
-  .film-item .iph { border-radius: 46px; padding: 9px; }
-  .film-item .iph-screen { border-radius: 38px; }
+  .film-item { width: 250px; }
 }
 /* geniş ekranda 5 telefon kesilmeden tek sırada (CEO 09.10.2026) */
 @media (min-width: 1100px) {
   .film { display: grid; grid-template-columns: repeat(5, 1fr); gap: clamp(20px, 2.4vw, 34px); overflow: visible; width: min(var(--wrap), calc(100% - 2 * var(--gutter))); margin-inline: auto; padding: 0 0 24px; }
-  .film-item, .film-item .iph { width: 100%; }
+  .film-item { width: 100%; }
 }
 
 /* ---------- Açık bölüm: disiplinler ---------- */
