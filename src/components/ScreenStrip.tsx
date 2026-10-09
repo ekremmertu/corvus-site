@@ -5,7 +5,7 @@ import Phone from "@/components/Phone";
 
 export type StripItem = { slug: string; name: string; sub: string; src: string; alt: string };
 
-/** Gerçek ekranlardan film şeridi — yana kaydırılır (dokunmatikte parmakla). */
+/** Uygulama ikonlu telefon şeridi — geniş ekranda tek sıra, dar ekranda yana kaydırılır. */
 export default function ScreenStrip({ locale, d, items }: { locale: Locale; d: Dict; items: StripItem[] }) {
   return (
     <section className="strip" aria-labelledby="strip-title">
