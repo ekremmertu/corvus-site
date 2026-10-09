@@ -6,81 +6,52 @@ import { SITE } from "@/lib/site";
 import TerminalTrigger from "@/components/fx/TerminalTrigger";
 
 export default function Footer({ locale, d }: { locale: Locale; d: Dict }) {
-  const year = 2026;
-
   return (
-    <footer className="relative border-t border-[color:var(--c-border)] bg-[color:var(--c-bg)]">
-      <div className="mx-auto w-full max-w-[1240px] px-5 py-16 sm:px-8">
-        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="lg:col-span-2">
-            <p className="display text-lg uppercase tracking-[0.12em]">
-              Corvus<span style={{ color: "var(--c-live)" }}>.</span>
-            </p>
-            <p className="lede mt-4 max-w-[36ch] text-[14px]">
+    <footer className="foot">
+      <div className="wrap">
+        <div className="foot-grid">
+          <div>
+            <Link href={`/${locale}`} className="nav-logo" style={{ color: "#fff", marginBottom: 12 }} aria-label={SITE.name}>
+              <span className="brand-mark" aria-hidden />
+              CORVUS
+            </Link>
+            <span className="t" style={{ maxWidth: 320, lineHeight: 1.6 }}>
               {SITE.description[locale]}
-            </p>
+            </span>
           </div>
-
           <nav aria-label={d.footer.disciplines}>
-            <p className="eyebrow">{d.footer.disciplines}</p>
-            <ul className="mt-4 space-y-2.5">
-              {categories.map((c) => (
-                <li key={c.slug}>
-                  <Link
-                    href={`/${locale}/work?d=${c.slug}`}
-                    className="text-sm text-dim transition-colors hover:text-ink"
-                  >
-                    {c.name[locale]}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <b>{d.footer.disciplines}</b>
+            {categories.map((c) => (
+              <Link key={c.slug} href={`/${locale}/work?d=${c.slug}`}>
+                {c.name[locale]}
+              </Link>
+            ))}
           </nav>
-
           <nav aria-label={d.footer.studio}>
-            <p className="eyebrow">{d.footer.studio}</p>
-            <ul className="mt-4 space-y-2.5">
-              <li>
-                <Link href={`/${locale}/work`} className="text-sm text-dim hover:text-ink">
-                  {d.nav.work}
-                </Link>
-              </li>
-              <li>
-                <SectionLink locale={locale} id="process" className="text-sm text-dim hover:text-ink">
-                  {d.nav.process}
-                </SectionLink>
-              </li>
-              <li>
-                <SectionLink locale={locale} id="faq" className="text-sm text-dim hover:text-ink">
-                  FAQ
-                </SectionLink>
-              </li>
-              <li>
-                <a
-                  href={SITE.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-dim hover:text-ink"
-                >
-                  {d.nav.contact}
-                </a>
-              </li>
-              <li>
-                <a href={`mailto:${SITE.email}`} className="text-sm text-dim hover:text-ink">
-                  {SITE.email}
-                </a>
-              </li>
-            </ul>
+            <b>{d.footer.studio}</b>
+            <Link href={`/${locale}/work`}>{d.nav.work}</Link>
+            <SectionLink locale={locale} id="process">
+              {d.nav.process}
+            </SectionLink>
+            <SectionLink locale={locale} id="faq">
+              FAQ
+            </SectionLink>
           </nav>
+          <div>
+            <b>{d.nav.contact}</b>
+            <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+            <a href={SITE.linkedin} target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
+          </div>
         </div>
-
-        <div className="mt-14 flex flex-col gap-3 border-t border-[color:var(--c-border)] pt-6 sm:flex-row sm:items-center sm:justify-between">
-          <p className="mono text-[11px] uppercase tracking-[0.14em] text-faint">
-            © {year} {SITE.name}. {d.footer.rights}
-          </p>
-          <p className="mono flex items-center gap-2 text-[11px] uppercase tracking-[0.14em] text-faint">
+        <div className="foot-bottom">
+          <span>
+            © 2026 {SITE.name}. {d.footer.rights}
+          </span>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
             {SITE.city} · {d.footer.built} <TerminalTrigger />
-          </p>
+          </span>
         </div>
       </div>
     </footer>

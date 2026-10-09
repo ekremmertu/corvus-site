@@ -1,37 +1,37 @@
 import type { Metadata } from "next";
-import { Archivo, Inter, JetBrains_Mono } from "next/font/google";
+import { Inter_Tight, Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import "../globals.css";
 import { getDict, isLocale, locales } from "@/i18n/dict";
 import { SITE } from "@/lib/site";
-import { SceneProvider } from "@/components/scene/SceneProvider";
-import SceneLayer from "@/components/scene/SceneLayer";
 import RevealBoot from "@/components/RevealBoot";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import CustomCursor from "@/components/fx/CustomCursor";
-import SweepFx from "@/components/fx/SweepFx";
 import TerminalEgg from "@/components/fx/TerminalEgg";
 import { openProjects, toCards } from "@/data/projects";
 import Analytics from "@/components/Analytics";
 
-const display = Archivo({
+const sans = Inter_Tight({
   subsets: ["latin", "latin-ext"],
-  weight: ["600", "700", "800", "900"],
-  style: ["normal", "italic"],
-  variable: "--font-display",
+  weight: ["400", "500", "600"],
+  variable: "--font-sans",
   display: "swap",
 });
 
-const body = Inter({
+// Vurgu kelimeleri (stüdyo., Yayınla., mi var?) — yalnız italik.
+const serif = Instrument_Serif({
   subsets: ["latin", "latin-ext"],
-  variable: "--font-body",
+  weight: "400",
+  style: ["italic"],
+  variable: "--font-serif",
   display: "swap",
 });
 
+// Yalnız ASCII kuzgun açılışı ve gizli terminal için.
 const mono = JetBrains_Mono({
   subsets: ["latin", "latin-ext"],
-  weight: ["400", "500"],
+  weight: ["400"],
   variable: "--font-mono",
   display: "swap",
 });
@@ -125,28 +125,21 @@ export default async function LocaleLayout({
   };
 
   return (
-    <html lang={lang} className={`${display.variable} ${body.variable} ${mono.variable}`}>
-      <body className="grain relative min-h-screen antialiased">
+    <html lang={lang} className={`${sans.variable} ${serif.variable} ${mono.variable}`}>
+      <body>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <a
-          href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-[color:var(--c-live)] focus:px-4 focus:py-2 focus:text-black"
-        >
+        <a href="#main" className="sr-only skip-link">
           {lang === "tr" ? "İçeriğe geç" : "Skip to content"}
         </a>
-        <SceneProvider>
-          <SceneLayer />
-          <RevealBoot />
-          <Nav locale={lang} d={d} />
-          <main id="main">{children}</main>
-          <Footer locale={lang} d={d} />
-          <CustomCursor />
-          <SweepFx />
-          <TerminalEgg entries={toCards(openProjects())} />
-        </SceneProvider>
+        <RevealBoot />
+        <Nav locale={lang} d={d} />
+        <main id="main">{children}</main>
+        <Footer locale={lang} d={d} />
+        <CustomCursor label={d.home.view} />
+        <TerminalEgg entries={toCards(openProjects())} />
         <Analytics />
       </body>
     </html>

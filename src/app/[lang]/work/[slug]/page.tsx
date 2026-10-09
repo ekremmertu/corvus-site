@@ -11,7 +11,6 @@ import {
   type Locale,
 } from "@/data/projects";
 import { SITE } from "@/lib/site";
-import ProjectSceneSync from "@/components/ProjectSceneSync";
 import VT from "@/components/fx/VT";
 
 // Perdeli projelerin sayfasi HIC uretilmez -> dogrudan adres yazan da 404 gorur.
@@ -116,8 +115,10 @@ export default async function ProjectPage({
       }
     : null;
 
+  const tr = lang === "tr";
+
   return (
-    <article className="relative">
+    <article>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(urunJsonLd(project, lang)) }}
@@ -128,199 +129,142 @@ export default async function ProjectPage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
       )}
-      <ProjectSceneSync categoryIndex={category.index} />
 
-      <header className="mx-auto w-full max-w-[1240px] px-5 pb-16 pt-[calc(var(--nav-h)+72px)] sm:px-8">
-        <Link
-          href={`/${lang}/work`}
-          className="mono text-[11px] uppercase tracking-[0.16em] text-faint transition-colors hover:text-[color:var(--c-live)]"
-        >
-          ← {d.work.backToWork}
-        </Link>
+      <header className="detail-head grain" style={{ background: "radial-gradient(ellipse 60% 50% at 70% 0%, rgba(120,110,255,.14), transparent 70%), #000" }}>
+        <div className="wrap" style={{ position: "relative", zIndex: 1 }}>
+          <Link href={`/${lang}/work`} className="back">
+            ← {d.work.backToWork}
+          </Link>
+          <p className="eyebrow" style={{ margin: "28px 0 0" }}>
+            {category.name[lang]}
+          </p>
+          <VT name={`proj-${project.slug}`}>
+            <h1 className="h-display" style={{ margin: "16px 0 0" }}>
+              {project.name}
+            </h1>
+          </VT>
+          <p className="lede" style={{ maxWidth: "52ch", margin: "22px 0 0" }}>
+            {project.summary[lang]}
+          </p>
 
-        <p className="eyebrow mt-8" style={{ color: category.accent }}>
-          {category.name[lang]}
-        </p>
-        <VT name={`proj-${project.slug}`}>
-          <h1 className="display mt-4" style={{ fontSize: "var(--type-display)" }}>
-            {project.name}
-          </h1>
-        </VT>
-        <p className="lede mt-6 max-w-[52ch] text-[17px]">{project.summary[lang]}</p>
-
-        {(project.appStoreUrl || project.liveUrl || project.appStoreSoon) && (
-          <div className="mt-8 flex flex-wrap gap-3">
-            {project.appStoreUrl && (
-              <a
-                href={project.appStoreUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-                data-magnetic
-              >
-                {d.work.appStore}
-              </a>
-            )}
-            {project.liveUrl && (
-              <a
-                href={project.liveUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-live"
-                data-magnetic
-              >
-                {d.work.visitSite}
-              </a>
-            )}
-            {project.appStoreSoon && !project.appStoreUrl && (
-              <span className="btn btn-soon">
-                <span aria-hidden className="soon-dot" />
-                {d.work.appStoreSoon}
-              </span>
-            )}
-          </div>
-        )}
-
-        {project.screenshots ? (
-          <figure className="shots mt-8">
-            <ul className={`shots-row${project.screenshotsSeamless ? " shots-seamless" : ""}`}>
-              {Array.from({ length: project.screenshots }, (_, i) => (
-                <li key={i}>
-                  <img
-                    src={`/appstore/${project.slug}/${project.screenshotsPerLang ? `${lang}/` : ""}${i + 1}.jpg`}
-                    alt=""
-                    width={640}
-                    height={1385}
-                    loading="lazy"
-                    decoding="async"
-                  />
-                </li>
-              ))}
-            </ul>
-            <figcaption className="mono mt-3 text-[11px] uppercase tracking-[0.14em] text-faint">
-              {d.work.screenshots}
-            </figcaption>
-          </figure>
-        ) : null}
-
-        <dl className="mt-12 grid gap-8 border-t border-[color:var(--c-border)] pt-8 sm:grid-cols-3 lg:grid-cols-4">
-          <div>
-            <dt className="eyebrow">{d.work.status}</dt>
-            <dd className="mt-2 text-sm">{statusLabels[project.status][lang]}</dd>
-          </div>
-          <div>
-            <dt className="eyebrow">{d.work.year}</dt>
-            <dd className="mono mt-2 text-sm">{project.year}</dd>
-          </div>
-          <div>
-            <dt className="eyebrow">{d.work.discipline}</dt>
-            <dd className="mt-2 text-sm">{category.name[lang]}</dd>
-          </div>
-          {project.client && (
-            <div>
-              <dt className="eyebrow">{d.work.client}</dt>
-              <dd className="mt-2 text-sm">{project.client[lang]}</dd>
+          {(project.appStoreUrl || project.liveUrl || project.appStoreSoon) && (
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 12, marginTop: 30 }}>
+              {project.appStoreUrl && (
+                <a href={project.appStoreUrl} target="_blank" rel="noopener noreferrer" className="pill pill-white">
+                  {d.work.appStore}
+                </a>
+              )}
+              {project.liveUrl && (
+                <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className={project.appStoreUrl ? "pill pill-line" : "pill pill-white"}>
+                  {d.work.visitSite}
+                </a>
+              )}
+              {project.appStoreSoon && !project.appStoreUrl && (
+                <span className="pill pill-soon">{d.work.appStoreSoon}</span>
+              )}
             </div>
           )}
-        </dl>
-      </header>
 
-      <div className="mx-auto w-full max-w-[1240px] px-5 pb-24 sm:px-8">
-        <div className="grid gap-16 lg:grid-cols-[1.4fr_1fr]">
-          <div>
-            <h2 className="eyebrow">{d.work.overview}</h2>
-            <p className="mt-5 text-[17px] leading-[1.75] text-[color:var(--c-text)]">
-              {project.description[lang]}
-            </p>
-
-            <h2 className="eyebrow mt-14">{d.work.highlights}</h2>
-            <ul className="mt-5 space-y-4">
-              {project.highlights[lang].map((h) => (
-                <li key={h} className="flex gap-4">
-                  <span
-                    aria-hidden
-                    className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full"
-                    style={{ background: category.accent }}
-                  />
-                  <span className="text-[15px] leading-relaxed text-dim">{h}</span>
-                </li>
-              ))}
-            </ul>
-
-            {project.client && (
-              <p className="mono mt-12 rounded-[var(--radius-lg)] border border-[color:var(--c-border)] bg-[color:var(--c-bg-elevated)] p-5 text-[12px] leading-relaxed text-faint">
-                {d.work.confidential}
-              </p>
-            )}
-          </div>
-
-          <aside className="space-y-10">
-            {project.metrics && project.metrics.length > 0 && (
-              <div className="rounded-[var(--radius-xl)] border border-[color:var(--c-border)] bg-[color:var(--c-bg-elevated)]/70 p-6">
-                <dl className="space-y-5">
-                  {project.metrics.map((m) => (
-                    <div key={m.label.en}>
-                      <dt className="eyebrow">{m.label[lang]}</dt>
-                      <dd
-                        className="display mt-1.5 text-2xl"
-                        style={{ color: category.accent }}
-                      >
-                        {m.value}
-                      </dd>
-                    </div>
-                  ))}
-                </dl>
-              </div>
-            )}
-
-            <div>
-              <h2 className="eyebrow">{d.work.stack}</h2>
-              <ul className="mt-4 flex flex-wrap gap-2">
-                {project.stack.map((s) => (
-                  <li
-                    key={s}
-                    className="rounded-[var(--radius-pill)] border border-[color:var(--c-border)] px-3 py-1.5 text-[12px] text-dim"
-                  >
-                    {s}
+          {project.screenshots ? (
+            <figure className={`shots${project.screenshotsSeamless ? " seamless" : ""}`}>
+              <ul>
+                {Array.from({ length: project.screenshots }, (_, i) => (
+                  <li key={i}>
+                    <img
+                      src={`/appstore/${project.slug}/${project.screenshotsPerLang ? `${lang}/` : ""}${i + 1}.jpg`}
+                      alt={tr ? `${project.name} App Store görseli ${i + 1}` : `${project.name} App Store screenshot ${i + 1}`}
+                      width={640}
+                      height={1385}
+                      loading={i < 3 ? "eager" : "lazy"}
+                      decoding="async"
+                    />
                   </li>
                 ))}
               </ul>
+              <figcaption>{d.work.screenshots}</figcaption>
+            </figure>
+          ) : null}
+
+          <dl className="meta-row">
+            <div>
+              <dt>{d.work.status}</dt>
+              <dd>{statusLabels[project.status][lang]}</dd>
             </div>
-          </aside>
+            <div>
+              <dt>{d.work.year}</dt>
+              <dd>{project.year}</dd>
+            </div>
+            <div>
+              <dt>{d.work.discipline}</dt>
+              <dd>{category.name[lang]}</dd>
+            </div>
+            {project.client && (
+              <div>
+                <dt>{d.work.client}</dt>
+                <dd>{project.client[lang]}</dd>
+              </div>
+            )}
+          </dl>
         </div>
+      </header>
+
+      <div className="wrap detail-body">
+        <div>
+          <h2>{d.work.overview}</h2>
+          <p className="desc">{project.description[lang]}</p>
+
+          <h2 style={{ marginTop: 52 }}>{d.work.highlights}</h2>
+          <ul className="hl">
+            {project.highlights[lang].map((h) => (
+              <li key={h}>{h}</li>
+            ))}
+          </ul>
+
+          {project.client && <p className="nda">{d.work.confidential}</p>}
+        </div>
+
+        <aside style={{ display: "grid", gap: 36, alignContent: "start" }}>
+          {project.metrics && project.metrics.length > 0 && (
+            <dl className="metric-card" style={{ margin: 0 }}>
+              {project.metrics.map((m) => (
+                <div key={m.label.en}>
+                  <dt>{m.label[lang]}</dt>
+                  <dd>{m.value}</dd>
+                </div>
+              ))}
+            </dl>
+          )}
+          <div>
+            <h2>{d.work.stack}</h2>
+            <ul style={{ display: "flex", flexWrap: "wrap", gap: 8, listStyle: "none", margin: "16px 0 0", padding: 0 }}>
+              {project.stack.map((s) => (
+                <li key={s} className="chip">
+                  {s}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </aside>
       </div>
 
-      {/* Ürün SSS — yalnız project.faq doluysa çizilir.
-          GÖRÜNÜR olması ŞART: yukarıdaki FAQPage JSON-LD bu bölümle aynı
-          kaynaktan beslenir; schema.org işaretlemenin sayfada görünen içerikle
-          aynı olmasını şart koşar. Kendi domaini olmayan ürünler (TripWalkers)
-          için bu bölüm tek makine-okunur GEO yüzeyidir. */}
+      {/* Ürün SSS — yalnız project.faq doluysa. GÖRÜNÜR olması ŞART: FAQPage
+          JSON-LD aynı kaynaktan beslenir (schema.org: işaretleme = görünen içerik). */}
       {project.faq?.length ? (
-        <section
-          className="border-t border-[color:var(--c-border)]"
-          aria-labelledby="urun-sss"
-        >
-          <div className="mx-auto w-full max-w-[1240px] px-5 py-16 sm:px-8">
-            <h2 id="urun-sss" className="eyebrow mb-8">
-              {lang === "tr" ? "Sık sorulanlar" : "FAQ"}
+        <section className="faq" aria-labelledby="urun-sss" style={{ paddingTop: 0 }}>
+          <div className="wrap">
+            <h2 id="urun-sss" className="h-section" style={{ margin: 0, fontSize: "clamp(2rem,4vw,3rem)" }}>
+              {tr ? "Sık sorulanlar" : "FAQ"}
             </h2>
-            <div className="border-t border-[color:var(--c-border)]">
+            <div className="faq-list">
               {project.faq.map((f) => (
-                <details
-                  key={f.q.en}
-                  className="group border-b border-[color:var(--c-border)]"
-                >
-                  <summary className="flex cursor-pointer list-none items-center justify-between gap-6 py-5 text-left transition-colors duration-200 hover:text-[color:var(--c-live)] [&::-webkit-details-marker]:hidden">
-                    <span className="text-[clamp(0.95rem,1.3vw,1.1rem)] font-medium">
-                      {f.q[lang]}
-                    </span>
-                    <span aria-hidden className="mono text-[color:var(--c-live)]">
+                <details key={f.q.en} className="faq-item">
+                  <summary>
+                    <span>{f.q[lang]}</span>
+                    <span className="plus" aria-hidden>
                       +
                     </span>
                   </summary>
-                  <p className="max-w-[70ch] pb-6 text-[color:var(--c-dim)]">
-                    {f.a[lang]}
-                  </p>
+                  <p>{f.a[lang]}</p>
                 </details>
               ))}
             </div>
@@ -328,24 +272,18 @@ export default async function ProjectPage({
         </section>
       ) : null}
 
-      <nav className="border-t border-[color:var(--c-border)]" aria-label={d.work.nextProject}>
-        <Link
-          href={`/${lang}/work/${next.slug}`}
-          className="group mx-auto flex w-full max-w-[1240px] flex-wrap items-center justify-between gap-4 px-5 py-14 sm:px-8"
-        >
-          <div>
-            <p className="eyebrow">{d.work.nextProject}</p>
-            <p className="display mt-3 text-[clamp(1.75rem,4vw,3rem)] transition-colors group-hover:text-[color:var(--c-live)]">
-              {next.name}
-            </p>
-          </div>
-          <span
-            aria-hidden
-            className="text-3xl text-dim transition-transform duration-300 group-hover:translate-x-2 group-hover:text-[color:var(--c-live)]"
-          >
-            →
-          </span>
-        </Link>
+      <nav aria-label={d.work.nextProject}>
+        <div className="wrap">
+          <Link href={`/${lang}/work/${next.slug}`} className="next">
+            <span>
+              <span className="eyebrow">{d.work.nextProject}</span>
+              <span className="name">{next.name}</span>
+            </span>
+            <span className="arrow" aria-hidden>
+              →
+            </span>
+          </Link>
+        </div>
       </nav>
     </article>
   );

@@ -2,103 +2,72 @@
 
 import { useEffect, useRef } from "react";
 
-const INTERACTIVE = "a, button, [role='button'], summary, [data-magnetic]";
-const MAGNET_MAX = 7; // px — butonun imlece doğru kayabileceği azami mesafe
+const INTERACTIVE = "a, button, [role='button'], summary";
 
 /**
- * Disiplin renginde özel imleç: nokta anında, halka gecikmeli takip eder.
- * [data-magnetic] öğeler imlece doğru hafifçe çekilir.
- * Sadece pointer:fine + hover:hover cihazlarda; reduced-motion'da kapalı.
+ * Tek renkli imleç (mix-blend: difference) — nokta anında, halka gecikmeli.
+ * Bağlantı üstünde halka büyür; [data-view] (telefon, vaka kartı) üstünde
+ * dolu daireye dönüşüp "GÖR" yazar. Yalnız fare + hover cihazlarda;
+ * dokunmatikte ve hareket azaltmada hiç çalışmaz.
  */
-export default function CustomCursor() {
+export default function CustomCursor({ label }: { label: string }) {
+  const rootRef = useRef<HTMLDivElement>(null);
   const dotRef = useRef<HTMLDivElement>(null);
   const ringRef = useRef<HTMLDivElement>(null);
+  const textRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const fine = window.matchMedia("(pointer: fine) and (hover: hover)").matches;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (!fine || reduced) return;
-
+    const root = rootRef.current;
     const dot = dotRef.current;
     const ring = ringRef.current;
-    if (!dot || !ring) return;
+    const text = textRef.current;
+    if (!fine || reduced || !root || !dot || !ring || !text) return;
 
-    document.documentElement.classList.add("custom-cursor");
-
-    let x = innerWidth / 2;
-    let y = innerHeight / 2;
-    let ringX = x;
-    let ringY = y;
+    let x = -100;
+    let y = -100;
+    let rx = x;
+    let ry = y;
     let raf = 0;
-    let magnetEl: HTMLElement | null = null;
 
     const onMove = (e: MouseEvent) => {
       x = e.clientX;
       y = e.clientY;
       dot.style.transform = `translate(${x}px, ${y}px)`;
-
-      const target = (e.target as HTMLElement | null)?.closest?.(
-        INTERACTIVE
-      ) as HTMLElement | null;
-
-      // Hover durumu → halka büyür
-      ring.classList.toggle("is-hover", Boolean(target));
-
-      // Magnetik çekim
-      const magnet = target?.closest?.("[data-magnetic]") as HTMLElement | null;
-      if (magnet !== magnetEl) {
-        if (magnetEl) magnetEl.style.transform = "";
-        magnetEl = magnet;
-      }
-      if (magnetEl) {
-        const r = magnetEl.getBoundingClientRect();
-        const dx = ((x - (r.left + r.width / 2)) / (r.width / 2)) * MAGNET_MAX;
-        const dy = ((y - (r.top + r.height / 2)) / (r.height / 2)) * MAGNET_MAX;
-        magnetEl.style.transform = `translate(${dx}px, ${dy}px)`;
-      }
+      const t = e.target as HTMLElement | null;
+      root.classList.toggle("is-view", Boolean(t?.closest?.("[data-view]")));
+      root.classList.toggle("is-hover", Boolean(t?.closest?.(INTERACTIVE)));
     };
-
     const loop = () => {
-      ringX += (x - ringX) * 0.16;
-      ringY += (y - ringY) * 0.16;
-      ring.style.transform = `translate(${ringX}px, ${ringY}px)`;
+      rx += (x - rx) * 0.16;
+      ry += (y - ry) * 0.16;
+      ring.style.transform = `translate(${rx}px, ${ry}px)`;
+      text.style.transform = `translate(${rx}px, ${ry}px) translate(-50%, -50%)`;
       raf = requestAnimationFrame(loop);
     };
-
-    const onDown = () => ring.classList.add("is-down");
-    const onUp = () => ring.classList.remove("is-down");
-    const onLeave = () => {
-      dot.style.opacity = "0";
-      ring.style.opacity = "0";
-    };
-    const onEnter = () => {
-      dot.style.opacity = "1";
-      ring.style.opacity = "1";
-    };
+    const hide = () => (root.style.opacity = "0");
+    const show = () => (root.style.opacity = "1");
 
     document.addEventListener("mousemove", onMove, { passive: true });
-    document.addEventListener("mousedown", onDown);
-    document.addEventListener("mouseup", onUp);
-    document.documentElement.addEventListener("mouseleave", onLeave);
-    document.documentElement.addEventListener("mouseenter", onEnter);
+    document.documentElement.addEventListener("mouseleave", hide);
+    document.documentElement.addEventListener("mouseenter", show);
     raf = requestAnimationFrame(loop);
-
     return () => {
-      document.documentElement.classList.remove("custom-cursor");
       document.removeEventListener("mousemove", onMove);
-      document.removeEventListener("mousedown", onDown);
-      document.removeEventListener("mouseup", onUp);
-      document.documentElement.removeEventListener("mouseleave", onLeave);
-      document.documentElement.removeEventListener("mouseenter", onEnter);
+      document.documentElement.removeEventListener("mouseleave", hide);
+      document.documentElement.removeEventListener("mouseenter", show);
       cancelAnimationFrame(raf);
-      if (magnetEl) magnetEl.style.transform = "";
     };
   }, []);
 
   return (
-    <div aria-hidden className="pointer-events-none fixed inset-0 z-[90] hidden lg:block">
-      <div ref={dotRef} className="cursor-dot" />
+    <div ref={rootRef} className="cursor" aria-hidden>
       <div ref={ringRef} className="cursor-ring" />
+      <div ref={dotRef} className="cursor-dot" />
+      <div ref={textRef} className="cursor-label">
+        {label}
+      </div>
     </div>
   );
 }
