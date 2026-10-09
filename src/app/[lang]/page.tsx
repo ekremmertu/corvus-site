@@ -19,8 +19,8 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const tr = lang === "tr";
 
   // Rakamlar elle yazılmaz — veriden hesaplanır.
-  // "Canlıda" = App Store/web'de yayında + teslim edilen kurumsal araçlar + çalışan trading ve AI otomasyonları (CEO 09.10.2026, ★4)
-  const live = projects.filter((p) => p.status === "live" || p.status === "delivered" || p.category === "fintech" || p.category === "ai").length;
+  // "Canlıda" = status live; kurumsal, trading ve AI otomasyonları da canlı (CEO 09.10.2026, ★4) — rozetlerle aynı kaynak
+  const live = projects.filter((p) => p.status === "live").length;
   const open = openProjects();
   const bySlug = (slug: string) => {
     const p = open.find((x) => x.slug === slug);
