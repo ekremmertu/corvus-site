@@ -5,7 +5,7 @@ import Phone from "@/components/Phone";
 
 type Shot = { src: string; alt: string };
 
-/** Öne çıkan vaka (TripWalkers) + ikili (Ameliea, SplitTable). Metin ve rakamlar veriden. */
+/** Öne çıkan app (TripWalkers) + ikili (Ameliea, SplitTable). Metin ve rakamlar veriden. */
 export default function FeaturedCase({
   locale,
   d,
@@ -17,7 +17,7 @@ export default function FeaturedCase({
   d: Dict;
   hero: Project;
   heroShots: [Shot, Shot];
-  duo: { project: Project; shot: Shot; tone: "gold" | "red"; logo?: boolean }[];
+  duo: { project: Project; shot: Shot; tone: "gold" | "red" }[];
 }) {
   const cat = getCategory(hero.category);
   return (
@@ -51,7 +51,7 @@ export default function FeaturedCase({
         </Link>
 
         <div className="duo">
-          {duo.map(({ project, shot, tone, logo }, i) => {
+          {duo.map(({ project, shot, tone }, i) => {
             const c = getCategory(project.category);
             return (
               <Link
@@ -66,11 +66,7 @@ export default function FeaturedCase({
                 </p>
                 <h3>{project.name}</h3>
                 <p>{project.summary[locale]}</p>
-                {logo ? (
-                  <img className="duo-logo" src={shot.src} alt={shot.alt} width={512} height={512} loading="lazy" />
-                ) : (
-                  <Phone src={shot.src} alt={shot.alt} />
-                )}
+                <Phone src={shot.src} alt={shot.alt} />
               </Link>
             );
           })}

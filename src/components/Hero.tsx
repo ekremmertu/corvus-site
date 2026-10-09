@@ -7,11 +7,10 @@ import Link from "next/link";
 
 /**
  * Hero — "Uygulamaların arkasındaki stüdyo." (CEO onayı, hubX dili, 09.10.2026)
- * Dev CORVUS harfleri önünde gerçek ekranlı 3 telefon. Yalnız perdesiz
- * (açık) ürünlerin ekranları kullanılır.
+ * Dev CORVUS harfleri önünde logolu açılış ekranlı 3 telefon (CEO 09.10.2026:
+ * ortada TripWalkers, solda SplitTable, sağda CVtoapply). Yalnız perdesiz ürünler.
  */
 export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
-  const tr = locale === "tr";
   return (
     <header className="hero grain">
       <h1 className="h-display wrap" data-in style={{ position: "relative", zIndex: 3, margin: "0 auto", transitionDelay: ".08s" }}>
@@ -38,20 +37,20 @@ export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
         <div className="hero-spot" aria-hidden />
         <Phone
           className="side side-l reflect"
-          src="/shots/tw-ov.jpg"
-          alt={tr ? "TripWalkers uygulamasında Tokyo gezi planı" : "TripWalkers trip overview for Tokyo"}
+          src="/shots/cover-st.jpg"
+          alt="SplitTable"
           style={{ transitionDelay: ".3s" }}
         />
         <Phone
           className="side side-r reflect"
-          src="/shots/am-splash.jpg"
-          alt={tr ? "Ameliea davetiye uygulamasının açılış ekranı" : "Ameliea invitation app splash screen"}
+          src="/shots/cover-cv.jpg"
+          alt="CVtoapply"
           style={{ transitionDelay: ".3s" }}
         />
         <Phone
           className="iph-lg reflect"
-          src="/shots/q-income.jpg"
-          alt={tr ? "Quill uygulamasında aylık gelir ekranı" : "Quill monthly income screen"}
+          src="/shots/cover-tw.jpg"
+          alt="TripWalkers"
           style={{ zIndex: 5, transitionDelay: ".15s" }}
           eager
           view

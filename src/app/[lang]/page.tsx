@@ -38,13 +38,14 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
     .sort((a, b) => Number(b.status === "live") - Number(a.status === "live"))
     .map((p) => p.name);
 
+  // Ana sayfadaki telefonlar logolu açılış ekranı gösterir; gerçek ekranlar yalnız öne çıkan app'te (CEO 09.10.2026).
   const strip: StripItem[] = [
-    { slug: "tripwalkers", src: "/shots/tw-reel.jpg", alt: tr ? "TripWalkers reel linkinden gezi planlama" : "TripWalkers trip planning from a reel link" },
-    { slug: "splittable", src: "/shots/st-kim.jpg", alt: tr ? "SplitTable masada kim ne ödedi ekranı" : "SplitTable who paid what at the table" },
-    { slug: "amelie-co", src: "/shots/am-tema.jpg", alt: tr ? "Ameliea davetiye teması seçimi" : "Ameliea invitation theme picker" },
-    { slug: "quill", src: "/shots/q-exp.jpg", alt: tr ? "Quill gider dağılımı ekranı" : "Quill expense breakdown" },
-    { slug: "cvtoapply", src: "/shots/cv-baski.jpg", alt: tr ? "CVtoapply ATS skoru 76, baskıya hazır" : "CVtoapply ATS score 76, ready to print" },
-      ].map((s) => {
+    { slug: "tripwalkers", src: "/shots/cover-tw.jpg", alt: "TripWalkers" },
+    { slug: "splittable", src: "/shots/cover-st.jpg", alt: "SplitTable" },
+    { slug: "amelie-co", src: "/shots/cover-am.jpg", alt: "Ameliea" },
+    { slug: "quill", src: "/shots/cover-q.jpg", alt: "Quill" },
+    { slug: "cvtoapply", src: "/shots/cover-cv.jpg", alt: "CVtoapply" },
+  ].map((s) => {
     const p = bySlug(s.slug);
     const cat = categories.find((c) => c.slug === p.category)!;
     return { ...s, name: p.name, sub: cat.name[lang] };
@@ -75,8 +76,8 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           { src: "/shots/tw-day.jpg", alt: tr ? "TripWalkers gün detayı" : "TripWalkers day detail" },
         ]}
         duo={[
-          { project: bySlug("amelie-co"), tone: "gold", shot: { src: "/shots/am-davet.jpg", alt: tr ? "Ameliea davetiye başlangıç ekranı" : "Ameliea invitation intro screen" } },
-          { project: bySlug("splittable"), tone: "red", shot: { src: "/shots/st-logo.jpg", alt: tr ? "SplitTable logosu" : "SplitTable logo" }, logo: true },
+          { project: bySlug("amelie-co"), tone: "gold", shot: { src: "/shots/cover-am.jpg", alt: "Ameliea" } },
+          { project: bySlug("splittable"), tone: "red", shot: { src: "/shots/cover-st.jpg", alt: "SplitTable" } },
         ]}
       />
       <Process d={d} />
