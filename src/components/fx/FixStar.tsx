@@ -8,7 +8,7 @@ export const FIXES: Record<number, string> = {
   1: '"İOS" → "iOS" (Türkçe büyük harf hatası)',
   2: "iOS kartı: telefonlar büyüdü (150 → 196 px) + turuncu koyulaştı (≥4,5:1)",
   3: "Sekme sayıları + lila kart \"4 proje\" kontrastı",
-  4: "\"Canlıda\" = yayındaki uygulama/web + teslim edilen kurumsal + çalışan trading ve AI otomasyonları",
+  4: "\"Canlıda\" 18 = yayındaki uygulama/web + kurumsal + trading + AI otomasyonları; /work rozetleri de aynı (18 Yayında)",
   5: "İngilizcede tek ana düğme adı: \"Let's talk\"",
   6: 'Türkçe sayfada İngilizce "Live" etiketi kaldırıldı',
   7: '"Ekranlar" başlığına üst boşluk',

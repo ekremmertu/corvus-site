@@ -23,7 +23,7 @@ export default function ProjectCard({ project, locale, d, mark }: { project: Car
           <span>
             <CatName name={category.name[locale]} />
           </span>
-          <span>{status}</span>
+          <span className={isLive ? "live" : undefined}>{status}</span>
         </div>
         {/* Gri iskelet çubuklar "yükleniyor" gibi okunuyordu → kilitli kart (★11) */}
         <div className="veil-lock" aria-hidden>
