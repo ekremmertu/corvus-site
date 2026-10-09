@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@300;400;500;600&family=Fragment+Mono&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#090B0D;--p:#0E1114;--line:#1C2126;--fg:#E8ECEF;--dim:#7C858E;--faint:#4A535C;--ice:#8FD3FF;--ok:#5EE6A8;--wait:#FFC861}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font-family:'Host Grotesk',sans-serif;-webkit-font-smoothing:antialiased}
+.mono{font-family:'Fragment Mono',monospace}
+.frame{margin:0 40px;border-left:1px solid var(--line);border-right:1px solid var(--line)}
+.top{display:flex;justify-content:space-between;align-items:center;height:56px;padding:0 24px;border-bottom:1px solid var(--line);font-size:13px}
+.top .l{font-weight:600;letter-spacing:.02em;font-size:15px}.top .l span{color:var(--faint)}
+.top .s{display:flex;gap:24px;color:var(--dim)}
+.led{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:8px;background:var(--ok);box-shadow:0 0 10px var(--ok)}
+.led.w{background:var(--wait);box-shadow:0 0 10px var(--wait)}
+.top .b{border:1px solid var(--ice);color:var(--ice);padding:7px 14px;border-radius:4px}
+.cols{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}
+.cols div{padding:18px 24px;border-right:1px solid var(--line);font-size:12px;color:var(--dim)}
+.cols div:last-child{border:0}
+.cols b{display:block;font-family:'Host Grotesk';font-size:28px;color:var(--fg);font-weight:400;margin-top:8px;letter-spacing:-.02em}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;border-bottom:1px solid var(--line);min-height:560px}
+.hero .t{padding:80px 24px 48px;border-right:1px solid var(--line);display:flex;flex-direction:column;justify-content:space-between;
+background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:56px 56px;background-position:-1px -1px;-webkit-mask-image:none}
+.hero .t{box-shadow:inset 0 0 0 2000px rgba(9,11,13,.72)}
+.hero .t>*{position:relative}
+.k{font-size:12px;color:var(--ice);letter-spacing:.08em}
+h1{font-size:96px;font-weight:400;line-height:.95;letter-spacing:-.045em;margin-top:24px;line-height:1.02}
+h1 em{font-style:normal;color:var(--ice)}
+.sub{font-size:18px;color:var(--dim);max-width:480px;line-height:1.55;margin-top:28px}
+.cta{display:flex;gap:12px;margin-top:32px}
+.cta a{font-size:14px;padding:12px 18px;border-radius:4px;background:var(--ice);color:#06222F;font-weight:500}
+.cta a.g{background:var(--bg);color:var(--fg);border:1px solid var(--line)}
+.hero .v{position:relative;overflow:hidden;background:radial-gradient(circle at 60% 40%,#10202B,var(--p) 70%)}
+.hero .v img{position:absolute;width:250px;border-radius:30px;border:1px solid #2A333B}
+.hero .v .a{left:60px;top:70px}.hero .v .b2{left:270px;top:150px;opacity:.9}
+.hero .v .lbl{position:absolute;left:24px;top:20px;font-size:12px;color:var(--dim)}
+.tbl .h,.tbl .r{display:grid;grid-template-columns:60px 1.3fr 1fr 1fr 1fr 1.1fr;padding:0 24px;align-items:center}
+.tbl .h{height:44px;font-size:11px;color:var(--faint);letter-spacing:.08em;border-bottom:1px solid var(--line)}
+.tbl .r{height:76px;border-bottom:1px solid var(--line);font-size:16px}
+.tbl .r img{width:36px;height:36px;border-radius:9px}
+.tbl .r .ph{width:36px;height:36px;border-radius:9px;border:1px solid var(--line);display:grid;place-items:center;font-size:13px;color:var(--dim)}
+.tbl .r .m{font-size:13px;color:var(--dim)}
+.sec{display:flex;justify-content:space-between;align-items:end;padding:72px 24px 24px;border-bottom:1px solid var(--line)}
+.sec h2{font-size:48px;font-weight:400;letter-spacing:-.035em}
+.sec span{font-size:12px;color:var(--dim)}
+.foot{height:100px}
+</style></head><body><div class="frame">
+<div class="top"><span class="l">CORVUS<span>/systems</span></span><span class="s mono"><span><i class="led"></i>8 canlı</span><span><i class="led w"></i>2 Apple incelemesinde</span><span>İST 10:42</span></span><span class="b mono">Proje başlat →</span></div>
+<div class="cols mono"><div>iOS<b>13 ürün</b></div><div>WEB / SAAS<b>6 ürün</b></div><div>AI SİSTEMLERİ<b>8 ürün</b></div><div>FİNTECH<b>8 ürün</b></div></div>
+<div class="hero">
+  <div class="t">
+    <div><div class="k mono">// ÜRÜN STÜDYOSU — İSTANBUL</div><br><h1>Çalışan <em>sistemler</em><br>kuruyoruz.</h1>
+    <p class="sub">iOS uygulamaları, SaaS ve AI otomasyonları. Tasarımdan App Store'a kadar ölçerek ilerliyoruz.</p>
+    <div class="cta"><a>Projeni anlat</a><a class="g">Canlı ürünler ↓</a></div></div>
+  </div>
+  <div class="v"><img class="a" src="img/tw1.jpg"><img class="b2" src="img/q1.jpg"><span class="lbl mono">TripWalkers · Quill — gerçek ekranlar</span></div>
+</div>
+<div class="sec"><h2>Durum panosu</h2><span class="mono">SON GÜNCELLEME 09.10.2026</span></div>
+<div class="tbl">
+  <div class="h mono"><span></span><span>ÜRÜN</span><span>TÜR</span><span>SÜRÜM</span><span>PLATFORM</span><span>DURUM</span></div>
+  <div class="r"><img src="img/tripwalkers.jpg"><span>TripWalkers</span><span class="m">AI seyahat</span><span class="m mono">1.2.9 (39)</span><span class="m">iOS</span><span class="m mono"><i class="led w"></i>incelemede</span></div>
+  <div class="r"><span class="ph">S</span><span>SplitTable</span><span class="m">Restoran</span><span class="m mono">1.3.1 (31)</span><span class="m">iOS + panel</span><span class="m mono"><i class="led w"></i>incelemede</span></div>
+  <div class="r"><span class="ph">C</span><span>CVtoapply</span><span class="m">SaaS</span><span class="m mono">web</span><span class="m">Web + iOS</span><span class="m mono"><i class="led"></i>canlı</span></div>
+  <div class="r"><img src="img/lingoria.jpg"><span>Lingoria</span><span class="m">Dil koçu</span><span class="m mono">A1–C2</span><span class="m">iOS</span><span class="m mono"><i class="led"></i>canlı</span></div>
+  <div class="r"><img src="img/blokbom.jpg"><span>BlokBom!</span><span class="m">Oyun</span><span class="m mono">4 mod</span><span class="m">iOS</span><span class="m mono"><i class="led"></i>canlı</span></div>
+</div>
+<div class="foot"></div>
+</div></body></html>

@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Inter:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F5F5F7;--dim:#86868B;--soft:#C7C7CC;
+--sheen:linear-gradient(100deg,#8E9BFF 0%,#C2A2FF 45%,#7DEBDA 100%)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;color:#fff;font-family:'Inter Tight',sans-serif;-webkit-font-smoothing:antialiased}
+.grain{position:relative}
+.grain:after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.07;mix-blend-mode:overlay;
+background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.w{width:1180px;margin:0 auto}
+.c{text-align:center}
+.g{background:var(--sheen);-webkit-background-clip:text;background-clip:text;color:transparent}
+.serif{font-family:'Instrument Serif',serif;font-weight:400;font-style:italic;letter-spacing:-.01em}
+.eb{font-size:12px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--dim)}
+.pill{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:999px;font-weight:500;font-size:15px}
+.pill.pw{background:#fff;color:#000}
+.pill.pk{background:#000;color:#fff}
+.lnk{font-size:15px;font-weight:500;color:#fff;display:inline-flex;gap:8px;align-items:center}
+.lnk:after{content:"→";color:var(--dim)}
+/* NAV */
+nav{position:absolute;top:22px;left:50%;transform:translateX(-50%);z-index:20;display:flex;align-items:center;gap:6px;padding:7px 7px 7px 22px;border-radius:999px;
+background:rgba(28,28,30,.55);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.08);font-size:14px}
+nav .logo{font-weight:700;letter-spacing:.14em;font-size:13px;margin-right:22px}
+nav span.l{padding:8px 14px;color:#D1D1D6}
+nav .cta{margin-left:14px;background:#fff;color:#000;padding:9px 18px;border-radius:999px;font-weight:500}
+/* HERO */
+.hero{height:1180px;position:relative;overflow:hidden;padding-top:190px;
+background:radial-gradient(ellipse 50% 45% at 50% 62%,rgba(120,110,255,.20),transparent 70%),#000}
+.hero .eb{color:#A1A1A6}
+.hero h1{font-size:96px;font-weight:600;letter-spacing:-.05em;line-height:.98;margin-top:26px}
+.hero h1 .serif{font-size:112px;letter-spacing:-.02em}
+.hero p{font-size:19px;color:var(--dim);line-height:1.55;max-width:500px;margin:26px auto 38px;font-weight:400}
+.hero .acts{display:flex;gap:28px;justify-content:center;align-items:center}
+.word{position:absolute;left:50%;top:600px;transform:translateX(-50%);font-size:380px;font-weight:700;letter-spacing:-.07em;line-height:.8;white-space:nowrap;
+background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,0) 80%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.spot{position:absolute;left:50%;top:430px;transform:translateX(-50%);width:640px;height:760px;background:conic-gradient(from 180deg at 50% 0%,transparent 160deg,rgba(200,190,255,.13) 180deg,transparent 200deg);filter:blur(8px)}
+.iph{position:absolute;width:290px;height:600px;border-radius:54px;padding:10px;
+background:linear-gradient(145deg,#5A5A60,#1C1C1E 30%,#2C2C2E 70%,#5A5A60);
+box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.18),0 50px 110px rgba(0,0,0,.85)}
+.iph .s{width:100%;height:100%;border-radius:45px;overflow:hidden;position:relative;background:#000}
+.iph .s img{width:100%;display:block}
+.iph .s:before{content:"";position:absolute;top:11px;left:50%;transform:translateX(-50%);width:92px;height:27px;border-radius:20px;background:#000;z-index:2}
+.iph .s:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(255,255,255,.10),transparent 35%);pointer-events:none}
+.refl{-webkit-box-reflect:below 14px linear-gradient(transparent 72%,rgba(255,255,255,.14))}
+.hero .h1p{left:50%;top:560px;transform:translateX(-50%);z-index:5}
+.hero .h2p{left:calc(50% - 400px);top:640px;transform:scale(.84) rotate(-4deg);z-index:4;filter:brightness(.62)}
+.hero .h3p{left:calc(50% + 110px);top:640px;transform:scale(.84) rotate(4deg);z-index:4;filter:brightness(.62)}
+.hero .fade{position:absolute;left:0;right:0;bottom:0;height:300px;background:linear-gradient(transparent,#000 85%);z-index:8}
+/* trust */
+.trust{border-top:1px solid #1C1C1E;border-bottom:1px solid #1C1C1E;padding:34px 0}
+.trust .row{display:flex;justify-content:space-between;align-items:center}
+.trust .row span{font-size:19px;font-weight:600;letter-spacing:-.02em;color:#6E6E73}
+.trust .eb{text-align:center;margin-bottom:22px;font-size:11px}
+/* manifesto */
+.mani{padding:200px 0 180px}
+.mani p{font-size:58px;font-weight:500;letter-spacing:-.035em;line-height:1.12;color:#3A3A3C;max-width:1060px}
+.mani p b{color:#fff;font-weight:500}
+.mani .sig{display:flex;gap:80px;margin-top:80px}
+.mani .sig div{border-top:1px solid #2C2C2E;padding-top:20px;width:220px}
+.mani .sig strong{display:block;font-size:56px;font-weight:600;letter-spacing:-.04em}
+.mani .sig small{color:var(--dim);font-size:14px}
+/* strip */
+.strip{padding:0 0 200px;overflow:hidden}
+.strip .head{display:flex;justify-content:space-between;align-items:end;margin-bottom:60px}
+.strip h2,.h2{font-size:64px;font-weight:600;letter-spacing:-.045em;line-height:1.02}
+.film{display:flex;gap:34px;padding-left:calc(50% - 590px)}
+.film .it{flex:none;width:250px}
+.film .iph{position:relative;width:250px;height:518px;border-radius:46px;padding:9px}
+.film .iph .s{border-radius:38px}
+.film .iph .s:before{width:78px;height:23px}
+.film .cap{margin-top:22px;font-size:16px;font-weight:600;letter-spacing:-.01em}
+.film .cap small{display:block;font-weight:400;color:var(--dim);font-size:13px;margin-top:4px}
+/* light */
+.light{background:var(--paper);color:#000;padding:180px 0}
+.light .eb{color:#6E6E73}
+.light .lead{font-size:20px;color:#424245;line-height:1.55;max-width:640px;margin:24px auto 0}
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:90px;text-align:left}
+.sc{background:#fff;border-radius:28px;padding:44px 40px 40px;height:440px;position:relative;overflow:hidden}
+.sc .n{font-family:'Instrument Serif';font-style:italic;font-size:30px;color:#86868B}
+.sc h3{font-size:30px;font-weight:600;letter-spacing:-.03em;margin-top:150px}
+.sc p{font-family:Inter;font-size:15px;color:#6E6E73;line-height:1.6;margin-top:12px}
+.sc .tg{display:flex;flex-wrap:wrap;gap:6px;margin-top:22px}
+.sc .tg span{font-size:12px;padding:6px 11px;border-radius:999px;background:#F5F5F7;color:#424245}
+.orb{position:absolute;right:-30px;top:-30px;width:250px;height:250px;border-radius:50%;
+background:radial-gradient(circle at 32% 28%,#fff 0%,#EDE6FF 18%,#C2A2FF 46%,#6F7CF5 78%,#2B2370 100%);box-shadow:0 40px 80px rgba(111,124,245,.35)}
+.orb.o2{border-radius:42% 58% 56% 44%/50% 42% 58% 50%;background:radial-gradient(circle at 32% 28%,#fff 0%,#E2FFF9 18%,#7DEBDA 48%,#5C8DF0 85%)}
+.orb.o3{border-radius:34%;transform:rotate(20deg);background:radial-gradient(circle at 32% 28%,#fff 0%,#FFE9F3 18%,#F7A8C8 46%,#9B7CF7 85%)}
+/* case */
+.case{padding:200px 0 120px}
+.case .big{border-radius:36px;height:820px;position:relative;overflow:hidden;
+background:radial-gradient(ellipse 60% 70% at 75% 60%,#FF6A2B 0%,#C93D12 45%,#2A0E05 100%)}
+.case .txt{position:absolute;left:70px;top:70px;width:420px}
+.case .txt .eb{color:rgba(255,255,255,.7)}
+.case .txt h3{font-size:84px;font-weight:600;letter-spacing:-.05em;line-height:.95;margin-top:18px}
+.case .txt p{font-size:18px;line-height:1.55;color:rgba(255,255,255,.8);margin-top:22px}
+.case .facts{position:absolute;left:70px;bottom:70px;display:flex;gap:50px}
+.case .facts strong{display:block;font-size:34px;font-weight:600;letter-spacing:-.03em}
+.case .facts small{font-size:13px;color:rgba(255,255,255,.7)}
+.case .big .iph{top:110px}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+.duo .cs{height:640px;border-radius:36px;position:relative;overflow:hidden;padding:56px}
+.duo h3{font-size:44px;font-weight:600;letter-spacing:-.04em;margin-top:14px}
+.duo p{font-size:16px;line-height:1.55;margin-top:10px;max-width:330px;opacity:.75}
+.duo .iph{left:50%;transform:translateX(-50%) scale(.86);top:250px;transform-origin:top center}
+.am{background:radial-gradient(ellipse at 50% 90%,#3B2A10,#0D0A06 70%)}
+.am .eb{color:#C9A55C}
+.st{background:radial-gradient(ellipse at 50% 100%,#B3121F,#3A0408 75%)}
+.st .eb{color:#FFB3B8}
+/* process */
+.proc{padding:160px 0 180px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);margin-top:90px;border-top:1px solid #2C2C2E}
+.steps div{padding:34px 34px 0 0}
+.steps .k{font-family:'Instrument Serif';font-style:italic;font-size:44px}
+.steps h4{font-size:22px;font-weight:600;letter-spacing:-.02em;margin-top:22px}
+.steps p{font-family:Inter;font-size:14px;color:var(--dim);line-height:1.65;margin-top:10px}
+.tech{display:flex;justify-content:center;gap:58px;margin-top:130px;font-size:20px;font-weight:600;color:#48484A;letter-spacing:-.02em}
+/* end */
+.end{padding:150px 0 190px;position:relative;overflow:hidden;background:radial-gradient(ellipse 45% 60% at 50% 110%,rgba(140,130,255,.35),transparent 70%),#000}
+.end h2{font-size:132px;font-weight:600;letter-spacing:-.06em;line-height:.92}
+.end .serif{font-size:150px}
+.end p{color:var(--dim);font-size:19px;margin:30px 0 44px}
+.end .mail{display:block;margin-top:28px;color:#A1A1A6;font-size:15px}
+footer{border-top:1px solid #1C1C1E;padding:60px 0 40px;font-size:14px}
+.fg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
+.fg b{display:block;color:#fff;font-weight:500;margin-bottom:16px}
+.fg span{display:block;color:var(--dim);margin-bottom:10px}
+.fl{display:flex;justify-content:space-between;color:#48484A;font-size:12px;margin-top:60px}
+</style></head><body>
+
+<nav><span class="logo">CORVUS</span><span class="l">İşler</span><span class="l">Hizmetler</span><span class="l">Stüdyo</span><span class="l">AI Lab</span><a class="cta">Projeni anlat</a></nav>
+
+<header class="hero c grain">
+  <div class="eb">İstanbul · Ürün Stüdyosu · Est. 2025</div>
+  <h1>Uygulamaların arkasındaki<br><span class="serif g">stüdyo.</span></h1>
+  <p>iOS uygulamaları, SaaS ürünleri ve AI sistemleri. Fikirden App Store'a, tek ekip.</p>
+  <div class="acts"><a class="pill pw">Projeni anlat</a><a class="lnk">İşleri keşfet</a></div>
+  <div class="word">CORVUS</div>
+  <div class="spot"></div>
+  <div class="iph h2p refl"><div class="s"><img src="img/tw-ov.jpg"></div></div>
+  <div class="iph h3p refl"><div class="s"><img src="img/am-splash.jpg"></div></div>
+  <div class="iph h1p refl"><div class="s"><img src="img/al-dog.jpg"></div></div>
+  <div class="fade"></div>
+</header>
+
+<div class="trust"><div class="w">
+  <div class="eb">Stüdyodan çıkan ürünler</div>
+  <div class="row"><span>TripWalkers</span><span>Almagest</span><span>SplitTable</span><span>Amelie</span><span>CVtoapply</span><span>Lingoria</span><span>BeAnyone</span><span>Quill</span></div>
+</div></div>
+
+<section class="mani grain"><div class="w">
+  <div class="eb" style="margin-bottom:40px">Biz kimiz</div>
+  <p>Ajans değiliz. <b>Her ürünü kendi ürünümüz gibi</b> tasarlıyor, kodluyor ve yayına alıyoruz. Tasarım, mühendislik ve App Store <b>aynı masada.</b></p>
+  <div class="sig"><div><strong>34</strong><small>Kurulan ürün</small></div><div><strong>8</strong><small>Şu an canlı</small></div><div><strong>5</strong><small>Disiplin</small></div><div><strong>1</strong><small>Ekip, uçtan uca</small></div></div>
+</div></section>
+
+<section class="strip">
+  <div class="w head"><h2>Ekranlar<br><span class="serif g" style="font-size:72px">kendini anlatır.</span></h2><a class="lnk">Tüm işler</a></div>
+  <div class="film">
+    <div class="it"><div class="iph"><div class="s"><img src="img/tw-map.jpg"></div></div><div class="cap">TripWalkers<small>AI gezi planlayıcı · iOS</small></div></div>
+    <div class="it"><div class="iph"><div class="s"><img src="img/st-kod.jpg"></div></div><div class="cap">SplitTable<small>Restoranda hesap bölme · iOS</small></div></div>
+    <div class="it"><div class="iph"><div class="s"><img src="img/al-dog.jpg"></div></div><div class="cap">Almagest<small>Doğum haritası · iOS</small></div></div>
+    <div class="it"><div class="iph"><div class="s"><img src="img/am-tema.jpg"></div></div><div class="cap">Amelie<small>Dijital düğün davetiyesi · iOS</small></div></div>
+    <div class="it"><div class="iph"><div class="s"><img src="img/ba-pay.jpg"></div></div><div class="cap">BeAnyone<small>AI karakter videosu · iOS</small></div></div>
+    <div class="it"><div class="iph"><div class="s"><img src="img/q1.jpg"></div></div><div class="cap">Quill<small>Kişisel finans · iOS</small></div></div>
+  </div>
+</section>
+
+<section class="light c">
+  <div class="w">
+    <div class="eb">Ne yapıyoruz</div>
+    <h2 class="h2" style="margin-top:20px">Tasarla. Kodla. <span class="serif">Yayınla.</span></h2>
+    <p class="lead">Üç alanda derinleşiyoruz. Her birinde fikirden yayına kadar aynı ekip.</p>
+    <div class="svc">
+      <div class="sc"><div class="orb"></div><div class="n">01</div><h3>iOS uygulaması</h3><p>SwiftUI ile native, hızlı, App Store onayından geçmiş uygulamalar.</p><div class="tg"><span>SwiftUI</span><span>StoreKit 2</span><span>RevenueCat</span></div></div>
+      <div class="sc"><div class="orb o2"></div><div class="n">02</div><h3>SaaS ve web</h3><p>Giriş yapılan, ödeme alan, panelli web ürünleri.</p><div class="tg"><span>Next.js</span><span>Supabase</span><span>Stripe · iyzico</span></div></div>
+      <div class="sc"><div class="orb o3"></div><div class="n">03</div><h3>AI sistemleri</h3><p>Gerçekten iş yapan ajanlar ve otomasyonlar. Ölçülmüş, test edilmiş.</p><div class="tg"><span>Claude</span><span>Çoklu ajan</span><span>Python</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="case"><div class="w">
+  <div class="eb" style="margin-bottom:24px">Öne çıkan vaka</div>
+  <div class="big grain">
+    <div class="txt"><div class="eb">iOS · Seyahat · AI</div><h3>TripWalkers</h3><p>Boş bir günü saat saat yürünebilir bir gezi planına çeviren AI planlayıcı. Tasarımdan App Store'a, uygulama içi satın almadan 200 sayfalık SEO rehberine kadar.</p></div>
+    <div class="facts"><div><strong>1.2.9</strong><small>Güncel sürüm</small></div><div><strong>200</strong><small>SEO plan sayfası</small></div><div><strong>EN · TR</strong><small>İki dil</small></div></div>
+    <div class="iph" style="left:600px;top:150px;transform:rotate(-6deg) scale(.9);filter:brightness(.85)"><div class="s"><img src="img/tw-home.jpg"></div></div>
+    <div class="iph" style="left:820px;top:90px;z-index:2"><div class="s"><img src="img/tw-ov.jpg"></div></div>
+  </div>
+  <div class="duo">
+    <div class="cs am grain"><div class="eb">iOS · Düğün</div><h3>Amelie</h3><p>Film gibi hissettiren, online satılan dijital düğün davetiyeleri.</p><div class="iph"><div class="s"><img src="img/am-splash.jpg"></div></div></div>
+    <div class="cs st grain"><div class="eb">iOS + Panel · Restoran</div><h3>SplitTable</h3><p>Masadaki kodu okut, hesabı böl, öde. İşletmeye canlı panel.</p><div class="iph"><div class="s"><img src="img/st-masa.jpg"></div></div></div>
+  </div>
+</div></section>
+
+<section class="proc"><div class="w">
+  <div class="eb">Nasıl çalışırız</div>
+  <h2 class="h2" style="margin-top:20px">Önce ölç, <span class="serif g">sonra</span> yap.</h2>
+  <div class="steps">
+    <div><div class="k g">i.</div><h4>Araştırma</h4><p>Rakip ve kullanıcı yorumlarını okur, tek bir net hedef koyarız.</p></div>
+    <div><div class="k g">ii.</div><h4>Tasarım sistemi</h4><p>Renk, yazı ve hareket kuralları koddan önce belli olur.</p></div>
+    <div><div class="k g">iii.</div><h4>Kanıtlı geliştirme</h4><p>Her adım test ve gerçek veriyle ilerler.</p></div>
+    <div><div class="k g">iv.</div><h4>Yayın ve büyüme</h4><p>App Store, mağaza sayfası ve ölçüm. Yayın son değil, başlangıç.</p></div>
+  </div>
+  <div class="tech"><span>SwiftUI</span><span>Next.js</span><span>Supabase</span><span>RevenueCat</span><span>Claude</span><span>Vercel</span><span>Python</span></div>
+</div></section>
+
+<section class="end c grain">
+  <div class="eb">Yeni proje</div>
+  <h2 style="margin-top:26px">Bir fikrin<br><span class="serif g">mi var?</span></h2>
+  <p>Bir paragrafla anlat. 48 saat içinde dürüst bir cevap alırsın.</p>
+  <a class="pill pw">Projeni anlat</a>
+  <span class="mail">hello@corvus-tech.co</span>
+</section>
+
+<footer><div class="w">
+  <div class="fg"><div><b style="letter-spacing:.14em;font-weight:700;font-size:13px">CORVUS</b><span style="max-width:280px">İstanbul'da bir ürün stüdyosu. iOS, SaaS ve AI.</span></div>
+  <div><b>Stüdyo</b><span>İşler</span><span>Süreç</span><span>AI Lab</span></div>
+  <div><b>Hizmetler</b><span>iOS uygulaması</span><span>SaaS ve web</span><span>AI sistemleri</span></div>
+  <div><b>İletişim</b><span>hello@corvus-tech.co</span><span>LinkedIn</span><span>GitHub</span></div></div>
+  <div class="fl"><span>© 2026 Corvus Tech</span><span>İstanbul — TR / EN</span></div>
+</div></footer>
+</body></html>

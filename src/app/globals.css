@@ -169,7 +169,8 @@ img { max-width: 100%; }
 .hero-stage .iph { position: absolute; left: 50%; top: 0; margin-left: -125px; }
 .hero-stage { --ww: clamp(380px, 36vw, 540px); }
 .hero-win { display: none; }
-.hero-win figcaption { margin-top: 30px; font-size: 12px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--dim); text-align: center; }
+.hero-win figcaption { display: table; margin: 26px auto 0; padding: 9px 16px; border-radius: 999px; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #f5f5f7;
+  background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.16); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
 .hero-spot { position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 640px; height: 760px; pointer-events: none;
   background: conic-gradient(from 180deg at 50% 0%, transparent 160deg, rgba(200, 190, 255, 0.12) 180deg, transparent 200deg); filter: blur(8px); }
 .hero-fade { position: absolute; left: 0; right: 0; bottom: 0; height: 260px; z-index: 8; background: linear-gradient(transparent, #000 85%); pointer-events: none; }

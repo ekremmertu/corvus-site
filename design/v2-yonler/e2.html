@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Corvus — Uygulamaların arkasındaki stüdyo</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<script src="raven.js"></script>
+<style>
+:root{--paper:#F5F5F7;--dim:#8E8E93;--sheen:linear-gradient(100deg,#8E9BFF 0%,#C2A2FF 45%,#7DEBDA 100%);--ease:cubic-bezier(.16,1,.3,1)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:#000;color:#fff;font-family:'Inter Tight',sans-serif;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible{outline:2px solid #fff;outline-offset:4px;border-radius:999px}
+.grain{position:relative}
+.grain:after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.07;mix-blend-mode:overlay;
+background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.w{width:min(1180px,calc(100% - 40px));margin:0 auto}
+.c{text-align:center}
+.g{background:var(--sheen);-webkit-background-clip:text;background-clip:text;color:transparent}
+.serif{font-family:'Instrument Serif',serif;font-weight:400;font-style:italic;letter-spacing:-.01em}
+.eb{font-size:12px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--dim)}
+.pill{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 26px;border-radius:999px;font-weight:500;font-size:15px;transition:transform .35s var(--ease),background .25s,box-shadow .35s}
+.pill.pw{background:#fff;color:#000}
+.pill.pw:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(255,255,255,.18)}
+.pill.pw:active{transform:translateY(0) scale(.98)}
+.lnk{font-size:15px;font-weight:500;display:inline-flex;gap:8px;align-items:center;min-height:48px}
+.lnk:after{content:"→";color:var(--dim);transition:transform .35s var(--ease)}
+.lnk:hover:after{transform:translateX(4px);color:#fff}
+/* ---------- INTRO (yayındaki ASCII kuzgun, lüks yorum) ---------- */
+#intro{position:fixed;inset:0;z-index:100;background:#000;display:grid;place-items:center;cursor:pointer}
+#intro .mark{display:flex;flex-direction:column;align-items:center;gap:26px;transform-origin:center}
+#raven{font:8.6px/1.04 'JetBrains Mono',monospace;white-space:pre;letter-spacing:.02em;
+background:linear-gradient(100deg,#d8d8de 0%,#fff 38%,#C2A2FF 46%,#8E9BFF 50%,#7DEBDA 54%,#fff 62%,#d8d8de 100%);background-size:300% 100%;background-position:100% 0;
+-webkit-background-clip:text;background-clip:text;color:transparent;min-height:330px}
+#raven.sweep{transition:background-position 1.1s var(--ease);background-position:0 0}
+#iword{font-size:15px;font-weight:600;letter-spacing:.62em;padding-left:.62em;display:flex}
+#iword span{opacity:0;transform:translateY(8px);transition:opacity .5s var(--ease),transform .5s var(--ease)}
+#iword.on span{opacity:1;transform:none}
+#intro .skip{position:absolute;right:28px;bottom:26px;font:12px 'Inter Tight';letter-spacing:.2em;text-transform:uppercase;color:#8E8E93;background:none;border:1px solid #2C2C2E;border-radius:999px;padding:10px 16px;cursor:pointer}
+#intro.out{transition:opacity .7s var(--ease) .15s;opacity:0}
+#intro.out .mark{transition:transform .85s var(--ease);}
+/* hero giriş koreografisi */
+.pre .hero .rv0{opacity:0;transform:translateY(24px)}
+.hero .rv0{transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.pre .hero .iph{opacity:0;translate:0 60px}
+.hero .iph{transition:opacity 1.2s var(--ease),translate 1.2s var(--ease)}
+.pre .hero .word{opacity:0;letter-spacing:.1em}
+.hero .word{transition:opacity 1.6s var(--ease),letter-spacing 1.6s var(--ease)}
+/* NAV */
+nav{position:fixed;top:22px;left:50%;transform:translateX(-50%);z-index:50;display:flex;align-items:center;gap:4px;padding:6px 6px 6px 18px;border-radius:999px;
+background:rgba(28,28,30,.55);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.08);font-size:14px;transition:background .3s}
+nav .logo{display:flex;align-items:center;gap:9px;font-weight:600;letter-spacing:.16em;font-size:12px;margin-right:18px;min-height:44px}
+nav .logo svg{width:20px;height:20px}
+nav a.l{padding:0 14px;color:#D1D1D6;min-height:44px;display:flex;align-items:center;transition:color .2s}
+nav a.l:hover{color:#fff}
+nav .cta{margin-left:12px;background:#fff;color:#000;padding:0 20px;min-height:44px;display:flex;align-items:center;border-radius:999px;font-weight:500;transition:transform .35s var(--ease)}
+nav .cta:hover{transform:scale(1.03)}
+/* HERO */
+.hero{height:1240px;position:relative;overflow:hidden;padding-top:150px;
+background:radial-gradient(ellipse 50% 45% at 50% 66%,rgba(120,110,255,.18),transparent 70%),#000}
+.hero h1{font-size:96px;font-weight:600;letter-spacing:-.05em;line-height:1;margin-top:26px}
+.hero h1 .serif{font-size:112px;letter-spacing:-.02em}
+.hero p{font-size:19px;color:var(--dim);line-height:1.55;max-width:500px;margin:26px auto 34px}
+.hero .acts{display:flex;gap:28px;justify-content:center;align-items:center;position:relative;z-index:10}
+.word{position:absolute;left:50%;top:630px;transform:translateX(-50%);font-size:380px;font-weight:600;letter-spacing:-.07em;line-height:.8;white-space:nowrap;
+background:linear-gradient(180deg,rgba(255,255,255,.17),rgba(255,255,255,0) 80%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.spot{position:absolute;left:50%;top:470px;transform:translateX(-50%);width:640px;height:760px;background:conic-gradient(from 180deg at 50% 0%,transparent 160deg,rgba(200,190,255,.12) 180deg,transparent 200deg);filter:blur(8px)}
+.stage{position:absolute;inset:0;pointer-events:none}
+.iph{position:absolute;width:290px;height:600px;border-radius:54px;padding:10px;
+background:linear-gradient(145deg,#5A5A60,#1C1C1E 30%,#2C2C2E 70%,#5A5A60);box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.18),0 50px 110px rgba(0,0,0,.85)}
+.iph .s{width:100%;height:100%;border-radius:45px;overflow:hidden;position:relative;background:#000}
+.iph .s img{width:100%;display:block}
+.iph .s:before{content:"";position:absolute;top:11px;left:50%;transform:translateX(-50%);width:92px;height:27px;border-radius:20px;background:#000;z-index:2}
+.iph .s:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(255,255,255,.10),transparent 35%);pointer-events:none}
+.refl{-webkit-box-reflect:below 14px linear-gradient(transparent 72%,rgba(255,255,255,.14))}
+.hero .h1p{left:calc(50% - 145px);top:600px;z-index:5;transition-delay:.15s}
+.hero .h2p{left:calc(50% - 400px);top:680px;transform:scale(.84) rotate(-4deg);z-index:4;filter:brightness(.6);transition-delay:.3s}
+.hero .h3p{left:calc(50% + 110px);top:680px;transform:scale(.84) rotate(4deg);z-index:4;filter:brightness(.6);transition-delay:.3s}
+.hero .fade{position:absolute;left:0;right:0;bottom:0;height:300px;background:linear-gradient(transparent,#000 85%);z-index:8}
+/* trust marquee */
+.trust{border-top:1px solid #1C1C1E;border-bottom:1px solid #1C1C1E;padding:30px 0;overflow:hidden}
+.trust .eb{text-align:center;margin-bottom:20px;font-size:11px}
+.mq{display:flex;gap:80px;width:max-content;animation:mq 38s linear infinite}
+.mq span{font-size:20px;font-weight:600;letter-spacing:-.02em;color:#8E8E93;white-space:nowrap}
+.trust:hover .mq{animation-play-state:paused}
+@keyframes mq{to{transform:translateX(-50%)}}
+/* manifesto */
+.mani{padding:200px 0 180px}
+.mani p{font-size:58px;font-weight:500;letter-spacing:-.035em;line-height:1.12;color:#636366;max-width:1060px}
+.mani p b{color:#fff;font-weight:500}
+.mani .sig{display:flex;gap:80px;margin-top:80px;flex-wrap:wrap}
+.mani .sig div{border-top:1px solid #2C2C2E;padding-top:20px;width:220px}
+.mani .sig strong{display:block;font-size:56px;font-weight:600;letter-spacing:-.04em}
+.mani .sig small{color:var(--dim);font-size:14px}
+/* film şeridi — yatay kaydırılır */
+.strip{padding:0 0 200px}
+.strip .head{display:flex;justify-content:space-between;align-items:end;margin-bottom:60px}
+.h2{font-size:64px;font-weight:600;letter-spacing:-.045em;line-height:1.02}
+.film{display:flex;gap:34px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 calc(50% - 590px) 20px;scrollbar-width:none}
+.film::-webkit-scrollbar{display:none}
+.film .it{flex:none;width:250px;scroll-snap-align:start}
+.film .iph{position:relative;width:250px;height:518px;border-radius:46px;padding:9px;transition:transform .6s var(--ease)}
+.film .it:hover .iph{transform:translateY(-10px)}
+.film .iph .s{border-radius:38px}
+.film .iph .s:before{width:78px;height:23px}
+.film .cap{margin-top:22px;font-size:16px;font-weight:600}
+.film .cap small{display:block;font-weight:400;color:var(--dim);font-size:13px;margin-top:4px}
+/* light */
+.light{background:var(--paper);color:#000;padding:180px 0}
+.light .eb{color:#636366}
+.light .lead{font-size:20px;color:#424245;line-height:1.55;max-width:640px;margin:24px auto 0}
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:90px;text-align:left}
+.sc{background:#fff;border-radius:28px;padding:44px 40px 40px;height:440px;position:relative;overflow:hidden;transition:transform .6s var(--ease),box-shadow .6s}
+.sc:hover{transform:translateY(-6px);box-shadow:0 30px 60px rgba(0,0,0,.08)}
+.sc .n{font-family:'Instrument Serif';font-style:italic;font-size:30px;color:#636366}
+.sc h3{font-size:30px;font-weight:600;letter-spacing:-.03em;margin-top:150px}
+.sc p{font-size:15px;color:#6E6E73;line-height:1.6;margin-top:12px}
+.sc .tg{display:flex;flex-wrap:wrap;gap:6px;margin-top:22px}
+.sc .tg span{font-size:12px;padding:6px 11px;border-radius:999px;background:#F5F5F7;color:#424245}
+.orb{position:absolute;right:-30px;top:-30px;width:250px;height:250px;border-radius:50%;transition:transform 1.2s var(--ease);
+background:radial-gradient(circle at 32% 28%,#fff 0%,#EDE6FF 18%,#C2A2FF 46%,#6F7CF5 78%,#2B2370 100%);box-shadow:0 40px 80px rgba(111,124,245,.35)}
+.sc:hover .orb{transform:rotate(25deg) scale(1.05)}
+.orb.o2{border-radius:42% 58% 56% 44%/50% 42% 58% 50%;background:radial-gradient(circle at 32% 28%,#fff 0%,#E2FFF9 18%,#7DEBDA 48%,#5C8DF0 85%)}
+.orb.o3{border-radius:34%;background:radial-gradient(circle at 32% 28%,#fff 0%,#FFE9F3 18%,#F7A8C8 46%,#9B7CF7 85%)}
+/* case */
+.case{padding:200px 0 120px}
+.case .big{border-radius:36px;height:820px;position:relative;overflow:hidden;background:radial-gradient(ellipse 60% 70% at 75% 60%,#FF6A2B 0%,#C93D12 45%,#2A0E05 100%)}
+.case .txt{position:absolute;left:70px;top:70px;width:420px}
+.case .txt .eb{color:rgba(255,255,255,.75)}
+.case .txt h3{font-size:84px;font-weight:600;letter-spacing:-.05em;line-height:.95;margin-top:18px}
+.case .txt p{font-size:18px;line-height:1.55;color:rgba(255,255,255,.85);margin-top:22px}
+.case .facts{position:absolute;left:70px;bottom:70px;display:flex;gap:50px}
+.case .facts strong{display:block;font-size:34px;font-weight:600;letter-spacing:-.03em}
+.case .facts small{font-size:13px;color:rgba(255,255,255,.75)}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+.duo .cs{height:640px;border-radius:36px;position:relative;overflow:hidden;padding:56px}
+.duo h3{font-size:44px;font-weight:600;letter-spacing:-.04em;margin-top:14px}
+.duo p{font-size:16px;line-height:1.55;margin-top:10px;max-width:330px;opacity:.8}
+.duo .iph{left:50%;transform:translateX(-50%) scale(.86);top:250px;transform-origin:top center;transition:transform .8s var(--ease)}
+.duo .cs:hover .iph{transform:translateX(-50%) scale(.86) translateY(-16px)}
+.am{background:radial-gradient(ellipse at 50% 90%,#3B2A10,#0D0A06 70%)}.am .eb{color:#C9A55C}
+.st{background:radial-gradient(ellipse at 50% 100%,#B3121F,#3A0408 75%)}.st .eb{color:#FFB3B8}
+/* process */
+.proc{padding:160px 0 160px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);margin-top:90px;border-top:1px solid #2C2C2E}
+.steps div{padding:34px 34px 0 0}
+.steps .k{font-family:'Instrument Serif';font-style:italic;font-size:44px}
+.steps h3{font-size:22px;font-weight:600;letter-spacing:-.02em;margin-top:22px}
+.steps p{font-size:14px;color:var(--dim);line-height:1.65;margin-top:10px}
+.tech{display:flex;justify-content:center;flex-wrap:wrap;gap:24px 58px;margin-top:130px;font-size:20px;font-weight:600;color:#8E8E93;letter-spacing:-.02em}
+.end{padding:150px 0 190px;position:relative;overflow:hidden;background:radial-gradient(ellipse 45% 60% at 50% 110%,rgba(140,130,255,.32),transparent 70%),#000}
+.end h2{font-size:132px;font-weight:600;letter-spacing:-.06em;line-height:.92}
+.end .serif{font-size:150px}
+.end p{color:var(--dim);font-size:19px;margin:30px 0 44px}
+.end .mail{display:block;margin-top:28px;color:#A1A1A6;font-size:15px}
+footer{border-top:1px solid #1C1C1E;padding:60px 0 40px;font-size:14px}
+.fg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
+.fg b{display:block;color:#fff;font-weight:500;margin-bottom:16px}
+.fg a,.fg span{display:block;color:var(--dim);margin-bottom:10px}
+.fg a:hover{color:#fff}
+.fl{display:flex;justify-content:space-between;color:#8E8E93;font-size:12px;margin-top:60px}
+.fl button{background:none;border:0;color:#8E8E93;font:12px 'JetBrains Mono';cursor:pointer}
+/* scroll reveal */
+.rv{opacity:0;transform:translateY(36px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.rv.in{opacity:1;transform:none}
+/* imleç — yayındaki CustomCursor, tek renk */
+.cur{position:fixed;left:0;top:0;z-index:95;pointer-events:none;mix-blend-mode:difference}
+.cur .d{position:absolute;width:6px;height:6px;margin:-3px;border-radius:50%;background:#fff}
+.cur .r{position:absolute;width:34px;height:34px;margin:-17px;border-radius:50%;border:1px solid rgba(255,255,255,.6);transition:width .35s var(--ease),height .35s var(--ease),margin .35s var(--ease),background .35s}
+.cur.view .r{width:84px;height:84px;margin:-42px;background:#fff;border-color:#fff}
+.cur .t{position:absolute;transform:translate(-50%,-50%);font-size:12px;font-weight:600;letter-spacing:.12em;color:#000;opacity:0;transition:opacity .25s;mix-blend-mode:normal}
+.cur.view .t{opacity:1}
+@media (hover:none),(pointer:coarse){.cur{display:none}}
+/* terminal easter egg — yayındaki TerminalEgg */
+#term{position:fixed;inset:0;z-index:90;display:none;place-items:center;background:rgba(0,0,0,.6);backdrop-filter:blur(6px)}
+#term.on{display:grid}
+#term .box{width:min(600px,92vw);border-radius:18px;background:#0B0B0D;border:1px solid #2C2C2E;font:13px/1.7 'JetBrains Mono';overflow:hidden}
+#term .hd{padding:12px 16px;border-bottom:1px solid #1C1C1E;color:#8E8E93;font-size:11px;letter-spacing:.18em}
+#term .bd{padding:14px 16px;max-height:46vh;overflow:auto;color:#C7C7CC}
+#term input{background:none;border:0;outline:0;color:#fff;font:inherit;width:90%}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.rv{opacity:1;transform:none}}
+/* MOBİL */
+@media (max-width:760px){
+ nav{left:12px;right:12px;transform:none;justify-content:space-between}
+ nav a.l{display:none}
+ .hero{height:auto;padding:130px 0 0}
+ .hero h1{font-size:44px}.hero h1 .serif{font-size:54px}
+ .hero p{font-size:17px;padding:0 20px}
+ .hero .acts{flex-direction:column;gap:6px}
+ .word{font-size:120px;top:430px}
+ .stage{position:relative;height:560px;margin-top:40px}
+ .hero .h1p{top:20px;left:calc(50% - 125px);width:250px;height:518px;border-radius:46px}
+ .hero .h2p,.hero .h3p,.spot{display:none}
+ .mani{padding:110px 0}.mani p{font-size:32px}.mani .sig{gap:24px}.mani .sig div{width:44%}.mani .sig strong{font-size:40px}
+ .h2,.strip .h2{font-size:40px}.strip .head{display:block}
+ .film{padding:0 20px 20px}
+ .light{padding:110px 0}.svc,.duo,.steps,.fg{grid-template-columns:1fr}
+ .sc{height:360px}.sc h3{margin-top:110px}
+ .case{padding:110px 0 60px}.case .big{height:900px}.case .txt{left:28px;right:28px;width:auto;top:36px}.case .txt h3{font-size:52px}
+ .case .facts{left:28px;bottom:auto;top:420px;gap:26px}.case .big .iph{display:none}.case .big .iph.keep{display:block;left:calc(50% - 145px)!important;top:520px!important;transform:none!important}
+ .duo .cs{padding:32px;height:600px}
+ .end h2{font-size:64px}.end .serif{font-size:74px}
+}
+</style></head><body class="pre">
+
+<div id="intro" aria-hidden="true">
+  <div class="mark"><pre id="raven"></pre><div id="iword"><span>C</span><span>O</span><span>R</span><span>V</span><span>U</span><span>S</span></div></div>
+  <button class="skip" type="button">Geç</button>
+</div>
+
+<nav aria-label="Ana menü">
+  <a class="logo" href="#" aria-label="Corvus ana sayfa"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 15.5C3 9.7 7.7 5 13.5 5H21l-4.2 4.6h-3.1a5.9 5.9 0 0 0-5.9 5.9V19H3v-3.5Z" fill="#fff"/><path d="M12.4 19v-3.4h4.9L12.4 19Z" fill="#fff" opacity=".55"/></svg>CORVUS</a>
+  <a class="l" href="#isler">İşler</a><a class="l" href="#hizmetler">Hizmetler</a><a class="l" href="#surec">Süreç</a><a class="l" href="#iletisim">İletişim</a>
+  <a class="cta" href="#iletisim">Projeni anlat</a>
+</nav>
+
+<header class="hero c grain">
+  <div class="eb rv0">İstanbul · Ürün stüdyosu</div>
+  <h1 class="rv0" style="transition-delay:.08s">Uygulamaların arkasındaki<br><span class="serif g">stüdyo.</span></h1>
+  <p class="rv0" style="transition-delay:.16s">iOS uygulamaları, SaaS ürünleri ve AI sistemleri. Fikirden App Store'a, tek ekip.</p>
+  <div class="acts rv0" style="transition-delay:.24s"><a class="pill pw" href="#iletisim">Projeni anlat</a><a class="lnk" href="#isler">İşleri keşfet</a></div>
+  <div class="word" aria-hidden="true">CORVUS</div>
+  <div class="stage" data-par>
+    <div class="spot"></div>
+    <div class="iph h2p refl" data-view><div class="s"><img src="img/tw-ov.jpg" alt="TripWalkers uygulamasında Tokyo gezi planı ekranı"></div></div>
+    <div class="iph h3p refl" data-view><div class="s"><img src="img/ba-grid.jpg" alt="BeAnyone uygulamasında karakter seçme ekranı"></div></div>
+    <div class="iph h1p refl" data-view><div class="s"><img src="img/al-dog.jpg" alt="Almagest uygulamasında doğum yeri seçme ekranı"></div></div>
+  </div>
+  <div class="fade"></div>
+</header>
+
+<div class="trust" aria-label="Stüdyonun ürünleri"><div class="eb">Stüdyonun ürünleri</div>
+  <div class="mq" aria-hidden="true"><span>TripWalkers</span><span>Almagest</span><span>SplitTable</span><span>Amelie</span><span>CVtoapply</span><span>Lingoria</span><span>BlokBom!</span><span>Quill</span><span>BeAnyone</span><span>TripWalkers</span><span>Almagest</span><span>SplitTable</span><span>Amelie</span><span>CVtoapply</span><span>Lingoria</span><span>BlokBom!</span><span>Quill</span><span>BeAnyone</span></div>
+</div>
+
+<section class="mani grain"><div class="w">
+  <p class="rv">Ajans değiliz. <b>Her ürünü kendi ürünümüz gibi</b> tasarlıyor, kodluyor ve yayına alıyoruz. Tasarım, mühendislik ve App Store <b>aynı masada.</b></p>
+  <div class="sig rv"><div><strong data-count="34">34</strong><small>Kurulan ürün</small></div><div><strong data-count="8">8</strong><small>Şu an canlı</small></div><div><strong data-count="3">3</strong><small>Uzmanlık alanı</small></div><div><strong data-count="1">1</strong><small>Ekip, uçtan uca</small></div></div>
+</div></section>
+
+<section class="strip" id="isler">
+  <div class="w head rv"><h2 class="h2">Ekranlar<br><span class="serif g" style="font-size:1.12em">kendini anlatır.</span></h2><a class="lnk" href="#">Tüm işler</a></div>
+  <div class="film rv" tabindex="0" aria-label="Ürün ekranları, yana kaydır">
+    <a class="it" href="#" data-view><div class="iph"><div class="s"><img src="img/tw-map.jpg" alt="TripWalkers harita ekranı"></div></div><div class="cap">TripWalkers<small>AI gezi planlayıcı · iOS</small></div></a>
+    <a class="it" href="#" data-view><div class="iph"><div class="s"><img src="img/st-kod.jpg" alt="SplitTable masa kodu okutma ekranı"></div></div><div class="cap">SplitTable<small>Restoranda hesap bölme · iOS</small></div></a>
+    <a class="it" href="#" data-view><div class="iph"><div class="s"><img src="img/am-tema.jpg" alt="Amelie davetiye teması ekranı"></div></div><div class="cap">Amelie<small>Dijital düğün davetiyesi · iOS</small></div></a>
+    <a class="it" href="#" data-view><div class="iph"><div class="s"><img src="img/ba-pay.jpg" alt="BeAnyone abonelik ekranı"></div></div><div class="cap">BeAnyone<small>AI karakter videosu · iOS</small></div></a>
+    <a class="it" href="#" data-view><div class="iph"><div class="s"><img src="img/q1.jpg" alt="Quill kişisel finans özet ekranı"></div></div><div class="cap">Quill<small>Kişisel finans · iOS</small></div></a>
+    <a class="it" href="#" data-view><div class="iph"><div class="s"><img src="img/cv-mob.jpg" alt="CVtoapply mobil CV düzenleme ekranı"></div></div><div class="cap">CVtoapply<small>ATS uyumlu CV · Web + iOS</small></div></a>
+  </div>
+</section>
+
+<section class="light c" id="hizmetler"><div class="w">
+  <h2 class="h2 rv">Tasarla. Kodla. <span class="serif">Yayınla.</span></h2>
+  <p class="lead rv">Üç alanda derinleşiyoruz. Her birinde fikirden yayına kadar aynı ekip.</p>
+  <div class="svc">
+    <div class="sc rv"><div class="orb"></div><div class="n">01</div><h3>iOS uygulaması</h3><p>SwiftUI ile native, hızlı, App Store onayından geçmiş uygulamalar.</p><div class="tg"><span>SwiftUI</span><span>StoreKit 2</span><span>RevenueCat</span></div></div>
+    <div class="sc rv" style="transition-delay:.1s"><div class="orb o2"></div><div class="n">02</div><h3>SaaS ve web</h3><p>Giriş yapılan, ödeme alan, panelli web ürünleri.</p><div class="tg"><span>Next.js</span><span>Supabase</span><span>Stripe · iyzico</span></div></div>
+    <div class="sc rv" style="transition-delay:.2s"><div class="orb o3"></div><div class="n">03</div><h3>AI sistemleri</h3><p>Gerçekten iş yapan ajanlar ve otomasyonlar. Ölçülmüş, test edilmiş.</p><div class="tg"><span>Claude</span><span>Çoklu ajan</span><span>Python</span></div></div>
+  </div>
+</div></section>
+
+<section class="case"><div class="w">
+  <div class="big grain rv" data-view>
+    <div class="txt"><div class="eb">Öne çıkan vaka · iOS · AI</div><h3>TripWalkers</h3><p>Boş bir günü saat saat yürünebilir bir gezi planına çeviren AI planlayıcı. Tasarımdan App Store'a, uygulama içi satın almadan 200 sayfalık SEO rehberine kadar.</p></div>
+    <div class="facts"><div><strong>v1.2.5</strong><small>App Store'da</small></div><div><strong>200</strong><small>SEO plan sayfası</small></div><div><strong>EN · TR</strong><small>İki dil</small></div></div>
+    <div class="iph" style="left:600px;top:150px;transform:rotate(-6deg) scale(.9);filter:brightness(.85)"><div class="s"><img src="img/tw-home.jpg" alt="TripWalkers ana ekran"></div></div>
+    <div class="iph keep" style="left:820px;top:90px;z-index:2"><div class="s"><img src="img/tw-day.jpg" alt="TripWalkers gün detayı ekranı"></div></div>
+  </div>
+  <div class="duo">
+    <div class="cs am grain rv" data-view><div class="eb">iOS · Düğün</div><h3>Amelie</h3><p>Film gibi hissettiren, online satılan dijital düğün davetiyeleri.</p><div class="iph"><div class="s"><img src="img/am-splash.jpg" alt="Amelie açılış ekranı, altın yazı"></div></div></div>
+    <div class="cs st grain rv" style="transition-delay:.1s" data-view><div class="eb">iOS + panel · Restoran</div><h3>SplitTable</h3><p>Masadaki kodu okut, hesabı böl, öde. İşletmeye canlı panel.</p><div class="iph"><div class="s"><img src="img/st-masa.jpg" alt="SplitTable masa ve hesap ekranı"></div></div></div>
+  </div>
+</div></section>
+
+<section class="proc" id="surec"><div class="w">
+  <h2 class="h2 rv">Önce ölç, <span class="serif g">sonra</span> yap.</h2>
+  <div class="steps rv">
+    <div><div class="k g">i.</div><h3>Araştırma</h3><p>Rakip ve kullanıcı yorumlarını okur, tek bir net hedef koyarız.</p></div>
+    <div><div class="k g">ii.</div><h3>Tasarım sistemi</h3><p>Renk, yazı ve hareket kuralları koddan önce belli olur.</p></div>
+    <div><div class="k g">iii.</div><h3>Kanıtlı geliştirme</h3><p>Her adım test ve gerçek veriyle ilerler.</p></div>
+    <div><div class="k g">iv.</div><h3>Yayın ve büyüme</h3><p>App Store, mağaza sayfası ve ölçüm. Yayın son değil, başlangıç.</p></div>
+  </div>
+  <div class="tech rv"><span>SwiftUI</span><span>Next.js</span><span>Supabase</span><span>RevenueCat</span><span>Claude</span><span>Vercel</span><span>Python</span></div>
+</div></section>
+
+<section class="end c grain" id="iletisim">
+  <h2 class="rv">Bir fikrin<br><span class="serif g">mi var?</span></h2>
+  <p class="rv">Bir paragrafla anlat. 48 saat içinde dürüst bir cevap alırsın.</p>
+  <a class="pill pw rv" href="mailto:hello@corvus-tech.co">Projeni anlat</a>
+  <span class="mail">hello@corvus-tech.co</span>
+</section>
+
+<footer><div class="w">
+  <div class="fg"><div><b style="letter-spacing:.16em;font-weight:600;font-size:12px">CORVUS</b><span style="max-width:280px">İstanbul'da bir ürün stüdyosu. iOS, SaaS ve AI.</span></div>
+  <div><b>Stüdyo</b><a href="#isler">İşler</a><a href="#surec">Süreç</a></div>
+  <div><b>Hizmetler</b><a href="#hizmetler">iOS uygulaması</a><a href="#hizmetler">SaaS ve web</a><a href="#hizmetler">AI sistemleri</a></div>
+  <div><b>İletişim</b><a href="mailto:hello@corvus-tech.co">hello@corvus-tech.co</a><a href="#">LinkedIn</a><a href="#">GitHub</a></div></div>
+  <div class="fl"><span>© 2026 Corvus Tech · İstanbul</span><button type="button" id="termBtn" aria-label="Terminali aç">&gt;_</button></div>
+</div></footer>
+
+<div class="cur" aria-hidden="true"><div class="r"></div><div class="d"></div><div class="t">GÖR</div></div>
+<div id="term" role="dialog" aria-label="Corvus terminal"><div class="box"><div class="hd">CORVUS — GUEST</div><div class="bd" id="tbd"></div></div></div>
+
+<script>
+(()=>{
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const qs=new URLSearchParams(location.search);
+const force=qs.get('intro')==='1', freeze=qs.get('t');
+const body=document.body, intro=document.getElementById('intro');
+const showHero=()=>body.classList.remove('pre');
+/* ---- INTRO ---- */
+const CH="@#%&*+=<>/\\{}10";
+let done=false, timers=[];
+const T=(f,ms)=>timers.push(setTimeout(f,ms));
+function finish(){
+  if(done) return; done=true; timers.forEach(clearTimeout);
+  const mark=intro.querySelector('.mark'), logo=document.querySelector('nav .logo svg');
+  const a=mark.getBoundingClientRect(), b=logo.getBoundingClientRect();
+  const s=b.height/a.height*2.2, dx=(b.left+b.width/2)-(a.left+a.width/2), dy=(b.top+b.height/2)-(a.top+a.height/2);
+  intro.classList.add('out'); mark.style.transform=`translate(${dx}px,${dy}px) scale(${s})`;
+  setTimeout(showHero,250); setTimeout(()=>intro.remove(),1000);
+  try{sessionStorage.setItem('cvIntro','1')}catch(e){}
+}
+function play(){
+  const pre=document.getElementById('raven'), L=window.RAVEN||[], per=640/L.length;
+  const rows=L.map(()=>'' );
+  L.forEach((line,i)=>T(()=>{            // satır satır, her satır önce karışık karakterle gelir
+    let k=0; const scr=()=>{k++; rows[i]=line.replace(/\S/g,c=>k>3?c:CH[Math.random()*CH.length|0]); pre.textContent=rows.join('\n'); if(k<=3) setTimeout(scr,40)}; scr();
+  },i*per));
+  T(()=>pre.classList.add('sweep'),720);                       // kuzgun tüyü ışıltısı soldan sağa geçer
+  T(()=>{const w=document.getElementById('iword');w.classList.add('on');w.querySelectorAll('span').forEach((s,i)=>s.style.transitionDelay=i*55+'ms')},820);
+  T(finish,2050);                                               // kuzgun nav logosuna küçülerek uçar
+}
+const played=(()=>{try{return sessionStorage.getItem('cvIntro')}catch(e){return null}})();
+if(freeze!==null){ // ekran görüntüsü için: ?t=ms → zamanı dondur
+  const t=+freeze; play(); setTimeout(()=>timers.forEach(clearTimeout),t);
+}else if(RM||(played&&!force)){ intro.remove(); showHero(); }
+else{ play(); intro.addEventListener('click',finish); addEventListener('keydown',e=>{if(['Escape','Enter',' '].includes(e.key))finish()},{once:true}); }
+/* ---- scroll reveal ---- */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+/* ---- CountUp (yayındaki) ---- */
+const co=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;co.unobserve(e.target);const el=e.target,to=+el.dataset.count;if(RM)return;let t0=null;const step=t=>{t0??=t;const p=Math.min((t-t0)/1400,1);el.textContent=Math.round(to*(1-Math.pow(1-p,4)));if(p<1)requestAnimationFrame(step)};requestAnimationFrame(step)}),{threshold:.6});
+document.querySelectorAll('[data-count]').forEach(el=>co.observe(el));
+/* ---- hero telefonları fareyle hafif derinlik ---- */
+const stage=document.querySelector('[data-par]');
+if(!RM&&matchMedia('(pointer:fine)').matches){addEventListener('mousemove',e=>{const x=(e.clientX/innerWidth-.5),y=(e.clientY/innerHeight-.5);stage.style.transform=`translate(${x*-14}px,${y*-8}px)`;document.querySelector('.word').style.translate=`${x*10}px 0`})}
+/* ---- imleç (yayındaki CustomCursor, tek renk + GÖR) ---- */
+const cur=document.querySelector('.cur');
+if(!RM&&matchMedia('(pointer:fine)').matches){let x=0,y=0,rx=0,ry=0;const d=cur.querySelector('.d'),r=cur.querySelector('.r'),t=cur.querySelector('.t');
+ addEventListener('mousemove',e=>{x=e.clientX;y=e.clientY;d.style.transform=`translate(${x}px,${y}px)`;cur.classList.toggle('view',!!e.target.closest('[data-view]'))});
+ (function loop(){rx+=(x-rx)*.16;ry+=(y-ry)*.16;r.style.transform=t.style.transform=`translate(${rx}px,${ry}px)`;t.style.transform+=' translate(-50%,-50%)';requestAnimationFrame(loop)})()}
+/* ---- terminal easter egg (yayındaki: "corvus" yaz ya da >_) ---- */
+const term=document.getElementById('term'),tbd=document.getElementById('tbd');let buf='';
+const openT=()=>{tbd.innerHTML='<div>CORVUS TECH TERMINAL — guest shell</div><div style="color:#8E8E93">"help" yaz · "exit" ile kapat</div><form><span class="g">❯</span> <input aria-label="komut" autocomplete="off"></form>';term.classList.add('on');const f=tbd.querySelector('form'),i=f.querySelector('input');i.focus();
+ f.onsubmit=ev=>{ev.preventDefault();const c=i.value.trim();const out={help:'ls · whoami · contact · exit',ls:'tripwalkers  almagest  splittable  amelie  cvtoapply  lingoria  quill  beanyone',whoami:'misafir — ama bu sitenin arkasındaki stüdyo gerçek ürün yayınlıyor.',contact:'hello@corvus-tech.co'}[c]??(c==='exit'?null:'komut yok: '+c);if(out===null){term.classList.remove('on');return}f.insertAdjacentHTML('beforebegin',`<div>❯ ${c}</div><div style="color:#8E8E93">${out}</div>`);i.value=''}};
+addEventListener('keydown',e=>{if(term.classList.contains('on')){if(e.key==='Escape')term.classList.remove('on');return}if(/input|textarea/i.test(e.target.tagName))return;buf=(buf+e.key.toLowerCase()).slice(-6);if(buf==='corvus')openT()});
+document.getElementById('termBtn').onclick=openT;term.onclick=e=>{if(e.target===term)term.classList.remove('on')};
+})();
+</script>
+</body></html>
