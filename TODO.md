@@ -1,5 +1,9 @@
 # corvus-site — Yol Haritası + PASS LOG
 
+## 09.10.2026 12:28 — PASS LOG: Safari telefon çerçevesi düzeltmesi
+- globals.css `.iph` aspect-ratio kaldırıldı, `.iph-screen` aspect-ratio 1206/2622, img absolute cover.
+- Kanıt: build 1.170 ✓ · WebKit+Chromium ölçüm 12/12 telefonda gap 0 · Safari motorunda hero/şerit/vaka/duo çekimi.
+
 ## 09.10.2026 12:17 — PASS LOG: ekran şeridi eşit ikon + tek sıra
 - page.tsx strip src → tile-*, ScreenStrip.tsx yorum, globals.css `@media (min-width:1100px) .film` grid.
 - Kanıt: build 1.170 ✓ · 1440/1280/390 ölçüm + çekim, taşma 0.
