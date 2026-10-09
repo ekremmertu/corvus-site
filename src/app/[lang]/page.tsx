@@ -43,9 +43,9 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   // Şerit = App Store vitrin görselleri, CEO seçimi 09.10.2026 (T1 · S1 · M5 · Q1 · C1). Quill'in vitrin seti yok → ham ekran.
   const strip: StripItem[] = [
     { slug: "tripwalkers", src: tr ? "/shots/vt-tw.jpg" : "/shots/vt-tw-en.jpg", alt: tr ? "TripWalkers App Store görseli: seyahat planlayıcın" : "TripWalkers App Store screenshot: your travel planner" },
-    { slug: "splittable", src: "/shots/vt-st.jpg", alt: tr ? "SplitTable App Store görseli: hesap geldi, kimse hesap yapmasın" : "SplitTable App Store screenshot: the bill is here, no math needed" },
-    { slug: "splittable", src: "/shots/vt-stm.jpg", alt: tr ? "SplitTable Manager App Store görseli: gün sonu raporu" : "SplitTable Manager App Store screenshot: end-of-day report", name: "SplitTable Manager" },
-    { slug: "quill", src: "/shots/vt-q.jpg", alt: tr ? "Quill ana ekran: aylık gelir ve harcama" : "Quill dashboard: monthly income and spending" },
+    { slug: "splittable", src: tr ? "/shots/vt-st.jpg" : "/shots/vt-st-en.jpg", alt: tr ? "SplitTable App Store görseli: hesap geldi, kimse hesap yapmasın" : "SplitTable App Store screenshot: the bill is here, no math needed" },
+    { slug: "splittable", src: tr ? "/shots/vt-stm.jpg" : "/shots/vt-stm-en.jpg", alt: tr ? "SplitTable Manager App Store görseli: gün sonu raporu" : "SplitTable Manager App Store screenshot: end-of-day report", name: "SplitTable Manager" },
+    { slug: "quill", src: tr ? "/shots/vt-q2.jpg" : "/shots/vt-q2-en.jpg", alt: tr ? "Quill gelir ekranı: para nereden geliyor" : "Quill income screen: where your money comes from" },
     { slug: "cvtoapply", src: tr ? "/shots/vt-cv.jpg" : "/shots/vt-cv-en.jpg", alt: tr ? "CVtoapply App Store görseli: CV'n harika görünüyor, robot katılmıyor" : "CVtoapply App Store screenshot: your CV looks great, the robot disagrees" },
   ].map((s) => {
     const p = bySlug(s.slug);
@@ -55,7 +55,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
 
   const webStrip: WebItem[] = [
     { slug: "cvtoapply", url: "cvtoapply.co", src: tr ? "/shots/web-cv.jpg" : "/shots/web-cv-en.jpg", alt: tr ? "CVtoapply web sitesi" : "CVtoapply website" },
-    { slug: "amelie-co", url: "ameliea.co", src: "/shots/web-am.jpg", alt: tr ? "Ameliea web sitesi" : "Ameliea website" },
+    { slug: "amelie-co", url: "ameliea.co", src: tr ? "/shots/web-am.jpg" : "/shots/web-am-en.jpg", alt: tr ? "Ameliea web sitesi" : "Ameliea website" },
     { slug: "splittable", url: "splittable.me", src: "/shots/web-st.jpg", alt: tr ? "SplitTable web sitesi" : "SplitTable website" },
   ].map((s) => {
     const p = bySlug(s.slug);
@@ -93,7 +93,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           { src: tr ? "/shots/tw-day.jpg" : "/shots/tw-day-en.jpg", alt: tr ? "TripWalkers gün detayı" : "TripWalkers day detail" },
         ]}
         duo={[
-          { project: bySlug("amelie-co"), tone: "gold", web: "ameliea.co", shot: { src: "/shots/web-am.jpg", alt: tr ? "Ameliea web sitesi" : "Ameliea website" } },
+          { project: bySlug("amelie-co"), tone: "gold", web: "ameliea.co", shot: { src: tr ? "/shots/web-am.jpg" : "/shots/web-am-en.jpg", alt: tr ? "Ameliea web sitesi" : "Ameliea website" } },
           { project: bySlug("splittable"), tone: "red", shot: { src: "/shots/st-real.jpg", alt: tr ? "SplitTable hesabı eşit bölme ekranı" : "SplitTable split-the-bill screen" } },
         ]}
         saas={{
