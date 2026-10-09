@@ -50,7 +50,7 @@ export default function Footer({ locale, d }: { locale: Locale; d: Dict }) {
             © 2026 {SITE.name}. {d.footer.rights}
           </span>
           <span style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
-            {SITE.city} · {d.footer.built} <TerminalTrigger />
+            {locale === "tr" ? "İstanbul" : SITE.city} · {d.footer.built} <TerminalTrigger />
           </span>
         </div>
       </div>
