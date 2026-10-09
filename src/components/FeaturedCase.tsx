@@ -26,7 +26,7 @@ export default function FeaturedCase({
   d: Dict;
   hero: Project;
   heroShots: [Shot, Shot];
-  duo: { project: Project; shot: Shot; tone: "gold" | "red" }[];
+  duo: { project: Project; shot: Shot; tone: "gold" | "red"; web?: string }[];
   saas: { project: Project; shot: Shot; url: string };
   entCount: number;
 }) {
@@ -120,12 +120,13 @@ export default function FeaturedCase({
             </div>
           </dl>
           <BrowserFrame url={locale === "tr" ? "Operasyon Paneli" : "Operations dashboard"} className="case-brw">
-            <BiDashboard variant="card" label={d.home.dashLabel} />
+            <BiDashboard variant="card" label={d.home.dashLabel} locale={locale} />
+            <FixStar n={13} style={{ position: "absolute", top: 10, left: 10 }} />
           </BrowserFrame>
         </Link>
 
         <div className="duo">
-          {duo.map(({ project, shot, tone }, i) => {
+          {duo.map(({ project, shot, tone, web }, i) => {
             const c = getCategory(project.category);
             return (
               <Link
@@ -138,10 +139,18 @@ export default function FeaturedCase({
                 <p className="eyebrow" style={{ margin: 0 }}>
                   <CatName name={c.name[locale]} />
                   {project.slug === "amelie-co" && <FixStar n={6} />}
+                  {project.slug === "amelie-co" && <FixStar n={16} />}
+                  {project.slug === "splittable" && <FixStar n={17} />}
                 </p>
                 <h3>{project.name}</h3>
                 <p>{project.summary[locale]}</p>
-                <Phone src={shot.src} alt={shot.alt} />
+                {web ? (
+                  <BrowserFrame url={web} className="duo-brw">
+                    <img src={shot.src} alt={shot.alt} width={1200} height={750} loading="lazy" decoding="async" />
+                  </BrowserFrame>
+                ) : (
+                  <Phone src={shot.src} alt={shot.alt} />
+                )}
               </Link>
             );
           })}

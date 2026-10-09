@@ -17,6 +17,12 @@ export const FIXES: Record<number, string> = {
   10: "/work kartlarına gerçek görsel, ortalı; kart zemini sayfadan ayrışıyor",
   11: "Gizli kartlar: gri iskelet çubuk yerine kilitli kart",
   12: "İngilizce sayfada İngilizce CVtoapply görseli",
+  13: "İngilizce sayfada kurumsal panel yazıları İngilizce (W16, 8.2%, Last 26 weeks…)",
+  14: "Türkçe sayfada etiketler Türkçe (40 bölüm, Kariyer simülasyonu…) + \"TRADİNG\" → \"TRADING\"",
+  15: "Filtre sayıları okunur (3,38 → ≥4,5:1)",
+  16: "Ameliea telefon yerine tarayıcı çerçevesinde (web ürünü)",
+  17: "Logo kapakları yerine gerçek uygulama ekranları (TripWalkers, SplitTable, CVtoapply)",
+  18: "Ürün adı bandı artık yürümüyor: sabit, ortalı satır",
 };
 
 export default function FixStar({ n, style }: { n: number; style?: React.CSSProperties }) {

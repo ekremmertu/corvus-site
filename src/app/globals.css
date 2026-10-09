@@ -199,10 +199,8 @@ html.pre-hero .hero-word { opacity: 0; letter-spacing: 0.02em; }
 
 /* ---------- Ürün şeridi (marquee) ---------- */
 .trust { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 28px 0; overflow: hidden; }
-.marquee { display: flex; gap: 64px; width: max-content; animation: marquee 40s linear infinite; }
+.marquee { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 12px 44px; max-width: 1180px; margin: 0 auto; padding: 0 24px; }
 .marquee span { font-size: 19px; font-weight: 600; letter-spacing: -0.02em; color: var(--dim); white-space: nowrap; }
-.trust:hover .marquee { animation-play-state: paused; }
-@keyframes marquee { to { transform: translateX(-50%); } }
 
 /* ---------- Manifesto ---------- */
 .mani { padding: 120px 0 110px; }
@@ -317,6 +315,8 @@ html.pre-hero .hero-word { opacity: 0; letter-spacing: 0.02em; }
 .duo-card p { font-size: 16px; line-height: 1.55; margin: 10px 0 0; max-width: 330px; color: rgba(255, 255, 255, 0.82); }
 .duo-card .iph { position: absolute; left: 50%; margin-left: -125px; top: 240px; transition: transform 0.8s var(--ease); }
 .duo-card:hover .iph { transform: translateY(-16px); }
+.duo-brw { position: absolute; left: 28px; right: -70px; top: 260px; transition: transform 0.8s var(--ease); }
+.duo-card:hover .duo-brw { transform: translateY(-12px); }
 .duo-gold { background: radial-gradient(ellipse at 50% 90%, #3b2a10, #0d0a06 70%); }
 .duo-gold .eyebrow { color: #c9a55c; }
 .duo-red { background: radial-gradient(ellipse at 50% 100%, #b3121f, #3a0408 75%); }
@@ -401,7 +401,8 @@ html.pre-hero .hero-word { opacity: 0; letter-spacing: 0.02em; }
 .tab { flex: none; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--line-2); background: transparent; color: var(--soft); font: inherit; font-size: 14px; cursor: pointer; transition: background 0.25s, color 0.25s, border-color 0.25s; }
 .tab:hover { color: #fff; border-color: #48484a; }
 .tab[aria-selected="true"] { background: #fff; color: #000; border-color: #fff; }
-.tab .c { font-size: 12px; opacity: 0.6; }
+.tab .c { font-size: 12px; color: #a1a1a6; }
+.tab[aria-selected="true"] .c { color: #48484d; }
 .grid-work { display: grid; gap: 16px; margin-top: 16px; padding-bottom: 110px; }
 @media (min-width: 640px) { .grid-work { grid-template-columns: 1fr 1fr; } }
 @media (min-width: 1024px) { .grid-work { grid-template-columns: repeat(3, 1fr); gap: 20px; } }

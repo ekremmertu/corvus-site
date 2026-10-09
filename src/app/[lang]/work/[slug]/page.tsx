@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDict, isLocale, locales } from "@/i18n/dict";
 import {
+  stackLabel,
   getCategory,
   openProjects,
   projects,
@@ -240,7 +241,7 @@ export default async function ProjectPage({
             <ul style={{ display: "flex", flexWrap: "wrap", gap: 8, listStyle: "none", margin: "16px 0 0", padding: 0 }}>
               {project.stack.map((s) => (
                 <li key={s} className="chip">
-                  {s}
+                  {stackLabel(s, lang)}
                 </li>
               ))}
             </ul>

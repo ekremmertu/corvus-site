@@ -92,8 +92,8 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           { src: "/shots/tw-day.jpg", alt: tr ? "TripWalkers gün detayı" : "TripWalkers day detail" },
         ]}
         duo={[
-          { project: bySlug("amelie-co"), tone: "gold", shot: { src: "/shots/cover-am.jpg", alt: "Ameliea" } },
-          { project: bySlug("splittable"), tone: "red", shot: { src: "/shots/cover-st.jpg", alt: "SplitTable" } },
+          { project: bySlug("amelie-co"), tone: "gold", web: "ameliea.co", shot: { src: "/shots/web-am.jpg", alt: tr ? "Ameliea web sitesi" : "Ameliea website" } },
+          { project: bySlug("splittable"), tone: "red", shot: { src: "/shots/st-real.jpg", alt: tr ? "SplitTable hesabı eşit bölme ekranı" : "SplitTable split-the-bill screen" } },
         ]}
         saas={{
           project: bySlug("cvtoapply"),
