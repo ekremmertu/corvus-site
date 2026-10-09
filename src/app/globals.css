@@ -195,7 +195,7 @@ html.pre-hero .hero-win { opacity: 0; translate: 0 80px; }
 html.pre-hero .hero .bi-line { stroke-dashoffset: 1; }
 @media (prefers-reduced-motion: reduce) { .hero-win, .hero .bi-line { transition: none; } }
 html.pre-hero .hero-word { opacity: 0; letter-spacing: 0.02em; }
-.hero-word { transition: opacity 1.6s var(--ease), letter-spacing 1.8s var(--ease); }
+.hero-word { transition: opacity 1s var(--ease), letter-spacing 1s var(--ease); }
 
 /* ---------- Ürün şeridi (marquee) ---------- */
 .trust { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 28px 0; overflow: hidden; }

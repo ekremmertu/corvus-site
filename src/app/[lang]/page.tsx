@@ -88,8 +88,8 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
         d={d}
         hero={bySlug("tripwalkers")}
         heroShots={[
-          { src: "/shots/tw-gen.jpg", alt: tr ? "TripWalkers Tokyo rotası hazırlanıyor" : "TripWalkers preparing a Tokyo route" },
-          { src: "/shots/tw-day.jpg", alt: tr ? "TripWalkers gün detayı" : "TripWalkers day detail" },
+          { src: tr ? "/shots/tw-gen.jpg" : "/shots/tw-gen-en.jpg", alt: tr ? "TripWalkers Tokyo rotası hazırlanıyor" : "TripWalkers preparing a Tokyo route" },
+          { src: tr ? "/shots/tw-day.jpg" : "/shots/tw-day-en.jpg", alt: tr ? "TripWalkers gün detayı" : "TripWalkers day detail" },
         ]}
         duo={[
           { project: bySlug("amelie-co"), tone: "gold", web: "ameliea.co", shot: { src: "/shots/web-am.jpg", alt: tr ? "Ameliea web sitesi" : "Ameliea website" } },
