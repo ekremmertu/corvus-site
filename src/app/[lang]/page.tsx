@@ -40,11 +40,11 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
 
   // Ana sayfadaki telefonlar logolu açılış ekranı gösterir; gerçek ekranlar yalnız öne çıkan app'te (CEO 09.10.2026).
   const strip: StripItem[] = [
-    { slug: "tripwalkers", src: "/shots/cover-tw.jpg", alt: "TripWalkers" },
-    { slug: "splittable", src: "/shots/cover-st.jpg", alt: "SplitTable" },
-    { slug: "amelie-co", src: "/shots/cover-am.jpg", alt: "Ameliea" },
-    { slug: "quill", src: "/shots/cover-q.jpg", alt: "Quill" },
-    { slug: "cvtoapply", src: "/shots/cover-cv.jpg", alt: "CVtoapply" },
+    { slug: "tripwalkers", src: "/shots/tile-tw.jpg", alt: "TripWalkers" },
+    { slug: "splittable", src: "/shots/tile-st.jpg", alt: "SplitTable" },
+    { slug: "amelie-co", src: "/shots/tile-am.jpg", alt: "Ameliea" },
+    { slug: "quill", src: "/shots/tile-q.jpg", alt: "Quill" },
+    { slug: "cvtoapply", src: "/shots/tile-cv.jpg", alt: "CVtoapply" },
   ].map((s) => {
     const p = bySlug(s.slug);
     const cat = categories.find((c) => c.slug === p.category)!;

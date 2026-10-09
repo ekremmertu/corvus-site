@@ -214,6 +214,11 @@ html.pre-hero .hero-word { opacity: 0; letter-spacing: 0.02em; }
   .film-item .iph { border-radius: 46px; padding: 9px; }
   .film-item .iph-screen { border-radius: 38px; }
 }
+/* geniş ekranda 5 telefon kesilmeden tek sırada (CEO 09.10.2026) */
+@media (min-width: 1100px) {
+  .film { display: grid; grid-template-columns: repeat(5, 1fr); gap: clamp(20px, 2.4vw, 34px); overflow: visible; width: min(var(--wrap), calc(100% - 2 * var(--gutter))); margin-inline: auto; padding: 0 0 24px; }
+  .film-item, .film-item .iph { width: 100%; }
+}
 
 /* ---------- Açık bölüm: disiplinler ---------- */
 .light { background: var(--paper); color: #000; padding: 110px 0; }

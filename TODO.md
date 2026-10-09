@@ -1,5 +1,9 @@
 # corvus-site — Yol Haritası + PASS LOG
 
+## 09.10.2026 12:17 — PASS LOG: ekran şeridi eşit ikon + tek sıra
+- page.tsx strip src → tile-*, ScreenStrip.tsx yorum, globals.css `@media (min-width:1100px) .film` grid.
+- Kanıt: build 1.170 ✓ · 1440/1280/390 ölçüm + çekim, taşma 0.
+
 ## 09.10.2026 12:13 — PASS LOG: logolu kapaklar + açılış yazısı + hero sırası
 - Hero.tsx, page.tsx, FeaturedCase.tsx (logo varyantı kaldırıldı), globals.css (.intro-word, .duo-logo silindi), dict.ts (featured).
 - Kanıt: build 1.170 sayfa ✓ · taşma 0 (1440+390) · intro yazı merkezi 720,5 vs logo 720 (masaüstü), 195,5 vs 194,5 (mobil).
