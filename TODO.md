@@ -1,5 +1,9 @@
 # corvus-site — Yol Haritası + PASS LOG
 
+## 09.10.2026 12:13 — PASS LOG: logolu kapaklar + açılış yazısı + hero sırası
+- Hero.tsx, page.tsx, FeaturedCase.tsx (logo varyantı kaldırıldı), globals.css (.intro-word, .duo-logo silindi), dict.ts (featured).
+- Kanıt: build 1.170 sayfa ✓ · taşma 0 (1440+390) · intro yazı merkezi 720,5 vs logo 720 (masaüstü), 195,5 vs 194,5 (mobil).
+
 ## 09.10.2026 11:58 — PASS LOG: ekran seçkisi + SplitTable logo + Ameliea tam ekran (`c29f07a`)
 - page.tsx şerit/duo görselleri değişti; FeaturedCase logo varyantı; globals.css `.duo-logo`; projects.ts SplitTable summary TR/EN.
 - Kök neden (TW taşma): tw-home ekran görüntüsünün alt menüsü kendi içinde kesik → görsel değişti, çerçeve aynı.
