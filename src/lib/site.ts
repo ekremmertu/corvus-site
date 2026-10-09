@@ -12,7 +12,7 @@ export const SITE = {
   linkedinLabel: "linkedin.com/in/corvus-tech",
   city: "Istanbul",
   country: "TR",
-  founded: "2025",
+  founded: "2021",
   description: {
     en: "Product studio building iOS apps, web platforms, trading systems and AI agent infrastructure — designed, engineered and shipped in one place.",
     tr: "iOS uygulamaları, web platformları, trading sistemleri ve AI ajan altyapıları kuran ürün stüdyosu — tasarım, mühendislik ve yayın tek yerde.",

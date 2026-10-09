@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { getDict, isLocale } from "@/i18n/dict";
+import { SITE } from "@/lib/site";
 import { categories, openProjects, projects, toCards, type CategorySlug } from "@/data/projects";
 import Intro from "@/components/fx/Intro";
 import Hero from "@/components/Hero";
@@ -72,7 +73,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           { value: String(projects.length), label: d.stats.projects },
           { value: String(live), label: d.stats.live, star: 4 },
           { value: String(categories.length), label: d.stats.disciplines },
-          { value: "2025", label: d.stats.years, static: true },
+          { value: SITE.founded, label: d.stats.years, static: true },
         ]}
       />
       <ScreenStrip
