@@ -1,3 +1,4 @@
+> Son çalışma: 09.10.2026 14:57
 # corvus-site — Yol Haritası + PASS LOG
 
 ## 09.10.2026 13:50 — PASS LOG: ana sayfa genişledi (web/SaaS/kurumsal) — Yön A+B+C
@@ -72,6 +73,11 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 09.10.2026 14:57 — PASS: hakem düzeltmeleri ★1–12 (commit 0191dba)
+- Dosyalar: FixStar.tsx (yeni), CatName.tsx (yeni), ProjectCard, WorkExplorer, FeaturedCase, Disciplines, ScreenStrip, Manifesto, Hero, layout, page.tsx, dict.ts, taxonomy.ts, projects.ts, globals.css, public/shots/web-cv-en.jpg.
+- Kök nedenler: tr-TR uppercase "iOS"→"İOS"; turuncu kart kontrastı 2,87; "Canlıda" teslim edilen iç araçları da sayıyordu; EN'de 3 farklı CTA adı; /work kartları görselsizdi.
+- Etki: 16/16 kombinasyon taşma 0 · kırık görsel 0. Hakem yeniden puanlıyor. Canlıya yayın CEO onayı bekliyor.
 
 ### 09.10.2026 11:37 — v2 lüks stüdyo teması (commit `a181594`, dal feat/v2-luks-tema)
 - Yeni/değişen: globals.css (baştan) · layout (fontlar, 3D/SweepFx çıktı) · page.tsx · Hero, Marquee, Manifesto, ScreenStrip, Disciplines, FeaturedCase, Process, Faq, Contact, Footer, Nav, Phone, ProjectCard, WorkExplorer, fx/Intro, fx/CustomCursor, fx/Parallax · work + detay sayfası · not-found + [lang]/[...rest] · opengraph-image · dict.ts (hero/home/nav.cta)
