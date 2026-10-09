@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import CatName from "@/components/CatName";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDict, isLocale, locales } from "@/i18n/dict";
@@ -136,7 +137,7 @@ export default async function ProjectPage({
             ← {d.work.backToWork}
           </Link>
           <p className="eyebrow" style={{ margin: "28px 0 0" }}>
-            {category.name[lang]}
+            <CatName name={category.name[lang]} />
           </p>
           <VT name={`proj-${project.slug}`}>
             <h1 className="h-display" style={{ margin: "16px 0 0" }}>

@@ -1,4 +1,5 @@
 import type { Dict } from "@/i18n/dict";
+import FixStar from "@/components/fx/FixStar";
 import CountUp from "@/components/fx/CountUp";
 
 /** "Ajans değiliz…" + veriden hesaplanan rakamlar. */
@@ -7,7 +8,7 @@ export default function Manifesto({
   stats,
 }: {
   d: Dict;
-  stats: { value: string; label: string; static?: boolean }[];
+  stats: { value: string; label: string; static?: boolean; star?: number }[];
 }) {
   return (
     <section className="mani grain" aria-label={d.home.mani1}>
@@ -23,7 +24,10 @@ export default function Manifesto({
                 <strong>
                   {s.static ? s.value : <CountUp value={s.value} />}
                 </strong>
-                <small>{s.label}</small>
+                <small>
+                  {s.label}
+                  {s.star && <FixStar n={s.star} />}
+                </small>
               </dd>
             </div>
           ))}

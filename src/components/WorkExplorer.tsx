@@ -31,8 +31,14 @@ export default function WorkExplorer({ locale, d, cards }: { locale: Locale; d: 
         ))}
       </div>
       <div className="grid-work" role="tabpanel">
-        {list.map((p) => (
-          <ProjectCard key={`${p.category}-${p.slug}`} project={p} locale={locale} d={d} />
+        {list.map((p, i) => (
+          <ProjectCard
+            key={`${p.category}-${p.slug}`}
+            project={p}
+            locale={locale}
+            d={d}
+            mark={i === 0 || (Boolean(p.veil) && list.findIndex((x) => x.veil) === i)}
+          />
         ))}
       </div>
       {list.length === 0 && <p className="lede">{d.work.empty}</p>}

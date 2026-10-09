@@ -3,12 +3,14 @@ import { categories, type CategorySlug, type Locale } from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
 import Phone from "@/components/Phone";
 import BrowserFrame from "@/components/BrowserFrame";
+import FixStar from "@/components/fx/FixStar";
 
 /**
  * Açık zeminde 5 disiplin, görselli vitrin (CEO 09.10.2026, Yön C):
  * iOS geniş + Kurumsal dar · Web & AI yarım · Fintech tam genişlik. Metin taksonomiden.
  */
 const ORDER: CategorySlug[] = ["ios", "enterprise", "web", "ai", "fintech"];
+const STAR: Partial<Record<CategorySlug, number>> = { ios: 2, ai: 3, enterprise: 9 };
 const CLS: Record<CategorySlug, string> = { ios: "disc-ios", enterprise: "disc-ent", web: "disc-web", ai: "disc-ai", fintech: "disc-fin" };
 
 function Visual({ slug }: { slug: CategorySlug }) {
@@ -67,7 +69,10 @@ export default function Disciplines({ locale, d, counts }: { locale: Locale; d: 
             const c = categories.find((x) => x.slug === slug)!;
             return (
               <Link key={slug} href={`/${locale}/work?d=${slug}`} className={`disc-card ${CLS[slug]} reveal`} style={{ transitionDelay: `${(i % 2) * 0.08}s` }}>
-                <h3>{c.name[locale]}</h3>
+                <h3>
+                  {c.name[locale]}
+                  {STAR[slug] && <FixStar n={STAR[slug]!} />}
+                </h3>
                 <span className="cnt">
                   {counts[slug] ?? 0} {d.home.projects}
                 </span>

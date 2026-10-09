@@ -16,6 +16,7 @@ export const projects: Project[] = [
   // ─────────────────────────────  iOS  ─────────────────────────────
   {
     slug: "tripwalkers",
+    cover: { src: "/shots/vt-tw.jpg", kind: "poster" },
     name: "TripWalkers",
     category: "ios",
     status: "live",
@@ -93,6 +94,7 @@ export const projects: Project[] = [
   },
   {
     slug: "quill",
+    cover: { src: "/shots/vt-q.jpg", kind: "poster" },
     name: "Quill",
     category: "ios",
     status: "live",
@@ -127,6 +129,7 @@ export const projects: Project[] = [
   },
   {
     slug: "splittable",
+    cover: { src: "/shots/vt-st.jpg", kind: "poster" },
     name: "SplitTable",
     category: "ios",
     status: "beta",
@@ -162,6 +165,7 @@ export const projects: Project[] = [
   },
   {
     slug: "splittable-manager",
+    cover: { src: "/shots/vt-stm.jpg", kind: "poster" },
     name: "SplitTable Manager",
     category: "ios",
     status: "beta",
@@ -192,6 +196,7 @@ export const projects: Project[] = [
   },
   {
     slug: "lingoria",
+    cover: { src: "/shots/vt-lin.jpg", kind: "poster" },
     name: "Lingoria",
     category: "ios",
     status: "live",
@@ -429,6 +434,7 @@ export const projects: Project[] = [
   },
   {
     slug: "blokbom",
+    cover: { src: "/shots/vt-blk.jpg", kind: "poster" },
     name: "BlokBom!",
     category: "ios",
     status: "live",
@@ -578,6 +584,7 @@ export const projects: Project[] = [
   },
   {
     slug: "amelie-co",
+    cover: { src: "/shots/web-am.jpg", kind: "web" },
     name: "Ameliea",
     category: "web",
     status: "live",
@@ -608,11 +615,11 @@ export const projects: Project[] = [
       ],
     },
     metrics: [
-      { label: { en: "Status", tr: "Durum" }, value: "Live" },
     ],
   },
   {
     slug: "supply-chain-council",
+    cover: { src: "/shots/panel-council.jpg", kind: "web" },
     name: "Supply Chain Council",
     category: "web",
     status: "beta",
@@ -646,6 +653,7 @@ export const projects: Project[] = [
   },
   {
     slug: "cvtoapply",
+    cover: { src: "/shots/web-cv.jpg", srcEn: "/shots/web-cv-en.jpg", kind: "web" },
     name: "CVtoapply",
     category: "web",
     status: "live",
@@ -912,6 +920,7 @@ export const projects: Project[] = [
   // ─────────────────────────  AI AUTOMATION  ────────────────────────
   {
     slug: "growth-engine",
+    cover: { src: "/shots/panel-growth.jpg", kind: "web" },
     name: "Growth Engine",
     category: "ai",
     status: "beta",
@@ -1142,6 +1151,7 @@ export function toCards(list: Project[] = projects): CardProject[] {
           summary: p.summary,
           metrics: p.metrics,
           appStoreSoon: p.appStoreSoon,
+          cover: p.cover,
         };
     })
     .flatMap((card, i) => {

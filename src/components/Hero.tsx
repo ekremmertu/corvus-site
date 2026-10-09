@@ -1,4 +1,5 @@
 import type { Locale } from "@/data/taxonomy";
+import FixStar from "@/components/fx/FixStar";
 import type { Dict } from "@/i18n/dict";
 import Phone from "@/components/Phone";
 import Parallax from "@/components/fx/Parallax";
@@ -31,6 +32,7 @@ export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
         <Link href={`/${locale}/work`} className="link-arrow">
           {d.hero.ctaSecondary}
         </Link>
+        <FixStar n={5} />
       </div>
 
       <div className="hero-word" aria-hidden>
@@ -40,9 +42,12 @@ export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
         <div className="hero-spot" aria-hidden />
         <figure className="hero-win hero-win-l">
           <BrowserFrame url="cvtoapply.co">
-            <img src="/shots/web-cv.jpg" alt={tr ? "CVtoapply web sitesi ana sayfası" : "CVtoapply website home page"} width={1200} height={750} decoding="async" />
+            <img src={tr ? "/shots/web-cv.jpg" : "/shots/web-cv-en.jpg"} alt={tr ? "CVtoapply web sitesi ana sayfası" : "CVtoapply website home page"} width={1200} height={750} decoding="async" />
           </BrowserFrame>
-          <figcaption>{d.home.stageWeb}</figcaption>
+          <figcaption>
+            {d.home.stageWeb}
+            <FixStar n={12} />
+          </figcaption>
         </figure>
         <figure className="hero-win hero-win-r">
           <BrowserFrame url={tr ? "Operasyon Paneli" : "Operations dashboard"}>
