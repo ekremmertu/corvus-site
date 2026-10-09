@@ -46,7 +46,7 @@ export default function ProjectCard({ project, locale, d }: { project: CardProje
         <span className={isLive ? "live" : undefined}>{status}</span>
       </div>
       <VT name={`proj-${project.slug}`}>
-        <h3>{project.name}</h3>
+        <h2 className="pcard-title">{project.name}</h2>
       </VT>
       <p>{project.summary?.[locale]}</p>
       {project.metrics && project.metrics.length > 0 && (

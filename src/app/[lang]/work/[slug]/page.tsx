@@ -276,7 +276,7 @@ export default async function ProjectPage({
         <div className="wrap">
           <Link href={`/${lang}/work/${next.slug}`} className="next">
             <span>
-              <span className="eyebrow">{d.work.nextProject}</span>
+              <span style={{ color: "var(--dim)", fontSize: 15 }}>{d.work.nextProject}</span>
               <span className="name">{next.name}</span>
             </span>
             <span className="arrow" aria-hidden>

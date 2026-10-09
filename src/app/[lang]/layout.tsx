@@ -125,8 +125,9 @@ export default async function LocaleLayout({
   };
 
   return (
-    <html lang={lang} className={`${sans.variable} ${serif.variable} ${mono.variable}`}>
+    <html lang={lang} suppressHydrationWarning className={`${sans.variable} ${serif.variable} ${mono.variable}`}>
       <body>
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

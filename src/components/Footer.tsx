@@ -34,7 +34,7 @@ export default function Footer({ locale, d }: { locale: Locale; d: Dict }) {
               {d.nav.process}
             </SectionLink>
             <SectionLink locale={locale} id="faq">
-              FAQ
+              {d.nav.faq}
             </SectionLink>
           </nav>
           <div>
