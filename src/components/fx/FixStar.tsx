@@ -21,7 +21,9 @@ export const FIXES: Record<number, string> = {
   14: "Türkçe sayfada etiketler Türkçe (40 bölüm, Kariyer simülasyonu…) + \"TRADİNG\" → \"TRADING\"",
   15: "Filtre sayıları okunur (3,38 → ≥4,5:1)",
   16: "Ameliea telefon yerine tarayıcı çerçevesinde (web ürünü)",
-  17: "Logo kapakları yerine gerçek uygulama ekranları (TripWalkers, SplitTable, CVtoapply)",
+  17: "Logo kapakları yerine gerçek ekranlar; iOS kartında yukarıda geçmeyen 3 uygulama (Manager, Quill, Lingoria)",
+  19: "Giriş başlığı geçişi 1,6–1,8 sn → 1 sn",
+  20: "İngilizce sayfada TripWalkers ekranları İngilizce (hero + öne çıkan app)",
   18: "Ürün adı bandı artık yürümüyor: sabit, ortalı satır",
 };
 

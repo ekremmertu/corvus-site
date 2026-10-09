@@ -19,15 +19,15 @@ function Visual({ slug }: { slug: CategorySlug }) {
     case "ios":
       return (
         <div className="dv">
-          <Phone src="/shots/st-real.jpg" alt="" />
-          <Phone src="/shots/tw-day.jpg" alt="" />
-          <Phone src="/shots/cv-real.jpg" alt="" />
+          <Phone src="/shots/bento-stm.jpg" alt="" />
+          <Phone src="/shots/bento-quill.jpg" alt="" />
+          <Phone src="/shots/bento-lin.jpg" alt="" />
         </div>
       );
     case "web":
       return (
-        <BrowserFrame url="ameliea.co" className="dv">
-          <img src="/shots/web-am.jpg" alt="" width={1200} height={750} loading="lazy" decoding="async" />
+        <BrowserFrame url="splittable.me" className="dv">
+          <img src="/shots/web-st.jpg" alt="" width={1200} height={750} loading="lazy" decoding="async" />
         </BrowserFrame>
       );
     case "ai":

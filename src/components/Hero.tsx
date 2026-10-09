@@ -33,6 +33,8 @@ export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
           {d.hero.ctaSecondary}
         </Link>
         <FixStar n={5} />
+        <FixStar n={19} />
+        <FixStar n={20} />
       </div>
 
       <div className="hero-word" aria-hidden>
@@ -57,7 +59,7 @@ export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
         </figure>
         <Phone
           className="iph-lg reflect"
-          src="/shots/tw-day.jpg"
+          src={tr ? "/shots/tw-day.jpg" : "/shots/tw-day-en.jpg"}
           alt={tr ? "TripWalkers günlük gezi planı ekranı" : "TripWalkers day-by-day plan screen"}
           style={{ zIndex: 5, transitionDelay: ".15s" }}
           eager
