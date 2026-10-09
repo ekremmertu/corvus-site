@@ -1,5 +1,10 @@
 # corvus-site — Yol Haritası + PASS LOG
 
+## 09.10.2026 11:58 — PASS LOG: ekran seçkisi + SplitTable logo + Ameliea tam ekran (`c29f07a`)
+- page.tsx şerit/duo görselleri değişti; FeaturedCase logo varyantı; globals.css `.duo-logo`; projects.ts SplitTable summary TR/EN.
+- Kök neden (TW taşma): tw-home ekran görüntüsünün alt menüsü kendi içinde kesik → görsel değişti, çerçeve aynı.
+- Kanıt: `npm run build` 1.170 sayfa ✓ · masaüstü+mobil çekim, yatay taşma 0 · /tr/work/splittable 200. Kör hakem 3. tur YAPILMADI.
+
 ## Sonraki Oturum İçin
 **Aktif durum:** **CANLI YAYINDA — https://corvus-tech.co**. Son commit `cc6bced`, **34 proje / 36 kart** (10'u perdeli, 59 sayfa). Önce `.claude-state.md` oku.
 
@@ -43,6 +48,13 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 09.10.2026 11:37 — v2 lüks stüdyo teması (commit `a181594`, dal feat/v2-luks-tema)
+- Yeni/değişen: globals.css (baştan) · layout (fontlar, 3D/SweepFx çıktı) · page.tsx · Hero, Marquee, Manifesto, ScreenStrip, Disciplines, FeaturedCase, Process, Faq, Contact, Footer, Nav, Phone, ProjectCard, WorkExplorer, fx/Intro, fx/CustomCursor, fx/Parallax · work + detay sayfası · not-found + [lang]/[...rest] · opengraph-image · dict.ts (hero/home/nav.cta)
+- Silinen: scene/*, SweepFx, DisciplineStage, BrandFilm, ProjectSceneSync, HomeWork, Stats, Scramble, public/videos (21 MB)
+- Kök neden düzeltmeleri: düz beyaz 404 (catch-all yoktu) · 'Tümü'de alsoIn kopyaları çift görünüyordu
+- Kanıt: build 1.170 sayfa temiz; 18 çekimde yatay taşma 0; hero CTA tıklanır
+- Yedek: etiket yedek/canli-2026-10-09, _yedek/ arşiv + 58 ekran görüntüsü
 
 ### 2026-08-24 (18. tur) — Kurumsal e-posta siteye eklendi
 
