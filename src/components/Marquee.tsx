@@ -1,36 +1,17 @@
-const WORDS = [
-  "SwiftUI",
-  "Next.js",
-  "Supabase",
-  "Swift 6",
-  "TypeScript",
-  "Python",
-  "Multi-agent AI",
-  "StoreKit 2",
-  "FastAPI",
-  "Pine Script",
-  "Power BI",
-  "Three.js",
-];
-
-export default function Marquee() {
-  const row = [...WORDS, ...WORDS];
+/** Ürün adı şeridi — yalnız perdesiz ürünler, ikiye katlanır (kesintisiz döngü). */
+export default function Marquee({ label, names }: { label: string; names: string[] }) {
+  const loop = [...names, ...names];
   return (
-    <div
-      aria-hidden
-      className="relative overflow-hidden border-y border-[color:var(--c-border)] bg-[color:var(--c-bg)]/70 py-4"
-    >
-      <div className="marquee-track gap-10">
-        {row.map((w, i) => (
-          <span
-            key={`${w}-${i}`}
-            className="mono flex shrink-0 items-center gap-10 text-[11px] uppercase tracking-[0.22em] text-faint"
-          >
-            {w}
-            <span style={{ color: "var(--c-live)" }}>◆</span>
-          </span>
+    <section className="trust" aria-label={label}>
+      <p className="eyebrow" style={{ textAlign: "center", margin: "0 0 18px", fontSize: 11 }}>
+        {label}
+      </p>
+      <p className="sr-only">{names.join(", ")}</p>
+      <div className="marquee" aria-hidden>
+        {loop.map((n, i) => (
+          <span key={i}>{n}</span>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

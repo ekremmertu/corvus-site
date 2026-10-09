@@ -4,7 +4,7 @@ import { SITE } from "@/lib/site";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const alt = "Corvus Tech — product studio";
+export const alt = "Corvus Tech — the studio behind the apps";
 
 export default async function OgImage({
   params,
@@ -14,12 +14,10 @@ export default async function OgImage({
   const { lang } = await params;
   const locale = isLocale(lang) ? lang : "en";
 
-  const headline =
-    locale === "tr" ? "Yayına çıkan ürünler kuruyoruz." : "We build products that ship.";
-  const sub =
-    locale === "tr"
-      ? "iOS · Web · Fintech · AI Otomasyon · Kurumsal"
-      : "iOS · Web · Fintech · AI Automation · Enterprise";
+  const tr = locale === "tr";
+  const l1 = tr ? "Uygulamaların arkasındaki" : "The studio behind";
+  const l2 = tr ? "stüdyo." : "the apps.";
+  const sub = tr ? "iOS · SaaS · AI · Fintech · Kurumsal" : "iOS · SaaS · AI · Fintech · Enterprise";
 
   return new ImageResponse(
     (
@@ -29,41 +27,56 @@ export default async function OgImage({
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          justifyContent: "space-between",
-          background: "#05060a",
-          padding: 72,
+          alignItems: "center",
+          justifyContent: "center",
+          background: "#000",
+          color: "#fff",
           fontFamily: "sans-serif",
-          color: "#f4f6fb",
+          position: "relative",
         }}
       >
         <div
           style={{
             position: "absolute",
-            top: 180,
-            left: 640,
+            bottom: -260,
+            left: 250,
             width: 700,
-            height: 700,
+            height: 520,
             borderRadius: 9999,
-            background: "#5B8CFF",
-            opacity: 0.22,
+            background: "#8e9bff",
+            opacity: 0.28,
             filter: "blur(120px)",
           }}
         />
-        <div style={{ display: "flex", alignItems: "center", gap: 14, letterSpacing: 6 }}>
-          <div style={{ width: 14, height: 14, borderRadius: 4, background: "#5B8CFF" }} />
-          <div style={{ fontSize: 24, textTransform: "uppercase" }}>{SITE.name}</div>
+        <div
+          style={{
+            position: "absolute",
+            bottom: -60,
+            fontSize: 330,
+            fontWeight: 800,
+            letterSpacing: -20,
+            color: "rgba(255,255,255,0.07)",
+          }}
+        >
+          CORVUS
         </div>
-
-        <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
-          <div style={{ fontSize: 84, fontWeight: 800, lineHeight: 1.02, maxWidth: 900 }}>
-            {headline}
-          </div>
-          <div style={{ fontSize: 28, color: "#9aa2b8" }}>{sub}</div>
+        <div style={{ fontSize: 20, letterSpacing: 8, color: "#8e8e93", textTransform: "uppercase" }}>
+          {SITE.name} · {SITE.city}
         </div>
-
-        <div style={{ fontSize: 22, color: "#5c6479", letterSpacing: 4 }}>
-          {SITE.url.replace("https://", "")}
+        <div style={{ fontSize: 78, fontWeight: 700, letterSpacing: -3, marginTop: 28 }}>{l1}</div>
+        <div
+          style={{
+            fontSize: 92,
+            fontStyle: "italic",
+            fontWeight: 400,
+            backgroundImage: "linear-gradient(100deg, #8e9bff, #c2a2ff 45%, #7debda)",
+            backgroundClip: "text",
+            color: "transparent",
+          }}
+        >
+          {l2}
         </div>
+        <div style={{ fontSize: 24, color: "#a1a1a6", marginTop: 30 }}>{sub}</div>
       </div>
     ),
     size
