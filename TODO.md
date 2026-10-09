@@ -1,4 +1,4 @@
-> Son çalışma: 09.10.2026 14:57
+> Son çalışma: 09.10.2026 15:54
 # corvus-site — Yol Haritası + PASS LOG
 
 ## 09.10.2026 13:50 — PASS LOG: ana sayfa genişledi (web/SaaS/kurumsal) — Yön A+B+C
@@ -73,6 +73,12 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 09.10.2026 15:54 — PASS: hakem 2. tur ★13–18 + CEO ek istekleri (commits 91f75d4, f7ebe79, d91e35d)
+- 91f75d4: iOS bento telefonları 150→196 px (mobil 102 ortalı), /work kart zemini #18181b, kapak ortalı 29/29 px.
+- f7ebe79: 12 proje status live → Canlıda 18 = /work 18 Yayında rozeti (tek kaynak page.tsx status==='live').
+- d91e35d: EN panel, TR etiketler + TRADING, filtre kontrastı, Ameliea tarayıcıda, gerçek ekranlar (st-real, cv-real, tw-day), sabit ürün satırı.
+- Hakem 2. tur: 15/20 GEÇMEZ (hk4). 3. tur sonucu bekleniyor (hk5). Açık: renk sadeleştirme (CEO seçmedi), görselsiz /work kartlarında boşluk (CEO seçmedi).
 
 ### 09.10.2026 14:57 — PASS: hakem düzeltmeleri ★1–12 (commit 0191dba)
 - Dosyalar: FixStar.tsx (yeni), CatName.tsx (yeni), ProjectCard, WorkExplorer, FeaturedCase, Disciplines, ScreenStrip, Manifesto, Hero, layout, page.tsx, dict.ts, taxonomy.ts, projects.ts, globals.css, public/shots/web-cv-en.jpg.
