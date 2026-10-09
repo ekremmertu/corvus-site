@@ -1,0 +1,67 @@
+<svg class="bi" viewBox="0 0 1040 650" xmlns="http://www.w3.org/2000/svg" font-family="Inter Tight, -apple-system, sans-serif">
+<rect width="1040" height="650" fill="#111114"/>
+<rect width="56" height="650" fill="#0b0b0e"/>
+<rect x="16" y="28" width="24" height="24" rx="6" fill="#C2A2FF" stroke="none" stroke-width="1.5"/>
+<rect x="16" y="76" width="24" height="24" rx="6" fill="none" stroke="#3a3a40" stroke-width="1.5"/>
+<rect x="16" y="118" width="24" height="24" rx="6" fill="none" stroke="#3a3a40" stroke-width="1.5"/>
+<rect x="16" y="160" width="24" height="24" rx="6" fill="none" stroke="#3a3a40" stroke-width="1.5"/>
+<rect x="16" y="202" width="24" height="24" rx="6" fill="none" stroke="#3a3a40" stroke-width="1.5"/>
+<text x="76" y="42" fill="#fff" font-size="22" font-weight="600" letter-spacing="-.4">Operasyon Paneli · Haftalık</text>
+<rect x="600" y="22" width="117.6" height="28" rx="7" fill="#18181c" stroke="#2a2a30"/><text x="612" y="41" fill="#c7c7cc" font-size="13">Bölge: Tümü  ▾</text>
+<rect x="725.6" y="22" width="117.6" height="28" rx="7" fill="#18181c" stroke="#2a2a30"/><text x="737.6" y="41" fill="#c7c7cc" font-size="13">Kanal: Tümü  ▾</text>
+<rect x="851.2" y="22" width="125.19999999999999" height="28" rx="7" fill="#18181c" stroke="#2a2a30"/><text x="863.2" y="41" fill="#c7c7cc" font-size="13">Son 12 hafta  ▾</text>
+<rect x="944" y="58" width="78" height="20" rx="10" fill="#26202f"/><text x="983" y="72" fill="#C2A2FF" font-size="11" text-anchor="middle">Örnek veri</text>
+<rect x="76" y="88" width="226" height="96" rx="12" fill="#18181c"/>
+<text x="94" y="114" fill="#8e8e93" font-size="13">Sevkiyat (koli)</text><text x="94" y="154" fill="#fff" font-size="32" font-weight="600" letter-spacing="-1">12.480</text><text x="94" y="174" fill="#7DEBDA" font-size="12">+%8,2</text>
+<polyline points="206,150.0 217,140.76673090372515 228,137.46152369121805 239,141.52620119766172 250,148.82520443294854 261,152.77530117665097 272,149.32764487555986 283,140.03186099515648" fill="none" stroke="#7DEBDA" stroke-width="2" stroke-linecap="round"/>
+<rect x="316" y="88" width="226" height="96" rx="12" fill="#18181c"/>
+<text x="334" y="114" fill="#8e8e93" font-size="13">Zamanında teslim</text><text x="334" y="154" fill="#fff" font-size="32" font-weight="600" letter-spacing="-1">%96,4</text><text x="334" y="174" fill="#7DEBDA" font-size="12">+%1,1</text>
+<polyline points="446,141.58529015192104 457,139.13699912312586 468,143.85011849844093 479,151.09836140908496 490,154.33691003633464 501,150.0554032557039 512,140.43450795149505 523,131.69563379371434" fill="none" stroke="#7DEBDA" stroke-width="2" stroke-linecap="round"/>
+<rect x="556" y="88" width="226" height="96" rx="12" fill="#18181c"/>
+<text x="574" y="114" fill="#8e8e93" font-size="13">Stok devir (gün)</text><text x="574" y="154" fill="#fff" font-size="32" font-weight="600" letter-spacing="-1">18</text><text x="574" y="174" fill="#7DEBDA" font-size="12">−2 gün</text>
+<polyline points="686,140.90702573174318 697,146.20750670786018 708,153.31857890942717 719,155.799232575641 730,150.7126663787232 741,140.84880011912185 752,132.6129190418837 763,131.17828166243706" fill="none" stroke="#7DEBDA" stroke-width="2" stroke-linecap="round"/>
+<rect x="796" y="88" width="226" height="96" rx="12" fill="#18181c"/>
+<text x="814" y="114" fill="#8e8e93" font-size="13">Revize oranı</text><text x="814" y="154" fill="#fff" font-size="32" font-weight="600" letter-spacing="-1">%3,1</text><text x="814" y="174" fill="#7DEBDA" font-size="12">−%1,4</text>
+<polyline points="926,148.58879991940134 937,155.47766159183973 948,157.1616460883584 959,151.30685542597638 970,141.28458636486621 981,133.6200002322526 992,133.0540109191172 1003,138.95545576492938" fill="none" stroke="#7DEBDA" stroke-width="2" stroke-linecap="round"/>
+<rect x="76" y="198" width="580" height="262" rx="12" fill="#18181c"/><text x="94" y="224" fill="#fff" font-size="15" font-weight="600">Haftalık sevkiyat</text>
+<circle cx="470" cy="219" r="4" fill="#7DEBDA"/><text x="480" y="223" fill="#8e8e93" font-size="12">Gerçek</text><circle cx="540" cy="219" r="4" fill="#C2A2FF"/><text x="550" y="223" fill="#8e8e93" font-size="12">Plan</text>
+<line x1="94" y1="260" x2="636" y2="260" stroke="#26262c"/>
+<line x1="94" y1="308" x2="636" y2="308" stroke="#26262c"/>
+<line x1="94" y1="356" x2="636" y2="356" stroke="#26262c"/>
+<line x1="94" y1="404" x2="636" y2="404" stroke="#26262c"/>
+<polygon points="100,420 100,300 148,284 196,292 244,270 292,276 340,258 388,262 436,246 484,252 532,236 580,240 628,226 628,420" fill="#7DEBDA" opacity=".12"/>
+<polyline class="bi-line" points="100,290 148,286 196,280 244,278 292,272 340,268 388,262 436,258 484,254 532,250 580,246 628,242" fill="none" stroke="#C2A2FF" stroke-width="2" stroke-dasharray="6 6"/>
+<polyline class="bi-line" points="100,300 148,284 196,292 244,270 292,276 340,258 388,262 436,246 484,252 532,236 580,240 628,226" fill="none" stroke="#7DEBDA" stroke-width="3" stroke-linejoin="round"/>
+<text x="100" y="446" fill="#5a5a62" font-size="11" text-anchor="middle">H1</text>
+<text x="148" y="446" fill="#5a5a62" font-size="11" text-anchor="middle">H2</text>
+<text x="196" y="446" fill="#5a5a62" font-size="11" text-anchor="middle">H3</text>
+<text x="244" y="446" fill="#5a5a62" font-size="11" text-anchor="middle">H4</text>
+<text x="292" y="446" fill="#5a5a62" font-size="11" text-anchor="middle">H5</text>
+<text x="340" y="446" fill="#5a5a62" font-size="11" text-anchor="middle">H6</text>
+<text x="388" y="446" fill="#5a5a62" font-size="11" text-anchor="middle">H7</text>
+<text x="436" y="446" fill="#5a5a62" font-size="11" text-anchor="middle">H8</text>
+<text x="484" y="446" fill="#5a5a62" font-size="11" text-anchor="middle">H9</text>
+<text x="532" y="446" fill="#5a5a62" font-size="11" text-anchor="middle">H10</text>
+<text x="580" y="446" fill="#5a5a62" font-size="11" text-anchor="middle">H11</text>
+<text x="628" y="446" fill="#5a5a62" font-size="11" text-anchor="middle">H12</text>
+<rect x="670" y="198" width="352" height="262" rx="12" fill="#18181c"/><text x="688" y="224" fill="#fff" font-size="15" font-weight="600">Bölge payı</text>
+<text x="688" y="264" fill="#c7c7cc" font-size="12">Marmara</text><rect x="780" y="252" width="210" height="16" rx="4" fill="#222228"/><rect x="780" y="252" width="197.6" height="16" rx="4" fill="#7DEBDA"/><text x="983.6" y="264" fill="#fff" font-size="11">%38</text>
+<text x="688" y="304" fill="#c7c7cc" font-size="12">İç Anadolu</text><rect x="780" y="292" width="210" height="16" rx="4" fill="#222228"/><rect x="780" y="292" width="114.4" height="16" rx="4" fill="#5d6bd8"/><text x="900.4" y="304" fill="#fff" font-size="11">%22</text>
+<text x="688" y="344" fill="#c7c7cc" font-size="12">Ege</text><rect x="780" y="332" width="210" height="16" rx="4" fill="#222228"/><rect x="780" y="332" width="88.4" height="16" rx="4" fill="#5d6bd8"/><text x="874.4" y="344" fill="#fff" font-size="11">%17</text>
+<text x="688" y="384" fill="#c7c7cc" font-size="12">Akdeniz</text><rect x="780" y="372" width="210" height="16" rx="4" fill="#222228"/><rect x="780" y="372" width="67.60000000000001" height="16" rx="4" fill="#5d6bd8"/><text x="853.6" y="384" fill="#fff" font-size="11">%13</text>
+<text x="688" y="424" fill="#c7c7cc" font-size="12">Karadeniz</text><rect x="780" y="412" width="210" height="16" rx="4" fill="#222228"/><rect x="780" y="412" width="52.0" height="16" rx="4" fill="#5d6bd8"/><text x="838.0" y="424" fill="#fff" font-size="11">%10</text>
+<rect x="76" y="474" width="946" height="132" rx="12" fill="#18181c"/><text x="94" y="498" fill="#fff" font-size="15" font-weight="600">En çok sapan ürünler</text>
+<text x="94" y="522" fill="#8e8e93" font-size="12">Ürün</text>
+<text x="300" y="522" fill="#8e8e93" font-size="12">Bölge</text>
+<text x="470" y="522" fill="#8e8e93" font-size="12">Plan</text>
+<text x="600" y="522" fill="#8e8e93" font-size="12">Gerçek</text>
+<text x="730" y="522" fill="#8e8e93" font-size="12">Sapma</text>
+<text x="94" y="546" fill="#e5e5ea" font-size="12">Ürün A-1042</text><text x="300" y="546" fill="#c7c7cc" font-size="12">Marmara</text><text x="470" y="546" fill="#c7c7cc" font-size="12">4.200</text><text x="600" y="546" fill="#c7c7cc" font-size="12">3.610</text><rect x="730" y="535" width="180.0" height="14" rx="3" fill="#FF8A65" opacity=".22"/><text x="736" y="546" fill="#FF8A65" font-size="12" font-weight="600">−%14,0</text>
+<text x="94" y="568" fill="#e5e5ea" font-size="12">Ürün B-2210</text><text x="300" y="568" fill="#c7c7cc" font-size="12">Ege</text><text x="470" y="568" fill="#c7c7cc" font-size="12">2.950</text><text x="600" y="568" fill="#c7c7cc" font-size="12">2.640</text><rect x="730" y="557" width="130.0" height="14" rx="3" fill="#FF8A65" opacity=".22"/><text x="736" y="568" fill="#FF8A65" font-size="12" font-weight="600">−%10,5</text>
+<text x="94" y="590" fill="#e5e5ea" font-size="12">Ürün C-0874</text><text x="300" y="590" fill="#c7c7cc" font-size="12">Akdeniz</text><text x="470" y="590" fill="#c7c7cc" font-size="12">1.800</text><text x="600" y="590" fill="#c7c7cc" font-size="12">1.990</text><rect x="730" y="579" width="120.0" height="14" rx="3" fill="#7DEBDA" opacity=".22"/><text x="736" y="590" fill="#7DEBDA" font-size="12" font-weight="600">+%10,6</text>
+<rect x="56" y="616" width="984" height="34" fill="#0b0b0e"/>
+<rect x="76" y="620" width="60" height="26" rx="6" fill="#18181c"/><text x="90" y="638" fill="#fff" font-size="12">Özet</text>
+<rect x="140" y="620" width="92" height="26" rx="6" fill="none"/><text x="154" y="638" fill="#6e6e76" font-size="12">Sevkiyat</text>
+<rect x="236" y="620" width="60" height="26" rx="6" fill="none"/><text x="250" y="638" fill="#6e6e76" font-size="12">Stok</text>
+<rect x="300" y="620" width="92" height="26" rx="6" fill="none"/><text x="314" y="638" fill="#6e6e76" font-size="12">Bölgeler</text>
+<text x="406" y="638" fill="#6e6e76" font-size="14">+</text></svg>

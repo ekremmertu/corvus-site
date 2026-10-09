@@ -1,5 +1,9 @@
 # corvus-site — Yol Haritası + PASS LOG
 
+## 09.10.2026 13:50 — PASS LOG: ana sayfa genişledi (web/SaaS/kurumsal) — Yön A+B+C
+- Yeni: BrowserFrame.tsx, bi/BiDashboard.tsx, bi/dashSvg.ts, StripTabs.tsx; değişen: Hero.tsx, ScreenStrip.tsx, FeaturedCase.tsx, Disciplines.tsx, page.tsx, dict.ts, taxonomy.ts, globals.css; görseller web-cv/am/st, panel-growth, dash-petrol.svg.
+- Kanıt: build ✓ · 2 motor × 2 dil × 2 genişlik ölçüm + çekim.
+
 ## 09.10.2026 12:47 — PASS LOG: kart metinleri davet diliyle, ödeme kelimeleri çıktı
 - src/data/projects.ts (26 summary TR/EN + TW/Ameliea/Quill açıklama-madde-rakam).
 - Kanıt: build ✓ · İşler sayfası ödeme kelimesi 0 · WebKit çekim.

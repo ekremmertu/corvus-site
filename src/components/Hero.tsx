@@ -4,13 +4,16 @@ import Phone from "@/components/Phone";
 import Parallax from "@/components/fx/Parallax";
 import SectionLink from "@/components/SectionLink";
 import Link from "next/link";
+import BrowserFrame from "@/components/BrowserFrame";
+import BiDashboard from "@/components/bi/BiDashboard";
 
 /**
- * Hero — "Uygulamaların arkasındaki stüdyo." (CEO onayı, hubX dili, 09.10.2026)
- * Dev CORVUS harfleri önünde logolu açılış ekranlı 3 telefon (CEO 09.10.2026:
- * ortada TripWalkers, solda SplitTable, sağda CVtoapply). Yalnız perdesiz ürünler.
+ * Hero — "Dijital ürünlerin arkasındaki stüdyo." (CEO onayı, hubX dili, 09.10.2026)
+ * Dev CORVUS harfleri önünde üç cihazlı sahne (CEO 09.10.2026, hero-section pipeline):
+ * solda web/SaaS (cvtoapply.co), ortada TripWalkers telefonu, sağda kurumsal panel (petrol, örnek veri).
  */
 export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
+  const tr = locale === "tr";
   return (
     <header className="hero grain">
       <h1 className="h-display wrap" data-in style={{ position: "relative", zIndex: 3, margin: "0 auto", transitionDelay: ".08s" }}>
@@ -35,18 +38,18 @@ export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
       </div>
       <Parallax className="hero-stage">
         <div className="hero-spot" aria-hidden />
-        <Phone
-          className="side side-l reflect"
-          src="/shots/cover-st.jpg"
-          alt="SplitTable"
-          style={{ transitionDelay: ".3s" }}
-        />
-        <Phone
-          className="side side-r reflect"
-          src="/shots/cover-cv.jpg"
-          alt="CVtoapply"
-          style={{ transitionDelay: ".3s" }}
-        />
+        <figure className="hero-win hero-win-l">
+          <BrowserFrame url="cvtoapply.co">
+            <img src="/shots/web-cv.jpg" alt={tr ? "CVtoapply web sitesi ana sayfası" : "CVtoapply website home page"} width={1200} height={750} decoding="async" />
+          </BrowserFrame>
+          <figcaption>{d.home.stageWeb}</figcaption>
+        </figure>
+        <figure className="hero-win hero-win-r">
+          <BrowserFrame url={tr ? "Operasyon Paneli" : "Operations dashboard"}>
+            <BiDashboard label={d.home.dashLabel} />
+          </BrowserFrame>
+          <figcaption>{d.home.stageEnt}</figcaption>
+        </figure>
         <Phone
           className="iph-lg reflect"
           src="/shots/cover-tw.jpg"
