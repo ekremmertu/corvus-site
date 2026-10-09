@@ -38,17 +38,17 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
     .sort((a, b) => Number(b.status === "live") - Number(a.status === "live"))
     .map((p) => p.name);
 
-  // Ana sayfadaki telefonlar logolu açılış ekranı gösterir; gerçek ekranlar yalnız öne çıkan app'te (CEO 09.10.2026).
+  // Şerit = App Store vitrin görselleri, CEO seçimi 09.10.2026 (T1 · S1 · M5 · Q1 · C1). Quill'in vitrin seti yok → ham ekran.
   const strip: StripItem[] = [
-    { slug: "tripwalkers", src: "/shots/tile-tw.jpg", alt: "TripWalkers" },
-    { slug: "splittable", src: "/shots/tile-st.jpg", alt: "SplitTable" },
-    { slug: "amelie-co", src: "/shots/tile-am.jpg", alt: "Ameliea" },
-    { slug: "quill", src: "/shots/tile-q.jpg", alt: "Quill" },
-    { slug: "cvtoapply", src: "/shots/tile-cv.jpg", alt: "CVtoapply" },
+    { slug: "tripwalkers", src: tr ? "/shots/vt-tw.jpg" : "/shots/vt-tw-en.jpg", alt: tr ? "TripWalkers App Store görseli: seyahat planlayıcın" : "TripWalkers App Store screenshot: your travel planner" },
+    { slug: "splittable", src: "/shots/vt-st.jpg", alt: tr ? "SplitTable App Store görseli: hesap geldi, kimse hesap yapmasın" : "SplitTable App Store screenshot: the bill is here, no math needed" },
+    { slug: "splittable", src: "/shots/vt-stm.jpg", alt: tr ? "SplitTable Manager App Store görseli: gün sonu raporu" : "SplitTable Manager App Store screenshot: end-of-day report", name: "SplitTable Manager" },
+    { slug: "quill", src: "/shots/vt-q.jpg", alt: tr ? "Quill ana ekran: aylık gelir ve harcama" : "Quill dashboard: monthly income and spending" },
+    { slug: "cvtoapply", src: tr ? "/shots/vt-cv.jpg" : "/shots/vt-cv-en.jpg", alt: tr ? "CVtoapply App Store görseli: CV'n harika görünüyor, robot katılmıyor" : "CVtoapply App Store screenshot: your CV looks great, the robot disagrees" },
   ].map((s) => {
     const p = bySlug(s.slug);
     const cat = categories.find((c) => c.slug === p.category)!;
-    return { ...s, name: p.name, sub: cat.name[lang] };
+    return { ...s, name: s.name ?? p.name, sub: cat.name[lang] };
   });
 
   return (
