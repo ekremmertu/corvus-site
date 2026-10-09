@@ -36,6 +36,10 @@ export interface Project {
   year: string;
   stack: string[];
   summary: L10n;
+  /** Detay sayfasında indirmeye davet eden tanıtım paragrafı (CEO 09.10.2026). */
+  pitch?: L10n;
+  /** Detay başlığının sağ boşluğundaki marka görseli (logo / maskot). */
+  heroArt?: { src: string; kind: "icon" | "mascot"; glow: string };
   description: L10n;
   highlights: { en: string[]; tr: string[] };
   metrics?: { label: L10n; value: string }[];

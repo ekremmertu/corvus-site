@@ -134,6 +134,11 @@ export default async function ProjectPage({
 
       <header className="detail-head grain" style={{ background: "radial-gradient(ellipse 60% 50% at 70% 0%, rgba(120,110,255,.14), transparent 70%), #000" }}>
         <div className="wrap" style={{ position: "relative", zIndex: 1 }}>
+          {project.heroArt && (
+            <div className={`detail-art ${project.heroArt.kind}`} style={{ ["--glow" as string]: project.heroArt.glow }} aria-hidden>
+              <img src={project.heroArt.src} alt="" decoding="async" />
+            </div>
+          )}
           <Link href={`/${lang}/work`} className="back">
             ← {d.work.backToWork}
           </Link>
@@ -148,6 +153,7 @@ export default async function ProjectPage({
           <p className="lede" style={{ maxWidth: "52ch", margin: "22px 0 0" }}>
             {project.summary[lang]}
           </p>
+          {project.pitch && <p className="pitch">{project.pitch[lang]}</p>}
 
           {(project.appStoreUrl || project.liveUrl || project.appStoreSoon) && (
             <div style={{ display: "flex", flexWrap: "wrap", gap: 12, marginTop: 30 }}>
@@ -287,6 +293,30 @@ export default async function ProjectPage({
           </Link>
         </div>
       </nav>
+      {project.pitch && (
+        <section className="wrap detail-cta" aria-label={project.name}>
+          <div>
+            <p className="eyebrow">{project.appStoreUrl || project.liveUrl ? d.work.ctaGet : d.work.ctaSoon}</p>
+            <h2>{project.name}</h2>
+            <p>{project.pitch[lang]}</p>
+          </div>
+          <div className="detail-cta-acts">
+            {project.appStoreUrl ? (
+              <a href={project.appStoreUrl} target="_blank" rel="noopener noreferrer" className="pill pill-white">
+                {d.work.appStore}
+              </a>
+            ) : project.liveUrl ? (
+              <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="pill pill-white">
+                {d.work.visitSite}
+              </a>
+            ) : (
+              <Link href={`/${lang}#contact`} className="pill pill-white">
+                {d.work.ctaNotify}
+              </Link>
+            )}
+          </div>
+        </section>
+      )}
     </article>
   );
 }

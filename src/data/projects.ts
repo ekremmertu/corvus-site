@@ -31,6 +31,11 @@ export const projects: Project[] = [
       en: "Pick a city and your dates — get a day-by-day plan you can actually walk.",
       tr: "Şehri ve tarihleri seç; yürüyerek gezebileceğin gün gün planın hazır olsun.",
     },
+    pitch: {
+      en: "Spend the trip walking, not planning. TripWalkers guides you stop by stop on the map and adds the hidden spots guidebooks miss. It's free to download, your first plan is free and there's no subscription — plan your next city tonight.",
+      tr: "Yolculuğu plan yaparak değil, gezerek geçir. TripWalkers seni haritada durak durak gezdirir, rehberlerde olmayan gizli yerleri de plana ekler. İndirmesi ücretsiz, ilk planın bedava, abonelik yok — bir sonraki şehrini bu akşam planla.",
+    },
+    heroArt: { src: "/brand/apps/tripwalkers-mascot.webp", kind: "mascot", glow: "rgba(232,93,42,.32)" },
     description: {
       en: "Live on the App Store. Choose your city, your pace and the things you love — TripWalkers writes your day-by-day plan. It opens offline and stays editable. Invite your friends and travel together from the same plan.",
       tr: "App Store'da yayında. Gideceğin şehri, temponu ve sevdiğin şeyleri seç; TripWalkers gün gün planını yazsın. Plan internetsiz de açılır, istediğin gibi düzenlenir. Arkadaşlarını davet et, aynı plan üzerinden birlikte gezin.",
@@ -107,6 +112,10 @@ export const projects: Project[] = [
       en: "No budget guilt. A personal finance app that shows you which debt to clear first.",
       tr: "Bütçe suçluluğu yok. Borçlarını hangi sırayla kapatacağını gösteren kişisel finans uygulaması.",
     },
+    pitch: {
+      en: "Stop wondering where your salary went. Quill shows the order to pay off your debts, keeps your goals on track, and Kuzgun tells you plainly how the month is going. Free to download, with a 7-day free trial of Pro.",
+      tr: "Maaşın nereye gitti diye düşünmeyi bırak. Quill borçlarını hangi sırayla kapatacağını gösterir, hedeflerini takip eder; Kuzgun da ayın gidişatını açık açık söyler. İndirmesi ücretsiz, Pro'yu 7 gün bedava dene.",
+    },
     description: {
       en: "Quill models your debts and goals, orders them with the avalanche or snowball method and shows what even a small extra amount actually changes. Now live on the App Store, signed and delivered through an automated archive → export → upload pipeline.",
       tr: "Quill borçlarını ve hedeflerini modelliyor, çığ veya kartopu yöntemiyle sıralıyor ve borca ayıracağın küçük bir ekstranın bile neyi değiştirdiğini gösteriyor. App Store'da yayında; otomatik archive → export → yükleme hattıyla imzalanıp teslim ediliyor.",
@@ -143,6 +152,11 @@ export const projects: Project[] = [
       en: "Scan the table code and bring your friends in. Everyone sees what they ordered, and the bill splits in seconds.",
       tr: "Masadaki kodu okut, arkadaşlarını masaya kat. Herkes kendi yediğini görür, hesap saniyeler içinde bölünür.",
     },
+    pitch: {
+      en: "No more calculators when the bill arrives. Everyone pays only for what they ate, and nobody owes anybody. Free on the App Store — try it at your next dinner out.",
+      tr: "Hesap geldiğinde hesap makinesi çıkarmaya son. Herkes yalnız kendi yediğini öder, kimse kimseye borçlu kalmaz. App Store'da ücretsiz — bir sonraki akşam yemeğinde dene.",
+    },
+    heroArt: { src: "/brand/apps/splittable-icon.webp", kind: "icon", glow: "rgba(196,42,20,.38)" },
     description: {
       en: "Two products in one codebase — a guest side that splits a table bill without arguments, and a manager side with operational analytics: table turnover, menu performance and the numbers that make the pitch to a restaurant.",
       tr: "Tek kod tabanında iki ürün — masadaki hesabı tartışmadan bölen misafir tarafı ve operasyonel analitiği olan yönetici tarafı: masa devir hızı, menü performansı ve restoranı ikna eden sayılar.",
@@ -177,6 +191,10 @@ export const projects: Project[] = [
       en: "SplitTable for the restaurant: see what every table earned and get the end-of-day report on one screen.",
       tr: "Restoranın SplitTable'ı: hangi masanın ne kazandırdığını gör, gün sonu raporunu tek ekranda al.",
     },
+    pitch: {
+      en: "The answer to 'how did today go?' on one screen. Which table earned what, what's waiting in the kitchen, what's in the till — all live. Free on the App Store; see the difference from your first service.",
+      tr: "\"Bugün nasıl geçti?\" sorusunun cevabı tek ekranda. Hangi masa ne kazandırdı, mutfakta ne bekliyor, kasada ne var — hepsi canlı. App Store'da ücretsiz; farkı ilk serviste gör.",
+    },
     description: {
       en: "A separate app for the staff and the owner, sharing one Supabase backbone with the guest app. Live table state, how long a table really takes to turn, which menu items carry the check — the operational layer that turns a guest feature into a reason to sign.",
       tr: "Personel ve işletmeci için ayrı bir uygulama; misafir uygulamasıyla aynı Supabase omurgasını paylaşıyor. Anlık masa durumu, bir masanın gerçekte ne kadar sürede devrettiği, hesabı hangi menü kalemlerinin taşıdığı — misafir özelliğini imza sebebine çeviren operasyon katmanı.",
@@ -207,6 +225,10 @@ export const projects: Project[] = [
     summary: {
       en: "English for Turkish speakers: pick your level (A1–C2) and learn by talking.",
       tr: "Türkçe konuşanlar için İngilizce: seviyeni seç (A1–C2), konuşarak öğren.",
+    },
+    pitch: {
+      en: "Speak English without memorising word lists. Five minutes a day with Lin, in real conversations: the restaurant, the interview, the airport. Find your level in five minutes — free to download, start today.",
+      tr: "Kelime ezberlemeden İngilizce konuş. Lin'le her gün 5 dakika gerçek diyaloglar kur: restoranda, mülakatta, havalimanında. Seviyeni 5 dakikada bul — indirmesi ücretsiz, bugün başla.",
     },
     description: {
       en: "A five-minute adaptive placement test puts the learner on the right rung, then a ten-unit road map runs from A1 to C2. Each level closes with an exit exam across vocabulary, grammar, listening, speaking and writing, and an AI voice partner covers the part a textbook never could.",
@@ -445,6 +467,10 @@ export const projects: Project[] = [
       en: "Place the piece, clear the line, beat your record. An 8×8 block puzzle with four modes.",
       tr: "Parçayı yerleştir, satırı patlat, rekorunu kır. Dört modlu 8×8 blok bulmaca.",
     },
+    pitch: {
+      en: "Got five minutes? Play a round of BlokBom. Place the pieces, blast the lines, beat your record — it works offline too. Free on the App Store.",
+      tr: "Beş dakikan mı var? Bir el BlokBom. Parçaları yerleştir, satırları patlat, rekorunu kır — internetsiz de oynanır. App Store'da ücretsiz.",
+    },
     description: {
       en: "Drag pieces onto an 8×8 board and fill a row or a column to blow it up. Four modes, among them an endless classic where a short rewarded ad buys back a dead board twice per run, and a two-minute timed sprint where every cleared line adds seconds. Plays offline, shipped in six languages.",
       tr: "Parçaları 8×8 tahtaya sürükle, satır veya sütunu doldurup patlat. Dört mod var: hamlesi biten tahtayı oyun başına iki kez kısa bir ödüllü reklamla geri alabildiğin sonsuz klasik ve temizlenen her satırın süre kazandırdığı iki dakikalık yarış. İnternetsiz oynanıyor, altı dilde yayında.",
@@ -478,6 +504,10 @@ export const projects: Project[] = [
       en: "Step onto the pitch at 17 — take the shot and run your own career.",
       tr: "17 yaşında sahaya çık: şutu sen at, kariyerini sen yönet.",
     },
+    pitch: {
+      en: "Your career starts at 17 and every shot is yours to take. Star Striker is coming to the App Store soon — write to us and be among the first to play.",
+      tr: "Kariyerin 17 yaşında başlıyor, her şutu sen atıyorsun. Star Striker çok yakında App Store'da — bize yaz, ilk oynayanlardan ol.",
+    },
     description: {
       en: "You aim the shot and set its power yourself, so the goal is actually yours. But the real game starts off the pitch: an amateur club nobody watches, a career to build, and the life decisions around it. Not a match engine with a name attached — a life you play season by season.",
       tr: "Şutun nişanını da gücünü de sen ayarlıyorsun; attığın gol gerçekten senin golün. Ama asıl oyun sahanın dışında başlıyor: kimsenin izlemediği amatör bir kulüp, kurulacak bir kariyer ve etrafındaki hayat kararları. İsim yapıştırılmış bir maç motoru değil — sezon sezon oynadığın bir hayat.",
@@ -506,6 +536,10 @@ export const projects: Project[] = [
     summary: {
       en: "Tap once to switch orbits and see how far you get before the spikes catch you.",
       tr: "Tek dokunuşla yörünge değiştir; dikenlere yakalanmadan ne kadar ilerleyebildiğini gör.",
+    },
+    pitch: {
+      en: "One tap, one orbit, one more try. Orbit Dash is coming to the App Store soon — write to us and be among the first to play.",
+      tr: "Tek dokunuş, tek yörünge, bir deneme daha. Orbit Dash çok yakında App Store'da — bize yaz, ilk oynayanlardan ol.",
     },
     description: {
       en: "Tap to jump between orbit rings, time it past the spikes, collect diamonds and trigger fever streaks. One control, learned in a second; the mastery is entirely in the timing.",
@@ -536,6 +570,10 @@ export const projects: Project[] = [
       en: "Tap to drop the block. Nail the timing and your tower climbs all the way to space.",
       tr: "Dokun, bloğu bırak. Zamanlaman kusursuzsa kulen uzaya kadar yükselir.",
     },
+    pitch: {
+      en: "How high can your timing take you? Stacky Tower is coming to the App Store soon — write to us and be among the first to play.",
+      tr: "Zamanlaman seni ne kadar yükseğe çıkarır? Stacky Tower çok yakında App Store'da — bize yaz, ilk oynayanlardan ol.",
+    },
     description: {
       en: "A sliding block passes above the tower; tap at the right moment to drop it. Whatever hangs over the edge gets sliced away, so sloppy timing narrows the tower until there is nothing left to land on. Climb from sunset skies into space, with themes and daily runs along the way.",
       tr: "Kulenin üstünde kayan bir blok geçer; doğru anda dokunup bırakırsın. Kenardan taşan kısım kesilir, yani özensiz zamanlama kuleyi daraltır ve sonunda konacak yer kalmaz. Gün batımı göklerinden uzaya tırmanıyorsun; yolda temalar ve günlük koşular var.",
@@ -564,6 +602,10 @@ export const projects: Project[] = [
     summary: {
       en: "Forty hand-designed levels with the same layout every time — beat them by learning, not luck.",
       tr: "Elle tasarlanmış 40 bölüm, her seferinde aynı dizilim: şansla değil, öğrenerek geç.",
+    },
+    pitch: {
+      en: "Forty levels where skill beats luck. Knife Smash Arena is coming to the App Store soon — write to us and be among the first to play.",
+      tr: "Şansın değil, ustalığın kazandığı 40 bölüm. Knife Smash Arena çok yakında App Store'da — bize yaz, ilk oynayanlardan ol.",
     },
     description: {
       en: "Tap to throw, land every knife in the spinning log, and never touch a blade you already stuck. The forty levels are hand-built and deterministic: the same run every time, so a failure is information rather than bad luck. An endless mode carries the leaderboard.",
@@ -598,6 +640,10 @@ export const projects: Project[] = [
       en: "Let your story open like a film — invite your guests with one elegant digital invitation.",
       tr: "Hikâyeniz film gibi açılsın: misafirlerinizi tek bir zarif dijital davetiyeyle düğününüze davet edin.",
     },
+    pitch: {
+      en: "Let your invitation open like a film on every guest's phone. Pick a theme, add your guest list and follow every RSVP from one panel. Create yours on ameliea.co today.",
+      tr: "Davetiyeniz her misafirin telefonunda bir film gibi açılsın. Temanızı seçin, misafir listenizi ekleyin, LCV yanıtlarını tek panelden takip edin. Davetiyenizi bugün ameliea.co'da oluşturun.",
+    },
     description: {
       en: "Pick a theme from the library, tell your story in the editor, invite your guests and collect their RSVPs in one place. Each theme is art-directed for a specific bride persona rather than being a colour swap of the last one.",
       tr: "Tema kütüphanesinden birini seçin, editörde hikâyenizi yazın, misafirlerinizi davet edip katılım yanıtlarını (RSVP) tek yerde toplayın. Her tema, bir öncekinin renk varyantı değil; belirli bir gelin personası için ayrı ayrı sanat yönetimiyle kurgulanıyor.",
@@ -619,7 +665,7 @@ export const projects: Project[] = [
   },
   {
     slug: "supply-chain-council",
-    cover: { src: "/shots/panel-council.jpg", kind: "web" },
+    cover: { src: "/shots/scc-team.jpg", kind: "web" },
     name: "Supply Chain Council",
     category: "web",
     status: "beta",
@@ -665,6 +711,10 @@ export const projects: Project[] = [
     summary: {
       en: "Paste the job posting — your CV is rewritten for it, readable by ATS on the first pass.",
       tr: "İlanı yapıştır; CV'n o ilana göre, ATS'nin ilk okumada anlayacağı şekilde yeniden yazılsın.",
+    },
+    pitch: {
+      en: "Not hearing back may not be about you — the software may simply not be reading your CV. CVtoapply rewrites it for the job and shows you what the ATS sees. Your first analysis is free, no card needed.",
+      tr: "Başvurularına dönüş alamıyorsan sorun sen değil, CV'nin okunmaması olabilir. CVtoapply CV'ni ilana göre yeniden yazar, yazılımın onu nasıl gördüğünü gösterir. İlk analiz ücretsiz, kart gerekmez.",
     },
     description: {
       en: "Paste a job ad, upload any CV layout — sidebar, two-column, designed — and the parser reads it structurally instead of guessing. Then a two-panel editor shows what is missing before it produces the ATS-optimised version.",
