@@ -1,6 +1,6 @@
 import Link from "next/link";
 import CatName from "@/components/CatName";
-import { getCategory, statusLabels, type CardProject, type Locale } from "@/data/taxonomy";
+import { getCategory, stackLabel, statusLabels, type CardProject, type Locale } from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
 import VT from "@/components/fx/VT";
 import FixStar from "@/components/fx/FixStar";
@@ -38,7 +38,7 @@ export default function ProjectCard({ project, locale, d, mark }: { project: Car
         <div className="pcard-foot">
           {project.stack.slice(0, 3).map((s) => (
             <span key={s} className="chip">
-              {s}
+              {stackLabel(s, locale)}
             </span>
           ))}
         </div>
@@ -79,7 +79,7 @@ export default function ProjectCard({ project, locale, d, mark }: { project: Car
         {project.appStoreSoon && project.category === "ios" && <span className="chip chip-soon">{d.work.appStoreSoon}</span>}
         {project.stack.slice(0, 3).map((s) => (
           <span key={s} className="chip">
-            {s}
+            {stackLabel(s, locale)}
           </span>
         ))}
         <span className="go" aria-hidden>

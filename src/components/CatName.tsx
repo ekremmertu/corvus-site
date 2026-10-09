@@ -1,12 +1,16 @@
-/** Kategori adı; büyük harf başlıklarda "iOS" kelimesi "IOS"/"İOS" olmasın diye çeviriden muaf (★1). */
+/** Kategori adı; büyük harf başlıklarda "iOS" → "İOS", "Trading" → "TRADİNG" olmasın diye İngilizce kelimeler işaretli (★1, ★3b). */
 export default function CatName({ name }: { name: string }) {
-  const parts = name.split(/(iOS)/);
+  const parts = name.split(/(iOS|Fintech|Trading)/);
   return (
     <>
       {parts.map((p, i) =>
         p === "iOS" ? (
           <span key={i} lang="en" style={{ textTransform: "none" }}>
             iOS
+          </span>
+        ) : p === "Fintech" || p === "Trading" ? (
+          <span key={i} lang="en">
+            {p}
           </span>
         ) : (
           p

@@ -11,6 +11,7 @@ import FixStar from "@/components/fx/FixStar";
  */
 const ORDER: CategorySlug[] = ["ios", "enterprise", "web", "ai", "fintech"];
 const STAR: Partial<Record<CategorySlug, number>> = { ios: 2, ai: 3, enterprise: 9 };
+const STAR2: Partial<Record<CategorySlug, number>> = { ios: 17 };
 const CLS: Record<CategorySlug, string> = { ios: "disc-ios", enterprise: "disc-ent", web: "disc-web", ai: "disc-ai", fintech: "disc-fin" };
 
 function Visual({ slug }: { slug: CategorySlug }) {
@@ -18,9 +19,9 @@ function Visual({ slug }: { slug: CategorySlug }) {
     case "ios":
       return (
         <div className="dv">
-          <Phone src="/shots/cover-st.jpg" alt="" />
-          <Phone src="/shots/cover-tw.jpg" alt="" />
-          <Phone src="/shots/cover-cv.jpg" alt="" />
+          <Phone src="/shots/st-real.jpg" alt="" />
+          <Phone src="/shots/tw-day.jpg" alt="" />
+          <Phone src="/shots/cv-real.jpg" alt="" />
         </div>
       );
     case "web":
@@ -72,6 +73,7 @@ export default function Disciplines({ locale, d, counts }: { locale: Locale; d: 
                 <h3>
                   {c.name[locale]}
                   {STAR[slug] && <FixStar n={STAR[slug]!} />}
+                  {STAR2[slug] && <FixStar n={STAR2[slug]!} />}
                 </h3>
                 <span className="cnt">
                   {counts[slug] ?? 0} {d.home.projects}

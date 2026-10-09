@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { categories, type CardProject, type CategorySlug, type Locale } from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
 import ProjectCard from "@/components/ProjectCard";
+import FixStar from "@/components/fx/FixStar";
 
 type Filter = CategorySlug | "all";
 
@@ -29,6 +30,8 @@ export default function WorkExplorer({ locale, d, cards }: { locale: Locale; d: 
             <span className="c">{o.count}</span>
           </button>
         ))}
+        <FixStar n={15} />
+        <FixStar n={14} />
       </div>
       <div className="grid-work" role="tabpanel">
         {list.map((p, i) => (

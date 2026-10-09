@@ -51,18 +51,19 @@ export default function Hero({ locale, d }: { locale: Locale; d: Dict }) {
         </figure>
         <figure className="hero-win hero-win-r">
           <BrowserFrame url={tr ? "Operasyon Paneli" : "Operations dashboard"}>
-            <BiDashboard label={d.home.dashLabel} />
+            <BiDashboard label={d.home.dashLabel} locale={locale} />
           </BrowserFrame>
           <figcaption>{d.home.stageEnt}</figcaption>
         </figure>
         <Phone
           className="iph-lg reflect"
-          src="/shots/cover-tw.jpg"
-          alt="TripWalkers"
+          src="/shots/tw-day.jpg"
+          alt={tr ? "TripWalkers günlük gezi planı ekranı" : "TripWalkers day-by-day plan screen"}
           style={{ zIndex: 5, transitionDelay: ".15s" }}
           eager
           view
         />
+        <FixStar n={17} style={{ position: "absolute", left: "50%", top: 8, zIndex: 9 }} />
       </Parallax>
       <div className="hero-fade" aria-hidden />
     </header>
