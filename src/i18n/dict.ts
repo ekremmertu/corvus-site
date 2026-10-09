@@ -181,7 +181,7 @@ export const dict = {
       sub: "Tell us the problem in a paragraph. You will get a straight answer about scope, timeline and whether it is worth doing at all.",
       cta: "Message us on LinkedIn",
       email: "Email",
-      based: "Based in Istanbul, working with clients anywhere.",
+      based: "A global studio — we work remotely with clients anywhere in the world.",
     },
     footer: {
       rights: "All rights reserved.",
@@ -363,7 +363,7 @@ export const dict = {
       sub: "Problemi bir paragrafta anlatın. Kapsam, süre ve hatta yapmaya değip değmediği konusunda dürüst bir cevap alacaksınız.",
       cta: "LinkedIn'den yazın",
       email: "E-posta",
-      based: "İstanbul merkezli, her yerden müşteriyle çalışıyoruz.",
+      based: "Global bir stüdyoyuz; dünyanın her yerinden müşteriyle uzaktan çalışıyoruz.",
     },
     footer: {
       rights: "Tüm hakları saklıdır.",
