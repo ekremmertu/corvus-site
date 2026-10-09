@@ -16,7 +16,7 @@ export const projects: Project[] = [
   // ─────────────────────────────  iOS  ─────────────────────────────
   {
     slug: "tripwalkers",
-    cover: { src: "/shots/vt-tw.jpg", kind: "poster" },
+    cover: { src: "/shots/vt-tw.jpg", srcEn: "/shots/vt-tw-en.jpg", kind: "poster" },
     name: "TripWalkers",
     category: "ios",
     status: "live",
@@ -99,7 +99,7 @@ export const projects: Project[] = [
   },
   {
     slug: "quill",
-    cover: { src: "/shots/vt-q.jpg", kind: "poster" },
+    cover: { src: "/shots/vt-q2.jpg", srcEn: "/shots/vt-q2-en.jpg", kind: "poster" },
     name: "Quill",
     category: "ios",
     status: "live",
@@ -138,7 +138,7 @@ export const projects: Project[] = [
   },
   {
     slug: "splittable",
-    cover: { src: "/shots/vt-st.jpg", kind: "poster" },
+    cover: { src: "/shots/vt-st.jpg", srcEn: "/shots/vt-st-en.jpg", kind: "poster" },
     name: "SplitTable",
     category: "ios",
     status: "live",
@@ -179,7 +179,7 @@ export const projects: Project[] = [
   },
   {
     slug: "splittable-manager",
-    cover: { src: "/shots/vt-stm.jpg", kind: "poster" },
+    cover: { src: "/shots/vt-stm.jpg", srcEn: "/shots/vt-stm-en.jpg", kind: "poster" },
     name: "SplitTable Manager",
     category: "ios",
     status: "live",
@@ -214,7 +214,7 @@ export const projects: Project[] = [
   },
   {
     slug: "lingoria",
-    cover: { src: "/shots/vt-lin.jpg", kind: "poster" },
+    cover: { src: "/shots/vt-lin2.jpg", srcEn: "/shots/vt-lin2-en.jpg", kind: "poster" },
     name: "Lingoria",
     category: "ios",
     status: "live",
@@ -626,7 +626,7 @@ export const projects: Project[] = [
   },
   {
     slug: "amelie-co",
-    cover: { src: "/shots/web-am.jpg", kind: "web" },
+    cover: { src: "/shots/web-am.jpg", srcEn: "/shots/web-am-en.jpg", kind: "web" },
     name: "Ameliea",
     category: "web",
     status: "live",
@@ -970,7 +970,7 @@ export const projects: Project[] = [
   // ─────────────────────────  AI AUTOMATION  ────────────────────────
   {
     slug: "growth-engine",
-    cover: { src: "/shots/panel-growth.jpg", kind: "web" },
+    cover: { src: "/shots/growth.jpg", srcEn: "/shots/growth-en.jpg", kind: "web" },
     name: "Growth Engine",
     category: "ai",
     status: "live",
