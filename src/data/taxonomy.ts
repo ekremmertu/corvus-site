@@ -151,10 +151,10 @@ export const categories: Category[] = [
     slug: "web",
     index: 1,
     name: { en: "Web Platforms", tr: "Web Platformları" },
-    kicker: { en: "Next.js. Supabase. Live payments.", tr: "Next.js. Supabase. Canlı ödeme." },
+    kicker: { en: "Next.js. Supabase. Live.", tr: "Next.js. Supabase. Yayında." },
     headline: {
-      en: "Products that take money on day one.",
-      tr: "İlk günden para tahsil eden ürünler.",
+      en: "Live web products with real users from day one.",
+      tr: "İlk günden gerçek kullanıcısı olan web ürünleri.",
     },
     manifesto: {
       en: "Not landing pages — platforms with auth, database, payment and an admin surface. One Supabase backbone, one auth system, hardened at the database level so a new product inherits security instead of re-inventing it.",

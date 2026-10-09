@@ -5,7 +5,7 @@ import Intro from "@/components/fx/Intro";
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
 import Manifesto from "@/components/Manifesto";
-import ScreenStrip, { type StripItem } from "@/components/ScreenStrip";
+import ScreenStrip, { type StripItem, type WebItem } from "@/components/ScreenStrip";
 import Disciplines from "@/components/Disciplines";
 import FeaturedCase from "@/components/FeaturedCase";
 import Process from "@/components/Process";
@@ -51,6 +51,15 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
     return { ...s, name: s.name ?? p.name, sub: cat.name[lang] };
   });
 
+  const webStrip: WebItem[] = [
+    { slug: "cvtoapply", url: "cvtoapply.co", src: "/shots/web-cv.jpg", alt: tr ? "CVtoapply web sitesi" : "CVtoapply website" },
+    { slug: "amelie-co", url: "ameliea.co", src: "/shots/web-am.jpg", alt: tr ? "Ameliea web sitesi" : "Ameliea website" },
+    { slug: "splittable", url: "splittable.me", src: "/shots/web-st.jpg", alt: tr ? "SplitTable web sitesi" : "SplitTable website" },
+  ].map((s) => {
+    const p = bySlug(s.slug);
+    return { ...s, name: p.name, sub: categories.find((c) => c.slug === p.category)!.name[lang] };
+  });
+
   return (
     <>
       <Intro skipLabel={d.home.skip} />
@@ -65,7 +74,13 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           { value: "2025", label: d.stats.years, static: true },
         ]}
       />
-      <ScreenStrip locale={lang} d={d} items={strip} />
+      <ScreenStrip
+        locale={lang}
+        d={d}
+        items={strip}
+        web={webStrip}
+        counts={{ app: tabCounts.ios ?? 0, web: tabCounts.web ?? 0, ent: projects.filter((p) => p.category === "enterprise").length }}
+      />
       <Disciplines locale={lang} d={d} counts={tabCounts} />
       <FeaturedCase
         locale={lang}
@@ -79,6 +94,12 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           { project: bySlug("amelie-co"), tone: "gold", shot: { src: "/shots/cover-am.jpg", alt: "Ameliea" } },
           { project: bySlug("splittable"), tone: "red", shot: { src: "/shots/cover-st.jpg", alt: "SplitTable" } },
         ]}
+        saas={{
+          project: bySlug("cvtoapply"),
+          url: "cvtoapply.co",
+          shot: { src: "/shots/web-cv.jpg", alt: tr ? "CVtoapply web sitesi ana sayfası" : "CVtoapply website home page" },
+        }}
+        entCount={projects.filter((p) => p.category === "enterprise").length}
       />
       <Process d={d} />
       <Faq d={d} />
