@@ -40,7 +40,7 @@ export default function Nav({ locale, d }: { locale: Locale; d: Dict }) {
       <nav className="nav" aria-label={d.nav.menu}>
         <Link href={`/${locale}`} className="nav-logo" aria-label={SITE.name}>
           <span className="brand-mark" data-brand-mark aria-hidden />
-          CORVUS
+          <span className="nav-word">CORVUS</span>
         </Link>
 
         {links.map((l) =>

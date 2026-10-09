@@ -45,3 +45,5 @@ next-env.d.ts
 brand-src/*.mp4
 brand-src/*.png
 brand-src/ascii_frames/
+# Kartvizit PNG/PDF (telefon numarası içerir — repoya girmez)
+brand-src/Kartvizit/

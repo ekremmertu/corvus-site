@@ -143,7 +143,9 @@ img { max-width: 100%; }
 @media (min-width: 900px) { .nav-link { display: flex; } }
 .nav-lang { display: flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; font-size: 12px; letter-spacing: 0.12em; color: var(--soft); text-transform: uppercase; border-radius: 999px; transition: color 0.2s; }
 .nav-lang:hover { color: #fff; }
-.nav-cta { display: flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 999px; background: #fff; color: #000; font-weight: 500; transition: transform 0.35s var(--ease); }
+.nav-cta { display: flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 999px; background: #fff; color: #000; font-weight: 500; white-space: nowrap; transition: transform 0.35s var(--ease); }
+/* çok dar telefon (≤379): yazı sığmıyor → yalnız kuzgun işareti, buton tek satır */
+@media (max-width: 379px) { .nav-word { display: none; } .nav-logo { margin-right: 4px; } .nav-cta { padding: 0 14px; } }
 .nav-cta:hover { transform: scale(1.03); }
 .nav-burger { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 999px; border: 0; background: rgba(255, 255, 255, 0.08); color: #fff; cursor: pointer; }
 @media (min-width: 900px) { .nav-burger { display: none; } .nav-cta-mobile-hide { display: flex; } }
