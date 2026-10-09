@@ -6,15 +6,15 @@ export const FIX_STARS_ON = process.env.NEXT_PUBLIC_FIX_STARS === "1";
 
 export const FIXES: Record<number, string> = {
   1: '"İOS" → "iOS" (Türkçe büyük harf hatası)',
-  2: "iOS kartı kontrastı: turuncu koyulaştı (2,87 → ≥4,5:1)",
+  2: "iOS kartı: telefonlar büyüdü (150 → 196 px) + turuncu koyulaştı (≥4,5:1)",
   3: "Sekme sayıları + lila kart \"4 proje\" kontrastı",
-  4: '"Canlıda" sayacı yalnız yayındaki ürünleri sayar',
+  4: "\"Canlıda\" = yayındaki uygulama/web + teslim edilen kurumsal + çalışan trading ve AI otomasyonları",
   5: "İngilizcede tek ana düğme adı: \"Let's talk\"",
   6: 'Türkçe sayfada İngilizce "Live" etiketi kaldırıldı',
   7: '"Ekranlar" başlığına üst boşluk',
   8: "/work: ok düğmesi tek başına satıra düşmüyor",
   9: "Mobil: yarısı boş Kurumsal kartı kısaldı",
-  10: "/work kartlarına gerçek görsel",
+  10: "/work kartlarına gerçek görsel, ortalı; kart zemini sayfadan ayrışıyor",
   11: "Gizli kartlar: gri iskelet çubuk yerine kilitli kart",
   12: "İngilizce sayfada İngilizce CVtoapply görseli",
 };
