@@ -1,4 +1,4 @@
-> Son çalışma: 09.10.2026 16:21
+> Son çalışma: 09.10.2026 19:48
 # corvus-site — Yol Haritası + PASS LOG
 
 ## 09.10.2026 13:50 — PASS LOG: ana sayfa genişledi (web/SaaS/kurumsal) — Yön A+B+C
@@ -73,6 +73,10 @@
 - 3D değişikliklerinde mobil fallback'i kır(ma)dığını Playwright ile doğrula
 
 ## PASS LOG
+
+### 09.10.2026 19:48 · Mobil hero pencereleri (7d3cb2c)
+- globals.css: <900 px'te `.hero-win` gizliydi → telefonun arkasında yelpaze. iPhone14/SE/tablet/masaüstü taşma 0, build ✓. Canlıya alınmadı.
+- AÇIK: 320 px'te nav "Projeni anlat" iki satır.
 
 ### 09.10.2026 16:21 — PASS: tekrar eden ekranlar + EN TripWalkers + hero 1 sn + SplitTable canlı (54bb4b8 + son commit)
 - Hakem 3. tur 15/20 (hk5). Düzeltilen: SplitTable/Manager live+appStoreUrl (Canlıda 20), İstanbul, iOS kartı 3 yeni uygulama, web kartı splittable.me, EN TW ekranları, hero 1 sn.
