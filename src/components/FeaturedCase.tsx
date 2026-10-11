@@ -50,7 +50,7 @@ export default function FeaturedCase({
                 <div key={m.label.en}>
                   <dt className="sr-only">{m.label[locale]}</dt>
                   <dd style={{ margin: 0 }}>
-                    <strong>{m.value}</strong>
+                    <strong>{(locale === "tr" && m.valueTr) || m.value}</strong>
                     <small>{m.label[locale]}</small>
                   </dd>
                 </div>

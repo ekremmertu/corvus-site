@@ -33,6 +33,8 @@ export interface Project {
   stage?: Stage;
   slug: string;
   name: string;
+  /** Türkçe sayfadaki ad (yoksa name). */
+  nameTr?: string;
   category: CategorySlug;
   status: ProjectStatus;
   year: string;
@@ -44,7 +46,7 @@ export interface Project {
   heroArt?: { src: string; kind: "icon" | "mascot"; glow: string };
   description: L10n;
   highlights: { en: string[]; tr: string[] };
-  metrics?: { label: L10n; value: string }[];
+  metrics?: { label: L10n; value: string; valueTr?: string }[];
   client?: L10n;
   featured?: boolean;
   /**
@@ -374,9 +376,10 @@ export type CardProject = {
   name?: string;
   summary?: L10n;
   appStoreSoon?: boolean;
-  metrics?: { label: L10n; value: string }[];
+  metrics?: { label: L10n; value: string; valueTr?: string }[];
   cover?: Cover;
   stage?: Stage;
+  nameTr?: string;
 };
 
 /** Kart kapağı — App Store posteri (dikey) ya da web/panel ekranı (16:10). Kaynak public/shots/. */
@@ -397,6 +400,8 @@ export type Stage = {
   bg?: string;
   tone?: "light" | "dark";
   hl?: string;
+  /** art: görseldeki anlamın metin karşılığı (ekran okuyucu). */
+  alt?: L10n;
   shots: string[];
   shotsEn?: string[];
   phone?: string;

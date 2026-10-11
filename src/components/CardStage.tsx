@@ -4,15 +4,15 @@ import type { Locale, Stage } from "@/data/taxonomy";
  * /work kart sahnesi: gerçek ekranlar cihaz çerçevesinde, ürünün kendi renginde ışık altında.
  * Tamamen dekoratif (aria-hidden) — kart başlığı ve özeti asıl içerik.
  */
-export default function CardStage({ stage, locale }: { stage: Stage; locale: Locale }) {
+export default function CardStage({ stage, locale, eager }: { stage: Stage; locale: Locale; eager?: boolean }) {
   const shots = (locale === "en" && stage.shotsEn) || stage.shots;
   const phone = (locale === "en" && stage.phoneEn) || stage.phone;
   const n = stage.kind === "phones" ? Math.min(shots.length, 3) : 0;
 
   if (stage.kind === "art") {
     return (
-      <div className="cstage cstage-art" aria-hidden>
-        <img src={shots[0]} alt="" width={960} height={820} loading="lazy" decoding="async" />
+      <div className="cstage cstage-art">
+        <img src={shots[0]} alt={stage.alt?.[locale] ?? ""} width={960} height={820} loading={eager ? "eager" : "lazy"} decoding="async" />
       </div>
     );
   }
@@ -22,11 +22,16 @@ export default function CardStage({ stage, locale }: { stage: Stage; locale: Loc
     return (
       <div className={`cstage cstage-poster ctone-${stage.tone ?? "dark"}`} style={{ background: stage.bg, "--hl": stage.hl ?? "currentColor" } as React.CSSProperties} aria-hidden>
         <div className="cposter-copy">
-          <p className="cposter-head">{parts.map((t, i) => (i % 2 ? <em key={i}>{t}</em> : t))}</p>
+          <p className="cposter-head">
+            {parts.map((t, i) => {
+              const lines = t.split("\n").flatMap((x, j) => (j ? [<br key={`b${i}-${j}`} />, x] : [x]));
+              return i % 2 ? <em key={i}>{lines}</em> : <span key={i}>{lines}</span>;
+            })}
+          </p>
           {stage.sub && <p className="cposter-sub">{stage.sub[locale]}</p>}
         </div>
         <div className="cph cph-0">
-          <img src={shots[0]} alt="" width={640} height={1391} loading="lazy" decoding="async" />
+          <img src={shots[0]} alt="" width={640} height={1391} loading={eager ? "eager" : "lazy"} decoding="async" />
         </div>
         {stage.icon && <img className="cstage-icon" src={stage.icon} alt="" width={96} height={96} loading="lazy" decoding="async" />}
       </div>
@@ -39,7 +44,7 @@ export default function CardStage({ stage, locale }: { stage: Stage; locale: Loc
       {stage.kind === "phones" ? (
         shots.slice(0, n).map((src, i) => (
           <div key={src} className={`cph cph-${i}`}>
-            <img src={src} alt="" width={640} height={1391} loading="lazy" decoding="async" />
+            <img src={src} alt="" width={640} height={1391} loading={eager ? "eager" : "lazy"} decoding="async" />
           </div>
         ))
       ) : (

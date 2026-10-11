@@ -10,7 +10,7 @@ import CardStage from "@/components/CardStage";
  * Proje kartı. Perdeli projede gerçek isim/özet HTML'e HİÇ yazılmaz —
  * blur gizlilik sağlamaz; yerine anlamsız çubuklar konur (bkz. toCards).
  */
-export default function ProjectCard({ project, locale, d, mark, big }: { project: CardProject; locale: Locale; d: Dict; mark?: boolean; big?: boolean }) {
+export default function ProjectCard({ project, locale, d, mark, big, eager }: { project: CardProject; locale: Locale; d: Dict; mark?: boolean; big?: "wide"; eager?: boolean }) {
   const category = getCategory(project.category);
   const status = statusLabels[project.status][locale];
   const isLive = project.status === "live";
@@ -48,8 +48,8 @@ export default function ProjectCard({ project, locale, d, mark, big }: { project
   }
 
   return (
-    <WorkLink href={`/${locale}/work/${project.slug}`} className={`pcard reveal${project.stage ? " has-stage" : ""}${big ? " pcard-big" : ""}`}>
-      {project.stage && <CardStage stage={project.stage} locale={locale} />}
+    <WorkLink href={`/${locale}/work/${project.slug}`} className={`pcard reveal${project.stage ? " has-stage" : ""}${big ? ` pcard-big pcard-${big}` : ""}`}>
+      {project.stage && <CardStage stage={project.stage} locale={locale} eager={eager} />}
       <div className="pcard-top">
         <span>
           <CatName name={category.name[locale]} />
@@ -64,7 +64,7 @@ export default function ProjectCard({ project, locale, d, mark, big }: { project
         </div>
       )}
       <VT name={`proj-${project.slug}`}>
-        <h2 className="pcard-title">{project.name}</h2>
+        <h2 className="pcard-title">{(locale === "tr" && project.nameTr) || project.name}</h2>
       </VT>
       <p>{project.summary?.[locale]}</p>
       {project.metrics && project.metrics.length > 0 && (
@@ -72,7 +72,7 @@ export default function ProjectCard({ project, locale, d, mark, big }: { project
           {project.metrics.map((m) => (
             <div key={m.label.en}>
               <dt>{m.label[locale]}</dt>
-              <dd>{m.value}</dd>
+              <dd>{(locale === "tr" && m.valueTr) || m.value}</dd>
             </div>
           ))}
         </dl>

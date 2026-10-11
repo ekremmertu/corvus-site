@@ -34,7 +34,7 @@ export default async function WorkPage({ params }: PageProps<"/[lang]/work">) {
 
   return (
     <>
-      <header className="page-head grain" style={{ background: "radial-gradient(ellipse 60% 50% at 50% 0%, rgba(120,110,255,.14), transparent 70%), #000" }}>
+      <header className="page-head grain" style={{ background: "#000" }}>
         <div className="wrap" style={{ position: "relative", zIndex: 1 }}>
           <h1 className="h-display" style={{ margin: 0 }}>
             {d.work.title}

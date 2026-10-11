@@ -33,14 +33,14 @@ export async function generateMetadata({
   if (!project || veilOf(project)) return {};
 
   return {
-    title: project.name,
+    title: (locale === "tr" && project.nameTr) || project.name,
     description: project.summary[locale],
     alternates: {
       canonical: `/${locale}/work/${slug}`,
       languages: { en: `/en/work/${slug}`, tr: `/tr/work/${slug}` },
     },
     openGraph: {
-      title: `${project.name} · Corvus Tech`,
+      title: `${(locale === "tr" && project.nameTr) || project.name} · Corvus Tech`,
       description: project.summary[locale],
       type: "article",
     },
@@ -148,7 +148,7 @@ export default async function ProjectPage({
           </p>
           <VT name={`proj-${project.slug}`}>
             <h1 className="h-display" style={{ margin: "16px 0 0" }}>
-              {project.name}
+              {(tr && project.nameTr) || project.name}
             </h1>
           </VT>
           <p className="lede" style={{ maxWidth: "52ch", margin: "22px 0 0" }}>
@@ -238,7 +238,7 @@ export default async function ProjectPage({
               {project.metrics.map((m) => (
                 <div key={m.label.en}>
                   <dt>{m.label[lang]}</dt>
-                  <dd>{m.value}</dd>
+                  <dd>{(tr && m.valueTr) || m.value}</dd>
                 </div>
               ))}
             </dl>
@@ -298,7 +298,7 @@ export default async function ProjectPage({
         <section className="wrap detail-cta" aria-label={project.name}>
           <div>
             <p className="eyebrow">{project.appStoreUrl || project.liveUrl ? d.work.ctaGet : d.work.ctaSoon}</p>
-            <h2>{project.name}</h2>
+            <h2>{(tr && project.nameTr) || project.name}</h2>
             <p>{project.pitch[lang]}</p>
           </div>
           <div className="detail-cta-acts">

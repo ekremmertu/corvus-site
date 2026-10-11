@@ -104,7 +104,7 @@ export const projects: Project[] = [
     stage: {
       kind: "poster",
       head: { tr: "İngilizceyi *konuşarak* öğren.", en: "Learn English *by speaking it.*" },
-      sub: { tr: "Yapay zekâ arkadaşın Lin ile günde 5 dakika. A1'den C2'ye.", en: "Five minutes a day with Lin, your AI friend. A1 to C2." },
+      sub: { tr: "Yapay zekâ arkadaşın Lin ile günde 5 dakika sohbet.", en: "Five minutes a day chatting with Lin, your AI friend." },
       shots: ["/shots/bento-lin.jpg"],
       bg: "linear-gradient(165deg, #FDE7D2, #F4B27A 85%)",
       tone: "light",
@@ -119,8 +119,8 @@ export const projects: Project[] = [
     appStoreUrl: "https://apps.apple.com/tr/app/id6769572261",
     screenshots: 5,
     summary: {
-      en: "English for Turkish speakers: pick your level (A1–C2) and learn by talking.",
-      tr: "Türkçe konuşanlar için İngilizce: seviyeni seç (A1–C2), konuşarak öğren.",
+      en: "English for Turkish speakers: find your level in a five-minute test, then practise every day with AI.",
+      tr: "Türkçe konuşanlar için İngilizce: 5 dakikalık testle seviyeni bul, her gün yapay zekâyla pratik yap.",
     },
     pitch: {
       en: "Speak English without memorising word lists. Five minutes a day with Lin, in real conversations: the restaurant, the interview, the airport. Find your level in five minutes — free to download, start today.",
@@ -152,9 +152,10 @@ export const projects: Project[] = [
     cover: { src: "/shots/vt-st.jpg", srcEn: "/shots/vt-st-en.jpg", kind: "poster" },
     stage: {
       kind: "poster",
-      head: { tr: "Hesap geldi. *Kimse hesap yapmasın.*", en: "Bill's here. *Nobody does the math.*" },
+      head: { tr: "Hesap geldi.\n*Kimse hesap yapmasın.*", en: "Bill's here.\n*Nobody does the math.*" },
       sub: { tr: "QR'ı okut, ne yediysen seç, kendi payını öde.", en: "Scan the QR, pick what you ate, pay your own share." },
       shots: ["/shots/stage/st-pick.jpg"],
+      shotsEn: ["/shots/stage/st-pick-en.jpg"],
       bg: "linear-gradient(160deg, #B8361A, #7A1A08 70%)",
       hl: "#FFD2B8",
       glow: "#E0442B",
@@ -195,7 +196,7 @@ export const projects: Project[] = [
       ],
     },
     metrics: [
-      { label: { en: "Apps", tr: "Uygulama" }, value: "2" },
+      { label: { en: "Apps", tr: "Uygulama" }, value: "Guest + restaurant", valueTr: "Misafir + restoran" },
     ],
   },
   {
@@ -206,6 +207,7 @@ export const projects: Project[] = [
       head: { tr: "Gün sonu raporu *hazır bekler.*", en: "End-of-day report, *ready and waiting.*" },
       sub: { tr: "Ciro, masa masa satış, kim ne yaptı — kapanışta tek ekran.", en: "Revenue, table by table, who did what — one screen at closing." },
       shots: ["/shots/stage/stm-reports.jpg"],
+      shotsEn: ["/shots/stage/stm-reports-en.jpg"],
       bg: "radial-gradient(70% 90% at 85% 100%, rgba(224,68,43,.45), transparent 70%), #141416",
       hl: "#FF7A5C",
       glow: "#FF7A45",
@@ -664,6 +666,7 @@ export const projects: Project[] = [
       head: { tr: "Davetiyeniz *bir film gibi* açılsın.", en: "Your invitation, *opening like a film.*" },
       sub: { tr: "Tek link, zarif bir dijital davetiye. Misafirleriniz unutmaz.", en: "One link, an elegant digital invitation your guests remember." },
       shots: ["/shots/stage/am-preview.jpg"],
+      shotsEn: ["/shots/stage/am-preview-en.jpg"],
       bg: "linear-gradient(165deg, #FBF5EC, #E9D3B5 90%)",
       tone: "light",
       hl: "#9C2F3E",
@@ -810,6 +813,7 @@ export const projects: Project[] = [
     slug: "anaokulu-radar",
     stage: { kind: "web", shots: ["/shots/stage/anaokulu-harita.jpg"], glow: "#2E8B74" },
     name: "Preschool Location Radar",
+    nameTr: "Anaokulu Lokasyon Radarı",
     category: "web",
     status: "live",
     year: "2026",
@@ -867,7 +871,7 @@ export const projects: Project[] = [
   // ───────────────────────────  FINTECH  ───────────────────────────
   {
     slug: "heimdall",
-    stage: { kind: "art", shots: ["/shots/stage/art-heimdall-tr.jpg"], shotsEn: ["/shots/stage/art-heimdall-en.jpg"], glow: "#F2B33D" },
+    stage: { kind: "art", shots: ["/shots/stage/art-heimdall-tr.jpg"], shotsEn: ["/shots/stage/art-heimdall-en.jpg"], glow: "#F2B33D", alt: { tr: "Radar çizimi: 600 hisse tek taramada; kurulum oluşan hisse işaretleniyor.", en: "Radar illustration: 600 stocks in one scan; the stock where a setup forms is flagged." } },
     name: "Heimdall Radar",
     category: "fintech",
     status: "live",
@@ -897,7 +901,7 @@ export const projects: Project[] = [
   },
   {
     slug: "livecryptobot",
-    stage: { kind: "art", shots: ["/shots/stage/art-crypto-tr.jpg"], shotsEn: ["/shots/stage/art-crypto-en.jpg"], glow: "#36E2B4" },
+    stage: { kind: "art", shots: ["/shots/stage/art-crypto-tr.jpg"], shotsEn: ["/shots/stage/art-crypto-en.jpg"], glow: "#36E2B4", alt: { tr: "Üç coinin yarışı; lider değişince bot da yön değiştiriyor. 20 testin 15'i pozitif, 5 negatif test de raporda.", en: "Three coins racing; when the leader changes the bot switches too. 15 of 20 tests positive, the 5 negative ones are reported too." } },
     name: "LiveCryptoBot",
     category: "fintech",
     status: "live",
@@ -916,17 +920,17 @@ export const projects: Project[] = [
       en: [
         "15/20 walk-forward windows positive (75%)",
         "Averaged 10R (risk units) a month in validation",
-        "~23% average drawdown reported alongside returns",
+        "~23% average max drawdown per test period, reported alongside returns",
       ],
       tr: [
         "20 walk-forward penceresinin 15'i pozitif (%75)",
         "Doğrulamada ayda ortalama 10R (risk birimi) kazanç",
-        "Getirilerin yanında ~%23 ortalama düşüş raporlandı",
+        "Test dönemi başına en derin düşüşün ortalaması ~%23 — getirilerin yanında raporlandı",
       ],
     },
     metrics: [
       { label: { en: "Positive windows", tr: "Pozitif pencere" }, value: "15/20" },
-      { label: { en: "Avg drawdown", tr: "Ort. düşüş" }, value: "~23%" },
+      { label: { en: "Avg drawdown", tr: "Ort. düşüş" }, value: "~23%", valueTr: "~%23" },
     ],
   },
   {
@@ -960,6 +964,7 @@ export const projects: Project[] = [
   {
     slug: "takim-kur",
     name: "Systematic Portfolio",
+    nameTr: "Sistematik Portföy",
     category: "fintech",
     status: "live",
     year: "2026",
@@ -987,7 +992,7 @@ export const projects: Project[] = [
   },
   {
     slug: "market-terminal",
-    stage: { kind: "art", shots: ["/shots/stage/art-terminal-tr.jpg"], shotsEn: ["/shots/stage/art-terminal-en.jpg"], glow: "#4C7DFF" },
+    stage: { kind: "art", shots: ["/shots/stage/art-terminal-tr.jpg"], shotsEn: ["/shots/stage/art-terminal-en.jpg"], glow: "#4C7DFF", alt: { tr: "Grafiği okuyan tarama çizgisi ve her sabah 08:00'de hazır bülten: tema başına görüş. Yalnız analiz, emir iletmez.", en: "A scan line reading the chart and a brief ready every morning at 08:00, one call per theme. Analysis only, no orders." } },
     name: "Market Terminal",
     category: "fintech",
     status: "live",
@@ -1083,6 +1088,7 @@ export const projects: Project[] = [
     slug: "idea-miner",
     stage: { kind: "web", shots: ["/shots/stage/dert-motoru.jpg"], glow: "#E8498A" },
     name: "Demand Miner",
+    nameTr: "Dert Motoru",
     category: "ai",
     status: "live",
     year: "2026",
@@ -1253,6 +1259,7 @@ export function toCards(list: Project[] = projects): CardProject[] {
           appStoreSoon: p.appStoreSoon,
           cover: p.cover,
           stage: p.stage,
+          nameTr: p.nameTr,
         };
     })
     .flatMap((card, i) => {
