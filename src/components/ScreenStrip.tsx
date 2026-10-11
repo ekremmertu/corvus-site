@@ -1,4 +1,5 @@
 import Link from "next/link";
+import WorkLink from "@/components/WorkLink";
 import FixStar from "@/components/fx/FixStar";
 import type { Locale } from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
@@ -52,7 +53,7 @@ export default function ScreenStrip({
       >
         <div className="film" tabIndex={0} role="list" aria-label={d.home.tabApp}>
           {items.map((it) => (
-            <Link key={it.slug + it.src} href={`/${locale}/work/${it.slug}`} className="film-item" role="listitem" data-view>
+            <WorkLink key={it.slug + it.src} href={`/${locale}/work/${it.slug}`} className="film-item" role="listitem" data-view>
               <span className="poster">
                 <img src={it.src} alt={it.alt} width={600} height={1300} loading="lazy" decoding="async" />
               </span>
@@ -60,12 +61,12 @@ export default function ScreenStrip({
                 {it.name}
                 <small>{it.sub}</small>
               </div>
-            </Link>
+            </WorkLink>
           ))}
         </div>
         <div className="film film-wide" tabIndex={0} role="list" aria-label={d.home.tabWeb}>
           {web.map((it) => (
-            <Link key={it.slug} href={`/${locale}/work/${it.slug}`} className="film-item" role="listitem" data-view>
+            <WorkLink key={it.slug} href={`/${locale}/work/${it.slug}`} className="film-item" role="listitem" data-view>
               <BrowserFrame url={it.url}>
                 <img src={it.src} alt={it.alt} width={1200} height={750} loading="lazy" decoding="async" />
               </BrowserFrame>
@@ -73,7 +74,7 @@ export default function ScreenStrip({
                 {it.name}
                 <small>{it.sub}</small>
               </div>
-            </Link>
+            </WorkLink>
           ))}
         </div>
         <div className="film film-wide" role="list" aria-label={d.home.tabEnt}>
