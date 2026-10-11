@@ -43,7 +43,7 @@
       const id = a.getAttribute('href');
       if (id.length < 2) return;
       const t = document.querySelector(id); if (!t) return;
-      e.preventDefault(); lenis.scrollTo(t, { offset: -40, duration: 1.6 });
+      e.preventDefault(); lenis.scrollTo(t, { offset: -40, duration: 1.0 });
     }));
   }
 
@@ -74,17 +74,16 @@
     onUpdate: (s) => { const n = Math.round(s.progress * words.length); words.forEach((w, i) => w.classList.toggle('lit', i < n)); },
   });
   gsap.from('[data-tab]', {
-    y: -140, opacity: 0, rotate: () => gsap.utils.random(-14, 14), stagger: 0.12, duration: 0.9, ease: 'back.out(1.6)',
+    y: -90, opacity: 0, rotate: () => gsap.utils.random(-10, 10), stagger: 0.07, duration: 0.45, ease: 'back.out(1.4)',
     scrollTrigger: { trigger: '.desk', start: 'top 75%' },
   });
-  gsap.to('[data-tired]', {
-    rotate: -4, y: 6, duration: 1.6, ease: 'sine.inOut', yoyo: true, repeat: -1,
-  });
+  // one sigh when the pile lands, then still
+  gsap.fromTo('[data-tired]', { y: 0, rotate: 0 }, { y: 8, rotate: -4, duration: 0.35, ease: 'power2.out', yoyo: true, repeat: 1, delay: 0.6, scrollTrigger: { trigger: '.desk', start: 'top 75%' } });
 
   // ---------- generic reveals ----------
   $$('[data-reveal]').forEach((el) => {
     if (el.getBoundingClientRect().top < innerHeight) return;
-    gsap.from(el, { y: 40, duration: 1.1, ease: 'expo.out', immediateRender: false, scrollTrigger: { trigger: el, start: 'top 92%' } });
+    gsap.from(el, { y: 14, duration: 0.4, ease: 'power2.out', immediateRender: false, scrollTrigger: { trigger: el, start: 'top 92%' } });
   });
 
   // phones drift against the scroll — depth without WebGL
@@ -104,7 +103,7 @@
 
   // hidden gem: veil slides off when it reaches you
   $$('[data-gem]').forEach((g) => {
-    gsap.from(g, { y: 80, rotate: 14, opacity: 0, duration: 1.2, ease: 'expo.out', scrollTrigger: { trigger: g, start: 'top 85%' } });
+    gsap.from(g, { y: 30, rotate: 10, opacity: 0, duration: 0.45, ease: 'power3.out', scrollTrigger: { trigger: g, start: 'top 85%' } });
     ScrollTrigger.create({ trigger: g, start: 'top 60%', onEnter: () => g.classList.add('open'), onLeaveBack: () => g.classList.remove('open') });
     g.addEventListener('click', () => g.classList.toggle('open'));
   });
@@ -113,24 +112,24 @@
   $$('.visual').forEach((v) => {
     const pops = v.querySelectorAll('[data-pop]');
     if (!pops.length) return;
-    gsap.from(pops, { scale: 0.5, x: -30, opacity: 0, duration: 0.8, stagger: 0.18, ease: 'back.out(2)', scrollTrigger: { trigger: v, start: 'top 70%' } });
+    gsap.from(pops, { scale: 0.8, x: -12, opacity: 0, duration: 0.35, stagger: 0.08, ease: 'back.out(1.6)', scrollTrigger: { trigger: v, start: 'top 70%' } });
   });
 
   // wrapped card: flips up like a story
   const wr = document.querySelector('[data-wrapped]');
-  if (wr) gsap.from(wr, { rotateY: -35, rotateX: 12, scale: 0.85, opacity: 0, duration: 1.4, ease: 'expo.out', transformPerspective: 1000, scrollTrigger: { trigger: wr, start: 'top 80%' } });
+  if (wr) gsap.from(wr, { rotateY: -20, rotateX: 8, scale: 0.94, opacity: 0, duration: 0.5, ease: 'power3.out', transformPerspective: 1000, scrollTrigger: { trigger: wr, start: 'top 80%' } });
 
   // count-ups
   $$('[data-count]').forEach((el) => {
     const end = +el.dataset.count, dec = +(el.dataset.dec || 0), o = { v: 0 };
     ScrollTrigger.create({
       trigger: el, start: 'top 90%', once: true,
-      onEnter: () => gsap.fromTo(o, { v: 0 }, { v: end, duration: 1.8, ease: 'expo.out', onUpdate: () => (el.textContent = fmt(o.v, dec)), onComplete: () => setFinal(el) }),
+      onEnter: () => gsap.fromTo(o, { v: 0 }, { v: end, duration: 0.9, ease: 'power2.out', onUpdate: () => (el.textContent = fmt(o.v, dec)), onComplete: () => setFinal(el) }),
     });
   });
 
   // finale headline grows in
-  gsap.from('.finale h2', { scale: 0.86, duration: 1.6, ease: 'expo.out', scrollTrigger: { trigger: '.finale', start: 'top 70%' } });
+  gsap.from('.finale h2', { scale: 0.94, duration: 0.5, ease: 'power3.out', scrollTrigger: { trigger: '.finale', start: 'top 70%' } });
 
   // ---------- pointer craft (mouse only) ----------
   if (fine) {
