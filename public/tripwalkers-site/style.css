@@ -50,7 +50,13 @@ a { color: inherit; text-decoration: none; }
   border: 1px solid var(--line); border-radius: 999px; max-width: calc(100% - 24px);
 }
 .nav .brand { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 0.95rem; margin-right: 10px; white-space: nowrap; }
-.nav .brand { min-height: 44px; }
+.nav .back {
+  display: grid; place-items: center; flex: none; width: 44px; height: 44px; margin-left: -8px; border-radius: 50%;
+  color: var(--fg); background: rgba(250,246,240,.06); border: 1px solid var(--line); transition: background .2s, transform .35s var(--ease);
+}
+.nav .back:hover { background: rgba(250,246,240,.14); transform: translateX(-2px); }
+.nav .back svg { width: 18px; height: 18px; }
+.nav .brand { min-height: 44px; flex: none; }
 .nav .brand img { width: 30px; height: 30px; border-radius: 50%; background: var(--ember); object-fit: cover; object-position: 50% 20%; }
 .nav a.l { font-size: 0.85rem; color: var(--fg-2); padding: 8px 12px; border-radius: 999px; transition: color .2s, background .2s; }
 .nav a.l:hover { color: var(--fg); background: var(--line); }
@@ -86,7 +92,7 @@ a { color: inherit; text-decoration: none; }
   color: rgba(250, 246, 240, .045); pointer-events: none; white-space: nowrap; user-select: none;
 }
 .hero h1 {
-  position: relative; font-size: var(--fs-hero); font-weight: 800; letter-spacing: -0.055em; line-height: .95;
+  position: relative; font-size: var(--fs-hero); font-weight: 800; letter-spacing: -0.045em; line-height: .95;
   text-wrap: balance; max-width: 12ch;
 }
 .hero h1 .serif { display: block; font-size: 1.08em; letter-spacing: -0.03em; color: var(--ember-hi); margin-top: .06em; }
@@ -195,7 +201,7 @@ svg.route { position: absolute; inset: 0; width: 100%; height: 100%; overflow: v
 .node.gut { position: absolute; left: max(14px, calc((100vw - 1200px) / 4)); width: 1px; height: 1px; border: 0; opacity: 0; }
 .stop .tag { display: flex; align-items: center; gap: 14px; margin-bottom: 26px; }
 .stop .tag .eyebrow { color: var(--ember); }
-.stop h2 { font-size: var(--fs-h2); font-weight: 800; letter-spacing: -0.05em; line-height: .98; text-wrap: balance; }
+.stop h2 { font-size: var(--fs-h2); font-weight: 800; letter-spacing: -0.04em; line-height: .98; text-wrap: balance; }
 .stop h2 .serif { color: var(--ember-hi); }
 .stop p.lead { margin-top: 22px; font-size: var(--fs-lead); color: var(--fg-2); max-width: 30rem; text-wrap: pretty; }
 .facts { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 26px; }
@@ -212,10 +218,10 @@ svg.route { position: absolute; inset: 0; width: 100%; height: 100%; overflow: v
 @media (max-width: 860px) {
   .stop .row { grid-template-columns: 1fr; }
   .stop.alt .copy { order: 0; }
-  .stop .copy { padding-left: 52px; }
+  .stop .copy { padding-left: 60px; }
   .stop > .node.seam { left: calc(var(--gutter) + 20px); top: clamp(60px, 9vw, 130px); width: 40px; height: 40px; font-size: .8rem; }
   .node.gut, .node.seam-end { left: calc(var(--gutter) + 20px); }
-  .route-wrap > section:not(.stop):not(.finale) { padding-left: calc(var(--gutter) + 46px); }
+  .route-wrap > section:not(.stop):not(.finale) { padding-left: calc(var(--gutter) + 60px); }
   .route-wrap > section:not(.stop):not(.finale) h2 { text-align: left; }
   .route-wrap > .pricing { text-align: left; }
   .visual { min-height: 480px; margin-left: 40px; }
@@ -252,14 +258,19 @@ svg.route { position: absolute; inset: 0; width: 100%; height: 100%; overflow: v
 @media (max-width: 860px) { .gem { right: -6px; width: 210px; } }
 
 /* group avatars */
-.crew { position: absolute; z-index: 4; left: -4%; top: 46%; display: flex; flex-direction: column; gap: 10px; }
+#together .visual .phone { transform: translateX(40%); }
+.crew { position: absolute; z-index: 4; left: -4%; top: 30%; align-items: flex-start; display: flex; flex-direction: column; gap: 10px; }
 .crew .p {
   display: flex; align-items: center; gap: 10px; padding: 8px 14px 8px 8px; border-radius: 999px; background: rgba(21,19,17,.88);
   border: 1px solid var(--line); font-size: .8rem; font-weight: 700; backdrop-filter: blur(8px); white-space: nowrap;
 }
 .crew .p b { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; font-size: .8rem; font-weight: 800; color: #fff; }
 .crew .p small { color: var(--fg-2); font-weight: 500; font-size: .78rem; }
-@media (max-width: 860px) { .crew { left: -30px; top: 52%; } }
+@media (max-width: 1100px) {
+  #together .visual { min-height: 0; padding-block: 24px; gap: 14px; }
+  #together .visual .phone { transform: none; }
+  .crew { position: static; width: 100%; max-width: 260px; }
+}
 
 /* wrapped card */
 .wrapped {
@@ -287,7 +298,7 @@ svg.route { position: absolute; inset: 0; width: 100%; height: 100%; overflow: v
 
 /* ---------- pricing ---------- */
 .pricing { position: relative; z-index: 2; max-width: 1200px; margin: 0 auto; padding: clamp(80px, 11vw, 150px) var(--gutter); text-align: center; }
-.pricing h2, .faq h2 { font-size: var(--fs-h2); font-weight: 800; letter-spacing: -0.05em; line-height: .98; }
+.pricing h2, .faq h2 { font-size: var(--fs-h2); font-weight: 800; letter-spacing: -0.04em; line-height: .98; }
 .pricing h2 .serif, .faq h2 .serif { color: var(--ember-hi); }
 .pricing > p { color: var(--fg-2); margin: 20px auto 0; max-width: 34rem; font-size: var(--fs-lead); }
 .plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 56px; text-align: left; }
@@ -330,7 +341,7 @@ svg.route { position: absolute; inset: 0; width: 100%; height: 100%; overflow: v
   content: ""; position: absolute; left: 50%; top: 40%; width: 1100px; height: 800px; transform: translate(-50%, -50%);
   background: radial-gradient(closest-side, rgba(242,86,35,.32), transparent); pointer-events: none;
 }
-.finale h2 { position: relative; font-size: clamp(3.4rem, 10vw, 9rem); font-weight: 800; letter-spacing: -0.065em; line-height: .98; }
+.finale h2 { position: relative; font-size: clamp(3.4rem, 10vw, 9rem); font-weight: 800; letter-spacing: -0.045em; line-height: .98; }
 .finale h2 .serif { display: block; color: var(--ember-hi); letter-spacing: -0.03em; }
 .finale p { position: relative; color: var(--fg-2); margin: 24px auto 34px; max-width: 30rem; font-size: var(--fs-lead); text-wrap: balance; }
 .finale .flag { position: relative; display: inline-grid; place-items: center; margin-bottom: 40px; }

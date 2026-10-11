@@ -22,11 +22,12 @@ const nextConfig: NextConfig = {
   // Geri açılacaksa önce auth eklenmeli, bkz. TODO.md güvenlik turu.
   // TripWalkers EN tanıtım sitesi (Lumière, 12.10.2026): kendi menüsü ve hareket dili olan
   // bağımsız statik sayfa → stüdyo kabuğu (Nav/Footer/imleç) üstüne binmesin diye rewrite.
-  // TR karşılığı onaylanana kadar /tr/work/tripwalkers eski detay şablonunda kalır.
+  // EN + TR (12.10.2026). Bu listeyi değiştirirsen src/components/WorkLink.tsx STANDALONE listesini de güncelle.
   async rewrites() {
     return {
       beforeFiles: [
         { source: "/en/work/tripwalkers", destination: "/tripwalkers-site/index.html" },
+        { source: "/tr/work/tripwalkers", destination: "/tripwalkers-site/index-tr.html" },
       ],
     };
   },
