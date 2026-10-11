@@ -1024,7 +1024,7 @@ export const projects: Project[] = [
   {
     slug: "growth-engine",
     cover: { src: "/shots/growth.jpg", srcEn: "/shots/growth-en.jpg", kind: "web" },
-    stage: { kind: "art", shots: ["/shots/stage/art-growth-tr.jpg"], shotsEn: ["/shots/stage/art-growth-en.jpg"], glow: "#FF7A59", alt: { tr: "Haftalık içerik takvimi: altı ajanın yazıp hazırladığı post, reel ve story'ler yedi güne yerleşmiş.", en: "Weekly content calendar: posts, reels and stories written and prepared by six agents, placed across seven days." } },
+    stage: { kind: "art", shots: ["/shots/stage/art-growth-tr.jpg"], shotsEn: ["/shots/stage/art-growth-en.jpg"], glow: "#FF7A59", alt: { tr: "Örnek haftalık içerik takvimi: altı içerik tipinden post, reel ve story yedi güne yerleşmiş.", en: "Sample weekly content calendar: posts, reels and stories, three of the six content types, placed across seven days." } },
     name: "Growth Engine",
     category: "ai",
     status: "live",
@@ -1118,7 +1118,7 @@ export const projects: Project[] = [
     slug: "studio-panel",
     name: "Studio Panel",
     category: "ai",
-    status: "live",
+    status: "internal",
     year: "2026",
     stack: ["Python", "Local server", "JSON store"],
     summary: {
