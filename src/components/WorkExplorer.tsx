@@ -41,6 +41,7 @@ export default function WorkExplorer({ locale, d, cards }: { locale: Locale; d: 
             locale={locale}
             d={d}
             mark={i === 0 || (Boolean(p.veil) && list.findIndex((x) => x.veil) === i)}
+            big={i === 0 && Boolean(p.stage)}
           />
         ))}
       </div>

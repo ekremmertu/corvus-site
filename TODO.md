@@ -1,4 +1,10 @@
-> Son çalışma: 09.10.2026 20:01
+> Son çalışma: 12.10.2026 01:47
+
+## 12.10.2026 01:47 — /work ürün sahnesi (yerel)
+- [ ] 14 görselsiz karta gerçek ekran
+- [ ] impeccable + kör hakem
+- [ ] CEO yerel onayı → yayın
+
 # corvus-site — Yol Haritası + PASS LOG
 
 ## 09.10.2026 13:50 — PASS LOG: ana sayfa genişledi (web/SaaS/kurumsal) — Yön A+B+C

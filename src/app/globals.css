@@ -560,3 +560,85 @@ html.pre-hero .hero-word { opacity: 0; letter-spacing: 0.02em; }
   .disc-ios .iph .iph-screen { border-radius: 18px; }
   .disc-ios .iph:nth-child(2) { margin-bottom: 26px; }
 }
+
+/* ── /work ürün sahnesi (12.10.2026) — gerçek ekranlar, ürün renginde ışık, kart üstünden taşan cihazlar ── */
+.pcard.has-stage { padding-top: 0; }
+.cstage { --pw: 164px; position: relative; height: 330px; margin: 0 -28px 24px; overflow: hidden; background: #0a0a0c; border-bottom: 1px solid #26262a; isolation: isolate; }
+.cstage-light { position: absolute; inset: 0; z-index: -1; background:
+  radial-gradient(38% 50% at 50% 58%, color-mix(in oklab, var(--glow) 85%, transparent), transparent 100%),
+  radial-gradient(90% 70% at 50% 120%, var(--glow), transparent 70%),
+  linear-gradient(180deg, color-mix(in oklab, var(--glow) 14%, #0a0a0c), color-mix(in oklab, var(--glow) 34%, #0a0a0c));
+  transition: opacity 0.6s var(--ease), transform 0.9s var(--ease); opacity: 0.78; }
+.cstage::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, transparent 72%, rgba(12, 12, 14, 0.55)); }
+.pcard:hover .cstage-light { opacity: 1; transform: scale(1.06); }
+.cph { position: absolute; left: 50%; top: 40px; width: var(--pw); margin-left: calc(var(--pw) / -2); padding: 4px; border-radius: calc(var(--pw) * 0.17); background: linear-gradient(160deg, #3a3a3e, #141416 40%, #26262a); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16), 0 28px 60px rgba(0, 0, 0, 0.65); transition: transform 0.9s var(--ease); will-change: transform; }
+.cph img { display: block; width: 100%; aspect-ratio: 640 / 1391; object-fit: cover; object-position: top; border-radius: calc(var(--pw) * 0.145); }
+.cstage-n2 .cph-0 { transform: translateX(-22%); z-index: 2; }
+.cstage-n2 .cph-1 { transform: translate(38%, 26px) rotate(7deg); filter: brightness(0.78); }
+.pcard:hover .cstage-n2 .cph-0 { transform: translate(-26%, -10px); }
+.pcard:hover .cstage-n2 .cph-1 { transform: translate(46%, 20px) rotate(10deg); }
+.cstage-n3 .cph-0 { z-index: 2; }
+.cstage-n3 .cph-1 { transform: translate(-72%, 34px) rotate(-9deg); filter: brightness(0.72); }
+.cstage-n3 .cph-2 { transform: translate(72%, 34px) rotate(9deg); filter: brightness(0.72); }
+.pcard:hover .cstage-n3 .cph-0 { transform: translateY(-10px); }
+.pcard:hover .cstage-n3 .cph-1 { transform: translate(-82%, 28px) rotate(-12deg); }
+.pcard:hover .cstage-n3 .cph-2 { transform: translate(82%, 28px) rotate(12deg); }
+.pcard:hover .cstage-n1 .cph-0 { transform: translateY(-10px); }
+.cbrw { position: absolute; left: 7%; right: 7%; top: 38px; border-radius: 12px; overflow: hidden; background: #1c1c1e; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14), 0 30px 70px rgba(0, 0, 0, 0.7); transform: perspective(1400px) rotateX(9deg); transform-origin: 50% 100%; transition: transform 0.9s var(--ease); }
+.cbrw-bar { height: 24px; display: flex; align-items: center; gap: 5px; padding: 0 10px; background: #232326; }
+.cbrw-bar i { width: 7px; height: 7px; border-radius: 50%; background: #48484a; }
+.cbrw-bar span { margin-left: 8px; flex: 0 1 200px; height: 14px; border-radius: 4px; background: #2f2f33; font-size: 9px; line-height: 14px; color: #a1a1a6; padding-left: 7px; overflow: hidden; white-space: nowrap; }
+.cbrw-view { aspect-ratio: 16 / 10; overflow: hidden; background: #0b0b0f; }
+.cbrw-view img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.pcard:hover .cbrw { transform: perspective(1400px) rotateX(3deg) translateY(-8px); }
+.cstage-web .cph-side { --pw: 96px; left: auto; right: 5%; top: 120px; margin: 0; z-index: 2; }
+.pcard:hover .cstage-web .cph-side { transform: translateY(-14px) rotate(-2deg); }
+.cstage-icon { position: absolute; left: 20px; top: 18px; z-index: 3; width: 44px; height: 44px; border-radius: 11px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+.pcard.has-stage .pcard-top { margin-top: 0; }
+
+@media (min-width: 1024px) {
+  .pcard-big { grid-column: span 2; }
+  .pcard-big .cstage { --pw: 214px; height: 440px; }
+  .pcard-big .cstage-n3 .cph-1 { transform: translate(-96%, 30px) rotate(-8deg); }
+  .pcard-big .cstage-n3 .cph-2 { transform: translate(96%, 30px) rotate(8deg); }
+  .pcard-big:hover .cstage-n3 .cph-1 { transform: translate(-108%, 24px) rotate(-11deg); }
+  .pcard-big:hover .cstage-n3 .cph-2 { transform: translate(108%, 24px) rotate(11deg); }
+  .pcard-big .pcard-title { font-size: 34px; }
+}
+@media (max-width: 639px) {
+  .cstage { --pw: 140px; height: 290px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cph, .cbrw, .cstage-light { transition: none; }
+}
+
+/* Kilitli kartlar: boş kilit kutusu yerine kısa, sakin kart — vitrini ürün sahneleri taşısın */
+.pcard.veiled { min-height: 0; }
+.pcard.veiled .veil-lock { flex: none; min-height: 0; height: 64px; margin-top: 18px; }
+.pcard.veiled .veil-lock svg { width: 24px; height: 24px; }
+
+/* Afiş sahnesi: tek satış cümlesi solda, tek telefon sağda kartın altından taşar */
+.cstage-poster { display: block; }
+.cstage-poster::after { display: none; }
+.cposter-copy { position: absolute; left: 26px; top: 30px; width: calc(54% - 26px); z-index: 3; }
+.pcard .cposter-head { margin: 0; flex: none; color: inherit; font-size: clamp(24px, 2vw, 29px); line-height: 1.05; font-weight: 700; letter-spacing: -0.035em; text-wrap: balance; hyphens: none; }
+.pcard .cposter-head em { font-style: normal; color: var(--hl); }
+.pcard .cposter-sub { margin: 12px 0 0; flex: none; color: inherit; font-size: 14px; line-height: 1.45; opacity: 0.86; text-wrap: pretty; }
+.ctone-dark { color: #fff; }
+.ctone-light { color: #1b1410; }
+.cstage-poster .cph-0 { --pw: 142px; left: 58%; right: auto; margin: 0; top: 40px; z-index: 2; transform: rotate(6deg); }
+.pcard:hover .cstage-poster .cph-0 { transform: rotate(3deg) translateY(-12px); }
+.cstage-poster .cstage-icon { left: 26px; top: auto; bottom: 22px; }
+@media (max-width: 639px) {
+  .cposter-copy { left: 22px; top: 24px; width: calc(56% - 22px); }
+  .pcard .cposter-head { font-size: 23px; }
+  .pcard .cposter-sub { font-size: 13px; }
+  .cstage-poster .cph-0 { --pw: 124px; left: 60%; }
+}
+
+/* Çizim sahnesi: sistem mantığı görseli, kartın üstünü tamamen kaplar */
+.cstage-art { background: #050505; }
+.cstage-art::after { display: none; }
+.cstage-art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; transition: transform 0.9s var(--ease); }
+.pcard:hover .cstage-art img { transform: scale(1.03); }
+@media (prefers-reduced-motion: reduce) { .cstage-art img { transition: none; } }

@@ -4,12 +4,13 @@ import { getCategory, stackLabel, statusLabels, type CardProject, type Locale } 
 import type { Dict } from "@/i18n/dict";
 import VT from "@/components/fx/VT";
 import FixStar from "@/components/fx/FixStar";
+import CardStage from "@/components/CardStage";
 
 /**
  * Proje kartı. Perdeli projede gerçek isim/özet HTML'e HİÇ yazılmaz —
  * blur gizlilik sağlamaz; yerine anlamsız çubuklar konur (bkz. toCards).
  */
-export default function ProjectCard({ project, locale, d, mark }: { project: CardProject; locale: Locale; d: Dict; mark?: boolean }) {
+export default function ProjectCard({ project, locale, d, mark, big }: { project: CardProject; locale: Locale; d: Dict; mark?: boolean; big?: boolean }) {
   const category = getCategory(project.category);
   const status = statusLabels[project.status][locale];
   const isLive = project.status === "live";
@@ -47,7 +48,8 @@ export default function ProjectCard({ project, locale, d, mark }: { project: Car
   }
 
   return (
-    <WorkLink href={`/${locale}/work/${project.slug}`} className="pcard reveal">
+    <WorkLink href={`/${locale}/work/${project.slug}`} className={`pcard reveal${project.stage ? " has-stage" : ""}${big ? " pcard-big" : ""}`}>
+      {project.stage && <CardStage stage={project.stage} locale={locale} />}
       <div className="pcard-top">
         <span>
           <CatName name={category.name[locale]} />
@@ -55,7 +57,7 @@ export default function ProjectCard({ project, locale, d, mark }: { project: Car
         </span>
         <span className={isLive ? "live" : undefined}>{status}</span>
       </div>
-      {project.cover && (
+      {!project.stage && project.cover && (
         <div className={`pcard-cover ${project.cover.kind}`}>
           <img src={(locale === "en" && project.cover.srcEn) || project.cover.src} alt="" width={600} height={project.cover.kind === "web" ? 375 : 1300} loading="lazy" decoding="async" />
           {mark && <FixStar n={10} style={{ position: "absolute", top: 10, left: 10 }} />}
