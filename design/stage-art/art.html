@@ -42,7 +42,7 @@ function heimdall() {
   for (let k = 1; k <= 4; k++) rings += `<circle cx="${cx}" cy="${cy}" r="${(R * k) / 4}" fill="none" stroke="${G}" stroke-opacity="${k === 4 ? 0.5 : 0.18}" stroke-width="${k === 4 ? 3 : 1.6}"/>`;
   const sweepA = -1.0, sx = cx + R * Math.cos(sweepA), sy = cy + R * Math.sin(sweepA);
   const sa = sweepA - 0.8, sx2 = cx + R * Math.cos(sa), sy2 = cy + R * Math.sin(sa);
-  const pill = T("Kurulum oluştu", "Setup formed");
+  const pill = T("Sinyal oluştu", "Signal formed");
   const pw = pill.length * 21 + 60;
   el.innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
     <defs>
@@ -141,7 +141,102 @@ function crypto() {
   </svg>`;
 }
 
-({ heimdall, terminal, crypto })[V]();
+
+function dert() {
+  const P = "#F0508F", Gn = "#8BD13A";
+  const rows = L === "en"
+    ? ["looks", "loneliness", "money", "dating", "sleep", "career", "skin"]
+    : ["görünüm", "yalnızlık", "para", "ilişki", "uyku", "kariyer", "cilt"];
+  const pain = [0.95, 0.78, 0.66, 0.55, 0.42, 0.33, 0.24], pay = [0.18, 0.05, 0.92, 0.36, 0.12, 0.28, 0.44];
+  const cx = 480, top = 270, rh = 66, maxw = 300;
+  let bars = "";
+  rows.forEach((r, i) => {
+    const y = top + i * rh, hot = i === 2;
+    if (hot) bars += `<rect x="40" y="${y - 30}" width="880" height="60" rx="16" fill="#fff" fill-opacity=".07" stroke="#fff" stroke-opacity=".35" stroke-width="2"/>`;
+    bars += `<rect x="${cx - 80 - pain[i] * maxw}" y="${y - 13}" width="${pain[i] * maxw}" height="26" rx="13" fill="${P}" fill-opacity="${hot ? 1 : 0.75}"/>
+      <rect x="${cx + 80}" y="${y - 13}" width="${pay[i] * maxw}" height="26" rx="13" fill="${Gn}" fill-opacity="${hot ? 1 : 0.75}"/>
+      <text x="${cx}" y="${y + 11}" text-anchor="middle" fill="${hot ? "#fff" : "#c9c3cf"}" font-size="30" font-weight="${hot ? 800 : 600}">${r}</text>`;
+  });
+  const hy = top + 2 * rh;
+  el.innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+    <defs><radialGradient id="bg" cx="50%" cy="60%" r="80%"><stop offset="0" stop-color="#2a0f22"/><stop offset=".6" stop-color="#0d0710"/><stop offset="1" stop-color="#050306"/></radialGradient></defs>
+    <rect width="${W}" height="${H}" fill="url(#bg)"/>
+    <text x="56" y="100" fill="#fff" font-size="52" font-weight="800" letter-spacing="-1.5">${T("Dert çok,", "Plenty of pain,")}</text>
+    <text x="56" y="160" fill="${Gn}" font-size="52" font-weight="800" letter-spacing="-1.5">${T("para veren az.", "few who pay.")}</text>
+    <text x="${cx - 80}" y="222" text-anchor="end" fill="${P}" font-size="28" font-weight="700">← ${T("dert", "pain")}</text>
+    <text x="${cx + 80}" y="222" fill="${Gn}" font-size="28" font-weight="700">${T("para", "pays")} →</text>
+    ${bars}
+    <rect x="${cx + 80 + pay[2] * maxw - 170}" y="${hy - 84}" width="${L === "en" ? 250 : 210}" height="52" rx="26" fill="${Gn}"/>
+    <text x="${cx + 80 + pay[2] * maxw - 170 + (L === "en" ? 125 : 105)}" y="${hy - 48}" text-anchor="middle" fill="#0d1a02" font-size="28" font-weight="800">${T("Fikir burada", "The idea is here")}</text>
+    <text x="56" y="790" fill="#bfb3c6" font-size="30" font-weight="500">${T("Kaynak: forumlar ve 1–2★ yorumlar", "Source: forums and 1–2★ reviews")}</text>
+  </svg>`;
+}
+
+function growth() {
+  const C = { post: "#FF7A59", reel: "#FFC24B", story: "#5CC8FF" };
+  const days = L === "en" ? ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"] : ["Pzt", "Sal", "Çar", "Per", "Cum", "Cmt", "Paz"];
+  const plan = [["post", "story"], ["reel"], ["post", "story"], ["reel", "story"], ["post"], ["reel", "story"], ["post"]];
+  const x0 = 56, cw = 118, gap = 10, y0 = 250;
+  let cols = "";
+  days.forEach((d, i) => {
+    const x = x0 + i * (cw + gap);
+    cols += `<rect x="${x}" y="${y0}" width="${cw}" height="420" rx="18" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/>
+      <text x="${x + cw / 2}" y="${y0 + 46}" text-anchor="middle" fill="#e9e3f2" font-size="30" font-weight="700">${d}</text>`;
+    plan[i].forEach((k, j) => {
+      const h = k === "reel" ? 170 : k === "post" ? 130 : 90, y = y0 + 70 + (j ? (plan[i][0] === "reel" ? 186 : 146) : 0);
+      cols += `<rect x="${x + 10}" y="${y}" width="${cw - 20}" height="${h}" rx="12" fill="${C[k]}" fill-opacity=".92"/>`;
+    });
+  });
+  const legend = [["post", "Post"], ["reel", "Reel"], ["story", "Story"]].map(([k, l], i) => `<rect x="${56 + i * 200}" y="725" width="30" height="30" rx="8" fill="${C[k]}"/><text x="${100 + i * 200}" y="750" fill="#e9e3f2" font-size="30" font-weight="600">${l}</text>`).join("");
+  el.innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+    <defs><radialGradient id="bg" cx="50%" cy="65%" r="85%"><stop offset="0" stop-color="#2b1610"/><stop offset=".6" stop-color="#0e0806"/><stop offset="1" stop-color="#050303"/></radialGradient></defs>
+    <rect width="${W}" height="${H}" fill="url(#bg)"/>
+    <text x="56" y="100" fill="#fff" font-size="52" font-weight="800" letter-spacing="-1.5">${T("Bir haftalık içerik,", "A week of content,")}</text>
+    <text x="56" y="160" fill="#FF7A59" font-size="52" font-weight="800" letter-spacing="-1.5">${T("takvimde hazır.", "ready on the calendar.")}</text>
+    ${cols}
+    ${legend}
+    <text x="56" y="800" fill="#bfae9f" font-size="28" font-weight="500">${T("6 ajan yazar, çizer, yerleştirir", "6 agents write, design and schedule")}</text>
+  </svg>`;
+}
+
+function council() {
+  const Tq = "#2DD4BF";
+  const roles = L === "en" ? ["Demand", "Supply", "Logistics", "Finance", "Quality", "Production", "Sales", "Risk"] : ["Talep", "Tedarik", "Lojistik", "Finans", "Kalite", "Üretim", "Satış", "Risk"];
+  const cx = 282, cy = 470, R = 190;
+  let seats = "";
+  roles.forEach((r, i) => {
+    const a = -Math.PI / 2 + (i / 8) * Math.PI * 2, x = cx + R * Math.cos(a), y = cy + R * Math.sin(a);
+    seats += `<rect x="${x - 62}" y="${y - 24}" width="124" height="48" rx="24" fill="#0f2a27" stroke="${Tq}" stroke-width="3"/>
+      <text x="${x}" y="${y + 9}" text-anchor="middle" fill="#e6fffb" font-size="${r.length > 8 ? 21 : 25}" font-weight="700">${r}</text>`;
+  });
+  el.innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+    <defs>
+      <radialGradient id="bg" cx="35%" cy="60%" r="85%"><stop offset="0" stop-color="#06302b"/><stop offset=".6" stop-color="#04110f"/><stop offset="1" stop-color="#020706"/></radialGradient>
+      <filter id="sh" x="-.3" y="-.3" width="1.6" height="1.6"><feDropShadow dx="0" dy="26" stdDeviation="26" flood-color="#000" flood-opacity=".7"/></filter>
+    </defs>
+    <rect width="${W}" height="${H}" fill="url(#bg)"/>
+    <text x="56" y="100" fill="#fff" font-size="52" font-weight="800" letter-spacing="-1.5">${T("Sekiz uzman tartışır,", "Eight experts argue,")}</text>
+    <text x="56" y="160" fill="${Tq}" font-size="52" font-weight="800" letter-spacing="-1.5">${T("sen notu okursun.", "you read the verdict.")}</text>
+    <circle cx="${cx}" cy="${cy}" r="${R}" fill="none" stroke="${Tq}" stroke-opacity=".25" stroke-width="2" stroke-dasharray="6 10"/>
+    <circle cx="${cx}" cy="${cy}" r="70" fill="${Tq}" fill-opacity=".12"/>
+    <text x="${cx}" y="${cy + 10}" text-anchor="middle" fill="${Tq}" font-size="28" font-weight="800">${T("VAKA", "CASE")}</text>
+    ${seats}
+    <path d="M 542 470 L 566 470" stroke="${Tq}" stroke-width="4"/><path d="M 558 460 L 570 470 L 558 480" stroke="${Tq}" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(20 0)">
+    <g filter="url(#sh)"><rect x="560" y="270" width="350" height="430" rx="24" fill="#f4f7f6"/></g>
+    <text x="592" y="322" fill="#47615c" font-size="22" letter-spacing="2" class="mono">${T("KARAR NOTU", "DECISION NOTE")}</text>
+    <text x="592" y="372" fill="#0d1f1c" font-size="34" font-weight="800">${T("Öneri", "Recommendation")}</text>
+    ${[0, 1, 2].map((i) => `<rect x="592" y="${396 + i * 26}" width="${290 - i * 50}" height="12" rx="6" fill="#0d1f1c" fill-opacity=".14"/>`).join("")}
+    <rect x="592" y="490" width="296" height="120" rx="16" fill="#ffe8d6"/>
+    <text x="612" y="530" fill="#9a3d0c" font-size="26" font-weight="800">${T("Karşı görüş", "Dissent")}</text>
+    ${[0, 1].map((i) => `<rect x="612" y="${550 + i * 24}" width="${230 - i * 60}" height="11" rx="5" fill="#9a3d0c" fill-opacity=".25"/>`).join("")}
+    <text x="592" y="664" fill="#0f8a7a" font-size="24" font-weight="700">${T("Kanıtlarıyla birlikte", "With the evidence")}</text>
+    </g>
+    <text x="56" y="790" fill="#a9c9c3" font-size="28" font-weight="500">${T("Tedarik zinciri kararı için yapay zekâ meclisi", "An AI council for supply chain decisions")}</text>
+  </svg>`;
+}
+
+({ heimdall, terminal, crypto, dert, growth, council })[V]();
 document.fonts.ready.then(() => document.body.setAttribute("data-ready", "1"));
 </script>
 </body>

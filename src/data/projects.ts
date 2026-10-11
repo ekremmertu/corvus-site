@@ -119,8 +119,8 @@ export const projects: Project[] = [
     appStoreUrl: "https://apps.apple.com/tr/app/id6769572261",
     screenshots: 5,
     summary: {
-      en: "English for Turkish speakers: find your level in a five-minute test, then practise every day with AI.",
-      tr: "Türkçe konuşanlar için İngilizce: 5 dakikalık testle seviyeni bul, her gün yapay zekâyla pratik yap.",
+      en: "For Turkish speakers: a placement test, a step-by-step road map and an exit exam at every level.",
+      tr: "Türkçe konuşanlar için: seviye testi, adım adım yol haritası ve her seviyede bitirme sınavı.",
     },
     pitch: {
       en: "Speak English without memorising word lists. Five minutes a day with Lin, in real conversations: the restaurant, the interview, the airport. Find your level in five minutes — free to download, start today.",
@@ -171,8 +171,8 @@ export const projects: Project[] = [
     appStoreUrl: "https://apps.apple.com/tr/app/splittable/id6791679838",
     alsoIn: ["web"],
     summary: {
-      en: "Scan the table code and bring your friends in. Everyone sees what they ordered, and the bill splits in seconds.",
-      tr: "Masadaki kodu okut, arkadaşlarını masaya kat. Herkes kendi yediğini görür, hesap saniyeler içinde bölünür.",
+      en: "For tables of friends: no calculators, nobody left owing anyone. Free on the App Store.",
+      tr: "Arkadaş masaları için: kimse hesap makinesi çıkarmaz, kimse kimseye borçlu kalmaz. App Store'da ücretsiz.",
     },
     pitch: {
       en: "No more calculators when the bill arrives. Everyone pays only for what they ate, and nobody owes anybody. Free on the App Store — try it at your next dinner out.",
@@ -220,8 +220,8 @@ export const projects: Project[] = [
     appStoreUrl: "https://apps.apple.com/tr/app/splittable-manager/id6791680241",
     liveUrl: "https://splittable.me",
     summary: {
-      en: "SplitTable for the restaurant: see what every table earned and get the end-of-day report on one screen.",
-      tr: "Restoranın SplitTable'ı: hangi masanın ne kazandırdığını gör, gün sonu raporunu tek ekranda al.",
+      en: "The iPad-first management app for restaurants on SplitTable: tables, kitchen and till, live.",
+      tr: "SplitTable kullanan restoranlar için iPad öncelikli yönetim uygulaması: masalar, mutfak ve kasa canlı.",
     },
     pitch: {
       en: "The answer to 'how did today go?' on one screen. Which table earned what, what's waiting in the kitchen, what's in the till — all live. Free on the App Store; see the difference from your first service.",
@@ -500,7 +500,7 @@ export const projects: Project[] = [
     screenshots: 5,
     summary: {
       en: "No budget guilt. A personal finance app that shows you which debt to clear first.",
-      tr: "Bütçe suçluluğu yok. Borçlarını hangi sırayla kapatacağını gösteren kişisel finans uygulaması.",
+      tr: "Suçlamaz, yol gösterir: borçlarını hangi sırayla kapatacağını gösteren kişisel finans uygulaması.",
     },
     pitch: {
       en: "Stop wondering where your salary went. Quill shows the order to pay off your debts, keeps your goals on track, and Kuzgun tells you plainly how the month is going. Free to download, with a 7-day free trial of Pro.",
@@ -663,8 +663,8 @@ export const projects: Project[] = [
     cover: { src: "/shots/web-am.jpg", srcEn: "/shots/web-am-en.jpg", kind: "web" },
     stage: {
       kind: "poster",
-      head: { tr: "Davetiyeniz *bir film gibi* açılsın.", en: "Your invitation, *opening like a film.*" },
-      sub: { tr: "Tek link, zarif bir dijital davetiye. Misafirleriniz unutmaz.", en: "One link, an elegant digital invitation your guests remember." },
+      head: { tr: "Davetiyen *bir film gibi* açılsın.", en: "Your invitation, *opening like a film.*" },
+      sub: { tr: "Tek link, zarif bir dijital davetiye. Misafirlerin unutmaz.", en: "One link, an elegant digital invitation your guests remember." },
       shots: ["/shots/stage/am-preview.jpg"],
       shotsEn: ["/shots/stage/am-preview-en.jpg"],
       bg: "linear-gradient(165deg, #FBF5EC, #E9D3B5 90%)",
@@ -682,16 +682,16 @@ export const projects: Project[] = [
     appStoreSoon: true,
     alsoIn: ["ios"],
     summary: {
-      en: "Let your story open like a film — invite your guests with one elegant digital invitation.",
-      tr: "Hikâyeniz film gibi açılsın: misafirlerinizi tek bir zarif dijital davetiyeyle düğününüze davet edin.",
+      en: "Pick a theme, add your guest list and follow every RSVP from one panel.",
+      tr: "Temanı seç, misafir listeni ekle, katılım yanıtlarını tek panelden takip et.",
     },
     pitch: {
       en: "Let your invitation open like a film on every guest's phone. Pick a theme, add your guest list and follow every RSVP from one panel. Create yours on ameliea.co today.",
-      tr: "Davetiyeniz her misafirin telefonunda bir film gibi açılsın. Temanızı seçin, misafir listenizi ekleyin, LCV yanıtlarını tek panelden takip edin. Davetiyenizi bugün ameliea.co'da oluşturun.",
+      tr: "Davetiyen her misafirin telefonunda bir film gibi açılsın. Temanı seç, misafir listeni ekle, LCV yanıtlarını tek panelden takip et. Davetiyeni bugün ameliea.co'da oluştur.",
     },
     description: {
       en: "Pick a theme from the library, tell your story in the editor, invite your guests and collect their RSVPs in one place. Each theme is art-directed for a specific bride persona rather than being a colour swap of the last one.",
-      tr: "Tema kütüphanesinden birini seçin, editörde hikâyenizi yazın, misafirlerinizi davet edip katılım yanıtlarını (RSVP) tek yerde toplayın. Her tema, bir öncekinin renk varyantı değil; belirli bir gelin personası için ayrı ayrı sanat yönetimiyle kurgulanıyor.",
+      tr: "Tema kütüphanesinden birini seç, editörde hikâyeni yaz, misafirlerini davet edip katılım yanıtlarını (RSVP) tek yerde topla. Her tema, bir öncekinin renk varyantı değil; belirli bir gelin personası için ayrı ayrı sanat yönetimiyle kurgulanıyor.",
     },
     highlights: {
       en: [
@@ -711,7 +711,7 @@ export const projects: Project[] = [
   {
     slug: "supply-chain-council",
     cover: { src: "/shots/scc-team.jpg", kind: "web" },
-    stage: { kind: "web", shots: ["/shots/scc-team.jpg"], glow: "#2DD4BF" },
+    stage: { kind: "art", shots: ["/shots/stage/art-council-tr.jpg"], shotsEn: ["/shots/stage/art-council-en.jpg"], glow: "#2DD4BF", alt: { tr: "Sekiz rol bir vakayı tartışıyor ve karşı görüşü de içeren, kanıtlı bir karar notu çıkarıyor.", en: "Eight roles debate a case and produce an evidence-backed decision note that includes the dissent." } },
     name: "Supply Chain Council",
     category: "web",
     status: "beta",
@@ -811,7 +811,7 @@ export const projects: Project[] = [
   },
   {
     slug: "anaokulu-radar",
-    stage: { kind: "web", shots: ["/shots/stage/anaokulu-harita.jpg"], glow: "#2E8B74" },
+    stage: { kind: "web", shots: ["/shots/stage/anaokulu-harita.jpg"], shotsEn: ["/shots/stage/anaokulu-harita-en.jpg"], glow: "#2E8B74" },
     name: "Preschool Location Radar",
     nameTr: "Anaokulu Lokasyon Radarı",
     category: "web",
@@ -848,7 +848,7 @@ export const projects: Project[] = [
     stack: ["Pipeline orchestration", "Design tooling", "Multi-agent"],
     summary: {
       en: "Our internal system that carries a product idea from brief to a shipped app.",
-      tr: "Bir ürün fikrini brief'ten yayındaki uygulamaya taşıyan iç sistemimiz.",
+      tr: "Bir ürün fikrini ilk taslaktan yayındaki uygulamaya taşıyan iç sistemimiz.",
     },
     description: {
       en: "Not a customer product — the studio's own operating system. Discovery, design, build and validation stages with tracked artefacts, so a small team can run more products than its headcount suggests.",
@@ -871,7 +871,7 @@ export const projects: Project[] = [
   // ───────────────────────────  FINTECH  ───────────────────────────
   {
     slug: "heimdall",
-    stage: { kind: "art", shots: ["/shots/stage/art-heimdall-tr.jpg"], shotsEn: ["/shots/stage/art-heimdall-en.jpg"], glow: "#F2B33D", alt: { tr: "Radar çizimi: 600 hisse tek taramada; kurulum oluşan hisse işaretleniyor.", en: "Radar illustration: 600 stocks in one scan; the stock where a setup forms is flagged." } },
+    stage: { kind: "art", shots: ["/shots/stage/art-heimdall-tr.jpg"], shotsEn: ["/shots/stage/art-heimdall-en.jpg"], glow: "#F2B33D", alt: { tr: "Radar çizimi: 600 hisse tek taramada; sinyal oluşan hisse işaretleniyor.", en: "Radar illustration: 600 stocks in one scan; the stock where a signal forms is flagged." } },
     name: "Heimdall Radar",
     category: "fintech",
     status: "live",
@@ -879,8 +879,8 @@ export const projects: Project[] = [
     stack: ["Pine Script", "Screener", "Signal engine"],
     featured: true,
     summary: {
-      en: "Scans 600 Borsa Istanbul stocks and flags your setup the moment it forms.",
-      tr: "600 BIST hissesini tarar, aradığın kurulumu oluştuğu an işaretler.",
+      en: "Scans 600 Borsa Istanbul stocks and alerts you the moment your signal forms.",
+      tr: "600 BIST hissesini tarar, tanımladığın sinyal oluştuğu an haber verir.",
     },
     description: {
       en: "Indicator, screener and strategy written as one family so the chart, the scan and the backtest agree with each other. Built to answer a single question every morning: which symbols changed state overnight?",
@@ -929,7 +929,7 @@ export const projects: Project[] = [
       ],
     },
     metrics: [
-      { label: { en: "Positive windows", tr: "Pozitif pencere" }, value: "15/20" },
+      { label: { en: "Positive tests", tr: "Pozitif test" }, value: "15/20" },
       { label: { en: "Avg drawdown", tr: "Ort. düşüş" }, value: "~23%", valueTr: "~%23" },
     ],
   },
@@ -1024,7 +1024,7 @@ export const projects: Project[] = [
   {
     slug: "growth-engine",
     cover: { src: "/shots/growth.jpg", srcEn: "/shots/growth-en.jpg", kind: "web" },
-    stage: { kind: "web", shots: ["/shots/growth.jpg"], shotsEn: ["/shots/growth-en.jpg"], glow: "#A855F7" },
+    stage: { kind: "art", shots: ["/shots/stage/art-growth-tr.jpg"], shotsEn: ["/shots/stage/art-growth-en.jpg"], glow: "#FF7A59", alt: { tr: "Haftalık içerik takvimi: altı ajanın yazıp hazırladığı post, reel ve story'ler yedi güne yerleşmiş.", en: "Weekly content calendar: posts, reels and stories written and prepared by six agents, placed across seven days." } },
     name: "Growth Engine",
     category: "ai",
     status: "live",
@@ -1086,7 +1086,7 @@ export const projects: Project[] = [
   },
   {
     slug: "idea-miner",
-    stage: { kind: "web", shots: ["/shots/stage/dert-motoru.jpg"], glow: "#E8498A" },
+    stage: { kind: "art", shots: ["/shots/stage/art-dert-tr.jpg"], shotsEn: ["/shots/stage/art-dert-en.jpg"], glow: "#F0508F", alt: { tr: "Dert ve para grafiği: insanların en çok dertlendiği konular solda, o derde para harcayanlar sağda; ikisinin de yüksek olduğu satırda fikir var.", en: "Pain versus pay chart: what people complain about most on the left, who spends money on it on the right; the idea sits where both are high." } },
     name: "Demand Miner",
     nameTr: "Dert Motoru",
     category: "ai",
