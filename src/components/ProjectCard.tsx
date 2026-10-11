@@ -1,4 +1,4 @@
-import Link from "next/link";
+import WorkLink from "@/components/WorkLink";
 import CatName from "@/components/CatName";
 import { getCategory, stackLabel, statusLabels, type CardProject, type Locale } from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
@@ -47,7 +47,7 @@ export default function ProjectCard({ project, locale, d, mark }: { project: Car
   }
 
   return (
-    <Link href={`/${locale}/work/${project.slug}`} className="pcard reveal">
+    <WorkLink href={`/${locale}/work/${project.slug}`} className="pcard reveal">
       <div className="pcard-top">
         <span>
           <CatName name={category.name[locale]} />
@@ -87,6 +87,6 @@ export default function ProjectCard({ project, locale, d, mark }: { project: Car
         </span>
         {mark && <FixStar n={8} />}
       </div>
-    </Link>
+    </WorkLink>
   );
 }

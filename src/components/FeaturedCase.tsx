@@ -1,4 +1,5 @@
 import Link from "next/link";
+import WorkLink from "@/components/WorkLink";
 import CatName from "@/components/CatName";
 import { getCategory, type Locale, type Project } from "@/data/projects";
 import type { Dict } from "@/i18n/dict";
@@ -34,7 +35,7 @@ export default function FeaturedCase({
   return (
     <section className="case" aria-labelledby="case-title">
       <div className="wrap">
-        <Link href={`/${locale}/work/${hero.slug}`} className="case-big grain reveal" data-view style={{ display: "block" }}>
+        <WorkLink href={`/${locale}/work/${hero.slug}`} className="case-big grain reveal" data-view style={{ display: "block" }}>
           <div className="txt">
             <p className="eyebrow" style={{ margin: 0 }}>
               {d.home.featured} · <CatName name={cat.name[locale]} />
@@ -60,9 +61,9 @@ export default function FeaturedCase({
             <Phone className="back" src={heroShots[0].src} alt={heroShots[0].alt} />
             <Phone className="front iph-lg" src={heroShots[1].src} alt={heroShots[1].alt} />
           </div>
-        </Link>
+        </WorkLink>
 
-        <Link href={`/${locale}/work/${saas.project.slug}`} className="case-big case-saas grain reveal" data-view style={{ display: "block" }}>
+        <WorkLink href={`/${locale}/work/${saas.project.slug}`} className="case-big case-saas grain reveal" data-view style={{ display: "block" }}>
           <div className="txt">
             <p className="eyebrow" style={{ margin: 0 }}>
               {d.home.featuredSaas} · <CatName name={getCategory(saas.project.category).name[locale]} />
@@ -89,7 +90,7 @@ export default function FeaturedCase({
           <BrowserFrame url={saas.url} className="case-brw">
             <img src={saas.shot.src} alt={saas.shot.alt} width={1200} height={750} loading="lazy" decoding="async" />
           </BrowserFrame>
-        </Link>
+        </WorkLink>
 
         <Link href={`/${locale}/work?d=enterprise`} className="case-big case-ent grain reveal" style={{ display: "block" }}>
           <div className="txt">
@@ -129,7 +130,7 @@ export default function FeaturedCase({
           {duo.map(({ project, shot, tone, web }, i) => {
             const c = getCategory(project.category);
             return (
-              <Link
+              <WorkLink
                 key={project.slug}
                 href={`/${locale}/work/${project.slug}`}
                 className={`duo-card duo-${tone} grain reveal`}
@@ -151,7 +152,7 @@ export default function FeaturedCase({
                 ) : (
                   <Phone src={shot.src} alt={shot.alt} />
                 )}
-              </Link>
+              </WorkLink>
             );
           })}
         </div>

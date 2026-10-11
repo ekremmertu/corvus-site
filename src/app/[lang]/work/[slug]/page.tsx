@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import CatName from "@/components/CatName";
 import Link from "next/link";
+import WorkLink from "@/components/WorkLink";
 import { notFound } from "next/navigation";
 import { getDict, isLocale, locales } from "@/i18n/dict";
 import {
@@ -282,7 +283,7 @@ export default async function ProjectPage({
 
       <nav aria-label={d.work.nextProject}>
         <div className="wrap">
-          <Link href={`/${lang}/work/${next.slug}`} className="next">
+          <WorkLink href={`/${lang}/work/${next.slug}`} className="next">
             <span>
               <span style={{ color: "var(--dim)", fontSize: 15 }}>{d.work.nextProject}</span>
               <span className="name">{next.name}</span>
@@ -290,7 +291,7 @@ export default async function ProjectPage({
             <span className="arrow" aria-hidden>
               →
             </span>
-          </Link>
+          </WorkLink>
         </div>
       </nav>
       {project.pitch && (
