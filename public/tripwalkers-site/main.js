@@ -22,7 +22,8 @@
     wrapWords(man, false);
   }
 
-  const fmt = (v, dec) => dec ? v.toFixed(dec) : Math.round(v).toLocaleString('en-US');
+  const LOC = document.documentElement.lang === 'tr' ? 'tr-TR' : 'en-US';
+  const fmt = (v, dec) => (dec ? v : Math.round(v)).toLocaleString(LOC, { minimumFractionDigits: dec || 0, maximumFractionDigits: dec || 0 });
   const setFinal = (el) => { el.textContent = fmt(+el.dataset.count, +(el.dataset.dec || 0)); };
 
   if (reduce || !window.gsap) {
