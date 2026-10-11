@@ -62,3 +62,9 @@
 - Hakem 2. tur 16/20 GEÇER (sınırda). Sonra: podyum 3 sütun (iç boşluk yok), iç kesim haritasında otomatik geniş ölçek + şehir adı etiketi, mobil kırıntı yolu üç noktayla. 3. tur doğrulama istendi.
 - Hakem 3. tur **17/20 GEÇER** (podyum, harita etiketi, kırıntı kapandı). 18+ için isteğe bağlı: bar/restoran ilk 10'a gerçek foto ya da kapak imza öğesi, 'food' noktası turuncudan ayrılsın, liste kartı üst etiketi künyeye.
 - 05.10 hakem önerisi 2+3 uygulandı: 'food' rengi #d9502a→#a3324e (koyu #d0607a), dataviz validator açık+koyu PASS; liste kartı künyesi başlığın altına, büyük harf yok. gezi:check 0 · gezi:layout temiz. Öneri 1 (88 harita kapağına gerçek foto) açık.
+
+## 12.10.2026 01:56 — /work ürün sahnesi (Lumière)
+- Karar: kart = ürün sahnesi (gerçek ekran cihaz çerçevesinde, ürün renginde ışık, kart altından taşar, hover yelpaze). İlk kart 2 sütun.
+- CEO: SplitTable/Manager/Lingoria/Ameliea "tek satan görsel" → afiş sahnesi (satış cümlesi + tek telefon). Sıra TW→Lingoria→ST→STM→BlokBom→Quill.
+- Hata dersi: kart içindeki <p> genel .pcard p kuralını miras aldı → afiş yazısı gri; seçiciyi .pcard altına bağla.
+- Ret: Studio Panel boş durum ekranı (vitrine değmez); sahte UI çizimi (sayfa "konsept render değil" vaadi).

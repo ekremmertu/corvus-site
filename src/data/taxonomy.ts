@@ -29,6 +29,8 @@ export interface Category {
 export interface Project {
   /** /work kart kapağı (CEO 09.10.2026, hakem bulgusu ★10). */
   cover?: Cover;
+  /** /work kart sahnesi — gerçek ekranlar cihaz çerçevesinde, ürün renginde ışık (12.10.2026). */
+  stage?: Stage;
   slug: string;
   name: string;
   category: CategorySlug;
@@ -114,7 +116,7 @@ export const categories: Category[] = [
     kicker: { en: "Native. Swift 6. Shipped.", tr: "Native. Swift 6. Yayında." },
     headline: {
       en: "Apps that feel like the phone built them.",
-      tr: "Telefonun kendi yapmış gibi hissettiren uygulamalar.",
+      tr: "Telefonla birlikte gelmiş gibi hissettiren uygulamalar.",
     },
     manifesto: {
       en: "SwiftUI, @Observable, async/await — no UIKit leftovers, no third-party UI kits. Every app ships through the same pipeline: design system first, then code, then a full QA sweep on the simulator before a build ever reaches TestFlight.",
@@ -125,7 +127,7 @@ export const categories: Category[] = [
         title: { en: "Design system first", tr: "Önce tasarım sistemi" },
         body: {
           en: "Tokens, component matrix and motion grammar are locked before the first screen. That is why the fifth screen looks like the first one.",
-          tr: "İlk ekrandan önce token, bileşen matrisi ve hareket dili sabitlenir. Beşinci ekranın birinciye benzemesinin sebebi bu.",
+          tr: "İlk ekrandan önce token, bileşen matrisi ve hareket dili sabitlenir. Beşinci ekranın da ilkiyle aynı aileden görünmesi bu yüzden.",
         },
       },
       {
@@ -206,11 +208,11 @@ export const categories: Category[] = [
     kicker: { en: "Backtested. Walk-forward. Honest.", tr: "Backtest'li. Walk-forward. Dürüst." },
     headline: {
       en: "Signals we would trade ourselves.",
-      tr: "Kendimizin de işleme sokacağı sinyaller.",
+      tr: "Kendi paramızla da kullanacağımız sinyaller.",
     },
     manifesto: {
       en: "Every strategy has to survive walk-forward validation before it is called a system. A lift on a screener is a hypothesis, not an edge — and we say so out loud, including when the numbers disappoint.",
-      tr: "Her strateji, sistem denmeden önce walk-forward doğrulamasından geçmek zorunda. Tarayıcıdaki lift bir hipotezdir, edge değil — sayılar hayal kırıklığı olduğunda bunu da açıkça söyleriz.",
+      tr: "Her strateji, sistem denmeden önce walk-forward doğrulamasından geçmek zorunda. Tarayıcıda iyi görünen sinyal bir varsayımdır, kanıt değil — sayılar hayal kırıklığı olduğunda bunu da açıkça söyleriz.",
     },
     stops: [
       {
@@ -374,10 +376,35 @@ export type CardProject = {
   appStoreSoon?: boolean;
   metrics?: { label: L10n; value: string }[];
   cover?: Cover;
+  stage?: Stage;
 };
 
 /** Kart kapağı — App Store posteri (dikey) ya da web/panel ekranı (16:10). Kaynak public/shots/. */
 export type Cover = { src: string; srcEn?: string; kind: "poster" | "web" };
+
+/**
+ * Kart sahnesi. phones: 1–3 telefon (ilki öndeki). web: tarayıcı penceresi (+ isteğe bağlı telefon).
+ * shotsEn verilmezse EN sayfada da shots kullanılır. glow = ürünün kendi rengi (ışık).
+ */
+export type Stage = {
+  /** poster: tek satış cümlesi + tek telefon (CEO 12.10.2026 — "bir bakışta anlaşılsın, satış getirsin"). */
+  /** art: sistem mantığını anlatan çizim (iç ekran gösterilmez), sahneyi tamamen kaplar. */
+  kind: "phones" | "web" | "poster" | "art";
+  /** poster başlığı; *yıldızlı* kısım vurgu renginde. */
+  head?: L10n;
+  sub?: L10n;
+  /** poster zemini (CSS background) ve yazı tonu. */
+  bg?: string;
+  tone?: "light" | "dark";
+  hl?: string;
+  shots: string[];
+  shotsEn?: string[];
+  phone?: string;
+  phoneEn?: string;
+  url?: string;
+  glow: string;
+  icon?: string;
+};
 
 /** Teknoloji etiketlerinin Türkçesi; ürün/teknoloji adları (SwiftUI, Next.js…) olduğu gibi kalır. */
 const STACK_TR: Record<string, string> = {

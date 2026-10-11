@@ -89,7 +89,7 @@ export const dict = {
     },
     work: {
       title: "Selected work",
-      sub: "Every product below exists. Nothing here is a concept render.",
+      sub: "Every product below is real, built by us.",
       all: "All",
       empty: "No projects in this filter yet.",
       backToWork: "Back to work",
@@ -286,13 +286,13 @@ export const dict = {
     },
     work: {
       title: "Seçilmiş işler",
-      sub: "Aşağıdaki her ürün gerçekten var. Hiçbiri konsept render değil.",
+      sub: "Aşağıdaki her ürün gerçekten var; hepsini biz yaptık.",
       all: "Tümü",
       empty: "Bu filtrede henüz proje yok.",
       backToWork: "İşlere dön",
       nextProject: "Sonraki proje",
       overview: "Genel bakış",
-      highlights: "Önemli olan",
+      highlights: "Öne çıkanlar",
       stack: "Kullanılan teknoloji",
       client: "Müşteri",
       confidential: "Müşteri adı gizlilik gereği paylaşılmıyor.",
@@ -318,12 +318,12 @@ export const dict = {
         {
           n: "01",
           t: "Pikselden önce araştırma",
-          d: "Pazar, rakip incelemesi ve ürünün işe alındığı tek görev. Brief zayıfsa tahmin etmek yerine altı soru sorarız.",
+          d: "Pazar, rakip incelemesi ve ürünün çözeceği tek iş netleşir. Brief zayıfsa tahmin etmek yerine altı soru sorarız.",
         },
         {
           n: "02",
           t: "Ekrandan önce sistem",
-          d: "Önce tasarım token'ları, bileşen matrisi ve hareket dili sabitlenir. Onuncu ekranın birinciye ait görünmesinin sebebi bu.",
+          d: "Önce tasarım token'ları, bileşen matrisi ve hareket dili sabitlenir. Onuncu ekranın da ilkiyle aynı aileden görünmesi bu yüzden.",
         },
         {
           n: "03",
@@ -363,7 +363,7 @@ export const dict = {
         },
         {
           q: "Trading projeleri nasıl doğrulanıyor?",
-          a: "Tek bir gurur okşayıcı backtest değil, walk-forward pencereleri. Düşüşler getirilerin yanında yayınlanır; doğrulamadan geçemeyen stratejiler sessizce silinmez, başarısızlık olarak belgelenir.",
+          a: "Tek bir parlak backtest değil, walk-forward pencereleri. Düşüşler getirilerin yanında yayınlanır; doğrulamadan geçemeyen stratejiler sessizce silinmez, başarısızlık olarak belgelenir.",
         },
         {
           q: "Hangi teknolojileri kullanıyorsunuz?",
@@ -397,7 +397,7 @@ export const dict = {
     },
     footer: {
       rights: "Tüm hakları saklıdır.",
-      built: "Stüdyo tarafından, açıkta kuruldu.",
+      built: "Stüdyonun kendi elinden, herkesin gözü önünde.",
       disciplines: "Disiplinler",
       studio: "Stüdyo",
     },

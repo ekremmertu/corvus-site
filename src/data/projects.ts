@@ -17,6 +17,7 @@ export const projects: Project[] = [
   {
     slug: "tripwalkers",
     cover: { src: "/shots/vt-tw.jpg", srcEn: "/shots/vt-tw-en.jpg", kind: "poster" },
+    stage: { kind: "phones", shots: ["/shots/tw-day.jpg", "/shots/stage/tw-overview-tr.jpg", "/shots/stage/tw-map-tr.jpg"], shotsEn: ["/shots/tw-day-en.jpg", "/shots/stage/tw-overview-en.jpg", "/shots/stage/tw-map-en.jpg"], glow: "#F25623" },
     name: "TripWalkers",
     category: "ios",
     status: "live",
@@ -98,47 +99,67 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "quill",
-    cover: { src: "/shots/vt-q2.jpg", srcEn: "/shots/vt-q2-en.jpg", kind: "poster" },
-    name: "Quill",
+    slug: "lingoria",
+    cover: { src: "/shots/vt-lin2.jpg", srcEn: "/shots/vt-lin2-en.jpg", kind: "poster" },
+    stage: {
+      kind: "poster",
+      head: { tr: "İngilizceyi *konuşarak* öğren.", en: "Learn English *by speaking it.*" },
+      sub: { tr: "Yapay zekâ arkadaşın Lin ile günde 5 dakika. A1'den C2'ye.", en: "Five minutes a day with Lin, your AI friend. A1 to C2." },
+      shots: ["/shots/bento-lin.jpg"],
+      bg: "linear-gradient(165deg, #FDE7D2, #F4B27A 85%)",
+      tone: "light",
+      hl: "#B4410C",
+      glow: "#F2A65A",
+    },
+    name: "Lingoria",
     category: "ios",
     status: "live",
     year: "2026",
-    stack: ["SwiftUI", "Swift 6", "SwiftData", "StoreKit 2"],
-    featured: true,
-    appStoreUrl: "https://apps.apple.com/tr/app/id6768395513",
+    stack: ["iOS", "AI voice chat", "CEFR A1–C2"],
+    appStoreUrl: "https://apps.apple.com/tr/app/id6769572261",
     screenshots: 5,
     summary: {
-      en: "No budget guilt. A personal finance app that shows you which debt to clear first.",
-      tr: "Bütçe suçluluğu yok. Borçlarını hangi sırayla kapatacağını gösteren kişisel finans uygulaması.",
+      en: "English for Turkish speakers: pick your level (A1–C2) and learn by talking.",
+      tr: "Türkçe konuşanlar için İngilizce: seviyeni seç (A1–C2), konuşarak öğren.",
     },
     pitch: {
-      en: "Stop wondering where your salary went. Quill shows the order to pay off your debts, keeps your goals on track, and Kuzgun tells you plainly how the month is going. Free to download, with a 7-day free trial of Pro.",
-      tr: "Maaşın nereye gitti diye düşünmeyi bırak. Quill borçlarını hangi sırayla kapatacağını gösterir, hedeflerini takip eder; Kuzgun da ayın gidişatını açık açık söyler. İndirmesi ücretsiz, Pro'yu 7 gün bedava dene.",
+      en: "Speak English without memorising word lists. Five minutes a day with Lin, in real conversations: the restaurant, the interview, the airport. Find your level in five minutes — free to download, start today.",
+      tr: "Kelime ezberlemeden İngilizce konuş. Lin'le her gün 5 dakika gerçek diyaloglar kur: restoranda, mülakatta, havalimanında. Seviyeni 5 dakikada bul — indirmesi ücretsiz, bugün başla.",
     },
     description: {
-      en: "Quill models your debts and goals, orders them with the avalanche or snowball method and shows what even a small extra amount actually changes. Now live on the App Store, signed and delivered through an automated archive → export → upload pipeline.",
-      tr: "Quill borçlarını ve hedeflerini modelliyor, çığ veya kartopu yöntemiyle sıralıyor ve borca ayıracağın küçük bir ekstranın bile neyi değiştirdiğini gösteriyor. App Store'da yayında; otomatik archive → export → yükleme hattıyla imzalanıp teslim ediliyor.",
+      en: "A five-minute adaptive placement test puts the learner on the right rung, then a road map of ten units per level runs from A1 to C2. Each level closes with an exit exam across vocabulary, grammar, listening, speaking and writing, and an AI voice partner covers the part a textbook never could.",
+      tr: "Beş dakikalık seviye testi seni doğru basamağa koyar; ardından A1'den C2'ye, her seviyede on bölümlük bir yol başlar. Her seviye kelime, dilbilgisi, dinleme, konuşma ve yazma sınavıyla biter. Yapay zekâ ses partneri de kitabın yapamadığını yapar: seninle konuşur.",
     },
     highlights: {
       en: [
-        "Strategy engine that orders your debts and simulates putting a little extra toward them",
-        "Goals and expense tracking on one SwiftData model layer",
-        "Automated signing and App Store delivery pipeline",
+        "Adaptive placement test — the real level in five minutes",
+        "A1 to C2, ten units per level, exit exam at every step",
+        "AI voice conversation instead of a silent vocabulary drill",
       ],
       tr: [
-        "Borçları kapatma sırasını belirleyen ve ekstra katkıyı simüle eden strateji motoru",
-        "Tek SwiftData model katmanında hedef ve gider takibi",
-        "Otomatik imzalama ve App Store teslim hattı",
+        "Uyarlanabilir seviye testi — gerçek seviye beş dakikada",
+        "A1'den C2'ye, her seviyede on bölüm, her adımda çıkış sınavı",
+        "Sessiz kelime ezberi yerine AI ile sesli konuşma",
       ],
     },
     metrics: [
       { label: { en: "Status", tr: "Durum" }, value: "App Store" },
+      { label: { en: "Levels", tr: "Seviye" }, value: "A1–C2" },
     ],
   },
   {
     slug: "splittable",
     cover: { src: "/shots/vt-st.jpg", srcEn: "/shots/vt-st-en.jpg", kind: "poster" },
+    stage: {
+      kind: "poster",
+      head: { tr: "Hesap geldi. *Kimse hesap yapmasın.*", en: "Bill's here. *Nobody does the math.*" },
+      sub: { tr: "QR'ı okut, ne yediysen seç, kendi payını öde.", en: "Scan the QR, pick what you ate, pay your own share." },
+      shots: ["/shots/stage/st-pick.jpg"],
+      bg: "linear-gradient(160deg, #B8361A, #7A1A08 70%)",
+      hl: "#FFD2B8",
+      glow: "#E0442B",
+      icon: "/brand/apps/splittable-icon.webp",
+    },
     name: "SplitTable",
     category: "ios",
     status: "live",
@@ -180,6 +201,15 @@ export const projects: Project[] = [
   {
     slug: "splittable-manager",
     cover: { src: "/shots/vt-stm.jpg", srcEn: "/shots/vt-stm-en.jpg", kind: "poster" },
+    stage: {
+      kind: "poster",
+      head: { tr: "Gün sonu raporu *hazır bekler.*", en: "End-of-day report, *ready and waiting.*" },
+      sub: { tr: "Ciro, masa masa satış, kim ne yaptı — kapanışta tek ekran.", en: "Revenue, table by table, who did what — one screen at closing." },
+      shots: ["/shots/stage/stm-reports.jpg"],
+      bg: "radial-gradient(70% 90% at 85% 100%, rgba(224,68,43,.45), transparent 70%), #141416",
+      hl: "#FF7A5C",
+      glow: "#FF7A45",
+    },
     name: "SplitTable Manager",
     category: "ios",
     status: "live",
@@ -197,7 +227,7 @@ export const projects: Project[] = [
     },
     description: {
       en: "A separate app for the staff and the owner, sharing one Supabase backbone with the guest app. Live table state, how long a table really takes to turn, which menu items carry the check — the operational layer that turns a guest feature into a reason to sign.",
-      tr: "Personel ve işletmeci için ayrı bir uygulama; misafir uygulamasıyla aynı Supabase omurgasını paylaşıyor. Anlık masa durumu, bir masanın gerçekte ne kadar sürede devrettiği, hesabı hangi menü kalemlerinin taşıdığı — misafir özelliğini imza sebebine çeviren operasyon katmanı.",
+      tr: "Personel ve işletmeci için ayrı bir uygulama; misafir uygulamasıyla aynı Supabase altyapısını paylaşıyor. Anlık masa durumu, bir masanın ne kadar sürede boşalıp yeniden dolduğu, ciroyu hangi menü kalemlerinin taşıdığı — restoranı SplitTable'ı kullanmaya ikna eden kısım bu ekranlar.",
     },
     highlights: {
       en: [
@@ -213,42 +243,42 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "lingoria",
-    cover: { src: "/shots/vt-lin2.jpg", srcEn: "/shots/vt-lin2-en.jpg", kind: "poster" },
-    name: "Lingoria",
+    slug: "blokbom",
+    cover: { src: "/shots/vt-blk.jpg", kind: "poster" },
+    stage: { kind: "phones", shots: ["/shots/bento-blk.jpg"], glow: "#8B5CF6" },
+    name: "BlokBom!",
     category: "ios",
     status: "live",
     year: "2026",
-    stack: ["iOS", "AI voice chat", "CEFR A1–C2"],
-    appStoreUrl: "https://apps.apple.com/tr/app/id6769572261",
-    screenshots: 5,
+    stack: ["iOS", "8×8 puzzle", "Offline", "6 languages"],
+    appStoreUrl: "https://apps.apple.com/tr/app/id6787959211",
     summary: {
-      en: "English for Turkish speakers: pick your level (A1–C2) and learn by talking.",
-      tr: "Türkçe konuşanlar için İngilizce: seviyeni seç (A1–C2), konuşarak öğren.",
+      en: "Place the piece, clear the line, beat your record. An 8×8 block puzzle with four modes.",
+      tr: "Parçayı yerleştir, satırı patlat, rekorunu kır. Dört modlu 8×8 blok bulmaca.",
     },
     pitch: {
-      en: "Speak English without memorising word lists. Five minutes a day with Lin, in real conversations: the restaurant, the interview, the airport. Find your level in five minutes — free to download, start today.",
-      tr: "Kelime ezberlemeden İngilizce konuş. Lin'le her gün 5 dakika gerçek diyaloglar kur: restoranda, mülakatta, havalimanında. Seviyeni 5 dakikada bul — indirmesi ücretsiz, bugün başla.",
+      en: "Got five minutes? Play a round of BlokBom. Place the pieces, blast the lines, beat your record — it works offline too. Free on the App Store.",
+      tr: "Beş dakikan mı var? Bir el BlokBom. Parçaları yerleştir, satırları patlat, rekorunu kır — internetsiz de oynanır. App Store'da ücretsiz.",
     },
     description: {
-      en: "A five-minute adaptive placement test puts the learner on the right rung, then a ten-unit road map runs from A1 to C2. Each level closes with an exit exam across vocabulary, grammar, listening, speaking and writing, and an AI voice partner covers the part a textbook never could.",
-      tr: "Beş dakikalık uyarlanabilir seviye testi öğrenciyi doğru basamağa koyuyor, ardından A1'den C2'ye onar bölümlük yol haritası işliyor. Her seviye kelime, dilbilgisi, dinleme, konuşma ve yazma sınavıyla kapanıyor; AI sesli partner de kitabın asla yapamadığı kısmı üstleniyor.",
+      en: "Drag pieces onto an 8×8 board and fill a row or a column to blow it up. Four modes, among them an endless classic where a short rewarded ad buys back a dead board twice per run, and a two-minute timed sprint where every cleared line adds seconds. Plays offline, shipped in six languages.",
+      tr: "Parçaları 8×8 tahtaya sürükle, satır veya sütunu doldurup patlat. Dört mod var; ikisi öne çıkıyor: hamlen bittiğinde oyun başına iki kez kısa bir reklamla devam edebildiğin sonsuz klasik ve temizlediğin her satırın süre kazandırdığı iki dakikalık yarış. İnternetsiz oynanıyor, altı dilde yayında.",
     },
     highlights: {
       en: [
-        "Adaptive placement test — the real level in five minutes",
-        "A1 to C2, ten units per level, exit exam at every step",
-        "AI voice conversation instead of a silent vocabulary drill",
+        "Four modes from one board — endless, timed and beyond",
+        "Rewarded continue capped at two per run, so the score still means something",
+        "Offline by design, six languages at launch",
       ],
       tr: [
-        "Uyarlanabilir seviye testi — gerçek seviye beş dakikada",
-        "A1'den C2'ye, her seviyede on bölüm, her adımda çıkış sınavı",
-        "Sessiz kelime ezberi yerine AI ile sesli konuşma",
+        "Tek tahtadan dört mod — sonsuz, süreli ve ötesi",
+        "Ödüllü devam hakkı oyun başına iki ile sınırlı, skor anlamını koruyor",
+        "Tasarımı gereği internetsiz, çıkışta altı dil",
       ],
     },
     metrics: [
       { label: { en: "Status", tr: "Durum" }, value: "App Store" },
-      { label: { en: "Levels", tr: "Seviye" }, value: "A1–C2" },
+      { label: { en: "Modes", tr: "Mod" }, value: "4" },
     ],
   },
   {
@@ -455,41 +485,43 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "blokbom",
-    cover: { src: "/shots/vt-blk.jpg", kind: "poster" },
-    name: "BlokBom!",
+    slug: "quill",
+    cover: { src: "/shots/vt-q2.jpg", srcEn: "/shots/vt-q2-en.jpg", kind: "poster" },
+    stage: { kind: "phones", shots: ["/shots/vt-q2.jpg", "/appstore/quill/3.jpg", "/appstore/quill/2.jpg"], shotsEn: ["/shots/vt-q2-en.jpg"], glow: "#B6F23A" },
+    name: "Quill",
     category: "ios",
     status: "live",
     year: "2026",
-    stack: ["iOS", "8×8 puzzle", "Offline", "6 languages"],
-    appStoreUrl: "https://apps.apple.com/tr/app/id6787959211",
+    stack: ["SwiftUI", "Swift 6", "SwiftData", "StoreKit 2"],
+    featured: true,
+    appStoreUrl: "https://apps.apple.com/tr/app/id6768395513",
+    screenshots: 5,
     summary: {
-      en: "Place the piece, clear the line, beat your record. An 8×8 block puzzle with four modes.",
-      tr: "Parçayı yerleştir, satırı patlat, rekorunu kır. Dört modlu 8×8 blok bulmaca.",
+      en: "No budget guilt. A personal finance app that shows you which debt to clear first.",
+      tr: "Bütçe suçluluğu yok. Borçlarını hangi sırayla kapatacağını gösteren kişisel finans uygulaması.",
     },
     pitch: {
-      en: "Got five minutes? Play a round of BlokBom. Place the pieces, blast the lines, beat your record — it works offline too. Free on the App Store.",
-      tr: "Beş dakikan mı var? Bir el BlokBom. Parçaları yerleştir, satırları patlat, rekorunu kır — internetsiz de oynanır. App Store'da ücretsiz.",
+      en: "Stop wondering where your salary went. Quill shows the order to pay off your debts, keeps your goals on track, and Kuzgun tells you plainly how the month is going. Free to download, with a 7-day free trial of Pro.",
+      tr: "Maaşın nereye gitti diye düşünmeyi bırak. Quill borçlarını hangi sırayla kapatacağını gösterir, hedeflerini takip eder; Kuzgun da ayın gidişatını açık açık söyler. İndirmesi ücretsiz, Pro'yu 7 gün bedava dene.",
     },
     description: {
-      en: "Drag pieces onto an 8×8 board and fill a row or a column to blow it up. Four modes, among them an endless classic where a short rewarded ad buys back a dead board twice per run, and a two-minute timed sprint where every cleared line adds seconds. Plays offline, shipped in six languages.",
-      tr: "Parçaları 8×8 tahtaya sürükle, satır veya sütunu doldurup patlat. Dört mod var: hamlesi biten tahtayı oyun başına iki kez kısa bir ödüllü reklamla geri alabildiğin sonsuz klasik ve temizlenen her satırın süre kazandırdığı iki dakikalık yarış. İnternetsiz oynanıyor, altı dilde yayında.",
+      en: "Quill models your debts and goals, orders them with the avalanche or snowball method and shows what even a small extra amount actually changes. Now live on the App Store, signed and delivered through an automated archive → export → upload pipeline.",
+      tr: "Quill borçlarını ve hedeflerini modelliyor, çığ veya kartopu yöntemiyle sıralıyor ve borca ayıracağın küçük bir ekstranın bile neyi değiştirdiğini gösteriyor. App Store'da yayında; otomatik archive → export → yükleme hattıyla imzalanıp teslim ediliyor.",
     },
     highlights: {
       en: [
-        "Four modes from one board — endless, timed and beyond",
-        "Rewarded continue capped at two per run, so the score still means something",
-        "Offline by design, six languages at launch",
+        "Strategy engine that orders your debts and simulates putting a little extra toward them",
+        "Goals and expense tracking on one SwiftData model layer",
+        "Automated signing and App Store delivery pipeline",
       ],
       tr: [
-        "Tek tahtadan dört mod — sonsuz, süreli ve ötesi",
-        "Ödüllü devam hakkı oyun başına iki ile sınırlı, skor anlamını koruyor",
-        "Tasarımı gereği internetsiz, çıkışta altı dil",
+        "Borçları kapatma sırasını belirleyen ve ekstra katkıyı simüle eden strateji motoru",
+        "Tek SwiftData model katmanında hedef ve gider takibi",
+        "Otomatik imzalama ve App Store teslim hattı",
       ],
     },
     metrics: [
       { label: { en: "Status", tr: "Durum" }, value: "App Store" },
-      { label: { en: "Modes", tr: "Mod" }, value: "4" },
     ],
   },
   {
@@ -543,7 +575,7 @@ export const projects: Project[] = [
     },
     description: {
       en: "Tap to jump between orbit rings, time it past the spikes, collect diamonds and trigger fever streaks. One control, learned in a second; the mastery is entirely in the timing.",
-      tr: "Yörünge halkaları arasında geçmek için dokun, zamanlamayı dikenlerin arasından tutur, elmasları topla ve fever serilerini tetikle. Tek kontrol, bir saniyede öğrenilir; ustalık tamamen zamanlamada.",
+      tr: "Yörünge halkaları arasında geçmek için dokun, dikenlerin arasından geçeceğin anı yakala, elmasları topla ve ateş serilerini başlat. Tek kontrol, bir saniyede öğrenilir; ustalık tamamen zamanlamada.",
     },
     highlights: {
       en: [
@@ -553,7 +585,7 @@ export const projects: Project[] = [
       ],
       tr: [
         "Tek dokunuş kontrol — saf refleks, öğretici gerekmiyor",
-        "Fever serileri cüzdanı değil koşuyu ödüllendiriyor",
+        "Ateş serileri para değil, ilerleme kazandırıyor",
         "Neon-uzay estetiği ve tırmanılacak sonsuz basamak",
       ],
     },
@@ -609,7 +641,7 @@ export const projects: Project[] = [
     },
     description: {
       en: "Tap to throw, land every knife in the spinning log, and never touch a blade you already stuck. The forty levels are hand-built and deterministic: the same run every time, so a failure is information rather than bad luck. An endless mode carries the leaderboard.",
-      tr: "Dokun ve fırlat, her bıçağı dönen kütüğe sapla, önceden sapladığın bıçağa asla değme. Kırk bölüm elle kuruldu ve deterministik: her seferinde aynı diziliş, yani başarısızlık kötü şans değil bilgi. Liderlik tablosunu sonsuz mod taşıyor.",
+      tr: "Dokun ve fırlat, her bıçağı dönen kütüğe sapla, önceden sapladığın bıçağa asla değme. Kırk bölüm elle kuruldu ve deterministik: her seferinde aynı diziliş, yani başarısızlık kötü şans değil bilgi. Liderlik tablosu sonsuz modda.",
     },
     highlights: {
       en: [
@@ -627,6 +659,16 @@ export const projects: Project[] = [
   {
     slug: "amelie-co",
     cover: { src: "/shots/web-am.jpg", srcEn: "/shots/web-am-en.jpg", kind: "web" },
+    stage: {
+      kind: "poster",
+      head: { tr: "Davetiyeniz *bir film gibi* açılsın.", en: "Your invitation, *opening like a film.*" },
+      sub: { tr: "Tek link, zarif bir dijital davetiye. Misafirleriniz unutmaz.", en: "One link, an elegant digital invitation your guests remember." },
+      shots: ["/shots/stage/am-preview.jpg"],
+      bg: "linear-gradient(165deg, #FBF5EC, #E9D3B5 90%)",
+      tone: "light",
+      hl: "#9C2F3E",
+      glow: "#C9A27A",
+    },
     name: "Ameliea",
     category: "web",
     status: "live",
@@ -666,6 +708,7 @@ export const projects: Project[] = [
   {
     slug: "supply-chain-council",
     cover: { src: "/shots/scc-team.jpg", kind: "web" },
+    stage: { kind: "web", shots: ["/shots/scc-team.jpg"], glow: "#2DD4BF" },
     name: "Supply Chain Council",
     category: "web",
     status: "beta",
@@ -678,7 +721,7 @@ export const projects: Project[] = [
     },
     description: {
       en: "Upload a case — a disruption, an improvement idea, a post-mortem — and a council of eight domain personas debates it in rounds, challenges each other's evidence and produces a decision document with dissenting opinions attached.",
-      tr: "Bir vaka yükle — kesinti, iyileştirme fikri ya da forensic inceleme — sekiz alan personasından oluşan meclis turlar hâlinde tartışsın, birbirinin kanıtını sorgulasın ve karşı görüşleri de ekli bir karar dokümanı üretsin.",
+      tr: "Bir vaka yükle — kesinti, iyileştirme fikri ya da geriye dönük inceleme — sekiz alan personasından oluşan meclis turlar hâlinde tartışsın, birbirinin kanıtını sorgulasın ve karşı görüşleri de ekli bir karar dokümanı üretsin.",
     },
     highlights: {
       en: [
@@ -688,7 +731,7 @@ export const projects: Project[] = [
       ],
       tr: [
         "Bağımsız kanıt standardı olan sekiz uzman persona",
-        "Üç vaka tipi: aksiyon, iyileştirme ve forensic",
+        "Üç vaka tipi: aksiyon, iyileştirme ve geriye dönük inceleme",
         "Çıktının gerçek bir not gibi okunması için 80+ terimlik sözlük",
       ],
     },
@@ -700,6 +743,7 @@ export const projects: Project[] = [
   {
     slug: "cvtoapply",
     cover: { src: "/shots/web-cv.jpg", srcEn: "/shots/web-cv-en.jpg", kind: "web" },
+    stage: { kind: "web", shots: ["/shots/web-cv.jpg"], shotsEn: ["/shots/web-cv-en.jpg"], url: "cvtoapply.co", phone: "/shots/stage/cv-rapor.jpg", phoneEn: "/appstore/cvtoapply/1.jpg", glow: "#F2B81C" },
     name: "CVtoapply",
     category: "web",
     status: "live",
@@ -718,7 +762,7 @@ export const projects: Project[] = [
     },
     description: {
       en: "Paste a job ad, upload any CV layout — sidebar, two-column, designed — and the parser reads it structurally instead of guessing. Then a two-panel editor shows what is missing before it produces the ATS-optimised version.",
-      tr: "İlanı yapıştır, hangi düzende olursa olsun CV'ni yükle — kenar çubuklu, çok sütunlu, tasarımlı — parser tahmin etmek yerine yapısal okusun. Sonra iki panelli editör, ATS-optimize sürümü üretmeden önce eksikleri gösteriyor.",
+      tr: "İlanı yapıştır, CV'ni hangi düzende olursa olsun yükle — kenar çubuklu, çok sütunlu, tasarımlı. CV'n tahminle değil, yapısı çözülerek okunur. Ardından iki panelli editör, ATS'ye uygun sürümü yazmadan önce eksiklerini gösterir.",
     },
     highlights: {
       en: [
@@ -764,6 +808,7 @@ export const projects: Project[] = [
   },
   {
     slug: "anaokulu-radar",
+    stage: { kind: "web", shots: ["/shots/stage/anaokulu-harita.jpg"], glow: "#2E8B74" },
     name: "Preschool Location Radar",
     category: "web",
     status: "live",
@@ -822,6 +867,7 @@ export const projects: Project[] = [
   // ───────────────────────────  FINTECH  ───────────────────────────
   {
     slug: "heimdall",
+    stage: { kind: "art", shots: ["/shots/stage/art-heimdall-tr.jpg"], shotsEn: ["/shots/stage/art-heimdall-en.jpg"], glow: "#F2B33D" },
     name: "Heimdall Radar",
     category: "fintech",
     status: "live",
@@ -851,6 +897,7 @@ export const projects: Project[] = [
   },
   {
     slug: "livecryptobot",
+    stage: { kind: "art", shots: ["/shots/stage/art-crypto-tr.jpg"], shotsEn: ["/shots/stage/art-crypto-en.jpg"], glow: "#36E2B4" },
     name: "LiveCryptoBot",
     category: "fintech",
     status: "live",
@@ -863,17 +910,17 @@ export const projects: Project[] = [
     },
     description: {
       en: "Leader–follower logic across three correlated symbols, validated with walk-forward windows rather than a single flattering backtest. Fifteen of twenty windows came out positive; the average drawdown is published next to the wins.",
-      tr: "Üç korele sembol arasında lider–takipçi mantığı; tek bir gurur okşayıcı backtest yerine walk-forward pencereleriyle doğrulandı. Yirmi pencerenin on beşi pozitif çıktı; ortalama düşüş, kazançların yanında yayınlanıyor.",
+      tr: "Birlikte hareket eden üç coin arasında lider–takipçi mantığı; tek bir parlak backtest yerine walk-forward pencereleriyle doğrulandı. Yirmi pencerenin on beşi pozitif çıktı; ortalama düşüş, kazançların yanında yayınlanıyor.",
     },
     highlights: {
       en: [
         "15/20 walk-forward windows positive (75%)",
-        "Monthly 10R capture recorded in validation",
+        "Averaged 10R (risk units) a month in validation",
         "~23% average drawdown reported alongside returns",
       ],
       tr: [
         "20 walk-forward penceresinin 15'i pozitif (%75)",
-        "Doğrulamada aylık 10R yakalandı",
+        "Doğrulamada ayda ortalama 10R (risk birimi) kazanç",
         "Getirilerin yanında ~%23 ortalama düşüş raporlandı",
       ],
     },
@@ -895,7 +942,7 @@ export const projects: Project[] = [
     },
     description: {
       en: "Pre-pump sequence detection and oversold z-score studies, run through a discipline that separates a screener lift from a tradable edge. Findings that failed walk-forward are documented as failures.",
-      tr: "Pre-pump dizisi tespiti ve aşırı satım z-skoru çalışmaları; tarayıcı lift'ini işleme dönüştürülebilir edge'den ayıran bir disiplinle koşuluyor. Walk-forward'da düşen bulgular başarısızlık olarak belgeleniyor.",
+      tr: "Yükseliş öncesi dizileri ve aşırı satım sinyallerini inceleyen çalışmalar. Tarayıcıda iyi görünen sinyal ile gerçekten para kazandıran sinyal ayrı tutuluyor. Walk-forward testinde düşen bulgular başarısızlık olarak kayda geçiyor.",
     },
     highlights: {
       en: [
@@ -904,8 +951,8 @@ export const projects: Project[] = [
         "Negative results kept in the record",
       ],
       tr: [
-        "Ana paritelerde pre-pump dizisi araştırması",
-        "Tarayıcı lift'i ile backtest edge'inin açık ayrımı",
+        "Ana paritelerde yükseliş öncesi dizi araştırması",
+        "Tarayıcıdaki sinyal ile gerçek kazanç ayrı ölçülüyor",
         "Negatif sonuçlar kayıtta tutuluyor",
       ],
     },
@@ -940,6 +987,7 @@ export const projects: Project[] = [
   },
   {
     slug: "market-terminal",
+    stage: { kind: "art", shots: ["/shots/stage/art-terminal-tr.jpg"], shotsEn: ["/shots/stage/art-terminal-en.jpg"], glow: "#4C7DFF" },
     name: "Market Terminal",
     category: "fintech",
     status: "live",
@@ -971,6 +1019,7 @@ export const projects: Project[] = [
   {
     slug: "growth-engine",
     cover: { src: "/shots/growth.jpg", srcEn: "/shots/growth-en.jpg", kind: "web" },
+    stage: { kind: "web", shots: ["/shots/growth.jpg"], shotsEn: ["/shots/growth-en.jpg"], glow: "#A855F7" },
     name: "Growth Engine",
     category: "ai",
     status: "live",
@@ -1032,6 +1081,7 @@ export const projects: Project[] = [
   },
   {
     slug: "idea-miner",
+    stage: { kind: "web", shots: ["/shots/stage/dert-motoru.jpg"], glow: "#E8498A" },
     name: "Demand Miner",
     category: "ai",
     status: "live",
@@ -1043,7 +1093,7 @@ export const projects: Project[] = [
     },
     description: {
       en: "Demand mining across community threads and low-rating App Store reviews, clustered into pain statements. A deliberate change from feature-first to pain-first prompting made the reports usable.",
-      tr: "Topluluk başlıkları ve düşük puanlı App Store yorumlarında talep madenciliği; acı ifadelerine kümeleniyor. Özellik-önce yerine acı-önce prompt'a geçiş, raporları kullanılabilir yaptı.",
+      tr: "Forum başlıklarını ve düşük puanlı App Store yorumlarını tarar, insanların yaşadığı dertleri gruplar. Önce özelliği değil önce derdi soran yaklaşım, raporları işe yarar hâle getirdi.",
     },
     highlights: {
       en: [
@@ -1053,7 +1103,7 @@ export const projects: Project[] = [
       ],
       tr: [
         "Karşılanmamış talep için forumları ve 1–2★ yorumları tarar",
-        "Özellik listesi yerine acı-önce kümeleme",
+        "Özellik listesi yerine dert odaklı gruplama",
         "Niş başına karşılaştırılabilir rapor üretir",
       ],
     },
@@ -1202,6 +1252,7 @@ export function toCards(list: Project[] = projects): CardProject[] {
           metrics: p.metrics,
           appStoreSoon: p.appStoreSoon,
           cover: p.cover,
+          stage: p.stage,
         };
     })
     .flatMap((card, i) => {
@@ -1214,7 +1265,8 @@ export function toCards(list: Project[] = projects): CardProject[] {
       }));
       return [card, ...extra];
     })
-    .sort((a, b) => a.rank - b.rank); // Array.sort kararlı: eşit rank'te veri sırası korunur
+    // Aynı rank'te ürün sahnesi olan kart öne: vitrin görselle açılır (12.10.2026).
+    .sort((a, b) => a.rank - b.rank || Number(!("stage" in a && a.stage)) - Number(!("stage" in b && b.stage))); // Array.sort kararlı
 }
 
 /** Disiplin basina proje sayisi — Hero sayaci icin (metin tasimaz). */

@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #000; }
+  #a { width: 960px; height: 820px; position: relative; overflow: hidden; font-family: "Inter Tight", sans-serif; color: #fff; }
+  svg { display: block; }
+  .mono { font-family: "JetBrains Mono", monospace; }
+</style>
+</head>
+<body>
+<div id="a"></div>
+<script>
+// Sistem mantığı çizimleri — /work kart sahnesi (12.10.2026). İç veri yok: sembol, fiyat, kural yok.
+const q = new URLSearchParams(location.search);
+const V = q.get("v"), L = q.get("l") || "tr";
+const T = (tr, en) => (L === "en" ? en : tr);
+let seed = 7;
+const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+const W = 960, H = 820;
+const el = document.getElementById("a");
+
+function heimdall() {
+  const G = "#F2B33D";
+  const cx = 480, cy = 560, R = 400;
+  let dots = "", lit = "";
+  for (let i = 0; i < 600; i++) {
+    const r = Math.sqrt(rnd()) * (R - 12), t = rnd() * Math.PI * 2;
+    dots += `<circle cx="${(cx + r * Math.cos(t)).toFixed(1)}" cy="${(cy + r * Math.sin(t)).toFixed(1)}" r="3" fill="#fff" opacity="${(0.14 + rnd() * 0.24).toFixed(2)}"/>`;
+  }
+  const hits = [[0.62, -1.25], [0.55, -2.45], [0.82, -0.2]];
+  hits.forEach(([rr, t]) => {
+    const x = cx + rr * R * Math.cos(t), y = cy + rr * R * Math.sin(t);
+    lit += `<circle cx="${x}" cy="${y}" r="38" fill="none" stroke="${G}" stroke-opacity=".22" stroke-width="3"/>
+            <circle cx="${x}" cy="${y}" r="22" fill="none" stroke="${G}" stroke-opacity=".55" stroke-width="3"/>
+            <circle cx="${x}" cy="${y}" r="10" fill="${G}" filter="url(#gl)"/>`;
+  });
+  const [hr, ht] = hits[0], hx = cx + hr * R * Math.cos(ht), hy = cy + hr * R * Math.sin(ht);
+  let rings = "";
+  for (let k = 1; k <= 4; k++) rings += `<circle cx="${cx}" cy="${cy}" r="${(R * k) / 4}" fill="none" stroke="${G}" stroke-opacity="${k === 4 ? 0.5 : 0.18}" stroke-width="${k === 4 ? 3 : 1.6}"/>`;
+  const sweepA = -1.0, sx = cx + R * Math.cos(sweepA), sy = cy + R * Math.sin(sweepA);
+  const sa = sweepA - 0.8, sx2 = cx + R * Math.cos(sa), sy2 = cy + R * Math.sin(sa);
+  const pill = T("Kurulum oluştu", "Setup formed");
+  const pw = pill.length * 17 + 56;
+  el.innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+    <defs>
+      <radialGradient id="bg" cx="50%" cy="70%" r="75%"><stop offset="0" stop-color="#2e2006"/><stop offset=".6" stop-color="#0e0a04"/><stop offset="1" stop-color="#060402"/></radialGradient>
+      <linearGradient id="sw" x1="${sx}" y1="${sy}" x2="${sx2}" y2="${sy2}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="${G}" stop-opacity=".55"/><stop offset="1" stop-color="${G}" stop-opacity="0"/></linearGradient>
+      <filter id="gl" x="-2" y="-2" width="5" height="5"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <rect width="${W}" height="${H}" fill="url(#bg)"/>
+    ${rings}
+    <line x1="${cx - R}" y1="${cy}" x2="${cx + R}" y2="${cy}" stroke="${G}" stroke-opacity=".12"/>
+    <line x1="${cx}" y1="${cy - R}" x2="${cx}" y2="${cy + R}" stroke="${G}" stroke-opacity=".12"/>
+    <path d="M${cx},${cy} L${sx},${sy} A${R},${R} 0 0 0 ${sx2},${sy2} Z" fill="url(#sw)"/>
+    <line x1="${cx}" y1="${cy}" x2="${sx}" y2="${sy}" stroke="${G}" stroke-width="3.5"/>
+    ${dots}${lit}
+    <line x1="${hx}" y1="${hy - 40}" x2="${hx}" y2="${hy - 70}" stroke="${G}" stroke-width="3"/>
+    <rect x="${hx - pw / 2}" y="${hy - 126}" width="${pw}" height="56" rx="28" fill="${G}"/>
+    <text x="${hx}" y="${hy - 88}" text-anchor="middle" fill="#160f02" font-size="28" font-weight="800">${pill}</text>
+    <text x="56" y="104" fill="${G}" font-size="64" font-weight="800" letter-spacing="12">HEIMDALL</text>
+    <text x="58" y="156" fill="#e6dccb" font-size="34" font-weight="600">${T("600 hisse, tek tarama", "600 stocks, one scan")}</text>
+  </svg>`;
+}
+
+function terminal() {
+  const B = "#4C7DFF";
+  let x = 48, p = 470, candles = "";
+  const n = 30, cw = 13;
+  for (let i = 0; i < n; i++) {
+    const drift = i < 10 ? -2 : i < 21 ? 3.6 : -0.8;
+    const o = p, c = p - drift * 4 + (rnd() - 0.5) * 34;
+    const hi = Math.min(o, c) - rnd() * 18, lo = Math.max(o, c) + rnd() * 18, up = c < o;
+    const col = up ? "#2fd39a" : "#ff5c6c";
+    candles += `<line x1="${x + cw / 2}" y1="${hi}" x2="${x + cw / 2}" y2="${lo}" stroke="${col}" stroke-width="2"/>
+      <rect x="${x}" y="${Math.min(o, c)}" width="${cw}" height="${Math.max(3, Math.abs(c - o))}" rx="2" fill="${col}"/>`;
+    p = c; x += cw + 4;
+  }
+  const scanX = 470;
+  const rows = [
+    [T("Endeks", "Index"), T("İZLE", "WATCH"), "#3555c9", "#8fb0ff"],
+    [T("Bankalar", "Banks"), T("TUT", "HOLD"), "#9a6b00", "#f2c14e"],
+    [T("Sanayi", "Industry"), T("AL", "BUY"), "#0f8a5f", "#2fd39a"],
+  ];
+  el.innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+    <defs>
+      <radialGradient id="bg" cx="40%" cy="70%" r="85%"><stop offset="0" stop-color="#0d1d55"/><stop offset=".6" stop-color="#060a1a"/><stop offset="1" stop-color="#03050b"/></radialGradient>
+      <linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="${B}" stop-opacity="0"/><stop offset="1" stop-color="${B}" stop-opacity=".4"/></linearGradient>
+      <filter id="sh" x="-.3" y="-.3" width="1.6" height="1.6"><feDropShadow dx="0" dy="30" stdDeviation="30" flood-color="#000" flood-opacity=".75"/></filter>
+    </defs>
+    <rect width="${W}" height="${H}" fill="url(#bg)"/>
+    <text x="56" y="100" fill="#fff" font-size="52" font-weight="800" letter-spacing="-1.5">${T("Grafiği okur,", "Reads the chart,")}</text>
+    <text x="56" y="160" fill="${B}" font-size="52" font-weight="800" letter-spacing="-1.5">${T("bülteni yazar.", "writes the brief.")}</text>
+    <line x1="40" y1="370" x2="560" y2="370" stroke="${B}" stroke-dasharray="8 8" stroke-opacity=".7" stroke-width="2"/>
+    <line x1="40" y1="600" x2="560" y2="600" stroke="#ff5c6c" stroke-dasharray="8 8" stroke-opacity=".55" stroke-width="2"/>
+    ${candles}
+    <rect x="${scanX - 140}" y="250" width="140" height="460" fill="url(#scan)"/>
+    <line x1="${scanX}" y1="250" x2="${scanX}" y2="710" stroke="${B}" stroke-width="3"/>
+    <g filter="url(#sh)"><rect x="520" y="310" width="400" height="352" rx="28" fill="#f6f4ee"/></g>
+    <text x="556" y="356" fill="#5b6478" font-size="20" letter-spacing="2" class="mono">${T("SABAH 08:00", "08:00 AM")}</text>
+    ${rows.map(([k, c, fg, bgc], i) => `
+      <line x1="556" y1="${392 + i * 96}" x2="884" y2="${392 + i * 96}" stroke="#10131c" stroke-opacity=".08" stroke-width="2"/>
+      <text x="556" y="${444 + i * 96}" fill="#141824" font-size="32" font-weight="700">${k}</text>
+      <rect x="${884 - 112}" y="${412 + i * 96}" width="112" height="46" rx="23" fill="${bgc}" fill-opacity=".22"/>
+      <text x="${884 - 56}" y="${443 + i * 96}" text-anchor="middle" fill="${fg}" font-size="22" font-weight="800" class="mono">${c}</text>`).join("")}
+    <text x="56" y="770" fill="#aebbe0" font-size="26" font-weight="600">${T("Yalnız analiz · emir iletmez", "Analysis only · no orders")}</text>
+  </svg>`;
+}
+
+function crypto() {
+  const C = ["#7C8CFF", "#36E2B4", "#F2A65A"];
+  const n = 90, x0 = 56, x1 = 700, y0 = 250, y1 = 520;
+  const series = [[], [], []], v = [0, 0, 0];
+  const lead = (i) => (i < 30 ? 0 : i < 60 ? 1 : 2);
+  for (let i = 0; i < n; i++) for (let k = 0; k < 3; k++) { v[k] += (rnd() - 0.5) * 2 + (lead(i) === k ? 1.25 : -0.3); series[k].push(v[k]); }
+  const all = series.flat(), mn = Math.min(...all), mx = Math.max(...all);
+  const px = (i) => x0 + (i / (n - 1)) * (x1 - x0), py = (val) => y1 - ((val - mn) / (mx - mn)) * (y1 - y0);
+  const paths = series.map((s, k) => `<path d="${s.map((val, i) => `${i ? "L" : "M"}${px(i).toFixed(1)},${py(val).toFixed(1)}`).join(" ")}" fill="none" stroke="${C[k]}" stroke-width="${k === 2 ? 6 : 3.5}" stroke-opacity="${k === 2 ? 1 : 0.5}" stroke-linejoin="round"/>`).join("");
+  const ey = py(series[2][n - 1]);
+  let wins = "";
+  const red = [3, 8, 11, 16, 18];
+  for (let i = 0; i < 20; i++) wins += `<rect x="${56 + i * 43}" y="620" width="35" height="56" rx="9" fill="${red.includes(i) ? "#ff5c6c" : "#36E2B4"}" fill-opacity=".9"/>`;
+  el.innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+    <defs>
+      <radialGradient id="bg" cx="45%" cy="50%" r="85%"><stop offset="0" stop-color="#07362f"/><stop offset=".6" stop-color="#04110f"/><stop offset="1" stop-color="#020706"/></radialGradient>
+      <filter id="gl" x="-1" y="-1" width="3" height="3"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <rect width="${W}" height="${H}" fill="url(#bg)"/>
+    <text x="56" y="100" fill="#fff" font-size="52" font-weight="800" letter-spacing="-1.5">${T("Üç coin yarışır,", "Three coins race,")}</text>
+    <text x="56" y="160" fill="#F2A65A" font-size="52" font-weight="800" letter-spacing="-1.5">${T("bot öndekini izler.", "the bot follows the lead.")}</text>
+    ${[30, 60].map((i) => `<line x1="${px(i)}" y1="${y0 - 20}" x2="${px(i)}" y2="${y1 + 10}" stroke="#fff" stroke-opacity=".2" stroke-dasharray="5 8" stroke-width="2"/>`).join("")}
+    ${paths}
+    <circle cx="${x1}" cy="${ey}" r="11" fill="${C[2]}" filter="url(#gl)"/>
+    <rect x="${x1 + 22}" y="${ey - 24}" width="${L === "en" ? 150 : 120}" height="48" rx="24" fill="${C[2]}"/>
+    <text x="${x1 + 22 + (L === "en" ? 75 : 60)}" y="${ey + 9}" text-anchor="middle" fill="#1d1206" font-size="24" font-weight="800">${T("LİDER", "LEADER")}</text>
+    ${wins}
+    <text x="56" y="740" fill="#fff" font-size="34" font-weight="800">${T("20 testin 15'i pozitif", "15 of 20 tests positive")}</text>
+    <text x="56" y="786" fill="#9cc7bd" font-size="26" font-weight="500">${T("Kırmızılar da raporda, saklanmadı.", "The red ones are in the report too.")}</text>
+  </svg>`;
+}
+
+({ heimdall, terminal, crypto })[V]();
+document.fonts.ready.then(() => document.body.setAttribute("data-ready", "1"));
+</script>
+</body>
+</html>
