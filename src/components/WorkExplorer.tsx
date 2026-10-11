@@ -15,11 +15,13 @@ type Filter = CategorySlug | "all";
  */
 /**
  * Satır satır yerleşimi dener; 3 sütunda boşluk bırakmayan geniş kart seçimini döndürür.
- * Sıra: ilk kart geniş + web kartları → ilk kart geniş + herhangi kart → ilk kart normal (aynı iki havuz).
+ * Sıra: web kartları → çizim olmayan kartlar → (son çare) çizimler de; her biri önce ilk kart geniş, sonra normal.
  */
 function pickWide(staged: CardProject[]): Set<string> {
   const n = staged.length;
-  const rest = staged.map((_, i) => i).slice(1).reverse();
+  const all = staged.map((_, i) => i).slice(1).reverse();
+  // Çizimler (art) tek oranlı: geniş kutuda ancak sığdırılarak (contain) durur → yalnız son çare.
+  const rest = all.filter((i) => staged[i].stage?.kind !== "art");
   const webs = rest.filter((i) => staged[i].stage?.kind === "web");
   const combos = (from: number[], k: number): number[][] =>
     k === 0 ? [[]] : from.flatMap((x, i) => combos(from.slice(i + 1), k - 1).map((c) => [x, ...c]));
@@ -32,14 +34,20 @@ function pickWide(staged: CardProject[]): Set<string> {
     }
     return col === 0;
   };
-  for (const firstWide of [true, false]) {
+  const firstArt = staged[0]?.stage?.kind === "art";
+  const tries: [boolean, number[]][] = [
+    ...(firstArt ? [] : ([[true, webs], [true, rest]] as [boolean, number[]][])),
+    [false, webs],
+    [false, rest],
+    [true, all],
+    [false, all],
+  ];
+  for (const [firstWide, pool] of tries) {
     const k = (3 - ((n + (firstWide ? 1 : 0)) % 3)) % 3;
-    for (const pool of [webs, rest]) {
-      const hit = combos(pool, k)
-        .map((c) => new Set(firstWide ? [0, ...c] : c))
-        .find(fits);
-      if (hit) return new Set([...hit].map((i) => staged[i].slug));
-    }
+    const hit = combos(pool, k)
+      .map((c) => new Set(firstWide ? [0, ...c] : c))
+      .find(fits);
+    if (hit) return new Set([...hit].map((i) => staged[i].slug));
   }
   return new Set();
 }
@@ -112,8 +120,14 @@ export default function WorkExplorer({ locale, d, cards }: { locale: Locale; d: 
             </svg>
             <div>
               <h2>{d.work.onTheWay}</h2>
+              {staged.length + plain.length === 0 && <p className="way-note">{d.work.wayNote}</p>}
               <p>{[soon > 0 && (soon === 1 ? d.work.waySoon1 : d.work.waySoonN).replace("{n}", String(soon)), nda > 0 && (nda === 1 ? d.work.wayNda1 : d.work.wayNdaN).replace("{n}", String(nda))].filter(Boolean).join(" · ")}</p>
             </div>
+            {staged.length + plain.length === 0 && (
+              <SectionLink locale={locale} id="contact" className="way-cta">
+                {d.work.wayCta} →
+              </SectionLink>
+            )}
             <ul>
               {categories
                 .map((c) => ({ c, n: veiled.filter((p) => p.category === c.slug).length }))

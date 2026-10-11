@@ -176,7 +176,7 @@ function growth() {
   const C = { post: "#FF7A59", reel: "#FFC24B", story: "#5CC8FF" };
   const days = L === "en" ? ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"] : ["Pzt", "Sal", "Çar", "Per", "Cum", "Cmt", "Paz"];
   const plan = [["post", "story"], ["reel"], ["post", "story"], ["reel", "story"], ["post"], ["reel", "story"], ["post"]];
-  const x0 = 56, cw = 118, gap = 10, y0 = 250;
+  const x0 = 56, cw = 113, gap = 10, y0 = 250;
   let cols = "";
   days.forEach((d, i) => {
     const x = x0 + i * (cw + gap);
@@ -195,7 +195,7 @@ function growth() {
     <text x="56" y="160" fill="#FF7A59" font-size="52" font-weight="800" letter-spacing="-1.5">${T("takvimde hazır.", "ready on the calendar.")}</text>
     ${cols}
     ${legend}
-    <text x="56" y="800" fill="#bfae9f" font-size="28" font-weight="500">${T("6 ajan yazar, çizer, yerleştirir", "6 agents write, design and schedule")}</text>
+    <text x="56" y="800" fill="#bfae9f" font-size="28" font-weight="500">${T("Örnek hafta · 6 içerik tipinden 3'ü", "Sample week · 3 of 6 content types")}</text>
   </svg>`;
 }
 
