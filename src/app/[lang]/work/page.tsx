@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { getDict, isLocale, locales } from "@/i18n/dict";
 import { toCards } from "@/data/projects";
@@ -25,8 +24,8 @@ export async function generateMetadata({
   };
 }
 
-// ?d= filtresi client'ta okunur (useSearchParams) — sayfa böylece tamamen
-// statik kalır ve CDN'den anında gelir; dynamic SSR beklenmez.
+// ?d= filtresi istemcide, yüklendikten sonra okunur — sayfa tamamen statik kalır
+// ve kartlar sunucu HTML'inde gelir (JS'siz ziyaretçi ve arama motoru da görür).
 export default async function WorkPage({ params }: PageProps<"/[lang]/work">) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
@@ -44,9 +43,7 @@ export default async function WorkPage({ params }: PageProps<"/[lang]/work">) {
           </p>
         </div>
       </header>
-      <Suspense>
-        <WorkExplorer locale={lang} d={d} cards={toCards()} />
-      </Suspense>
+      <WorkExplorer locale={lang} d={d} cards={toCards()} />
     </>
   );
 }

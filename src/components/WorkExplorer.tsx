@@ -1,7 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { useEffect, useMemo, useState } from "react";
 import { categories, type CardProject, type CategorySlug, type Locale } from "@/data/taxonomy";
 import type { Dict } from "@/i18n/dict";
 import ProjectCard from "@/components/ProjectCard";
@@ -46,11 +45,17 @@ function pickWide(staged: CardProject[]): Set<string> {
 }
 
 export default function WorkExplorer({ locale, d, cards }: { locale: Locale; d: Dict; cards: CardProject[] }) {
-  const raw = useSearchParams().get("d");
-  const initial: Filter = raw && categories.some((c) => c.slug === raw) ? (raw as CategorySlug) : "all";
-  const [filter, setFilter] = useState<Filter>(initial);
+  // Sunucu her zaman "Tümü"nü çizer (kartlar HTML'de olsun — hakem 13/20); ?d= filtresi yüklendikten sonra uygulanır.
+  const [filter, setFilter] = useState<Filter>("all");
+  const [openPlain, setOpenPlain] = useState(false);
+  useEffect(() => {
+    const raw = new URLSearchParams(window.location.search).get("d");
+    if (raw && categories.some((c) => c.slug === raw)) setFilter(raw as CategorySlug);
+  }, []);
 
-  const list = useMemo(() => (filter === "all" ? cards.filter((p) => !p.dup) : cards.filter((p) => p.category === filter)), [filter, cards]);
+  // Her kart yalnız kendi kategorisinde: sekme sayıları "Tümü" ile toplanır.
+  const own = useMemo(() => cards.filter((p) => !p.dup), [cards]);
+  const list = useMemo(() => (filter === "all" ? own : own.filter((p) => p.category === filter)), [filter, own]);
   const staged = list.filter((p) => !p.veil && p.stage);
   const plain = list.filter((p) => !p.veil && !p.stage);
   const veiled = list.filter((p) => p.veil);
@@ -60,8 +65,8 @@ export default function WorkExplorer({ locale, d, cards }: { locale: Locale; d: 
   const wide = pickWide(staged);
 
   const options: { key: Filter; label: string; count: number }[] = [
-    { key: "all", label: d.work.all, count: cards.filter((p) => !p.dup).length },
-    ...categories.map((c) => ({ key: c.slug as Filter, label: c.name[locale], count: cards.filter((p) => p.category === c.slug).length })),
+    { key: "all", label: d.work.all, count: own.length },
+    ...categories.map((c) => ({ key: c.slug as Filter, label: c.name[locale], count: own.filter((p) => p.category === c.slug).length })),
   ];
 
   return (
@@ -87,11 +92,16 @@ export default function WorkExplorer({ locale, d, cards }: { locale: Locale; d: 
         {plain.length > 0 && (
           <>
             {staged.length > 0 && <h2 className="work-sub">{d.work.more}</h2>}
-            <div className="grid-work grid-plain">
+            <div className={`grid-work grid-plain${openPlain ? " open" : ""}`}>
               {plain.map((p) => (
                 <ProjectCard key={`${p.category}-${p.slug}`} project={p} locale={locale} d={d} />
               ))}
             </div>
+            {plain.length > 3 && !openPlain && (
+              <button type="button" className="plain-more" onClick={() => setOpenPlain(true)}>
+                {d.work.showAll} ({plain.length})
+              </button>
+            )}
           </>
         )}
         {veiled.length > 0 && (
@@ -102,7 +112,7 @@ export default function WorkExplorer({ locale, d, cards }: { locale: Locale; d: 
             </svg>
             <div>
               <h2>{d.work.onTheWay}</h2>
-              <p>{d.work.wayLine.replace("{soon}", String(soon)).replace("{nda}", String(nda))}</p>
+              <p>{[soon > 0 && (soon === 1 ? d.work.waySoon1 : d.work.waySoonN).replace("{n}", String(soon)), nda > 0 && (nda === 1 ? d.work.wayNda1 : d.work.wayNdaN).replace("{n}", String(nda))].filter(Boolean).join(" · ")}</p>
             </div>
             <ul>
               {categories
