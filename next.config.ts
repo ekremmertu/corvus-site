@@ -20,6 +20,16 @@ const nextConfig: NextConfig = {
   // /terminal rewrite'ı 2026-07-30'da KALDIRILDI (güvenlik): Terminal iç kullanım
   // aracı, artık yayında değil — sadece local'de `npm run dev` ile çalışır.
   // Geri açılacaksa önce auth eklenmeli, bkz. TODO.md güvenlik turu.
+  // TripWalkers EN tanıtım sitesi (Lumière, 12.10.2026): kendi menüsü ve hareket dili olan
+  // bağımsız statik sayfa → stüdyo kabuğu (Nav/Footer/imleç) üstüne binmesin diye rewrite.
+  // TR karşılığı onaylanana kadar /tr/work/tripwalkers eski detay şablonunda kalır.
+  async rewrites() {
+    return {
+      beforeFiles: [
+        { source: "/en/work/tripwalkers", destination: "/tripwalkers-site/index.html" },
+      ],
+    };
+  },
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },
