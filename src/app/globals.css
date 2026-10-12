@@ -425,7 +425,7 @@ html.pre-hero .hero-word { opacity: 0; letter-spacing: 0.02em; }
 .pcard:hover { transform: translateY(-6px); border-color: #48484d; background: #1e1e22; }
 .pcard-top { display: flex; justify-content: space-between; gap: 12px; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--dim); }
 .pcard-top .live { color: #fff; display: inline-flex; align-items: center; gap: 7px; }
-.pcard-top .live::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #7debda; box-shadow: 0 0 10px #7debda; }
+.pcard-top .live::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #7debda; }
 .pcard-title { font-size: 28px; font-weight: 600; letter-spacing: -0.035em; margin: 22px 0 0; }
 .pcard p { color: var(--soft); font-size: 15px; line-height: 1.55; margin: 10px 0 0; flex: 1; }
 .pcard dl { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 22px 0 0; }
