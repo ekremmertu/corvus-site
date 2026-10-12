@@ -21,7 +21,8 @@ function pickWide(staged: CardProject[]): Set<string> {
   const n = staged.length;
   const all = staged.map((_, i) => i).slice(1).reverse();
   // Çizimler (art) tek oranlı: geniş kutuda ancak sığdırılarak (contain) durur → yalnız son çare.
-  const rest = all.filter((i) => staged[i].stage?.kind !== "art");
+  // Afiş de dar karta göre dizildi; geniş adaylar önce web ve telefon sahneleri.
+  const rest = all.filter((i) => staged[i].stage?.kind !== "art" && staged[i].stage?.kind !== "poster");
   const webs = rest.filter((i) => staged[i].stage?.kind === "web");
   const combos = (from: number[], k: number): number[][] =>
     k === 0 ? [[]] : from.flatMap((x, i) => combos(from.slice(i + 1), k - 1).map((c) => [x, ...c]));
@@ -92,8 +93,9 @@ export default function WorkExplorer({ locale, d, cards }: { locale: Locale; d: 
       <div role="tabpanel">
         {staged.length > 0 && (
           <div className="grid-work">
+            {/* Genişlik değişince kart yeniden kurulur (key): React sınıfı yeniden yazınca .is-visible siliniyor ve kart görünmez kalıyordu. */}
             {staged.map((p, i) => (
-              <ProjectCard key={`${p.category}-${p.slug}`} project={p} locale={locale} d={d} mark={i === 0} big={wide.has(p.slug) ? "wide" : undefined} eager={i < 2} />
+              <ProjectCard key={`${p.category}-${p.slug}-${wide.has(p.slug) ? "w" : "n"}`} project={p} locale={locale} d={d} mark={i === 0} big={wide.has(p.slug) ? "wide" : undefined} eager={i < 2} />
             ))}
           </div>
         )}
