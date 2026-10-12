@@ -68,3 +68,9 @@
 - CEO: SplitTable/Manager/Lingoria/Ameliea "tek satan görsel" → afiş sahnesi (satış cümlesi + tek telefon). Sıra TW→Lingoria→ST→STM→BlokBom→Quill.
 - Hata dersi: kart içindeki <p> genel .pcard p kuralını miras aldı → afiş yazısı gri; seçiciyi .pcard altına bağla.
 - Ret: Studio Panel boş durum ekranı (vitrine değmez); sahte UI çizimi (sayfa "konsept render değil" vaadi).
+
+## 12.10.2026 10:14 — BlokBom! + Lingoria tanıtım sayfaları (Lumière + hero pipeline)
+- Karar: TripWalkers yapısı (ortalı dev başlık, hap menü, durak durak özellik, SSS, final) ama her ürün kendi fontu/renginde: BlokBom gece oyun salonu (Bricolage/Figtree, sarı), Lingoria sıcak sınıf (Fraunces/Onest, kil turuncusu, AÇIK tema).
+- İmza: BlokBom kanvas blok yağmuru + dokun-bırak; Lingoria deyim kartı fiziği + fırlat-çevir. İkisi de dekoratif (aria-hidden); Lingoria deyimleri ayrıca erişilebilir düğme kartlarında.
+- Ders: fizik yığını telefona çarpıp kule oldu, yazının üstüne çıktı → telefon engel değil, yığın tavanı + zemin = ilk ekranın altı.
+- Ret: "reklamı sen seçersin" iddiası (mağazada kanıt yok); senaryo sayısı (12/21 çelişkisi).

@@ -1,4 +1,26 @@
-> Son çalışma: 12.10.2026 02:31
+> Son çalışma: 12.10.2026 10:42
+
+## 12.10.2026 10:42 — PASS LOG: hakem 2. tur 18/20 + 18/20 GEÇER
+- ✅ Cila: JS-kapalı ipucu, görsel yedeği, açılışta başlık temiz, metin tekrarları.
+- ⏳ CEO yerel onayı → yayın.
+
+## 12.10.2026 10:32 — PASS LOG: hakem 1. tur bulguları + Lingoria hook'ları
+- ✅ Lingoria A tonu hook'ları (TR/EN) · ✅ BlokBom dürüst satır patlatma (7/10 gerçek patlama/20 sn) · ✅ kaydırma tuzağı kapandı (0→285 px) · ✅ yasak listesi temizlendi.
+- Kanıt: impeccable BlokBom 0 bulgu · WebKit 6/6 · reduced-motion 21/21, 18/18.
+- ⏳ Hakem 2. tur · CEO onayı · yayın.
+
+## 12.10.2026 10:14 — PASS LOG: BlokBom! + Lingoria tanıtım sayfaları (yerel)
+- ✅ Sayfalar kuruldu: /tr|en/work/blokbom, /tr|en/work/lingoria (statik + rewrite + WorkLink). Kaynak scripts/landing-common + scripts/<app>-site, üretici build.py.
+- ✅ Kanıt: build 1172/1172 · tıklama 8/8 · WebKit 6/6 · reduced-motion tam · impeccable gerçek bulgular kapandı.
+- ⏳ Kör hakem · CEO yerel onayı · yayın (CEO onayı olmadan YOK).
+- ❓ CEO: Lingoria kaç senaryo (12 mi 21 mi)? BlokBom'da geçiş reklamı var mı?
+
+## 12.10.2026 09:14 — PASS LOG: /work vitrini canlıya alındı
+- ✅ DONE Heimdall / Market Terminal / LiveCryptoBot sistem çizimleri (iç veri yok) + Dert/Growth/Council çizimleri, TR/EN.
+- ✅ DONE Yazım dili kontrolü (TR/EN kart özetleri, metrikler, dict metinleri).
+- ✅ DONE Kör hakem 17/20 → commit dda308a → `npx vercel --prod --yes` → `git push origin main` (fc160e2..dda308a).
+- Kanıt: canlı 1440/390 × TR/EN: 24 kart, kırık görsel 0, yatay taşma 0; WebKit 4/4 temiz.
+- Sıradaki (CEO kararı): görselsiz 7 kart çizimi · Quill EN 3 ekran · beta oyunlar Yolda'ya.
 
 ## 12.10.2026 02:31 — /work hakem turu
 - [x] Hakem 1 bulguları (bca7ccc)

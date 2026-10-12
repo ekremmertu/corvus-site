@@ -1,0 +1,57 @@
+/* Lingoria — "Sıcak sınıf" (design/landing-blokbom-lingoria.md UI SPEC) */
+:root {
+  --scheme: light;
+  --bg: #FBF1E6; --surface: #F4DFC8; --chip: rgba(28,19,13,.06); --nav-bg: rgba(251,241,230,.78);
+  --fg: #1C130D; --fg-2: #5E4D40; --fg-3: #725E4D; --line: rgba(28,19,13,.12);
+  --accent: #A8352B; --accent-hover: #8E2A21; --on-accent: #FFFFFF; --accent-text: #A8352B; --accent-glow: rgba(242,166,90,.45);
+  --ring: #1C130D; --phone-shadow: rgba(120,60,20,.28);
+  --f-display: "Fraunces", Georgia, serif; --f-body: "Onest", system-ui, sans-serif;
+  --fs-hero: clamp(3rem, 8vw, 7.2rem); --fs-h2: clamp(2.3rem, 5.2vw, 4.6rem); --fs-lead: clamp(1.05rem, 1.35vw, 1.25rem);
+  --track-hero: -0.035em; --track-h2: -0.03em; --w-hero: 600; --w-h2: 600; --w-h3: 600; --w-mid: 600;
+  --gutter: clamp(16px, 4vw, 56px); --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hl { font-style: italic; font-weight: 500; }
+.hero { background: radial-gradient(60% 50% at 50% 0%, #F7D2B0, transparent 70%), radial-gradient(50% 45% at 50% 100%, rgba(242,166,90,.35), transparent 70%), var(--bg); }
+.hero .copy { z-index: 3; }
+.hero .stage { z-index: 1; }
+.hero-fx { z-index: 2; overflow: hidden; touch-action: pan-y; }
+.toy-hint { margin-top: 10px; display: inline-flex; gap: 8px; align-items: center; font-size: .82rem; font-weight: 600; color: var(--accent-text); }
+.toy-hint::before { content: ""; width: 18px; height: 12px; border-radius: 4px; background: #1C130D; transform: rotate(-8deg); }
+@media (prefers-reduced-motion: reduce) { .toy-hint { display: none; } }
+
+/* hero oyuncağı: düşen deyim kartı */
+.ic {
+  position: absolute; left: 0; top: 0; padding: 12px 18px 13px; border-radius: 16px; white-space: nowrap;
+  background: #1C130D; color: #FBF1E6; font-family: var(--f-display); font-style: italic; font-weight: 500;
+  font-size: clamp(1rem, 1.35vw, 1.3rem); line-height: 1.2; box-shadow: 0 14px 30px rgba(60,30,10,.22);
+  /* pan-y: telefonda kartın üstünden de sayfa kaydırılır (hakem: kaydırma tuzağı); yatay çekiş fırlatır */
+  cursor: grab; user-select: none; -webkit-user-select: none; touch-action: pan-y; will-change: transform;
+}
+.ic.alt { background: #A8352B; color: #fff; }
+.ic.cream { background: #FFF8F0; color: #1C130D; box-shadow: 0 14px 30px rgba(60,30,10,.16), inset 0 0 0 1px rgba(28,19,13,.1); }
+.ic.held { cursor: grabbing; box-shadow: 0 24px 50px rgba(60,30,10,.3); }
+.ic .m { display: none; font-family: var(--f-body); font-style: normal; font-weight: 600; font-size: .78em; }
+.ic.flip .e { display: none; }
+.ic.flip .m { display: inline; }
+
+/* #idioms — erişilebilir çevrilen kartlar */
+.idioms .sub { margin-top: 18px; }
+.icards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 44px; perspective: 1200px; }
+.icard { position: relative; min-height: 132px; border-radius: 20px; text-align: left; transform-style: preserve-3d; transition: transform .6s var(--ease); }
+.icard .f, .icard .b { position: absolute; inset: 0; padding: 20px; border-radius: 20px; backface-visibility: hidden; -webkit-backface-visibility: hidden; display: flex; flex-direction: column; justify-content: space-between; }
+.icard .f { background: #1C130D; color: #FBF1E6; }
+.icard .f i { font-family: var(--f-display); font-size: 1.35rem; line-height: 1.15; }
+.icard .f small { font-size: .78rem; color: rgba(251,241,230,.62); }
+.icard .b { background: #A8352B; color: #fff; transform: rotateY(180deg); font-weight: 600; font-size: 1.05rem; justify-content: center; }
+.icard[aria-pressed="true"] { transform: rotateY(180deg); }
+.icard:nth-child(3n+2) .f { background: #FFF8F0; color: #1C130D; box-shadow: inset 0 0 0 1px rgba(28,19,13,.12); }
+.icard:nth-child(3n+2) .f small { color: var(--fg-3); }
+@media (max-width: 960px) { .icards { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 420px) { .icard .f i { font-size: 1.2rem; } }
+
+.strip-track span::after { border-radius: 50%; }
+.tool { background: #FFF8F0; }
+.numbers strong { font-style: italic; font-weight: 500; }
+@media (prefers-reduced-motion: reduce) { .icard { transition: none; } }
+.hero-fx { pointer-events: none; }
+.ic { pointer-events: auto; }

@@ -3,7 +3,11 @@ import type { ComponentProps } from "react";
 
 // Kendi menüsü ve hareket dili olan bağımsız statik sayfalar (next.config.ts rewrites ile aynı liste).
 // Next istemci geçişi bunları RSC olarak çekmeye çalışıp 404 gösterir → düz <a> ile tam sayfa yüklenir.
-const STANDALONE = new Set(["/en/work/tripwalkers", "/tr/work/tripwalkers"]);
+const STANDALONE = new Set([
+  "/en/work/tripwalkers", "/tr/work/tripwalkers",
+  "/en/work/blokbom", "/tr/work/blokbom",
+  "/en/work/lingoria", "/tr/work/lingoria",
+]);
 
 type Props = ComponentProps<typeof Link> & { href: string };
 
