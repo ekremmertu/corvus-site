@@ -1,0 +1,46 @@
+/* BlokBom! — "Gece oyun salonu" (design/landing-blokbom-lingoria.md UI SPEC) */
+:root {
+  --scheme: dark;
+  --bg: #0E0A1F; --surface: #18122F; --chip: rgba(246,242,255,.07); --nav-bg: rgba(24,18,47,.74);
+  --fg: #F6F2FF; --fg-2: #B9AED6; --fg-3: #8E83AE; --line: rgba(246,242,255,.10);
+  --accent: #FFD23F; --accent-hover: #FFDD6B; --on-accent: #0E0A1F; --accent-text: #FFD23F; --accent-glow: rgba(255,210,63,.32);
+  --ring: #FFD23F; --phone-shadow: rgba(0,0,0,.6);
+  --f-display: "Bricolage Grotesque", system-ui, sans-serif; --f-body: "Figtree", system-ui, sans-serif;
+  --fs-hero: clamp(3rem, 8.4vw, 7.6rem); --fs-h2: clamp(2.3rem, 5.4vw, 4.8rem); --fs-lead: clamp(1.05rem, 1.35vw, 1.25rem);
+  --track-hero: -0.045em; --track-h2: -0.04em; --w-hero: 800; --w-h2: 800; --w-h3: 800; --w-mid: 700;
+  --gutter: clamp(16px, 4vw, 56px); --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+/* ışık spot değil: zeminden yükselen düz bir mor (oyun tahtasının gece ışığı) */
+.hero { background: linear-gradient(to top, #241A4A 0, #160F30 38%, var(--bg) 70%); }
+/* yazı bölgesinde (üst %54) bloklar %10'a soluklaşır → yazı her an okunur (hakem: anlık 1,2:1) */
+.hero-fx {
+  width: 100%; height: 100%; cursor: crosshair;
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,.1) 0, rgba(0,0,0,.1) 54%, #000 68%);
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,.1) 0, rgba(0,0,0,.1) 54%, #000 68%);
+}
+.hero h1 { text-shadow: 0 2px 30px rgba(14,10,31,.7); }
+.hero .lead, .hero .trust { text-shadow: 0 1px 16px rgba(14,10,31,.9); }
+.hero .lead { color: #D3CAEE; }
+.hud {
+  position: absolute; z-index: 2; right: var(--gutter); top: calc(108px + env(safe-area-inset-top, 0px));
+  display: flex; flex-direction: column; align-items: flex-end; font-family: var(--f-display); pointer-events: none;
+}
+.hud small { font-size: .72rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--fg-3); }
+.hud b { font-size: clamp(1.6rem, 2.6vw, 2.4rem); font-weight: 800; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+.hud b.pop { animation: pop .42s var(--ease); }
+@keyframes pop { 40% { transform: scale(1.25); color: var(--accent); } }
+.tap-hint { margin-top: 14px; font-size: .8rem; color: var(--fg-3); }
+@media (max-width: 760px) {
+  .hud { top: calc(80px + env(safe-area-inset-top, 0px)); right: 16px; flex-direction: row; align-items: baseline; gap: 6px; }
+  .hud b { font-size: 1rem; }
+  .hero { padding-top: calc(124px + env(safe-area-inset-top, 0px)); }
+  /* telefonda maket küçük: dokunulan sütunlara yer kalsın */
+  .hero .stage .phone { width: 150px; margin-bottom: -40%; }
+}
+.strip-track span::after { background: linear-gradient(135deg, #A78BFA, #F472B6); }
+.stop li::before, .strip-track span::after { box-shadow: inset 0 1px 0 rgba(255,255,255,.35); }
+.tool { background: linear-gradient(180deg, #1C1538, #150F2B); }
+@media (prefers-reduced-motion: reduce) { .hero-fx { cursor: default; } .tap-hint, .hud { display: none; } }
+.strip-track { font-family: var(--f-body); }
+.hud small { font-weight: 700; }
+
