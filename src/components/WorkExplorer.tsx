@@ -59,6 +59,8 @@ export default function WorkExplorer({ locale, d, cards }: { locale: Locale; d: 
   const [openPlain, setOpenPlain] = useState(false);
   useEffect(() => {
     const raw = new URLSearchParams(window.location.search).get("d");
+    // Bilerek effect içinde: adres yalnız tarayıcıda okunur; ilk çizim sunucuyla aynı ("Tümü") kalmalı.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (raw && categories.some((c) => c.slug === raw)) setFilter(raw as CategorySlug);
   }, []);
 
