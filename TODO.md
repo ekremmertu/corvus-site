@@ -1,4 +1,7 @@
-> Son çalışma: 12.10.2026 10:42
+> Son çalışma: 12.10.2026 11:02
+
+## 12.10.2026 11:02 — PASS LOG: BlokBom! + Lingoria canlıda
+- ✅ DONE commit 58eadcb → vercel prod → push (f9e9cd8..58eadcb). Canlı 8/8 tıklama, kırık 0, taşma 0.
 
 ## 12.10.2026 10:42 — PASS LOG: hakem 2. tur 18/20 + 18/20 GEÇER
 - ✅ Cila: JS-kapalı ipucu, görsel yedeği, açılışta başlık temiz, metin tekrarları.
