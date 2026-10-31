@@ -47,3 +47,8 @@ brand-src/*.png
 brand-src/ascii_frames/
 # Kartvizit PNG/PDF (telefon numarası içerir — repoya girmez)
 brand-src/Kartvizit/
+
+# internal working notes (kept local, never published)
+.claude-state.md
+TODO.md
+DESIGN_LOG.md
