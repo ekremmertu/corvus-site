@@ -35,6 +35,9 @@ const nextConfig: NextConfig = {
         // Opsiyon Ustası: kişisel eğitim uygulaması. Menüde/sitemap'te yok, noindex; yalnız adresi bilen açar.
         { source: "/tr/opsiyon", destination: "/opsiyon-site/index.html" },
         { source: "/en/opsiyon", destination: "/opsiyon-site/index.html" },
+        // ICT Ustası: tek dosyalık bağımsız uygulama (kaynak: ICT Ustalık Yolu/web, içerik Türkçe).
+        { source: "/en/ict-ustasi", destination: "/ict-ustasi-site/index.html" },
+        { source: "/tr/ict-ustasi", destination: "/ict-ustasi-site/index.html" },
       ],
     };
   },
