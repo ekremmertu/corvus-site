@@ -32,6 +32,9 @@ const nextConfig: NextConfig = {
         { source: "/tr/work/blokbom", destination: "/blokbom-site/index-tr.html" },
         { source: "/en/work/lingoria", destination: "/lingoria-site/index.html" },
         { source: "/tr/work/lingoria", destination: "/lingoria-site/index-tr.html" },
+        // Opsiyon Ustası: kişisel eğitim uygulaması. Menüde/sitemap'te yok, noindex; yalnız adresi bilen açar.
+        { source: "/tr/opsiyon", destination: "/opsiyon-site/index.html" },
+        { source: "/en/opsiyon", destination: "/opsiyon-site/index.html" },
       ],
     };
   },
