@@ -32,6 +32,9 @@ const nextConfig: NextConfig = {
         { source: "/tr/work/blokbom", destination: "/blokbom-site/index-tr.html" },
         { source: "/en/work/lingoria", destination: "/lingoria-site/index.html" },
         { source: "/tr/work/lingoria", destination: "/lingoria-site/index-tr.html" },
+        // ICT Ustası: tek dosyalık bağımsız uygulama (kaynak: ICT Ustalık Yolu/web, içerik Türkçe).
+        { source: "/en/ict-ustasi", destination: "/ict-ustasi-site/index.html" },
+        { source: "/tr/ict-ustasi", destination: "/ict-ustasi-site/index.html" },
       ],
     };
   },
