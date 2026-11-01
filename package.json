@@ -9,7 +9,8 @@
     "lint": "eslint",
     "gezi:data": "python3 scripts/build-gezi-data.py && python3 scripts/build-liste-data.py",
     "gezi:check": "node scripts/check-gezi.mjs",
-    "gezi:layout": "node scripts/layout-check.cjs /tripwalkers/planlar /tripwalkers/planlar/istanbul-yaz /tripwalkers/plans /tripwalkers/plans/istanbul-summer /tripwalkers/plans/lists/worlds-50-best-bars /tripwalkers/plans/places/machu-picchu-cusco-region"
+    "gezi:layout": "node scripts/layout-check.cjs /tripwalkers/planlar /tripwalkers/planlar/istanbul-yaz /tripwalkers/plans /tripwalkers/plans/istanbul-summer /tripwalkers/plans/lists/worlds-50-best-bars /tripwalkers/plans/places/machu-picchu-cusco-region",
+    "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^16.3.2",
