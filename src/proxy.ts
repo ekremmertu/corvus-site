@@ -35,6 +35,8 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(url);
   }
   if (pathname.startsWith("/tripwalkers/")) return NextResponse.next();
+  // Bülten Web: dil öneki yok, next.config rewrite'ı sunucuya iletir
+  if (pathname === "/bultenv2" || pathname.startsWith("/bultenv2/")) return NextResponse.next();
 
   const locale = pickLocale(request);
   const url = request.nextUrl.clone();

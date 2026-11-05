@@ -38,11 +38,21 @@ const nextConfig: NextConfig = {
         // ICT Ustası: tek dosyalık bağımsız uygulama (kaynak: ICT Ustalık Yolu/web, içerik Türkçe).
         { source: "/en/ict-ustasi", destination: "/ict-ustasi-site/index.html" },
         { source: "/tr/ict-ustasi", destination: "/ict-ustasi-site/index.html" },
+        // Bülten Web (CEO 05.11.2026): Natro sunucusuna vekil. Menüde yok; dış kapı (Caddy) yalnız okuma, POST 403.
+        { source: "/bultenv2", destination: "https://bulten.corvus-tech.co/app/" },
+        { source: "/bultenv2/api/:path*", destination: "https://bulten.corvus-tech.co/api/:path*" },
+        { source: "/bultenv2/panel/:path*", destination: "https://bulten.corvus-tech.co/panel/:path*" },
+        { source: "/bultenv2/heimdall-static/:path*", destination: "https://bulten.corvus-tech.co/heimdall-static/:path*" },
+        { source: "/bultenv2/:path*", destination: "https://bulten.corvus-tech.co/app/:path*" },
       ],
     };
   },
   async headers() {
-    return [{ source: "/:path*", headers: securityHeaders }];
+    return [
+      { source: "/:path*", headers: securityHeaders },
+      // Bülten'in Plan ekranı raporu aynı sitede iframe'de açar → yalnız bu yolda DENY yerine SAMEORIGIN
+      { source: "/bultenv2/:path*", headers: [{ key: "X-Frame-Options", value: "SAMEORIGIN" }] },
+    ];
   },
 };
 
