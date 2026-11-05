@@ -22,6 +22,13 @@ function pickLocale(request: NextRequest) {
 
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  // Bülten Web: /tr/bultenv2, /en/bultenv2, /BultenV2 gibi yazımlar doğru adrese (eski yönlendirme tarayıcıda kalmış olabilir)
+  const bulten = pathname.match(/^(?:\/(?:tr|en))?\/bultenv2(\/.*)?$/i);
+  if (bulten && pathname !== "/bultenv2" && !pathname.startsWith("/bultenv2/")) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/bultenv2" + (bulten[1] ?? "");
+    return NextResponse.redirect(url);
+  }
 
   const hasLocale = LOCALES.some(
     (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`)
